@@ -171,7 +171,9 @@ create table if not exists public.exam_reports (
   user_id uuid references auth.users(id) on delete set null,
   why text not null check (why in ('wrong_key','wrong_explain','typo','ambiguous','too_hard','other')),
   note text check (char_length(note) <= 500),
-  created_at timestamptz not null default now()
+  created_at timestamptz not null default now(),
+  resolved_at timestamptz,                     -- เจ้าของปิดเรื่องแล้วเมื่อไร (owner panel)
+  resolution text
 );
 alter table public.exam_reports enable row level security;
 drop policy if exists "exam_reports insert" on public.exam_reports;

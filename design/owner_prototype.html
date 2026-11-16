@@ -1,0 +1,137 @@
+<title>CEFR for Kru แผงเจ้าของ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* layout: a single phone-width column (max 440px); one screen visible at a time, picked from a screen index at the top */
+:root{
+  --paper:#F5F7F8; --card:#FFFFFF; --ink:#12233F; --ink2:#51607A; --line:#D7DEE6;
+  --accent:#0B6B5B; --accent-ink:#FFFFFF; --accent-soft:#DDEFEA;
+  --ok:#17794A; --ok-soft:#E1F3E8; --bad:#B3372F; --bad-soft:#FBE6E3; --warn:#8A5A00; --warn-soft:#FFF1D2;
+  --ui:"IBM Plex Sans Thai","Noto Sans Thai",system-ui,sans-serif;
+  --en:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+  --fs:17px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#0E1622; --card:#172233; --ink:#E9EEF5; --ink2:#A3B1C6; --line:#2B3A50;
+  --accent:#4FC3A9; --accent-ink:#06261F; --accent-soft:#143A34;
+  --ok:#6FD39B; --ok-soft:#143524; --bad:#FF9288; --bad-soft:#40201D; --warn:#F2C56B; --warn-soft:#3A2E12; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --paper:#0E1622; --card:#172233; --ink:#E9EEF5; --ink2:#A3B1C6; --line:#2B3A50;
+  --accent:#4FC3A9; --accent-ink:#06261F; --accent-soft:#143A34;
+  --ok:#6FD39B; --ok-soft:#143524; --bad:#FF9288; --bad-soft:#40201D; --warn:#F2C56B; --warn-soft:#3A2E12; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--ui);font-size:var(--fs);line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 40px}
+.wrap{max-width:440px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+h1,h2,h3,p{margin:0}
+h1{font-size:1.55rem;line-height:1.3;font-weight:700;text-wrap:balance}
+h2{font-size:1.15rem;line-height:1.35;font-weight:600}
+.small{font-size:.85rem;color:var(--ink2)}
+.en{font-family:var(--en);font-size:1.08rem;line-height:1.55}
+.note{background:var(--warn-soft);color:var(--warn);border-radius:10px;padding:10px 12px;font-size:.82rem;line-height:1.5}
+/* prototype chrome */
+.idx{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.idx button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink2);border-radius:999px;padding:6px 12px;font:inherit;font-size:.8rem;cursor:pointer}
+.idx button[aria-current="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+/* app */
+.screen{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;border-radius:12px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);font:inherit;font-weight:600;font-size:1.02rem;cursor:pointer;padding:10px 16px;text-align:center;width:100%}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.quiet{background:transparent;border-color:var(--line);color:var(--ink);font-weight:500}
+.btn:focus-visible,.opt:focus-visible,.idx button:focus-visible,.chip:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.row>.grow{flex:1;min-width:0}
+.tag{display:inline-block;align-self:flex-start;font-size:.75rem;font-weight:600;letter-spacing:.02em;padding:2px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
+.topbar{display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:700;letter-spacing:.02em}
+.list{display:flex;flex-direction:column;gap:8px;padding:0;margin:0;list-style:none}
+.list li{display:flex;gap:10px;align-items:flex-start}
+.tick{flex:none;width:22px;height:22px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:.8rem;font-weight:700;margin-top:3px}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.steps i{height:6px;border-radius:3px;background:var(--line)}
+.steps i.on{background:var(--accent)}
+.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;min-height:52px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--en);font-size:1.05rem;cursor:pointer}
+.opt b{font-family:var(--ui);font-weight:600;color:var(--ink2);flex:none;width:26px;height:26px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-size:.85rem;font-variant-numeric:tabular-nums}
+.opt.ok{border-color:var(--ok);background:var(--ok-soft)}
+.opt.bad{border-color:var(--bad);background:var(--bad-soft)}
+.why{font-family:var(--ui);font-size:.86rem;color:var(--ink2);margin-top:4px;line-height:1.5}
+.mark{font-family:var(--ui);font-size:.8rem;font-weight:700}
+.ok .mark{color:var(--ok)} .bad .mark{color:var(--bad)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.week div{border:1px solid var(--line);border-radius:10px;text-align:center;padding:6px 0;font-size:.75rem;color:var(--ink2);display:flex;flex-direction:column;gap:2px;align-items:center}
+.week div.done{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+.week div.today{border-color:var(--ink);color:var(--ink);font-weight:600}
+.bar{position:relative;height:12px;border-radius:6px;background:var(--line);overflow:visible}
+.bar>span{display:block;height:100%;border-radius:6px;background:var(--accent)}
+.bar>em{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.skill{display:grid;grid-template-columns:84px 1fr 86px;gap:10px;align-items:center;font-size:.86rem}
+.skill small{text-align:right;font-size:.76rem;font-weight:600}
+.s-ok{color:var(--ok)} .s-near{color:var(--warn)} .s-far{color:var(--ink2)}
+.nav{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}
+.nav span{padding:10px 0;text-align:center;font-size:.8rem;color:var(--ink2)}
+.nav span.on{color:var(--accent);font-weight:700;box-shadow:inset 0 3px 0 var(--accent)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 12px;font:inherit;font-size:.9rem;cursor:pointer;min-height:44px}
+.chip.on{border-color:var(--accent);background:var(--accent-soft);color:var(--accent);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;font-variant-numeric:tabular-nums}
+th{font-weight:600;color:var(--ink2);font-size:.78rem}
+.price{font-size:2rem;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.was{text-decoration:line-through;color:var(--ink2);font-size:1rem;font-weight:400}
+.rule{border-left:3px solid var(--accent);padding-left:12px}
+.ex{display:flex;flex-direction:column;gap:2px;padding:8px 0;border-bottom:1px solid var(--line)}
+.ex:last-child{border-bottom:0}
+u.k{text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:3px}
+.link{background:none;border:0;color:var(--ink2);font:inherit;font-size:.82rem;text-decoration:underline;cursor:pointer;padding:6px 0;align-self:flex-start}
+@media (prefers-reduced-motion:no-preference){.screen{animation:in .18s ease-out}@keyframes in{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}}
+.kpi{display:grid;grid-template-columns:1fr 1fr;gap:10px}.kpi div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;min-width:0}
+.kpi b{display:block;font-size:1.45rem;line-height:1.2;font-variant-numeric:tabular-nums}.kpi span{font-size:.8rem;color:var(--ink2)}
+.rowi{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.rowi:last-child{border-bottom:0}.rowi>div{min-width:0}
+.pill{font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}.p-ok{background:var(--ok-soft);color:var(--ok)}.p-wait{background:var(--warn-soft);color:var(--warn)}.p-bad{background:var(--bad-soft);color:var(--bad)}
+.field{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--ink2)}.field input{font:inherit;font-size:1rem;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:46px;width:100%}
+.btn.sm{min-height:44px;font-size:.92rem;width:auto;flex:1}.btn.danger{background:transparent;border-color:var(--bad);color:var(--bad)}
+.sw{display:inline-flex;align-items:center;gap:8px;font-size:.85rem}.sw i{width:40px;height:24px;border-radius:12px;background:var(--line);position:relative;display:inline-block}.sw i::after{content:"";position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:var(--card)}.sw.on i{background:var(--accent)}.sw.on i::after{left:19px}
+</style>
+<div class="wrap">
+  <div class="note">ต้นแบบแผงควบคุมของเจ้าของ ยังไม่ใช่ของจริง · ตัวเลขและชื่อทั้งหมดเป็นตัวอย่างสมมติ · เข้าได้เฉพาะอีเมลเจ้าของ 2 บัญชีที่ล็อกอินด้วย Google</div>
+  <div class="idx" id="idx" role="tablist" aria-label="รายการจอ"></div>
+  <div id="app"></div>
+</div>
+<script>
+function hdr(t){return '<div class="topbar"><span class="brand">CEFR for Kru · เจ้าของ</span><span class="small">'+t+'</span></div>'}
+function kpi(v,l){return '<div><b>'+v+'</b><span>'+l+'</span></div>'}
+function rowi(a,b,c,cls){return '<div class="rowi"><div><div>'+a+'</div><div class="small">'+b+'</div></div><span class="pill '+cls+'">'+c+'</span></div>'}
+function field(l,v,id){return '<label class="field">'+l+'<input id="'+id+'" value="'+v+'"></label>'}
+function sw(l,on){return '<span class="sw'+(on?' on':'')+'"><i></i>'+l+'</span>'}
+var S=[
+ ["ภาพรวม",function(){return hdr('วันนี้')+'<h1>ภาพรวม</h1>'+
+  '<div class="kpi">'+kpi('1,160 บาท','รายได้วันนี้ (4 รายการ)')+kpi('7,830 บาท','รายได้ 7 วัน')+kpi('31,900 บาท','รายได้ 30 วัน')+kpi('86 คน','ผู้เรียนที่เรียนใน 7 วัน')+'</div>'+
+  '<div class="card"><h2>เส้นทางสู่การจ่าย 30 วัน</h2><table><tr><th>ขั้น</th><th>จำนวน</th><th>ต่อจากขั้นก่อน</th></tr><tr><td>ทำแบบวัดระดับจบ</td><td>1,240</td><td>–</td></tr><tr><td>เริ่มคอร์ส (ล็อกอิน)</td><td>212</td><td>17%</td></tr><tr><td>จ่ายเงิน</td><td>104</td><td>49%</td></tr></table></div>'+
+  '<div class="card"><h2>ต้องดูวันนี้</h2>'+rowi('คำสั่งซื้อค้างจ่าย 3 รายการ','เกิน 1 ชั่วโมงแล้วยังไม่จ่าย','ตรวจ','p-wait')+rowi('รายงานข้อผิด 5 เรื่อง','ยังไม่ได้ปิด','เปิดดู','p-bad')+rowi('ขอคืนเงินได้ 2 รายการ','อยู่ในเงื่อนไข 7 วัน ไม่เกิน 3 เซสชัน','ดู','p-wait')+rowi('เนื้อหารอตรวจ 42 ข้อ','คอร์ส B1 สัปดาห์ 1','ตรวจ','p-wait')+'</div>'+
+  '<div class="card"><h2>ขายได้ตามคอร์ส 30 วัน</h2><table><tr><th>สินค้า</th><th>รายการ</th></tr><tr><td>เป้าหมาย B1</td><td>61</td></tr><tr><td>เป้าหมาย B2</td><td>19</td></tr><tr><td>ทุกคอร์ส 12 เดือน</td><td>17</td></tr><tr><td>อื่น ๆ</td><td>7</td></tr></table></div>'}],
+ ["คำสั่งซื้อและสิทธิ์",function(){return hdr('ค้นด้วยอีเมล')+'<h1>คำสั่งซื้อและสิทธิ์</h1>'+field('อีเมลผู้เรียน','kru.example@gmail.com','q')+
+  '<div class="card"><h2>สิทธิ์ที่มี</h2>'+rowi('เป้าหมาย B1','หมดอายุ 14 พ.ค. 2570 · จากคำสั่งซื้อ','ใช้งานอยู่','p-ok')+'<div class="row"><button class="btn sm ghost">ต่อเวลา 30 วัน</button><button class="btn sm danger">เพิกถอน</button></div></div>'+
+  '<div class="card"><h2>คำสั่งซื้อ</h2>'+rowi('เป้าหมาย B1 · 290 บาท','16 พ.ย. 2569 14:02 · เรียนแล้ว 2 เซสชัน','จ่ายแล้ว','p-ok')+'<p class="small">ยังอยู่ในเงื่อนไขคืนเงิน (เหลือ 5 วัน) · โอนคืนเองทางพร้อมเพย์ก่อน แล้วจึงกดบันทึก</p><button class="btn sm danger">บันทึกว่าคืนเงินแล้ว และเพิกถอนสิทธิ์</button>'+rowi('ทุกคอร์ส 12 เดือน · 690 บาท','16 พ.ย. 2569 13:40','ค้างจ่าย','p-wait')+'<button class="btn sm quiet">ถาม Beam ว่าจ่ายแล้วหรือยัง</button></div>'+
+  '<div class="card"><h2>ให้สิทธิ์ฟรี</h2><p class="small">สำหรับทีมงาน ผู้ทดสอบ หรือชดเชยผู้เรียน ทุกครั้งถูกบันทึกในประวัติ</p><div class="chips"><button class="chip on">เป้าหมาย B1</button><button class="chip">ทุกคอร์ส</button></div>'+field('จำนวนวัน','30','d')+'<button class="btn sm">ให้สิทธิ์</button></div>'}],
+ ["เนื้อหา",function(){return hdr('B1 · สัปดาห์ 1')+'<h1>เนื้อหา</h1><div class="chips"><button class="chip on">รอตรวจ 42</button><button class="chip">อนุมัติแล้ว 0</button><button class="chip">ถอดออก 0</button></div>'+
+  '<div class="card"><div class="row"><h2 class="grow">cefr-b1-w01-005</h2><span class="pill p-wait">ร่าง</span></div><p class="en">Our school ____ a new library this term, so the old one is closed.</p><p class="small">ข้อถูก: is building · ผู้เรียนตอบถูกครั้งแรก 58% จาก 73 คน · ตัวหลอกที่ถูกเลือกมากสุด: builds 27%</p><div class="row"><button class="btn sm">อนุมัติ</button><button class="btn sm quiet">ส่งกลับแก้</button><button class="btn sm danger">ถอดออก</button></div></div>'+
+  '<div class="card"><h2>รายงานจากผู้เรียน</h2>'+rowi('cefr-b1-w01-018 · คำอธิบายไม่ชัด','"staff กับ staffs ต่างกันอย่างไร อธิบายสั้นไป" · 2 ชม. ที่แล้ว','ยังไม่ปิด','p-bad')+rowi('cefr-b1-w01-031 · ยากเกินระดับ','ไม่มีข้อความ · เมื่อวาน','ยังไม่ปิด','p-bad')+'<button class="btn sm quiet">ปิดเรื่องที่เลือก</button></div>'+
+  '<div class="card"><h2>เปิดใช้ทั้งสัปดาห์</h2><p class="small">ผู้เรียนเห็นเฉพาะสัปดาห์และข้อที่อนุมัติแล้ว สัปดาห์ที่มีข้อยังไม่อนุมัติจะเปิดไม่ได้</p><button class="btn sm ghost">อนุมัติทั้ง 42 ข้อของสัปดาห์นี้</button></div>'}],
+ ["ราคาและการตั้งค่า",function(){return hdr('มีผลกับคำสั่งซื้อใหม่')+'<h1>ราคาและการตั้งค่า</h1>'+
+  '<div class="card"><h2>ราคา (บาท)</h2><table><tr><th>สินค้า</th><th>ปกติ</th><th>เปิดตัว</th><th>ขาย</th></tr><tr><td>1 คอร์ส 6 เดือน</td><td>490</td><td>290</td><td>'+sw('',1)+'</td></tr><tr><td>ทุกคอร์ส 12 เดือน</td><td>990</td><td>690</td><td>'+sw('',1)+'</td></tr><tr><td>ต่อเวลา 3 เดือน</td><td>150</td><td>–</td><td>'+sw('',1)+'</td></tr><tr><td>คอร์ส C2</td><td>490</td><td>290</td><td>'+sw('',0)+'</td></tr></table><p class="small">ระบบรับราคา 20–5,000 บาท และราคาเปิดตัวต้องไม่เกินราคาปกติ เพื่อกันพิมพ์ผิดหลัก คำสั่งซื้อที่สร้างไปแล้วใช้ราคาเดิม</p><button class="btn sm quiet">แก้ราคา</button></div>'+
+  '<div class="card"><h2>ราคาเปิดตัว</h2>'+field('ใช้ถึงวันที่ (เว้นว่าง = ยังไม่กำหนด)','','lu')+'<p class="small">เมื่อกำหนดวันแล้ว หน้าขายจะแสดงวันสิ้นสุดจริง</p></div>'+
+  '<div class="card"><h2>ป้ายประกาศบนเว็บ</h2>'+field('ข้อความ (ไม่เกิน 200 ตัวอักษร)','','bn')+field('แสดงถึงวันที่','','bu')+'</div>'+
+  '<div class="card"><h2>ปิดปรับปรุง</h2><p class="small">หยุดขายทุกสินค้าและแสดงป้ายแจ้ง ผู้เรียนที่มีสิทธิ์ยังเรียนได้ตามปกติ</p>'+sw('ปิดปรับปรุง',0)+'</div>'}],
+ ["ผู้เรียนและประวัติ",function(){return hdr('ดูเท่าที่จำเป็น')+'<h1>ผู้เรียน</h1>'+field('อีเมลผู้เรียน','kru.example@gmail.com','q2')+
+  '<div class="card"><h2>ความคืบหน้า</h2><p>คอร์สเป้าหมาย B1 · สัปดาห์ 4 วันที่ 3 · จังหวะ 20 นาที</p><p class="small">เซสชันเต็ม 21 · ชุดวัดผล 1 ครั้ง (22/40) · เรียนล่าสุดเมื่อวาน</p></div>'+
+  '<div class="card"><h2>ลบข้อมูลการเรียนตามคำขอ</h2><p class="small">ลบคำตอบ ความคืบหน้า และผลวัดผลทั้งหมดของผู้เรียนคนนี้ กู้คืนไม่ได้ คำสั่งซื้อยังเก็บไว้ตามหน้าที่ทางบัญชี</p>'+field('พิมพ์อีเมลผู้เรียนอีกครั้งเพื่อยืนยัน','','cf')+'<button class="btn sm danger">ลบข้อมูลการเรียน</button></div>'+
+  '<h1>ประวัติการกระทำ</h1><div class="card">'+rowi('ให้สิทธิ์ฟรี เป้าหมาย B1 30 วัน','เจ้าของ (บัญชีที่ 1) · วันนี้ 10:12 · kru.test@example.com','บันทึกแล้ว','p-ok')+rowi('แก้ราคา ทุกคอร์ส 990 → 890','เจ้าของ (บัญชีที่ 2) · เมื่อวาน 21:40','บันทึกแล้ว','p-ok')+rowi('อนุมัติเนื้อหา 42 ข้อ','เจ้าของ (บัญชีที่ 1) · 14 พ.ย.','บันทึกแล้ว','p-ok')+'</div>'}]
+];
+var idx=document.getElementById('idx'),app=document.getElementById('app');
+function show(i){app.innerHTML='<div class="screen">'+S[i][1]()+'</div>';idx.innerHTML=S.map(function(s,j){return '<button role="tab" data-go="'+j+'" aria-current="'+(j==i)+'">'+(j+1)+' '+s[0]+'</button>'}).join('')}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-go]');if(b){show(+b.getAttribute('data-go'));window.scrollTo(0,0);return}
+ var c=e.target.closest('.chip');if(c){var p=c.parentNode.querySelectorAll('.chip');for(var k=0;k<p.length;k++)p[k].classList.remove('on');c.classList.add('on')}
+ var s=e.target.closest('.sw');if(s)s.classList.toggle('on')});
+show(0);
+</script>

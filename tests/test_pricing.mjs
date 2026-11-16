@@ -24,4 +24,15 @@ eq([P.refundEligible(order, 3, now), P.refundEligible(order, 4, now), P.refundEl
 const g = P.applyGuarantee({ product: 'cefr-b1', expires_at: now + 10 * D, guarantee_at: null }, now);
 eq([g.expires_at, g.guarantee_at], [now + 100 * D, now], 'ข้อรับรองต่อเวลา 90 วัน');
 eq(P.applyGuarantee(g, now), null, 'ข้อรับรองใช้ได้ครั้งเดียว');
+// การตั้งค่าของเจ้าของ
+const cat = P.catalog({ prices: { 'cefr-b1': { baht: 590, launch: 390 } }, launch_until: '2026-11-30', on_sale: { 'cefr-c2': false } });
+eq([P.quote('cefr-b1', now, cat.rules, cat.products).amount, P.quote('cefr-b2', now, cat.rules, cat.products).amount], [590, 490], 'ราคาที่เจ้าของตั้งมีผลเฉพาะสินค้านั้น และวันสิ้นสุดเปิดตัวมีผล');
+eq([cat.onSale('cefr-b1'), cat.onSale('cefr-c2'), cat.onSale('zz')], [true, false, false], 'ปิดขายรายสินค้า');
+eq(P.catalog({ maintenance: true }).onSale('cefr-b1'), false, 'โหมดปิดปรับปรุงหยุดขายทุกสินค้า');
+eq(P.catalog().products['cefr-b1'].baht, 490, 'ไม่มีการตั้งค่า ใช้ค่าในโค้ด');
+eq([P.validSetting('prices', { 'cefr-b1': { baht: 590, launch: 390 } }).ok, P.validSetting('prices', { 'cefr-b1': { baht: 59000, launch: 390 } }).error, P.validSetting('prices', { 'cefr-b1': { baht: 300, launch: 390 } }).error, P.validSetting('prices', { 'x': { baht: 300, launch: 200 } }).error], [true, 'bad_price', 'bad_price', 'bad_product'], 'ตรวจราคา: ช่วง 20–5000 และราคาเปิดตัวไม่เกินราคาปกติ');
+eq([P.validSetting('launch_until', '2027-01-31').ok, P.validSetting('launch_until', null).ok, P.validSetting('launch_until', 'tomorrow').ok, P.validSetting('secret', 1).error], [true, true, false, 'bad_key'], 'ตรวจวันที่และคีย์ที่อนุญาต');
+eq([P.validSetting('banner', { text: 'ปิดปรับปรุงคืนวันเสาร์', until: '2026-12-05' }).ok, P.validSetting('banner', { text: 'x'.repeat(201) }).ok, P.validSetting('maintenance', 'yes').ok], [true, false, false], 'ตรวจป้ายประกาศและโหมดปิดปรับปรุง');
+const u = (email, ok = true) => ({ email, email_confirmed_at: ok ? '2026-01-01' : null });
+eq([P.isOwner(u('Owner@Example.com'), 'owner@example.com, second@example.com'), P.isOwner(u('second@example.com'), 'owner@example.com, second@example.com'), P.isOwner(u('other@example.com'), 'owner@example.com'), P.isOwner(u('owner@example.com', false), 'owner@example.com'), P.isOwner(u('owner@example.com'), ''), P.isOwner(null, 'owner@example.com')], [true, true, false, false, false, false], 'เจ้าของ = อีเมลยืนยันแล้วและอยู่ในรายการเท่านั้น');
 console.log(fails ? `${fails} FAILED` : 'ALL PASS'); process.exit(fails ? 1 : 0);

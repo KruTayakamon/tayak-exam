@@ -24,8 +24,8 @@ export const RULES = {
 export const launchOn = (now, rules = RULES) => rules.launch_until == null || now < Date.parse(rules.launch_until);
 
 /** ราคาที่ต้องจ่ายตอนนี้ */
-export function quote(product, now, rules = RULES) {
-  const P = PRODUCTS[product];
+export function quote(product, now, rules = RULES, products = PRODUCTS) {
+  const P = products[product];
   if (!P) return null;
   const launch = launchOn(now, rules) && P.launch < P.baht;
   return { product, th: P.th, list: P.baht, amount: launch ? P.launch : P.baht, launch, days: P.days };
@@ -70,4 +70,47 @@ export function applyGuarantee(ent, now, rules = RULES) {
   if (ent.guarantee_at) return null;
   const base = ent.expires_at > now ? ent.expires_at : now;
   return { ...ent, expires_at: base + rules.guarantee_days * DAY, guarantee_at: now };
+}
+
+// ---------- การตั้งค่าที่เจ้าของแก้ได้จาก owner panel (เก็บในตาราง exam_settings) ----------
+// คีย์ที่อนุญาต: prices {สินค้า:{baht,launch}} · launch_until (ISO date หรือ null) · on_sale {สินค้า:boolean} · banner {text, until} · maintenance boolean
+export const SETTING_KEYS = ['prices', 'launch_until', 'on_sale', 'banner', 'maintenance'];
+const isDate = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v));
+
+/** ตรวจค่าก่อนบันทึก (เซิร์ฟเวอร์เรียกทุกครั้ง) */
+export function validSetting(key, value) {
+  if (!SETTING_KEYS.includes(key)) return { ok: false, error: 'bad_key' };
+  if (key === 'maintenance') return typeof value === 'boolean' ? { ok: true } : { ok: false, error: 'bad_value' };
+  if (key === 'launch_until') return value === null || isDate(value) ? { ok: true } : { ok: false, error: 'bad_date' };
+  if (key === 'on_sale') return value && typeof value === 'object' && Object.entries(value).every(([k, v]) => PRODUCTS[k] && typeof v === 'boolean') ? { ok: true } : { ok: false, error: 'bad_value' };
+  if (key === 'banner') return value === null || (typeof value === 'object' && typeof value.text === 'string' && value.text.length <= 200 && (value.until == null || isDate(value.until))) ? { ok: true } : { ok: false, error: 'bad_value' };
+  if (key === 'prices') {
+    if (!value || typeof value !== 'object') return { ok: false, error: 'bad_value' };
+    for (const [k, v] of Object.entries(value)) {
+      if (!PRODUCTS[k]) return { ok: false, error: 'bad_product' };
+      const ok = v && Number.isInteger(v.baht) && Number.isInteger(v.launch) && v.baht >= 20 && v.baht <= 5000 && v.launch >= 20 && v.launch <= v.baht;   // Beam มีขั้นต่ำ และกันพิมพ์ผิดหลัก
+      if (!ok) return { ok: false, error: 'bad_price' };
+    }
+    return { ok: true };
+  }
+  return { ok: false, error: 'bad_key' };
+}
+
+/** รวมค่าตั้งต้นในโค้ดกับค่าที่เจ้าของตั้ง → รายการสินค้าและกติกาที่ใช้จริง · settings = {key: value} */
+export function catalog(settings = {}) {
+  const products = {};
+  for (const [k, P] of Object.entries(PRODUCTS)) {
+    const o = settings.prices?.[k];
+    products[k] = { ...P, ...(o ? { baht: o.baht, launch: o.launch } : {}) };
+  }
+  const rules = { ...RULES, launch_until: settings.launch_until === undefined ? RULES.launch_until : settings.launch_until };
+  const onSale = (p) => !!products[p] && settings.maintenance !== true && settings.on_sale?.[p] !== false;
+  return { products, rules, onSale };
+}
+
+/** เจ้าของหรือไม่: อีเมลยืนยันแล้ว และอยู่ในรายการ (รายการมาจาก secret EXAM_OWNER_EMAILS คั่นด้วยจุลภาค ไม่อยู่ใน repo) */
+export function isOwner(user, ownerList) {
+  if (!user || !user.email || !user.email_confirmed_at) return false;
+  const list = String(ownerList ?? '').split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
+  return list.includes(String(user.email).toLowerCase());
 }

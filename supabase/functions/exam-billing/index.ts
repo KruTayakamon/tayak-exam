@@ -7,12 +7,17 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import { beam, isPaid, linkIdOf, linkUrlOf } from "./beam.ts";
-import { applyPurchase, canBuy, PRODUCTS, quote, refundEligible } from "../_shared/pricing.mjs";
+import { applyPurchase, canBuy, catalog, quote, refundEligible } from "../_shared/pricing.mjs";
 
 const SITE = Deno.env.get("EXAM_SITE_URL") ?? "http://localhost:8788";
 const CORS = { "Access-Control-Allow-Origin": SITE, "Access-Control-Allow-Headers": "authorization, content-type, apikey", "Access-Control-Allow-Methods": "POST, OPTIONS" };
 const json = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 const ms = (t: string | null) => (t ? new Date(t).getTime() : 0);
+/** รายการสินค้าและกติกาที่ใช้จริง = ค่าในโค้ด + ค่าที่เจ้าของตั้งใน owner panel (ตาราง exam_settings) */
+async function catalogNow(admin: SupabaseClient) {
+  const { data } = await admin.from("exam_settings").select("key,value");
+  return catalog(Object.fromEntries((data ?? []).map((r) => [r.key, r.value])));
+}
 
 async function entsOf(admin: SupabaseClient, uid: string) {
   const { data } = await admin.from("exam_entitlements").select("product,expires_at,guarantee_at,source").eq("user_id", uid);
@@ -55,7 +60,8 @@ Deno.serve(async (req) => {
         }
         out.push({ ...o, refundable });
       }
-      return json({ entitlements: ents, orders: out, prices: Object.keys(PRODUCTS).map((p) => quote(p, now)) });
+      const c = await catalogNow(admin);
+      return json({ entitlements: ents, orders: out, prices: Object.keys(c.products).filter((p) => c.onSale(p)).map((p) => quote(p, now, c.rules, c.products)) });
     }
 
     const b = beam();
@@ -63,7 +69,9 @@ Deno.serve(async (req) => {
 
     if (action === "checkout") {
       const product = String(body.product ?? ""), target = body.target ? String(body.target) : null;
-      const q = quote(product, now);
+      const c = await catalogNow(admin);
+      if (!c.onSale(product)) return json({ error: "not_on_sale" }, 409);
+      const q = quote(product, now, c.rules, c.products);
       if (!q) return json({ error: "bad_product" }, 400);
       const can = canBuy(await entsOf(admin, user.id), product, target, now);
       if (!can.ok) return json({ error: can.error }, 409);
