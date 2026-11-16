@@ -1,0 +1,160 @@
+# คอร์ส b1 · สัปดาห์ 1 (ต้นแบบของรูปแบบไฟล์คอร์ส) · draft รอบอสตรวจ · 16 พ.ย. 2569
+course: cefr/b1
+week: 1
+phase: 1
+theme_th: ตัวฉันและโรงเรียนของฉัน
+focus_th: present simple กับ present continuous · กริยาบอกสภาวะ · การตั้งคำถาม
+can_do_th:            # เขียนเอง ไม่คัดลอกคำอธิบาย CEFR · แสดงเมื่อจบสัปดาห์
+  - บอกได้ว่าตัวเองสอนอะไร ที่ไหน และช่วงนี้กำลังทำงานอะไรอยู่
+  - อ่านข่าวสั้นในโรงเรียนแล้วจับได้ว่าใคร ทำอะไร เมื่อไร
+  - ฟังประกาศสั้นแล้วจับเวลาและสถานที่ได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กิจวัตร หรือ กำลังทำอยู่ตอนนี้
+    lesson:
+      rule_th: "ทำเป็นประจำหรือเป็นข้อเท็จจริง ใช้ present simple · กำลังทำตอนนี้หรือทำชั่วคราวช่วงนี้ ใช้ present continuous (am/is/are + กริยา -ing)"
+      examples:
+        - {en: "I <k>teach</k> maths <k>every day</k>.", th: "กิจวัตร: every day"}
+        - {en: "I <k>am teaching</k> Grade 7 <k>this term</k>.", th: "ชั่วคราว: เฉพาะเทอมนี้"}
+        - {en: "The students <k>are reading</k> <k>now</k>.", th: "กำลังเกิดขึ้นขณะพูด"}
+        - {en: "She <k>teaches</k> science.", th: "ประธานเอกพจน์บุรุษที่ 3 เติม -s หรือ -es"}
+      signals:
+        - {label_th: present simple, words: [always, usually, often, every day, twice a week, on Mondays]}
+        - {label_th: present continuous, words: [now, right now, at the moment, today, this week, this term, "Look!"]}
+      thai_trap:
+        intro_th: ภาษาไทยไม่เปลี่ยนรูปกริยา และคำว่า "กำลัง" มักถูกละ จึงมักลืม am/is/are หรือลืมเติม -s
+        wrong: ["I teaching Grade 7 this term.", "She teach science every day."]
+        right: ["I am teaching Grade 7 this term.", "She teaches science every day."]
+    check: [cefr-b1-w01-001, cefr-b1-w01-002]
+    practice: [cefr-b1-w01-003, cefr-b1-w01-004, cefr-b1-w01-005, cefr-b1-w01-006, cefr-b1-w01-007, cefr-b1-w01-008, cefr-b1-w01-009, cefr-b1-w01-010, cefr-b1-w01-011, cefr-b1-w01-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับงานของคุณ ประโยคแรกเป็นสิ่งที่ทำประจำ ประโยคที่สองเป็นสิ่งที่กำลังทำช่วงนี้
+      frame: "I usually ____. This week I am ____."
+      model: "I usually teach five classes a day. This week I am preparing the mid-term exam."
+    classroom: {en: "What are you doing? Please open your books.", th: "กำลังทำอะไรอยู่ เปิดหนังสือด้วยค่ะ/ครับ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เรื่องงานในโรงเรียน 12 คำ
+    lesson:
+      rule_th: "จำคำพร้อมคำที่ใช้คู่กัน ไม่จำคำเดี่ยว เช่น attend a meeting, responsible for, hand in an assignment"
+      examples:
+        - {en: "<k>attend</k> a meeting", th: "เข้าร่วมประชุม (ไม่มี to)"}
+        - {en: "be <k>responsible for</k> the library", th: "รับผิดชอบห้องสมุด"}
+        - {en: "<k>hand in</k> an assignment before the <k>deadline</k>", th: "ส่งงานก่อนกำหนดส่ง"}
+        - {en: "a member of <k>staff</k>", th: "บุคลากรหนึ่งคน (staff ไม่เติม -s)"}
+      words:
+        - {w: colleague, pos: n., th: เพื่อนร่วมงาน, ex: "My colleagues are very helpful."}
+        - {w: timetable, pos: n., th: ตารางสอน, ex: "Check the timetable for Room 5."}
+        - {w: attend, pos: v., th: เข้าร่วม, ex: "All teachers attend the meeting."}
+        - {w: responsible, pos: adj., th: รับผิดชอบ, ex: "I am responsible for Grade 8."}
+        - {w: prepare, pos: v., th: เตรียม, ex: "She prepares her lessons at night."}
+        - {w: staff, pos: n., th: บุคลากร, ex: "The staff room is on the second floor."}
+        - {w: subject, pos: n., th: วิชา, ex: "My favourite subject is history."}
+        - {w: assignment, pos: n., th: งานที่มอบหมาย, ex: "The assignment is due on Friday."}
+        - {w: deadline, pos: n., th: กำหนดส่ง, ex: "We must meet the deadline."}
+        - {w: improve, pos: v., th: ทำให้ดีขึ้น, ex: "Games improve students' speaking."}
+        - {w: experience, pos: n., th: ประสบการณ์, ex: "He has a lot of experience."}
+        - {w: currently, pos: adv., th: ในช่วงนี้, ex: "We are currently using Room 3."}
+      thai_trap:
+        intro_th: มักแปลตรงตัวจากไทย จึงเติมบุพบทผิดหรือเติม -s ให้นามรวม
+        wrong: ["attend to the meeting", "responsible of the library", "all the staffs"]
+        right: ["attend the meeting", "responsible for the library", "all the staff"]
+    check: [cefr-b1-w01-013, cefr-b1-w01-014]
+    practice: [cefr-b1-w01-015, cefr-b1-w01-016, cefr-b1-w01-017, cefr-b1-w01-018, cefr-b1-w01-019, cefr-b1-w01-020, cefr-b1-w01-021, cefr-b1-w01-022, cefr-b1-w01-023, cefr-b1-w01-024]
+    use:
+      prompt_th: เขียน 1 ประโยคบอกว่าคุณรับผิดชอบงานอะไรในโรงเรียน
+      frame: "I am responsible for ____."
+      model: "I am responsible for the Grade 9 English timetable."
+    classroom: {en: "Please hand in your assignment by Friday.", th: "ส่งงานภายในวันศุกร์นะคะ/ครับ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กริยาที่ไม่ใช้ -ing และการตั้งคำถาม
+    lesson:
+      rule_th: "กริยาบอกสภาวะ (ความคิด ความรู้สึก ความเป็นเจ้าของ) ใช้ present simple เสมอ แม้หมายถึงตอนนี้ · คำถามต้องมี do/does หรือสลับ am/is/are มาหน้าประธาน"
+      examples:
+        - {en: "I <k>know</k> the answer.", th: "ไม่ใช้ I am knowing"}
+        - {en: "We <k>need</k> more chairs.", th: "ไม่ใช้ We are needing"}
+        - {en: "<k>Does</k> she <k>teach</k> Grade 9?", th: "คำถาม present simple: Does + ประธาน + กริยารูปเดิม"}
+        - {en: "What <k>are</k> you <k>doing</k>?", th: "คำถาม present continuous: are มาหน้าประธาน"}
+      signals:
+        - {label_th: กริยาบอกสภาวะที่พบบ่อย, words: [know, understand, believe, "think (เห็นว่า)", want, need, like, prefer, belong, "have (มี)"]}
+      thai_trap:
+        intro_th: ภาษาไทยตั้งคำถามด้วยคำลงท้าย (ไหม หรือเปล่า) โดยไม่สลับคำ จึงมักลืม do/does
+        wrong: ["You teach Grade 9?", "Where she comes from?", "I am understanding."]
+        right: ["Do you teach Grade 9?", "Where does she come from?", "I understand."]
+    check: [cefr-b1-w01-025, cefr-b1-w01-028]
+    practice: [cefr-b1-w01-026, cefr-b1-w01-027, cefr-b1-w01-029, cefr-b1-w01-030, cefr-b1-w01-031, cefr-b1-w01-032, cefr-b1-w01-033, cefr-b1-w01-034]
+    use:
+      prompt_th: เขียนคำถาม 2 ข้อที่จะถามครูใหม่ ข้อหนึ่งถามกิจวัตร อีกข้อถามสิ่งที่กำลังทำช่วงนี้
+      frame: "Which ____ do you ____? What are you ____ this term?"
+      model: "Which subjects do you teach? What are you working on this term?"
+    classroom: {en: "Do you understand? Does anyone need help?", th: "เข้าใจไหม มีใครต้องการความช่วยเหลือไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านข่าวสั้นและฟังประกาศ จับ ใคร ทำอะไร เมื่อไร ที่ไหน
+    lesson:
+      rule_th: "อ่านคำถามก่อนอ่านบท แล้วหาคำบอกเวลาและสถานที่ · คำตอบมักใช้คำต่างจากในบท (preparing = getting ready) และคำถามเรียงตามลำดับเนื้อหา"
+      examples:
+        - {en: "She runs the English Club <k>every Thursday after school</k>.", th: "คำถาม When...? → มองหาวันและเวลา"}
+        - {en: "<k>At the moment</k> she is preparing an activity.", th: "คำถามเรื่อง 'ตอนนี้' → มองหา at the moment, currently"}
+        - {en: "The meeting will start at four o'clock, <k>not three thirty</k>.", th: "ฟัง: ข้อมูลที่ถูกแก้ไขมักเป็นตัวหลอก"}
+      thai_trap:
+        intro_th: มักเลือกตัวเลือกที่มีคำเดียวกับในบทโดยไม่อ่านทั้งประโยค ตัวหลอกจงใจใช้คำจากบทแต่ผิดบริบท
+        wrong: ["เห็นคำว่า Monday ในบท จึงตอบ every Monday morning"]
+        right: ["ตรวจว่า Monday ในบทพูดถึงกิจกรรมไหน ก่อนเลือก"]
+    check: [cefr-b1-w01-036, cefr-b1-w01-037]
+    practice: [cefr-b1-w01-035, cefr-b1-w01-038, cefr-b1-w01-039, cefr-b1-w01-040, cefr-b1-w01-041]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำเพื่อนครูหนึ่งคน แบบข่าวสั้นในโรงเรียน
+      frame: "____ teaches ____. At the moment he/she is ____."
+      model: "Mr Wichai teaches computer science. At the moment he is setting up the new computer room."
+    classroom: {en: "Listen carefully. I will say it twice.", th: "ตั้งใจฟังนะ ครูจะพูดสองรอบ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด แนะนำตัวและงานที่ทำ 45 วินาที
+    lab:
+      mode: speak
+      prompt_th: แนะนำตัวเองกับวิทยากรชาวต่างชาติในวันแรกของการอบรม พูด 45 วินาที บอกชื่อ โรงเรียน วิชาและชั้นที่สอน งานที่กำลังทำช่วงนี้ และสิ่งที่ชอบในงาน
+      frame:
+        - "Hello, my name is ____. I'm a teacher at ____ School in ____."
+        - "I teach ____ to Grade ____ students."
+        - "I usually ____ (กิจวัตร)."
+        - "This term I am ____ (สิ่งที่กำลังทำช่วงนี้)."
+        - "I enjoy my job because ____."
+      model_pass: "Hello, my name is Malee. I'm a teacher at Ban Dong School in Nan. I teach English to Grade 7 students. I usually have four classes a day. This term I am preparing an English camp. I enjoy my job because I like working with children."
+      model_good: "Good morning, everyone. I'm Malee, and I teach English at Ban Dong School, a small secondary school in Nan. I'm responsible for Grades 7 and 8, so I usually teach about twenty classes a week. This term I'm also organising an English camp with two colleagues, which is keeping us very busy. What I enjoy most about my job is seeing shy students start to speak."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ประโยคด้วยข้อมูลของตัวเอง
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - พูดครบ 5 เรื่องตามโครง
+        - ใช้ present simple กับกิจวัตร และ present continuous กับงานช่วงนี้
+        - เติม -s หลังประธานเอกพจน์ทุกครั้ง
+        - พูดได้ 40–50 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b1-w01-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 1
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}   # นับเป็นคะแนน
+      pool: {course: cefr/b1, weeks: [1], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

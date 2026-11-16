@@ -1,0 +1,584 @@
+# คอร์ส b1 · สัปดาห์ 1 · ตัวฉันและโรงเรียนของฉัน · present simple กับ present continuous · คำถาม
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · ทุกข้อเป็น draft รอบอสตรวจ · เขียนใหม่ทั้งหมด 16 พ.ย. 2569
+# ---------- วันที่ 1 · present simple กับ present continuous ----------
+- id: cefr-b1-w01-001
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: Ms Suda ____ science to Grade 8 students every Monday and Wednesday.
+  choices:
+    - {t: teaches, why: "every Monday and Wednesday บอกกิจวัตรที่ทำประจำ ใช้ present simple และประธานเอกพจน์ต้องเติม -es"}
+    - {t: is teaching, why: "present continuous ใช้กับสิ่งที่กำลังเกิดตอนนี้หรือชั่วคราว ไม่ใช้กับตารางประจำทุกสัปดาห์"}
+    - {t: teach, why: "ประธาน Ms Suda เป็นเอกพจน์บุรุษที่ 3 กริยาต้องเติม -es"}
+    - {t: teaching, why: "กริยาเติม -ing ตัวเดียวเป็นกริยาหลักของประโยคไม่ได้ ต้องมี is นำหน้า"}
+  explain: คำบอกความถี่ (every..., usually, always) เป็นสัญญาณของ present simple
+  status: draft
+- id: cefr-b1-w01-002
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: Please be quiet. The students ____ a test at the moment.
+  choices:
+    - {t: are taking, why: "at the moment บอกว่ากำลังเกิดขึ้นตอนนี้ ใช้ present continuous (are + กริยา -ing)"}
+    - {t: take, why: "present simple ใช้กับกิจวัตรหรือข้อเท็จจริง ไม่ใช่สิ่งที่กำลังเกิดขณะพูด"}
+    - {t: takes, why: "นอกจากผิด tense แล้ว The students เป็นพหูพจน์ จึงเติม -s ไม่ได้"}
+    - {t: were taking, why: "past continuous ใช้กับอดีต แต่ประโยคนี้พูดถึงตอนนี้ (at the moment)"}
+  explain: at the moment, now, right now, Look! เป็นสัญญาณของ present continuous
+  status: draft
+- id: cefr-b1-w01-003
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  stem: I usually ____ to school by motorcycle, but this week I ____ my husband's car.
+  choices:
+    - {t: go / am using, why: "usually คือกิจวัตร ใช้ present simple ส่วน this week คือช่วงชั่วคราว ใช้ present continuous"}
+    - {t: am going / use, why: "สลับกัน: usually ต้องคู่กับ present simple และ this week ที่เป็นเรื่องชั่วคราวต้องใช้ continuous"}
+    - {t: go / use, why: "ช่องแรกถูก แต่ช่องหลังเป็นสิ่งที่ทำชั่วคราวเฉพาะสัปดาห์นี้ จึงควรเป็น am using"}
+    - {t: am going / am using, why: "ช่องหลังถูก แต่ usually บอกกิจวัตร ช่องแรกจึงต้องเป็น go"}
+  explain: ประโยคเดียวมีได้ทั้งสอง tense ให้ดูคำบอกเวลาของแต่ละส่วน
+  status: draft
+- id: cefr-b1-w01-004
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: Water ____ at 100 degrees Celsius.
+  choices:
+    - {t: boils, why: "เป็นข้อเท็จจริงทางวิทยาศาสตร์ที่จริงเสมอ ใช้ present simple และ water เป็นเอกพจน์จึงเติม -s"}
+    - {t: is boiling, why: "ใช้เมื่อพูดถึงน้ำที่กำลังเดือดอยู่ตรงหน้า ไม่ใช่ข้อเท็จจริงทั่วไป"}
+    - {t: boil, why: "water เป็นนามนับไม่ได้ ถือเป็นเอกพจน์ กริยาต้องเติม -s"}
+    - {t: are boiling, why: "water ใช้กับ are ไม่ได้ และประโยคนี้ไม่ได้พูดถึงสิ่งที่กำลังเกิด"}
+  explain: ข้อเท็จจริงและสิ่งที่จริงเสมอ ใช้ present simple
+  status: draft
+- id: cefr-b1-w01-005
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  stem: Our school ____ a new library this term, so the old one is closed.
+  choices:
+    - {t: is building, why: "this term เป็นช่วงเวลาชั่วคราวที่งานกำลังดำเนินอยู่ ใช้ present continuous และ school เป็นเอกพจน์ใช้ is"}
+    - {t: builds, why: "present simple จะหมายถึงสร้างเป็นประจำทุกเทอม ซึ่งไม่ตรงกับความหมาย"}
+    - {t: are building, why: "tense ถูก แต่ Our school เป็นเอกพจน์ ต้องใช้ is ไม่ใช่ are"}
+    - {t: build, why: "ผิดทั้ง tense และไม่เติม -s ให้ประธานเอกพจน์"}
+  explain: งานที่กำลังดำเนินอยู่ในช่วงนี้ (this term, this month, these days) ใช้ present continuous แม้ไม่ได้ทำอยู่ ณ วินาทีที่พูด
+  status: draft
+- id: cefr-b1-w01-006
+  kind: mcq
+  skill: gm
+  topic: questions-present
+  level: 2
+  stem: How often ____ the English department ____ a meeting?
+  choices:
+    - {t: does / have, why: "ถามความถี่ ใช้ present simple: does + ประธานเอกพจน์ + กริยาช่อง 1 ไม่เติม -s"}
+    - {t: is / having, why: "How often ถามกิจวัตร จึงไม่ใช้ present continuous"}
+    - {t: do / have, why: "the English department เป็นเอกพจน์ ต้องใช้ does"}
+    - {t: does / has, why: "หลัง does กริยาต้องเป็นรูปเดิม (have) ไม่ใช่ has"}
+  explain: "คำถาม present simple: Do/Does + ประธาน + กริยารูปเดิม"
+  status: draft
+- id: cefr-b1-w01-007
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: Look! It ____ outside. We should move the activity to the hall.
+  choices:
+    - {t: is raining, why: "Look! ชี้ให้ดูสิ่งที่กำลังเกิดขึ้นตอนนี้ ใช้ present continuous"}
+    - {t: rains, why: "present simple ใช้บอกว่าฝนตกเป็นประจำ เช่น It rains a lot in September"}
+    - {t: are raining, why: "ประธาน It เป็นเอกพจน์ ต้องใช้ is"}
+    - {t: rain, why: "ประธาน It ต้องเติม -s และประโยคนี้พูดถึงสิ่งที่กำลังเกิด"}
+  explain: Look! และ Listen! มักตามด้วย present continuous
+  status: draft
+- id: cefr-b1-w01-008
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  stem: Mr Anan ____ in Room 204 this month because his classroom is being painted.
+  choices:
+    - {t: is working, why: "this month และเหตุผลที่ตามมาบอกว่าเป็นเรื่องชั่วคราว ใช้ present continuous"}
+    - {t: works, why: "present simple จะหมายถึงห้องประจำของเขา แต่ประโยคบอกว่าย้ายมาชั่วคราว"}
+    - {t: work, why: "ประธานเอกพจน์ต้องเติม -s และความหมายเป็นเรื่องชั่วคราว"}
+    - {t: working, why: "ขาด is จึงไม่เป็นกริยาหลักของประโยค"}
+  explain: สถานการณ์ชั่วคราวใช้ present continuous · สถานการณ์ถาวรใช้ present simple
+  status: draft
+- id: cefr-b1-w01-009
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: The first class ____ at 8.30 every day.
+  choices:
+    - {t: starts, why: "every day บอกตารางประจำ ใช้ present simple และ class เป็นเอกพจน์จึงเติม -s"}
+    - {t: is starting, why: "ใช้กับสิ่งที่กำลังจะเริ่มตอนนี้ ไม่ใช่ตารางประจำทุกวัน"}
+    - {t: start, why: "The first class เป็นเอกพจน์ กริยาต้องเติม -s"}
+    - {t: starting, why: "ขาด is และ every day ต้องการ present simple"}
+  explain: ตารางเวลาและกำหนดการประจำ ใช้ present simple
+  status: draft
+- id: cefr-b1-w01-010
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: I can't talk right now. I ____ the students' homework.
+  choices:
+    - {t: am checking, why: "right now บอกว่ากำลังทำอยู่ขณะนี้ ใช้ am + กริยา -ing"}
+    - {t: check, why: "present simple หมายถึงทำเป็นประจำ ไม่อธิบายว่าทำไมตอนนี้คุยไม่ได้"}
+    - {t: checks, why: "ประธาน I ไม่เติม -s และประโยคพูดถึงขณะนี้"}
+    - {t: checking, why: "ขาด am จึงไม่ครบโครงสร้าง present continuous"}
+  explain: "present continuous = am/is/are + กริยา -ing ต้องมีครบทั้งสองส่วน"
+  status: draft
+- id: cefr-b1-w01-011
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  stem: My colleagues and I ____ the timetable twice a year.
+  choices:
+    - {t: change, why: "twice a year บอกความถี่ ใช้ present simple และประธานเป็นพหูพจน์จึงไม่เติม -s"}
+    - {t: are changing, why: "ใช้กับสิ่งที่กำลังทำอยู่ช่วงนี้ แต่ twice a year บอกว่าเป็นกิจวัตร"}
+    - {t: changes, why: "My colleagues and I เป็นพหูพจน์ (= we) จึงไม่เติม -s"}
+    - {t: is changing, why: "ประธานพหูพจน์ใช้ is ไม่ได้ และประโยคนี้เป็นกิจวัตร"}
+  explain: ประธานที่เชื่อมด้วย and เป็นพหูพจน์
+  status: draft
+- id: cefr-b1-w01-012
+  kind: mcq
+  skill: gm
+  topic: questions-present
+  level: 2
+  stem: Why ____ you ____ a jacket today? It's so hot!
+  choices:
+    - {t: are / wearing, why: "ถามถึงสิ่งที่เห็นอยู่ตอนนี้ (today) ใช้ present continuous: are + you + กริยา -ing"}
+    - {t: do / wear, why: "Do you wear...? ถามนิสัยทั่วไป ไม่ใช่สิ่งที่ใส่อยู่วันนี้"}
+    - {t: are / wear, why: "หลัง are ต้องเป็นกริยา -ing"}
+    - {t: do / wearing, why: "do ใช้กับกริยารูปเดิม ไม่ใช้กับกริยา -ing"}
+  explain: "คำถาม present continuous: Am/Is/Are + ประธาน + กริยา -ing"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์: งานในโรงเรียน ----------
+- id: cefr-b1-w01-013
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: "Mr Prasit is my colleague. We both teach maths at the same school. — A colleague is ____."
+  choices:
+    - {t: a person you work with, why: "ประโยคที่สองบอกว่าสอนโรงเรียนเดียวกัน colleague คือเพื่อนร่วมงาน"}
+    - {t: a student in your class, why: "นักเรียนคือ student หรือ pupil และบริบทบอกว่าเขาสอนเหมือนกัน"}
+    - {t: the head of a school, why: "ผู้อำนวยการคือ head teacher หรือ principal"}
+    - {t: a member of your family, why: "ญาติคือ relative ประโยคไม่ได้พูดถึงครอบครัว"}
+  explain: colleague (n.) เพื่อนร่วมงาน · ออกเสียงเน้นพยางค์แรก
+  status: draft
+- id: cefr-b1-w01-014
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: The new ____ shows that I have five classes on Tuesday.
+  choices:
+    - {t: timetable, why: "สิ่งที่แสดงว่าวันไหนมีกี่คาบคือตารางสอน (timetable)"}
+    - {t: deadline, why: "deadline คือกำหนดส่ง ไม่ได้แสดงจำนวนคาบ"}
+    - {t: subject, why: "subject คือวิชา เช่น maths, science"}
+    - {t: staff, why: "staff คือบุคลากรของโรงเรียน"}
+  explain: timetable (n.) ตารางสอน ตารางเวลา
+  status: draft
+- id: cefr-b1-w01-015
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: All teachers must ____ the meeting at 3.30 p.m. today.
+  choices:
+    - {t: attend, why: "attend a meeting = เข้าร่วมประชุม ใช้ attend ตามด้วยกรรมได้เลย ไม่ต้องมี to"}
+    - {t: improve, why: "improve = ทำให้ดีขึ้น ไม่ใช้กับการไปประชุม"}
+    - {t: prepare, why: "prepare the meeting แปลว่าจัดเตรียมการประชุม ซึ่งไม่ใช่หน้าที่ของครูทุกคน"}
+    - {t: spend, why: "spend ใช้กับเวลาหรือเงิน เช่น spend two hours"}
+  explain: attend a meeting / a class / a training course
+  status: draft
+- id: cefr-b1-w01-016
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 2
+  stem: Ms Ladda is responsible ____ the school library.
+  choices:
+    - {t: for, why: "be responsible for + สิ่งที่รับผิดชอบ เป็นคู่คำที่ตายตัว"}
+    - {t: of, why: "คนไทยมักใช้ of เพราะแปลจาก 'ของ' แต่ responsible ใช้กับ for"}
+    - {t: with, why: "with ไม่ใช้คู่กับ responsible"}
+    - {t: to, why: "responsible to + คน หมายถึงขึ้นตรงต่อใคร ไม่ใช้กับสิ่งที่ดูแล"}
+  explain: be responsible for + นาม หรือ กริยา -ing
+  status: draft
+- id: cefr-b1-w01-017
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: I need two hours to ____ tomorrow's lessons.
+  choices:
+    - {t: prepare, why: "prepare a lesson = เตรียมการสอน"}
+    - {t: attend, why: "attend a lesson หมายถึงเข้าเรียน ซึ่งเป็นฝั่งผู้เรียน"}
+    - {t: experience, why: "experience เป็นกริยาแปลว่าประสบ ไม่ใช้กับการเตรียมบทเรียน"}
+    - {t: repair, why: "repair = ซ่อมสิ่งของที่เสีย"}
+  explain: prepare a lesson / a worksheet / an exam
+  status: draft
+- id: cefr-b1-w01-018
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 2
+  stem: "The school has sixty ____: forty teachers and twenty office workers."
+  choices:
+    - {t: staff, why: "staff คือบุคลากรทั้งหมดขององค์กร รวมครูและเจ้าหน้าที่ ไม่เติม -s"}
+    - {t: deadlines, why: "deadlines คือกำหนดส่งงาน ไม่ใช่คน"}
+    - {t: subjects, why: "subjects คือวิชา ไม่ใช่คน"}
+    - {t: assignments, why: "assignments คืองานที่มอบหมาย ไม่ใช่คน"}
+  explain: staff เป็นนามรวม ไม่ใช้ staffs · พูดถึงหนึ่งคนใช้ a member of staff
+  status: draft
+- id: cefr-b1-w01-019
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: "\"Which ____ do you teach?\" \"English and social studies.\""
+  choices:
+    - {t: subject, why: "คำตอบเป็นชื่อวิชา คำถามจึงถามถึง subject"}
+    - {t: staff, why: "staff คือบุคลากร ไม่เข้ากับคำตอบที่เป็นชื่อวิชา"}
+    - {t: deadline, why: "deadline คือกำหนดส่ง ไม่เข้ากับคำตอบ"}
+    - {t: experience, why: "experience คือประสบการณ์ ไม่ใช้กับ teach แบบนี้"}
+  explain: subject (n.) วิชา
+  status: draft
+- id: cefr-b1-w01-020
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: The students must hand in the ____ by Friday.
+  choices:
+    - {t: assignment, why: "hand in an assignment = ส่งงานที่ได้รับมอบหมาย"}
+    - {t: timetable, why: "ตารางสอนไม่ใช่สิ่งที่นักเรียนส่ง"}
+    - {t: colleague, why: "colleague คือคน ส่งไม่ได้"}
+    - {t: experience, why: "experience เป็นนามธรรม ไม่ใช้กับ hand in"}
+  explain: hand in / submit an assignment
+  status: draft
+- id: cefr-b1-w01-021
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: The ____ for the report is 30 November. Please don't be late.
+  choices:
+    - {t: deadline, why: "วันสุดท้ายที่ต้องส่งคือ deadline และ Please don't be late ยืนยันความหมาย"}
+    - {t: timetable, why: "timetable คือตารางของหลายรายการ ไม่ใช่วันส่งวันเดียว"}
+    - {t: subject, why: "subject คือวิชาหรือหัวเรื่อง ไม่ใช่วันที่"}
+    - {t: assignment, why: "assignment คือตัวงาน ไม่ใช่วันกำหนดส่ง"}
+  explain: meet a deadline = ส่งทันกำหนด · miss a deadline = ส่งไม่ทัน
+  status: draft
+- id: cefr-b1-w01-022
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: Reading every day helps students ____ their vocabulary.
+  choices:
+    - {t: improve, why: "improve = ทำให้ดีขึ้น ใช้กับทักษะและความรู้"}
+    - {t: attend, why: "attend ใช้กับงานหรือชั้นเรียนที่ไปเข้าร่วม"}
+    - {t: hand, why: "hand ต้องใช้เป็น hand in และใช้กับงานที่ส่ง"}
+    - {t: stay, why: "stay ไม่มีกรรมตามหลังแบบนี้"}
+  explain: improve your English / your skills / your vocabulary
+  status: draft
+- id: cefr-b1-w01-023
+  kind: mcq
+  skill: vo
+  topic: school-work
+  level: 1
+  stem: She has ten years of teaching ____.
+  choices:
+    - {t: experience, why: "ten years of teaching experience = ประสบการณ์สอน 10 ปี (นับไม่ได้ ไม่เติม -s)"}
+    - {t: assignment, why: "assignment คืองานที่มอบหมาย ไม่ใช้บอกจำนวนปี"}
+    - {t: deadline, why: "deadline คือกำหนดส่ง ไม่เข้ากับ ten years of"}
+    - {t: colleague, why: "colleague คือเพื่อนร่วมงาน ไม่เข้ากับโครงสร้างนี้"}
+  explain: experience ที่แปลว่าประสบการณ์ทำงานเป็นนามนับไม่ได้
+  status: draft
+- id: cefr-b1-w01-024
+  kind: type
+  skill: vo
+  topic: school-work
+  level: 2
+  stem: "I am c________ teaching Grade 9, but next year I will move to Grade 7. (ในช่วงนี้ ขณะนี้)"
+  answer: currently
+  accept: [currently]
+  why: "currently = ในช่วงนี้ มักวางหลัง be และใช้กับ present continuous"
+  status: draft
+# ---------- วันที่ 3 · กริยาบอกสภาวะ และการตั้งคำถาม ----------
+- id: cefr-b1-w01-025
+  kind: mcq
+  skill: gm
+  topic: stative-verbs
+  level: 1
+  stem: I ____ what you mean.
+  choices:
+    - {t: understand, why: "understand เป็นกริยาบอกสภาวะของความคิด ไม่ใช้รูป -ing แม้จะหมายถึงตอนนี้"}
+    - {t: am understanding, why: "กริยาบอกสภาวะ เช่น understand, know, believe ไม่ใช้ใน present continuous"}
+    - {t: understands, why: "ประธาน I ไม่เติม -s"}
+    - {t: understanding, why: "ขาดกริยาช่วย และกริยานี้ไม่ใช้รูป continuous"}
+  explain: "กริยาบอกสภาวะ: know, understand, believe, want, need, like, belong"
+  status: draft
+- id: cefr-b1-w01-026
+  kind: mcq
+  skill: gm
+  topic: stative-verbs
+  level: 2
+  stem: This book ____ to the school library.
+  choices:
+    - {t: belongs, why: "belong บอกความเป็นเจ้าของ เป็นกริยาบอกสภาวะ ใช้ present simple และเติม -s"}
+    - {t: is belonging, why: "belong ไม่ใช้ในรูป continuous"}
+    - {t: belong, why: "This book เป็นเอกพจน์ ต้องเติม -s"}
+    - {t: are belonging, why: "ผิดทั้งรูป continuous และ are ไม่ใช้กับประธานเอกพจน์"}
+  explain: belong to + เจ้าของ
+  status: draft
+- id: cefr-b1-w01-027
+  kind: mcq
+  skill: gm
+  topic: questions-present
+  level: 2
+  stem: ____ your students ____ working in groups?
+  choices:
+    - {t: Do / like, why: "like เป็นกริยาบอกสภาวะ ใช้ present simple และ students เป็นพหูพจน์จึงใช้ Do"}
+    - {t: Are / liking, why: "like ไม่ใช้ในรูป continuous"}
+    - {t: Does / like, why: "your students เป็นพหูพจน์ ต้องใช้ Do"}
+    - {t: Are / like, why: "Are ต้องตามด้วยกริยา -ing หรือคำคุณศัพท์ ไม่ใช่กริยารูปเดิม"}
+  explain: like + กริยา -ing = ชอบทำ
+  status: draft
+- id: cefr-b1-w01-028
+  kind: mcq
+  skill: gm
+  topic: questions-present
+  level: 1
+  stem: "\"What ____ at the moment?\" \"I'm marking exam papers.\""
+  choices:
+    - {t: are you doing, why: "at the moment และคำตอบ I'm marking ใช้ present continuous คำถามต้องสลับ are มาหน้าประธาน"}
+    - {t: do you do, why: "What do you do? ถามอาชีพหรือกิจวัตร ไม่ใช่สิ่งที่ทำอยู่ตอนนี้"}
+    - {t: you are doing, why: "ลำดับคำแบบประโยคบอกเล่า คำถามต้องเอา are ไว้หน้า you"}
+    - {t: you do, why: "ขาดกริยาช่วย do และไม่ตรง tense กับคำตอบ"}
+  explain: "What do you do? = ทำอาชีพอะไร · What are you doing? = กำลังทำอะไร"
+  status: draft
+- id: cefr-b1-w01-029
+  kind: mcq
+  skill: gm
+  topic: questions-present
+  level: 2
+  stem: Where ____ your head teacher ____ from?
+  choices:
+    - {t: does / come, why: "ถามบ้านเกิดซึ่งเป็นข้อเท็จจริง ใช้ present simple: does + ประธานเอกพจน์ + come"}
+    - {t: is / coming, why: "Where is he coming from? ถามว่ากำลังเดินทางมาจากไหน ไม่ใช่บ้านเกิด"}
+    - {t: do / come, why: "your head teacher เป็นเอกพจน์ ต้องใช้ does"}
+    - {t: does / comes, why: "หลัง does กริยาต้องเป็นรูปเดิม ไม่เติม -s"}
+  explain: Where do you come from? = Where are you from?
+  status: draft
+- id: cefr-b1-w01-030
+  kind: mcq
+  skill: gm
+  topic: stative-verbs
+  level: 1
+  stem: We ____ a new projector in our classroom. Ours is broken.
+  choices:
+    - {t: need, why: "need เป็นกริยาบอกสภาวะ ใช้ present simple และ We ไม่เติม -s"}
+    - {t: are needing, why: "need ไม่ใช้ในรูป continuous"}
+    - {t: needs, why: "ประธาน We ไม่เติม -s"}
+    - {t: needing, why: "ขาดกริยาช่วย และกริยานี้ไม่ใช้รูป continuous"}
+  explain: need, want, prefer ไม่ใช้รูป -ing
+  status: draft
+- id: cefr-b1-w01-031
+  kind: mcq
+  skill: gm
+  topic: stative-verbs
+  level: 3
+  stem: She ____ lunch right now, so she can't answer the phone.
+  choices:
+    - {t: is having, why: "have ที่แปลว่ากิน/ทำกิจกรรม เป็นกริยาแสดงการกระทำ ใช้ continuous ได้ และ right now บอกว่ากำลังทำ"}
+    - {t: has, why: "has lunch จะหมายถึงกินเป็นประจำ ไม่อธิบายว่าทำไมตอนนี้รับสายไม่ได้"}
+    - {t: have, why: "ประธาน She ต้องใช้ has และประโยคนี้ต้องการรูป continuous"}
+    - {t: having, why: "ขาด is จึงไม่ครบโครงสร้าง"}
+  explain: "have = มี (สภาวะ ไม่ใช้ -ing) · have lunch / a meeting / a shower (การกระทำ ใช้ -ing ได้)"
+  status: draft
+- id: cefr-b1-w01-032
+  kind: mcq
+  skill: gm
+  topic: questions-present
+  level: 2
+  stem: How many classes ____ on Fridays?
+  choices:
+    - {t: do you teach, why: "on Fridays บอกกิจวัตร ใช้ present simple คำถามต้องมี do หน้าประธาน"}
+    - {t: you teach, why: "ขาดกริยาช่วย do ซึ่งจำเป็นในคำถาม present simple"}
+    - {t: are you teach, why: "are ใช้กับกริยา -ing ไม่ใช้กับกริยารูปเดิม"}
+    - {t: does you teach, why: "ประธาน you ใช้ do ไม่ใช่ does"}
+  explain: "คำถาม wh-: คำถาม + do/does + ประธาน + กริยารูปเดิม"
+  status: draft
+- id: cefr-b1-w01-033
+  kind: mcq
+  skill: gm
+  topic: stative-verbs
+  level: 2
+  stem: I ____ Mr Somchai is right about the new rule.
+  choices:
+    - {t: think, why: "think ที่แปลว่า 'มีความเห็นว่า' เป็นกริยาบอกสภาวะ ใช้ present simple"}
+    - {t: am thinking, why: "am thinking ใช้เมื่อกำลังครุ่นคิดเรื่องหนึ่งอยู่ (thinking about) ไม่ใช้บอกความเห็น"}
+    - {t: thinks, why: "ประธาน I ไม่เติม -s"}
+    - {t: thinking, why: "ขาด am และความหมายนี้ไม่ใช้รูป continuous"}
+  explain: "I think (that)... = ฉันเห็นว่า · I'm thinking about... = ฉันกำลังคิดเรื่อง"
+  status: draft
+- id: cefr-b1-w01-034
+  kind: cloze
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  text: |
+    Hi everyone,
+    This week Ms Kanya (1) ____ a training course in Khon Kaen, so I (2) ____ her Grade 9 classes. She usually (3) ____ back on Fridays, but this time she returns next Monday.
+    Thanks,
+    Wichai
+  questions:
+    - choices:
+        - {t: is attending, why: "This week เป็นช่วงชั่วคราวที่กำลังดำเนินอยู่ ใช้ present continuous"}
+        - {t: attends, why: "present simple จะหมายถึงไปอบรมเป็นประจำ ไม่เข้ากับ This week"}
+        - {t: attend, why: "ประธานเอกพจน์ต้องเติม -s และความหมายเป็นเรื่องชั่วคราว"}
+        - {t: attended, why: "past simple ใช้กับเรื่องที่จบแล้ว แต่ข้อความบอกว่ายังอบรมอยู่สัปดาห์นี้"}
+    - choices:
+        - {t: am teaching, why: "เป็นผลชั่วคราวของสัปดาห์นี้ ใช้ present continuous กับประธาน I"}
+        - {t: teach, why: "present simple จะหมายถึงสอนห้องนี้เป็นประจำ ซึ่งไม่ใช่"}
+        - {t: teaches, why: "ประธาน I ไม่เติม -es"}
+        - {t: taught, why: "past simple ใช้กับเรื่องที่จบแล้ว แต่สัปดาห์นี้ยังไม่จบ"}
+    - choices:
+        - {t: comes, why: "usually และ on Fridays บอกกิจวัตร ใช้ present simple เติม -s"}
+        - {t: is coming, why: "usually ไม่ใช้คู่กับ present continuous"}
+        - {t: come, why: "ประธาน She ต้องเติม -s"}
+        - {t: coming, why: "ขาดกริยาช่วย และ usually ต้องการ present simple"}
+  status: draft
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-b1-w01-035
+  kind: read
+  skill: rd
+  topic: school-newsletter
+  level: 2
+  title: Welcome to Our New Teacher
+  passage: |
+    This term Ban Nong Bua School welcomes Ms Pimchanok Srisuk, our new English teacher. Ms Pimchanok comes from Lampang and has six years of teaching experience. She teaches Grades 7 to 9 and also runs the English Club every Thursday after school.
+
+    At the moment she is preparing an "English Morning" activity. Every Monday, students will practise short conversations before the first class. She believes students learn best when they are not afraid of making mistakes.
+
+    In her free time Ms Pimchanok enjoys cycling and growing vegetables. She is currently looking for students who want to help in the school garden. If you are interested, please see her in Room 12 during the lunch break.
+  questions:
+    - stem: What is the main purpose of the text?
+      choices:
+        - {t: to introduce a new member of staff, why: "ทั้งสามย่อหน้าแนะนำครูใหม่: ประวัติ งานที่ทำ และงานอดิเรก"}
+        - {t: to explain new school rules, why: "ไม่มีการพูดถึงกฎของโรงเรียนเลย"}
+        - {t: to invite parents to a meeting, why: "ผู้อ่านคือคนในโรงเรียน และไม่มีการเชิญประชุม"}
+        - {t: to report the results of a competition, why: "ไม่มีการแข่งขันหรือผลการแข่งขันในเนื้อหา"}
+    - stem: When does the English Club meet?
+      choices:
+        - {t: on Thursdays after school, why: "ย่อหน้าแรกเขียนว่า runs the English Club every Thursday after school"}
+        - {t: every Monday morning, why: "วันจันทร์เป็นกิจกรรม English Morning ไม่ใช่ชมรม"}
+        - {t: during the lunch break, why: "ช่วงพักเที่ยงคือเวลาที่ให้ไปพบครูที่ห้อง 12"}
+        - {t: before the first class on Thursdays, why: "before the first class เป็นเวลาของกิจกรรมวันจันทร์ ไม่ใช่วันพฤหัสบดี"}
+    - stem: What is Ms Pimchanok doing at the moment?
+      choices:
+        - {t: getting a new activity ready, why: "ย่อหน้าสองเขียนว่า At the moment she is preparing an English Morning activity (preparing = getting ready)"}
+        - {t: starting a cycling club for teachers, why: "การปั่นจักรยานเป็นงานอดิเรกของเธอ ไม่มีการตั้งชมรม"}
+        - {t: moving to Room 12, why: "ห้อง 12 คือที่ที่ให้นักเรียนไปพบ ไม่ได้บอกว่ากำลังย้าย"}
+        - {t: teaching in Lampang, why: "ลำปางคือบ้านเกิด ตอนนี้เธอสอนที่โรงเรียนบ้านหนองบัว"}
+    - stem: Students who want to help in the garden should ____.
+      choices:
+        - {t: go to Room 12 at lunchtime, why: "ประโยคสุดท้าย: please see her in Room 12 during the lunch break"}
+        - {t: come to the English Club, why: "ชมรมภาษาอังกฤษเป็นอีกกิจกรรมหนึ่ง ไม่เกี่ยวกับสวน"}
+        - {t: wait for her on Monday morning, why: "เช้าวันจันทร์เป็นกิจกรรมฝึกสนทนา ไม่ใช่เวลานัดเรื่องสวน"}
+        - {t: write their names in the garden, why: "ไม่มีการให้เขียนชื่อ ข้อความให้ไปพบครูด้วยตนเอง"}
+  status: draft
+- id: cefr-b1-w01-036
+  kind: listen
+  skill: li
+  topic: school-announcement
+  level: 2
+  script:
+    - {who: Announcer, en: "Attention, please. The staff meeting today will start at four o'clock, not three thirty. It will be in the library because the meeting room is being cleaned. Please bring your timetable."}
+  questions:
+    - stem: Where is the staff meeting today?
+      choices:
+        - {t: in the library, why: "ผู้ประกาศบอกว่า It will be in the library"}
+        - {t: in the meeting room, why: "ห้องประชุมกำลังทำความสะอาด จึงย้ายสถานที่"}
+        - {t: in Room 4, why: "เลข 4 ที่ได้ยินคือเวลา four o'clock ไม่ใช่หมายเลขห้อง"}
+        - {t: in the school hall, why: "ไม่มีการพูดถึงหอประชุม"}
+  status: draft
+- id: cefr-b1-w01-037
+  kind: listen
+  skill: li
+  topic: school-conversation
+  level: 2
+  script:
+    - {who: Man, en: "Are you teaching Grade 8 this term?"}
+    - {who: Woman, en: "No. I usually teach Grade 8, but this term I'm teaching Grade 7 because Mr Niran is away."}
+  questions:
+    - stem: Which grade is the woman teaching this term?
+      choices:
+        - {t: Grade 7, why: "เธอพูดว่า this term I'm teaching Grade 7 ซึ่งเป็นเรื่องชั่วคราวของเทอมนี้"}
+        - {t: Grade 8, why: "Grade 8 คือชั้นที่เธอสอนตามปกติ (usually) ไม่ใช่เทอมนี้"}
+        - {t: Grade 9, why: "ไม่มีการพูดถึง Grade 9 ในบทสนทนา"}
+        - {t: Grades 7 and 8, why: "เธอตอบ No ต่อคำถามเรื่อง Grade 8 เทอมนี้จึงสอนแค่ Grade 7"}
+  status: draft
+- id: cefr-b1-w01-038
+  kind: listen
+  skill: li
+  topic: phone-message
+  level: 2
+  script:
+    - {who: Nok, en: "Hi Somsri, it's Nok. I'm calling about the English camp. I'm still preparing the worksheets, so can we meet tomorrow morning instead of this afternoon? Call me back, please."}
+  questions:
+    - stem: Why is Nok calling?
+      choices:
+        - {t: to change the time of a meeting, why: "เธอขอพบพรุ่งนี้เช้าแทนบ่ายนี้ (instead of this afternoon)"}
+        - {t: to say the English camp is cancelled, why: "ค่ายยังจัดอยู่ เธอแค่ยังเตรียมใบงานไม่เสร็จ"}
+        - {t: to ask for some worksheets, why: "เธอเป็นคนเตรียมใบงานเอง ไม่ได้ขอจากสมศรี"}
+        - {t: to invite Somsri to a camp, why: "ทั้งสองคนทำงานเรื่องค่ายด้วยกันอยู่แล้ว ไม่ใช่การเชิญ"}
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b1-w01-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I, teach, English, at a secondary school, in Nan]
+  sentence: I teach English at a secondary school in Nan.
+  th: ฉันสอนภาษาอังกฤษที่โรงเรียนมัธยมแห่งหนึ่งในจังหวัดน่าน
+  why: "ลำดับ: ประธาน + กริยา + กรรม + สถานที่ (จากเล็กไปใหญ่)"
+  status: draft
+- id: cefr-b1-w01-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [How long, does, the lesson, usually, last]
+  sentence: How long does the lesson usually last?
+  th: ปกติคาบเรียนยาวเท่าไร
+  why: "คำถาม + does + ประธาน + คำบอกความถี่ + กริยารูปเดิม"
+  status: draft
+- id: cefr-b1-w01-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [My colleagues, are preparing, the exam papers, this week]
+  sentence: My colleagues are preparing the exam papers this week.
+  th: สัปดาห์นี้เพื่อนร่วมงานของฉันกำลังเตรียมข้อสอบ
+  why: "คำบอกเวลา this week มักอยู่ท้ายประโยค และ are preparing อยู่ติดกัน"
+  status: draft
+- id: cefr-b1-w01-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What, are, you, working on, at the moment]
+  sentence: What are you working on at the moment?
+  th: ตอนนี้คุณกำลังทำงานอะไรอยู่
+  why: "คำถาม + are + ประธาน + กริยา -ing และบุพบท on อยู่ติดกับ working"
+  status: draft
