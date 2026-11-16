@@ -1,0 +1,202 @@
+<title>TAYAK CEFR ต้นแบบหน้าจอ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* layout: a single phone-width column (max 440px); one screen visible at a time, picked from a screen index at the top */
+:root{
+  --paper:#F5F7F8; --card:#FFFFFF; --ink:#12233F; --ink2:#51607A; --line:#D7DEE6;
+  --accent:#0B6B5B; --accent-ink:#FFFFFF; --accent-soft:#DDEFEA;
+  --ok:#17794A; --ok-soft:#E1F3E8; --bad:#B3372F; --bad-soft:#FBE6E3; --warn:#8A5A00; --warn-soft:#FFF1D2;
+  --ui:"IBM Plex Sans Thai","Noto Sans Thai",system-ui,sans-serif;
+  --en:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+  --fs:17px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#0E1622; --card:#172233; --ink:#E9EEF5; --ink2:#A3B1C6; --line:#2B3A50;
+  --accent:#4FC3A9; --accent-ink:#06261F; --accent-soft:#143A34;
+  --ok:#6FD39B; --ok-soft:#143524; --bad:#FF9288; --bad-soft:#40201D; --warn:#F2C56B; --warn-soft:#3A2E12; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --paper:#0E1622; --card:#172233; --ink:#E9EEF5; --ink2:#A3B1C6; --line:#2B3A50;
+  --accent:#4FC3A9; --accent-ink:#06261F; --accent-soft:#143A34;
+  --ok:#6FD39B; --ok-soft:#143524; --bad:#FF9288; --bad-soft:#40201D; --warn:#F2C56B; --warn-soft:#3A2E12; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--ui);font-size:var(--fs);line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 40px}
+.wrap{max-width:440px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+h1,h2,h3,p{margin:0}
+h1{font-size:1.55rem;line-height:1.3;font-weight:700;text-wrap:balance}
+h2{font-size:1.15rem;line-height:1.35;font-weight:600}
+.small{font-size:.85rem;color:var(--ink2)}
+.en{font-family:var(--en);font-size:1.08rem;line-height:1.55}
+.note{background:var(--warn-soft);color:var(--warn);border-radius:10px;padding:10px 12px;font-size:.82rem;line-height:1.5}
+/* prototype chrome */
+.idx{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.idx button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink2);border-radius:999px;padding:6px 12px;font:inherit;font-size:.8rem;cursor:pointer}
+.idx button[aria-current="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+/* app */
+.screen{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;border-radius:12px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);font:inherit;font-weight:600;font-size:1.02rem;cursor:pointer;padding:10px 16px;text-align:center;width:100%}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.quiet{background:transparent;border-color:var(--line);color:var(--ink);font-weight:500}
+.btn:focus-visible,.opt:focus-visible,.idx button:focus-visible,.chip:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.row>.grow{flex:1;min-width:0}
+.tag{display:inline-block;align-self:flex-start;font-size:.75rem;font-weight:600;letter-spacing:.02em;padding:2px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
+.topbar{display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:700;letter-spacing:.02em}
+.list{display:flex;flex-direction:column;gap:8px;padding:0;margin:0;list-style:none}
+.list li{display:flex;gap:10px;align-items:flex-start}
+.tick{flex:none;width:22px;height:22px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:.8rem;font-weight:700;margin-top:3px}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.steps i{height:6px;border-radius:3px;background:var(--line)}
+.steps i.on{background:var(--accent)}
+.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;min-height:52px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--en);font-size:1.05rem;cursor:pointer}
+.opt b{font-family:var(--ui);font-weight:600;color:var(--ink2);flex:none}
+.opt.ok{border-color:var(--ok);background:var(--ok-soft)}
+.opt.bad{border-color:var(--bad);background:var(--bad-soft)}
+.why{font-family:var(--ui);font-size:.86rem;color:var(--ink2);margin-top:4px;line-height:1.5}
+.mark{font-family:var(--ui);font-size:.8rem;font-weight:700}
+.ok .mark{color:var(--ok)} .bad .mark{color:var(--bad)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.week div{border:1px solid var(--line);border-radius:10px;text-align:center;padding:6px 0;font-size:.75rem;color:var(--ink2);display:flex;flex-direction:column;gap:2px;align-items:center}
+.week div.done{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+.week div.today{border-color:var(--ink);color:var(--ink);font-weight:600}
+.bar{position:relative;height:12px;border-radius:6px;background:var(--line);overflow:visible}
+.bar>span{display:block;height:100%;border-radius:6px;background:var(--accent)}
+.bar>em{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.skill{display:grid;grid-template-columns:84px 1fr 86px;gap:10px;align-items:center;font-size:.86rem}
+.skill small{text-align:right;font-size:.76rem;font-weight:600}
+.s-ok{color:var(--ok)} .s-near{color:var(--warn)} .s-far{color:var(--ink2)}
+.nav{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}
+.nav span{padding:10px 0;text-align:center;font-size:.8rem;color:var(--ink2)}
+.nav span.on{color:var(--accent);font-weight:700;box-shadow:inset 0 3px 0 var(--accent)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:10px 12px;font:inherit;font-size:.9rem;cursor:pointer;min-height:44px}
+.chip.on{border-color:var(--accent);background:var(--accent-soft);color:var(--accent);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;font-variant-numeric:tabular-nums}
+th{font-weight:600;color:var(--ink2);font-size:.78rem}
+.price{font-size:2rem;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.was{text-decoration:line-through;color:var(--ink2);font-size:1rem;font-weight:400}
+.rule{border-left:3px solid var(--accent);padding-left:12px}
+.ex{display:flex;flex-direction:column;gap:2px;padding:8px 0;border-bottom:1px solid var(--line)}
+.ex:last-child{border-bottom:0}
+u.k{text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:3px}
+.link{background:none;border:0;color:var(--ink2);font:inherit;font-size:.82rem;text-decoration:underline;cursor:pointer;padding:6px 0;align-self:flex-start}
+@media (prefers-reduced-motion:no-preference){.screen{animation:in .18s ease-out}@keyframes in{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}}
+</style>
+
+<div class="wrap">
+  <div class="note">ต้นแบบเพื่อดูหน้าตาและลำดับการใช้งาน ยังไม่ใช่เว็บจริง · ชื่อแบรนด์ ราคา และเนื้อหาตัวอย่างเป็นร่าง รอบอสอนุมัติ · แตะแถบด้านล่างเพื่อข้ามไปจอที่ต้องการ</div>
+  <div class="idx" id="idx" role="tablist" aria-label="รายการจอ"></div>
+  <div id="app"></div>
+</div>
+
+<script>
+var S=[
+ ["แนะนำ",function(){return hdr()+
+  '<h1>เตรียมสอบวัดระดับภาษาอังกฤษสำหรับครู วันละ 20 นาที</h1>'+
+  '<p>คอร์ส 12 สัปดาห์ต่อหนึ่งระดับเป้าหมาย รู้ทุกวันว่าต้องทำอะไร และเห็นว่าเข้าใกล้เป้าแค่ไหน</p>'+
+  go(1,'วัดระดับฟรี 25 ข้อ · 20 นาที')+
+  '<p class="small">ไม่ต้องสมัคร ได้ช่วงระดับโดยประมาณ จุดอ่อนรายทักษะ และคอร์สที่เหมาะ</p>'+
+  '<div class="card"><h2>ได้อะไรในคอร์ส</h2><ul class="list">'+
+   li('แผนรายวัน 60 เซสชัน ทำต่อจากที่ค้างได้เสมอ')+
+   li('แบบฝึกแนวข้อสอบ พร้อมเหตุผลของทุกตัวเลือก')+
+   li('ข้อที่ผิดกลับมาให้ทบทวนเองตามเวลา')+
+   li('ชุดจับเวลาทุกสัปดาห์ และชุดวัดผล 3 ครั้ง')+
+   li('ฝึกฟัง พูด เขียน ด้วยสถานการณ์ในโรงเรียน')+'</ul></div>'+
+  '<div class="card"><h2>ใช้เวลาเท่าไร</h2><table><tr><th>จังหวะ</th><th>ต่อวัน</th><th>จบใน</th></tr>'+
+   '<tr><td>เบา</td><td>10 นาที</td><td>24 สัปดาห์</td></tr><tr><td>มาตรฐาน</td><td>20 นาที</td><td>12 สัปดาห์</td></tr><tr><td>เร่ง</td><td>40 นาที</td><td>6 สัปดาห์</td></tr></table>'+
+   '<p class="small">รวมประมาณ 35 ชั่วโมงต่อคอร์ส การขึ้นหนึ่งระดับเต็มใช้เวลามากกว่านี้ แบบวัดระดับจะบอกตรง ๆ ว่าคุณห่างเป้าเท่าไร</p></div>'+
+  '<p class="small">แบบฝึกทั้งหมดเขียนขึ้นใหม่ เป็นแนวข้อสอบและชุดจำลอง ไม่ใช่การรับรองระดับภาษา</p>'}],
+ ["วัดระดับ",function(){return head('วัดระดับ','ข้อ 7 จาก 25','เหลือ 14:20')+
+  '<div class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>'+
+  '<p class="small">เลือกคำที่ถูกต้อง</p>'+
+  '<p class="en">The meeting ____ already started when I arrived at school.</p>'+
+  opt('ก','has')+opt('ข','had')+opt('ค','was')+opt('ง','is')+
+  go(2,'ข้อต่อไป')+'<button class="link">ข้ามข้อนี้</button>'}],
+ ["ผลวัดระดับ",function(){return hdr()+
+  '<span class="tag">ผลโดยประมาณ</span><h1>คุณอยู่ช่วงบนของ A2</h1>'+
+  '<p>ตอบถูก 14 จาก 25 ข้อ ใกล้เป้าหมาย B1 แล้ว คอร์สเป้าหมาย B1 หนึ่งรอบ (12 สัปดาห์) น่าจะพอ ถ้าเรียนสม่ำเสมอ</p>'+
+  '<div class="card"><h2>รายทักษะ</h2>'+
+   sk('ไวยากรณ์',48,70,'ยังห่างเป้า','far')+sk('คำศัพท์',66,70,'ใกล้เป้า','near')+sk('การอ่าน',72,70,'ช่วงเป้า','ok')+sk('สนทนา',60,70,'ใกล้เป้า','near')+
+   '<p class="small">เส้นตั้งคือเกณฑ์ของระดับ B1 ในแบบฝึกของเรา ไม่ใช่ผลสอบ</p></div>'+
+  '<div class="card"><h2>จุดที่ควรเริ่มก่อน</h2><ul class="list">'+li('present perfect กับ past simple (ผิด 3 จาก 4 ข้อ)')+li('คำเชื่อมบอกเหตุผลและความขัดแย้ง')+li('คำกริยาที่ตามด้วย -ing หรือ to')+'</ul></div>'+
+  go(3,'ดูแผนเรียนของฉัน')+
+  '<button class="btn ghost" data-go="5">ลองเซสชันตัวอย่างฟรี</button>'+
+  '<p class="small">เฉลยและเหตุผลรายข้อของแบบวัดระดับ เปิดดูได้เมื่อเริ่มคอร์ส</p>'}],
+ ["ตั้งแผน",function(){return head('ตั้งแผน','3 คำถาม','')+
+  '<h2>ตั้งใจจะสอบเมื่อไร</h2><div class="chips">'+chip('ภายใน 3 เดือน',1)+chip('3–6 เดือน')+chip('ยังไม่กำหนด')+'</div>'+
+  '<h2>เรียนช่วงไหนของวัน</h2><div class="chips">'+chip('ก่อนเข้าแถว')+chip('พักเที่ยง')+chip('หลังเลิกเรียน',1)+chip('ก่อนนอน')+'</div>'+
+  '<h2>วันละกี่นาที</h2><div class="chips">'+chip('10 นาที')+chip('20 นาที',1)+chip('40 นาที')+'</div>'+
+  '<div class="card"><p><b>แผนของคุณ:</b> คอร์สเป้าหมาย B1 · วันละ 20 นาที สัปดาห์ละ 6 วัน</p><p>เริ่มวันนี้ จบ <b>8 ก.พ. 2570</b> มีชุดวัดผล 3 ครั้ง</p><p class="small">เปลี่ยนจังหวะได้ทุกเมื่อ ระบบจะคำนวณวันจบให้ใหม่</p></div>'+
+  go(4,'ใช้แผนนี้')+'<button class="btn quiet">เพิ่มเวลาเรียนลงปฏิทินมือถือ 16.30 น.</button>'}],
+ ["วันนี้",function(){return hdr()+
+  '<div><p class="small">สัปดาห์ 4 จาก 12 · ประสบการณ์และการอบรม</p><h1>วันนี้: present perfect กับ past simple</h1></div>'+
+  go(5,'เริ่มเซสชันวันนี้ · 20 นาที')+
+  '<button class="btn quiet">วันนี้ยุ่ง ทบทวน 5 นาที (8 ข้อถึงกำหนด)</button>'+
+  '<div class="card"><div class="row"><h2 class="grow">สัปดาห์นี้ 3 จาก 5 วัน</h2><span class="small">ต่อเนื่อง 3 สัปดาห์</span></div>'+
+   '<div class="week"><div class="done">จ<span>✓</span></div><div class="done">อ<span>✓</span></div><div>พ<span>–</span></div><div class="done">พฤ<span>✓</span></div><div class="today">ศ<span>วันนี้</span></div><div>ส<span>ชุดย่อย</span></div><div>อา<span>พัก</span></div></div></div>'+
+  '<div class="card"><div class="row"><h2 class="grow">ความพร้อมสู่ B1</h2><span class="small">เรียนแล้ว 9 ชม. 40 นาที</span></div>'+
+   sk('ไวยากรณ์',58,70,'ใกล้เป้า','near')+sk('คำศัพท์',71,70,'ช่วงเป้า','ok')+sk('อ่าน ฟัง',68,70,'ใกล้เป้า','near')+
+   '<p class="small">ชุดวัดผลครั้งที่ 1 อีก 2 วัน</p></div>'+
+  nav(0)}],
+ ["เรียน",function(){return head('เซสชัน','ขั้น 2 จาก 5 · เรียน','เหลือ ~15 นาที')+
+  '<div class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>'+
+  '<h2>เล่าประสบการณ์ ใช้ present perfect · บอกเวลาที่จบแล้ว ใช้ past simple</h2>'+
+  '<div class="card"><p class="rule">ถ้าในประโยคมีเวลาที่ผ่านไปแล้วชัดเจน (yesterday, last year, in 2023) ใช้ past simple เสมอ</p>'+
+   ex('I <u class="k">have attended</u> three workshops on assessment.','ไม่บอกว่าเมื่อไร สนใจแค่ว่าเคย')+
+   ex('I <u class="k">attended</u> a workshop in Chiang Mai <u class="k">last March</u>.','บอกเวลาที่จบแล้ว')+
+   ex('She <u class="k">has taught</u> here <u class="k">since</u> 2019.','เริ่มในอดีตและยังสอนอยู่')+'</div>'+
+  '<div class="card"><h2>จุดที่คนไทยพลาดบ่อย</h2><p>ภาษาไทยใช้คำว่า "แล้ว" หรือ "เคย" ได้กับทุกเวลา จึงมักเขียนว่า</p><p class="en"><s>I have visited Japan last year.</s></p><p>ต้องเป็น <span class="en">I visited Japan last year.</span></p></div>'+
+  go(6,'เข้าใจแล้ว ไปฝึก 10 ข้อ')}],
+ ["ฝึก + เฉลย",function(){return head('เซสชัน','ขั้น 3 จาก 5 · ฝึก ข้อ 4/10','เหลือ ~9 นาที')+
+  '<div class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>'+
+  '<p class="en">Our school ____ the new reading programme two years ago.</p>'+
+  optw('ก','has started','bad','คำตอบของคุณ · ยังไม่ถูก','two years ago เป็นเวลาที่จบแล้ว จึงใช้ present perfect ไม่ได้')+
+  optw('ข','started','ok','คำตอบที่ถูก','มี two years ago บอกเวลาในอดีตที่จบแล้ว ใช้ past simple')+
+  optw('ค','starts','','','present simple ใช้กับเรื่องที่เป็นประจำ ไม่ใช่เหตุการณ์เมื่อสองปีก่อน')+
+  optw('ง','was starting','','','past continuous ใช้กับเหตุการณ์ที่กำลังดำเนินอยู่ ณ จุดหนึ่งในอดีต')+
+  '<p class="small">ข้อนี้จะกลับมาให้ทบทวนพรุ่งนี้</p>'+
+  go(7,'ข้อต่อไป')+'<button class="link">รายงานข้อนี้</button>'}],
+ ["สรุปเซสชัน",function(){return hdr()+
+  '<span class="tag">จบเซสชัน · 19 นาที</span><h1>ถูก 8 จาก 10 ข้อ</h1>'+
+  '<div class="card"><h2>วันนี้ได้อะไร</h2><ul class="list">'+li('แยก present perfect กับ past simple ด้วยคำบอกเวลาได้')+li('ทบทวนข้อเก่า 7 ข้อ ถูก 6')+li('2 ข้อจะกลับมาพรุ่งนี้')+'</ul></div>'+
+  '<div class="card"><h2>ประโยคใช้ในห้องเรียน</h2><p class="en">Have you finished your worksheet yet?</p><p class="small">ทำใบงานเสร็จหรือยัง · ลองใช้พรุ่งนี้เช้า</p><button class="btn quiet">ฟังเสียงอ่าน</button></div>'+
+  '<div class="card"><div class="row"><h2 class="grow">สัปดาห์นี้ 4 จาก 5 วัน</h2><span class="small">อีก 1 วันครบเป้า</span></div><p class="small">พรุ่งนี้: ชุดย่อยจับเวลา 20 ข้อ 15 นาที</p></div>'+
+  go(8,'ดูผลของฉัน')+'<button class="btn quiet" data-go="4">กลับหน้าวันนี้</button>'}],
+ ["ผล",function(){return hdr()+
+  '<h1>ผลและความพร้อม</h1><p class="small">คอร์สเป้าหมาย B1 · สัปดาห์ 8 จาก 12 · เรียนแล้ว 22 ชม. 10 นาที</p>'+
+  '<div class="card"><h2>ความพร้อมรายทักษะ</h2>'+sk('ไวยากรณ์',69,70,'ใกล้เป้า','near')+sk('คำศัพท์',78,70,'ช่วงเป้า','ok')+sk('การอ่าน',74,70,'ช่วงเป้า','ok')+sk('การฟัง',61,70,'ใกล้เป้า','near')+sk('เขียน พูด',50,70,'ยังห่างเป้า','far')+
+   '<p class="small">คำนวณจาก 212 ข้อใน 14 วันล่าสุด เป็นการประเมินจากแบบฝึกของเรา ไม่ใช่ผลสอบ</p></div>'+
+  '<div class="card"><h2>ชุดวัดผล</h2><table><tr><th>ครั้ง</th><th>วันที่</th><th>คะแนน</th><th>เทียบครั้งก่อน</th></tr>'+
+   '<tr><td>1</td><td>14 ธ.ค.</td><td>22/40</td><td>–</td></tr><tr><td>2</td><td>11 ม.ค.</td><td>27/40</td><td class="s-ok">▲ 5</td></tr><tr><td>3</td><td>8 ก.พ.</td><td>–</td><td>ยังไม่ถึงกำหนด</td></tr></table></div>'+
+  '<div class="card"><h2>ควรฝึกเพิ่ม</h2><ul class="list">'+li('การฟัง: จับใจความประกาศสั้น (ถูก 5 จาก 11)')+li('เขียนอีเมลทางการ: ยังไม่ได้ทำงานสัปดาห์ 6')+'</ul><button class="btn ghost">ฝึกการฟัง 10 นาที</button></div>'+
+  '<button class="btn quiet">ดาวน์โหลดบันทึกการพัฒนาตนเอง (ช่วงที่ 2)</button>'+
+  nav(3)}],
+ ["ซื้อ",function(){return hdr()+
+  '<h1>คอร์สเป้าหมาย B1</h1><p>12 สัปดาห์ ประมาณ 35 ชั่วโมง ใช้ได้ 6 เดือนนับจากวันซื้อ</p>'+
+  '<div class="card"><span class="tag">ราคาเปิดตัว</span><div class="row"><span class="price">290 บาท</span><span class="was">490 บาท</span></div><p class="small">จ่ายครั้งเดียวผ่านพร้อมเพย์ ไม่ผูกบัตร ไม่ต่ออายุเอง</p>'+
+   '<button class="btn">เข้าสู่ระบบด้วย Google เพื่อซื้อ</button></div>'+
+  '<div class="card"><h2>สิ่งที่ได้</h2><ul class="list">'+li('60 เซสชันรายวัน 12 ชุดย่อย 3 ชุดวัดผล')+li('เหตุผลของทุกตัวเลือกในทุกข้อ')+li('ทบทวนข้อผิดอัตโนมัติ และสมุดข้อผิด')+li('ห้องฝึกเขียนและพูด 12 งาน พร้อมคำตอบตัวอย่าง')+li('รายงานความพร้อมรายทักษะ และบันทึกชั่วโมงเรียน')+'</ul></div>'+
+  '<div class="card"><h2>ถ้าเรียนครบแล้วยังไม่ถึงเป้า</h2><p>เรียนครบร้อยละ 80 ของแผนและทำชุดวัดผลครบ 3 ครั้ง แต่ยังไม่อยู่ในช่วงเป้า เราต่อเวลาคอร์สให้ฟรี 3 เดือน</p><p class="small">เราไม่สัญญาผลสอบ คืนเงินได้ภายใน 7 วันถ้าทำไม่เกิน 3 เซสชัน</p></div>'}]
+];
+function hdr(){return '<div class="topbar"><span class="brand">TAYAK · CEFR</span><span class="small">ชื่อชั่วคราว</span></div>'}
+function head(a,b,c){return '<div class="topbar"><span class="small">✕ '+a+'</span><span class="small">'+b+'</span><span class="small">'+c+'</span></div>'}
+function go(i,t){return '<button class="btn" data-go="'+i+'">'+t+'</button>'}
+function li(t){return '<li><span class="tick" aria-hidden="true">✓</span><span>'+t+'</span></li>'}
+function opt(k,t){return '<button class="opt"><b>'+k+'</b><span>'+t+'</span></button>'}
+function optw(k,t,c,m,w){return '<div class="opt '+c+'"><b>'+k+'</b><span>'+t+(m?' <span class="mark">'+(c=='ok'?'✓ ':'✕ ')+m+'</span>':'')+'<div class="why">'+w+'</div></span></div>'}
+function sk(n,v,t,s,c){return '<div class="skill"><span>'+n+'</span><div class="bar" role="img" aria-label="'+n+' '+v+' จากเกณฑ์ '+t+'"><span style="width:'+v+'%"></span><em style="left:'+t+'%"></em></div><small class="s-'+c+'">'+s+'</small></div>'}
+function chip(t,on){return '<button class="chip'+(on?' on':'')+'">'+t+'</button>'}
+function ex(e,th){return '<div class="ex"><span class="en">'+e+'</span><span class="small">'+th+'</span></div>'}
+function nav(i){var n=['วันนี้','คอร์ส','ฝึกเพิ่ม','ผล'];return '<div class="nav">'+n.map(function(x,j){return '<span class="'+(j==i?'on':'')+'">'+x+'</span>'}).join('')+'</div>'}
+var cur=0,idx=document.getElementById('idx'),app=document.getElementById('app');
+function show(i){cur=i;app.innerHTML='<div class="screen">'+S[i][1]()+'</div>';
+  idx.innerHTML=S.map(function(s,j){return '<button role="tab" data-go="'+j+'" aria-current="'+(j==i)+'">'+(j+1)+' '+s[0]+'</button>'}).join('');
+  var b=idx.querySelector('[aria-current="true"]');if(b&&b.scrollIntoView)b.scrollIntoView({inline:'center',block:'nearest'});}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-go]');if(b){show(+b.getAttribute('data-go'));window.scrollTo(0,0);return}
+  var c=e.target.closest('.chip');if(c){var p=c.parentNode.querySelectorAll('.chip');for(var k=0;k<p.length;k++)p[k].classList.remove('on');c.classList.add('on')}});
+show(0);
+</script>
