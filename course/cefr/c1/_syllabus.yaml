@@ -1,0 +1,408 @@
+# ผังเนื้อหาคอร์ส c1 (เป้าหมาย C1) · 12 สัปดาห์ ระดับเซสชัน · 16 พ.ย. 2569
+# ผู้เขียนเนื้อหา: ทำตามผังนี้ ห้ามเปลี่ยนหัวข้อ ลำดับ หรือรายการศัพท์เอง ถ้าเห็นว่าควรเปลี่ยนให้เสนอบอส
+# d1 d3 = บทเรียนไวยากรณ์ของวันที่ 1 และ 3 · vocab = 12 คำของวันที่ 2 (vocab_new = คำที่ไม่มีในคลังเกมครัว ต้องเขียนใหม่)
+# d4 = แนวบทอ่านและบทฟังของวันที่ 4 · วันที่ 5 = ห้องฝึก (lab) สลับ พูด/เขียน · วันที่ 6 = ชุดย่อยจับเวลา
+# รูปแบบไฟล์รายสัปดาห์และกติกาการเขียน: docs/writing/cefr.md · ต้นแบบ: course/cefr/b1/w01.yaml
+course: cefr/c1
+name_th: เป้าหมาย C1
+for_th: 'ผลวัดระดับ: ช่วงบนของ B2 ขึ้นไป'
+explain_lang: อังกฤษแบบสั้น มีปุ่มดูไทย
+read_words: 250-380
+weeks:
+- week: 1
+  phase: 1
+  theme_th: พูดให้แม่นยำ
+  d1:
+    topic: tense-aspect-nuance
+    title_th: ความต่างเล็กน้อยของ tense
+    scope: perfect กับ continuous ในความหมายที่ใกล้กัน · stative ที่ใช้ continuous ได้
+  d3:
+    topic: modality-advanced
+    title_th: ระดับความแน่ใจ
+    scope: bound to likely to · modal perfect · needn't have กับ didn't need to
+  vocab:
+  - articulate
+  - convey
+  - coherent
+  - concise
+  - explicit
+  - implicit
+  - nuance
+  - ambiguous
+  - lucid
+  - eloquent
+  - connotation
+  - allude
+  vocab_new: []
+  d4:
+    read: บทความเรื่องการสื่อสารในองค์กร
+    listen: บรรยายเชิงวิชาการ
+  lab_task_th: พูดอธิบายแนวคิดนามธรรมให้ผู้ฟังทั่วไปเข้าใจ 2 นาที
+  can_do_th:
+  - อธิบายแนวคิดที่ซับซ้อนได้ชัดและกระชับ
+  - จับความหมายแฝงและทัศนะของผู้เขียนได้
+  lab_mode: speak
+- week: 2
+  phase: 1
+  theme_th: เน้นด้วยการสลับลำดับ
+  d1:
+    topic: negative-inversion
+    title_th: ขึ้นต้นด้วยคำปฏิเสธ
+    scope: Never Seldom Rarely Not until No sooner Hardly Under no circumstances
+  d3:
+    topic: inverted-conditionals
+    title_th: เงื่อนไขแบบทางการ
+    scope: Had I known · Were it not for · Should you need
+  vocab:
+  - unprecedented
+  - imminent
+  - paramount
+  - imperative
+  - substantial
+  - profound
+  - formidable
+  - acute
+  - incessant
+  - invariably
+  - exacerbate
+  - deteriorate
+  vocab_new: []
+  d4:
+    read: บทบรรณาธิการเรื่องวิกฤตการเรียนรู้ (สมมติ)
+    listen: สุนทรพจน์ · การเน้นย้ำ
+  lab_task_th: เขียนย่อหน้าเปิดของบทความเชิงโน้มน้าว 150 คำ
+  can_do_th:
+  - ใช้โครงสร้างเน้นในงานเขียนทางการได้
+  - เข้าใจสุนทรพจน์ที่ใช้ภาษาเชิงโวหาร
+  lab_mode: write
+- week: 3
+  phase: 1
+  theme_th: เน้นด้วยโครงสร้าง cleft
+  d1:
+    topic: cleft-sentences
+    title_th: ชี้ว่าส่วนไหนสำคัญ
+    scope: It is/was...that · What...is · All...is · The reason why
+  d3:
+    topic: fronting-emphasis
+    title_th: ย้ายมาไว้หน้า
+    scope: fronting · do/does/did เพื่อเน้น · such/so + inversion
+  vocab:
+  - underpin
+  - foster
+  - cultivate
+  - facilitate
+  - empower
+  - bolster
+  - consolidate
+  - streamline
+  - scaffold
+  - endorse
+  - advocate
+  - endeavour
+  vocab_new: []
+  d4:
+    read: บทความเรื่องภาวะผู้นำทางวิชาการ
+    listen: อภิปรายกลุ่ม · การย้ำประเด็น
+  lab_task_th: พูดโน้มน้าวให้ที่ประชุมสนับสนุนโครงการ 2 นาที
+  can_do_th:
+  - เน้นประเด็นสำคัญในการพูดและเขียนได้อย่างมีชั้นเชิง
+  - ตามการอภิปรายที่ผู้พูดเน้นและแย้งกัน
+  lab_mode: speak
+- week: 4
+  phase: 1
+  theme_th: ภาษาทางการ
+  d1:
+    topic: subjunctive-formal
+    title_th: ข้อเรียกร้องและข้อเสนอแบบทางการ
+    scope: insist/recommend that he be · It is vital that · lest
+  d3:
+    topic: nominalisation
+    title_th: เปลี่ยนกริยาเป็นนาม
+    scope: nominalisation เพื่อความกระชับและเป็นทางการ
+  vocab:
+  - stipulate
+  - compliance
+  - accountable
+  - bureaucracy
+  - hierarchy
+  - discretion
+  - onus
+  - caveat
+  - entail
+  - relinquish
+  - concede
+  - notwithstanding
+  vocab_new: []
+  d4:
+    read: ระเบียบและหนังสือราชการภาษาอังกฤษ (สมมติ)
+    listen: แถลงการณ์ทางการ
+  lab_task_th: เขียนข้อเสนอทางการถึงผู้บริหาร 200 คำ
+  can_do_th:
+  - เขียนข้อเสนอและหนังสือทางการด้วยระดับภาษาที่เหมาะสมได้
+  - อ่านเอกสารทางการและจับเงื่อนไขสำคัญได้
+  lab_mode: write
+- week: 5
+  phase: 2
+  theme_th: เขียนให้กระชับ
+  d1:
+    topic: participle-clauses-advanced
+    title_th: ย่อประโยคระดับสูง
+    scope: present past perfect participle clauses · with + participle
+  d3:
+    topic: ellipsis-substitution
+    title_th: ละและแทน
+    scope: ellipsis · so do I · one/ones · do so
+  vocab:
+  - brevity
+  - digress
+  - delineate
+  - exemplify
+  - formulate
+  - disseminate
+  - elicit
+  - encompass
+  - pertinent
+  - cogent
+  - succinct
+  - rudimentary
+  vocab_new:
+  - succinct
+  d4:
+    read: บทวิจารณ์หนังสือวิชาการ
+    listen: บรรยายที่มีการอ้างอิงย้อน
+  lab_task_th: พูดสรุปบทความที่อ่านใน 90 วินาทีโดยไม่เสียใจความ
+  can_do_th:
+  - สรุปเนื้อหายาวให้สั้นโดยคงใจความได้
+  - ตามการอ้างอิงย้อนในข้อความยาวได้
+  lab_mode: speak
+- week: 6
+  phase: 2
+  theme_th: ลดน้ำหนักและระวังคำ
+  d1:
+    topic: hedging-distancing
+    title_th: ไม่ฟันธง
+    scope: It would appear · is thought to · arguably · passive reporting
+  d3:
+    topic: conditionals-advanced
+    title_th: เงื่อนไขระดับสูง
+    scope: but for · supposing · were to · mixed
+  vocab:
+  - plausible
+  - conjecture
+  - tenuous
+  - ostensibly
+  - sceptical
+  - credible
+  - corroborate
+  - discern
+  - anomaly
+  - discrepancy
+  - fallible
+  - ambivalent
+  vocab_new: []
+  d4:
+    read: บทความวิเคราะห์งานวิจัย
+    listen: สัมมนาวิชาการ
+  lab_task_th: เขียนวิจารณ์ข้อสรุปของงานวิจัยอย่างระวัง 200 คำ
+  can_do_th:
+  - วิจารณ์ข้ออ้างโดยแยกหลักฐานกับการคาดเดาได้
+  - ประเมินน้ำหนักของข้อโต้แย้งในบทความได้
+  lab_mode: write
+- week: 7
+  phase: 2
+  theme_th: เชื่อมความระดับบทความ
+  d1:
+    topic: advanced-linking
+    title_th: คำเชื่อมทางการ
+    scope: albeit whereby insofar as notwithstanding inasmuch as
+  d3:
+    topic: discourse-reference
+    title_th: ผูกเรื่องให้ต่อเนื่อง
+    scope: the former/the latter · such · this + นามสรุป · discourse markers
+  vocab:
+  - overarching
+  - holistic
+  - inherent
+  - intrinsic
+  - prevalent
+  - pervasive
+  - ubiquitous
+  - dichotomy
+  - juxtaposition
+  - disparity
+  - subsequent
+  - culminate
+  vocab_new: []
+  d4:
+    read: บทความเชิงวิเคราะห์หลายย่อหน้า
+    listen: บรรยายยาวมีโครงสร้าง
+  lab_task_th: พูดนำเสนอประเด็นซับซ้อนโดยมีโครงเรื่องชัด 3 นาที
+  can_do_th:
+  - เรียบเรียงข้อความยาวให้ต่อเนื่องและมีโครงสร้างได้
+  - มองเห็นโครงสร้างของบทความยาวและความสัมพันธ์ระหว่างย่อหน้า
+  lab_mode: speak
+- week: 8
+  phase: 2
+  theme_th: คำที่ใช้คู่กันและสำนวน
+  d1:
+    topic: collocation-advanced
+    title_th: คำที่เจ้าของภาษาใช้คู่กัน
+    scope: กริยา+นาม · วิเศษณ์+คุณศัพท์ · คู่คำตายตัว
+  d3:
+    topic: prepositions-phrasal-register
+    title_th: ทางการหรือกลาง ๆ
+    scope: dependent prepositions · กริยาวลีกับคำทางการที่ความหมายเท่ากัน
+  vocab:
+  - mitigate
+  - alleviate
+  - ameliorate
+  - curtail
+  - hinder
+  - impede
+  - hamper
+  - thwart
+  - undermine
+  - circumvent
+  - deter
+  - expedite
+  vocab_new: []
+  d4:
+    read: รายงานเชิงนโยบาย (สมมติ)
+    listen: สัมภาษณ์ผู้เชี่ยวชาญ
+  lab_task_th: เขียนสรุปเชิงนโยบายพร้อมข้อเสนอแนะ 220 คำ
+  can_do_th:
+  - เลือกคำที่ใช้คู่กันได้แม่นและเป็นธรรมชาติ
+  - ปรับระดับภาษาระหว่างทางการกับกลางได้
+  lab_mode: write
+- week: 9
+  phase: 3
+  theme_th: น้ำเสียงและเจตนา
+  d1:
+    topic: tone-register
+    title_th: น้ำเสียงของข้อความ
+    scope: การเลือกคำและโครงสร้างตามน้ำเสียง · understatement · irony เบื้องต้น
+  d3:
+    topic: unreal-past-structures
+    title_th: สมมติและตำหนิอย่างสุภาพ
+    scope: as if/as though · it's high time · would rather + past
+  vocab:
+  - candid
+  - condescending
+  - cynical
+  - complacent
+  - adamant
+  - indifferent
+  - dogmatic
+  - astute
+  - diligent
+  - meticulous
+  - scrupulous
+  - pragmatic
+  vocab_new: []
+  d4:
+    read: คอลัมน์แสดงทัศนะที่มีน้ำเสียงชัด
+    listen: บทสนทนาที่มีนัย
+  lab_task_th: พูดให้ข้อเสนอแนะเชิงวิจารณ์อย่างสุภาพแก่เพื่อนร่วมงาน 2 นาที
+  can_do_th:
+  - จับน้ำเสียง ทัศนคติ และเจตนาที่ไม่ได้พูดตรง ๆ ได้
+  - ให้ข้อเสนอแนะเชิงวิจารณ์โดยรักษาความสัมพันธ์ได้
+  lab_mode: speak
+- week: 10
+  phase: 3
+  theme_th: อ่านเชิงวิเคราะห์
+  d1:
+    topic: concessive-structures
+    title_th: ยอมรับก่อนแย้ง
+    scope: much as · however + adj · whatever · no matter
+  d3:
+    topic: comparison-advanced
+    title_th: เปรียบเทียบระดับสูง
+    scope: the more...the more · nowhere near · by far · not so much...as
+  vocab:
+  - detrimental
+  - negligible
+  - trivial
+  - precarious
+  - volatile
+  - viable
+  - feasible
+  - tangible
+  - equitable
+  - inclusive
+  - conducive
+  - contentious
+  vocab_new: []
+  d4:
+    read: บทความวิชาการเรื่องความเสมอภาคทางการศึกษา
+    listen: อภิปรายเชิงวิเคราะห์
+  lab_task_th: เขียนเรียงความเชิงวิเคราะห์เปรียบเทียบสองแนวทาง 250 คำ
+  can_do_th:
+  - วิเคราะห์เปรียบเทียบแนวคิดและประเมินความเป็นไปได้
+  - อนุมานสิ่งที่ผู้เขียนไม่ได้กล่าวตรง ๆ ได้
+  lab_mode: write
+- week: 11
+  phase: 3
+  theme_th: เรียบเรียงใหม่ด้วยคำที่กำหนด
+  d1:
+    topic: transformations
+    title_th: ความหมายเดิม โครงสร้างใหม่
+    scope: เปลี่ยนโครงสร้างโดยคงความหมาย passive causative inversion wish
+  d3:
+    topic: word-formation-advanced
+    title_th: ตระกูลคำระดับสูง
+    scope: prefix suffix ที่ซับซ้อน · คำประสม · การเปลี่ยนชนิดคำหลายขั้น
+  vocab:
+  - resilient
+  - proficient
+  - adept
+  - insightful
+  - inquisitive
+  - commendable
+  - rigorous
+  - comprehensive
+  - compelling
+  - authentic
+  - impartial
+  - intricate
+  vocab_new: []
+  d4:
+    read: บทความเรื่องการพัฒนาครู
+    listen: บรรยายที่ต้องจดประเด็น
+  lab_task_th: พูดอภิปรายหัวข้อนามธรรมโดยตอบคำถามต่อเนื่อง 3 นาที
+  can_do_th:
+  - พูดเรื่องเดียวกันได้หลายแบบโดยคงความหมาย
+  - ใช้คำในรูปที่ถูกต้องในบริบทวิชาการ
+  lab_mode: speak
+- week: 12
+  phase: 3
+  theme_th: ซ้อมใหญ่
+  d1:
+    topic: review-c1-a
+    title_th: ทบทวนปนกัน 1
+    scope: โครงสร้างเน้น เงื่อนไข และภาษาทางการ
+  d3:
+    topic: review-c1-b
+    title_th: ทบทวนปนกัน 2
+    scope: การเชื่อมความ คำที่ใช้คู่กัน น้ำเสียง + กลยุทธ์บริหารเวลา
+  vocab:
+  - incentive
+  - impetus
+  - rapport
+  - repercussion
+  - stigma
+  - consensus
+  - foresight
+  - acumen
+  - propensity
+  - affinity
+  - plethora
+  - paucity
+  vocab_new: []
+  d4:
+    read: บทความยาวเชิงวิเคราะห์
+    listen: ปนกันทุกแบบ
+  lab_task_th: 'งานเขียนเต็มรูป: เรียงความเชิงโต้แย้ง 250 คำ'
+  can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+  lab_mode: write

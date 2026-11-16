@@ -1,0 +1,409 @@
+# ผังเนื้อหาคอร์ส b2 (เป้าหมาย B2) · 12 สัปดาห์ ระดับเซสชัน · 16 พ.ย. 2569
+# ผู้เขียนเนื้อหา: ทำตามผังนี้ ห้ามเปลี่ยนหัวข้อ ลำดับ หรือรายการศัพท์เอง ถ้าเห็นว่าควรเปลี่ยนให้เสนอบอส
+# d1 d3 = บทเรียนไวยากรณ์ของวันที่ 1 และ 3 · vocab = 12 คำของวันที่ 2 (vocab_new = คำที่ไม่มีในคลังเกมครัว ต้องเขียนใหม่)
+# d4 = แนวบทอ่านและบทฟังของวันที่ 4 · วันที่ 5 = ห้องฝึก (lab) สลับ พูด/เขียน · วันที่ 6 = ชุดย่อยจับเวลา
+# รูปแบบไฟล์รายสัปดาห์และกติกาการเขียน: docs/writing/cefr.md · ต้นแบบ: course/cefr/b1/w01.yaml
+course: cefr/b2
+name_th: เป้าหมาย B2
+for_th: 'ผลวัดระดับ: ช่วงบนของ B1 ถึงช่วงล่างของ B2'
+explain_lang: ไทย ใช้ศัพท์ไวยากรณ์อังกฤษกำกับ
+read_words: 180-260
+weeks:
+- week: 1
+  phase: 1
+  theme_th: เล่าเหตุการณ์ในโรงเรียน
+  d1:
+    topic: narrative-tenses
+    title_th: ลำดับเหตุการณ์ในอดีต
+    scope: past simple continuous perfect ใช้ร่วมกัน
+  d3:
+    topic: past-perfect-continuous-habits
+    title_th: ทำมาก่อนหน้านั้น และนิสัยในอดีต
+    scope: past perfect continuous · used to กับ would
+  vocab:
+  - challenge
+  - issue
+  - circumstance
+  - consequence
+  - overcome
+  - cope
+  - eventually
+  - initially
+  - gradually
+  - frustrated
+  - overwhelmed
+  - reluctant
+  vocab_new: []
+  d4:
+    read: เรื่องเล่าของครูปีแรก
+    listen: เล่าเหตุการณ์ยาว · ลำดับเวลา
+  lab_task_th: พูดเล่าปัญหาที่เคยแก้ได้ในงาน 90 วินาที
+  can_do_th:
+  - เล่าเรื่องที่ซับซ้อนโดยเรียงลำดับเวลาได้ชัด
+  - ตามเรื่องเล่ายาวและจับลำดับเหตุการณ์ได้
+  lab_mode: speak
+- week: 2
+  phase: 1
+  theme_th: งานที่ทำมาอย่างต่อเนื่อง
+  d1:
+    topic: present-perfect-simple-vs-continuous
+    title_th: ผลลัพธ์ หรือ ความต่อเนื่อง
+    scope: present perfect simple กับ continuous
+  d3:
+    topic: articles-quantifiers-advanced
+    title_th: a the หรือไม่ใส่
+    scope: article กับนามทั่วไป นามเฉพาะ สถาบัน · each every either neither
+  vocab:
+  - progress
+  - workload
+  - burnout
+  - maintain
+  - monitor
+  - ongoing
+  - consistent
+  - thorough
+  - punctual
+  - efficient
+  - effective
+  - considerably
+  vocab_new: []
+  d4:
+    read: รายงานความคืบหน้าโครงการ
+    listen: รายงานปากเปล่า · สัมภาษณ์
+  lab_task_th: เขียนรายงานความคืบหน้าสั้นถึงหัวหน้ากลุ่มสาระ 120 คำ
+  can_do_th:
+  - รายงานความคืบหน้าของงานได้ชัดเจน
+  - ใช้ article ได้ถูกในข้อความทางการ
+  lab_mode: write
+- week: 3
+  phase: 1
+  theme_th: อนาคตและแผนพัฒนา
+  d1:
+    topic: future-continuous-perfect
+    title_th: ณ เวลานั้นจะ...
+    scope: future continuous · future perfect · by the time
+  d3:
+    topic: future-in-past-expressions
+    title_th: กำลังจะ ควรจะ
+    scope: was going to · be about to · be supposed to · be due to
+  vocab:
+  - objective
+  - strategy
+  - initiative
+  - priority
+  - prioritise
+  - implement
+  - anticipate
+  - postpone
+  - prospect
+  - temporary
+  - permanent
+  - approximately
+  vocab_new: []
+  d4:
+    read: แผนพัฒนาโรงเรียนฉบับย่อ
+    listen: นำเสนอแผน · ถามตอบ
+  lab_task_th: พูดนำเสนอแผนพัฒนาห้องเรียนของคุณ 90 วินาที
+  can_do_th:
+  - นำเสนอแผนพร้อมกรอบเวลาได้
+  - เข้าใจการนำเสนอแผนและคำถามที่ตามมา
+  lab_mode: speak
+- week: 4
+  phase: 1
+  theme_th: การประเมินและข้อมูล
+  d1:
+    topic: passive-advanced
+    title_th: passive ทุกรูป
+    scope: passive ทุก tense · กับ modal · passive -ing/to be
+  d3:
+    topic: passive-reporting-causative
+    title_th: มีผู้กล่าวว่า และให้คนอื่นทำ
+    scope: It is said that / is said to · have/get something done
+  vocab:
+  - assess
+  - evaluate
+  - criteria
+  - feedback
+  - outcome
+  - accurate
+  - evidence
+  - indicate
+  - identify
+  - analyse
+  - estimate
+  - significant
+  vocab_new: []
+  d4:
+    read: สรุปผลการประเมินโครงการ
+    listen: บรรยายข้อมูล · สรุปผล
+  lab_task_th: เขียนสรุปผลการประเมินจากข้อมูลที่ให้ 130 คำ
+  can_do_th:
+  - อ่านและสรุปข้อมูลผลการประเมินได้
+  - เขียนเชิงรายงานโดยใช้ passive ได้เหมาะสม
+  lab_mode: write
+- week: 5
+  phase: 2
+  theme_th: ถ้าย้อนกลับไปได้
+  d1:
+    topic: third-conditional
+    title_th: ถ้าตอนนั้น...
+    scope: third conditional
+  d3:
+    topic: mixed-conditionals-alternatives
+    title_th: เงื่อนไขผสม และคำแทน if
+    scope: mixed conditionals · provided that as long as unless otherwise
+  vocab:
+  - regret
+  - neglect
+  - sacrifice
+  - compromise
+  - dilemma
+  - inevitable
+  - obvious
+  - reasonable
+  - justify
+  - convince
+  - decline
+  - abandon
+  vocab_new:
+  - regret
+  d4:
+    read: บทความสะท้อนบทเรียนจากโครงการที่ล้มเหลว
+    listen: สะท้อนความผิดพลาด · อภิปราย
+  lab_task_th: พูดสะท้อนการตัดสินใจในอดีตและสิ่งที่จะทำต่างไป 90 วินาที
+  can_do_th:
+  - พูดถึงสิ่งที่ไม่ได้เกิดขึ้นและผลที่จะตามมาได้
+  - เข้าใจการอภิปรายเรื่องทางเลือกและผล
+  lab_mode: speak
+- week: 6
+  phase: 2
+  theme_th: ความปรารถนาและการคาดเดา
+  d1:
+    topic: wish-unreal-past
+    title_th: อยากให้เป็น
+    scope: wish/if only ปัจจุบัน อดีต would · it's time · would rather
+  d3:
+    topic: modal-perfect
+    title_th: น่าจะ...ไปแล้ว ควรจะ...แต่ไม่ได้
+    scope: must/might/can't/should have + past participle
+  vocab:
+  - assumption
+  - apparently
+  - perceive
+  - interpret
+  - imply
+  - speculate
+  - tension
+  - conflict
+  - reputation
+  - genuine
+  - subtle
+  - bias
+  vocab_new: []
+  d4:
+    read: จดหมายถึงบรรณาธิการ
+    listen: คาดเดาสาเหตุ · แสดงความเสียดาย
+  lab_task_th: เขียนอีเมลแสดงความกังวลและข้อเสนอแนะอย่างสุภาพ 140 คำ
+  can_do_th:
+  - คาดเดาสิ่งที่เกิดขึ้นในอดีตอย่างมีเหตุผลได้
+  - จับน้ำเสียงและเจตนาของผู้เขียนได้
+  lab_mode: write
+- week: 7
+  phase: 2
+  theme_th: รายงานการประชุม
+  d1:
+    topic: reporting-verbs
+    title_th: รายงานเจตนาของผู้พูด
+    scope: suggest deny admit urge remind warn + รูปที่ตามมา
+  d3:
+    topic: noun-clauses
+    title_th: ประโยคที่ทำหน้าที่เป็นนาม
+    scope: that-clause · wh-clause · whether · the fact that
+  vocab:
+  - emphasise
+  - acknowledge
+  - clarify
+  - highlight
+  - propose
+  - oppose
+  - negotiate
+  - contribute
+  - participate
+  - collaborate
+  - commitment
+  - consent
+  vocab_new:
+  - propose
+  d4:
+    read: รายงานการประชุมกลุ่มสาระ
+    listen: การประชุมหลายคน · สรุปมติ
+  lab_task_th: พูดสรุปผลการประชุมให้ผู้ที่ไม่ได้เข้าฟัง 90 วินาที
+  can_do_th:
+  - รายงานสิ่งที่แต่ละคนเสนอและคัดค้านได้
+  - ตามการประชุมที่มีหลายคนพูดได้
+  lab_mode: speak
+- week: 8
+  phase: 2
+  theme_th: บรรยายคน สิ่งของ และนโยบาย
+  d1:
+    topic: relative-clauses-advanced
+    title_th: ขยายความให้กระชับ
+    scope: defining กับ non-defining · บุพบท + which · ละ relative pronoun
+  d3:
+    topic: participle-clauses
+    title_th: ย่อประโยคด้วย -ing และ -ed
+    scope: participle clauses แทน relative และ adverbial clause
+  vocab:
+  - policy
+  - procedure
+  - framework
+  - curriculum
+  - compulsory
+  - optional
+  - mandatory
+  - legislation
+  - enforce
+  - restrict
+  - impose
+  - exclude
+  vocab_new: []
+  d4:
+    read: บทความอธิบายนโยบายการศึกษา (สมมติ)
+    listen: บรรยายนโยบาย · ถามข้อสงสัย
+  lab_task_th: เขียนบทความสั้นอธิบายนโยบายของโรงเรียน 150 คำ
+  can_do_th:
+  - อธิบายนโยบายหรือขั้นตอนอย่างเป็นระบบได้
+  - อ่านบทความเชิงอธิบายและแยกใจความหลักกับรายละเอียดได้
+  lab_mode: write
+- week: 9
+  phase: 3
+  theme_th: โต้แย้งอย่างมีเหตุผล
+  d1:
+    topic: linkers-concession-contrast
+    title_th: แม้ว่า ในขณะที่ อย่างไรก็ตาม
+    scope: despite in spite of whereas nevertheless even though
+  d3:
+    topic: linkers-addition-result-purpose
+    title_th: ยิ่งไปกว่านั้น ดังนั้น เพื่อ
+    scope: moreover furthermore consequently therefore so as to so that
+  vocab:
+  - whereas
+  - nevertheless
+  - moreover
+  - consequently
+  - controversial
+  - perspective
+  - aspect
+  - advantage
+  - beneficial
+  - relevant
+  - arguably
+  - widespread
+  vocab_new: []
+  d4:
+    read: บทความแสดงความเห็นสองด้าน
+    listen: โต้วาทีสั้น · ชั่งข้อดีข้อเสีย
+  lab_task_th: พูดชั่งข้อดีข้อเสียของประเด็นหนึ่งแล้วสรุปจุดยืน 2 นาที
+  can_do_th:
+  - เสนอข้อโต้แย้งสองด้านและสรุปจุดยืนได้
+  - ตามการโต้แย้งและแยกข้อสนับสนุนกับข้อคัดค้านได้
+  lab_mode: speak
+- week: 10
+  phase: 3
+  theme_th: เน้นและลดน้ำหนักคำพูด
+  d1:
+    topic: hedging
+    title_th: พูดอย่างระวัง
+    scope: tend to seem appear · it is likely that · to some extent
+  d3:
+    topic: emphasis-inversion-cleft-intro
+    title_th: เน้นให้หนักแน่น
+    scope: Not only... Never... · What...is · It is...that (ระดับเริ่ม)
+  vocab:
+  - tentative
+  - merely
+  - notable
+  - fundamental
+  - crucial
+  - prominent
+  - drastic
+  - marginal
+  - proportion
+  - trend
+  - phenomenon
+  - emerge
+  vocab_new: []
+  d4:
+    read: บทคัดย่องานวิจัยในชั้นเรียน (สมมติ)
+    listen: บรรยายแนวโน้ม · ตีความข้อมูล
+  lab_task_th: เขียนบรรยายแนวโน้มจากข้อมูลและให้ข้อสังเกตอย่างระวัง 150 คำ
+  can_do_th:
+  - บรรยายแนวโน้มและข้อมูลโดยไม่สรุปเกินหลักฐานได้
+  - แยกข้อเท็จจริงกับการตีความของผู้เขียนได้
+  lab_mode: write
+- week: 11
+  phase: 3
+  theme_th: การสร้างคำและคำที่ใช้คู่กัน
+  d1:
+    topic: word-formation
+    title_th: เปลี่ยนรูปคำ
+    scope: prefix suffix · ตระกูลคำ นาม กริยา คุณศัพท์ วิเศษณ์
+  d3:
+    topic: collocation-prepositions-phrasal
+    title_th: คำที่ไปด้วยกัน
+    scope: dependent prepositions · กริยาวลี · collocation กริยา+นาม
+  vocab:
+  - enhance
+  - reinforce
+  - promote
+  - motivate
+  - inspire
+  - innovative
+  - diverse
+  - sustainable
+  - adequate
+  - sufficient
+  - expertise
+  - resource
+  vocab_new: []
+  d4:
+    read: บทความแนะนำแนวปฏิบัติการสอน
+    listen: บรรยายสั้นทางวิชาการ
+  lab_task_th: พูดแนะนำวิธีสอนที่ได้ผลให้เพื่อนครู 2 นาที
+  can_do_th:
+  - ใช้คำในรูปที่ถูกต้องตามหน้าที่ในประโยคได้
+  - เลือกคำที่ใช้คู่กันได้เป็นธรรมชาติ
+  lab_mode: speak
+- week: 12
+  phase: 3
+  theme_th: ซ้อมใหญ่
+  d1:
+    topic: verb-patterns-advanced
+    title_th: รูปที่ตามมาเปลี่ยน ความหมายเปลี่ยน
+    scope: remember/stop/try + -ing หรือ to · passive gerund
+  d3:
+    topic: review-b2
+    title_th: ทบทวนปนกัน
+    scope: ทบทวนทุกเรื่อง + กลยุทธ์บริหารเวลาและการเดาอย่างมีหลัก
+  vocab:
+  - adapt
+  - adjust
+  - approach
+  - reflect
+  - pursue
+  - ensure
+  - establish
+  - demonstrate
+  - determine
+  - insight
+  - impact
+  - capacity
+  vocab_new: []
+  d4:
+    read: บทความยาวเรื่องการพัฒนาวิชาชีพ
+    listen: ปนกันทุกแบบ
+  lab_task_th: 'งานเขียนเต็มรูป: เรียงความแสดงความเห็น 180 คำ'
+  can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+  lab_mode: write

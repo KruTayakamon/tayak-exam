@@ -1,0 +1,407 @@
+# ผังเนื้อหาคอร์ส a2 (ปูพื้นสู่ A2) · 12 สัปดาห์ ระดับเซสชัน · 16 พ.ย. 2569
+# ผู้เขียนเนื้อหา: ทำตามผังนี้ ห้ามเปลี่ยนหัวข้อ ลำดับ หรือรายการศัพท์เอง ถ้าเห็นว่าควรเปลี่ยนให้เสนอบอส
+# d1 d3 = บทเรียนไวยากรณ์ของวันที่ 1 และ 3 · vocab = 12 คำของวันที่ 2 (vocab_new = คำที่ไม่มีในคลังเกมครัว ต้องเขียนใหม่)
+# d4 = แนวบทอ่านและบทฟังของวันที่ 4 · วันที่ 5 = ห้องฝึก (lab) สลับ พูด/เขียน · วันที่ 6 = ชุดย่อยจับเวลา
+# รูปแบบไฟล์รายสัปดาห์และกติกาการเขียน: docs/writing/cefr.md · ต้นแบบ: course/cefr/b1/w01.yaml
+course: cefr/a2
+name_th: ปูพื้นสู่ A2
+for_th: 'ผลวัดระดับ: ยังไม่ผ่าน A2 หรือผ่าน A2 แบบไม่แน่น'
+explain_lang: ไทยทั้งหมด
+read_words: 60-100
+weeks:
+- week: 1
+  phase: 1
+  theme_th: ตัวฉันและครอบครัว
+  d1:
+    topic: be-present
+    title_th: am is are และสรรพนาม
+    scope: am/is/are บอกเล่า ปฏิเสธ คำถาม · I you he she it we they
+  d3:
+    topic: possessives-have
+    title_th: ของใคร และ have/has
+    scope: my your his her our their · 's · have/has
+  vocab:
+  - teacher
+  - student
+  - family
+  - mother
+  - father
+  - brother
+  - sister
+  - friend
+  - young
+  - old
+  - tall
+  - happy
+  vocab_new: []
+  d4:
+    read: บัตรแนะนำตัวครูใหม่
+    listen: แนะนำตัวสั้น · ถามชื่อและอายุ
+  lab_task_th: พูดแนะนำตัวเองและครอบครัว 30 วินาที
+  can_do_th:
+  - แนะนำตัวเองและคนในครอบครัวด้วยประโยคสั้นได้
+  - กรอกข้อมูลส่วนตัวในแบบฟอร์มง่าย ๆ ได้
+  lab_mode: speak
+- week: 2
+  phase: 1
+  theme_th: ห้องเรียนของฉัน
+  d1:
+    topic: articles-plurals
+    title_th: a an the และพหูพจน์
+    scope: a/an กับนามเอกพจน์ · the เมื่อรู้ว่าชิ้นไหน · เติม -s -es · พหูพจน์ไม่ปกติที่พบบ่อย
+  d3:
+    topic: there-is-place
+    title_th: มีอะไร อยู่ตรงไหน
+    scope: there is/are · in on under next to near behind
+  vocab:
+  - classroom
+  - desk
+  - chair
+  - door
+  - window
+  - book
+  - pen
+  - bag
+  - paper
+  - clock
+  - under
+  - near
+  vocab_new: []
+  d4:
+    read: ป้ายและข้อความในห้องเรียน
+    listen: บอกตำแหน่งของ · คำสั่งในห้อง
+  lab_task_th: เขียนบรรยายห้องเรียนของคุณ 4 ประโยค
+  can_do_th:
+  - บอกได้ว่าในห้องมีอะไร อยู่ตรงไหน
+  - เข้าใจป้ายและคำสั่งสั้น ๆ ในห้องเรียน
+  lab_mode: write
+- week: 3
+  phase: 1
+  theme_th: กิจวัตรประจำวัน
+  d1:
+    topic: present-simple
+    title_th: ทำเป็นประจำ
+    scope: present simple บอกเล่าและปฏิเสธ · เติม -s กับ he she it · do/does not
+  d3:
+    topic: present-simple-questions
+    title_th: ถามกิจวัตร และบ่อยแค่ไหน
+    scope: Do/Does...? · wh- questions · always usually often sometimes never และตำแหน่งในประโยค
+  vocab:
+  - morning
+  - afternoon
+  - evening
+  - night
+  - always
+  - often
+  - usually
+  - sometimes
+  - early
+  - late
+  - work
+  - study
+  vocab_new: []
+  d4:
+    read: ตารางกิจวัตรของครูหนึ่งวัน
+    listen: เล่ากิจวัตร · ถามเวลา
+  lab_task_th: พูดเล่ากิจวัตรวันทำงานของคุณ 30 วินาที
+  can_do_th:
+  - เล่ากิจวัตรประจำวันและบอกความถี่ได้
+  - ถามและตอบเรื่องกิจวัตรของคนอื่นได้
+  lab_mode: speak
+- week: 4
+  phase: 1
+  theme_th: เวลาและตารางสอน
+  d1:
+    topic: time-prepositions-wh
+    title_th: เมื่อไร กี่โมง
+    scope: in on at กับเวลา · what when where who how what time
+  d3:
+    topic: can-imperatives
+    title_th: ทำได้ ทำไม่ได้ และคำสั่ง
+    scope: can/can't ความสามารถและการขออนุญาต · ประโยคคำสั่ง Open... Don't...
+  vocab:
+  - week
+  - weekend
+  - today
+  - tomorrow
+  - lesson
+  - timetable
+  - subject
+  - open
+  - close
+  - listen
+  - speak
+  - help
+  vocab_new: []
+  d4:
+    read: ตารางสอนประจำสัปดาห์
+    listen: ประกาศเวลาเรียน · คำสั่งครู
+  lab_task_th: เขียนข้อความสั้นบอกเพื่อนว่าพรุ่งนี้สอนอะไร กี่โมง
+  can_do_th:
+  - อ่านตารางเวลาและบอกวันเวลาได้
+  - ใช้คำสั่งง่าย ๆ ในห้องเรียนได้
+  lab_mode: write
+- week: 5
+  phase: 2
+  theme_th: อาหารและตลาด
+  d1:
+    topic: countable-some-any
+    title_th: นับได้ นับไม่ได้
+    scope: นามนับได้/นับไม่ได้ · some any · a lot of
+  d3:
+    topic: how-much-would-like
+    title_th: เท่าไร และขออย่างสุภาพ
+    scope: How much/How many · would like · I'd like...
+  vocab:
+  - market
+  - rice
+  - water
+  - fruit
+  - vegetable
+  - egg
+  - milk
+  - bread
+  - buy
+  - cheap
+  - expensive
+  - hungry
+  vocab_new: []
+  d4:
+    read: รายการซื้อของและป้ายราคา
+    listen: สั่งอาหาร · ถามราคา
+  lab_task_th: พูดสั่งอาหารและถามราคาในโรงอาหาร
+  can_do_th:
+  - ซื้อของและถามราคาได้
+  - สั่งอาหารและเครื่องดื่มอย่างสุภาพได้
+  lab_mode: speak
+- week: 6
+  phase: 2
+  theme_th: ตอนนี้กำลังทำอะไร
+  d1:
+    topic: present-continuous
+    title_th: กำลังทำ
+    scope: am/is/are + -ing บอกเล่า ปฏิเสธ คำถาม · การสะกด -ing
+  d3:
+    topic: present-simple-vs-continuous-basic
+    title_th: ประจำ หรือ ตอนนี้
+    scope: เลือก present simple หรือ continuous จากคำบอกเวลา (ระดับพื้นฐาน)
+  vocab:
+  - read
+  - write
+  - draw
+  - play
+  - sing
+  - cook
+  - clean
+  - wear
+  - sit
+  - stand
+  - watch
+  - busy
+  vocab_new: []
+  d4:
+    read: คำบรรยายภาพกิจกรรมในโรงเรียน
+    listen: บรรยายสิ่งที่กำลังเกิด
+  lab_task_th: เขียนบรรยายสิ่งที่นักเรียนกำลังทำในภาพ 4 ประโยค
+  can_do_th:
+  - บรรยายสิ่งที่กำลังเกิดขึ้นตรงหน้าได้
+  - แยกสิ่งที่ทำประจำกับสิ่งที่ทำตอนนี้ได้
+  lab_mode: write
+- week: 7
+  phase: 2
+  theme_th: เมื่อวานและสัปดาห์ที่แล้ว
+  d1:
+    topic: was-were
+    title_th: อดีตของ be
+    scope: was/were · there was/were · yesterday last week ago
+  d3:
+    topic: past-simple-regular
+    title_th: เล่าเรื่องที่จบแล้ว
+    scope: past simple กริยาปกติ เติม -ed และการออกเสียง · บอกเล่า
+  vocab:
+  - yesterday
+  - visit
+  - arrive
+  - finish
+  - wait
+  - enjoy
+  - holiday
+  - trip
+  - tired
+  - weather
+  - rain
+  - festival
+  vocab_new: []
+  d4:
+    read: โปสการ์ดจากวันหยุด
+    listen: เล่าวันหยุดสั้น ๆ
+  lab_task_th: พูดเล่าว่าเมื่อวานทำอะไร 30 วินาที
+  can_do_th:
+  - เล่าเหตุการณ์ง่าย ๆ ในอดีตได้
+  - บอกว่าเมื่อวานอยู่ที่ไหน อากาศเป็นอย่างไร
+  lab_mode: speak
+- week: 8
+  phase: 2
+  theme_th: เรื่องที่เกิดขึ้น
+  d1:
+    topic: past-simple-irregular
+    title_th: กริยาไม่ปกติ
+    scope: กริยาไม่ปกติ 30 คำที่ใช้บ่อย (went had saw came took...)
+  d3:
+    topic: past-simple-neg-questions
+    title_th: ไม่ได้ทำ และถามอดีต
+    scope: didn't + กริยารูปเดิม · Did...? · wh- + did
+  vocab:
+  - forget
+  - remember
+  - leave
+  - catch
+  - miss
+  - spend
+  - pay
+  - mistake
+  - problem
+  - answer
+  - question
+  - exam
+  vocab_new: []
+  d4:
+    read: บันทึกประจำวันสั้นของครู
+    listen: ถามตอบเรื่องเมื่อวาน
+  lab_task_th: เขียนบันทึกสั้นเล่าปัญหาที่เกิดในโรงเรียน 5 ประโยค
+  can_do_th:
+  - ถามและตอบเรื่องที่เกิดในอดีตได้
+  - เขียนเล่าเหตุการณ์สั้น ๆ ตามลำดับได้
+  lab_mode: write
+- week: 9
+  phase: 3
+  theme_th: แผนและการนัดหมาย
+  d1:
+    topic: going-to
+    title_th: ตั้งใจจะทำ
+    scope: be going to แผนและความตั้งใจ
+  d3:
+    topic: will-future-arrangements
+    title_th: จะ และนัดไว้แล้ว
+    scope: will เสนอ สัญญา คาดการณ์ · present continuous กับนัดที่แน่นอน
+  vocab:
+  - plan
+  - decide
+  - invite
+  - join
+  - meeting
+  - appointment
+  - message
+  - birthday
+  - travel
+  - ticket
+  - station
+  - hope
+  vocab_new: []
+  d4:
+    read: ข้อความนัดหมายและบัตรเชิญ
+    listen: นัดเวลา · ฝากข้อความ
+  lab_task_th: พูดนัดหมายเพื่อนครูไปประชุม
+  can_do_th:
+  - นัดหมายและตอบรับหรือปฏิเสธได้
+  - บอกแผนของตัวเองในสัปดาห์หน้าได้
+  lab_mode: speak
+- week: 10
+  phase: 3
+  theme_th: เปรียบเทียบ
+  d1:
+    topic: comparatives
+    title_th: มากกว่า
+    scope: -er / more ... than · good better · bad worse
+  d3:
+    topic: superlatives-as-as
+    title_th: ที่สุด และเท่ากัน
+    scope: the -est / the most · as ... as
+  vocab:
+  - big
+  - small
+  - long
+  - short
+  - fast
+  - slow
+  - noisy
+  - quiet
+  - crowded
+  - comfortable
+  - popular
+  - famous
+  vocab_new: []
+  d4:
+    read: ข้อความเปรียบเทียบสองโรงเรียน
+    listen: เปรียบเทียบสองสิ่ง
+  lab_task_th: เขียนเปรียบเทียบห้องเรียนสองห้อง 5 ประโยค
+  can_do_th:
+  - เปรียบเทียบคน สิ่งของ สถานที่ได้
+  - บอกได้ว่าอะไรดีที่สุดเพราะอะไร
+  lab_mode: write
+- week: 11
+  phase: 3
+  theme_th: กฎและคำแนะนำ
+  d1:
+    topic: should
+    title_th: ควร ไม่ควร
+    scope: should/shouldn't ให้คำแนะนำ
+  d3:
+    topic: must-have-to
+    title_th: ต้อง และห้าม
+    scope: must/mustn't · have to/don't have to (ระดับพื้นฐาน)
+  vocab:
+  - rule
+  - uniform
+  - careful
+  - polite
+  - friendly
+  - dangerous
+  - safe
+  - hurry
+  - share
+  - advice
+  - habit
+  - healthy
+  vocab_new: []
+  d4:
+    read: กฎของห้องเรียน
+    listen: ครูอธิบายกฎ · ให้คำแนะนำ
+  lab_task_th: พูดอธิบายกฎห้องเรียน 3 ข้อให้นักเรียนใหม่
+  can_do_th:
+  - บอกกฎและข้อห้ามง่าย ๆ ได้
+  - ให้คำแนะนำสั้น ๆ ได้
+  lab_mode: speak
+- week: 12
+  phase: 3
+  theme_th: ซ้อมใหญ่
+  d1:
+    topic: linkers-basic
+    title_th: เชื่อมประโยค
+    scope: and but or because so · first then after that
+  d3:
+    topic: review-a2
+    title_th: ทบทวนปนกัน
+    scope: ทบทวนทุกเรื่อง + สรรพนามกรรม me him her us them
+  vocab:
+  - explain
+  - practise
+  - check
+  - choose
+  - borrow
+  - lend
+  - library
+  - dictionary
+  - email
+  - website
+  - idea
+  - exercise
+  vocab_new: []
+  d4:
+    read: อีเมลสั้นถึงเพื่อนครู
+    listen: ปนกันทุกแบบ
+  lab_task_th: เขียนอีเมลสั้นขอยืมหนังสือจากเพื่อนครู 40 คำ
+  can_do_th:
+  - เขียนข้อความหรืออีเมลสั้นเรื่องงานประจำวันได้
+  - เชื่อมประโยคสั้นให้เป็นเรื่องเดียวกันได้
+  lab_mode: write

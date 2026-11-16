@@ -155,6 +155,36 @@ def main():
             if n > 1: err(rel, f'ข้อ {iid} ถูกใช้ซ้ำในสัปดาห์เดียวกัน')
         days = sorted(s.get('day') for s in w.get('sessions', []))
         if days != [1, 2, 3, 4, 5, 6]: warn(rel, f'สัปดาห์ควรมีวัน 1–6 (พบ {days})')
+    # ผังเนื้อหาคอร์ส (_syllabus.yaml): 12 สัปดาห์ · ศัพท์ 12 คำไม่ซ้ำในคอร์ส · ไฟล์สัปดาห์ที่มีแล้วต้องตรงกับผัง
+    for path in sorted(glob.glob(os.path.join(ROOT, 'course', '*', '*', '_syllabus.yaml'))):
+        rel = os.path.relpath(path, ROOT); sy = load(path); weeks = sy.get('weeks', [])
+        if [w.get('week') for w in weeks] != list(range(1, 13)): err(rel, 'ต้องมีสัปดาห์ 1–12 เรียงตามลำดับ')
+        words, topics = collections.Counter(), collections.Counter()
+        for w in weeks:
+            where = f"{rel} w{w.get('week')}"
+            for k in ('theme_th', 'd1', 'd3', 'vocab', 'd4', 'lab_mode', 'lab_task_th', 'can_do_th'):
+                if not w.get(k): err(where, f'ขาด {k}')
+            if len(w.get('vocab', [])) != 12: err(where, 'ต้องมีศัพท์ 12 คำ')
+            if w.get('lab_mode') != ('speak' if w.get('week', 0) % 2 else 'write'): err(where, 'lab_mode ต้องสลับ speak (สัปดาห์คี่) / write (สัปดาห์คู่)')
+            for x in w.get('vocab', []): words[x] += 1
+            for d in ('d1', 'd3'):
+                t = (w.get(d) or {}).get('topic')
+                if not t: err(where, f'{d} ขาด topic')
+                else: topics[t] += 1
+            if not set(w.get('vocab_new', [])) <= set(w.get('vocab', [])): err(where, 'vocab_new ต้องเป็นคำใน vocab')
+        for x, n in words.items():
+            if n > 1: err(rel, f'ศัพท์ซ้ำในคอร์ส: {x}')
+        for t, n in topics.items():
+            if n > 1: err(rel, f'หัวข้อไวยากรณ์ซ้ำในคอร์ส: {t}')
+        for wp in sorted(glob.glob(os.path.join(os.path.dirname(path), 'w*.yaml'))):
+            wk = load(wp); plan = next((w for w in weeks if w['week'] == wk.get('week')), None)
+            if not plan: err(os.path.relpath(wp, ROOT), 'ไม่มีสัปดาห์นี้ในผัง'); continue
+            if wk.get('theme_th') != plan['theme_th']: err(os.path.relpath(wp, ROOT), 'theme_th ไม่ตรงกับผัง')
+            lab = next((s for s in wk.get('sessions', []) if s.get('type') == 'lab'), None)
+            if lab and (lab.get('lab') or {}).get('mode') != plan['lab_mode']: err(os.path.relpath(wp, ROOT), 'โหมดห้องฝึกไม่ตรงกับผัง')
+            d2 = next((s for s in wk.get('sessions', []) if s.get('day') == 2), None)
+            got = [x.get('w') for x in ((d2 or {}).get('lesson') or {}).get('words', [])]
+            if got and sorted(got) != sorted(plan['vocab']): err(os.path.relpath(wp, ROOT), f"ศัพท์วันที่ 2 ไม่ตรงกับผัง: ต่างกันที่ {sorted(set(got) ^ set(plan['vocab']))}")
     for w in warns: print(w)
     for e in errors: print(e)
     n_pts = sum(points(i) for i in items.values())

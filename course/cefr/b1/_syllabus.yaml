@@ -1,0 +1,412 @@
+# ผังเนื้อหาคอร์ส b1 (เป้าหมาย B1) · 12 สัปดาห์ ระดับเซสชัน · 16 พ.ย. 2569
+# ผู้เขียนเนื้อหา: ทำตามผังนี้ ห้ามเปลี่ยนหัวข้อ ลำดับ หรือรายการศัพท์เอง ถ้าเห็นว่าควรเปลี่ยนให้เสนอบอส
+# d1 d3 = บทเรียนไวยากรณ์ของวันที่ 1 และ 3 · vocab = 12 คำของวันที่ 2 (vocab_new = คำที่ไม่มีในคลังเกมครัว ต้องเขียนใหม่)
+# d4 = แนวบทอ่านและบทฟังของวันที่ 4 · วันที่ 5 = ห้องฝึก (lab) สลับ พูด/เขียน · วันที่ 6 = ชุดย่อยจับเวลา
+# รูปแบบไฟล์รายสัปดาห์และกติกาการเขียน: docs/writing/cefr.md · ต้นแบบ: course/cefr/b1/w01.yaml
+course: cefr/b1
+name_th: เป้าหมาย B1
+for_th: 'ผลวัดระดับ: ช่วงบนของ A2 ถึงช่วงล่างของ B1'
+explain_lang: ไทยทั้งหมด
+read_words: 100-160
+weeks:
+- week: 1
+  phase: 1
+  theme_th: ตัวฉันและโรงเรียนของฉัน
+  d1:
+    topic: present-simple-vs-continuous
+    title_th: กิจวัตร หรือ กำลังทำอยู่ตอนนี้
+    scope: present simple กับ present continuous · สถานการณ์ชั่วคราว
+  d3:
+    topic: stative-verbs-questions
+    title_th: กริยาที่ไม่ใช้ -ing และการตั้งคำถาม
+    scope: กริยาบอกสภาวะ · คำถาม do/does และ am/is/are
+  vocab:
+  - colleague
+  - timetable
+  - attend
+  - responsible
+  - prepare
+  - staff
+  - subject
+  - assignment
+  - deadline
+  - improve
+  - experience
+  - currently
+  vocab_new:
+  - staff
+  - assignment
+  - currently
+  d4:
+    read: ข่าวสั้นในโรงเรียน
+    listen: ประกาศ · บทสนทนา · ข้อความเสียง
+  lab_task_th: พูดแนะนำตัวและงานที่ทำ 45 วินาที
+  can_do_th:
+  - บอกได้ว่าตัวเองสอนอะไร ที่ไหน และช่วงนี้กำลังทำงานอะไรอยู่
+  - อ่านข่าวสั้นในโรงเรียนแล้วจับได้ว่าใคร ทำอะไร เมื่อไร
+  lab_mode: speak
+- week: 2
+  phase: 1
+  theme_th: ตารางสอนและกิจวัตร
+  d1:
+    topic: frequency-time-expressions
+    title_th: บ่อยแค่ไหน เมื่อไร
+    scope: ตำแหน่งคำบอกความถี่ · once/twice a week · บุพบทเวลาและสถานที่ที่สับสนบ่อย
+  d3:
+    topic: quantifiers
+    title_th: มาก น้อย พอ
+    scope: much many a lot of a few a little enough too much/many
+  vocab:
+  - schedule
+  - routine
+  - regularly
+  - available
+  - convenient
+  - local
+  - public
+  - private
+  - typical
+  - necessary
+  - organise
+  - manage
+  vocab_new: []
+  d4:
+    read: ตารางกิจกรรมประจำเทอม
+    listen: นัดเวลา · เปลี่ยนตาราง
+  lab_task_th: เขียนข้อความถึงเพื่อนครูขอเปลี่ยนคาบสอน 50 คำ
+  can_do_th:
+  - อธิบายตารางงานและขอเปลี่ยนเวลาได้
+  - บอกปริมาณและความถี่ได้ถูกต้อง
+  lab_mode: write
+- week: 3
+  phase: 1
+  theme_th: เรื่องที่เกิดขึ้นในห้องเรียน
+  d1:
+    topic: past-simple-vs-continuous
+    title_th: กำลัง...อยู่ ตอนที่...
+    scope: past simple กับ past continuous · when while
+  d3:
+    topic: time-clauses-used-to
+    title_th: ลำดับเหตุการณ์ และเคยทำ
+    scope: as soon as before after until · used to
+  vocab:
+  - behave
+  - behaviour
+  - attitude
+  - accident
+  - situation
+  - realise
+  - mention
+  - describe
+  - immediately
+  - suddenly
+  - embarrassed
+  - confused
+  vocab_new:
+  - suddenly
+  d4:
+    read: บันทึกเหตุการณ์ในโรงเรียน
+    listen: เล่าเหตุการณ์ · ถามรายละเอียด
+  lab_task_th: พูดเล่าเหตุการณ์ที่เกิดในห้องเรียน 60 วินาที
+  can_do_th:
+  - เล่าเหตุการณ์ในอดีตตามลำดับพร้อมฉากหลังได้
+  - เข้าใจเรื่องเล่าสั้นและตอบคำถามรายละเอียดได้
+  lab_mode: speak
+- week: 4
+  phase: 1
+  theme_th: ประสบการณ์และการอบรม
+  d1:
+    topic: present-perfect-vs-past-simple
+    title_th: เคยทำ หรือ ทำเมื่อไร
+    scope: present perfect กับ past simple · ever never
+  d3:
+    topic: for-since-already-yet
+    title_th: นานแค่ไหน และทำหรือยัง
+    scope: for since · already yet just · present perfect continuous เบื้องต้น
+  vocab:
+  - workshop
+  - certificate
+  - skill
+  - knowledge
+  - ability
+  - opportunity
+  - achieve
+  - develop
+  - recently
+  - successful
+  - confident
+  - useful
+  vocab_new: []
+  d4:
+    read: ประวัติย่อของวิทยากร
+    listen: สัมภาษณ์ประสบการณ์
+  lab_task_th: เขียนย่อหน้าเล่าประสบการณ์อบรมครั้งล่าสุด 70 คำ
+  can_do_th:
+  - เล่าประสบการณ์และบอกระยะเวลาได้
+  - อ่านประวัติย่อแล้วจับข้อมูลสำคัญได้
+  lab_mode: write
+- week: 5
+  phase: 2
+  theme_th: แผน การนัดหมาย และกิจกรรมโรงเรียน
+  d1:
+    topic: future-forms
+    title_th: จะ ตั้งใจ และนัดไว้
+    scope: will · be going to · present continuous สำหรับอนาคต
+  d3:
+    topic: first-conditional-time-clauses
+    title_th: ถ้า...จะ...
+    scope: first conditional · unless · when/as soon as + present
+  vocab:
+  - announcement
+  - competition
+  - exhibition
+  - celebrate
+  - cancel
+  - delay
+  - confirm
+  - gather
+  - audience
+  - budget
+  - unless
+  - expect
+  vocab_new: []
+  d4:
+    read: ประกาศกิจกรรมโรงเรียน
+    listen: ประกาศเปลี่ยนกำหนดการ · นัดประชุม
+  lab_task_th: พูดอธิบายแผนกิจกรรมของโรงเรียน 60 วินาที
+  can_do_th:
+  - อธิบายแผนและกำหนดการได้
+  - เข้าใจประกาศที่มีการเปลี่ยนเวลาหรือสถานที่
+  lab_mode: speak
+- week: 6
+  phase: 2
+  theme_th: เปรียบเทียบและให้คำแนะนำ
+  d1:
+    topic: comparison
+    title_th: เปรียบเทียบให้ละเอียดขึ้น
+    scope: ขั้นกว่า ขั้นสุด · as...as · much/a bit + ขั้นกว่า
+  d3:
+    topic: advice-suggestions
+    title_th: แนะนำและเสนอ
+    scope: should ought to had better · suggest/recommend + -ing · Why don't we
+  vocab:
+  - recommend
+  - suggest
+  - advise
+  - compare
+  - suitable
+  - reliable
+  - flexible
+  - practical
+  - valuable
+  - benefit
+  - disadvantage
+  - difference
+  vocab_new: []
+  d4:
+    read: รีวิวสื่อการสอนสองชิ้น
+    listen: ขอคำแนะนำ · เสนอทางเลือก
+  lab_task_th: เขียนอีเมลแนะนำหนังสือหรือสื่อให้เพื่อนครู 80 คำ
+  can_do_th:
+  - เปรียบเทียบตัวเลือกและบอกเหตุผลได้
+  - ให้และขอคำแนะนำอย่างเหมาะสมได้
+  lab_mode: write
+- week: 7
+  phase: 2
+  theme_th: กฎ ระเบียบ และประกาศ
+  d1:
+    topic: obligation-permission
+    title_th: ต้อง ไม่ต้อง ห้าม อนุญาต
+    scope: must have to mustn't don't have to · can/be allowed to
+  d3:
+    topic: passive-present-past
+    title_th: ถูกกระทำ
+    scope: passive ปัจจุบันและอดีต · by + ผู้กระทำ
+  vocab:
+  - permission
+  - request
+  - require
+  - provide
+  - include
+  - document
+  - submit
+  - apply
+  - application
+  - urgent
+  - essential
+  - responsibility
+  vocab_new: []
+  d4:
+    read: ระเบียบการใช้ห้องคอมพิวเตอร์
+    listen: ประกาศระเบียบ · ขออนุญาต
+  lab_task_th: เขียนสรุประเบียบเป็นข้อความสั้นถึงนักเรียน 60 คำ
+  can_do_th:
+  - เข้าใจและอธิบายกฎ ระเบียบ ข้อบังคับได้
+  - อ่านประกาศทางการแล้วรู้ว่าต้องทำอะไร
+  lab_mode: speak
+- week: 8
+  phase: 2
+  theme_th: เงื่อนไขและผลที่ตามมา
+  d1:
+    topic: second-conditional
+    title_th: ถ้าสมมติว่า...
+    scope: second conditional · If I were you
+  d3:
+    topic: conditionals-review-wish
+    title_th: เลือกเงื่อนไขให้ถูก
+    scope: zero first second เทียบกัน · wish + past · would rather
+  vocab:
+  - afford
+  - earn
+  - salary
+  - income
+  - loan
+  - reduce
+  - increase
+  - prevent
+  - protect
+  - depend
+  - result
+  - cause
+  vocab_new: []
+  d4:
+    read: บทความสั้นเรื่องการใช้งบประมาณ
+    listen: สนทนาเรื่องสมมติ · ให้เหตุผล
+  lab_task_th: พูดตอบคำถาม ถ้าโรงเรียนได้งบเพิ่มจะทำอะไร 60 วินาที
+  can_do_th:
+  - พูดถึงสถานการณ์สมมติและผลที่ตามมาได้
+  - อธิบายสาเหตุและผลได้
+  lab_mode: write
+- week: 9
+  phase: 3
+  theme_th: ถ่ายทอดสิ่งที่คนอื่นพูด
+  d1:
+    topic: reported-statements
+    title_th: เขาบอกว่า...
+    scope: reported speech ประโยคบอกเล่า · การเลื่อน tense · say tell
+  d3:
+    topic: reported-questions-indirect
+    title_th: เขาถามว่า... และถามอย่างสุภาพ
+    scope: reported questions · Could you tell me...? · ask sb to do
+  vocab:
+  - complain
+  - complaint
+  - apologise
+  - admit
+  - refuse
+  - agree
+  - argue
+  - warn
+  - persuade
+  - respond
+  - discuss
+  - communicate
+  vocab_new: []
+  d4:
+    read: บันทึกการประชุมสั้น
+    listen: ฝากข้อความ · เล่าต่อ
+  lab_task_th: เขียนบันทึกสรุปการประชุมสั้น 80 คำ
+  can_do_th:
+  - ถ่ายทอดคำพูดและคำถามของผู้อื่นได้
+  - สรุปประเด็นจากการประชุมสั้น ๆ ได้
+  lab_mode: speak
+- week: 10
+  phase: 3
+  theme_th: ให้เหตุผลและแสดงความเห็น
+  d1:
+    topic: relative-clauses
+    title_th: ที่ ซึ่ง อัน
+    scope: who which that where whose · defining relative clauses
+  d3:
+    topic: linkers-contrast-reason-purpose
+    title_th: เชื่อมเหตุผลและความขัดแย้ง
+    scope: although however because of so that in order to
+  vocab:
+  - although
+  - opinion
+  - reason
+  - purpose
+  - society
+  - community
+  - environment
+  - pollution
+  - tradition
+  - culture
+  - influence
+  - especially
+  vocab_new:
+  - opinion
+  d4:
+    read: ความเห็นของครูสามคนต่อเรื่องเดียวกัน
+    listen: แสดงความเห็น · เห็นด้วยไม่เห็นด้วย
+  lab_task_th: พูดแสดงความเห็นพร้อมเหตุผล 60 วินาที
+  can_do_th:
+  - แสดงความเห็นพร้อมเหตุผลและตัวอย่างได้
+  - จับได้ว่าผู้พูดเห็นด้วยหรือไม่เห็นด้วย
+  lab_mode: write
+- week: 11
+  phase: 3
+  theme_th: อีเมลและข้อความทางการ
+  d1:
+    topic: gerund-infinitive
+    title_th: ตามด้วย -ing หรือ to
+    scope: verb + -ing / to + infinitive · หลังบุพบทใช้ -ing
+  d3:
+    topic: phrasal-verbs-polite-requests
+    title_th: กริยาวลี และขออย่างสุภาพ
+    scope: กริยาวลีที่ใช้บ่อย · Could you...? Would you mind + -ing
+  vocab:
+  - attach
+  - avoid
+  - involve
+  - look after
+  - put off
+  - set up
+  - give up
+  - support
+  - solve
+  - effort
+  - fortunately
+  - unfortunately
+  vocab_new: []
+  d4:
+    read: อีเมลทางการจากโรงเรียนถึงผู้ปกครอง
+    listen: ข้อความเสียงทางการ · ขอความช่วยเหลือ
+  lab_task_th: เขียนอีเมลถึงผู้ปกครอง 80 ถึง 100 คำ
+  can_do_th:
+  - เขียนอีเมลกึ่งทางการเพื่อแจ้งและขอความร่วมมือได้
+  - เลือกระดับภาษาให้เหมาะกับผู้รับได้
+  lab_mode: speak
+- week: 12
+  phase: 3
+  theme_th: ซ้อมใหญ่
+  d1:
+    topic: modals-deduction
+    title_th: น่าจะ อาจจะ ไม่น่าใช่
+    scope: must might could can't เพื่อคาดเดา
+  d3:
+    topic: review-b1
+    title_th: ทบทวนปนกัน
+    scope: ทบทวนทุกเรื่อง + question tags + กลยุทธ์บริหารเวลา
+  vocab:
+  - career
+  - interview
+  - candidate
+  - qualification
+  - promotion
+  - supervisor
+  - employee
+  - determined
+  - capable
+  - ambition
+  - decision
+  - conclusion
+  vocab_new: []
+  d4:
+    read: บทความสั้นเรื่องเส้นทางอาชีพครู
+    listen: ปนกันทุกแบบ
+  lab_task_th: 'งานพูดเต็มรูป: แนะนำตัว บรรยาย และแสดงความเห็น 2 นาที'
+  can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+  lab_mode: write
