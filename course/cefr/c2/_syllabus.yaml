@@ -1,0 +1,551 @@
+# ผังเนื้อหาคอร์ส c2 (เป้าหมาย C2) · 12 สัปดาห์ ระดับเซสชัน · 16 พ.ย. 2569 (บอสสั่งเพิ่มคอร์สนี้ 16 พ.ย.)
+# ผู้เขียนเนื้อหา: ทำตามผังนี้ ห้ามเปลี่ยนหัวข้อ ลำดับ หรือรายการศัพท์เอง ถ้าเห็นว่าควรเปลี่ยนให้เสนอบอส
+# คลังเกมครัวไม่มีระดับ C2: ศัพท์ทั้ง 144 คำและข้อทั้งหมดต้องเขียนใหม่ (vocab_new = vocab)
+# ระดับนี้วัดความแม่น ความเป็นธรรมชาติ และการอ่านเชิงวิเคราะห์ มากกว่ากติกาไวยากรณ์ใหม่ บทเรียนจึงเน้น "เลือกอย่างไรให้เหมาะ"
+# รูปแบบไฟล์รายสัปดาห์และกติกาการเขียน: docs/writing/cefr.md · ต้นแบบ: course/cefr/b1/w01.yaml
+course: cefr/c2
+name_th: เป้าหมาย C2
+for_th: 'ผลวัดระดับ: ผ่าน C1 แบบแน่น หรือจบคอร์ส c1 แล้วอยู่ในช่วงเป้า'
+explain_lang: อังกฤษ มีปุ่มดูไทย
+read_words: 350-500
+weeks:
+- week: 1
+  phase: 1
+  theme_th: ความแม่นยำของความหมาย
+  d1:
+    topic: modality-nuance
+    title_th: ความต่างเล็กน้อยของ modal
+    scope: will/would กับพฤติกรรมประจำ · may well · might as well · shall ในภาษาทางการ
+  d3:
+    topic: time-reference-advanced
+    title_th: เวลาในประโยคซ้อน
+    scope: การไม่เลื่อน tense ใน reported speech · future in the past · tense ในประโยคสมมติ
+  vocab:
+  - ascertain
+  - construe
+  - purport
+  - denote
+  - elucidate
+  - equivocal
+  - unequivocal
+  - tacit
+  - nebulous
+  - verbatim
+  - pedantic
+  - semantics
+  vocab_new:
+  - ascertain
+  - construe
+  - purport
+  - denote
+  - elucidate
+  - equivocal
+  - unequivocal
+  - tacit
+  - nebulous
+  - verbatim
+  - pedantic
+  - semantics
+  d4:
+    read: บทความเชิงปรัชญาภาษาเรื่องความกำกวม
+    listen: บรรยายวิชาการเร็ว มีการแก้คำพูดตัวเอง
+  lab_task_th: พูดอธิบายความต่างของสองแนวคิดที่ใกล้กันมากให้ชัด 3 นาที
+  can_do_th:
+  - แยกความต่างของความหมายที่ใกล้กันมากได้และอธิบายได้
+  - ตามการบรรยายเร็วที่ผู้พูดแก้และขยายความตัวเอง
+  lab_mode: speak
+- week: 2
+  phase: 1
+  theme_th: โครงสร้างเน้นขั้นสูง
+  d1:
+    topic: inversion-full
+    title_th: สลับลำดับทุกแบบ
+    scope: so/such · as/than · คำบอกสถานที่ขึ้นต้น · only after/only by · little did
+  d3:
+    topic: information-structure
+    title_th: วางข้อมูลเก่าใหม่
+    scope: given-new · end-weight · การเลือก cleft fronting passive เพื่อผลทางความหมาย
+  vocab:
+  - galvanise
+  - crystallise
+  - encapsulate
+  - underscore
+  - resonate
+  - salient
+  - stark
+  - emphatic
+  - sweeping
+  - seminal
+  - pivotal
+  - hallmark
+  vocab_new:
+  - galvanise
+  - crystallise
+  - encapsulate
+  - underscore
+  - resonate
+  - salient
+  - stark
+  - emphatic
+  - sweeping
+  - seminal
+  - pivotal
+  - hallmark
+  d4:
+    read: บทบรรณาธิการที่ใช้โวหารเน้น
+    listen: สุนทรพจน์ปิดงานสัมมนา
+  lab_task_th: เขียนบทความแสดงทัศนะที่มีน้ำหนักและจังหวะ 280 คำ
+  can_do_th:
+  - เลือกโครงสร้างประโยคเพื่อผลทางความหมายได้อย่างจงใจ
+  - วิเคราะห์ได้ว่าผู้เขียนเน้นอะไรด้วยวิธีใด
+  lab_mode: write
+- week: 3
+  phase: 1
+  theme_th: ภาษาสมมติและภาษาทางการสูง
+  d1:
+    topic: subjunctive-fixed
+    title_th: รูปตายตัวแบบทางการ
+    scope: be it · suffice it to say · come what may · if need be · so be it
+  d3:
+    topic: conditionals-implied
+    title_th: เงื่อนไขที่ไม่มี if
+    scope: in the event that · on condition that · if it had not been for · เงื่อนไขแฝงใน otherwise/without
+  vocab:
+  - hitherto
+  - henceforth
+  - forthwith
+  - thereof
+  - proviso
+  - contingent
+  - preclude
+  - necessitate
+  - warrant
+  - abide
+  - statutory
+  - remit
+  vocab_new:
+  - hitherto
+  - henceforth
+  - forthwith
+  - thereof
+  - proviso
+  - contingent
+  - preclude
+  - necessitate
+  - warrant
+  - abide
+  - statutory
+  - remit
+  d4:
+    read: ข้อตกลงความร่วมมือทางวิชาการ (สมมติ)
+    listen: การเจรจาเงื่อนไข
+  lab_task_th: พูดเจรจาเงื่อนไขความร่วมมือระหว่างสองหน่วยงาน 3 นาที
+  can_do_th:
+  - อ่านและเขียนเอกสารที่มีเงื่อนไขซับซ้อนได้
+  - เจรจาเงื่อนไขด้วยภาษาทางการได้
+  lab_mode: speak
+- week: 4
+  phase: 1
+  theme_th: การย่อความคิดให้แน่น
+  d1:
+    topic: noun-phrase-complex
+    title_th: นามวลีซ้อน
+    scope: นามวลียาว · nominalisation ต่อเนื่อง · การแตกนามวลีเพื่อความชัด
+  d3:
+    topic: non-finite-verbless
+    title_th: ประโยคย่อยไม่มีกริยาแท้
+    scope: absolute constructions · verbless clauses · with/without + นาม + participle
+  vocab:
+  - proliferation
+  - erosion
+  - attrition
+  - inception
+  - cessation
+  - ramification
+  - manifestation
+  - prerequisite
+  - precedent
+  - corollary
+  - upheaval
+  - trajectory
+  vocab_new:
+  - proliferation
+  - erosion
+  - attrition
+  - inception
+  - cessation
+  - ramification
+  - manifestation
+  - prerequisite
+  - precedent
+  - corollary
+  - upheaval
+  - trajectory
+  d4:
+    read: บทคัดย่อและบทนำงานวิจัย (สมมติ)
+    listen: การนำเสนองานวิจัย
+  lab_task_th: เขียนบทคัดย่อของโครงการ 200 คำ
+  can_do_th:
+  - เขียนข้อความวิชาการที่แน่นและไม่กำกวมได้
+  - อ่านข้อความที่มีนามวลีซ้อนและจับใจความได้เร็ว
+  lab_mode: write
+- week: 5
+  phase: 2
+  theme_th: การอ้างอิงและการผูกเรื่องในข้อความยาว
+  d1:
+    topic: ellipsis-advanced
+    title_th: ละคำระดับสูง
+    scope: gapping · pro-forms · do so/do it/do that · การละในประโยคเปรียบเทียบ
+  d3:
+    topic: cohesion-long-text
+    title_th: สายโยงของเรื่อง
+    scope: lexical cohesion · สายการอ้างอิง · การเติมย่อหน้าที่หายไป
+  vocab:
+  - aforementioned
+  - respective
+  - ensuing
+  - erstwhile
+  - conversely
+  - thereafter
+  - hence
+  - whereupon
+  - namely
+  - chiefly
+  - per se
+  - in lieu of
+  vocab_new:
+  - aforementioned
+  - respective
+  - ensuing
+  - erstwhile
+  - conversely
+  - thereafter
+  - hence
+  - whereupon
+  - namely
+  - chiefly
+  - per se
+  - in lieu of
+  d4:
+    read: บทความยาวที่ย่อหน้าถูกสลับ
+    listen: อภิปรายหลายคนที่อ้างถึงกัน
+  lab_task_th: พูดสังเคราะห์ความเห็นของผู้พูดสามคนแล้วเสนอข้อสรุป 3 นาที
+  can_do_th:
+  - มองเห็นสายโยงของข้อความยาวและเรียงลำดับย่อหน้าได้
+  - ตามการอภิปรายที่ผู้พูดอ้างถึงกันไปมาได้
+  lab_mode: speak
+- week: 6
+  phase: 2
+  theme_th: จุดยืน ระยะห่าง และความสุภาพ
+  d1:
+    topic: stance
+    title_th: บอกจุดยืนอย่างแนบเนียน
+    scope: stance adverbials · boosting กับ hedging ในประโยคเดียว
+  d3:
+    topic: indirectness
+    title_th: พูดอ้อมอย่างมีชั้นเชิง
+    scope: understatement · litotes · คำถามเชิงโวหาร · การปฏิเสธอย่างสุภาพ
+  vocab:
+  - demur
+  - concur
+  - dissent
+  - acquiesce
+  - reiterate
+  - insinuate
+  - intimate
+  - downplay
+  - overstate
+  - euphemism
+  - tact
+  - deference
+  vocab_new:
+  - demur
+  - concur
+  - dissent
+  - acquiesce
+  - reiterate
+  - insinuate
+  - intimate
+  - downplay
+  - overstate
+  - euphemism
+  - tact
+  - deference
+  d4:
+    read: จดหมายโต้ตอบทางการที่มีความเห็นขัดแย้ง
+    listen: การประชุมที่มีความเห็นต่างอย่างสุภาพ
+  lab_task_th: เขียนจดหมายคัดค้านข้อเสนออย่างสุภาพแต่หนักแน่น 280 คำ
+  can_do_th:
+  - แสดงความเห็นแย้งโดยรักษาความสัมพันธ์และน้ำหนักได้
+  - จับจุดยืนจริงของผู้พูดที่พูดอ้อมได้
+  lab_mode: write
+- week: 7
+  phase: 2
+  theme_th: สำนวนและความหมายเชิงเปรียบ
+  d1:
+    topic: idioms-fixed
+    title_th: สำนวนที่ใช้ในงานและวิชาการ
+    scope: สำนวนและคู่คำตายตัว · รู้ว่าเมื่อใดไม่ควรใช้
+  d3:
+    topic: figurative-language
+    title_th: อ่านภาษาเปรียบ
+    scope: อุปลักษณ์ การเปรียบเทียบ การเสียดสี ในบทอ่าน
+  vocab:
+  - quintessential
+  - proverbial
+  - figurative
+  - hackneyed
+  - cliche
+  - analogy
+  - allegory
+  - paradox
+  - irony
+  - hyperbole
+  - evocative
+  - poignant
+  vocab_new:
+  - quintessential
+  - proverbial
+  - figurative
+  - hackneyed
+  - cliche
+  - analogy
+  - allegory
+  - paradox
+  - irony
+  - hyperbole
+  - evocative
+  - poignant
+  d4:
+    read: ความเรียงเชิงวรรณศิลป์เรื่องอาชีพครู
+    listen: เรื่องเล่าที่มีอารมณ์ขันและการเปรียบ
+  lab_task_th: พูดเล่าประสบการณ์โดยใช้การเปรียบเทียบให้เห็นภาพ 3 นาที
+  can_do_th:
+  - เข้าใจและใช้ภาษาเปรียบได้เหมาะกับบริบท
+  - แยกสำนวนที่ยังมีพลังกับสำนวนที่เฝือได้
+  lab_mode: speak
+- week: 8
+  phase: 2
+  theme_th: คำที่ใช้คู่กันระดับเจ้าของภาษา
+  d1:
+    topic: collocation-precision
+    title_th: คำใกล้เคียงที่คู่ต่างกัน
+    scope: เลือกกริยาและคุณศัพท์ที่ใช้คู่กับนามได้แม่น · คำพ้องที่แทนกันไม่ได้
+  d3:
+    topic: phrasal-prepositional-idioms
+    title_th: กริยาวลีและวลีบุพบท
+    scope: กริยาวลีหลายความหมาย · วลีบุพบทตายตัว · คู่ทางการกับไม่ทางการ
+  vocab:
+  - exert
+  - wield
+  - incur
+  - garner
+  - reap
+  - levy
+  - confer
+  - bestow
+  - harbour
+  - espouse
+  - instil
+  - redress
+  vocab_new:
+  - exert
+  - wield
+  - incur
+  - garner
+  - reap
+  - levy
+  - confer
+  - bestow
+  - harbour
+  - espouse
+  - instil
+  - redress
+  d4:
+    read: รายงานประจำปีขององค์กรการศึกษา (สมมติ)
+    listen: สัมภาษณ์เชิงลึก
+  lab_task_th: เขียนรายงานสรุปผลการดำเนินงาน 280 คำ
+  can_do_th:
+  - เลือกคำที่ใช้คู่กันได้เท่าที่เจ้าของภาษาที่มีการศึกษาใช้
+  - ปรับคำระหว่างภาษาพูดกับภาษาเขียนทางการได้ทันที
+  lab_mode: write
+- week: 9
+  phase: 3
+  theme_th: ระดับภาษาและแบบแผนของงานเขียน
+  d1:
+    topic: register-shifting
+    title_th: เรื่องเดียว หลายระดับภาษา
+    scope: เขียนใหม่ข้ามระดับภาษา · ความสม่ำเสมอของระดับภาษา
+  d3:
+    topic: genre-conventions
+    title_th: แบบแผนของแต่ละประเภท
+    scope: 'รายงาน ข้อเสนอ บทวิจารณ์ เรียงความ บทความ: โครง น้ำเสียง ถ้อยคำเฉพาะ'
+  vocab:
+  - colloquial
+  - vernacular
+  - jargon
+  - verbose
+  - terse
+  - florid
+  - laconic
+  - pithy
+  - prose
+  - discourse
+  - treatise
+  - critique
+  vocab_new:
+  - colloquial
+  - vernacular
+  - jargon
+  - verbose
+  - terse
+  - florid
+  - laconic
+  - pithy
+  - prose
+  - discourse
+  - treatise
+  - critique
+  d4:
+    read: บทวิจารณ์หนังสือทางการศึกษา
+    listen: รายการสนทนาเชิงวิชาการ
+  lab_task_th: พูดวิจารณ์งานเขียนชิ้นหนึ่งอย่างเป็นระบบ 3 นาที
+  can_do_th:
+  - เขียนงานแต่ละประเภทตามแบบแผนและน้ำเสียงที่ถูกได้
+  - ประเมินคุณภาพงานเขียนของผู้อื่นได้อย่างมีหลัก
+  lab_mode: speak
+- week: 10
+  phase: 3
+  theme_th: อ่านระหว่างบรรทัด
+  d1:
+    topic: implication-attitude
+    title_th: สิ่งที่ไม่ได้พูด
+    scope: ความหมายโดยนัย ข้อสมมติล่วงหน้า การประชด ทัศนคติของผู้เขียน
+  d3:
+    topic: argument-evaluation
+    title_th: ประเมินการให้เหตุผล
+    scope: โครงสร้างข้อโต้แย้ง · เหตุผลวิบัติที่พบบ่อย · หลักฐานกับข้ออ้าง
+  vocab:
+  - disparage
+  - deride
+  - extol
+  - laud
+  - lament
+  - begrudge
+  - sardonic
+  - facetious
+  - wry
+  - scathing
+  - disingenuous
+  - veiled
+  vocab_new:
+  - disparage
+  - deride
+  - extol
+  - laud
+  - lament
+  - begrudge
+  - sardonic
+  - facetious
+  - wry
+  - scathing
+  - disingenuous
+  - veiled
+  d4:
+    read: บทความโต้แย้งที่มีน้ำเสียงประชด
+    listen: การโต้วาทีเชิงนโยบาย
+  lab_task_th: เขียนบทตอบโต้ชี้จุดอ่อนของข้อโต้แย้ง 300 คำ
+  can_do_th:
+  - จับทัศนคติและเจตนาแฝงของผู้เขียนได้แม่น
+  - ชี้จุดอ่อนของการให้เหตุผลได้เป็นข้อ ๆ
+  lab_mode: write
+- week: 11
+  phase: 3
+  theme_th: สังเคราะห์และสรุป
+  d1:
+    topic: synthesis-paraphrase
+    title_th: รวมสองแหล่งเป็นเรื่องเดียว
+    scope: สรุปและสังเคราะห์จากสองบทอ่าน · เครื่องมือถอดความ
+  d3:
+    topic: transformations-c2
+    title_th: ความหมายเดิม โครงสร้างใหม่ ระดับสูงสุด
+    scope: เรียบเรียงใหม่ด้วยคำที่กำหนด · การสร้างคำที่พบน้อย
+  vocab:
+  - extrapolate
+  - postulate
+  - surmise
+  - refute
+  - rebut
+  - substantiate
+  - vindicate
+  - conflate
+  - posit
+  - fallacy
+  - spurious
+  - specious
+  vocab_new:
+  - extrapolate
+  - postulate
+  - surmise
+  - refute
+  - rebut
+  - substantiate
+  - vindicate
+  - conflate
+  - posit
+  - fallacy
+  - spurious
+  - specious
+  d4:
+    read: บทอ่านสองชิ้นที่เห็นต่างในเรื่องเดียวกัน
+    listen: บรรยายสองช่วงที่ต้องเทียบกัน
+  lab_task_th: พูดสรุปและประเมินบทอ่านสองชิ้น 3 นาที
+  can_do_th:
+  - สังเคราะห์ข้อมูลจากหลายแหล่งเป็นข้อเขียนเดียวที่ต่อเนื่องได้
+  - ถอดความโดยคงความหมายและน้ำหนักเดิม
+  lab_mode: speak
+- week: 12
+  phase: 3
+  theme_th: ซ้อมใหญ่
+  d1:
+    topic: review-c2-a
+    title_th: ทบทวนปนกัน 1
+    scope: โครงสร้างเน้น เงื่อนไข ภาษาทางการ การย่อความ
+  d3:
+    topic: review-c2-b
+    title_th: ทบทวนปนกัน 2
+    scope: คำที่ใช้คู่กัน ระดับภาษา การอ่านระหว่างบรรทัด + กลยุทธ์บริหารเวลา
+  vocab:
+  - stewardship
+  - tenure
+  - pedagogy
+  - accreditation
+  - remuneration
+  - attainment
+  - aptitude
+  - calibre
+  - erudite
+  - exemplary
+  - magnanimous
+  - tenacity
+  vocab_new:
+  - stewardship
+  - tenure
+  - pedagogy
+  - accreditation
+  - remuneration
+  - attainment
+  - aptitude
+  - calibre
+  - erudite
+  - exemplary
+  - magnanimous
+  - tenacity
+  d4:
+    read: บทความยาวเชิงวิชาการ
+    listen: ปนกันทุกแบบ
+  lab_task_th: 'งานเขียนเต็มรูป: เรียงความสังเคราะห์จากสองบทอ่าน 300 คำ'
+  can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+  lab_mode: write

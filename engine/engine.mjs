@@ -80,7 +80,10 @@ export function placementEstimate(scores, cfg) {
   const need = (b) => Math.ceil(P.pass * scores[b][1] - 1e-9);
   const borderline = (passed + 1 < B.length && need(B[passed + 1]) - scores[B[passed + 1]][0] === 1)
     || (passed >= 0 && scores[B[passed]][0] === need(B[passed]));
-  if (passed === B.length - 1) return { level: B[passed], position: 'top', plan: [B[passed]], rounds: 1, borderline };
+  if (passed === B.length - 1) {                    // ผ่านระดับสูงสุดของแบบวัด: แน่น (≥ solid) ไปคอร์สถัดไป (c2) ไม่แน่นให้ซ้อมคอร์สระดับนั้นก่อน
+    const solidTop = pct(B[passed]) >= P.solid;
+    return { level: B[passed], position: solidTop ? 'high' : 'low', plan: [solidTop && P.beyond ? P.beyond : B[passed]], rounds: 1, borderline };
+  }
   const next = B[passed + 1], high = pct(next) >= P.high;
   if (passed === -1) return { level: 'below-' + B[0], position: high ? 'high' : 'low', plan: [B[0]], rounds: high ? 1 : 2, borderline };
   const solid = pct(B[passed]) >= P.solid;

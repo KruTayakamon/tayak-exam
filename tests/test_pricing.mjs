@@ -1,0 +1,27 @@
+// เทสต์ราคาและสิทธิ์ · รัน: node tests/test_pricing.mjs
+import * as P from '../engine/pricing.mjs';
+let fails = 0; const D = 86400000, now = Date.parse('2026-12-01T00:00:00Z');
+const eq = (a, b, name) => { const ok = JSON.stringify(a) === JSON.stringify(b); console.log((ok ? 'PASS ' : 'FAIL ') + name + (ok ? '' : `  ได้ ${JSON.stringify(a)} ควรเป็น ${JSON.stringify(b)}`)); if (!ok) fails++; };
+eq(P.quote('cefr-b1', now).amount, 290, 'ราคาเปิดตัวของ 1 คอร์ส');
+eq(P.quote('cefr-all', now).amount, 690, 'ราคาเปิดตัวของทุกคอร์ส');
+eq(P.quote('cefr-extend', now), { product: 'cefr-extend', th: 'ต่อเวลา 3 เดือน', list: 150, amount: 150, launch: false, days: 90 }, 'ต่อเวลาไม่มีราคาเปิดตัว');
+const ended = { ...P.RULES, launch_until: '2026-11-30' };
+eq([P.quote('cefr-b1', now, ended).amount, P.quote('cefr-all', now, ended).amount], [490, 990], 'หลังสิ้นสุดเปิดตัวใช้ราคาปกติ');
+eq(P.quote('cefr-zz', now), null, 'สินค้าที่ไม่รู้จัก');
+eq(P.COURSES.every((c) => P.PRODUCTS['cefr-' + c].course === c), true, 'มีสินค้าครบ 5 คอร์ส');
+const ents = [{ product: 'cefr-b1', expires_at: now + 10 * D }];
+eq([P.hasAccess(ents, 'b1', now), P.hasAccess(ents, 'b2', now), P.hasAccess(ents, 'b1', now + 11 * D)], [true, false, false], 'สิทธิ์เฉพาะคอร์สที่ซื้อและยังไม่หมดอายุ');
+eq(P.hasAccess([{ product: 'cefr-all', expires_at: now + D }], 'c2', now), true, 'ทุกคอร์สเข้าได้ทุกคอร์ส');
+eq(P.applyPurchase(ents, 'cefr-b1', null, now).expires_at, now + 190 * D, 'ซื้อซ้ำบวกต่อจากวันหมดอายุเดิม');
+eq(P.applyPurchase([{ product: 'cefr-b1', expires_at: now - 5 * D }], 'cefr-b1', null, now).expires_at, now + 180 * D, 'หมดอายุแล้วเริ่มนับจากวันนี้');
+eq(P.applyPurchase(ents, 'cefr-extend', 'cefr-b1', now), { product: 'cefr-b1', expires_at: now + 100 * D }, 'ต่อเวลาบวก 90 วันให้สิทธิ์เป้าหมาย');
+eq(P.canBuy(ents, 'cefr-extend', 'cefr-b2', now), { ok: false, error: 'no_entitlement' }, 'ต่อเวลาไม่ได้ถ้าไม่เคยมีสิทธิ์นั้น');
+eq(P.canBuy([{ product: 'cefr-b1', expires_at: now - 100 * D }], 'cefr-extend', 'cefr-b1', now).error, 'expired_too_long', 'หมดอายุเกิน 90 วัน ต้องซื้อคอร์สใหม่');
+eq(P.canBuy(ents, 'cefr-extend', 'cefr-extend', now).error, 'bad_target', 'ต่อเวลาของการต่อเวลาไม่ได้');
+eq(P.canBuy(ents, 'cefr-b2', null, now), { ok: true }, 'ซื้อคอร์สใหม่ได้เสมอ');
+const order = { product: 'cefr-b1', paid_at: now - 6 * D, refunded_at: null };
+eq([P.refundEligible(order, 3, now), P.refundEligible(order, 4, now), P.refundEligible({ ...order, paid_at: now - 8 * D }, 0, now), P.refundEligible({ ...order, product: 'cefr-extend' }, 0, now)], [true, false, false, false], 'เงื่อนไขคืนเงิน 7 วัน ไม่เกิน 3 เซสชัน');
+const g = P.applyGuarantee({ product: 'cefr-b1', expires_at: now + 10 * D, guarantee_at: null }, now);
+eq([g.expires_at, g.guarantee_at], [now + 100 * D, now], 'ข้อรับรองต่อเวลา 90 วัน');
+eq(P.applyGuarantee(g, now), null, 'ข้อรับรองใช้ได้ครั้งเดียว');
+console.log(fails ? `${fails} FAILED` : 'ALL PASS'); process.exit(fails ? 1 : 0);

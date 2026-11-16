@@ -1,0 +1,70 @@
+// สร้างจาก engine/config.json ห้ามแก้ไฟล์นี้
+export default {
+  "_note": "ค่าปรับได้ทั้งหมดของเครื่องยนต์การเรียน · แก้ที่นี่ที่เดียว · ความหมายของแต่ละค่าอยู่ใน docs/cefr/03_learning_engine.md",
+  "tz_offset_hours": 7,
+  "day_starts_at_hour": 3,
+  "srs": {
+    "intervals": [
+      1,
+      3,
+      7,
+      16,
+      35
+    ],
+    "probe_days": 14,
+    "maintain_days": 90,
+    "mastered_box": 3,
+    "leech_lapses": 3
+  },
+  "review": {
+    "cap_session": 8,
+    "cap_short": 8,
+    "cap_comeback": 10,
+    "new_old_items": 2
+  },
+  "pace": {
+    "10": 0.5,
+    "20": 1,
+    "40": 2
+  },
+  "study_days_per_week": 6,
+  "week_goal_days": 5,
+  "gap": {
+    "comeback_days": 7,
+    "replace_days": 30
+  },
+  "placement": {
+    "bands": [
+      "a2",
+      "b1",
+      "b2",
+      "c1"
+    ],
+    "pass": 0.6,
+    "solid": 0.8,
+    "high": 0.35,
+    "beyond": "c2"
+  },
+  "readiness": {
+    "w_checkpoint": 0.6,
+    "w_practice": 0.4,
+    "min_practice_n": 15,
+    "min_total_n": 20,
+    "in_target": 70,
+    "near": 55
+  },
+  "remedial": {
+    "below": 0.6,
+    "min_n": 3
+  },
+  "guarantee": {
+    "min_session_ratio": 0.8,
+    "checkpoints": 3,
+    "target_pct": 70
+  },
+  "caps_per_day": {
+    "sessions": 6,
+    "extra_items": 60,
+    "distinct_items": 200
+  }
+};
