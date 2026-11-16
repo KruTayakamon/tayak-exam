@@ -52,7 +52,7 @@ h2{font-size:1.15rem;line-height:1.35;font-weight:600}
 .steps i{height:6px;border-radius:3px;background:var(--line)}
 .steps i.on{background:var(--accent)}
 .opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;min-height:52px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--en);font-size:1.05rem;cursor:pointer}
-.opt b{font-family:var(--ui);font-weight:600;color:var(--ink2);flex:none}
+.opt b{font-family:var(--ui);font-weight:600;color:var(--ink2);flex:none;width:26px;height:26px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-size:.85rem;font-variant-numeric:tabular-nums}
 .opt.ok{border-color:var(--ok);background:var(--ok-soft)}
 .opt.bad{border-color:var(--bad);background:var(--bad-soft)}
 .why{font-family:var(--ui);font-size:.86rem;color:var(--ink2);margin-top:4px;line-height:1.5}
@@ -88,7 +88,7 @@ u.k{text-decoration-color:var(--accent);text-decoration-thickness:2px;text-under
 </style>
 
 <div class="wrap">
-  <div class="note">ต้นแบบเพื่อดูหน้าตาและลำดับการใช้งาน ยังไม่ใช่เว็บจริง · ชื่อแบรนด์ ราคา และเนื้อหาตัวอย่างเป็นร่าง รอบอสอนุมัติ · แตะแถบด้านล่างเพื่อข้ามไปจอที่ต้องการ</div>
+  <div class="note">ต้นแบบเพื่อดูหน้าตาและลำดับการใช้งาน ยังไม่ใช่เว็บจริง · เนื้อหาตัวอย่างเป็นร่าง รอบอสตรวจ · แตะแถบด้านล่างเพื่อข้ามไปจอที่ต้องการ</div>
   <div class="idx" id="idx" role="tablist" aria-label="รายการจอ"></div>
   <div id="app"></div>
 </div>
@@ -114,7 +114,7 @@ var S=[
   '<div class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>'+
   '<p class="small">เลือกคำที่ถูกต้อง</p>'+
   '<p class="en">The meeting ____ already started when I arrived at school.</p>'+
-  opt('ก','has')+opt('ข','had')+opt('ค','was')+opt('ง','is')+
+  opt('1','has')+opt('2','had')+opt('3','was')+opt('4','is')+
   go(2,'ข้อต่อไป')+'<button class="link">ข้ามข้อนี้</button>'}],
  ["ผลวัดระดับ",function(){return hdr()+
   '<span class="tag">ผลโดยประมาณ</span><h1>คุณอยู่ช่วงบนของ A2</h1>'+
@@ -154,10 +154,10 @@ var S=[
  ["ฝึก + เฉลย",function(){return head('เซสชัน','ขั้น 3 จาก 5 · ฝึก ข้อ 4/10','เหลือ ~9 นาที')+
   '<div class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>'+
   '<p class="en">Our school ____ the new reading programme two years ago.</p>'+
-  optw('ก','has started','bad','คำตอบของคุณ · ยังไม่ถูก','two years ago เป็นเวลาที่จบแล้ว จึงใช้ present perfect ไม่ได้')+
-  optw('ข','started','ok','คำตอบที่ถูก','มี two years ago บอกเวลาในอดีตที่จบแล้ว ใช้ past simple')+
-  optw('ค','starts','','','present simple ใช้กับเรื่องที่เป็นประจำ ไม่ใช่เหตุการณ์เมื่อสองปีก่อน')+
-  optw('ง','was starting','','','past continuous ใช้กับเหตุการณ์ที่กำลังดำเนินอยู่ ณ จุดหนึ่งในอดีต')+
+  optw('1','has started','bad','คำตอบของคุณ · ยังไม่ถูก','two years ago เป็นเวลาที่จบแล้ว จึงใช้ present perfect ไม่ได้')+
+  optw('2','started','ok','คำตอบที่ถูก','มี two years ago บอกเวลาในอดีตที่จบแล้ว ใช้ past simple')+
+  optw('3','starts','','','present simple ใช้กับเรื่องที่เป็นประจำ ไม่ใช่เหตุการณ์เมื่อสองปีก่อน')+
+  optw('4','was starting','','','past continuous ใช้กับเหตุการณ์ที่กำลังดำเนินอยู่ ณ จุดหนึ่งในอดีต')+
   '<p class="small">ข้อนี้จะกลับมาให้ทบทวนพรุ่งนี้</p>'+
   go(7,'ข้อต่อไป')+'<button class="link">รายงานข้อนี้</button>'}],
  ["สรุปเซสชัน",function(){return hdr()+
@@ -182,7 +182,7 @@ var S=[
   '<div class="card"><h2>สิ่งที่ได้</h2><ul class="list">'+li('60 เซสชันรายวัน 12 ชุดย่อย 3 ชุดวัดผล')+li('เหตุผลของทุกตัวเลือกในทุกข้อ')+li('ทบทวนข้อผิดอัตโนมัติ และสมุดข้อผิด')+li('ห้องฝึกเขียนและพูด 12 งาน พร้อมคำตอบตัวอย่าง')+li('รายงานความพร้อมรายทักษะ และบันทึกชั่วโมงเรียน')+'</ul></div>'+
   '<div class="card"><h2>ถ้าเรียนครบแล้วยังไม่ถึงเป้า</h2><p>เรียนครบร้อยละ 80 ของแผนและทำชุดวัดผลครบ 3 ครั้ง แต่ยังไม่อยู่ในช่วงเป้า เราต่อเวลาคอร์สให้ฟรี 3 เดือน</p><p class="small">เราไม่สัญญาผลสอบ คืนเงินได้ภายใน 7 วันถ้าทำไม่เกิน 3 เซสชัน</p></div>'}]
 ];
-function hdr(){return '<div class="topbar"><span class="brand">TAYAK · CEFR</span><span class="small">ชื่อชั่วคราว</span></div>'}
+function hdr(){return '<div class="topbar"><span class="brand">CEFR for Kru</span><span class="small">by TAYAK</span></div>'}
 function head(a,b,c){return '<div class="topbar"><span class="small">✕ '+a+'</span><span class="small">'+b+'</span><span class="small">'+c+'</span></div>'}
 function go(i,t){return '<button class="btn" data-go="'+i+'">'+t+'</button>'}
 function li(t){return '<li><span class="tick" aria-hidden="true">✓</span><span>'+t+'</span></li>'}
