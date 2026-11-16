@@ -15,6 +15,7 @@ import cfg from "../_shared/config.mjs";
 import { dayNo, placementEstimate, projectFinish, readiness, srsUpdate, weekProgress, guaranteeEligible } from "../_shared/engine.mjs";
 import { advancePointer, buildSession, remainingSessions } from "../_shared/assemble.mjs";
 import { applyGuarantee, hasAccess } from "../_shared/pricing.mjs";
+import { grade, strip } from "../_shared/grade.mjs";   // ตัวตรวจคำตอบตัวเดียวกับหน้าเว็บ
 
 const SITE = Deno.env.get("EXAM_SITE_URL") ?? "http://localhost:8788";
 const CORS = { "Access-Control-Allow-Origin": SITE, "Access-Control-Allow-Headers": "authorization, content-type, apikey", "Access-Control-Allow-Methods": "POST, OPTIONS" };
@@ -22,37 +23,6 @@ const json = (body: unknown, status = 200) => new Response(JSON.stringify(body),
 const EXAM = "cefr";
 // deno-lint-ignore no-explicit-any
 type Any = any;
-
-// ---------- การตรวจคำตอบ (ที่เดียวของทั้งระบบ) ----------
-const norm = (s: unknown) => String(s ?? "").trim().toLowerCase().replace(/\s+/g, " ");
-function near(a: string, b: string) {                      // สะกดผิดได้ 1 ตัวเมื่อคำยาว ≥ 4
-  if (a === b) return true;
-  if (b.length < 4 || Math.abs(a.length - b.length) > 1) return false;
-  let i = 0, j = 0, d = 0;
-  while (i < a.length && j < b.length) {
-    if (a[i] === b[j]) { i++; j++; continue; }
-    if (++d > 1) return false;
-    if (a.length > b.length) i++; else if (a.length < b.length) j++; else { i++; j++; }
-  }
-  return d + (a.length - i) + (b.length - j) <= 1;
-}
-/** body = ข้อจาก exam_items.body · q = ลำดับคำถามย่อย · answer = สิ่งที่ผู้เรียนตอบ */
-function grade(body: Any, q: number, answer: unknown): boolean {
-  if (body.kind === "mcq") return Number(answer) === body.answer;
-  if (body.kind === "type") return (body.accept ?? [body.answer]).some((x: string) => near(norm(answer), norm(x)));
-  if (body.kind === "order") return Array.isArray(answer) && answer.map(norm).join("|") === body.chunks.map(norm).join("|");
-  const qq = body.questions?.[q];
-  return !!qq && Number(answer) === qq.answer;
-}
-/** ตัดเฉลยและเหตุผลออก (แบบวัดระดับและชุดวัดผลก่อนส่ง) */
-function strip(body: Any) {
-  const cut = (c: Any[]) => c.map((x) => ({ t: x.t }));
-  const o: Any = { id: body.id, kind: body.kind, skill: body.skill, stem: body.stem, title: body.title, text: body.text, passage: body.passage, script: body.script };
-  if (body.choices) o.choices = cut(body.choices);
-  if (body.questions) o.questions = body.questions.map((x: Any) => ({ stem: x.stem, choices: cut(x.choices) }));
-  if (body.kind === "order") o.chunks = [...body.chunks].sort(() => Math.random() - 0.5);
-  return o;
-}
 
 async function userOf(admin: SupabaseClient, req: Request) {
   const token = (req.headers.get("Authorization") ?? "").replace(/^Bearer\s+/i, "");

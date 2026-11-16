@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """เทสต์คลังและตัว build · รัน: python3 tests/test_bank.py  (ต้อง ALL PASS ก่อน commit)"""
-import os, sys, json, subprocess
+import os, re, sys, json, subprocess
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 fails = []
 def ok(cond, name):
@@ -29,7 +29,7 @@ for d, _, fs in os.walk(os.path.join(ROOT, 'dist')):
     for f in fs:
         if f.endswith(('.json', '.js', '.html')):
             s = open(os.path.join(d, f), encoding='utf-8', errors='ignore').read()
-            if '"why"' in s or '"answer"' in s: leak.append(f)
+            if re.search(r'cefr-[a-z0-9]+-(w\d{2}|cp[abc]|pl)-\d{3}', s) or 'DEMO_DATA=' in s or f == 'demo_data.js' or '"choices"' in s: leak.append(f)
 ok(not leak, f'dist/ ไม่มีเฉลยหรือเหตุผลรั่ว {leak}')
 print('ALL PASS' if not fails else f'{len(fails)} FAILED')
 sys.exit(1 if fails else 0)

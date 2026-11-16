@@ -6,7 +6,7 @@ fails = []
 def ok(c, name):
     print(('PASS ' if c else 'FAIL ') + name)
     if not c: fails.append(name)
-for f in ('engine.mjs', 'assemble.mjs', 'pricing.mjs'):
+for f in ('engine.mjs', 'assemble.mjs', 'pricing.mjs', 'grade.mjs'):
     a = open(os.path.join(ROOT, 'engine', f), encoding='utf-8').read()
     p = os.path.join(ROOT, 'supabase', 'functions', '_shared', f)
     ok(os.path.exists(p) and open(p, encoding='utf-8').read() == a, f'_shared/{f} ตรงกับ engine/ (ถ้าไม่ตรงรัน tools/sync_shared.py)')
