@@ -1,11 +1,11 @@
 // แผงเจ้าของ /admin · เฉพาะอีเมลที่อยู่ใน secret EXAM_OWNER_EMAILS (ตรวจที่เซิร์ฟเวอร์ exam-admin ทุกคำขอ · หน้านี้ไม่ได้ตัดสินสิทธิ์เอง)
 // สเปก docs/cefr/06_owner_panel.md · รอบแรก (17 พ.ย. 2569): ภาพรวม · ผู้เรียน (ดู/ให้สิทธิ์ฟรี/เพิกถอน) · คำสั่งซื้อ · รายงานข้อ · ประวัติการกระทำ
-import { el, esc } from './items.js';
+import { el, esc, rich, keepBox } from './items.js';
 import { SITE } from './config.js';
 import { authInit, signIn, signOut, currentUser, currentToken } from './auth.js';
 
 const app = document.getElementById('app');
-const TABS = [['overview', 'ภาพรวม'], ['learner', 'ผู้เรียน'], ['orders', 'คำสั่งซื้อ'], ['reports', 'รายงานข้อ'], ['log', 'ประวัติ']];
+const TABS = [['overview', 'ภาพรวม'], ['content', 'เนื้อหา'], ['learner', 'ผู้เรียน'], ['orders', 'คำสั่งซื้อ'], ['reports', 'รายงานข้อ'], ['log', 'ประวัติ']];
 const PRODUCT_TH = { 'cefr-b1': 'คอร์ส B1', 'cefr-b2': 'คอร์ส B2', 'cefr-a2': 'คอร์ส A2', 'cefr-c1': 'คอร์ส C1', 'cefr-c2': 'คอร์ส C2', 'cefr-all': 'ทุกคอร์ส', 'cefr-extend': 'ต่อเวลา' };
 const thDate = (s) => (s ? new Date(s).toLocaleString('th-TH', { dateStyle: 'medium', timeStyle: 'short' }) : '-');
 const head = () => `<div class="topbar"><span class="brand">${esc(SITE.brand)} · แผงเจ้าของ</span><button class="link" id="out">ออกจากระบบ</button></div>`;
@@ -89,7 +89,79 @@ async function log(main) {
   if (d.error) { main.innerHTML = fail(d); return; }
   main.innerHTML = d.log.length ? `<div class="card"><ul class="list">${d.log.map((l) => `<li><span class="tick">•</span><span><b>${esc(l.action)}</b> ${esc(JSON.stringify(l.detail || {})).slice(0, 160)}<br><small>${esc(l.actor)} · ${thDate(l.created_at)}</small></span></li>`).join('')}</ul></div>` : '<p class="small">ยังไม่มีประวัติ</p>';
 }
-const VIEWS = { overview, learner, orders, reports, log };
+// ---------- เนื้อหา: อนุมัติรายสัปดาห์ (มติบอส 17 พ.ย. รอบ 20) ----------
+// ผู้เรียนเห็นเฉพาะสัปดาห์ที่ผังเป็น approved และเฉพาะข้อที่ approved · Claude นำเนื้อหาใหม่เข้าเป็น draft แล้วบอสกดอนุมัติที่นี่
+const ST_TH = { approved: 'อนุมัติแล้ว', draft: 'ร่าง รอตรวจ', retired: 'ถอดออก' };
+const KIND_TH = { mcq: 'เลือกตอบ', type: 'พิมพ์คำ', order: 'เรียงประโยค', cloze: 'เติมช่องว่าง', read: 'อ่าน', listen: 'ฟัง' };
+const stTag = (st) => `<span class="tag st-${esc(st)}">${esc(ST_TH[st] || st)}</span>`;
+function itemPreview(b) {
+  const ch = (cs, ans) => cs.map((c, i) => `<p class="${i === ans ? 'ck-ok' : ''}"><b>${i === ans ? '✓' : i + 1}</b> <span class="en">${esc(c.t)}</span>${c.why ? `<br><small>${rich(c.why)}</small>` : ''}</p>`).join('');
+  let h = '';
+  if (b.passage) h += `<div class="en box">${esc(String(b.passage)).slice(0, 600)}${String(b.passage).length > 600 ? '…' : ''}</div>`;
+  if (b.text) h += `<div class="en box"><pre>${esc(b.text)}</pre></div>`;
+  if (b.script) h += `<div class="en box">${b.script.map((l) => `<p><b>${esc(l.who)}:</b> ${esc(l.en)}</p>`).join('')}</div>`;
+  if (b.stem) h += `<p class="en">${esc(b.stem)}</p>`;
+  if (b.kind === 'mcq') h += ch(b.choices, b.answer);
+  if (b.kind === 'type') h += `<p class="ck-ok"><b>✓</b> <span class="en">${esc(b.answer)}</span></p>`;
+  if (b.kind === 'order') h += `<p class="ck-ok"><b>✓</b> <span class="en">${esc(b.sentence)}</span></p><p class="small">${esc(b.th || '')}</p>`;
+  for (const [n, q] of (b.questions || []).entries()) h += `<p class="small"><b>คำถาม ${n + 1}</b> ${q.stem ? `<span class="en">${esc(q.stem)}</span>` : ''}</p>` + ch(q.choices, q.answer);
+  if (b.why) h += `<p class="small">${rich(b.why)}</p>`;
+  if (b.explain) h += keepBox(b.explain);
+  return h;
+}
+async function content(main) {
+  const course = sessionStorage.getItem('adm_course') || 'b1';
+  main.innerHTML = `<div class="chips" id="crs">${['a2', 'b1', 'b2', 'c1', 'c2'].map((c) => `<button class="chip${c === course ? ' on' : ''}" data-c="${c}">${c.toUpperCase()}</button>`).join('')}</div><div id="wk" class="screen"><p class="small">กำลังโหลด…</p></div>`;
+  main.querySelector('#crs').onclick = (e) => { const b = e.target.closest('.chip'); if (b) { try { sessionStorage.setItem('adm_course', b.dataset.c); } catch { /* */ } content(main); } };
+  const box = main.querySelector('#wk');
+  const d = await call('weeks_list', { course });
+  if (d.error) { box.innerHTML = fail(d); return; }
+  if (!d.weeks.length) { box.innerHTML = `<div class="note">คอร์ส ${course.toUpperCase()} ยังไม่มีเนื้อหาในระบบ (Claude จะนำเข้าเป็นร่างเมื่อเขียนเสร็จ)</div>`; return; }
+  box.innerHTML = '<p class="small">แตะสัปดาห์เพื่อตรวจ ผู้เรียนเห็นเฉพาะสัปดาห์และข้อที่ "อนุมัติแล้ว"</p>';
+  for (const w of d.weeks) {
+    const c = el(`<button class="card wkrow" data-w="${w.week}"><div class="row"><b class="grow">สัปดาห์ ${w.week} · ${esc(w.body?.theme_th || '')}</b>${stTag(w.status)}</div><span class="small">แก้ล่าสุด ${thDate(w.updated_at)}</span></button>`);
+    c.onclick = () => week(box, course, w);
+    box.appendChild(c);
+  }
+}
+async function week(box, course, w) {
+  box.innerHTML = '<p class="small">กำลังโหลดข้อ…</p>';
+  const d = await call('content_list', { course, week: w.week });
+  if (d.error) { box.innerHTML = fail(d); return; }
+  const items = d.items, nApp = items.filter((i) => i.status === 'approved').length;
+  const sess = (w.body?.sessions || []).map((s) => `<li><span class="tick">${s.day}</span><span>${esc(s.title_th || '')}${s.lesson ? `<br><small>${rich(s.lesson.rule_th || '')}</small>` : ''}</span></li>`).join('');
+  box.innerHTML = `<button class="link" id="back">← กลับรายการสัปดาห์</button>
+    <div class="card"><div class="row"><h2 class="grow">สัปดาห์ ${w.week} · ${esc(w.body?.theme_th || '')}</h2>${stTag(w.status)}</div>
+      <p class="small">ข้ออนุมัติแล้ว ${nApp} จาก ${items.length} ข้อ</p><ul class="list">${sess}</ul>
+      <button class="btn" id="apAll">อนุมัติทั้งสัปดาห์ (ผังบทเรียน + ทุกข้อ)</button>
+      <button class="btn quiet" id="toDraft">ส่งกลับเป็นร่างทั้งสัปดาห์ (ผู้เรียนจะไม่เห็น)</button><p class="small" id="wmsg"></p></div>
+    <div class="chips"><button class="chip" id="selAll">เลือกทุกข้อ</button><button class="chip" id="apSel">✓ อนุมัติข้อที่เลือก</button><button class="chip" id="rtSel">✕ ถอดข้อที่เลือก</button></div>
+    <div id="its" class="screen"></div>`;
+  const its = box.querySelector('#its');
+  for (const it of items) {
+    its.appendChild(el(`<details class="card itrow"><summary><label class="check" onclick="event.stopPropagation()"><input type="checkbox" value="${esc(it.id)}"></label><span class="grow"><b>${esc(it.id.split('-').pop())} · ${esc(KIND_TH[it.kind] || it.kind)}</b><br><small>${esc(it.topic)}</small></span>${stTag(it.status)}</summary><div class="screen">${itemPreview(it.body || {})}</div></details>`));
+  }
+  const msg = box.querySelector('#wmsg');
+  const reload = async () => { const x = await call('weeks_list', { course }); week(box, course, (x.weeks || []).find((y) => y.week === w.week) || w); };
+  const setItems = async (ids, status) => (ids.length ? call('content_status', { ids, status }) : { ok: true });
+  box.querySelector('#back').onclick = () => content(box.parentElement);
+  box.querySelector('#apAll').onclick = async () => {
+    if (!confirm(`อนุมัติสัปดาห์ ${w.week} ทั้งหมด? ผู้เรียนจะเห็นทันที`)) return;
+    msg.textContent = 'กำลังบันทึก…';
+    const a = await setItems(items.filter((i) => i.status !== 'retired').map((i) => i.id), 'approved'), b = await call('week_status', { course, week: w.week, status: 'approved' });
+    msg.textContent = a.ok && b.ok ? 'อนุมัติแล้ว' : `ไม่สำเร็จ (${a.error || b.error})`; if (a.ok && b.ok) reload();
+  };
+  box.querySelector('#toDraft').onclick = async () => {
+    if (!confirm(`ส่งสัปดาห์ ${w.week} กลับเป็นร่าง? ผู้เรียนที่อยู่สัปดาห์นี้จะเรียนต่อไม่ได้จนกว่าจะอนุมัติใหม่`)) return;
+    const b = await call('week_status', { course, week: w.week, status: 'draft' });
+    msg.textContent = b.ok ? 'ส่งกลับเป็นร่างแล้ว' : `ไม่สำเร็จ (${b.error})`; if (b.ok) reload();
+  };
+  const sel = () => [...its.querySelectorAll('input:checked')].map((x) => x.value);
+  box.querySelector('#selAll').onclick = () => { const all = its.querySelectorAll('input'); const on = [...all].some((x) => !x.checked); all.forEach((x) => { x.checked = on; }); };
+  box.querySelector('#apSel').onclick = async () => { const ids = sel(); if (!ids.length) return; const r = await setItems(ids, 'approved'); if (r.ok) reload(); else alert(r.error); };
+  box.querySelector('#rtSel').onclick = async () => { const ids = sel(); if (!ids.length || !confirm(`ถอด ${ids.length} ข้อออก? ผู้เรียนจะไม่เห็นข้อนี้อีก`)) return; const r = await setItems(ids, 'retired'); if (r.ok) reload(); else alert(r.error); };
+}
+const VIEWS = { overview, content, learner, orders, reports, log };
 
 async function render() {
   const u = await authInit(() => render());

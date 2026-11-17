@@ -3,7 +3,7 @@
 // ทุกคำขอ: ต้องล็อกอิน + อีเมลยืนยันแล้ว + อยู่ใน secret EXAM_OWNER_EMAILS (บอสตั้งเอง ไม่อยู่ใน repo) มิฉะนั้นได้ 403 ไม่มีข้อยกเว้น
 // ทุกการกระทำที่เปลี่ยนข้อมูลถูกบันทึกใน exam_admin_log (ใคร ทำอะไร เมื่อไร)
 // POST {action, ...}: overview · orders · order_verify · grant · revoke · refund_mark · settings_get · settings_set
-//   content_list · content_status · week_status · reports · report_close · item_stats · learner · learner_delete · log
+//   content_list · content_status · weeks_list · week_status · reports · report_close · item_stats · learner · learner_delete · log
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import { beam, isPaid } from "../exam-billing/beam.ts";
@@ -124,6 +124,10 @@ Deno.serve(async (req) => {
       const { count } = await admin.from("exam_items").update({ status, updated_at: new Date().toISOString() }, { count: "exact" }).in("id", ids);
       await log("content_status", { status, n: count ?? 0, ids: ids.slice(0, 50) });
       return json({ ok: true, changed: count ?? 0 });
+    }
+    if (action === "weeks_list") {                         // ผังสัปดาห์ของคอร์ส พร้อมสถานะ (หน้าแท็บเนื้อหา)
+      const { data } = await admin.from("exam_course_weeks").select("week,status,updated_at,body").eq("exam", "cefr").eq("course", String(body.course ?? "b1")).order("week");
+      return json({ weeks: data ?? [] });
     }
     if (action === "week_status") {
       const status = String(body.status ?? "");
