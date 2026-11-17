@@ -36,7 +36,7 @@ export function buildSession({ kind, pointer, week, states, day, lastDay, pace, 
     if (partA) steps.push({ step: 'lab_prepare', lab: sess.lab });
     if (partB) steps.push({ step: 'lab_do', lab: sess.lab }, { step: 'practice', ids: sess.practice || [] }, { step: 'close' });
   } else {
-    if (partA) steps.push({ step: 'learn', lesson: sess.lesson, check: sess.check || [] });
+    if (partA) steps.push({ step: 'learn', lesson: sess.lesson, check: sess.check || [], day: sess.day, title: sess.title_th });   // day/title ใช้เลือกโทนสีของบทเรียน
     if (partB) steps.push({ step: 'practice', ids: sess.practice || [] }, { step: 'use', use: sess.use }, { step: 'close', classroom: sess.classroom });
   }
   return { kind, mode, steps, reviewIds: partA ? review : [], advance: true };

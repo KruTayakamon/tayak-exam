@@ -128,3 +128,38 @@ h2.rule{font-weight:500;line-height:1.7}
 .opt.sel{border-color:var(--accent);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}
 .btn:disabled{opacity:.45;cursor:default}
 a.btn{text-decoration:none} a{color:var(--accent)}
+
+/* ---------- หน้าสมุดโน้ตของบทเรียน: โทนสีเปลี่ยนตามวัน (มติบอส 17 พ.ย. "วันแรกสวย วันต่อมาจืด อยากให้แต่ละวันต่างกัน") ---------- */
+/* --day = สีหลักของวัน (หัวข้อ เส้นขอบ) · --day-soft = พื้นอ่อน · --day-line = เส้นกระดาษ · ไฮไลต์ 3 สียังคงความหมายเดิมทุกวัน */
+.nb{--day:#0B6B5B;--day-soft:#DDEFEA;--day-line:#cfe7e0;position:relative;background:var(--card);border:1px solid var(--line);border-radius:4px 14px 14px 4px;padding:30px 14px 16px 22px;display:flex;flex-direction:column;gap:14px;box-shadow:inset 6px 0 0 var(--day-soft)}
+.nb::before{content:"";position:absolute;top:0;bottom:0;left:14px;border-left:2px dotted var(--day);opacity:.45}
+.nb.d1{--day:#0B6B5B;--day-soft:#DDEFEA;--day-line:#d3ebe4}
+.nb.d2{--day:#B4501E;--day-soft:#FDE6D6;--day-line:#f7dccb}
+.nb.d3{--day:#6A3FB5;--day-soft:#ECE3FA;--day-line:#e3d9f5}
+.nb.d4{--day:#1F5FA8;--day-soft:#DDEBFB;--day-line:#d3e3f5}
+.nb.d5{--day:#B0285F;--day-soft:#FBE0EA;--day-line:#f5d5e1}
+.nb.d6{--day:#7A6400;--day-soft:#FBF1C7;--day-line:#f2e7b8}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .nb{--day-soft:#1d2a3a;--day-line:#24344a}
+  :root:not([data-theme="light"]) .nb.d1{--day:#4FC3A9} :root:not([data-theme="light"]) .nb.d2{--day:#F2A06B} :root:not([data-theme="light"]) .nb.d3{--day:#B79BF0}
+  :root:not([data-theme="light"]) .nb.d4{--day:#7FB3F0} :root:not([data-theme="light"]) .nb.d5{--day:#F08AB2} :root:not([data-theme="light"]) .nb.d6{--day:#E6CD5C} }
+:root[data-theme="dark"] .nb{--day-soft:#1d2a3a;--day-line:#24344a}
+:root[data-theme="dark"] .nb.d1{--day:#4FC3A9} :root[data-theme="dark"] .nb.d2{--day:#F2A06B} :root[data-theme="dark"] .nb.d3{--day:#B79BF0}
+:root[data-theme="dark"] .nb.d4{--day:#7FB3F0} :root[data-theme="dark"] .nb.d5{--day:#F08AB2} :root[data-theme="dark"] .nb.d6{--day:#E6CD5C}
+.nb-tape{position:absolute;top:-11px;left:22px;max-width:86%;background:var(--day-soft);color:var(--day);border:1px dashed var(--day);font-weight:700;font-size:.82rem;padding:3px 12px;transform:rotate(-1.5deg);border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nb h2,.nb h2.rule{color:var(--ink)}
+.nb h2.rule{border-left:4px solid var(--day);padding-left:12px}
+.nb .card{border-color:var(--day-line);box-shadow:2px 3px 0 var(--day-soft)}
+.nb .card>h2{color:var(--day)}
+.nb .card.lined{border-left:3px double var(--day)}
+.nb u.k{text-decoration-color:var(--day);text-decoration-thickness:3px}
+.nb .spk{color:var(--day);border-color:var(--day-line)}
+.nb .spkth{color:var(--day);border-color:var(--day)}
+.nb .sticky::before{background:var(--day);opacity:.55}
+.nb .words li b{background:var(--day-soft);color:var(--day);padding:1px 8px;border-radius:999px}
+.signals{display:flex;flex-direction:column;gap:6px}
+.sig{display:inline-block;background:var(--day-soft,var(--accent-soft));color:var(--day,var(--accent));border:1px solid var(--day-line,transparent);border-radius:999px;padding:3px 10px;font-size:.9rem;transform:rotate(-.6deg)}
+.sig:nth-child(even){transform:rotate(.8deg)}
+.nb .trap{border:1.5px dashed var(--bad);background:var(--bad-soft);box-shadow:none}
+.nb .trap>h2{color:var(--bad)}
+.stamp{display:inline-block;border:2px solid var(--bad);color:var(--bad);border-radius:6px;padding:0 6px;font-size:.78rem;transform:rotate(-6deg);margin-right:4px}
+@media (prefers-reduced-motion:reduce){.nb-tape,.sig,.stamp{transform:none}}

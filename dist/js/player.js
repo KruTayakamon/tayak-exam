@@ -13,7 +13,7 @@ export function flatten(plan) {
   const cards = [];
   for (const s of plan.steps) {
     if (s.step === 'review' || s.step === 'practice') for (const id of s.ids || []) cards.push({ type: 'item', step: s.step, mode: s.step, id });
-    else if (s.step === 'learn') { cards.push({ type: 'learn', step: 'learn', lesson: s.lesson }); for (const id of s.check || []) cards.push({ type: 'item', step: 'check', mode: 'check', id }); }
+    else if (s.step === 'learn') { cards.push({ type: 'learn', step: 'learn', lesson: s.lesson, day: s.day || 1, title: s.title || '' }); for (const id of s.check || []) cards.push({ type: 'item', step: 'check', mode: 'check', id }); }
     else if (s.step === 'use') cards.push({ type: 'use', step: 'use', use: s.use });
     else if (s.step === 'close') cards.push({ type: 'close', step: 'close', classroom: s.classroom });
     else if (s.step === 'lab_prepare' || s.step === 'lab_do') cards.push({ type: s.step, step: s.step, lab: s.lab });
@@ -76,10 +76,14 @@ export async function openSession(root, kind, onExit) {
       }, { onReport: (id) => api.report({ item_id: id, why: 'other' }) });
     } else if (card.type === 'learn') {
       const L = card.lesson;
+      // หน้าสมุดโน้ต: โทนสีเปลี่ยนตามวัน (d1–d6) · แถบเทปบอกวันและหัวข้อ · กติกาเขียนบนกระดาษเส้น
+      const page = el(`<div class="nb d${Math.min(6, Math.max(1, card.day || 1))}" id="nbPage"><div class="nb-tape">วันที่ ${card.day || 1}${card.title ? ' · ' + esc(card.title) : ''}</div></div>`);
+      body.appendChild(page);
+      const outer = body; { const body = page;
       body.appendChild(el(`<h2 class="rule">${rich(L.rule_th)}</h2>`));
       const th = spkThai([L.rule_th, L.thai_trap ? L.thai_trap.intro_th : '', ...(L.notes || []).map((n) => n.th)].join(' . '));
       if (th) body.appendChild(th);
-      const exs = el('<div class="card"></div>');
+      const exs = el('<div class="card lined"></div>');
       for (const x of L.examples) {
         const row = el(`<div class="ex"><div class="row"><span class="en grow">${mark(x.en)}</span></div><span class="small">${rich(x.th)}</span></div>`);
         const sp = spk(x.en.replace(/<\/?k>/g, '')); if (sp) row.querySelector('.row').appendChild(sp);
@@ -88,7 +92,7 @@ export async function openSession(root, kind, onExit) {
       body.appendChild(exs);
       if (L.notes) body.appendChild(el('<div class="stickies">' + notesHtml(L.notes) + '</div>'));
       if (L.words) {
-        const wl = el('<div class="card"><h2>คำศัพท์วันนี้</h2><ul class="words"></ul></div>');
+        const wl = el('<div class="card lined"><h2>คำศัพท์วันนี้</h2><ul class="words"></ul></div>');
         for (const w of L.words) {
           const li = el(`<li><div class="row"><span class="grow"><span class="en"><b>${esc(w.w)}</b></span> <span class="small">${esc(w.pos)}</span> ${esc(w.th)}</span></div><div class="en small">${esc(w.ex)}</div></li>`);
           const sp = spk(`${w.w}. ${w.ex}`, `ฟังคำว่า ${w.w}`); if (sp) li.querySelector('.row').appendChild(sp);
@@ -96,10 +100,11 @@ export async function openSession(root, kind, onExit) {
         }
         body.appendChild(wl);
       }
-      for (const g of L.signals || []) body.appendChild(el(`<p class="small"><b>${esc(g.label_th)}:</b> <span class="en">${esc(g.words.join(', '))}</span></p>`));
+      for (const g of L.signals || []) body.appendChild(el(`<div class="signals"><span class="small"><b>${esc(g.label_th)}</b></span><div class="chips">${g.words.map((w) => `<span class="sig en">${esc(w)}</span>`).join('')}</div></div>`));
       const t = L.thai_trap;
-      body.appendChild(el(`<div class="card"><h2>จุดที่คนไทยพลาดบ่อย</h2><p>${rich(t.intro_th)}</p>` + t.wrong.map((w, i) => `<p><s class="en">${esc(w)}</s><br><span class="en"><b>${esc(t.right[i] ?? '')}</b></span></p>`).join('') + '</div>'));
-      body.appendChild(nextBtn('เข้าใจแล้ว ไปต่อ'));
+      body.appendChild(el(`<div class="card trap"><h2><span class="stamp">ระวัง!</span> จุดที่คนไทยพลาดบ่อย</h2><p>${rich(t.intro_th)}</p>` + t.wrong.map((w, i) => `<p><s class="en">${esc(w)}</s><br><span class="en"><b>${esc(t.right[i] ?? '')}</b></span></p>`).join('') + '</div>'));
+      }
+      outer.appendChild(nextBtn('เข้าใจแล้ว ไปต่อ'));
     } else if (card.type === 'use') {
       const u = card.use;
       body.appendChild(el(`<h2>ลองใช้เอง</h2>`)); body.appendChild(el(`<p>${esc(u.prompt_th)}</p>`));

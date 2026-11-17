@@ -45,12 +45,12 @@ sessions:
     minutes: 20
     title_th: คำศัพท์เรื่องงานและการเรียน 12 คำ
     lesson:
-      rule_th: "จำคำพร้อมคำที่ใช้คู่กัน ไม่จำคำเดี่ยว เช่น attend a meeting, responsible for, hand in an assignment"
+      rule_th: "เคล็ดลับวันนี้คือ ==จำคำเป็นก้อน== ไม่จำทีละคำ เช่น attend a meeting, responsible for, hand in an assignment จำทั้งก้อนแล้วเอาไปพูดได้เลย ++ไม่ต้องมานั่งเดาบุพบท++"
       examples:
-        - {en: "<k>attend</k> a meeting", th: "เข้าร่วมประชุม (ไม่มี to)"}
-        - {en: "be <k>responsible for</k> the library", th: "รับผิดชอบห้องสมุด"}
-        - {en: "<k>hand in</k> an assignment before the <k>deadline</k>", th: "ส่งงานก่อนกำหนดส่ง"}
-        - {en: "a member of <k>staff</k>", th: "บุคลากรหนึ่งคน (staff ไม่เติม -s)"}
+        - {en: "<k>attend</k> a meeting", th: "เข้าร่วมประชุม ตรงนี้ ~~ไม่มี to~~ นะ"}
+        - {en: "be <k>responsible for</k> the library", th: "รับผิดชอบห้องสมุด จำเป็นคู่ ==responsible for=="}
+        - {en: "<k>hand in</k> an assignment before the <k>deadline</k>", th: "ส่งงานก่อนกำหนดส่ง ได้มาทีเดียวสองคำเลย"}
+        - {en: "a member of <k>staff</k>", th: "บุคลากรหนึ่งคน staff เป็นคำรวม ~~ไม่เติม -s~~"}
       words:
         - {w: colleague, pos: n., th: เพื่อนร่วมงาน, ex: "My colleagues are very helpful."}
         - {w: timetable, pos: n., th: ตารางเวลา, ex: "Check the train timetable before you go."}
@@ -65,9 +65,12 @@ sessions:
         - {w: experience, pos: n., th: ประสบการณ์, ex: "He has a lot of experience."}
         - {w: currently, pos: adv., th: ในช่วงนี้, ex: "We are currently using the small meeting room."}
       thai_trap:
-        intro_th: มักแปลตรงตัวจากไทย จึงเติมบุพบทผิดหรือเติม -s ให้นามรวม
+        intro_th: "เราชอบแปลตรงตัวจากไทย คำว่า เข้าร่วม ประชุม เลยแอบมี to โผล่มา ส่วน รับผิดชอบ ของ ก็กลายเป็น ~~responsible of~~ ไปซะงั้น"
         wrong: ["attend to the meeting", "responsible of the library", "all the staffs"]
         right: ["attend the meeting", "responsible for the library", "all the staff"]
+      notes:
+        - {kind: tip, th: "จดศัพท์ใหม่แบบ ==คำ + คู่ของมัน== เสมอ เช่น attend + a meeting จะจำง่ายกว่าเยอะ"}
+        - {kind: warn, th: "staff กับ information นับไม่ได้ ห้ามเติม -s นะ"}
     check: [cefr-b1-w01-013, cefr-b1-w01-014]
     practice: [cefr-b1-w01-015, cefr-b1-w01-016, cefr-b1-w01-017, cefr-b1-w01-018, cefr-b1-w01-019, cefr-b1-w01-020, cefr-b1-w01-021, cefr-b1-w01-022, cefr-b1-w01-023, cefr-b1-w01-024]
     use:
@@ -81,18 +84,21 @@ sessions:
     minutes: 20
     title_th: กริยาที่ไม่ใช้ -ing และการตั้งคำถาม
     lesson:
-      rule_th: "กริยาบอกสภาวะ (ความคิด ความรู้สึก ความเป็นเจ้าของ) ใช้ present simple เสมอ แม้หมายถึงตอนนี้ · คำถามต้องมี do/does หรือสลับ am/is/are มาหน้าประธาน"
+      rule_th: "กริยาที่เป็นเรื่องในหัวหรือในใจ เช่น know, like, need ==ไม่ใช้ -ing== ถึงจะหมายถึงตอนนี้ก็ตาม ส่วนคำถามต้องมี ++do/does นำหน้า++ หรือย้าย am/is/are มาไว้หน้าประธาน"
       examples:
-        - {en: "I <k>know</k> the answer.", th: "ไม่ใช้ I am knowing"}
-        - {en: "We <k>need</k> more chairs.", th: "ไม่ใช้ We are needing"}
-        - {en: "<k>Does</k> she <k>work</k> on Saturdays?", th: "คำถาม present simple: Does + ประธาน + กริยารูปเดิม"}
-        - {en: "What <k>are</k> you <k>doing</k>?", th: "คำถาม present continuous: are มาหน้าประธาน"}
+        - {en: "I <k>know</k> the answer.", th: "รู้อยู่ในหัว ~~ไม่ใช้ I am knowing~~"}
+        - {en: "We <k>need</k> more chairs.", th: "need ก็เป็นเรื่องในใจ ใช้รูปธรรมดาพอ"}
+        - {en: "<k>Does</k> she <k>work</k> on Saturdays?", th: "Does มาแล้ว กริยาหลัก ==ไม่ต้องเติม -s== อีก"}
+        - {en: "What <k>are</k> you <k>doing</k>?", th: "ถามว่ากำลังทำอะไร ย้าย are มาไว้หน้า you"}
       signals:
         - {label_th: กริยาบอกสภาวะที่พบบ่อย, words: [know, understand, believe, "think (เห็นว่า)", want, need, like, prefer, belong, "have (มี)"]}
       thai_trap:
-        intro_th: ภาษาไทยตั้งคำถามด้วยคำลงท้าย (ไหม หรือเปล่า) โดยไม่สลับคำ จึงมักลืม do/does
+        intro_th: "ภาษาไทยแค่เติม ไหม ท้ายประโยคก็เป็นคำถามแล้ว พอพูดอังกฤษเลยชอบ ~~ลืม do/does~~ ทั้งที่ขาดไม่ได้เลย"
         wrong: ["You work on Saturdays?", "Where she comes from?", "I am understanding."]
         right: ["Do you work on Saturdays?", "Where does she come from?", "I understand."]
+      notes:
+        - {kind: pin, th: "คำถามปัจจุบันจำสูตรเดียว ==Do/Does + คน + กริยาเดิม== ใช้ได้แทบทุกครั้ง"}
+        - {kind: use, th: "เอาไปถามได้เลย Do you like your new job? คนฟังยิ้มแน่นอน"}
     check: [cefr-b1-w01-025, cefr-b1-w01-028]
     practice: [cefr-b1-w01-026, cefr-b1-w01-027, cefr-b1-w01-029, cefr-b1-w01-030, cefr-b1-w01-031, cefr-b1-w01-032, cefr-b1-w01-033, cefr-b1-w01-034]
     use:
@@ -106,15 +112,18 @@ sessions:
     minutes: 20
     title_th: อ่านข่าวสั้นและฟังประกาศ จับ ใคร ทำอะไร เมื่อไร ที่ไหน
     lesson:
-      rule_th: "อ่านคำถามก่อนอ่านบท แล้วหาคำบอกเวลาและสถานที่ · คำตอบมักใช้คำต่างจากในบท (preparing = getting ready) และคำถามเรียงตามลำดับเนื้อหา"
+      rule_th: "ทริกวันนี้ ==อ่านคำถามก่อน== แล้วค่อยอ่านบท จะรู้ว่าต้องหาอะไร คำตอบมักใช้ ++คำคนละคำแต่ความหมายเดียวกัน++ เช่น preparing = getting ready และคำถามมักเรียงตามลำดับเนื้อหา"
       examples:
-        - {en: "She runs the English Club <k>every Thursday after school</k>.", th: "คำถาม When...? → มองหาวันและเวลา"}
-        - {en: "<k>At the moment</k> she is preparing an activity.", th: "คำถามเรื่อง 'ตอนนี้' → มองหา at the moment, currently"}
-        - {en: "The meeting will start at four o'clock, <k>not three thirty</k>.", th: "ฟัง: ข้อมูลที่ถูกแก้ไขมักเป็นตัวหลอก"}
+        - {en: "She runs the English Club <k>every Thursday after school</k>.", th: "เจอคำถาม When ให้กวาดตาหา ==วันและเวลา=="}
+        - {en: "<k>At the moment</k> she is preparing an activity.", th: "ถามเรื่องตอนนี้ ให้หา at the moment หรือ currently"}
+        - {en: "The meeting will start at four o'clock, <k>not three thirty</k>.", th: "ตอนฟัง ข้อมูลที่ถูกแก้ทีหลัง ~~มักเป็นตัวหลอก~~"}
       thai_trap:
-        intro_th: มักเลือกตัวเลือกที่มีคำเดียวกับในบทโดยไม่อ่านทั้งประโยค ตัวหลอกจงใจใช้คำจากบทแต่ผิดบริบท
+        intro_th: "เห็นคำเดียวกับในบทแล้วรีบกดเลย อันนี้แหละที่โดนหลอกบ่อยสุด ตัวหลอกชอบ ~~ยกคำจากบทมาใส่~~ แต่ผิดเรื่อง"
         wrong: ["เห็นคำว่า Monday ในบท จึงตอบ every Monday morning"]
         right: ["ตรวจว่า Monday ในบทพูดถึงกิจกรรมไหน ก่อนเลือก"]
+      notes:
+        - {kind: tip, th: "ก่อนตอบ ถามตัวเองว่า ==คำนี้ในบทพูดถึงเรื่องไหน== แล้วค่อยเลือก"}
+        - {kind: warn, th: "ฟังให้จบประโยค เพราะคำว่า not หรือ instead มักโผล่มาตอนท้าย"}
     check: [cefr-b1-w01-036, cefr-b1-w01-037]
     practice: [cefr-b1-w01-035, cefr-b1-w01-038, cefr-b1-w01-039, cefr-b1-w01-040, cefr-b1-w01-041]
     use:

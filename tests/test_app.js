@@ -8,7 +8,9 @@ let fails = 0;
 const ok = (c, name) => { console.log((c ? 'PASS ' : 'FAIL ') + name); if (!c) fails++; };
 
 /** ตอบการ์ดปัจจุบันแล้วไปต่อ · wrong = จงใจตอบผิด (เฉพาะข้อเลือกตอบ) · คืนชนิดของการ์ด */
+const NB = new Set();   // โทนสีหน้าสมุดโน้ตที่เจอ (d1–d6 ตามวัน)
 async function step(p, wrong = false) {
+  const nb = await p.$('#nbPage'); if (nb) NB.add(await nb.getAttribute('class'));
   const kind = await p.evaluate((wrong) => {
     const host = document.querySelector('[data-item]');
     if (document.querySelector('#finishBtn')) return 'close';
@@ -109,6 +111,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   }
   ok(['mcq', 'type', 'cloze', 'read', 'listen', 'order'].every((k) => kinds[k]), `เล่นครบทุกชนิดข้อ ${JSON.stringify(kinds)}`);
   ok((await p.textContent('#view')).includes('จบเนื้อหาที่มีแล้ว'), 'จบสัปดาห์ 1 แล้วบอกว่ายังไม่มีสัปดาห์ถัดไป');
+  ok(['nb d1', 'nb d2', 'nb d3', 'nb d4'].every((c) => NB.has(c)), 'บทเรียนแต่ละวันใช้โทนสีของวันนั้น (d1–d4): ' + [...NB].join(','));
   st = await state(p); ok(st.enrol.week === 2 && st.enrol.day === 1 && st.sessions.filter((x) => x.kind !== 'short').length === 6, 'ทำครบ 6 เซสชันของสัปดาห์');
   for (const r of ['course', 'extra', 'results', 'buy', 'account']) { await p.goto(base + '/dist-demo/app.html#' + r); await p.waitForSelector('#view h1'); ok(await noOverflow(p), `หน้า ${r} เปิดได้และไม่ล้นจอ`); }
   await p.goto(base + '/dist-demo/app.html#results'); await p.waitForSelector('#view h1'); await p.screenshot({ path: path.join(SHOTS, 'app_results.png'), fullPage: true });
