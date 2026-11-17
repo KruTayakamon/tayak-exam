@@ -163,3 +163,51 @@ a.btn{text-decoration:none} a{color:var(--accent)}
 .nb .trap>h2{color:var(--bad)}
 .stamp{display:inline-block;border:2px solid var(--bad);color:var(--bad);border-radius:6px;padding:0 6px;font-size:.78rem;transform:rotate(-6deg);margin-right:4px}
 @media (prefers-reduced-motion:reduce){.nb-tape,.sig,.stamp{transform:none}}
+
+/* ---------- หลักที่ควรจำ · คำชม · ดาว · ตรา (มติบอส 17 พ.ย. รอบ 17) ---------- */
+/* ห้ามใช้ text-shadow กับข้อความไทย (บทเรียนจากเกมครัว) */
+.keep{position:relative;background:linear-gradient(135deg,#FFF7D6,#FFE9F1);border:1.5px dashed #F2A65A;border-radius:14px;padding:22px 14px 12px;margin-top:6px}
+.keep-t{position:absolute;top:-12px;left:12px;background:#FF8FB1;color:#fff;font-weight:700;font-size:.8rem;padding:3px 12px;border-radius:999px;transform:rotate(-2deg)}
+.keep p{margin:0;font-size:.98rem;line-height:1.75;color:#3A3320}
+.kw{font-family:var(--en);font-weight:600;background:#D7F0FF;color:#0D4F86;border-radius:6px;padding:0 5px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.keep .kw:nth-of-type(3n+2){background:#E2F7D9;color:#246B1E}
+.keep .kw:nth-of-type(3n){background:#F0E3FF;color:#5B2D9E}
+.keep .hl{color:#3A3320}
+.cheer{display:flex;align-items:center;gap:12px;border-radius:16px;padding:12px 14px;animation:cheerIn .45s cubic-bezier(.2,1.6,.4,1) both}
+.cheer b{display:block;font-size:1.05rem}
+.cheer small{display:block;color:#6B5E48;font-size:.85rem;margin-top:2px}
+.cheer.ok{background:linear-gradient(135deg,#FFF3B8,#FFE0EC);border:2px solid #FFC93C}
+.cheer.ok b{color:#9A5B00}
+.cheer.mid{background:#E8F4FF;border:2px solid #8CC4F5}
+.cheer.mid b{color:#1F5FA8}
+.cheer.try{background:#F3EEFF;border:2px dashed #B79BF0}
+.cheer.try b{color:#5B2D9E;font-size:.95rem}
+.pop{font-size:2rem;line-height:1;animation:popStar .7s ease-out both}
+.combo{align-self:center;background:#FF6B4A;color:#fff;font-weight:700;border-radius:999px;padding:5px 16px;animation:cheerIn .5s .15s cubic-bezier(.2,1.6,.4,1) both}
+.stars{color:#FFB800;letter-spacing:1px}
+.stars small{color:var(--ink2)}
+.bigstars{font-size:1.6rem;margin:0;text-align:center}
+.trophy{background:linear-gradient(160deg,#FFFBEA,#FFF0F6);border:1.5px solid #FFD27A}
+.trophy p,.trophy h2{color:#3A3320}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1.5px solid #FFD27A;border-radius:999px;padding:4px 12px 4px 6px;font-size:.88rem;font-weight:600;color:#7A4E00;animation:cheerIn .5s cubic-bezier(.2,1.6,.4,1) both}
+.badge i{font-style:normal;font-size:1.2rem}
+.badge.b-perfect{background:#FFF3B8;border-color:#FFB800}
+.badge.b-streak{background:#FFE6DE;border-color:#FF8A65;color:#A43A12}
+.badge.b-wrote{background:#E8F4FF;border-color:#8CC4F5;color:#1F5FA8}
+.badge.off{opacity:.38;filter:grayscale(1);animation:none}
+.statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}
+.statgrid div{background:#fff;border-radius:12px;padding:8px 4px;border:1px solid #FFE1A8}
+.statgrid b{display:block;font-size:1.15rem;color:#3A3320}
+.statgrid small{color:#7A6A4A;font-size:.78rem}
+.rank{font-size:.85rem;font-weight:700;color:#9A5B00;background:#FFF3B8;border-radius:999px;padding:2px 10px}
+.starchip{align-self:flex-start;background:#FFF3B8;color:#7A4E00;border:1.5px solid #FFC93C;border-radius:999px;padding:4px 12px;font-weight:700;font-size:.9rem;text-decoration:none}
+.checks p{margin:4px 0}
+.ck-ok b{color:var(--ok)} .ck-bad b{color:var(--bad)}
+@keyframes cheerIn{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
+@keyframes popStar{0%{transform:scale(0) rotate(-30deg)}60%{transform:scale(1.35) rotate(10deg)}100%{transform:none}}
+@media (prefers-reduced-motion:reduce){.cheer,.combo,.badge,.pop{animation:none}}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .kw{background:#16364F;color:#9FD3FF}
+  :root:not([data-theme="light"]) .keep .kw:nth-of-type(3n+2){background:#1E3B1A;color:#A8E39B} :root:not([data-theme="light"]) .keep .kw:nth-of-type(3n){background:#33224F;color:#D2B8FF} }
+:root[data-theme="dark"] .kw{background:#16364F;color:#9FD3FF}
+:root[data-theme="dark"] .keep .kw:nth-of-type(3n+2){background:#1E3B1A;color:#A8E39B} :root[data-theme="dark"] .keep .kw:nth-of-type(3n){background:#33224F;color:#D2B8FF}

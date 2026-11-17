@@ -1,6 +1,6 @@
 // จอนอกเซสชัน: ตั้งแผน · วันนี้ · คอร์ส · ฝึกเพิ่ม · ผล · ซื้อ · บัญชี (ตามต้นแบบ design/cefr_prototype.html)
 import { api } from './api.js';
-import { getSession, getPrefs, putPrefs } from './store.js';
+import { getSession, getPrefs, putPrefs, getStars } from './store.js';
 import { el, esc } from './items.js';
 import { dayKey } from './engine/engine.mjs';
 import { SITE } from './config.js';
@@ -12,6 +12,16 @@ const READY = { in_target: ['อยู่ในช่วงเป้า', 'ok'],
 const DOW = ['จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส', 'อา'];
 const thDate = (d) => { const [y, m, dd] = dayKey(d).split('-').map(Number); return `${dd} ${['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'][m - 1]} ${y + 543}`; };
 export const header = () => `<div class="topbar"><span class="brand">${esc(SITE.brand)}</span><span class="small">by TAYAK</span></div>`;
+const BADGE_TH = { perfect: ['👑', 'ถูกหมดทุกข้อ'], great: ['🌟', 'ถูกเกิน 80%'], streak: ['🔥', 'ถูกติดกัน 5 ข้อขึ้นไป'], wrote: ['✍️', 'ลงมือเขียน/พูดเอง'], done: ['✅', 'เรียนครบวัน'] };
+/** การ์ดดาวและตราสะสม (มติบอส 17 พ.ย. รอบ 17) · ตราที่ยังไม่ได้แสดงเป็นเงาจาง ๆ ให้อยากเก็บ */
+function trophyCard() {
+  const t = getStars();
+  const rank = t.stars >= 300 ? ['💎', 'นักสะสมดาวเพชร'] : t.stars >= 150 ? ['🥇', 'นักสะสมดาวทอง'] : t.stars >= 60 ? ['🥈', 'นักสะสมดาวเงิน'] : t.stars >= 20 ? ['🥉', 'นักสะสมดาวทองแดง'] : ['🌱', 'ดาวดวงแรก ๆ'];
+  return `<div class="card trophy" id="starStats"><div class="row"><h2 class="grow">ดาวและตราสะสม</h2><span class="rank">${rank[0]} ${rank[1]}</span></div>
+    <div class="statgrid"><div><b>⭐ ${t.stars}</b><small>ดาวทั้งหมด</small></div><div><b>👑 ${t.perfect}</b><small>วันที่ถูกหมด</small></div><div><b>🔥 ${t.best}</b><small>ถูกติดกันสูงสุด</small></div></div>
+    <div class="badges">${Object.entries(BADGE_TH).map(([k, [i, th]]) => `<span class="badge b-${k}${t.badges[k] ? '' : ' off'}"><i>${i}</i>${th}${t.badges[k] ? ` ×${t.badges[k]}` : ''}</span>`).join('')}</div>
+    <p class="small">ตอบถูกตั้งแต่ครั้งแรก 1 ข้อ = 1 ดาว · เก็บไว้ในเครื่องนี้</p></div>`;
+}
 const demoNote = () => (api.mode === 'demo' ? '<div class="demo">โหมดสาธิต: เนื้อหาร่างสัปดาห์ 1 ของคอร์ส B1 ข้อมูลเก็บในเครื่องนี้เท่านั้น</div>' : '');
 
 function readyRows(r) {
@@ -40,6 +50,8 @@ export async function viewToday(root, go) {
   if (h.content_missing) root.appendChild(el(h.pointer.week === 1 ? '<div class="card" id="soonCard"><h2>บทเรียนกำลังจะเปิด</h2><p class="small">เนื้อหาสัปดาห์แรกอยู่ระหว่างตรวจครั้งสุดท้าย เปิดให้เรียนเร็ว ๆ นี้ ระหว่างนี้ลองวัดระดับฟรีได้</p><a class="btn quiet" href="placement.html">วัดระดับฟรี</a></div>' : '<div class="card"><h2>จบเนื้อหาที่มีแล้ว</h2><p class="small">สัปดาห์ถัดไปยังไม่มีเนื้อหา</p></div>'));
   else if (h.access && h.access.level === 'review') { /* เนื้อหาใหม่ล็อก แสดงแค่ปุ่มทบทวนด้านล่าง */ }
   else {
+    const st = getStars();
+    if (st.stars) root.appendChild(el(`<a class="starchip" id="starChip" href="#results">⭐ ${st.stars} ดาว${st.perfect ? ` · 👑 ${st.perfect}` : ''}${st.best >= 5 ? ` · 🔥 ${st.best}` : ''}</a>`));
     root.appendChild(el(`<div><p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · ${esc(h.theme)}</p><h1 id="todayTitle">วันที่ ${h.pointer.day}: ${esc(h.title)}</h1></div>`));
     const main = el(`<button class="btn" id="startBtn">${paused && paused.kind === 'full' ? 'ทำต่อจากที่ค้าง' : `เริ่มเซสชันวันนี้ · ${h.pace === 10 ? 10 : h.session_minutes} นาที`}</button>`);
     main.addEventListener('click', () => go('session-full'));
@@ -67,6 +79,7 @@ export async function viewResults(root) {
   const h = await api.home();
   root.innerHTML = header() + '<h1>ผลและความพร้อม</h1>';
   if (!h || h.error) { root.appendChild(el('<p class="small">ยังไม่มีข้อมูล</p>')); return; }
+  root.appendChild(el(trophyCard()));
   root.appendChild(el(`<p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · เซสชันเต็ม ${h.full_sessions} ครั้ง · เรียนแล้ว ${Math.floor(h.minutes / 60)} ชม. ${h.minutes % 60} นาที</p>`));
   root.appendChild(el(`<div class="card"><h2>ความพร้อมรายทักษะ</h2>${readyRows(h.readiness)}<p class="small">คำนวณจากคำตอบครั้งแรกใน 14 วันล่าสุด เป็นการประเมินจากแบบฝึกของเรา ไม่ใช่ผลสอบ</p></div>`));
   root.appendChild(el('<div class="card"><h2>ชุดวัดผล</h2><p class="small">ครั้งที่ 1 ท้ายสัปดาห์ 4 · ครั้งที่ 2 ท้ายสัปดาห์ 8 · ครั้งที่ 3 ท้ายสัปดาห์ 12</p></div>'));

@@ -1,8 +1,44 @@
 // ตัวเล่นเซสชัน: เดินทีละการ์ดตามแผนจากเซิร์ฟเวอร์ · เก็บตำแหน่งทุกการ์ดเพื่อทำต่อจากที่ค้าง · เก็บคำตอบเข้าคิวในเครื่องแล้วส่งเป็นระยะ
 // สเปก: docs/cefr/01_course_design.md ข้อ 3.1 และ docs/cefr/07_web_app.md
 import { api } from './api.js';
-import { getSession, putSession, clearSession, getQueue, pushEvent, dropEvents, newId } from './store.js';
-import { renderItem, el, esc, mark, rich, notesHtml, say, canSay, spk, spkThai } from './items.js';
+import { getSession, putSession, clearSession, getQueue, pushEvent, dropEvents, newId, getStars, putStars } from './store.js';
+import { renderItem, el, esc, mark, rich, notesHtml, say, canSay, spk, spkThai, keepBox } from './items.js';
+
+// ---------- คำชม ดาว และตราพิเศษ (มติบอส 17 พ.ย. รอบ 17) ----------
+const PRAISE = ['เก่งมาก!', 'ถูกเป๊ะ!', 'เยี่ยมเลย!', 'แม่นมาก!', 'สุดยอด!', 'ใช่เลย!', 'ปังมาก!', 'คล่องขึ้นเรื่อย ๆ!'];
+const CHEER_TRY = ['ไม่เป็นไรนะ ข้อนี้จะกลับมาให้ลองใหม่พรุ่งนี้', 'เกือบแล้ว! อ่านหลักที่ควรจำอีกนิด พรุ่งนี้เจอกันใหม่', 'พลาดได้ เดี๋ยวข้อนี้วนกลับมาให้แก้มือ'];
+const COMBO = { 3: ['🔥', 'ถูก 3 ข้อติด!'], 5: ['⚡', '5 ข้อติด ไฟลุกแล้ว!'], 8: ['🚀', '8 ข้อติด หยุดไม่อยู่!'], 10: ['🏆', '10 ข้อติด ระดับตำนาน!'] };
+/** ตราของเซสชันจากสถิติที่ทำได้ · คืน [{k, icon, th}] */
+export function badgesOf(s) {
+  const b = [{ k: 'done', icon: '✅', th: 'เรียนครบวันนี้' }];
+  if (s.total && s.right === s.total) b.unshift({ k: 'perfect', icon: '👑', th: 'ถูกหมดทุกข้อ!' });
+  else if (s.total && s.right / s.total >= 0.8) b.unshift({ k: 'great', icon: '🌟', th: 'ถูกเกิน 80%' });
+  if ((s.best || 0) >= 5) b.push({ k: 'streak', icon: '🔥', th: `ถูกติดกัน ${s.best} ข้อ` });
+  if (s.wrote) b.push({ k: 'wrote', icon: '✍️', th: 'ลงมือเขียนเอง' });
+  return b;
+}
+const starRow = (n) => `<span class="stars" aria-label="${n} ดาว">${'★'.repeat(Math.min(n, 12))}${n > 12 ? ` <small>×${n}</small>` : ''}</span>`;
+
+/** ตรวจงานเขียนสั้นแบบไม่ใช้ AI: เทียบกับโครงและตัวอย่าง · คืนรายการจุดตรวจ [{ok, th}] */
+export function checkUse(text, frame, model) {
+  const t = String(text).trim(), out = [];
+  const words = (x) => x.toLowerCase().replace(/[^a-z'/\s-]/g, ' ').split(/\s+/).filter(Boolean);
+  out.push(/[\u0E00-\u0E7F]/.test(t) ? { ok: false, th: 'มีภาษาไทยปนอยู่ ลองเขียนเป็นภาษาอังกฤษทั้งหมดนะ' } : { ok: true, th: 'เขียนเป็นภาษาอังกฤษล้วน' });
+  const fixed = String(frame).split(/_{3,}/).flatMap(words);
+  const have = new Set(words(t)), missing = fixed.filter((w) => !w.split('/').some((x) => have.has(x)));
+  out.push(missing.length ? { ok: false, th: `ยังขาดคำจากโครง: ${missing.join(', ')}` } : { ok: true, th: 'ใช้โครงประโยคครบ' });
+  const blanks = (String(frame).match(/_{3,}/g) || []).length;
+  out.push(words(t).length >= fixed.length + blanks ? { ok: true, th: 'เติมช่องว่างครบทุกช่อง' } : { ok: false, th: 'ยังเติมช่องว่างไม่ครบ ลองเพิ่มรายละเอียดอีกนิด' });
+  const sents = t.split(/(?<=[.?!])\s+/).filter(Boolean);
+  const capOk = sents.every((x) => /^[A-Z"]/.test(x)) && /[.?!]$/.test(t) && !/(^|\s)i(\s|')/.test(t);
+  out.push(capOk ? { ok: true, th: 'ขึ้นต้นตัวใหญ่ ลงท้ายด้วยจุดหรือเครื่องหมายคำถาม' } : { ok: false, th: 'เช็กตัวพิมพ์ใหญ่ต้นประโยค (และคำว่า I) กับจุดท้ายประโยค' });
+  // โครงที่มี am/is/are ตามด้วยช่องว่าง และตัวอย่างใช้ -ing → คำตอบต้องมี -ing หลัง am/is/are
+  if (/\b(am|is|are)\s+_{3,}/i.test(frame) && /\b(am|is|are)\s+\w+ing\b/i.test(model)) {
+    const m = t.match(/\b(am|is|are)\s+(\w+)/gi) || [];
+    out.push(m.some((x) => /ing$/i.test(x)) ? { ok: true, th: 'am/is/are ตามด้วยกริยา -ing ถูกต้อง' } : { ok: false, th: 'หลัง am/is/are อย่าลืมกริยาเติม -ing' });
+  }
+  return out;
+}
 
 const STEP_NO = { review: 0, learn: 1, check: 1, lab_prepare: 1, practice: 2, mock: 2, use: 3, lab_do: 3, close: 4 };
 const STEP_TH = { review: 'ทบทวน', learn: 'เรียน', check: 'เรียน', lab_prepare: 'เตรียม', practice: 'ฝึก', mock: 'ชุดย่อย', use: 'ใช้', lab_do: 'ลงมือ', close: 'สรุป' };
@@ -67,11 +103,23 @@ export async function openSession(root, kind, onExit) {
       renderItem(host, it, (res) => {
         if (!s.answered[card.id + ':' + s.idx]) {                           // กันนับซ้ำเมื่อโหลดหน้าใหม่กลางข้อ
           s.answered[card.id + ':' + s.idx] = 1;
-          for (const a of res.answers) { pushEvent({ eid: newId(), item: it.id, q: a.q, answer: a.answer, mode: card.mode, ts: Date.now() }); s.total++; if (a.correct) s.right++; }
+          for (const a of res.answers) {
+            pushEvent({ eid: newId(), item: it.id, q: a.q, answer: a.answer, mode: card.mode, ts: Date.now() }); s.total++;
+            if (a.correct) { s.right++; s.streak = (s.streak || 0) + 1; s.best = Math.max(s.best || 0, s.streak); } else s.streak = 0;
+          }
+          s.cheer = s.cheer || {}; s.cheer[s.idx] = { ok: res.answers.filter((a) => a.correct).length, n: res.answers.length, streak: s.streak };
           if (res.answers.some((a) => !a.correct)) s.wrong.push(it.id);
           putSession(s); flush();
         }
-        if (res.answers.some((a) => !a.correct) && !it.questions) body.appendChild(el('<p class="small" id="comeBack">ข้อนี้จะกลับมาให้ทบทวนพรุ่งนี้</p>'));
+        const c = (s.cheer || {})[s.idx] || { ok: 0, n: 1, streak: 0 };
+        // คำชมขึ้นทันทีใต้ตัวเลือก (ก่อนกล่องหลักที่ควรจำ) ให้เห็นโดยไม่ต้องเลื่อน
+        const put = (node) => { const k = host.querySelector('#reportBtn') || host.querySelector('.keep') || host.querySelector('#sayRight'); if (k) k.before(node); else body.appendChild(node); };
+        if (c.ok === c.n) {
+          const combo = COMBO[c.streak];
+          put(el(`<div class="cheer ok" id="cheer"><span class="pop">⭐</span><div><b>${PRAISE[(s.right + s.idx) % PRAISE.length]}</b><small>+${c.ok} ดาว · วันนี้ได้ ${s.right} ดาวแล้ว</small></div></div>`));
+          if (combo) put(el(`<div class="combo" id="combo"><span>${combo[0]}</span> ${combo[1]}</div>`));
+        } else if (c.ok) put(el(`<div class="cheer mid" id="cheer"><span class="pop">✨</span><div><b>ได้ ${c.ok} จาก ${c.n} ข้อ ดีเลย!</b><small>+${c.ok} ดาว · ข้อที่พลาดจะกลับมาให้ทบทวน</small></div></div>`));
+        else put(el(`<div class="cheer try" id="comeBack"><span class="pop">💪</span><div><b>${CHEER_TRY[s.idx % CHEER_TRY.length]}</b></div></div>`));
         body.appendChild(nextBtn(s.idx + 1 < cards.length && cards[s.idx + 1].type === 'item' ? 'ข้อต่อไป' : 'ไปต่อ'));
       }, { onReport: (id) => api.report({ item_id: id, why: 'other' }) });
     } else if (card.type === 'learn') {
@@ -108,10 +156,26 @@ export async function openSession(root, kind, onExit) {
     } else if (card.type === 'use') {
       const u = card.use;
       body.appendChild(el(`<h2>ลองใช้เอง</h2>`)); body.appendChild(el(`<p>${esc(u.prompt_th)}</p>`));
-      body.appendChild(el(`<label class="field">โครง: <span class="en">${esc(u.frame)}</span><textarea id="useIn" spellcheck="false"></textarea></label>`));
-      const show = el('<button class="btn quiet" id="showModel">ดูตัวอย่างคำตอบ</button>');
-      show.addEventListener('click', () => { show.replaceWith(el(`<div class="card"><p class="small">ตัวอย่าง (เทียบกับของคุณเอง ไม่มีการให้คะแนน)</p><p class="en">${esc(u.model)}</p></div>`)); });
-      body.append(show, nextBtn('ไปต่อ'));
+      body.appendChild(el(`<label class="field">โครง: <span class="en">${esc(u.frame)}</span><textarea id="useIn" spellcheck="false" placeholder="พิมพ์ประโยคของคุณที่นี่"></textarea></label>`));
+      const fbHost = el('<div class="screen" id="useFb"></div>');
+      const chk = el('<button class="btn" id="checkUse">ตรวจงานเขียน</button>');
+      chk.addEventListener('click', () => {
+        const txt = body.querySelector('#useIn').value;
+        if (!txt.trim()) { fbHost.innerHTML = '<div class="cheer try"><span class="pop">✏️</span><div><b>ลองเขียนสักประโยคก่อนนะ</b><small>ใช้โครงด้านบนช่วยได้</small></div></div>'; return; }
+        const pts = checkUse(txt, u.frame, u.model), good = pts.filter((x) => x.ok).length;
+        s.wrote = 1; putSession(s);
+        const shared = new Set(txt.toLowerCase().match(/[a-z']+/g) || []);
+        const modelHtml = esc(u.model).replace(/[A-Za-z']+/g, (w) => (shared.has(w.toLowerCase()) ? `<mark class="hl g">${w}</mark>` : w));
+        fbHost.innerHTML = (good === pts.length
+          ? `<div class="cheer ok"><span class="pop">🌟</span><div><b>ครบทุกจุด เขียนได้ดีมาก!</b><small>${starRow(good)} ได้ตรา ✍️ ลงมือเขียนเอง</small></div></div>`
+          : `<div class="cheer mid"><span class="pop">✨</span><div><b>ผ่าน ${good} จาก ${pts.length} จุด ใกล้แล้ว!</b><small>${starRow(good)} แก้ตรงที่มี ✕ แล้วกดตรวจอีกครั้งได้</small></div></div>`)
+          + `<div class="card checks"><h2>จุดตรวจ</h2>${pts.map((x) => `<p class="${x.ok ? 'ck-ok' : 'ck-bad'}"><b>${x.ok ? '✓' : '✕'}</b> ${esc(x.th)}</p>`).join('')}</div>`
+          + `<div class="card" id="useModel"><p class="small">ตัวอย่างคำตอบ · <mark class="hl g">สีเขียว</mark> = คำที่คุณใช้ตรงกับตัวอย่าง</p><p class="en">${modelHtml}</p></div>`
+          + keepBox('เครื่องตรวจแค่รูปแบบเบื้องต้น ++ประโยคของคุณไม่ต้องเหมือนตัวอย่าง++ ขอแค่ใช้โครงถูกและสื่อความได้ ลองอ่านออกเสียงดูด้วยนะ', 'อ่านก่อนไปต่อ');
+        chk.textContent = 'แก้แล้ว ตรวจอีกครั้ง';
+        const sp = spk(u.model); if (sp) fbHost.querySelector('#useModel .small').after(sp);
+      });
+      body.append(chk, fbHost, nextBtn('ไปต่อ'));
     } else if (card.type === 'lab_prepare' || card.type === 'lab_do') {
       const lab = card.lab, speak = lab.mode === 'speak';
       body.appendChild(el(`<h2>ห้องฝึก${speak ? 'พูด' : 'เขียน'}</h2>`)); body.appendChild(el(`<p>${esc(lab.prompt_th)}</p>`));
@@ -124,8 +188,13 @@ export async function openSession(root, kind, onExit) {
         body.appendChild(el('<div class="card"><p class="small">ขั้นตอน</p><ol>' + lab.steps_th.map((x) => `<li>${esc(x)}</li>`).join('') + '</ol></div>'));
         if (!speak) body.appendChild(el('<label class="field">งานเขียนของคุณ (เก็บในเครื่องนี้เท่านั้น)<textarea id="labIn" spellcheck="false"></textarea></label>'));
         body.appendChild(el(`<div class="card"><p class="small">ตัวอย่างระดับดี</p><p class="en">${esc(lab.model_good)}</p></div>`));
-        body.appendChild(el('<div class="card"><p class="small">ตรวจตนเอง</p>' + lab.checklist_th.map((x, i) => `<label class="check"><input type="checkbox" id="chk${i}"><span>${esc(x)}</span></label>`).join('') + '</div>'));
-        body.appendChild(nextBtn('ไปต่อ'));
+        const cl = el('<div class="card"><p class="small">ตรวจตนเอง ติ๊กข้อที่ทำได้แล้ว</p>' + lab.checklist_th.map((x, i) => `<label class="check"><input type="checkbox" id="chk${i}"><span>${esc(x)}</span></label>`).join('') + '<div id="labCheer"></div></div>');
+        cl.addEventListener('change', () => {
+          const n = cl.querySelectorAll('input:checked').length, all = lab.checklist_th.length;
+          cl.querySelector('#labCheer').innerHTML = n === all ? `<div class="cheer ok"><span class="pop">🏅</span><div><b>ครบทุกข้อ ยอดเยี่ยม!</b><small>${starRow(all)} ได้ตรา ✍️ ลงมือ${speak ? 'พูด' : 'เขียน'}เอง</small></div></div>` : n ? `<p class="small">${starRow(n)} อีก ${all - n} ข้อจะครบ</p>` : '';
+          if (n === all) { s.wrote = 1; putSession(s); }
+        });
+        body.append(cl, nextBtn('ไปต่อ'));
       }
     } else if (card.type === 'mock') {
       body.appendChild(el(`<h2>ชุดย่อยจับเวลา ${card.mock.items} ข้อ ${card.mock.time_min} นาที</h2>`));
@@ -136,6 +205,8 @@ export async function openSession(root, kind, onExit) {
       const hasMock = cards.some((c) => c.type === 'mock'), kindDone = s.kind === 'short' ? 'short' : hasMock ? 'mock' : 'full';
       body.appendChild(el(`<span class="tag">จบเซสชัน · ${mins} นาที</span>`));
       body.appendChild(el(`<h1 id="sumScore">${s.total ? `ถูก ${s.right} จาก ${s.total} ข้อ` : 'ทำครบแล้ว'}</h1>`));
+      const bs = badgesOf(s);
+      body.appendChild(el(`<div class="card trophy" id="trophy">${s.right ? `<p class="bigstars">${starRow(s.right)}</p><p><b>วันนี้ได้ ${s.right} ดาว</b>${s.best >= 3 ? ` · ถูกติดกันสูงสุด ${s.best} ข้อ` : ''}</p>` : ''}<div class="badges">${bs.map((b) => `<span class="badge b-${b.k}"><i>${b.icon}</i>${esc(b.th)}</span>`).join('')}</div></div>`));
       const wrongN = new Set(s.wrong).size;
       body.appendChild(el('<div class="card"><h2>วันนี้ได้อะไร</h2><ul class="list">' + [s.total ? `ตอบ ${s.total} ข้อ ถูกตั้งแต่ครั้งแรก ${s.right} ข้อ` : null, wrongN ? `${wrongN} ข้อจะกลับมาให้ทบทวน` : s.total ? 'ไม่มีข้อที่ต้องกลับมาทบทวนจากวันนี้' : null].filter(Boolean).map((t) => `<li><span class="tick" aria-hidden="true">✓</span><span>${t}</span></li>`).join('') + '</ul></div>'));
       if (card.classroom) {
@@ -148,6 +219,10 @@ export async function openSession(root, kind, onExit) {
         fin.disabled = true; fin.textContent = 'กำลังบันทึก';
         const r = await flush({ kind: kindDone, minutes: mins });
         if (!r || r.error) { fin.disabled = false; fin.textContent = 'บันทึกไม่สำเร็จ แตะเพื่อลองใหม่'; return; }   // ไม่ล้างเซสชันจนกว่าเซิร์ฟเวอร์รับ
+        const st = getStars(); st.stars += s.right; st.sessions++; st.best = Math.max(st.best, s.best || 0);
+        if (s.total && s.right === s.total) st.perfect++; if (s.wrote) st.wrote++;
+        for (const b of bs) st.badges[b.k] = (st.badges[b.k] || 0) + 1;
+        putStars(st);
         clearSession(); onExit('done', { right: s.right, total: s.total, minutes: mins, kind: kindDone });
       });
       body.appendChild(fin);

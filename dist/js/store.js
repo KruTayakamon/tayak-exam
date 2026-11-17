@@ -27,3 +27,7 @@ export function newId() {
   if (globalThis.crypto && crypto.randomUUID) return crypto.randomUUID();
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => { const r = Math.random() * 16 | 0; return (c === 'x' ? r : (r & 3) | 8).toString(16); });
 }
+
+/** ดาวและตราสะสม (ในเครื่องนี้) · stars = ข้อที่ถูกตั้งแต่ครั้งแรก · perfect = เซสชันที่ถูกหมด · best = ถูกติดกันมากสุด · badges = จำนวนครั้งที่ได้แต่ละตรา */
+export const getStars = () => ({ stars: 0, perfect: 0, best: 0, sessions: 0, wrote: 0, badges: {}, ...load('cfk-stars', {}) });
+export const putStars = (v) => save('cfk-stars', v);

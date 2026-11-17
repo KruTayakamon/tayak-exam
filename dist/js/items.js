@@ -5,6 +5,16 @@ export const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&am
 export const el = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 /** ข้อความอธิบายภาษาไทยแบบ "โน้ตของเพื่อน": ==เหลือง== หลักสำคัญ · ++เขียว++ ทำแบบนี้ · ~~ชมพู~~ ระวัง (กติกา docs/writing/voice.md) */
 export const rich = (s) => esc(s).replace(/==(.+?)==/g, '<mark class="hl y">$1</mark>').replace(/\+\+(.+?)\+\+/g, '<mark class="hl g">$1</mark>').replace(/~~(.+?)~~/g, '<mark class="hl p">$1</mark>');
+/** "หลักที่ควรจำ": ไฮไลต์ตามมาร์กอัป + คำภาษาอังกฤษในคำอธิบายกลายเป็นป้ายสีอัตโนมัติ (ทุกข้อมีสีสันโดยไม่ต้องใส่มาร์กอัปเพิ่ม) */
+export function keepRich(s) {
+  let inMark = 0;
+  return rich(s).split(/(<[^>]+>|&[a-z#0-9]+;)/).map((seg) => {
+    if (seg.startsWith('<')) { inMark += seg.startsWith('</') ? -1 : 1; return seg; }
+    if (seg.startsWith('&') || inMark) return seg;
+    return seg.replace(/[A-Za-z][A-Za-z'’!?.\-]*(?:[ /+]+[A-Za-z][A-Za-z'’!?.\-]*)*/g, (w) => `<b class="kw">${w}</b>`);
+  }).join('');
+}
+export const keepBox = (text, title = 'หลักที่ควรจำ') => `<div class="keep"><span class="keep-t">💡 ${title}</span><p>${keepRich(text)}</p></div>`;
 const NOTE_TH = { pin: 'จำให้แม่น', warn: 'ระวังตรงนี้', tip: 'ทริกจำ', use: 'เอาไปใช้เลย' };
 /** โน้ตแปะของบทเรียน · notes = [{kind, th}] */
 export const notesHtml = (notes) => (notes || []).map((n, i) => `<div class="sticky k-${esc(n.kind)}${i % 2 ? ' r' : ''}"><span class="stk">${NOTE_TH[n.kind] || ''}</span><p>${rich(n.th)}</p></div>`).join('');
@@ -110,7 +120,7 @@ export function renderItem(host, it, done, opts = {}) {
   const finish = () => done({ id: it.id, answers });
   if (it.kind === 'mcq') {
     host.appendChild(el(`<p class="en">${esc(it.stem)}</p>`));
-    host.appendChild(mcqBlock(it, (a, ok) => { answers.push({ q: 0, answer: a, correct: ok }); if (it.explain) host.appendChild(el(`<p class="small">หลักที่ควรจำ: ${rich(it.explain)}</p>`)); addSayRight(host, filled(it.stem, it.choices[it.answer].t)); finish(); }));
+    host.appendChild(mcqBlock(it, (a, ok) => { answers.push({ q: 0, answer: a, correct: ok }); if (it.explain) host.appendChild(el(keepBox(it.explain))); addSayRight(host, filled(it.stem, it.choices[it.answer].t)); finish(); }));
   } else if (it.kind === 'type') {
     host.appendChild(el(`<p class="en">${esc(it.stem)}</p>`));
     const f = el('<form class="screen"><label class="field">พิมพ์คำตอบ<input id="typeIn" autocomplete="off" autocapitalize="none" spellcheck="false"></label><button class="btn" type="submit">ตรวจคำตอบ</button></form>');
@@ -119,7 +129,8 @@ export function renderItem(host, it, done, opts = {}) {
       const v = f.querySelector('input').value; if (!v.trim()) return;
       const ok = grade(it, 0, v);
       f.querySelector('input').disabled = true; f.querySelector('button').remove();
-      f.appendChild(el(`<div class="fb ${ok ? 'ok' : 'bad'}"><b>${ok ? '✓ ถูกต้อง' : '✕ ยังไม่ถูก'}</b><span>คำตอบ: <span class="en"><b>${esc(it.answer)}</b></span></span><span>${rich(it.why)}</span></div>`));
+      f.appendChild(el(`<div class="fb ${ok ? 'ok' : 'bad'}"><b>${ok ? '✓ ถูกต้อง' : '✕ ยังไม่ถูก'}</b><span>คำตอบ: <span class="en"><b>${esc(it.answer)}</b></span></span></div>`));
+      if (it.why) f.appendChild(el(keepBox(it.why)));
       addSayRight(host, filled(it.stem.replace(/[a-z]_{3,}/i, '____').replace(/\s*\([^)]*[\u0E00-\u0E7F][^)]*\)\s*$/, ''), it.answer));
       answers.push({ q: 0, answer: v, correct: ok }); finish();
     });
@@ -140,7 +151,8 @@ export function renderItem(host, it, done, opts = {}) {
     btn.addEventListener('click', () => {
       const ans = picked.map((p) => p.c), ok = grade(it, 0, ans);
       out.dataset.done = '1'; btn.remove();
-      host.appendChild(el(`<div class="fb ${ok ? 'ok' : 'bad'}"><b>${ok ? '✓ ถูกต้อง' : '✕ ยังไม่ถูก'}</b><span class="en">${esc(it.sentence)}</span><span>${rich(it.why)}</span></div>`));
+      host.appendChild(el(`<div class="fb ${ok ? 'ok' : 'bad'}"><b>${ok ? '✓ ถูกต้อง' : '✕ ยังไม่ถูก'}</b><span class="en">${esc(it.sentence)}</span></div>`));
+      if (it.why) host.appendChild(el(keepBox(it.why)));
       addSayRight(host, it.sentence);
       answers.push({ q: 0, answer: ans, correct: ok }); finish();
     });
@@ -165,7 +177,7 @@ export function renderItem(host, it, done, opts = {}) {
       qHost.appendChild(el(`<p class="${it.kind === 'cloze' ? 'small' : 'en'}">${label}</p>`));
       qHost.appendChild(mcqBlock(q, (a, ok) => {
         answers.push({ q: n, answer: a, correct: ok }); n++;
-        if (n < it.questions.length) next(); else { if (host._showScript) host._showScript(); finish(); }
+        if (n < it.questions.length) next(); else { if (host._showScript) host._showScript(); if (it.explain) host.appendChild(el(keepBox(it.explain))); finish(); }
       }));
     };
     next();

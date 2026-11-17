@@ -8,9 +8,15 @@ let fails = 0;
 const ok = (c, name) => { console.log((c ? 'PASS ' : 'FAIL ') + name); if (!c) fails++; };
 
 /** ตอบการ์ดปัจจุบันแล้วไปต่อ · wrong = จงใจตอบผิด (เฉพาะข้อเลือกตอบ) · คืนชนิดของการ์ด */
-const NB = new Set();   // โทนสีหน้าสมุดโน้ตที่เจอ (d1–d6 ตามวัน)
+const NB = new Set(), USE = {}, CHEER = { ok: 0, try: 0 };   // โทนสีหน้าสมุดโน้ตที่เจอ (d1–d6 ตามวัน) · ผลตรวจข้อเขียน · คำชม/คำปลอบที่เจอ
 async function step(p, wrong = false) {
   const nb = await p.$('#nbPage'); if (nb) NB.add(await nb.getAttribute('class'));
+  if (await p.$('#useIn') && !USE.done) {                     // ข้อเขียน: ตรวจแล้วต้องมีคำติชม จุดตรวจ และตัวอย่าง
+    await p.fill('#useIn', 'i usually check email'); await p.click('#checkUse');
+    USE.partial = (await p.locator('#useFb .ck-bad').count()) > 0 && (await p.locator('#useModel').count()) === 1;
+    await p.fill('#useIn', 'I usually start work at eight. This week I am preparing a sales report.'); await p.click('#checkUse');
+    USE.full = (await p.locator('#useFb .ck-bad').count()) === 0 && (await p.textContent('#useFb')).includes('ครบทุกจุด'); USE.done = 1;
+  }
   const kind = await p.evaluate((wrong) => {
     const host = document.querySelector('[data-item]');
     if (document.querySelector('#finishBtn')) return 'close';
@@ -26,6 +32,8 @@ async function step(p, wrong = false) {
     return it.kind;
   }, wrong);
   if (kind === 'close') return kind;
+  if (await p.$('#cheer')) CHEER.ok++;
+  if (await p.$('#comeBack')) CHEER.try++;
   await p.click('#nextBtn');
   return kind;
 }
@@ -84,7 +92,8 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok((await p.textContent('#stepLabel')) === labelBefore, 'โหลดหน้าใหม่กลางเซสชัน กลับเข้าเซสชันเดิมที่ขั้นเดิม');
   await p.evaluate(() => document.querySelector('[data-item] .opt[data-choice="0"]')?.click());   // ข้อที่ค้างอยู่ต้องตอบใหม่หลังโหลดหน้า
   const s1 = await runSession(p);
-  ok(s1.close === 1, 'เดินถึงหน้าสรุป'); ok((await p.textContent('#sumScore')).includes('จาก 12 ข้อ'), 'สรุปนับ 12 ข้อ (เช็ก 2 + ฝึก 10) ไม่นับซ้ำหลังโหลดหน้าใหม่');
+  ok(s1.close === 1, 'เดินถึงหน้าสรุป');
+  ok(await p.$('#trophy .badge.b-done') !== null && (await p.textContent('#trophy')).includes('ดาว'), 'หน้าสรุปมีดาวและตราของวันนี้'); ok((await p.textContent('#sumScore')).includes('จาก 12 ข้อ'), 'สรุปนับ 12 ข้อ (เช็ก 2 + ฝึก 10) ไม่นับซ้ำหลังโหลดหน้าใหม่');
   await p.screenshot({ path: path.join(SHOTS, 'app_close.png'), fullPage: true });
   await finish(p);
   ok((await p.textContent('#todayTitle')).includes('วันที่ 2'), 'จบแล้วตัวชี้ขยับเป็นวันที่ 2');
@@ -112,6 +121,8 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok(['mcq', 'type', 'cloze', 'read', 'listen', 'order'].every((k) => kinds[k]), `เล่นครบทุกชนิดข้อ ${JSON.stringify(kinds)}`);
   ok((await p.textContent('#view')).includes('จบเนื้อหาที่มีแล้ว'), 'จบสัปดาห์ 1 แล้วบอกว่ายังไม่มีสัปดาห์ถัดไป');
   ok(['nb d1', 'nb d2', 'nb d3', 'nb d4'].every((c) => NB.has(c)), 'บทเรียนแต่ละวันใช้โทนสีของวันนั้น (d1–d4): ' + [...NB].join(','));
+  ok(USE.partial && USE.full, 'ข้อเขียนลองใช้เอง: ตรวจแล้วบอกจุดที่ยังขาด และชมเมื่อครบทุกจุด');
+  ok(CHEER.ok > 0 && CHEER.try > 0, `ตอบถูกมีคำชมและดาว (${CHEER.ok}) ตอบผิดมีคำปลอบ (${CHEER.try})`);
   st = await state(p); ok(st.enrol.week === 2 && st.enrol.day === 1 && st.sessions.filter((x) => x.kind !== 'short').length === 6, 'ทำครบ 6 เซสชันของสัปดาห์');
   for (const r of ['course', 'extra', 'results', 'buy', 'account']) { await p.goto(base + '/dist-demo/app.html#' + r); await p.waitForSelector('#view h1'); ok(await noOverflow(p), `หน้า ${r} เปิดได้และไม่ล้นจอ`); }
   await p.goto(base + '/dist-demo/app.html#results'); await p.waitForSelector('#view h1'); await p.screenshot({ path: path.join(SHOTS, 'app_results.png'), fullPage: true });
