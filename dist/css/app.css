@@ -219,3 +219,8 @@ a.btn{text-decoration:none} a{color:var(--accent)}
 .itrow[open] summary{margin-bottom:8px}
 .tag.st-draft{background:var(--warn-soft);color:var(--warn)} .tag.st-retired{background:var(--bad-soft);color:var(--bad)}
 .wkrow .tag,.itrow .tag{white-space:nowrap;flex:none}
+/* แผงเจ้าของ: แท็บโพสต์ */
+.postimg{width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+pre.cap{white-space:pre-wrap;word-break:break-word;font-family:var(--ui);font-size:.92rem;background:var(--paper);border:1px dashed var(--line);border-radius:10px;padding:10px;margin:0;user-select:all;-webkit-user-select:all}
+.post.done{opacity:.6}
+.post .row .btn{flex:1}

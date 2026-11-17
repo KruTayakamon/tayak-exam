@@ -22,8 +22,11 @@ def post_pages(out, demo):
     if not os.path.exists(src): return 0
     import html as H
     D = json.load(open(src, encoding='utf-8')); C = D['config']; n = 0
+    feed = []                                    # รายการสำหรับแท็บโพสต์ในแผงเจ้าของ (p/posts.json) · มีเฉพาะโพสต์ที่อยู่บนเว็บอยู่แล้ว ไม่มีเฉลยเพิ่ม
     for p in D['posts']:
         if not demo and p['status'] != 'approved': continue
+        feed.append({'id': p['id'], 'type': p['type'], 'head': p['head'], 'caption': p['caption_text'], 'comment': p['comment_text'], 'link': p['link'],
+                     'img': f"p/{p['id']}/og.png" if os.path.exists(os.path.join(ROOT, 'marketing', 'out', p['id'] + '.png')) else None})
         d = os.path.join(out, 'p', p['id']); os.makedirs(d, exist_ok=True)
         img = os.path.join(ROOT, 'marketing', 'out', p['id'] + '.png')
         og = ''
@@ -47,6 +50,7 @@ def post_pages(out, demo):
 <script type="module" src="../../js/post.js"></script>
 </body></html>'''
         open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(page); n += 1
+    if feed: open(os.path.join(out, 'p', 'posts.json'), 'w', encoding='utf-8').write(json.dumps({'posts': feed}, ensure_ascii=False))
     return n
 
 def site(out, demo):

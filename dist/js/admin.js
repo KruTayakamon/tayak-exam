@@ -5,7 +5,7 @@ import { SITE } from './config.js';
 import { authInit, signIn, signOut, currentUser, currentToken } from './auth.js';
 
 const app = document.getElementById('app');
-const TABS = [['overview', 'ภาพรวม'], ['content', 'เนื้อหา'], ['learner', 'ผู้เรียน'], ['orders', 'คำสั่งซื้อ'], ['reports', 'รายงานข้อ'], ['log', 'ประวัติ']];
+const TABS = [['overview', 'ภาพรวม'], ['posts', 'โพสต์'], ['content', 'เนื้อหา'], ['learner', 'ผู้เรียน'], ['orders', 'คำสั่งซื้อ'], ['reports', 'รายงานข้อ'], ['log', 'ประวัติ']];
 const PRODUCT_TH = { 'cefr-b1': 'คอร์ส B1', 'cefr-b2': 'คอร์ส B2', 'cefr-a2': 'คอร์ส A2', 'cefr-c1': 'คอร์ส C1', 'cefr-c2': 'คอร์ส C2', 'cefr-all': 'ทุกคอร์ส', 'cefr-extend': 'ต่อเวลา' };
 const thDate = (s) => (s ? new Date(s).toLocaleString('th-TH', { dateStyle: 'medium', timeStyle: 'short' }) : '-');
 const head = () => `<div class="topbar"><span class="brand">${esc(SITE.brand)} · แผงเจ้าของ</span><button class="link" id="out">ออกจากระบบ</button></div>`;
@@ -161,7 +161,37 @@ async function week(box, course, w) {
   box.querySelector('#apSel').onclick = async () => { const ids = sel(); if (!ids.length) return; const r = await setItems(ids, 'approved'); if (r.ok) reload(); else alert(r.error); };
   box.querySelector('#rtSel').onclick = async () => { const ids = sel(); if (!ids.length || !confirm(`ถอด ${ids.length} ข้อออก? ผู้เรียนจะไม่เห็นข้อนี้อีก`)) return; const r = await setItems(ids, 'retired'); if (r.ok) reload(); else alert(r.error); };
 }
-const VIEWS = { overview, content, learner, orders, reports, log };
+// ---------- โพสต์เฟซบุ๊ก: รูป + แคปชันพร้อมแฮชแท็ก กดคัดลอกแล้ววางได้เลย (มติบอส 17 พ.ย. รอบ 21) ----------
+// ข้อมูลจาก p/posts.json (build.py สร้างจากโพสต์ที่อนุมัติแล้ว) · "โพสต์แล้ว" จำไว้ในเครื่องนี้
+const TYPE_TH = { quiz: 'โจทย์', word: 'คำศัพท์', trap: 'จุดพลาด', class: 'ประโยคพร้อมใช้', tip: 'เทคนิค', recap: 'สรุปสัปดาห์' };
+const postedGet = () => { try { return new Set(JSON.parse(localStorage.getItem('adm_posted') || '[]')); } catch { return new Set(); } };
+const postedSet = (s) => { try { localStorage.setItem('adm_posted', JSON.stringify([...s])); } catch { /* ไม่มีที่เก็บ */ } };
+async function copyText(t) {
+  try { await navigator.clipboard.writeText(t); return true; } catch { /* เบราว์เซอร์เก่า: ใช้วิธีเลือกข้อความ */ }
+  const ta = el('<textarea style="position:fixed;opacity:0"></textarea>'); ta.value = t; document.body.appendChild(ta); ta.select();
+  let ok = false; try { ok = document.execCommand('copy'); } catch { ok = false; } ta.remove(); return ok;
+}
+async function posts(main) {
+  const r = await fetch('p/posts.json', { cache: 'no-store' }).then((x) => (x.ok ? x.json() : null)).catch(() => null);
+  if (!r || !r.posts?.length) { main.innerHTML = '<div class="note">ยังไม่มีโพสต์ที่อนุมัติแล้ว</div>'; return; }
+  const done = postedGet();
+  main.innerHTML = `<p class="small">กด <b>คัดลอกแคปชัน</b> แล้ววางในเฟซบุ๊กได้เลย (มีลิงก์และแฮชแท็กครบ) · รูปกด <b>บันทึกรูป</b> หรือกดค้างที่รูปเพื่อบันทึก · ติ๊ก "โพสต์แล้ว" เพื่อจำว่าลงไปแล้ว</p>`;
+  for (const p of r.posts) {
+    const c = el(`<div class="card post${done.has(p.id) ? ' done' : ''}">
+      <div class="row"><b class="grow">${esc(TYPE_TH[p.type] || p.type)} · ${esc(p.head)}</b><label class="check"><input type="checkbox" class="pd" ${done.has(p.id) ? 'checked' : ''}><span>โพสต์แล้ว</span></label></div>
+      ${p.img ? `<img class="postimg" src="${esc(p.img)}" alt="รูปโพสต์ ${esc(p.id)}" loading="lazy">` : '<p class="small">ยังไม่มีรูป</p>'}
+      <div class="row">${p.img ? `<a class="btn quiet" href="${esc(p.img)}" download="${esc(p.id)}.png">บันทึกรูป</a>` : ''}<button class="btn cp-cap">คัดลอกแคปชัน</button></div>
+      <pre class="cap">${esc(p.caption)}</pre>
+      <p class="small"><b>คอมเมนต์แรก</b> (วางใต้โพสต์ ให้คนกดลิงก์ได้ง่าย)</p><pre class="cap">${esc(p.comment)}</pre>
+      <div class="row"><button class="btn quiet cp-com">คัดลอกคอมเมนต์แรก</button><a class="btn quiet" href="${esc(p.link)}" target="_blank" rel="noopener">เปิดหน้าโพสต์</a></div></div>`);
+    const flash = (b, t) => { const o = b.textContent; b.textContent = t; setTimeout(() => { b.textContent = o; }, 1500); };
+    c.querySelector('.cp-cap').onclick = async (e) => flash(e.target, (await copyText(p.caption)) ? 'คัดลอกแล้ว ✓' : 'คัดลอกไม่ได้ กดค้างที่ข้อความแทน');
+    c.querySelector('.cp-com').onclick = async (e) => flash(e.target, (await copyText(p.comment)) ? 'คัดลอกแล้ว ✓' : 'คัดลอกไม่ได้ กดค้างที่ข้อความแทน');
+    c.querySelector('.pd').onchange = (e) => { const s = postedGet(); if (e.target.checked) s.add(p.id); else s.delete(p.id); postedSet(s); c.classList.toggle('done', e.target.checked); };
+    main.appendChild(c);
+  }
+}
+const VIEWS = { overview, posts, content, learner, orders, reports, log };
 
 async function render() {
   const u = await authInit(() => render());
