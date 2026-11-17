@@ -1,0 +1,580 @@
+# คอร์ส b1 · สัปดาห์ 8 · เงื่อนไขและผลที่ตามมา · second conditional · zero first second เทียบกัน · wish + past · would rather
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# ---------- วันที่ 1 · ถ้าสมมติว่า ----------
+- id: cefr-b1-w08-001
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 1
+  stem: If I ____ more money, I would buy a new car.
+  choices:
+    - {t: had, why: "สมมติสิ่งที่ไม่จริงตอนนี้ ใช้ ++If + อดีต++ คือ had"}
+    - {t: have, why: "have ใช้กับ first conditional แต่ประโยคหลังมี would"}
+    - {t: would have, why: "ไม่ใส่ would ในส่วน if"}
+    - {t: will have, why: "ไม่ใส่ will ในส่วน if"}
+  explain: "สมมติไม่จริง: ==If + อดีต, would + กริยารูปเดิม=="
+  status: approved
+- id: cefr-b1-w08-002
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 1
+  stem: If she lived near the office, she ____ walk to work.
+  choices:
+    - {t: would, why: "ผลของเรื่องสมมติ ใช้ ++would + กริยารูปเดิม++"}
+    - {t: will, why: "will ใช้กับเรื่องที่เป็นไปได้จริง แต่ส่วน if ใช้ lived"}
+    - {t: walks, why: "ต้องมี would นำหน้ากริยาในส่วนผล"}
+    - {t: is, why: "is walk ผิดรูป ใช้ is คู่กับกริยารูปเดิมไม่ได้"}
+  explain: "ส่วน if ใช้อดีต ==ส่วนผลใช้ would== ห้ามสลับกัน"
+  status: approved
+- id: cefr-b1-w08-003
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: If I ____ you, I would talk to your manager.
+  choices:
+    - {t: were, why: "ให้คำแนะนำ ใช้ ++If I were you++ ซึ่งเป็นวลีตายตัว"}
+    - {t: am, why: "am ไม่ใช่รูปสมมติ"}
+    - {t: be, why: "be ไม่ผันใช้ในส่วน if ไม่ได้"}
+    - {t: would be, why: "ไม่ใส่ would ในส่วน if"}
+  explain: "ให้คำแนะนำ: ==If I were you, I'd ...== (ใช้ were กับ I ได้)"
+  status: approved
+- id: cefr-b1-w08-004
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: What would you do if you ____ the lottery?
+  choices:
+    - {t: won, why: "สมมติว่าถูกหวย ใช้ ++won++ อดีตของ win"}
+    - {t: win, why: "ประโยคหลักมี would ส่วน if ต้องเป็นอดีต"}
+    - {t: will win, why: "ไม่ใส่ will ในส่วน if"}
+    - {t: have won, why: "have won ไม่ใช้ใน second conditional"}
+  explain: "คำถามเรื่องสมมติ: ==What would you do if + อดีต?=="
+  status: approved
+- id: cefr-b1-w08-005
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: I ____ go to the party if I didn't have to work tomorrow.
+  choices:
+    - {t: would, why: "ความจริงคือต้องทำงาน เลยไม่ไป ส่วนผลใช้ ++would++"}
+    - {t: will, why: "ส่วน if เป็นอดีต didn't have ส่วนผลต้องเป็น would"}
+    - {t: did, why: "did go ไม่ใช่ส่วนผลของเงื่อนไข"}
+    - {t: am, why: "am go ผิดรูป ใช้ am คู่กับกริยารูปเดิมไม่ได้"}
+  explain: "ส่วน if มาท้ายได้ ==ไม่ต้องใส่จุลภาค== เมื่อ if อยู่หลัง"
+  status: approved
+- id: cefr-b1-w08-006
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: "If the restaurant ____ cheaper, we'd eat there every week."
+  choices:
+    - {t: were, why: "สมมติว่าร้านถูกกว่านี้ ใช้ ++were++"}
+    - {t: is, why: "is ไม่ใช่รูปสมมติ ส่วนผลใช้ would"}
+    - {t: will be, why: "ไม่ใส่ will ในส่วน if"}
+    - {t: be, why: "be ไม่ผัน ใช้ไม่ได้"}
+  explain: "ในเรื่องสมมติ ใช้ ==were กับทุกประธาน== ได้ (was ใช้ในภาษาพูด)"
+  status: approved
+- id: cefr-b1-w08-007
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: If he spoke Japanese, he ____ get the job in Tokyo.
+  choices:
+    - {t: could, why: "สมมติแล้วทำได้ ใช้ ++could++ แทน would ได้"}
+    - {t: can, why: "can ใช้กับเรื่องจริง ส่วน if เป็นอดีต"}
+    - {t: will can, why: "กริยาช่วยสองตัวซ้อนกันไม่ได้"}
+    - {t: could to, why: "หลัง could ไม่มี to"}
+  explain: "ส่วนผลใช้ ==would / could / might== ได้ ตามความหมาย"
+  status: approved
+- id: cefr-b1-w08-008
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 3
+  stem: Which sentence talks about something unlikely or imaginary?
+  choices:
+    - {t: "If I had a garden, I'd grow vegetables.", why: "had กับ I'd แสดง ++เรื่องสมมติ++ ตอนนี้ไม่มีสวน"}
+    - {t: "If I have time, I'll call you.", why: "first conditional เป็นเรื่องที่เป็นไปได้จริง"}
+    - {t: "If you heat ice, it melts.", why: "zero conditional เป็นข้อเท็จจริงเสมอ"}
+    - {t: "When I get home, I'll cook.", why: "เป็นแผนจริงที่จะเกิดขึ้น"}
+  explain: "==อดีต + would== = สมมติ · ปัจจุบัน + will = เป็นไปได้จริง"
+  status: approved
+- id: cefr-b1-w08-009
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: "\"Would you move abroad if you got a good offer?\" \"Yes, I ____.\""
+  choices:
+    - {t: would, why: "ถามด้วย Would ตอบสั้นด้วย ++would++"}
+    - {t: will, why: "คำถามใช้ would ไม่ใช่ will"}
+    - {t: do, why: "do ไม่ได้ตอบคำถามที่ขึ้นต้นด้วย Would"}
+    - {t: did, why: "did ไม่ได้ตอบคำถามที่ขึ้นต้นด้วย Would"}
+  explain: "ตอบสั้น: ==Yes, I would. / No, I wouldn't.=="
+  status: approved
+- id: cefr-b1-w08-010
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 3
+  stem: If people ____ their cars less, the air in the city would be cleaner.
+  choices:
+    - {t: used, why: "สมมติว่าคนใช้รถน้อยลง ใช้อดีต ++used++"}
+    - {t: use, why: "ส่วนผลมี would ส่วน if ต้องเป็นอดีต"}
+    - {t: would use, why: "ไม่ใส่ would ในส่วน if"}
+    - {t: are using, why: "are using ไม่ใช่รูปสมมติ"}
+  explain: "เรื่องสังคมที่ ==อยากให้เป็นแต่ยังไม่เป็น== ใช้ second conditional"
+  status: approved
+- id: cefr-b1-w08-011
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: "I wouldn't do that ____ I were you."
+  choices:
+    - {t: if, why: "วลีให้คำแนะนำคือ ++if I were you++"}
+    - {t: when, why: "when ใช้กับสิ่งที่จะเกิดแน่ ไม่ใช่การสมมติเป็นอีกคน"}
+    - {t: unless, why: "unless แปลว่าถ้าไม่ ความหมายผิด"}
+    - {t: so, why: "so ไม่ได้ขึ้นเงื่อนไข"}
+  explain: "เตือนแบบสุภาพ: ==I wouldn't ... if I were you.=="
+  status: approved
+- id: cefr-b1-w08-012
+  kind: type
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: "If I knew her number, I w____ call her. (จะ...แน่ ถ้าเป็นเรื่องสมมติ)"
+  answer: would
+  accept: [would]
+  why: "ส่วนผลของเรื่องสมมติใช้ would + กริยารูปเดิม"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์เรื่องเงินและผลลัพธ์ ----------
+- id: cefr-b1-w08-013
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 1
+  stem: I can't ____ a new phone this month. I need to pay my rent.
+  choices:
+    - {t: afford, why: "มีเงินไม่พอซื้อ ใช้ ++can't afford++"}
+    - {t: earn, why: "earn แปลว่าหาเงินได้ ไม่ได้แปลว่ามีเงินพอซื้อ"}
+    - {t: reduce, why: "reduce a phone ไม่มีความหมาย"}
+    - {t: protect, why: "protect แปลว่าปกป้อง ไม่เกี่ยวกับการซื้อ"}
+  explain: "can / can't ==afford + สิ่งของ / to + กริยา== = มีเงินพอ / ไม่พอ"
+  status: approved
+- id: cefr-b1-w08-014
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 1
+  stem: She ____ about 30,000 baht a month as a nurse.
+  choices:
+    - {t: earns, why: "ได้รับเงินจากการทำงาน ใช้ ++earns++"}
+    - {t: affords, why: "afford ไม่ได้แปลว่าได้เงินเดือน"}
+    - {t: wins, why: "win ใช้กับรางวัลหรือการแข่งขัน ไม่ใช่เงินเดือน"}
+    - {t: increases, why: "increases 30,000 baht ไม่ได้บอกว่าได้รับ"}
+  explain: "earn money = ==หาเงินได้จากการทำงาน== · win = ชนะ ได้รางวัล"
+  status: approved
+- id: cefr-b1-w08-015
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: His ____ is paid on the 25th of every month.
+  choices:
+    - {t: salary, why: "เงินเดือนที่จ่ายทุกเดือน คือ ++salary++"}
+    - {t: loan, why: "loan คือเงินกู้ ไม่ได้จ่ายให้ทุกเดือน"}
+    - {t: income, why: "income คือรายได้รวมจากทุกทาง ไม่ได้จ่ายเป็นงวดจากนายจ้าง"}
+    - {t: result, why: "result แปลว่าผลลัพธ์ ไม่ใช่เงิน"}
+  explain: "salary = ==เงินเดือนจากนายจ้าง== · income = รายได้ทั้งหมด"
+  status: approved
+- id: cefr-b1-w08-016
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: Many families in the town have a low ____, so prices at the market are kept low.
+  choices:
+    - {t: income, why: "รายได้ของครอบครัว ใช้ ++income++"}
+    - {t: salary, why: "ครอบครัวไม่ได้มีเงินเดือนร่วมกัน รายได้รวมเรียกว่า income"}
+    - {t: loan, why: "a low loan ไม่สมเหตุสมผลกับราคาตลาด"}
+    - {t: cause, why: "cause แปลว่าสาเหตุ ไม่ใช่เงิน"}
+  explain: "high / low ==income== = รายได้สูง / ต่ำ"
+  status: approved
+- id: cefr-b1-w08-017
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: We got a bank ____ to build our house.
+  choices:
+    - {t: loan, why: "เงินที่ยืมจากธนาคาร คือ ++loan++"}
+    - {t: salary, why: "ธนาคารไม่ได้จ่ายเงินเดือนให้เรา"}
+    - {t: income, why: "a bank income ไม่ใช่วลีที่ใช้"}
+    - {t: result, why: "result ไม่ใช่เงิน"}
+  explain: "take out / get / pay back ==a loan== = กู้เงิน คืนเงินกู้"
+  status: approved
+- id: cefr-b1-w08-018
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: The company wants to ____ costs by using less paper.
+  choices:
+    - {t: reduce, why: "ลดค่าใช้จ่าย ใช้ ++reduce costs++"}
+    - {t: increase, why: "increase แปลว่าเพิ่ม ขัดกับการใช้กระดาษน้อยลง"}
+    - {t: afford, why: "afford costs ไม่มีความหมายนี้"}
+    - {t: earn, why: "earn costs ไม่มีความหมาย"}
+  explain: "reduce ↔ ==increase== · reduce costs / stress / waste"
+  status: approved
+- id: cefr-b1-w08-019
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: The number of online shoppers ____ every year.
+  choices:
+    - {t: increases, why: "จำนวนเพิ่มขึ้นทุกปี ใช้ ++increases++"}
+    - {t: earns, why: "จำนวนคนหาเงินไม่ได้"}
+    - {t: affords, why: "affords ไม่ใช้กับจำนวน"}
+    - {t: depends, why: "depends ต้องตามด้วย on"}
+  explain: "increase = ==เพิ่มขึ้น== ใช้ได้ทั้งกริยาและคำนาม (an increase in ...)"
+  status: approved
+- id: cefr-b1-w08-020
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: Washing your hands often can ____ many illnesses.
+  choices:
+    - {t: prevent, why: "ป้องกันไม่ให้เกิด ใช้ ++prevent++"}
+    - {t: protect, why: "protect ใช้กับคนหรือสิ่งที่ปกป้อง เช่น protect your family from"}
+    - {t: cause, why: "cause แปลว่าทำให้เกิด กลับความหมาย"}
+    - {t: increase, why: "increase illnesses แปลว่าเพิ่มโรค กลับความหมาย"}
+  explain: "prevent + ==สิ่งไม่ดี== (ไม่ให้เกิด) · protect + คน/ของ + from ..."
+  status: approved
+- id: cefr-b1-w08-021
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: Sunscreen ____ your skin from the sun.
+  choices:
+    - {t: protects, why: "ปกป้องผิว ใช้ ++protect ... from++"}
+    - {t: prevents, why: "prevent ไม่ใช้รูป prevent your skin from the sun ในความหมายนี้"}
+    - {t: reduces, why: "reduces your skin ไม่สมเหตุสมผล"}
+    - {t: causes, why: "causes your skin from ผิดรูปและผิดความหมาย"}
+  explain: "==protect + สิ่งที่ปกป้อง + from + อันตราย=="
+  status: approved
+- id: cefr-b1-w08-022
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: "\"Are you going to the beach this weekend?\" \"It ____ on the weather.\""
+  choices:
+    - {t: depends, why: "ขึ้นอยู่กับอากาศ ใช้ ++depends on++"}
+    - {t: causes, why: "causes on ผิดรูป"}
+    - {t: results, why: "results on ไม่ใช่วลีที่ใช้"}
+    - {t: prevents, why: "prevents on ผิดรูป"}
+  explain: "It ==depends on== ... = แล้วแต่ ขึ้นอยู่กับ (อย่าใช้ depends of)"
+  status: approved
+- id: cefr-b1-w08-023
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 3
+  stem: Heavy rain was the main ____ of the flood.
+  choices:
+    - {t: cause, why: "ฝนเป็นต้นเหตุของน้ำท่วม ใช้ ++cause++"}
+    - {t: result, why: "result คือผลที่เกิดตามมา น้ำท่วมคือผล ไม่ใช่ฝน"}
+    - {t: income, why: "income ไม่เกี่ยวกับน้ำท่วม"}
+    - {t: loan, why: "loan ไม่เกี่ยวกับน้ำท่วม"}
+  explain: "==cause = เหตุ== · result = ผล · as a result = ผลก็คือ"
+  status: approved
+- id: cefr-b1-w08-024
+  kind: type
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: "He studied every day. As a r_____, he passed the test easily. (ผลก็คือ)"
+  answer: result
+  accept: [result]
+  why: "as a result = ผลก็คือ ใช้ต่อประโยคเพื่อบอกผล"
+  status: approved
+# ---------- วันที่ 3 · เลือกเงื่อนไขให้ถูก · wish · would rather ----------
+- id: cefr-b1-w08-025
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 1
+  stem: If you heat water to 100°C, it ____.
+  choices:
+    - {t: boils, why: "ข้อเท็จจริงเสมอ ใช้ zero conditional ++ปัจจุบัน + ปัจจุบัน++"}
+    - {t: would boil, why: "would ใช้กับเรื่องสมมติ แต่นี่เกิดจริงทุกครั้ง"}
+    - {t: boiled, why: "boiled เป็นอดีต ไม่เข้ากับข้อเท็จจริงทั่วไป"}
+    - {t: boiling, why: "ขาดกริยาแท้ ประโยคไม่สมบูรณ์"}
+  explain: "zero = ==จริงเสมอ== · first = เป็นไปได้ · second = สมมติ"
+  status: approved
+- id: cefr-b1-w08-026
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  stem: If it rains tomorrow, we ____ the trip.
+  choices:
+    - {t: will cancel, why: "พรุ่งนี้ฝนอาจตกจริง ใช้ first conditional ++will++"}
+    - {t: would cancel, why: "ส่วน if ใช้ rains (ปัจจุบัน) จึงต้องคู่กับ will"}
+    - {t: cancelled, why: "cancelled เป็นอดีต ไม่ใช่ผลในอนาคต"}
+    - {t: cancel, why: "เรื่องอนาคตที่เป็นไปได้ ส่วนผลใช้ will cancel"}
+  explain: "เป็นไปได้จริง: ==If + ปัจจุบัน, will + กริยา=="
+  status: approved
+- id: cefr-b1-w08-027
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  stem: I wish I ____ how to swim.
+  choices:
+    - {t: knew, why: "อยากให้ตอนนี้ต่างจากความจริง ใช้ ++wish + อดีต++"}
+    - {t: know, why: "หลัง wish เรื่องปัจจุบันต้องถอยเป็นอดีต"}
+    - {t: will know, why: "wish ไม่ตามด้วย will"}
+    - {t: am knowing, why: "know ไม่ใช้รูป -ing และหลัง wish ต้องเป็นอดีต"}
+  explain: "I wish + ==อดีต== = เสียดาย อยากให้ตอนนี้เป็นอีกแบบ"
+  status: approved
+- id: cefr-b1-w08-028
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  stem: I wish my office ____ so far from home.
+  choices:
+    - {t: weren't, why: "ความจริงคือไกล อยากให้ไม่ไกล ใช้ ++wish + weren't++"}
+    - {t: isn't, why: "หลัง wish ต้องถอยเป็นอดีต"}
+    - {t: won't be, why: "wish ไม่ตามด้วย will"}
+    - {t: hadn't, why: "hadn't so far ผิดรูป ต้องใช้ be"}
+  explain: "กับ be หลัง wish ใช้ ==were / weren't== ได้ทุกประธาน"
+  status: approved
+- id: cefr-b1-w08-029
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  stem: I'd rather ____ at home tonight. I'm tired.
+  choices:
+    - {t: stay, why: "would rather + ++กริยารูปเดิม++ ไม่มี to"}
+    - {t: to stay, why: "หลัง would rather ไม่มี to"}
+    - {t: staying, why: "หลัง would rather ไม่ใช้ -ing"}
+    - {t: stayed, why: "I'd rather + คนเดียวกันใช้กริยารูปเดิม ไม่ใช่อดีต"}
+  explain: "I'd rather + ==กริยารูปเดิม== (than ...) = อยาก...มากกว่า"
+  status: approved
+- id: cefr-b1-w08-030
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  stem: I'd rather walk ____ take a crowded bus.
+  choices:
+    - {t: than, why: "เปรียบสองทางเลือก ใช้ ++would rather A than B++"}
+    - {t: that, why: "that ไม่ใช่คำเปรียบเทียบ"}
+    - {t: then, why: "then แปลว่าแล้วก็ สะกดคล้ายแต่ความหมายผิด"}
+    - {t: to, why: "would rather ... to ไม่ใช่รูปที่ใช้"}
+  explain: "would rather ... ==than== ... (ระวังสับสน than กับ then)"
+  status: approved
+- id: cefr-b1-w08-031
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 3
+  stem: Which conditional sentence is correct?
+  choices:
+    - {t: "If I had a car, I would drive you to the airport.", why: "had กับ would เข้าคู่กัน ++ถูกต้อง++"}
+    - {t: "If I would have a car, I would drive you.", why: "ไม่ใส่ would ในส่วน if"}
+    - {t: "If I have a car, I would drive you.", why: "have คู่กับ will ไม่ใช่ would"}
+    - {t: "If I had a car, I will drive you.", why: "had คู่กับ would ไม่ใช่ will"}
+  explain: "จับคู่ให้ถูก: ==present + will · past + would=="
+  status: approved
+- id: cefr-b1-w08-032
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  stem: You won't pass the test ____ you study harder.
+  choices:
+    - {t: unless, why: "unless = ++if not++ ถ้าไม่ขยันจะไม่ผ่าน"}
+    - {t: if, why: "if you study harder กับ won't pass ขัดกันเอง"}
+    - {t: when, why: "when ทำให้ความหมายแปลก จะไม่ผ่านเมื่อขยันขึ้น"}
+    - {t: so, why: "so ไม่ใช่คำขึ้นเงื่อนไข"}
+  explain: "unless + ==ประโยคบอกเล่า== = ถ้าไม่ (อย่าใส่ not ซ้ำ)"
+  status: approved
+- id: cefr-b1-w08-033
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 3
+  stem: "\"Shall we eat out or cook?\" \"I'd rather we ____ out. I'm too tired to cook.\""
+  choices:
+    - {t: ate, why: "I'd rather + คนอื่น/เรา ใช้ ++อดีต++ ทั้งที่หมายถึงตอนนี้"}
+    - {t: eat, why: "เมื่อมีประธานใหม่หลัง would rather ต้องใช้อดีต"}
+    - {t: will eat, why: "would rather ไม่ตามด้วย will"}
+    - {t: to eat, why: "would rather we to eat ผิดรูป"}
+  explain: "I'd rather + ==ประธานอื่น + อดีต== (I'd rather you stayed.)"
+  status: approved
+- id: cefr-b1-w08-034
+  kind: cloze
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  text: |
+    My job is fine, but I wish I (1) ____ more time for my family. If I (2) ____ a job closer to home, I would save two hours a day. My wife says, "If you (3) ____ tired, we'll stay home this weekend."
+  questions:
+    - choices:
+        - {t: had, why: "wish + อดีต ความจริงคือไม่มีเวลา"}
+        - {t: have, why: "หลัง wish ต้องเป็นอดีต"}
+        - {t: will have, why: "wish ไม่ตามด้วย will"}
+        - {t: would have, why: "ไม่ใช้ would ในส่วนนี้"}
+    - choices:
+        - {t: found, why: "สมมติคู่กับ would save ส่วน if ใช้อดีต"}
+        - {t: find, why: "ส่วนผลมี would ส่วน if ต้องเป็นอดีต"}
+        - {t: would find, why: "ไม่ใส่ would ในส่วน if"}
+        - {t: will find, why: "ไม่ใส่ will ในส่วน if"}
+    - choices:
+        - {t: are, why: "เป็นไปได้จริงคู่กับ we'll ส่วน if ใช้ปัจจุบัน"}
+        - {t: were, why: "ส่วนผลใช้ will ไม่ใช่ would จึงใช้ปัจจุบัน"}
+        - {t: will be, why: "ไม่ใส่ will ในส่วน if"}
+        - {t: would be, why: "ไม่ใส่ would ในส่วน if"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-b1-w08-035
+  kind: read
+  skill: rd
+  topic: saving-money
+  level: 2
+  title: "Small Changes, Big Savings"
+  passage: |
+    Many people say they can't afford to save money. But according to a small survey by a Bangkok bank, most people who started saving began with very small amounts, often only 20 baht a day.
+
+    Nok, a 34-year-old office worker, used to buy two coffees a day. "If I made coffee at home, I would save about 1,500 baht a month," she realised. She now takes coffee from home and puts the money into a separate account. "I wish I had started five years ago," she says.
+
+    Experts say the most important thing is to save automatically. If your bank moves money to a savings account on payday, you will not see it and you will not spend it. They also suggest that people with loans should pay back the loan first, because the interest on a loan is usually higher than the interest on savings.
+  questions:
+    - stem: How did most people in the survey start saving?
+      choices:
+        - {t: with small amounts, why: "began with very small amounts"}
+        - {t: with a bank loan, why: "ไม่ได้บอกว่าเริ่มจากเงินกู้"}
+        - {t: with 1,500 baht a day, why: "1,500 บาทเป็นยอดต่อเดือนของนก"}
+        - {t: with help from their family, why: "ไม่มีการพูดถึงครอบครัว"}
+    - stem: What does Nok do now?
+      choices:
+        - {t: takes coffee from home, why: "She now takes coffee from home"}
+        - {t: buys one coffee a day, why: "เธอเลิกซื้อแล้ว ไม่ได้ลดเหลือแก้วเดียว"}
+        - {t: works at a bank, why: "เธอเป็นพนักงานออฟฟิศ"}
+        - {t: pays back a loan, why: "เรื่องเงินกู้เป็นคำแนะนำของผู้เชี่ยวชาญ"}
+    - stem: What does Nok regret?
+      choices:
+        - {t: not starting earlier, why: "I wish I had started five years ago"}
+        - {t: opening a separate account, why: "เธอพอใจกับบัญชีแยก"}
+        - {t: drinking coffee, why: "เธอยังดื่มกาแฟ แค่ชงเอง"}
+        - {t: taking a loan, why: "ไม่ได้บอกว่าเธอกู้เงิน"}
+    - stem: Why should people with loans pay them back first?
+      choices:
+        - {t: loan interest is usually higher, why: "the interest on a loan is usually higher"}
+        - {t: banks require it, why: "ไม่ได้บอกว่าธนาคารบังคับ"}
+        - {t: saving is not useful, why: "บทความสนับสนุนการออม"}
+        - {t: loans are free, why: "เงินกู้มีดอกเบี้ย"}
+  status: approved
+- id: cefr-b1-w08-036
+  kind: listen
+  skill: li
+  topic: imaginary-situations
+  level: 2
+  script:
+    - {who: Woman, en: "If you could live anywhere, where would you live?"}
+    - {who: Man, en: "Probably by the sea in the south. I'd go swimming every morning. But my job is in Bangkok, so it's just a dream."}
+  questions:
+    - stem: Why doesn't the man live by the sea?
+      choices:
+        - {t: his job is in Bangkok, why: "เขาบอกว่า my job is in Bangkok"}
+        - {t: he can't swim, why: "เขาอยากว่ายน้ำทุกเช้า"}
+        - {t: it is too expensive, why: "ไม่ได้พูดเรื่องราคา"}
+        - {t: he doesn't like the south, why: "เขาอยากไปอยู่ทางใต้"}
+  status: approved
+- id: cefr-b1-w08-037
+  kind: listen
+  skill: li
+  topic: giving-reasons
+  level: 2
+  script:
+    - {who: Man, en: "Are you going to buy that apartment?"}
+    - {who: Woman, en: "I'd love to, but I can't afford it right now. If the bank gave me a bigger loan, I would. Maybe next year when my salary increases."}
+  questions:
+    - stem: Why isn't the woman buying the apartment now?
+      choices:
+        - {t: she doesn't have enough money, why: "I can't afford it right now"}
+        - {t: she doesn't like it, why: "เธอบอกว่า I'd love to"}
+        - {t: it is already sold, why: "ไม่ได้พูดว่าขายไปแล้ว"}
+        - {t: her salary is too high, why: "เธอรอให้เงินเดือนขึ้น"}
+  status: approved
+- id: cefr-b1-w08-038
+  kind: listen
+  skill: li
+  topic: giving-reasons
+  level: 2
+  script:
+    - {who: Woman, en: "Would you rather work from home or in the office?"}
+    - {who: Man, en: "From home, definitely. I wouldn't spend two hours in traffic, and I'd have more time to cook healthy food."}
+  questions:
+    - stem: What reason does the man give?
+      choices:
+        - {t: he would avoid traffic, why: "I wouldn't spend two hours in traffic"}
+        - {t: his office is noisy, why: "ไม่ได้พูดเรื่องเสียง"}
+        - {t: he would earn more, why: "ไม่ได้พูดเรื่องรายได้"}
+        - {t: he doesn't like his boss, why: "ไม่ได้พูดถึงหัวหน้า"}
+  status: approved
+- id: cefr-b1-w08-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [If I had, more free time, I would learn, the guitar]
+  sentence: If I had more free time, I would learn the guitar.
+  th: ถ้ามีเวลาว่างมากกว่านี้ จะเรียนกีตาร์
+  why: "If + อดีต แล้วจุลภาค ตามด้วย would + กริยารูปเดิม"
+  status: approved
+- id: cefr-b1-w08-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I wish, I didn't have to, work, on Saturdays]
+  sentence: I wish I didn't have to work on Saturdays.
+  th: อยากให้ไม่ต้องทำงานวันเสาร์
+  why: "wish + อดีต ปฏิเสธใช้ didn't have to"
+  status: approved
+- id: cefr-b1-w08-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Saving money, depends on, small changes, in your daily habits]
+  sentence: Saving money depends on small changes in your daily habits.
+  th: การออมเงินขึ้นอยู่กับการเปลี่ยนแปลงเล็ก ๆ ในนิสัยประจำวัน
+  why: "depends on + สิ่งที่เป็นตัวกำหนด"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b1-w08-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [If someone gave me, ten thousand baht, I would put, half of it, in the bank]
+  sentence: If someone gave me ten thousand baht, I would put half of it in the bank.
+  th: ถ้ามีคนให้เงินหนึ่งหมื่นบาท จะเอาครึ่งหนึ่งไปฝากธนาคาร
+  why: "If + อดีต ตามด้วย would put + สิ่งของ + in the bank"
+  status: approved

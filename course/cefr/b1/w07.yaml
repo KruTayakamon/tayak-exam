@@ -1,0 +1,171 @@
+# คอร์ส b1 · สัปดาห์ 7 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 7
+phase: 2
+theme_th: กฎ ระเบียบ และประกาศ
+focus_th: must have to mustn't don't have to · can/be allowed to · passive ปัจจุบันและอดีต · by + ผู้กระทำ
+can_do_th:
+  - เข้าใจและอธิบายกฎ ระเบียบ ข้อบังคับได้
+  - อ่านประกาศทางการแล้วรู้ว่าต้องทำอะไร
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ต้อง ไม่ต้อง ห้าม ได้
+    lesson:
+      rule_th: "สองคำนี้หน้าตาคล้ายแต่ความหมายตรงข้าม ==mustn't = ห้าม== ส่วน ++don't have to = ไม่จำเป็นต้อง++ ทำก็ได้ไม่ทำก็ได้ และเล่าอดีตใช้ had to"
+      examples:
+        - {en: "You <k>mustn't</k> smoke here.", th: "ห้ามสูบ"}
+        - {en: "You <k>don't have to</k> pay now.", th: "ไม่ต้องจ่ายตอนนี้ก็ได้"}
+        - {en: "<k>Are</k> we <k>allowed to</k> bring food?", th: "ขออนุญาตแบบสุภาพ"}
+        - {en: "Yesterday I <k>had to</k> work late.", th: "อดีตของ must กับ have to คือ ==had to=="}
+      signals:
+        - {label_th: "ห้าม", words: ["mustn't", "can't", "aren't allowed to"]}
+        - {label_th: "ไม่จำเป็น", words: ["don't have to", "doesn't have to", "needn't"]}
+      thai_trap:
+        intro_th: "คำว่า ไม่ต้อง ในภาษาไทยใช้ทั้ง ห้าม และ ไม่จำเป็น พอแปลอังกฤษเลยใช้ ~~mustn't ผิดความหมาย~~"
+        wrong: ["Tomorrow is a holiday, so I mustn't work.", "She haven't to wear a uniform."]
+        right: ["Tomorrow is a holiday, so I don't have to work.", "She doesn't have to wear a uniform."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==ทำแล้วผิดกฎไหม== ผิดกฎใช้ mustn't แค่ไม่จำเป็นใช้ don't have to"}
+        - {kind: warn, th: "must ไม่มีอดีต เมื่อวานต้องทำใช้ had to เท่านั้น"}
+    check: [cefr-b1-w07-001, cefr-b1-w07-002]
+    practice: [cefr-b1-w07-003, cefr-b1-w07-004, cefr-b1-w07-005, cefr-b1-w07-006, cefr-b1-w07-007, cefr-b1-w07-008, cefr-b1-w07-009, cefr-b1-w07-010, cefr-b1-w07-011, cefr-b1-w07-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกกฎที่ทำงานหรือที่บ้านของคุณ อย่างละ 1 ข้อ สิ่งที่ห้าม และสิ่งที่ไม่จำเป็นต้องทำ
+      frame: "At ____, we mustn't ____. We don't have to ____."
+      model: "At my office, we mustn't eat at our desks. We don't have to wear suits on Fridays."
+    classroom: {en: "Excuse me, are we allowed to sit here?", th: "ขอโทษนะคะ นั่งตรงนี้ได้ไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เอกสารและระเบียบ 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้เจอในอีเมลทางการและแบบฟอร์ม ระวังคู่ ==apply (กริยา) กับ application (คำนาม)== และ ++responsible กับ responsibility++ ต้องเลือกให้ตรงตำแหน่ง"
+      examples:
+        - {en: "I <k>applied</k> for the job. My <k>application</k> was accepted.", th: "กริยา apply คำนาม application"}
+        - {en: "Please <k>submit</k> the form by Friday.", th: "submit = ยื่นส่ง ทางการ"}
+        - {en: "The price <k>includes</k> breakfast.", th: "include = รวมอยู่ด้วย"}
+        - {en: "Visitors are <k>required</k> to sign in.", th: "be required to = ==ต้องทำตามกฎ=="}
+      words:
+        - {w: permission, pos: n., th: การอนุญาต, ex: "You need permission to use this room."}
+        - {w: request, pos: n./v., th: คำขอ ขอ, ex: "We received your request yesterday."}
+        - {w: require, pos: v., th: ต้องการ กำหนดให้ต้อง, ex: "This job requires good English."}
+        - {w: provide, pos: v., th: จัดหาให้, ex: "The company provides lunch for staff."}
+        - {w: include, pos: v., th: รวมอยู่ด้วย, ex: "Does the price include tax?"}
+        - {w: document, pos: n., th: เอกสาร, ex: "Please sign this document."}
+        - {w: submit, pos: v., th: ยื่น ส่ง, ex: "Submit your report before Friday."}
+        - {w: apply, pos: v., th: สมัคร ยื่นขอ, ex: "She applied for a visa last week."}
+        - {w: application, pos: n., th: ใบสมัคร คำร้อง, ex: "Fill in the application form online."}
+        - {w: urgent, pos: adj., th: ด่วน, ex: "This email is urgent."}
+        - {w: essential, pos: adj., th: จำเป็นอย่างยิ่ง, ex: "Water is essential for life."}
+        - {w: responsibility, pos: n., th: ความรับผิดชอบ หน้าที่, ex: "It's my responsibility to lock the door."}
+      thai_trap:
+        intro_th: "ภาษาไทยคำว่า สมัคร เป็นทั้งกริยาและคำนาม เลยเขียน ~~I sent my apply~~ หรือ ~~apply a job~~ ที่ขาด for"
+        wrong: ["I sent my apply yesterday.", "I want to apply a job.", "It's my responsible."]
+        right: ["I sent my application yesterday.", "I want to apply for a job.", "It's my responsibility."]
+      notes:
+        - {kind: pin, th: "==apply for== + งาน / วีซ่า / ทุน · ส่งสิ่งที่สมัครแล้วเรียกว่า application"}
+        - {kind: use, th: "อีเมลด่วนเขียนหัวเรื่องได้เลย URGENT: Please reply today"}
+    check: [cefr-b1-w07-013, cefr-b1-w07-018]
+    practice: [cefr-b1-w07-014, cefr-b1-w07-015, cefr-b1-w07-016, cefr-b1-w07-017, cefr-b1-w07-019, cefr-b1-w07-020, cefr-b1-w07-021, cefr-b1-w07-022, cefr-b1-w07-023, cefr-b1-w07-024]
+    use:
+      prompt_th: เขียน 1 ประโยคบอกเอกสารที่ต้องเตรียมเมื่อสมัครอะไรสักอย่าง
+      frame: "When you apply for ____, you are required to submit ____."
+      model: "When you apply for a passport, you are required to submit your ID card and a photo."
+    classroom: {en: "Which documents do I need to bring?", th: "ต้องนำเอกสารอะไรมาบ้าง"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ถูกทำ (passive)
+    lesson:
+      rule_th: "เวลาสนใจ ==สิ่งที่ถูกกระทำ== มากกว่าคนทำ ใช้ ++be + กริยาช่อง 3++ ปัจจุบันใช้ is/are อดีตใช้ was/were อยากบอกคนทำใส่ by"
+      examples:
+        - {en: "English <k>is spoken</k> in many countries.", th: "ภาษาถูกพูด"}
+        - {en: "This temple <k>was built</k> 400 years ago.", th: "อดีตใช้ was + ช่อง 3"}
+        - {en: "Breakfast <k>is served</k> from 6.30.", th: "ป้ายโรงแรมใช้ passive บ่อย"}
+        - {en: "The song was written <k>by</k> a Thai singer.", th: "by + ผู้กระทำ ==ใส่เมื่ออยากบอก=="}
+      signals:
+        - {label_th: "passive ที่เจอบ่อย", words: [is made in, was built, is served, are not allowed, was stolen]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า กระเป๋าขโมยไป ได้ แต่อังกฤษ ~~My bag stole~~ แปลว่ากระเป๋าไปขโมยของ"
+        wrong: ["My bag stole yesterday.", "This phone made in China.", "The room cleans every day."]
+        right: ["My bag was stolen yesterday.", "This phone is made in China.", "The room is cleaned every day."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==ประธานทำเองได้ไหม== ทำเองไม่ได้ต้องใช้ be + ช่อง 3"}
+        - {kind: warn, th: "อย่าลืม be เด็ดขาด made, built ยืนเดี่ยวไม่ได้"}
+    check: [cefr-b1-w07-025, cefr-b1-w07-026]
+    practice: [cefr-b1-w07-027, cefr-b1-w07-028, cefr-b1-w07-029, cefr-b1-w07-030, cefr-b1-w07-031, cefr-b1-w07-032, cefr-b1-w07-033, cefr-b1-w07-034]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำสถานที่ในเมืองของคุณด้วยรูปถูกกระทำ
+      frame: "____ was built in ____. It is visited by ____."
+      model: "Wat Phra That Doi Suthep was built in the 14th century. It is visited by thousands of tourists every year."
+    classroom: {en: "When was this building built?", th: "ตึกนี้สร้างเมื่อไร"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านระเบียบและฟังประกาศ
+    lesson:
+      rule_th: "อ่านระเบียบให้แยกเป็นสามกลุ่ม ==ต้องทำ ห้ามทำ ทำได้== แล้วดู ++ตัวเลขเงื่อนไข++ เช่น at least one day before เพราะคำถามมักถามตรงนั้น"
+      examples:
+        - {en: "Rooms <k>must be booked</k> at least one day before.", th: "ต้องทำ + เงื่อนไขเวลา"}
+        - {en: "Food <k>is not allowed</k>, but you <k>may</k> bring drinks.", th: "ห้ามอย่างหนึ่ง แต่ ==อีกอย่างทำได้=="}
+        - {en: "Paper forms <k>will not be accepted</k>.", th: "not accepted = ไม่รับแล้ว"}
+      thai_trap:
+        intro_th: "ระเบียบมีตัวเลขหลายตัว คนมักสลับ ~~เงื่อนไขของอีกข้อ~~ เช่น สามวันล่วงหน้าเป็นของการจัดโต๊ะ ไม่ใช่การจองห้อง"
+        wrong: ["เห็น three days จึงตอบว่าต้องจองห้องล่วงหน้าสามวัน"]
+        right: ["จองห้องล่วงหน้าหนึ่งวัน ส่วนสามวันเป็นกรณีขอเปลี่ยนการจัดโต๊ะ"]
+      notes:
+        - {kind: tip, th: "ทำสามคอลัมน์ ==ต้อง / ห้าม / ได้== ขณะอ่าน ตอบคำถามได้เร็วขึ้นมาก"}
+        - {kind: warn, th: "but หลังข้อห้าม มักตามด้วยข้อยกเว้นที่ถูกถาม"}
+    check: [cefr-b1-w07-036, cefr-b1-w07-037]
+    practice: [cefr-b1-w07-035, cefr-b1-w07-038, cefr-b1-w07-039, cefr-b1-w07-040, cefr-b1-w07-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกระเบียบของสถานที่หนึ่งที่คุณไปบ่อย
+      frame: "At ____, you must ____. ____ are not allowed."
+      model: "At my gym, you must bring a towel. Outdoor shoes are not allowed."
+    classroom: {en: "Sorry, I didn't know that wasn't allowed.", th: "ขอโทษนะ ไม่ทราบว่าห้าม"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด อธิบายระเบียบให้คนใหม่ฟัง 60 วินาที
+    lab:
+      mode: speak
+      prompt_th: มีเพื่อนร่วมงานหรือสมาชิกใหม่มาวันแรก พูดอธิบายระเบียบสำคัญของที่ทำงาน ฟิตเนส หรือคอนโดของคุณ 60 วินาที บอกสิ่งที่ต้องทำ ห้ามทำ ไม่จำเป็นต้องทำ และถ้ามีปัญหาให้ติดต่อใคร
+      frame:
+        - "Welcome to ____. Let me tell you about a few rules."
+        - "First, you have to ____."
+        - "You mustn't ____, because ____."
+        - "You don't have to ____."
+        - "If you have any problems, please contact ____."
+      model_pass: "Welcome to our office. Let me tell you about a few rules. First, you have to scan your card at the door every morning. You mustn't eat at your desk, because we want to keep the computers clean. You don't have to wear a tie. If you have any problems, please contact Nok in HR."
+      model_good: "Welcome to the team! Before you start, let me explain a few important rules. First, you have to scan your staff card at the main door, even if someone holds it open for you, because every entry is recorded. You mustn't eat at your desk, since crumbs have damaged keyboards before, but drinks in closed bottles are fine. You don't have to wear formal clothes unless you're meeting a client. If anything is unclear, Nok in HR is really helpful, and her office is next to the lift."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกสถานที่จริงของคุณ แล้วเติมโครง 5 ประโยค
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ have to, mustn't และ don't have to ถูกความหมาย
+        - บอกเหตุผลของกฎอย่างน้อย 1 ข้อด้วย because
+        - บอกว่าถ้ามีปัญหาให้ติดต่อใคร
+        - พูดได้ประมาณ 60 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b1-w07-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 7
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [4, 5, 6, 7], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

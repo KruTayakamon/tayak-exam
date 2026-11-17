@@ -1,0 +1,171 @@
+# คอร์ส b1 · สัปดาห์ 8 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 8
+phase: 2
+theme_th: เงื่อนไขและผลที่ตามมา
+focus_th: second conditional · If I were you · zero first second เทียบกัน · wish + อดีต · would rather · unless
+can_do_th:
+  - พูดถึงสถานการณ์สมมติและผลที่ตามมาได้
+  - อธิบายสาเหตุและผลได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ถ้าสมมติว่า...
+    lesson:
+      rule_th: "เรื่องที่ ==ไม่จริงตอนนี้หรือไม่น่าเกิด== ใช้ ++If + อดีต, would + กริยารูปเดิม++ แม้ใช้อดีตแต่หมายถึงปัจจุบันหรืออนาคต"
+      examples:
+        - {en: "If I <k>had</k> more money, I <k>would</k> buy a car.", th: "ความจริงคือเงินไม่พอ"}
+        - {en: "If I <k>were</k> you, I'd talk to your manager.", th: "วลีให้คำแนะนำ ==If I were you=="}
+        - {en: "What <k>would</k> you do if you <k>won</k> the lottery?", th: "ถามเรื่องสมมติ"}
+        - {en: "If he spoke Japanese, he <k>could</k> work in Tokyo.", th: "ส่วนผลใช้ could ก็ได้"}
+      signals:
+        - {label_th: "ส่วนผล", words: [would, "'d", could, might]}
+        - {label_th: "ส่วน if", words: [had, were, knew, lived, won]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่เปลี่ยนรูปกริยา คนเลยใส่ ~~would ในส่วน if~~ หรือใช้ปัจจุบันคู่กับ would"
+        wrong: ["If I would have time, I would help you.", "If I have a car, I would drive you."]
+        right: ["If I had time, I would help you.", "If I had a car, I would drive you."]
+      notes:
+        - {kind: tip, th: "จำคู่ให้ขึ้นใจ ==อดีต + would== · ปัจจุบัน + will ห้ามไขว้กัน"}
+        - {kind: warn, th: "ไม่ใส่ would ในส่วน if เด็ดขาด"}
+    check: [cefr-b1-w08-001, cefr-b1-w08-002]
+    practice: [cefr-b1-w08-003, cefr-b1-w08-004, cefr-b1-w08-005, cefr-b1-w08-006, cefr-b1-w08-007, cefr-b1-w08-008, cefr-b1-w08-009, cefr-b1-w08-010, cefr-b1-w08-011, cefr-b1-w08-012]
+    use:
+      prompt_th: เขียน 2 ประโยคว่าถ้ามีเวลาว่างเพิ่มวันละ 2 ชั่วโมงจะทำอะไร และเพราะอะไร
+      frame: "If I had two more hours a day, I would ____. I'd also ____."
+      model: "If I had two more hours a day, I would go running in the park. I'd also cook dinner for my family more often."
+    classroom: {en: "If I were you, I'd ask for help.", th: "ถ้าเป็นเรา จะขอให้คนช่วย"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เรื่องเงินและผลลัพธ์ 12 คำ
+    lesson:
+      rule_th: "ศัพท์เรื่องเงินมีคู่ที่คนสับสนบ่อย ==salary กับ income== (เงินเดือน กับ รายได้รวม) และ ++prevent กับ protect++ (กันไม่ให้เกิด กับ ปกป้อง)"
+      examples:
+        - {en: "I can't <k>afford</k> a new phone.", th: "afford = มีเงินพอซื้อ"}
+        - {en: "She <k>earns</k> 30,000 baht a month.", th: "earn = หาเงินได้จากงาน"}
+        - {en: "Sunscreen <k>protects</k> your skin <k>from</k> the sun.", th: "==protect A from B=="}
+        - {en: "It <k>depends on</k> the weather.", th: "แล้วแต่ ขึ้นอยู่กับ"}
+      words:
+        - {w: afford, pos: v., th: มีเงินพอจ่าย, ex: "We can't afford a holiday this year."}
+        - {w: earn, pos: v., th: หาเงินได้, ex: "He earns more than his brother."}
+        - {w: salary, pos: n., th: เงินเดือน, ex: "My salary is paid at the end of the month."}
+        - {w: income, pos: n., th: รายได้, ex: "Her income comes from two jobs."}
+        - {w: loan, pos: n., th: เงินกู้, ex: "They took out a loan to buy a car."}
+        - {w: reduce, pos: v., th: ลด, ex: "Walking can reduce stress."}
+        - {w: increase, pos: v./n., th: เพิ่มขึ้น, ex: "Prices increase every year."}
+        - {w: prevent, pos: v., th: ป้องกันไม่ให้เกิด, ex: "Exercise helps prevent illness."}
+        - {w: protect, pos: v., th: ปกป้อง, ex: "Wear a helmet to protect your head."}
+        - {w: depend, pos: v., th: ขึ้นอยู่กับ, ex: "The price depends on the size."}
+        - {w: result, pos: n., th: ผลลัพธ์, ex: "The results will be ready on Monday."}
+        - {w: cause, pos: n./v., th: สาเหตุ ทำให้เกิด, ex: "Smoking can cause many health problems."}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ขึ้นอยู่กับ คนเลยเขียน ~~depends of~~ และใช้ ~~win money~~ กับเงินเดือน"
+        wrong: ["It depends of the price.", "She wins 30,000 baht a month."]
+        right: ["It depends on the price.", "She earns 30,000 baht a month."]
+      notes:
+        - {kind: pin, th: "==depend on== · protect from · prevent + สิ่งไม่ดี"}
+        - {kind: use, th: "ตอบคำถามที่ยังไม่แน่ใจ ใช้ It depends. ได้ทันที"}
+    check: [cefr-b1-w08-013, cefr-b1-w08-014]
+    practice: [cefr-b1-w08-015, cefr-b1-w08-016, cefr-b1-w08-017, cefr-b1-w08-018, cefr-b1-w08-019, cefr-b1-w08-020, cefr-b1-w08-021, cefr-b1-w08-022, cefr-b1-w08-023, cefr-b1-w08-024]
+    use:
+      prompt_th: เขียน 1 ประโยคบอกวิธีลดค่าใช้จ่ายของคุณ และ 1 ประโยคบอกผลที่ได้
+      frame: "I reduce my costs by ____. As a result, ____."
+      model: "I reduce my costs by cooking at home. As a result, I can save about 2,000 baht a month."
+    classroom: {en: "It depends on the price.", th: "แล้วแต่ราคา"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เลือกเงื่อนไขให้ถูก
+    lesson:
+      rule_th: "ดูว่าเรื่องนั้น ==จริงเสมอ เป็นไปได้ หรือสมมติ== แล้วเลือกรูป ส่วน ++wish + อดีต++ ใช้บอกความเสียดาย และ would rather ใช้บอกสิ่งที่อยากทำมากกว่า"
+      examples:
+        - {en: "If you heat water, it <k>boils</k>.", th: "zero จริงเสมอ"}
+        - {en: "If it rains tomorrow, we'<k>ll</k> stay home.", th: "first เป็นไปได้จริง"}
+        - {en: "I <k>wish</k> I <k>knew</k> how to swim.", th: "==ความจริงคือว่ายไม่เป็น=="}
+        - {en: "I'd <k>rather</k> walk <k>than</k> take the bus.", th: "อยากเดินมากกว่า"}
+      signals:
+        - {label_th: "เสียดาย อยากได้", words: [I wish, If only, "I'd rather", unless]}
+      thai_trap:
+        intro_th: "แปลจากไทย อยากให้... คนมักเขียน ~~I wish I know~~ ใช้ปัจจุบัน ทั้งที่ต้องถอยเป็นอดีต"
+        wrong: ["I wish I know the answer.", "I'd rather to stay home."]
+        right: ["I wish I knew the answer.", "I'd rather stay home."]
+      notes:
+        - {kind: tip, th: "==unless = if not== อย่าใส่ not ซ้ำ"}
+        - {kind: warn, th: "would rather ไม่มี to ตามด้วยกริยารูปเดิมเลย"}
+    check: [cefr-b1-w08-025, cefr-b1-w08-027]
+    practice: [cefr-b1-w08-026, cefr-b1-w08-028, cefr-b1-w08-029, cefr-b1-w08-030, cefr-b1-w08-031, cefr-b1-w08-032, cefr-b1-w08-033, cefr-b1-w08-034]
+    use:
+      prompt_th: เขียน 2 ประโยค เรื่องที่อยากให้ต่างจากตอนนี้ และสิ่งที่อยากทำมากกว่าในวันหยุด
+      frame: "I wish I ____. At the weekend, I'd rather ____ than ____."
+      model: "I wish I lived closer to my parents. At the weekend, I'd rather stay at home than go shopping."
+    classroom: {en: "I wish I had more time.", th: "อยากมีเวลามากกว่านี้"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านเรื่องการออม และฟังเรื่องสมมติ
+    lesson:
+      rule_th: "บทความมักมี ==ตัวอย่างคนจริง + คำแนะนำผู้เชี่ยวชาญ== คำถามจะแยกถามสองส่วนนี้ ส่วนบทสนทนาสมมติให้ฟัง ++เหตุผลหลัง but หรือ so++"
+      examples:
+        - {en: "\"I <k>wish</k> I had started five years ago,\" she says.", th: "wish บอกความเสียดาย"}
+        - {en: "Experts <k>suggest</k> paying back loans first.", th: "==คำแนะนำของผู้เชี่ยวชาญ=="}
+        - {en: "I'd love to, <k>but</k> I can't afford it.", th: "เหตุผลจริงอยู่หลัง but"}
+      thai_trap:
+        intro_th: "ตัวเลขในบทความมักหลอก เช่น ~~1,500 บาทต่อวัน~~ ที่จริงเป็นต่อเดือน อ่านหน่วยหลังตัวเลขทุกครั้ง"
+        wrong: ["ตอบว่าเริ่มออมวันละ 1,500 บาท"]
+        right: ["เริ่มออมจำนวนน้อย เช่นวันละ 20 บาท"]
+      notes:
+        - {kind: tip, th: "ฟังเรื่องสมมติ ==เหตุผลที่ทำไม่ได้มักตามหลัง but== หรือ so"}
+        - {kind: warn, th: "ดูหน่วยหลังตัวเลขเสมอ a day, a month, a year"}
+    check: [cefr-b1-w08-036, cefr-b1-w08-037]
+    practice: [cefr-b1-w08-035, cefr-b1-w08-038, cefr-b1-w08-039, cefr-b1-w08-040, cefr-b1-w08-041]
+    use:
+      prompt_th: เขียน 2 ประโยคตอบว่าอยากทำงานที่บ้านหรือที่ออฟฟิศมากกว่า พร้อมเหตุผล
+      frame: "I'd rather work ____ because ____. If I ____, I would ____."
+      model: "I'd rather work in the office because I like talking to my team. If I worked from home, I would feel lonely."
+    classroom: {en: "I'd love to, but I can't afford it.", th: "อยากนะ แต่เงินไม่พอ"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน ถ้าได้เงินพิเศษหนึ่งหมื่นบาท 70 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนประมาณ 70 คำตอบคำถาม ถ้าได้เงินพิเศษหนึ่งหมื่นบาทจะทำอะไร แบ่งเงินอย่างไร เพราะอะไร และผลที่คาดว่าจะได้ (ทำเสร็จแล้วลองอ่านออกเสียงให้ได้ประมาณ 60 วินาที)
+      frame:
+        - "If someone gave me 10,000 baht, I would ____."
+        - "First, I'd ____ because ____."
+        - "Then I'd ____."
+        - "As a result, ____."
+        - "I wish ____, but ____."
+      model_pass: "If someone gave me 10,000 baht, I would not spend it all. First, I'd put 5,000 baht in the bank because I want to save for a trip. Then I'd buy a good pair of running shoes. As a result, I would be healthier and have some money for the future. I wish I could travel now, but I need to save first."
+      model_good: "If someone gave me an extra 10,000 baht, I would try to use it wisely rather than spend it in one day. First, I'd pay back the small loan I took from my sister, because I hate owing money to family. Then I'd spend about 3,000 baht on an online course to improve my English, since it could help me earn a better salary. As a result, I would feel free and more confident. I wish it were real, but I'm still going to follow this plan with my next bonus!"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - คิดแผนใช้เงินจริงของคุณ แล้วเติมโครง 5 ส่วน
+        - เขียนลงช่อง แล้วนับคำให้ได้ประมาณ 60–80 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านออกเสียงสิ่งที่เขียน 1 รอบ แล้วเขียนอีกรอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ If + อดีต และ would ถูกรูปอย่างน้อย 2 ครั้ง
+        - บอกเหตุผลด้วย because หรือ since อย่างน้อย 1 ครั้ง
+        - บอกผลด้วย As a result หรือ so
+        - ยาวประมาณ 70 คำ
+    practice: [cefr-b1-w08-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 8
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [5, 6, 7, 8], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
