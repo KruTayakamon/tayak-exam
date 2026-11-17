@@ -24,6 +24,17 @@ eq([P.refundEligible(order, 3, now), P.refundEligible(order, 4, now), P.refundEl
 const g = P.applyGuarantee({ product: 'cefr-b1', expires_at: now + 10 * D, guarantee_at: null }, now);
 eq([g.expires_at, g.guarantee_at], [now + 100 * D, now], 'ข้อรับรองต่อเวลา 90 วัน');
 eq(P.applyGuarantee(g, now), null, 'ข้อรับรองใช้ได้ครั้งเดียว');
+// สัปดาห์ฟรี (มติ 17 พ.ย. 2569)
+const lv = (e, ptr, r) => { const a = P.studyAccess(e, 'b1', now, ptr, r); return [a.level, a.full, a.short, a.checkpoint]; };
+eq(lv([], { week: 1, done: false }), ['trial', true, true, false], 'ยังไม่ซื้อ สัปดาห์ที่ 1 เรียนได้เต็ม แต่ไม่มีชุดวัดผล');
+eq(P.studyAccess([], 'b1', now, { week: 1 }).left, 1, 'บอกจำนวนสัปดาห์ฟรีที่เหลือ');
+eq(lv([], { week: 2, done: false }), ['review', false, true, false], 'ขึ้นสัปดาห์ที่ 2 แล้วเนื้อหาใหม่ล็อก ทบทวนของเดิมได้');
+eq(lv(ents, { week: 7, done: false }), ['paid', true, true, true], 'ซื้อแล้วทำได้ทุกอย่าง');
+eq(lv([{ product: 'cefr-b1', expires_at: now - D }], { week: 7, done: false }), ['review', false, true, false], 'สิทธิ์หมดอายุกลางคอร์ส เหลือแค่ทบทวน');
+eq(lv([{ product: 'cefr-b2', expires_at: now + D }], { week: 1, done: false })[0], 'trial', 'ซื้อคอร์สอื่นไม่ได้เปิดคอร์สนี้ แต่ยังลองสัปดาห์ฟรีได้');
+eq(lv([], { week: 1, done: false }, { ...P.RULES, free_weeks: 0 })[0], 'review', 'เจ้าของปิดสัปดาห์ฟรีได้');
+eq(lv([], { week: 2, done: false }, P.catalog({ free_weeks: 2 }).rules)[0], 'trial', 'เจ้าของขยายเป็น 2 สัปดาห์ได้');
+eq([P.validSetting('free_weeks', 1).ok, P.validSetting('free_weeks', 3).ok, P.validSetting('free_weeks', '1').ok], [true, false, false], 'สัปดาห์ฟรีตั้งได้ 0–2 เท่านั้น');
 // การตั้งค่าของเจ้าของ
 const cat = P.catalog({ prices: { 'cefr-b1': { baht: 590, launch: 390 } }, launch_until: '2026-11-30', on_sale: { 'cefr-c2': false } });
 eq([P.quote('cefr-b1', now, cat.rules, cat.products).amount, P.quote('cefr-b2', now, cat.rules, cat.products).amount], [590, 490], 'ราคาที่เจ้าของตั้งมีผลเฉพาะสินค้านั้น และวันสิ้นสุดเปิดตัวมีผล');

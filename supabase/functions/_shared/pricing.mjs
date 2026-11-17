@@ -18,6 +18,7 @@ export const RULES = {
   launch_until: null,            // null = ราคาเปิดตัวยังใช้อยู่จนกว่าบอสกำหนดวันสิ้นสุด (ISO date) · หลังวันนั้นใช้ราคาปกติ
   refund_days: 7, refund_max_sessions: 3,
   guarantee_days: 90,
+  free_weeks: 1,                 // มติบอส 17 พ.ย. 2569: สัปดาห์ที่ 1 ของทุกคอร์สเรียนฟรีทั้งสัปดาห์ (ต้องล็อกอิน) · เจ้าของปรับได้ 0–2
   extend_grace_days: 90,         // ต่อเวลาได้แม้สิทธิ์หมดไปแล้วไม่เกินกี่วัน
 };
 
@@ -34,6 +35,19 @@ export function quote(product, now, rules = RULES, products = PRODUCTS) {
 /** ents = [{product, expires_at(ms)}] · มีสิทธิ์เข้าคอร์สนี้หรือไม่ */
 export function hasAccess(ents, course, now) {
   return ents.some((e) => e.expires_at > now && (e.product === 'cefr-all' || e.product === 'cefr-' + course));
+}
+
+/** สิทธิ์เรียนของผู้ใช้ที่ล็อกอินแล้ว ณ ตำแหน่งปัจจุบันของคอร์ส (pointer = {week, done})
+ * paid   = ซื้อแล้ว ทำได้ทุกอย่าง
+ * trial  = ยังไม่ซื้อ อยู่ในสัปดาห์ฟรี: เซสชันเต็ม/สั้น และชุดย่อยของสัปดาห์นั้นทำได้ · ชุดวัดผลทำไม่ได้
+ * review = สัปดาห์ฟรีจบแล้วหรือสิทธิ์หมดอายุ: ทบทวนข้อที่เคยเรียน (เซสชันสั้น) ได้ต่อ เนื้อหาใหม่ล็อก → จอขาย
+ * left   = จำนวนสัปดาห์ฟรีที่เหลือรวมสัปดาห์ปัจจุบัน (เฉพาะ trial) */
+export function studyAccess(ents, course, now, pointer, rules = RULES) {
+  if (hasAccess(ents, course, now)) return { level: 'paid', full: true, short: true, checkpoint: true };
+  const free = Math.max(0, rules.free_weeks ?? 0);
+  const week = pointer?.week ?? 1;
+  if (!pointer?.done && week <= free) return { level: 'trial', full: true, short: true, checkpoint: false, left: free - week + 1 };
+  return { level: 'review', full: false, short: true, checkpoint: false };
 }
 
 /** ตรวจว่าซื้อสินค้านี้ได้หรือไม่ · target = รหัสสินค้าที่จะต่อเวลา (เฉพาะ cefr-extend) */
@@ -73,14 +87,15 @@ export function applyGuarantee(ent, now, rules = RULES) {
 }
 
 // ---------- การตั้งค่าที่เจ้าของแก้ได้จาก owner panel (เก็บในตาราง exam_settings) ----------
-// คีย์ที่อนุญาต: prices {สินค้า:{baht,launch}} · launch_until (ISO date หรือ null) · on_sale {สินค้า:boolean} · banner {text, until} · maintenance boolean
-export const SETTING_KEYS = ['prices', 'launch_until', 'on_sale', 'banner', 'maintenance'];
+// คีย์ที่อนุญาต: free_weeks (0–2) · prices {สินค้า:{baht,launch}} · launch_until (ISO date หรือ null) · on_sale {สินค้า:boolean} · banner {text, until} · maintenance boolean
+export const SETTING_KEYS = ['prices', 'launch_until', 'on_sale', 'banner', 'maintenance', 'free_weeks'];
 const isDate = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v));
 
 /** ตรวจค่าก่อนบันทึก (เซิร์ฟเวอร์เรียกทุกครั้ง) */
 export function validSetting(key, value) {
   if (!SETTING_KEYS.includes(key)) return { ok: false, error: 'bad_key' };
   if (key === 'maintenance') return typeof value === 'boolean' ? { ok: true } : { ok: false, error: 'bad_value' };
+  if (key === 'free_weeks') return Number.isInteger(value) && value >= 0 && value <= 2 ? { ok: true } : { ok: false, error: 'bad_value' };
   if (key === 'launch_until') return value === null || isDate(value) ? { ok: true } : { ok: false, error: 'bad_date' };
   if (key === 'on_sale') return value && typeof value === 'object' && Object.entries(value).every(([k, v]) => PRODUCTS[k] && typeof v === 'boolean') ? { ok: true } : { ok: false, error: 'bad_value' };
   if (key === 'banner') return value === null || (typeof value === 'object' && typeof value.text === 'string' && value.text.length <= 200 && (value.until == null || isDate(value.until))) ? { ok: true } : { ok: false, error: 'bad_value' };
@@ -103,7 +118,7 @@ export function catalog(settings = {}) {
     const o = settings.prices?.[k];
     products[k] = { ...P, ...(o ? { baht: o.baht, launch: o.launch } : {}) };
   }
-  const rules = { ...RULES, launch_until: settings.launch_until === undefined ? RULES.launch_until : settings.launch_until };
+  const rules = { ...RULES, launch_until: settings.launch_until === undefined ? RULES.launch_until : settings.launch_until, free_weeks: Number.isInteger(settings.free_weeks) ? settings.free_weeks : RULES.free_weeks };
   const onSale = (p) => !!products[p] && settings.maintenance !== true && settings.on_sale?.[p] !== false;
   return { products, rules, onSale };
 }

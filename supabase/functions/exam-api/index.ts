@@ -14,7 +14,7 @@ import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import cfg from "../_shared/config.mjs";
 import { dayNo, placementEstimate, projectFinish, readiness, srsUpdate, weekProgress, guaranteeEligible } from "../_shared/engine.mjs";
 import { advancePointer, buildSession, remainingSessions } from "../_shared/assemble.mjs";
-import { applyGuarantee, hasAccess } from "../_shared/pricing.mjs";
+import { applyGuarantee, catalog, COURSES, studyAccess } from "../_shared/pricing.mjs";
 import { grade, strip } from "../_shared/grade.mjs";   // ตัวตรวจคำตอบตัวเดียวกับหน้าเว็บ
 
 const SITE = Deno.env.get("EXAM_SITE_URL") ?? "http://localhost:8788";
@@ -88,8 +88,11 @@ Deno.serve(async (req) => {
     const user = await userOf(admin, req);
     if (!user) return json({ error: "no_session" }, 401);
     const course = String(body.course ?? "");
+    if (!COURSES.includes(course)) return json({ error: "bad_course" }, 400);
     const ents = await entsOf(admin, user.id);
-    if (!hasAccess(ents, course, now)) return json({ error: "no_access" }, 403);
+    // สัปดาห์ฟรี (มติ 17 พ.ย. 2569): ผู้ที่ล็อกอินแล้วสมัครเรียนได้ทุกคน สิทธิ์ตัดสินจากตำแหน่งในคอร์สด้วย studyAccess
+    const { data: st } = await admin.from("exam_settings").select("key,value");
+    const rules = catalog(Object.fromEntries((st ?? []).map((r: Any) => [r.key, r.value]))).rules;
     const uid = user.id;
     const enrolQ = () => admin.from("exam_enrolments").select("*").eq("user_id", uid).eq("exam", EXAM).eq("course", course).maybeSingle();
 
@@ -105,6 +108,7 @@ Deno.serve(async (req) => {
     const { data: en } = await enrolQ();
     if (!en) return json({ error: "not_enrolled" }, 409);
     const pointer = { week: en.week, day: en.day, part: en.part, done: en.done };
+    const acc = studyAccess(ents, course, now, pointer, rules);
 
     if (action === "home") {
       const { data: sess } = await admin.from("exam_sessions").select("day_no,kind").eq("user_id", uid).eq("course", course).gte("day_no", today - 400);
@@ -121,15 +125,16 @@ Deno.serve(async (req) => {
       const ready: Record<string, unknown> = {};
       for (const k of new Set([...Object.keys(prac), ...Object.keys(last)])) ready[k] = readiness(last[k] ?? null, prac[k] ?? { correct: 0, n: 0 }, cfg);
       return json({
-        pointer, pace: en.pace, due: due ?? 0, week: weekProgress(days, today, cfg), readiness: ready, checkpoints: cps ?? [],
+        pointer, access: acc, pace: en.pace, due: due ?? 0, week: weekProgress(days, today, cfg), readiness: ready, checkpoints: cps ?? [],
         finish_day: projectFinish(remainingSessions(pointer), en.pace, today, cfg),
         full_sessions: (sess ?? []).filter((s) => s.kind === "full").length,
-        access_until: Math.max(...ents.filter((e) => e.product === "cefr-all" || e.product === "cefr-" + course).map((e) => e.expires_at)),
+        access_until: acc.level === "paid" ? Math.max(...ents.filter((e) => e.product === "cefr-all" || e.product === "cefr-" + course).map((e) => e.expires_at)) : null,
       });
     }
 
     if (action === "session") {
       const kind = body.kind === "short" ? "short" : "full";
+      if (kind === "full" && !acc.full) return json({ error: acc.level === "review" ? "trial_ended" : "no_access", access: acc }, 402);
       const { count: nToday } = await admin.from("exam_sessions").select("id", { count: "exact", head: true }).eq("user_id", uid).eq("day_no", today);
       if ((nToday ?? 0) >= cfg.caps_per_day.sessions) return json({ error: "daily_cap" }, 429);
       if (pointer.done && kind === "full") return json({ error: "course_done" }, 409);
@@ -185,6 +190,7 @@ Deno.serve(async (req) => {
     if (action === "checkpoint_start") {
       const n = Number(body.n);
       if (![1, 2, 3].includes(n)) return json({ error: "bad_n" }, 400);
+      if (!acc.checkpoint) return json({ error: "no_access", access: acc }, 402);   // ชุดวัดผลเป็นของผู้ซื้อเท่านั้น
       const { data: cur } = await admin.from("exam_checkpoints").select("item_ids,submitted_at").eq("user_id", uid).eq("exam", EXAM).eq("course", course).eq("n", n).maybeSingle();
       if (cur?.submitted_at) return json({ error: "already_done" }, 409);
       const form = (en.cp_order ?? "abc")[n - 1];
@@ -194,6 +200,7 @@ Deno.serve(async (req) => {
       return json({ n, form, time_min: 40, items: items.map((i) => strip(i.body)) });      // ไม่มีเฉลยจนกว่าจะส่ง
     }
     if (action === "checkpoint_submit") {
+      if (!acc.checkpoint) return json({ error: "no_access", access: acc }, 402);
       const n = Number(body.n), answers = body.answers ?? {};
       const { data: cp } = await admin.from("exam_checkpoints").select("*").eq("user_id", uid).eq("exam", EXAM).eq("course", course).eq("n", n).maybeSingle();
       if (!cp) return json({ error: "not_started" }, 409);
