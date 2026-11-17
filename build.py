@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""สร้างเว็บ CEFR for Kru · รันจากรากของ repo
+"""สร้างเว็บ CEFR for You · รันจากรากของ repo
   python3 build.py           → dist/        เว็บจริง (ไม่มีเนื้อหาและเฉลย · เนื้อหามาจากเซิร์ฟเวอร์) · โฟลเดอร์นี้คือสิ่งที่ Cloudflare Pages เสิร์ฟ
   python3 build.py --demo    → dist-demo/   รุ่นสาธิต มีเนื้อหาพร้อมเฉลยฝังอยู่ ใช้ทดสอบในเครื่องเท่านั้น **ห้าม deploy** (ไม่ commit)
   python3 build.py --bundle  → build/demo_bundle.html  รุ่นสาธิตไฟล์เดียว สำหรับ publish เป็น artifact ส่วนตัวให้บอสลองเล่น
@@ -32,11 +32,11 @@ def post_pages(out, demo):
             og = f'<meta property="og:image" content="{H.escape(p["link"])}og.png">\n<meta property="og:image:width" content="1080">\n<meta property="og:image:height" content="1350">\n'
         data = {k: p.get(k) for k in ('id', 'type', 'course', 'head', 'stem', 'item', 'more', 'word', 'pos', 'th', 'example', 'example_th', 'wrong', 'right', 'note', 'lines')}
         data['placement_path'] = C.get('placement_path')
-        desc = 'ตอบแล้วดูเหตุผลทุกตัวเลือก ฝึกต่ออีก 4 ข้อ ไม่ต้องสมัคร · CEFR for Kru ภาษาอังกฤษสำหรับครู'
+        desc = 'ตอบแล้วดูเหตุผลทุกตัวเลือก ฝึกต่ออีก 4 ข้อ ไม่ต้องสมัคร · CEFR for You เรียนภาษาอังกฤษ'
         page = f'''<!doctype html>
 <html lang="th"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>{H.escape(p["head"])} · CEFR for Kru</title>
+<title>{H.escape(p["head"])} · CEFR for You</title>
 <meta name="description" content="{desc}">
 <meta property="og:type" content="website"><meta property="og:url" content="{H.escape(p["link"])}">
 <meta property="og:title" content="{H.escape(p["head"])}"><meta property="og:description" content="{desc}">
