@@ -134,7 +134,7 @@ export async function openSession(root, kind, onExit) {
       const wrongN = new Set(s.wrong).size;
       body.appendChild(el('<div class="card"><h2>วันนี้ได้อะไร</h2><ul class="list">' + [s.total ? `ตอบ ${s.total} ข้อ ถูกตั้งแต่ครั้งแรก ${s.right} ข้อ` : null, wrongN ? `${wrongN} ข้อจะกลับมาให้ทบทวน` : s.total ? 'ไม่มีข้อที่ต้องกลับมาทบทวนจากวันนี้' : null].filter(Boolean).map((t) => `<li><span class="tick" aria-hidden="true">✓</span><span>${t}</span></li>`).join('') + '</ul></div>'));
       if (card.classroom) {
-        const c = el(`<div class="card"><h2>ประโยคใช้ในห้องเรียน</h2><p class="en">${esc(card.classroom.en)}</p><p class="small">${esc(card.classroom.th)}</p>${canSay() ? '<button class="btn quiet" id="sayClass">ฟังเสียงอ่าน</button>' : ''}</div>`);
+        const c = el(`<div class="card"><h2>ประโยคพร้อมใช้</h2><p class="en">${esc(card.classroom.en)}</p><p class="small">${esc(card.classroom.th)}</p>${canSay() ? '<button class="btn quiet" id="sayClass">ฟังเสียงอ่าน</button>' : ''}</div>`);
         if (canSay()) c.querySelector('#sayClass').addEventListener('click', () => say(card.classroom.en, 0.9));
         body.appendChild(c);
       }

@@ -78,7 +78,7 @@ for s in W['sessions']:
             out.append(f'<h3>{label} ({len(s[key])})</h3>')
             for iid in s[key]: n += 1; out.append(item(iid, n))
     if s.get('use'): u = s['use']; out.append(f'<div class="card"><h3>ขั้นใช้</h3><p>{e(u["prompt_th"])}</p><p class="en">{e(u["frame"])}</p><p class="small">ตัวอย่าง</p><p class="en">{e(u["model"])}</p></div>')
-    if s.get('classroom'): out.append(f'<div class="card"><h3>ประโยคใช้ในห้องเรียน</h3><p class="en">{e(s["classroom"]["en"])}</p><p class="small">{e(s["classroom"]["th"])}</p></div>')
+    if s.get('classroom'): out.append(f'<div class="card"><h3>ประโยคพร้อมใช้</h3><p class="en">{e(s["classroom"]["en"])}</p><p class="small">{e(s["classroom"]["th"])}</p></div>')
 out.append('</div>')
 os.makedirs(f'{ROOT}/review/out', exist_ok=True)
 p = f'{ROOT}/review/out/' + ('cefr_placement.html' if PL else f'cefr_{course}_w{week:02d}.html')

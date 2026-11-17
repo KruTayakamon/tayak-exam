@@ -306,7 +306,7 @@
   skill: vo
   topic: school-work
   level: 2
-  stem: "I am c________ teaching Grade 9, but next year I will move to Grade 7. (ในช่วงนี้ ขณะนี้)"
+  stem: "I am c________ working in the sales team, but next year I will move to marketing. (ในช่วงนี้ ขณะนี้)"
   answer: currently
   accept: [currently]
   why: "currently = ในช่วงนี้ มักวางหลัง be และใช้กับ present continuous"
@@ -547,9 +547,9 @@
   skill: gm
   topic: word-order
   level: 1
-  chunks: [I, teach, English, at a secondary school, in Nan]
-  sentence: I teach English at a secondary school in Nan.
-  th: ฉันสอนภาษาอังกฤษที่โรงเรียนมัธยมแห่งหนึ่งในจังหวัดน่าน
+  chunks: [I, sell, coffee, at a small shop, in Nan]
+  sentence: I sell coffee at a small shop in Nan.
+  th: ฉันขายกาแฟที่ร้านเล็ก ๆ แห่งหนึ่งในจังหวัดน่าน
   why: "ลำดับ: ประธาน + กริยา + กรรม + สถานที่ (จากเล็กไปใหญ่)"
   status: draft
 - id: cefr-b1-w01-040

@@ -174,7 +174,7 @@ def main():
                 if pts < 8: err(where, f'ขั้นฝึกมี {pts} คะแนน ต้องมีอย่างน้อย 8')
                 if len(s.get('check', [])) < 2: err(where, 'ต้องมีข้อเช็กความเข้าใจ 2 ข้อ')
                 if not s.get('use'): err(where, 'ต้องมีขั้น "ใช้" (use)')
-                if not s.get('classroom'): err(where, 'ต้องมี "ประโยคใช้ในห้องเรียน" (classroom)')
+                if not s.get('classroom'): err(where, 'ต้องมี "ประโยคพร้อมใช้" (classroom)')
             if s.get('type') == 'lab':
                 lab = s.get('lab') or {}
                 for k in ('mode', 'prompt_th', 'frame', 'model_pass', 'model_good', 'checklist_th'):
