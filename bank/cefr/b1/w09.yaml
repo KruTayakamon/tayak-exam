@@ -1,0 +1,584 @@
+# คอร์ส b1 · สัปดาห์ 9 · ถ่ายทอดสิ่งที่คนอื่นพูด · reported statements · say/tell · reported questions · Could you tell me...? · ask sb to do
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# หมายเหตุ: ในภาษาพูดเมื่อสิ่งที่เล่ายังจริงอยู่ ไม่เลื่อน tense ก็ได้ จึงไม่ใช้รูปไม่เลื่อนเป็นตัวลวงในข้อที่ความหมายยังจริง
+# ---------- วันที่ 1 · เขาบอกว่า ----------
+- id: cefr-b1-w09-001
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 1
+  stem: "\"I'm tired.\" → She said that she ____ tired after the long trip."
+  choices:
+    - {t: was, why: "เล่าคำพูดในอดีต ถอย am เป็น ++was++"}
+    - {t: were, why: "she ใช้ was ไม่ใช่ were"}
+    - {t: has been, why: "am ถอยเป็น was ไม่ใช่ has been"}
+    - {t: be, why: "be ไม่ผันใช้เป็นกริยาแท้ไม่ได้"}
+  explain: "เล่าด้วย said แล้ว ==ถอย tense ลงหนึ่งขั้น== am/is → was"
+  status: approved
+- id: cefr-b1-w09-002
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 1
+  stem: He ____ me that the meeting was cancelled.
+  choices:
+    - {t: told, why: "มีคนฟัง me ตามหลัง ใช้ ++told++"}
+    - {t: said, why: "said ไม่ตามด้วยคนฟังตรง ๆ ต้องเป็น said to me"}
+    - {t: spoke, why: "spoke me ผิดรูป"}
+    - {t: talked, why: "talked me ผิดรูป"}
+  explain: "==tell + คน== + that ... · say (to คน) + that ..."
+  status: approved
+- id: cefr-b1-w09-003
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 1
+  stem: She ____ that she would call back later.
+  choices:
+    - {t: said, why: "ไม่มีคนฟังตามหลัง ใช้ ++said that++"}
+    - {t: told, why: "told ต้องมีคนฟัง เช่น told me"}
+    - {t: spoke, why: "spoke that ไม่ใช่รูปที่ใช้เล่าคำพูด"}
+    - {t: talked, why: "talked that ไม่ใช่รูปที่ใช้เล่าคำพูด"}
+  explain: "said + that ... ไม่ต้องมีคนฟัง · ==told ต้องมีคนฟังเสมอ=="
+  status: approved
+- id: cefr-b1-w09-004
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: "\"I will send the file.\" → Tom said that he ____ send the file."
+  choices:
+    - {t: would, why: "will ถอยเป็น ++would++ เมื่อเล่าด้วย said"}
+    - {t: wills, why: "will เป็นกริยาช่วย ไม่เติม s"}
+    - {t: willed, why: "will ไม่มีรูป willed ในความหมายนี้"}
+    - {t: is, why: "is send ผิดรูป ใช้ is คู่กับกริยารูปเดิมไม่ได้"}
+  explain: "will → ==would== · can → could"
+  status: approved
+- id: cefr-b1-w09-005
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: "\"We can't come.\" → They said they ____ come to the wedding."
+  choices:
+    - {t: couldn't, why: "can't ถอยเป็น ++couldn't++"}
+    - {t: cannot to, why: "หลัง cannot ไม่มี to"}
+    - {t: didn't can, why: "can ไม่ใช้กับ did"}
+    - {t: weren't can, why: "can ไม่ใช้กับ be"}
+  explain: "can → could · ==can't → couldn't=="
+  status: approved
+- id: cefr-b1-w09-006
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: "\"I lost my keys.\" → She told me she ____ her keys."
+  choices:
+    - {t: had lost, why: "อดีตถอยเป็น ++had + ช่อง 3++"}
+    - {t: has lost, why: "เล่าด้วย told ควรถอยเป็น had lost"}
+    - {t: had lose, why: "หลัง had ต้องเป็นช่อง 3 คือ lost"}
+    - {t: was lost, why: "was lost แปลว่าหลงทางหรือถูกทำหาย ความหมายเปลี่ยน"}
+  explain: "past simple → ==past perfect== (lost → had lost)"
+  status: approved
+- id: cefr-b1-w09-007
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: "\"I'm working from home.\" → Nok said she ____ from home."
+  choices:
+    - {t: was working, why: "am working ถอยเป็น ++was working++"}
+    - {t: works, why: "works เปลี่ยนความหมายเป็นกิจวัตร"}
+    - {t: was work, why: "หลัง was ต้องเป็น -ing"}
+    - {t: had work, why: "had work ผิดรูป"}
+  explain: "present continuous → ==past continuous== (am working → was working)"
+  status: approved
+- id: cefr-b1-w09-008
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 3
+  stem: "\"I'll see you tomorrow.\" (said last week) → He said he would see me ____."
+  choices:
+    - {t: the next day, why: "เล่าทีหลัง tomorrow กลายเป็น ++the next day++"}
+    - {t: tomorrow, why: "ผ่านไปหนึ่งสัปดาห์แล้ว พรุ่งนี้ของเขาไม่ใช่พรุ่งนี้ของเรา"}
+    - {t: yesterday, why: "yesterday กลับความหมาย"}
+    - {t: the last day, why: "the last day แปลว่าวันสุดท้าย"}
+  explain: "คำบอกเวลาเปลี่ยนด้วย ==tomorrow → the next day== · yesterday → the day before"
+  status: approved
+- id: cefr-b1-w09-009
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: "\"I like your new haircut,\" my friend said. → My friend said she liked ____ new haircut."
+  choices:
+    - {t: my, why: "your ของคนพูด คือผมของเรา ++เปลี่ยนเป็น my++"}
+    - {t: your, why: "เล่าเอง ต้องเปลี่ยนคำแทนให้ตรงกับคนเล่า"}
+    - {t: her, why: "her หมายถึงผมของเพื่อน ไม่ตรงความหมาย"}
+    - {t: their, why: "their ไม่ตรงกับใครในประโยค"}
+  explain: "เล่าต่อต้อง ==เปลี่ยนคำแทนตัว== ให้ตรงกับคนเล่า I → he/she · your → my"
+  status: approved
+- id: cefr-b1-w09-010
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: The manager ____ us that the office would close early.
+  choices:
+    - {t: told, why: "มีคนฟัง us ใช้ ++told++"}
+    - {t: said, why: "said us ผิดรูป ต้องเป็น said to us"}
+    - {t: says, why: "says us ผิดรูป และ would บอกว่าเป็นอดีต"}
+    - {t: spoke, why: "spoke us ผิดรูป"}
+  explain: "จำง่าย ==tell someone== · say something"
+  status: approved
+- id: cefr-b1-w09-011
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 3
+  stem: Which sentence is reported correctly?
+  choices:
+    - {t: "She told me that she had finished the report.", why: "told + me + that + had finished ++ถูกต้องครบ++"}
+    - {t: "She said me that she had finished the report.", why: "said me ผิด ต้องเป็น told me"}
+    - {t: "She told that she had finished the report.", why: "told ต้องมีคนฟัง"}
+    - {t: "She told me that she has finish the report.", why: "has finish ผิดรูป ต้องเป็นช่อง 3"}
+  explain: "ตรวจสามจุด ==say/tell · คนฟัง · การถอย tense=="
+  status: approved
+- id: cefr-b1-w09-012
+  kind: type
+  skill: gm
+  topic: reported-statements
+  level: 2
+  stem: "\"I am hungry,\" said Ben. → Ben said that he w__ hungry."
+  answer: was
+  accept: [was]
+  why: "am ถอยเป็น was เมื่อเล่าด้วย said"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การสื่อสาร ----------
+- id: cefr-b1-w09-013
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 1
+  stem: The guest ____ that the room was too noisy.
+  choices:
+    - {t: complained, why: "แจ้งว่าไม่พอใจ ใช้ ++complained++"}
+    - {t: apologised, why: "apologise คือขอโทษ แขกไม่ได้ขอโทษ"}
+    - {t: agreed, why: "agreed that the room was too noisy ไม่ได้บอกความไม่พอใจ"}
+    - {t: persuaded, why: "persuaded ต้องมีคนที่ถูกโน้มน้าวตามหลัง"}
+  explain: "complain (about / that ...) = ==บ่น ร้องเรียน=="
+  status: approved
+- id: cefr-b1-w09-014
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: We received a ____ about the slow delivery.
+  choices:
+    - {t: complaint, why: "คำนามของ complain คือ ++complaint++"}
+    - {t: complain, why: "complain เป็นกริยา วางหลัง a ไม่ได้"}
+    - {t: argue, why: "argue เป็นกริยา"}
+    - {t: response, why: "response แปลว่าคำตอบ ไม่ได้บอกว่าไม่พอใจ"}
+  explain: "complain (v.) → ==complaint (n.)=="
+  status: approved
+- id: cefr-b1-w09-015
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 1
+  stem: He ____ for being late and promised it wouldn't happen again.
+  choices:
+    - {t: apologised, why: "ขอโทษที่มาสาย ใช้ ++apologise for++"}
+    - {t: complained, why: "complain for being late ไม่สมเหตุสมผล เขาเป็นคนผิด"}
+    - {t: warned, why: "warn for ไม่มีความหมายนี้"}
+    - {t: refused, why: "refused for ผิดรูป"}
+  explain: "==apologise (to someone) for + -ing== = ขอโทษที่..."
+  status: approved
+- id: cefr-b1-w09-016
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: She finally ____ that she had made a mistake.
+  choices:
+    - {t: admitted, why: "ยอมรับว่าทำผิด ใช้ ++admitted++"}
+    - {t: refused, why: "refuse that ไม่ใช่รูปที่ใช้"}
+    - {t: persuaded, why: "persuaded ต้องมีคนที่ถูกโน้มน้าว"}
+    - {t: warned, why: "warned that she had made a mistake ไม่ได้แปลว่ายอมรับ"}
+  explain: "admit (that) ... / ==admit + -ing== = ยอมรับ (สิ่งที่ไม่ดี)"
+  status: approved
+- id: cefr-b1-w09-017
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: He ____ to sign the contract because the price was too high.
+  choices:
+    - {t: refused, why: "ไม่ยอมเซ็น ใช้ ++refuse to + กริยา++"}
+    - {t: admitted, why: "admit to sign ไม่ใช่รูปที่ใช้"}
+    - {t: complained, why: "complain to sign ผิดรูป"}
+    - {t: apologised, why: "apologised to sign ผิดรูป"}
+  explain: "refuse ↔ ==agree== ทั้งคู่ตามด้วย to + กริยา"
+  status: approved
+- id: cefr-b1-w09-018
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 1
+  stem: "I ____ with you. It's a great idea."
+  choices:
+    - {t: agree, why: "เห็นด้วย ใช้ ++agree with++"}
+    - {t: argue, why: "argue with แปลว่าทะเลาะ ขัดกับ great idea"}
+    - {t: discuss, why: "discuss with you ไม่ได้แปลว่าเห็นด้วย"}
+    - {t: refuse, why: "refuse with ผิดรูป"}
+  explain: "agree ==with คน / on เรื่อง== · ไม่ใช้ I am agree"
+  status: approved
+- id: cefr-b1-w09-019
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: My neighbours often ____ about money. I can hear them through the wall.
+  choices:
+    - {t: argue, why: "ทะเลาะกันจนได้ยิน ใช้ ++argue++"}
+    - {t: agree, why: "agree ไม่ทำให้เสียงดังผ่านกำแพง"}
+    - {t: apologise, why: "apologise about money ไม่เข้ากับบริบท"}
+    - {t: admit, why: "admit about ผิดรูป"}
+  explain: "argue (with someone) about ... = ==เถียง ทะเลาะ=="
+  status: approved
+- id: cefr-b1-w09-020
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: The sign ____ drivers that the road is slippery.
+  choices:
+    - {t: warns, why: "เตือนให้ระวัง ใช้ ++warns++"}
+    - {t: persuades, why: "ป้ายไม่ได้โน้มน้าว แต่บอกให้ระวัง"}
+    - {t: admits, why: "ป้ายไม่ได้ยอมรับอะไร"}
+    - {t: argues, why: "argue ไม่ตามด้วยคนแบบนี้"}
+  explain: "==warn someone (that / about / not to)== = เตือน"
+  status: approved
+- id: cefr-b1-w09-021
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: I ____ my father to see a doctor. He finally went yesterday.
+  choices:
+    - {t: persuaded, why: "พูดจนคุณพ่อยอมไป ใช้ ++persuaded++"}
+    - {t: agreed, why: "agreed my father ผิดรูป"}
+    - {t: discussed, why: "discussed my father to ผิดรูป"}
+    - {t: apologised, why: "apologised my father ผิดรูป"}
+  explain: "persuade someone ==to do== something = โน้มน้าวจนเขายอม"
+  status: approved
+- id: cefr-b1-w09-022
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: The company hasn't ____ to my email yet.
+  choices:
+    - {t: responded, why: "ตอบกลับ ใช้ ++respond to++"}
+    - {t: discussed, why: "discuss ไม่ตามด้วย to"}
+    - {t: admitted, why: "admitted to my email ไม่ได้แปลว่าตอบ"}
+    - {t: communicated, why: "communicated to my email ไม่ได้แปลว่าตอบกลับ"}
+  explain: "respond ==to== = ตอบกลับ (ทางการกว่า reply to)"
+  status: approved
+- id: cefr-b1-w09-023
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: Let's ____ the new schedule at the meeting.
+  choices:
+    - {t: discuss, why: "คุยเรื่อง ใช้ ++discuss + เรื่อง++ ไม่มี about"}
+    - {t: argue, why: "argue the schedule ผิดรูปและความหมายแรงไป"}
+    - {t: respond, why: "respond ต้องตามด้วย to"}
+    - {t: complain, why: "complain ต้องตามด้วย about"}
+  explain: "==discuss something== ไม่ใช่ discuss about"
+  status: approved
+- id: cefr-b1-w09-024
+  kind: type
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  stem: "Good teams c__________ clearly and often. (สื่อสาร)"
+  answer: communicate
+  accept: [communicate]
+  why: "communicate = สื่อสาร ประธานพหูพจน์ไม่เติม s"
+  status: approved
+# ---------- วันที่ 3 · เขาถามว่า และถามอย่างสุภาพ ----------
+- id: cefr-b1-w09-025
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 1
+  stem: "\"Where do you live?\" → She asked me where I ____."
+  choices:
+    - {t: lived, why: "คำถามที่เล่าต่อ ++เรียงแบบบอกเล่า++ และถอยเป็นอดีต"}
+    - {t: did live, why: "ไม่ใช้ did ในคำถามที่เล่าต่อ"}
+    - {t: do live, why: "ไม่ใช้ do ในคำถามที่เล่าต่อ"}
+    - {t: was live, why: "was live ผิดรูป"}
+  explain: "reported question = ==ไม่มี do/did เรียงแบบประโยคบอกเล่า=="
+  status: approved
+- id: cefr-b1-w09-026
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  stem: "\"Are you free tonight?\" → He asked me ____ I was free that night."
+  choices:
+    - {t: if, why: "คำถาม yes/no ที่เล่าต่อ ใช้ ++if / whether++"}
+    - {t: that, why: "that ใช้กับประโยคบอกเล่า ไม่ใช่คำถาม"}
+    - {t: what, why: "คำถามเดิมไม่มี what"}
+    - {t: are, why: "are ไม่ใช่คำเชื่อม"}
+  explain: "คำถาม yes/no → ==asked if / whether + ประโยคบอกเล่า=="
+  status: approved
+- id: cefr-b1-w09-027
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  stem: Could you tell me where ____?
+  choices:
+    - {t: the station is, why: "ถามอ้อมแบบสุภาพ ++เรียงประธานก่อนกริยา++"}
+    - {t: is the station, why: "หลัง Could you tell me ไม่สลับกริยามาก่อน"}
+    - {t: does the station, why: "ไม่ใช้ does ในคำถามอ้อม"}
+    - {t: the station does, why: "does ไม่ใช่กริยาที่ถูกในคำถามนี้"}
+  explain: "Could you tell me ==where the station is==? ไม่ใช่ where is the station"
+  status: approved
+- id: cefr-b1-w09-028
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  stem: Do you know what time the shop ____?
+  choices:
+    - {t: opens, why: "คำถามอ้อม ใช้ประโยคบอกเล่า ++the shop opens++"}
+    - {t: does open, why: "ไม่ใช้ does ในคำถามอ้อม"}
+    - {t: open, why: "the shop เป็นเอกพจน์ ต้องเติม s"}
+    - {t: is open it, why: "ลำดับคำผิด และมี it เกินมา"}
+  explain: "Do you know / Could you tell me + ==คำถามแบบบอกเล่า=="
+  status: approved
+- id: cefr-b1-w09-029
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  stem: My boss asked me ____ the report by Friday.
+  choices:
+    - {t: to finish, why: "เล่าคำขอ ใช้ ++ask someone to do++"}
+    - {t: finish, why: "หลัง asked me ต้องมี to"}
+    - {t: finishing, why: "ask someone ไม่ตามด้วย -ing"}
+    - {t: that finish, why: "that finish ผิดรูป"}
+  explain: "เล่าคำขอ / คำสั่ง: ==asked / told + คน + to + กริยา=="
+  status: approved
+- id: cefr-b1-w09-030
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  stem: The doctor told me ____ coffee before bed.
+  choices:
+    - {t: not to drink, why: "สั่งห้าม ใช้ ++told + คน + not to++"}
+    - {t: don't drink, why: "เล่าต่อไม่ใช้ don't ใช้ not to"}
+    - {t: to not drinking, why: "หลัง to ใช้กริยารูปเดิม และ not วางก่อน to"}
+    - {t: no drink, why: "no drink ผิดรูป"}
+  explain: "ห้ามแบบเล่าต่อ: ==told someone not to + กริยา=="
+  status: approved
+- id: cefr-b1-w09-031
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 3
+  stem: "\"How much did it cost?\" → She asked how much it ____."
+  choices:
+    - {t: had cost, why: "did cost ถอยเป็น ++had cost++ และเรียงแบบบอกเล่า"}
+    - {t: did cost, why: "ไม่ใช้ did ในคำถามที่เล่าต่อ"}
+    - {t: does cost, why: "ไม่ใช้ does และต้องถอย tense"}
+    - {t: had costed, why: "cost ช่อง 3 คือ cost ไม่ใช่ costed"}
+  explain: "cost → cost → ==cost== (เหมือนกันทั้งสามช่อง)"
+  status: approved
+- id: cefr-b1-w09-032
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  stem: Which question is the most polite?
+  choices:
+    - {t: "Could you tell me when the next bus leaves?", why: "ขึ้นด้วย Could you tell me ++สุภาพที่สุด++ และเรียงถูก"}
+    - {t: "When does the next bus leave?", why: "ถูกไวยากรณ์ แต่ตรงกว่า ไม่สุภาพเท่า"}
+    - {t: "Tell me when the next bus leaves.", why: "เป็นคำสั่ง ฟังห้วน"}
+    - {t: "Could you tell me when does the next bus leave?", why: "หลัง Could you tell me ไม่ใช้ does"}
+  explain: "ถามคนแปลกหน้า ==Could you tell me ...?== สุภาพกว่าถามตรง"
+  status: approved
+- id: cefr-b1-w09-033
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 3
+  stem: "\"Can you help me?\" → She asked ____ help her."
+  choices:
+    - {t: if I could, why: "yes/no question → if + ประธาน + ++could++ (ถอยจาก can)"}
+    - {t: could I, why: "คำถามที่เล่าต่อไม่สลับกริยาไว้หน้าประธาน"}
+    - {t: if could I, why: "หลัง if เรียงประธานก่อนกริยา"}
+    - {t: that I can, why: "คำถาม yes/no ใช้ if ไม่ใช่ that"}
+  explain: "Can you...? → She asked ==if I could...=="
+  status: approved
+- id: cefr-b1-w09-034
+  kind: cloze
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  text: |
+    Message for Ploy: Mr Kim called at 10. He (1) ____ that he was waiting for your answer. He asked (2) ____ you had received his email. He also asked you (3) ____ him back before 4 p.m.
+  questions:
+    - choices:
+        - {t: said, why: "ไม่มีคนฟังตามหลัง ใช้ said that"}
+        - {t: told, why: "told ต้องมีคนฟัง"}
+        - {t: asked, why: "asked that he was waiting ไม่ใช่คำถาม"}
+        - {t: spoke, why: "spoke that ไม่ใช่รูปเล่าคำพูด"}
+    - choices:
+        - {t: if, why: "คำถาม yes/no ที่เล่าต่อ ใช้ if"}
+        - {t: that, why: "that ใช้กับประโยคบอกเล่า"}
+        - {t: what, why: "คำถามเดิมไม่มีคำว่า what"}
+        - {t: did, why: "ไม่ใช้ did ในคำถามที่เล่าต่อ"}
+    - choices:
+        - {t: to call, why: "asked + คน + to + กริยา"}
+        - {t: call, why: "หลัง asked you ต้องมี to"}
+        - {t: calling, why: "ask someone ไม่ตามด้วย -ing"}
+        - {t: that call, why: "that call ผิดรูป"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบันทึกการประชุมและฟังข้อความฝาก ----------
+- id: cefr-b1-w09-035
+  kind: read
+  skill: rd
+  topic: meeting-notes
+  level: 2
+  title: "Notes · Team Meeting, Monday 3 March"
+  passage: |
+    Present: Dao (manager), Krit, Fah, Joe. Absent: Mai (on leave).
+
+    1. New schedule. Dao said that the office would open at 8.30 instead of 9 from next month. Krit complained that the change would be difficult for parents with young children. Dao agreed to discuss flexible hours with HR.
+
+    2. Customer complaints. Fah reported that complaints had increased by ten percent, mostly about slow replies. The team agreed that all emails must receive a response within one working day.
+
+    3. Office party. Joe asked if the team could have the party on a Friday. Everyone agreed. Joe will book a restaurant and tell Mai when she returns.
+
+    Next meeting: Monday 17 March.
+  questions:
+    - stem: Who did not attend the meeting?
+      choices:
+        - {t: Mai, why: "Absent: Mai (on leave)"}
+        - {t: Dao, why: "ดาวเป็นผู้จัดการและอยู่ในที่ประชุม"}
+        - {t: Joe, why: "โจเสนอเรื่องงานเลี้ยง"}
+        - {t: Krit, why: "กฤตบ่นเรื่องเวลาเปิด"}
+    - stem: Why did Krit complain?
+      choices:
+        - {t: the new time is hard for some parents, why: "difficult for parents with young children"}
+        - {t: the office would close earlier, why: "ออฟฟิศเปิดเร็วขึ้น ไม่ได้ปิดเร็วขึ้น"}
+        - {t: he wanted a party, why: "โจเป็นคนเสนองานเลี้ยง"}
+        - {t: emails were slow, why: "เรื่องอีเมลเป็นรายงานของฟ้า"}
+    - stem: What did the team agree about emails?
+      choices:
+        - {t: reply within one working day, why: "a response within one working day"}
+        - {t: send fewer emails, why: "ไม่ได้พูดเรื่องส่งน้อยลง"}
+        - {t: Fah will answer all emails, why: "ฟ้ารายงานตัวเลข ไม่ได้รับผิดชอบตอบทั้งหมด"}
+        - {t: stop answering complaints, why: "กลับความหมาย ทีมตกลงจะตอบเร็วขึ้น"}
+    - stem: What will Joe do?
+      choices:
+        - {t: book a restaurant, why: "Joe will book a restaurant"}
+        - {t: talk to HR, why: "ดาวเป็นคนคุยกับฝ่ายบุคคล"}
+        - {t: change the schedule, why: "เรื่องตารางเป็นของดาว"}
+        - {t: lead the next meeting, why: "ไม่ได้บอกว่าใครนำประชุม"}
+  status: approved
+- id: cefr-b1-w09-036
+  kind: listen
+  skill: li
+  topic: phone-message
+  level: 2
+  script:
+    - {who: Woman, en: "Hi, this is Pim from the dental clinic. I'm calling to tell you that your appointment on Thursday has been moved to Friday at the same time. Please call us back if Friday is not OK."}
+  questions:
+    - stem: What should the listener do if Friday is not OK?
+      choices:
+        - {t: call the clinic back, why: "ปิมบอกว่า Please call us back if Friday is not OK"}
+        - {t: come on Thursday, why: "นัดย้ายจากวันพฤหัสแล้ว"}
+        - {t: send an email, why: "ไม่ได้พูดถึงอีเมล"}
+        - {t: nothing, why: "ต้องโทรกลับถ้าวันศุกร์ไม่สะดวก"}
+  status: approved
+- id: cefr-b1-w09-037
+  kind: listen
+  skill: li
+  topic: passing-on-message
+  level: 2
+  script:
+    - {who: Man, en: "Did Lek say anything about the trip?"}
+    - {who: Woman, en: "Yes, she told me that she couldn't come on Saturday, but she asked if we could wait for her until Sunday morning."}
+  questions:
+    - stem: What did Lek ask?
+      choices:
+        - {t: if they could wait until Sunday, why: "she asked if we could wait for her until Sunday morning"}
+        - {t: if the trip was cancelled, why: "ไม่ได้ถามว่ายกเลิก"}
+        - {t: if she could drive, why: "ไม่ได้พูดเรื่องขับรถ"}
+        - {t: if they could leave on Friday, why: "ไม่ได้พูดถึงวันศุกร์"}
+  status: approved
+- id: cefr-b1-w09-038
+  kind: listen
+  skill: li
+  topic: passing-on-message
+  level: 2
+  script:
+    - {who: Woman, en: "What did the hotel say?"}
+    - {who: Man, en: "They apologised for the mistake and said they would give us a bigger room for free. They also told us not to worry about the extra night."}
+  questions:
+    - stem: How did the hotel respond?
+      choices:
+        - {t: they offered a bigger room, why: "they would give us a bigger room for free"}
+        - {t: they refused to help, why: "โรงแรมช่วยแก้ปัญหา"}
+        - {t: they asked for more money, why: "ห้องใหญ่ให้ฟรี ไม่ได้ขอเงินเพิ่ม"}
+        - {t: they cancelled the booking, why: "ไม่ได้ยกเลิก กลับให้ห้องใหญ่ขึ้น"}
+  status: approved
+- id: cefr-b1-w09-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [She told me, that she, was moving, to Chiang Mai]
+  sentence: She told me that she was moving to Chiang Mai.
+  th: เธอบอกว่ากำลังจะย้ายไปเชียงใหม่
+  why: "told + คน + that + ประโยคที่ถอย tense"
+  status: approved
+- id: cefr-b1-w09-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Could you tell me, how much, this bag, costs]
+  sentence: Could you tell me how much this bag costs?
+  th: ช่วยบอกได้ไหมว่ากระเป๋าใบนี้ราคาเท่าไร
+  why: "คำถามอ้อม เรียงประธาน this bag ก่อนกริยา costs"
+  status: approved
+- id: cefr-b1-w09-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The manager, asked us, not to, park in front of the shop]
+  sentence: The manager asked us not to park in front of the shop.
+  th: ผู้จัดการขอไม่ให้จอดรถหน้าร้าน
+  why: "asked + คน + not to + กริยา"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b1-w09-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [At the meeting, Dao said, that the office, would open earlier]
+  sentence: At the meeting, Dao said that the office would open earlier.
+  th: ในที่ประชุม ดาวบอกว่าออฟฟิศจะเปิดเร็วขึ้น
+  why: "ขึ้นด้วยเวลาสถานที่ แล้ว said that + would"
+  status: approved

@@ -1,0 +1,170 @@
+# คอร์ส b1 · สัปดาห์ 9 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 9
+phase: 3
+theme_th: ถ่ายทอดสิ่งที่คนอื่นพูด
+focus_th: reported speech ประโยคบอกเล่า · การถอย tense · say กับ tell · reported questions · Could you tell me...? · ask/tell sb (not) to do
+can_do_th:
+  - ถ่ายทอดคำพูดและคำถามของผู้อื่นได้
+  - สรุปประเด็นจากการคุยหรือการประชุมสั้น ๆ ได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เขาบอกว่า...
+    lesson:
+      rule_th: "เล่าว่าใครพูดอะไรด้วย said หรือ told แล้ว ==ถอย tense ลงหนึ่งขั้น== และ ++tell ต้องมีคนฟังเสมอ++ ส่วน say ไม่ต้อง"
+      examples:
+        - {en: "\"I'm tired.\" → She <k>said</k> she <k>was</k> tired.", th: "am → was"}
+        - {en: "He <k>told me</k> the meeting <k>was</k> cancelled.", th: "==tell + คน=="}
+        - {en: "\"I'll call you.\" → He said he <k>would</k> call me.", th: "will → would"}
+        - {en: "\"I lost my keys.\" → She said she <k>had lost</k> her keys.", th: "อดีต → had + ช่อง 3"}
+      signals:
+        - {label_th: "ถอย tense", words: ["am/is → was", "will → would", "can → could", "lost → had lost"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า บอก คำเดียว คนเลยเขียน ~~said me~~ หรือ ~~told that~~ ที่ไม่มีคนฟัง"
+        wrong: ["She said me that she was busy.", "He told that he was late."]
+        right: ["She told me that she was busy.", "He said that he was late."]
+      notes:
+        - {kind: tip, th: "จำว่า ==tell someone · say something== คนฟังมาทันทีหลัง told"}
+        - {kind: warn, th: "อย่าลืมเปลี่ยนคำแทนตัว your → my และ tomorrow → the next day"}
+    check: [cefr-b1-w09-001, cefr-b1-w09-002]
+    practice: [cefr-b1-w09-003, cefr-b1-w09-004, cefr-b1-w09-005, cefr-b1-w09-006, cefr-b1-w09-007, cefr-b1-w09-008, cefr-b1-w09-009, cefr-b1-w09-010, cefr-b1-w09-011, cefr-b1-w09-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าว่าเพื่อนหรือคนในครอบครัวบอกอะไรคุณเมื่อวาน
+      frame: "Yesterday my ____ told me that ____. She/He also said ____."
+      model: "Yesterday my sister told me that she was going to change jobs. She also said she would visit me next month."
+    classroom: {en: "Sorry, what did she say?", th: "ขอโทษนะ เธอพูดว่าอะไรนะ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การสื่อสาร 12 คำ
+    lesson:
+      rule_th: "คำกริยาเล่าคำพูดแต่ละตัว ==ตามด้วยรูปต่างกัน== เช่น ++refuse/agree to do++ · apologise for doing · complain about"
+      examples:
+        - {en: "He <k>apologised for</k> being late.", th: "apologise for + -ing"}
+        - {en: "She <k>refused to</k> sign the contract.", th: "refuse to + กริยา"}
+        - {en: "I <k>persuaded</k> my dad <k>to</k> see a doctor.", th: "==persuade + คน + to=="}
+        - {en: "Let's <k>discuss</k> the plan.", th: "discuss ไม่มี about"}
+      words:
+        - {w: complain, pos: v., th: บ่น ร้องเรียน, ex: "She complained about the food."}
+        - {w: complaint, pos: n., th: คำร้องเรียน, ex: "We received three complaints today."}
+        - {w: apologise, pos: v., th: ขอโทษ, ex: "I apologise for the delay."}
+        - {w: admit, pos: v., th: ยอมรับ, ex: "He admitted that he was wrong."}
+        - {w: refuse, pos: v., th: ปฏิเสธ ไม่ยอม, ex: "She refused to answer the question."}
+        - {w: agree, pos: v., th: เห็นด้วย ตกลง, ex: "We agreed to meet at six."}
+        - {w: argue, pos: v., th: เถียง ทะเลาะ, ex: "They argued about money."}
+        - {w: warn, pos: v., th: เตือน, ex: "The guide warned us about the snakes."}
+        - {w: persuade, pos: v., th: โน้มน้าว, ex: "I persuaded him to stay."}
+        - {w: respond, pos: v., th: ตอบกลับ, ex: "Please respond to this email by Friday."}
+        - {w: discuss, pos: v., th: อภิปราย หารือ, ex: "We need to discuss the budget."}
+        - {w: communicate, pos: v., th: สื่อสาร, ex: "We communicate by video call."}
+      thai_trap:
+        intro_th: "แปลตรงจากไทยทำให้เกิด ~~discuss about~~ และ ~~I am agree~~ ที่เจอบ่อยมาก"
+        wrong: ["Let's discuss about the plan.", "I am agree with you."]
+        right: ["Let's discuss the plan.", "I agree with you."]
+      notes:
+        - {kind: pin, th: "==discuss + เรื่อง== ไม่มี about · agree ไม่มี am"}
+        - {kind: use, th: "อีเมลขอโทษลูกค้าเริ่มด้วย We apologise for the delay. ได้เลย"}
+    check: [cefr-b1-w09-013, cefr-b1-w09-018]
+    practice: [cefr-b1-w09-014, cefr-b1-w09-015, cefr-b1-w09-016, cefr-b1-w09-017, cefr-b1-w09-019, cefr-b1-w09-020, cefr-b1-w09-021, cefr-b1-w09-022, cefr-b1-w09-023, cefr-b1-w09-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าเรื่องที่มีคนร้องเรียนหรือขอโทษคุณ
+      frame: "A ____ complained that ____. I apologised for ____."
+      model: "A customer complained that her order was late. I apologised for the delay and offered free delivery."
+    classroom: {en: "Let's discuss this after lunch.", th: "เดี๋ยวคุยเรื่องนี้หลังมื้อเที่ยงนะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เขาถามว่า... และถามอย่างสุภาพ
+    lesson:
+      rule_th: "เล่าคำถามหรือถามอ้อม ==ไม่มี do/did และเรียงแบบบอกเล่า== คำถาม yes/no ใช้ ++if++ และเล่าคำขอใช้ asked someone to do"
+      examples:
+        - {en: "She asked where I <k>lived</k>.", th: "ไม่ใช่ where did I live"}
+        - {en: "He asked <k>if</k> I was free.", th: "คำถาม yes/no ใช้ if"}
+        - {en: "Could you tell me where <k>the station is</k>?", th: "==ประธานก่อนกริยา=="}
+        - {en: "My boss asked me <k>to finish</k> the report.", th: "asked + คน + to"}
+      signals:
+        - {label_th: "ขึ้นคำถามอ้อม", words: [Could you tell me, Do you know, I'd like to know, I wonder]}
+      thai_trap:
+        intro_th: "คนติดรูปคำถามตรง เลยเขียน ~~Could you tell me where is the station?~~ ซึ่งผิด"
+        wrong: ["Could you tell me where is the bank?", "She asked me where did I live."]
+        right: ["Could you tell me where the bank is?", "She asked me where I lived."]
+      notes:
+        - {kind: tip, th: "หลัง Could you tell me ==เขียนเหมือนประโยคบอกเล่า== แล้วใส่ ? ท้าย"}
+        - {kind: warn, th: "สั่งห้ามแบบเล่าต่อใช้ told me not to ไม่ใช่ told me don't"}
+    check: [cefr-b1-w09-025, cefr-b1-w09-027]
+    practice: [cefr-b1-w09-026, cefr-b1-w09-028, cefr-b1-w09-029, cefr-b1-w09-030, cefr-b1-w09-031, cefr-b1-w09-032, cefr-b1-w09-033, cefr-b1-w09-034]
+    use:
+      prompt_th: เขียนคำถามอ้อมแบบสุภาพ 2 ข้อ ที่จะถามพนักงานโรงแรมหรือร้านค้า
+      frame: "Could you tell me ____? Do you know if ____?"
+      model: "Could you tell me what time breakfast starts? Do you know if there is a pharmacy near here?"
+    classroom: {en: "Could you tell me where the toilet is?", th: "ช่วยบอกหน่อยได้ไหมว่าห้องน้ำอยู่ไหน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบันทึกการประชุมและฟังข้อความฝาก
+    lesson:
+      rule_th: "บันทึกการประชุมแบ่ง ==ใครพูดอะไร ตกลงอะไร ใครทำอะไรต่อ== คำถามมักถามคำว่า ++agreed และ will++ ส่วนข้อความฝากให้ฟังสิ่งที่ต้องทำต่อ"
+      examples:
+        - {en: "Krit <k>complained</k> that the change would be difficult.", th: "ใครพูดอะไร"}
+        - {en: "The team <k>agreed</k> that emails must get a reply in one day.", th: "==ตกลงอะไร=="}
+        - {en: "Joe <k>will</k> book a restaurant.", th: "ใครทำอะไรต่อ"}
+      thai_trap:
+        intro_th: "บันทึกมีหลายชื่อ คนมัก ~~ตอบชื่อคนที่อยู่ใกล้คำตอบ~~ แทนคนที่ทำจริง อ่านประธานของประโยคให้ชัด"
+        wrong: ["ตอบว่าฟ้าเป็นคนตอบอีเมลทั้งหมด เพราะชื่อฟ้าอยู่ในข้อนั้น"]
+        right: ["ฟ้าแค่รายงานตัวเลข ทีมทั้งหมดตกลงเรื่องการตอบอีเมล"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นใต้ ==will + ชื่อคน== คือรายการงานที่ต้องทำต่อ"}
+        - {kind: warn, th: "Absent แปลว่าไม่มา อย่าสับสนกับ Present"}
+    check: [cefr-b1-w09-036, cefr-b1-w09-037]
+    practice: [cefr-b1-w09-035, cefr-b1-w09-038, cefr-b1-w09-039, cefr-b1-w09-040, cefr-b1-w09-041]
+    use:
+      prompt_th: เขียนข้อความฝาก 2 ประโยคให้เพื่อนร่วมงาน เล่าว่าใครโทรมาและขออะไร
+      frame: "____ called this morning. She/He asked you to ____."
+      model: "Mr Somchai called this morning. He asked you to send him the price list before lunch."
+    classroom: {en: "Can I take a message?", th: "จะฝากข้อความไว้ไหมคะ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด เล่าการประชุมให้คนที่ไม่ได้มาฟัง 60 วินาที
+    lab:
+      mode: speak
+      prompt_th: เพื่อนร่วมงานไม่ได้เข้าประชุม พูดสรุปให้ฟัง 60 วินาที ว่าใครพูดอะไร มีใครร้องเรียนหรือถามอะไร ที่ประชุมตกลงอะไร และขอให้เพื่อนทำอะไร (เขียนบันทึกสั้น ๆ 80 คำก่อนพูดได้)
+      frame:
+        - "You missed the meeting, so here's a quick summary."
+        - "____ said that ____."
+        - "____ complained that ____ / asked if ____."
+        - "In the end, we agreed to ____."
+        - "____ asked me to tell you to ____."
+      model_pass: "You missed the meeting, so here's a quick summary. Dao said that the office would open at 8.30 from next month. Krit complained that it would be difficult for parents. In the end, we agreed to reply to all emails within one day. Dao asked me to tell you to send her your holiday dates by Friday."
+      model_good: "You missed this morning's meeting, so let me give you a quick summary. First, Dao told us that the office would open half an hour earlier from next month. Krit complained that this would be hard for parents with small children, so Dao agreed to discuss flexible hours with HR. Fah also reported that customer complaints had gone up, and we agreed that every email must get a reply within one working day. Oh, and Dao asked me to remind you to send her your holiday dates by Friday."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - นึกถึงการประชุมหรือการคุยกันจริงล่าสุด จดประเด็น 3 ข้อ แล้วเติมโครง 5 ประโยค
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ said และ told ถูก (told มีคนฟังตามหลัง)
+        - ถอย tense อย่างน้อย 2 ครั้ง เช่น will → would
+        - เล่าคำขอด้วย asked someone to อย่างน้อย 1 ครั้ง
+        - พูดได้ประมาณ 60 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b1-w09-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 9
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [6, 7, 8, 9], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

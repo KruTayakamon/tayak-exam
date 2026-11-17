@@ -1,0 +1,581 @@
+# คอร์ส b1 · สัปดาห์ 10 · ให้เหตุผลและแสดงความเห็น · relative clauses who which that where whose · although however because of so that in order to
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# หลักการเขียนตัวลวง: who กับ that ใช้แทนกันได้ใน defining clause จึงไม่ให้สองตัวนี้เป็นตัวเลือกคู่กันในข้อเรื่องคน (และ which/that กับสิ่งของ)
+# ---------- วันที่ 1 · ที่ ซึ่ง อัน ----------
+- id: cefr-b1-w10-001
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 1
+  stem: The woman ____ lives next door is a nurse.
+  choices:
+    - {t: who, why: "ขยายคน ใช้ ++who++"}
+    - {t: which, why: "which ใช้กับสิ่งของ ไม่ใช้กับคน"}
+    - {t: where, why: "where ใช้กับสถานที่"}
+    - {t: whose, why: "whose ต้องตามด้วยคำนาม เช่น whose son"}
+  explain: "คน → ==who / that== · สิ่งของ → which / that"
+  status: approved
+- id: cefr-b1-w10-002
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 1
+  stem: This is the phone ____ I bought last week.
+  choices:
+    - {t: which, why: "ขยายสิ่งของ ใช้ ++which++"}
+    - {t: who, why: "who ใช้กับคน ไม่ใช่โทรศัพท์"}
+    - {t: where, why: "where ใช้กับสถานที่"}
+    - {t: what, why: "what ไม่ใช้ขยายคำนามที่อยู่ข้างหน้า"}
+  explain: "ขยายสิ่งของใช้ ==which หรือ that== ห้ามใช้ what"
+  status: approved
+- id: cefr-b1-w10-003
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: That's the restaurant ____ we had our first date.
+  choices:
+    - {t: where, why: "ขยายสถานที่และตามด้วยประโยคครบ ใช้ ++where++"}
+    - {t: which, why: "which ต้องทำหน้าที่ในประโยคตาม แต่ we had our first date ครบแล้ว"}
+    - {t: who, why: "who ใช้กับคน ไม่ใช่ร้านอาหาร"}
+    - {t: whose, why: "whose ต้องตามด้วยคำนาม"}
+  explain: "สถานที่ + ==where + ประโยคครบ== (where = in which)"
+  status: approved
+- id: cefr-b1-w10-004
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: I have a friend ____ father is a famous chef.
+  choices:
+    - {t: whose, why: "พ่อของเพื่อน แสดงความเป็นเจ้าของ ใช้ ++whose++"}
+    - {t: who, why: "who father ผิด ต้องแสดงความเป็นเจ้าของ"}
+    - {t: who's, why: "who's = who is ไม่ใช่ความเป็นเจ้าของ"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+  explain: "whose + ==คำนาม== = ซึ่ง...ของเขา (อย่าสับสนกับ who's)"
+  status: approved
+- id: cefr-b1-w10-005
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: The bus ____ goes to the airport leaves every 20 minutes.
+  choices:
+    - {t: that, why: "ขยายสิ่งของ ใช้ ++that++ ได้"}
+    - {t: who, why: "รถบัสเป็นสิ่งของ ไม่ใช้ who"}
+    - {t: where, why: "where ต้องตามด้วยประโยคครบ แต่ goes ไม่มีประธาน"}
+    - {t: what, why: "what ไม่ใช้ขยายคำนาม"}
+  explain: "that ใช้ได้ทั้ง ==คนและสิ่งของ== ในประโยคขยายแบบระบุ"
+  status: approved
+- id: cefr-b1-w10-006
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: The man who ____ me was very kind.
+  choices:
+    - {t: helped, why: "who เป็นประธานของ helped ++ไม่ต้องมี he ซ้ำ++"}
+    - {t: he helped, why: "who แทน he แล้ว ห้ามใส่ he ซ้ำ"}
+    - {t: helping, why: "หลัง who ต้องมีกริยาแท้"}
+    - {t: help, why: "the man เป็นเอกพจน์และเป็นอดีต ต้องเป็น helped"}
+  explain: "who / which / that ==แทนคำนามแล้ว== ห้ามใส่ he / it ซ้ำ"
+  status: approved
+- id: cefr-b1-w10-007
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: The book I'm reading ____ about a family in Isan.
+  choices:
+    - {t: is, why: "ประธานคือ the book กริยาหลักคือ ++is++"}
+    - {t: it is, why: "the book เป็นประธานแล้ว ไม่ต้องใส่ it ซ้ำ"}
+    - {t: are, why: "the book เป็นเอกพจน์"}
+    - {t: which is, why: "ต้องมีกริยาหลักของประโยค ไม่ใช่ขยายซ้อน"}
+  explain: "ละ which/that ได้เมื่อเป็นกรรม ==The book (that) I'm reading is ...=="
+  status: approved
+- id: cefr-b1-w10-008
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 3
+  stem: Chiang Mai, ____ is in the north, is famous for its temples.
+  choices:
+    - {t: which, why: "ข้อมูลเสริมคั่นด้วยจุลภาค ใช้ ++which++ (ห้ามใช้ that)"}
+    - {t: that, why: "หลังจุลภาคแบบข้อมูลเสริม ห้ามใช้ that"}
+    - {t: where, why: "ตามด้วย is ไม่มีประธาน จึงต้องใช้ which"}
+    - {t: who, why: "เชียงใหม่ไม่ใช่คน"}
+  explain: "ข้อมูลเสริม ==, which ..., == ใช้ that ไม่ได้"
+  status: approved
+- id: cefr-b1-w10-009
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: Is this the hotel ____ you stayed in last year?
+  choices:
+    - {t: which, why: "ท้ายประโยคมี in แล้ว which เป็นกรรมของ in ++ใช้ which++"}
+    - {t: where, why: "มี in อยู่แล้ว ถ้าใช้ where จะซ้ำ (where = in which)"}
+    - {t: who, why: "โรงแรมไม่ใช่คน ใช้ who ไม่ได้"}
+    - {t: whose, why: "whose ต้องตามด้วยคำนาม"}
+  explain: "where ==ไม่ใช้คู่กับ in ท้ายประโยค== (the hotel where you stayed)"
+  status: approved
+- id: cefr-b1-w10-010
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: People ____ work at night need to sleep during the day.
+  choices:
+    - {t: who, why: "ขยายคน ใช้ ++who++"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+    - {t: whose, why: "whose ต้องตามด้วยคำนาม"}
+    - {t: where, why: "where ใช้กับสถานที่"}
+  explain: "people ==who== ... = คนที่..."
+  status: approved
+- id: cefr-b1-w10-011
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 3
+  stem: Which sentence about the app is correct?
+  choices:
+    - {t: "The app which I use most is free.", why: "which ขยาย the app และไม่มี it ซ้ำ ++ถูกต้อง++"}
+    - {t: "The app which I use it most is free.", why: "which เป็นกรรมแล้ว ห้ามมี it ซ้ำ"}
+    - {t: "The app who I use most is free.", why: "แอปไม่ใช่คน ใช้ who ไม่ได้"}
+    - {t: "The app what I use most is free.", why: "what ไม่ใช้ขยายคำนาม"}
+  explain: "ตรวจสองจุด ==คำเชื่อมตรงชนิดคำนาม · ไม่มีคำแทนซ้ำ=="
+  status: approved
+- id: cefr-b1-w10-012
+  kind: type
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  stem: "That's the shop w____ I bought my glasses. (ที่ซึ่ง สถานที่)"
+  answer: where
+  accept: [where]
+  why: "ขยายสถานที่และตามด้วยประโยคครบ ใช้ where"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์ความเห็นและสังคม ----------
+- id: cefr-b1-w10-013
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 1
+  stem: In my ____, the city needs more parks.
+  choices:
+    - {t: opinion, why: "ในความเห็นของฉัน ใช้ ++In my opinion++"}
+    - {t: reason, why: "In my reason ไม่ใช่วลีที่ใช้"}
+    - {t: purpose, why: "In my purpose ไม่มีความหมาย"}
+    - {t: influence, why: "In my influence ไม่ใช่วลีบอกความเห็น"}
+  explain: "==In my opinion,== ... = ในความเห็นของฉัน"
+  status: approved
+- id: cefr-b1-w10-014
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: The main ____ for the delay was the heavy traffic.
+  choices:
+    - {t: reason, why: "เหตุผลของความล่าช้า ใช้ ++reason for++"}
+    - {t: purpose, why: "purpose คือจุดประสงค์ ไม่ใช่สาเหตุ"}
+    - {t: opinion, why: "opinion คือความเห็น"}
+    - {t: tradition, why: "tradition คือประเพณี"}
+  explain: "the reason ==for== + คำนาม / the reason why + ประโยค"
+  status: approved
+- id: cefr-b1-w10-015
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: The ____ of this meeting is to plan next month's event.
+  choices:
+    - {t: purpose, why: "จุดประสงค์ของการประชุม ใช้ ++purpose++"}
+    - {t: reason, why: "reason คือสาเหตุ ประโยคนี้บอกเป้าหมาย"}
+    - {t: culture, why: "culture คือวัฒนธรรม"}
+    - {t: pollution, why: "pollution คือมลพิษ"}
+  explain: "purpose = ==จุดประสงค์ เป้าหมาย== · reason = สาเหตุ"
+  status: approved
+- id: cefr-b1-w10-016
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: Social media has changed modern ____ in many ways.
+  choices:
+    - {t: society, why: "สังคมสมัยใหม่ ใช้ ++society++"}
+    - {t: community, why: "community คือชุมชนกลุ่มหนึ่ง modern society คือวลีที่ใช้"}
+    - {t: tradition, why: "modern tradition ขัดกันเอง"}
+    - {t: environment, why: "social media ไม่ได้เปลี่ยนสิ่งแวดล้อมแบบนี้"}
+  explain: "society = ==สังคมโดยรวม== · community = ชุมชน กลุ่มคน"
+  status: approved
+- id: cefr-b1-w10-017
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: Our village has a strong ____. Everyone helps each other.
+  choices:
+    - {t: community, why: "คนในหมู่บ้านช่วยกัน คือ ++community++ ชุมชน"}
+    - {t: society, why: "society กว้างระดับประเทศ ไม่ใช่หมู่บ้าน"}
+    - {t: pollution, why: "pollution คือมลพิษ"}
+    - {t: purpose, why: "purpose คือจุดประสงค์"}
+  explain: "a strong / local ==community== = ชุมชนที่เหนียวแน่น"
+  status: approved
+- id: cefr-b1-w10-018
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 1
+  stem: Plastic bags are bad for the ____.
+  choices:
+    - {t: environment, why: "ไม่ดีต่อสิ่งแวดล้อม ใช้ ++the environment++"}
+    - {t: community, why: "community ไม่ใช่สิ่งที่ถุงพลาสติกทำลายโดยตรง"}
+    - {t: culture, why: "culture คือวัฒนธรรม"}
+    - {t: opinion, why: "opinion คือความเห็น"}
+  explain: "==the environment== = สิ่งแวดล้อม (มี the)"
+  status: approved
+- id: cefr-b1-w10-019
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: Air ____ in the city is very bad in March.
+  choices:
+    - {t: pollution, why: "มลพิษทางอากาศ ใช้ ++air pollution++"}
+    - {t: environment, why: "air environment ไม่ใช่วลีที่ใช้"}
+    - {t: influence, why: "air influence ไม่มีความหมาย"}
+    - {t: society, why: "air society ไม่มีความหมาย"}
+  explain: "air / water / noise ==pollution=="
+  status: approved
+- id: cefr-b1-w10-020
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: Giving money in red envelopes at Chinese New Year is an old ____.
+  choices:
+    - {t: tradition, why: "สิ่งที่ทำสืบกันมา ใช้ ++tradition++"}
+    - {t: pollution, why: "pollution คือมลพิษ"}
+    - {t: opinion, why: "an old opinion ไม่ใช่ประเพณี"}
+    - {t: purpose, why: "purpose คือจุดประสงค์"}
+  explain: "tradition = ==ประเพณี== · traditional (adj.)"
+  status: approved
+- id: cefr-b1-w10-021
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: Learning a language also helps you understand a new ____.
+  choices:
+    - {t: culture, why: "เข้าใจวัฒนธรรมใหม่ ใช้ ++culture++"}
+    - {t: pollution, why: "pollution ไม่เกี่ยวกับการเรียนภาษา"}
+    - {t: reason, why: "a new reason ไม่เข้ากับบริบท"}
+    - {t: environment, why: "environment เน้นธรรมชาติ ไม่ใช่วิถีชีวิตคน"}
+  explain: "culture = ==วัฒนธรรม วิถีชีวิต ความคิด== ของคนกลุ่มหนึ่ง"
+  status: approved
+- id: cefr-b1-w10-022
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: Parents have a big ____ on their children's habits.
+  choices:
+    - {t: influence, why: "มีอิทธิพลต่อ ใช้ ++influence on++"}
+    - {t: opinion, why: "opinion on แปลว่าความเห็นเกี่ยวกับ ไม่ใช่อิทธิพล"}
+    - {t: purpose, why: "purpose on ไม่ใช่วลีที่ใช้"}
+    - {t: tradition, why: "tradition on ไม่ใช่วลีที่ใช้"}
+  explain: "have an ==influence on== ... = มีอิทธิพลต่อ"
+  status: approved
+- id: cefr-b1-w10-023
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: I love Thai food, ____ green curry.
+  choices:
+    - {t: especially, why: "ชอบโดยเฉพาะ ใช้ ++especially++"}
+    - {t: although, why: "although ต้องตามด้วยประโยค และแปลว่าแม้ว่า"}
+    - {t: however, why: "however ใช้ขึ้นประโยคใหม่ ไม่ใช่ยกตัวอย่าง"}
+    - {t: because, why: "because ต้องตามด้วยประโยคเหตุผล"}
+  explain: "especially = ==โดยเฉพาะ== ยกสิ่งที่เด่นที่สุดขึ้นมา"
+  status: approved
+- id: cefr-b1-w10-024
+  kind: type
+  skill: vo
+  topic: opinion-society
+  level: 2
+  stem: "A______ it was raining, we went to the market. (แม้ว่า)"
+  answer: although
+  accept: [although, Although]
+  why: "although + ประโยค = แม้ว่า ใช้ขึ้นต้นประโยคได้"
+  status: approved
+# ---------- วันที่ 3 · เชื่อมเหตุผลและความขัดแย้ง ----------
+- id: cefr-b1-w10-025
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 1
+  stem: ____ he was tired, he finished the report.
+  choices:
+    - {t: Although, why: "เหนื่อยแต่ทำเสร็จ ขัดกัน ใช้ ++Although + ประโยค++"}
+    - {t: Because, why: "because ทำให้ความหมายเป็นเหตุผล ซึ่งไม่สมเหตุสมผล"}
+    - {t: However, why: "However ไม่เชื่อมสองส่วนในประโยคเดียวด้วยจุลภาค"}
+    - {t: So, why: "So ขึ้นต้นแบบนี้ไม่เชื่อมความขัดแย้ง"}
+  explain: "although = ==แม้ว่า== ตามด้วยประโยค"
+  status: approved
+- id: cefr-b1-w10-026
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: The hotel was expensive. ____, the service was excellent.
+  choices:
+    - {t: However, why: "ขึ้นประโยคใหม่ที่ขัดกับประโยคก่อน ใช้ ++However,++"}
+    - {t: Although, why: "Although ต้องเชื่อมสองส่วนในประโยคเดียว ไม่ยืนเดี่ยวตามด้วยจุลภาค"}
+    - {t: Because, why: "because ไม่ได้บอกความขัดแย้ง"}
+    - {t: But of, why: "But of ไม่ใช่คำเชื่อม"}
+  explain: "==However,== ขึ้นต้นประโยคใหม่ ตามด้วยจุลภาค"
+  status: approved
+- id: cefr-b1-w10-027
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: The flight was delayed ____ the storm.
+  choices:
+    - {t: because of, why: "ตามด้วยคำนาม the storm ใช้ ++because of++"}
+    - {t: because, why: "because ต้องตามด้วยประโยคเต็ม"}
+    - {t: although, why: "although ไม่ได้บอกเหตุผล"}
+    - {t: so that, why: "so that บอกจุดประสงค์ ไม่ใช่สาเหตุ"}
+  explain: "because + ประโยค · ==because of + คำนาม=="
+  status: approved
+- id: cefr-b1-w10-028
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: I left early ____ I could catch the last train.
+  choices:
+    - {t: so that, why: "บอกจุดประสงค์ + ประโยคที่มี could ใช้ ++so that++"}
+    - {t: in order to, why: "in order to ตามด้วยกริยา ไม่ใช่ I could"}
+    - {t: because of, why: "because of ตามด้วยคำนาม"}
+    - {t: although, why: "although บอกความขัดแย้ง ไม่ใช่จุดประสงค์"}
+  explain: "so that + ==ประโยค== (มัก can / could) = เพื่อที่จะ"
+  status: approved
+- id: cefr-b1-w10-029
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: She studies every evening in order ____ a better job.
+  choices:
+    - {t: to get, why: "in order ++to + กริยา++ บอกจุดประสงค์"}
+    - {t: for getting, why: "in order ไม่ตามด้วย for"}
+    - {t: that get, why: "in order that ต้องตามด้วยประโยคที่มีประธาน"}
+    - {t: getting, why: "in order ต้องตามด้วย to"}
+  explain: "in order to / ==to== + กริยารูปเดิม = เพื่อ"
+  status: approved
+- id: cefr-b1-w10-030
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: ____ the bad weather, the festival was a great success.
+  choices:
+    - {t: Despite, why: "ตามด้วยคำนาม และบอกความขัดแย้ง ใช้ ++Despite++"}
+    - {t: Although, why: "although ต้องตามด้วยประโยค ไม่ใช่คำนาม"}
+    - {t: Because of, why: "because of ทำให้ความหมายเป็นว่าอากาศไม่ดีทำให้งานสำเร็จ"}
+    - {t: However, why: "However ไม่ตามด้วยคำนามแบบนี้"}
+  explain: "although + ประโยค · ==despite + คำนาม=="
+  status: approved
+- id: cefr-b1-w10-031
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 3
+  stem: Which sentence links the ideas correctly?
+  choices:
+    - {t: "Although the room was small, it was very clean.", why: "although + ประโยค แล้วจุลภาค ++ถูกต้อง++"}
+    - {t: "Although the room was small, but it was very clean.", why: "although กับ but ใช้ซ้อนกันไม่ได้"}
+    - {t: "Despite the room was small, it was very clean.", why: "despite ตามด้วยคำนาม ไม่ใช่ประโยค"}
+    - {t: "However the room was small, it was very clean.", why: "However ใช้เชื่อมแบบนี้ไม่ได้"}
+  explain: "คนไทยชอบใส่ ==although ... but== ซ้อน ห้ามเด็ดขาด"
+  status: approved
+- id: cefr-b1-w10-032
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: I went to the pharmacy ____ some medicine.
+  choices:
+    - {t: to buy, why: "บอกจุดประสงค์ ใช้ ++to + กริยา++"}
+    - {t: for buy, why: "for ไม่ตามด้วยกริยารูปเดิม"}
+    - {t: for buying, why: "for + -ing ไม่ใช้บอกจุดประสงค์ของคนแบบนี้"}
+    - {t: so that buy, why: "so that ต้องตามด้วยประโยค"}
+  explain: "ไปทำอะไร ใช้ ==to + กริยา== ไม่ใช่ for + กริยา"
+  status: approved
+- id: cefr-b1-w10-033
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  stem: We stayed inside ____ it was too hot.
+  choices:
+    - {t: because, why: "ตามด้วยประโยคเหตุผล ใช้ ++because++"}
+    - {t: because of, why: "because of ต้องตามด้วยคำนาม"}
+    - {t: despite, why: "despite บอกความขัดแย้งและตามด้วยคำนาม"}
+    - {t: in order to, why: "in order to ตามด้วยกริยา ไม่ใช่ประโยค"}
+  explain: "ดูคำที่ตามมา ==มีประธาน+กริยา ใช้ because=="
+  status: approved
+- id: cefr-b1-w10-034
+  kind: cloze
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  text: |
+    I think every office should have a quiet room. (1) ____ some people say it is a waste of space, I disagree. Workers need a place (2) ____ they can rest for ten minutes. It also helps them focus (3) ____ the noise in open offices.
+  questions:
+    - choices:
+        - {t: Although, why: "ตามด้วยประโยค และขัดกับ I disagree"}
+        - {t: Despite, why: "despite ตามด้วยคำนาม"}
+        - {t: However, why: "However ไม่เชื่อมสองส่วนในประโยคเดียว"}
+        - {t: Because of, why: "because of ตามด้วยคำนาม และความหมายไม่ขัดกัน"}
+    - choices:
+        - {t: where, why: "ขยายสถานที่ a place และตามด้วยประโยคครบ"}
+        - {t: which, why: "they can rest ครบแล้ว ใช้ which ไม่ได้"}
+        - {t: who, why: "a place ไม่ใช่คน"}
+        - {t: whose, why: "whose ต้องตามด้วยคำนาม"}
+    - choices:
+        - {t: despite, why: "ตามด้วยคำนาม the noise และขัดกัน"}
+        - {t: although, why: "although ต้องตามด้วยประโยค"}
+        - {t: so that, why: "so that ต้องตามด้วยประโยค"}
+        - {t: in order to, why: "in order to ต้องตามด้วยกริยา"}
+  status: approved
+# ---------- วันที่ 4 · อ่านความเห็นและฟังการเห็นด้วยไม่เห็นด้วย ----------
+- id: cefr-b1-w10-035
+  kind: read
+  skill: rd
+  topic: three-opinions
+  level: 2
+  title: "Should shops stop giving free plastic bags?"
+  passage: |
+    Mali (42, shop owner): I agree with the idea, although it was difficult at first. Some customers complained, especially older people who always use bags for their rubbish. However, after two months most of them started bringing their own bags.
+
+    Ken (29, office worker): In my opinion, it's a good start, but it isn't enough. The main reason for plastic pollution is food packaging, not shopping bags. Companies should change their packaging so that we produce less waste.
+
+    Wan (55, teacher): I'm not sure. I understand the purpose, but I think the government should give people free cloth bags first. Not everyone can afford to buy them, and it would have more influence if everyone joined in.
+  questions:
+    - stem: How did Mali's customers react after two months?
+      choices:
+        - {t: most brought their own bags, why: "after two months most of them started bringing their own bags"}
+        - {t: they stopped shopping there, why: "ไม่ได้บอกว่าเลิกมาซื้อ"}
+        - {t: they still complained, why: "ช่วงแรกเท่านั้นที่บ่น"}
+        - {t: they paid for plastic bags, why: "ไม่ได้พูดเรื่องจ่ายเงินซื้อถุง"}
+    - stem: What does Ken think is the main cause of plastic pollution?
+      choices:
+        - {t: food packaging, why: "The main reason ... is food packaging"}
+        - {t: shopping bags, why: "เขาบอกว่า not shopping bags"}
+        - {t: older people, why: "เป็นเรื่องที่มะลิพูดถึงลูกค้า"}
+        - {t: the government, why: "รัฐบาลเป็นความเห็นของวรรณ"}
+    - stem: What does Wan suggest?
+      choices:
+        - {t: free cloth bags from the government, why: "the government should give people free cloth bags first"}
+        - {t: keeping free plastic bags, why: "เธอเข้าใจจุดประสงค์ แค่อยากให้แจกถุงผ้าก่อน"}
+        - {t: changing food packaging, why: "เป็นข้อเสนอของเคน"}
+        - {t: closing small shops, why: "ไม่มีใครเสนอเรื่องนี้"}
+    - stem: Who fully supports the idea?
+      choices:
+        - {t: Mali, why: "Mali บอกว่า I agree with the idea"}
+        - {t: Ken, why: "เคนว่าเป็นจุดเริ่มต้นที่ดีแต่ยังไม่พอ"}
+        - {t: Wan, why: "วรรณบอกว่า I'm not sure"}
+        - {t: nobody, why: "มะลิเห็นด้วยกับแนวคิดนี้"}
+  status: approved
+- id: cefr-b1-w10-036
+  kind: listen
+  skill: li
+  topic: agree-disagree
+  level: 2
+  script:
+    - {who: Man, en: "I think people should work four days a week."}
+    - {who: Woman, en: "I'm not sure about that. Although it sounds nice, many small businesses couldn't afford it."}
+  questions:
+    - stem: How does the woman feel about the idea?
+      choices:
+        - {t: she has doubts, why: "เธอบอกว่า I'm not sure และให้เหตุผลเรื่องธุรกิจเล็ก"}
+        - {t: she agrees completely, why: "เธอไม่แน่ใจ ไม่ได้เห็นด้วยทั้งหมด"}
+        - {t: she doesn't understand it, why: "เธอเข้าใจและให้เหตุผลได้"}
+        - {t: she wants five days off, why: "ไม่ได้พูดแบบนั้น"}
+  status: approved
+- id: cefr-b1-w10-037
+  kind: listen
+  skill: li
+  topic: agree-disagree
+  level: 2
+  script:
+    - {who: Woman, en: "Tourists should learn a few words of Thai before they visit."}
+    - {who: Man, en: "Absolutely. It shows respect for the culture, and people are much friendlier when you try."}
+  questions:
+    - stem: Does the man agree?
+      choices:
+        - {t: "yes, completely", why: "Absolutely แปลว่าเห็นด้วยเต็มที่"}
+        - {t: "no, not at all", why: "Absolutely ไม่ใช่การปฏิเสธ"}
+        - {t: only partly, why: "เขาไม่ได้มีข้อแย้ง"}
+        - {t: he doesn't say, why: "เขาตอบชัดว่า Absolutely"}
+  status: approved
+- id: cefr-b1-w10-038
+  kind: listen
+  skill: li
+  topic: giving-opinions
+  level: 2
+  script:
+    - {who: Man, en: "What do you think about the new shopping mall?"}
+    - {who: Woman, en: "It's convenient, but I'm worried about the traffic. The road near my house is much busier because of it."}
+  questions:
+    - stem: What is the woman worried about?
+      choices:
+        - {t: more traffic, why: "I'm worried about the traffic"}
+        - {t: high prices, why: "ไม่ได้พูดเรื่องราคา"}
+        - {t: too few shops, why: "ไม่ได้พูดเรื่องจำนวนร้าน"}
+        - {t: her new house, why: "เธอพูดถึงถนนใกล้บ้าน ไม่ได้กังวลเรื่องบ้าน"}
+  status: approved
+- id: cefr-b1-w10-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The teacher, who helped me, most, was Ms Nid]
+  sentence: The teacher who helped me most was Ms Nid.
+  th: ครูที่ช่วยฉันมากที่สุดคือคุณครูนิด
+  why: "who helped me most ขยาย the teacher แล้วจึงมีกริยาหลัก was"
+  status: approved
+- id: cefr-b1-w10-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Although, it was raining, the market, was full of people]
+  sentence: Although it was raining, the market was full of people.
+  th: แม้ฝนจะตก ตลาดก็ยังเต็มไปด้วยผู้คน
+  why: "Although + ประโยค แล้วจึงเป็นประโยคหลัก ไม่ต้องมี but"
+  status: approved
+- id: cefr-b1-w10-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I save, a little money, every month, so that, I can travel]
+  sentence: I save a little money every month so that I can travel.
+  th: ฉันเก็บเงินทีละนิดทุกเดือนเพื่อจะได้เที่ยว
+  why: "so that + ประโยคที่มี can บอกจุดประสงค์"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b1-w10-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [In my opinion, people who live in cities, should use, public transport more]
+  sentence: In my opinion, people who live in cities should use public transport more.
+  th: ในความเห็นของฉัน คนที่อาศัยในเมืองควรใช้ขนส่งสาธารณะมากขึ้น
+  why: "ขึ้นด้วย In my opinion แล้วประธานที่มี who ขยาย ตามด้วย should"
+  status: approved

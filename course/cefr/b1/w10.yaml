@@ -1,0 +1,171 @@
+# คอร์ส b1 · สัปดาห์ 10 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 10
+phase: 3
+theme_th: ให้เหตุผลและแสดงความเห็น
+focus_th: relative clauses who which that where whose · although however despite · because / because of · so that · in order to
+can_do_th:
+  - แสดงความเห็นพร้อมเหตุผลและตัวอย่างได้
+  - จับได้ว่าผู้พูดเห็นด้วยหรือไม่เห็นด้วย
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ที่ ซึ่ง อัน
+    lesson:
+      rule_th: "คำว่า ที่ ในภาษาไทยมีหลายตัวในอังกฤษ ==คน who · ของ which · ที่ where== ส่วน ++whose = ซึ่ง...ของเขา++ และ that ใช้ได้ทั้งคนและสิ่งของ"
+      examples:
+        - {en: "The woman <k>who</k> lives next door is a nurse.", th: "คน → who"}
+        - {en: "This is the phone <k>which</k> I bought.", th: "สิ่งของ → which"}
+        - {en: "That's the restaurant <k>where</k> we met.", th: "สถานที่ → where"}
+        - {en: "I have a friend <k>whose</k> father is a chef.", th: "==whose + คำนาม=="}
+      signals:
+        - {label_th: "เลือกคำเชื่อม", words: ["คน → who", "สิ่งของ → which", "สถานที่ → where", "ของ → whose"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า คนที่เขาช่วยฉัน ได้ คนเลยเขียน ~~who he helped~~ ซ้ำประธาน หรือใช้ ~~what~~ แทน which"
+        wrong: ["The man who he helped me was kind.", "The bag what I bought is red."]
+        right: ["The man who helped me was kind.", "The bag which I bought is red."]
+      notes:
+        - {kind: tip, th: "who / which ==แทนคำนามไปแล้ว== ห้ามใส่ he / it ซ้ำ"}
+        - {kind: warn, th: "หลังจุลภาคแบบข้อมูลเสริมห้ามใช้ that ใช้ which หรือ who"}
+    check: [cefr-b1-w10-001, cefr-b1-w10-002]
+    practice: [cefr-b1-w10-003, cefr-b1-w10-004, cefr-b1-w10-005, cefr-b1-w10-006, cefr-b1-w10-007, cefr-b1-w10-008, cefr-b1-w10-009, cefr-b1-w10-010, cefr-b1-w10-011, cefr-b1-w10-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำคนและสถานที่ที่สำคัญกับคุณ
+      frame: "____ is the person who ____. ____ is the place where ____."
+      model: "My aunt is the person who taught me to cook. Hua Hin is the place where I spend every New Year."
+    classroom: {en: "Who's the person who made this?", th: "ใครคือคนที่ทำสิ่งนี้"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ความเห็นและสังคม 12 คำ
+    lesson:
+      rule_th: "แยกคู่ที่ใกล้กัน ==reason (สาเหตุ) กับ purpose (จุดประสงค์)== และ ++society กับ community++ (สังคมใหญ่ กับ ชุมชน)"
+      examples:
+        - {en: "<k>In my opinion</k>, we need more parks.", th: "เปิดความเห็น"}
+        - {en: "The <k>reason for</k> the delay was traffic.", th: "สาเหตุ"}
+        - {en: "The <k>purpose</k> of the meeting is to plan.", th: "==จุดประสงค์=="}
+        - {en: "I love Thai food, <k>especially</k> curry.", th: "โดยเฉพาะ"}
+      words:
+        - {w: although, pos: conj., th: แม้ว่า, ex: "Although it was late, she called me."}
+        - {w: opinion, pos: n., th: ความเห็น, ex: "What's your opinion of the new law?"}
+        - {w: reason, pos: n., th: เหตุผล สาเหตุ, ex: "Give me one reason to stay."}
+        - {w: purpose, pos: n., th: จุดประสงค์, ex: "What is the purpose of your visit?"}
+        - {w: society, pos: n., th: สังคม, ex: "Technology changes society quickly."}
+        - {w: community, pos: n., th: ชุมชน, ex: "The community built a new library."}
+        - {w: environment, pos: n., th: สิ่งแวดล้อม, ex: "We must protect the environment."}
+        - {w: pollution, pos: n., th: มลพิษ, ex: "Noise pollution is a problem here."}
+        - {w: tradition, pos: n., th: ประเพณี, ex: "Songkran is a Thai tradition."}
+        - {w: culture, pos: n., th: วัฒนธรรม, ex: "I'm interested in Japanese culture."}
+        - {w: influence, pos: n./v., th: อิทธิพล มีอิทธิพลต่อ, ex: "Friends influence our choices."}
+        - {w: especially, pos: adv., th: โดยเฉพาะ, ex: "It's hot here, especially in April."}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ตามความเห็นของฉัน คนเลยเขียน ~~According to me~~ หรือ ~~In my opinion I think~~ ซ้ำซ้อน"
+        wrong: ["According to me, it's a good idea.", "In my opinion, I think it's a good idea."]
+        right: ["In my opinion, it's a good idea.", "I think it's a good idea."]
+      notes:
+        - {kind: pin, th: "==In my opinion== กับ I think ใช้อย่างใดอย่างหนึ่ง ไม่ซ้อนกัน"}
+        - {kind: use, th: "อยากเน้นตัวอย่างที่เด่นสุด ใช้ especially ต่อท้ายได้เลย"}
+    check: [cefr-b1-w10-013, cefr-b1-w10-018]
+    practice: [cefr-b1-w10-014, cefr-b1-w10-015, cefr-b1-w10-016, cefr-b1-w10-017, cefr-b1-w10-019, cefr-b1-w10-020, cefr-b1-w10-021, cefr-b1-w10-022, cefr-b1-w10-023, cefr-b1-w10-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกความเห็นเรื่องปัญหาในชุมชนของคุณ พร้อมเหตุผล
+      frame: "In my opinion, the biggest problem in my community is ____. The main reason is ____."
+      model: "In my opinion, the biggest problem in my community is rubbish. The main reason is that there aren't enough bins, especially near the market."
+    classroom: {en: "What's your opinion?", th: "คุณคิดเห็นอย่างไร"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เชื่อมเหตุผลและความขัดแย้ง
+    lesson:
+      rule_th: "เลือกคำเชื่อมจาก ==สิ่งที่ตามมาเป็นประโยคหรือคำนาม== เช่น ++because + ประโยค แต่ because of + คำนาม++ และ although กับ but ห้ามใช้ซ้อนกัน"
+      examples:
+        - {en: "<k>Although</k> he was tired, he finished.", th: "although + ประโยค"}
+        - {en: "The hotel was expensive. <k>However</k>, it was clean.", th: "However ขึ้นประโยคใหม่"}
+        - {en: "The flight was late <k>because of</k> the storm.", th: "==because of + คำนาม=="}
+        - {en: "I left early <k>so that</k> I could catch the train.", th: "so that + ประโยค"}
+      signals:
+        - {label_th: "ขัดแย้ง", words: [although, however, despite, but]}
+        - {label_th: "เหตุผลและจุดประสงค์", words: [because, because of, so that, in order to]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า แม้ว่า...แต่... คนเลยเขียน ~~Although ... but ...~~ ซึ่งผิดในภาษาอังกฤษ"
+        wrong: ["Although it was raining, but we went out.", "I went to the shop for buy milk."]
+        right: ["Although it was raining, we went out.", "I went to the shop to buy milk."]
+      notes:
+        - {kind: tip, th: "==มีประธาน+กริยา== ใช้ although / because · ไม่มีใช้ despite / because of"}
+        - {kind: warn, th: "ไปทำอะไร ใช้ to + กริยา ไม่ใช่ for + กริยา"}
+    check: [cefr-b1-w10-025, cefr-b1-w10-027]
+    practice: [cefr-b1-w10-026, cefr-b1-w10-028, cefr-b1-w10-029, cefr-b1-w10-030, cefr-b1-w10-031, cefr-b1-w10-032, cefr-b1-w10-033, cefr-b1-w10-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเรื่องการเดินทางไปทำงานของคุณ ใช้ although และ so that อย่างละครั้ง
+      frame: "Although ____, I ____. I leave home at ____ so that I can ____."
+      model: "Although the train is crowded, I take it every day. I leave home at seven so that I can get a seat."
+    classroom: {en: "I see your point. However, ...", th: "เข้าใจที่พูดนะ แต่ว่า..."}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านความเห็นสามคน และฟังการเห็นด้วยไม่เห็นด้วย
+    lesson:
+      rule_th: "อ่านความเห็นหลายคนให้หา ==ท่าทีของแต่ละคน== (เห็นด้วย ไม่เห็นด้วย ไม่แน่ใจ) แล้วดู ++ข้อเสนอหลัง should++ เพราะคำถามมักถามว่าใครเสนออะไร"
+      examples:
+        - {en: "<k>I agree</k> with the idea, although ...", th: "เห็นด้วย"}
+        - {en: "It's a good start, <k>but it isn't enough</k>.", th: "เห็นด้วยบางส่วน"}
+        - {en: "<k>I'm not sure.</k>", th: "==ไม่แน่ใจ ลังเล=="}
+      thai_trap:
+        intro_th: "ประโยคที่ขึ้นด้วยคำชม คนมักคิดว่า ~~ผู้พูดเห็นด้วยทั้งหมด~~ ทั้งที่หลัง but คือข้อแย้ง"
+        wrong: ["เห็น good start แล้วตอบว่าเคนสนับสนุนเต็มที่"]
+        right: ["เคนเห็นด้วยบางส่วน เพราะหลัง but บอกว่ายังไม่พอ"]
+      notes:
+        - {kind: tip, th: "ทำตาราง ==ชื่อ / ท่าที / ข้อเสนอ== ระหว่างอ่าน"}
+        - {kind: warn, th: "Absolutely แปลว่าเห็นด้วยเต็มที่ ส่วน I'm not sure แปลว่าลังเล"}
+    check: [cefr-b1-w10-036, cefr-b1-w10-037]
+    practice: [cefr-b1-w10-035, cefr-b1-w10-038, cefr-b1-w10-039, cefr-b1-w10-040, cefr-b1-w10-041]
+    use:
+      prompt_th: เขียน 2 ประโยคตอบว่าเห็นด้วยไหมกับการทำงานสัปดาห์ละ 4 วัน
+      frame: "I agree / I'm not sure / I disagree, because ____. However, ____."
+      model: "I agree, because people would have more time for their families. However, some small companies might not be able to afford it."
+    classroom: {en: "I partly agree with you.", th: "เห็นด้วยกับคุณบางส่วน"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน แสดงความเห็นพร้อมเหตุผล 80 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนประมาณ 80 คำตอบคำถาม เมืองของคุณควรห้ามรถยนต์เข้าย่านใจกลางเมืองในวันอาทิตย์ไหม บอกความเห็น เหตุผล 2 ข้อพร้อมตัวอย่าง และยอมรับข้อแย้ง 1 ข้อ (เขียนเสร็จแล้วลองพูดให้ได้ประมาณ 60 วินาที)
+      frame:
+        - "In my opinion, ____."
+        - "The main reason is that ____."
+        - "Also, ____, especially ____."
+        - "Although some people say ____, I think ____."
+        - "So, ____."
+      model_pass: "In my opinion, cars should not be allowed in the city centre on Sundays. The main reason is that the air would be cleaner. Also, families could walk and cycle safely, especially children. Although some people say shops would lose customers, I think more people would come to walk around. So, I would like to try it for one month."
+      model_good: "In my opinion, closing the city centre to cars on Sundays would be a smart move. The main reason is that air pollution in our city is serious, and even one car-free day each week would help people who suffer from breathing problems. Also, it would turn the streets into a place where families can walk, cycle and meet, especially children who rarely play outside. Although some shop owners worry about losing customers, cities that have tried this often see more visitors, not fewer. So, I believe we should test it for three months."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - ตัดสินใจว่าเห็นด้วยหรือไม่ แล้วหาเหตุผล 2 ข้อ เติมโครง 5 ส่วน
+        - เขียนลงช่อง แล้วนับคำให้ได้ประมาณ 70–90 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านออกเสียงสิ่งที่เขียน 1 รอบ แล้วเขียนอีกรอบโดยไม่ดูโครง
+      checklist_th:
+        - บอกความเห็นชัดในประโยคแรก
+        - มีเหตุผลอย่างน้อย 2 ข้อ และตัวอย่าง 1 ข้อ
+        - ใช้ although หรือ however ยอมรับข้อแย้ง (ไม่ซ้อน although กับ but)
+        - ใช้ who / which / where อย่างน้อย 1 ครั้ง
+    practice: [cefr-b1-w10-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 10
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [7, 8, 9, 10], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
