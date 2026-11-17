@@ -26,10 +26,24 @@ ok(course['weeks'][0]['week'] == 1 and len(course['weeks'][0]['sessions']) == 6,
 # dist/ ต้องไม่มีเฉลยหรือเหตุผล (เมื่อมี dist แล้ว)
 leak = []
 for d, _, fs in os.walk(os.path.join(ROOT, 'dist')):
+    if os.sep + os.path.join('dist', 'p') in d + os.sep or d.endswith(os.path.join('dist', 'p')): continue   # หน้าโพสต์เพจเป็นของสาธารณะ ตรวจแยกด้านล่าง
     for f in fs:
         if f.endswith(('.json', '.js', '.html')):
             s = open(os.path.join(d, f), encoding='utf-8', errors='ignore').read()
             if re.search(r'cefr-[a-z0-9]+-(w\d{2}|cp[abc]|pl)-\d{3}', s) or 'DEMO_DATA=' in s or f == 'demo_data.js' or '"choices"' in s: leak.append(f)
 ok(not leak, f'dist/ ไม่มีเฉลยหรือเหตุผลรั่ว {leak}')
+# หน้าโพสต์ใน dist/p/: เฉพาะโพสต์ที่อนุมัติแล้ว และไม่มีข้อจากคลังที่ขาย
+bad = []
+for d, _, fs in os.walk(os.path.join(ROOT, 'dist', 'p')):
+    for f in fs:
+        if not f.endswith('.html'): continue
+        s = open(os.path.join(d, f), encoding='utf-8').read()
+        m = re.search(r'<script type="application/json" id="post-data">(.*?)</script>', s, re.S)
+        pid = json.loads(m.group(1).replace('<\\/', '</'))['id'] if m else '?'
+        if re.search(r'cefr-[a-z0-9]+-(w\d{2}|cp[abc]|pl)-\d{3}', s): bad.append(pid + ' มีรหัสข้อจากคลังที่ขาย')
+        src = os.path.join(ROOT, 'build', 'posts.json')
+        st = {p['id']: p['status'] for p in json.load(open(src, encoding='utf-8'))['posts']} if os.path.exists(src) else {}
+        if st.get(pid) != 'approved': bad.append(pid + ' ยังไม่อนุมัติแต่อยู่ในเว็บจริง')
+ok(not bad, f'dist/p/ มีเฉพาะโพสต์ที่อนุมัติแล้ว {bad}')
 print('ALL PASS' if not fails else f'{len(fails)} FAILED')
 sys.exit(1 if fails else 0)

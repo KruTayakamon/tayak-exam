@@ -1,5 +1,6 @@
 // ชุดตรวจข้ามแบบไม่เห็นเฉลย (docs/writing/qa.md ด่านที่ 3) · รันหลัง python3 bank/build.py
 //   node tools/blind_set.mjs b1 1                → build/blind_b1_w01.json (ไม่มีเฉลย ไม่มีเหตุผล) ส่งให้ผู้ตรวจ
+//   node tools/blind_set.mjs pl 0                → แบบวัดระดับ
 //   node tools/blind_set.mjs b1 1 answers.json   → เทียบคำตอบของผู้ตรวจกับเฉลย พิมพ์ข้อที่ต่าง (exit 1 ถ้ามี)
 // รูปแบบคำตอบ: { "<รหัสข้อ>": [คำตอบของคำถามย่อยแต่ละข้อ] } · ข้อเลือกตอบใช้เลข 1–4 ตามลำดับที่เห็น ·
 // ข้อพิมพ์ใช้ข้อความ · ข้อเรียงใช้รายการชิ้นตามลำดับ · ตอบไม่ได้ให้ใส่ null และเขียนเหตุผลใน "_notes": {"<รหัสข้อ>": "..."}
@@ -8,7 +9,7 @@ import { grade, pointsOf, strip } from '../engine/grade.mjs';
 const [course, wk, ansPath] = process.argv.slice(2);
 if (!course || !wk) { console.log('ใช้: node tools/blind_set.mjs <คอร์ส> <สัปดาห์> [answers.json]'); process.exit(2); }
 const root = new URL('..', import.meta.url).pathname;
-const prefix = `cefr-${course}-w${String(wk).padStart(2, '0')}-`;
+const prefix = course === 'pl' ? 'cefr-pl-' : `cefr-${course}-w${String(wk).padStart(2, '0')}-`;   // แบบวัดระดับ: node tools/blind_set.mjs pl 0
 const items = JSON.parse(readFileSync(root + 'build/items.json', 'utf8')).filter((i) => i.id.startsWith(prefix));
 if (!items.length) { console.log('ไม่พบข้อของ ' + prefix + ' (รัน python3 bank/build.py ก่อน)'); process.exit(2); }
 const out = `${root}build/blind_${course}_w${String(wk).padStart(2, '0')}.json`;

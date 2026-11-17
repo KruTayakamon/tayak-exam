@@ -43,7 +43,7 @@ def check_voice(where, text, allow_hl=True, max_hl=2, stiff=True):
         if len(m) > 40: err(where, f'ไฮไลต์ยาวเกิน 40 ตัวอักษร: {m[:30]}...')
     if stiff and allow_hl:
         for w in STIFF:
-            if w in text: warn(where, f'คำว่า "{w}" ทำให้เสียงเป็นทางการ ลองเขียนแบบเพื่อนเล่าให้เพื่อนฟัง'); break
+            if re.search(r'(?<!เ)' + re.escape(w), text): warn(where, f'คำว่า "{w}" ทำให้เสียงเป็นทางการ ลองเขียนแบบเพื่อนเล่าให้เพื่อนฟัง'); break
 
 def check_choices(where, choices, stats):
     """ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · 4 ตัวเลือก · ทุกตัวมี why"""
@@ -113,7 +113,7 @@ def check_item(path, it, seen, stats):
         for j, q in enumerate(qs):
             if k != 'cloze' and not q.get('stem'): err(where, f'คำถามที่ {j+1} ขาด stem')
             check_choices(f'{where} q{j+1}', q.get('choices'), stats)
-    if k != 'order' and not it.get('explain') and k in ('mcq',): warn(where, 'ไม่มี explain (สรุปหลักที่ควรจำ)')
+    if k != 'order' and not it.get('explain') and k in ('mcq',) and not it.get('band'): warn(where, 'ไม่มี explain (สรุปหลักที่ควรจำ)')
 
 def points(it):
     return len(it['questions']) if it.get('kind') in ('cloze', 'read', 'listen') else 1

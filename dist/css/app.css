@@ -115,7 +115,7 @@ h2.rule{font-weight:500;line-height:1.7}
 .sticky.r{transform:rotate(.9deg);align-self:flex-end}
 .sticky p{margin:0}
 .sticky::before{content:"";position:absolute;top:-8px;left:50%;width:64px;height:16px;margin-left:-32px;background:var(--tape);opacity:.75;transform:rotate(-2deg);border-radius:2px}
-.stk{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 8px;border-radius:999px;margin-bottom:4px;background:var(--note-ink);color:var(--note)}
+.stk{display:inline-block;align-self:flex-start;font-size:.72rem;font-weight:700;padding:1px 8px;border-radius:999px;margin-bottom:4px;background:var(--note-ink);color:var(--note)}
 .sticky.k-warn .stk{background:var(--bad);color:var(--card)} .sticky.k-tip .stk{background:var(--accent);color:var(--accent-ink)} .sticky.k-use .stk{background:var(--ink);color:var(--paper)}
 @media (prefers-reduced-motion:reduce){.sticky,.sticky.r{transform:none}}
 

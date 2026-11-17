@@ -4,9 +4,17 @@
 ข้อแสดงตามลำดับในไฟล์ต้นทาง: ตัวเลือกแรกคือข้อถูก (หน้าเว็บจริงจะสลับและแสดงเป็น 1 2 3 4)"""
 import os, sys, re, html, yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-course, week = sys.argv[1], int(sys.argv[2])
-W = yaml.safe_load(open(f'{ROOT}/course/cefr/{course}/w{week:02d}.yaml', encoding='utf-8'))
-items = {i['id']: i for i in yaml.safe_load(open(f'{ROOT}/bank/cefr/{course}/w{week:02d}.yaml', encoding='utf-8'))}
+course, week = sys.argv[1], int(sys.argv[2])          # แบบวัดระดับ: python3 review/make_review.py pl 0
+PL = course == 'pl'
+if PL:
+    _pl = yaml.safe_load(open(f'{ROOT}/bank/cefr/placement.yaml', encoding='utf-8'))
+    items = {i['id']: i for i in _pl}
+    W = {'theme_th': 'แบบวัดระดับฟรี 25 ข้อ', 'focus_th': 'ไล่ระดับ A2 → B1 → B2 → C1 · ผู้ทำไม่เห็นเฉลยหรือเหตุผล เห็นแค่ผลรวมรายระดับและรายทักษะ · ตรวจข้ามแบบไม่เห็นเฉลยแล้ว 17 พ.ย. (แก้ 4 ข้อตามผล)',
+         'can_do_th': ['ได้ช่วงระดับโดยประมาณและคอร์สที่แนะนำ (ไม่ใช่การรับรองระดับ)'],
+         'sessions': [{'day': b.upper(), 'title_th': f'ระดับ {b.upper()}', 'minutes': '', 'skill': ', '.join(sorted({i['skill'] for i in _pl if i['band'] == b})), 'check': [i['id'] for i in _pl if i['band'] == b]} for b in ('a2', 'b1', 'b2', 'c1')]}
+else:
+    W = yaml.safe_load(open(f'{ROOT}/course/cefr/{course}/w{week:02d}.yaml', encoding='utf-8'))
+    items = {i['id']: i for i in yaml.safe_load(open(f'{ROOT}/bank/cefr/{course}/w{week:02d}.yaml', encoding='utf-8'))}
 e = lambda s: html.escape(str(s))
 k = lambda s: re.sub(r'&lt;k&gt;(.*?)&lt;/k&gt;', r'<u class="k">\1</u>', e(s))
 def r(s):
@@ -47,12 +55,12 @@ ul{{margin:0;padding-left:20px}}.hl{{padding:0 .15em;border-radius:.2em;color:#1
 </style>
 <div class="wrap">
 <div class="note">เนื้อหาร่าง รอบอสตรวจ · มีเฉลย ห้ามเผยแพร่ · ตัวเลือกแรกของทุกข้อคือข้อถูก หน้าเว็บจริงจะสลับลำดับและแสดงเป็น 1 2 3 4 · พบจุดที่ต้องแก้ แจ้งรหัสข้อ (เช่น {course}-w{week:02d}-007) ได้เลย</div>
-<h1>คอร์ส {e(course.upper())} สัปดาห์ {week}: {e(W["theme_th"])}</h1>
+<h1>{'' if PL else f'คอร์ส {e(course.upper())} สัปดาห์ {week}: '}{e(W["theme_th"])}</h1>
 <p>{e(W["focus_th"])}</p>
 <div class="card"><h3>เมื่อจบสัปดาห์ ผู้เรียนทำได้</h3><ul>{"".join(f"<li>{e(c)}</li>" for c in W["can_do_th"])}</ul></div>''']
 n = 0
 for s in W['sessions']:
-    out.append(f'<h2>วันที่ {s["day"]} · {e(s["title_th"])}</h2><p class="small">{s["minutes"]} นาที · ทักษะ {e(s["skill"])}</p>')
+    out.append(f'<h2>{"" if PL else "วันที่ "}{s["day"]} · {e(s["title_th"])}</h2><p class="small">{"" if PL else str(s["minutes"]) + " นาที · "}ทักษะ {e(s["skill"])}</p>')
     L = s.get('lesson')
     if L:
         c = f'<div class="card"><h3>บทเรียนย่อ</h3><p>{r(L["rule_th"])}</p>' + ''.join(f'<div><span class="en">{k(x["en"])}</span><div class="small">{r(x["th"])}</div></div>' for x in L['examples'])
@@ -73,5 +81,5 @@ for s in W['sessions']:
     if s.get('classroom'): out.append(f'<div class="card"><h3>ประโยคใช้ในห้องเรียน</h3><p class="en">{e(s["classroom"]["en"])}</p><p class="small">{e(s["classroom"]["th"])}</p></div>')
 out.append('</div>')
 os.makedirs(f'{ROOT}/review/out', exist_ok=True)
-p = f'{ROOT}/review/out/cefr_{course}_w{week:02d}.html'
+p = f'{ROOT}/review/out/' + ('cefr_placement.html' if PL else f'cefr_{course}_w{week:02d}.html')
 open(p, 'w', encoding='utf-8').write('\n'.join(out)); print(p, n, 'ข้อ')

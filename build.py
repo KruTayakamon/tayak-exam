@@ -15,6 +15,40 @@ def demo_data():
     cfg = json.load(open(os.path.join(ENG, 'config.json'), encoding='utf-8'))
     return 'globalThis.DEMO_DATA=' + json.dumps({'config': cfg, 'course': course, 'items': {i['id']: i for i in items}}, ensure_ascii=False) + ';'
 
+def post_pages(out, demo):
+    """หน้าเว็บของโพสต์เพจ /p/<รหัส>/ จาก build/posts.json (สร้างด้วย tools/make_posts.py)
+    เว็บจริง: เฉพาะโพสต์ที่บอสอนุมัติ (status: approved) · รุ่นสาธิต: ทุกโพสต์ไว้ดูตัวอย่าง"""
+    src = os.path.join(ROOT, 'build', 'posts.json')
+    if not os.path.exists(src): return 0
+    import html as H
+    D = json.load(open(src, encoding='utf-8')); C = D['config']; n = 0
+    for p in D['posts']:
+        if not demo and p['status'] != 'approved': continue
+        d = os.path.join(out, 'p', p['id']); os.makedirs(d, exist_ok=True)
+        img = os.path.join(ROOT, 'marketing', 'out', p['id'] + '.png')
+        og = ''
+        if os.path.exists(img):
+            shutil.copyfile(img, os.path.join(d, 'og.png'))
+            og = f'<meta property="og:image" content="{H.escape(p["link"])}og.png">\n<meta property="og:image:width" content="1080">\n<meta property="og:image:height" content="1350">\n'
+        data = {k: p.get(k) for k in ('id', 'type', 'course', 'head', 'stem', 'item', 'more', 'word', 'pos', 'th', 'example', 'example_th', 'wrong', 'right', 'note', 'lines')}
+        data['placement_path'] = C.get('placement_path')
+        desc = 'ตอบแล้วดูเหตุผลทุกตัวเลือก ฝึกต่ออีก 4 ข้อ ไม่ต้องสมัคร · CEFR for Kru ภาษาอังกฤษสำหรับครู'
+        page = f'''<!doctype html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{H.escape(p["head"])} · CEFR for Kru</title>
+<meta name="description" content="{desc}">
+<meta property="og:type" content="website"><meta property="og:url" content="{H.escape(p["link"])}">
+<meta property="og:title" content="{H.escape(p["head"])}"><meta property="og:description" content="{desc}">
+{og}<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="../../css/app.css">
+</head><body><div class="wrap" id="app"></div>
+<script type="application/json" id="post-data">{json.dumps(data, ensure_ascii=False).replace("</", "<\\/")}</script>
+<script type="module" src="../../js/post.js"></script>
+</body></html>'''
+        open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(page); n += 1
+    return n
+
 def site(out, demo):
     if os.path.exists(out): shutil.rmtree(out)
     shutil.copytree(WEB, out)
@@ -27,6 +61,8 @@ def site(out, demo):
     else:
         html = html.replace('<!--DEMO_DATA-->\n', '')
     open(p, 'w', encoding='utf-8').write(html)
+    np = post_pages(out, demo)
+    if np: print(f'{os.path.relpath(out, ROOT)}/p/ หน้าโพสต์ {np} หน้า')
     print(f'{os.path.relpath(out, ROOT)}/ สร้างแล้ว' + (' (รุ่นสาธิต มีเฉลย ห้าม deploy)' if demo else ' (เว็บจริง ไม่มีเนื้อหา)'))
 
 # ---------- รวมเป็นไฟล์เดียว: ห่อแต่ละโมดูลเป็นฟังก์ชันของตัวเอง แล้วต่อ import/export ด้วยมือ ----------

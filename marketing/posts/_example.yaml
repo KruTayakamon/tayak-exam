@@ -1,5 +1,18 @@
-# ตัวอย่างรูปแบบโพสต์เพจ (ต้นแบบสำหรับ Opus · draft ทั้งหมด รอบอสตรวจ · เขียนใหม่ 17 พ.ย. 2569)
-# ตัวเลือกแรก = ข้อถูก (เครื่องมือสลับลำดับให้) · why ใช้น้ำเสียงและไฮไลต์ตาม docs/writing/voice.md
+# ตัวอย่างรูปแบบโพสต์เพจ CEFR for Kru (ต้นแบบสำหรับผู้เขียน · ไฟล์ที่ขึ้นต้นด้วย _ ไม่ถูกสร้างเป็นโพสต์)
+# คัดลอกไปเป็น marketing/posts/<ปี>-w<สัปดาห์>.yaml แล้วแก้ · สเปกเต็ม docs/cefr/08_marketing.md ข้อ 3
+# ทุกโพสต์ status: draft จนบอสอนุมัติ · โพสต์ draft ไม่ถูกใส่ในเว็บจริง (dist/) มีแค่ในหน้าตรวจและรุ่นสาธิต
+# ตัวเลือกแรก = ข้อถูก (เครื่องมือสลับลำดับให้) · why/note ใช้น้ำเสียงและไฮไลต์ตาม docs/writing/voice.md
+# {link} ในแคปชัน = ลิงก์ของโพสต์นี้ (เครื่องมือแทนให้) ต้องมีทุกโพสต์
+#
+# ชนิด (type) และฟิลด์เฉพาะ
+#   quiz  : stem, choices                       ภาพมีโจทย์และตัวเลือก ไม่มีเฉลย · เฉลยอยู่บนเว็บ
+#   word  : word, pos, th, example, example_th  คำศัพท์ 1 คำ
+#   trap  : wrong, right, note                  จุดที่คนไทยพลาด
+#   class : lines [{en, th}] 2–3 บรรทัด        ประโยคใช้ในห้องเรียน
+#   tip   : note, lines [{en, th}] 1–2 บรรทัด  เทคนิค 30 วินาที
+#   recap : note                                สรุปสัปดาห์ ชวนวัดระดับ (ไม่ต้องมี more)
+# ทุกชนิดยกเว้น recap ต้องมี more = ข้อเลือกตอบ 4–5 ข้อเรื่องเดียวกัน (ชุดสั้นบนเว็บ) แต่ละข้อมี stem, choices, explain (ไม่บังคับ)
+
 - id: mk-quiz-0001
   type: quiz
   course: b1
@@ -11,9 +24,34 @@
     - {t: is having, why: "มี right now คือกำลังเกิดตอนนี้เลย ใช้ ++is + กริยา -ing++"}
     - {t: has, why: "has เฉย ๆ ไว้พูดเรื่องประจำ เช่น ประชุมทุกวันศุกร์ แต่ข้อนี้คือตอนนี้"}
     - {t: have, why: "ผิดสองชั้น ทั้ง tense และ principal คนเดียว ~~ใช้ have ไม่ได้~~"}
-    - {t: having, why: "กริยา -ing ยืนเดี่ยวไม่ได้ ต้องมี is นำหน้า"}
+    - {t: having, why: "กริยา -ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้ ต้องมี is นำหน้า"}
   caption: "ผอ. กำลังประชุมผู้ปกครองอยู่ จะพูดเป็นภาษาอังกฤษว่ายังไงดี\nตอบแล้วดูเหตุผลครบทุกตัวเลือกได้ที่ {link}"
-  more: [mk-quiz-0001a, mk-quiz-0001b, mk-quiz-0001c, mk-quiz-0001d]   # ชุดสั้นอีก 4 ข้อเรื่องเดียวกัน (เขียนในไฟล์เดียวกัน type: more)
+  more:
+    - stem: Look! The Grade 7 students ____ the school garden.
+      choices:
+        - {t: are cleaning, why: "Look! บอกว่ากำลังเกิดตรงหน้า ใช้ ==are + -ing=="}
+        - {t: clean, why: "clean เฉย ๆ ใช้กับเรื่องที่ทำเป็นประจำ ไม่ใช่สิ่งที่เห็นตอนนี้"}
+        - {t: cleans, why: "students มีหลายคน เติม -s ไม่ได้ และยังผิด tense ด้วย"}
+        - {t: is cleaning, why: "students เป็นพหูพจน์ ต้องใช้ are ไม่ใช่ is"}
+    - stem: Mr Anan ____ his bike to school on Fridays.
+      choices:
+        - {t: rides, why: "on Fridays คือทุกวันศุกร์ เป็นเรื่องประจำ และ Mr Anan คนเดียว ==เติม -s=="}
+        - {t: is riding, why: "เรื่องที่ทำทุกวันศุกร์ไม่ใช้รูปกำลังทำ"}
+        - {t: ride, why: "Mr Anan เป็นคนเดียว ต้องเติม -s"}
+        - {t: riding, why: "-ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้"}
+    - stem: "This week I ____ in Room 204 because my classroom is being painted."
+      choices:
+        - {t: am teaching, why: "this week บอกว่าเป็นเรื่องชั่วคราว ใช้ ==am + -ing=="}
+        - {t: teach, why: "teach เฉย ๆ ฟังเหมือนสอนห้องนี้เป็นประจำ แต่จริง ๆ แค่สัปดาห์นี้"}
+        - {t: teaches, why: "ประธานคือ I ไม่เติม -es"}
+        - {t: was teaching, why: "เป็นอดีต แต่ this week กับ is being painted เป็นตอนนี้"}
+    - stem: Water ____ at 100 degrees Celsius.
+      choices:
+        - {t: boils, why: "ความจริงทั่วไปใช้ ==present simple== เสมอ"}
+        - {t: is boiling, why: "ไม่ได้พูดถึงน้ำในหม้อที่กำลังเดือด แต่เป็นความจริงทั่วไป"}
+        - {t: boil, why: "water นับไม่ได้ ใช้กับกริยาเติม -s"}
+        - {t: boiling, why: "-ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้"}
+
 - id: mk-trap-0001
   type: trap
   course: b1
@@ -22,9 +60,34 @@
   head: "จุดที่คนไทยพลาดบ่อย"
   wrong: I am understanding this lesson.
   right: I understand this lesson.
-  note: "คำว่า understand, know, like เป็นเรื่องในหัว ==ไม่ใช้ -ing== แม้จะหมายถึงตอนนี้"
-  caption: "พูดว่า I am understanding... กันบ่อยมาก แต่จริง ๆ ต้องพูดอีกแบบ\nฝึกจุดนี้ 5 ข้อ ใช้ 2 นาที {link}"
-  more: [mk-trap-0001a, mk-trap-0001b, mk-trap-0001c, mk-trap-0001d, mk-trap-0001e]
+  note: "understand, know, like เป็นเรื่องในหัว ==ไม่ใช้ -ing== แม้จะหมายถึงตอนนี้"
+  caption: "พูดว่า I am understanding... กันบ่อยมาก แต่จริง ๆ ต้องพูดอีกแบบ\nฝึกจุดนี้ 4 ข้อ ใช้ 2 นาที {link}"
+  more:
+    - stem: Sorry, I ____ the answer to that question.
+      choices:
+        - {t: don't know, why: "know เป็นเรื่องในหัว ==ไม่ใช้ -ing=="}
+        - {t: am not knowing, why: "know ไม่ใช้รูป -ing แม้หมายถึงตอนนี้"}
+        - {t: not know, why: "ปฏิเสธต้องมี don't ช่วย"}
+        - {t: doesn't know, why: "ประธานคือ I ใช้ don't ไม่ใช่ doesn't"}
+    - stem: This soup ____ delicious. Who made it?
+      choices:
+        - {t: tastes, why: "taste ในความหมายว่ามีรสชาติ ==ไม่ใช้ -ing=="}
+        - {t: is tasting, why: "is tasting ใช้ได้เมื่อหมายถึงคนกำลังชิม แต่ซุปไม่ได้ชิมอะไร"}
+        - {t: taste, why: "soup เป็นเอกพจน์ ต้องเติม -s"}
+        - {t: tasting, why: "-ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้"}
+    - stem: My students ____ the new reading corner very much.
+      choices:
+        - {t: like, why: "like เป็นความรู้สึก ==ใช้ present simple== และ students เป็นพหูพจน์"}
+        - {t: are liking, why: "like แสดงความรู้สึก ไม่ใช้รูป -ing ในภาษาอังกฤษมาตรฐาน"}
+        - {t: likes, why: "students มีหลายคน ไม่เติม -s"}
+        - {t: is liking, why: "ผิดทั้งการใช้ -ing และ is กับประธานพหูพจน์"}
+    - stem: Do you ____ what I mean?
+      choices:
+        - {t: understand, why: "หลัง Do you ใช้กริยารูปปกติ และ understand ==ไม่ใช้ -ing=="}
+        - {t: understanding, why: "หลัง Do ต้องเป็นกริยารูปปกติ ไม่ใช่ -ing"}
+        - {t: understands, why: "หลัง Do ไม่เติม -s"}
+        - {t: understood, why: "หลัง Do ใช้กริยาช่อง 1 เท่านั้น"}
+
 - id: mk-class-0001
   type: class
   course: a2
@@ -36,4 +99,28 @@
     - {en: "Please take out your notebooks.", th: "หยิบสมุดขึ้นมาค่ะ"}
     - {en: "Who is absent today?", th: "วันนี้ใครไม่มาบ้าง"}
   caption: "เปิดคาบเป็นภาษาอังกฤษง่าย ๆ 3 ประโยค\nฟังเสียงอ่านและฝึกต่อได้ที่ {link}"
-  more: [mk-class-0001a, mk-class-0001b, mk-class-0001c, mk-class-0001d, mk-class-0001e]
+  more:
+    - stem: "You want students to open their books. You say: \"Please ____ your books to page 12.\""
+      choices:
+        - {t: open, why: "open your books to page... คือเปิดหนังสือไปหน้าที่... ==ใช้บ่อยมากในห้องเรียน=="}
+        - {t: turn on, why: "turn on ใช้กับเครื่องไฟฟ้า เช่น turn on the fan"}
+        - {t: look, why: "look ต้องมี at และไม่ได้แปลว่าเปิดหนังสือ"}
+        - {t: take, why: "take your books ไม่ได้บอกให้เปิดไปหน้าไหน"}
+    - stem: "A student is late. You say: \"Please ____ down quickly.\""
+      choices:
+        - {t: sit, why: "sit down = นั่งลง ==Please sit down== สุภาพและสั้น"}
+        - {t: seat, why: "seat ใช้เป็นคำนาม หรือกริยาแบบ seat yourself ใช้คู่กับ down แบบนี้ไม่ได้"}
+        - {t: sitting, why: "หลัง Please ใช้กริยารูปปกติ"}
+        - {t: stay, why: "stay down ไม่ได้แปลว่านั่งลง"}
+    - stem: "To check if students are ready, you ask: \"____ everyone ready?\""
+      choices:
+        - {t: Is, why: "everyone ใช้กับกริยาเอกพจน์ ==Is everyone ready?=="}
+        - {t: Are, why: "everyone ดูเหมือนหลายคน แต่ไวยากรณ์นับเป็นเอกพจน์"}
+        - {t: Do, why: "ready เป็นคำคุณศัพท์ ต้องใช้ be ไม่ใช่ do"}
+        - {t: Has, why: "has ready ไม่ใช่ภาษาอังกฤษมาตรฐาน"}
+    - stem: "At the end of the lesson you say: \"That's all ____ today.\""
+      choices:
+        - {t: for, why: "That's all for today = วันนี้พอแค่นี้ ==ประโยคปิดคาบที่ใช้บ่อย=="}
+        - {t: in, why: "in today ไม่ใช้ในภาษาอังกฤษ"}
+        - {t: at, why: "at today ไม่ใช้ at ใช้กับเวลาที่เป็นนาฬิกา"}
+        - {t: on, why: "on ใช้กับวันในสัปดาห์หรือวันที่ ไม่ใช้กับ today"}

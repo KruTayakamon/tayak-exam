@@ -1,0 +1,344 @@
+# แบบวัดระดับฟรี CEFR for Kru · 25 คะแนน 20 นาที · ไล่ระดับ a2 → b1 → b2 → c1 (course/cefr/_assessment.yaml)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · ทุกข้อ draft รอบอสตรวจ · เขียนใหม่ทั้งหมด 17 พ.ย. 2569
+# band = ระดับที่ข้อนี้วัด (เซิร์ฟเวอร์ใช้คิดผล) · ไม่มีข้อฟัง · ทุกข้อเป็นเรื่องแกนของระดับ ไม่ใช่ข้อยกเว้น
+
+# ---------- A2 (6 คะแนน: gm 3 · vo 2 · dlg 1) ----------
+- id: cefr-pl-0001
+  band: a2
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: My son ____ to school by bus every day.
+  choices:
+    - {t: goes, why: "every day คือเรื่องประจำ และ My son เป็นคนเดียว เลยต้อง ==เติม -es== เป็น goes"}
+    - {t: go, why: "รูปนี้ใช้กับ I, you, we, they แต่ My son เป็นคนเดียว ต้องเติม -es"}
+    - {t: is go, why: "is กับกริยาช่อง 1 ใช้คู่กันไม่ได้ ภาษาอังกฤษไม่มีรูปนี้"}
+    - {t: going, why: "กริยา -ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้ ต้องมี is นำหน้า"}
+  status: draft
+- id: cefr-pl-0002
+  band: a2
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  stem: We ____ a new computer for the library last month.
+  choices:
+    - {t: bought, why: "last month คือเรื่องที่จบไปแล้ว ใช้ past simple และ buy เป็นกริยาไม่ปกติ ==ช่อง 2 คือ bought=="}
+    - {t: buy, why: "buy เป็นรูปปัจจุบัน แต่ last month บอกว่าเกิดในอดีต"}
+    - {t: buyed, why: "buy ไม่ได้เติม -ed เหมือนกริยาทั่วไป ต้องจำว่าช่อง 2 คือ bought"}
+    - {t: are buying, why: "รูปนี้ใช้กับสิ่งที่กำลังทำตอนนี้ ไม่เข้ากับ last month"}
+  status: draft
+- id: cefr-pl-0003
+  band: a2
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  stem: This classroom is ____ than the music room, so we can put more desks in it.
+  choices:
+    - {t: bigger, why: "เทียบของสองอย่างด้วย than ใช้ขั้นกว่า big เป็นคำสั้นสระเดียว ==ซ้ำ g แล้วเติม -er=="}
+    - {t: big, why: "มี than อยู่หลังช่อง ต้องใช้รูปขั้นกว่า ไม่ใช่รูปปกติ"}
+    - {t: more big, why: "more ใช้กับคำยาว เช่น more beautiful ส่วนคำสั้นอย่าง big ใช้ -er"}
+    - {t: biggest, why: "biggest เป็นขั้นสูงสุด ใช้กับ the และกลุ่มตั้งแต่สามอย่างขึ้นไป ไม่ใช้กับ than"}
+  status: draft
+- id: cefr-pl-0004
+  band: a2
+  kind: mcq
+  skill: vo
+  topic: school-objects
+  level: 1
+  stem: Please write your name at the top of the ____ before you start the test.
+  choices:
+    - {t: paper, why: "เขียนชื่อไว้ด้านบนของกระดาษคำตอบ ==the paper== คือคำที่ใช้กับกระดาษข้อสอบหรือแบบฝึก"}
+    - {t: board, why: "นักเรียนไม่ได้เขียนชื่อตัวเองบนกระดานก่อนทำแบบทดสอบ"}
+    - {t: door, why: "ประตูไม่ใช่ที่เขียนชื่อก่อนเริ่มทำแบบทดสอบ"}
+    - {t: chair, why: "เก้าอี้ไม่มีด้านบนให้เขียนชื่อ ความหมายไม่เข้ากับประโยค"}
+  status: draft
+- id: cefr-pl-0005
+  band: a2
+  kind: mcq
+  skill: vo
+  topic: daily-routine
+  level: 1
+  stem: I don't have time for breakfast, so I usually eat something ____ at school.
+  choices:
+    - {t: quickly, why: "ไม่มีเวลาเลยต้องกินเร็ว ๆ quickly บอกวิธีทำ ==คำที่ลงท้าย -ly มักขยายกริยา=="}
+    - {t: slowly, why: "ขัดกับต้นประโยคที่บอกว่าไม่มีเวลา คนรีบไม่กินช้า ๆ"}
+    - {t: quickness, why: "quickness เป็นคำนาม แปลว่าความเร็ว วางหลัง something ในประโยคนี้ไม่ได้"}
+    - {t: lately, why: "lately แปลว่าช่วงนี้ ไม่ได้แปลว่าช้า และไม่เข้ากับเหตุผลเรื่องไม่มีเวลา"}
+  status: draft
+- id: cefr-pl-0006
+  band: a2
+  kind: mcq
+  skill: dlg
+  topic: requests-offers
+  level: 1
+  stem: "A student says: \"Can I borrow your pen, teacher?\" — The best reply is: ____"
+  choices:
+    - {t: "Sure, here you are.", why: "เวลายื่นของให้ใครพูดว่า ==Here you are== สุภาพและเป็นธรรมชาติ"}
+    - {t: "Yes, I can borrow.", why: "นักเรียนเป็นคนยืม ครูเป็นคนให้ยืม ครูจึงไม่ได้ borrow"}
+    - {t: "No, thank you.", why: "No, thank you ใช้ปฏิเสธเวลามีคนเสนอของให้เรา ไม่ใช่ตอบคำขอยืม"}
+    - {t: "It's my pleasure.", why: "ใช้ตอบเวลามีคนขอบคุณ แต่นักเรียนยังไม่ได้ขอบคุณ แค่ขอยืม"}
+  status: draft
+
+# ---------- B1 (8 คะแนน: gm 3 · vo 2 · rd 2 · dlg 1) ----------
+- id: cefr-pl-0007
+  band: b1
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  stem: I ____ at this school since 2019, and I still enjoy it.
+  choices:
+    - {t: have worked, why: "since 2019 และ still บอกว่าเริ่มในอดีตแล้วยังทำอยู่ ใช้ ==have + กริยาช่อง 3=="}
+    - {t: worked, why: "past simple บอกว่าจบไปแล้ว แต่ still บอกว่ายังทำอยู่"}
+    - {t: am working, why: "present continuous ไม่ใช้กับ since เมื่อพูดถึงระยะเวลาตั้งแต่อดีตถึงตอนนี้"}
+    - {t: work, why: "present simple ใช้กับเรื่องประจำ แต่ since ต้องคู่กับ present perfect"}
+  status: draft
+- id: cefr-pl-0008
+  band: b1
+  kind: mcq
+  skill: gm
+  topic: first-conditional
+  level: 2
+  stem: If it ____ tomorrow, we will move the sports day to next week.
+  choices:
+    - {t: rains, why: "ประโยค if ที่มี will อีกฝั่ง ฝั่ง if ใช้ ==present simple== ถึงจะพูดเรื่องพรุ่งนี้ก็ตาม"}
+    - {t: will rain, why: "คนไทยพลาดบ่อยเพราะคิดว่าพรุ่งนี้ต้องใช้ will แต่ฝั่ง if ห้ามใช้ will"}
+    - {t: rained, why: "rained ใช้ในประโยค if ที่สมมติเรื่องไม่จริง และอีกฝั่งต้องเป็น would"}
+    - {t: would rain, why: "would ไม่อยู่ฝั่ง if และอีกฝั่งก็เป็น will ไม่ใช่ประโยคสมมติ"}
+  status: draft
+- id: cefr-pl-0009
+  band: b1
+  kind: mcq
+  skill: gm
+  topic: passive-present-past
+  level: 2
+  stem: The new library ____ by the school director last Friday.
+  choices:
+    - {t: was opened, why: "ห้องสมุดเปิดเองไม่ได้ มีคนเปิดให้ (by the director) และเป็นอดีต ใช้ ==was + กริยาช่อง 3=="}
+    - {t: opened, why: "ถ้าใช้ opened เฉย ๆ จะแปลว่าห้องสมุดเป็นคนเปิด ขัดกับ by the school director"}
+    - {t: is opened, why: "is opened เป็นปัจจุบัน แต่ last Friday บอกว่าเกิดในอดีต"}
+    - {t: has opened, why: "has opened ไม่ใช้กับเวลาอดีตที่ระบุชัด และยังไม่เป็นรูปถูกกระทำ"}
+  status: draft
+- id: cefr-pl-0010
+  band: b1
+  kind: mcq
+  skill: vo
+  topic: work-training
+  level: 2
+  stem: All teachers are required to ____ the online training before the end of the month.
+  choices:
+    - {t: complete, why: "complete the training = ทำให้ครบจนจบ เป็น ==คำที่ใช้คู่กันบ่อย== กับ training หรือ course"}
+    - {t: achieve, why: "achieve ใช้กับเป้าหมายหรือผลสำเร็จ เช่น achieve a goal ไม่ใช้กับ training"}
+    - {t: succeed, why: "succeed ต้องตามด้วย in เช่น succeed in something ใส่กรรมตรง ๆ ไม่ได้"}
+    - {t: graduate, why: "graduate ใช้กับการจบการศึกษา และต้องมี from ตามหลัง ใช้กับ training แบบนี้ไม่ได้"}
+  status: draft
+- id: cefr-pl-0011
+  band: b1
+  kind: mcq
+  skill: vo
+  topic: behaviour
+  level: 2
+  stem: Nida's ____ in class has improved a lot. She listens carefully and helps her friends.
+  choices:
+    - {t: behaviour, why: "ตั้งใจฟังและช่วยเพื่อนคือพฤติกรรม behaviour เป็น ==คำนาม== ใช้หลัง Nida's ได้"}
+    - {t: behave, why: "behave เป็นกริยา แต่หลัง Nida's ต้องเป็นคำนาม"}
+    - {t: temperature, why: "อุณหภูมิไม่เกี่ยวกับการตั้งใจฟังหรือช่วยเพื่อน"}
+    - {t: appearance, why: "appearance คือรูปร่างหน้าตา ไม่เกี่ยวกับการฟังและช่วยเพื่อน"}
+  status: draft
+- id: cefr-pl-0012
+  band: b1
+  kind: read
+  skill: rd
+  topic: school-notice
+  level: 2
+  title: Message to Grade 9 Parents
+  passage: |
+    Dear parents,
+
+    Our Grade 9 science trip to the national park will now take place on 14 March, not 7 March as planned. The bus company told us that two of their buses need repairs next week. The cost of the trip is still 250 baht per student, and it includes lunch.
+
+    Please return the signed form to your child's class teacher by 10 March. Students who cannot join the trip will have normal lessons at school with Mr Somchai.
+
+    Thank you for your support.
+  questions:
+    - stem: Why has the trip been moved?
+      choices:
+        - {t: The buses are not ready to use., why: "ข้อความบอกว่ารถบัสสองคันต้องซ่อม ==คือรถยังใช้ไม่ได้== แค่พูดด้วยคำต่างกัน"}
+        - {t: The national park is closed., why: "ไม่มีการพูดถึงว่าอุทยานปิด สาเหตุอยู่ที่บริษัทรถบัส"}
+        - {t: The cost of the trip has gone up., why: "ข้อความบอกชัดว่าราคายังเป็น 250 บาทเท่าเดิม"}
+        - {t: Not enough students signed up., why: "ไม่มีการพูดถึงจำนวนนักเรียนที่สมัครเลย"}
+    - stem: What should students who do not go on the trip do?
+      choices:
+        - {t: study at school as usual, why: "นักเรียนที่ไม่ไปจะเรียน normal lessons ที่โรงเรียน ==แปลว่าเรียนตามปกติ=="}
+        - {t: stay at home on 14 March, why: "ข้อความบอกว่าเรียนที่โรงเรียน ไม่ได้ให้อยู่บ้าน"}
+        - {t: give the form to Mr Somchai, why: "แบบฟอร์มต้องส่งครูประจำชั้น ส่วนครูสมชายสอนคนที่ไม่ได้ไป"}
+        - {t: pay 250 baht for lunch, why: "250 บาทเป็นค่าทัศนศึกษาสำหรับคนที่ไป และรวมอาหารกลางวันแล้ว"}
+  status: draft
+- id: cefr-pl-0013
+  band: b1
+  kind: mcq
+  skill: dlg
+  topic: suggestions
+  level: 2
+  stem: "A colleague says: \"I'm so tired. I've marked papers all evening.\" — The most natural reply is: ____"
+  choices:
+    - {t: "Why don't you take a short break?", why: "เพื่อนเหนื่อย เราเลยเสนอให้พัก ==Why don't you...?== ใช้แนะนำแบบเป็นกันเอง"}
+    - {t: "Yes, I'm marking them all evening.", why: "เพื่อนเป็นคนตรวจงาน ไม่ใช่เรา และ tense ก็ไม่เข้ากัน"}
+    - {t: "You're welcome to mark them.", why: "You're welcome ใช้ตอบคำขอบคุณ หรือเชิญให้ทำอะไร ไม่เข้ากับคนที่กำลังบ่น"}
+    - {t: "Never mind, I'm not tired.", why: "ไม่ได้ตอบความรู้สึกของเพื่อน และ Never mind ใช้บอกว่าไม่เป็นไรเมื่อเกิดเรื่องเล็ก"}
+  status: draft
+
+# ---------- B2 (7 คะแนน: gm 3 · vo 2 · rd 2) ----------
+- id: cefr-pl-0014
+  band: b2
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: If the school ____ the parents earlier, more of them would have come to the meeting.
+  choices:
+    - {t: had informed, why: "สมมติเรื่องในอดีตที่ไม่ได้เกิด ฝั่ง if ใช้ ==had + กริยาช่อง 3== คู่กับ would have"}
+    - {t: informed, why: "informed ใช้กับเงื่อนไขสมมติปัจจุบันที่อีกฝั่งเป็น would ไม่ใช่ would have"}
+    - {t: would inform, why: "ฝั่ง if ไม่ใช้ would ในภาษาอังกฤษมาตรฐาน"}
+    - {t: has informed, why: "has informed ไม่ใช้กับเรื่องสมมติในอดีตที่ตรงข้ามกับความจริง"}
+  status: draft
+- id: cefr-pl-0015
+  band: b2
+  kind: mcq
+  skill: gm
+  topic: present-perfect-continuous
+  level: 2
+  stem: You look exhausted. ____ the reports all morning?
+  choices:
+    - {t: Have you been writing, why: "ทำต่อเนื่องมาทั้งเช้าจนเห็นผลตอนนี้ (เหนื่อย) ใช้ ==have been + -ing=="}
+    - {t: Did you write, why: "past simple ไม่เชื่อมกับผลที่เห็นตอนนี้ และ all morning ยังไม่จบ"}
+    - {t: Are you writing, why: "ถามว่ากำลังเขียนตอนนี้ไหม แต่ all morning เน้นระยะเวลาที่ผ่านมาแล้ว"}
+    - {t: Had you written, why: "past perfect ต้องมีเหตุการณ์ในอดีตอีกอันเป็นจุดอ้างอิง ประโยคนี้ไม่มี"}
+  status: draft
+- id: cefr-pl-0016
+  band: b2
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: ____ the lack of funding, the teachers managed to run the reading project for a full year.
+  choices:
+    - {t: Despite, why: "Despite ตามด้วยคำนามได้เลย ==the lack of funding== เป็นคำนาม จึงใช้ได้"}
+    - {t: Although, why: "Although ต้องตามด้วยประโยคที่มีประธานและกริยา แต่ข้างหลังเป็นแค่คำนาม"}
+    - {t: Because of, why: "ความหมายผิด เพราะขาดงบไม่ได้ทำให้ทำโครงการได้ ประโยคนี้เป็นความขัดแย้ง"}
+    - {t: Despite of, why: "ไม่มี Despite of ในภาษาอังกฤษ ที่มี of คือ In spite of"}
+  status: draft
+- id: cefr-pl-0017
+  band: b2
+  kind: mcq
+  skill: vo
+  topic: assessment
+  level: 2
+  stem: We use clear ____ to assess students' presentations, so everyone knows how marks are given.
+  choices:
+    - {t: criteria, why: "criteria คือเกณฑ์ที่ใช้ตัดสินหรือให้คะแนน ==ใช้คู่กับ assess== บ่อยมาก"}
+    - {t: outcomes, why: "outcomes คือผลที่ได้ ไม่ใช่สิ่งที่ใช้เป็นเกณฑ์ให้คะแนน"}
+    - {t: consequences, why: "consequences คือผลที่ตามมา มักเป็นผลด้านลบ ไม่ใช่เกณฑ์ให้คะแนน"}
+    - {t: circumstances, why: "circumstances คือสถานการณ์แวดล้อม ไม่ได้บอกวิธีให้คะแนน"}
+  status: draft
+- id: cefr-pl-0018
+  band: b2
+  kind: mcq
+  skill: vo
+  topic: workload
+  level: 2
+  stem: The extra paperwork has made it difficult for many teachers to ____ a healthy work-life balance.
+  choices:
+    - {t: maintain, why: "maintain a balance = รักษาสมดุลไว้ ==คำที่ใช้คู่กันตายตัว=="}
+    - {t: remain, why: "remain ไม่มีกรรม ต้องพูดว่า the balance remains ใส่ a balance หลัง remain ไม่ได้"}
+    - {t: monitor, why: "monitor คือคอยติดตามตรวจดู ไม่ได้หมายถึงการรักษาสมดุลไว้"}
+    - {t: reserve, why: "reserve คือจองหรือเก็บไว้ใช้ทีหลัง ไม่ใช้กับ balance ในความหมายนี้"}
+  status: draft
+- id: cefr-pl-0019
+  band: b2
+  kind: read
+  skill: rd
+  topic: education-article
+  level: 2
+  title: Homework Without Grades
+  passage: |
+    Last year a secondary school in Chiang Rai stopped giving grades for homework. Instead, teachers write two short comments on each piece: one thing the student did well and one thing to improve. The decision was controversial at first. Some parents worried that, without marks, their children would not take homework seriously.
+
+    However, the results after two terms have surprised many of them. The number of students handing in homework on time rose from 61 to 78 percent. Teachers also noticed that students were more willing to try difficult tasks, as a mistake no longer meant losing points. On the other hand, the teachers admit that writing comments takes more time than giving a score, and the school is now looking for ways to reduce this extra workload.
+  questions:
+    - stem: How did some parents feel when the change was introduced?
+      choices:
+        - {t: They feared students would try less., why: "ผู้ปกครองกลัวว่าลูกจะ ==ไม่ทำการบ้านจริงจัง== เมื่อไม่มีคะแนน คือกังวลว่าจะไม่ตั้งใจ"}
+        - {t: They asked for longer comments., why: "บทความไม่ได้บอกว่าผู้ปกครองอยากให้เขียนความเห็นยาวขึ้น"}
+        - {t: They thought the homework was too difficult., why: "ความยากของการบ้านเป็นเรื่องที่ครูสังเกตจากนักเรียน ไม่ใช่ความกังวลของผู้ปกครอง"}
+        - {t: They liked the results at once., why: "ช่วงแรกการตัดสินใจนี้มีข้อโต้แย้ง ผู้ปกครองพอใจทีหลังเมื่อเห็นผล"}
+    - stem: What problem does the school still need to solve?
+      choices:
+        - {t: Teachers spend more time on marking than before., why: "ครูยอมรับว่าเขียนความเห็นใช้เวลามากกว่าให้คะแนน ==โรงเรียนกำลังหาทางลดภาระนี้=="}
+        - {t: Fewer students hand in their homework on time., why: "ตรงข้ามกับบทความ จำนวนคนส่งตรงเวลาเพิ่มจาก 61 เป็น 78 เปอร์เซ็นต์"}
+        - {t: Students avoid difficult tasks., why: "บทความบอกว่านักเรียนกล้าลองงานยากมากขึ้น"}
+        - {t: Parents want the grades to return., why: "บทความบอกว่าผลทำให้ผู้ปกครองหลายคนประหลาดใจ ไม่ได้บอกว่าอยากให้กลับไปให้คะแนน"}
+  status: draft
+
+# ---------- C1 (4 คะแนน: gm 2 · vo 1 · rd 1) ----------
+- id: cefr-pl-0020
+  band: c1
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  stem: Not until the end of the term ____ how much progress the class had made.
+  choices:
+    - {t: did we realise, why: "ขึ้นต้นด้วย Not until ประโยคหลักต้อง ==สลับกริยาช่วยมาไว้หน้าประธาน== เหมือนประโยคคำถาม"}
+    - {t: we realised, why: "เมื่อ Not until ขึ้นต้นประโยค ต้องสลับเป็น did we ใช้ลำดับปกติไม่ได้"}
+    - {t: we did realise, why: "did อยู่หลังประธานเป็นการเน้นธรรมดา ไม่ใช่การสลับที่ที่ Not until ต้องการ"}
+    - {t: had we been realising, why: "มีการสลับที่ก็จริง แต่ realise ไม่ใช้รูป -ing และ tense ซับซ้อนเกินบริบท"}
+  status: draft
+- id: cefr-pl-0021
+  band: c1
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  stem: The results went to the wrong email addresses because nobody checked the list first. Someone ____ checked it before sending them.
+  choices:
+    - {t: should have, why: "ติเรื่องในอดีตที่ควรทำแต่ไม่ได้ทำ ใช้ ==should have + กริยาช่อง 3=="}
+    - {t: must have, why: "must have ใช้สรุปว่าน่าจะเกิดขึ้นแล้วแน่ ๆ แต่ที่นี่รู้ว่าไม่มีใครตรวจ จึงไม่ใช่การเดา"}
+    - {t: would have, why: "would have ต้องมีเงื่อนไขสมมติ เช่น if... ประโยคนี้ไม่มี"}
+    - {t: had to have, why: "ฟังเหมือนบังคับในอดีต ไม่ได้ให้ความหมายติว่าควรทำแต่ไม่ได้ทำ"}
+  status: draft
+- id: cefr-pl-0022
+  band: c1
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 3
+  stem: The new mentoring scheme is designed to ____ collaboration between experienced and newly qualified teachers.
+  choices:
+    - {t: foster, why: "foster collaboration = ส่งเสริมให้เกิดความร่วมมือ ==คำระดับทางการที่ใช้คู่กันบ่อย=="}
+    - {t: impede, why: "impede แปลว่าขัดขวาง ตรงข้ามกับจุดประสงค์ของโครงการพี่เลี้ยง"}
+    - {t: curtail, why: "curtail แปลว่าตัดทอนหรือจำกัดให้น้อยลง ไม่เข้ากับจุดประสงค์ของโครงการ"}
+    - {t: stipulate, why: "stipulate คือกำหนดเป็นเงื่อนไขในข้อตกลง ไม่ใช่การทำให้ความร่วมมือเกิดขึ้น"}
+  status: draft
+- id: cefr-pl-0023
+  band: c1
+  kind: read
+  skill: rd
+  topic: opinion-article
+  level: 3
+  title: The Problem with Quick Fixes
+  passage: |
+    Every few years, a new teaching method arrives with the promise of transforming classrooms almost overnight. Schools invest in training, teachers attend workshops, and for a while the method dominates staff meetings. Yet within a couple of years, many of these initiatives quietly disappear, often before anyone has gathered convincing evidence of whether they worked.
+
+    The difficulty is not that the methods themselves are necessarily flawed. Rather, real change in teaching is slow and depends on conditions that a single workshop cannot provide: time for teachers to experiment, colleagues to discuss setbacks with, and leaders who are willing to wait for results. When these conditions are missing, even a promising idea is likely to be judged a failure prematurely. Perhaps, then, the question schools should ask is not "Which method should we adopt next?" but "What would it take for any method to succeed here?"
+  questions:
+    - stem: What is the writer's main point?
+      choices:
+        - {t: Schools drop new methods without giving them support to work., why: "ผู้เขียนบอกว่าปัญหาไม่ใช่ตัววิธีสอน แต่โรงเรียน ==ไม่ได้ให้เวลาและการสนับสนุน== จนเลิกใช้ก่อนเห็นผล"}
+        - {t: Most new teaching methods are poorly designed from the start., why: "ผู้เขียนบอกตรง ๆ ว่าวิธีสอนไม่จำเป็นต้องมีข้อบกพร่อง"}
+        - {t: Teachers should no longer be sent to training workshops., why: "ผู้เขียนแค่บอกว่าอบรมครั้งเดียวไม่พอ ไม่ได้บอกให้เลิกไปอบรม"}
+        - {t: Leaders need to be more careful when choosing new methods., why: "ย่อหน้าสุดท้ายบอกว่าคำถามที่ควรถามไม่ใช่จะเลือกวิธีไหน แต่ต้องมีอะไรถึงจะสำเร็จ"}
+  status: draft
