@@ -16,19 +16,22 @@ sessions:
     minutes: 20
     title_th: กิจวัตร หรือ กำลังทำอยู่ตอนนี้
     lesson:
-      rule_th: "ทำเป็นประจำหรือเป็นข้อเท็จจริง ใช้ present simple · กำลังทำตอนนี้หรือทำชั่วคราวช่วงนี้ ใช้ present continuous (am/is/are + กริยา -ing)"
+      rule_th: "เรื่องที่ทำเป็นประจำ ใช้ ==present simple== ส่วนเรื่องที่กำลังทำอยู่ตอนนี้ หรือทำแค่ช่วงนี้ ใช้ ==present continuous== (am/is/are + กริยา -ing) จำแค่นี้ก่อนเลย"
       examples:
-        - {en: "I <k>teach</k> maths <k>every day</k>.", th: "กิจวัตร: every day"}
-        - {en: "I <k>am teaching</k> Grade 7 <k>this term</k>.", th: "ชั่วคราว: เฉพาะเทอมนี้"}
-        - {en: "The students <k>are reading</k> <k>now</k>.", th: "กำลังเกิดขึ้นขณะพูด"}
-        - {en: "She <k>teaches</k> science.", th: "ประธานเอกพจน์บุรุษที่ 3 เติม -s หรือ -es"}
+        - {en: "I <k>teach</k> maths <k>every day</k>.", th: "มี every day แปลว่าทำเป็นประจำ"}
+        - {en: "I <k>am teaching</k> Grade 7 <k>this term</k>.", th: "this term คือแค่เทอมนี้ เดี๋ยวก็เปลี่ยน"}
+        - {en: "The students <k>are reading</k> <k>now</k>.", th: "now คือกำลังเกิดอยู่ตรงหน้าเลย"}
+        - {en: "She <k>teaches</k> science.", th: "ประธานคนเดียว (she) อย่าลืม ++เติม -s หรือ -es++"}
       signals:
         - {label_th: present simple, words: [always, usually, often, every day, twice a week, on Mondays]}
         - {label_th: present continuous, words: [now, right now, at the moment, today, this week, this term, "Look!"]}
       thai_trap:
-        intro_th: ภาษาไทยไม่เปลี่ยนรูปกริยา และคำว่า "กำลัง" มักถูกละ จึงมักลืม am/is/are หรือลืมเติม -s
+        intro_th: "ภาษาไทยเราไม่ผันกริยา แถมคำว่ากำลังก็ชอบละ พอเขียนอังกฤษเลยมัก ~~ลืม am/is/are~~ หรือ ~~ลืมเติม -s~~ กันบ่อยมาก"
         wrong: ["I teaching Grade 7 this term.", "She teach science every day."]
         right: ["I am teaching Grade 7 this term.", "She teaches science every day."]
+      notes:
+        - {kind: tip, th: "เห็น every, usually, always เมื่อไร นึกถึง present simple ไว้ก่อน"}
+        - {kind: warn, th: "กริยา -ing อยู่ตัวเดียวไม่ได้นะ ต้องมี am/is/are นำหน้าเสมอ"}
     check: [cefr-b1-w01-001, cefr-b1-w01-002]
     practice: [cefr-b1-w01-003, cefr-b1-w01-004, cefr-b1-w01-005, cefr-b1-w01-006, cefr-b1-w01-007, cefr-b1-w01-008, cefr-b1-w01-009, cefr-b1-w01-010, cefr-b1-w01-011, cefr-b1-w01-012]
     use:

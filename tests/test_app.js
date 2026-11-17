@@ -60,12 +60,17 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await p.click('#startBtn'); await p.waitForSelector('#stepLabel');
   ok((await p.textContent('#stepLabel')).includes('ขั้น 2 จาก 5'), 'วันแรกไม่มีข้อทบทวน เริ่มที่ขั้นเรียน');
   await p.screenshot({ path: path.join(SHOTS, 'app_learn.png'), fullPage: true });
+  ok(await p.$$eval('.sticky', (x) => x.length) === 2 && await p.$$eval('h2.rule mark.hl.y', (x) => x.length) === 2, 'บทเรียนมีโน้ตแปะ 2 ใบ และไฮไลต์เหลืองในกติกา');
+  ok(await p.$$eval('.ex .spk', (x) => x.length) === 4 && await p.$('.spkth') !== null, 'บทเรียนมีปุ่มฟังประโยคตัวอย่างครบ 4 ประโยค และปุ่มฟังคำอธิบาย');
+  ok(await p.evaluate(() => { const b = document.querySelector('.ex .spk'); const r = b.getBoundingClientRect(); return r.width >= 44 && r.height >= 44; }), 'ปุ่มลำโพงใหญ่พอสำหรับนิ้ว (44px)');
   await step(p);                                                      // บทเรียน
   await step(p); await step(p);                                       // ข้อเช็ก 2 ข้อ
   await step(p, true);                                                // ข้อฝึกข้อแรก: ตอบผิด
   ok((await p.textContent('#stepLabel')).includes('ฝึก'), 'อยู่ในขั้นฝึก');
   await p.evaluate(() => document.querySelector('[data-item] .opt[data-choice="0"]').click());
   ok(await p.$$eval('[data-item] .why', (w) => w.length === 4), 'ตอบแล้วเห็นเหตุผลของทั้ง 4 ตัวเลือก');
+  ok(await p.$$eval('[data-item] .why mark.hl', (x) => x.length) >= 1 && !(await p.textContent('[data-item]')).includes('++'), 'เหตุผลมีไฮไลต์ และไม่มีเครื่องหมายดิบหลุดออกมา');
+  ok(await p.$('#sayRight') !== null, 'หลังตอบมีปุ่มฟังประโยคที่ถูก');
   ok(await p.$$eval('[data-item] .opt b', (bs) => bs.map((x) => x.textContent).join('') === '1234'), 'ตัวเลือกแสดงเป็น 1 2 3 4');
   ok(await noOverflow(p), 'หน้าข้อฝึกไม่ล้นจอ 390'); await p.screenshot({ path: path.join(SHOTS, 'app_item.png'), fullPage: true });
   const labelBefore = await p.textContent('#stepLabel');
@@ -119,6 +124,14 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await p2.waitForSelector('#usePlan'); await p2.click('#usePlan'); await p2.waitForSelector('#startBtn'); await p2.click('#startBtn'); await p2.waitForSelector('#stepLabel');
   await step(p2); await step(p2);
   ok(await p2.$('[data-item]') !== null, 'รุ่นไฟล์เดียวเล่นเซสชันได้');
+  // เบราว์เซอร์ที่ไม่ให้ใช้ที่เก็บในเครื่อง: แอปต้องยังเรียนได้ด้วยที่เก็บสำรองในหน่วยความจำ
+  const p4 = await ctx.newPage(); p4.on('pageerror', (e) => errs.push('nostore: ' + e));
+  await p4.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
+  await p4.addInitScript(() => { Object.defineProperty(window, 'localStorage', { get() { throw new Error('blocked'); } }); });
+  await p4.goto(base + '/dist-demo/app.html'); await p4.waitForSelector('#usePlan'); await p4.click('#usePlan'); await p4.waitForSelector('#startBtn');
+  await p4.click('#startBtn'); await p4.waitForSelector('#stepLabel'); await step(p4); await step(p4);
+  ok(await p4.$('[data-item]') !== null, 'ไม่มีที่เก็บในเครื่องก็ยังเริ่มเรียนได้');
+  ok(await p4.$$eval('.sticky', (x) => x.length) === 0 && true, 'หน้าข้อไม่มีโน้ตแปะ (โน้ตแปะอยู่เฉพาะบทเรียน)');
   // เว็บจริง (ไม่มีข้อมูล): ต้องไม่มีเนื้อหา และเปิดได้โดยไม่พัง
   const p3 = await ctx.newPage(); const e3 = []; p3.on('pageerror', (e) => e3.push(String(e)));
   await p3.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());

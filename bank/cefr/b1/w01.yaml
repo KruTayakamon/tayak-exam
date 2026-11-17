@@ -8,11 +8,11 @@
   level: 1
   stem: Ms Suda ____ science to Grade 8 students every Monday and Wednesday.
   choices:
-    - {t: teaches, why: "every Monday and Wednesday บอกกิจวัตรที่ทำประจำ ใช้ present simple และประธานเอกพจน์ต้องเติม -es"}
-    - {t: is teaching, why: "present continuous ใช้กับสิ่งที่กำลังเกิดตอนนี้หรือชั่วคราว ไม่ใช้กับตารางประจำทุกสัปดาห์"}
-    - {t: teach, why: "ประธาน Ms Suda เป็นเอกพจน์บุรุษที่ 3 กริยาต้องเติม -es"}
-    - {t: teaching, why: "กริยาเติม -ing ตัวเดียวเป็นกริยาหลักของประโยคไม่ได้ ต้องมี is นำหน้า"}
-  explain: คำบอกความถี่ (every..., usually, always) เป็นสัญญาณของ present simple
+    - {t: teaches, why: "มี every Monday and Wednesday แปลว่าสอนเป็นประจำ เลยใช้ present simple และ Ms Suda คนเดียว ต้อง ++เติม -es++"}
+    - {t: is teaching, why: "อันนี้ไว้ใช้กับเรื่องที่กำลังทำตอนนี้หรือทำชั่วคราว แต่ตารางสอนทุกสัปดาห์คือเรื่องประจำนะ"}
+    - {t: teach, why: "เกือบถูกแล้ว แต่ Ms Suda เป็นคนเดียว เลย ~~ลืมเติม -es~~ ไป"}
+    - {t: teaching, why: "กริยา -ing ยืนเดี่ยว ๆ เป็นกริยาหลักไม่ได้ ต้องมี is มาด้วยเสมอ"}
+  explain: "เจอคำบอกความถี่ (every..., usually, always) ให้นึกถึง ==present simple=="
   status: draft
 - id: cefr-b1-w01-002
   kind: mcq
@@ -21,11 +21,11 @@
   level: 1
   stem: Please be quiet. The students ____ a test at the moment.
   choices:
-    - {t: are taking, why: "at the moment บอกว่ากำลังเกิดขึ้นตอนนี้ ใช้ present continuous (are + กริยา -ing)"}
-    - {t: take, why: "present simple ใช้กับกิจวัตรหรือข้อเท็จจริง ไม่ใช่สิ่งที่กำลังเกิดขณะพูด"}
-    - {t: takes, why: "นอกจากผิด tense แล้ว The students เป็นพหูพจน์ จึงเติม -s ไม่ได้"}
-    - {t: were taking, why: "past continuous ใช้กับอดีต แต่ประโยคนี้พูดถึงตอนนี้ (at the moment)"}
-  explain: at the moment, now, right now, Look! เป็นสัญญาณของ present continuous
+    - {t: are taking, why: "at the moment คือตอนนี้เลย นักเรียนกำลังสอบอยู่ ใช้ ++are + กริยา -ing++"}
+    - {t: take, why: "take เฉย ๆ คือเรื่องที่ทำประจำ แต่ประโยคนี้พูดถึงสิ่งที่กำลังเกิดตรงหน้า"}
+    - {t: takes, why: "ผิดสองชั้นเลย ทั้ง tense และ The students มีหลายคน ~~เติม -s ไม่ได้~~"}
+    - {t: were taking, why: "were taking เป็นเรื่องในอดีต แต่ at the moment บอกชัดว่าเป็นตอนนี้"}
+  explain: "เจอ at the moment, now, right now, Look! ให้นึกถึง ==present continuous=="
   status: draft
 - id: cefr-b1-w01-003
   kind: mcq
@@ -34,11 +34,11 @@
   level: 2
   stem: I usually ____ to school by motorcycle, but this week I ____ my husband's car.
   choices:
-    - {t: go / am using, why: "usually คือกิจวัตร ใช้ present simple ส่วน this week คือช่วงชั่วคราว ใช้ present continuous"}
-    - {t: am going / use, why: "สลับกัน: usually ต้องคู่กับ present simple และ this week ที่เป็นเรื่องชั่วคราวต้องใช้ continuous"}
-    - {t: go / use, why: "ช่องแรกถูก แต่ช่องหลังเป็นสิ่งที่ทำชั่วคราวเฉพาะสัปดาห์นี้ จึงควรเป็น am using"}
-    - {t: am going / am using, why: "ช่องหลังถูก แต่ usually บอกกิจวัตร ช่องแรกจึงต้องเป็น go"}
-  explain: ประโยคเดียวมีได้ทั้งสอง tense ให้ดูคำบอกเวลาของแต่ละส่วน
+    - {t: go / am using, why: "ช่องแรกมี usually เป็นเรื่องประจำ ส่วนช่องหลังมี this week เป็นเรื่องชั่วคราว ++ดูคำบอกเวลาทีละช่อง++"}
+    - {t: am going / use, why: "อันนี้สลับกันพอดี usually ต้องคู่กับ go ส่วน this week ต้องคู่กับ am using"}
+    - {t: go / use, why: "ช่องแรกถูกแล้ว แต่ช่องหลังเป็นเรื่องเฉพาะสัปดาห์นี้ ต้องเป็น am using"}
+    - {t: am going / am using, why: "ช่องหลังถูกแล้ว แต่ช่องแรกมี usually เป็นเรื่องประจำ ต้องเป็น go"}
+  explain: "ประโยคเดียวมีสอง tense ได้ ให้ ==ดูคำบอกเวลาของแต่ละส่วน=="
   status: draft
 - id: cefr-b1-w01-004
   kind: mcq
@@ -47,11 +47,11 @@
   level: 1
   stem: Water ____ at 100 degrees Celsius.
   choices:
-    - {t: boils, why: "เป็นข้อเท็จจริงทางวิทยาศาสตร์ที่จริงเสมอ ใช้ present simple และ water เป็นเอกพจน์จึงเติม -s"}
-    - {t: is boiling, why: "ใช้เมื่อพูดถึงน้ำที่กำลังเดือดอยู่ตรงหน้า ไม่ใช่ข้อเท็จจริงทั่วไป"}
-    - {t: boil, why: "water เป็นนามนับไม่ได้ ถือเป็นเอกพจน์ กริยาต้องเติม -s"}
-    - {t: are boiling, why: "water ใช้กับ are ไม่ได้ และประโยคนี้ไม่ได้พูดถึงสิ่งที่กำลังเกิด"}
-  explain: ข้อเท็จจริงและสิ่งที่จริงเสมอ ใช้ present simple
+    - {t: boils, why: "น้ำเดือดที่ 100 องศาเป็นเรื่องจริงเสมอ ใช้ present simple และ water นับเป็นหนึ่งเดียว ต้อง ++เติม -s++"}
+    - {t: is boiling, why: "is boiling ไว้พูดตอนน้ำกำลังเดือดอยู่ตรงหน้า ไม่ใช่ความจริงทั่วไป"}
+    - {t: boil, why: "water นับไม่ได้ ให้ถือว่าเป็นหนึ่งเดียว กริยาเลยต้องเติม -s"}
+    - {t: are boiling, why: "water ~~ใช้กับ are ไม่ได้~~ แล้วประโยคนี้ก็ไม่ได้พูดถึงสิ่งที่กำลังเกิดด้วย"}
+  explain: "เรื่องที่จริงเสมอ ใช้ ==present simple=="
   status: draft
 - id: cefr-b1-w01-005
   kind: mcq

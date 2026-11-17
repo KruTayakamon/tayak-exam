@@ -2,7 +2,7 @@
 // สเปก: docs/cefr/01_course_design.md ข้อ 3.1 และ docs/cefr/07_web_app.md
 import { api } from './api.js';
 import { getSession, putSession, clearSession, getQueue, pushEvent, dropEvents, newId } from './store.js';
-import { renderItem, el, esc, mark, say, canSay } from './items.js';
+import { renderItem, el, esc, mark, rich, notesHtml, say, canSay, spk, spkThai } from './items.js';
 
 const STEP_NO = { review: 0, learn: 1, check: 1, lab_prepare: 1, practice: 2, mock: 2, use: 3, lab_do: 3, close: 4 };
 const STEP_TH = { review: 'ทบทวน', learn: 'เรียน', check: 'เรียน', lab_prepare: 'เตรียม', practice: 'ฝึก', mock: 'ชุดย่อย', use: 'ใช้', lab_do: 'ลงมือ', close: 'สรุป' };
@@ -76,12 +76,29 @@ export async function openSession(root, kind, onExit) {
       }, { onReport: (id) => api.report({ item_id: id, why: 'other' }) });
     } else if (card.type === 'learn') {
       const L = card.lesson;
-      body.appendChild(el(`<h2>${esc(L.rule_th)}</h2>`));
-      body.appendChild(el('<div class="card">' + L.examples.map((x) => `<div class="ex"><span class="en">${mark(x.en)}</span><span class="small">${esc(x.th)}</span></div>`).join('') + '</div>'));
-      if (L.words) body.appendChild(el('<div class="card"><h2>คำศัพท์วันนี้</h2><ul class="words">' + L.words.map((w) => `<li><span class="en"><b>${esc(w.w)}</b></span> <span class="small">${esc(w.pos)}</span> ${esc(w.th)}<div class="en small">${esc(w.ex)}</div></li>`).join('') + '</ul></div>'));
+      body.appendChild(el(`<h2 class="rule">${rich(L.rule_th)}</h2>`));
+      const th = spkThai([L.rule_th, L.thai_trap ? L.thai_trap.intro_th : '', ...(L.notes || []).map((n) => n.th)].join(' . '));
+      if (th) body.appendChild(th);
+      const exs = el('<div class="card"></div>');
+      for (const x of L.examples) {
+        const row = el(`<div class="ex"><div class="row"><span class="en grow">${mark(x.en)}</span></div><span class="small">${rich(x.th)}</span></div>`);
+        const sp = spk(x.en.replace(/<\/?k>/g, '')); if (sp) row.querySelector('.row').appendChild(sp);
+        exs.appendChild(row);
+      }
+      body.appendChild(exs);
+      if (L.notes) body.appendChild(el('<div class="stickies">' + notesHtml(L.notes) + '</div>'));
+      if (L.words) {
+        const wl = el('<div class="card"><h2>คำศัพท์วันนี้</h2><ul class="words"></ul></div>');
+        for (const w of L.words) {
+          const li = el(`<li><div class="row"><span class="grow"><span class="en"><b>${esc(w.w)}</b></span> <span class="small">${esc(w.pos)}</span> ${esc(w.th)}</span></div><div class="en small">${esc(w.ex)}</div></li>`);
+          const sp = spk(`${w.w}. ${w.ex}`, `ฟังคำว่า ${w.w}`); if (sp) li.querySelector('.row').appendChild(sp);
+          wl.querySelector('ul').appendChild(li);
+        }
+        body.appendChild(wl);
+      }
       for (const g of L.signals || []) body.appendChild(el(`<p class="small"><b>${esc(g.label_th)}:</b> <span class="en">${esc(g.words.join(', '))}</span></p>`));
       const t = L.thai_trap;
-      body.appendChild(el(`<div class="card"><h2>จุดที่คนไทยพลาดบ่อย</h2><p>${esc(t.intro_th)}</p>` + t.wrong.map((w, i) => `<p><s class="en">${esc(w)}</s><br><span class="en"><b>${esc(t.right[i] ?? '')}</b></span></p>`).join('') + '</div>'));
+      body.appendChild(el(`<div class="card"><h2>จุดที่คนไทยพลาดบ่อย</h2><p>${rich(t.intro_th)}</p>` + t.wrong.map((w, i) => `<p><s class="en">${esc(w)}</s><br><span class="en"><b>${esc(t.right[i] ?? '')}</b></span></p>`).join('') + '</div>'));
       body.appendChild(nextBtn('เข้าใจแล้ว ไปต่อ'));
     } else if (card.type === 'use') {
       const u = card.use;

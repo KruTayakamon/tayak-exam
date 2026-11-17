@@ -1,8 +1,15 @@
 // ที่เก็บในเครื่องผู้เรียน: เซสชันที่ทำค้าง คิวคำตอบที่ยังไม่ได้ส่ง และค่าที่ผู้เรียนตั้ง · ทุกการอ่านเขียนห่อ try/catch (โหมดส่วนตัวอาจใช้ไม่ได้)
 const K = { session: 'cfk-session', queue: 'cfk-queue', prefs: 'cfk-prefs' };
-export function load(key, fallback) { try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch { return fallback; } }
-export function save(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } }
-export function drop(key) { try { localStorage.removeItem(key); } catch { /* ไม่มีที่เก็บ */ } }
+const mem = {};                         // ที่เก็บสำรองในหน่วยความจำ: ใช้เมื่อเบราว์เซอร์ไม่ให้ใช้ localStorage (ข้อมูลอยู่ได้จนปิดหน้า)
+export function load(key, fallback) {
+  if (key in mem) return JSON.parse(mem[key]);
+  try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch { return fallback; }
+}
+export function save(key, value) {
+  const v = JSON.stringify(value);
+  try { localStorage.setItem(key, v); delete mem[key]; return true; } catch { mem[key] = v; return false; }
+}
+export function drop(key) { delete mem[key]; try { localStorage.removeItem(key); } catch { /* ไม่มีที่เก็บ */ } }
 
 export const getSession = () => load(K.session, null);
 export const putSession = (s) => save(K.session, s);

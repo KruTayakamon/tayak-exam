@@ -29,6 +29,22 @@ def text_of(obj):
     if isinstance(obj, list): return ' '.join(text_of(v) for v in obj)
     return ''
 
+HL = re.compile(r'==(.+?)==|\+\+(.+?)\+\+|~~(.+?)~~')
+NOTE_KINDS = {'pin', 'warn', 'tip', 'use'}
+STIFF = ['ดังนั้น', 'กล่าวคือ', 'อนึ่ง', 'ทั้งนี้', 'ครับ', 'ค่ะ', 'ท่าน', 'ผู้เรียน']     # คำที่ทำให้เสียงแข็งหรือเป็นทางการเกินไป (เตือน ไม่ล้ม)
+def check_voice(where, text, allow_hl=True, max_hl=2, stiff=True):
+    """ตรวจข้อความ: เครื่องหมายไฮไลต์ครบคู่ ไม่เกินจำนวน ไม่ยาวเกิน (กติกา docs/writing/voice.md)"""
+    if not isinstance(text, str): err(where, 'ต้องเป็นข้อความ (ถ้าขึ้นต้นด้วยเครื่องหมายให้ครอบด้วยเครื่องหมายคำพูด)'); return
+    marks = [m.group(1) or m.group(2) or m.group(3) for m in HL.finditer(text)]
+    if re.search(r'==|\+\+|~~', HL.sub('', text)): err(where, 'เครื่องหมายไฮไลต์ไม่ครบคู่ (== ++ ~~)')
+    if marks and not allow_hl: err(where, 'ห้ามใส่ไฮไลต์ในโจทย์ ตัวเลือก หรือข้อความภาษาอังกฤษ')
+    if len(marks) > max_hl: err(where, f'ไฮไลต์ {len(marks)} จุด เกิน {max_hl} จุดต่อข้อความ (เน้นทุกอย่างเท่ากับไม่ได้เน้น)')
+    for m in marks:
+        if len(m) > 40: err(where, f'ไฮไลต์ยาวเกิน 40 ตัวอักษร: {m[:30]}...')
+    if stiff and allow_hl:
+        for w in STIFF:
+            if w in text: warn(where, f'คำว่า "{w}" ทำให้เสียงเป็นทางการ ลองเขียนแบบเพื่อนเล่าให้เพื่อนฟัง'); break
+
 def check_choices(where, choices, stats):
     """ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · 4 ตัวเลือก · ทุกตัวมี why"""
     if not isinstance(choices, list) or len(choices) != 4:
@@ -38,6 +54,7 @@ def check_choices(where, choices, stats):
         if not isinstance(c, dict) or not c.get('t') or not c.get('why'):
             err(where, f'ตัวเลือกที่ {i+1} ต้องมี t และ why'); return
         texts.append(str(c['t']).strip()); whys.append(str(c['why']).strip())
+        check_voice(f'{where} ตัวเลือก {i+1} why', c['why'], max_hl=1); check_voice(f'{where} ตัวเลือก {i+1}', str(c['t']), allow_hl=False)
         if len(whys[-1]) < MIN_WHY: err(where, f'why ของตัวเลือกที่ {i+1} สั้นเกินไป (<{MIN_WHY})')
     if len(set(t.lower() for t in texts)) != 4: err(where, 'ตัวเลือกซ้ำกัน')
     if len(set(whys)) != 4: err(where, 'why ซ้ำกัน (ต้องอธิบายเฉพาะตัวเลือกนั้น)')
@@ -63,6 +80,10 @@ def check_item(path, it, seen, stats):
     body = text_of(it)
     for b in BANNED:
         if b.lower() in body.lower(): err(where, f'มีคำต้องห้าม "{b}"')
+    for f in ('stem', 'sentence', 'text', 'passage'):
+        if it.get(f): check_voice(f'{where} {f}', str(it[f]), allow_hl=False)
+    for f in ('explain', 'why'):
+        if it.get(f): check_voice(f'{where} {f}', it[f], max_hl=1)
     k = it.get('kind')
     if k == 'mcq':
         if not it.get('stem'): err(where, 'ขาด stem')
@@ -139,6 +160,16 @@ def main():
                 if not L.get('rule_th'): err(where, 'บทเรียนต้องมี rule_th (กติกา 1–2 บรรทัด)')
                 if len(L.get('examples', [])) < 3: err(where, 'บทเรียนต้องมีตัวอย่างอย่างน้อย 3 ประโยค')
                 if not L.get('thai_trap'): err(where, 'บทเรียนต้องมี thai_trap (จุดที่คนไทยพลาดบ่อย)')
+                if L.get('rule_th'): check_voice(f'{where} rule_th', L['rule_th'])
+                for x in L.get('examples', []): check_voice(f'{where} ตัวอย่าง', x.get('th', ''), max_hl=1); check_voice(f'{where} ตัวอย่าง en', re.sub(r'</?k>', '', x.get('en', '')), allow_hl=False)
+                if L.get('thai_trap'): check_voice(f'{where} thai_trap', L['thai_trap'].get('intro_th', ''))
+                notes = L.get('notes', [])
+                if len(notes) > 2: err(where, 'โน้ตแปะได้ไม่เกิน 2 ใบต่อบทเรียน')
+                for nt in notes:
+                    plain = HL.sub(lambda m: m.group(1) or m.group(2) or m.group(3), str(nt.get('th', '')))
+                    if nt.get('kind') not in NOTE_KINDS: err(where, f"โน้ตแปะ kind ต้องเป็นหนึ่งใน {sorted(NOTE_KINDS)}")
+                    if not plain or len(plain) > 90: err(where, 'โน้ตแปะต้องมีข้อความ และยาวไม่เกิน 90 ตัวอักษร')
+                    else: check_voice(f'{where} โน้ตแปะ', nt['th'], max_hl=1)
                 pts = sum(points(items[i]) for i in s.get('practice', []) if i in items)
                 if pts < 8: err(where, f'ขั้นฝึกมี {pts} คะแนน ต้องมีอย่างน้อย 8')
                 if len(s.get('check', [])) < 2: err(where, 'ต้องมีข้อเช็กความเข้าใจ 2 ข้อ')
