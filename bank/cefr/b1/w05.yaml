@@ -1,0 +1,585 @@
+# คอร์ส b1 · สัปดาห์ 5 · แผน การนัดหมาย และกิจกรรม · will · be going to · present continuous สำหรับอนาคต · first conditional · unless
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# หลักการเขียนตัวลวง: เรื่องอนาคตหลายรูปถูกได้พร้อมกัน จึงให้ตัวลวงผิดรูปหรือผิดความหมายชัดเจนเท่านั้น
+# ---------- วันที่ 1 · will · be going to · present continuous ----------
+- id: cefr-b1-w05-001
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 1
+  stem: Look at those dark clouds. It ____ rain.
+  choices:
+    - {t: is going to, why: "เห็นหลักฐานตรงหน้าว่าจะเกิด ใช้ ++is going to++"}
+    - {t: going to, why: "ขาด is ไป going to ต้องมี am/is/are นำหน้าเสมอ"}
+    - {t: will going to, why: "will กับ going to ใช้ซ้อนกันไม่ได้"}
+    - {t: is raining to, why: "ไม่มีรูปนี้ในภาษาอังกฤษ"}
+  explain: "มีหลักฐานให้เห็นตอนนี้ว่าจะเกิด ใช้ ==be going to=="
+  status: approved
+- id: cefr-b1-w05-002
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 1
+  stem: "\"The phone's ringing.\" \"Don't worry, I ____ it.\""
+  choices:
+    - {t: "'ll get", why: "ตัดสินใจตอนนั้นทันทีว่าจะรับสาย ใช้ ++will++"}
+    - {t: get, why: "get เฉย ๆ เป็นปัจจุบัน ไม่ได้บอกว่าจะทำเดี๋ยวนี้"}
+    - {t: "'m get", why: "am ใช้กับ get รูปเดิมไม่ได้"}
+    - {t: will to get, why: "หลัง will ใช้กริยารูปเดิม ไม่มี to"}
+  explain: "ตัดสินใจ ==ตอนพูดเลย== หรืออาสาช่วย ใช้ will"
+  status: approved
+- id: cefr-b1-w05-003
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: I ____ my dentist at 3 p.m. tomorrow. I booked it last week.
+  choices:
+    - {t: am seeing, why: "นัดที่จองไว้แล้วมีเวลาแน่นอน ใช้ ++present continuous++"}
+    - {t: see, why: "present simple ใช้กับตารางเวลา ไม่ใช่นัดส่วนตัว"}
+    - {t: am see, why: "am ใช้กับ see รูปเดิมไม่ได้"}
+    - {t: will seeing, why: "หลัง will ต้องเป็นกริยารูปเดิม"}
+  explain: "นัดที่ ==จองแล้ว มีวันเวลาชัด== ใช้ am/is/are + -ing ได้เลย"
+  status: approved
+- id: cefr-b1-w05-004
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 1
+  stem: I've decided. I ____ learn Japanese next year.
+  choices:
+    - {t: am going to, why: "ตัดสินใจไว้ก่อนแล้วเป็นแผน ใช้ ++am going to++"}
+    - {t: going to, why: "ขาด am หน้า going to"}
+    - {t: will going to, why: "ซ้อน will กับ going to ไม่ได้"}
+    - {t: am learn, why: "am ใช้กับ learn รูปเดิมไม่ได้"}
+  explain: "แผนหรือความตั้งใจที่ ==คิดไว้ก่อนแล้ว== ใช้ be going to"
+  status: approved
+- id: cefr-b1-w05-005
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: That box looks heavy. I ____ you carry it.
+  choices:
+    - {t: "'ll help", why: "อาสาช่วยตอนนั้นทันที ใช้ ++will++"}
+    - {t: help, why: "help เฉย ๆ ฟังเหมือนช่วยเป็นประจำ ไม่ใช่การเสนอตัว"}
+    - {t: "'m helping to", why: "รูปนี้ผิดไวยากรณ์ และ to ไม่ต้องมี"}
+    - {t: will to help, why: "หลัง will ไม่มี to"}
+  explain: "เสนอความช่วยเหลือ (offer) ใช้ ==I'll ...== เช่น I'll open the door for you"
+  status: approved
+- id: cefr-b1-w05-006
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: ____ you doing anything this Saturday evening?
+  choices:
+    - {t: Are, why: "ถามแผนที่นัดไว้แล้ว ใช้ ++Are you + -ing++"}
+    - {t: Do, why: "Do ต้องตามด้วยกริยารูปเดิม ไม่ใช่ doing"}
+    - {t: Will, why: "Will ต้องตามด้วยกริยารูปเดิม ไม่ใช่ doing"}
+    - {t: Have, why: "Have ต้องตามด้วยกริยาช่อง 3"}
+  explain: "ชวนใครไปไหน มักถามก่อนว่า ==Are you doing anything ...?=="
+  status: approved
+- id: cefr-b1-w05-007
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 1
+  stem: I promise I ____ tell anyone your secret.
+  choices:
+    - {t: won't, why: "สัญญาว่าจะไม่ทำ ใช้ ++won't++ (will not)"}
+    - {t: don't, why: "don't เป็นปัจจุบัน ไม่ได้เป็นคำสัญญาเรื่องอนาคต"}
+    - {t: am not, why: "am not ใช้กับ tell รูปเดิมไม่ได้"}
+    - {t: not will, why: "ลำดับคำผิด ต้องเป็น will not หรือ won't"}
+  explain: "คำสัญญา ใช้ ==will / won't== เช่น I'll call you. I won't be late."
+  status: approved
+- id: cefr-b1-w05-008
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: The train to Ayutthaya ____ at 9.15 tomorrow morning.
+  choices:
+    - {t: leaves, why: "ตารางเดินรถที่กำหนดไว้ ใช้ ++present simple++ ได้แม้เป็นพรุ่งนี้"}
+    - {t: leave, why: "the train เป็นเอกพจน์ ต้องเติม s"}
+    - {t: is leave, why: "is ใช้กับ leave รูปเดิมไม่ได้"}
+    - {t: will leaving, why: "หลัง will ต้องเป็นกริยารูปเดิม"}
+  explain: "ตารางเวลาที่ตายตัว (รถไฟ เครื่องบิน โรงหนัง) ใช้ ==present simple== กับอนาคตได้"
+  status: approved
+- id: cefr-b1-w05-009
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: I think the new shopping mall ____ very popular.
+  choices:
+    - {t: will be, why: "คาดเดาตามความคิดเห็นด้วย I think ใช้ ++will++"}
+    - {t: will is, why: "หลัง will ต้องเป็น be ไม่ใช่ is"}
+    - {t: is being, why: "is being ใช้กับพฤติกรรมชั่วคราว ไม่ใช่การคาดเดาอนาคต"}
+    - {t: be, why: "ขาด will ไม่ได้บอกอนาคต"}
+  explain: "I think / probably / I'm sure + ==will== ใช้คาดเดาตามความเห็น"
+  status: approved
+- id: cefr-b1-w05-010
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 3
+  stem: "\"Why are you buying so much flour?\" \"I ____ make cakes for the school fair.\""
+  choices:
+    - {t: "'m going to", why: "ซื้อแป้งเพราะมีแผนอยู่แล้ว ใช้ ++be going to++"}
+    - {t: "'ll going to", why: "will กับ going to ใช้ซ้อนกันไม่ได้"}
+    - {t: "'m make", why: "am ใช้กับ make รูปเดิมไม่ได้"}
+    - {t: going, why: "ขาด am และ to จึงไม่ครบรูป be going to"}
+  explain: "อธิบายเหตุผลของสิ่งที่เตรียมไว้แล้ว ใช้ ==be going to== ไม่ใช่ will"
+  status: approved
+- id: cefr-b1-w05-011
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 1
+  stem: What time ____ the concert start?
+  choices:
+    - {t: does, why: "ถามเวลาตามกำหนดการ ใช้ ++does + กริยารูปเดิม++"}
+    - {t: is, why: "is ใช้กับ start รูปเดิมไม่ได้"}
+    - {t: will starting, why: "รูปนี้ผิด ลำดับและรูปกริยาไม่ถูก"}
+    - {t: do, why: "the concert เป็นเอกพจน์ ใช้ does"}
+  explain: "ถามเวลาตามตาราง ==What time does ... start?== ใช้ได้กับงานในอนาคต"
+  status: approved
+- id: cefr-b1-w05-012
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: We ____ to Hua Hin this weekend. We've already booked the hotel.
+  choices:
+    - {t: are driving, why: "แผนที่จองแล้ว ใช้ ++are + -ing++ บอกอนาคตได้"}
+    - {t: drive, why: "drive เฉย ๆ เป็นปัจจุบันธรรมดา ไม่ได้บอกแผนสุดสัปดาห์นี้"}
+    - {t: are drive, why: "are ใช้กับ drive รูปเดิมไม่ได้"}
+    - {t: will driving, why: "หลัง will ต้องเป็นกริยารูปเดิม"}
+  explain: "จองแล้ว นัดแล้ว ==am/is/are + -ing== ใช้เล่าแผนได้เป็นธรรมชาติที่สุด"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์กิจกรรมและการนัดหมาย ----------
+- id: cefr-b1-w05-013
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 1
+  stem: Did you hear the ____? The office will close early on Friday.
+  choices:
+    - {t: announcement, why: "ข่าวแจ้งให้ทุกคนทราบเรียกว่า ++announcement++ ประกาศ"}
+    - {t: audience, why: "audience คือผู้ชม ไม่ใช่สิ่งที่ได้ยิน"}
+    - {t: budget, why: "budget คืองบประมาณ ไม่เกี่ยวกับการแจ้งปิดออฟฟิศ"}
+    - {t: competition, why: "competition คือการแข่งขัน ไม่ใช่การแจ้งข่าว"}
+  explain: "announcement = ==ประกาศ การแจ้ง== make an announcement"
+  status: approved
+- id: cefr-b1-w05-014
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 1
+  stem: The photo ____ is open to everyone. The winner gets 5,000 baht.
+  choices:
+    - {t: competition, why: "มีผู้ชนะและรางวัล คือการแข่งขัน ++competition++"}
+    - {t: exhibition, why: "exhibition คือนิทรรศการ ไม่มีผู้ชนะ"}
+    - {t: audience, why: "audience คือผู้ชม ไม่ใช่งานที่เปิดรับคน"}
+    - {t: announcement, why: "announcement คือประกาศ ไม่มีผู้ชนะ"}
+  explain: "competition = ==การแข่งขัน== enter / win a competition"
+  status: approved
+- id: cefr-b1-w05-015
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: There is an art ____ at the city museum this month. You can see paintings by local artists.
+  choices:
+    - {t: exhibition, why: "งานจัดแสดงภาพให้คนชม คือ ++exhibition++ นิทรรศการ"}
+    - {t: competition, why: "competition ต้องมีผู้แข่งขันและผู้ชนะ"}
+    - {t: audience, why: "audience คือผู้ชม ไม่ใช่งานที่จัดแสดง"}
+    - {t: budget, why: "budget คืองบประมาณ ไม่ได้จัดแสดงภาพ"}
+  explain: "exhibition = ==นิทรรศการ== an art exhibition"
+  status: approved
+- id: cefr-b1-w05-016
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 1
+  stem: We're having a party to ____ my mother's 60th birthday.
+  choices:
+    - {t: celebrate, why: "จัดงานฉลองวันเกิด ใช้ ++celebrate++"}
+    - {t: gather, why: "gather แปลว่ารวมตัว ไม่ได้ใช้กับวันเกิดเป็นกรรม"}
+    - {t: confirm, why: "confirm แปลว่ายืนยัน ไม่ใช่การฉลอง"}
+    - {t: expect, why: "expect แปลว่าคาดหวัง ไม่ใช่การจัดงาน"}
+  explain: "celebrate + โอกาสพิเศษ = ==ฉลอง== celebrate a birthday / success"
+  status: approved
+- id: cefr-b1-w05-017
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 1
+  stem: The outdoor concert was ____ because of the storm. They'll give everyone their money back.
+  choices:
+    - {t: cancelled, why: "พายุมาเลยยกเลิกและคืนเงิน ใช้ ++cancelled++"}
+    - {t: delayed, why: "delayed แปลว่าเลื่อนช้าออกไป ยังจัดอยู่ ไม่ต้องคืนเงิน"}
+    - {t: confirmed, why: "confirmed แปลว่ายืนยันว่าจัด ขัดกับการคืนเงิน"}
+    - {t: celebrated, why: "celebrated แปลว่าฉลอง ไม่เข้ากับพายุ"}
+  explain: "cancel = ==ยกเลิกเลย== · delay = เลื่อนออกไป (ยังจัด)"
+  status: approved
+- id: cefr-b1-w05-018
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: Our flight was ____ by two hours, so we arrived very late.
+  choices:
+    - {t: delayed, why: "เครื่องบินออกช้าไปสองชั่วโมง ใช้ ++delayed++"}
+    - {t: cancelled, why: "ถ้ายกเลิกก็จะไม่ได้บินเลย แต่ประโยคบอกว่าไปถึงช้า"}
+    - {t: confirmed, why: "confirmed by two hours ไม่มีความหมาย"}
+    - {t: expected, why: "expected by two hours ไม่ใช่วลีบอกความล่าช้า"}
+  explain: "be delayed by + ระยะเวลา = ==ล่าช้าไป...=="
+  status: approved
+- id: cefr-b1-w05-019
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: Please ____ your booking by email at least two days before the event.
+  choices:
+    - {t: confirm, why: "แจ้งยืนยันการจองล่วงหน้า ใช้ ++confirm++"}
+    - {t: cancel, why: "cancel แปลว่ายกเลิก ไม่ใช่สิ่งที่ผู้จัดขอให้ทำก่อนงาน"}
+    - {t: gather, why: "gather a booking ไม่มีความหมาย"}
+    - {t: celebrate, why: "celebrate a booking ไม่มีความหมาย"}
+  explain: "confirm = ==ยืนยัน== confirm a booking / an appointment"
+  status: approved
+- id: cefr-b1-w05-020
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: The villagers ____ in front of the temple to watch the fireworks.
+  choices:
+    - {t: gathered, why: "คนมารวมตัวกันที่ลานวัด ใช้ ++gathered++"}
+    - {t: celebrated, why: "celebrated ต้องมีสิ่งที่ฉลองเป็นกรรม ไม่ใช้บอกการมารวมตัว"}
+    - {t: confirmed, why: "confirmed แปลว่ายืนยัน ไม่เข้ากับ in front of the temple"}
+    - {t: expected, why: "expected ต้องมีกรรมตามหลัง"}
+  explain: "gather = ==มารวมตัวกัน== people gather in / at a place"
+  status: approved
+- id: cefr-b1-w05-021
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: The ____ clapped loudly at the end of the show.
+  choices:
+    - {t: audience, why: "คนที่ดูการแสดงแล้วปรบมือคือ ++audience++ ผู้ชม"}
+    - {t: exhibition, why: "exhibition คือนิทรรศการ ปรบมือไม่ได้"}
+    - {t: announcement, why: "announcement คือประกาศ ไม่ใช่คน"}
+    - {t: budget, why: "budget คืองบประมาณ ไม่ใช่คน"}
+  explain: "audience = ==ผู้ชม ผู้ฟัง== เป็นกลุ่มคน ใช้ได้ทั้ง is และ are"
+  status: approved
+- id: cefr-b1-w05-022
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: We have a small ____, so we can't hire a famous singer.
+  choices:
+    - {t: budget, why: "งบน้อยเลยจ้างนักร้องดังไม่ได้ ใช้ ++budget++"}
+    - {t: audience, why: "a small audience คือคนดูน้อย ไม่เกี่ยวกับการจ้าง"}
+    - {t: exhibition, why: "exhibition ไม่เกี่ยวกับการจ้างนักร้อง"}
+    - {t: competition, why: "competition ไม่ใช่สาเหตุที่จ้างไม่ได้"}
+  explain: "budget = ==งบประมาณ== on a small budget, over budget"
+  status: approved
+- id: cefr-b1-w05-023
+  kind: mcq
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: We ____ about 200 people at the festival, but more may come.
+  choices:
+    - {t: expect, why: "คาดว่าจะมีคนมาประมาณ 200 คน ใช้ ++expect++"}
+    - {t: gather, why: "gather 200 people แปลว่ารวบรวมคน ไม่ได้บอกการคาดการณ์"}
+    - {t: celebrate, why: "celebrate 200 people ไม่มีความหมาย"}
+    - {t: delay, why: "delay แปลว่าเลื่อน ไม่ใช้กับจำนวนคน"}
+  explain: "expect = ==คาดว่าจะ...== expect + คำนาม / to + กริยา"
+  status: approved
+- id: cefr-b1-w05-024
+  kind: type
+  skill: vo
+  topic: events-plans
+  level: 2
+  stem: "We'll start at 9 a.m. u_____ it rains. (เว้นแต่ ถ้าไม่)"
+  answer: unless
+  accept: [unless]
+  why: "unless = if not · เราจะเริ่มเก้าโมง เว้นแต่ฝนตก"
+  status: approved
+# ---------- วันที่ 3 · first conditional · unless · when / as soon as ----------
+- id: cefr-b1-w05-025
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 1
+  stem: If it ____ tomorrow, we'll have the party inside.
+  choices:
+    - {t: rains, why: "ประโยค if ของ first conditional ใช้ ++present simple++ แม้จะเป็นพรุ่งนี้"}
+    - {t: will rain, why: "หลัง if ไม่ใส่ will"}
+    - {t: rained, why: "rained ใช้กับเงื่อนไขสมมติแบบที่ 2 ไม่ใช่เรื่องที่อาจเกิดจริงพรุ่งนี้"}
+    - {t: rain, why: "it ต้องเติม s เป็น rains"}
+  explain: "If + ==present simple==, ... will + กริยา"
+  status: approved
+- id: cefr-b1-w05-026
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 1
+  stem: If you don't hurry, you ____ the bus.
+  choices:
+    - {t: will miss, why: "ผลที่จะเกิดในอนาคต ใช้ ++will + กริยารูปเดิม++"}
+    - {t: miss, why: "ผลของเงื่อนไขในอนาคตต้องใช้ will"}
+    - {t: will missed, why: "หลัง will ต้องเป็นกริยารูปเดิม"}
+    - {t: missing, why: "-ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้"}
+  explain: "ส่วนผลของ first conditional ใช้ ==will + กริยารูปเดิม=="
+  status: approved
+- id: cefr-b1-w05-027
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 2
+  stem: I won't go to the meeting ____ my manager asks me to.
+  choices:
+    - {t: unless, why: "จะไม่ไป เว้นแต่หัวหน้าขอ ใช้ ++unless++ = if not"}
+    - {t: if, why: "if จะได้ความหมายว่าจะไม่ไปถ้าหัวหน้าขอ ซึ่งกลับด้าน"}
+    - {t: until, why: "until แปลว่าจนกว่า ความหมายไม่ตรงกับการให้เงื่อนไข"}
+    - {t: when, why: "when ใช้กับสิ่งที่แน่ใจว่าจะเกิด ไม่ใช่เงื่อนไขยกเว้น"}
+  explain: "unless = ==เว้นแต่ ถ้าไม่== และตามด้วยประโยคบอกเล่า"
+  status: approved
+- id: cefr-b1-w05-028
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 2
+  stem: I'll tell you the result as soon as I ____ it.
+  choices:
+    - {t: get, why: "หลัง as soon as ใช้ ++present simple++ แม้จะพูดถึงอนาคต"}
+    - {t: will get, why: "หลัง as soon as ไม่ใส่ will"}
+    - {t: got, why: "ยังไม่ได้ผล ใช้อดีตไม่ได้"}
+    - {t: am getting, why: "หลัง as soon as ใช้ปัจจุบันธรรมดาเป็นปกติ"}
+  explain: "if / when / as soon as / unless + ==present== · ส่วนหลักใช้ will"
+  status: approved
+- id: cefr-b1-w05-029
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 2
+  stem: ____ you need any help, just call me.
+  choices:
+    - {t: If, why: "ถ้าต้องการความช่วยเหลือ ให้โทรมา ใช้ ++If++"}
+    - {t: Unless, why: "Unless จะแปลว่าถ้าไม่ต้องการก็โทรมา กลับความหมาย"}
+    - {t: Until, why: "Until ไม่ใช้นำเงื่อนไขแบบนี้"}
+    - {t: Since, why: "Since แปลว่าเพราะว่าหรือตั้งแต่ ไม่ใช่เงื่อนไข"}
+  explain: "If + present, ==คำสั่งหรือคำแนะนำ== ก็ได้ เช่น If you're tired, take a break."
+  status: approved
+- id: cefr-b1-w05-030
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 3
+  stem: Unless we ____ now, we'll be late for the show.
+  choices:
+    - {t: leave, why: "unless ตามด้วยประโยคบอกเล่า present simple ++leave++"}
+    - {t: don't leave, why: "unless มีความหมายปฏิเสธในตัว ใส่ don't ซ้ำจะกลับความหมาย"}
+    - {t: will leave, why: "หลัง unless ไม่ใส่ will"}
+    - {t: left, why: "เป็นเรื่องตอนนี้และอนาคต ใช้อดีตไม่ได้"}
+  explain: "unless = if not อยู่แล้ว ==ห้ามใส่ not ซ้ำ=="
+  status: approved
+- id: cefr-b1-w05-031
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 2
+  stem: If the weather is good, we ____ go to the beach.
+  choices:
+    - {t: might, why: "ไม่แน่ใจนักว่าจะไป ใช้ ++might++ ในส่วนผลได้"}
+    - {t: might to, why: "หลัง might ใช้กริยารูปเดิม ไม่มี to"}
+    - {t: will to, why: "หลัง will ไม่มี to"}
+    - {t: are, why: "are ใช้กับ go รูปเดิมไม่ได้"}
+  explain: "ส่วนผลใช้ will หรือ ==might (อาจจะ)== ได้ ตามความมั่นใจ"
+  status: approved
+- id: cefr-b1-w05-032
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 1
+  stem: When I ____ to Chiang Mai next month, I'll visit my aunt.
+  choices:
+    - {t: go, why: "หลัง when ที่พูดถึงอนาคต ใช้ ++present simple++"}
+    - {t: will go, why: "หลัง when ไม่ใส่ will"}
+    - {t: went, why: "next month ยังไม่ถึง ใช้อดีตไม่ได้"}
+    - {t: goes, why: "ประธาน I ไม่เติม es"}
+  explain: "when ใช้กับสิ่งที่ ==แน่ใจว่าจะเกิด== · if ใช้กับสิ่งที่อาจเกิด"
+  status: approved
+- id: cefr-b1-w05-033
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 2
+  stem: What will you do if the shop ____ your size?
+  choices:
+    - {t: doesn't have, why: "ส่วน if ใช้ ++present simple++ และ shop เอกพจน์ใช้ doesn't"}
+    - {t: won't have, why: "หลัง if ไม่ใส่ will"}
+    - {t: don't have, why: "the shop เป็นเอกพจน์ ใช้ doesn't"}
+    - {t: hasn't, why: "has ในความหมายมีของ ปฏิเสธต้องใช้ doesn't have"}
+  explain: "ปฏิเสธในส่วน if ใช้ ==don't / doesn't + กริยารูปเดิม=="
+  status: approved
+- id: cefr-b1-w05-034
+  kind: cloze
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 2
+  text: |
+    Hi everyone,
+    The team lunch is on Friday at 12. If the weather (1) ____ nice, we'll eat in the garden. (2) ____ it rains, we'll stay in the meeting room. Please reply as soon as you (3) ____ this message.
+    Mai
+  questions:
+    - choices:
+        - {t: is, why: "หลัง if ใช้ present simple และ weather เอกพจน์ใช้ is"}
+        - {t: will be, why: "หลัง if ไม่ใส่ will"}
+        - {t: was, why: "เป็นเรื่องวันศุกร์ที่จะถึง ไม่ใช่อดีต"}
+        - {t: are, why: "the weather เป็นเอกพจน์ ใช้ is"}
+    - choices:
+        - {t: If, why: "ถ้าฝนตกจะอยู่ในห้องประชุม ใช้ If"}
+        - {t: Unless, why: "Unless it rains จะแปลว่าถ้าฝนไม่ตก ซึ่งกลับความหมาย"}
+        - {t: Until, why: "Until ไม่ใช้นำเงื่อนไข"}
+        - {t: Although, why: "Although แปลว่าแม้ว่า ไม่เข้ากับประโยค"}
+    - choices:
+        - {t: read, why: "หลัง as soon as ใช้ present simple read"}
+        - {t: will read, why: "หลัง as soon as ไม่ใส่ will"}
+        - {t: reads, why: "ประธาน you ไม่ต้องเติม s ที่กริยา"}
+        - {t: are reading, why: "หลัง as soon as ใช้ปัจจุบันธรรมดา"}
+  status: approved
+# ---------- วันที่ 4 · อ่านประกาศและฟังการเปลี่ยนกำหนดการ ----------
+- id: cefr-b1-w05-035
+  kind: read
+  skill: rd
+  topic: community-notice
+  level: 2
+  title: Riverside Village Night Market · Grand Opening
+  passage: |
+    We are happy to announce that our new night market will open on Saturday, 7 December, in the car park behind the village office. It will run every Saturday from 5 p.m. to 10 p.m.
+
+    There will be about forty stalls selling local food, handmade clothes and plants. On the opening night, the school band is going to play at 7 p.m., and there will be a cooking competition for families. If you want to enter the competition, please register at the village office before 30 November.
+
+    Parking is not available at the market, so please walk, cycle or use the free shuttle bus from the main road. If it rains heavily, the opening will move to the following Saturday.
+  questions:
+    - stem: How often will the market open?
+      choices:
+        - {t: once a week, why: "ย่อหน้าแรก every Saturday = สัปดาห์ละครั้ง"}
+        - {t: every evening, why: "เปิดเฉพาะวันเสาร์ ไม่ใช่ทุกเย็น"}
+        - {t: only on 7 December, why: "7 ธันวาคมเป็นวันเปิดตัว หลังจากนั้นเปิดทุกเสาร์"}
+        - {t: twice a month, why: "ไม่มีการพูดถึงเดือนละสองครั้ง"}
+    - stem: What must families do to join the cooking competition?
+      choices:
+        - {t: register before 30 November, why: "ย่อหน้าสอง please register at the village office before 30 November"}
+        - {t: pay at the market, why: "ไม่มีการพูดถึงค่าสมัคร"}
+        - {t: bring forty dishes, why: "forty คือจำนวนร้าน ไม่ใช่จำนวนอาหาร"}
+        - {t: arrive at 7 p.m., why: "7 p.m. คือเวลาที่วงดนตรีเล่น"}
+    - stem: How should people travel to the market?
+      choices:
+        - {t: without a car, why: "ย่อหน้าสุดท้ายบอกว่าไม่มีที่จอดรถ ให้เดิน ปั่นจักรยาน หรือนั่งรถรับส่ง"}
+        - {t: by car to the village office, why: "ไม่มีที่จอดรถที่ตลาด"}
+        - {t: by school bus, why: "พูดถึงวงดนตรีของโรงเรียน ไม่ใช่รถโรงเรียน"}
+        - {t: by boat, why: "ไม่มีการพูดถึงเรือ"}
+    - stem: What will happen if there is heavy rain?
+      choices:
+        - {t: the opening will be a week later, why: "ย่อหน้าสุดท้าย the opening will move to the following Saturday"}
+        - {t: the market will close forever, why: "แค่เลื่อนวันเปิด ไม่ได้ปิดถาวร"}
+        - {t: the band will not play, why: "ไม่ได้บอกเรื่องวงดนตรีกรณีฝนตก"}
+        - {t: the market will move inside, why: "ไม่มีการย้ายเข้าในอาคาร แต่เลื่อนวัน"}
+  status: approved
+- id: cefr-b1-w05-036
+  kind: listen
+  skill: li
+  topic: schedule-change
+  level: 2
+  script:
+    - {who: Announcer, en: "Attention, please. Tonight's movie in the park has been moved from the football field to the school hall because of the rain. It will still start at seven thirty."}
+  questions:
+    - stem: What has changed?
+      choices:
+        - {t: the place, why: "ย้ายจากสนามฟุตบอลไปหอประชุม แต่เวลาเดิม"}
+        - {t: the time, why: "ผู้ประกาศบอกว่า It will still start at seven thirty เวลาไม่เปลี่ยน"}
+        - {t: the movie, why: "ไม่มีการพูดถึงการเปลี่ยนเรื่อง"}
+        - {t: the date, why: "ยังเป็นคืนนี้ tonight"}
+  status: approved
+- id: cefr-b1-w05-037
+  kind: listen
+  skill: li
+  topic: making-plans
+  level: 2
+  script:
+    - {who: Woman, en: "Are you doing anything on Sunday?"}
+    - {who: Man, en: "I'm playing tennis in the morning, but I'm free after lunch. Why?"}
+    - {who: Woman, en: "I'm going to visit the flower festival. Do you want to come?"}
+  questions:
+    - stem: When is the man free on Sunday?
+      choices:
+        - {t: in the afternoon, why: "เขาบอกว่า I'm free after lunch"}
+        - {t: in the morning, why: "ตอนเช้าเขาเล่นเทนนิส"}
+        - {t: all day, why: "ตอนเช้าเขาไม่ว่างเพราะเล่นเทนนิส"}
+        - {t: in the evening only, why: "เขาว่างตั้งแต่หลังมื้อเที่ยง ไม่ได้บอกเฉพาะตอนเย็น"}
+  status: approved
+- id: cefr-b1-w05-038
+  kind: listen
+  skill: li
+  topic: phone-message
+  level: 2
+  script:
+    - {who: Woman, en: "Hi Bank, it's June from the hotel. I'm calling to confirm your booking for two nights from Friday. If you arrive after ten p.m., please call us first, because the front desk closes at ten."}
+  questions:
+    - stem: Why should Bank call the hotel?
+      choices:
+        - {t: if he arrives late, why: "ต้องโทรก่อนถ้ามาถึงหลังสี่ทุ่ม เพราะเคาน์เตอร์ปิด"}
+        - {t: to confirm his booking, why: "โรงแรมเป็นฝ่ายโทรมายืนยันการจองแล้ว"}
+        - {t: to cancel the room, why: "ไม่มีการพูดถึงการยกเลิก"}
+        - {t: to book a third night, why: "จองสองคืน ไม่ได้ขอให้จองเพิ่ม"}
+  status: approved
+- id: cefr-b1-w05-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I'm going to, start, a new course, next month]
+  sentence: I'm going to start a new course next month.
+  th: เดือนหน้าฉันจะเริ่มเรียนคอร์สใหม่
+  why: "be going to + กริยารูปเดิม บอกแผนที่ตั้งใจไว้"
+  status: approved
+- id: cefr-b1-w05-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [If you, finish early, we can, have lunch together]
+  sentence: If you finish early, we can have lunch together.
+  th: ถ้าคุณเสร็จเร็ว เรากินข้าวเที่ยงด้วยกันได้
+  why: "If + present simple แล้วตามด้วยส่วนผล"
+  status: approved
+- id: cefr-b1-w05-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We're meeting, the new client, at ten, tomorrow morning]
+  sentence: We're meeting the new client at ten tomorrow morning.
+  th: พรุ่งนี้สิบโมงเช้าเรานัดพบลูกค้าใหม่
+  why: "นัดที่ตกลงแล้วใช้ present continuous แล้วตามด้วยเวลา"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b1-w05-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The event, is going to take place, in the village hall, on Saturday]
+  sentence: The event is going to take place in the village hall on Saturday.
+  th: งานจะจัดขึ้นที่ศาลาหมู่บ้านในวันเสาร์
+  why: "take place = จัดขึ้น ตามด้วยสถานที่ก่อนเวลา"
+  status: approved

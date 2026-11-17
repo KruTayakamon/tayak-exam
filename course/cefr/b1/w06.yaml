@@ -1,0 +1,172 @@
+# คอร์ส b1 · สัปดาห์ 6 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 6
+phase: 2
+theme_th: เปรียบเทียบและให้คำแนะนำ
+focus_th: ขั้นกว่า ขั้นสุด · as...as · much/a bit + ขั้นกว่า · should ought to had better · suggest/recommend + -ing · Why don't we
+can_do_th:
+  - เปรียบเทียบตัวเลือกและบอกเหตุผลได้
+  - ให้และขอคำแนะนำอย่างเหมาะสมได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กว่า ที่สุด เท่ากัน
+    lesson:
+      rule_th: "คำสั้นเติม ==-er / -est== คำยาวใช้ ++more / most++ ส่วนเท่ากันใช้ as ... as และ ห้ามใช้ very กับขั้นกว่า ให้ใช้ much หรือ a bit"
+      examples:
+        - {en: "The new phone is <k>cheaper than</k> the old one.", th: "คำสั้น เติม -er + than"}
+        - {en: "This is <k>the most popular</k> restaurant in town.", th: "คำยาว ใช้ the most"}
+        - {en: "My office is <k>much closer</k> now.", th: "ขยายขั้นกว่าด้วย ==much ไม่ใช่ very=="}
+        - {en: "My English isn't <k>as good as</k> hers.", th: "not as ... as = ไม่...เท่า"}
+      signals:
+        - {label_th: "รูปผิดปกติ", words: [good-better-best, bad-worse-worst, far-further-furthest]}
+        - {label_th: "ขยายขั้นกว่า", words: [much, a lot, a bit, slightly]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ใหญ่กว่ามาก ได้ตรง ๆ คนเลยแปลเป็น ~~very bigger~~ หรือใส่ more กับคำสั้น"
+        wrong: ["This room is very bigger.", "He is more tall than me.", "It's the most cheap."]
+        right: ["This room is much bigger.", "He is taller than me.", "It's the cheapest."]
+      notes:
+        - {kind: tip, th: "นับพยางค์ก่อน ==พยางค์เดียวเติม -er== สามพยางค์ขึ้นไปใช้ more"}
+        - {kind: warn, th: "good กับ bad ต้องจำรูปพิเศษ better, worse ห้ามเติม -er"}
+    check: [cefr-b1-w06-001, cefr-b1-w06-002]
+    practice: [cefr-b1-w06-003, cefr-b1-w06-004, cefr-b1-w06-005, cefr-b1-w06-006, cefr-b1-w06-007, cefr-b1-w06-008, cefr-b1-w06-009, cefr-b1-w06-010, cefr-b1-w06-011, cefr-b1-w06-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเปรียบเทียบสองสิ่งที่คุณใช้ทุกวัน (เช่น รถเมล์กับรถไฟฟ้า กาแฟสองร้าน)
+      frame: "____ is ____er / more ____ than ____. But ____ is the ____est."
+      model: "The skytrain is faster than the bus. But walking is the cheapest way to get to work."
+    classroom: {en: "Which one is better for a beginner?", th: "อันไหนดีกว่าสำหรับมือใหม่"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เปรียบเทียบและแนะนำ 12 คำ
+    lesson:
+      rule_th: "แนะนำสิ่งของใช้ ==recommend + ของ== แนะนำคนให้ทำใช้ ++advise + คน + to++ ส่วน suggest กับ recommend ตามด้วย -ing ได้"
+      examples:
+        - {en: "Can you <k>recommend</k> a good hotel?", th: "แนะนำสถานที่ใช้ recommend"}
+        - {en: "The doctor <k>advised</k> me <k>to</k> rest.", th: "advise + คน + to + กริยา"}
+        - {en: "I <k>suggest</k> <k>taking</k> the train.", th: "suggest + ==-ing== ไม่มี to"}
+        - {en: "One <k>benefit</k> of this job is the <k>flexible</k> hours.", th: "benefit = ข้อดี"}
+      words:
+        - {w: recommend, pos: v., th: แนะนำ, ex: "I recommend this café for breakfast."}
+        - {w: suggest, pos: v., th: เสนอ แนะ, ex: "She suggested meeting on Friday."}
+        - {w: advise, pos: v., th: ให้คำแนะนำ, ex: "My bank advised me to save more."}
+        - {w: compare, pos: v., th: เปรียบเทียบ, ex: "Always compare prices before you buy."}
+        - {w: suitable, pos: adj., th: เหมาะสม, ex: "This film isn't suitable for children."}
+        - {w: reliable, pos: adj., th: เชื่อถือได้, ex: "We need a reliable internet connection."}
+        - {w: flexible, pos: adj., th: ยืดหยุ่น, ex: "My boss is flexible about working hours."}
+        - {w: practical, pos: adj., th: ใช้งานได้จริง, ex: "A backpack is more practical than a suitcase."}
+        - {w: valuable, pos: adj., th: มีค่า, ex: "Thank you for your valuable advice."}
+        - {w: benefit, pos: n., th: ประโยชน์ ข้อดี, ex: "Exercise has many benefits."}
+        - {w: disadvantage, pos: n., th: ข้อเสีย, ex: "The disadvantage is the long journey."}
+        - {w: difference, pos: n., th: ความแตกต่าง, ex: "What's the difference between them?"}
+      thai_trap:
+        intro_th: "คำว่า แนะนำให้ไป ภาษาไทยใช้ได้กับทุกคำ เลยชอบเขียน ~~suggest you to go~~ ซึ่งผิด"
+        wrong: ["I suggest you to go by train.", "She recommended me this hotel to stay."]
+        right: ["I suggest going by train.", "She recommended this hotel to me."]
+      notes:
+        - {kind: pin, th: "suggest / recommend + ==-ing== · advise + คน + to"}
+        - {kind: use, th: "ขอคำแนะนำง่าย ๆ ได้เลย What would you recommend?"}
+    check: [cefr-b1-w06-013, cefr-b1-w06-016]
+    practice: [cefr-b1-w06-014, cefr-b1-w06-015, cefr-b1-w06-017, cefr-b1-w06-018, cefr-b1-w06-019, cefr-b1-w06-020, cefr-b1-w06-021, cefr-b1-w06-022, cefr-b1-w06-023, cefr-b1-w06-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกข้อดีและข้อเสียของสิ่งหนึ่งที่คุณใช้อยู่
+      frame: "One benefit of ____ is ____. The main disadvantage is ____."
+      model: "One benefit of my motorbike is that it's easy to park. The main disadvantage is that I get wet when it rains."
+    classroom: {en: "What would you recommend?", th: "คุณแนะนำอะไรดี (ใช้ในร้านอาหารได้ด้วย)"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ควรทำ ไม่ควรทำ ลองทำดูไหม
+    lesson:
+      rule_th: "should, had better ตามด้วย ==กริยารูปเดิม ไม่มี to== แต่ ++ought ต้องมี to++ ส่วนชวนทำด้วยกันใช้ Why don't we + กริยา หรือ How about + -ing"
+      examples:
+        - {en: "You <k>should</k> go to bed early.", th: "แนะนำแบบเป็นมิตร"}
+        - {en: "You<k>'d better</k> leave now.", th: "เตือนแรงกว่า ==ถ้าไม่ทำจะมีปัญหา=="}
+        - {en: "<k>Why don't we</k> eat outside?", th: "ชวนทำด้วยกัน"}
+        - {en: "<k>If I were you, I'd</k> buy the cheaper one.", th: "แนะนำนุ่ม ๆ ถ้าเป็นฉันนะ"}
+      signals:
+        - {label_th: "+ กริยารูปเดิม", words: [should, "'d better", "Why don't we", "I'd"]}
+        - {label_th: "+ -ing", words: [suggest, recommend, How about, What about]}
+      thai_trap:
+        intro_th: "ภาษาไทยมีคำว่า ควรจะ เลยเติม ~~to หลัง should~~ บ่อย และใช้ don't กับ should"
+        wrong: ["You should to see a doctor.", "You don't should eat so late.", "How about go to the beach?"]
+        right: ["You should see a doctor.", "You shouldn't eat so late.", "How about going to the beach?"]
+      notes:
+        - {kind: tip, th: "should กับ had better ==ไม่มี to== มีแค่ ought to ที่ต้องมี to"}
+        - {kind: warn, th: "had better แรงกว่าที่คิด ใช้กับเรื่องจริงจัง เช่น You'd better hurry"}
+    check: [cefr-b1-w06-025, cefr-b1-w06-026]
+    practice: [cefr-b1-w06-027, cefr-b1-w06-028, cefr-b1-w06-029, cefr-b1-w06-030, cefr-b1-w06-031, cefr-b1-w06-032, cefr-b1-w06-033, cefr-b1-w06-034]
+    use:
+      prompt_th: เพื่อนบอกว่านอนไม่หลับ เขียนคำแนะนำ 2 ประโยค
+      frame: "You should ____. I suggest ____."
+      model: "You should stop drinking coffee after lunch. I suggest reading a book instead of using your phone in bed."
+    classroom: {en: "Why don't we take a short break?", th: "พักสักครู่ดีไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านรีวิวสินค้าและฟังการขอคำแนะนำ
+    lesson:
+      rule_th: "อ่านรีวิวสองชิ้นให้ทำตาราง ==ข้อดี ข้อเสีย เหมาะกับใคร== แยกของแต่ละชิ้น คำถามมักถามว่า ++ใครควรเลือกอันไหน++"
+      examples:
+        - {en: "The only <k>disadvantage</k> is the size.", th: "the only disadvantage = มีข้อเสียข้อเดียว"}
+        - {en: "Model B is more expensive, <k>but</k> it's much more reliable.", th: "but แยกข้อเสียกับข้อดี"}
+        - {en: "<k>You'd better not</k> buy a new one yet.", th: "ฟัง not ให้ดี ==ความหมายกลับด้าน=="}
+      thai_trap:
+        intro_th: "รีวิวสองชิ้นมีข้อมูลคล้ายกัน คนมักเอา ~~ข้อมูลของชิ้น A ไปตอบเรื่องชิ้น B~~"
+        wrong: ["เห็น 25 minutes จึงตอบว่า Model B หุงเร็ว"]
+        right: ["25 minutes อยู่ในรีวิวของ Model A ไม่ใช่ B"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นแบ่งรีวิวแต่ละชิ้น แล้วเขียน ==A / B== กำกับทุกข้อมูล"}
+        - {kind: warn, th: "คำแนะนำในบทฟังที่มี not หรือ better not ต้องฟังให้จบประโยค"}
+    check: [cefr-b1-w06-036, cefr-b1-w06-037]
+    practice: [cefr-b1-w06-035, cefr-b1-w06-038, cefr-b1-w06-039, cefr-b1-w06-040, cefr-b1-w06-041]
+    use:
+      prompt_th: เขียน 2 ประโยครีวิวสิ่งที่คุณซื้อเมื่อเร็ว ๆ นี้ บอกข้อดี ข้อเสีย และจะแนะนำใคร
+      frame: "I like ____ because ____. I'd recommend it to ____."
+      model: "I like my new headphones because they are light and comfortable. I'd recommend them to anyone who works in a noisy office."
+    classroom: {en: "Is it worth the money?", th: "คุ้มเงินไหม (ถามก่อนซื้อ)"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน อีเมลแนะนำหนังสือหรือแอป 80 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนอีเมลถึงเพื่อนประมาณ 80 คำ แนะนำหนังสือหรือแอปที่คุณชอบ เปรียบเทียบกับอีกตัวเลือกหนึ่ง บอกข้อดี ข้อเสีย และคำแนะนำการใช้
+      frame:
+        - "Hi ____,"
+        - "You asked me about ____. I'd recommend ____."
+        - "It's ____er / more ____ than ____ because ____."
+        - "The only disadvantage is ____, but ____."
+        - "If I were you, I'd ____. Let me know what you think!"
+      model_pass: "Hi Fon, You asked me about apps for saving money. I'd recommend 'Piggy'. It's easier to use than my bank's app because it shows all your spending in one picture. The only disadvantage is the adverts, but they are short. If I were you, I'd try the free version first and check your spending every evening. Let me know what you think! Mint"
+      model_good: "Hi Fon, You asked me which app I use to manage my money, so I'd strongly recommend 'Piggy'. It's much simpler than my bank's app because it puts all your spending into clear colour groups, so you can see where your money goes in seconds. The only real disadvantage is that the free version has a few adverts, but they don't bother me much. If I were you, I'd start with the free version and set a weekly limit for eating out. Let me know how it goes! Mint"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกหนังสือหรือแอปจริง แล้วเติมโครง 5 ส่วน
+        - เขียนลงช่อง แล้วนับคำให้ได้ประมาณ 70–90 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - เขียนอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - มีคำทักทายและคำลงท้ายแบบอีเมลถึงเพื่อน
+        - มีประโยคเปรียบเทียบขั้นกว่าที่ถูกรูป
+        - ใช้ recommend, suggest หรือ If I were you อย่างน้อย 1 ครั้ง
+        - ยาวประมาณ 80 คำ
+    practice: [cefr-b1-w06-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 6
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [3, 4, 5, 6], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

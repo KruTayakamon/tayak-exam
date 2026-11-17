@@ -1,0 +1,171 @@
+# คอร์ส b1 · สัปดาห์ 5 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 5
+phase: 2
+theme_th: แผน การนัดหมาย และกิจกรรม
+focus_th: will · be going to · present continuous สำหรับอนาคต · first conditional · unless · when/as soon as + present
+can_do_th:
+  - อธิบายแผนและกำหนดการได้
+  - เข้าใจประกาศที่มีการเปลี่ยนเวลาหรือสถานที่
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: พูดถึงอนาคต 3 แบบ
+    lesson:
+      rule_th: "อนาคตมี 3 แบบหลัก นัดที่จองแล้วใช้ ==am/is/are + -ing== แผนที่ตั้งใจไว้ใช้ ++be going to++ ส่วนตัดสินใจตอนพูด เสนอตัว หรือสัญญา ใช้ will"
+      examples:
+        - {en: "I'm <k>seeing</k> the dentist at 3 tomorrow.", th: "นัดจองแล้ว มีเวลาชัด"}
+        - {en: "I'm <k>going to</k> learn Japanese next year.", th: "แผนที่คิดไว้ก่อน"}
+        - {en: "The phone's ringing. I<k>'ll</k> get it.", th: "ตัดสินใจ ==ตอนพูดเลย=="}
+        - {en: "Look at the clouds! It's <k>going to</k> rain.", th: "เห็นหลักฐานตรงหน้า"}
+      signals:
+        - {label_th: "will", words: ["I think", probably, "I promise", "I'll help"]}
+        - {label_th: "going to / -ing", words: [already decided, booked, "Look!", tomorrow at 3]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า จะ คำเดียว พออังกฤษเลยใส่ will ทุกที่ หรือ ~~ซ้อน will กับ going to~~"
+        wrong: ["I will going to visit my mother.", "Tomorrow I meet the doctor at 3."]
+        right: ["I'm going to visit my mother.", "Tomorrow I'm meeting the doctor at 3."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==ตัดสินใจไปแล้วหรือยัง== ตัดสินใจแล้วใช้ going to ตัดสินใจตอนนี้ใช้ will"}
+        - {kind: warn, th: "ตารางเวลารถไฟ เครื่องบิน หนัง ใช้ present simple ได้ เช่น The train leaves at 9"}
+    check: [cefr-b1-w05-001, cefr-b1-w05-002]
+    practice: [cefr-b1-w05-003, cefr-b1-w05-004, cefr-b1-w05-005, cefr-b1-w05-006, cefr-b1-w05-007, cefr-b1-w05-008, cefr-b1-w05-009, cefr-b1-w05-010, cefr-b1-w05-011, cefr-b1-w05-012]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกนัดที่คุณมีสุดสัปดาห์นี้ และแผนที่ตั้งใจไว้สำหรับปีหน้า
+      frame: "This weekend I'm ____. Next year I'm going to ____."
+      model: "This weekend I'm meeting my cousins in Nonthaburi. Next year I'm going to save money for a trip to Korea."
+    classroom: {en: "Are you doing anything this weekend?", th: "สุดสัปดาห์นี้มีแผนไปไหนไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์กิจกรรมและการนัดหมาย 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้ใช้กับงานกิจกรรมทุกแบบ คู่ที่ต้องแยกให้ออกคือ ==cancel ยกเลิกเลย== กับ ++delay เลื่อนช้าออกไป++ และ competition แข่งขัน กับ exhibition นิทรรศการ"
+      examples:
+        - {en: "The concert was <k>cancelled</k>.", th: "ยกเลิก ไม่จัดแล้ว"}
+        - {en: "Our flight was <k>delayed</k> by two hours.", th: "ยังบิน แต่ช้าไปสองชั่วโมง"}
+        - {en: "Please <k>confirm</k> your booking.", th: "confirm = ยืนยัน"}
+        - {en: "We <k>expect</k> about 200 people.", th: "expect = ==คาดว่าจะ=="}
+      words:
+        - {w: announcement, pos: n., th: ประกาศ, ex: "There was an announcement about the new rules."}
+        - {w: competition, pos: n., th: การแข่งขัน, ex: "She won a singing competition."}
+        - {w: exhibition, pos: n., th: นิทรรศการ, ex: "The photo exhibition opens next week."}
+        - {w: celebrate, pos: v., th: ฉลอง, ex: "We celebrated our tenth anniversary."}
+        - {w: cancel, pos: v., th: ยกเลิก, ex: "I had to cancel my appointment."}
+        - {w: delay, pos: v., th: ทำให้ล่าช้า เลื่อน, ex: "The meeting was delayed until Friday."}
+        - {w: confirm, pos: v., th: ยืนยัน, ex: "Can you confirm the time, please?"}
+        - {w: gather, pos: v., th: รวมตัว, ex: "People gathered to watch the parade."}
+        - {w: audience, pos: n., th: ผู้ชม ผู้ฟัง, ex: "The audience loved the show."}
+        - {w: budget, pos: n., th: งบประมาณ, ex: "We need to stay within our budget."}
+        - {w: unless, pos: conj., th: เว้นแต่ ถ้าไม่, ex: "I'll walk unless it rains."}
+        - {w: expect, pos: v., th: คาดว่า คาดหวัง, ex: "We expect the work to finish in May."}
+      thai_trap:
+        intro_th: "คำว่า เลื่อน ภาษาไทยใช้ทั้งเลื่อนออกไปและยกเลิกแบบอ้อม ๆ แต่อังกฤษ ~~cancel ไม่ใช่เลื่อน~~ ถ้ายังจัดอยู่ต้องใช้ delay หรือ postpone"
+        wrong: ["The meeting is cancelled to next Monday.", "We celebrate a meeting."]
+        right: ["The meeting is delayed until next Monday.", "We have a meeting."]
+      notes:
+        - {kind: pin, th: "cancel = ==ไม่จัดแล้ว== · delay = ยังจัด แต่ช้าออกไป"}
+        - {kind: use, th: "ยืนยันนัดได้สุภาพ Could you confirm the time, please?"}
+    check: [cefr-b1-w05-013, cefr-b1-w05-017]
+    practice: [cefr-b1-w05-014, cefr-b1-w05-015, cefr-b1-w05-016, cefr-b1-w05-018, cefr-b1-w05-019, cefr-b1-w05-020, cefr-b1-w05-021, cefr-b1-w05-022, cefr-b1-w05-023, cefr-b1-w05-024]
+    use:
+      prompt_th: เขียน 1 ประโยคแจ้งว่ากิจกรรมหนึ่งถูกยกเลิกหรือเลื่อน พร้อมเหตุผล
+      frame: "The ____ has been ____ because ____."
+      model: "The sports day has been delayed because of the heavy rain."
+    classroom: {en: "Could you confirm the time and place, please?", th: "ช่วยยืนยันเวลาและสถานที่หน่อยได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ถ้า... ก็จะ...
+    lesson:
+      rule_th: "เงื่อนไขที่เกิดได้จริงใช้ ==If + present, ... will + กริยา== ส่วน unless แปลว่า ++ถ้าไม่ ห้ามใส่ not ซ้ำ++ และหลัง when, as soon as ก็ใช้ปัจจุบันเหมือนกัน"
+      examples:
+        - {en: "<k>If</k> it <k>rains</k>, we'<k>ll</k> stay inside.", th: "ส่วน if ใช้ปัจจุบัน ส่วนผลใช้ will"}
+        - {en: "I won't go <k>unless</k> you come with me.", th: "unless = ==if not=="}
+        - {en: "I'll call you <k>as soon as</k> I <k>get</k> the result.", th: "พูดถึงอนาคต แต่ใช้ get ธรรมดา"}
+        - {en: "If you need help, just <k>call</k> me.", th: "ส่วนผลเป็นคำสั่งหรือคำแนะนำก็ได้"}
+      signals:
+        - {label_th: "ตามด้วย present", words: [if, unless, when, as soon as, before, after]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ถ้าพรุ่งนี้ฝนจะตก ได้ แต่อังกฤษ ~~If it will rain~~ ผิด และ unless ไม่ต้องมี not"
+        wrong: ["If it will rain, we stay home.", "Unless you don't hurry, you'll be late."]
+        right: ["If it rains, we'll stay home.", "Unless you hurry, you'll be late."]
+      notes:
+        - {kind: tip, th: "จำสูตร ==If + ปัจจุบัน, will + กริยา== ห้ามมี will สองฝั่ง"}
+        - {kind: warn, th: "unless = if not อยู่แล้ว ใส่ don't ซ้ำความหมายจะกลับด้าน"}
+    check: [cefr-b1-w05-025, cefr-b1-w05-026]
+    practice: [cefr-b1-w05-027, cefr-b1-w05-028, cefr-b1-w05-029, cefr-b1-w05-030, cefr-b1-w05-031, cefr-b1-w05-032, cefr-b1-w05-033, cefr-b1-w05-034]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกว่าคุณจะทำอะไรถ้าสุดสัปดาห์นี้อากาศดี และถ้าฝนตก
+      frame: "If the weather is good, I'll ____. If it rains, I'll ____."
+      model: "If the weather is good, I'll go cycling by the river. If it rains, I'll stay home and watch a film."
+    classroom: {en: "If you have any questions, just let me know.", th: "ถ้ามีคำถามอะไร บอกได้เลยนะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านประกาศกิจกรรมและฟังการเปลี่ยนกำหนดการ
+    lesson:
+      rule_th: "ประกาศกิจกรรมมี 4 อย่างที่ต้องจับ ==อะไร เมื่อไร ที่ไหน ต้องทำอะไร== และระวังส่วนที่ขึ้นต้นด้วย ++If ... (กรณีพิเศษ)++ เพราะมักถูกถาม"
+      examples:
+        - {en: "It will run <k>every Saturday</k> from 5 p.m.", th: "every Saturday ตอบคำถาม How often ได้ = once a week"}
+        - {en: "<k>If</k> it rains heavily, the opening <k>will move</k> to the following Saturday.", th: "กรณีพิเศษ ==มักเป็นคำถามท้ายบท=="}
+        - {en: "It will <k>still</k> start at seven thirty.", th: "still = ยังเหมือนเดิม แปลว่าส่วนนี้ไม่เปลี่ยน"}
+      thai_trap:
+        intro_th: "ฟังประกาศเปลี่ยนกำหนดการ คนมักคิดว่าเปลี่ยนทุกอย่าง แต่คำว่า ~~still~~ บอกว่าบางอย่างยังเหมือนเดิม"
+        wrong: ["ได้ยิน moved จึงคิดว่าเวลาเปลี่ยนด้วย"]
+        right: ["It will still start at seven thirty = เวลาเดิม เปลี่ยนแค่สถานที่"]
+      notes:
+        - {kind: tip, th: "ทำตาราง ==เดิม → ใหม่== ทุกครั้งที่ได้ยินคำว่า moved, changed, instead"}
+        - {kind: warn, th: "ตัวเลขในประกาศมีหลายตัว (จำนวนร้าน เวลา วันที่) อย่าหยิบผิดเรื่อง"}
+    check: [cefr-b1-w05-036, cefr-b1-w05-037]
+    practice: [cefr-b1-w05-035, cefr-b1-w05-038, cefr-b1-w05-039, cefr-b1-w05-040, cefr-b1-w05-041]
+    use:
+      prompt_th: เขียน 2 ประโยคประกาศกิจกรรมสั้น ๆ บอกวัน เวลา สถานที่ และสิ่งที่ผู้ร่วมต้องทำ
+      frame: "The ____ will take place on ____ at ____. Please ____."
+      model: "The staff party will take place on Friday at 6 p.m. in the garden. Please bring one dish to share."
+    classroom: {en: "Sorry, has the time changed or just the place?", th: "ขอโทษนะ เปลี่ยนเวลาด้วยหรือเปลี่ยนแค่สถานที่"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด อธิบายแผนกิจกรรม 60 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูดอธิบายกิจกรรมที่คุณกำลังจัดหรืออยากจัด (งานเลี้ยง ทริป กิจกรรมชุมชน) 60 วินาที บอกว่าเป็นงานอะไร จัดเมื่อไร ที่ไหน มีอะไรบ้าง และถ้าเกิดปัญหาจะทำอย่างไร
+      frame:
+        - "I'm organising ____ for ____."
+        - "It's going to take place on ____ at ____."
+        - "We're going to ____ and ____."
+        - "If ____, we'll ____."
+        - "I hope everyone will ____."
+      model_pass: "I'm organising a small party for my mother's birthday. It's going to take place on Sunday at our house. We're going to cook Thai food and sing karaoke. If it rains, we'll eat inside the living room. I hope everyone will have a good time."
+      model_good: "I'm organising a surprise party for my mother's sixtieth birthday next month. It's going to take place on Sunday evening at a small restaurant near the river. My brother is booking a table for twenty people, and I'm going to make a short video with old family photos. If the weather is bad, we'll move from the terrace to the room inside, which the owner has already agreed to. I really hope my mother won't find out before the day."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - คิดกิจกรรมจริงของคุณ แล้วเติมโครง 5 ประโยค
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - บอกงาน เวลา และสถานที่ครบ
+        - ใช้ be going to หรือ present continuous กับแผนที่ตั้งใจไว้
+        - มีประโยค If + present, will ... อย่างน้อย 1 ประโยค
+        - พูดได้ประมาณ 60 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b1-w05-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 5
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [1, 2, 3, 4, 5], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

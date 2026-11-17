@@ -1,0 +1,583 @@
+# คอร์ส b1 · สัปดาห์ 6 · เปรียบเทียบและให้คำแนะนำ · ขั้นกว่า ขั้นสุด as...as · should ought to had better · suggest/recommend + -ing · Why don't we
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# ---------- วันที่ 1 · เปรียบเทียบ ----------
+- id: cefr-b1-w06-001
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  stem: The new phone is ____ than the old one.
+  choices:
+    - {t: cheaper, why: "คำสั้นพยางค์เดียว เติม ++-er + than++ เป็น cheaper than"}
+    - {t: more cheap, why: "คำพยางค์เดียวไม่ใช้ more ให้เติม -er"}
+    - {t: cheapest, why: "-est เป็นขั้นสุด ใช้กับ the และไม่ใช้กับ than"}
+    - {t: more cheaper, why: "เติม -er แล้วใส่ more ซ้ำไม่ได้"}
+  explain: "คำสั้น ==เติม -er== · คำยาว ใช้ more ... than"
+  status: approved
+- id: cefr-b1-w06-002
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  stem: This is the ____ restaurant in our town.
+  choices:
+    - {t: most popular, why: "ขั้นสุดของคำยาว popular ใช้ ++the most++"}
+    - {t: popularest, why: "คำยาวสามพยางค์ไม่เติม -est"}
+    - {t: more popular, why: "more เป็นขั้นกว่า ใช้กับ than แต่ประโยคนี้มี the และ in our town"}
+    - {t: most popularest, why: "ใช้ most แล้วเติม -est ซ้ำไม่ได้"}
+  explain: "the + ==most + คำยาว== / the + คำสั้น-est (the cheapest)"
+  status: approved
+- id: cefr-b1-w06-003
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: My new office is ____ than my old one. It takes only ten minutes to get there.
+  choices:
+    - {t: much closer, why: "ใกล้กว่ามาก ใช้ ++much + ขั้นกว่า++"}
+    - {t: very closer, why: "very ใช้กับขั้นกว่าไม่ได้ ต้องใช้ much หรือ a lot"}
+    - {t: more close, why: "close เป็นคำสั้น เติม -r เป็น closer"}
+    - {t: closest, why: "ขั้นสุดใช้กับ than ไม่ได้"}
+  explain: "ขยายขั้นกว่าด้วย ==much / a lot / a bit== ห้ามใช้ very"
+  status: approved
+- id: cefr-b1-w06-004
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: My English isn't ____ my sister's. She lived in Australia for five years.
+  choices:
+    - {t: as good as, why: "ไม่เก่งเท่า ใช้ ++not as + คำคุณศัพท์ + as++"}
+    - {t: as better as, why: "ระหว่าง as...as ใช้รูปธรรมดา good ไม่ใช่ better"}
+    - {t: so good than, why: "ต้องใช้ as คู่กัน ไม่ใช้ than"}
+    - {t: good as, why: "ขาด as ตัวแรก ต้องเป็น as good as"}
+  explain: "not as ... as = ==ไม่...เท่า== รูปคำคุณศัพท์อยู่ตรงกลางแบบธรรมดา"
+  status: approved
+- id: cefr-b1-w06-005
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  stem: Today is ____ day of the year so far. It's 39 degrees!
+  choices:
+    - {t: the hottest, why: "ขั้นสุดของ hot ++ซ้อน t แล้วเติม -est++"}
+    - {t: the hotest, why: "hot ต้องซ้อน t ก่อนเติม -est"}
+    - {t: the most hot, why: "hot เป็นคำสั้น ไม่ใช้ most"}
+    - {t: hotter, why: "ขั้นกว่าใช้กับ the ... of the year ไม่ได้"}
+  explain: "คำสั้นที่ลงท้าย ==สระเดียว + พยัญชนะเดียว== ซ้อนตัวท้าย: hot → hottest, big → biggest"
+  status: approved
+- id: cefr-b1-w06-006
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: The traffic is ____ today than it was yesterday.
+  choices:
+    - {t: worse, why: "ขั้นกว่าของ bad คือ ++worse++ (ผิดปกติ)"}
+    - {t: badder, why: "bad เป็นคำผิดปกติ ไม่เติม -er"}
+    - {t: more bad, why: "bad มีรูปขั้นกว่าเฉพาะคือ worse"}
+    - {t: worst, why: "worst เป็นขั้นสุด ใช้กับ than ไม่ได้"}
+  explain: "ผิดปกติต้องจำ ==good-better-best · bad-worse-worst== · far-further"
+  status: approved
+- id: cefr-b1-w06-007
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: This app is ____ to use than the website.
+  choices:
+    - {t: easier, why: "easy ลงท้าย y เปลี่ยนเป็น i แล้วเติม -er = ++easier++"}
+    - {t: more easy, why: "easy เป็นคำสองพยางค์ลงท้าย y ใช้รูป easier"}
+    - {t: easyer, why: "ต้องเปลี่ยน y เป็น i ก่อนเติม -er"}
+    - {t: easiest, why: "ขั้นสุดใช้กับ than ไม่ได้"}
+  explain: "คำลงท้าย y: ==easy → easier → easiest== · busy → busier"
+  status: approved
+- id: cefr-b1-w06-008
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  stem: Bangkok is ____ city in Thailand.
+  choices:
+    - {t: the biggest, why: "ใหญ่ที่สุดในประเทศ ใช้ ++the + ขั้นสุด++"}
+    - {t: bigger, why: "bigger ต้องมี than และเทียบสองสิ่ง"}
+    - {t: the most big, why: "big เป็นคำสั้น ใช้ biggest"}
+    - {t: biggest, why: "ขั้นสุดต้องมี the นำหน้า"}
+  explain: "ขั้นสุดใช้ ==the + -est / most== และมักตามด้วย in + สถานที่ หรือ of + กลุ่ม"
+  status: approved
+- id: cefr-b1-w06-009
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: The blue shirt is a bit ____ than the white one, but it's better quality.
+  choices:
+    - {t: more expensive, why: "คำยาว expensive ใช้ ++more + than++ และ a bit ขยายได้"}
+    - {t: expensiver, why: "คำยาวสามพยางค์ไม่เติม -er"}
+    - {t: most expensive, why: "most เป็นขั้นสุด ใช้กับ than ไม่ได้"}
+    - {t: very expensive, why: "very expensive ไม่ใช่ขั้นกว่า ใช้กับ than ไม่ได้"}
+  explain: "a bit / slightly + ขั้นกว่า = ==กว่านิดหน่อย=="
+  status: approved
+- id: cefr-b1-w06-010
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 3
+  stem: Which sentence about age is correct?
+  choices:
+    - {t: "My brother is two years older than me.", why: "older than ถูกรูป และบอกระยะห่างด้วย two years วางหน้า"}
+    - {t: "My brother is older two years than me.", why: "ระยะห่าง two years ต้องวางหน้า older"}
+    - {t: "My brother is more old than me.", why: "old เป็นคำสั้น ใช้ older ไม่ใช่ more old"}
+    - {t: "My brother is older as me.", why: "ขั้นกว่าใช้ than ไม่ใช่ as"}
+  explain: "บอกว่ามากกว่าเท่าไร วาง ==ตัวเลขหน้าขั้นกว่า== two years older than"
+  status: approved
+- id: cefr-b1-w06-011
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: Living in the countryside is ____ than living in the city.
+  choices:
+    - {t: more peaceful, why: "peaceful เป็นคำยาว ใช้ ++more ... than++"}
+    - {t: peacefuller, why: "คำที่ลงท้าย -ful ใช้ more ไม่เติม -er"}
+    - {t: the most peaceful, why: "ขั้นสุดใช้กับ than ไม่ได้"}
+    - {t: as peaceful, why: "as ต้องตามด้วย as ไม่ใช่ than"}
+  explain: "คำลงท้าย ==-ful, -ous, -ive== ใช้ more / most"
+  status: approved
+- id: cefr-b1-w06-012
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  stem: This is the ____ film I've ever seen. I fell asleep after twenty minutes.
+  choices:
+    - {t: worst, why: "แย่ที่สุดจนหลับ ใช้ขั้นสุดของ bad คือ ++worst++"}
+    - {t: baddest, why: "bad ไม่เติม -est รูปขั้นสุดคือ worst"}
+    - {t: worse, why: "worse เป็นขั้นกว่า ใช้กับ the ... I've ever seen ไม่ได้"}
+    - {t: most bad, why: "bad มีรูปเฉพาะคือ worst"}
+  explain: "the + ขั้นสุด + ==I've ever + ช่อง 3== = ที่สุดเท่าที่เคย"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์เปรียบเทียบและแนะนำ ----------
+- id: cefr-b1-w06-013
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 1
+  stem: Can you ____ a good hotel near the beach?
+  choices:
+    - {t: recommend, why: "ขอให้แนะนำโรงแรม ใช้ ++recommend++ + สิ่งของ"}
+    - {t: compare, why: "compare แปลว่าเปรียบเทียบ ต้องมีสองอย่าง"}
+    - {t: advise, why: "advise มักใช้กับคน advise someone to do ไม่ใช้แนะนำโรงแรมตรง ๆ"}
+    - {t: benefit, why: "benefit แปลว่าได้ประโยชน์ ไม่ใช่แนะนำ"}
+  explain: "recommend + ==สิ่งของหรือสถานที่== = แนะนำว่าดี"
+  status: approved
+- id: cefr-b1-w06-014
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: Before you buy a laptop, ____ the prices in different shops.
+  choices:
+    - {t: compare, why: "ดูราคาหลายร้านเพื่อเทียบ ใช้ ++compare++"}
+    - {t: recommend, why: "recommend the prices ไม่มีความหมาย"}
+    - {t: suggest, why: "suggest the prices ไม่ได้แปลว่าเปรียบเทียบ"}
+    - {t: advise, why: "advise ใช้กับคน ไม่ใช้กับราคา"}
+  explain: "compare A with B = ==เปรียบเทียบ A กับ B=="
+  status: approved
+- id: cefr-b1-w06-015
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: The doctor ____ me to drink more water and sleep earlier.
+  choices:
+    - {t: advised, why: "advise + คน + to + กริยา ++advised me to++"}
+    - {t: suggested, why: "suggest ไม่ตามด้วย คน + to แบบนี้ ต้องเป็น suggested that I drink"}
+    - {t: said, why: "said ไม่ตามด้วย คน + to + กริยา ต้องใช้ told me to"}
+    - {t: compared, why: "compared แปลว่าเปรียบเทียบ ความหมายไม่ตรง"}
+  explain: "==advise someone to do== ได้ · suggest / recommend ใช้ + -ing หรือ that"
+  status: approved
+- id: cefr-b1-w06-016
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: These shoes aren't ____ for hiking. You need something stronger.
+  choices:
+    - {t: suitable, why: "ไม่เหมาะกับการเดินป่า ใช้ ++suitable for++"}
+    - {t: reliable, why: "reliable แปลว่าเชื่อถือได้ ไม่ใช่เหมาะกับกิจกรรม"}
+    - {t: valuable, why: "valuable แปลว่ามีค่า ราคาแพง ไม่ได้บอกว่าเหมาะ"}
+    - {t: flexible, why: "flexible แปลว่ายืดหยุ่น ความหมายไม่ตรงกับ need something stronger"}
+  explain: "suitable for + ==สิ่ง/กิจกรรม== = เหมาะกับ"
+  status: approved
+- id: cefr-b1-w06-017
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: I need a ____ car. My old one breaks down every month.
+  choices:
+    - {t: reliable, why: "รถเก่าเสียบ่อย อยากได้รถที่ไว้ใจได้ ++reliable++"}
+    - {t: suitable, why: "suitable ต้องบอกว่าเหมาะกับอะไร และไม่ได้แก้ปัญหารถเสีย"}
+    - {t: flexible, why: "flexible car ไม่ได้แปลว่าไม่เสีย"}
+    - {t: practical, why: "practical แปลว่าใช้งานสะดวก แต่ประเด็นคือรถเสียบ่อย"}
+  explain: "reliable = ==เชื่อถือได้ ไม่ทำให้ผิดหวัง== a reliable car / person"
+  status: approved
+- id: cefr-b1-w06-018
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: My job has ____ hours, so I can start at 7 or at 10.
+  choices:
+    - {t: flexible, why: "เลือกเวลาเข้างานได้ คือชั่วโมงทำงาน ++flexible++ ยืดหยุ่น"}
+    - {t: reliable, why: "reliable hours ไม่ใช่วลีที่ใช้"}
+    - {t: valuable, why: "valuable hours แปลว่าเวลามีค่า ไม่ได้บอกว่าเลือกได้"}
+    - {t: suitable, why: "suitable hours แปลว่าเวลาที่เหมาะ แต่ไม่ได้บอกว่าเลือกได้เอง"}
+  explain: "flexible = ==ยืดหยุ่น ปรับได้== flexible hours / plans"
+  status: approved
+- id: cefr-b1-w06-019
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: A small car is more ____ for city driving. It's easy to park.
+  choices:
+    - {t: practical, why: "ขับในเมืองจอดง่าย ใช้งานได้จริง ++practical++"}
+    - {t: valuable, why: "valuable แปลว่ามีค่า ไม่เกี่ยวกับการจอดง่าย"}
+    - {t: reliable, why: "reliable เน้นไม่เสีย ไม่ใช่จอดง่าย"}
+    - {t: benefit, why: "benefit เป็นคำนาม วางหลัง more แบบนี้ไม่ได้"}
+  explain: "practical = ==ใช้งานได้จริง สะดวก== ตรงข้ามกับ impractical"
+  status: approved
+- id: cefr-b1-w06-020
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: Thank you for your advice. It was very ____ to me.
+  choices:
+    - {t: valuable, why: "คำแนะนำมีค่ามาก ใช้ ++valuable++"}
+    - {t: flexible, why: "flexible advice ไม่ใช่คำชมที่ใช้กัน"}
+    - {t: reliable, why: "reliable ใช้กับคนหรือของ ไม่ใช่คำขอบคุณแบบนี้"}
+    - {t: suitable, why: "suitable to me ไม่ใช่วลีขอบคุณ และใช้ for"}
+  explain: "valuable = ==มีค่ามาก== ใช้ชมคำแนะนำ เวลา หรือประสบการณ์"
+  status: approved
+- id: cefr-b1-w06-021
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: One ____ of working from home is that you don't spend time travelling.
+  choices:
+    - {t: benefit, why: "ข้อดีของการทำงานที่บ้าน ใช้ ++benefit++"}
+    - {t: disadvantage, why: "ไม่ต้องเดินทางเป็นข้อดี ไม่ใช่ข้อเสีย"}
+    - {t: difference, why: "difference คือความต่าง ไม่ใช่ข้อดี"}
+    - {t: valuable, why: "valuable เป็นคำคุณศัพท์ วางหลัง One แบบนี้ไม่ได้"}
+  explain: "benefit = ==ประโยชน์ ข้อดี== · disadvantage = ข้อเสีย"
+  status: approved
+- id: cefr-b1-w06-022
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: The main ____ of this phone is that the battery doesn't last long.
+  choices:
+    - {t: disadvantage, why: "แบตอยู่ไม่นานเป็นข้อเสีย ใช้ ++disadvantage++"}
+    - {t: benefit, why: "แบตหมดเร็วไม่ใช่ข้อดี"}
+    - {t: difference, why: "difference คือความต่าง ไม่ได้บอกว่าแย่"}
+    - {t: practical, why: "practical เป็นคำคุณศัพท์ วางหลัง The main แบบนี้ไม่ได้"}
+  explain: "advantage ข้อดี · ==disadvantage ข้อเสีย== the main disadvantage is..."
+  status: approved
+- id: cefr-b1-w06-023
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 1
+  stem: What's the ____ between these two printers? They look the same.
+  choices:
+    - {t: difference, why: "ถามว่าสองเครื่องต่างกันอย่างไร ใช้ ++difference between++"}
+    - {t: benefit, why: "benefit between ไม่ใช่วลีที่ใช้"}
+    - {t: compare, why: "compare เป็นกริยา วางหลัง the ไม่ได้"}
+    - {t: disadvantage, why: "disadvantage between ไม่ใช่วลีที่ใช้ถามความต่าง"}
+  explain: "the difference ==between A and B== = ความแตกต่างระหว่าง"
+  status: approved
+- id: cefr-b1-w06-024
+  kind: type
+  skill: vo
+  topic: compare-advise
+  level: 2
+  stem: "I s______ taking the train. It's faster than the bus. (เสนอ แนะนำ ตามด้วย -ing)"
+  answer: suggest
+  accept: [suggest]
+  why: "suggest + กริยา -ing ใช้เสนอแนะ เช่น I suggest taking the train"
+  status: approved
+# ---------- วันที่ 3 · ให้คำแนะนำ ----------
+- id: cefr-b1-w06-025
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 1
+  stem: You look tired. You ____ go to bed early tonight.
+  choices:
+    - {t: should, why: "ให้คำแนะนำ ใช้ ++should + กริยารูปเดิม++"}
+    - {t: should to, why: "หลัง should ไม่มี to"}
+    - {t: shoulds, why: "should ไม่เปลี่ยนรูปตามประธาน"}
+    - {t: are should, why: "are ใช้ซ้อนกับ should ไม่ได้"}
+  explain: "should + ==กริยารูปเดิม ไม่มี to== ใช้แนะนำแบบเป็นมิตร"
+  status: approved
+- id: cefr-b1-w06-026
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: I suggest ____ a taxi. The last bus has already gone.
+  choices:
+    - {t: taking, why: "suggest ตามด้วยกริยา ++-ing++"}
+    - {t: to take, why: "suggest to take ไม่ใช่รูปที่ถูก"}
+    - {t: you to take, why: "suggest you to take ผิด ถ้ามีคนต้องเป็น suggest that you take"}
+    - {t: take, why: "suggest ตามด้วยกริยารูปเดิมตรง ๆ ไม่ได้"}
+  explain: "suggest / recommend + ==-ing== หรือ + that + ประโยค"
+  status: approved
+- id: cefr-b1-w06-027
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: You'd better ____ now, or you'll miss your flight.
+  choices:
+    - {t: leave, why: "had better ตามด้วย ++กริยารูปเดิม++"}
+    - {t: to leave, why: "หลัง had better ไม่มี to"}
+    - {t: leaving, why: "หลัง had better ใช้กริยารูปเดิม ไม่ใช่ -ing"}
+    - {t: left, why: "แม้จะมี had แต่ had better ตามด้วยรูปเดิมเสมอ"}
+  explain: "had better (='d better) + ==กริยารูปเดิม== เตือนแรงกว่า should มีผลเสียถ้าไม่ทำ"
+  status: approved
+- id: cefr-b1-w06-028
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 1
+  stem: ____ we go for a walk after dinner?
+  choices:
+    - {t: Why don't, why: "ชวนทำอะไรด้วยกัน ใช้ ++Why don't we ...?++"}
+    - {t: Why not we, why: "Why not ตามด้วยกริยาเลย เช่น Why not go? ไม่มี we"}
+    - {t: How about we to, why: "How about ตามด้วย -ing ไม่มี to"}
+    - {t: Should we to, why: "หลัง should ไม่มี to"}
+  explain: "ชวน = ==Why don't we + กริยารูปเดิม== หรือ How about + -ing"
+  status: approved
+- id: cefr-b1-w06-029
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: You ____ eat so much sugar. It's bad for your teeth.
+  choices:
+    - {t: shouldn't, why: "แนะนำว่าไม่ควร ใช้ ++shouldn't + กริยารูปเดิม++"}
+    - {t: don't should, why: "ปฏิเสธของ should คือ shouldn't ไม่ใช้ don't"}
+    - {t: shouldn't to, why: "หลัง shouldn't ไม่มี to"}
+    - {t: not should, why: "ลำดับคำผิด ต้องเป็น should not"}
+  explain: "ไม่ควร = ==shouldn't== ไม่ต้องมี do"
+  status: approved
+- id: cefr-b1-w06-030
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: How about ____ to the new Japanese restaurant tonight?
+  choices:
+    - {t: going, why: "How about ตามด้วย ++กริยา -ing++"}
+    - {t: go, why: "หลัง How about ใช้ -ing ไม่ใช่รูปเดิม"}
+    - {t: to go, why: "How about to go ไม่ใช่รูปที่ถูก"}
+    - {t: we go to, why: "ไม่ต้องมี to ซ้อน และรูป How about + -ing ใช้บ่อยกว่า"}
+  explain: "How about / What about + ==-ing== = ทำ...ดีไหม"
+  status: approved
+- id: cefr-b1-w06-031
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 3
+  stem: "\"I've had a headache all day.\" \"You ought ____ a doctor.\""
+  choices:
+    - {t: to see, why: "ought ต้องตามด้วย ++to + กริยารูปเดิม++ ต่างจาก should"}
+    - {t: see, why: "ought ขาด to ไม่ได้"}
+    - {t: seeing, why: "หลัง ought to ใช้กริยารูปเดิม"}
+    - {t: to seeing, why: "ought to + กริยารูปเดิม ไม่ใช่ -ing"}
+  explain: "should + กริยา แต่ ==ought to + กริยา== ความหมายใกล้กัน"
+  status: approved
+- id: cefr-b1-w06-032
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: If I were you, I ____ buy the cheaper one.
+  choices:
+    - {t: would, why: "ให้คำแนะนำแบบ ถ้าฉันเป็นคุณ ใช้ ++I would++"}
+    - {t: will, why: "If I were you เป็นเรื่องสมมติ ส่วนผลใช้ would ไม่ใช่ will"}
+    - {t: am, why: "am ใช้กับ buy รูปเดิมไม่ได้"}
+    - {t: would to, why: "หลัง would ไม่มี to"}
+  explain: "If I were you, I'd ... = ==ถ้าเป็นฉันนะ จะ...== ใช้แนะนำได้นุ่มนวล"
+  status: approved
+- id: cefr-b1-w06-033
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: I'd recommend ____ the tickets online. It's cheaper.
+  choices:
+    - {t: booking, why: "recommend + ++-ing++ ใช้แนะนำการกระทำ"}
+    - {t: to book, why: "recommend to book ไม่ใช่รูปมาตรฐาน"}
+    - {t: book, why: "recommend ตามด้วยกริยารูปเดิมตรง ๆ ไม่ได้"}
+    - {t: booked, why: "ช่อง 3 ไม่ใช้ตรงนี้"}
+  explain: "recommend + ==-ing== = แนะนำให้ทำ (เหมือน suggest)"
+  status: approved
+- id: cefr-b1-w06-034
+  kind: cloze
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  text: |
+    Hi Ploy,
+    You asked about learning English apps. I think "WordUp" is (1) ____ than the others because it has short lessons. You (2) ____ use it every morning on the bus. I also suggest (3) ____ English podcasts in the evening.
+    Nan
+  questions:
+    - choices:
+        - {t: more useful, why: "useful เป็นคำยาว ใช้ more ... than"}
+        - {t: usefuller, why: "คำลงท้าย -ful ไม่เติม -er"}
+        - {t: the most useful, why: "ขั้นสุดใช้กับ than ไม่ได้"}
+        - {t: as useful, why: "as ต้องคู่กับ as ไม่ใช่ than"}
+    - choices:
+        - {t: should, why: "ให้คำแนะนำ ใช้ should + กริยารูปเดิม"}
+        - {t: should to, why: "หลัง should ไม่มี to"}
+        - {t: suggest, why: "You suggest use ไม่ใช่รูปให้คำแนะนำที่ถูก"}
+        - {t: had better to, why: "หลัง had better ไม่มี to"}
+    - choices:
+        - {t: listening to, why: "suggest + -ing และ listen ต้องมี to ก่อนสิ่งที่ฟัง"}
+        - {t: to listen, why: "suggest ไม่ตามด้วย to + กริยา"}
+        - {t: listen to, why: "suggest ตามด้วยกริยารูปเดิมตรง ๆ ไม่ได้"}
+        - {t: listening, why: "ต้องมี to ก่อน English podcasts"}
+  status: approved
+# ---------- วันที่ 4 · อ่านรีวิวและฟังการขอคำแนะนำ ----------
+- id: cefr-b1-w06-035
+  kind: read
+  skill: rd
+  topic: product-reviews
+  level: 2
+  title: Two Rice Cookers · Customer Reviews
+  passage: |
+    Model A (1,290 baht) · 4 stars · "I bought this rice cooker for my small flat. It's light and easy to clean, and it cooks rice in about 25 minutes. The only disadvantage is the size. It's too small for more than three people." · Mali, Bangkok
+
+    Model B (2,450 baht) · 5 stars · "We have a family of six, so we needed something bigger. Model B is more expensive than Model A, but it's much more reliable. It also keeps rice warm for twelve hours, which is perfect for busy mornings. I'd recommend it to anyone with a big family." · Somsak, Chiang Rai
+  questions:
+    - stem: What is the main disadvantage of Model A?
+      choices:
+        - {t: it's too small for big families, why: "มะลิบอกว่า too small for more than three people"}
+        - {t: it's difficult to clean, why: "รีวิวบอกว่า easy to clean"}
+        - {t: it cooks rice slowly, why: "หุงประมาณ 25 นาที ไม่ได้บ่นว่าช้า"}
+        - {t: it's very expensive, why: "Model A ถูกกว่า Model B"}
+    - stem: Why did Somsak choose Model B?
+      choices:
+        - {t: his family is large, why: "เขามีครอบครัวหกคน เลยต้องการหม้อที่ใหญ่กว่า"}
+        - {t: it was cheaper, why: "Model B แพงกว่า Model A"}
+        - {t: it's light, why: "light เป็นข้อดีของ Model A"}
+        - {t: it cooks in 25 minutes, why: "25 นาทีเป็นข้อมูลของ Model A"}
+    - stem: Which statement about Model B is true?
+      choices:
+        - {t: it keeps rice warm for a long time, why: "keeps rice warm for twelve hours"}
+        - {t: it costs less than Model A, why: "ราคาสูงกว่า 2,450 กับ 1,290"}
+        - {t: it is less reliable, why: "สมศักดิ์บอกว่า much more reliable"}
+        - {t: it is good for one person, why: "เขาแนะนำสำหรับครอบครัวใหญ่"}
+    - stem: Who would probably prefer Model A?
+      choices:
+        - {t: someone living alone, why: "Model A เหมาะกับห้องเล็กและคนไม่เกินสามคน"}
+        - {t: a family of six, why: "ครอบครัวหกคนควรใช้ Model B"}
+        - {t: a busy restaurant, why: "ร้านอาหารต้องการหม้อใหญ่กว่านี้มาก"}
+        - {t: someone who needs rice warm all day, why: "ฟังก์ชันอุ่นสิบสองชั่วโมงเป็นของ Model B"}
+  status: approved
+- id: cefr-b1-w06-036
+  kind: listen
+  skill: li
+  topic: asking-advice
+  level: 2
+  script:
+    - {who: Woman, en: "I want to get fit, but I don't have much time. What do you suggest?"}
+    - {who: Man, en: "Why don't you cycle to work? It's cheaper than a gym, and you'll exercise every day without thinking about it."}
+  questions:
+    - stem: What does the man suggest?
+      choices:
+        - {t: cycling to work, why: "เขาบอกว่า Why don't you cycle to work?"}
+        - {t: joining a gym, why: "เขาบอกว่าปั่นจักรยานถูกกว่ายิม ไม่ได้แนะนำยิม"}
+        - {t: running every evening, why: "ไม่มีการพูดถึงการวิ่ง"}
+        - {t: getting up earlier, why: "ไม่มีการแนะนำให้ตื่นเช้าขึ้น"}
+  status: approved
+- id: cefr-b1-w06-037
+  kind: listen
+  skill: li
+  topic: comparing-options
+  level: 2
+  script:
+    - {who: Man, en: "Should we take the train or fly to Chiang Mai?"}
+    - {who: Woman, en: "Flying is faster, but the night train is cheaper and we can sleep on the way. Let's take the train."}
+  questions:
+    - stem: Why does the woman choose the train?
+      choices:
+        - {t: it's cheaper and they can sleep, why: "เธอบอกว่า the night train is cheaper and we can sleep"}
+        - {t: it's faster, why: "เธอบอกว่าเครื่องบินเร็วกว่า"}
+        - {t: the flight is full, why: "ไม่มีการพูดถึงเที่ยวบินเต็ม"}
+        - {t: she is afraid of flying, why: "ไม่ได้บอกว่ากลัวการบิน"}
+  status: approved
+- id: cefr-b1-w06-038
+  kind: listen
+  skill: li
+  topic: asking-advice
+  level: 2
+  script:
+    - {who: Man, en: "My laptop is really slow. I'm thinking about buying a new one."}
+    - {who: Woman, en: "You'd better not buy a new one yet. Try cleaning the old files first. My brother can help you this weekend."}
+  questions:
+    - stem: What does the woman advise?
+      choices:
+        - {t: deleting old files first, why: "เธอบอกว่า Try cleaning the old files first"}
+        - {t: buying a new laptop, why: "เธอบอกว่า You'd better not buy a new one yet"}
+        - {t: taking it to a shop, why: "เธอให้น้องชายช่วย ไม่ได้บอกให้ไปร้าน"}
+        - {t: waiting for a sale, why: "ไม่มีการพูดถึงช่วงลดราคา"}
+  status: approved
+- id: cefr-b1-w06-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [This hotel, is much cheaper, than, the one near the beach]
+  sentence: This hotel is much cheaper than the one near the beach.
+  th: โรงแรมนี้ถูกกว่าโรงแรมใกล้ชายหาดมาก
+  why: "much + ขั้นกว่า + than เพื่อบอกว่าต่างกันมาก"
+  status: approved
+- id: cefr-b1-w06-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I'd recommend, booking, your tickets, a week in advance]
+  sentence: I'd recommend booking your tickets a week in advance.
+  th: แนะนำให้จองตั๋วล่วงหน้าสักหนึ่งสัปดาห์
+  why: "recommend + -ing แล้วตามด้วยกรรมและเวลา"
+  status: approved
+- id: cefr-b1-w06-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [It's, the most useful, app, I've ever used]
+  sentence: It's the most useful app I've ever used.
+  th: เป็นแอปที่มีประโยชน์ที่สุดเท่าที่ฉันเคยใช้
+  why: "the most + คำยาว + คำนาม + I've ever + ช่อง 3"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b1-w06-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [If I were you, I would, try the free version, first]
+  sentence: If I were you, I would try the free version first.
+  th: ถ้าเป็นฉันนะ จะลองรุ่นฟรีก่อน
+  why: "If I were you, I would + กริยารูปเดิม ใช้แนะนำแบบสุภาพ"
+  status: approved
