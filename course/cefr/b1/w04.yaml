@@ -1,0 +1,172 @@
+# คอร์ส b1 · สัปดาห์ 4 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 4
+phase: 1
+theme_th: ประสบการณ์และการอบรม
+focus_th: present perfect กับ past simple · ever never · for since · already yet just · have been + -ing
+can_do_th:
+  - เล่าประสบการณ์และบอกระยะเวลาได้
+  - อ่านประวัติย่อแล้วจับข้อมูลสำคัญได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เคยทำ หรือ ทำเมื่อไร
+    lesson:
+      rule_th: "เล่าประสบการณ์แบบ ==ไม่บอกเวลา ใช้ have/has + ช่อง 3== แต่ถ้า ++บอกเวลาที่จบแล้ว ใช้ past simple++ เช่น last year, in 2019"
+      examples:
+        - {en: "<k>Have</k> you ever <k>tried</k> Korean food?", th: "ถามประสบการณ์ทั้งชีวิต ไม่สนว่าเมื่อไร"}
+        - {en: "Yes, I <k>tried</k> it <k>last month</k>.", th: "พอบอกเวลาชัด เปลี่ยนเป็น past simple"}
+        - {en: "She <k>has lived</k> here for ten years.", th: "เริ่มในอดีต ==ยังอยู่ถึงตอนนี้=="}
+        - {en: "This is the best coffee I've <k>ever tasted</k>.", th: "ที่ดีที่สุดเท่าที่เคย ใช้ have ever"}
+      signals:
+        - {label_th: "present perfect", words: [ever, never, so far, this year, today, recently]}
+        - {label_th: "past simple", words: [yesterday, last week, in 2019, ago, "When...?"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า เคยไปญี่ปุ่นปีที่แล้ว ได้สบาย ๆ แต่อังกฤษ ~~have + เวลาที่จบแล้ว~~ ใช้คู่กันไม่ได้"
+        wrong: ["I have been to Japan last year.", "When have you finished the course?"]
+        right: ["I went to Japan last year.", "When did you finish the course?"]
+      notes:
+        - {kind: tip, th: "เห็น last, ago, in 2019 หรือคำถาม When เมื่อไร ใช้ ==past simple== ทันที"}
+        - {kind: warn, th: "has gone = ไปแล้วยังไม่กลับ · has been = เคยไปแล้วกลับมาแล้ว"}
+    check: [cefr-b1-w04-001, cefr-b1-w04-002]
+    practice: [cefr-b1-w04-003, cefr-b1-w04-004, cefr-b1-w04-005, cefr-b1-w04-006, cefr-b1-w04-007, cefr-b1-w04-008, cefr-b1-w04-009, cefr-b1-w04-010, cefr-b1-w04-011, cefr-b1-w04-012]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกสิ่งที่คุณเคยทำ แล้วบอกว่าทำครั้งล่าสุดเมื่อไร
+      frame: "I have ____. I ____ last ____."
+      model: "I have tried scuba diving. I went diving in Krabi last April."
+    classroom: {en: "Have you ever been to this restaurant before?", th: "เคยมาร้านนี้ไหม (ชวนคุยได้ทุกที่)"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การอบรมและพัฒนาตนเอง 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้ใช้เล่าการอบรมและเรื่องงาน จุดที่สลับกันบ่อยคือ ==develop ใช้กับทักษะ== ส่วน ++achieve ใช้กับเป้าหมาย++ และ knowledge ห้ามเติม s"
+      examples:
+        - {en: "I want to <k>develop</k> my presentation <k>skills</k>.", th: "พัฒนาทักษะใช้ develop"}
+        - {en: "She <k>achieved</k> her goal this year.", th: "ทำเป้าหมายสำเร็จใช้ achieve"}
+        - {en: "It was a great <k>opportunity</k> to learn.", th: "an opportunity to + กริยา = โอกาสที่จะ..."}
+        - {en: "I feel more <k>confident</k> now.", th: "confident = ==มั่นใจ== ใช้กับคน"}
+      words:
+        - {w: workshop, pos: n., th: การอบรมเชิงปฏิบัติการ, ex: "I attended a workshop on time management."}
+        - {w: certificate, pos: n., th: ใบประกาศ ใบรับรอง, ex: "You will get a certificate at the end."}
+        - {w: skill, pos: n., th: ทักษะ, ex: "Writing emails is a useful skill."}
+        - {w: knowledge, pos: n., th: ความรู้, ex: "His knowledge of computers is excellent."}
+        - {w: ability, pos: n., th: ความสามารถ, ex: "She has the ability to stay calm."}
+        - {w: opportunity, pos: n., th: โอกาส, ex: "This job is a good opportunity for me."}
+        - {w: achieve, pos: v., th: ทำได้สำเร็จ บรรลุ, ex: "We achieved our sales target."}
+        - {w: develop, pos: v., th: พัฒนา, ex: "The company develops new apps."}
+        - {w: recently, pos: adv., th: เมื่อไม่นานมานี้, ex: "I've recently started a new course."}
+        - {w: successful, pos: adj., th: ประสบความสำเร็จ, ex: "The event was very successful."}
+        - {w: confident, pos: adj., th: มั่นใจ, ex: "I'm confident about the interview."}
+        - {w: useful, pos: adj., th: มีประโยชน์, ex: "These tips are really useful."}
+      thai_trap:
+        intro_th: "คำว่า ความรู้ ภาษาไทยไม่มีเอกพจน์พหูพจน์ เลยชอบเขียน ~~knowledges~~ และสลับ success กับ successful"
+        wrong: ["I got many knowledges from the course.", "The project was very success."]
+        right: ["I got a lot of knowledge from the course.", "The project was very successful."]
+      notes:
+        - {kind: pin, th: "knowledge นับไม่ได้ ==ห้ามเติม s== ใช้ a lot of knowledge"}
+        - {kind: use, th: "ปิดท้ายการอบรมได้ด้วย The workshop was really useful. Thank you!"}
+    check: [cefr-b1-w04-013, cefr-b1-w04-015]
+    practice: [cefr-b1-w04-014, cefr-b1-w04-016, cefr-b1-w04-017, cefr-b1-w04-018, cefr-b1-w04-019, cefr-b1-w04-020, cefr-b1-w04-021, cefr-b1-w04-022, cefr-b1-w04-023, cefr-b1-w04-024]
+    use:
+      prompt_th: เขียน 1 ประโยคบอกทักษะที่คุณอยากพัฒนาและเหตุผล
+      frame: "I want to develop my ____ because ____."
+      model: "I want to develop my speaking skills because I meet foreign customers every week."
+    classroom: {en: "Thank you. Your tips were really useful.", th: "ขอบคุณนะ คำแนะนำมีประโยชน์มากเลย"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: นานแค่ไหน ทำหรือยัง
+    lesson:
+      rule_th: "for ตามด้วย ==ระยะเวลา== (for 5 years) since ตามด้วย ++จุดเริ่ม++ (since 2021) ส่วน already, just วางหลัง have และ yet อยู่ท้ายคำถามหรือปฏิเสธ"
+      examples:
+        - {en: "I've worked here <k>since</k> 2021.", th: "since + ปีที่เริ่ม"}
+        - {en: "We've known each other <k>for</k> ten years.", th: "for + ระยะเวลา"}
+        - {en: "Have you finished <k>yet</k>? Not <k>yet</k>.", th: "yet อยู่ ==ท้ายคำถามและปฏิเสธ=="}
+        - {en: "I've <k>been waiting</k> for forty minutes!", th: "have been + -ing เน้นว่าทำมาต่อเนื่องจนถึงตอนนี้"}
+      signals:
+        - {label_th: "for (ระยะเวลา)", words: [for two weeks, for a long time, for ages]}
+        - {label_th: "since (จุดเริ่ม)", words: [since Monday, since 2020, since I was a child]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า มาแล้ว กับทั้งสองแบบ เลยสลับ ~~since three years~~ บ่อยมาก และชอบใช้ปัจจุบันแทน"
+        wrong: ["I work here since three years.", "I am waiting for forty minutes."]
+        right: ["I have worked here for three years.", "I have been waiting for forty minutes."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==นานเท่าไร หรือ เริ่มเมื่อไร== นานเท่าไรใช้ for เริ่มเมื่อไรใช้ since"}
+        - {kind: warn, th: "ภาษาไทยใช้ปัจจุบันได้ แต่อังกฤษ ทำมาตั้งแต่... ต้องใช้ have"}
+    check: [cefr-b1-w04-025, cefr-b1-w04-026]
+    practice: [cefr-b1-w04-027, cefr-b1-w04-028, cefr-b1-w04-029, cefr-b1-w04-030, cefr-b1-w04-031, cefr-b1-w04-032, cefr-b1-w04-033, cefr-b1-w04-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณทำงานหรือเรียนที่ปัจจุบันมานานแค่ไหน และมีอะไรที่ยังไม่ได้ทำ
+      frame: "I have ____ for ____. I haven't ____ yet."
+      model: "I have worked at this company for four years. I haven't taken my holiday yet."
+    classroom: {en: "Have you had lunch yet?", th: "กินข้าวเที่ยงหรือยัง"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านประวัติย่อและฟังการสัมภาษณ์
+    lesson:
+      rule_th: "ประวัติย่อมักใช้ ==has + ช่อง 3 บอกผลงานรวม== และใช้ past simple บอกเรื่องที่มีปีชัด ตอนอ่านให้ ++แยกตัวเลขว่าเป็นของเรื่องไหน++"
+      examples:
+        - {en: "She <k>has worked</k> in public health for fifteen years.", th: "ผลงานรวมถึงตอนนี้"}
+        - {en: "In 2022 she <k>received</k> an award.", th: "มีปีชัด ใช้ past simple"}
+        - {en: "I managed a team of <k>six</k> people for <k>two</k> years.", th: "ตัวเลขสองตัวในประโยคเดียว ==ดูว่าตัวไหนคือคน ตัวไหนคือปี=="}
+      thai_trap:
+        intro_th: "บทอ่านมีตัวเลขหลายตัว คนมักหยิบตัวเลขแรกที่เห็น ทั้งที่ ~~ตัวเลขนั้นเป็นของอีกเรื่อง~~"
+        wrong: ["เห็น 2022 จึงตอบว่าเริ่มทำงานปี 2022"]
+        right: ["อ่านทั้งประโยค 2022 คือปีที่ได้รางวัล ส่วนทำงานมา 15 ปี"]
+      notes:
+        - {kind: tip, th: "วงตัวเลขทุกตัวในบท แล้วเขียนข้าง ๆ ว่า ==เป็นของอะไร== ก่อนตอบ"}
+        - {kind: warn, th: "haven't ... yet แปลว่ายังไม่ได้ทำ ฟังให้ดีว่าส่วนไหนทำแล้ว"}
+    check: [cefr-b1-w04-036, cefr-b1-w04-037]
+    practice: [cefr-b1-w04-035, cefr-b1-w04-038, cefr-b1-w04-039, cefr-b1-w04-040, cefr-b1-w04-041]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำตัวแบบประวัติย่อสั้น ๆ บอกประสบการณ์รวมและผลงานหนึ่งอย่างที่มีปีชัด
+      frame: "I have worked as ____ for ____. In ____, I ____."
+      model: "I have worked as an accountant for eight years. In 2023, I passed a professional exam."
+    classroom: {en: "Could you tell me a little about your experience?", th: "ช่วยเล่าประสบการณ์ของคุณสักนิดได้ไหม"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน เล่าการอบรมครั้งล่าสุด 70 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนย่อหน้าเล่าการอบรม คอร์ส หรือการเรียนรู้ครั้งล่าสุดของคุณ ประมาณ 70 คำ บอกว่าอบรมเรื่องอะไร เมื่อไร ได้เรียนรู้อะไร และได้ใช้ประโยชน์อะไรแล้ว
+      frame:
+        - "Recently, I attended a ____ on ____."
+        - "It took place in ____ and lasted ____."
+        - "I learned how to ____."
+        - "Since then, I have ____."
+        - "I think the course was ____ because ____."
+      model_pass: "Recently, I attended a workshop on social media marketing. It took place in Chiang Mai and lasted two days. I learned how to plan posts and take better photos of our products. Since then, I have started a new page for our shop, and we have got more customers. I think the course was useful because the trainer gave us a lot of practical examples."
+      model_good: "Last month, I attended a two-day workshop on social media marketing for small businesses in Chiang Mai. The trainer showed us how to plan a month of posts, write short captions and take clear photos with a phone. Since then, I have redesigned our shop's page and posted three times a week. We have already received twenty new orders online. The workshop was worth every baht because everything we practised could be used the next day."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ประโยคด้วยเรื่องจริงของคุณ
+        - เขียนลงช่อง แล้วนับคำให้ได้ประมาณ 60–80 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - เขียนอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ past simple เล่าการอบรมที่จบแล้วพร้อมเวลา
+        - ใช้ have/has + ช่อง 3 บอกสิ่งที่ทำได้ตั้งแต่นั้นจนถึงตอนนี้
+        - ให้ความเห็นพร้อมเหตุผลด้วย because
+        - ยาวประมาณ 70 คำ
+    practice: [cefr-b1-w04-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 4
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [1, 2, 3, 4], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

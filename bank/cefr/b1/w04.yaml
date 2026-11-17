@@ -1,0 +1,584 @@
+# คอร์ส b1 · สัปดาห์ 4 · ประสบการณ์และการอบรม · present perfect กับ past simple · for since already yet just · present perfect continuous เบื้องต้น
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# ---------- วันที่ 1 · present perfect กับ past simple ----------
+- id: cefr-b1-w04-001
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  stem: ____ you ever tried Korean food?
+  choices:
+    - {t: Have, why: "ถามประสบการณ์ตลอดชีวิตด้วย ever ใช้ ++Have you ever + กริยาช่อง 3++"}
+    - {t: Has, why: "you ใช้ have ไม่ใช่ has"}
+    - {t: Are, why: "Are ใช้กับ -ing หรือคำคุณศัพท์ ไม่ใช้กับ tried"}
+    - {t: Do, why: "Do ต้องตามด้วยกริยารูปเดิม ไม่ใช่ tried"}
+  explain: "ถามว่า ==เคย...ไหม== ใช้ Have you ever + กริยาช่อง 3"
+  status: approved
+- id: cefr-b1-w04-002
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  stem: I ____ to Japan in 2019.
+  choices:
+    - {t: went, why: "in 2019 เป็นเวลาที่ระบุชัดและจบแล้ว ใช้ ++past simple++"}
+    - {t: have gone, why: "present perfect ใช้กับปีที่ระบุชัดไม่ได้"}
+    - {t: have been, why: "have been ใช้เล่าประสบการณ์แบบไม่บอกเวลา แต่ประโยคนี้บอกปี"}
+    - {t: go, why: "2019 เป็นอดีต ต้องเปลี่ยนเป็นรูปอดีต"}
+  explain: "มีเวลาจบแล้วชัด ๆ เช่น ==in 2019, last year, yesterday== ใช้ past simple"
+  status: approved
+- id: cefr-b1-w04-003
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  stem: I've never ____ a horse.
+  choices:
+    - {t: ridden, why: "หลัง have ใช้กริยาช่อง 3 ของ ride คือ ++ridden++"}
+    - {t: rode, why: "rode เป็นช่อง 2 ใช้หลัง have ไม่ได้"}
+    - {t: ride, why: "หลัง have ต้องเป็นช่อง 3"}
+    - {t: riding, why: "have + -ing ไม่ใช่รูปที่ถูก"}
+  explain: "have / has + ==กริยาช่อง 3== เช่น ride → rode → ridden"
+  status: approved
+- id: cefr-b1-w04-004
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: "\"Have you ever been to Laos?\" \"Yes, I ____ there last summer.\""
+  choices:
+    - {t: went, why: "คำตอบบอกเวลาชัดคือ last summer เลยเปลี่ยนเป็น ++past simple++"}
+    - {t: have been, why: "พอบอกเวลาที่จบแล้ว ต้องเปลี่ยนจาก present perfect เป็น past simple"}
+    - {t: have gone, why: "have gone แปลว่าไปแล้วยังไม่กลับ และใช้กับ last summer ไม่ได้"}
+    - {t: was go, why: "was ใช้กับ go รูปเดิมไม่ได้"}
+  explain: "ถามด้วย ever ได้ แต่พอ ==เล่ารายละเอียดพร้อมเวลา== ให้เปลี่ยนเป็น past simple"
+  status: approved
+- id: cefr-b1-w04-005
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: She ____ three books so far, and she's writing the fourth one now.
+  choices:
+    - {t: has written, why: "so far นับถึงตอนนี้และยังเขียนต่อ ใช้ ++has + ช่อง 3++"}
+    - {t: wrote, why: "wrote บอกว่าจบแล้ว แต่ so far บอกว่ายังนับต่อถึงปัจจุบัน"}
+    - {t: has wrote, why: "หลัง has ต้องเป็นช่อง 3 คือ written"}
+    - {t: is writing, why: "is writing ใช้กับเล่มที่สี่ที่กำลังเขียน ไม่ใช่การนับสามเล่ม"}
+  explain: "so far, up to now = ==นับถึงตอนนี้== ใช้ present perfect"
+  status: approved
+- id: cefr-b1-w04-006
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  stem: Oh no! I ____ my phone. Can you call it for me?
+  choices:
+    - {t: have lost, why: "ทำหายแล้วและผลยังอยู่ตอนนี้ (ยังหาไม่เจอ) ใช้ ++have lost++"}
+    - {t: was lost, why: "I was lost แปลว่าฉันหลงทาง ไม่ใช่ทำโทรศัพท์หาย"}
+    - {t: have lose, why: "หลัง have ต้องเป็นช่อง 3 คือ lost"}
+    - {t: am losing, why: "รูป -ing จะหมายถึงกำลังทำหายอยู่ ไม่สมเหตุสมผล"}
+  explain: "เรื่องที่เพิ่งเกิดและ ==ผลยังอยู่ตอนนี้== ใช้ present perfect"
+  status: approved
+- id: cefr-b1-w04-007
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: When ____ the training course?
+  choices:
+    - {t: did you finish, why: "คำถาม When ถามเวลาที่จบแล้ว ใช้ ++past simple++ เสมอ"}
+    - {t: have you finished, why: "When ไม่ใช้กับ present perfect เพราะถามหาเวลาที่ระบุได้"}
+    - {t: you finished, why: "ขาดคำช่วย did ในคำถาม"}
+    - {t: are you finish, why: "are ใช้กับ finish รูปเดิมไม่ได้"}
+  explain: "คำถาม ==When...?== ใช้ past simple ไม่ใช้ have"
+  status: approved
+- id: cefr-b1-w04-008
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: My parents ____ in the same house for thirty years. They still live there.
+  choices:
+    - {t: have lived, why: "เริ่มอยู่ในอดีตและยังอยู่ถึงตอนนี้ ใช้ ++have lived++"}
+    - {t: lived, why: "lived บอกว่าจบแล้ว แต่ประโยคหลังบอกว่ายังอยู่"}
+    - {t: are living, why: "are living ไม่ใช้กับ for thirty years ที่นับจากอดีตถึงปัจจุบัน"}
+    - {t: live, why: "live เฉย ๆ ใช้กับ for thirty years แบบนี้ไม่ได้"}
+  explain: "เริ่มในอดีต ==ยังเป็นอยู่ถึงตอนนี้== + for ใช้ present perfect"
+  status: approved
+- id: cefr-b1-w04-009
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  stem: I ____ my brother last weekend. He looked very well.
+  choices:
+    - {t: visited, why: "last weekend เป็นเวลาที่จบแล้ว ใช้ ++past simple++ visited"}
+    - {t: have visited, why: "present perfect ใช้กับ last weekend ไม่ได้"}
+    - {t: was visit, why: "was ใช้กับ visit รูปเดิมไม่ได้"}
+    - {t: visit, why: "last weekend ต้องใช้อดีต"}
+  explain: "เจอ ==last + เวลา== ใช้ past simple ทุกครั้ง"
+  status: approved
+- id: cefr-b1-w04-010
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 3
+  stem: This is the best coffee I ____.
+  choices:
+    - {t: have ever tasted, why: "the best ... I have ever + ช่อง 3 = ++ที่ดีที่สุดเท่าที่เคย++"}
+    - {t: ever tasted, why: "ในภาษาอังกฤษมาตรฐานต้องมี have ก่อน ever ในโครงสร้างนี้"}
+    - {t: have ever taste, why: "หลัง have ต้องเป็นช่อง 3 คือ tasted"}
+    - {t: am tasting, why: "am tasting ใช้กับสิ่งที่กำลังชิมอยู่ ไม่ใช่การเทียบกับประสบการณ์"}
+  explain: "the best / the worst + ==I have ever + ช่อง 3== ใช้ชมหรือติได้ทุกเรื่อง"
+  status: approved
+- id: cefr-b1-w04-011
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: "\"Is Nok here?\" \"No, she ____ to the bank. She'll be back soon.\""
+  choices:
+    - {t: has gone, why: "ไปแล้วยังไม่กลับ ใช้ ++has gone++"}
+    - {t: has been, why: "has been to แปลว่าเคยไปแล้วกลับมา ขัดกับที่ยังไม่อยู่"}
+    - {t: has go, why: "หลัง has ต้องเป็นกริยาช่อง 3 คือ gone"}
+    - {t: is gone to, why: "is gone to ไม่ใช่รูปที่ถูก"}
+  explain: "==has gone to== = ไปแล้วยังไม่กลับ · has been to = เคยไปแล้วกลับมาแล้ว"
+  status: approved
+- id: cefr-b1-w04-012
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: How many times ____ to the dentist this year?
+  choices:
+    - {t: have you been, why: "this year ยังไม่จบ นับจำนวนครั้งถึงตอนนี้ ใช้ ++have you been++"}
+    - {t: have you went, why: "หลัง have ต้องเป็นกริยาช่อง 3 คือ been หรือ gone ไม่ใช่ went"}
+    - {t: you have been, why: "คำถามต้องย้าย have ไว้หน้า you"}
+    - {t: are you, why: "are you ไม่เข้ากับการนับครั้งที่ไปมาแล้ว"}
+  explain: "ช่วงเวลาที่ ==ยังไม่จบ== เช่น this year, today ใช้ present perfect นับครั้ง"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การอบรมและพัฒนาตนเอง ----------
+- id: cefr-b1-w04-013
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 1
+  stem: I went to a three-day ____ on digital marketing last month.
+  choices:
+    - {t: workshop, why: "การอบรมเชิงปฏิบัติการสามวันเรียกว่า ++workshop++"}
+    - {t: certificate, why: "certificate คือใบประกาศ ไม่ใช่กิจกรรมที่ไปเข้าร่วม"}
+    - {t: ability, why: "ability คือความสามารถ ไปเข้าร่วมไม่ได้"}
+    - {t: knowledge, why: "knowledge คือความรู้ ไม่ใช่งานที่จัดเป็นวัน"}
+  explain: "workshop = ==การอบรมเชิงปฏิบัติการ== attend a workshop"
+  status: approved
+- id: cefr-b1-w04-014
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 1
+  stem: Everyone who finishes the course will receive a ____.
+  choices:
+    - {t: certificate, why: "จบหลักสูตรแล้วได้รับ ++certificate++ ใบประกาศนียบัตร"}
+    - {t: workshop, why: "workshop เป็นงานอบรม ไม่ใช่สิ่งที่ได้รับหลังจบ"}
+    - {t: skill, why: "skill ไม่ใช่สิ่งที่แจกเป็นชิ้น ๆ"}
+    - {t: opportunity, why: "opportunity แปลว่าโอกาส ไม่ใช่เอกสารที่ได้รับ"}
+  explain: "certificate (n.) ==ใบประกาศ ใบรับรอง== get / receive a certificate"
+  status: approved
+- id: cefr-b1-w04-015
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: Speaking in public is an important ____ for team leaders.
+  choices:
+    - {t: skill, why: "การพูดต่อหน้าคนเป็นทักษะที่ฝึกได้ ใช้ ++skill++"}
+    - {t: certificate, why: "certificate เป็นเอกสาร ไม่ใช่สิ่งที่หัวหน้าทีมทำ"}
+    - {t: workshop, why: "workshop เป็นงานอบรม ไม่ใช่ความสามารถ"}
+    - {t: knowledge, why: "knowledge เน้นความรู้ ส่วนการพูดเป็นทักษะที่ลงมือทำ"}
+  explain: "skill = ==ทักษะ ที่ฝึกและทำได้== เช่น communication skills"
+  status: approved
+- id: cefr-b1-w04-016
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: The new job is a great ____ for me to learn about marketing.
+  choices:
+    - {t: opportunity, why: "งานใหม่เป็นโอกาสที่ดีในการเรียนรู้ ใช้ ++opportunity++"}
+    - {t: ability, why: "ability คือความสามารถของคน ไม่ใช่โอกาสจากงาน"}
+    - {t: certificate, why: "certificate เป็นเอกสาร ไม่เข้ากับ a great ... to learn"}
+    - {t: achieve, why: "achieve เป็นกริยา วางหลัง a great ไม่ได้"}
+  explain: "an opportunity to + กริยา = ==โอกาสที่จะได้...=="
+  status: approved
+- id: cefr-b1-w04-017
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: If you work hard, you can ____ your goals.
+  choices:
+    - {t: achieve, why: "ทำให้เป้าหมายสำเร็จใช้ ++achieve++ your goals"}
+    - {t: develop, why: "develop แปลว่าพัฒนา ใช้กับทักษะ ไม่ค่อยใช้กับ goals"}
+    - {t: describe, why: "describe แปลว่าบรรยาย ไม่ได้ทำให้เป้าหมายสำเร็จ"}
+    - {t: behave, why: "behave แปลว่าประพฤติตัว ไม่มีกรรมตามแบบนี้"}
+  explain: "achieve = ==ทำได้สำเร็จ บรรลุ== achieve a goal, achieve success"
+  status: approved
+- id: cefr-b1-w04-018
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: This course will help you ____ your communication skills.
+  choices:
+    - {t: develop, why: "พัฒนาทักษะใช้ ++develop++ skills"}
+    - {t: achieve, why: "achieve ใช้กับเป้าหมายหรือผลสำเร็จ ไม่ใช่ทักษะ"}
+    - {t: receive, why: "receive แปลว่าได้รับ ไม่ได้แปลว่าพัฒนา"}
+    - {t: attend, why: "attend ใช้กับงานหรือคลาสที่ไปเข้าร่วม"}
+  explain: "develop = ==พัฒนา== develop skills / a plan / a product"
+  status: approved
+- id: cefr-b1-w04-019
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 1
+  stem: I've ____ started a new job, so I'm still learning everything.
+  choices:
+    - {t: recently, why: "เพิ่งเริ่มงานไม่นาน ใช้ ++recently++ กับ present perfect"}
+    - {t: successful, why: "successful เป็นคำคุณศัพท์ วางระหว่าง have กับกริยาไม่ได้"}
+    - {t: lately, why: "lately มักวางท้ายประโยค และใช้กับเรื่องที่เกิดต่อเนื่อง"}
+    - {t: useful, why: "useful เป็นคำคุณศัพท์ ไม่ได้บอกเวลา"}
+  explain: "recently = ==เมื่อไม่นานมานี้== ใช้คู่ present perfect บ่อย"
+  status: approved
+- id: cefr-b1-w04-020
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: After the training, I feel much more ____ speaking English with customers.
+  choices:
+    - {t: confident, why: "รู้สึกมั่นใจขึ้นหลังอบรม ใช้ ++confident++"}
+    - {t: successful, why: "successful แปลว่าประสบความสำเร็จ ไม่ได้บอกความรู้สึกมั่นใจ"}
+    - {t: confidence, why: "confidence เป็นคำนาม วางหลัง feel more แบบนี้ต้องใช้คำคุณศัพท์"}
+    - {t: useful, why: "useful แปลว่ามีประโยชน์ ไม่ใช่ความรู้สึกของคน"}
+  explain: "confident (adj.) ==มั่นใจ== · confidence (n.) ความมั่นใจ"
+  status: approved
+- id: cefr-b1-w04-021
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 1
+  stem: Thank you for the tips. They were really ____.
+  choices:
+    - {t: useful, why: "คำแนะนำมีประโยชน์ ใช้ ++useful++"}
+    - {t: confident, why: "confident ใช้กับคน ไม่ใช้บรรยายคำแนะนำ"}
+    - {t: recently, why: "recently เป็นคำบอกเวลา วางหลัง were แบบนี้ไม่ได้"}
+    - {t: knowledge, why: "knowledge เป็นคำนาม ไม่ใช่คำบรรยายลักษณะ"}
+  explain: "useful = ==มีประโยชน์ ใช้ได้จริง== (ตรงข้ามคือ useless)"
+  status: approved
+- id: cefr-b1-w04-022
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: Her ____ of local history is amazing. She knows every old building in town.
+  choices:
+    - {t: knowledge, why: "รู้เรื่องประวัติศาสตร์ท้องถิ่นเยอะ คือ ++knowledge++ ความรู้"}
+    - {t: skill, why: "skill ใช้กับการลงมือทำ ส่วนการรู้ประวัติศาสตร์เป็นความรู้"}
+    - {t: ability, why: "ability ต้องตามด้วย to + กริยา และไม่ใช้กับ of local history"}
+    - {t: certificate, why: "certificate เป็นเอกสาร ไม่เข้ากับ is amazing ในความหมายนี้"}
+  explain: "knowledge ==นับไม่ได้ ไม่เติม s== · knowledge of / about something"
+  status: approved
+- id: cefr-b1-w04-023
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: The project was very ____. We finished on time and the client was happy.
+  choices:
+    - {t: successful, why: "ทำเสร็จทันเวลาและลูกค้าพอใจ แปลว่าประสบความสำเร็จ ++successful++"}
+    - {t: success, why: "success เป็นคำนาม หลัง very ต้องใช้คำคุณศัพท์"}
+    - {t: confident, why: "confident ใช้กับคน ไม่ใช้กับโปรเจกต์"}
+    - {t: recently, why: "recently เป็นคำบอกเวลา ไม่ใช่คำบรรยายโปรเจกต์"}
+  explain: "success (n.) · ==successful (adj.)== · succeed (v.) ระวังสลับกัน"
+  status: approved
+- id: cefr-b1-w04-024
+  kind: type
+  skill: vo
+  topic: training-development
+  level: 2
+  stem: "She has the a______ to explain difficult ideas in a simple way. (ความสามารถ)"
+  answer: ability
+  accept: [ability]
+  why: "the ability to + กริยา = ความสามารถในการทำสิ่งนั้น"
+  status: approved
+# ---------- วันที่ 3 · for since already yet just ----------
+- id: cefr-b1-w04-025
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 1
+  stem: I've worked here ____ 2021.
+  choices:
+    - {t: since, why: "2021 เป็นจุดเริ่มต้นของเวลา ใช้ ++since++"}
+    - {t: for, why: "for ใช้กับระยะเวลา เช่น for five years ไม่ใช่ปีที่เริ่ม"}
+    - {t: from, why: "from ใช้คู่กับ to หรือในประโยคอดีต ไม่ใช้เดี่ยว ๆ กับ present perfect แบบนี้"}
+    - {t: in, why: "in 2021 ใช้กับ past simple ไม่ใช่ have worked"}
+  explain: "==since + จุดเริ่ม== (since 2021, since Monday) · for + ระยะเวลา (for 3 years)"
+  status: approved
+- id: cefr-b1-w04-026
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 1
+  stem: "\"Have you finished the report?\" \"Not ____. I'll send it this afternoon.\""
+  choices:
+    - {t: yet, why: "ยังไม่เสร็จ ใช้ ++Not yet++"}
+    - {t: already, why: "already แปลว่าเสร็จแล้ว ขัดกับ Not"}
+    - {t: just, why: "Not just ไม่ได้แปลว่ายังไม่เสร็จ"}
+    - {t: since, why: "since ต้องตามด้วยจุดเริ่มต้นของเวลา"}
+  explain: "yet ใช้กับ ==คำถามและปฏิเสธ== มักวางท้ายประโยค"
+  status: approved
+- id: cefr-b1-w04-027
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  stem: You don't need to call the hotel. I've ____ booked the room.
+  choices:
+    - {t: already, why: "จองไปแล้วก่อนที่อีกคนคิดจะทำ ใช้ ++already++ วางหลัง have"}
+    - {t: yet, why: "yet ใช้ในคำถามและปฏิเสธ และวางท้ายประโยค"}
+    - {t: still, why: "still แปลว่ายัง ไม่เข้ากับการทำเสร็จแล้ว"}
+    - {t: ever, why: "ever ใช้กับคำถามประสบการณ์ ไม่ใช่ประโยคบอกเล่าแบบนี้"}
+  explain: "already = ==แล้ว (เร็วกว่าที่คิด)== วางระหว่าง have กับกริยาช่อง 3"
+  status: approved
+- id: cefr-b1-w04-028
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 1
+  stem: We've known each other ____ ten years.
+  choices:
+    - {t: for, why: "ten years เป็นระยะเวลา ใช้ ++for++"}
+    - {t: since, why: "since ต้องตามด้วยจุดเริ่ม เช่น since 2015"}
+    - {t: during, why: "during ใช้กับช่วงเหตุการณ์ เช่น during the trip ไม่ใช่นับปี"}
+    - {t: ago, why: "ago วางหลังเวลาและใช้กับ past simple"}
+  explain: "for ten years / for a long time · ==for บอกว่านานแค่ไหน=="
+  status: approved
+- id: cefr-b1-w04-029
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  stem: "\"Where's Ploy?\" \"She's ____ left. You can still catch her in the car park.\""
+  choices:
+    - {t: just, why: "เพิ่งออกไปเมื่อกี้ ใช้ ++just++ วางหลัง has"}
+    - {t: yet, why: "yet ไม่ใช้ในประโยคบอกเล่าแบบนี้"}
+    - {t: ever, why: "ever ใช้ถามประสบการณ์ ไม่ใช่เรื่องเพิ่งเกิด"}
+    - {t: still, why: "still left ไม่มีความหมายว่าเพิ่งออกไป"}
+  explain: "just = ==เพิ่ง== เมื่อกี้นี้เอง วางหลัง have / has"
+  status: approved
+- id: cefr-b1-w04-030
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  stem: I ____ for the bus for forty minutes! Where is it?
+  choices:
+    - {t: have been waiting, why: "รอมาตลอดและยังรออยู่ เน้นว่านาน ใช้ ++have been + -ing++"}
+    - {t: waited, why: "waited บอกว่าจบแล้ว แต่ยังรออยู่และถามว่ารถอยู่ไหน"}
+    - {t: am waiting, why: "am waiting ใช้กับ for forty minutes ที่นับจากอดีตไม่ได้"}
+    - {t: have waiting, why: "ขาด been ก่อน -ing"}
+  explain: "present perfect continuous = ==have been + -ing== ทำมาตลอดจนถึงตอนนี้"
+  status: approved
+- id: cefr-b1-w04-031
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 3
+  stem: Have you sent the invitations ____?
+  choices:
+    - {t: yet, why: "คำถามว่าทำหรือยัง ใช้ ++yet++ ท้ายประโยค"}
+    - {t: ago, why: "ago ต้องวางหลังระยะเวลา เช่น two days ago และใช้กับอดีตธรรมดา"}
+    - {t: since, why: "since ต้องตามด้วยจุดเวลา"}
+    - {t: just, why: "just ต้องวางหลัง have ไม่ใช่ท้ายประโยค"}
+  explain: "ถามว่า ==ทำหรือยัง== ใช้ Have you ... yet?"
+  status: approved
+- id: cefr-b1-w04-032
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  stem: How long ____ English?
+  choices:
+    - {t: have you been learning, why: "ถามว่าเรียนมานานแค่ไหนและยังเรียนอยู่ ใช้ ++have you been + -ing++"}
+    - {t: are you learning, why: "How long กับรูปปัจจุบันกำลังทำ ใช้ถามระยะเวลาที่ผ่านมาไม่ได้"}
+    - {t: do you learn, why: "do you learn ไม่เข้ากับการถามระยะเวลาถึงตอนนี้"}
+    - {t: you have learned, why: "คำถามต้องย้าย have ไว้หน้า you"}
+  explain: "How long have you been + -ing? = ==ทำมานานแค่ไหนแล้ว=="
+  status: approved
+- id: cefr-b1-w04-033
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  stem: I haven't seen Somchai ____ we left university.
+  choices:
+    - {t: since, why: "ตั้งแต่เรียนจบเป็นจุดเริ่ม ใช้ ++since + ประโยค++"}
+    - {t: for, why: "for ต้องตามด้วยระยะเวลา ไม่ใช่ประโยค"}
+    - {t: ago, why: "ago วางหลังระยะเวลา เช่น two years ago"}
+    - {t: until, why: "until แปลว่าจนกระทั่ง ความหมายไม่ตรง"}
+  explain: "since ตามด้วยประโยคอดีตได้ เช่น ==since we left university=="
+  status: approved
+- id: cefr-b1-w04-034
+  kind: cloze
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  text: |
+    Hi Dao,
+    I've (1) ____ finished the first part of the online course, and I've learned a lot. I've been studying (2) ____ three weeks now. I haven't done the final test (3) ____, but I'll try it this weekend.
+    Ton
+  questions:
+    - choices:
+        - {t: just, why: "เพิ่งเรียนส่วนแรกจบ just วางหลัง have"}
+        - {t: yet, why: "yet ไม่ใช้ในประโยคบอกเล่าและไม่วางหลัง have"}
+        - {t: since, why: "since ต้องตามด้วยจุดเวลา ไม่ใช่กริยา"}
+        - {t: ever, why: "ever ใช้ในคำถามหรือกับ never ไม่ใช่ประโยคบอกเล่าแบบนี้"}
+    - choices:
+        - {t: for, why: "three weeks เป็นระยะเวลา ใช้ for"}
+        - {t: since, why: "since ต้องตามด้วยจุดเริ่ม ไม่ใช่ระยะเวลา"}
+        - {t: during, why: "during ไม่ใช้กับ three weeks แบบนับถึงตอนนี้"}
+        - {t: ago, why: "ago ต้องวางหลังเวลาและใช้กับอดีต"}
+    - choices:
+        - {t: yet, why: "ประโยคปฏิเสธว่ายังไม่ได้ทำ ใช้ yet ท้ายประโยค"}
+        - {t: already, why: "already ไม่ใช้ในประโยคปฏิเสธแบบนี้"}
+        - {t: just, why: "just ต้องวางหลัง have ไม่ใช่ท้ายประโยค"}
+        - {t: still, why: "still ในปฏิเสธต้องวางหน้า haven't"}
+  status: approved
+# ---------- วันที่ 4 · อ่านประวัติย่อและฟังสัมภาษณ์ ----------
+- id: cefr-b1-w04-035
+  kind: read
+  skill: rd
+  topic: speaker-profile
+  level: 2
+  title: About Our Speaker · Dr Anong Wichai
+  passage: |
+    Dr Anong Wichai is a nutrition expert from Khon Kaen. She has worked in public health for more than fifteen years. Before she became a researcher, she worked as a nurse at a small hospital in Udon Thani.
+
+    Dr Anong has written two popular books about healthy eating on a small budget. She has also given talks in Laos, Vietnam and Malaysia. In 2022 she received an award for her work with local communities.
+
+    In today's workshop, she will show you how to plan a week of healthy meals. Please bring a notebook. At the end of the session, every participant will receive a certificate.
+  questions:
+    - stem: What was Dr Anong's job before she became a researcher?
+      choices:
+        - {t: a nurse, why: "ย่อหน้าแรก she worked as a nurse ก่อนเป็นนักวิจัย"}
+        - {t: a writer, why: "เธอเขียนหนังสือภายหลัง ไม่ใช่งานก่อนเป็นนักวิจัย"}
+        - {t: a cook, why: "เธอสอนเรื่องอาหาร แต่ไม่ได้บอกว่าเคยเป็นพ่อครัว"}
+        - {t: a teacher, why: "ไม่มีการพูดถึงงานครู"}
+    - stem: How long has she worked in public health?
+      choices:
+        - {t: over fifteen years, why: "for more than fifteen years = มากกว่า 15 ปี"}
+        - {t: since 2022, why: "2022 คือปีที่ได้รางวัล ไม่ใช่ปีที่เริ่มทำงาน"}
+        - {t: two years, why: "two คือจำนวนหนังสือ ไม่ใช่ระยะเวลา"}
+        - {t: one week, why: "a week เป็นเรื่องแผนอาหาร ไม่ใช่ระยะเวลาทำงาน"}
+    - stem: What will people learn in the workshop?
+      choices:
+        - {t: how to plan healthy meals, why: "ย่อหน้าสุดท้าย how to plan a week of healthy meals"}
+        - {t: how to write a book, why: "เธอเขียนหนังสือ แต่เวิร์กช็อปไม่ได้สอนเขียน"}
+        - {t: how to become a nurse, why: "ไม่มีส่วนไหนพูดถึงการเรียนพยาบาล"}
+        - {t: how to travel on a budget, why: "on a small budget เกี่ยวกับการกิน ไม่ใช่การเดินทาง"}
+    - stem: What should participants bring?
+      choices:
+        - {t: a notebook, why: "ย่อหน้าสุดท้าย Please bring a notebook"}
+        - {t: a certificate, why: "ใบประกาศเป็นสิ่งที่จะได้รับตอนจบ ไม่ใช่สิ่งที่ต้องนำมา"}
+        - {t: some healthy food, why: "ไม่ได้ขอให้นำอาหารมา"}
+        - {t: one of her books, why: "ไม่ได้ขอให้นำหนังสือของเธอมา"}
+  status: approved
+- id: cefr-b1-w04-036
+  kind: listen
+  skill: li
+  topic: job-interview
+  level: 2
+  script:
+    - {who: Interviewer, en: "Have you ever managed a team before?"}
+    - {who: Woman, en: "Yes. In my last job I managed a team of six people for two years. Before that, I worked in customer service."}
+  questions:
+    - stem: How long did the woman manage a team?
+      choices:
+        - {t: two years, why: "เธอบอกว่า managed a team of six people for two years"}
+        - {t: six years, why: "หกคือจำนวนคนในทีม ไม่ใช่จำนวนปี"}
+        - {t: she has never managed a team, why: "เธอตอบ Yes และเล่าว่าเคยดูแลทีม"}
+        - {t: one year, why: "ไม่มีการพูดถึงหนึ่งปี"}
+  status: approved
+- id: cefr-b1-w04-037
+  kind: listen
+  skill: li
+  topic: experience-chat
+  level: 2
+  script:
+    - {who: Man, en: "Have you done the online safety training yet?"}
+    - {who: Woman, en: "I've done the first part, but I haven't finished the test yet. I'll do it tomorrow morning."}
+  questions:
+    - stem: What hasn't the woman done?
+      choices:
+        - {t: the test, why: "เธอบอกว่า I haven't finished the test yet"}
+        - {t: the first part, why: "เธอบอกว่าทำส่วนแรกเสร็จแล้ว"}
+        - {t: the online registration, why: "ไม่มีการพูดถึงการลงทะเบียน"}
+        - {t: anything at all, why: "เธอทำไปบางส่วนแล้ว"}
+  status: approved
+- id: cefr-b1-w04-038
+  kind: listen
+  skill: li
+  topic: experience-chat
+  level: 2
+  script:
+    - {who: Man, en: "I've been learning to cook Italian food since January. I've taken six classes so far, and last week I made fresh pasta for my family for the first time."}
+  questions:
+    - stem: What did the man do last week?
+      choices:
+        - {t: He cooked pasta for his family., why: "เขาบอกว่า last week I made fresh pasta for my family"}
+        - {t: He started a cooking class., why: "เขาเริ่มเรียนตั้งแต่มกราคม ไม่ใช่สัปดาห์ที่แล้ว"}
+        - {t: He went to Italy., why: "ไม่มีการพูดถึงการไปอิตาลี"}
+        - {t: He took his sixth class., why: "หกคลาสคือจำนวนทั้งหมดจนถึงตอนนี้ ไม่ได้บอกว่าคลาสที่หกเรียนสัปดาห์ที่แล้ว"}
+  status: approved
+- id: cefr-b1-w04-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Have you, ever, been, to Chiang Rai]
+  sentence: Have you ever been to Chiang Rai?
+  th: คุณเคยไปเชียงรายไหม
+  why: "Have you ever + กริยาช่อง 3 ใช้ถามประสบการณ์"
+  status: approved
+- id: cefr-b1-w04-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I, have just, finished, my training course]
+  sentence: I have just finished my training course.
+  th: ฉันเพิ่งเรียนหลักสูตรอบรมจบ
+  why: "just วางระหว่าง have กับกริยาช่อง 3"
+  status: approved
+- id: cefr-b1-w04-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She has, worked, at the hospital, since 2018]
+  sentence: She has worked at the hospital since 2018.
+  th: เธอทำงานที่โรงพยาบาลตั้งแต่ปี 2018
+  why: "since + จุดเริ่มต้นวางท้ายประโยค"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b1-w04-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The workshop, was really useful, and I have already, used some ideas at work]
+  sentence: The workshop was really useful, and I have already used some ideas at work.
+  th: เวิร์กช็อปมีประโยชน์มาก และฉันได้เอาบางไอเดียไปใช้ในงานแล้ว
+  why: "เล่าการอบรมที่จบแล้วด้วย past simple แล้วบอกผลถึงตอนนี้ด้วย have already + ช่อง 3"
+  status: approved

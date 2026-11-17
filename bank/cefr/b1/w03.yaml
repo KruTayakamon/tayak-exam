@@ -1,0 +1,582 @@
+# คอร์ส b1 · สัปดาห์ 3 · เรื่องที่เกิดขึ้น · past simple / past continuous · when while · as soon as before after until · used to
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# ---------- วันที่ 1 · past simple กับ past continuous ----------
+- id: cefr-b1-w03-001
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 1
+  stem: I ____ dinner when my phone rang.
+  choices:
+    - {t: was cooking, why: "ทำกับข้าวเป็นฉากที่กำลังเกิดอยู่ แล้วโทรศัพท์ดังแทรกเข้ามา ใช้ ++was + -ing++"}
+    - {t: cooked, why: "cooked ทำให้ฟังเหมือนทำกับข้าวหลังโทรศัพท์ดัง ไม่ใช่กำลังทำอยู่ตอนนั้น"}
+    - {t: am cooking, why: "am cooking เป็นปัจจุบัน แต่ rang บอกว่าเป็นเรื่องในอดีต"}
+    - {t: was cook, why: "หลัง was ต้องเป็นกริยา -ing จะใช้ cook เฉย ๆ ไม่ได้"}
+  explain: "เรื่องยาวที่กำลังเกิดใช้ ==was/were + -ing== ส่วนเรื่องสั้นที่แทรกเข้ามาใช้ past simple"
+  status: approved
+- id: cefr-b1-w03-002
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 1
+  stem: While we ____ to the meeting, it started to rain.
+  choices:
+    - {t: were walking, why: "while ตามด้วยเรื่องที่กำลังดำเนินอยู่ ใช้ ++were + -ing++ เพราะประธานคือ we"}
+    - {t: walked, why: "while มักตามด้วยรูปกำลังทำ ไม่ใช่ past simple"}
+    - {t: was walking, why: "we ใช้ were ไม่ใช่ was"}
+    - {t: are walking, why: "are walking เป็นปัจจุบัน แต่ started บอกว่าเป็นอดีต"}
+  explain: "==while + กำลังทำอยู่== (past continuous) · when + เหตุการณ์สั้น (past simple)"
+  status: approved
+- id: cefr-b1-w03-003
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 1
+  stem: Yesterday I ____ my old friend at the supermarket.
+  choices:
+    - {t: met, why: "เจอเพื่อนเป็นเหตุการณ์สั้น ๆ ที่จบแล้วเมื่อวาน ใช้ ++past simple++ met"}
+    - {t: was meeting, why: "รูปกำลังทำใช้เป็นฉากหลัง แต่ประโยคนี้เล่าเหตุการณ์เดียวที่จบแล้ว"}
+    - {t: meet, why: "Yesterday ต้องเปลี่ยนเป็นรูปอดีต"}
+    - {t: meeted, why: "meet เป็นกริยาผิดปกติ รูปอดีตคือ met ไม่เติม -ed"}
+  explain: "เหตุการณ์ที่จบแล้วในเวลาที่บอกชัด เช่น ==yesterday, last week== ใช้ past simple"
+  status: approved
+- id: cefr-b1-w03-004
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  stem: What ____ at 8 p.m. last night? I called you twice.
+  choices:
+    - {t: were you doing, why: "ถามว่าตอนสองทุ่มเมื่อคืนกำลังทำอะไรอยู่ ใช้ ++were you + -ing++"}
+    - {t: did you do, why: "did you do ถามว่าทำอะไรไปบ้าง ไม่ได้เน้นว่ากำลังทำอยู่ ณ เวลานั้น"}
+    - {t: you were doing, why: "ลำดับคำแบบบอกเล่า คำถามต้องย้าย were ไปไว้หน้า you"}
+    - {t: was you doing, why: "you ใช้ were เสมอ ไม่ใช้ was"}
+  explain: "ถามว่า ==ณ เวลานั้นกำลังทำอะไร== ใช้ What were you doing at ...?"
+  status: approved
+- id: cefr-b1-w03-005
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  stem: The lights ____ out while I was reading in bed.
+  choices:
+    - {t: went, why: "ไฟดับเป็นเหตุการณ์สั้นที่แทรกเข้ามา ใช้ ++past simple++ ของ go คือ went"}
+    - {t: were going, why: "ไฟดับเกิดทันทีครั้งเดียว ไม่ใช่เรื่องที่ค่อย ๆ ดำเนินไป"}
+    - {t: goed, why: "go เป็นกริยาผิดปกติ รูปอดีตคือ went"}
+    - {t: go, why: "เรื่องนี้เกิดในอดีต ต้องใช้รูปอดีต"}
+  explain: "ฉากหลังยาว ๆ ใช้ -ing แต่ ==เหตุการณ์ที่แทรก== ใช้ past simple"
+  status: approved
+- id: cefr-b1-w03-006
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  stem: When the manager came in, everyone ____ quiet.
+  choices:
+    - {t: became, why: "ผู้จัดการเข้ามาแล้วทุกคนเงียบทันที เป็นเหตุการณ์ต่อกัน ใช้ ++past simple++ ทั้งคู่"}
+    - {t: was becoming, why: "รูป -ing จะหมายถึงค่อย ๆ เงียบอยู่ก่อนแล้ว ไม่ใช่เงียบเพราะผู้จัดการเข้ามา"}
+    - {t: becomes, why: "came บอกว่าเป็นอดีต จะใช้ปัจจุบันไม่ได้"}
+    - {t: were become, why: "were ใช้คู่กับ become รูปเดิมแบบนี้ไม่ได้"}
+  explain: "สองเหตุการณ์เกิด ==ต่อกันทีละอย่าง== ใช้ past simple ทั้งสองส่วน"
+  status: approved
+- id: cefr-b1-w03-007
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 1
+  stem: I ____ my keys, so I had to call my sister.
+  choices:
+    - {t: lost, why: "ทำกุญแจหายเป็นเหตุการณ์ที่จบแล้ว ใช้ past simple ของ lose คือ ++lost++"}
+    - {t: losed, why: "lose เป็นกริยาผิดปกติ ไม่เติม -ed"}
+    - {t: was losing, why: "การทำของหายเกิดทันที ไม่ใช่สิ่งที่ค่อย ๆ ดำเนินไป"}
+    - {t: lose, why: "had to บอกว่าเป็นอดีต ต้องใช้ lost"}
+  explain: "กริยาผิดปกติต้องจำรูปอดีต เช่น ==lose → lost== · leave → left · forget → forgot"
+  status: approved
+- id: cefr-b1-w03-008
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  stem: The sun ____ and the birds were singing when we arrived at the beach.
+  choices:
+    - {t: was shining, why: "เป็นฉากหลังตอนที่เราไปถึง เข้าคู่กับ were singing ใช้ ++was + -ing++"}
+    - {t: shone, why: "shone เป็นเหตุการณ์เดี่ยว ไม่เข้ากับการบรรยายฉากที่กำลังเป็นอยู่"}
+    - {t: shines, why: "เรื่องทั้งหมดเป็นอดีต ใช้ปัจจุบันไม่ได้"}
+    - {t: is shining, why: "is shining เป็นปัจจุบัน แต่ arrived เป็นอดีต"}
+  explain: "เล่าเรื่องให้มีบรรยากาศ ใช้ ==past continuous วาดฉากหลัง== ก่อนเล่าเหตุการณ์หลัก"
+  status: approved
+- id: cefr-b1-w03-009
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 1
+  stem: ____ you see the news about the flood last night?
+  choices:
+    - {t: Did, why: "ถามเรื่องอดีตที่จบแล้ว ใช้ ++Did++ แล้วกริยาเป็นรูปเดิม see"}
+    - {t: Were, why: "Were ใช้กับ -ing หรือคำคุณศัพท์ ไม่ใช้กับ see รูปเดิม"}
+    - {t: Do, why: "last night เป็นอดีต จะใช้ Do ไม่ได้"}
+    - {t: Have, why: "Have ต้องตามด้วยกริยาช่อง 3 และไม่ใช้กับ last night"}
+  explain: "คำถามอดีต ==Did + ประธาน + กริยารูปเดิม== กริยาไม่ต้องเปลี่ยนรูปอีก"
+  status: approved
+- id: cefr-b1-w03-010
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  stem: I didn't hear the doorbell because I ____ a shower.
+  choices:
+    - {t: was having, why: "ตอนกริ่งดังกำลังอาบน้ำอยู่ เป็นเหตุผลที่ไม่ได้ยิน ใช้ ++was having++"}
+    - {t: had, why: "had a shower ฟังเหมือนอาบน้ำเสร็จเป็นครั้ง ๆ ไม่ได้บอกว่ากำลังอาบอยู่"}
+    - {t: have had, why: "present perfect ไม่ใช้เล่าฉากในอดีตแบบนี้"}
+    - {t: was have, why: "หลัง was ต้องเป็นรูป -ing"}
+  explain: "have a shower / have lunch ==ใช้รูป -ing ได้== เพราะเป็นการกระทำ"
+  status: approved
+- id: cefr-b1-w03-011
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  stem: She ____ her arm while she was playing badminton.
+  choices:
+    - {t: hurt, why: "บาดเจ็บเกิดทันทีระหว่างเล่น ใช้ past simple และ hurt ++รูปอดีตเหมือนรูปเดิม++"}
+    - {t: hurted, why: "hurt ไม่เติม -ed รูปอดีตยังเป็น hurt"}
+    - {t: was hurting, why: "รูป -ing จะหมายถึงเจ็บต่อเนื่อง ไม่ใช่บาดเจ็บขึ้นมาครั้งเดียว"}
+    - {t: hurts, why: "เรื่องนี้เกิดในอดีต จะใช้ปัจจุบันไม่ได้"}
+  explain: "กริยาบางตัวรูปอดีตหน้าตาเดิม ==hurt, put, cut, cost== ไม่ต้องเติม -ed"
+  status: approved
+- id: cefr-b1-w03-012
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 3
+  stem: "\"Why were you late?\" \"Sorry, the traffic ____ really bad.\""
+  choices:
+    - {t: was, why: "บอกสภาพในอดีตเฉย ๆ ใช้ ++was++ เพราะ traffic เป็นนามนับไม่ได้"}
+    - {t: were, why: "traffic นับไม่ได้ ถือเป็นเอกพจน์ ใช้ was"}
+    - {t: was being, why: "was being ใช้น้อยมากกับสภาพแบบนี้ และฟังไม่เป็นธรรมชาติ"}
+    - {t: has been, why: "ถามถึงเหตุการณ์ที่จบแล้ว ใช้อดีตธรรมดา"}
+  explain: "be + คำคุณศัพท์ในอดีต ใช้ ==was / were== ธรรมดา ไม่ต้องใส่ being"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์เล่าเหตุการณ์และความรู้สึก ----------
+- id: cefr-b1-w03-013
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 1
+  stem: There was a car ____ on the main road, so traffic was very slow.
+  choices:
+    - {t: accident, why: "รถชนกันบนถนนเรียกว่า ++accident++ อุบัติเหตุ"}
+    - {t: situation, why: "situation แปลว่าสถานการณ์ กว้างเกินไป ไม่ได้บอกว่ารถชน"}
+    - {t: behaviour, why: "behaviour คือพฤติกรรม ไม่ใช่เหตุการณ์บนถนน"}
+    - {t: attitude, why: "attitude คือทัศนคติ ไม่เข้ากับคำว่า car"}
+  explain: "accident = ==อุบัติเหตุ== · by accident = โดยบังเอิญ"
+  status: approved
+- id: cefr-b1-w03-014
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: I didn't ____ I had left my wallet at home until I got to the shop.
+  choices:
+    - {t: realise, why: "เพิ่งรู้ตัวว่าลืมกระเป๋าตังค์ ใช้ ++realise++"}
+    - {t: describe, why: "describe แปลว่าบรรยาย ไม่ได้แปลว่ารู้ตัว"}
+    - {t: mention, why: "mention แปลว่าพูดถึง ไม่เข้ากับการรู้ตัวว่าลืมของ"}
+    - {t: behave, why: "behave แปลว่าประพฤติตัว ไม่มีกรรมตามแบบนี้"}
+  explain: "realise = ==รู้ตัว ตระหนัก== (อเมริกันเขียน realize)"
+  status: approved
+- id: cefr-b1-w03-015
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 1
+  stem: Can you ____ the man you saw? Was he tall or short?
+  choices:
+    - {t: describe, why: "ขอให้บอกลักษณะคนที่เห็น ใช้ ++describe++ บรรยาย"}
+    - {t: realise, why: "realise แปลว่ารู้ตัว ไม่ใช่การบอกลักษณะ"}
+    - {t: mention, why: "mention แค่พูดถึงผ่าน ๆ ไม่ได้บอกรายละเอียด"}
+    - {t: behave, why: "behave แปลว่าประพฤติตัว ใช้กับคนที่ทำตัวเอง"}
+  explain: "describe ==ไม่ต้องมี about== · describe the man ไม่ใช่ describe about the man"
+  status: approved
+- id: cefr-b1-w03-016
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: The children ____ very well at the restaurant, so we were proud of them.
+  choices:
+    - {t: behaved, why: "เด็ก ๆ ทำตัวดีที่ร้านอาหาร ใช้ ++behave well++"}
+    - {t: described, why: "described ต้องมีกรรม และไม่ได้แปลว่าทำตัวดี"}
+    - {t: realised, why: "realised แปลว่ารู้ตัว ไม่เข้ากับ very well ในความหมายนี้"}
+    - {t: mentioned, why: "mentioned ต้องมีสิ่งที่พูดถึงตามมา"}
+  explain: "behave (v.) ==ประพฤติตัว== · behaviour (n.) พฤติกรรม"
+  status: approved
+- id: cefr-b1-w03-017
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: Her positive ____ helped the whole team stay calm.
+  choices:
+    - {t: attitude, why: "positive attitude = ++ทัศนคติเชิงบวก++ ทำให้ทีมใจเย็น"}
+    - {t: accident, why: "accident คืออุบัติเหตุ ไม่ใช่สิ่งที่ positive"}
+    - {t: situation, why: "positive situation ไม่ได้เป็นของคนคนหนึ่งแบบ her"}
+    - {t: behave, why: "behave เป็นกริยา วางหลัง positive แบบนี้ไม่ได้"}
+  explain: "attitude = ==ทัศนคติ ท่าที== มักคู่กับ positive / negative"
+  status: approved
+- id: cefr-b1-w03-018
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 1
+  stem: I waited for a while, and ____ the door opened.
+  choices:
+    - {t: suddenly, why: "ประตูเปิดขึ้นมาแบบไม่คาดคิด ใช้ ++suddenly++ ทันใดนั้น"}
+    - {t: immediately, why: "immediately แปลว่าทันทีหลังจากอะไรบางอย่าง แต่ประโยคนี้รอมาสักพักแล้ว"}
+    - {t: confused, why: "confused เป็นคำคุณศัพท์ บอกความรู้สึก ไม่ใช่วิธีที่ประตูเปิด"}
+    - {t: embarrassed, why: "embarrassed บอกความรู้สึกอาย วางตรงนี้ไม่ได้"}
+  explain: "suddenly = ==ทันใดนั้น แบบไม่ทันตั้งตัว== ใช้เล่าเรื่องให้มีลุ้น"
+  status: approved
+- id: cefr-b1-w03-019
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: Please call me ____ if there is any problem with the order.
+  choices:
+    - {t: immediately, why: "ขอให้โทรทันทีที่มีปัญหา ใช้ ++immediately++"}
+    - {t: suddenly, why: "suddenly ใช้บรรยายสิ่งที่เกิดขึ้นเองแบบไม่คาดคิด ไม่ใช้กับคำขอ"}
+    - {t: lately, why: "lately แปลว่าช่วงนี้ ไม่เข้ากับการขอให้โทร"}
+    - {t: early, why: "early แปลว่าแต่เช้าหรือก่อนเวลา ไม่ได้แปลว่าทันที"}
+  explain: "immediately = ==ทันที ไม่รอ== ใช้กับคำขอหรือคำสั่งได้"
+  status: approved
+- id: cefr-b1-w03-020
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: I called my boss by the wrong name. I felt so ____!
+  choices:
+    - {t: embarrassed, why: "เรียกชื่อหัวหน้าผิดแล้วรู้สึกอาย ใช้ ++embarrassed++"}
+    - {t: embarrassing, why: "embarrassing ใช้บรรยายเหตุการณ์ที่น่าอาย ไม่ใช่ความรู้สึกของคน"}
+    - {t: confusing, why: "confusing บรรยายสิ่งที่ทำให้งง ไม่ใช่ความรู้สึก"}
+    - {t: immediately, why: "immediately เป็นคำบอกเวลา วางหลัง felt แบบนี้ไม่ได้"}
+  explain: "คนรู้สึกใช้ ==-ed== (embarrassed) · สิ่งที่ทำให้รู้สึกใช้ -ing (embarrassing)"
+  status: approved
+- id: cefr-b1-w03-021
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: The instructions were unclear, so many people were ____.
+  choices:
+    - {t: confused, why: "คำสั่งไม่ชัดเลยทำให้คนงง ใช้ ++confused++ บอกความรู้สึก"}
+    - {t: confusing, why: "confusing บรรยายตัวคำสั่ง ไม่ใช่คนที่งง"}
+    - {t: suddenly, why: "suddenly เป็นคำบอกลักษณะเหตุการณ์ ไม่ใช่ความรู้สึก"}
+    - {t: realised, why: "realised เป็นกริยา ใช้หลัง were แบบนี้ไม่ได้"}
+  explain: "people were ==confused== · the instructions were confusing"
+  status: approved
+- id: cefr-b1-w03-022
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 1
+  stem: He didn't ____ that the meeting was cancelled, so I went there for nothing.
+  choices:
+    - {t: mention, why: "เขาไม่ได้พูดถึงว่าประชุมยกเลิก ใช้ ++mention++"}
+    - {t: describe, why: "describe แปลว่าบรรยายรายละเอียด ไม่ได้หมายถึงแค่บอก"}
+    - {t: behave, why: "behave แปลว่าประพฤติตัว ไม่มีกรรมแบบนี้"}
+    - {t: realise, why: "realise แปลว่ารู้ตัว ความหมายไม่ตรงกับการไม่ได้บอก"}
+  explain: "mention = ==พูดถึง บอกผ่าน ๆ== ไม่ต้องมี about"
+  status: approved
+- id: cefr-b1-w03-023
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: The ____ was difficult, but she stayed calm and solved the problem.
+  choices:
+    - {t: situation, why: "สภาพการณ์ที่ยากลำบาก ใช้ ++situation++"}
+    - {t: attitude, why: "attitude คือทัศนคติ เข้ากับคนมากกว่าเหตุการณ์ที่ต้องแก้"}
+    - {t: behaviour, why: "behaviour คือพฤติกรรม ไม่ใช่ปัญหาที่ต้องแก้"}
+    - {t: realise, why: "realise เป็นกริยา วางหลัง The ไม่ได้"}
+  explain: "situation = ==สถานการณ์== คู่กับ a difficult situation, the current situation"
+  status: approved
+- id: cefr-b1-w03-024
+  kind: type
+  skill: vo
+  topic: events-feelings
+  level: 2
+  stem: "The teacher praised the students for their good b________ during the trip. (พฤติกรรม คำนาม)"
+  answer: behaviour
+  accept: [behaviour, behavior]
+  why: "behaviour เป็นคำนามของ behave · อเมริกันเขียน behavior ก็ถูก"
+  status: approved
+# ---------- วันที่ 3 · before after until as soon as · used to ----------
+- id: cefr-b1-w03-025
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 1
+  stem: I ____ live in Hat Yai, but now I live in Bangkok.
+  choices:
+    - {t: used to, why: "เคยอยู่แต่ตอนนี้ไม่ได้อยู่แล้ว ใช้ ++used to + กริยารูปเดิม++"}
+    - {t: use to, why: "ในประโยคบอกเล่าต้องเป็น used to มี d"}
+    - {t: am used to, why: "be used to แปลว่าเคยชินกับ ไม่ได้แปลว่าเคยทำในอดีต"}
+    - {t: was used, why: "was used เป็นรูปถูกกระทำ แปลว่าถูกใช้"}
+  explain: "used to = ==เคยทำในอดีต ตอนนี้ไม่แล้ว== ตามด้วยกริยารูปเดิม"
+  status: approved
+- id: cefr-b1-w03-026
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 2
+  stem: Call me as soon as you ____ at the airport.
+  choices:
+    - {t: arrive, why: "หลัง as soon as ที่พูดถึงอนาคต ใช้ ++present simple++ arrive"}
+    - {t: will arrive, why: "หลัง as soon as, when, before ไม่ใส่ will แม้จะเป็นอนาคต"}
+    - {t: arrived, why: "เรื่องนี้ยังไม่เกิด ใช้อดีตไม่ได้"}
+    - {t: are arriving, why: "หลัง as soon as ใช้ปัจจุบันธรรมดาเป็นปกติ"}
+  explain: "as soon as / when / until + ==present simple== แม้จะหมายถึงอนาคต"
+  status: approved
+- id: cefr-b1-w03-027
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 1
+  stem: Wash your hands ____ you eat.
+  choices:
+    - {t: before, why: "ล้างมือก่อนกิน ใช้ ++before++"}
+    - {t: until, why: "until แปลว่าจนกระทั่ง จะหมายถึงล้างไปเรื่อย ๆ จนถึงตอนกิน"}
+    - {t: while, why: "while แปลว่าระหว่างที่ ล้างมือไปกินไปไม่สมเหตุสมผล"}
+    - {t: since, why: "since ใช้บอกจุดเริ่มต้นของเวลา ไม่ใช่ลำดับก่อนหลัง"}
+  explain: "before = ==ก่อน== · after = หลัง · until = จนกระทั่ง"
+  status: approved
+- id: cefr-b1-w03-028
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 2
+  stem: We waited ____ the rain stopped, and then we went out.
+  choices:
+    - {t: until, why: "รอไปเรื่อย ๆ จนฝนหยุด ใช้ ++until++"}
+    - {t: before, why: "before จะหมายถึงรอก่อนฝนหยุด ไม่ได้บอกว่ารอจนหยุด"}
+    - {t: by, why: "by แปลว่าไม่เกินเวลานั้น ใช้กับเวลา ไม่ค่อยใช้นำประโยคแบบนี้"}
+    - {t: during, why: "during ต้องตามด้วยคำนาม เช่น during the rain"}
+  explain: "until = ==จนกระทั่ง== ทำอย่างแรกต่อไปเรื่อย ๆ แล้วหยุดเมื่ออีกอย่างเกิด"
+  status: approved
+- id: cefr-b1-w03-029
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 2
+  stem: ____ you use to work at a bank?
+  choices:
+    - {t: Did, why: "คำถามของ used to ใช้ ++Did ... use to++ ไม่มี d ที่ use"}
+    - {t: Do, why: "เรื่องนี้เป็นอดีต ต้องใช้ Did"}
+    - {t: Were, why: "Were ใช้กับ be used to ซึ่งแปลว่าเคยชิน ความหมายต่างกัน"}
+    - {t: Have, why: "Have ต้องตามด้วยกริยาช่อง 3 ไม่ใช่ use to"}
+  explain: "ถามและปฏิเสธใช้ ==did / didn't + use to== (d หายไปเพราะ did รับแล้ว)"
+  status: approved
+- id: cefr-b1-w03-030
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 2
+  stem: After she ____ university, she moved to Japan.
+  choices:
+    - {t: finished, why: "จบมหาวิทยาลัยก่อนแล้วจึงย้าย ใช้ ++past simple++ finished"}
+    - {t: was finishing, why: "การเรียนจบเป็นจุดเดียว ไม่ใช่เรื่องที่กำลังดำเนินอยู่"}
+    - {t: finishes, why: "moved บอกว่าเป็นอดีต ส่วนหน้าต้องเป็นอดีตด้วย"}
+    - {t: has finished, why: "present perfect ไม่ใช้เล่าลำดับเรื่องในอดีตแบบนี้"}
+  explain: "เล่าเรื่องในอดีตด้วย after / before ใช้ ==past simple ทั้งสองส่วน== ได้เลย"
+  status: approved
+- id: cefr-b1-w03-031
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 3
+  stem: I didn't ____ coffee, but now I drink two cups a day.
+  choices:
+    - {t: use to drink, why: "ปฏิเสธของ used to ใช้ ++didn't use to + กริยารูปเดิม++"}
+    - {t: used to drink, why: "หลัง didn't ต้องตัด d เป็น use to"}
+    - {t: use to drinking, why: "หลัง use to ต้องเป็นกริยารูปเดิม ไม่ใช่ -ing"}
+    - {t: used drink, why: "ขาด to และหลัง didn't ต้องใช้ use"}
+  explain: "didn't use to + กริยารูปเดิม = ==เมื่อก่อนไม่เคย== ตอนนี้ทำแล้ว"
+  status: approved
+- id: cefr-b1-w03-032
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 2
+  stem: I'll send you the photos when I ____ home tonight.
+  choices:
+    - {t: get, why: "หลัง when ที่พูดถึงอนาคต ใช้ ++present simple++ get"}
+    - {t: will get, why: "ประโยคหลัง when ไม่ใส่ will แม้จะเป็นอนาคต"}
+    - {t: got, why: "tonight ยังไม่มาถึง ใช้อดีตไม่ได้"}
+    - {t: am going to get, why: "หลัง when ใช้ปัจจุบันธรรมดา ไม่ใช้ going to"}
+  explain: "ประโยคหลัก will ได้ แต่ ==หลัง when ใช้ปัจจุบัน== เช่น I'll call you when I get there"
+  status: approved
+- id: cefr-b1-w03-033
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 2
+  stem: My grandfather ____ walk to the market every morning when he was younger.
+  choices:
+    - {t: used to, why: "บอกนิสัยในอดีตที่ตอนนี้ไม่ทำแล้ว ใช้ ++used to++"}
+    - {t: is used to, why: "be used to แปลว่าเคยชิน และต้องตามด้วย -ing หรือคำนาม"}
+    - {t: uses to, why: "ไม่มีรูป uses to ในภาษาอังกฤษ"}
+    - {t: was using, why: "was using แปลว่ากำลังใช้ ไม่ได้บอกนิสัยในอดีต"}
+  explain: "นิสัยหรือเรื่องที่ทำเป็นประจำในอดีต ใช้ ==used to== ได้"
+  status: approved
+- id: cefr-b1-w03-034
+  kind: cloze
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 2
+  text: |
+    Last Friday I (1) ____ home from work when I saw an old woman at the bus stop. She looked confused, so I (2) ____ her if she needed help. She was lost! I walked with her (3) ____ we found her daughter's shop.
+  questions:
+    - choices:
+        - {t: was driving, why: "กำลังขับรถกลับบ้านตอนที่เห็นคุณยาย เป็นฉากหลัง ใช้ was + -ing"}
+        - {t: drove, why: "drove เล่าเป็นเหตุการณ์จบ ไม่ใช่ฉากที่กำลังเกิดตอนเห็น"}
+        - {t: drive, why: "เรื่องนี้เกิดเมื่อวันศุกร์ที่แล้ว ต้องเป็นอดีต"}
+        - {t: was drive, why: "หลัง was ต้องเป็น -ing"}
+    - choices:
+        - {t: asked, why: "ถามเป็นเหตุการณ์สั้นที่ทำต่อจากการเห็น ใช้ past simple"}
+        - {t: was asking, why: "การถามเกิดครั้งเดียวตามลำดับเรื่อง ไม่ใช่ฉากหลัง"}
+        - {t: ask, why: "ต้องเป็นรูปอดีตเพราะทั้งเรื่องเล่าอดีต"}
+        - {t: have asked, why: "present perfect ไม่ใช้เล่าเรื่องในอดีตตามลำดับ"}
+    - choices:
+        - {t: until, why: "เดินไปเรื่อย ๆ จนเจอร้านของลูกสาว ใช้ until"}
+        - {t: before, why: "before จะหมายถึงเดินก่อนที่จะเจอ แต่ไม่ได้บอกว่าเดินไปจนเจอ"}
+        - {t: while, why: "while ต้องตามด้วยเรื่องที่กำลังดำเนินอยู่ ไม่ใช่การเจอร้าน"}
+        - {t: during, why: "during ต้องตามด้วยคำนาม ไม่ใช่ประโยค"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบันทึกเหตุการณ์และฟังเรื่องเล่า ----------
+- id: cefr-b1-w03-035
+  kind: read
+  skill: rd
+  topic: incident-report
+  level: 2
+  title: Incident Report · Green Leaf Hotel
+  passage: |
+    On Saturday evening at about 7.30, a guest in Room 214 called the front desk. She said water was coming through the ceiling of her bathroom. The receptionist, Ken, immediately sent the maintenance team to check the room upstairs.
+
+    When they arrived in Room 314, they found that a pipe under the sink was broken. The guest in that room was out for dinner, so nobody had noticed the problem. The team turned off the water and fixed the pipe in about forty minutes.
+
+    The guest in Room 214 moved to another room on the same floor. The hotel apologised and gave her a free breakfast for the rest of her stay. Nobody was hurt, but the bathroom ceiling in Room 214 needs to be repaired next week.
+  questions:
+    - stem: What was the problem?
+      choices:
+        - {t: water was leaking from a broken pipe, why: "ย่อหน้าสองบอกว่าท่อใต้อ่างในห้อง 314 แตก น้ำจึงรั่วลงห้องข้างล่าง"}
+        - {t: a guest was hurt in the bathroom, why: "ย่อหน้าสุดท้ายบอกชัดว่า Nobody was hurt"}
+        - {t: the receptionist forgot a booking, why: "ไม่มีการพูดถึงการจองหรือความผิดพลาดของพนักงาน"}
+        - {t: the restaurant was closed, why: "แขกห้อง 314 ออกไปกินข้าวข้างนอก แต่ไม่ได้บอกว่าร้านอาหารปิด"}
+    - stem: Why didn't anyone notice the problem in Room 314?
+      choices:
+        - {t: the guest was out at the time, why: "ย่อหน้าสอง The guest in that room was out for dinner"}
+        - {t: the room was empty all week, why: "มีแขกพักอยู่ แค่ออกไปทานอาหารเย็น"}
+        - {t: the pipe was under the bed, why: "ท่ออยู่ใต้อ่างล้างหน้า ไม่ใช่ใต้เตียง"}
+        - {t: the guest was sleeping, why: "แขกไม่ได้นอนหลับ แต่ออกไปข้างนอก"}
+    - stem: How long did it take to fix the pipe?
+      choices:
+        - {t: about forty minutes, why: "ย่อหน้าสอง in about forty minutes"}
+        - {t: about thirty minutes, why: "เลขที่ถูกคือสี่สิบนาที ไม่ใช่สามสิบ"}
+        - {t: one week, why: "next week คือเวลาซ่อมฝ้าเพดาน ไม่ใช่ท่อ"}
+        - {t: the whole evening, why: "ใช้เวลาประมาณสี่สิบนาทีเท่านั้น"}
+    - stem: What did the hotel do for the guest in Room 214?
+      choices:
+        - {t: gave her free breakfasts, why: "ย่อหน้าสุดท้าย gave her a free breakfast for the rest of her stay"}
+        - {t: gave her money back, why: "ไม่ได้บอกว่าคืนเงิน"}
+        - {t: moved her to another hotel, why: "ย้ายไปอีกห้องในชั้นเดียวกัน ไม่ใช่อีกโรงแรม"}
+        - {t: fixed her ceiling that night, why: "ฝ้าเพดานจะซ่อมสัปดาห์หน้า"}
+  status: approved
+- id: cefr-b1-w03-036
+  kind: listen
+  skill: li
+  topic: telling-a-story
+  level: 2
+  script:
+    - {who: Woman, en: "You look tired. What happened?"}
+    - {who: Man, en: "I was cycling to work this morning when a dog ran in front of me. I fell off my bike, but I'm OK. My phone broke, though."}
+  questions:
+    - stem: What happened to the man?
+      choices:
+        - {t: He fell off his bike., why: "เขาบอกว่า I fell off my bike ระหว่างขี่จักรยานไปทำงาน"}
+        - {t: A dog bit him., why: "สุนัขวิ่งตัดหน้า ไม่ได้กัด"}
+        - {t: His bike broke., why: "สิ่งที่พังคือโทรศัพท์ ไม่ใช่จักรยาน"}
+        - {t: He missed his bus., why: "เขาขี่จักรยาน ไม่ได้นั่งรถเมล์"}
+  status: approved
+- id: cefr-b1-w03-037
+  kind: listen
+  skill: li
+  topic: asking-details
+  level: 2
+  script:
+    - {who: Man, en: "When did you lose your bag?"}
+    - {who: Woman, en: "On Tuesday afternoon. I was waiting for the train, and I put it down for a minute. When I turned around, it was gone."}
+  questions:
+    - stem: What was the woman doing when she lost her bag?
+      choices:
+        - {t: waiting for a train, why: "เธอบอกว่า I was waiting for the train ตอนที่กระเป๋าหาย"}
+        - {t: buying a ticket, why: "ไม่ได้พูดถึงการซื้อตั๋ว"}
+        - {t: getting off a bus, why: "เธอรอรถไฟ ไม่ได้ลงจากรถเมล์"}
+        - {t: having lunch, why: "เกิดตอนบ่าย แต่เธอไม่ได้กินข้าว"}
+  status: approved
+- id: cefr-b1-w03-038
+  kind: listen
+  skill: li
+  topic: telling-a-story
+  level: 2
+  script:
+    - {who: Woman, en: "I used to be afraid of speaking English. Then last year I joined a conversation club. At first I was embarrassed, but after a few weeks I felt much more confident."}
+  questions:
+    - stem: How does the woman feel about speaking English now?
+      choices:
+        - {t: more confident than before, why: "เธอบอกว่าหลังผ่านไปไม่กี่สัปดาห์ I felt much more confident"}
+        - {t: still afraid, why: "afraid คือความรู้สึกเมื่อก่อน (used to) ไม่ใช่ตอนนี้"}
+        - {t: embarrassed every week, why: "เธออายแค่ตอนแรก (At first) ไม่ใช่ทุกสัปดาห์"}
+        - {t: bored with the club, why: "ไม่มีการพูดถึงความเบื่อเลย"}
+  status: approved
+- id: cefr-b1-w03-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I was waiting, for the bus, when, it started to rain]
+  sentence: I was waiting for the bus when it started to rain.
+  th: ฉันกำลังรอรถเมล์อยู่ตอนที่ฝนเริ่มตก
+  why: "ฉากหลังที่กำลังเกิดใช้ was waiting แล้วต่อด้วย when + เหตุการณ์ที่แทรก"
+  status: approved
+- id: cefr-b1-w03-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We, used to, play football, after school]
+  sentence: We used to play football after school.
+  th: เมื่อก่อนเราเคยเล่นฟุตบอลหลังเลิกเรียน
+  why: "used to + กริยารูปเดิม บอกสิ่งที่เคยทำเป็นประจำในอดีต"
+  status: approved
+- id: cefr-b1-w03-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Please wait here, until, the doctor, calls your name]
+  sentence: Please wait here until the doctor calls your name.
+  th: กรุณารอตรงนี้จนกว่าคุณหมอจะเรียกชื่อ
+  why: "until + ประโยคปัจจุบัน แม้จะหมายถึงอนาคต"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b1-w03-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While I was, walking home, I suddenly, saw an old friend]
+  sentence: While I was walking home, I suddenly saw an old friend.
+  th: ระหว่างที่เดินกลับบ้าน ฉันก็เจอเพื่อนเก่าเข้าโดยบังเอิญ
+  why: "while + ฉากที่กำลังเกิด แล้วตามด้วยเหตุการณ์ที่แทรกเข้ามา"
+  status: approved

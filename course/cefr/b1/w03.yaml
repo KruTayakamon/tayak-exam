@@ -1,0 +1,171 @@
+# คอร์ส b1 · สัปดาห์ 3 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 3
+phase: 1
+theme_th: เรื่องที่เกิดขึ้น
+focus_th: past simple กับ past continuous · when while · before after until as soon as · used to
+can_do_th:
+  - เล่าเหตุการณ์ในอดีตตามลำดับพร้อมฉากหลังได้
+  - เข้าใจเรื่องเล่าสั้นและตอบคำถามรายละเอียดได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กำลังทำอยู่ แล้วมีอะไรแทรก
+    lesson:
+      rule_th: "เล่าเรื่องในอดีตให้คิดเป็นหนัง ฉากหลังที่ ==กำลังเกิดอยู่ใช้ was/were + -ing== ส่วนเหตุการณ์ที่โผล่มาแทรกหรือเกิดเป็นจุด ๆ ใช้ ++past simple++"
+      examples:
+        - {en: "I <k>was cooking</k> when the phone <k>rang</k>.", th: "ทำกับข้าวคือฉากหลัง โทรศัพท์ดังคือเหตุการณ์แทรก"}
+        - {en: "<k>While</k> we <k>were walking</k>, it started to rain.", th: "while ตามด้วย ==รูปกำลังทำ== บ่อยที่สุด"}
+        - {en: "Yesterday I <k>met</k> an old friend.", th: "เหตุการณ์เดียวจบ ใช้ past simple"}
+        - {en: "What <k>were</k> you <k>doing</k> at 8 p.m.?", th: "ถามว่า ณ เวลานั้นกำลังทำอะไร"}
+      signals:
+        - {label_th: "ฉากหลัง (was/were + -ing)", words: [while, at 8 p.m. last night, all morning]}
+        - {label_th: "เหตุการณ์จบ (past simple)", words: [when, yesterday, last week, then, suddenly]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า กำลัง กับ แล้ว แต่กริยาไม่เปลี่ยนรูป พอพูดอังกฤษเลย ~~ลืมเปลี่ยนเป็นอดีต~~ หรือลืม was"
+        wrong: ["I cooking when the phone ring.", "Yesterday I meet my friend."]
+        right: ["I was cooking when the phone rang.", "Yesterday I met my friend."]
+      notes:
+        - {kind: tip, th: "นึกภาพหนัง ==ฉากหลังใช้ -ing== ส่วนเหตุการณ์ที่แทรกเข้ามาใช้อดีตธรรมดา"}
+        - {kind: warn, th: "กริยาผิดปกติต้องจำ เช่น met, lost, went, hurt อย่าเติม -ed"}
+    check: [cefr-b1-w03-001, cefr-b1-w03-002]
+    practice: [cefr-b1-w03-003, cefr-b1-w03-004, cefr-b1-w03-005, cefr-b1-w03-006, cefr-b1-w03-007, cefr-b1-w03-008, cefr-b1-w03-009, cefr-b1-w03-010, cefr-b1-w03-011, cefr-b1-w03-012]
+    use:
+      prompt_th: เขียน 1 ประโยคเล่าว่าเมื่อวานคุณกำลังทำอะไรอยู่ตอนที่มีเรื่องเกิดขึ้น
+      frame: "I was ____ when ____."
+      model: "I was watching TV when my sister called me."
+    classroom: {en: "Sorry I missed your call. I was driving.", th: "ขอโทษนะไม่ได้รับสาย ตอนนั้นขับรถอยู่"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เล่าเหตุการณ์และความรู้สึก 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้ช่วยให้เล่าเรื่องมีชีวิต จุดสำคัญคือ ==คนรู้สึกใช้ -ed== (embarrassed, confused) แต่ ++สิ่งที่ทำให้รู้สึกใช้ -ing++"
+      examples:
+        - {en: "I felt <k>embarrassed</k>.", th: "ฉันรู้สึกอาย คนรู้สึกใช้ -ed"}
+        - {en: "<k>Suddenly</k> the lights went out.", th: "suddenly ทำให้เรื่องมีลุ้น"}
+        - {en: "Please call me <k>immediately</k>.", th: "immediately = ทันที ใช้กับคำขอได้"}
+        - {en: "She didn't <k>mention</k> the problem.", th: "mention ==ไม่ต้องมี about=="}
+      words:
+        - {w: behave, pos: v., th: ประพฤติตัว, ex: "The children behaved very well at the party."}
+        - {w: behaviour, pos: n., th: พฤติกรรม, ex: "His behaviour in the meeting surprised everyone."}
+        - {w: attitude, pos: n., th: ทัศนคติ ท่าที, ex: "She has a positive attitude to work."}
+        - {w: accident, pos: n., th: อุบัติเหตุ, ex: "There was an accident on the highway."}
+        - {w: situation, pos: n., th: สถานการณ์, ex: "It was a difficult situation for everyone."}
+        - {w: realise, pos: v., th: รู้ตัว ตระหนัก, ex: "I didn't realise it was so late."}
+        - {w: mention, pos: v., th: พูดถึง, ex: "He mentioned that he was moving to Phuket."}
+        - {w: describe, pos: v., th: บรรยาย, ex: "Can you describe the bag you lost?"}
+        - {w: immediately, pos: adv., th: ทันที, ex: "The ambulance arrived immediately."}
+        - {w: suddenly, pos: adv., th: ทันใดนั้น, ex: "Suddenly the car in front stopped."}
+        - {w: embarrassed, pos: adj., th: อาย เขิน, ex: "I was embarrassed when I fell over."}
+        - {w: confused, pos: adj., th: งง สับสน, ex: "The new system made me confused."}
+      thai_trap:
+        intro_th: "คำว่า น่าอาย กับ รู้สึกอาย ภาษาไทยต่างกันนิดเดียว แต่อังกฤษ ~~I am embarrassing~~ แปลว่าฉันเป็นคนน่าอายไปเลย"
+        wrong: ["I am very embarrassing.", "Can you describe about the man?"]
+        right: ["I am very embarrassed.", "Can you describe the man?"]
+      notes:
+        - {kind: pin, th: "ความรู้สึกของคนใช้ ==-ed== เช่น I'm confused · ตัวต้นเหตุใช้ -ing"}
+        - {kind: use, th: "เล่าเรื่องให้น่าฟังด้วย Suddenly... หรือ Then I realised..."}
+    check: [cefr-b1-w03-013, cefr-b1-w03-020]
+    practice: [cefr-b1-w03-014, cefr-b1-w03-015, cefr-b1-w03-016, cefr-b1-w03-017, cefr-b1-w03-018, cefr-b1-w03-019, cefr-b1-w03-021, cefr-b1-w03-022, cefr-b1-w03-023, cefr-b1-w03-024]
+    use:
+      prompt_th: เขียน 1 ประโยคเล่าเหตุการณ์ที่ทำให้คุณรู้สึกอายหรืองง
+      frame: "I felt ____ when ____."
+      model: "I felt embarrassed when I forgot my colleague's name."
+    classroom: {en: "Sorry, I'm a bit confused. Could you explain again?", th: "ขอโทษนะ งงนิดหน่อย อธิบายอีกครั้งได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ก่อน หลัง จนกว่า และสิ่งที่เคยทำ
+    lesson:
+      rule_th: "used to + กริยารูปเดิม = ==เคยทำในอดีต ตอนนี้ไม่แล้ว== ส่วน when, as soon as, until ที่พูดถึงอนาคต ++ใช้ปัจจุบัน ห้ามใส่ will++"
+      examples:
+        - {en: "I <k>used to</k> live in Hat Yai.", th: "เคยอยู่หาดใหญ่ ตอนนี้ย้ายแล้ว"}
+        - {en: "<k>Did</k> you <k>use to</k> smoke?", th: "คำถามกับปฏิเสธ ==ตัด d ทิ้ง== เป็น use to"}
+        - {en: "Call me <k>as soon as</k> you <k>arrive</k>.", th: "พูดถึงอนาคต แต่หลัง as soon as ใช้ปัจจุบัน"}
+        - {en: "We waited <k>until</k> the rain stopped.", th: "until = รอไปเรื่อย ๆ จนกระทั่ง"}
+      signals:
+        - {label_th: "คำเชื่อมเวลา", words: [before, after, when, as soon as, until, while]}
+      thai_trap:
+        intro_th: "คำว่า เดี๋ยวถึงแล้วโทรนะ ภาษาไทยไม่มีคำบอกอนาคต แต่พอแปลอังกฤษคนชอบใส่ ~~when I will arrive~~"
+        wrong: ["Call me when you will arrive.", "I use to live in Hat Yai.", "Did you used to work here?"]
+        right: ["Call me when you arrive.", "I used to live in Hat Yai.", "Did you use to work here?"]
+      notes:
+        - {kind: tip, th: "หลัง when, as soon as, until, before ==ไม่ใส่ will== แม้จะเป็นเรื่องพรุ่งนี้"}
+        - {kind: warn, th: "used to มี d ในประโยคบอกเล่า แต่หลัง did กับ didn't ต้องเป็น use to"}
+    check: [cefr-b1-w03-025, cefr-b1-w03-026]
+    practice: [cefr-b1-w03-027, cefr-b1-w03-028, cefr-b1-w03-029, cefr-b1-w03-030, cefr-b1-w03-031, cefr-b1-w03-032, cefr-b1-w03-033, cefr-b1-w03-034]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกสิ่งที่คุณเคยทำเมื่อก่อนแต่ตอนนี้ไม่ทำแล้ว และสิ่งที่ทำแทน
+      frame: "I used to ____. Now I ____."
+      model: "I used to drive to work. Now I take the train."
+    classroom: {en: "I'll send it to you as soon as I get back to the office.", th: "กลับถึงออฟฟิศแล้วจะส่งให้ทันทีเลย"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบันทึกเหตุการณ์และฟังเรื่องเล่า
+    lesson:
+      rule_th: "อ่านหรือฟังเรื่องเล่า ให้จับ ==ใคร ทำอะไร เมื่อไร แล้วเกิดอะไรต่อ== คำอย่าง then, when, after, at first ++บอกลำดับเหตุการณ์++"
+      examples:
+        - {en: "<k>At first</k> I was embarrassed, but <k>after a few weeks</k> I felt confident.", th: "at first กับ after บอกว่าความรู้สึกเปลี่ยน"}
+        - {en: "The team <k>immediately</k> checked the room upstairs.", th: "immediately บอกว่าทำทันทีหลังได้รับแจ้ง"}
+        - {en: "<k>Nobody</k> was hurt.", th: "คำปฏิเสธอย่าง nobody ==มักเป็นคำตอบ== ของคำถามเรื่องผลกระทบ"}
+      thai_trap:
+        intro_th: "เห็นตัวเลขหรือวันที่ในบทแล้วรีบตอบ แต่ตัวเลขนั้น ~~อาจเป็นของอีกเหตุการณ์~~ เช่น next week อาจเป็นเวลาซ่อมอย่างอื่น"
+        wrong: ["เห็น next week ในบท จึงตอบว่าซ่อมท่อเสร็จสัปดาห์หน้า"]
+        right: ["อ่านให้ครบประโยค next week เป็นเวลาซ่อมฝ้าเพดาน ส่วนท่อซ่อมเสร็จใน 40 นาที"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นใต้คำบอกลำดับ ==first, then, after, finally== จะเห็นเรื่องเป็นขั้น"}
+        - {kind: warn, th: "used to ในบทฟังบอกว่าเป็นเรื่องเมื่อก่อน ไม่ใช่ความรู้สึกตอนนี้"}
+    check: [cefr-b1-w03-036, cefr-b1-w03-037]
+    practice: [cefr-b1-w03-035, cefr-b1-w03-038, cefr-b1-w03-039, cefr-b1-w03-040, cefr-b1-w03-041]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าเหตุการณ์ไม่คาดคิดที่เคยเกิดกับคุณ
+      frame: "Last ____, I was ____ when suddenly ____."
+      model: "Last month, I was shopping at the mall when suddenly all the lights went out."
+    classroom: {en: "What happened next?", th: "แล้วเกิดอะไรต่อ (ชวนให้อีกฝ่ายเล่าต่อ)"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด เล่าเหตุการณ์ที่เกิดกับคุณ 60 วินาที
+    lab:
+      mode: speak
+      prompt_th: เล่าเหตุการณ์ที่น่าจดจำที่เกิดกับคุณ (เรื่องตลก เรื่องตกใจ หรือเรื่องโชคดี) 60 วินาที บอกว่าเกิดเมื่อไร ตอนนั้นกำลังทำอะไร เกิดอะไรขึ้น และรู้สึกอย่างไร
+      frame:
+        - "I'd like to tell you about something that happened ____ (เมื่อไร)."
+        - "I was ____ (กำลังทำอะไร) when ____ (เกิดอะไรขึ้น)."
+        - "At first I felt ____, but then ____."
+        - "In the end, ____."
+        - "Now, whenever I ____, I remember that day."
+      model_pass: "I'd like to tell you about something that happened last year. I was waiting for a train in Bangkok when I saw my old teacher. At first I felt embarrassed, but then we talked for a long time. In the end, we had lunch together. Now, whenever I take the train, I remember that day."
+      model_good: "I'd like to tell you about something that happened to me last December. I was standing on a crowded train platform, checking my phone, when someone suddenly called my name. It was my primary school teacher, whom I hadn't seen for almost twenty years. At first I was a bit embarrassed because I didn't recognise her, but she remembered everything about me. We missed our trains and ended up having lunch together. Now, whenever I take the train, I think of that lucky day."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกเรื่องจริงของคุณ แล้วเติมโครง 5 ประโยค
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - บอกเวลาที่เกิดเรื่อง และฉากหลังด้วย was/were + -ing
+        - ใช้ past simple กับเหตุการณ์ที่เกิดขึ้น และกริยาผิดปกติถูกรูป
+        - ใช้คำบอกลำดับอย่าง at first, then, in the end
+        - พูดได้ประมาณ 60 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b1-w03-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 3
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [1, 2, 3], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
