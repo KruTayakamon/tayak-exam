@@ -126,6 +126,8 @@ node tests/test_app.js       # เส้นทางหลักของแอ�
 - ต้นแบบหน้าจอผู้เรียน: https://claude.ai/artifact/USTqQ8PJhkQZCykV6G2Y5h (ไฟล์ `design/cefr_prototype.html`)
 - ต้นแบบแผงเจ้าของ: https://claude.ai/artifact/55NGHeyZD7Tyiw1f5L8mcK (ไฟล์ `design/owner_prototype.html`)
 - **รุ่นทดลองเรียน (เล่นเซสชันจริงของ B1 สัปดาห์ 1):** https://claude.ai/artifact/FbKNHCeQSE8gkQpT8UYLsp (สร้างด้วย `python3 build.py --bundle` แล้ว publish `build/demo_bundle.html` ไป url เดิม)
+- **โพสต์เพจชุดแรกสำหรับตรวจ:** https://claude.ai/artifact/5ppV8cyK4X4nGehfMJC18a (`python3 tools/make_posts.py` แล้ว publish `review/out/posts.html` ไป url เดิม)
+- **แบบวัดระดับสำหรับตรวจ:** https://claude.ai/artifact/Ho6h9h78HFxk8sEpmwFntn (`python3 review/make_review.py pl 0` แล้ว publish `review/out/cefr_placement.html` ไป url เดิม)
 - เนื้อหา B1 สัปดาห์ 1 สำหรับตรวจ: https://claude.ai/artifact/TG7FDoYfu4n5m2ioauzEc1 (สร้างด้วย `python3 review/make_review.py b1 1` แล้ว publish ไป url เดิม)
 
 ## รอบอสตัดสินใจ (อัปเดต 17 พ.ย. 2569 รอบ 9)

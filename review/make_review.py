@@ -38,7 +38,7 @@ def item(iid, n):
             h += f'<p class="en">{("(%d) " % j) if kd == "cloze" else ""}{e(q.get("stem",""))}</p>' + choices(q['choices'])
     if it.get('explain'): h += f'<p class="small">หลักที่ควรจำ: {r(it["explain"])}</p>'
     return h + '</div>'
-out = [f'''<title>ตรวจเนื้อหา {course.upper()} สัปดาห์ {week}</title>
+out = [f'''<title>{'ตรวจแบบวัดระดับ' if PL else f'ตรวจเนื้อหา {course.upper()} สัปดาห์ {week}'}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap">
 <style>
