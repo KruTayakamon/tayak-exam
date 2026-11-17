@@ -1,0 +1,174 @@
+# คอร์ส b1 · สัปดาห์ 2 · draft รอบอสตรวจในแผงเจ้าของ (แท็บเนื้อหา) · เขียน 17 พ.ย. 2569 · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 2
+phase: 1
+theme_th: ตารางงานและกิจวัตร
+focus_th: คำบอกความถี่และเวลา · at/on/in · much/many/a few/a little/enough/too
+can_do_th:            # เขียนเอง ไม่คัดลอกคำอธิบาย CEFR · แสดงเมื่อจบสัปดาห์
+  - เล่าตารางงานและกิจวัตรของตัวเองได้ว่าทำอะไร บ่อยแค่ไหน เมื่อไร
+  - ขอเปลี่ยนเวลานัดและถามว่าอีกฝ่ายสะดวกเมื่อไรได้อย่างสุภาพ
+  - บอกปริมาณว่ามาก น้อย พอ หรือเกินได้ถูกต้อง
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: บ่อยแค่ไหน เมื่อไร
+    lesson:
+      rule_th: "คำบอกความถี่อย่าง always, usually, never ==วางหน้ากริยาหลัก== แต่ถ้าเป็น am/is/are ให้ ++วางไว้ข้างหลัง++ ส่วนเวลาจำง่าย ๆ ว่า at เวลา on วัน in เดือนหรือปี"
+      examples:
+        - {en: "I <k>usually</k> <k>start</k> work <k>at</k> 8.30.", th: "usually อยู่หน้ากริยา start · เวลาตัวเลขใช้ at"}
+        - {en: "She <k>is never</k> late.", th: "เจอ is เมื่อไร never ไป ==อยู่หลัง is=="}
+        - {en: "We have a meeting <k>on</k> Monday mornings.", th: "มีชื่อวันเมื่อไร ใช้ on แม้จะมี morning ต่อท้าย"}
+        - {en: "I go to the gym <k>twice a week</k>.", th: "ความถี่แบบนี้วาง ++ไว้ท้ายประโยค++"}
+      signals:
+        - {label_th: "คำบอกความถี่ เรียงจากบ่อยไปน้อย", words: [always, usually, often, sometimes, hardly ever, never]}
+        - {label_th: "at on in", words: [at 7 a.m., at night, on Monday, on 14 December, in July, in 2027, in the morning]}
+      thai_trap:
+        intro_th: "ภาษาไทยวางคำว่า มักจะ ได้หลายที่ พออังกฤษเลยชอบวาง ~~usually ไว้หลังกริยา~~ และใส่ in กับทุกอย่างที่เป็นเวลา"
+        wrong: ["She drinks always coffee.", "I go there in Monday.", "I don't hardly ever cook."]
+        right: ["She always drinks coffee.", "I go there on Monday.", "I hardly ever cook."]
+      notes:
+        - {kind: tip, th: "ไม่แน่ใจตำแหน่ง ให้วาง always, usually ==หน้ากริยาหลัก== ไว้ก่อน ถูกเกือบทุกครั้ง"}
+        - {kind: warn, th: "hardly ever กับ never ปฏิเสธในตัวแล้ว ห้ามใส่ not ซ้ำ"}
+    check: [cefr-b1-w02-001, cefr-b1-w02-002]
+    practice: [cefr-b1-w02-003, cefr-b1-w02-004, cefr-b1-w02-005, cefr-b1-w02-006, cefr-b1-w02-007, cefr-b1-w02-008, cefr-b1-w02-009, cefr-b1-w02-010, cefr-b1-w02-011, cefr-b1-w02-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่ากิจวัตรของคุณ บอกว่าทำอะไรบ่อยแค่ไหน และทำวันไหนหรือกี่โมง
+      frame: "I usually ____ at ____. I ____ twice a week."
+      model: "I usually get up at six. I play badminton twice a week."
+    classroom: {en: "How often do you work from home?", th: "ทำงานที่บ้านบ่อยแค่ไหน (ชวนคุยเรื่องงานได้ง่าย ๆ)"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ตารางงานและชีวิตประจำวัน 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้ใช้นัดเวลาและเล่ากิจวัตรได้ทันที เคล็ดลับคือแยกให้ออกว่า ==คนว่างใช้ available== แต่ ++เวลาสะดวกใช้ convenient++ สองคำนี้คนไทยสลับกันบ่อยมาก"
+      examples:
+        - {en: "Are you <k>available</k> on Friday?", th: "ถามว่า คน ว่างไหม ใช้ available"}
+        - {en: "Is 3 p.m. <k>convenient</k> for you?", th: "ถามว่า เวลา สะดวกไหม ใช้ convenient"}
+        - {en: "I check the <k>schedule</k> <k>regularly</k>.", th: "เช็กตารางเป็นประจำ ได้สองคำในประโยคเดียว"}
+        - {en: "Who will <k>organise</k> the trip?", th: "organise = จัดงาน วางแผน"}
+      words:
+        - {w: schedule, pos: n., th: ตารางเวลา, ex: "The schedule for the training is on the website."}
+        - {w: routine, pos: n., th: กิจวัตร, ex: "Exercise is part of my morning routine."}
+        - {w: regularly, pos: adv., th: เป็นประจำ, ex: "I clean my desk regularly."}
+        - {w: available, pos: adj., th: ว่าง มีให้, ex: "The manager is not available today."}
+        - {w: convenient, pos: adj., th: สะดวก, ex: "Is Monday convenient for you?"}
+        - {w: local, pos: adj., th: ในท้องถิ่น, ex: "We shop at the local market."}
+        - {w: public, pos: adj., th: สาธารณะ, ex: "I take public transport to work."}
+        - {w: private, pos: adj., th: ส่วนตัว เอกชน, ex: "She works for a private company."}
+        - {w: typical, pos: adj., th: ตามปกติ ทั่วไป, ex: "A typical day starts at seven."}
+        - {w: necessary, pos: adj., th: จำเป็น, ex: "It isn't necessary to bring your laptop."}
+        - {w: organise, pos: v., th: จัดงาน วางแผน, ex: "We organise a party every December."}
+        - {w: manage, pos: v., th: จัดการ ทำได้สำเร็จ, ex: "He manages a small team of five people."}
+      thai_trap:
+        intro_th: "คำว่า สะดวกไหม ภาษาไทยถามคนได้เลย แต่อังกฤษ ~~Are you convenient?~~ ฟังแปลกมาก ต้องถามว่าคนว่าง หรือถามว่าเวลาสะดวก"
+        wrong: ["Are you convenient tomorrow?", "I am not available to come because I'm free."]
+        right: ["Are you available tomorrow?", "Is tomorrow convenient for you?"]
+      notes:
+        - {kind: pin, th: "คนว่าง available · เวลาสะดวก convenient ==จำเป็นคู่ไว้เลย=="}
+        - {kind: use, th: "เอาไปใช้ได้ทันที Would Friday be convenient for you? สุภาพสุด ๆ"}
+    check: [cefr-b1-w02-013, cefr-b1-w02-016]
+    practice: [cefr-b1-w02-014, cefr-b1-w02-015, cefr-b1-w02-017, cefr-b1-w02-018, cefr-b1-w02-019, cefr-b1-w02-020, cefr-b1-w02-021, cefr-b1-w02-022, cefr-b1-w02-023, cefr-b1-w02-024]
+    use:
+      prompt_th: เขียน 1 ประโยคถามเพื่อนร่วมงานหรือเพื่อนว่าเวลาที่คุณเสนอสะดวกไหม
+      frame: "Would ____ be convenient for you?"
+      model: "Would Thursday afternoon be convenient for you?"
+    classroom: {en: "Are you available for a quick call later?", th: "เดี๋ยวว่างคุยโทรศัพท์สั้น ๆ ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: มาก น้อย พอ
+    lesson:
+      rule_th: "ก่อนเลือกคำ ถามตัวเองก่อนว่า ==นับได้หรือนับไม่ได้== นับได้ใช้ many, a few ส่วนนับไม่ได้ใช้ much, a little ถ้ามากเกินจนเป็นปัญหาใช้ ++too much / too many++"
+      examples:
+        - {en: "How <k>much</k> water do you drink?", th: "water นับไม่ได้ ใช้ much"}
+        - {en: "I have <k>a few</k> questions.", th: "questions นับได้ มีอยู่บ้าง ใช้ a few"}
+        - {en: "There's <k>too much</k> noise in here.", th: "เสียงดังเกินไปจนเป็นปัญหา"}
+        - {en: "We don't have <k>enough</k> chairs.", th: "enough วางหน้าคำนาม ==ใช้ได้ทั้งสองแบบ=="}
+      signals:
+        - {label_th: "นับได้ (ของเป็นชิ้น)", words: [many, a few, few, too many]}
+        - {label_th: "นับไม่ได้", words: [much, a little, little, too much]}
+        - {label_th: "ใช้ได้ทั้งสองแบบ", words: [a lot of, enough, plenty of, some]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า เยอะ กับทุกอย่าง เลยชอบเติม ~~s ให้ของนับไม่ได้~~ หรือใช้ many กับเงินและเวลา"
+        wrong: ["I don't have many time.", "Can you give me some informations?", "There are too much people."]
+        right: ["I don't have much time.", "Can you give me some information?", "There are too many people."]
+      notes:
+        - {kind: tip, th: "ลองนับดูว่า หนึ่ง สอง สาม ได้ไหม นับได้ใช้ many นับไม่ได้ใช้ much"}
+        - {kind: warn, th: "a few ความหมายบวก มีบ้าง · few ไม่มี a แปลว่า ==แทบไม่มี=="}
+    check: [cefr-b1-w02-025, cefr-b1-w02-026]
+    practice: [cefr-b1-w02-027, cefr-b1-w02-028, cefr-b1-w02-029, cefr-b1-w02-030, cefr-b1-w02-031, cefr-b1-w02-032, cefr-b1-w02-033, cefr-b1-w02-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าในบ้านหรือที่ทำงานของคุณ มีอะไรไม่พอ และมีอะไรมากเกินไป
+      frame: "We don't have enough ____. There is too much ____."
+      model: "We don't have enough parking spaces. There is too much paper on my desk."
+    classroom: {en: "Do we have enough time for one more question?", th: "เรายังมีเวลาพอสำหรับอีกหนึ่งคำถามไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านตารางกิจกรรมและฟังการนัดเวลา
+    lesson:
+      rule_th: "อ่านตารางหรือฟังการนัด ให้จด ==วัน เวลา ที่ไหน== ไว้สามช่องก่อนเลย ข้อมูลที่ถูกแก้ทีหลังด้วยคำว่า not หรือ instead ++คือคำตอบจริง++"
+      examples:
+        - {en: "Yoga is on <k>Tuesday and Thursday</k> evenings.", th: "twice a week = สองวันนี้ คำถามมักถามด้วยคำอื่น"}
+        - {en: "Friday morning is full, but we have <k>two thirty</k>.", th: "ได้ยิน full เมื่อไร ให้รอฟังเวลาที่เสนอใหม่"}
+        - {en: "The bus will leave from gate six, <k>not gate two</k>.", th: "ตัวเลขที่ถูกปฏิเสธ ~~มักเป็นตัวหลอก~~"}
+      thai_trap:
+        intro_th: "ฟังแล้วจำตัวเลขแรกที่ได้ยิน แล้วรีบตอบเลย ตัวหลอกชอบใช้ ~~ตัวเลขที่ถูกเปลี่ยนไปแล้ว~~"
+        wrong: ["ได้ยิน 4.15 ก่อน จึงตอบว่ารถออก 4.15"]
+        right: ["ฟังต่อจนจบ will now leave at 4.45 คือเวลาใหม่"]
+      notes:
+        - {kind: tip, th: "ฟังการนัดให้จดเป็นตาราง ==วัน · เวลา · ที่ไหน== จะไม่สับสน"}
+        - {kind: warn, th: "but, not, instead โผล่มาเมื่อไร ข้อมูลหลังคำนี้สำคัญกว่าข้างหน้า"}
+    check: [cefr-b1-w02-036, cefr-b1-w02-037]
+    practice: [cefr-b1-w02-035, cefr-b1-w02-038, cefr-b1-w02-039, cefr-b1-w02-040, cefr-b1-w02-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกตารางกิจกรรมประจำของคุณ (กีฬา ชั้นเรียน หรือนัดประจำ)
+      frame: "I ____ on ____. It starts at ____."
+      model: "I go to a yoga class on Wednesdays. It starts at six thirty."
+    classroom: {en: "Sorry, can we move our meeting to Friday?", th: "ขอโทษนะ ขอย้ายประชุมไปวันศุกร์ได้ไหม"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน ขอเปลี่ยนเวลานัด 50 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนข้อความสั้น ๆ ถึงเพื่อนร่วมงาน ขอเลื่อนนัดประชุม บอกเหตุผล เสนอเวลาใหม่ และถามว่าสะดวกไหม ประมาณ 50 คำ
+      frame:
+        - "Hi ____,"
+        - "I'm sorry, but I can't make our meeting on ____ because ____."
+        - "Would ____ be convenient for you instead?"
+        - "I'm also available on ____ if that's better."
+        - "Thanks, ____"
+      model_pass: "Hi Ploy, I'm sorry, but I can't make our meeting on Tuesday because I have to visit a customer. Would Wednesday at ten be convenient for you instead? I'm also available on Thursday afternoon if that's better. Thanks, Ton"
+      model_good: "Hi Ploy, I'm really sorry, but I won't be able to make our meeting on Tuesday morning. My manager has asked me to visit a customer in Rayong. Would Wednesday at ten be convenient for you instead? If not, I'm also available on Thursday after two. Just let me know what works best. Thanks, Ton"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 บรรทัดด้วยเรื่องจริงของคุณ
+        - เขียนลงช่อง แล้วนับคำให้ได้ประมาณ 45–55 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - เขียนอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ขอโทษและบอกเหตุผลที่เลื่อน
+        - เสนอเวลาใหม่อย่างน้อย 1 เวลา ด้วย Would ... be convenient
+        - ใช้ at กับเวลา และ on กับวันถูกต้อง
+        - ยาวประมาณ 50 คำ มีคำขึ้นต้นและลงท้าย
+    practice: [cefr-b1-w02-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 2
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}   # นับเป็นคะแนน
+      pool: {course: cefr/b1, weeks: [1, 2], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

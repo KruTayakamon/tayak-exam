@@ -1,0 +1,588 @@
+# คอร์ส b1 · สัปดาห์ 2 · ตารางงานและกิจวัตร · คำบอกความถี่และเวลา · much/many/a few/a little/enough/too
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · draft รอบอสตรวจในแผงเจ้าของ · เขียนใหม่ทั้งหมด 17 พ.ย. 2569 (บริบทผู้ใหญ่ทั่วไป)
+# ---------- วันที่ 1 · บ่อยแค่ไหน เมื่อไร ----------
+- id: cefr-b1-w02-001
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: My manager ____ late for meetings. She's always the first one there.
+  choices:
+    - {t: is never, why: "คำบอกความถี่ไปอยู่ ++หลัง is/am/are++ เลยเป็น is never และ always ในประโยคหลังก็ยืนยันว่าไม่เคยสาย"}
+    - {t: never is, why: "วางสลับที่กัน คำบอกความถี่ต้องอยู่หลัง is ไม่ใช่หน้า is"}
+    - {t: never, why: "ขาดกริยา is ไปเลย ประโยคนี้ต้องมี be เพราะ late เป็นคำคุณศัพท์"}
+    - {t: does never be, why: "does ใช้คู่กับ be แบบนี้ไม่ได้ และไม่ใช้ does ในประโยคบอกเล่าแบบนี้"}
+  explain: "คำบอกความถี่ ==อยู่หลัง am/is/are== แต่อยู่หน้ากริยาอื่น เช่น She is never late · She never drives"
+  status: draft
+- id: cefr-b1-w02-002
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: We have a team meeting ____ Monday mornings.
+  choices:
+    - {t: "on", why: "วันในสัปดาห์ใช้ ++on++ เสมอ แม้จะมี morning ต่อท้ายก็ยังเป็น on Monday mornings"}
+    - {t: "in", why: "in ใช้กับ in the morning เฉย ๆ แต่พอมีชื่อวันนำหน้าต้องเปลี่ยนเป็น on"}
+    - {t: "at", why: "at ใช้กับเวลาที่เป็นจุด เช่น at 9 o'clock ไม่ใช้กับวัน"}
+    - {t: "by", why: "by แปลว่าไม่เกินเวลานั้น เช่น by Monday ความหมายไม่ใช่การประชุมประจำ"}
+  explain: "จำสามขั้น ==at เวลา · on วัน · in เดือน/ปี== ส่วน Monday morning นับเป็นวัน ใช้ on"
+  status: draft
+- id: cefr-b1-w02-003
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: I check my emails ____ a day, once in the morning and once after lunch.
+  choices:
+    - {t: twice, why: "สองครั้งพูดว่า ++twice++ สั้น ๆ คำเดียว ตามด้วย a day ได้เลย"}
+    - {t: two, why: "two เฉย ๆ ขาดคำว่า times ถ้าจะใช้ต้องเป็น two times"}
+    - {t: two time, why: "เกือบถูก แต่ time ตรงนี้ต้องเติม s เป็น two times"}
+    - {t: twice times, why: "twice แปลว่าสองครั้งอยู่แล้ว เติม times ซ้ำไม่ได้"}
+  explain: "หนึ่งครั้ง once · สองครั้ง ==twice== · สามครั้งขึ้นไปใช้ three times, four times"
+  status: draft
+- id: cefr-b1-w02-004
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: She usually ____ the bus to work, but today she's driving.
+  choices:
+    - {t: takes, why: "usually บอกว่าเป็นเรื่องประจำ ใช้ present simple และ she ต้อง ++เติม -s++"}
+    - {t: take, why: "she เป็นคนเดียว ~~ลืมเติม -s~~ ไปนิดเดียว"}
+    - {t: is taking, why: "ส่วนที่เป็นเรื่องชั่วคราวคือวันนี้ขับรถ แต่ปกติขึ้นรถเมล์เป็นเรื่องประจำ"}
+    - {t: taking, why: "-ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้ และ usually ต้องการ present simple"}
+  explain: "usually, often, sometimes + ==present simple== และคำบอกความถี่วางหน้ากริยาหลัก"
+  status: draft
+- id: cefr-b1-w02-005
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: The office opens ____ 8.30 ____ the morning.
+  choices:
+    - {t: at / in, why: "เวลาเป็นจุดใช้ ++at 8.30++ ส่วนช่วงเช้าใช้ in the morning"}
+    - {t: in / at, why: "สลับกันพอดี เวลาที่เป็นตัวเลขต้องใช้ at และช่วงเช้าใช้ in"}
+    - {t: on / in, why: "on ใช้กับวันหรือวันที่ ไม่ใช้กับเวลา 8.30"}
+    - {t: at / on, why: "ช่องแรกถูกแล้ว แต่ the morning ใช้ in ไม่ใช่ on"}
+  explain: "at 8.30 · in the morning · in the afternoon · แต่ ==at night== เป็นข้อยกเว้นที่ต้องจำ"
+  status: draft
+- id: cefr-b1-w02-006
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: How ____ do you visit your parents?
+  choices:
+    - {t: often, why: "ถามความถี่ใช้ ++How often++ ตอบได้ เช่น once a month"}
+    - {t: much, why: "How much ถามราคาหรือปริมาณของที่นับไม่ได้ ไม่ใช่ความถี่"}
+    - {t: many, why: "How many ต้องตามด้วยคำนามพหูพจน์ เช่น How many times"}
+    - {t: long time, why: "How long ถามระยะเวลา และไม่มีคำว่า How long time"}
+  explain: "How often = บ่อยแค่ไหน · How long = นานแค่ไหน · ==อย่าสลับกัน=="
+  status: draft
+- id: cefr-b1-w02-007
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 2
+  stem: I hardly ever ____ breakfast at home. I usually buy something on the way.
+  choices:
+    - {t: have, why: "hardly ever มีความหมายปฏิเสธอยู่แล้ว เลยใช้กริยาบอกเล่าธรรมดา ++have++"}
+    - {t: don't have, why: "hardly ever ปฏิเสธในตัวแล้ว เติม don't อีกจะกลายเป็น ~~ปฏิเสธซ้อน~~"}
+    - {t: am not having, why: "ปฏิเสธซ้อนและใช้รูป -ing กับเรื่องประจำไม่ได้"}
+    - {t: haven't, why: "haven't ต้องตามด้วยกริยาช่อง 3 และยังเป็นปฏิเสธซ้อนอีก"}
+  explain: "hardly ever, never, rarely ==ปฏิเสธในตัวแล้ว== ห้ามใส่ not ซ้ำ"
+  status: draft
+- id: cefr-b1-w02-008
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 2
+  stem: My brother works ____ a hospital ____ Chiang Mai.
+  choices:
+    - {t: at / in, why: "ที่ทำงานที่เป็นสถานที่เฉพาะใช้ ++at a hospital++ ส่วนเมืองใช้ in Chiang Mai"}
+    - {t: in / at, why: "เมืองใหญ่อย่างเชียงใหม่ไม่ใช้ at ต้องเป็น in"}
+    - {t: on / in, why: "on ใช้กับพื้นผิวหรือถนน เช่น on Nimman Road ไม่ใช้กับโรงพยาบาล"}
+    - {t: to / in, why: "to บอกทิศทางการเดินทาง แต่ประโยคนี้บอกที่ทำงานไม่ได้บอกการไป"}
+  explain: "จุด/สถานที่ใช้ ==at== (at work, at a hospital) · เมือง ประเทศ ใช้ in"
+  status: draft
+- id: cefr-b1-w02-009
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: Our next team lunch is ____ 14 December.
+  choices:
+    - {t: "on", why: "มีวันที่ระบุชัด ใช้ ++on++ เหมือนกับวันในสัปดาห์"}
+    - {t: "in", why: "in ใช้กับเดือนเฉย ๆ เช่น in December แต่พอมีวันที่ต้องใช้ on"}
+    - {t: "at", why: "at ใช้กับเวลาเป็นจุด เช่น at noon ไม่ใช้กับวันที่"}
+    - {t: "for", why: "for บอกระยะเวลา เช่น for two hours ไม่ใช่วันที่นัด"}
+  explain: "in December แต่ ==on 14 December== มีตัวเลขวันที่เมื่อไรเปลี่ยนเป็น on"
+  status: draft
+- id: cefr-b1-w02-010
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 2
+  stem: Which sentence is correct?
+  choices:
+    - {t: She always drinks coffee in the morning., why: "always วางหน้ากริยาหลัก drinks ถูกตำแหน่งพอดี"}
+    - {t: She drinks always coffee in the morning., why: "คำบอกความถี่ ~~แทรกระหว่างกริยากับกรรมไม่ได้~~"}
+    - {t: She drinks coffee always in the morning., why: "always วางหลังกรรมแบบนี้ไม่เป็นธรรมชาติ ต้องอยู่หน้ากริยา"}
+    - {t: Always she drink coffee in the morning., why: "ขึ้นต้นด้วย always ได้น้อยมาก แถม drink ยังลืมเติม -s"}
+  explain: "ตำแหน่งปลอดภัยที่สุดของ always, usually, never คือ ==หน้ากริยาหลัก=="
+  status: draft
+- id: cefr-b1-w02-011
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  stem: The bank is closed ____ Sundays, so I'll go tomorrow.
+  choices:
+    - {t: "on", why: "วันในสัปดาห์ใช้ on และเติม s เป็น ++on Sundays++ แปลว่าทุกวันอาทิตย์"}
+    - {t: "in", why: "in ใช้กับช่วงยาว เช่น in the summer ไม่ใช้กับวันอาทิตย์"}
+    - {t: "at", why: "at ใช้กับเวลาหรือ at the weekend ไม่ใช้กับชื่อวัน"}
+    - {t: "to", why: "closed to แปลว่าปิดไม่ให้ใครเข้า ตามด้วยคน ไม่ใช่วัน"}
+  explain: "on Sunday = วันอาทิตย์นั้น · ==on Sundays== = ทุกวันอาทิตย์"
+  status: draft
+- id: cefr-b1-w02-012
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 2
+  stem: We have a big staff party once ____ year, in December.
+  choices:
+    - {t: a, why: "once a year = ปีละครั้ง ใช้ ++a++ แทนคำว่า ต่อ ได้เลย"}
+    - {t: the, why: "once the year ไม่ใช้ บอกความถี่ต้องใช้ a"}
+    - {t: in a, why: "once in a year ไม่ใช่รูปปกติ ถ้าจะใช้ in ต้องเป็น once in a while ซึ่งแปลว่านาน ๆ ครั้ง"}
+    - {t: for, why: "for บอกระยะเวลา เช่น for a year ไม่ใช่ความถี่"}
+  explain: "ความถี่ใช้ ==a== แทนคำว่า ต่อ: twice a week, three times a month, once a year"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ตารางงานและชีวิตประจำวัน ----------
+- id: cefr-b1-w02-013
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: Can you send me the ____ for next week's training? I need to know the times.
+  choices:
+    - {t: schedule, why: "อยากรู้เวลาของการอบรม สิ่งที่ส่งให้คือ ++schedule++ ตารางเวลา"}
+    - {t: routine, why: "routine คือกิจวัตรที่ทำซ้ำ ๆ ทุกวัน ไม่ใช่ตารางที่ส่งต่อกันได้"}
+    - {t: habit, why: "habit คือนิสัยหรือความเคยชิน ส่งเป็นเอกสารไม่ได้"}
+    - {t: journey, why: "journey คือการเดินทาง ไม่ได้บอกเวลาของการอบรม"}
+  explain: "schedule (n.) ตารางเวลา · ==on schedule== = ตรงเวลาตามแผน"
+  status: draft
+- id: cefr-b1-w02-014
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: "My morning ____ is simple: coffee, the news, then a shower."
+  choices:
+    - {t: routine, why: "สิ่งที่ทำซ้ำทุกเช้าตามลำดับเดิมเรียกว่า ++routine++"}
+    - {t: journey, why: "journey คือการเดินทาง ไม่ใช่ลำดับกิจกรรมตอนเช้า"}
+    - {t: holiday, why: "holiday คือวันหยุด ไม่เข้ากับ morning และกิจกรรมทุกวัน"}
+    - {t: meeting, why: "meeting คือการประชุม ไม่ใช่การดื่มกาแฟและอาบน้ำ"}
+  explain: "routine = ==สิ่งที่ทำซ้ำเป็นประจำ== เช่น daily routine, morning routine"
+  status: draft
+- id: cefr-b1-w02-015
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: You should back up your files ____, at least once a week.
+  choices:
+    - {t: regularly, why: "at least once a week บอกว่าทำเป็นประจำ ใช้ ++regularly++"}
+    - {t: rarely, why: "rarely แปลว่านาน ๆ ครั้ง ขัดกับคำแนะนำให้ทำทุกสัปดาห์"}
+    - {t: recently, why: "recently แปลว่าเมื่อเร็ว ๆ นี้ ใช้กับเรื่องในอดีต ไม่ใช่คำแนะนำ"}
+    - {t: really, why: "really แปลว่าจริง ๆ ไม่ได้บอกความถี่"}
+  explain: "regularly = ==เป็นประจำ สม่ำเสมอ== คู่กับ exercise regularly, check regularly"
+  status: draft
+- id: cefr-b1-w02-016
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  stem: Is Ms Dao ____ this afternoon? I'd like to talk to her for ten minutes.
+  choices:
+    - {t: available, why: "ถามว่าคนว่างไหม ใช้ ++available++"}
+    - {t: convenient, why: "convenient ใช้กับเวลาหรือสถานที่ ไม่ใช้กับคน ~~Ms Dao is convenient~~ ฟังแปลก"}
+    - {t: comfortable, why: "comfortable แปลว่าสบาย ไม่ได้บอกว่าว่างให้พบ"}
+    - {t: possible, why: "possible ใช้กับเหตุการณ์ ไม่ใช้บอกว่าคนว่าง"}
+  explain: "คนว่าง ใช้ ==available== · เวลาสะดวก ใช้ convenient"
+  status: draft
+- id: cefr-b1-w02-017
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  stem: Would 3 p.m. be ____ for you, or is 4 p.m. better?
+  choices:
+    - {t: convenient, why: "ถามว่าเวลานี้สะดวกไหม ใช้ ++convenient++ เป็นคำคุณศัพท์หลัง be"}
+    - {t: convenience, why: "convenience เป็นคำนาม วางหลัง be แบบนี้ต้องใช้คำคุณศัพท์"}
+    - {t: comfortable, why: "comfortable ใช้กับความรู้สึกสบายกาย ไม่ใช่เวลานัด"}
+    - {t: necessary, why: "necessary แปลว่าจำเป็น ไม่ได้ถามเรื่องความสะดวก"}
+  explain: "Is ... convenient for you? = ==สะดวกไหม== ประโยคนัดเวลาที่สุภาพ"
+  status: draft
+- id: cefr-b1-w02-018
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: We buy our vegetables from ____ farmers who live near the village.
+  choices:
+    - {t: local, why: "ชาวนาที่อยู่ใกล้หมู่บ้านคือคนในพื้นที่ ใช้ ++local++"}
+    - {t: public, why: "public แปลว่าสาธารณะ ใช้กับสถานที่หรือบริการ ไม่ใช้บรรยายชาวนา"}
+    - {t: private, why: "private แปลว่าส่วนตัว ไม่เข้ากับข้อความว่าอยู่ใกล้หมู่บ้าน"}
+    - {t: available, why: "available farmers จะแปลว่าชาวนาที่ว่าง ไม่ได้บอกว่าอยู่ในพื้นที่"}
+  explain: "local = ==ในท้องถิ่น ในพื้นที่== เช่น local food, local market"
+  status: draft
+- id: cefr-b1-w02-019
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: Smoking is not allowed in ____ places such as parks and train stations.
+  choices:
+    - {t: public, why: "สวนและสถานีรถไฟเป็นที่ที่ทุกคนใช้ร่วมกัน คือ ++public++ places"}
+    - {t: private, why: "private คือที่ส่วนตัว ตรงข้ามกับตัวอย่างในประโยค"}
+    - {t: local, why: "local บอกว่าอยู่ในพื้นที่ใกล้ ๆ ไม่ได้บอกว่าเป็นของส่วนรวม"}
+    - {t: typical, why: "typical แปลว่าทั่วไปแบบที่เห็นบ่อย ไม่ใช่สาธารณะ"}
+  explain: "public = ==สาธารณะ ของทุกคน== คู่ตรงข้ามคือ private"
+  status: draft
+- id: cefr-b1-w02-020
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: Please knock before you come in. This is a ____ office.
+  choices:
+    - {t: private, why: "ต้องเคาะก่อนเข้าเพราะเป็นห้องส่วนตัว ++private++"}
+    - {t: public, why: "ถ้าเป็นที่สาธารณะก็เข้าได้เลย ไม่ต้องเคาะ"}
+    - {t: local, why: "local office คือสำนักงานในพื้นที่ ไม่เกี่ยวกับการเคาะประตู"}
+    - {t: available, why: "available office แปลว่าห้องว่างให้ใช้ ขัดกับการขอให้เคาะ"}
+  explain: "private (adj.) ==ส่วนตัว== · private company = บริษัทเอกชน"
+  status: draft
+- id: cefr-b1-w02-021
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  stem: A ____ day for me starts at 6 a.m. and finishes at about 9 p.m.
+  choices:
+    - {t: typical, why: "เล่าวันธรรมดาที่เป็นแบบนี้เกือบทุกวัน ใช้ ++typical++"}
+    - {t: necessary, why: "necessary แปลว่าจำเป็น ไม่ได้บอกว่าเป็นวันปกติ"}
+    - {t: private, why: "private day ไม่ใช่วลีที่ใช้เล่าวันปกติ"}
+    - {t: convenient, why: "convenient แปลว่าสะดวก ไม่ใช่วันแบบที่เป็นประจำ"}
+  explain: "a typical day = ==วันปกติทั่วไปของฉัน== เปิดเรื่องเล่ากิจวัตรได้ดี"
+  status: draft
+- id: cefr-b1-w02-022
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  stem: Is it ____ to bring my passport, or is my ID card enough?
+  choices:
+    - {t: necessary, why: "ถามว่าต้องเอามาไหม ใช้ ++necessary++ จำเป็น"}
+    - {t: available, why: "available ใช้ถามว่ามีให้หรือว่าง ไม่ใช่ถามว่าต้องเอามาไหม"}
+    - {t: typical, why: "typical แปลว่าแบบที่เป็นปกติ ไม่ได้ถามความจำเป็น"}
+    - {t: comfortable, why: "comfortable แปลว่าสบาย ไม่เข้ากับการถามเรื่องเอกสาร"}
+  explain: "Is it necessary to ...? = ==จำเป็นต้อง...ไหม== ใช้ถามเงื่อนไขได้สุภาพ"
+  status: draft
+- id: cefr-b1-w02-023
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  stem: Who is going to ____ the office party this year?
+  choices:
+    - {t: organise, why: "จัดงานเลี้ยงใช้ ++organise++ วางแผนและเตรียมทุกอย่าง"}
+    - {t: arrive, why: "arrive ไม่มีกรรมตามหลัง และแปลว่ามาถึง"}
+    - {t: happen, why: "happen แปลว่าเกิดขึ้น ไม่มีคนเป็นผู้ทำ"}
+    - {t: belong, why: "belong ต้องตามด้วย to และแปลว่าเป็นของ"}
+  explain: "organise = ==จัดงาน วางแผน== (อังกฤษอเมริกันเขียน organize)"
+  status: draft
+- id: cefr-b1-w02-024
+  kind: type
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  stem: "I don't know how she m_____ to work full-time and study at night. (ทำได้สำเร็จ)"
+  answer: manages
+  accept: [manages]
+  why: "manage to + กริยา = ทำจนได้ ทั้งที่ยาก และ she ต้องเติม -s เป็น manages"
+  status: draft
+# ---------- วันที่ 3 · มาก น้อย พอ ----------
+- id: cefr-b1-w02-025
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 1
+  stem: How ____ coffee do you drink a day?
+  choices:
+    - {t: much, why: "coffee นับไม่ได้ ถามปริมาณใช้ ++How much++"}
+    - {t: many, why: "many ใช้กับของนับได้ เช่น How many cups"}
+    - {t: lot, why: "How lot ไม่มีในภาษาอังกฤษ"}
+    - {t: few, why: "How few ไม่ใช้ถามปริมาณ"}
+  explain: "ของนับไม่ได้ ==How much== · ของนับได้ How many (How many cups of coffee)"
+  status: draft
+- id: cefr-b1-w02-026
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 1
+  stem: There aren't ____ chairs for everyone. Can you bring some more?
+  choices:
+    - {t: enough, why: "ไม่พอสำหรับทุกคน ใช้ ++enough++ วางหน้าคำนาม"}
+    - {t: too, why: "too ต้องตามด้วยคำคุณศัพท์หรือ many/much ไม่วางหน้าคำนามตรง ๆ"}
+    - {t: a little, why: "a little ใช้กับของนับไม่ได้ แต่ chairs นับได้"}
+    - {t: much, why: "much ใช้กับของนับไม่ได้ chairs ต้องใช้ many"}
+  explain: "enough + คำนาม (enough chairs) แต่ คำคุณศัพท์ + enough (==big enough==)"
+  status: draft
+- id: cefr-b1-w02-027
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  stem: I've made ____ friends at my new job, so I don't feel lonely.
+  choices:
+    - {t: a few, why: "a few = มีอยู่บ้าง ความหมายบวก เข้ากับไม่เหงา ++a few friends++"}
+    - {t: few, why: "few ไม่มี a แปลว่าแทบไม่มี ความหมายลบ ขัดกับไม่เหงา"}
+    - {t: a little, why: "a little ใช้กับของนับไม่ได้ แต่ friends นับได้"}
+    - {t: much, why: "much ใช้กับของนับไม่ได้"}
+  explain: "มี a ==ความหมายบวก มีบ้าง== · ไม่มี a แทบไม่มี (few friends = เหงา)"
+  status: draft
+- id: cefr-b1-w02-028
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  stem: We have very ____ money left this month, so let's cook at home.
+  choices:
+    - {t: little, why: "money นับไม่ได้ และเหลือน้อยจนต้องประหยัด ใช้ ++very little++"}
+    - {t: few, why: "few ใช้กับของนับได้ แต่ money นับไม่ได้"}
+    - {t: many, why: "many ใช้กับของนับได้ และขัดกับที่ต้องทำกับข้าวกินเอง"}
+    - {t: a lot, why: "very a lot ไม่มีในภาษาอังกฤษ และความหมายขัดกับประโยคหลัง"}
+  explain: "little / a little ใช้กับ ==ของนับไม่ได้== เช่น money, time, water"
+  status: draft
+- id: cefr-b1-w02-029
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  stem: There is ____ traffic on the road today. I'm going to be late.
+  choices:
+    - {t: too much, why: "traffic นับไม่ได้ และมากเกินไปจนสาย ใช้ ++too much++"}
+    - {t: too many, why: "too many ใช้กับของนับได้ แต่ traffic นับไม่ได้"}
+    - {t: enough, why: "enough แปลว่าพอดี ไม่ทำให้สาย"}
+    - {t: a few, why: "a few ใช้กับของนับได้ และแปลว่ามีนิดหน่อย"}
+  explain: "too much / too many = ==มากเกินไปจนเป็นปัญหา== (ไม่ใช่แค่ มาก)"
+  status: draft
+- id: cefr-b1-w02-030
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  stem: ____ people in my team speak Japanese. Only two of us do.
+  choices:
+    - {t: Not many, why: "people นับได้ และมีแค่สองคน ใช้ ++Not many++"}
+    - {t: Not much, why: "much ใช้กับของนับไม่ได้ แต่ people นับได้"}
+    - {t: A lot of, why: "a lot of แปลว่าเยอะ ขัดกับ Only two"}
+    - {t: Too much, why: "much ใช้กับของนับไม่ได้ และ too ยังแปลว่ามากเกินไป"}
+  explain: "people เป็นพหูพจน์ ==นับได้== ใช้ many, few, a lot of"
+  status: draft
+- id: cefr-b1-w02-031
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 3
+  stem: Don't buy any more milk. We've got ____ in the fridge.
+  choices:
+    - {t: plenty, why: "plenty = มีเหลือเฟือ ใช้ได้กับทั้งของนับได้และนับไม่ได้ ++We've got plenty++"}
+    - {t: many, why: "many ใช้กับของนับได้ แต่ milk นับไม่ได้"}
+    - {t: few, why: "few ใช้กับของนับได้ และแปลว่าแทบไม่มี ขัดกับไม่ต้องซื้อ"}
+    - {t: several, why: "several แปลว่าหลายชิ้น ใช้กับของนับได้เท่านั้น"}
+  explain: "plenty / plenty of = ==เหลือเฟือ เกินพอ== ใช้ได้ทั้งนับได้และนับไม่ได้"
+  status: draft
+- id: cefr-b1-w02-032
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  stem: This room is ____ small for 30 people. Let's use the hall.
+  choices:
+    - {t: too, why: "เล็กเกินไปจนต้องย้ายห้อง ใช้ ++too + คำคุณศัพท์++"}
+    - {t: enough, why: "enough ต้องวางหลังคำคุณศัพท์ เช่น big enough และความหมายไม่ตรง"}
+    - {t: very much, why: "very much ไม่วางหน้าคำคุณศัพท์แบบนี้"}
+    - {t: so much, why: "so much ใช้กับคำนามหรือกริยา ไม่วางหน้าคำคุณศัพท์ small"}
+  explain: "too + คำคุณศัพท์ = ==มากเกินไปจนเป็นปัญหา== ส่วน very แค่ มาก เฉย ๆ"
+  status: draft
+- id: cefr-b1-w02-033
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 1
+  stem: Is there ____ rice for everyone, or should I cook more?
+  choices:
+    - {t: enough, why: "ถามว่าพอสำหรับทุกคนไหม ใช้ ++enough++"}
+    - {t: many, why: "rice นับไม่ได้ ใช้ many ไม่ได้"}
+    - {t: a few, why: "a few ใช้กับของนับได้ rice นับไม่ได้"}
+    - {t: too many, why: "too many ใช้กับของนับได้ และไม่ได้ถามว่าพอไหม"}
+  explain: "enough ใช้ได้ทั้ง ==นับได้และนับไม่ได้== วางหน้าคำนาม"
+  status: draft
+- id: cefr-b1-w02-034
+  kind: cloze
+  skill: gm
+  topic: quantifiers
+  level: 2
+  text: |
+    Hi Pim,
+    We don't have (1) ____ paper left, and there are only (2) ____ pens in the box. Could you order some? Don't worry about coffee. There is (3) ____ coffee in the kitchen.
+    Thanks,
+    Nok
+  questions:
+    - choices:
+        - {t: much, why: "paper ในความหมายกระดาษนับไม่ได้ และประโยคปฏิเสธใช้ much"}
+        - {t: many, why: "many ใช้กับของนับได้ paper ตรงนี้นับไม่ได้"}
+        - {t: a few, why: "a few ใช้กับของนับได้ และไม่ค่อยใช้ในประโยคปฏิเสธแบบนี้"}
+        - {t: few, why: "few ใช้กับของนับได้ และ don't have few ฟังไม่เป็นธรรมชาติ"}
+    - choices:
+        - {t: a few, why: "pens นับได้ และมีอยู่ไม่กี่ด้าม only a few"}
+        - {t: a little, why: "a little ใช้กับของนับไม่ได้ แต่ pens นับได้"}
+        - {t: much, why: "much ใช้กับของนับไม่ได้ และขัดกับ only"}
+        - {t: little, why: "little ใช้กับของนับไม่ได้"}
+    - choices:
+        - {t: plenty of, why: "ไม่ต้องห่วงเรื่องกาแฟเพราะมีเหลือเฟือ plenty of"}
+        - {t: many, why: "coffee นับไม่ได้ ใช้ many ไม่ได้"}
+        - {t: a few, why: "a few ใช้กับของนับได้"}
+        - {t: several, why: "several ใช้กับของนับได้เท่านั้น"}
+  status: draft
+# ---------- วันที่ 4 · อ่านตารางกิจกรรมและฟังการนัดเวลา ----------
+- id: cefr-b1-w02-035
+  kind: read
+  skill: rd
+  topic: activity-schedule
+  level: 2
+  title: Green Park Community Centre · December Activities
+  passage: |
+    Our community centre is open from 8 a.m. to 8 p.m. every day except Mondays. All activities are free for local residents, but you need to book a place for the cooking class.
+
+    Yoga for beginners takes place twice a week, on Tuesday and Thursday evenings at 6.30. Please bring your own mat. The English conversation club meets every Saturday morning at 10. It is a friendly group, and new members are always welcome.
+
+    The cooking class is on the first Sunday of the month. Places are limited to twelve people, so please book early at the front desk or by phone. This month the centre will also be closed on 31 December for cleaning.
+  questions:
+    - stem: When is the centre closed every week?
+      choices:
+        - {t: on Mondays, why: "ย่อหน้าแรก every day except Mondays แปลว่าปิดทุกวันจันทร์"}
+        - {t: on Sundays, why: "วันอาทิตย์มีคลาสทำอาหาร ศูนย์จึงเปิด"}
+        - {t: on 31 December, why: "31 ธันวาคมปิดแค่วันเดียวเพื่อทำความสะอาด ไม่ใช่ทุกสัปดาห์"}
+        - {t: on Saturday mornings, why: "เช้าวันเสาร์มีชมรมภาษาอังกฤษ ศูนย์จึงเปิด"}
+    - stem: How often is the yoga class?
+      choices:
+        - {t: two times a week, why: "twice a week = two times a week วันอังคารและพฤหัส"}
+        - {t: once a month, why: "เดือนละครั้งคือคลาสทำอาหาร ไม่ใช่โยคะ"}
+        - {t: every evening, why: "โยคะมีแค่เย็นวันอังคารและพฤหัส ไม่ใช่ทุกเย็น"}
+        - {t: every Saturday, why: "วันเสาร์คือชมรมภาษาอังกฤษ"}
+    - stem: Which activity do you need to book?
+      choices:
+        - {t: the cooking class, why: "ย่อหน้าแรกบอกว่าต้องจองที่สำหรับคลาสทำอาหาร และรับแค่ 12 คน"}
+        - {t: the yoga class, why: "โยคะให้เตรียมเสื่อมาเอง ไม่ได้บอกให้จอง"}
+        - {t: the English club, why: "ชมรมภาษาอังกฤษต้อนรับสมาชิกใหม่เสมอ ไม่ต้องจอง"}
+        - {t: every activity, why: "บอกชัดว่าต้องจองเฉพาะคลาสทำอาหาร"}
+    - stem: What should you bring to yoga?
+      choices:
+        - {t: a mat, why: "ย่อหน้าสอง Please bring your own mat"}
+        - {t: some food, why: "อาหารเกี่ยวกับคลาสทำอาหาร ไม่ใช่โยคะ"}
+        - {t: a booking form, why: "การจองทำที่เคาน์เตอร์หรือโทรศัพท์ และเป็นของคลาสทำอาหาร"}
+        - {t: a friend, why: "ไม่มีส่วนไหนบอกให้พาเพื่อนมาโยคะ"}
+  status: draft
+- id: cefr-b1-w02-036
+  kind: listen
+  skill: li
+  topic: appointment-change
+  level: 2
+  script:
+    - {who: Receptionist, en: "Good morning, Smile Dental Clinic."}
+    - {who: Man, en: "Hi, I have an appointment on Wednesday at ten, but I can't make it. Do you have anything on Friday?"}
+    - {who: Receptionist, en: "Friday morning is full, but we have two thirty in the afternoon."}
+    - {who: Man, en: "Two thirty is fine. Thank you."}
+  questions:
+    - stem: When is the man's new appointment?
+      choices:
+        - {t: Friday afternoon, why: "ช่วงเช้าวันศุกร์เต็ม เลยได้บ่ายสองโมงครึ่งวันศุกร์"}
+        - {t: Friday morning, why: "พนักงานบอกว่า Friday morning is full"}
+        - {t: Wednesday at ten, why: "นี่คือนัดเดิมที่เขาไปไม่ได้"}
+        - {t: Wednesday afternoon, why: "ไม่มีการเสนอบ่ายวันพุธเลย"}
+  status: draft
+- id: cefr-b1-w02-037
+  kind: listen
+  skill: li
+  topic: asking-availability
+  level: 2
+  script:
+    - {who: Woman, en: "Are you free for a quick meeting this week?"}
+    - {who: Man, en: "I'm busy on Monday and Tuesday, but Thursday morning is convenient for me."}
+    - {who: Woman, en: "Great. Let's meet on Thursday at nine, then."}
+  questions:
+    - stem: When will they meet?
+      choices:
+        - {t: on Thursday morning, why: "ผู้ชายสะดวกเช้าวันพฤหัส และผู้หญิงนัด nine ซึ่งเป็นเวลาเช้า"}
+        - {t: on Monday, why: "ผู้ชายบอกว่าวันจันทร์ไม่ว่าง"}
+        - {t: on Tuesday, why: "วันอังคารก็ไม่ว่างเหมือนกัน"}
+        - {t: on Thursday evening, why: "นัดเก้าโมงเช้า ไม่ใช่ตอนเย็น"}
+  status: draft
+- id: cefr-b1-w02-038
+  kind: listen
+  skill: li
+  topic: schedule-announcement
+  level: 2
+  script:
+    - {who: Announcer, en: "Good afternoon, passengers. The 4.15 bus to Khon Kaen will now leave at 4.45 from gate number six, not gate two. We are sorry for the delay."}
+  questions:
+    - stem: What has changed?
+      choices:
+        - {t: the time and the gate, why: "เวลาเปลี่ยนจาก 4.15 เป็น 4.45 และประตูเปลี่ยนจาก 2 เป็น 6"}
+        - {t: only the time, why: "ไม่ใช่แค่เวลา ประตูก็เปลี่ยนด้วย"}
+        - {t: only the gate, why: "ไม่ใช่แค่ประตู รถออกช้าลงครึ่งชั่วโมงด้วย"}
+        - {t: the city the bus goes to, why: "รถยังไปขอนแก่นเหมือนเดิม"}
+  status: draft
+- id: cefr-b1-w02-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I, usually, go to the gym, twice a week]
+  sentence: I usually go to the gym twice a week.
+  th: ปกติฉันไปยิมสัปดาห์ละสองครั้ง
+  why: "คำบอกความถี่ usually อยู่หน้ากริยา ส่วน twice a week อยู่ท้ายประโยค"
+  status: draft
+- id: cefr-b1-w02-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She, is, never, late, for work]
+  sentence: She is never late for work.
+  th: เธอไม่เคยไปทำงานสาย
+  why: "never อยู่หลัง is เพราะ is เป็นกริยา be"
+  status: draft
+- id: cefr-b1-w02-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We don't have, enough time, to finish, the report today]
+  sentence: We don't have enough time to finish the report today.
+  th: วันนี้เรามีเวลาไม่พอที่จะทำรายงานให้เสร็จ
+  why: "enough วางหน้าคำนาม time แล้วตามด้วย to + กริยา"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b1-w02-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Would, Thursday afternoon, be convenient, for you]
+  sentence: Would Thursday afternoon be convenient for you?
+  th: บ่ายวันพฤหัสสะดวกสำหรับคุณไหม
+  why: "Would + สิ่งที่ถาม + be convenient for you เป็นรูปขอนัดแบบสุภาพ"
+  status: draft

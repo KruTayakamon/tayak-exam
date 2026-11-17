@@ -119,7 +119,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
     await finish(p);
   }
   ok(['mcq', 'type', 'cloze', 'read', 'listen', 'order'].every((k) => kinds[k]), `เล่นครบทุกชนิดข้อ ${JSON.stringify(kinds)}`);
-  ok((await p.textContent('#view')).includes('จบเนื้อหาที่มีแล้ว'), 'จบสัปดาห์ 1 แล้วบอกว่ายังไม่มีสัปดาห์ถัดไป');
+  ok((await p.textContent('#todayTitle')).includes('วันที่ 1') && (await p.textContent('#view')).includes('สัปดาห์ 2'), 'จบสัปดาห์ 1 แล้วไปต่อสัปดาห์ 2 วันที่ 1');
   ok(['nb d1', 'nb d2', 'nb d3', 'nb d4'].every((c) => NB.has(c)), 'บทเรียนแต่ละวันใช้โทนสีของวันนั้น (d1–d4): ' + [...NB].join(','));
   ok(USE.partial && USE.full, 'ข้อเขียนลองใช้เอง: ตรวจแล้วบอกจุดที่ยังขาด และชมเมื่อครบทุกจุด');
   ok(CHEER.ok > 0 && CHEER.try > 0, `ตอบถูกมีคำชมและดาว (${CHEER.ok}) ตอบผิดมีคำปลอบ (${CHEER.try})`);

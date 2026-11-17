@@ -1,0 +1,238 @@
+# โพสต์เพจชุดที่ 2 (7 โพสต์ จันทร์–อาทิตย์) · draft รอบอสตรวจ · เขียน 17 พ.ย. 2569 (บอสอนุมัติให้ทำ รอบ 22)
+# หัวข้อจากผัง b1 สัปดาห์ 2–3 (ความถี่ เวลา available/convenient past simple) · ไม่ใช้ข้อจากคลังที่ขาย · บริบทผู้ใหญ่ทั่วไป
+# ลำดับ: จ. quiz · อ. word · พ. trap · พฤ. quiz · ศ. class · ส. tip · อา. recap
+
+- id: mk-quiz-0004
+  type: quiz
+  course: b1
+  topic: frequency-time-expressions
+  status: draft
+  head: "โจทย์วันจันทร์ · คำนี้วางตรงไหน"
+  stem: My boss ____ in a good mood on Monday mornings.
+  choices:
+    - {t: is rarely, why: "คำบอกความถี่อยู่ ==หลัง is== เสมอ เลยเป็น is rarely"}
+    - {t: rarely is, why: "วางสลับกัน คำบอกความถี่ต้องอยู่หลัง is ไม่ใช่หน้า is"}
+    - {t: rarely, why: "ขาด is ไปเลย ประโยคนี้ต้องมี be เพราะ in a good mood ไม่ใช่กริยา"}
+    - {t: does rarely be, why: "does ใช้คู่กับ be ไม่ได้ และไม่ต้องใช้ does ในประโยคบอกเล่า"}
+  caption: "ข้อนี้คนไทยตอบผิดเยอะ เพราะภาษาไทยวางคำว่า ไม่ค่อย ได้หลายที่\nลองตอบแล้วดูเหตุผลครบทุกตัวเลือก (ไม่ต้องสมัคร) {link}"
+  more:
+    - stem: I ____ coffee after 4 p.m. It keeps me awake.
+      choices:
+        - {t: never drink, why: "never วาง ==หน้ากริยาหลัก== drink"}
+        - {t: drink never, why: "never วางหลังกริยาหลักแบบนี้ไม่ได้"}
+        - {t: don't never drink, why: "never ปฏิเสธในตัวแล้ว ใส่ don't ซ้ำเป็นปฏิเสธซ้อน"}
+        - {t: am never drink, why: "am กับ drink รูปปกติใช้คู่กันไม่ได้"}
+    - stem: We are ____ busy at the end of the month.
+      choices:
+        - {t: always, why: "เจอ are แล้ว always ไปอยู่ ==หลัง are== พอดี"}
+        - {t: always are, why: "always are ซ้ำ are สองรอบ ไม่ถูก"}
+        - {t: never not, why: "never กับ not ใช้ซ้อนกันไม่ได้"}
+        - {t: usually do, why: "do ใช้กับคำคุณศัพท์ busy ไม่ได้"}
+    - stem: How ____ do you go to the dentist?
+      choices:
+        - {t: often, why: "ถามความถี่ใช้ ==How often=="}
+        - {t: long, why: "How long ถามว่านานแค่ไหน ไม่ใช่บ่อยแค่ไหน"}
+        - {t: much, why: "How much ถามราคาหรือปริมาณ"}
+        - {t: many, why: "How many ต้องตามด้วยคำนาม เช่น How many times"}
+    - stem: Which sentence is correct?
+      choices:
+        - {t: "He sometimes works on Saturdays.", why: "sometimes อยู่หน้ากริยา works และ on Saturdays อยู่ท้ายประโยค"}
+        - {t: "He works sometimes on Saturdays.", why: "sometimes แทรกหลังกริยาแบบนี้ไม่เป็นธรรมชาติ"}
+        - {t: "He sometimes work on Saturdays.", why: "he ต้องเติม -s เป็น works"}
+        - {t: "He sometimes works in Saturdays.", why: "วันใช้ on ไม่ใช่ in"}
+
+- id: mk-word-0002
+  type: word
+  course: b1
+  topic: work-vocabulary
+  status: draft
+  head: "คำศัพท์ที่ทำงาน · ใช้นัดเวลาได้ทุกวัน"
+  word: available
+  pos: (adjective)
+  th: ว่าง (คน) · มีให้ใช้ (ของ)
+  example: Are you available for a quick call this afternoon?
+  example_th: บ่ายนี้ว่างคุยโทรศัพท์สั้น ๆ ไหม
+  caption: "ถามว่าคนว่างไหม ใช้ available ไม่ใช่ convenient\nฟังเสียงอ่านแล้วฝึกคำนี้ 4 ข้อ {link}"
+  more:
+    - stem: I'm sorry, Mr Chai isn't ____ right now. Can I take a message?
+      choices:
+        - {t: available, why: "คนไม่ว่างรับสาย ใช้ ==available=="}
+        - {t: convenient, why: "convenient ใช้กับเวลาหรือที่ ไม่ใช้กับคน"}
+        - {t: comfortable, why: "comfortable แปลว่าสบาย ไม่ได้บอกว่าว่าง"}
+        - {t: possible, why: "possible ใช้กับเหตุการณ์ ไม่ใช้กับคน"}
+    - stem: Is Friday morning ____ for you?
+      choices:
+        - {t: convenient, why: "ถามว่าเวลานี้สะดวกไหม ใช้ ==convenient=="}
+        - {t: available you, why: "ลำดับคำผิด และ available ไม่ใช้รูปนี้"}
+        - {t: free time, why: "free time เป็นคำนาม วางหลัง is ในความหมายนี้ไม่ได้"}
+        - {t: comfortable, why: "comfortable ใช้กับความสบาย ไม่ใช่เวลานัด"}
+    - stem: Are there any rooms ____ for next weekend?
+      choices:
+        - {t: available, why: "ของหรือห้องที่ยังมีให้จอง ใช้ ==available== ได้เหมือนกัน"}
+        - {t: convenient, why: "convenient rooms แปลว่าห้องที่สะดวก ไม่ได้ถามว่ายังมีว่างไหม"}
+        - {t: free time, why: "free time ใช้กับเวลาว่างของคน ไม่ใช่ห้อง"}
+        - {t: empty time, why: "empty time ไม่ใช่วลีในภาษาอังกฤษ"}
+    - stem: "\"Can we meet at nine?\" \"Sorry, I'm not free then. How ____ ten?\""
+      choices:
+        - {t: about, why: "How about + เวลา = ==แล้วถ้าเป็น...ล่ะ== ใช้เสนอเวลาใหม่"}
+        - {t: for, why: "How for ไม่ใช่วลีที่ใช้เสนอ"}
+        - {t: with, why: "How with ไม่ใช้ในภาษาอังกฤษ"}
+        - {t: at, why: "How at ten ไม่ใช่รูปเสนอเวลาที่ถูก"}
+
+- id: mk-trap-0003
+  type: trap
+  course: b1
+  topic: frequency-time-expressions
+  status: draft
+  head: "จุดที่คนไทยพลาดบ่อย"
+  wrong: I go to work in Monday.
+  right: I go to work on Monday.
+  note: "จำสามคำ ==at เวลา · on วัน · in เดือนหรือปี== ใช้ได้เกือบทุกครั้ง"
+  caption: "in กับ on ใช้สลับกันบ่อยมาก จำสูตรสั้น ๆ แล้วไม่ต้องเดาอีก\nฝึกจุดนี้ 4 ข้อ ใช้ 2 นาที {link}"
+  more:
+    - stem: My birthday is ____ May.
+      choices:
+        - {t: in, why: "เดือนเฉย ๆ ใช้ ==in=="}
+        - {t: on, why: "on ใช้เมื่อมีวันที่ เช่น on 5 May"}
+        - {t: at, why: "at ใช้กับเวลาเป็นจุด เช่น at 7 p.m."}
+        - {t: by, why: "by แปลว่าไม่เกิน ไม่ได้บอกเดือนเกิด"}
+    - stem: The meeting starts ____ two o'clock.
+      choices:
+        - {t: at, why: "เวลาตัวเลขใช้ ==at=="}
+        - {t: in, why: "in two o'clock ไม่ถูก in ใช้กับช่วงยาว"}
+        - {t: on, why: "on ใช้กับวัน ไม่ใช้กับเวลา"}
+        - {t: for, why: "for บอกระยะเวลา เช่น for two hours"}
+    - stem: We usually relax ____ the weekend.
+      choices:
+        - {t: at, why: "แบบอังกฤษใช้ ==at the weekend== (แบบอเมริกันใช้ on)"}
+        - {t: in, why: "in the weekend ไม่ใช่รูปมาตรฐาน"}
+        - {t: by, why: "by the weekend แปลว่าไม่เกินสุดสัปดาห์ ความหมายต่างกัน"}
+        - {t: to, why: "to the weekend ไม่ใช้บอกเวลาที่ทำกิจกรรม"}
+    - stem: I'm usually tired ____ the evening.
+      choices:
+        - {t: in, why: "ช่วงของวันใช้ ==in the evening=="}
+        - {t: on, why: "on the evening ใช้เมื่อระบุวัน เช่น on the evening of 5 May"}
+        - {t: at, why: "at ใช้กับ at night ไม่ใช่ the evening"}
+        - {t: by, why: "by the evening แปลว่าไม่เกินตอนเย็น"}
+
+- id: mk-quiz-0005
+  type: quiz
+  course: b1
+  topic: past-simple
+  status: draft
+  head: "โจทย์วันพฤหัส · ข้อไหนถูก"
+  stem: I ____ my keys at home yesterday, so I couldn't get into the office.
+  choices:
+    - {t: left, why: "yesterday เป็นอดีตที่จบแล้ว ใช้ ==past simple== และ leave เปลี่ยนรูปเป็น left"}
+    - {t: leaved, why: "leave เป็นกริยาผิดปกติ ไม่เติม -ed"}
+    - {t: have left, why: "present perfect ใช้กับ yesterday ไม่ได้"}
+    - {t: leave, why: "yesterday ต้องเปลี่ยนเป็นรูปอดีต"}
+  caption: "กริยาผิดปกติตัวนี้คนเผลอเติม -ed บ่อยมาก\nตอบแล้วดูเหตุผลทุกตัวเลือก {link}"
+  more:
+    - stem: We ____ a great time at the party last night.
+      choices:
+        - {t: had, why: "last night ใช้อดีต และ have เปลี่ยนเป็น ==had=="}
+        - {t: haved, why: "have เป็นกริยาผิดปกติ ไม่เติม -ed"}
+        - {t: have had, why: "present perfect ใช้กับ last night ไม่ได้"}
+        - {t: has, why: "has เป็นปัจจุบัน ขัดกับ last night"}
+    - stem: ____ you see the email from HR this morning?
+      choices:
+        - {t: Did, why: "คำถามอดีตใช้ ==Did== แล้วกริยากลับเป็นรูปเดิม see"}
+        - {t: Do, why: "this morning ที่ผ่านไปแล้วต้องใช้อดีต"}
+        - {t: Were, why: "Were ใช้กับคำคุณศัพท์หรือ -ing ไม่ใช้กับ see รูปเดิม"}
+        - {t: Have, why: "Have ต้องตามด้วยกริยาช่อง 3 คือ seen"}
+    - stem: She didn't ____ the bus because she woke up late.
+      choices:
+        - {t: catch, why: "หลัง didn't ใช้ ==กริยารูปเดิม=="}
+        - {t: caught, why: "มี didn't แล้ว กริยาไม่ต้องเป็นอดีตซ้ำ"}
+        - {t: catched, why: "catch ไม่เติม -ed และหลัง didn't ต้องใช้รูปเดิม"}
+        - {t: catches, why: "หลัง didn't ไม่เติม -es"}
+    - stem: How long ____ the training take last week?
+      choices:
+        - {t: did, why: "ถามเรื่องอดีตด้วยคำถาม wh- ใช้ ==did== แล้ว take เป็นรูปเดิม"}
+        - {t: does, why: "last week เป็นอดีต ใช้ does ไม่ได้"}
+        - {t: was, why: "was ใช้กับ take รูปเดิมไม่ได้"}
+        - {t: has, why: "has ต้องตามด้วยช่อง 3 และใช้กับ last week ไม่ได้"}
+
+- id: mk-class-0003
+  type: class
+  course: b1
+  topic: making-appointments
+  status: draft
+  head: "3 ประโยคขอเลื่อนนัดแบบสุภาพ"
+  lines:
+    - {en: "I'm sorry, but I can't make it on Tuesday.", th: "ขอโทษนะ วันอังคารไปไม่ได้"}
+    - {en: "Would Thursday be convenient for you instead?", th: "เปลี่ยนเป็นวันพฤหัสสะดวกไหม"}
+    - {en: "Just let me know what works best for you.", th: "บอกได้เลยนะว่าเวลาไหนสะดวกที่สุด"}
+  caption: "อยากเลื่อนนัดเป็นภาษาอังกฤษแต่ไม่อยากฟังห้วน ใช้ 3 ประโยคนี้ได้เลย\nฟังเสียงอ่านแล้วฝึกต่อ {link}"
+  more:
+    - stem: "\"I'm sorry, but I can't ____ it tomorrow.\""
+      choices:
+        - {t: make, why: "can't make it = ==ไปไม่ได้ มาไม่ทัน== วลีที่ใช้บ่อยมาก"}
+        - {t: do, why: "can't do it แปลว่าทำไม่ได้ ไม่ได้หมายถึงไปนัดไม่ได้"}
+        - {t: come, why: "come it ไม่ถูก come ไม่มีกรรมแบบนี้"}
+        - {t: take, why: "take it แปลว่ารับไว้ ไม่ใช่ไปนัด"}
+    - stem: "\"Could we ____ the meeting to next week?\""
+      choices:
+        - {t: move, why: "move the meeting to = ==เลื่อนประชุมไปเป็น=="}
+        - {t: change to, why: "change to the meeting ลำดับคำผิด"}
+        - {t: delay to, why: "delay to the meeting ลำดับคำผิดและไม่เป็นธรรมชาติ"}
+        - {t: late, why: "late เป็นคำคุณศัพท์ ใช้เป็นกริยาไม่ได้"}
+    - stem: "\"Let me know what ____ best for you.\""
+      choices:
+        - {t: works, why: "what works best = ==อะไรสะดวกที่สุด== ภาษาพูดในที่ทำงาน"}
+        - {t: does, why: "what does best ไม่มีความหมายตรงนี้"}
+        - {t: is work, why: "is กับ work รูปปกติใช้คู่กันไม่ได้"}
+        - {t: working, why: "-ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้"}
+    - stem: "\"Thanks for ____ me know.\""
+      choices:
+        - {t: letting, why: "หลัง for ใช้ ==กริยา -ing== letting"}
+        - {t: let, why: "หลัง for ต้องเป็นรูป -ing"}
+        - {t: to let, why: "for to let ไม่ใช้ในภาษาอังกฤษ"}
+        - {t: lets, why: "lets เป็นกริยาเติม s ใช้หลัง for ไม่ได้"}
+
+- id: mk-tip-0002
+  type: tip
+  course: b1
+  topic: quantifiers
+  status: draft
+  head: "เทคนิค 30 วินาที · นับได้ไหม"
+  note: "นับ หนึ่ง สอง สาม ได้ใช้ ==many== · นับไม่ได้ใช้ ++much++"
+  lines:
+    - {en: "How many meetings do you have today?", th: "meetings นับได้"}
+    - {en: "How much time do we have?", th: "time นับไม่ได้"}
+  caption: "much หรือ many เลือกไม่ถูก ลองถามตัวเองว่านับได้ไหม\nลองใช้เทคนิคนี้ 4 ข้อ {link}"
+  more:
+    - stem: How ____ emails do you get a day?
+      choices:
+        - {t: many, why: "emails นับได้ ใช้ ==many=="}
+        - {t: much, why: "much ใช้กับของนับไม่ได้"}
+        - {t: lot, why: "How lot ไม่มีในภาษาอังกฤษ"}
+        - {t: few, why: "How few ไม่ใช้ถามจำนวน"}
+    - stem: I don't have ____ money with me. Can I pay by card?
+      choices:
+        - {t: much, why: "money นับไม่ได้ ประโยคปฏิเสธใช้ ==much=="}
+        - {t: many, why: "many ใช้กับของนับได้"}
+        - {t: a few, why: "a few ใช้กับของนับได้"}
+        - {t: few, why: "few ใช้กับของนับได้"}
+    - stem: Can I ask you ____ questions about the job?
+      choices:
+        - {t: a few, why: "questions นับได้ และมีไม่กี่ข้อ ใช้ ==a few=="}
+        - {t: a little, why: "a little ใช้กับของนับไม่ได้"}
+        - {t: much, why: "much ใช้กับของนับไม่ได้"}
+        - {t: little, why: "little ใช้กับของนับไม่ได้ และความหมายลบ"}
+    - stem: There's ____ sugar in this coffee. It's too sweet.
+      choices:
+        - {t: too much, why: "sugar นับไม่ได้ และหวานเกินไป ใช้ ==too much=="}
+        - {t: too many, why: "too many ใช้กับของนับได้"}
+        - {t: enough, why: "enough แปลว่าพอดี ขัดกับหวานเกินไป"}
+        - {t: a few, why: "a few ใช้กับของนับได้"}
+
+- id: mk-recap-0002
+  type: recap
+  course: b1
+  topic: weekly-recap
+  status: draft
+  head: "สรุปสัปดาห์นี้ · เฉลยโจทย์"
+  note: "เฉลยวันจันทร์ ==is rarely== · วันพฤหัส ==left== · อยากรู้ระดับตัวเอง วัดระดับฟรีหรือลองเรียนเลยก็ได้"
+  caption: "สัปดาห์นี้เราฝึกตำแหน่งคำบอกความถี่ at on in กริยาอดีต และการเลื่อนนัด\nอยากเรียนต่อเป็นระบบ วันละ 20 นาที สัปดาห์แรกฟรี ไม่ต้องใส่บัตร {link}"
