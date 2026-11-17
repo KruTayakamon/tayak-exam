@@ -91,7 +91,7 @@ def bundle_js():
 
 def bundle():
     css = open(os.path.join(WEB, 'css', 'app.css'), encoding='utf-8').read()
-    html = ('<title>CEFR for Kru ทดลองเรียน</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
+    html = ('<title>CEFR for You ทดลองเรียน</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
             '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap">\n'
             '<style>\n' + css + '\n</style>\n<div class="wrap" id="app"></div>\n<script>' + demo_data().replace('</', '<\\/') + '</script>\n<script type="module">\n' + bundle_js().replace('</script', '<\\/script') + '\n</script>\n')
     os.makedirs(os.path.join(ROOT, 'build'), exist_ok=True)
