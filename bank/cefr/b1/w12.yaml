@@ -1,0 +1,581 @@
+# คอร์ส b1 · สัปดาห์ 12 · ซ้อมใหญ่ · must might could can't เพื่อคาดเดา · ทบทวนทุกเรื่อง + question tags
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# หลักการเขียนตัวลวง: might กับ could ใช้แทนกันได้เมื่อคาดเดาว่าเป็นไปได้ จึงไม่ให้สองตัวนี้เป็นตัวเลือกคู่กันในข้อเดียว
+# ---------- วันที่ 1 · น่าจะ อาจจะ ไม่น่าใช่ ----------
+- id: cefr-b1-w12-001
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 1
+  stem: She's been working for twelve hours. She ____ be very tired.
+  choices:
+    - {t: must, why: "มีหลักฐานชัด มั่นใจว่าใช่ ใช้ ++must++"}
+    - {t: can't, why: "can't แปลว่าไม่น่าใช่ ขัดกับทำงาน 12 ชั่วโมง"}
+    - {t: mustn't, why: "mustn't แปลว่าห้าม ไม่ใช่การคาดเดา"}
+    - {t: has to, why: "has to แปลว่าจำเป็นต้อง ไม่ใช่การคาดเดา"}
+  explain: "มั่นใจว่าใช่ ==must be== · มั่นใจว่าไม่ใช่ can't be"
+  status: approved
+- id: cefr-b1-w12-002
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 1
+  stem: That ____ be Joe. He's on holiday in Japan this week.
+  choices:
+    - {t: can't, why: "มั่นใจว่าไม่ใช่ เพราะเขาอยู่ญี่ปุ่น ใช้ ++can't++"}
+    - {t: must, why: "must แปลว่ามั่นใจว่าใช่ ขัดกับที่เขาอยู่ญี่ปุ่น"}
+    - {t: mustn't, why: "mustn't แปลว่าห้าม ไม่ใช่การคาดเดาว่าไม่ใช่"}
+    - {t: doesn't have to, why: "doesn't have to แปลว่าไม่จำเป็น"}
+  explain: "ตรงข้ามของ must (คาดเดา) คือ ==can't== ไม่ใช่ mustn't"
+  status: approved
+- id: cefr-b1-w12-003
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: "\"Where's Mai?\" \"I'm not sure. She ____ be in the canteen.\""
+  choices:
+    - {t: might, why: "ไม่แน่ใจ อาจจะ ใช้ ++might++"}
+    - {t: must, why: "must แสดงความมั่นใจ ขัดกับ I'm not sure"}
+    - {t: can't, why: "can't แปลว่าไม่ใช่แน่ ขัดกับ I'm not sure"}
+    - {t: has to, why: "has to แปลว่าจำเป็นต้อง ไม่ใช่การคาดเดา"}
+  explain: "ไม่แน่ใจ 50/50 ใช้ ==might / may / could=="
+  status: approved
+- id: cefr-b1-w12-004
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: The lights are on. Somebody ____ be at home.
+  choices:
+    - {t: must, why: "ไฟเปิดเป็นหลักฐาน มั่นใจว่ามีคนอยู่ ใช้ ++must++"}
+    - {t: can't, why: "can't แปลว่าไม่มีใครแน่ ขัดกับไฟเปิด"}
+    - {t: mustn't, why: "mustn't แปลว่าห้าม"}
+    - {t: shouldn't, why: "shouldn't แปลว่าไม่ควร ไม่ใช่การคาดเดา"}
+  explain: "มีหลักฐาน + ==must be== = ต้องใช่แน่ ๆ"
+  status: approved
+- id: cefr-b1-w12-005
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: Take an umbrella. It ____ rain later.
+  choices:
+    - {t: could, why: "อาจจะตก ไม่แน่นอน ใช้ ++could++"}
+    - {t: must, why: "must แปลว่ามั่นใจ แต่การพยากรณ์ฝนไม่แน่นอน"}
+    - {t: can't, why: "can't แปลว่าไม่ตกแน่ ขัดกับให้เอาร่มไป"}
+    - {t: has to, why: "has to rain ฟังเหมือนบังคับให้ฝนตก"}
+  explain: "อาจจะเกิด ใช้ ==could / might / may== + กริยารูปเดิม"
+  status: approved
+- id: cefr-b1-w12-006
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: This bag ____ be real leather. It's only 200 baht.
+  choices:
+    - {t: can't, why: "ราคาถูกมาก มั่นใจว่าไม่ใช่หนังแท้ ใช้ ++can't++"}
+    - {t: must, why: "must แปลว่าแท้แน่ ขัดกับราคาถูก"}
+    - {t: mustn't, why: "mustn't แปลว่าห้าม ไม่ใช่การคาดเดา"}
+    - {t: needn't, why: "needn't แปลว่าไม่จำเป็น"}
+  explain: "หลักฐานบอกว่าไม่ใช่ ใช้ ==can't be=="
+  status: approved
+- id: cefr-b1-w12-007
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: He speaks Thai perfectly. He ____ have lived here for a long time.
+  choices:
+    - {t: must, why: "พูดไทยเก่งมาก มั่นใจว่าอยู่มานาน ใช้ ++must have + ช่อง 3++"}
+    - {t: can't, why: "can't have lived ขัดกับพูดไทยเก่ง"}
+    - {t: mustn't, why: "mustn't have ไม่ใช้คาดเดา"}
+    - {t: has to, why: "has to have lived ไม่ใช่รูปที่ใช้"}
+  explain: "คาดเดาเรื่องในอดีต ==must / can't / might + have + ช่อง 3=="
+  status: approved
+- id: cefr-b1-w12-008
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 3
+  stem: "\"Is Ben coming?\" \"He ____ come. He said he was very busy, but he'll try.\""
+  choices:
+    - {t: might not, why: "ยังไม่แน่ อาจไม่มา ใช้ ++might not++"}
+    - {t: can't, why: "can't แปลว่ามาไม่ได้แน่ ขัดกับ he'll try"}
+    - {t: must, why: "must แปลว่ามาแน่ ขัดกับ very busy"}
+    - {t: mustn't, why: "mustn't แปลว่าห้ามมา"}
+  explain: "อาจจะไม่ ใช้ ==might not== (ไม่ใช่ can't ที่แปลว่าไม่แน่ ๆ)"
+  status: approved
+- id: cefr-b1-w12-009
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: "You've been travelling all day. You ____ be hungry."
+  choices:
+    - {t: must, why: "เดาอย่างมั่นใจจากสถานการณ์ ใช้ ++must++"}
+    - {t: can't, why: "can't แปลว่าไม่หิวแน่ ขัดกับเดินทางทั้งวัน"}
+    - {t: mustn't, why: "mustn't แปลว่าห้ามหิว"}
+    - {t: shouldn't, why: "shouldn't แปลว่าไม่ควรหิว ฟังแปลก"}
+  explain: "ทักคนอื่นแบบเห็นใจ ==You must be tired / hungry.=="
+  status: approved
+- id: cefr-b1-w12-010
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 3
+  stem: Which sentence means "I'm almost sure it's true"?
+  choices:
+    - {t: "It must be her car.", why: "must = ++มั่นใจเกือบเต็มร้อย++ ว่าใช่"}
+    - {t: "It might be her car.", why: "might แปลว่าอาจจะ ไม่มั่นใจ"}
+    - {t: "It can't be her car.", why: "can't แปลว่ามั่นใจว่าไม่ใช่"}
+    - {t: "It mustn't be her car.", why: "mustn't แปลว่าห้าม ไม่ใช่การคาดเดา"}
+  explain: "เรียงความมั่นใจ ==must > might/could > can't (ไม่ใช่)=="
+  status: approved
+- id: cefr-b1-w12-011
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: "Nobody is answering the phone. They ____ be out."
+  choices:
+    - {t: might, why: "อาจจะออกไปข้างนอก ไม่แน่ใจ ใช้ ++might++"}
+    - {t: can't, why: "can't แปลว่าไม่ได้ออกไปแน่ ขัดกับไม่มีคนรับสาย"}
+    - {t: mustn't, why: "mustn't แปลว่าห้ามออกไป"}
+    - {t: shouldn't, why: "shouldn't แปลว่าไม่ควรออกไป ไม่ใช่การคาดเดา"}
+  explain: "เหตุผลยังไม่พอจะมั่นใจ ใช้ ==might / could=="
+  status: approved
+- id: cefr-b1-w12-012
+  kind: type
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  stem: "He's wearing a uniform with a badge. He m___ be a police officer. (ต้องใช่แน่)"
+  answer: must
+  accept: [must]
+  why: "มีหลักฐานชัด ใช้ must เพื่อคาดเดาอย่างมั่นใจ"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์อาชีพและการทำงาน ----------
+- id: cefr-b1-w12-013
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 1
+  stem: She wants a ____ in marketing.
+  choices:
+    - {t: career, why: "เส้นทางอาชีพระยะยาว ใช้ ++career++"}
+    - {t: candidate, why: "candidate คือผู้สมัคร"}
+    - {t: supervisor, why: "a supervisor in marketing ไม่ใช่สิ่งที่อยากมีเป็นอาชีพ"}
+    - {t: conclusion, why: "conclusion คือบทสรุป"}
+  explain: "career = ==อาชีพ เส้นทางการงาน== (ไม่ใช่งานชิ้นเดียว)"
+  status: approved
+- id: cefr-b1-w12-014
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 1
+  stem: I have a job ____ on Monday. I'm a bit nervous.
+  choices:
+    - {t: interview, why: "การสัมภาษณ์งาน ใช้ ++job interview++"}
+    - {t: promotion, why: "job promotion ไม่ทำให้ตื่นเต้นแบบนี้ และไม่ใช่วลีที่ใช้"}
+    - {t: ambition, why: "job ambition ไม่ใช่เหตุการณ์ในวันจันทร์"}
+    - {t: qualification, why: "qualification คือคุณวุฒิ ไม่ใช่นัดหมาย"}
+  explain: "have / attend ==a job interview== = มีนัดสัมภาษณ์งาน"
+  status: approved
+- id: cefr-b1-w12-015
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: There were twenty ____ for the manager position.
+  choices:
+    - {t: candidates, why: "ผู้สมัคร ใช้ ++candidates++"}
+    - {t: careers, why: "careers ไม่ใช่คนที่สมัคร"}
+    - {t: employees, why: "employees คือพนักงานที่ทำงานอยู่แล้ว"}
+    - {t: interviews, why: "interviews คือการสัมภาษณ์ ไม่ใช่คน"}
+  explain: "candidate = ==ผู้สมัคร ผู้เข้าชิง=="
+  status: approved
+- id: cefr-b1-w12-016
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: A teaching ____ is required for this job.
+  choices:
+    - {t: qualification, why: "คุณวุฒิทางการสอน ใช้ ++qualification++"}
+    - {t: ambition, why: "ambition คือความทะเยอทะยาน ไม่ใช่สิ่งที่บังคับให้มี"}
+    - {t: decision, why: "decision คือการตัดสินใจ"}
+    - {t: candidate, why: "candidate คือคน ไม่ใช่สิ่งที่กำหนด"}
+  explain: "qualification = ==คุณวุฒิ ใบรับรอง== ที่ทำให้มีสิทธิ์ทำงาน"
+  status: approved
+- id: cefr-b1-w12-017
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: After five years, he finally got a ____ to team leader.
+  choices:
+    - {t: promotion, why: "เลื่อนตำแหน่ง ใช้ ++promotion to++"}
+    - {t: qualification, why: "qualification to ไม่ได้แปลว่าเลื่อนขั้น"}
+    - {t: interview, why: "interview to team leader ไม่ใช่วลีที่ใช้"}
+    - {t: career, why: "a career to ไม่ได้แปลว่าเลื่อนตำแหน่ง"}
+  explain: "get a ==promotion== (to ...) = ได้เลื่อนตำแหน่ง"
+  status: approved
+- id: cefr-b1-w12-018
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: If you need a day off, ask your ____.
+  choices:
+    - {t: supervisor, why: "หัวหน้างานโดยตรง ใช้ ++supervisor++"}
+    - {t: employee, why: "employee คือลูกน้อง ไม่ใช่คนอนุมัติวันลา"}
+    - {t: candidate, why: "candidate คือผู้สมัคร"}
+    - {t: ambition, why: "ambition ไม่ใช่คน"}
+  explain: "supervisor = ==หัวหน้างาน== · employee = ลูกจ้าง"
+  status: approved
+- id: cefr-b1-w12-019
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: The company has more than 500 ____.
+  choices:
+    - {t: employees, why: "พนักงาน ใช้ ++employees++"}
+    - {t: employers, why: "employers คือนายจ้าง บริษัทเดียวไม่มีนายจ้าง 500 คน"}
+    - {t: careers, why: "careers ไม่ใช่คน"}
+    - {t: promotions, why: "promotions ไม่ใช่คน"}
+  explain: "employee = ==ลูกจ้าง== · employer = นายจ้าง"
+  status: approved
+- id: cefr-b1-w12-020
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: She was ____ to pass the exam, so she studied every night.
+  choices:
+    - {t: determined, why: "ตั้งใจแน่วแน่ ใช้ ++determined to++"}
+    - {t: capable, why: "capable ตามด้วย of ไม่ใช่ to"}
+    - {t: qualified, why: "qualified to pass ไม่ได้บอกความตั้งใจ"}
+    - {t: promoted, why: "promoted to pass ไม่มีความหมาย"}
+  explain: "be ==determined to + กริยา== = ตั้งใจแน่วแน่"
+  status: approved
+- id: cefr-b1-w12-021
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: He's ____ of running the shop on his own.
+  choices:
+    - {t: capable, why: "มีความสามารถ ใช้ ++capable of + -ing++"}
+    - {t: determined, why: "determined ตามด้วย to ไม่ใช่ of"}
+    - {t: able, why: "able ตามด้วย to ไม่ใช่ of"}
+    - {t: good, why: "good ตามด้วย at ไม่ใช่ of"}
+  explain: "capable ==of + -ing== · able to + กริยา"
+  status: approved
+- id: cefr-b1-w12-022
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: My ____ is to open my own café one day.
+  choices:
+    - {t: ambition, why: "ความฝันความทะเยอทะยาน ใช้ ++ambition++"}
+    - {t: conclusion, why: "conclusion คือบทสรุป"}
+    - {t: qualification, why: "qualification คือคุณวุฒิ"}
+    - {t: interview, why: "interview คือการสัมภาษณ์"}
+  explain: "ambition = ==ความใฝ่ฝัน เป้าหมายใหญ่=="
+  status: approved
+- id: cefr-b1-w12-023
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: It was a difficult ____, but I decided to leave my job.
+  choices:
+    - {t: decision, why: "การตัดสินใจ ใช้ ++decision++ คำนามของ decide"}
+    - {t: decide, why: "decide เป็นกริยา วางหลัง a difficult ไม่ได้"}
+    - {t: conclusion, why: "a difficult conclusion ไม่ตรงกับการลาออก"}
+    - {t: ambition, why: "a difficult ambition ไม่ใช่วลีที่ใช้"}
+  explain: "decide (v.) → ==decision (n.)== make a decision"
+  status: approved
+- id: cefr-b1-w12-024
+  kind: type
+  skill: vo
+  topic: career-words
+  level: 2
+  stem: "In c_________, the plan was a success. (สรุปแล้ว)"
+  answer: conclusion
+  accept: [conclusion]
+  why: "In conclusion ใช้ปิดย่อหน้าหรือการพูด"
+  status: approved
+# ---------- วันที่ 3 · ทบทวนปนกัน + question tags ----------
+- id: cefr-b1-w12-025
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 1
+  stem: "You're from Chiang Rai, ____?"
+  choices:
+    - {t: aren't you, why: "บอกเล่า are → tag ปฏิเสธ ++aren't you++"}
+    - {t: are you, why: "ประโยคบอกเล่าต้องตามด้วย tag ปฏิเสธ"}
+    - {t: don't you, why: "ประโยคใช้ are ไม่ใช่ do"}
+    - {t: isn't it, why: "ประธานคือ you ไม่ใช่ it"}
+  explain: "question tag: ==บอกเล่า → tag ปฏิเสธ== ใช้กริยาช่วยตัวเดิม"
+  status: approved
+- id: cefr-b1-w12-026
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  stem: "She doesn't eat meat, ____?"
+  choices:
+    - {t: does she, why: "ปฏิเสธ doesn't → tag บอกเล่า ++does she++"}
+    - {t: doesn't she, why: "ประโยคปฏิเสธต้องตามด้วย tag บอกเล่า"}
+    - {t: is she, why: "ประโยคใช้ does ไม่ใช่ is"}
+    - {t: does it, why: "ประธานคือ she ต้องใช้ she ใน tag"}
+  explain: "ปฏิเสธ → ==tag บอกเล่า== · ประธานเป็นคำแทนตัวเดิม"
+  status: approved
+- id: cefr-b1-w12-027
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  stem: "You went to the meeting yesterday, ____?"
+  choices:
+    - {t: didn't you, why: "อดีตบอกเล่าไม่มีกริยาช่วย ใช้ ++didn't you++"}
+    - {t: weren't you, why: "ประโยคใช้กริยาแท้ went ไม่ใช่ be"}
+    - {t: did you, why: "บอกเล่าต้องตามด้วย tag ปฏิเสธ"}
+    - {t: don't you, why: "went เป็นอดีต ต้องใช้ didn't"}
+  explain: "ไม่มีกริยาช่วยในประโยค ใช้ ==do / does / did== ใน tag"
+  status: approved
+- id: cefr-b1-w12-028
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  stem: By the time I arrived, the film ____.
+  choices:
+    - {t: had already started, why: "เกิดก่อนอีกเหตุการณ์ในอดีต ใช้ ++had + ช่อง 3++"}
+    - {t: has already started, why: "อ้างอดีต arrived ต้องใช้ had ไม่ใช่ has"}
+    - {t: already starts, why: "ปัจจุบันไม่เข้ากับ arrived"}
+    - {t: was already start, why: "หลัง was ไม่ใช้กริยารูปเดิม"}
+  explain: "ทบทวน: เหตุการณ์ที่เกิดก่อน ==ใช้ had + ช่อง 3=="
+  status: approved
+- id: cefr-b1-w12-029
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  stem: I ____ in this company since 2019.
+  choices:
+    - {t: have worked, why: "เริ่มในอดีตและยังอยู่ + since ใช้ ++present perfect++"}
+    - {t: work, why: "since ไม่ใช้กับปัจจุบันธรรมดา"}
+    - {t: worked, why: "worked บอกว่าจบไปแล้ว ขัดกับ since"}
+    - {t: am working, why: "since ใช้กับ present perfect ไม่ใช่ continuous ธรรมดา"}
+  explain: "ทบทวน: ==since / for== → have + ช่อง 3"
+  status: approved
+- id: cefr-b1-w12-030
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  stem: If I ____ you, I would accept the offer.
+  choices:
+    - {t: were, why: "ทบทวน second conditional ++If I were you++"}
+    - {t: am, why: "am ไม่ใช่รูปสมมติ"}
+    - {t: will be, why: "ไม่ใส่ will ในส่วน if"}
+    - {t: would be, why: "ไม่ใส่ would ในส่วน if"}
+  explain: "ทบทวน: ให้คำแนะนำ ==If I were you, I'd ...=="
+  status: approved
+- id: cefr-b1-w12-031
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 3
+  stem: The report ____ by the end of the day, and then it will be sent to the client.
+  choices:
+    - {t: will be finished, why: "รายงานถูกทำให้เสร็จในอนาคต ใช้ ++will be + ช่อง 3++"}
+    - {t: will finish, why: "รายงานทำตัวเองให้เสร็จไม่ได้ ต้องเป็นรูปถูกกระทำ"}
+    - {t: is finishing, why: "เป็นรูปกระทำ แปลว่ารายงานกำลังทำบางอย่างให้เสร็จ"}
+    - {t: will be finish, why: "หลัง be ต้องเป็นช่อง 3"}
+  explain: "ทบทวน passive อนาคต ==will be + ช่อง 3=="
+  status: approved
+- id: cefr-b1-w12-032
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  stem: She asked me ____ I had ever been to Laos.
+  choices:
+    - {t: if, why: "ทบทวน reported yes/no question ใช้ ++if++"}
+    - {t: that, why: "that ใช้กับประโยคบอกเล่า"}
+    - {t: what, why: "คำถามเดิมเป็นแบบ yes/no ไม่มี what"}
+    - {t: did, why: "ไม่ใช้ did ในคำถามที่เล่าต่อ"}
+  explain: "ทบทวน: asked ==if / whether== + ประโยคบอกเล่า"
+  status: approved
+- id: cefr-b1-w12-033
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 3
+  stem: Which sentence has NO mistake?
+  choices:
+    - {t: "Although the job was hard, I enjoyed learning new things.", why: "although + ประโยค และ enjoy + -ing ++ถูกทั้งหมด++"}
+    - {t: "Although the job was hard, but I enjoyed it.", why: "although กับ but ใช้ซ้อนกันไม่ได้"}
+    - {t: "The job was hard. However I enjoyed to learn.", why: "enjoy ไม่ตามด้วย to และ However ควรมีจุลภาค"}
+    - {t: "Despite the job was hard, I enjoyed it.", why: "despite ตามด้วยคำนาม ไม่ใช่ประโยค"}
+  explain: "จุดพลาดยอดฮิต ==although ซ้อน but== · enjoy to · despite + ประโยค"
+  status: approved
+- id: cefr-b1-w12-034
+  kind: cloze
+  skill: gm
+  topic: review-b1
+  level: 2
+  text: |
+    Hi Ken, it's me. Sorry I missed your call. I (1) ____ on the train, and the signal was bad. You sounded worried. Is everything OK? You (2) ____ be stressed about the interview tomorrow. Don't worry, you're well prepared, (3) ____?
+  questions:
+    - choices:
+        - {t: was, why: "กำลังอยู่บนรถไฟตอนเพื่อนโทรมา ใช้ was (be + สถานที่)"}
+        - {t: am, why: "เป็นเรื่องที่ผ่านมาแล้ว ใช้อดีต"}
+        - {t: have been, why: "have been ไม่บอกช่วงเวลาที่โทรมาในอดีต"}
+        - {t: would be, why: "would be ไม่ใช่การเล่าข้อเท็จจริง"}
+    - choices:
+        - {t: must, why: "ฟังดูกังวล เดาอย่างมั่นใจ must"}
+        - {t: mustn't, why: "mustn't แปลว่าห้ามเครียด ไม่ใช่การคาดเดา"}
+        - {t: can't, why: "can't ขัดกับ You sounded worried"}
+        - {t: has to, why: "has to แปลว่าจำเป็นต้อง ไม่ใช่การคาดเดา"}
+    - choices:
+        - {t: aren't you, why: "บอกเล่า are → tag ปฏิเสธ aren't you"}
+        - {t: are you, why: "ประโยคบอกเล่าต้องตามด้วย tag ปฏิเสธ"}
+        - {t: don't you, why: "ประโยคใช้ are ไม่ใช่ do"}
+        - {t: isn't it, why: "ประธานคือ you ไม่ใช่ it"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟังปนกัน ----------
+- id: cefr-b1-w12-035
+  kind: read
+  skill: rd
+  topic: career-change
+  level: 2
+  title: "From Bank Clerk to Baker"
+  passage: |
+    For eight years, Ploy worked as a bank clerk in Bangkok. The salary was good and her supervisor was kind, but she felt that something was missing. "Every evening I baked bread to relax," she says. "My friends kept telling me I should sell it."
+
+    Two years ago, she made the decision to leave her job. It wasn't easy. She took a six-month baking course to get a proper qualification, and she used all her savings to set up a small bakery near her old office. "The first year was terrible. I worked fourteen hours a day, and I nearly gave up twice."
+
+    Today, the bakery has four employees and sells out by noon most days. Ploy earns less than she did at the bank, but she says she has never been happier. "If you are determined, you can change your career at any age. But make sure you have enough money for at least one year."
+  questions:
+    - stem: Why did Ploy leave the bank?
+      choices:
+        - {t: she felt something was missing, why: "she felt that something was missing"}
+        - {t: her salary was too low, why: "The salary was good"}
+        - {t: her supervisor was unkind, why: "her supervisor was kind"}
+        - {t: the bank closed, why: "ไม่ได้บอกว่าธนาคารปิด"}
+    - stem: What did she do before opening the bakery?
+      choices:
+        - {t: took a baking course, why: "She took a six-month baking course"}
+        - {t: worked in another bakery, why: "ไม่ได้บอกว่าไปทำงานร้านอื่น"}
+        - {t: borrowed money from friends, why: "เธอใช้เงินเก็บของตัวเอง"}
+        - {t: moved out of Bangkok, why: "ร้านอยู่ใกล้ที่ทำงานเก่า"}
+    - stem: How does Ploy feel about her income now?
+      choices:
+        - {t: it is lower but she is happier, why: "earns less ... but she has never been happier"}
+        - {t: it is much higher, why: "เธอได้น้อยกว่าตอนอยู่ธนาคาร"}
+        - {t: she worries about it every day, why: "ไม่ได้บอกว่ากังวลทุกวัน"}
+        - {t: it is the same as before, why: "เธอได้น้อยกว่าเดิม"}
+    - stem: What advice does Ploy give?
+      choices:
+        - {t: save enough money for a year, why: "make sure you have enough money for at least one year"}
+        - {t: stay in your first career, why: "เธอบอกว่าเปลี่ยนอาชีพได้ทุกวัย"}
+        - {t: open a bakery, why: "เธอไม่ได้แนะนำให้ทุกคนเปิดร้านขนมปัง"}
+        - {t: work fourteen hours a day, why: "เป็นสิ่งที่เธอเจอในปีแรก ไม่ใช่คำแนะนำ"}
+  status: approved
+- id: cefr-b1-w12-036
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Whose jacket is this? It's very expensive."}
+    - {who: Man, en: "It must be Tom's. He was sitting here earlier, and he always wears black."}
+  questions:
+    - stem: How sure is the man that it's Tom's jacket?
+      choices:
+        - {t: almost sure, why: "เขาใช้ must และให้เหตุผลสองข้อ"}
+        - {t: not sure at all, why: "must แสดงความมั่นใจ"}
+        - {t: sure it isn't Tom's, why: "ถ้าคิดว่าไม่ใช่จะใช้ can't"}
+        - {t: he doesn't say, why: "เขาตอบว่า It must be Tom's"}
+  status: approved
+- id: cefr-b1-w12-037
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "How did the interview go?"}
+    - {who: Woman, en: "I think it went well. They asked me why I wanted to change my career, and I told them I'd always been interested in design. They said they would let me know by Friday."}
+  questions:
+    - stem: When will the woman hear about the job?
+      choices:
+        - {t: by Friday, why: "They said they would let me know by Friday"}
+        - {t: today, why: "ยังไม่ได้รู้ผลวันนี้"}
+        - {t: next month, why: "ไม่ได้พูดถึงเดือนหน้า"}
+        - {t: she already knows, why: "ยังต้องรอคำตอบจากบริษัท"}
+  status: approved
+- id: cefr-b1-w12-038
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Excuse me, could you tell me where the training room is?"}
+    - {who: Man, en: "It's on the third floor, next to the lift. But the training has been put off until two o'clock, so you've got time for lunch first."}
+  questions:
+    - stem: What has changed?
+      choices:
+        - {t: the training starts later, why: "the training has been put off until two o'clock"}
+        - {t: the room has moved, why: "ห้องยังอยู่ชั้นสามข้างลิฟต์"}
+        - {t: the training is cancelled, why: "put off แปลว่าเลื่อน ไม่ใช่ยกเลิก"}
+        - {t: lunch is cancelled, why: "เขาบอกว่ามีเวลากินข้าวก่อน"}
+  status: approved
+- id: cefr-b1-w12-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [You, must be, Ploy's sister, aren't you]
+  sentence: You must be Ploy's sister, aren't you?
+  th: คุณต้องเป็นพี่สาวของพลอยแน่ ๆ ใช่ไหม
+  why: "must be คาดเดาอย่างมั่นใจ แล้วต่อด้วย tag aren't you"
+  status: approved
+- id: cefr-b1-w12-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I have been, interested in design, since, I was a child]
+  sentence: I have been interested in design since I was a child.
+  th: ฉันสนใจงานออกแบบมาตั้งแต่เด็ก
+  why: "have been + since + ประโยคอดีตบอกจุดเริ่มต้น"
+  status: approved
+- id: cefr-b1-w12-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The decision, was made, after, a long discussion]
+  sentence: The decision was made after a long discussion.
+  th: มีการตัดสินใจหลังจากหารือกันนาน
+  why: "passive was made แล้วตามด้วย after + คำนาม"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b1-w12-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [In conclusion, I believe, that people, who are determined, can change careers]
+  sentence: In conclusion, I believe that people who are determined can change careers.
+  th: สรุปแล้ว ฉันเชื่อว่าคนที่มุ่งมั่นสามารถเปลี่ยนอาชีพได้
+  why: "In conclusion ปิดความเห็น แล้ว people who ... ขยายประธาน"
+  status: approved

@@ -1,0 +1,589 @@
+# คอร์ส b1 · สัปดาห์ 11 · อีเมลและข้อความทางการ · verb + -ing / to + infinitive · หลังบุพบทใช้ -ing · กริยาวลี · Could you...? Would you mind + -ing
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24)
+# หลักการเขียนตัวลวง: กริยาที่ตามได้ทั้ง -ing และ to โดยความหมายไม่ต่าง (like, love, start, begin) ไม่ใช้เป็นโจทย์ให้เลือกระหว่างสองรูปนี้
+# ---------- วันที่ 1 · ตามด้วย -ing หรือ to ----------
+- id: cefr-b1-w11-001
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 1
+  stem: I enjoy ____ in the morning before work.
+  choices:
+    - {t: running, why: "enjoy ตามด้วย ++-ing++ เสมอ"}
+    - {t: to run, why: "enjoy ไม่ตามด้วย to + กริยา"}
+    - {t: run, why: "enjoy ไม่ตามด้วยกริยารูปเดิม"}
+    - {t: ran, why: "ran เป็นอดีต ใช้หลัง enjoy ไม่ได้"}
+  explain: "==enjoy / finish / mind / avoid== + -ing"
+  status: approved
+- id: cefr-b1-w11-002
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 1
+  stem: We decided ____ a new car.
+  choices:
+    - {t: to buy, why: "decide ตามด้วย ++to + กริยา++"}
+    - {t: buying, why: "decide ไม่ตามด้วย -ing"}
+    - {t: buy, why: "decide ต้องมี to"}
+    - {t: for buying, why: "decide ไม่ตามด้วย for"}
+  explain: "==decide / want / plan / hope / need== + to + กริยา"
+  status: approved
+- id: cefr-b1-w11-003
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: Have you finished ____ the report yet?
+  choices:
+    - {t: writing, why: "finish ตามด้วย ++-ing++"}
+    - {t: to write, why: "finish ไม่ตามด้วย to + กริยา"}
+    - {t: write, why: "finish ไม่ตามด้วยกริยารูปเดิม"}
+    - {t: written, why: "finished written ผิดรูป"}
+  explain: "ทำ...เสร็จ = ==finish + -ing=="
+  status: approved
+- id: cefr-b1-w11-004
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: I'm looking forward to ____ from you.
+  choices:
+    - {t: hearing, why: "to ในวลีนี้เป็นบุพบท ตามด้วย ++-ing++"}
+    - {t: hear, why: "to ตรงนี้ไม่ใช่ to + กริยา ต้องใช้ -ing"}
+    - {t: heard, why: "heard ใช้หลังบุพบทไม่ได้"}
+    - {t: be hearing, why: "be hearing ผิดรูป"}
+  explain: "ปิดอีเมล ==I look forward to hearing from you.== to = บุพบท"
+  status: approved
+- id: cefr-b1-w11-005
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: She's good at ____ problems.
+  choices:
+    - {t: solving, why: "หลังบุพบท at ใช้ ++-ing++"}
+    - {t: solve, why: "หลังบุพบทใช้กริยารูปเดิมไม่ได้"}
+    - {t: to solve, why: "หลังบุพบทไม่ใช้ to + กริยา"}
+    - {t: solved, why: "หลังบุพบทไม่ใช้รูปอดีต"}
+  explain: "หลัง ==at / in / of / about / without== ใช้ -ing"
+  status: approved
+- id: cefr-b1-w11-006
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: He left without ____ goodbye.
+  choices:
+    - {t: saying, why: "หลังบุพบท without ใช้ ++-ing++"}
+    - {t: say, why: "หลัง without ใช้กริยารูปเดิมไม่ได้"}
+    - {t: to say, why: "หลัง without ไม่ใช้ to + กริยา"}
+    - {t: said, why: "หลัง without ไม่ใช้รูปอดีต"}
+  explain: "without + ==-ing== = โดยไม่..."
+  status: approved
+- id: cefr-b1-w11-007
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: They promised ____ the problem by Monday.
+  choices:
+    - {t: to fix, why: "promise ตามด้วย ++to + กริยา++"}
+    - {t: fixing, why: "promise ไม่ตามด้วย -ing"}
+    - {t: fix, why: "promise ต้องมี to"}
+    - {t: for fixing, why: "promise ไม่ตามด้วย for"}
+  explain: "สัญญา ตั้งใจ ตกลง: ==promise / agree / refuse + to=="
+  status: approved
+- id: cefr-b1-w11-008
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: ____ in a big city can be stressful.
+  choices:
+    - {t: Living, why: "กริยาเป็นประธานของประโยค ใช้ ++-ing++"}
+    - {t: Live, why: "กริยารูปเดิมเป็นประธานไม่ได้"}
+    - {t: Lived, why: "รูปอดีตเป็นประธานไม่ได้"}
+    - {t: Lives, why: "Lives เป็นกริยาผันแล้ว ใช้เป็นประธานไม่ได้"}
+  explain: "ขึ้นประโยคด้วยกริยา ใช้ ==-ing เป็นคำนาม== (Swimming is fun.)"
+  status: approved
+- id: cefr-b1-w11-009
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 3
+  stem: "I stopped ____ coffee because I couldn't sleep at night."
+  choices:
+    - {t: drinking, why: "เลิกดื่ม ใช้ ++stop + -ing++"}
+    - {t: to drink, why: "stop to drink แปลว่าหยุดเพื่อไปดื่ม ความหมายกลับกัน"}
+    - {t: drink, why: "stop ไม่ตามด้วยกริยารูปเดิม"}
+    - {t: drank, why: "stop ไม่ตามด้วยรูปอดีต"}
+  explain: "stop + -ing = ==เลิกทำ== · stop + to = หยุดเพื่อไปทำ"
+  status: approved
+- id: cefr-b1-w11-010
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: Please remember ____ the door when you leave.
+  choices:
+    - {t: to lock, why: "อย่าลืมทำ (ในอนาคต) ใช้ ++remember + to++"}
+    - {t: locking, why: "remember + -ing แปลว่าจำได้ว่าเคยทำ ไม่ใช่การเตือน"}
+    - {t: lock, why: "remember ต้องมี to"}
+    - {t: locked, why: "remember locked ผิดรูป"}
+  explain: "remember / forget ==to do== = อย่าลืมทำ · + -ing = จำได้ว่าเคยทำ"
+  status: approved
+- id: cefr-b1-w11-011
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: I'm thinking of ____ a cooking class.
+  choices:
+    - {t: taking, why: "หลังบุพบท of ใช้ ++-ing++"}
+    - {t: to take, why: "หลังบุพบทไม่ใช้ to + กริยา"}
+    - {t: take, why: "หลังบุพบทใช้กริยารูปเดิมไม่ได้"}
+    - {t: took, why: "หลังบุพบทไม่ใช้รูปอดีต"}
+  explain: "be thinking ==of / about + -ing== = กำลังคิดจะ..."
+  status: approved
+- id: cefr-b1-w11-012
+  kind: type
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  stem: "We need ____ more chairs for the meeting. (to + book · พิมพ์ 2 คำ)"
+  answer: to book
+  accept: [to book]
+  why: "need ตามด้วย to + กริยารูปเดิม"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์อีเมลและงาน ----------
+- id: cefr-b1-w11-013
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 1
+  stem: I have ____ the price list to this email.
+  choices:
+    - {t: attached, why: "แนบไฟล์มากับอีเมล ใช้ ++attach to++"}
+    - {t: involved, why: "involve ไม่ได้แปลว่าแนบ"}
+    - {t: supported, why: "support แปลว่าสนับสนุน"}
+    - {t: avoided, why: "avoid แปลว่าหลีกเลี่ยง"}
+  explain: "Please find ==attached== ... / I have attached ... = แนบมาด้วย"
+  status: approved
+- id: cefr-b1-w11-014
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: Try to ____ driving in the city at rush hour.
+  choices:
+    - {t: avoid, why: "หลีกเลี่ยง ใช้ ++avoid + -ing++"}
+    - {t: involve, why: "involve driving ไม่ได้แปลว่าหลีกเลี่ยง"}
+    - {t: support, why: "support driving ขัดกับคำแนะนำ"}
+    - {t: attach, why: "attach driving ไม่มีความหมาย"}
+  explain: "avoid + ==-ing== = หลีกเลี่ยง"
+  status: approved
+- id: cefr-b1-w11-015
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: The job ____ travelling to other provinces twice a month.
+  choices:
+    - {t: involves, why: "งานนี้มีส่วนของการเดินทาง ใช้ ++involves + -ing++"}
+    - {t: attaches, why: "attach ไม่ได้บอกลักษณะงาน"}
+    - {t: avoids, why: "avoids ขัดกับ twice a month"}
+    - {t: solves, why: "solve travelling ไม่มีความหมาย"}
+  explain: "The job ==involves + -ing== = งานนี้ต้อง..."
+  status: approved
+- id: cefr-b1-w11-016
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 1
+  stem: Could you ____ my cat while I'm away?
+  choices:
+    - {t: look after, why: "ดูแลสัตว์เลี้ยง ใช้ ++look after++"}
+    - {t: put off, why: "put off แปลว่าเลื่อนออกไป"}
+    - {t: give up, why: "give up แปลว่าเลิก ยอมแพ้"}
+    - {t: set up, why: "set up แปลว่าจัดตั้ง ติดตั้ง"}
+  explain: "look after = ==ดูแล== (คน สัตว์ ของ)"
+  status: approved
+- id: cefr-b1-w11-017
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: We have to ____ the meeting until next week. The manager is ill.
+  choices:
+    - {t: put off, why: "เลื่อนประชุมออกไป ใช้ ++put off++"}
+    - {t: look after, why: "look after แปลว่าดูแล"}
+    - {t: set up, why: "set up the meeting แปลว่าจัด ไม่ได้แปลว่าเลื่อน"}
+    - {t: give up, why: "give up the meeting ไม่ใช่การเลื่อน"}
+  explain: "put off = ==เลื่อนออกไป== (= postpone)"
+  status: approved
+- id: cefr-b1-w11-018
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: She ____ her own online shop last year.
+  choices:
+    - {t: set up, why: "เปิดตั้งธุรกิจ ใช้ ++set up++"}
+    - {t: put off, why: "put off แปลว่าเลื่อน"}
+    - {t: gave up, why: "gave up her shop แปลว่าเลิกร้าน ขัดกับการเริ่ม"}
+    - {t: looked after, why: "looked after ไม่ได้บอกว่าเปิดใหม่"}
+  explain: "set up a business / an account = ==ตั้ง เปิด=="
+  status: approved
+- id: cefr-b1-w11-019
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: My dad ____ smoking ten years ago.
+  choices:
+    - {t: gave up, why: "เลิกสูบบุหรี่ ใช้ ++give up + -ing++"}
+    - {t: set up, why: "set up smoking ไม่มีความหมาย"}
+    - {t: put off, why: "put off smoking แปลว่าเลื่อนการสูบ"}
+    - {t: looked after, why: "looked after smoking ไม่มีความหมาย"}
+  explain: "give up + ==-ing / คำนาม== = เลิก"
+  status: approved
+- id: cefr-b1-w11-020
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: Thank you for your ____ during this difficult time.
+  choices:
+    - {t: support, why: "ขอบคุณที่ช่วยเหลือ ใช้ ++support++"}
+    - {t: solve, why: "solve เป็นกริยา วางหลัง your ไม่ได้"}
+    - {t: involve, why: "involve เป็นกริยา"}
+    - {t: avoid, why: "avoid เป็นกริยา"}
+  explain: "support = ==ช่วยเหลือ สนับสนุน== ใช้เป็นคำนามและกริยา"
+  status: approved
+- id: cefr-b1-w11-021
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: The IT team is trying to ____ the problem with the printer.
+  choices:
+    - {t: solve, why: "แก้ปัญหา ใช้ ++solve a problem++"}
+    - {t: avoid, why: "avoid the problem แปลว่าหลบปัญหา ไม่ได้แก้"}
+    - {t: attach, why: "attach the problem ไม่มีความหมาย"}
+    - {t: involve, why: "involve the problem ไม่ได้แปลว่าแก้"}
+  explain: "==solve a problem== = แก้ปัญหา · fix the problem ก็ใช้ได้"
+  status: approved
+- id: cefr-b1-w11-022
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: Thank you for all your ____ on this project.
+  choices:
+    - {t: effort, why: "ความพยายามที่ทุ่มเท ใช้ ++effort++"}
+    - {t: avoid, why: "avoid เป็นกริยา"}
+    - {t: solve, why: "solve เป็นกริยา"}
+    - {t: involve, why: "involve เป็นกริยา"}
+  explain: "make an effort / ==thank you for your effort== = ความพยายาม"
+  status: approved
+- id: cefr-b1-w11-023
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: The car broke down. ____, a friendly driver stopped to help us.
+  choices:
+    - {t: Fortunately, why: "เรื่องดีหลังเรื่องแย่ ใช้ ++Fortunately++"}
+    - {t: Unfortunately, why: "มีคนมาช่วยเป็นเรื่องดี ไม่ใช่เรื่องโชคร้าย"}
+    - {t: Although, why: "Although ไม่ยืนเดี่ยวตามด้วยจุลภาค"}
+    - {t: Because, why: "Because ไม่ยืนเดี่ยวตามด้วยจุลภาค"}
+  explain: "==Fortunately== = โชคดีที่ · Unfortunately = น่าเสียดายที่"
+  status: approved
+- id: cefr-b1-w11-024
+  kind: type
+  skill: vo
+  topic: email-work
+  level: 2
+  stem: "U____________, we are unable to accept your booking. (น่าเสียดายที่)"
+  answer: unfortunately
+  accept: [unfortunately, Unfortunately]
+  why: "Unfortunately ใช้เปิดข่าวไม่ดีในอีเมลอย่างสุภาพ"
+  status: approved
+# ---------- วันที่ 3 · กริยาวลีและขออย่างสุภาพ ----------
+- id: cefr-b1-w11-025
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 1
+  stem: Would you mind ____ the window?
+  choices:
+    - {t: closing, why: "Would you mind ตามด้วย ++-ing++"}
+    - {t: to close, why: "mind ไม่ตามด้วย to + กริยา"}
+    - {t: close, why: "mind ไม่ตามด้วยกริยารูปเดิม"}
+    - {t: closed, why: "mind ไม่ตามด้วยรูปอดีตในคำขอนี้"}
+  explain: "ขออย่างสุภาพมาก: ==Would you mind + -ing...?=="
+  status: approved
+- id: cefr-b1-w11-026
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: "\"Would you mind waiting a few minutes?\" \"____\" (ยินดีรอ)"
+  choices:
+    - {t: "No, not at all.", why: "mind แปลว่ารังเกียจ ตอบว่า ++No++ = ไม่รังเกียจ ยินดี"}
+    - {t: "Yes, I would.", why: "Yes แปลว่ารังเกียจ ไม่อยากรอ"}
+    - {t: "Yes, please.", why: "Yes, please ไม่ตอบคำถาม Would you mind"}
+    - {t: "No, I can't.", why: "No, I can't แปลว่ารอไม่ได้ ขัดกับยินดีรอ"}
+  explain: "ระวัง! ตอบ ==No, not at all== = ยินดีทำให้"
+  status: approved
+- id: cefr-b1-w11-027
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: ____ you send me the file again, please?
+  choices:
+    - {t: Could, why: "ขอร้องสุภาพ ใช้ ++Could you + กริยา++"}
+    - {t: Would you mind, why: "Would you mind ต้องตามด้วย -ing ไม่ใช่ you send"}
+    - {t: Do, why: "Do you send ไม่ใช่การขอร้อง"}
+    - {t: Should, why: "Should you send ไม่ใช่คำขอ"}
+  explain: "Could you / Would you + ==กริยารูปเดิม== ...?"
+  status: approved
+- id: cefr-b1-w11-028
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: Please ____ this form and return it by Friday.
+  choices:
+    - {t: fill in, why: "กรอกแบบฟอร์ม ใช้ ++fill in++"}
+    - {t: fill on, why: "fill on ไม่ใช่กริยาวลี"}
+    - {t: fill at, why: "fill at ไม่ใช่กริยาวลี"}
+    - {t: fill with, why: "fill with แปลว่าเติมให้เต็มด้วย ไม่ใช่กรอกฟอร์ม"}
+  explain: "fill in / ==fill out a form== = กรอกแบบฟอร์ม"
+  status: approved
+- id: cefr-b1-w11-029
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: Can you ____ the music? I'm on the phone.
+  choices:
+    - {t: turn down, why: "ลดเสียง ใช้ ++turn down++"}
+    - {t: turn up, why: "turn up แปลว่าเพิ่มเสียง ขัดกับกำลังคุยโทรศัพท์"}
+    - {t: turn on, why: "turn on แปลว่าเปิด"}
+    - {t: turn into, why: "turn into แปลว่ากลายเป็น"}
+  explain: "turn ==down / up== = ลด / เพิ่มเสียง · turn on / off = เปิด / ปิด"
+  status: approved
+- id: cefr-b1-w11-030
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: I'll ____ you ____ at the station at 6.
+  choices:
+    - {t: pick ... up, why: "ไปรับ ใช้ ++pick someone up++"}
+    - {t: pick ... on, why: "pick on แปลว่าแกล้ง รังแก"}
+    - {t: take ... off, why: "take off แปลว่าถอดหรือเครื่องบินขึ้น"}
+    - {t: look ... up, why: "look up แปลว่าเปิดหาข้อมูล"}
+  explain: "pick up = ==ไปรับ== คำแทนคนวางกลางได้ pick you up"
+  status: approved
+- id: cefr-b1-w11-031
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 3
+  stem: I don't know this word. I'll ____.
+  choices:
+    - {t: look it up, why: "คำแทนวางกลางกริยาวลี ++look it up++"}
+    - {t: look up it, why: "คำแทน it ต้องอยู่ระหว่าง look กับ up"}
+    - {t: look it for, why: "look for แปลว่าหา ไม่ใช่เปิดพจนานุกรม และลำดับผิด"}
+    - {t: look after it, why: "look after แปลว่าดูแล"}
+  explain: "กริยาวลีแยกได้ + it / them ==วางกลางเสมอ== (look it up · turn it off)"
+  status: approved
+- id: cefr-b1-w11-032
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: Which request is the most polite?
+  choices:
+    - {t: "Would you mind checking this email for me?", why: "Would you mind + -ing ++สุภาพที่สุด++"}
+    - {t: "Check this email for me.", why: "เป็นคำสั่ง ฟังห้วน"}
+    - {t: "Can you check this email?", why: "ถูกไวยากรณ์ แต่สุภาพน้อยกว่า Would you mind"}
+    - {t: "Would you mind to check this email?", why: "mind ไม่ตามด้วย to"}
+  explain: "สุภาพที่สุดคือ ==Would you mind + -ing?== รองลงมา Could you / Can you"
+  status: approved
+- id: cefr-b1-w11-033
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  stem: The meeting is ____ until further notice.
+  choices:
+    - {t: called off, why: "ยกเลิก ใช้ ++call off++ รูปถูกกระทำ"}
+    - {t: called up, why: "call up แปลว่าโทรหา"}
+    - {t: called on, why: "call on แปลว่าแวะเยี่ยมหรือเรียกให้ตอบ"}
+    - {t: called in, why: "call in แปลว่าเรียกมาช่วย"}
+  explain: "call off = ==ยกเลิก== (= cancel) · put off = เลื่อน"
+  status: approved
+- id: cefr-b1-w11-034
+  kind: cloze
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  text: |
+    Dear Ms Lee,
+    Thank you for (1) ____ us about the broken air conditioner. Unfortunately, the technician cannot come today, so we have to (2) ____ the repair until Thursday. Would you mind (3) ____ us know a good time to visit?
+    Best regards, Ann
+  questions:
+    - choices:
+        - {t: contacting, why: "หลังบุพบท for ใช้ -ing"}
+        - {t: contact, why: "หลังบุพบทใช้กริยารูปเดิมไม่ได้"}
+        - {t: to contact, why: "หลังบุพบทไม่ใช้ to + กริยา"}
+        - {t: contacted, why: "หลังบุพบทไม่ใช้รูปอดีต"}
+    - choices:
+        - {t: put off, why: "ช่างมาไม่ได้ เลยเลื่อนออกไป put off"}
+        - {t: give up, why: "give up the repair แปลว่าเลิกซ่อม"}
+        - {t: look after, why: "look after แปลว่าดูแล"}
+        - {t: set up, why: "set up แปลว่าจัดตั้ง ติดตั้ง"}
+    - choices:
+        - {t: letting, why: "Would you mind + -ing"}
+        - {t: to let, why: "mind ไม่ตามด้วย to"}
+        - {t: let, why: "mind ไม่ตามด้วยกริยารูปเดิม"}
+        - {t: lets, why: "lets เป็นกริยาผัน ใช้หลัง mind ไม่ได้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านอีเมลทางการและฟังข้อความเสียง ----------
+- id: cefr-b1-w11-035
+  kind: read
+  skill: rd
+  topic: formal-email
+  level: 2
+  title: "Your order #4821 — delivery update"
+  passage: |
+    Dear Mr Somchai,
+
+    Thank you for shopping with GreenHome. We are writing to let you know that your order (one bookshelf and two chairs) has been delayed. Unfortunately, the factory had a problem with the wood, and the chairs will not be ready until 20 June.
+
+    We apologise for the inconvenience. You can choose one of these options:
+    1. Receive the bookshelf now and the chairs later, with free delivery for both.
+    2. Wait and receive everything together on 21 June.
+    3. Cancel the chairs and get a full refund for them within five working days.
+
+    Would you mind replying to this email by 10 June so that we can arrange delivery? If we do not hear from you, we will send everything together (option 2).
+
+    Kind regards,
+    Pim Suwan, Customer Support
+  questions:
+    - stem: Why is the order late?
+      choices:
+        - {t: a problem at the factory, why: "the factory had a problem with the wood"}
+        - {t: the delivery truck broke down, why: "ไม่ได้พูดถึงรถส่งของ"}
+        - {t: Mr Somchai paid late, why: "ไม่ได้บอกว่าจ่ายเงินช้า"}
+        - {t: the bookshelf is sold out, why: "ปัญหาอยู่ที่เก้าอี้ ไม่ใช่ชั้นหนังสือ"}
+    - stem: Which item is delayed?
+      choices:
+        - {t: the chairs, why: "the chairs will not be ready until 20 June"}
+        - {t: the bookshelf, why: "ชั้นหนังสือส่งได้เลย (ตัวเลือกที่ 1)"}
+        - {t: both items, why: "ชั้นหนังสือพร้อมส่ง"}
+        - {t: nothing, why: "มีเก้าอี้ที่ล่าช้า"}
+    - stem: What happens if Mr Somchai doesn't reply?
+      choices:
+        - {t: everything arrives together, why: "we will send everything together (option 2)"}
+        - {t: the order is cancelled, why: "ไม่ได้ยกเลิกเอง"}
+        - {t: he gets a refund, why: "การคืนเงินต้องเลือกตัวเลือกที่ 3"}
+        - {t: he must pay for delivery, why: "ไม่ได้บอกว่าต้องจ่ายค่าส่ง"}
+    - stem: What is the purpose of the email?
+      choices:
+        - {t: to explain a delay and offer choices, why: "บอกว่าล่าช้าและให้เลือก 3 ทาง"}
+        - {t: to sell new furniture, why: "ไม่ได้ขายของใหม่"}
+        - {t: to complain about a customer, why: "บริษัทขอโทษลูกค้า ไม่ได้บ่น"}
+        - {t: to ask for payment, why: "ไม่ได้ทวงเงิน ลูกค้าจ่ายแล้ว"}
+  status: approved
+- id: cefr-b1-w11-036
+  kind: listen
+  skill: li
+  topic: formal-voicemail
+  level: 2
+  script:
+    - {who: Man, en: "Good morning, this is Daniel from Bright Bank. I'm calling about your credit card application. We need one more document, a copy of your salary slip. Could you send it to us by Friday? Thank you."}
+  questions:
+    - stem: What does the caller need?
+      choices:
+        - {t: a copy of a salary slip, why: "We need one more document, a copy of your salary slip"}
+        - {t: a new application form, why: "ไม่ได้ขอแบบฟอร์มใหม่"}
+        - {t: a meeting on Friday, why: "วันศุกร์คือกำหนดส่ง ไม่ใช่นัดพบ"}
+        - {t: the card number, why: "ไม่ได้ขอหมายเลขบัตร"}
+  status: approved
+- id: cefr-b1-w11-037
+  kind: listen
+  skill: li
+  topic: asking-for-help
+  level: 2
+  script:
+    - {who: Woman, en: "Excuse me, would you mind helping me with this machine? I'm trying to pay my bill, but it keeps refusing my card."}
+    - {who: Man, en: "Not at all. Oh, I see. You need to put the card in the other way."}
+  questions:
+    - stem: What was the problem?
+      choices:
+        - {t: she put the card in the wrong way, why: "You need to put the card in the other way"}
+        - {t: the machine was broken, why: "เครื่องใช้ได้ แค่ใส่บัตรกลับด้าน"}
+        - {t: she had no money, why: "ไม่ได้พูดเรื่องเงินไม่พอ"}
+        - {t: the man refused to help, why: "เขาตอบว่า Not at all แปลว่ายินดีช่วย"}
+  status: approved
+- id: cefr-b1-w11-038
+  kind: listen
+  skill: li
+  topic: formal-voicemail
+  level: 2
+  script:
+    - {who: Woman, en: "Hello, this is the City Clinic. Unfortunately, Dr Wichai is ill today, so we have to put off your appointment. We can offer you tomorrow at 2 p.m. or Monday at 10 a.m."}
+  questions:
+    - stem: Why is the appointment changed?
+      choices:
+        - {t: the doctor is ill, why: "Dr Wichai is ill today"}
+        - {t: the clinic is closed, why: "คลินิกยังเปิด เสนอเวลาใหม่ได้"}
+        - {t: the patient asked, why: "คลินิกเป็นฝ่ายขอเลื่อน"}
+        - {t: there was a mistake, why: "ไม่ได้บอกว่ามีความผิดพลาด"}
+  status: approved
+- id: cefr-b1-w11-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Please find, attached, the documents, you asked for]
+  sentence: Please find attached the documents you asked for.
+  th: แนบเอกสารที่ขอมาไว้ให้แล้ว
+  why: "วลีอีเมลตายตัว Please find attached + สิ่งที่แนบ"
+  status: approved
+- id: cefr-b1-w11-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I look forward, to hearing, from you, soon]
+  sentence: I look forward to hearing from you soon.
+  th: หวังว่าจะได้รับคำตอบจากคุณเร็ว ๆ นี้
+  why: "look forward to + -ing แล้วตามด้วย from you"
+  status: approved
+- id: cefr-b1-w11-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Would you mind, sending, the invoice, by Friday]
+  sentence: Would you mind sending the invoice by Friday?
+  th: รบกวนส่งใบแจ้งหนี้ภายในวันศุกร์ได้ไหม
+  why: "Would you mind + -ing + สิ่งของ + กำหนดเวลา"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b1-w11-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I'm calling, to ask, if you could, put off, the delivery]
+  sentence: I'm calling to ask if you could put off the delivery.
+  th: โทรมาเพื่อขอเลื่อนการส่งของ
+  why: "I'm calling to + กริยา บอกจุดประสงค์ แล้ว if you could + กริยาวลี"
+  status: approved

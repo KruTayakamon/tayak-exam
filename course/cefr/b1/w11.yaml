@@ -1,0 +1,171 @@
+# คอร์ส b1 · สัปดาห์ 11 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 11
+phase: 3
+theme_th: อีเมลและข้อความทางการ
+focus_th: verb + -ing / to + กริยา · หลังบุพบทใช้ -ing · กริยาวลีที่ใช้บ่อย · Could you...? · Would you mind + -ing
+can_do_th:
+  - เขียนอีเมลกึ่งทางการเพื่อแจ้งและขอความร่วมมือได้
+  - เลือกระดับภาษาให้เหมาะกับผู้รับได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ตามด้วย -ing หรือ to
+    lesson:
+      rule_th: "กริยาบางตัวชอบ ==-ing== บางตัวชอบ ++to + กริยา++ ต้องจำเป็นกลุ่ม และกฎที่ใช้ได้ทุกครั้งคือ หลังบุพบท (at, of, for, without) ใช้ -ing"
+      examples:
+        - {en: "I <k>enjoy running</k>.", th: "enjoy + -ing"}
+        - {en: "We <k>decided to buy</k> a car.", th: "decide + to"}
+        - {en: "She's good <k>at solving</k> problems.", th: "==หลังบุพบทใช้ -ing=="}
+        - {en: "I look forward <k>to hearing</k> from you.", th: "to ตรงนี้เป็นบุพบท"}
+      signals:
+        - {label_th: "+ -ing", words: [enjoy, finish, mind, avoid, give up, look forward to]}
+        - {label_th: "+ to", words: [decide, want, plan, promise, need, refuse]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่เปลี่ยนรูปกริยา คนเลยเขียน ~~look forward to hear~~ ซึ่งผิดบ่อยที่สุดในอีเมล"
+        wrong: ["I look forward to hear from you.", "I enjoy to cook.", "Thank you for help me."]
+        right: ["I look forward to hearing from you.", "I enjoy cooking.", "Thank you for helping me."]
+      notes:
+        - {kind: tip, th: "เห็นบุพบท ==for / of / at / without== ข้างหน้า ใส่ -ing ได้เลย"}
+        - {kind: warn, th: "stop / remember เปลี่ยนความหมายตามรูปที่ตาม ต้องดูบริบท"}
+    check: [cefr-b1-w11-001, cefr-b1-w11-002]
+    practice: [cefr-b1-w11-003, cefr-b1-w11-004, cefr-b1-w11-005, cefr-b1-w11-006, cefr-b1-w11-007, cefr-b1-w11-008, cefr-b1-w11-009, cefr-b1-w11-010, cefr-b1-w11-011, cefr-b1-w11-012]
+    use:
+      prompt_th: เขียน 2 ประโยค สิ่งที่คุณชอบทำ และสิ่งที่ตัดสินใจจะทำปีหน้า
+      frame: "I really enjoy ____. Next year, I've decided to ____."
+      model: "I really enjoy cooking for my friends. Next year, I've decided to learn how to bake bread."
+    classroom: {en: "Thank you for helping me.", th: "ขอบคุณที่ช่วยนะ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์อีเมลและงาน 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้เจอในอีเมลทุกวัน ==กริยาวลีเปลี่ยนความหมายตามคำท้าย== เช่น ++put off (เลื่อน)++ กับ set up (ตั้ง) และ give up (เลิก)"
+      examples:
+        - {en: "I have <k>attached</k> the file.", th: "แนบไฟล์"}
+        - {en: "We have to <k>put off</k> the meeting.", th: "==เลื่อนออกไป=="}
+        - {en: "She <k>set up</k> an online shop.", th: "ตั้ง เปิด"}
+        - {en: "<k>Unfortunately</k>, the item is sold out.", th: "เปิดข่าวไม่ดีอย่างสุภาพ"}
+      words:
+        - {w: attach, pos: v., th: แนบ, ex: "Please attach a photo to your application."}
+        - {w: avoid, pos: v., th: หลีกเลี่ยง, ex: "Avoid eating late at night."}
+        - {w: involve, pos: v., th: เกี่ยวข้อง มีส่วนของ, ex: "My job involves a lot of meetings."}
+        - {w: look after, pos: phr. v., th: ดูแล, ex: "My mum looks after my son on weekdays."}
+        - {w: put off, pos: phr. v., th: เลื่อนออกไป, ex: "Don't put off going to the dentist."}
+        - {w: set up, pos: phr. v., th: ตั้ง จัดตั้ง, ex: "We set up a new account for you."}
+        - {w: give up, pos: phr. v., th: เลิก ยอมแพ้, ex: "Don't give up. You're nearly there."}
+        - {w: support, pos: n./v., th: การสนับสนุน สนับสนุน, ex: "Thank you for your support."}
+        - {w: solve, pos: v., th: แก้ (ปัญหา), ex: "We solved the problem quickly."}
+        - {w: effort, pos: n., th: ความพยายาม, ex: "Thank you for your effort."}
+        - {w: fortunately, pos: adv., th: โชคดีที่, ex: "Fortunately, nobody was hurt."}
+        - {w: unfortunately, pos: adv., th: น่าเสียดายที่, ex: "Unfortunately, the shop is closed today."}
+      thai_trap:
+        intro_th: "คนไทยมักเขียน ~~attach with~~ หรือ ~~avoid to do~~ เพราะแปลตรงจากไทย"
+        wrong: ["I attach with the file.", "Try to avoid to eat sugar."]
+        right: ["I have attached the file.", "Try to avoid eating sugar."]
+      notes:
+        - {kind: pin, th: "==avoid / give up + -ing== เหมือน enjoy"}
+        - {kind: use, th: "เปิดข่าวไม่ดีในอีเมลด้วย Unfortunately, ... ฟังสุภาพทันที"}
+    check: [cefr-b1-w11-013, cefr-b1-w11-016]
+    practice: [cefr-b1-w11-014, cefr-b1-w11-015, cefr-b1-w11-017, cefr-b1-w11-018, cefr-b1-w11-019, cefr-b1-w11-020, cefr-b1-w11-021, cefr-b1-w11-022, cefr-b1-w11-023, cefr-b1-w11-024]
+    use:
+      prompt_th: เขียน 2 ประโยคในอีเมล แจ้งข่าวไม่ดี 1 ข้อ และบอกว่าแนบอะไรมา
+      frame: "Unfortunately, ____. I have attached ____."
+      model: "Unfortunately, I can't join the meeting on Friday. I have attached my notes for the team."
+    classroom: {en: "Unfortunately, I can't make it.", th: "น่าเสียดาย ไปไม่ได้"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กริยาวลี และขออย่างสุภาพ
+    lesson:
+      rule_th: "ขอร้องให้สุภาพที่สุดใช้ ==Would you mind + -ing?== และตอบรับด้วย ++No, not at all++ ส่วนกริยาวลีที่มี it ให้วาง it ไว้ตรงกลาง"
+      examples:
+        - {en: "<k>Would you mind closing</k> the window?", th: "สุภาพมาก"}
+        - {en: "\"Would you mind waiting?\" \"<k>No, not at all.</k>\"", th: "==ตอบ No = ยินดี=="}
+        - {en: "<k>Could you</k> send me the file?", th: "Could you + กริยารูปเดิม"}
+        - {en: "I don't know the word. I'll <k>look it up</k>.", th: "it อยู่กลาง"}
+      signals:
+        - {label_th: "ขอร้องสุภาพ", words: [Would you mind + -ing, Could you, Would you, I was wondering if]}
+      thai_trap:
+        intro_th: "คนตอบ Would you mind...? ด้วย ~~Yes, sure~~ เพราะคิดว่าแปลว่ายินดี ทั้งที่ Yes แปลว่ารังเกียจ"
+        wrong: ["Would you mind to help me?", "I'll look up it."]
+        right: ["Would you mind helping me?", "I'll look it up."]
+      notes:
+        - {kind: tip, th: "mind = ==รังเกียจ== ตอบ No ถึงจะแปลว่ายินดีช่วย"}
+        - {kind: warn, th: "put off = เลื่อน แต่ call off = ยกเลิก อย่าสลับกัน"}
+    check: [cefr-b1-w11-025, cefr-b1-w11-027]
+    practice: [cefr-b1-w11-026, cefr-b1-w11-028, cefr-b1-w11-029, cefr-b1-w11-030, cefr-b1-w11-031, cefr-b1-w11-032, cefr-b1-w11-033, cefr-b1-w11-034]
+    use:
+      prompt_th: เขียนคำขอร้องสุภาพ 2 ประโยค ถึงเพื่อนร่วมงานหรือเพื่อนบ้าน
+      frame: "Would you mind ____ing ____? Could you ____?"
+      model: "Would you mind keeping the music down after ten? Could you also tell me if you see my cat?"
+    classroom: {en: "Would you mind helping me for a minute?", th: "รบกวนช่วยหน่อยได้ไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านอีเมลทางการและฟังข้อความเสียง
+    lesson:
+      rule_th: "อีเมลทางการมีโครงเดิมเสมอ ==เหตุผล → ปัญหา → ทางเลือก → คำขอ== คำถามเรื่องกำหนดเวลาอยู่ท้าย ++by + วันที่++"
+      examples:
+        - {en: "We are writing to <k>let you know</k> that ...", th: "เหตุผลที่เขียน"}
+        - {en: "<k>Unfortunately</k>, the chairs will not be ready.", th: "ปัญหา"}
+        - {en: "Would you mind replying <k>by 10 June</k>?", th: "==สิ่งที่ขอ + กำหนดเวลา=="}
+      thai_trap:
+        intro_th: "อีเมลมีหลายวันที่ คนมัก ~~เลือกวันที่ผิดเหตุการณ์~~ เช่น 20 มิ.ย. ของพร้อม แต่ส่ง 21 มิ.ย."
+        wrong: ["ตอบว่าต้องตอบกลับภายใน 20 มิถุนายน"]
+        right: ["ต้องตอบกลับภายใน 10 มิถุนายน · 20 คือวันที่เก้าอี้พร้อม"]
+      notes:
+        - {kind: tip, th: "วงทุกวันที่ในอีเมล แล้วเขียนกำกับว่า ==วันนั้นคืออะไร=="}
+        - {kind: warn, th: "If we do not hear from you บอกสิ่งที่จะเกิดถ้าไม่ตอบ ถูกถามบ่อย"}
+    check: [cefr-b1-w11-036, cefr-b1-w11-037]
+    practice: [cefr-b1-w11-035, cefr-b1-w11-038, cefr-b1-w11-039, cefr-b1-w11-040, cefr-b1-w11-041]
+    use:
+      prompt_th: เขียนประโยคเปิดและปิดอีเมลทางการ อย่างละ 1 ประโยค
+      frame: "Dear ____, I am writing to ____. ... I look forward to ____."
+      model: "Dear Mr Lee, I am writing to ask about the training course in July. ... I look forward to hearing from you."
+    classroom: {en: "I'm writing to ask about ...", th: "เขียนมาเพื่อสอบถามเรื่อง..."}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด ฝากข้อความเสียงขอความร่วมมือ 60 วินาที
+    lab:
+      mode: speak
+      prompt_th: โทรไปร้านหรือบริษัทแล้วไม่มีคนรับ ฝากข้อความเสียง 60 วินาที แนะนำตัว บอกเหตุผลที่โทร ขอให้ช่วยอย่างสุภาพ และบอกวิธีติดต่อกลับ (เขียนเป็นอีเมล 80–100 คำก่อนพูดได้)
+      frame:
+        - "Hello, this is ____. I'm calling about ____."
+        - "Unfortunately, ____."
+        - "Would you mind ____ing ____? / Could you ____?"
+        - "If that's not possible, ____."
+        - "You can reach me at ____. I look forward to hearing from you."
+      model_pass: "Hello, this is Nong. I'm calling about my order number 4821. Unfortunately, I won't be at home on Thursday. Would you mind putting off the delivery until Saturday? If that's not possible, you can leave it with my neighbour in room 302. You can reach me at 081 234 5678. I look forward to hearing from you. Thank you."
+      model_good: "Hello, this is Nong Saengdao calling about order number 4821, the bookshelf and two chairs. Unfortunately, I have to travel for work on Thursday, so nobody will be at home to receive the delivery. Would you mind putting it off until Saturday morning? If Saturday doesn't work for your team, could you leave it with my neighbour in room 302? She has kindly agreed to look after it. You can reach me on 081 234 5678 any time after five. Thank you for your help, and I look forward to hearing from you."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกเรื่องจริงที่ต้องโทรไปขอ แล้วเติมโครง 5 ประโยค
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - แนะนำตัวและบอกเหตุผลที่โทรในสองประโยคแรก
+        - ใช้ Would you mind + -ing หรือ Could you อย่างน้อย 1 ครั้ง
+        - ใช้กริยาวลีของสัปดาห์อย่างน้อย 1 คำ (put off, look after, set up)
+        - บอกวิธีติดต่อกลับชัดเจน และพูดได้ประมาณ 60 วินาที
+    practice: [cefr-b1-w11-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 11
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [8, 9, 10, 11], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

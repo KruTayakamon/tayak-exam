@@ -1,0 +1,170 @@
+# คอร์ส b1 · สัปดาห์ 12 · เขียน 17 พ.ย. 2569 · บอสสั่งลงได้เลย (รอบ 24) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b1
+week: 12
+phase: 3
+theme_th: ซ้อมใหญ่
+focus_th: must might could can't เพื่อคาดเดา · question tags · ทบทวนทุกเรื่องของคอร์ส · กลยุทธ์บริหารเวลา
+can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: น่าจะ อาจจะ ไม่น่าใช่
+    lesson:
+      rule_th: "คาดเดาจากหลักฐาน ==must = ใช่แน่ ๆ== · might/could = อาจจะ · ++can't = ไม่ใช่แน่ ๆ++ (ห้ามใช้ mustn't เพราะแปลว่าห้าม)"
+      examples:
+        - {en: "She worked twelve hours. She <k>must</k> be tired.", th: "มั่นใจว่าใช่"}
+        - {en: "Mai <k>might</k> be in the canteen.", th: "อาจจะ ไม่แน่ใจ"}
+        - {en: "That <k>can't</k> be Joe. He's in Japan.", th: "==มั่นใจว่าไม่ใช่=="}
+        - {en: "He <k>must have lived</k> here for years.", th: "เดาเรื่องอดีต + have + ช่อง 3"}
+      signals:
+        - {label_th: "ระดับความมั่นใจ", words: ["must 90%", "might / could 50%", "can't 0%"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ต้องไม่ใช่แน่ คนเลยเขียน ~~mustn't be~~ ซึ่งแปลว่าห้ามเป็น"
+        wrong: ["That mustn't be Joe.", "She must is tired."]
+        right: ["That can't be Joe.", "She must be tired."]
+      notes:
+        - {kind: tip, th: "ตรงข้ามของ must ตอนเดา คือ ==can't== ไม่ใช่ mustn't"}
+        - {kind: warn, th: "หลัง must / might / can't ใช้กริยารูปเดิมเสมอ (must be ไม่ใช่ must is)"}
+    check: [cefr-b1-w12-001, cefr-b1-w12-002]
+    practice: [cefr-b1-w12-003, cefr-b1-w12-004, cefr-b1-w12-005, cefr-b1-w12-006, cefr-b1-w12-007, cefr-b1-w12-008, cefr-b1-w12-009, cefr-b1-w12-010, cefr-b1-w12-011, cefr-b1-w12-012]
+    use:
+      prompt_th: ดูโต๊ะทำงานของคนข้าง ๆ หรือบ้านที่ผ่าน แล้วเดาเรื่องเจ้าของ 2 ประโยค
+      frame: "The owner must ____ because ____. He/She might ____."
+      model: "The owner must love plants because there are six pots on the desk. She might be a coffee lover too."
+    classroom: {en: "You must be tired after the trip.", th: "เดินทางมาคงเหนื่อยแย่เลย"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์อาชีพและการทำงาน 12 คำ
+    lesson:
+      rule_th: "ศัพท์วันนี้ใช้คุยเรื่องงานและสัมภาษณ์ ระวัง ==employee (ลูกจ้าง) กับ employer== และคำที่ตามด้วยบุพบทต่างกัน ++determined to · capable of++"
+      examples:
+        - {en: "She wants a <k>career</k> in marketing.", th: "เส้นทางอาชีพ"}
+        - {en: "He got a <k>promotion</k> to team leader.", th: "เลื่อนตำแหน่ง"}
+        - {en: "She was <k>determined to</k> pass.", th: "==ตั้งใจแน่วแน่=="}
+        - {en: "He's <k>capable of</k> running the shop.", th: "capable of + -ing"}
+      words:
+        - {w: career, pos: n., th: อาชีพ เส้นทางการงาน, ex: "He started his career as a waiter."}
+        - {w: interview, pos: n./v., th: การสัมภาษณ์, ex: "The interview is at ten o'clock."}
+        - {w: candidate, pos: n., th: ผู้สมัคร, ex: "We will interview five candidates."}
+        - {w: qualification, pos: n., th: คุณวุฒิ, ex: "What qualifications do you need for this job?"}
+        - {w: promotion, pos: n., th: การเลื่อนตำแหน่ง, ex: "She hopes to get a promotion this year."}
+        - {w: supervisor, pos: n., th: หัวหน้างาน, ex: "My supervisor checks my work every week."}
+        - {w: employee, pos: n., th: ลูกจ้าง พนักงาน, ex: "All employees get free lunch."}
+        - {w: determined, pos: adj., th: มุ่งมั่น ตั้งใจแน่วแน่, ex: "He is determined to win."}
+        - {w: capable, pos: adj., th: มีความสามารถ, ex: "She is capable of leading the team."}
+        - {w: ambition, pos: n., th: ความใฝ่ฝัน ความทะเยอทะยาน, ex: "My ambition is to travel the world."}
+        - {w: decision, pos: n., th: การตัดสินใจ, ex: "It was the right decision."}
+        - {w: conclusion, pos: n., th: บทสรุป ข้อสรุป, ex: "In conclusion, the project was a success."}
+      thai_trap:
+        intro_th: "คนไทยมักเขียน ~~capable to~~ และ ~~do a decision~~ เพราะแปลตรงจากไทย"
+        wrong: ["She is capable to lead the team.", "I did a decision."]
+        right: ["She is capable of leading the team.", "I made a decision."]
+      notes:
+        - {kind: pin, th: "==make a decision== ไม่ใช่ do a decision"}
+        - {kind: use, th: "สัมภาษณ์งานตอบเรื่องเป้าหมาย My ambition is to ... ได้เลย"}
+    check: [cefr-b1-w12-013, cefr-b1-w12-014]
+    practice: [cefr-b1-w12-015, cefr-b1-w12-016, cefr-b1-w12-017, cefr-b1-w12-018, cefr-b1-w12-019, cefr-b1-w12-020, cefr-b1-w12-021, cefr-b1-w12-022, cefr-b1-w12-023, cefr-b1-w12-024]
+    use:
+      prompt_th: เขียน 2 ประโยคตอบคำถามสัมภาษณ์งาน What is your ambition?
+      frame: "My ambition is to ____. I'm determined to ____."
+      model: "My ambition is to become a team leader in five years. I'm determined to improve my English and my presentation skills."
+    classroom: {en: "Tell me about your career so far.", th: "เล่าเรื่องการทำงานที่ผ่านมาให้ฟังหน่อย"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวนปนกัน
+    lesson:
+      rule_th: "สัปดาห์สุดท้ายให้จับ ==คำสัญญาณ== แล้วเลือกโครงสร้าง ส่วน question tag ใช้กฎเดียว ++บอกเล่า → ปฏิเสธ · ปฏิเสธ → บอกเล่า++"
+      examples:
+        - {en: "You're from Chiang Rai, <k>aren't you</k>?", th: "บอกเล่า → tag ปฏิเสธ"}
+        - {en: "She doesn't eat meat, <k>does she</k>?", th: "ปฏิเสธ → tag บอกเล่า"}
+        - {en: "I've worked here <k>since</k> 2019.", th: "since → have + ช่อง 3"}
+        - {en: "By the time I arrived, the film <k>had</k> started.", th: "==เกิดก่อน → had + ช่อง 3=="}
+      signals:
+        - {label_th: "คำสัญญาณ → โครงสร้าง", words: ["since/for → present perfect", "by the time → past perfect", "If I were → would", "although → ไม่มี but"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ใช่ไหม ต่อท้ายได้ทุกประโยค คนเลยเขียน ~~isn't it~~ ต่อท้ายทุกครั้ง"
+        wrong: ["You're Thai, isn't it?", "He went home, wasn't he?"]
+        right: ["You're Thai, aren't you?", "He went home, didn't he?"]
+      notes:
+        - {kind: tip, th: "ทำชุดจับเวลา ==ข้อที่ไม่แน่ใจข้ามไปก่อน== แล้วกลับมาทีหลัง อย่าค้างข้อเดียวนาน"}
+        - {kind: warn, th: "tag ต้องใช้กริยาช่วยตัวเดิมและคำแทนประธานตัวเดิมเสมอ"}
+    check: [cefr-b1-w12-025, cefr-b1-w12-026]
+    practice: [cefr-b1-w12-027, cefr-b1-w12-028, cefr-b1-w12-029, cefr-b1-w12-030, cefr-b1-w12-031, cefr-b1-w12-032, cefr-b1-w12-033, cefr-b1-w12-034]
+    use:
+      prompt_th: เขียนคำถามแบบ question tag 2 ประโยค เพื่อยืนยันข้อมูลกับเพื่อนร่วมงาน
+      frame: "The meeting is at ____, ____? You didn't ____, ____?"
+      model: "The meeting is at three, isn't it? You didn't send the file yet, did you?"
+    classroom: {en: "It's a lovely day, isn't it?", th: "อากาศดีนะ ว่าไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านและฟังปนกัน
+    lesson:
+      rule_th: "อ่านเรื่องเล่าชีวิตให้แบ่ง ==ก่อน → จุดเปลี่ยน → ตอนนี้ → คำแนะนำ== คำถามมักถามทีละช่วง ส่วนข้อฟังให้จับ ++คำบอกความมั่นใจและเวลา++"
+      examples:
+        - {en: "For eight years, Ploy <k>worked</k> as a bank clerk.", th: "ก่อน"}
+        - {en: "Two years ago, she made the <k>decision</k> to leave.", th: "==จุดเปลี่ยน=="}
+        - {en: "\"<k>Make sure</k> you have enough money.\"", th: "คำแนะนำ"}
+      thai_trap:
+        intro_th: "ประโยคเล่าความลำบาก คนมัก ~~ตอบว่าเป็นคำแนะนำ~~ เช่น ทำงานวันละ 14 ชั่วโมง เป็นสิ่งที่เจอ ไม่ใช่คำแนะนำ"
+        wrong: ["ตอบว่าพลอยแนะนำให้ทำงานวันละ 14 ชั่วโมง"]
+        right: ["พลอยแนะนำให้มีเงินเก็บพอใช้อย่างน้อยหนึ่งปี"]
+      notes:
+        - {kind: tip, th: "คำแนะนำในบทความมักขึ้นด้วย ==should / make sure / if you=="}
+        - {kind: warn, th: "earns less but happier ต้องตอบทั้งสองส่วน อย่าเลือกครึ่งเดียว"}
+    check: [cefr-b1-w12-036, cefr-b1-w12-037]
+    practice: [cefr-b1-w12-035, cefr-b1-w12-038, cefr-b1-w12-039, cefr-b1-w12-040, cefr-b1-w12-041]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าจุดเปลี่ยนในชีวิตการงานหรือการเรียนของคุณ
+      frame: "For ____ years, I ____. Then I decided to ____."
+      model: "For three years, I worked in a hotel. Then I decided to study accounting at night."
+    classroom: {en: "That must have been a hard decision.", th: "คงเป็นการตัดสินใจที่ยากน่าดู"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน แนะนำตัว บรรยาย และแสดงความเห็น 100 คำ
+    lab:
+      mode: write
+      prompt_th: ซ้อมใหญ่ เขียนประมาณ 100 คำ 3 ส่วน แนะนำตัวและงานของคุณ บรรยายประสบการณ์หรือจุดเปลี่ยนหนึ่งเรื่อง และแสดงความเห็นว่าเปลี่ยนอาชีพตอนอายุ 40 ดีไหม จากนั้นอ่านออกเสียงให้ได้ประมาณ 2 นาที
+      frame:
+        - "My name is ____, and I've been working as ____ for ____."
+        - "____ years ago, I ____. It was ____ because ____."
+        - "In my opinion, changing careers at 40 is ____."
+        - "Although ____, I think ____."
+        - "In conclusion, ____."
+      model_pass: "My name is Dao, and I've been working as a nurse for twelve years. Five years ago, I moved to a hospital in Khon Kaen. It was difficult because I didn't know anyone. In my opinion, changing careers at 40 is a good idea if you are determined. Although it might be hard at first, I think people are capable of learning new skills at any age. In conclusion, I would change my career if I found something I really loved."
+      model_good: "My name is Dao, and I've been working as a nurse at a provincial hospital for twelve years. Five years ago, I made the difficult decision to leave Bangkok and move closer to my parents. It was challenging because I had to build a new team from nothing, but it taught me how to communicate better. In my opinion, changing careers at 40 can be a smart move, especially if your current job no longer motivates you. Although you might earn less at first, experience from your first career is never wasted. In conclusion, I'd encourage anyone who is determined to try."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนด้วยเรื่องจริงของคุณ
+        - เขียนลงช่อง แล้วนับคำให้ได้ประมาณ 90–110 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านออกเสียง จับเวลาให้ได้ประมาณ 2 นาที (เสียงเก็บในเครื่องของคุณเท่านั้น)
+      checklist_th:
+        - มีครบ 3 ส่วน แนะนำตัว บรรยาย แสดงความเห็น
+        - ใช้ present perfect กับ past simple ถูกที่ (have been working / years ago)
+        - ใช้ although หรือ might / can't / must อย่างน้อย 1 ครั้ง
+        - ปิดด้วย In conclusion และยาวประมาณ 100 คำ
+    practice: [cefr-b1-w12-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 12
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b1, weeks: [9, 10, 11, 12], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
