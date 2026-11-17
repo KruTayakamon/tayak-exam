@@ -1,0 +1,7 @@
+{
+  // Cloudflare Workers (static assets) · ใช้เมื่อ Cloudflare พาเข้าหน้าจอแบบ Workers แทน Pages (ดู docs/deploy.md)
+  // เว็บทั้งหมดคือไฟล์ใน dist/ · โดเมนเปล่าเปิด dist/index.html → หน้าวัดระดับ
+  "name": "cefrforyou",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./dist", "html_handling": "auto-trailing-slash", "not_found_handling": "404-page" }
+}
