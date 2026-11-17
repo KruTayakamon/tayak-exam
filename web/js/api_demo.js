@@ -59,6 +59,7 @@ export const demoApi = {
     }
     const ready = {}; for (const k of Object.keys(prac)) ready[k] = readiness(null, prac[k], cfgOf());
     return {
+      stars: s.stars || null,
       pointer, pace: en.pace, day: d, due: Object.values(s.states).filter((x) => x.due <= d).length,
       week: { ...weekProgress(days, d, cfgOf()), days: [0, 1, 2, 3, 4, 5, 6].map((i) => days.includes(w0 + i)), todayIndex: d - w0 },
       readiness: ready, checkpoints: [], finish_day: projectFinish(remainingSessions(pointer), en.pace, d, cfgOf()),
@@ -79,8 +80,9 @@ export const demoApi = {
     for (const x of plan.steps) { for (const id of x.ids || []) need.add(id); for (const id of x.check || []) need.add(id); }
     return { plan, items: Object.fromEntries([...need].map((id) => [id, itemOf(id)])), day: d, pointer };
   },
-  async sync({ events = [], completed = null } = {}) {
+  async sync({ events = [], completed = null, stars = null } = {}) {
     const s = st(), d = today(s), graded = [];
+    if (stars) s.stars = stars;                             // เหมือนเซิร์ฟเวอร์จริง: เก็บดาวไว้กับการสมัครเรียน
     const seen = new Set(s.events.map((e) => e.eid)), answered = new Set(s.events.map((e) => `${e.item}:${e.q}`));
     for (const e of [...events].sort((a, b) => a.ts - b.ts)) {
       const it = itemOf(e.item);

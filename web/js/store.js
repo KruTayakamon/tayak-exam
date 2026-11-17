@@ -31,3 +31,11 @@ export function newId() {
 /** ดาวและตราสะสม (ในเครื่องนี้) · stars = ข้อที่ถูกตั้งแต่ครั้งแรก · perfect = เซสชันที่ถูกหมด · best = ถูกติดกันมากสุด · badges = จำนวนครั้งที่ได้แต่ละตรา */
 export const getStars = () => ({ stars: 0, perfect: 0, best: 0, sessions: 0, wrote: 0, badges: {}, ...load('cfk-stars', {}) });
 export const putStars = (v) => save('cfk-stars', v);
+/** รวมดาวจากเซิร์ฟเวอร์กับในเครื่อง: ค่ามากสุดต่อช่อง (ตรงกับ exam-api mergeStars) · เรียนหลายเครื่องก็ไม่หาย */
+export function mergeStars(server) {
+  if (!server || typeof server !== 'object') return getStars();
+  const a = getStars(), o = { ...a, badges: { ...a.badges } };
+  for (const k of ['stars', 'perfect', 'best', 'sessions', 'wrote']) o[k] = Math.max(a[k] || 0, Number(server[k]) || 0);
+  for (const [k, v] of Object.entries(server.badges || {})) o.badges[k] = Math.max(o.badges[k] || 0, Number(v) || 0);
+  putStars(o); return o;
+}

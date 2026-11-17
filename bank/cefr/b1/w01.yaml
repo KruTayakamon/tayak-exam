@@ -13,7 +13,7 @@
     - {t: teach, why: "เกือบถูกแล้ว แต่ Ms Suda เป็นคนเดียว เลย ~~ลืมเติม -es~~ ไป"}
     - {t: teaching, why: "กริยา -ing ยืนเดี่ยว ๆ เป็นกริยาหลักไม่ได้ ต้องมี is มาด้วยเสมอ"}
   explain: "เจอคำบอกความถี่ (every..., usually, always) ให้นึกถึง ==present simple=="
-  status: draft
+  status: approved
 - id: cefr-b1-w01-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: takes, why: "ผิดสองชั้นเลย ทั้ง tense และ The students มีหลายคน ~~เติม -s ไม่ได้~~"}
     - {t: were taking, why: "were taking เป็นเรื่องในอดีต แต่ at the moment บอกชัดว่าเป็นตอนนี้"}
   explain: "เจอ at the moment, now, right now, Look! ให้นึกถึง ==present continuous=="
-  status: draft
+  status: approved
 - id: cefr-b1-w01-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: go / use, why: "ช่องแรกถูกแล้ว แต่ช่องหลังเป็นเรื่องเฉพาะสัปดาห์นี้ ต้องเป็น am using"}
     - {t: am going / am using, why: "ช่องหลังถูกแล้ว แต่ช่องแรกมี usually เป็นเรื่องประจำ ต้องเป็น go"}
   explain: "ประโยคเดียวมีสอง tense ได้ ให้ ==ดูคำบอกเวลาของแต่ละส่วน=="
-  status: draft
+  status: approved
 - id: cefr-b1-w01-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: boil, why: "water นับไม่ได้ ให้ถือว่าเป็นหนึ่งเดียว กริยาเลยต้องเติม -s"}
     - {t: are boiling, why: "water ~~ใช้กับ are ไม่ได้~~ แล้วประโยคนี้ก็ไม่ได้พูดถึงสิ่งที่กำลังเกิดด้วย"}
   explain: "เรื่องที่จริงเสมอ ใช้ ==present simple=="
-  status: draft
+  status: approved
 - id: cefr-b1-w01-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: are building, why: "tense ถูก แต่ Our school เป็นเอกพจน์ ต้องใช้ is ไม่ใช่ are"}
     - {t: build, why: "ผิดทั้ง tense และไม่เติม -s ให้ประธานเอกพจน์"}
   explain: งานที่กำลังดำเนินอยู่ในช่วงนี้ (this term, this month, these days) ใช้ present continuous แม้ไม่ได้ทำอยู่ ณ วินาทีที่พูด
-  status: draft
+  status: approved
 - id: cefr-b1-w01-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: do / have, why: "the English department เป็นเอกพจน์ ต้องใช้ does"}
     - {t: does / has, why: "หลัง does กริยาต้องเป็นรูปเดิม (have) ไม่ใช่ has"}
   explain: "คำถาม present simple: Do/Does + ประธาน + กริยารูปเดิม"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: are raining, why: "ประธาน It เป็นเอกพจน์ ต้องใช้ is"}
     - {t: rain, why: "ประธาน It ต้องเติม -s และประโยคนี้พูดถึงสิ่งที่กำลังเกิด"}
   explain: Look! และ Listen! มักตามด้วย present continuous
-  status: draft
+  status: approved
 - id: cefr-b1-w01-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: work, why: "ประธานเอกพจน์ต้องเติม -s และความหมายเป็นเรื่องชั่วคราว"}
     - {t: working, why: "ขาด is จึงไม่เป็นกริยาหลักของประโยค"}
   explain: สถานการณ์ชั่วคราวใช้ present continuous · สถานการณ์ถาวรใช้ present simple
-  status: draft
+  status: approved
 - id: cefr-b1-w01-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: start, why: "The first class เป็นเอกพจน์ กริยาต้องเติม -s"}
     - {t: starting, why: "ขาด is และ every day ต้องการ present simple"}
   explain: ตารางเวลาและกำหนดการประจำ ใช้ present simple
-  status: draft
+  status: approved
 - id: cefr-b1-w01-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: checks, why: "ประธาน I ไม่เติม -s และประโยคพูดถึงขณะนี้"}
     - {t: checking, why: "ขาด am จึงไม่ครบโครงสร้าง present continuous"}
   explain: "present continuous = am/is/are + กริยา -ing ต้องมีครบทั้งสองส่วน"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: changes, why: "My colleagues and I เป็นพหูพจน์ (= we) จึงไม่เติม -s"}
     - {t: is changing, why: "ประธานพหูพจน์ใช้ is ไม่ได้ และประโยคนี้เป็นกิจวัตร"}
   explain: ประธานที่เชื่อมด้วย and เป็นพหูพจน์
-  status: draft
+  status: approved
 - id: cefr-b1-w01-012
   kind: mcq
   skill: gm
@@ -156,7 +156,7 @@
     - {t: are / wear, why: "หลัง are ต้องเป็นกริยา -ing"}
     - {t: do / wearing, why: "do ใช้กับกริยารูปเดิม ไม่ใช้กับกริยา -ing"}
   explain: "คำถาม present continuous: Am/Is/Are + ประธาน + กริยา -ing"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์: งานในโรงเรียน ----------
 - id: cefr-b1-w01-013
   kind: mcq
@@ -170,7 +170,7 @@
     - {t: the head of a school, why: "ผู้อำนวยการคือ head teacher หรือ principal"}
     - {t: a member of your family, why: "ญาติคือ relative ประโยคไม่ได้พูดถึงครอบครัว"}
   explain: colleague (n.) เพื่อนร่วมงาน · ออกเสียงเน้นพยางค์แรก
-  status: draft
+  status: approved
 - id: cefr-b1-w01-014
   kind: mcq
   skill: vo
@@ -183,7 +183,7 @@
     - {t: subject, why: "subject คือวิชา เช่น maths, science"}
     - {t: staff, why: "staff คือบุคลากรของโรงเรียน"}
   explain: timetable (n.) ตารางสอน ตารางเวลา
-  status: draft
+  status: approved
 - id: cefr-b1-w01-015
   kind: mcq
   skill: vo
@@ -196,7 +196,7 @@
     - {t: prepare, why: "prepare the meeting แปลว่าจัดเตรียมการประชุม ซึ่งไม่ใช่หน้าที่ของครูทุกคน"}
     - {t: spend, why: "spend ใช้กับเวลาหรือเงิน เช่น spend two hours"}
   explain: attend a meeting / a class / a training course
-  status: draft
+  status: approved
 - id: cefr-b1-w01-016
   kind: mcq
   skill: vo
@@ -209,7 +209,7 @@
     - {t: with, why: "with ไม่ใช้คู่กับ responsible"}
     - {t: to, why: "responsible to + คน หมายถึงขึ้นตรงต่อใคร ไม่ใช้กับสิ่งที่ดูแล"}
   explain: be responsible for + นาม หรือ กริยา -ing
-  status: draft
+  status: approved
 - id: cefr-b1-w01-017
   kind: mcq
   skill: vo
@@ -222,7 +222,7 @@
     - {t: experience, why: "experience เป็นกริยาแปลว่าประสบ ไม่ใช้กับการเตรียมบทเรียน"}
     - {t: repair, why: "repair = ซ่อมสิ่งของที่เสีย"}
   explain: prepare a lesson / a worksheet / an exam
-  status: draft
+  status: approved
 - id: cefr-b1-w01-018
   kind: mcq
   skill: vo
@@ -235,7 +235,7 @@
     - {t: subjects, why: "subjects คือวิชา ไม่ใช่คน"}
     - {t: assignments, why: "assignments คืองานที่มอบหมาย ไม่ใช่คน"}
   explain: staff เป็นนามรวม ไม่ใช้ staffs · พูดถึงหนึ่งคนใช้ a member of staff
-  status: draft
+  status: approved
 - id: cefr-b1-w01-019
   kind: mcq
   skill: vo
@@ -248,7 +248,7 @@
     - {t: deadline, why: "deadline คือกำหนดส่ง ไม่เข้ากับคำตอบ"}
     - {t: experience, why: "experience คือประสบการณ์ ไม่ใช้กับ teach แบบนี้"}
   explain: subject (n.) วิชา
-  status: draft
+  status: approved
 - id: cefr-b1-w01-020
   kind: mcq
   skill: vo
@@ -261,7 +261,7 @@
     - {t: colleague, why: "colleague คือคน ส่งไม่ได้"}
     - {t: experience, why: "experience เป็นนามธรรม ไม่ใช้กับ hand in"}
   explain: hand in / submit an assignment
-  status: draft
+  status: approved
 - id: cefr-b1-w01-021
   kind: mcq
   skill: vo
@@ -274,7 +274,7 @@
     - {t: subject, why: "subject คือวิชาหรือหัวเรื่อง ไม่ใช่วันที่"}
     - {t: assignment, why: "assignment คือตัวงาน ไม่ใช่วันกำหนดส่ง"}
   explain: meet a deadline = ส่งทันกำหนด · miss a deadline = ส่งไม่ทัน
-  status: draft
+  status: approved
 - id: cefr-b1-w01-022
   kind: mcq
   skill: vo
@@ -287,7 +287,7 @@
     - {t: hand, why: "hand ต้องใช้เป็น hand in และใช้กับงานที่ส่ง"}
     - {t: stay, why: "stay ไม่มีกรรมตามหลังแบบนี้"}
   explain: improve your English / your skills / your vocabulary
-  status: draft
+  status: approved
 - id: cefr-b1-w01-023
   kind: mcq
   skill: vo
@@ -300,7 +300,7 @@
     - {t: deadline, why: "deadline คือกำหนดส่ง ไม่เข้ากับ ten years of"}
     - {t: colleague, why: "colleague คือเพื่อนร่วมงาน ไม่เข้ากับโครงสร้างนี้"}
   explain: experience ที่แปลว่าประสบการณ์ทำงานเป็นนามนับไม่ได้
-  status: draft
+  status: approved
 - id: cefr-b1-w01-024
   kind: type
   skill: vo
@@ -310,7 +310,7 @@
   answer: currently
   accept: [currently]
   why: "currently = ในช่วงนี้ มักวางหลัง be และใช้กับ present continuous"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · กริยาบอกสภาวะ และการตั้งคำถาม ----------
 - id: cefr-b1-w01-025
   kind: mcq
@@ -324,7 +324,7 @@
     - {t: understands, why: "ประธาน I ไม่เติม -s"}
     - {t: understanding, why: "ขาดกริยาช่วย และกริยานี้ไม่ใช้รูป continuous"}
   explain: "กริยาบอกสภาวะ: know, understand, believe, want, need, like, belong"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-026
   kind: mcq
   skill: gm
@@ -337,7 +337,7 @@
     - {t: belong, why: "This book เป็นเอกพจน์ ต้องเติม -s"}
     - {t: are belonging, why: "ผิดทั้งรูป continuous และ are ไม่ใช้กับประธานเอกพจน์"}
   explain: belong to + เจ้าของ
-  status: draft
+  status: approved
 - id: cefr-b1-w01-027
   kind: mcq
   skill: gm
@@ -350,7 +350,7 @@
     - {t: Does / like, why: "your students เป็นพหูพจน์ ต้องใช้ Do"}
     - {t: Are / like, why: "Are ต้องตามด้วยกริยา -ing หรือคำคุณศัพท์ ไม่ใช่กริยารูปเดิม"}
   explain: like + กริยา -ing = ชอบทำ
-  status: draft
+  status: approved
 - id: cefr-b1-w01-028
   kind: mcq
   skill: gm
@@ -363,7 +363,7 @@
     - {t: you are doing, why: "ลำดับคำแบบประโยคบอกเล่า คำถามต้องเอา are ไว้หน้า you"}
     - {t: you do, why: "ขาดกริยาช่วย do และไม่ตรง tense กับคำตอบ"}
   explain: "What do you do? = ทำอาชีพอะไร · What are you doing? = กำลังทำอะไร"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-029
   kind: mcq
   skill: gm
@@ -376,7 +376,7 @@
     - {t: do / come, why: "your head teacher เป็นเอกพจน์ ต้องใช้ does"}
     - {t: does / comes, why: "หลัง does กริยาต้องเป็นรูปเดิม ไม่เติม -s"}
   explain: Where do you come from? = Where are you from?
-  status: draft
+  status: approved
 - id: cefr-b1-w01-030
   kind: mcq
   skill: gm
@@ -389,7 +389,7 @@
     - {t: needs, why: "ประธาน We ไม่เติม -s"}
     - {t: needing, why: "ขาดกริยาช่วย และกริยานี้ไม่ใช้รูป continuous"}
   explain: need, want, prefer ไม่ใช้รูป -ing
-  status: draft
+  status: approved
 - id: cefr-b1-w01-031
   kind: mcq
   skill: gm
@@ -402,7 +402,7 @@
     - {t: have, why: "ประธาน She ต้องใช้ has และประโยคนี้ต้องการรูป continuous"}
     - {t: having, why: "ขาด is จึงไม่ครบโครงสร้าง"}
   explain: "have = มี (สภาวะ ไม่ใช้ -ing) · have lunch / a meeting / a shower (การกระทำ ใช้ -ing ได้)"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-032
   kind: mcq
   skill: gm
@@ -415,7 +415,7 @@
     - {t: are you teach, why: "are ใช้กับกริยา -ing ไม่ใช้กับกริยารูปเดิม"}
     - {t: does you teach, why: "ประธาน you ใช้ do ไม่ใช่ does"}
   explain: "คำถาม wh-: คำถาม + do/does + ประธาน + กริยารูปเดิม"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-033
   kind: mcq
   skill: gm
@@ -428,7 +428,7 @@
     - {t: thinks, why: "ประธาน I ไม่เติม -s"}
     - {t: thinking, why: "ขาด am และความหมายนี้ไม่ใช้รูป continuous"}
   explain: "I think (that)... = ฉันเห็นว่า · I'm thinking about... = ฉันกำลังคิดเรื่อง"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-034
   kind: cloze
   skill: gm
@@ -455,7 +455,7 @@
         - {t: is coming, why: "usually ไม่ใช้คู่กับ present continuous"}
         - {t: come, why: "ประธาน She ต้องเติม -s"}
         - {t: coming, why: "ขาดกริยาช่วย และ usually ต้องการ present simple"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านและฟัง ----------
 - id: cefr-b1-w01-035
   kind: read
@@ -494,7 +494,7 @@
         - {t: come to the English Club, why: "ชมรมภาษาอังกฤษเป็นอีกกิจกรรมหนึ่ง ไม่เกี่ยวกับสวน"}
         - {t: wait for her on Monday morning, why: "เช้าวันจันทร์เป็นกิจกรรมฝึกสนทนา ไม่ใช่เวลานัดเรื่องสวน"}
         - {t: write their names in the garden, why: "ไม่มีการให้เขียนชื่อ ข้อความให้ไปพบครูด้วยตนเอง"}
-  status: draft
+  status: approved
 - id: cefr-b1-w01-036
   kind: listen
   skill: li
@@ -509,7 +509,7 @@
         - {t: in the meeting room, why: "ห้องประชุมกำลังทำความสะอาด จึงย้ายสถานที่"}
         - {t: in Room 4, why: "เลข 4 ที่ได้ยินคือเวลา four o'clock ไม่ใช่หมายเลขห้อง"}
         - {t: in the school hall, why: "ไม่มีการพูดถึงหอประชุม"}
-  status: draft
+  status: approved
 - id: cefr-b1-w01-037
   kind: listen
   skill: li
@@ -525,7 +525,7 @@
         - {t: Grade 8, why: "Grade 8 คือชั้นที่เธอสอนตามปกติ (usually) ไม่ใช่เทอมนี้"}
         - {t: Grade 9, why: "ไม่มีการพูดถึง Grade 9 ในบทสนทนา"}
         - {t: Grades 7 and 8, why: "เธอตอบ No ต่อคำถามเรื่อง Grade 8 เทอมนี้จึงสอนแค่ Grade 7"}
-  status: draft
+  status: approved
 - id: cefr-b1-w01-038
   kind: listen
   skill: li
@@ -540,7 +540,7 @@
         - {t: to say the English camp is cancelled, why: "ค่ายยังจัดอยู่ เธอแค่ยังเตรียมใบงานไม่เสร็จ"}
         - {t: to ask for some worksheets, why: "เธอเป็นคนเตรียมใบงานเอง ไม่ได้ขอจากสมศรี"}
         - {t: to invite Somsri to a camp, why: "ทั้งสองคนทำงานเรื่องค่ายด้วยกันอยู่แล้ว ไม่ใช่การเชิญ"}
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-b1-w01-039
   kind: order
@@ -551,7 +551,7 @@
   sentence: I sell coffee at a small shop in Nan.
   th: ฉันขายกาแฟที่ร้านเล็ก ๆ แห่งหนึ่งในจังหวัดน่าน
   why: "ลำดับ: ประธาน + กริยา + กรรม + สถานที่ (จากเล็กไปใหญ่)"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-040
   kind: order
   skill: gm
@@ -561,7 +561,7 @@
   sentence: How long does the lesson usually last?
   th: ปกติคาบเรียนยาวเท่าไร
   why: "คำถาม + does + ประธาน + คำบอกความถี่ + กริยารูปเดิม"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-041
   kind: order
   skill: gm
@@ -571,7 +571,7 @@
   sentence: My colleagues are preparing the exam papers this week.
   th: สัปดาห์นี้เพื่อนร่วมงานของฉันกำลังเตรียมข้อสอบ
   why: "คำบอกเวลา this week มักอยู่ท้ายประโยค และ are preparing อยู่ติดกัน"
-  status: draft
+  status: approved
 - id: cefr-b1-w01-042
   kind: order
   skill: gm
@@ -581,4 +581,4 @@
   sentence: What are you working on at the moment?
   th: ตอนนี้คุณกำลังทำงานอะไรอยู่
   why: "คำถาม + are + ประธาน + กริยา -ing และบุพบท on อยู่ติดกับ working"
-  status: draft
+  status: approved

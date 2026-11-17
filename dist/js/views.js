@@ -1,6 +1,6 @@
 // จอนอกเซสชัน: ตั้งแผน · วันนี้ · คอร์ส · ฝึกเพิ่ม · ผล · ซื้อ · บัญชี (ตามต้นแบบ design/cefr_prototype.html)
 import { api } from './api.js';
-import { getSession, getPrefs, putPrefs, getStars } from './store.js';
+import { getSession, getPrefs, putPrefs, getStars, mergeStars } from './store.js';
 import { el, esc } from './items.js';
 import { dayKey } from './engine/engine.mjs';
 import { SITE } from './config.js';
@@ -44,6 +44,7 @@ export async function viewToday(root, go) {
   if (!h || h.error === 'not_enrolled') return viewPlan(root, go);
   if (h.error) { root.innerHTML = header() + `<div class="note">โหลดข้อมูลไม่สำเร็จ (${esc(h.error)}) ลองใหม่อีกครั้ง</div>`; return; }
   const paused = getSession();
+  mergeStars(h.stars);                                   // ดาวจากเครื่องอื่น
   root.innerHTML = header() + demoNote();
   if (h.access && h.access.level === 'trial') root.appendChild(el(`<div class="row"><span class="tag" id="trialTag">สัปดาห์ทดลองฟรี</span><a class="link" href="#buy">ดูราคาคอร์ส</a></div>`));
   if (h.access && h.access.level === 'review') root.appendChild(el('<div class="card" id="trialEnded"><h2>จบสัปดาห์ทดลองฟรีแล้ว</h2><p class="small">ยังทบทวนข้อที่เคยเรียนได้ต่อ ส่วนบทเรียนใหม่เปิดเมื่อซื้อคอร์ส</p><a class="btn" href="#buy">ดูราคาคอร์ส</a></div>'));
@@ -79,6 +80,7 @@ export async function viewResults(root) {
   const h = await api.home();
   root.innerHTML = header() + '<h1>ผลและความพร้อม</h1>';
   if (!h || h.error) { root.appendChild(el('<p class="small">ยังไม่มีข้อมูล</p>')); return; }
+  mergeStars(h.stars);
   root.appendChild(el(trophyCard()));
   root.appendChild(el(`<p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · เซสชันเต็ม ${h.full_sessions} ครั้ง · เรียนแล้ว ${Math.floor(h.minutes / 60)} ชม. ${h.minutes % 60} นาที</p>`));
   root.appendChild(el(`<div class="card"><h2>ความพร้อมรายทักษะ</h2>${readyRows(h.readiness)}<p class="small">คำนวณจากคำตอบครั้งแรกใน 14 วันล่าสุด เป็นการประเมินจากแบบฝึกของเรา ไม่ใช่ผลสอบ</p></div>`));

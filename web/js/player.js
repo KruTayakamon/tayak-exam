@@ -61,11 +61,11 @@ export function flatten(plan) {
 const minutesLeft = (cards, idx) => Math.max(1, Math.round(cards.slice(idx).reduce((a, c) => a + (COST[c.type] ?? 1), 0)));
 
 /** ส่งคำตอบที่ค้างในคิว (ไม่รอผล ไม่รบกวนผู้เรียน) · คำตอบที่เซิร์ฟเวอร์รับแล้วจึงลบออกจากคิว */
-export async function flush(completed) {
+export async function flush(completed, stars) {
   const events = getQueue();
   if (!events.length && !completed) return null;
   try {
-    const r = await api.sync({ events, completed });
+    const r = await api.sync({ events, completed, ...(stars ? { stars } : {}) });
     if (r && !r.error) dropEvents(events.map((e) => e.eid));
     return r;
   } catch { return null; }                                  // เน็ตหลุด: เก็บไว้ในคิว ส่งรอบหน้า
@@ -217,11 +217,11 @@ export async function openSession(root, kind, onExit) {
       const fin = el('<button class="btn" id="finishBtn">จบเซสชัน</button>');
       fin.addEventListener('click', async () => {
         fin.disabled = true; fin.textContent = 'กำลังบันทึก';
-        const r = await flush({ kind: kindDone, minutes: mins });
-        if (!r || r.error) { fin.disabled = false; fin.textContent = 'บันทึกไม่สำเร็จ แตะเพื่อลองใหม่'; return; }   // ไม่ล้างเซสชันจนกว่าเซิร์ฟเวอร์รับ
         const st = getStars(); st.stars += s.right; st.sessions++; st.best = Math.max(st.best, s.best || 0);
         if (s.total && s.right === s.total) st.perfect++; if (s.wrote) st.wrote++;
         for (const b of bs) st.badges[b.k] = (st.badges[b.k] || 0) + 1;
+        const r = await flush({ kind: kindDone, minutes: mins }, st);
+        if (!r || r.error) { fin.disabled = false; fin.textContent = 'บันทึกไม่สำเร็จ แตะเพื่อลองใหม่'; return; }   // ไม่ล้างเซสชันจนกว่าเซิร์ฟเวอร์รับ
         putStars(st);
         clearSession(); onExit('done', { right: s.right, total: s.total, minutes: mins, kind: kindDone });
       });

@@ -117,6 +117,16 @@ Deno.serve(async (req) => {
 
     const weekBody = async (w: number) => (await admin.from("exam_course_weeks").select("body").eq("exam", EXAM).eq("course", course).eq("week", w).eq("status", "approved").maybeSingle()).data?.body ?? null;
 
+    // ดาวและตราสะสม: รวมด้วยค่ามากสุดต่อช่อง ไม่ลดลง (ของตกแต่ง ไม่ใช้ตัดสินสิทธิ์) · รูปแบบเดียวกับ web/js/store.js mergeStars
+    const STAR_KEYS = ["stars", "perfect", "best", "sessions", "wrote"], BADGE_KEYS = ["perfect", "great", "streak", "wrote", "done"];
+    const num = (v: unknown) => Math.max(0, Math.min(1e6, Math.floor(Number(v) || 0)));
+    const mergeStars = (a: Any, b: Any) => {
+      const o: Any = { badges: {} };
+      for (const k of STAR_KEYS) o[k] = Math.max(num(a?.[k]), num(b?.[k]));
+      for (const k of BADGE_KEYS) o.badges[k] = Math.max(num(a?.badges?.[k]), num(b?.badges?.[k]));
+      return o;
+    };
+
     if (action === "home") {
       const { data: sess } = await admin.from("exam_sessions").select("day_no,kind,minutes").eq("user_id", uid).eq("course", course).gte("day_no", today - 400);
       const days = [...new Set((sess ?? []).map((s) => s.day_no))];
@@ -136,7 +146,7 @@ Deno.serve(async (req) => {
       const w0 = weekStart(today);
       // รูปแบบเดียวกับ web/js/api_demo.js home() (หน้าเว็บใช้ฟิลด์เหล่านี้)
       return json({
-        pointer, access: acc, pace: en.pace, day: today, due: due ?? 0, readiness: ready, checkpoints: cps ?? [],
+        pointer, access: acc, pace: en.pace, day: today, stars: en.stars ?? null, due: due ?? 0, readiness: ready, checkpoints: cps ?? [],
         week: { ...weekProgress(days, today, cfg), days: [0, 1, 2, 3, 4, 5, 6].map((i) => days.includes(w0 + i)), todayIndex: today - w0 },
         title: ses?.title_th ?? null, theme: wb?.theme_th ?? null, session_minutes: ses?.minutes ?? 20, content_missing: !wb,
         minutes: (sess ?? []).reduce((a: number, x: Any) => a + (x.minutes || 0), 0),
@@ -194,6 +204,7 @@ Deno.serve(async (req) => {
         const s = states[id]; return { user_id: uid, item_id: id, course, box: s.box, probe: s.probe, due: s.due, seen: s.seen, wrong: s.wrong, lapses: s.lapses, last: s.last, mastered: s.mastered };
       }), { onConflict: "user_id,item_id" });
       let next = pointer;
+      if (body.stars && typeof body.stars === "object") await admin.from("exam_enrolments").update({ stars: mergeStars(en.stars, body.stars) }).eq("user_id", uid).eq("exam", EXAM).eq("course", course);
       if (body.completed) {
         const kind = ["full", "short", "extra", "remedial", "mock"].includes(body.completed.kind) ? body.completed.kind : "short";
         await admin.from("exam_sessions").insert({ user_id: uid, exam: EXAM, course, kind, week: pointer.week, day: pointer.day, part: pointer.part, day_no: today, minutes: Math.min(Number(body.completed.minutes) || 0, 120), score: body.completed.score ?? null });
