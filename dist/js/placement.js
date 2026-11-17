@@ -23,7 +23,9 @@ function intro(items, minutes) {
       <li><span class="tick">✓</span><span>ผลบอกช่วงระดับโดยประมาณ ทักษะที่ควรฝึก และคอร์สที่เหมาะ</span></li>
     </ul></div>
     <p class="small">ผลเป็นการประเมินคร่าว ๆ เพื่อเลือกคอร์ส ไม่ใช่การรับรองระดับภาษา</p>
-    <button class="btn" id="start">เริ่มทำ</button></div>`);
+    <button class="btn" id="start">เริ่มทำ</button>
+    <div class="card skipbox"><h2>ไม่อยากทำแบบทดสอบ?</h2><p class="small">เข้าไปลองเรียนได้เลย เริ่มที่คอร์ส B1 สัปดาห์แรกฟรีทั้งสัปดาห์ จะกลับมาวัดระดับทีหลังก็ได้</p>
+      <a class="btn quiet" id="skipTest" href="app.html">ลองเรียนเลย ไม่ทำแบบทดสอบ</a></div></div>`);
   v.querySelector('#start').onclick = () => run(items);
   app.appendChild(v);
 }

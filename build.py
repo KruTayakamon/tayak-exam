@@ -55,7 +55,7 @@ def site(out, demo):
     os.makedirs(os.path.join(out, 'js', 'engine'), exist_ok=True)
     for f in ENGINE_FILES: shutil.copyfile(os.path.join(ENG, f), os.path.join(out, 'js', 'engine', f))
     if demo: open(os.path.join(out, 'js', 'demo_data.js'), 'w', encoding='utf-8').write(demo_data())
-    for page in ('app.html', 'placement.html'):
+    for page in ('app.html', 'placement.html', 'admin.html'):
         p = os.path.join(out, page); html = open(p, encoding='utf-8').read()
         html = html.replace('<!--DEMO_DATA-->', '<script src="js/demo_data.js"></script>') if demo else html.replace('<!--DEMO_DATA-->\n', '')
         open(p, 'w', encoding='utf-8').write(html)

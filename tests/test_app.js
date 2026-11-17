@@ -132,7 +132,10 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   // แบบวัดระดับ (ไม่ต้องล็อกอิน): ทำครบ ตอบถูกทุกข้อ → ผ่าน C1 แน่น แนะนำ C2 · ระหว่างทำไม่เห็นเฉลย
   const pl = await ctx.newPage(); pl.on('pageerror', (e) => errs.push('placement: ' + e));
   await pl.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
-  await pl.goto(base + '/dist-demo/placement.html'); await pl.waitForSelector('#start'); await pl.click('#start');
+  await pl.goto(base + '/dist-demo/placement.html'); await pl.waitForSelector('#start');
+  ok((await pl.getAttribute('#skipTest', 'href')) === 'app.html', 'หน้าวัดระดับมีปุ่มข้ามแบบทดสอบไปลองเรียนเลย');
+  await pl.screenshot({ path: path.join(SHOTS, 'placement_intro.png'), fullPage: true });
+  await pl.click('#start');
   const key = await pl.evaluate(() => Object.fromEntries(Object.values(globalThis.DEMO_DATA.items).filter((i) => i.band).flatMap((i) => i.questions ? i.questions.map((q, n) => [i.questions.length > 1 ? i.id + ':' + n : i.id, q.answer]) : [[i.id, i.answer]])));
   let screens = 0, sawWhy = false;
   for (;;) {
@@ -150,6 +153,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await pl.goto(base + '/dist/p/mk-quiz-0002/index.html'); await pl.waitForSelector('#q0 .opt'); await pl.click('#q0 .opt'); await pl.click('#moreBtn');
   for (let k = 1; k <= 4; k++) { await pl.click(`[data-set="${k}"] .opt`); await pl.click(`[data-set="${k}"] .next`); }
   ok((await pl.getAttribute('#goPlacement', 'href')) === '../../placement.html', 'ปุ่มวัดระดับในหน้าโพสต์พาไปหน้าวัดระดับ');
+  ok((await pl.getAttribute('#goLearn', 'href')) === '../../app.html', 'หน้าโพสต์มีปุ่มลองเรียนเลยโดยไม่ทำแบบทดสอบ');
 
   // รุ่นไฟล์เดียว (ที่ publish เป็น artifact): ห่อด้วยโครงหน้าแบบเดียวกับที่ artifact ทำ
   const bundle = fs.readFileSync(path.join(ROOT, 'build', 'demo_bundle.html'), 'utf8');

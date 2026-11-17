@@ -1,5 +1,5 @@
 // CEFR for You · owner panel · Supabase Edge Function (Deno)
-// ร่าง 16 พ.ย. 2569 · **ยังไม่ได้ deploy และยังไม่ได้รันจริง** · สเปก: docs/cefr/06_owner_panel.md
+// deploy 17 พ.ย. 2569 (บอสสั่งรอบ 19) · หน้าเว็บ web/admin.html + web/js/admin.js · สเปก: docs/cefr/06_owner_panel.md
 // ทุกคำขอ: ต้องล็อกอิน + อีเมลยืนยันแล้ว + อยู่ใน secret EXAM_OWNER_EMAILS (บอสตั้งเอง ไม่อยู่ใน repo) มิฉะนั้นได้ 403 ไม่มีข้อยกเว้น
 // ทุกการกระทำที่เปลี่ยนข้อมูลถูกบันทึกใน exam_admin_log (ใคร ทำอะไร เมื่อไร)
 // POST {action, ...}: overview · orders · order_verify · grant · revoke · refund_mark · settings_get · settings_set
@@ -9,7 +9,7 @@ import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import { beam, isPaid } from "../exam-billing/beam.ts";
 import { applyPurchase, catalog, isOwner, PRODUCTS, SETTING_KEYS, validSetting } from "../_shared/pricing.mjs";
 
-const SITE = Deno.env.get("EXAM_SITE_URL") ?? "http://localhost:8788";
+const SITE = Deno.env.get("EXAM_SITE_URL") ?? "https://cefrforyou.pages.dev";   // เว็บจริง (มติบอส 17 พ.ย.) · หน้า /admin
 const CORS = { "Access-Control-Allow-Origin": SITE, "Access-Control-Allow-Headers": "authorization, content-type, apikey", "Access-Control-Allow-Methods": "POST, OPTIONS" };
 const json = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 const DAY = 86400000;
