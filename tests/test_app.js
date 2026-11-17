@@ -157,7 +157,10 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   // เว็บจริง (ไม่มีข้อมูล): ต้องไม่มีเนื้อหา และเปิดได้โดยไม่พัง
   const p3 = await ctx.newPage(); const e3 = []; p3.on('pageerror', (e) => e3.push(String(e)));
   await p3.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
-  await p3.goto(base + '/dist/app.html'); await p3.waitForSelector('#goPlacement');
+  await p3.goto(base + '/dist/app.html'); await p3.waitForSelector('#signIn');
+  ok(await p3.isDisabled('#signIn'), 'เว็บจริง: ปุ่มล็อกอินกดไม่ได้จนกว่าจะยอมรับนโยบาย'); await p3.check('#consent'); ok(!(await p3.isDisabled('#signIn')), 'ยอมรับนโยบายแล้วกดล็อกอินได้');
+  await p3.screenshot({ path: path.join(SHOTS, 'live_login.png') });
+  await p3.goto(base + '/dist/privacy.html'); ok((await p3.textContent('h1')).includes('นโยบายความเป็นส่วนตัว'), 'มีหน้านโยบายความเป็นส่วนตัว');
   ok(e3.length === 0 && (await p3.evaluate(() => typeof window.DEMO_DATA)) === 'undefined', 'เว็บจริงไม่มีข้อมูลสาธิตฝังอยู่ และไม่มีข้อผิดพลาดตอนเปิด');
   ok(errs.length === 0, 'ไม่มีข้อผิดพลาดในคอนโซล ' + JSON.stringify(errs.slice(0, 3)));
   await b.close(); server.close();

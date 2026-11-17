@@ -4,6 +4,8 @@ import { getSession, getPrefs, putPrefs } from './store.js';
 import { el, esc } from './items.js';
 import { dayKey } from './engine/engine.mjs';
 import { SITE } from './config.js';
+import { quote } from './engine/pricing.mjs';
+import { currentUser, signOut } from './auth.js';
 
 const SKILL_TH = { gm: 'ไวยากรณ์', vo: 'คำศัพท์', rd: 'การอ่าน', li: 'การฟัง', dlg: 'สนทนา', wr: 'การเขียน', sp: 'การพูด' };
 const READY = { in_target: ['อยู่ในช่วงเป้า', 'ok'], near: ['ใกล้เป้า', 'near'], far: ['ยังห่างเป้า', 'far'], insufficient: ['ข้อมูลยังไม่พอ', 'far'] };
@@ -33,7 +35,10 @@ export async function viewToday(root, go) {
   if (h.error) { root.innerHTML = header() + `<div class="note">โหลดข้อมูลไม่สำเร็จ (${esc(h.error)}) ลองใหม่อีกครั้ง</div>`; return; }
   const paused = getSession();
   root.innerHTML = header() + demoNote();
-  if (h.content_missing) root.appendChild(el('<div class="card"><h2>จบเนื้อหาที่มีแล้ว</h2><p class="small">สัปดาห์ถัดไปยังไม่มีเนื้อหา</p></div>'));
+  if (h.access && h.access.level === 'trial') root.appendChild(el(`<div class="row"><span class="tag" id="trialTag">สัปดาห์ทดลองฟรี</span><a class="link" href="#buy">ดูราคาคอร์ส</a></div>`));
+  if (h.access && h.access.level === 'review') root.appendChild(el('<div class="card" id="trialEnded"><h2>จบสัปดาห์ทดลองฟรีแล้ว</h2><p class="small">ยังทบทวนข้อที่เคยเรียนได้ต่อ ส่วนบทเรียนใหม่เปิดเมื่อซื้อคอร์ส</p><a class="btn" href="#buy">ดูราคาคอร์ส</a></div>'));
+  if (h.content_missing) root.appendChild(el(h.pointer.week === 1 ? '<div class="card" id="soonCard"><h2>บทเรียนกำลังจะเปิด</h2><p class="small">เนื้อหาสัปดาห์แรกอยู่ระหว่างตรวจครั้งสุดท้าย เปิดให้เรียนเร็ว ๆ นี้ ระหว่างนี้ลองวัดระดับฟรีได้</p><a class="btn quiet" href="placement.html">วัดระดับฟรี</a></div>' : '<div class="card"><h2>จบเนื้อหาที่มีแล้ว</h2><p class="small">สัปดาห์ถัดไปยังไม่มีเนื้อหา</p></div>'));
+  else if (h.access && h.access.level === 'review') { /* เนื้อหาใหม่ล็อก แสดงแค่ปุ่มทบทวนด้านล่าง */ }
   else {
     root.appendChild(el(`<div><p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · ${esc(h.theme)}</p><h1 id="todayTitle">วันที่ ${h.pointer.day}: ${esc(h.title)}</h1></div>`));
     const main = el(`<button class="btn" id="startBtn">${paused && paused.kind === 'full' ? 'ทำต่อจากที่ค้าง' : `เริ่มเซสชันวันนี้ · ${h.pace === 10 ? 10 : h.session_minutes} นาที`}</button>`);
@@ -68,8 +73,12 @@ export async function viewResults(root) {
 }
 
 export async function viewBuy(root) {
-  const s = await api.status();
+  let s = await api.status().catch(() => null);
   root.innerHTML = header() + '<h1>คอร์สและราคา</h1>';
+  if (!s || s.error || !s.prices) {                        // ระบบชำระเงินยังไม่เปิด: แสดงราคาจากกติกาเดียวกับเซิร์ฟเวอร์ แต่ไม่มีปุ่มซื้อ
+    s = { prices: ['cefr-b1', 'cefr-all'].map((p) => quote(p, Date.now())) };
+    root.appendChild(el('<div class="note" id="payingSoon">ระบบชำระเงินกำลังจะเปิด ตอนนี้เรียนสัปดาห์แรกฟรีได้เลย</div>'));
+  }
   for (const p of (s && s.prices) || []) root.appendChild(el(`<div class="card"><div class="row"><h2 class="grow">${esc(p.th)}</h2>${p.launch ? '<span class="tag">ราคาเปิดตัว</span>' : ''}</div><div class="row"><span class="price">${p.amount} บาท</span>${p.launch ? `<span class="was">${p.list} บาท</span>` : ''}</div><p class="small">ใช้ได้ ${p.days} วัน จ่ายครั้งเดียว ไม่ต่ออายุเอง</p></div>`));
   root.appendChild(el('<p class="small">เราไม่สัญญาผลสอบ คืนเงินได้ภายใน 7 วันถ้าทำไม่เกิน 3 เซสชัน</p>'));
 }
@@ -80,6 +89,12 @@ export async function viewAccount(root, go) {
   const fs = el('<div class="card"><h2>ขนาดตัวอักษร</h2><div class="chips">' + ['ปกติ', 'ใหญ่', 'ใหญ่มาก'].map((t, i) => `<button class="chip${prefs.fontStep === i ? ' on' : ''}" data-fs="${i}">${t}</button>`).join('') + '</div></div>');
   fs.addEventListener('click', (e) => { const c = e.target.closest('.chip'); if (!c) return; putPrefs({ ...getPrefs(), fontStep: Number(c.dataset.fs) }); document.documentElement.dataset.fs = c.dataset.fs; fs.querySelectorAll('.chip').forEach((x) => x.classList.remove('on')); c.classList.add('on'); });
   root.appendChild(fs);
+  const u = currentUser();
+  if (u) {
+    const a = el(`<div class="card"><h2>บัญชี</h2><p class="small">เข้าสู่ระบบด้วย ${esc(u.email || '')}</p><button class="btn quiet" id="signOut">ออกจากระบบ</button><a class="link" href="privacy.html">นโยบายความเป็นส่วนตัว</a></div>`);
+    a.querySelector('#signOut').addEventListener('click', async () => { await signOut(); location.reload(); });
+    root.appendChild(a);
+  }
   if (api.mode === 'demo') {
     const d = el('<div class="card"><h2>เครื่องมือของโหมดสาธิต</h2><p class="small">ใช้ดูว่าข้อที่ผิดกลับมาทบทวนในวันถัดไปอย่างไร</p><button class="btn quiet" id="demoNext">ข้ามไปวันถัดไป</button><button class="btn quiet" id="demoReset">ล้างข้อมูลสาธิต เริ่มใหม่</button></div>');
     d.querySelector('#demoNext').addEventListener('click', () => { api.demoShiftDay(1); go('today'); });

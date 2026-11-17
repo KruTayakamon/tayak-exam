@@ -13,7 +13,7 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import cfg from "../_shared/config.mjs";
-import { dayNo, placementEstimate, projectFinish, readiness, srsUpdate, weekProgress, guaranteeEligible } from "../_shared/engine.mjs";
+import { dayNo, placementEstimate, projectFinish, readiness, srsUpdate, weekProgress, weekStart, guaranteeEligible } from "../_shared/engine.mjs";
 import { advancePointer, buildSession, remainingSessions } from "../_shared/assemble.mjs";
 import { applyGuarantee, catalog, COURSES, studyAccess } from "../_shared/pricing.mjs";
 import { grade, strip } from "../_shared/grade.mjs";   // ตัวตรวจคำตอบตัวเดียวกับหน้าเว็บ
@@ -105,7 +105,7 @@ Deno.serve(async (req) => {
       const pace = [10, 20, 40].includes(Number(body.pace)) ? Number(body.pace) : 20;
       const { data: cur } = await enrolQ();
       const order = ["abc", "bca", "cab"][parseInt((await sha(uid + course)).slice(0, 6), 16) % 3];   // ลำดับชุดวัดผลหมุนตามผู้ใช้
-      const row = { user_id: uid, exam: EXAM, course, pace, target_date: body.target_date ?? null, slot: body.slot ? String(body.slot).slice(0, 30) : null, cp_order: cur?.cp_order ?? order };
+      const row = { user_id: uid, exam: EXAM, course, pace, target_date: body.target_date ?? null, slot: body.slot ? String(body.slot).slice(0, 30) : null, cp_order: cur?.cp_order ?? order, src_post: cur?.src_post ?? (body.src_post ? String(body.src_post).slice(0, 40) : null) };
       const { error } = await admin.from("exam_enrolments").upsert(row, { onConflict: "user_id,exam,course" });
       return json({ ok: !error });
     }
@@ -115,8 +115,10 @@ Deno.serve(async (req) => {
     const pointer = { week: en.week, day: en.day, part: en.part, done: en.done };
     const acc = studyAccess(ents, course, now, pointer, rules);
 
+    const weekBody = async (w: number) => (await admin.from("exam_course_weeks").select("body").eq("exam", EXAM).eq("course", course).eq("week", w).eq("status", "approved").maybeSingle()).data?.body ?? null;
+
     if (action === "home") {
-      const { data: sess } = await admin.from("exam_sessions").select("day_no,kind").eq("user_id", uid).eq("course", course).gte("day_no", today - 400);
+      const { data: sess } = await admin.from("exam_sessions").select("day_no,kind,minutes").eq("user_id", uid).eq("course", course).gte("day_no", today - 400);
       const days = [...new Set((sess ?? []).map((s) => s.day_no))];
       const { count: due } = await admin.from("exam_item_state").select("item_id", { count: "exact", head: true }).eq("user_id", uid).eq("course", course).lte("due", today);
       const { data: cps } = await admin.from("exam_checkpoints").select("n,score,submitted_at").eq("user_id", uid).eq("course", course).not("submitted_at", "is", null).order("n");
@@ -129,8 +131,16 @@ Deno.serve(async (req) => {
       const last = (cps ?? []).at(-1)?.score?.by_skill ?? {};
       const ready: Record<string, unknown> = {};
       for (const k of new Set([...Object.keys(prac), ...Object.keys(last)])) ready[k] = readiness(last[k] ?? null, prac[k] ?? { correct: 0, n: 0 }, cfg);
+      const wb = await weekBody(pointer.week);
+      const ses = wb?.sessions?.find((x: Any) => x.day === pointer.day);
+      const w0 = weekStart(today);
+      // รูปแบบเดียวกับ web/js/api_demo.js home() (หน้าเว็บใช้ฟิลด์เหล่านี้)
       return json({
-        pointer, access: acc, pace: en.pace, due: due ?? 0, week: weekProgress(days, today, cfg), readiness: ready, checkpoints: cps ?? [],
+        pointer, access: acc, pace: en.pace, day: today, due: due ?? 0, readiness: ready, checkpoints: cps ?? [],
+        week: { ...weekProgress(days, today, cfg), days: [0, 1, 2, 3, 4, 5, 6].map((i) => days.includes(w0 + i)), todayIndex: today - w0 },
+        title: ses?.title_th ?? null, theme: wb?.theme_th ?? null, session_minutes: ses?.minutes ?? 20, content_missing: !wb,
+        minutes: (sess ?? []).reduce((a: number, x: Any) => a + (x.minutes || 0), 0),
+        done_today: (sess ?? []).some((x: Any) => x.day_no === today && x.kind !== "short"),
         finish_day: projectFinish(remainingSessions(pointer), en.pace, today, cfg),
         full_sessions: (sess ?? []).filter((s) => s.kind === "full").length,
         access_until: acc.level === "paid" ? Math.max(...ents.filter((e) => e.product === "cefr-all" || e.product === "cefr-" + course).map((e) => e.expires_at)) : null,
@@ -143,14 +153,15 @@ Deno.serve(async (req) => {
       const { count: nToday } = await admin.from("exam_sessions").select("id", { count: "exact", head: true }).eq("user_id", uid).eq("day_no", today);
       if ((nToday ?? 0) >= cfg.caps_per_day.sessions) return json({ error: "daily_cap" }, 429);
       if (pointer.done && kind === "full") return json({ error: "course_done" }, 409);
-      const { data: wk } = await admin.from("exam_course_weeks").select("body").eq("exam", EXAM).eq("course", course).eq("week", pointer.week).maybeSingle();
-      if (!wk) return json({ error: "content_missing" }, 404);
+      const wkBody = await weekBody(pointer.week);
+      if (!wkBody) return json({ error: "content_missing" }, 404);
+      const wk = { body: wkBody };
       const states = await statesOf(admin, uid, course);
-      const { data: old } = pointer.week >= 2 ? await admin.from("exam_items").select("id").eq("exam", EXAM).eq("course", course).eq("role", "pool").lt("week", pointer.week).limit(200) : { data: [] as Any[] };
+      const { data: old } = pointer.week >= 2 ? await admin.from("exam_items").select("id").eq("exam", EXAM).eq("course", course).eq("role", "pool").eq("status", "approved").lt("week", pointer.week).limit(200) : { data: [] as Any[] };
       const plan = buildSession({ kind, pointer, week: wk.body, states, day: today, lastDay: en.last_day, pace: en.pace, oldPool: (old ?? []).map((x: Any) => x.id), cfg });
       const need = new Set<string>();
       for (const s of plan.steps as Any[]) { for (const id of s.ids ?? []) need.add(id); for (const id of s.check ?? []) need.add(id); }
-      const { data: items } = need.size ? await admin.from("exam_items").select("id,body").in("id", [...need]) : { data: [] as Any[] };
+      const { data: items } = need.size ? await admin.from("exam_items").select("id,body").in("id", [...need]).eq("status", "approved") : { data: [] as Any[] };
       // ผู้มีสิทธิ์ได้ข้อพร้อมเฉลยและเหตุผล เพื่อเฉลยทันทีและทนเน็ตหลุด · การกันดูดคลังใช้เพดานต่อวัน
       return json({ plan, items: Object.fromEntries((items ?? []).map((i: Any) => [i.id, i.body])), day: today });
     }

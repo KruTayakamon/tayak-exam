@@ -79,7 +79,8 @@ function result(R) {
       <p>คอร์สที่แนะนำ: <b id="plan">${esc(plan)}</b></p></div>
     <div class="card"><h2>แยกตามทักษะ</h2>${skills}${weak.length ? `<p class="small">ควรฝึกก่อน: ${esc(weak.join(' · '))}</p>` : ''}</div>
     <div class="card"><h2>ขั้นต่อไป</h2><p>เรียนสัปดาห์แรกของคอร์ส ${esc(BAND[(R.plan || [])[0]] || '')} ฟรีทั้งสัปดาห์ วันละประมาณ 20 นาที</p>
-      <p class="small" id="soon">ระบบสมัครเรียนกำลังจะเปิดเร็ว ๆ นี้ ติดตามประกาศได้ที่เพจ TAYAK</p></div>
+      <a class="btn" id="startCourse" href="app.html">เริ่มเรียนสัปดาห์แรกฟรี</a>
+      <p class="small">ตอนนี้เปิดคอร์ส B1 เป็นคอร์สแรก คอร์สระดับอื่นทยอยเปิดตามลำดับ</p></div>
     <p class="small">ผลนี้เป็นการประเมินคร่าว ๆ จากแบบวัด 25 ข้อเพื่อช่วยเลือกคอร์ส ไม่ใช่การรับรองระดับภาษาและไม่ได้บอกผลสอบจริง</p>
     <button class="btn quiet" id="again">ทำอีกครั้ง</button></div>`);
   v.querySelector('#again').onclick = () => start();

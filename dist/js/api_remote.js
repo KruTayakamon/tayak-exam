@@ -16,7 +16,7 @@ export const remoteApi = {
   status: () => call('exam-billing', { action: 'status' }),
   checkout: (product, target) => call('exam-billing', { action: 'checkout', product, target }),
   verify: (order) => call('exam-billing', { action: 'verify', order }),
-  enrol: (p) => call('exam-api', { action: 'enrol', course: COURSE(), ...p }),
+  enrol: (p) => { let src = null; try { src = localStorage.getItem('cfk_src_post'); } catch { /* ไม่จำที่มา */ } return call('exam-api', { action: 'enrol', course: COURSE(), src_post: src, ...p }); },
   home: () => call('exam-api', { action: 'home', course: COURSE() }),
   session: (p) => call('exam-api', { action: 'session', course: COURSE(), ...p }),
   sync: (p) => call('exam-api', { action: 'sync', course: COURSE(), ...p }),
