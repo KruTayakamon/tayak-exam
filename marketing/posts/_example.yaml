@@ -1,0 +1,39 @@
+# ตัวอย่างรูปแบบโพสต์เพจ (ต้นแบบสำหรับ Opus · draft ทั้งหมด รอบอสตรวจ · เขียนใหม่ 17 พ.ย. 2569)
+# ตัวเลือกแรก = ข้อถูก (เครื่องมือสลับลำดับให้) · why ใช้น้ำเสียงและไฮไลต์ตาม docs/writing/voice.md
+- id: mk-quiz-0001
+  type: quiz
+  course: b1
+  topic: present-simple-vs-continuous
+  status: draft
+  head: "โจทย์วันนี้ · ตอบได้ไหมคะครู"
+  stem: Our principal ____ a meeting with parents right now, so please wait outside.
+  choices:
+    - {t: is having, why: "มี right now คือกำลังเกิดตอนนี้เลย ใช้ ++is + กริยา -ing++"}
+    - {t: has, why: "has เฉย ๆ ไว้พูดเรื่องประจำ เช่น ประชุมทุกวันศุกร์ แต่ข้อนี้คือตอนนี้"}
+    - {t: have, why: "ผิดสองชั้น ทั้ง tense และ principal คนเดียว ~~ใช้ have ไม่ได้~~"}
+    - {t: having, why: "กริยา -ing ยืนเดี่ยวไม่ได้ ต้องมี is นำหน้า"}
+  caption: "ผอ. กำลังประชุมผู้ปกครองอยู่ จะพูดเป็นภาษาอังกฤษว่ายังไงดี\nตอบแล้วดูเหตุผลครบทุกตัวเลือกได้ที่ {link}"
+  more: [mk-quiz-0001a, mk-quiz-0001b, mk-quiz-0001c, mk-quiz-0001d]   # ชุดสั้นอีก 4 ข้อเรื่องเดียวกัน (เขียนในไฟล์เดียวกัน type: more)
+- id: mk-trap-0001
+  type: trap
+  course: b1
+  topic: stative-verbs
+  status: draft
+  head: "จุดที่คนไทยพลาดบ่อย"
+  wrong: I am understanding this lesson.
+  right: I understand this lesson.
+  note: "คำว่า understand, know, like เป็นเรื่องในหัว ==ไม่ใช้ -ing== แม้จะหมายถึงตอนนี้"
+  caption: "พูดว่า I am understanding... กันบ่อยมาก แต่จริง ๆ ต้องพูดอีกแบบ\nฝึกจุดนี้ 5 ข้อ ใช้ 2 นาที {link}"
+  more: [mk-trap-0001a, mk-trap-0001b, mk-trap-0001c, mk-trap-0001d, mk-trap-0001e]
+- id: mk-class-0001
+  type: class
+  course: a2
+  topic: classroom-language
+  status: draft
+  head: "3 ประโยคเริ่มคาบ พูดได้เลยพรุ่งนี้"
+  lines:
+    - {en: "Let's get started.", th: "เริ่มกันเลยนะ"}
+    - {en: "Please take out your notebooks.", th: "หยิบสมุดขึ้นมาค่ะ"}
+    - {en: "Who is absent today?", th: "วันนี้ใครไม่มาบ้าง"}
+  caption: "เปิดคาบเป็นภาษาอังกฤษง่าย ๆ 3 ประโยค\nฟังเสียงอ่านและฝึกต่อได้ที่ {link}"
+  more: [mk-class-0001a, mk-class-0001b, mk-class-0001c, mk-class-0001d, mk-class-0001e]
