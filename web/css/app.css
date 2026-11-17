@@ -1,4 +1,4 @@
-/* CEFR for Kru · ระบบภาพจากต้นแบบ design/cefr_prototype.html · ห้ามใช้ text-shadow กับข้อความไทย */
+/* CEFR for You · ระบบภาพจากต้นแบบ design/cefr_prototype.html · ห้ามใช้ text-shadow กับข้อความไทย */
 /* layout: a single phone-width column (max 440px); one screen visible at a time, picked from a screen index at the top */
 :root{
   --hl-y:#FFE873; --hl-g:#B9EFC5; --hl-p:#FFC9D6; --note:#FFF6C2; --note-ink:#3A3320; --tape:#F2A65A; --paper:#F5F7F8; --card:#FFFFFF; --ink:#12233F; --ink2:#51607A; --line:#D7DEE6;

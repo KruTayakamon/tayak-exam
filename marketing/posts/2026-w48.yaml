@@ -7,14 +7,14 @@
   course: b1
   topic: present-perfect-vs-past-simple
   status: draft
-  head: "โจทย์วันจันทร์ · ครูตอบข้อไหน"
-  stem: I ____ this school in 2018, and I have taught here ever since.
+  head: "โจทย์วันจันทร์ · คุณตอบข้อไหน"
+  stem: I ____ this company in 2018, and I have worked here ever since.
   choices:
-    - {t: joined, why: "in 2018 คือจุดเวลาในอดีตที่จบแล้ว ใช้ ==past simple== ส่วนที่ยังสอนอยู่บอกด้วยครึ่งหลังของประโยค"}
+    - {t: joined, why: "in 2018 คือจุดเวลาในอดีตที่จบแล้ว ใช้ ==past simple== ส่วนที่ยังทำงานอยู่บอกด้วยครึ่งหลังของประโยค"}
     - {t: have joined, why: "have joined ใช้กับเวลาที่ระบุชัดอย่าง in 2018 ไม่ได้ ~~present perfect ไม่ชอบปีที่ระบุ~~"}
     - {t: am joining, why: "รูปนี้คือกำลังเข้าร่วมตอนนี้ ขัดกับ in 2018"}
     - {t: was joining, why: "was joining เน้นว่ากำลังทำอยู่ช่วงหนึ่งในอดีต แต่การเข้าทำงานเกิดครั้งเดียวจบ"}
-  caption: "ข้อนี้คนพลาดเยอะมาก เพราะเห็นว่ายังสอนอยู่เลยใช้ have ทั้งประโยค\nลองตอบแล้วดูเหตุผลครบทุกตัวเลือก (ไม่ต้องสมัคร) {link}"
+  caption: "ข้อนี้คนพลาดเยอะมาก เพราะเห็นว่ายังทำงานอยู่เลยใช้ have ทั้งประโยค\nลองตอบแล้วดูเหตุผลครบทุกตัวเลือก (ไม่ต้องสมัคร) {link}"
   more:
     - stem: Have you ever ____ to Chiang Mai for a workshop?
       choices:
@@ -46,21 +46,21 @@
   course: b1
   topic: work-vocabulary
   status: draft
-  head: "คำศัพท์ครู · ใช้ได้ทุกวัน"
+  head: "คำศัพท์ที่ทำงาน · ใช้ได้ทุกวัน"
   word: responsible for
   pos: (adjective + preposition)
   th: รับผิดชอบ (งานหรือคน)
-  example: I'm responsible for the English club this year.
-  example_th: ปีนี้ฉันรับผิดชอบชมรมภาษาอังกฤษ
+  example: I'm responsible for the new project this year.
+  example_th: ปีนี้ฉันรับผิดชอบโปรเจกต์ใหม่
   caption: "รับผิดชอบงาน ภาษาอังกฤษใช้ responsible for ไม่ใช่ responsible of\nฟังเสียงอ่านและฝึกคำนี้ 4 ข้อ {link}"
   more:
-    - stem: Who is responsible ____ the school website?
+    - stem: Who is responsible ____ the company website?
       choices:
         - {t: for, why: "responsible ใช้คู่กับ ==for== เสมอเมื่อพูดถึงงานที่ดูแล"}
         - {t: of, why: "responsible of ไม่ใช่ภาษาอังกฤษมาตรฐาน คนไทยแปลตรงจาก ของ"}
         - {t: to, why: "responsible to ใช้กับคนที่เราต้องรายงาน เช่น responsible to the director ไม่ใช่งาน"}
         - {t: with, why: "responsible with ไม่ใช่รูปที่ใช้บอกงานที่ดูแล"}
-    - stem: Can you ____ an eye on my class for five minutes? I need to see the director.
+    - stem: Can you ____ an eye on my bag for five minutes? I need to make a phone call.
       choices:
         - {t: keep, why: "keep an eye on = ==ช่วยดูไว้ให้หน่อย== ดูแลชั่วคราว"}
         - {t: take, why: "take an eye on ไม่ใช่วลีในภาษาอังกฤษ"}
@@ -72,7 +72,7 @@
         - {t: control, why: "in control of มักหมายถึงควบคุมสถานการณ์ ไม่ใช่รับผิดชอบงาน"}
         - {t: duty, why: "ไม่มีวลี in duty of ที่ถูกคือ on duty"}
         - {t: responsible, why: "responsible เป็นคำคุณศัพท์ วางหลัง in ไม่ได้"}
-    - stem: As class teacher, I have to look ____ 35 students.
+    - stem: My sister has to look ____ our grandmother at the weekend.
       choices:
         - {t: after, why: "look after = ==ดูแล== คนหรือสิ่งของ"}
         - {t: for, why: "look for แปลว่าหา ไม่ได้แปลว่าดูแล"}
@@ -85,10 +85,10 @@
   topic: questions-present
   status: draft
   head: "จุดที่คนไทยพลาดบ่อย"
-  wrong: What time you start class?
-  right: What time do you start class?
+  wrong: What time you start work?
+  right: What time do you start work?
   note: "คำถามที่มี What, When, Where ต้องมี ==do / does== ก่อนประธานเสมอ"
-  caption: "ภาษาไทยถามว่า \"เริ่มคาบกี่โมง\" ไม่ต้องมีคำช่วย แต่ภาษาอังกฤษขาดไม่ได้\nฝึกจุดนี้ 4 ข้อ ใช้ 2 นาที {link}"
+  caption: "ภาษาไทยถามว่า \"เริ่มงานกี่โมง\" ไม่ต้องมีคำช่วย แต่ภาษาอังกฤษขาดไม่ได้\nฝึกจุดนี้ 4 ข้อ ใช้ 2 นาที {link}"
   more:
     - stem: Where ____ your students usually have lunch?
       choices:
@@ -127,7 +127,7 @@
     - {t: many, why: "many ใช้กับของนับได้ เช่น many students แต่ time นับไม่ได้"}
     - {t: a few, why: "a few ใช้กับของนับได้ และไม่ค่อยใช้ในประโยคปฏิเสธแบบนี้"}
     - {t: lots, why: "ต้องเป็น lots of และไม่ค่อยใช้ในประโยคปฏิเสธ"}
-  caption: "ของที่นับไม่ได้อย่าง time ต้องใช้คำไหน ครูหลายคนยังสลับกันอยู่\nตอบแล้วดูเหตุผลทุกตัวเลือก {link}"
+  caption: "ของที่นับไม่ได้อย่าง time ต้องใช้คำไหน หลายคนยังสลับกันอยู่\nตอบแล้วดูเหตุผลทุกตัวเลือก {link}"
   more:
     - stem: How ____ students are absent today?
       choices:
@@ -159,12 +159,12 @@
   course: a2
   topic: classroom-language
   status: draft
-  head: "3 ประโยคชมนักเรียน ใช้ได้ทุกคาบ"
+  head: "3 ประโยคชมคนอื่น ใช้ได้ทุกวัน"
   lines:
     - {en: "Well done! That's exactly right.", th: "เก่งมาก ถูกเป๊ะเลย"}
     - {en: "Good try. You're nearly there.", th: "พยายามดีมาก ใกล้แล้ว"}
-    - {en: "I can see you worked hard on this.", th: "ครูเห็นเลยว่าตั้งใจทำมาก"}
-  caption: "ชมนักเรียนเป็นภาษาอังกฤษให้หลากหลายกว่า Good และ Very good\nฟังเสียงอ่านแล้วฝึกต่อ {link}"
+    - {en: "I can see you worked hard on this.", th: "เห็นเลยว่าตั้งใจทำมาก"}
+  caption: "ชมเพื่อน ลูก หรือเพื่อนร่วมงานเป็นภาษาอังกฤษให้หลากหลายกว่า Good และ Very good\nฟังเสียงอ่านแล้วฝึกต่อ {link}"
   more:
     - stem: "A student answers correctly. You say: \"____ done!\""
       choices:
@@ -184,7 +184,7 @@
         - {t: for, why: "worry for ใช้น้อยมาก และใช้กับคน ไม่ใช่เรื่อง"}
         - {t: on, why: "worry on ไม่ใช่ภาษาอังกฤษมาตรฐาน"}
         - {t: with, why: "worry with ไม่ใช้ในความหมายนี้"}
-    - stem: "You want the class to clap for a friend. You say: \"Let's give her a big ____.\""
+    - stem: "You want everyone to clap for a friend. You say: \"Let's give her a big ____.\""
       choices:
         - {t: hand, why: "give someone a big hand = ==ปรบมือให้=="}
         - {t: arm, why: "give her a big arm ไม่มีความหมาย"}
@@ -199,7 +199,7 @@
   head: "เทคนิค 30 วินาที · ดูคำบอกเวลาก่อน"
   note: "เจอ every, usually ใช้ ==present simple== · เจอ now, at the moment, this week ใช้ ++am/is/are + -ing++"
   lines:
-    - {en: "I usually walk to school.", th: "ปกติเดินมาโรงเรียน (ประจำ)"}
+    - {en: "I usually walk to work.", th: "ปกติเดินไปทำงาน (ประจำ)"}
     - {en: "This week I'm driving.", th: "สัปดาห์นี้ขับรถมา (ชั่วคราว)"}
   caption: "ไม่แน่ใจว่าจะใช้ tense ไหน ให้หาคำบอกเวลาในประโยคก่อน\nลองใช้เทคนิคนี้ 4 ข้อ {link}"
   more:

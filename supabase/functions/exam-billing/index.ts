@@ -1,4 +1,4 @@
-// CEFR for Kru · การชำระเงิน · Supabase Edge Function (Deno) · ผู้ให้บริการ: Beam
+// CEFR for You · การชำระเงิน · Supabase Edge Function (Deno) · ผู้ให้บริการ: Beam
 // ร่าง 16 พ.ย. 2569 · **ยังไม่ได้ deploy และยังไม่ได้รันจริง** (เครื่องพัฒนาไม่มี Deno) ต้องทดสอบกับ Beam playground ก่อนเปิดขาย
 // ราคาและสิทธิ์คำนวณจาก _shared/pricing.mjs เท่านั้น (สำเนาของ engine/pricing.mjs)
 // action: status → สิทธิ์ที่มี + ราคาทุกสินค้า · checkout {product, target?} → สร้างคำสั่งซื้อ + ลิงก์จ่าย · verify {order?} → ถาม Beam แล้วให้สิทธิ์
@@ -77,7 +77,7 @@ Deno.serve(async (req) => {
       if (!can.ok) return json({ error: can.error }, 409);
       const { data: order, error: oErr } = await admin.from("exam_orders").insert({ user_id: user.id, product, target, days: q.days, amount: q.amount, list_price: q.list, launch: q.launch }).select("id").single();
       if (oErr || !order) { console.error("order insert", oErr?.message); return json({ error: "db" }, 500); }
-      const link = await b.createLink({ amount: q.amount, referenceId: order.id, description: `${q.th} · CEFR for Kru`, returnUrl: `${SITE}/account/?order=${order.id}`, sku: product });
+      const link = await b.createLink({ amount: q.amount, referenceId: order.id, description: `${q.th} · CEFR for You`, returnUrl: `${SITE}/account/?order=${order.id}`, sku: product });
       const url = linkUrlOf(link);
       if (!url) { console.error("beam link without url", JSON.stringify(link).slice(0, 500)); return json({ error: "provider" }, 502); }
       await admin.from("exam_orders").update({ provider_link_id: linkIdOf(link), provider_url: url }).eq("id", order.id);

@@ -32,7 +32,7 @@ mark{background:#FFE873;color:inherit;padding:0 8px;border-radius:6px}mark.g{bac
 .th{font-size:34px;color:#51607A}`;
 
 function body(p) {
-  const top = `<div class="top"><div class="brand">CEFR for Kru<small>by TAYAK</small></div><div class="lv">${esc(p.course.toUpperCase())}</div></div><div class="head">${esc(p.head)}</div>`;
+  const top = `<div class="top"><div class="brand">CEFR for You<small>by TAYAK</small></div><div class="lv">${esc(p.course.toUpperCase())}</div></div><div class="head">${esc(p.head)}</div>`;
   let mid = '';
   const lines = (ls) => (ls || []).map((l) => `<div class="row"><div class="en">${esc(l.en)}</div><div class="th">${esc(l.th)}</div></div>`).join('');
   if (p.type === 'quiz') mid = `<div class="card"><div class="en">${esc(p.stem)}</div>${p.image_choices.map((c, i) => `<div class="opt"><div class="n">${i + 1}</div>${esc(c)}</div>`).join('')}</div>`;

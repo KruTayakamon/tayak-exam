@@ -1,4 +1,4 @@
-// CEFR for Kru · ตัวจ่ายบทเรียน ตรวจคำตอบ และบันทึกความคืบหน้า · Supabase Edge Function (Deno)
+// CEFR for You · ตัวจ่ายบทเรียน ตรวจคำตอบ และบันทึกความคืบหน้า · Supabase Edge Function (Deno)
 // ร่าง 16 พ.ย. 2569 · **ยังไม่ได้ deploy และยังไม่ได้รันจริง** (เครื่องพัฒนาไม่มี Deno) · ตรรกะทั้งหมดมาจาก _shared/ ซึ่งมีเทสต์ใน Node แล้ว
 // สเปก: docs/cefr/03_learning_engine.md ข้อ 6 และ docs/cefr/05_backend.md
 // POST {action, ...}:

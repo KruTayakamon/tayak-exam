@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""เครื่องมือโพสต์เพจ CEFR for Kru (สเปก docs/cefr/08_marketing.md ข้อ 3) · รันจากรากของ repo
+"""เครื่องมือโพสต์เพจ CEFR for You (สเปก docs/cefr/08_marketing.md ข้อ 3) · รันจากรากของ repo
 
   python3 tools/make_posts.py [ไฟล์ ...]     ตรวจ + สร้างทุกอย่าง (ไม่ระบุไฟล์ = marketing/posts/*.yaml ที่ไม่ขึ้นต้นด้วย _)
   python3 tools/make_posts.py --check [ไฟล์]  ตรวจอย่างเดียว

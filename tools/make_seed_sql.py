@@ -7,7 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 only = '--approved-only' in sys.argv
 force = '--force-status' in sys.argv      # ปกติไม่เขียนทับสถานะของข้อที่มีอยู่แล้ว เพราะบอสอนุมัติ/ถอดข้อจาก owner panel
 q = lambda s: "'" + str(s).replace("'", "''") + "'"
-out = ['-- สร้างอัตโนมัติ ห้ามแก้ · upsert เนื้อหา CEFR for Kru', 'begin;']
+out = ['-- สร้างอัตโนมัติ ห้ามแก้ · upsert เนื้อหา CEFR for You', 'begin;']
 items = json.load(open(os.path.join(ROOT, 'build', 'items.json'), encoding='utf-8'))
 n = 0
 for it in items:

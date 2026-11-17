@@ -1,4 +1,4 @@
-// CEFR for Kru · owner panel · Supabase Edge Function (Deno)
+// CEFR for You · owner panel · Supabase Edge Function (Deno)
 // ร่าง 16 พ.ย. 2569 · **ยังไม่ได้ deploy และยังไม่ได้รันจริง** · สเปก: docs/cefr/06_owner_panel.md
 // ทุกคำขอ: ต้องล็อกอิน + อีเมลยืนยันแล้ว + อยู่ใน secret EXAM_OWNER_EMAILS (บอสตั้งเอง ไม่อยู่ใน repo) มิฉะนั้นได้ 403 ไม่มีข้อยกเว้น
 // ทุกการกระทำที่เปลี่ยนข้อมูลถูกบันทึกใน exam_admin_log (ใคร ทำอะไร เมื่อไร)

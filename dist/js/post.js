@@ -8,7 +8,7 @@ const ROOT = '../../';
 const NEXT = ROOT + String(P.placement_path || 'app.html').replace(/^\//, '');
 try { localStorage.setItem('cfk_src_post', localStorage.getItem('cfk_src_post') || P.id); } catch (e) { /* โหมดส่วนตัว: ไม่จำที่มา */ }
 
-const head = el(`<header class="screen"><p class="small"><b>CEFR for Kru</b> by TAYAK · ระดับ ${esc(P.course.toUpperCase())}</p><h1>${esc(P.head)}</h1></header>`);
+const head = el(`<header class="screen"><p class="small"><b>CEFR for You</b> by TAYAK · ระดับ ${esc(P.course.toUpperCase())}</p><h1>${esc(P.head)}</h1></header>`);
 app.appendChild(head);
 
 const sp = (t) => `<span data-say="${esc(t)}"></span>`;          // ที่วางปุ่มลำโพง (spk คืน element จึงต่อทีหลังด้วย wire)
