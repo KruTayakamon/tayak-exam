@@ -1,10 +1,11 @@
 // CEFR for You · ตัวจ่ายบทเรียน ตรวจคำตอบ และบันทึกความคืบหน้า · Supabase Edge Function (Deno)
-// ร่าง 16 พ.ย. 2569 · **ยังไม่ได้ deploy และยังไม่ได้รันจริง** (เครื่องพัฒนาไม่มี Deno) · ตรรกะทั้งหมดมาจาก _shared/ ซึ่งมีเทสต์ใน Node แล้ว
+// deploy ครั้งแรก 17 พ.ย. 2569 (บอสอนุมัติ) · ตรรกะทั้งหมดมาจาก _shared/ ซึ่งมีเทสต์ใน Node แล้ว
 // สเปก: docs/cefr/03_learning_engine.md ข้อ 6 และ docs/cefr/05_backend.md
 // POST {action, ...}:
+//   placement_items {}                                    ไม่ต้องล็อกอิน · ข้อแบบวัดระดับที่อนุมัติแล้ว ไม่มีเฉลย
 //   placement_grade {answers:{id:choice}}                 ไม่ต้องล็อกอิน · ตรวจที่เซิร์ฟเวอร์ ไม่ส่งเฉลยกลับ
 //   report {item_id, why, note?}                          ไม่ต้องล็อกอิน
-//   enrol {course, pace, target_date?, slot?}             ต้องมีสิทธิ์
+//   enrol {course, pace, target_date?, slot?}             ต้องล็อกอิน
 //   home {course}                                         สถานะวันนี้
 //   session {course, kind:'full'|'short'}                 ประกอบเซสชัน พร้อมเฉลย (ผู้มีสิทธิ์)
 //   sync {course, events:[{eid,item,q?,answer,mode,ts}], completed?:{kind,minutes}}   เซิร์ฟเวอร์ตรวจคำตอบเอง ไม่เชื่อ correct จากเครื่อง
@@ -17,7 +18,7 @@ import { advancePointer, buildSession, remainingSessions } from "../_shared/asse
 import { applyGuarantee, catalog, COURSES, studyAccess } from "../_shared/pricing.mjs";
 import { grade, strip } from "../_shared/grade.mjs";   // ตัวตรวจคำตอบตัวเดียวกับหน้าเว็บ
 
-const SITE = Deno.env.get("EXAM_SITE_URL") ?? "http://localhost:8788";
+const SITE = Deno.env.get("EXAM_SITE_URL") ?? "https://cefrforyou.pages.dev";   // มติบอส 17 พ.ย. (ตั้ง EXAM_SITE_URL เพื่อเปลี่ยนเมื่อย้ายโดเมน)
 const CORS = { "Access-Control-Allow-Origin": SITE, "Access-Control-Allow-Headers": "authorization, content-type, apikey", "Access-Control-Allow-Methods": "POST, OPTIONS" };
 const json = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 const EXAM = "cefr";
@@ -54,6 +55,10 @@ Deno.serve(async (req) => {
     const action = String(body.action ?? ""), now = Date.now(), today = dayNo(now, cfg);
 
     // ---------- ไม่ต้องล็อกอิน ----------
+    if (action === "placement_items") {           // ข้อแบบวัดระดับที่อนุมัติแล้ว ตัดเฉลยและเหตุผลออก (ลำดับตัวเลือกคงเดิม เพื่อให้เลขคำตอบตรงกับตอนตรวจ)
+      const { data: items } = await admin.from("exam_items").select("id,body").eq("exam", EXAM).eq("role", "placement").eq("status", "approved").order("id");
+      return json({ items: (items ?? []).map((i: Any) => ({ ...strip(i.body, (a: Any[]) => a), band: i.body.band })), time_min: cfg.placement.time_min ?? 20 });
+    }
     if (action === "placement_grade") {
       const ip = (req.headers.get("x-forwarded-for") ?? "").split(",")[0].trim();
       const ipHash = await sha(ip + (Deno.env.get("EXAM_IP_SALT") ?? ""));

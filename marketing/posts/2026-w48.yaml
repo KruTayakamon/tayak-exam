@@ -1,3 +1,4 @@
+# อนุมัติโดยบอส 17 พ.ย. 2569 ("ผ่าน อนุมัติ ทุกอย่าง")
 # โพสต์เพจชุดแรก (7 โพสต์ จันทร์–อาทิตย์) · draft ทั้งหมด รอบอสตรวจ · เขียนใหม่ 17 พ.ย. 2569
 # หัวข้อจากผัง b1 สัปดาห์ 1–2 และ a2 (ประโยคห้องเรียน) · ไม่ใช้ข้อจากคลังที่ขาย
 # ลำดับ: จ. quiz · อ. word · พ. trap · พฤ. quiz · ศ. class · ส. tip · อา. recap
@@ -6,7 +7,7 @@
   type: quiz
   course: b1
   topic: present-perfect-vs-past-simple
-  status: draft
+  status: approved
   head: "โจทย์วันจันทร์ · คุณตอบข้อไหน"
   stem: I ____ this company in 2018, and I have worked here ever since.
   choices:
@@ -45,7 +46,7 @@
   type: word
   course: b1
   topic: work-vocabulary
-  status: draft
+  status: approved
   head: "คำศัพท์ที่ทำงาน · ใช้ได้ทุกวัน"
   word: responsible for
   pos: (adjective + preposition)
@@ -83,7 +84,7 @@
   type: trap
   course: b1
   topic: questions-present
-  status: draft
+  status: approved
   head: "จุดที่คนไทยพลาดบ่อย"
   wrong: What time you start work?
   right: What time do you start work?
@@ -119,7 +120,7 @@
   type: quiz
   course: b1
   topic: quantifiers
-  status: draft
+  status: approved
   head: "โจทย์วันพฤหัส · ข้อไหนถูก"
   stem: We don't have ____ time before the meeting, so let's be quick.
   choices:
@@ -158,7 +159,7 @@
   type: class
   course: a2
   topic: classroom-language
-  status: draft
+  status: approved
   head: "3 ประโยคชมคนอื่น ใช้ได้ทุกวัน"
   lines:
     - {en: "Well done! That's exactly right.", th: "เก่งมาก ถูกเป๊ะเลย"}
@@ -195,7 +196,7 @@
   type: tip
   course: b1
   topic: present-simple-vs-continuous
-  status: draft
+  status: approved
   head: "เทคนิค 30 วินาที · ดูคำบอกเวลาก่อน"
   note: "เจอ every, usually ใช้ ==present simple== · เจอ now, at the moment, this week ใช้ ++am/is/are + -ing++"
   lines:
@@ -232,7 +233,7 @@
   type: recap
   course: b1
   topic: weekly-recap
-  status: draft
+  status: approved
   head: "สรุปสัปดาห์นี้ · เฉลยโจทย์"
   note: "เฉลยวันจันทร์ ==joined== · วันพฤหัส ==much== · อยากรู้ระดับตัวเอง ลองวัดระดับฟรีได้เลย"
   caption: "สัปดาห์นี้เราฝึก tense, คำถาม, much/many และคำชมนักเรียน\nอยากรู้ว่าตอนนี้อยู่ระดับไหน วัดระดับฟรี 20 นาที ไม่ต้องสมัคร {link}"

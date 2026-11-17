@@ -2,7 +2,9 @@
 import { openSession, flush } from './player.js';
 import { viewToday, viewCourse, viewExtra, viewResults, viewBuy, viewAccount } from './views.js';
 import { getPrefs } from './store.js';
-import { el } from './items.js';
+import { el, esc } from './items.js';
+import { api } from './api.js';
+import { SITE } from './config.js';
 
 const TABS = [['today', 'วันนี้'], ['course', 'คอร์ส'], ['extra', 'ฝึกเพิ่ม'], ['results', 'ผล']];
 const VIEWS = { today: viewToday, course: viewCourse, extra: viewExtra, results: viewResults, buy: viewBuy, account: viewAccount };
@@ -11,6 +13,13 @@ document.documentElement.dataset.fs = String(getPrefs().fontStep || 0);
 
 function go(route) { if (location.hash.slice(1) === route) render(); else location.hash = route; }
 async function render() {
+  if (api.mode === 'remote') {                       // เว็บจริง: ระบบล็อกอินยังไม่เปิด → บอกตรง ๆ และพาไปวัดระดับฟรี (ไม่ทิ้งหน้าว่าง)
+    app.innerHTML = `<div class="screen" id="view"><div class="topbar"><span class="brand">${esc(SITE.brand)}</span><span class="small">by TAYAK</span></div>
+      <h1>ระบบเรียนกำลังจะเปิด</h1><div class="card"><p>ตอนนี้ลองวัดระดับภาษาอังกฤษฟรีได้แล้ว 25 ข้อ ประมาณ 20 นาที ไม่ต้องสมัคร</p>
+      <a class="btn" id="goPlacement" href="placement.html">วัดระดับฟรี</a></div>
+      <p class="small">เมื่อเปิดระบบเรียน คุณจะเรียนสัปดาห์แรกของคอร์สฟรีทั้งสัปดาห์ ติดตามประกาศได้ที่เพจ TAYAK</p></div>`;
+    return;
+  }
   const route = location.hash.slice(1) || 'today';
   app.innerHTML = '';
   const main = el('<div class="screen" id="view"></div>'); app.appendChild(main);

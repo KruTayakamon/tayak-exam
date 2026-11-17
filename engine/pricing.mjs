@@ -15,7 +15,7 @@ export const PRODUCTS = {
   'cefr-extend': { kind: 'extend', days: 90, baht: 150, launch: 150, th: 'ต่อเวลา 3 เดือน' },
 };
 export const RULES = {
-  launch_until: null,            // null = ราคาเปิดตัวยังใช้อยู่จนกว่าบอสกำหนดวันสิ้นสุด (ISO date) · หลังวันนั้นใช้ราคาปกติ
+  launch_until: '2027-02-01',    // มติบอส 17 พ.ย. 2569: ราคาเปิดตัวถึงสิ้นวัน 31 ม.ค. 2570 (เริ่มราคาปกติ 1 ก.พ. 2570 · เทียบเวลา UTC) · เจ้าของแก้ได้ในแผง
   refund_days: 7, refund_max_sessions: 3,
   guarantee_days: 90,
   free_weeks: 1,                 // มติบอส 17 พ.ย. 2569: สัปดาห์ที่ 1 ของทุกคอร์สเรียนฟรีทั้งสัปดาห์ (ต้องล็อกอิน) · เจ้าของปรับได้ 0–2

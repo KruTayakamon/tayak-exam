@@ -115,6 +115,28 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await p.goto(base + '/dist-demo/app.html#buy'); await p.waitForSelector('.price');
   ok((await p.textContent('#view')).includes('290 บาท') && (await p.textContent('#view')).includes('690 บาท'), 'หน้าราคาแสดงราคาเปิดตัวจากโมดูลราคา');
 
+  // แบบวัดระดับ (ไม่ต้องล็อกอิน): ทำครบ ตอบถูกทุกข้อ → ผ่าน C1 แน่น แนะนำ C2 · ระหว่างทำไม่เห็นเฉลย
+  const pl = await ctx.newPage(); pl.on('pageerror', (e) => errs.push('placement: ' + e));
+  await pl.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
+  await pl.goto(base + '/dist-demo/placement.html'); await pl.waitForSelector('#start'); await pl.click('#start');
+  const key = await pl.evaluate(() => Object.fromEntries(Object.values(globalThis.DEMO_DATA.items).filter((i) => i.band).flatMap((i) => i.questions ? i.questions.map((q, n) => [i.questions.length > 1 ? i.id + ':' + n : i.id, q.answer]) : [[i.id, i.answer]])));
+  let screens = 0, sawWhy = false;
+  for (;;) {
+    await pl.waitForSelector('#next');
+    for (const q of await pl.$$eval('[data-q]', (x) => x.map((e) => e.dataset.q))) await pl.click(`[data-q="${q}"] .opt[data-choice="${key[q]}"]`);
+    sawWhy = sawWhy || (await pl.$('.why')) !== null;
+    const last = (await pl.textContent('#next')).includes('ส่ง'); await pl.click('#next'); screens++; if (last) break;
+  }
+  await pl.waitForSelector('#level');
+  ok(screens === 23 && !sawWhy, 'แบบวัดระดับมี 23 หน้าจอ (25 คะแนน) และไม่แสดงเหตุผลระหว่างทำ');
+  const lv = await pl.getAttribute('#view', 'data-level'), pn = await pl.textContent('#plan'), sc = await pl.getAttribute('#view', 'data-scores');
+  ok(lv === 'c1' && pn === 'C2', 'ตอบถูกทุกข้อ ได้ผล C1 และแนะนำคอร์ส C2 ' + JSON.stringify([lv, pn, sc]));
+  ok(await noOverflow(pl), 'หน้าผลวัดระดับไม่ล้นจอ'); await pl.screenshot({ path: path.join(SHOTS, 'placement_result.png'), fullPage: true });
+  // หน้าโพสต์ที่อนุมัติแล้วอยู่ในเว็บจริง และปุ่มวัดระดับพาไปหน้าวัดระดับ
+  await pl.goto(base + '/dist/p/mk-quiz-0002/index.html'); await pl.waitForSelector('#q0 .opt'); await pl.click('#q0 .opt'); await pl.click('#moreBtn');
+  for (let k = 1; k <= 4; k++) { await pl.click(`[data-set="${k}"] .opt`); await pl.click(`[data-set="${k}"] .next`); }
+  ok((await pl.getAttribute('#goPlacement', 'href')) === '../../placement.html', 'ปุ่มวัดระดับในหน้าโพสต์พาไปหน้าวัดระดับ');
+
   // รุ่นไฟล์เดียว (ที่ publish เป็น artifact): ห่อด้วยโครงหน้าแบบเดียวกับที่ artifact ทำ
   const bundle = fs.readFileSync(path.join(ROOT, 'build', 'demo_bundle.html'), 'utf8');
   fs.writeFileSync(path.join(ROOT, 'build', 'bundle_test.html'), '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body>' + bundle + '</body></html>');
@@ -135,7 +157,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   // เว็บจริง (ไม่มีข้อมูล): ต้องไม่มีเนื้อหา และเปิดได้โดยไม่พัง
   const p3 = await ctx.newPage(); const e3 = []; p3.on('pageerror', (e) => e3.push(String(e)));
   await p3.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
-  await p3.goto(base + '/dist/app.html'); await p3.waitForSelector('#view');
+  await p3.goto(base + '/dist/app.html'); await p3.waitForSelector('#goPlacement');
   ok(e3.length === 0 && (await p3.evaluate(() => typeof window.DEMO_DATA)) === 'undefined', 'เว็บจริงไม่มีข้อมูลสาธิตฝังอยู่ และไม่มีข้อผิดพลาดตอนเปิด');
   ok(errs.length === 0, 'ไม่มีข้อผิดพลาดในคอนโซล ' + JSON.stringify(errs.slice(0, 3)));
   await b.close(); server.close();

@@ -54,13 +54,13 @@ def site(out, demo):
     shutil.copytree(WEB, out)
     os.makedirs(os.path.join(out, 'js', 'engine'), exist_ok=True)
     for f in ENGINE_FILES: shutil.copyfile(os.path.join(ENG, f), os.path.join(out, 'js', 'engine', f))
-    p = os.path.join(out, 'app.html'); html = open(p, encoding='utf-8').read()
-    if demo:
-        open(os.path.join(out, 'js', 'demo_data.js'), 'w', encoding='utf-8').write(demo_data())
-        html = html.replace('<!--DEMO_DATA-->', '<script src="js/demo_data.js"></script>')
-    else:
-        html = html.replace('<!--DEMO_DATA-->\n', '')
-    open(p, 'w', encoding='utf-8').write(html)
+    if demo: open(os.path.join(out, 'js', 'demo_data.js'), 'w', encoding='utf-8').write(demo_data())
+    for page in ('app.html', 'placement.html'):
+        p = os.path.join(out, page); html = open(p, encoding='utf-8').read()
+        html = html.replace('<!--DEMO_DATA-->', '<script src="js/demo_data.js"></script>') if demo else html.replace('<!--DEMO_DATA-->\n', '')
+        open(p, 'w', encoding='utf-8').write(html)
+    # หน้าแรกของโดเมน: ยังไม่มีหน้าแนะนำ จึงพาไปหน้าวัดระดับฟรีซึ่งเป็นปลายทางของทุกโพสต์ (เปลี่ยนเป็นหน้าแนะนำเมื่อสร้างแล้ว)
+    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write('<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CEFR for You</title><meta http-equiv="refresh" content="0; url=placement.html"><link rel="canonical" href="placement.html"></head><body><p><a href="placement.html">วัดระดับภาษาอังกฤษฟรี</a></p></body></html>\n')
     np = post_pages(out, demo)
     if np: print(f'{os.path.relpath(out, ROOT)}/p/ หน้าโพสต์ {np} หน้า')
     print(f'{os.path.relpath(out, ROOT)}/ สร้างแล้ว' + (' (รุ่นสาธิต มีเฉลย ห้าม deploy)' if demo else ' (เว็บจริง ไม่มีเนื้อหา)'))

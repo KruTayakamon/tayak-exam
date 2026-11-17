@@ -1,3 +1,4 @@
+# อนุมัติโดยบอส 17 พ.ย. 2569 ("ผ่าน อนุมัติ ทุกอย่าง")
 # แบบวัดระดับฟรี CEFR for You · 25 คะแนน 20 นาที · ไล่ระดับ a2 → b1 → b2 → c1 (course/cefr/_assessment.yaml)
 # ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · ทุกข้อ draft รอบอสตรวจ · เขียนใหม่ทั้งหมด 17 พ.ย. 2569
 # band = ระดับที่ข้อนี้วัด (เซิร์ฟเวอร์ใช้คิดผล) · ไม่มีข้อฟัง · ทุกข้อเป็นเรื่องแกนของระดับ ไม่ใช่ข้อยกเว้น
@@ -15,7 +16,7 @@
     - {t: go, why: "รูปนี้ใช้กับ I, you, we, they แต่ My son เป็นคนเดียว ต้องเติม -es"}
     - {t: is go, why: "is กับกริยาช่อง 1 ใช้คู่กันไม่ได้ ภาษาอังกฤษไม่มีรูปนี้"}
     - {t: going, why: "กริยา -ing ยืนเดี่ยวเป็นกริยาหลักไม่ได้ ต้องมี is นำหน้า"}
-  status: draft
+  status: approved
 - id: cefr-pl-0002
   band: a2
   kind: mcq
@@ -28,7 +29,7 @@
     - {t: buy, why: "buy เป็นรูปปัจจุบัน แต่ last month บอกว่าเกิดในอดีต"}
     - {t: buyed, why: "buy ไม่ได้เติม -ed เหมือนกริยาทั่วไป ต้องจำว่าช่อง 2 คือ bought"}
     - {t: are buying, why: "รูปนี้ใช้กับสิ่งที่กำลังทำตอนนี้ ไม่เข้ากับ last month"}
-  status: draft
+  status: approved
 - id: cefr-pl-0003
   band: a2
   kind: mcq
@@ -41,7 +42,7 @@
     - {t: big, why: "มี than อยู่หลังช่อง ต้องใช้รูปขั้นกว่า ไม่ใช่รูปปกติ"}
     - {t: more big, why: "more ใช้กับคำยาว เช่น more beautiful ส่วนคำสั้นอย่าง big ใช้ -er"}
     - {t: biggest, why: "biggest เป็นขั้นสูงสุด ใช้กับ the และกลุ่มตั้งแต่สามอย่างขึ้นไป ไม่ใช้กับ than"}
-  status: draft
+  status: approved
 - id: cefr-pl-0004
   band: a2
   kind: mcq
@@ -54,7 +55,7 @@
     - {t: board, why: "นักเรียนไม่ได้เขียนชื่อตัวเองบนกระดานก่อนทำแบบทดสอบ"}
     - {t: door, why: "ประตูไม่ใช่ที่เขียนชื่อก่อนเริ่มทำแบบทดสอบ"}
     - {t: chair, why: "เก้าอี้ไม่มีด้านบนให้เขียนชื่อ ความหมายไม่เข้ากับประโยค"}
-  status: draft
+  status: approved
 - id: cefr-pl-0005
   band: a2
   kind: mcq
@@ -67,7 +68,7 @@
     - {t: slowly, why: "ขัดกับต้นประโยคที่บอกว่าไม่มีเวลา คนรีบไม่กินช้า ๆ"}
     - {t: quickness, why: "quickness เป็นคำนาม แปลว่าความเร็ว วางหลัง something ในประโยคนี้ไม่ได้"}
     - {t: lately, why: "lately แปลว่าช่วงนี้ ไม่ได้แปลว่าช้า และไม่เข้ากับเหตุผลเรื่องไม่มีเวลา"}
-  status: draft
+  status: approved
 - id: cefr-pl-0006
   band: a2
   kind: mcq
@@ -80,7 +81,7 @@
     - {t: "Yes, I can borrow.", why: "นักเรียนเป็นคนยืม ครูเป็นคนให้ยืม ครูจึงไม่ได้ borrow"}
     - {t: "No, thank you.", why: "No, thank you ใช้ปฏิเสธเวลามีคนเสนอของให้เรา ไม่ใช่ตอบคำขอยืม"}
     - {t: "It's my pleasure.", why: "ใช้ตอบเวลามีคนขอบคุณ แต่นักเรียนยังไม่ได้ขอบคุณ แค่ขอยืม"}
-  status: draft
+  status: approved
 
 # ---------- B1 (8 คะแนน: gm 3 · vo 2 · rd 2 · dlg 1) ----------
 - id: cefr-pl-0007
@@ -95,7 +96,7 @@
     - {t: worked, why: "past simple บอกว่าจบไปแล้ว แต่ still บอกว่ายังทำอยู่"}
     - {t: am working, why: "present continuous ไม่ใช้กับ since เมื่อพูดถึงระยะเวลาตั้งแต่อดีตถึงตอนนี้"}
     - {t: work, why: "present simple ใช้กับเรื่องประจำ แต่ since ต้องคู่กับ present perfect"}
-  status: draft
+  status: approved
 - id: cefr-pl-0008
   band: b1
   kind: mcq
@@ -108,7 +109,7 @@
     - {t: will rain, why: "คนไทยพลาดบ่อยเพราะคิดว่าพรุ่งนี้ต้องใช้ will แต่ฝั่ง if ห้ามใช้ will"}
     - {t: rained, why: "rained ใช้ในประโยค if ที่สมมติเรื่องไม่จริง และอีกฝั่งต้องเป็น would"}
     - {t: would rain, why: "would ไม่อยู่ฝั่ง if และอีกฝั่งก็เป็น will ไม่ใช่ประโยคสมมติ"}
-  status: draft
+  status: approved
 - id: cefr-pl-0009
   band: b1
   kind: mcq
@@ -121,7 +122,7 @@
     - {t: opened, why: "ถ้าใช้ opened เฉย ๆ จะแปลว่าห้องสมุดเป็นคนเปิด ขัดกับ by the school director"}
     - {t: is opened, why: "is opened เป็นปัจจุบัน แต่ last Friday บอกว่าเกิดในอดีต"}
     - {t: has opened, why: "has opened ไม่ใช้กับเวลาอดีตที่ระบุชัด และยังไม่เป็นรูปถูกกระทำ"}
-  status: draft
+  status: approved
 - id: cefr-pl-0010
   band: b1
   kind: mcq
@@ -134,7 +135,7 @@
     - {t: achieve, why: "achieve ใช้กับเป้าหมายหรือผลสำเร็จ เช่น achieve a goal ไม่ใช้กับ training"}
     - {t: succeed, why: "succeed ต้องตามด้วย in เช่น succeed in something ใส่กรรมตรง ๆ ไม่ได้"}
     - {t: graduate, why: "graduate ใช้กับการจบการศึกษา และต้องมี from ตามหลัง ใช้กับ training แบบนี้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-pl-0011
   band: b1
   kind: mcq
@@ -147,7 +148,7 @@
     - {t: behave, why: "behave เป็นกริยา แต่หลัง Nida's ต้องเป็นคำนาม"}
     - {t: temperature, why: "อุณหภูมิไม่เกี่ยวกับการตั้งใจฟังหรือช่วยเพื่อน"}
     - {t: appearance, why: "appearance คือรูปร่างหน้าตา ไม่เกี่ยวกับการฟังและช่วยเพื่อน"}
-  status: draft
+  status: approved
 - id: cefr-pl-0012
   band: b1
   kind: read
@@ -176,7 +177,7 @@
         - {t: stay at home on 14 March, why: "ข้อความบอกว่าเรียนที่โรงเรียน ไม่ได้ให้อยู่บ้าน"}
         - {t: give the form to Mr Somchai, why: "แบบฟอร์มต้องส่งครูประจำชั้น ส่วนครูสมชายสอนคนที่ไม่ได้ไป"}
         - {t: pay 250 baht for lunch, why: "250 บาทเป็นค่าทัศนศึกษาสำหรับคนที่ไป และรวมอาหารกลางวันแล้ว"}
-  status: draft
+  status: approved
 - id: cefr-pl-0013
   band: b1
   kind: mcq
@@ -189,7 +190,7 @@
     - {t: "Yes, I'm marking them all evening.", why: "เพื่อนเป็นคนตรวจงาน ไม่ใช่เรา และ tense ก็ไม่เข้ากัน"}
     - {t: "You're welcome to mark them.", why: "You're welcome ใช้ตอบคำขอบคุณ หรือเชิญให้ทำอะไร ไม่เข้ากับคนที่กำลังบ่น"}
     - {t: "Never mind, I'm not tired.", why: "ไม่ได้ตอบความรู้สึกของเพื่อน และ Never mind ใช้บอกว่าไม่เป็นไรเมื่อเกิดเรื่องเล็ก"}
-  status: draft
+  status: approved
 
 # ---------- B2 (7 คะแนน: gm 3 · vo 2 · rd 2) ----------
 - id: cefr-pl-0014
@@ -204,7 +205,7 @@
     - {t: informed, why: "informed ใช้กับเงื่อนไขสมมติปัจจุบันที่อีกฝั่งเป็น would ไม่ใช่ would have"}
     - {t: would inform, why: "ฝั่ง if ไม่ใช้ would ในภาษาอังกฤษมาตรฐาน"}
     - {t: has informed, why: "has informed ไม่ใช้กับเรื่องสมมติในอดีตที่ตรงข้ามกับความจริง"}
-  status: draft
+  status: approved
 - id: cefr-pl-0015
   band: b2
   kind: mcq
@@ -217,7 +218,7 @@
     - {t: Did you write, why: "past simple ไม่เชื่อมกับผลที่เห็นตอนนี้ และ all morning ยังไม่จบ"}
     - {t: Are you writing, why: "ถามว่ากำลังเขียนตอนนี้ไหม แต่ all morning เน้นระยะเวลาที่ผ่านมาแล้ว"}
     - {t: Had you written, why: "past perfect ต้องมีเหตุการณ์ในอดีตอีกอันเป็นจุดอ้างอิง ประโยคนี้ไม่มี"}
-  status: draft
+  status: approved
 - id: cefr-pl-0016
   band: b2
   kind: mcq
@@ -230,7 +231,7 @@
     - {t: Although, why: "Although ต้องตามด้วยประโยคที่มีประธานและกริยา แต่ข้างหลังเป็นแค่คำนาม"}
     - {t: Because of, why: "ความหมายผิด เพราะขาดงบไม่ได้ทำให้ทำโครงการได้ ประโยคนี้เป็นความขัดแย้ง"}
     - {t: Despite of, why: "ไม่มี Despite of ในภาษาอังกฤษ ที่มี of คือ In spite of"}
-  status: draft
+  status: approved
 - id: cefr-pl-0017
   band: b2
   kind: mcq
@@ -243,7 +244,7 @@
     - {t: outcomes, why: "outcomes คือผลที่ได้ ไม่ใช่สิ่งที่ใช้เป็นเกณฑ์ให้คะแนน"}
     - {t: consequences, why: "consequences คือผลที่ตามมา มักเป็นผลด้านลบ ไม่ใช่เกณฑ์ให้คะแนน"}
     - {t: circumstances, why: "circumstances คือสถานการณ์แวดล้อม ไม่ได้บอกวิธีให้คะแนน"}
-  status: draft
+  status: approved
 - id: cefr-pl-0018
   band: b2
   kind: mcq
@@ -256,7 +257,7 @@
     - {t: remain, why: "remain ไม่มีกรรม ต้องพูดว่า the balance remains ใส่ a balance หลัง remain ไม่ได้"}
     - {t: monitor, why: "monitor คือคอยติดตามตรวจดู ไม่ได้หมายถึงการรักษาสมดุลไว้"}
     - {t: reserve, why: "reserve คือจองหรือเก็บไว้ใช้ทีหลัง ไม่ใช้กับ balance ในความหมายนี้"}
-  status: draft
+  status: approved
 - id: cefr-pl-0019
   band: b2
   kind: read
@@ -281,7 +282,7 @@
         - {t: Fewer students hand in their homework on time., why: "ตรงข้ามกับบทความ จำนวนคนส่งตรงเวลาเพิ่มจาก 61 เป็น 78 เปอร์เซ็นต์"}
         - {t: Students avoid difficult tasks., why: "บทความบอกว่านักเรียนกล้าลองงานยากมากขึ้น"}
         - {t: Parents want the grades to return., why: "บทความบอกว่าผลทำให้ผู้ปกครองหลายคนประหลาดใจ ไม่ได้บอกว่าอยากให้กลับไปให้คะแนน"}
-  status: draft
+  status: approved
 
 # ---------- C1 (4 คะแนน: gm 2 · vo 1 · rd 1) ----------
 - id: cefr-pl-0020
@@ -296,7 +297,7 @@
     - {t: we realised, why: "เมื่อ Not until ขึ้นต้นประโยค ต้องสลับเป็น did we ใช้ลำดับปกติไม่ได้"}
     - {t: we did realise, why: "did อยู่หลังประธานเป็นการเน้นธรรมดา ไม่ใช่การสลับที่ที่ Not until ต้องการ"}
     - {t: had we been realising, why: "มีการสลับที่ก็จริง แต่ realise ไม่ใช้รูป -ing และ tense ซับซ้อนเกินบริบท"}
-  status: draft
+  status: approved
 - id: cefr-pl-0021
   band: c1
   kind: mcq
@@ -309,7 +310,7 @@
     - {t: must have, why: "must have ใช้สรุปว่าน่าจะเกิดขึ้นแล้วแน่ ๆ แต่ที่นี่รู้ว่าไม่มีใครตรวจ จึงไม่ใช่การเดา"}
     - {t: would have, why: "would have ต้องมีเงื่อนไขสมมติ เช่น if... ประโยคนี้ไม่มี"}
     - {t: had to have, why: "ฟังเหมือนบังคับในอดีต ไม่ได้ให้ความหมายติว่าควรทำแต่ไม่ได้ทำ"}
-  status: draft
+  status: approved
 - id: cefr-pl-0022
   band: c1
   kind: mcq
@@ -322,7 +323,7 @@
     - {t: impede, why: "impede แปลว่าขัดขวาง ตรงข้ามกับจุดประสงค์ของโครงการพี่เลี้ยง"}
     - {t: curtail, why: "curtail แปลว่าตัดทอนหรือจำกัดให้น้อยลง ไม่เข้ากับจุดประสงค์ของโครงการ"}
     - {t: stipulate, why: "stipulate คือกำหนดเป็นเงื่อนไขในข้อตกลง ไม่ใช่การทำให้ความร่วมมือเกิดขึ้น"}
-  status: draft
+  status: approved
 - id: cefr-pl-0023
   band: c1
   kind: read
@@ -341,4 +342,4 @@
         - {t: Most new teaching methods are poorly designed from the start., why: "ผู้เขียนบอกตรง ๆ ว่าวิธีสอนไม่จำเป็นต้องมีข้อบกพร่อง"}
         - {t: Teachers should no longer be sent to training workshops., why: "ผู้เขียนแค่บอกว่าอบรมครั้งเดียวไม่พอ ไม่ได้บอกให้เลิกไปอบรม"}
         - {t: Leaders need to be more careful when choosing new methods., why: "ย่อหน้าสุดท้ายบอกว่าคำถามที่ควรถามไม่ใช่จะเลือกวิธีไหน แต่ต้องมีอะไรถึงจะสำเร็จ"}
-  status: draft
+  status: approved

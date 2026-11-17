@@ -1,9 +1,9 @@
 // โหมดสาธิต: "เซิร์ฟเวอร์จำลอง" ในเบราว์เซอร์ ใช้เครื่องยนต์ตัวเดียวกับของจริง เก็บสถานะใน localStorage
 // ใช้ทดสอบและให้บอสลองเล่นโดยไม่ต้องมีฐานข้อมูล · ข้อมูลเนื้อหา (มีเฉลย) มาจาก DEMO_DATA ที่ build ใส่ให้เฉพาะ dist-demo/ ห้าม deploy
 // พฤติกรรมต้องตรงกับ supabase/functions/exam-api (สัญญาเดียวกัน) เพื่อให้หน้าเว็บสลับไปของจริงได้โดยไม่แก้
-import { dayNo, srsUpdate, weekProgress, weekStart, projectFinish, readiness } from './engine/engine.mjs';
+import { dayNo, srsUpdate, weekProgress, weekStart, projectFinish, readiness, placementEstimate } from './engine/engine.mjs';
 import { buildSession, advancePointer, remainingSessions, startPointer } from './engine/assemble.mjs';
-import { grade } from './engine/grade.mjs';
+import { grade, strip } from './engine/grade.mjs';
 import { quote, PRODUCTS } from './engine/pricing.mjs';
 import { load, save, drop } from './store.js';
 
@@ -19,6 +19,23 @@ const itemOf = (id) => globalThis.DEMO_DATA.items[id];
 
 export const demoApi = {
   mode: 'demo',
+  // แบบวัดระดับ (ไม่ต้องล็อกอิน) · ส่งข้อแบบตัดเฉลยเหมือนเซิร์ฟเวอร์จริง และตรวจด้วยตัวตรวจตัวเดียวกัน
+  async placementItems() {
+    const its = Object.values(globalThis.DEMO_DATA.items).filter((i) => /^cefr-pl-\d{4}$/.test(i.id)).sort((a, b) => a.id.localeCompare(b.id));
+    return { items: its.map((i) => ({ ...strip(i, (a) => a), band: i.band })), time_min: 20 };
+  },
+  async placementGrade(answers) {
+    const scores = { a2: [0, 0], b1: [0, 0], b2: [0, 0], c1: [0, 0] }, bySkill = {};
+    for (const it of Object.values(globalThis.DEMO_DATA.items).filter((i) => /^cefr-pl-\d{4}$/.test(i.id))) {
+      const qs = it.questions ? it.questions.length : 1;
+      for (let q = 0; q < qs; q++) {
+        const ok = grade(it, q, answers[qs > 1 ? `${it.id}:${q}` : it.id]);
+        if (scores[it.band]) { scores[it.band][1]++; if (ok) scores[it.band][0]++; }
+        (bySkill[it.skill] ||= [0, 0])[1]++; if (ok) bySkill[it.skill][0]++;
+      }
+    }
+    return { result: { ...placementEstimate(scores, cfgOf()), scores, by_skill: bySkill } };
+  },
   async status() {
     const now = Date.now();
     return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }], prices: Object.keys(PRODUCTS).map((p) => quote(p, now)), orders: [] };
