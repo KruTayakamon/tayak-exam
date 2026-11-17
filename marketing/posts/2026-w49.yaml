@@ -1,4 +1,4 @@
-# โพสต์เพจชุดที่ 2 (7 โพสต์ จันทร์–อาทิตย์) · draft รอบอสตรวจ · เขียน 17 พ.ย. 2569 (บอสอนุมัติให้ทำ รอบ 22)
+# อนุมัติโดยบอส 17 พ.ย. 2569 รอบ 23 ("อนุมัติโพส")
 # หัวข้อจากผัง b1 สัปดาห์ 2–3 (ความถี่ เวลา available/convenient past simple) · ไม่ใช้ข้อจากคลังที่ขาย · บริบทผู้ใหญ่ทั่วไป
 # ลำดับ: จ. quiz · อ. word · พ. trap · พฤ. quiz · ศ. class · ส. tip · อา. recap
 
@@ -6,7 +6,7 @@
   type: quiz
   course: b1
   topic: frequency-time-expressions
-  status: draft
+  status: approved
   head: "โจทย์วันจันทร์ · คำนี้วางตรงไหน"
   stem: My boss ____ in a good mood on Monday mornings.
   choices:
@@ -45,7 +45,7 @@
   type: word
   course: b1
   topic: work-vocabulary
-  status: draft
+  status: approved
   head: "คำศัพท์ที่ทำงาน · ใช้นัดเวลาได้ทุกวัน"
   word: available
   pos: (adjective)
@@ -83,7 +83,7 @@
   type: trap
   course: b1
   topic: frequency-time-expressions
-  status: draft
+  status: approved
   head: "จุดที่คนไทยพลาดบ่อย"
   wrong: I go to work in Monday.
   right: I go to work on Monday.
@@ -119,7 +119,7 @@
   type: quiz
   course: b1
   topic: past-simple
-  status: draft
+  status: approved
   head: "โจทย์วันพฤหัส · ข้อไหนถูก"
   stem: I ____ my keys at home yesterday, so I couldn't get into the office.
   choices:
@@ -158,7 +158,7 @@
   type: class
   course: b1
   topic: making-appointments
-  status: draft
+  status: approved
   head: "3 ประโยคขอเลื่อนนัดแบบสุภาพ"
   lines:
     - {en: "I'm sorry, but I can't make it on Tuesday.", th: "ขอโทษนะ วันอังคารไปไม่ได้"}
@@ -195,7 +195,7 @@
   type: tip
   course: b1
   topic: quantifiers
-  status: draft
+  status: approved
   head: "เทคนิค 30 วินาที · นับได้ไหม"
   note: "นับ หนึ่ง สอง สาม ได้ใช้ ==many== · นับไม่ได้ใช้ ++much++"
   lines:
@@ -232,7 +232,7 @@
   type: recap
   course: b1
   topic: weekly-recap
-  status: draft
+  status: approved
   head: "สรุปสัปดาห์นี้ · เฉลยโจทย์"
   note: "เฉลยวันจันทร์ ==is rarely== · วันพฤหัส ==left== · อยากรู้ระดับตัวเอง วัดระดับฟรีหรือลองเรียนเลยก็ได้"
   caption: "สัปดาห์นี้เราฝึกตำแหน่งคำบอกความถี่ at on in กริยาอดีต และการเลื่อนนัด\nอยากเรียนต่อเป็นระบบ วันละ 20 นาที สัปดาห์แรกฟรี ไม่ต้องใส่บัตร {link}"

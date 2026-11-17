@@ -38,8 +38,10 @@ export const demoApi = {
   },
   async status() {
     const now = Date.now();
-    return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }], prices: Object.keys(PRODUCTS).map((p) => quote(p, now)), orders: [] };
+    return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }], prices: ['cefr-b1', 'cefr-extend'].map((p) => quote(p, now)), orders: [] };   // เหมือนเว็บจริง: ขายเฉพาะคอร์สที่มีเนื้อหา
   },
+  async checkout() { return { url: '#buy', demo: true }; },          // โหมดสาธิตไม่จ่ายเงินจริง
+  async verify() { return { credited: 0, pending: 0 }; },
   async enrol({ pace = 20, target_date = null, slot = null } = {}) {
     const s = st();
     s.enrol = { ...(s.enrol || { ...startPointer(), last_day: null }), pace, target_date, slot };

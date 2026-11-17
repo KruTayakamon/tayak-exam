@@ -1,5 +1,5 @@
 // CEFR for You · การชำระเงิน · Supabase Edge Function (Deno) · ผู้ให้บริการ: Beam
-// ร่าง 16 พ.ย. 2569 · **ยังไม่ได้ deploy และยังไม่ได้รันจริง** (เครื่องพัฒนาไม่มี Deno) ต้องทดสอบกับ Beam playground ก่อนเปิดขาย
+// deploy 17 พ.ย. 2569 (บอสสั่งรอบ 23 "เริ่ม beam") · ใช้บัญชี Beam เดียวกับเกมครัว (secret เดียวกันในโปรเจกต์) · หน้าเว็บ viewBuy ใน web/js/views.js
 // ราคาและสิทธิ์คำนวณจาก _shared/pricing.mjs เท่านั้น (สำเนาของ engine/pricing.mjs)
 // action: status → สิทธิ์ที่มี + ราคาทุกสินค้า · checkout {product, target?} → สร้างคำสั่งซื้อ + ลิงก์จ่าย · verify {order?} → ถาม Beam แล้วให้สิทธิ์
 // ไม่พึ่ง webhook (05_site_architecture ข้อ 1.4 ทางเลือก ก.): ให้สิทธิ์เมื่อผู้ซื้อกลับจากหน้าจ่าย และทุกครั้งที่เปิดหน้าบัญชี
@@ -9,7 +9,7 @@ import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import { beam, isPaid, linkIdOf, linkUrlOf } from "./beam.ts";
 import { applyPurchase, canBuy, catalog, quote, refundEligible } from "../_shared/pricing.mjs";
 
-const SITE = Deno.env.get("EXAM_SITE_URL") ?? "http://localhost:8788";
+const SITE = Deno.env.get("EXAM_SITE_URL") ?? "https://cefrforyou.pages.dev";   // เว็บจริง (มติบอส 17 พ.ย.)
 const CORS = { "Access-Control-Allow-Origin": SITE, "Access-Control-Allow-Headers": "authorization, content-type, apikey", "Access-Control-Allow-Methods": "POST, OPTIONS" };
 const json = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 const ms = (t: string | null) => (t ? new Date(t).getTime() : 0);
@@ -68,6 +68,7 @@ Deno.serve(async (req) => {
     if (!b) return json({ error: "billing_off" }, 503);
 
     if (action === "checkout") {
+      if (body.agree_terms !== true) return json({ error: "terms_required" }, 400);   // ต้องยอมรับข้อกำหนดและการคืนเงินก่อน (web/terms.html)
       const product = String(body.product ?? ""), target = body.target ? String(body.target) : null;
       const c = await catalogNow(admin);
       if (!c.onSale(product)) return json({ error: "not_on_sale" }, 409);
@@ -77,7 +78,7 @@ Deno.serve(async (req) => {
       if (!can.ok) return json({ error: can.error }, 409);
       const { data: order, error: oErr } = await admin.from("exam_orders").insert({ user_id: user.id, product, target, days: q.days, amount: q.amount, list_price: q.list, launch: q.launch }).select("id").single();
       if (oErr || !order) { console.error("order insert", oErr?.message); return json({ error: "db" }, 500); }
-      const link = await b.createLink({ amount: q.amount, referenceId: order.id, description: `${q.th} · CEFR for You`, returnUrl: `${SITE}/account/?order=${order.id}`, sku: product });
+      const link = await b.createLink({ amount: q.amount, referenceId: order.id, description: `${q.th} · CEFR for You`, returnUrl: `${SITE}/app?order=${order.id}#buy`, sku: product });
       const url = linkUrlOf(link);
       if (!url) { console.error("beam link without url", JSON.stringify(link).slice(0, 500)); return json({ error: "provider" }, 502); }
       await admin.from("exam_orders").update({ provider_link_id: linkIdOf(link), provider_url: url }).eq("id", order.id);

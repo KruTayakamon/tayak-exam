@@ -121,13 +121,17 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok(['mcq', 'type', 'cloze', 'read', 'listen', 'order'].every((k) => kinds[k]), `เล่นครบทุกชนิดข้อ ${JSON.stringify(kinds)}`);
   ok((await p.textContent('#todayTitle')).includes('วันที่ 1') && (await p.textContent('#view')).includes('สัปดาห์ 2'), 'จบสัปดาห์ 1 แล้วไปต่อสัปดาห์ 2 วันที่ 1');
   ok(['nb d1', 'nb d2', 'nb d3', 'nb d4'].every((c) => NB.has(c)), 'บทเรียนแต่ละวันใช้โทนสีของวันนั้น (d1–d4): ' + [...NB].join(','));
+  await p.goto(base + '/dist-demo/app.html#buy'); await p.waitForSelector('[data-buy]');
+  const dis0 = await p.$eval('[data-buy]', (b) => b.disabled); await p.check('#terms'); const dis1 = await p.$eval('[data-buy]', (b) => b.disabled);
+  ok(dis0 && !dis1 && (await p.getAttribute('#termsBox a', 'href')) === 'terms.html' && !!(await p.$('#myAccess')), 'หน้าซื้อ: ต้องติ๊กยอมรับข้อกำหนดก่อนกดซื้อ และแสดงสิทธิ์ที่มี');
+  await p.screenshot({ path: path.join(SHOTS, 'app_buy.png'), fullPage: true });
   ok(USE.partial && USE.full, 'ข้อเขียนลองใช้เอง: ตรวจแล้วบอกจุดที่ยังขาด และชมเมื่อครบทุกจุด');
   ok(CHEER.ok > 0 && CHEER.try > 0, `ตอบถูกมีคำชมและดาว (${CHEER.ok}) ตอบผิดมีคำปลอบ (${CHEER.try})`);
   st = await state(p); ok(st.enrol.week === 2 && st.enrol.day === 1 && st.sessions.filter((x) => x.kind !== 'short').length === 6, 'ทำครบ 6 เซสชันของสัปดาห์');
   for (const r of ['course', 'extra', 'results', 'buy', 'account']) { await p.goto(base + '/dist-demo/app.html#' + r); await p.waitForSelector('#view h1'); ok(await noOverflow(p), `หน้า ${r} เปิดได้และไม่ล้นจอ`); }
   await p.goto(base + '/dist-demo/app.html#results'); await p.waitForSelector('#view h1'); await p.screenshot({ path: path.join(SHOTS, 'app_results.png'), fullPage: true });
   await p.goto(base + '/dist-demo/app.html#buy'); await p.waitForSelector('.price');
-  ok((await p.textContent('#view')).includes('290 บาท') && (await p.textContent('#view')).includes('690 บาท'), 'หน้าราคาแสดงราคาเปิดตัวจากโมดูลราคา');
+  ok((await p.textContent('#view')).includes('290 บาท') && (await p.textContent('#view')).includes('490 บาท') && !(await p.textContent('#view')).includes('690 บาท'), 'หน้าราคาแสดงราคาเปิดตัว B1 (ราคาปกติขีดฆ่า) และไม่ขายทุกคอร์สจนกว่าคอร์สอื่นจะมีเนื้อหา');
 
   // แบบวัดระดับ (ไม่ต้องล็อกอิน): ทำครบ ตอบถูกทุกข้อ → ผ่าน C1 แน่น แนะนำ C2 · ระหว่างทำไม่เห็นเฉลย
   const pl = await ctx.newPage(); pl.on('pageerror', (e) => errs.push('placement: ' + e));

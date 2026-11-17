@@ -87,15 +87,51 @@ export async function viewResults(root) {
   root.appendChild(el('<div class="card"><h2>ชุดวัดผล</h2><p class="small">ครั้งที่ 1 ท้ายสัปดาห์ 4 · ครั้งที่ 2 ท้ายสัปดาห์ 8 · ครั้งที่ 3 ท้ายสัปดาห์ 12</p></div>'));
 }
 
-export async function viewBuy(root) {
+const thDay = (ms) => new Date(ms).toLocaleDateString('th-TH', { dateStyle: 'medium' });
+/** หน้าคอร์สและราคา: สิทธิ์ที่มี · ปุ่มซื้อ (ต้องยอมรับข้อกำหนดก่อน) · ตรวจสอบการชำระเงิน · ราคาและสินค้าที่ขายมาจากเซิร์ฟเวอร์ (exam-billing status) */
+export async function viewBuy(root, go, msg) {
   let s = await api.status().catch(() => null);
   root.innerHTML = header() + '<h1>คอร์สและราคา</h1>';
-  if (!s || s.error || !s.prices) {                        // ระบบชำระเงินยังไม่เปิด: แสดงราคาจากกติกาเดียวกับเซิร์ฟเวอร์ แต่ไม่มีปุ่มซื้อ
-    s = { prices: ['cefr-b1', 'cefr-all'].map((p) => quote(p, Date.now())) };
-    root.appendChild(el('<div class="note" id="payingSoon">ระบบชำระเงินกำลังจะเปิด ตอนนี้เรียนสัปดาห์แรกฟรีได้เลย</div>'));
+  if (msg) root.appendChild(el(`<div class="note" id="buyMsg">${esc(msg)}</div>`));
+  const live = !!(s && !s.error && s.prices);
+  if (!live) {                                             // ยังไม่ล็อกอินหรือระบบชำระเงินขัดข้อง: แสดงราคาจากกติกาเดียวกับเซิร์ฟเวอร์ แต่ไม่มีปุ่มซื้อ
+    s = { prices: ['cefr-b1'].map((p) => quote(p, Date.now())), entitlements: [], orders: [] };
+    root.appendChild(el('<div class="note" id="payingSoon">ยังเปิดหน้าซื้อไม่ได้ในขณะนี้ ลองใหม่อีกครั้งภายหลัง ระหว่างนี้เรียนสัปดาห์แรกฟรีได้เลย</div>'));
   }
-  for (const p of (s && s.prices) || []) root.appendChild(el(`<div class="card"><div class="row"><h2 class="grow">${esc(p.th)}</h2>${p.launch ? '<span class="tag">ราคาเปิดตัว</span>' : ''}</div><div class="row"><span class="price">${p.amount} บาท</span>${p.launch ? `<span class="was">${p.list} บาท</span>` : ''}</div><p class="small">ใช้ได้ ${p.days} วัน จ่ายครั้งเดียว ไม่ต่ออายุเอง</p></div>`));
-  root.appendChild(el('<p class="small">เราไม่สัญญาผลสอบ คืนเงินได้ภายใน 7 วันถ้าทำไม่เกิน 3 เซสชัน</p>'));
+  const now = Date.now(), ents = (s.entitlements || []).filter((e) => e.expires_at > now);
+  const PROD_TH = Object.fromEntries((s.prices || []).map((p) => [p.product, p.th]));
+  if (ents.length) root.appendChild(el(`<div class="card" id="myAccess"><h2>สิทธิ์ของคุณ</h2><ul class="list">${ents.map((e) => `<li><span class="tick">✓</span><span>${esc(PROD_TH[e.product] || e.product)} ใช้ได้ถึง <b>${thDay(e.expires_at)}</b></span></li>`).join('')}</ul></div>`));
+  const pending = (s.orders || []).filter((o) => o.status === 'pending');
+  if (live && pending.length) {
+    const c = el(`<div class="card" id="pendingBox"><h2>รอยืนยันการชำระเงิน</h2><p class="small">ถ้าจ่ายแล้ว กดตรวจสอบได้เลย ระบบจะถามผู้ให้บริการชำระเงินโดยตรง</p><button class="btn" id="verifyBtn">ตรวจสอบการชำระเงิน</button></div>`);
+    c.querySelector('#verifyBtn').onclick = async (e) => { e.target.disabled = true; e.target.textContent = 'กำลังตรวจสอบ…'; const r = await api.verify().catch(() => null); viewBuy(root, go, r && r.credited ? 'ชำระเงินสำเร็จ ได้รับสิทธิ์แล้ว ขอบคุณครับ' : 'ยังไม่พบการชำระเงิน ถ้าเพิ่งจ่ายให้รอสักครู่แล้วกดอีกครั้ง'); };
+    root.appendChild(c);
+  }
+  const hasCourse = ents.some((e) => e.product !== 'cefr-extend');
+  let agreed = false;
+  const box = live ? el(`<label class="check" id="termsBox"><input type="checkbox" id="terms"><span>ฉันอ่านและยอมรับ <a href="terms.html" target="_blank" rel="noopener">ข้อกำหนดการใช้บริการและการคืนเงิน</a></span></label>`) : null;
+  const buttons = [];
+  if (box) { root.appendChild(box); box.querySelector('#terms').onchange = (e) => { agreed = e.target.checked; buttons.forEach((b) => { b.disabled = !agreed; }); }; }
+  for (const p of s.prices || []) {
+    if (p.product === 'cefr-extend' && !hasCourse) continue;        // ต่อเวลาได้เฉพาะคนที่มีคอร์สแล้ว
+    const c = el(`<div class="card"><div class="row"><h2 class="grow">${esc(p.th)}</h2>${p.launch ? '<span class="tag">ราคาเปิดตัว</span>' : ''}</div><div class="row"><span class="price">${p.amount} บาท</span>${p.launch ? `<span class="was">${p.list} บาท</span>` : ''}</div><p class="small">ใช้ได้ ${p.days} วัน จ่ายครั้งเดียว ไม่ต่ออายุเอง · พร้อมเพย์</p></div>`);
+    if (live) {
+      const b = el(`<button class="btn" data-buy="${esc(p.product)}" disabled>ซื้อ ${p.amount} บาท</button>`);
+      b.onclick = async () => {
+        if (!agreed) return;
+        b.disabled = true; b.textContent = 'กำลังสร้างลิงก์ชำระเงิน…';
+        const target = p.product === 'cefr-extend' ? (ents.find((e) => e.product !== 'cefr-extend') || {}).product : undefined;
+        const r = await api.checkout(p.product, target).catch(() => null);
+        if (r && r.url) { location.href = r.url; return; }
+        b.disabled = false; b.textContent = `ซื้อ ${p.amount} บาท`;
+        const M = { billing_off: 'ระบบชำระเงินยังไม่เปิด', not_on_sale: 'สินค้านี้ยังไม่เปิดขาย', no_session: 'กรุณาเข้าสู่ระบบอีกครั้ง' };
+        alert(M[r && r.error] || 'สร้างลิงก์ชำระเงินไม่สำเร็จ ลองใหม่อีกครั้ง');
+      };
+      c.appendChild(b); buttons.push(b);
+    }
+    root.appendChild(c);
+  }
+  root.appendChild(el('<p class="small">เราไม่สัญญาผลสอบ · คืนเงินเต็มจำนวนได้ภายใน 7 วันถ้าเรียนไม่เกิน 3 เซสชัน · <a href="terms.html">อ่านข้อกำหนดทั้งหมด</a></p>'));
 }
 
 export async function viewAccount(root, go) {

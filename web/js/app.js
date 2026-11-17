@@ -57,4 +57,13 @@ async function render() {
 }
 window.addEventListener('hashchange', render);
 window.addEventListener('online', () => flush());
-flush(); render();
+// กลับจากหน้าจ่ายของ Beam: /app?order=<รหัส>#buy → ถามเซิร์ฟเวอร์ให้ตรวจกับ Beam แล้วแสดงผล (ไม่เชื่อค่าในลิงก์)
+const ORDER = new URLSearchParams(location.search).get('order');
+async function afterPay() {
+  if (!(await signedIn())) return;
+  history.replaceState(null, '', location.pathname + '#buy');
+  const r = await api.verify(ORDER).catch(() => null);
+  app.innerHTML = ''; const main = el('<div class="screen" id="view"></div>'); app.appendChild(main);
+  await viewBuy(main, go, r && r.credited ? 'ชำระเงินสำเร็จ ได้รับสิทธิ์แล้ว ขอบคุณครับ เรียนต่อได้เลย' : 'ยังไม่พบการชำระเงิน ถ้าเพิ่งจ่ายให้รอสักครู่แล้วกด "ตรวจสอบการชำระเงิน"');
+}
+flush(); if (ORDER && api.mode === 'remote') afterPay(); else render();

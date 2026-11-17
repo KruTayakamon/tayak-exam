@@ -14,7 +14,7 @@ const COURSE = () => SITE.course;
 export const remoteApi = {
   mode: 'remote',
   status: () => call('exam-billing', { action: 'status' }),
-  checkout: (product, target) => call('exam-billing', { action: 'checkout', product, target }),
+  checkout: (product, target) => call('exam-billing', { action: 'checkout', product, target, agree_terms: true }),
   verify: (order) => call('exam-billing', { action: 'verify', order }),
   enrol: (p) => { let src = null; try { src = localStorage.getItem('cfk_src_post'); } catch { /* ไม่จำที่มา */ } return call('exam-api', { action: 'enrol', course: COURSE(), src_post: src, ...p }); },
   home: () => call('exam-api', { action: 'home', course: COURSE() }),

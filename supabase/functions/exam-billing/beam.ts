@@ -31,7 +31,7 @@ export function beam(): BeamClient | null {
       return call("POST", "/payment-links", {
         order: {
           currency: "THB", description: p.description, netAmount: amt, referenceId: p.referenceId,
-          orderItems: [{ itemName: p.description, description: p.description, price: amt, quantity: 1, sku: p.sku, productId: "cefr-for-kru" }],
+          orderItems: [{ itemName: p.description, description: p.description, price: amt, quantity: 1, sku: p.sku, productId: "cefr-for-you" }],
         },
         linkSettings: { card: { isEnabled: cardOn }, qrPromptPay: { isEnabled: true }, eWallets: { isEnabled: false }, mobileBanking: { isEnabled: false }, buyNowPayLater: { isEnabled: false }, cardInstallments: { isEnabled: false } },
         collectDeliveryAddress: false,
