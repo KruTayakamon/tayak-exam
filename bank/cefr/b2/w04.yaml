@@ -1,0 +1,579 @@
+# คอร์ส b2 · สัปดาห์ 4 · การประเมินและข้อมูล · passive ทุกรูป · passive reporting (It is said that / is said to) · have/get something done
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · passive ทุกรูป ----------
+- id: cefr-b2-w04-001
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 1
+  stem: The new bridge ____ at the moment, so the road is closed.
+  choices:
+    - {t: is being built, why: "กำลังถูกสร้างตอนนี้ ใช้ ++is being + ช่อง 3++"}
+    - {t: is built, why: "is built ไม่ได้บอกว่ากำลังสร้างอยู่ตอนนี้"}
+    - {t: has built, why: "has built เป็นรูปกระทำ สะพานสร้างตัวเองไม่ได้"}
+    - {t: is building, why: "is building เป็นรูปกระทำ"}
+  explain: "passive ที่กำลังเกิด ==is/are being + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-002
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 1
+  stem: All the results ____ already ____ to the head office.
+  choices:
+    - {t: have ... been sent, why: "ถูกส่งไปแล้ว ใช้ ++have been + ช่อง 3++"}
+    - {t: have ... sent, why: "ขาด been ผลลัพธ์ส่งตัวเองไม่ได้"}
+    - {t: are ... sending, why: "เป็นรูปกระทำ และไม่เข้ากับ already"}
+    - {t: has ... been sent, why: "results เป็นพหูพจน์ ต้องใช้ have"}
+  explain: "present perfect passive ==have/has been + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-003
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: The application form must ____ before Friday.
+  choices:
+    - {t: be returned, why: "หลัง modal ใช้ ++be + ช่อง 3++"}
+    - {t: been returned, why: "หลัง must ต้องใช้ be ไม่ใช่ been"}
+    - {t: is returned, why: "หลัง modal ใช้ is ไม่ได้"}
+    - {t: return, why: "แบบฟอร์มไม่ได้ส่งตัวเอง ต้องเป็นรูปถูกกระทำ"}
+  explain: "modal passive ==must / should / can + be + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-004
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: When I arrived, the room ____, so I had to wait outside.
+  choices:
+    - {t: was being cleaned, why: "กำลังถูกทำความสะอาดในอดีต ใช้ ++was being + ช่อง 3++"}
+    - {t: was cleaned, why: "was cleaned บอกว่าทำเสร็จแล้ว ขัดกับต้องรอข้างนอก"}
+    - {t: had cleaned, why: "รูปกระทำ ห้องทำความสะอาดตัวเองไม่ได้"}
+    - {t: is being cleaned, why: "ต้องเป็นอดีตตาม arrived"}
+  explain: "past continuous passive ==was/were being + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-005
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: By the time the police arrived, the money ____.
+  choices:
+    - {t: had been stolen, why: "ถูกขโมยไปก่อนตำรวจมาถึง ใช้ ++had been + ช่อง 3++"}
+    - {t: was stealing, why: "รูปกระทำ เงินขโมยตัวเองไม่ได้"}
+    - {t: has been stolen, why: "ต้องเป็นอดีตก่อนอดีต ตาม arrived"}
+    - {t: had stolen, why: "ขาด been จึงใช้ไม่ได้"}
+  explain: "past perfect passive ==had been + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-006
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: The results ____ next week, after all the data has been checked.
+  choices:
+    - {t: will be announced, why: "อนาคต passive ใช้ ++will be + ช่อง 3++"}
+    - {t: will announce, why: "รูปกระทำ ผลลัพธ์ประกาศตัวเองไม่ได้"}
+    - {t: will have announced, why: "รูปกระทำ และไม่มีจุดเวลา by"}
+    - {t: are announcing, why: "รูปกระทำ จึงใช้ไม่ได้"}
+  explain: "future passive ==will be + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-007
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: I hate ____ what to do by people who know less than me.
+  choices:
+    - {t: being told, why: "หลัง hate ใช้ -ing ในรูปถูกกระทำ ++being + ช่อง 3++"}
+    - {t: telling, why: "telling เป็นรูปกระทำ ผิดความหมาย"}
+    - {t: to tell, why: "to tell เป็นรูปกระทำ ผิดความหมาย"}
+    - {t: be told, why: "หลัง hate ต้องใช้ -ing หรือ to"}
+  explain: "passive แบบ -ing ==being + ช่อง 3== (hate being told)"
+  status: approved
+- id: cefr-b2-w04-008
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: Everyone wants ____ fairly at work.
+  choices:
+    - {t: to be treated, why: "หลัง want ใช้ ++to be + ช่อง 3++"}
+    - {t: being treated, why: "หลัง want ต้องใช้ to ไม่ใช่ -ing"}
+    - {t: to treat, why: "รูปกระทำ ความหมายเปลี่ยนเป็นปฏิบัติต่อคนอื่น"}
+    - {t: treated, why: "หลัง want ต้องมี to be"}
+  explain: "passive แบบ to ==to be + ช่อง 3== (want to be treated)"
+  status: approved
+- id: cefr-b2-w04-009
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 3
+  stem: "Which sentence is the best passive form of: \"They should have checked the figures.\""
+  choices:
+    - {t: "The figures should have been checked.", why: "modal perfect passive ++should have been + ช่อง 3++"}
+    - {t: "The figures should be checked.", why: "หายความหมายว่าควรทำในอดีตแต่ไม่ได้ทำ"}
+    - {t: "The figures should have checked.", why: "ขาด been จึงใช้ไม่ได้"}
+    - {t: "The figures should been checked.", why: "ขาด have จึงใช้ไม่ได้"}
+  explain: "==should have been + ช่อง 3== = ควรถูกทำแต่ไม่ได้ทำ"
+  status: approved
+- id: cefr-b2-w04-010
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 3
+  stem: Why is the passive used in "The survey was completed by 2,000 people"?
+  choices:
+    - {t: to focus on the survey rather than the people, why: "passive ++เน้นสิ่งที่ถูกกระทำ++ คือแบบสำรวจ"}
+    - {t: because the people are unknown, why: "ประโยคบอกผู้กระทำไว้แล้ว by 2,000 people"}
+    - {t: because it happened in the future, why: "เป็นอดีต ไม่ใช่อนาคต"}
+    - {t: because complete cannot be active, why: "complete ใช้รูปกระทำได้"}
+  explain: "ใช้ passive เมื่อ ==สิ่งที่ถูกกระทำสำคัญกว่าผู้กระทำ== หรือไม่รู้ผู้กระทำ"
+  status: approved
+- id: cefr-b2-w04-011
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: This form needs ____ by your manager.
+  choices:
+    - {t: to be signed, why: "need + to be + ช่อง 3 ++ต้องได้รับการเซ็น++"}
+    - {t: to sign, why: "รูปกระทำ แบบฟอร์มเซ็นเองไม่ได้"}
+    - {t: be signed, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: signing by, why: "need signing ใช้ได้ แต่ signing by ผิดรูป"}
+  explain: "==need to be + ช่อง 3== = ต้องได้รับการทำ"
+  status: approved
+- id: cefr-b2-w04-012
+  kind: type
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  stem: "The meeting has been c________ because the manager is ill. (ยกเลิก)"
+  answer: cancelled
+  accept: [cancelled, canceled]
+  why: "has been + ช่อง 3 ของ cancel (บริติช cancelled · อเมริกัน canceled)"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การประเมิน ----------
+- id: cefr-b2-w04-013
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 1
+  stem: Teachers ____ students' progress through tests and homework.
+  choices:
+    - {t: assess, why: "ประเมิน ใช้ ++assess++"}
+    - {t: estimate, why: "estimate แปลว่ากะประมาณ ไม่ใช่ประเมินผลการเรียน"}
+    - {t: indicate, why: "indicate แปลว่าบ่งบอก"}
+    - {t: accurate, why: "accurate เป็นคุณศัพท์"}
+  explain: "assess = ==ประเมิน ตัดสินคุณภาพหรือระดับ=="
+  status: approved
+- id: cefr-b2-w04-014
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 1
+  stem: Thank you for your ____. We will use your comments to improve the service.
+  choices:
+    - {t: feedback, why: "ความคิดเห็นติชม ใช้ ++feedback++"}
+    - {t: evidence, why: "evidence คือหลักฐาน ไม่ใช่ความคิดเห็น"}
+    - {t: criteria, why: "criteria คือเกณฑ์"}
+    - {t: outcome, why: "outcome คือผลลัพธ์"}
+  explain: "feedback = ==คำติชม== (นับไม่ได้ ไม่ใช้ a)"
+  status: approved
+- id: cefr-b2-w04-015
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: 'The project will be judged on three ____: cost, quality and speed.'
+  choices:
+    - {t: criteria, why: "เกณฑ์หลายข้อ ใช้ ++criteria++ (เอกพจน์ criterion)"}
+    - {t: outcomes, why: "outcomes คือผลลัพธ์ ไม่ใช่สิ่งที่ใช้ตัดสิน"}
+    - {t: evidence, why: "evidence นับไม่ได้ ใช้กับ three ไม่ได้"}
+    - {t: feedback, why: "feedback นับไม่ได้"}
+  explain: "criteria = ==เกณฑ์ (พหูพจน์)== · criterion = เอกพจน์"
+  status: approved
+- id: cefr-b2-w04-016
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: The final ____ of the talks was an agreement on prices.
+  choices:
+    - {t: outcome, why: "ผลลัพธ์สุดท้าย ใช้ ++outcome++"}
+    - {t: criteria, why: "criteria เป็นพหูพจน์ และคือเกณฑ์"}
+    - {t: estimate, why: "estimate คือการกะประมาณ"}
+    - {t: evidence, why: "evidence คือหลักฐาน"}
+  explain: "outcome = ==ผลลัพธ์ที่ออกมา=="
+  status: approved
+- id: cefr-b2-w04-017
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: Please check the numbers again. They need to be 100% ____.
+  choices:
+    - {t: accurate, why: "แม่นยำถูกต้อง ใช้ ++accurate++"}
+    - {t: significant, why: "significant แปลว่าสำคัญหรือมาก ไม่ใช่ถูกต้อง"}
+    - {t: estimate, why: "estimate เป็นคำนามหรือกริยา"}
+    - {t: evident, why: "evident แปลว่าชัดเจนเห็นได้ ไม่ใช่ถูกต้อง"}
+  explain: "accurate = ==แม่นยำ ถูกต้อง=="
+  status: approved
+- id: cefr-b2-w04-018
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: There is no ____ that the new diet works. Nobody has tested it properly.
+  choices:
+    - {t: evidence, why: "หลักฐาน ใช้ ++evidence++"}
+    - {t: feedback, why: "feedback คือความคิดเห็น ไม่ใช่หลักฐาน"}
+    - {t: outcome, why: "no outcome that ... ไม่เป็นธรรมชาติ"}
+    - {t: criteria, why: "criteria เป็นพหูพจน์ และคือเกณฑ์"}
+  explain: "evidence = ==หลักฐาน== (นับไม่ได้ ไม่เติม s)"
+  status: approved
+- id: cefr-b2-w04-019
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: The survey results ____ that most customers prefer shopping online.
+  choices:
+    - {t: indicate, why: "บ่งชี้ ใช้ ++indicate that++"}
+    - {t: estimate, why: "ผลสำรวจไม่ได้กะประมาณ"}
+    - {t: assess, why: "assess that ไม่เป็นธรรมชาติกับผลสำรวจ"}
+    - {t: identify, why: "identify that ใช้น้อย และหมายถึงระบุตัว"}
+  explain: "indicate = ==บ่งชี้ แสดงให้เห็น=="
+  status: approved
+- id: cefr-b2-w04-020
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: The first step is to ____ the main causes of the problem.
+  choices:
+    - {t: identify, why: "ระบุ หาให้เจอ ใช้ ++identify++"}
+    - {t: estimate, why: "estimate ใช้กับตัวเลขหรือปริมาณ"}
+    - {t: indicate, why: "indicate the causes แปลว่าชี้ให้คนอื่นดู ไม่ใช่หาเอง"}
+    - {t: accurate, why: "accurate เป็นคุณศัพท์"}
+  explain: "identify = ==ระบุ หาให้รู้ว่าคืออะไร=="
+  status: approved
+- id: cefr-b2-w04-021
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: We need to ____ the data carefully before we make a decision.
+  choices:
+    - {t: analyse, why: "วิเคราะห์ ใช้ ++analyse++"}
+    - {t: indicate, why: "indicate the data ไม่มีความหมาย"}
+    - {t: estimate, why: "estimate the data ไม่เป็นธรรมชาติ"}
+    - {t: feedback, why: "feedback เป็นคำนาม"}
+  explain: "analyse = ==วิเคราะห์== (อเมริกัน analyze)"
+  status: approved
+- id: cefr-b2-w04-022
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: Experts ____ that the repairs will take about six months.
+  choices:
+    - {t: estimate, why: "กะประมาณ ใช้ ++estimate++"}
+    - {t: evaluate, why: "evaluate that ไม่ใช้บอกการกะเวลา"}
+    - {t: identify, why: "identify ไม่ใช้กะระยะเวลา"}
+    - {t: analyse, why: "analyse that ไม่เป็นธรรมชาติ"}
+  explain: "estimate = ==กะประมาณ ประเมินตัวเลข=="
+  status: approved
+- id: cefr-b2-w04-023
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 3
+  stem: 'There was a ____ increase in sales after the advertisement: almost 40%.'
+  choices:
+    - {t: significant, why: "มากอย่างมีนัยสำคัญ ใช้ ++significant++"}
+    - {t: accurate, why: "accurate increase ไม่มีความหมาย"}
+    - {t: evident, why: "evident ไม่ใช้วางหน้า increase ในความหมายนี้"}
+    - {t: temporary, why: "ไม่มีข้อมูลว่าเพิ่มชั่วคราว และ almost 40% เน้นความมาก"}
+  explain: "significant = ==สำคัญ มากพอจะสังเกตได้=="
+  status: approved
+- id: cefr-b2-w04-024
+  kind: type
+  skill: vo
+  topic: evaluation
+  level: 2
+  stem: "At the end of the course, students will e_______ the teaching and suggest improvements. (ประเมินคุณค่า)"
+  answer: evaluate
+  accept: [evaluate]
+  why: "evaluate = ประเมินคุณค่าหรือคุณภาพของบางสิ่ง"
+  status: approved
+# ---------- วันที่ 3 · มีผู้กล่าวว่า และให้คนอื่นทำ ----------
+- id: cefr-b2-w04-025
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 1
+  stem: I ____ my hair cut yesterday. Do you like it?
+  choices:
+    - {t: had, why: "ให้คนอื่นทำให้ ใช้ ++have + สิ่งของ + ช่อง 3++"}
+    - {t: did, why: "did my hair cut ไม่ถูกรูป"}
+    - {t: made, why: "made my hair cut ไม่ถูกรูป"}
+    - {t: let, why: "let ตามด้วยกริยารูปเดิม และความหมายต่างกัน"}
+  explain: "==have/get + สิ่งของ + ช่อง 3== = ให้คนอื่นทำให้"
+  status: approved
+- id: cefr-b2-w04-026
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 1
+  stem: It ____ that the new shopping centre will create 500 jobs.
+  choices:
+    - {t: is said, why: "มีผู้กล่าวว่า ใช้ ++It is said that++"}
+    - {t: says, why: "It says that ใช้กับข้อความในเอกสาร ไม่ใช่คนทั่วไปพูด"}
+    - {t: is saying, why: "ไม่ใช้รูปต่อเนื่องในโครงสร้างนี้"}
+    - {t: said, why: "It said ไม่บอกว่าใครพูด และต้องเป็นรูปถูกกระทำ"}
+  explain: "==It is said== / believed / reported that + ประโยค"
+  status: approved
+- id: cefr-b2-w04-027
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  stem: The old temple is believed ____ over 600 years ago.
+  choices:
+    - {t: to have been built, why: "เชื่อกันตอนนี้ว่าสร้างในอดีต ใช้ ++to have been + ช่อง 3++"}
+    - {t: to be built, why: "to be built ไม่ได้บอกว่าเกิดในอดีต"}
+    - {t: to build, why: "รูปกระทำ วัดสร้างตัวเองไม่ได้"}
+    - {t: being built, why: "หลัง is believed ต้องใช้ to"}
+  explain: "เหตุการณ์ในอดีต ==is believed to have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w04-028
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  stem: The singer is said ____ in a small village near Ubon.
+  choices:
+    - {t: to live, why: "ข่าวว่าอาศัยอยู่ตอนนี้ ใช้ ++is said to + กริยารูปเดิม++"}
+    - {t: living, why: "หลัง is said ต้องใช้ to"}
+    - {t: that she lives, why: "is said that ใช้เมื่อประธานคือ It"}
+    - {t: lives, why: "บทไม่ได้พูดว่า lives"}
+  explain: "ประธานคือคน ==คน + is said to + กริยา=="
+  status: approved
+- id: cefr-b2-w04-029
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  stem: We're getting the kitchen ____ next month. It's going to be expensive.
+  choices:
+    - {t: redecorated, why: "get + สิ่งของ + ++ช่อง 3++ ให้ช่างทำให้"}
+    - {t: redecorate, why: "หลัง get + สิ่งของ ต้องใช้ช่อง 3"}
+    - {t: to redecorate, why: "get something to do ความหมายต่างกัน"}
+    - {t: redecorating, why: "get the kitchen redecorating ไม่ถูกรูป"}
+  explain: "==get + สิ่งของ + ช่อง 3== (ภาษาพูดกว่า have)"
+  status: approved
+- id: cefr-b2-w04-030
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 3
+  stem: "\"She had her bag stolen on the bus.\" What does this mean?"
+  choices:
+    - {t: someone stole her bag, why: "have + สิ่งของ + ช่อง 3 ใช้กับ ++สิ่งไม่ดีที่เกิดกับเรา++ ได้ด้วย"}
+    - {t: she asked someone to steal her bag, why: "ในบริบทนี้ไม่ได้หมายถึงจ้างให้ทำ"}
+    - {t: she stole a bag, why: "เธอเป็นผู้เสียหาย ไม่ใช่ผู้ขโมย"}
+    - {t: her bag was found, why: "ไม่มีข้อมูลว่าหาเจอ"}
+  explain: "have something stolen/broken = ==เจอเหตุร้ายกับของของเรา=="
+  status: approved
+- id: cefr-b2-w04-031
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 3
+  stem: "Which sentence has the same meaning as \"People think the company is losing money.\""
+  choices:
+    - {t: "The company is thought to be losing money.", why: "is thought to be + -ing ++คงความหมายกำลังขาดทุน++"}
+    - {t: "The company is thought to lose money.", why: "หายความหมายว่ากำลังเกิดอยู่ตอนนี้"}
+    - {t: "The company thinks it is losing money.", why: "เปลี่ยนผู้คิดเป็นบริษัท"}
+    - {t: "It is thought the company to be losing money.", why: "It is thought ต้องตามด้วย that + ประโยค"}
+  explain: "กำลังเกิด ==is thought to be + -ing== · เกิดแล้ว to have + ช่อง 3"
+  status: approved
+- id: cefr-b2-w04-032
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  stem: You should ____ your eyes tested every two years.
+  choices:
+    - {t: have, why: "ให้หมอตรวจ ใช้ ++have + สิ่งของ + ช่อง 3++"}
+    - {t: make, why: "make your eyes tested ไม่ถูกรูป"}
+    - {t: let, why: "let ตามด้วยกริยารูปเดิม ไม่ใช่ tested"}
+    - {t: be, why: "be your eyes tested ไม่ถูกรูป"}
+  explain: "==have your eyes tested== / your car serviced"
+  status: approved
+- id: cefr-b2-w04-033
+  kind: type
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  stem: "It is r_______ that over 100 people were injured in the storm. (มีรายงานว่า)"
+  answer: reported
+  accept: [reported]
+  why: "It is reported that = มีรายงานว่า"
+  status: approved
+- id: cefr-b2-w04-034
+  kind: cloze
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  text: |
+    Evaluation summary: the reading project (1) ____ in six schools last year. Overall, it (2) ____ to have been a success. However, some books were damaged, so next year all books (3) ____ before they are given to students.
+  questions:
+    - choices:
+        - {t: was introduced, why: "ถูกนำมาใช้ในอดีต last year"}
+        - {t: has introduced, why: "รูปกระทำ และ last year ใช้ present perfect ไม่ได้"}
+        - {t: introduced, why: "รูปกระทำ โครงการแนะนำตัวเองไม่ได้"}
+        - {t: is introduced, why: "ต้องเป็นอดีตตาม last year"}
+    - choices:
+        - {t: is considered, why: "is considered to have been = ถือกันว่า"}
+        - {t: considers, why: "รูปกระทำ โครงการไม่ได้คิดเอง"}
+        - {t: is considering, why: "รูปต่อเนื่องไม่ใช้ในโครงสร้างนี้"}
+        - {t: considered, why: "ขาด is จึงใช้ไม่ได้"}
+    - choices:
+        - {t: will be checked, why: "อนาคต passive หนังสือถูกตรวจก่อนแจก"}
+        - {t: will check, why: "รูปกระทำ หนังสือตรวจตัวเองไม่ได้"}
+        - {t: are checking, why: "รูปกระทำ จึงใช้ไม่ได้"}
+        - {t: will have checked, why: "บทไม่ได้พูดว่า will have checked"}
+  status: approved
+# ---------- วันที่ 4 · อ่านสรุปผลการประเมินและฟังการบรรยายข้อมูล ----------
+- id: cefr-b2-w04-035
+  kind: read
+  skill: rd
+  topic: evaluation-summary
+  level: 2
+  title: "Evaluation Summary · Free Bicycle Scheme, Year 1"
+  passage: |
+    The free bicycle scheme was launched in the city centre in January. Two hundred bicycles were placed at twenty stations, and residents were invited to use them for up to two hours at no cost. The scheme was evaluated after twelve months using three criteria: number of users, effect on traffic, and cost.
+
+    The number of users was significantly higher than expected. Approximately 45,000 trips were recorded, compared with an estimate of 30,000. Feedback from a survey of 1,200 users indicates that most riders were office workers travelling short distances, and many said they had stopped using motorbike taxis for these trips.
+
+    The effect on traffic is harder to assess. Traffic in the city centre fell by 3%, but this change is not considered significant, because traffic also fell in areas without bicycles. More evidence is needed before any conclusions can be drawn.
+
+    Costs were higher than planned. Thirty bicycles were stolen and many more had to be repaired. It is estimated that repairs cost 400,000 baht, twice the original budget. It has been recommended that the bicycles should be fitted with GPS trackers, and that a small deposit should be charged to new users.
+
+    Overall, the scheme is believed to have been a success with the public, and it will be continued for a second year.
+  questions:
+    - stem: How did the number of trips compare with the estimate?
+      choices:
+        - {t: it was 15,000 higher, why: "45,000 compared with an estimate of 30,000"}
+        - {t: it was lower, why: "จำนวนจริงสูงกว่าที่คาด"}
+        - {t: it was exactly the same, why: "ต่างกัน 15,000 เที่ยว"}
+        - {t: it was not recorded, why: "มีตัวเลขบันทึกไว้"}
+    - stem: Why is the fall in traffic NOT seen as significant?
+      choices:
+        - {t: traffic also fell where there were no bicycles, why: "because traffic also fell in areas without bicycles"}
+        - {t: the fall was too large, why: "ลดเพียง 3% จึงใช้ไม่ได้"}
+        - {t: the survey was too small, why: "เหตุผลไม่ได้อยู่ที่ขนาดแบบสำรวจ"}
+        - {t: nobody measured it, why: "มีการวัดว่าลด 3%"}
+    - stem: What is recommended to reduce costs?
+      choices:
+        - {t: trackers and a deposit for new users, why: "fitted with GPS trackers, and that a small deposit should be charged"}
+        - {t: closing some stations, why: "ไม่มีข้อเสนอนี้"}
+        - {t: charging all users per trip, why: "เสนอแค่ค่ามัดจำเล็กน้อยสำหรับผู้ใช้ใหม่"}
+        - {t: buying cheaper bicycles, why: "บทไม่ได้พูดว่า buying cheaper bicycles"}
+    - stem: What will happen to the scheme?
+      choices:
+        - {t: it will continue for another year, why: "it will be continued for a second year"}
+        - {t: it will be stopped, why: "ตรงกันข้าม จะทำต่อ"}
+        - {t: it will move to another city, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: it will be evaluated again before it continues, why: "ตัดสินใจแล้วว่าจะทำต่อ"}
+  status: approved
+- id: cefr-b2-w04-036
+  kind: listen
+  skill: li
+  topic: data-presentation
+  level: 2
+  script:
+    - {who: Woman, en: "As you can see in this chart, customer complaints have been reduced by almost half since the new system was introduced in May."}
+  questions:
+    - stem: What happened after May?
+      choices:
+        - {t: complaints fell by about 50%, why: "have been reduced by almost half"}
+        - {t: complaints doubled, why: "ตรงกันข้าม ลดลงเกือบครึ่ง"}
+        - {t: a new system was removed, why: "ระบบใหม่ถูกนำมาใช้ ไม่ใช่ถูกเอาออก"}
+        - {t: no change was seen, why: "มีการลดลงชัดเจน"}
+  status: approved
+- id: cefr-b2-w04-037
+  kind: listen
+  skill: li
+  topic: data-presentation
+  level: 2
+  script:
+    - {who: Man, en: "What about the new branch? Is it making money?"}
+    - {who: Woman, en: "It's too early to say. We estimate it'll break even next year, but the data still needs to be analysed properly."}
+  questions:
+    - stem: What does the woman say about the new branch?
+      choices:
+        - {t: it is too early to know, why: "It's too early to say"}
+        - {t: it is making a lot of money, why: "ยังไม่รู้ผล จึงใช้ไม่ได้"}
+        - {t: it will close next year, why: "คาดว่าปีหน้าจะคุ้มทุน ไม่ใช่ปิด"}
+        - {t: the data has been fully analysed, why: "the data still needs to be analysed"}
+  status: approved
+- id: cefr-b2-w04-038
+  kind: listen
+  skill: li
+  topic: data-presentation
+  level: 2
+  script:
+    - {who: Man, en: "I'm afraid I can't come in tomorrow morning. I'm having my car repaired, and it won't be ready until noon."}
+  questions:
+    - stem: Why can't the man come in the morning?
+      choices:
+        - {t: a mechanic is fixing his car, why: "I'm having my car repaired = ให้ช่างซ่อมรถ"}
+        - {t: he is repairing a car himself, why: "having my car repaired แปลว่าให้คนอื่นซ่อมให้"}
+        - {t: he has a medical appointment, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: his car was stolen, why: "รถอยู่ที่อู่ ไม่ได้ถูกขโมย"}
+  status: approved
+- id: cefr-b2-w04-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The results, will be, sent to you, by email]
+  sentence: The results will be sent to you by email.
+  th: ผลจะถูกส่งให้คุณทางอีเมล
+  why: "future passive will be + ช่อง 3"
+  status: approved
+- id: cefr-b2-w04-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The painting, is thought, to have been, stolen last night]
+  sentence: The painting is thought to have been stolen last night.
+  th: เชื่อกันว่าภาพวาดถูกขโมยไปเมื่อคืน
+  why: "is thought to have been + ช่อง 3 สำหรับเหตุการณ์ในอดีต"
+  status: approved
+- id: cefr-b2-w04-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We need to, get the air conditioner, serviced, before the hot season]
+  sentence: We need to get the air conditioner serviced before the hot season.
+  th: เราต้องให้ช่างล้างแอร์ก่อนหน้าร้อน
+  why: "get + สิ่งของ + ช่อง 3"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b2-w04-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The results, indicate that, the programme has been, a significant success, and it will be, continued next year]
+  sentence: The results indicate that the programme has been a significant success, and it will be continued next year.
+  th: ผลบ่งชี้ว่าโครงการประสบความสำเร็จอย่างมาก และจะดำเนินต่อในปีหน้า
+  why: "indicate that + ประโยค แล้ว will be + ช่อง 3"
+  status: approved

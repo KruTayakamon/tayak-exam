@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 4 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 4
+phase: 1
+theme_th: การประเมินและข้อมูล
+focus_th: passive ทุกรูป (tense · modal · -ing · to) · It is said that / is said to · have/get something done
+can_do_th:
+  - อ่านและสรุปข้อมูลผลการประเมินได้
+  - เขียนเชิงรายงานโดยใช้ passive ได้เหมาะสม
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: passive ทุกรูป
+    lesson:
+      rule_th: "passive = ==be (รูปตาม tense) + ช่อง 3== เปลี่ยนแค่ be ส่วนช่อง 3 คงเดิม · หลัง modal ใช้ ++be + ช่อง 3++ · หลังกริยาที่ตามด้วย -ing หรือ to ใช้ being / to be + ช่อง 3"
+      examples:
+        - {en: "The bridge <k>is being built</k>.", th: "กำลังถูกสร้าง"}
+        - {en: "The results <k>have been sent</k>.", th: "ถูกส่งไปแล้ว"}
+        - {en: "The form <k>must be returned</k> by Friday.", th: "==หลัง modal ใช้ be=="}
+        - {en: "I hate <k>being told</k> what to do.", th: "passive แบบ -ing"}
+      signals:
+        - {label_th: "รูปของ be", words: ["is being", "has been", "was being", "had been", "will be", "must be", "should have been"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่ต้องมีคำว่า ถูก เสมอ คนจึงเขียน ~~รูปกระทำแทน passive~~ หรือลืม been"
+        wrong: ["The report has sent to the manager.", "The form must returned by Friday."]
+        right: ["The report has been sent to the manager.", "The form must be returned by Friday."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==ประธานทำเองได้ไหม== ถ้าไม่ได้ ต้องใช้ passive"}
+        - {kind: use, th: "รายงานทางการนิยม passive เพราะเน้นงาน ไม่เน้นคนทำ"}
+    check: [cefr-b2-w04-001, cefr-b2-w04-002]
+    practice: [cefr-b2-w04-003, cefr-b2-w04-004, cefr-b2-w04-005, cefr-b2-w04-006, cefr-b2-w04-007, cefr-b2-w04-008, cefr-b2-w04-009, cefr-b2-w04-010, cefr-b2-w04-011, cefr-b2-w04-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับสิ่งที่กำลังเปลี่ยนแปลงในที่ทำงานหรือเมืองของคุณ ใช้ passive
+      frame: "At the moment, ____ is being ____. By next year, ____ will have been ____."
+      model: "At the moment, a new train line is being built near my house. By next year, the old market will have been moved to a bigger building."
+    classroom: {en: "The results will be sent by email.", th: "ผลจะส่งทางอีเมล"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การประเมิน 12 คำ
+    lesson:
+      rule_th: "คำศัพท์การประเมินแบ่งเป็น ==กริยา== (assess evaluate analyse identify estimate indicate) กับคำนาม ++criteria feedback outcome evidence++ ระวังคำนามนับไม่ได้"
+      examples:
+        - {en: "We <k>evaluated</k> the scheme after a year.", th: "ประเมินคุณค่า"}
+        - {en: "There is no <k>evidence</k> that it works.", th: "==evidence นับไม่ได้=="}
+        - {en: "Three <k>criteria</k> were used.", th: "criteria เป็นพหูพจน์"}
+        - {en: "The results <k>indicate</k> that ...", th: "บ่งชี้"}
+      words:
+        - {w: assess, pos: v., th: ประเมิน, ex: "The nurse assessed the patient."}
+        - {w: evaluate, pos: v., th: ประเมินคุณค่า, ex: "We will evaluate the course."}
+        - {w: criteria, pos: n. pl., th: เกณฑ์, ex: "What are the criteria for the award?"}
+        - {w: feedback, pos: n., th: คำติชม, ex: "Thanks for your feedback."}
+        - {w: outcome, pos: n., th: ผลลัพธ์, ex: "The outcome was positive."}
+        - {w: accurate, pos: adj., th: แม่นยำ ถูกต้อง, ex: "Is this information accurate?"}
+        - {w: evidence, pos: n., th: หลักฐาน, ex: "There is strong evidence for this."}
+        - {w: indicate, pos: v., th: บ่งชี้, ex: "The data indicates a rise."}
+        - {w: identify, pos: v., th: ระบุ, ex: "Can you identify the problem?"}
+        - {w: analyse, pos: v., th: วิเคราะห์, ex: "We analysed the results."}
+        - {w: estimate, pos: v./n., th: กะประมาณ, ex: "I estimate it will cost 5,000 baht."}
+        - {w: significant, pos: adj., th: สำคัญ มากพอจะสังเกตได้, ex: "There was a significant change."}
+      thai_trap:
+        intro_th: "คนไทยมักเติม s ให้ ~~feedbacks / evidences~~ และใช้ criteria เป็นเอกพจน์"
+        wrong: ["Thank you for your feedbacks.", "This criteria is important."]
+        right: ["Thank you for your feedback.", "This criterion is important."]
+      notes:
+        - {kind: pin, th: "==feedback · evidence · information== นับไม่ได้ ไม่เติม s"}
+        - {kind: warn, th: "assess มักใช้กับระดับหรือความสามารถ evaluate ใช้กับคุณค่าของโครงการ"}
+    check: [cefr-b2-w04-013, cefr-b2-w04-014]
+    practice: [cefr-b2-w04-015, cefr-b2-w04-016, cefr-b2-w04-017, cefr-b2-w04-018, cefr-b2-w04-019, cefr-b2-w04-020, cefr-b2-w04-021, cefr-b2-w04-022, cefr-b2-w04-023, cefr-b2-w04-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณจะประเมินคอร์สออนไลน์ด้วยเกณฑ์อะไร
+      frame: "I would evaluate the course using two criteria: ____ and ____. The most significant one is ____."
+      model: "I would evaluate the course using two criteria: how much I can use in real life and how easy it is to follow. The most significant one is the first, because that is why I'm studying."
+    classroom: {en: "Do you have any feedback for me?", th: "มีอะไรอยากติชมไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: มีผู้กล่าวว่า และให้คนอื่นทำ
+    lesson:
+      rule_th: "==It is said that + ประโยค== หรือ ++คน + is said to + กริยา++ (เกิดในอดีตใช้ to have + ช่อง 3) · ให้คนอื่นทำให้ใช้ have/get + สิ่งของ + ช่อง 3"
+      examples:
+        - {en: "<k>It is said that</k> the market will close.", th: "มีผู้กล่าวว่า"}
+        - {en: "The temple <k>is believed to have been</k> built in 1400.", th: "==เชื่อกันว่าสร้างในอดีต=="}
+        - {en: "I <k>had my hair cut</k> yesterday.", th: "ให้ช่างตัดผมให้"}
+        - {en: "She <k>had her bag stolen</k>.", th: "เจอเหตุร้ายกับของของตน"}
+      signals:
+        - {label_th: "กริยารายงาน", words: ["said", "believed", "thought", "reported", "expected", "known"]}
+      thai_trap:
+        intro_th: "คนไทยพูดว่า ฉันตัดผมมา จึงเขียน ~~I cut my hair~~ ทั้งที่ช่างตัดให้ (ความหมายคือตัดเอง)"
+        wrong: ["I cut my hair at the salon yesterday.", "He is said that he is rich."]
+        right: ["I had my hair cut at the salon yesterday.", "He is said to be rich."]
+      notes:
+        - {kind: tip, th: "ประธานเป็น It ใช้ ==that + ประโยค== · ประธานเป็นคนหรือสิ่งของใช้ to"}
+        - {kind: use, th: "get เป็นภาษาพูด have สุภาพกว่าเล็กน้อย ใช้แทนกันได้"}
+    check: [cefr-b2-w04-025, cefr-b2-w04-026]
+    practice: [cefr-b2-w04-027, cefr-b2-w04-028, cefr-b2-w04-029, cefr-b2-w04-030, cefr-b2-w04-031, cefr-b2-w04-032, cefr-b2-w04-033, cefr-b2-w04-034]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกสิ่งที่คุณให้คนอื่นทำให้เดือนนี้ และเรื่องที่คนพูดถึงกันในเมืองของคุณ
+      frame: "This month I had my ____ ____. In my town, it is said that ____."
+      model: "This month I had my phone screen repaired. In my town, it is said that a big department store will open next year."
+    classroom: {en: "Where do you get your car serviced?", th: "ปกติเอารถไปเช็กที่ไหน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านสรุปผลการประเมินและฟังการบรรยายข้อมูล
+    lesson:
+      rule_th: "สรุปผลการประเมินเรียงเป็น ==เกณฑ์ทีละข้อ== แต่ละข้อมีตัวเลขเทียบกับที่คาด ++คำตอบมักอยู่ในประโยค passive++ เช่น is not considered significant"
+      examples:
+        - {en: "The scheme was evaluated using three <k>criteria</k>.", th: "บอกเกณฑ์"}
+        - {en: "45,000 trips, <k>compared with</k> an estimate of 30,000", th: "==เทียบกับที่คาด=="}
+        - {en: "<k>It has been recommended</k> that ...", th: "ข้อเสนอแนะ"}
+      thai_trap:
+        intro_th: "ผู้อ่านมักคิดว่าตัวเลขที่ลดลงคือความสำเร็จเสมอ แต่รายงานอาจบอกว่า ~~not significant~~ คือยังสรุปไม่ได้"
+        wrong: ["สรุปว่าจักรยานทำให้รถติดน้อยลง"]
+        right: ["รายงานบอกว่ายังสรุปไม่ได้ เพราะที่อื่นรถก็ลดลงเหมือนกัน"]
+      notes:
+        - {kind: tip, th: "จับคำ ==however · but · not considered== ข้อสรุปที่แท้จริงมักตามหลัง"}
+        - {kind: use, th: "ฟังกราฟ จดสามอย่าง ขึ้นหรือลง เท่าไร ตั้งแต่เมื่อไร"}
+    check: [cefr-b2-w04-036, cefr-b2-w04-037]
+    practice: [cefr-b2-w04-035, cefr-b2-w04-038, cefr-b2-w04-039, cefr-b2-w04-040, cefr-b2-w04-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปผลของโครงการจักรยานฟรี ใช้ passive อย่างน้อย 1 จุด
+      frame: "The scheme was ____. However, ____."
+      model: "The scheme was used much more than expected. However, thirty bicycles were stolen, and repairs cost twice the original budget."
+    classroom: {en: "What do the results indicate?", th: "ผลบ่งชี้อะไร"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน สรุปผลการประเมินจากข้อมูล 130 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนสรุปผลการประเมินประมาณ 130 คำ จากข้อมูลนี้ — โครงการ: ห้องอ่านหนังสือของชุมชนเปิดตอนเย็น 6 เดือน · ผู้ใช้จริง 2,400 ครั้ง (คาดไว้ 1,500) · แบบสอบถาม 300 คน พอใจ 82% · ปัญหา: ไฟไม่พอ ที่นั่งเต็มช่วงสอบ · ค่าไฟสูงกว่างบ 20% · ข้อเสนอ: ติดไฟ LED เพิ่มที่นั่ง 20 ที่"
+      frame:
+        - "The community reading room was opened ____ and was evaluated after ____."
+        - "Approximately ____ visits were recorded, compared with ____."
+        - "Feedback from ____ indicates that ____."
+        - "However, two problems were identified: ____."
+        - "It is recommended that ____."
+      model_pass: "The community reading room was opened in the evenings for six months and was evaluated after that period. Approximately 2,400 visits were recorded, compared with an estimate of 1,500. Feedback from 300 users indicates that 82% were satisfied with the service. However, two problems were identified: the lighting was not good enough, and the room was often full during exam periods. In addition, electricity costs were 20% higher than the budget. It is recommended that LED lights should be installed and that twenty more seats should be added. Overall, the project is considered a success and should be continued."
+      model_good: "The community reading room was opened in the evenings as a six-month trial and was evaluated at the end of that period. Usage was significantly higher than expected: approximately 2,400 visits were recorded, compared with an original estimate of 1,500. Feedback collected from 300 users indicates a high level of satisfaction, with 82% rating the service positively. However, two problems were identified. First, the lighting was considered inadequate, particularly for older readers. Second, the room was frequently full during exam periods, and some students were turned away. Electricity costs were also 20% above budget. It is therefore recommended that the existing lights be replaced with LED lighting, which should reduce costs, and that twenty additional seats be provided. Overall, the trial is believed to have met its objectives, and it should be continued."
+      steps_th:
+        - อ่านข้อมูลแล้วจัดเป็นสามกลุ่ม ผลที่ได้ ปัญหา ข้อเสนอ
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 110–150 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนเฉพาะ passive ทุกจุด (be + ช่อง 3 ครบไหม)
+      checklist_th:
+        - ใช้ passive อย่างน้อย 4 จุด และถูกรูปทุกจุด
+        - มีตัวเลขเทียบกับที่คาด อย่างน้อย 1 จุด
+        - มีปัญหาและข้อเสนอแนะ (It is recommended that ...)
+        - ภาษาเป็นทางการ ไม่ใช้ I หรือ we มากเกินไป และยาวประมาณ 130 คำ
+    practice: [cefr-b2-w04-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 4
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [1, 2, 3, 4], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
