@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 3 · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 3
+phase: 1
+theme_th: ภาษาสมมติและภาษาทางการสูง
+focus_th: subjunctive (recommend that + be · be it · suffice it to say · come what may · if need be · so be it · Were we to) · เงื่อนไขแฝง (in the event that · on condition that · had it not been for · but for · without · otherwise)
+can_do_th:
+  - อ่านและเข้าใจภาษาในข้อตกลงทางการได้
+  - เจรจาเงื่อนไขความร่วมมืออย่างสุภาพและแม่นยำ
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: subjunctive ตายตัว
+    lesson:
+      rule_th: "subjunctive ในภาษาอังกฤษปัจจุบันเหลือสองแบบ ==หลัง recommend== / insist / essential that ใช้กริยารูปเดิมทุกประธาน · ++สำนวนตายตัวที่ต้องจำทั้งก้อน (be it++ · come what may · if need be · so be it · suffice it to say)"
+      examples:
+        - {en: "They recommended that he <k>be</k> interviewed.", th: "==ไม่ใช้ is / was=="}
+        - {en: "It's essential that she <k>not eat</k> before the test.", th: "ปฏิเสธใช้ not + กริยา"}
+        - {en: "<k>Come what may</k>, we'll finish on time.", th: "ไม่ว่าจะเกิดอะไร"}
+        - {en: "<k>Were we to</k> accept, we'd cut prices.", th: "ถ้าเผื่อว่า (ทางการ)"}
+      signals:
+        - {label_th: "ตามด้วย subjunctive", words: ["recommend / suggest that", "insist / demand that", "It is essential / vital that", "require that"]}
+      thai_trap:
+        intro_th: "คนไทยผันกริยาตามประธานจนเป็นนิสัย จึงเขียน ~~recommend that he attends~~ หรือใช้รูปอดีตตามประโยคหลัก"
+        wrong: ["The doctor insisted that he stops smoking.", "It is vital that she doesn't miss the train."]
+        right: ["The doctor insisted that he stop smoking.", "It is vital that she not miss the train."]
+      notes:
+        - {kind: tip, th: "ภาษาอังกฤษแบบบริติชใช้ ==should + กริยา== แทนได้ (insisted that he should stop)"}
+        - {kind: use, th: "ปิดจดหมาย Should you have any questions, please let me know."}
+    check: [cefr-c2-w03-001, cefr-c2-w03-002]
+    practice: [cefr-c2-w03-003, cefr-c2-w03-004, cefr-c2-w03-005, cefr-c2-w03-006, cefr-c2-w03-007, cefr-c2-w03-008, cefr-c2-w03-009, cefr-c2-w03-010, cefr-c2-w03-011, cefr-c2-w03-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบอีเมลทางการ ใช้ subjunctive และ Should you ...
+      frame: "We recommend that ____ be ____. Should you ____, please ____."
+      model: "We recommend that all participants be registered by Friday. Should you have any difficulty with the online form, please contact our office."
+    classroom: {en: "Suffice it to say, it didn't go well.", th: "ขอพูดแค่ว่ามันไม่ราบรื่น"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ภาษาทางการและข้อตกลง 12 คำ
+    lesson:
+      rule_th: "ภาษาในสัญญาใช้คำเก่าที่ภาษาพูดไม่ใช้ ==hitherto (จนถึงบัดนี้)== · henceforth (นับจากนี้) · forthwith (ทันที) · thereof (ของสิ่งนั้น) และ ++คำบอกเงื่อนไข proviso++ · contingent on · abide by"
+      examples:
+        - {en: "a species <k>hitherto</k> unknown", th: "จนถึงบัดนี้"}
+        - {en: "<k>Henceforth</k>, badges are required.", th: "==นับจากนี้ไป=="}
+        - {en: "The offer is <k>contingent on</k> the check.", th: "ขึ้นอยู่กับ"}
+        - {en: "We will <k>abide by</k> the decision.", th: "ปฏิบัติตาม"}
+      words:
+        - {w: hitherto, pos: adv., th: จนถึงบัดนี้, ex: "a hitherto unknown artist"}
+        - {w: henceforth, pos: adv., th: นับจากนี้ไป, ex: "Henceforth, meetings will start at nine."}
+        - {w: forthwith, pos: adv., th: ทันที, ex: "He was dismissed forthwith."}
+        - {w: thereof, pos: adv., th: ของสิ่งนั้น, ex: "the building and any part thereof"}
+        - {w: proviso, pos: n., th: ข้อแม้, ex: "with the proviso that it is repaid"}
+        - {w: contingent, pos: adj., th: ขึ้นอยู่กับ, ex: "Success is contingent on funding."}
+        - {w: preclude, pos: v., th: ทำให้เป็นไปไม่ได้, ex: "The rules preclude part-time staff."}
+        - {w: necessitate, pos: v., th: ทำให้จำเป็น, ex: "The change will necessitate training."}
+        - {w: warrant, pos: v., th: สมควรได้รับ, ex: "The issue warrants further study."}
+        - {w: abide, pos: v., th: ปฏิบัติตาม (abide by), ex: "Players must abide by the rules."}
+        - {w: statutory, pos: adj., th: ตามที่กฎหมายกำหนด, ex: "statutory sick pay"}
+        - {w: remit, pos: n., th: ขอบเขตหน้าที่, ex: "That is outside my remit."}
+      thai_trap:
+        intro_th: "คนไทยสลับ ~~hitherto กับ henceforth~~ เพราะแปลไทยใกล้กัน และใช้ abide โดยไม่มี by"
+        wrong: ["Henceforth, the rule had been ignored.", "We must abide the rules."]
+        right: ["Hitherto, the rule had been ignored.", "We must abide by the rules."]
+      notes:
+        - {kind: pin, th: "==hitherto ย้อนหลัง== · henceforth ไปข้างหน้า"}
+        - {kind: warn, th: "คำเหล่านี้ใช้ในเอกสารทางการเท่านั้น พูดทั่วไปจะฟังแปลก"}
+    check: [cefr-c2-w03-013, cefr-c2-w03-014]
+    practice: [cefr-c2-w03-015, cefr-c2-w03-016, cefr-c2-w03-017, cefr-c2-w03-018, cefr-c2-w03-019, cefr-c2-w03-020, cefr-c2-w03-021, cefr-c2-w03-022, cefr-c2-w03-023, cefr-c2-w03-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบประกาศทางการเรื่องกฎใหม่ในที่ทำงานหรือชุมชน
+      frame: "Henceforth, ____. This change is contingent on ____, with the proviso that ____."
+      model: "Henceforth, the meeting room may only be booked online. This change is contingent on the new system working properly, with the proviso that urgent meetings may still be arranged by phone."
+    classroom: {en: "I'm afraid that's outside my remit.", th: "ขอโทษ เรื่องนั้นอยู่นอกขอบเขตหน้าที่ของฉัน"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เงื่อนไขแฝง
+    lesson:
+      rule_th: "ไม่ต้องมี if ก็เป็นเงื่อนไขได้ ==without / but for + คำนาม== · otherwise · in the absence of และวลีทางการ ++in the event that++ · on condition that · Had it not been for · Were it not for"
+      examples:
+        - {en: "<k>Without</k> your help, I would have failed.", th: "==ถ้าไม่มี (แต่มี)=="}
+        - {en: "<k>Had it not been for</k> the delay, we'd have arrived.", th: "ถ้าไม่ใช่เพราะ (อดีต)"}
+        - {en: "<k>In the event that</k> the flight is cancelled, ...", th: "ในกรณีที่"}
+        - {en: "I forgot my umbrella; <k>otherwise</k> I'd be dry.", th: "ถ้าไม่อย่างนั้น"}
+      signals:
+        - {label_th: "อดีต กับ ปัจจุบัน", words: ["Had it not been for → อดีต", "Were it not for → ปัจจุบัน", "But for → ได้ทั้งสองแบบ"]}
+      thai_trap:
+        intro_th: "คนไทยแปล ถ้าไม่มี เป็น ~~unless + คำนาม~~ ซึ่งผิด เพราะ unless ต้องตามด้วยประโยค"
+        wrong: ["Unless your help, I would have failed.", "In case of the flight is cancelled, ..."]
+        right: ["Without your help, I would have failed.", "In the event that the flight is cancelled, ..."]
+      notes:
+        - {kind: tip, th: "ตามด้วย ==คำนาม== ใช้ without / but for · ตามด้วยประโยคใช้ unless"}
+        - {kind: use, th: "เจรจา We could agree, on condition that ..."}
+    check: [cefr-c2-w03-025, cefr-c2-w03-026]
+    practice: [cefr-c2-w03-027, cefr-c2-w03-028, cefr-c2-w03-029, cefr-c2-w03-030, cefr-c2-w03-031, cefr-c2-w03-032, cefr-c2-w03-033, cefr-c2-w03-034]
+    use:
+      prompt_th: เขียน 2 ประโยคขอบคุณคนที่ช่วยคุณ โดยใช้เงื่อนไขแฝง
+      frame: "Without ____, I would never have ____. Had it not been for ____, ____."
+      model: "Without my sister's encouragement, I would never have applied for this course. Had it not been for her, I would probably still be working nights."
+    classroom: {en: "But for you, we'd never have made it.", th: "ถ้าไม่มีคุณ เราคงไปไม่ถึง"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านข้อตกลงความร่วมมือและฟังการเจรจา
+    lesson:
+      rule_th: "ข้อตกลงทางการแบ่งเป็นข้อ คำถามมักถาม ==ใครมีหน้าที่อะไร== และเงื่อนไขไหนเปลี่ยนผล ++อ่านคำว่า shall++ · with the proviso that · in the event of · only if ให้ละเอียด"
+      examples:
+        - {en: "Riverside <k>shall</k> provide the building.", th: "หน้าที่"}
+        - {en: "<k>with the proviso that</k> ...", th: "==ข้อแม้ที่เปลี่ยนผล=="}
+        - {en: "<k>Only if</k> the committee fails ... <k>shall</k> the matter be referred ...", th: "เงื่อนไขเรียงลำดับ"}
+      thai_trap:
+        intro_th: "ผู้อ่านจำหน้าที่สลับฝ่าย เพราะ ~~อ่านแค่ชื่อแรกในย่อหน้า~~ แล้วเดาว่าทุกหน้าที่เป็นของฝ่ายนั้น"
+        wrong: ["ตอบว่า Northbridge รับสมัครนักศึกษา"]
+        right: ["Riverside รับสมัครนักศึกษา Northbridge ให้ครูและสื่อการสอน"]
+      notes:
+        - {kind: tip, th: "ทำตารางสองคอลัมน์ ==ฝ่าย A / ฝ่าย B== แล้วเติมหน้าที่ทีละข้อ"}
+        - {kind: use, th: "ฟังการเจรจา คำว่า otherwise และ so be it บอกจุดยืนสุดท้าย"}
+    check: [cefr-c2-w03-036, cefr-c2-w03-037]
+    practice: [cefr-c2-w03-035, cefr-c2-w03-038, cefr-c2-w03-039, cefr-c2-w03-040, cefr-c2-w03-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปเงื่อนไขการยกเลิกข้อตกลงศูนย์ภาษา
+      frame: "Either party may withdraw provided that ____. However, in the event of ____, ____."
+      model: "Either party may withdraw provided that it gives six months' written notice. However, in the event of a serious breach, the agreement can be ended immediately."
+    classroom: {en: "We could agree to that, on one condition.", th: "เราตกลงได้ แต่มีเงื่อนไขหนึ่งข้อ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด เจรจาเงื่อนไขความร่วมมือระหว่างสองหน่วยงาน 3 นาที
+    lab:
+      mode: speak
+      prompt_th: "พูด 3 นาทีในบทผู้แทนหน่วยงานหนึ่ง เสนอความร่วมมือกับอีกหน่วยงาน (เช่น ร้านกาแฟกับห้องสมุดชุมชน · โรงพยาบาลกับมหาวิทยาลัย · บริษัทกับโรงเรียน) บอกสิ่งที่แต่ละฝ่ายให้ เงื่อนไขสำคัญ สิ่งที่จะเกิดถ้ามีปัญหา และจุดที่คุณยอมได้กับยอมไม่ได้"
+      frame:
+        - "Thank you for meeting us. We'd like to propose ____."
+        - "Our side would provide ____, on condition that ____."
+        - "In the event that ____, we suggest that ____."
+        - "If need be, we could also ____; however, ____ would preclude ____."
+        - "Were you to accept these terms, ____."
+      model_pass: "Thank you for meeting us. We'd like to propose that our café runs a small coffee corner inside the community library. Our side would provide the staff, the equipment and the cleaning, on condition that the library gives us the space free of charge. In the event that customers make too much noise, we suggest that the corner closes during exam weeks. If need be, we could also donate five per cent of our income to the library; however, a fixed monthly rent would preclude us from keeping our prices low. Were you to accept these terms, we would be ready to start in January."
+      model_good: "Thank you for taking the time to meet us. In brief, we'd like to propose that our café operates a small coffee corner inside the community library. Our side would provide trained staff, all equipment and daily cleaning, on condition that the library makes the space available without rent for an initial year. We recognise that noise is the obvious concern, so, in the event that complaints exceed an agreed level, we suggest that the corner closes forthwith during exam periods. If need be, we could also contribute five per cent of our income to the library's book fund; a fixed monthly rent, by contrast, would effectively preclude us from keeping prices affordable for students, which is, after all, the point of the project. Were you to accept these terms in principle, we'd be happy to put them in writing and start in January. And should the first year not work for either of us, so be it; we would simply part as friends."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกสองหน่วยงาน แล้วจดสิ่งที่ให้ เงื่อนไข และจุดที่ยอมไม่ได้
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้เงื่อนไขแฝงหรือทางการอย่างน้อย 3 แบบ (on condition that · in the event that · were you to)
+        - ใช้ subjunctive หรือสำนวนตายตัวอย่างน้อย 1 จุด (if need be · so be it · suggest that it be)
+        - บอกจุดที่ยอมได้และยอมไม่ได้อย่างสุภาพ
+        - พูดได้ประมาณ 3 นาทีอย่างลื่นไหล
+    practice: [cefr-c2-w03-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 3
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [1, 2, 3], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

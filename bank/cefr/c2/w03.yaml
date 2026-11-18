@@ -1,0 +1,581 @@
+# คอร์ส c2 · สัปดาห์ 3 · ภาษาสมมติและภาษาทางการสูง · subjunctive ตายตัว (be it · suffice it to say · come what may · if need be · so be it) · เงื่อนไขแฝง
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · subjunctive ตายตัว ----------
+- id: cefr-c2-w03-001
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 1
+  stem: "The committee recommended that every applicant ____ interviewed in person."
+  choices:
+    - {t: be, why: "หลัง recommend / insist / suggest that ใช้ ++be (subjunctive)++"}
+    - {t: is, why: "ภาษาทางการหลัง recommend that ใช้ be ไม่ใช่ is"}
+    - {t: was, why: "was ใช้กับอดีตธรรมดา ไม่ใช่ subjunctive"}
+    - {t: being, why: "หลัง that ต้องมีกริยาแท้"}
+  explain: "==recommend== / insist / demand that + ประธาน + กริยารูปเดิม"
+  status: draft
+- id: cefr-c2-w03-002
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 1
+  stem: "____ it to say, the meeting did not go as planned."
+  choices:
+    - {t: Suffice, why: "สำนวนตายตัว ++Suffice it to say++ = พูดแค่นี้ก็พอ"}
+    - {t: Sufficient, why: "สำนวนใช้กริยา suffice ไม่ใช่คุณศัพท์"}
+    - {t: Suffices, why: "subjunctive ไม่เติม s"}
+    - {t: To suffice, why: "สำนวนไม่มี to ข้างหน้า"}
+  explain: "==Suffice it to say (that) ...== = ขอพูดแค่ว่า"
+  status: draft
+- id: cefr-c2-w03-003
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "We will finish the project on time, come ____ may."
+  choices:
+    - {t: what, why: "สำนวน ++come what may++ = ไม่ว่าจะเกิดอะไรขึ้น"}
+    - {t: which, why: "สำนวนใช้ what จึงใช้ไม่ได้"}
+    - {t: whatever, why: "สำนวนตายตัวใช้ what"}
+    - {t: it, why: "come it may ไม่ใช่สำนวน"}
+  explain: "==come what may== = ไม่ว่าจะเกิดอะไรขึ้น"
+  status: draft
+- id: cefr-c2-w03-004
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "Every customer, ____ it a large company or a single person, deserves the same respect."
+  choices:
+    - {t: be, why: "สำนวน ++be it A or B++ = ไม่ว่าจะเป็น A หรือ B"}
+    - {t: is, why: "สำนวนใช้ be ไม่ใช่ is"}
+    - {t: being, why: "สำนวนใช้ be it จึงใช้ไม่ได้"}
+    - {t: was, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+  explain: "==be it A or B== = whether it is A or B (ทางการ)"
+  status: draft
+- id: cefr-c2-w03-005
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "We can work through the weekend if ____ be."
+  choices:
+    - {t: need, why: "สำนวน ++if need be++ = ถ้าจำเป็น"}
+    - {t: needed, why: "สำนวนใช้ need จึงใช้ไม่ได้"}
+    - {t: necessary, why: "if necessary ใช้ได้ แต่ไม่มี be ตาม"}
+    - {t: needs, why: "subjunctive ไม่เติม s"}
+  explain: "==if need be== = if necessary"
+  status: draft
+- id: cefr-c2-w03-006
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "\"If the board wants to cancel the event, so ____ it. We've done our best.\""
+  choices:
+    - {t: be, why: "สำนวน ++so be it++ = ก็ปล่อยไป ยอมรับ"}
+    - {t: is, why: "สำนวนใช้ be จึงใช้ไม่ได้"}
+    - {t: does, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: let, why: "so let it ไม่ใช่สำนวน"}
+  explain: "==so be it== = ก็เอาตามนั้น (ยอมรับแม้ไม่ชอบ)"
+  status: draft
+- id: cefr-c2-w03-007
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "It is essential that the patient ____ any food for twelve hours before the test."
+  choices:
+    - {t: not eat, why: "subjunctive ปฏิเสธ ++not + กริยารูปเดิม++ (ไม่มี does)"}
+    - {t: doesn't eat, why: "ภาษาทางการใช้ not eat ไม่ใช่ doesn't eat"}
+    - {t: not eats, why: "subjunctive ไม่เติม s"}
+    - {t: won't eat, why: "will ไม่ใช้ในโครงสร้างนี้"}
+  explain: "ปฏิเสธ subjunctive ==that + ประธาน + not + กริยา=="
+  status: draft
+- id: cefr-c2-w03-008
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "____ we to accept their offer, we would have to cut our prices."
+  choices:
+    - {t: Were, why: "เงื่อนไขทางการ ++Were + ประธาน + to++ = If we were to"}
+    - {t: Should, why: "Should we accept ไม่มี to ตาม"}
+    - {t: Had, why: "Had we to ไม่ใช่รูปเงื่อนไขที่ถูก"}
+    - {t: Did, why: "Did we to ไม่ใช่รูปที่ถูก"}
+  explain: "==Were + ประธาน + to + กริยา== = ถ้าเผื่อว่า (ทางการ)"
+  status: draft
+- id: cefr-c2-w03-009
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 3
+  stem: "\"Far be it from me to tell you what to do, but...\" What is the speaker doing?"
+  choices:
+    - {t: politely introducing advice, why: "Far be it from me = ++ไม่อยากก้าวก่าย แต่จะแนะนำ++"}
+    - {t: refusing to give advice, why: "but ... แสดงว่ากำลังจะแนะนำ"}
+    - {t: describing a long distance, why: "ไม่ได้พูดถึงระยะทาง"}
+    - {t: giving an order, why: "เป็นการพูดอ้อมอย่างสุภาพ"}
+  explain: "==Far be it from me to ...== = ไม่ใช่หน้าที่ฉันหรอก แต่..."
+  status: draft
+- id: cefr-c2-w03-010
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 3
+  stem: "The contract requires that the supplier ____ notified of any changes in writing."
+  choices:
+    - {t: be, why: "require that + ++be + ช่อง 3++ (subjunctive passive)"}
+    - {t: is being, why: "ไม่ใช้รูปต่อเนื่อง"}
+    - {t: has been, why: "ไม่ใช่ subjunctive"}
+    - {t: to be, why: "หลัง that ต้องมีประธานและกริยาแท้"}
+  explain: "subjunctive passive ==that + ประธาน + be + ช่อง 3=="
+  status: draft
+- id: cefr-c2-w03-011
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "Should you ____ any further assistance, please do not hesitate to contact us."
+  choices:
+    - {t: require, why: "Should + ประธาน + ++กริยารูปเดิม++ = If you require"}
+    - {t: requires, why: "หลัง should ไม่เติม s"}
+    - {t: required, why: "หลัง should ใช้กริยารูปเดิม"}
+    - {t: to require, why: "หลัง should ไม่มี to"}
+  explain: "จดหมายทางการ ==Should you + กริยา ...== = If you ..."
+  status: draft
+- id: cefr-c2-w03-012
+  kind: type
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: "The manager insisted that he a________ the meeting in person. (เข้าร่วม · subjunctive)"
+  answer: attend
+  accept: [attend]
+  why: "insist that + ประธาน + กริยารูปเดิม (ไม่เติม s และไม่ใช้อดีต)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ภาษาทางการและข้อตกลง ----------
+- id: cefr-c2-w03-013
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 1
+  stem: "The research has revealed a species ____ unknown to science."
+  choices:
+    - {t: hitherto, why: "จนถึงบัดนี้ ใช้ ++hitherto++ (ทางการ)"}
+    - {t: henceforth, why: "henceforth แปลว่านับจากนี้ไป"}
+    - {t: forthwith, why: "forthwith แปลว่าทันที"}
+    - {t: thereof, why: "thereof แปลว่าของสิ่งนั้น"}
+  explain: "hitherto = ==จนถึงบัดนี้== ≈ until now"
+  status: draft
+- id: cefr-c2-w03-014
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 1
+  stem: "____, all staff will be required to wear an identity badge."
+  choices:
+    - {t: Henceforth, why: "นับจากนี้ไป ใช้ ++Henceforth++"}
+    - {t: Hitherto, why: "hitherto แปลว่าจนถึงบัดนี้ ไม่ใช่นับจากนี้"}
+    - {t: Thereof, why: "thereof ไม่ขึ้นต้นประโยคแบบนี้"}
+    - {t: Forthwith, why: "forthwith แปลว่าทันที ไม่ใช่ตลอดไปจากนี้"}
+  explain: "henceforth = ==นับจากนี้ไป== ≈ from now on"
+  status: draft
+- id: cefr-c2-w03-015
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "Any employee found guilty of theft will be dismissed ____."
+  choices:
+    - {t: forthwith, why: "ทันที ใช้ ++forthwith++"}
+    - {t: hitherto, why: "hitherto ไม่ใช้กับการไล่ออก"}
+    - {t: thereof, why: "thereof ไม่ใช้ในความหมายนี้"}
+    - {t: henceforth, why: "henceforth หมายถึงกฎตั้งแต่นี้ไป ไม่ใช่ทันที"}
+  explain: "forthwith = ==ทันที (ภาษากฎหมาย)=="
+  status: draft
+- id: cefr-c2-w03-016
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "The company owns the software and all copies ____."
+  choices:
+    - {t: thereof, why: "ของสิ่งนั้น ใช้ ++thereof++ (= of it)"}
+    - {t: hitherto, why: "hitherto ไม่ใช้ในตำแหน่งนี้"}
+    - {t: forthwith, why: "forthwith แปลว่าทันที"}
+    - {t: henceforth, why: "henceforth ไม่ใช้ในตำแหน่งนี้"}
+  explain: "thereof = ==ของสิ่งนั้น== (ภาษากฎหมาย)"
+  status: draft
+- id: cefr-c2-w03-017
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "They agreed to the loan with one ____: the money must be repaid within two years."
+  choices:
+    - {t: proviso, why: "เงื่อนไขที่แนบไว้ ใช้ ++proviso++"}
+    - {t: remit, why: "remit คือขอบเขตหน้าที่"}
+    - {t: statutory, why: "statutory เป็นคุณศัพท์"}
+    - {t: warrant, why: "warrant ในความหมายนี้เป็นกริยา"}
+  explain: "proviso = ==เงื่อนไข ข้อแม้== (with the proviso that ...)"
+  status: draft
+- id: cefr-c2-w03-018
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "The offer is ____ on the results of the medical check."
+  choices:
+    - {t: contingent, why: "ขึ้นอยู่กับ ใช้ ++contingent on/upon++"}
+    - {t: statutory, why: "statutory on ไม่ใช่สำนวน"}
+    - {t: precluded, why: "precluded on ไม่ใช่สำนวน"}
+    - {t: abided, why: "abide ต้องตามด้วย by"}
+  explain: "==be contingent on / upon== = ขึ้นอยู่กับ (ทางการ)"
+  status: draft
+- id: cefr-c2-w03-019
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "His injury ____ any chance of playing in the final."
+  choices:
+    - {t: precluded, why: "ทำให้เป็นไปไม่ได้ ใช้ ++preclude++"}
+    - {t: necessitated, why: "necessitate แปลว่าทำให้จำเป็น ขัดกับบริบท"}
+    - {t: warranted, why: "warrant แปลว่าสมควร ขัดกับบริบท"}
+    - {t: abided, why: "abide ไม่ใช้ในความหมายนี้"}
+  explain: "preclude = ==ทำให้เป็นไปไม่ได้ ตัดโอกาส=="
+  status: draft
+- id: cefr-c2-w03-020
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "The growth in student numbers will ____ the building of a new library."
+  choices:
+    - {t: necessitate, why: "ทำให้จำเป็นต้อง ใช้ ++necessitate++"}
+    - {t: preclude, why: "preclude แปลว่าทำให้เป็นไปไม่ได้ ขัดกับบริบท"}
+    - {t: abide, why: "abide ไม่ใช้ในความหมายนี้"}
+    - {t: remit, why: "remit ไม่ใช่กริยาในความหมายนี้"}
+  explain: "necessitate = ==ทำให้จำเป็น=="
+  status: draft
+- id: cefr-c2-w03-021
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "The minor error does not ____ such a harsh punishment."
+  choices:
+    - {t: warrant, why: "สมควรได้รับ ใช้ ++warrant++"}
+    - {t: preclude, why: "preclude ไม่เข้ากับความหมายนี้"}
+    - {t: abide, why: "abide ไม่มีกรรมแบบนี้"}
+    - {t: remit, why: "remit ในความหมายนี้เป็นคำนาม ไม่ใช่กริยา"}
+  explain: "warrant = ==สมควรได้รับ เป็นเหตุผลพอสำหรับ=="
+  status: draft
+- id: cefr-c2-w03-022
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "All members must ____ by the rules of the association."
+  choices:
+    - {t: abide, why: "ปฏิบัติตาม ใช้ ++abide by++"}
+    - {t: warrant, why: "warrant by ไม่ใช่สำนวน"}
+    - {t: preclude, why: "preclude by ไม่ใช่สำนวน"}
+    - {t: necessitate, why: "necessitate by ไม่ใช่สำนวน"}
+  explain: "==abide by== = ปฏิบัติตาม (กฎ คำตัดสิน)"
+  status: draft
+- id: cefr-c2-w03-023
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 3
+  stem: "Employers have a ____ duty to provide a safe working environment."
+  choices:
+    - {t: statutory, why: "ตามที่กฎหมายกำหนด ใช้ ++statutory++"}
+    - {t: contingent, why: "contingent duty ไม่ได้แปลว่ากฎหมายกำหนด"}
+    - {t: hitherto, why: "hitherto เป็นคำวิเศษณ์"}
+    - {t: precluded, why: "precluded duty ไม่มีความหมาย"}
+  explain: "statutory = ==ที่กฎหมายกำหนด=="
+  status: draft
+- id: cefr-c2-w03-024
+  kind: type
+  skill: vo
+  topic: formal-legal
+  level: 2
+  stem: "Staff complaints fall outside the committee's r____; they should go to HR. (ขอบเขตหน้าที่)"
+  answer: remit
+  accept: [remit]
+  why: "remit = ขอบเขตอำนาจหน้าที่"
+  status: draft
+# ---------- วันที่ 3 · เงื่อนไขแฝง ----------
+- id: cefr-c2-w03-025
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 1
+  stem: "____ that the flight is cancelled, passengers will receive a full refund."
+  choices:
+    - {t: In the event, why: "ในกรณีที่ ใช้ ++In the event that++"}
+    - {t: In case of, why: "in case of ต้องตามด้วยคำนาม ไม่ใช่ that + ประโยค"}
+    - {t: Provided, why: "provided that แปลว่าถ้า (เงื่อนไขจำเป็น) ไม่เข้ากับเหตุร้าย"}
+    - {t: Unless, why: "unless that ไม่ใช่รูปที่ถูก"}
+  explain: "==In the event that== / In the event of + คำนาม = ในกรณีที่"
+  status: draft
+- id: cefr-c2-w03-026
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 1
+  stem: "____ your help, I would never have finished on time."
+  choices:
+    - {t: Without, why: "เงื่อนไขแฝง ++Without + คำนาม++ = If you hadn't helped"}
+    - {t: Unless, why: "unless ต้องตามด้วยประโยค"}
+    - {t: Despite, why: "despite ไม่ใช่เงื่อนไข"}
+    - {t: Otherwise, why: "otherwise ไม่ตามด้วยคำนามแบบนี้"}
+  explain: "==Without== / But for + คำนาม, would (have) ... = ถ้าไม่มี"
+  status: draft
+- id: cefr-c2-w03-027
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  stem: "If it ____ for the quick action of a neighbour, the fire would have spread."
+  choices:
+    - {t: hadn't been, why: "If it hadn't been for = ++ถ้าไม่ใช่เพราะ (อดีต)++"}
+    - {t: wasn't, why: "wasn't for ใช้กับปัจจุบัน แต่ผลอยู่ในอดีต"}
+    - {t: wouldn't have been, why: "ไม่ใช้ would ในส่วน if"}
+    - {t: isn't, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+  explain: "==If it hadn't been for== / Had it not been for + คำนาม"
+  status: draft
+- id: cefr-c2-w03-028
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  stem: "We'll lend you the equipment ____ condition that you return it by Friday."
+  choices:
+    - {t: "on", why: "สำนวน ++on condition that++"}
+    - {t: in, why: "in condition ไม่ใช่สำนวนนี้"}
+    - {t: under, why: "under condition ไม่ใช่สำนวนนี้"}
+    - {t: with, why: "with condition ไม่ใช่สำนวนนี้"}
+  explain: "==on condition that== = โดยมีเงื่อนไขว่า"
+  status: draft
+- id: cefr-c2-w03-029
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  stem: "I left my umbrella at home; ____ I wouldn't be soaked now."
+  choices:
+    - {t: otherwise, why: "เงื่อนไขแฝง ++otherwise = ถ้าไม่ได้เป็นอย่างนั้น++"}
+    - {t: unless, why: "unless ต้องตามด้วยประโยคเงื่อนไข"}
+    - {t: in case, why: "in case แปลว่าเผื่อ"}
+    - {t: provided, why: "provided ไม่เข้ากับความหมาย"}
+  explain: "otherwise = ==ถ้าไม่ใช่อย่างนั้น== (มีเงื่อนไขซ่อนอยู่)"
+  status: draft
+- id: cefr-c2-w03-030
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  stem: "____ it not been for the delay, we would have arrived before dinner."
+  choices:
+    - {t: Had, why: "ละ if แล้วกลับลำดับ ++Had it not been for++"}
+    - {t: If, why: "If it not been ผิดรูป"}
+    - {t: Were, why: "Were it not for ใช้กับปัจจุบัน และไม่มี been"}
+    - {t: Should, why: "Should it not been ผิดรูป"}
+  explain: "ทางการ ==Had it not been for== = If it hadn't been for"
+  status: draft
+- id: cefr-c2-w03-031
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 3
+  stem: "\"But for her support, the project would have failed.\" What does this mean?"
+  choices:
+    - {t: She supported it and it succeeded, why: "But for = ++ถ้าไม่มี (แต่ความจริงมี)++"}
+    - {t: She didn't support it and it failed, why: "ความจริงตรงกันข้าม"}
+    - {t: She supported it but it failed, why: "ประโยคบอกว่าไม่ล้มเหลว"}
+    - {t: Her support was not needed, why: "ตรงกันข้าม จำเป็นมาก"}
+  explain: "==But for X== = ถ้าไม่มี X (ความจริงคือมี)"
+  status: draft
+- id: cefr-c2-w03-032
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 3
+  stem: "\"Were it not for the language barrier, I would apply for the job.\" Which is true now?"
+  choices:
+    - {t: the language barrier exists and stops the speaker, why: "Were it not for = ++ถ้าไม่ใช่เพราะ (ปัจจุบัน)++"}
+    - {t: the speaker has applied for the job, why: "ยังไม่ได้สมัคร จึงใช้ไม่ได้"}
+    - {t: there is no language barrier, why: "ความจริงคือมีอุปสรรค"}
+    - {t: the speaker applied in the past, why: "พูดถึงปัจจุบัน จึงใช้ไม่ได้"}
+  explain: "==Were it not for== = ถ้าไม่ใช่เพราะ (ตอนนี้)"
+  status: draft
+- id: cefr-c2-w03-033
+  kind: type
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  stem: "Take a map w___ you; otherwise you might get lost. (กับ · ติดตัว)"
+  answer: with
+  accept: [with]
+  why: "take something with you · otherwise = ถ้าไม่ทำอย่างนั้น"
+  status: draft
+- id: cefr-c2-w03-034
+  kind: cloze
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  text: |
+    Both universities agree to share their laboratory equipment, (1) ____ that each side covers its own costs. (2) ____ either party wish to end the agreement, it must give three months' notice. (3) ____ such notice, the agreement will continue automatically each year.
+  questions:
+    - choices:
+        - {t: on condition, why: "on condition that = โดยมีเงื่อนไขว่า"}
+        - {t: in the event, why: "in the event that ใช้กับเหตุการณ์ที่อาจเกิด ไม่ใช่เงื่อนไขการแบ่งค่าใช้จ่าย"}
+        - {t: unless, why: "unless that ผิดรูป"}
+        - {t: otherwise, why: "otherwise that ผิดรูป"}
+    - choices:
+        - {t: Should, why: "Should + ประธาน + กริยารูปเดิม = If"}
+        - {t: Would, why: "Would either party wish ไม่ใช่รูปเงื่อนไข"}
+        - {t: Had, why: "Had ต้องตามด้วยช่อง 3"}
+        - {t: Unless, why: "Unless either party wish ผิดรูป wish ต้องเติม es"}
+    - choices:
+        - {t: In the absence of, why: "In the absence of + คำนาม = ถ้าไม่มี"}
+        - {t: Unless, why: "unless ต้องตามด้วยประโยค"}
+        - {t: Provided, why: "provided ไม่ตามด้วยคำนามแบบนี้"}
+        - {t: Despite, why: "despite ไม่ใช่เงื่อนไข"}
+  status: draft
+# ---------- วันที่ 4 · อ่านข้อตกลงความร่วมมือและฟังการเจรจา ----------
+- id: cefr-c2-w03-035
+  kind: read
+  skill: rd
+  topic: agreement-text
+  level: 3
+  title: "Memorandum of Understanding (Summary) · Shared Language Centre"
+  passage: |
+    1. Purpose. This memorandum sets out the terms on which Northbridge University and the Riverside Community College (hereafter "the Parties") will jointly operate a language centre in the Old Market district. It replaces all agreements hitherto made between the Parties on this matter.
+
+    2. Responsibilities. Northbridge shall provide qualified teaching staff and course materials. Riverside shall provide the building, including heating, cleaning and security, and shall be responsible for the registration of students. Neither Party shall charge the other for services listed in this section.
+
+    3. Funding. Each Party shall contribute fifty per cent of the centre's annual running costs, with the proviso that Riverside's contribution may be reduced by the value of the building, as agreed by an independent assessor. Any additional funding obtained by either Party shall be shared equally.
+
+    4. Duration and termination. This memorandum shall take effect from 1 August and remain in force for three years. Should either Party wish to withdraw, it shall give not less than six months' written notice. In the event of a serious breach of these terms, the other Party may end the agreement forthwith.
+
+    5. Disputes. Any disagreement shall first be referred to a joint committee. Only if the committee fails to reach a decision within sixty days shall the matter be referred to independent mediation. Both Parties agree to abide by the mediator's decision.
+
+    6. Scope. Matters relating to staff employment fall outside the remit of this memorandum and remain the responsibility of the employing institution.
+  questions:
+    - stem: Which responsibility belongs to Riverside?
+      choices:
+        - {t: registering students, why: "Riverside shall ... be responsible for the registration of students"}
+        - {t: providing teaching staff, why: "เป็นหน้าที่ของ Northbridge"}
+        - {t: writing course materials, why: "บทไม่ได้พูดว่า writing course materials"}
+        - {t: employing all staff, why: "ข้อ 6 อยู่นอกขอบเขตข้อตกลง"}
+    - stem: Under what condition may Riverside pay less than half the costs?
+      choices:
+        - {t: if the building's value is deducted after assessment, why: "may be reduced by the value of the building, as agreed by an independent assessor"}
+        - {t: if it has fewer students, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: if Northbridge agrees verbally, why: "ต้องมีผู้ประเมินอิสระ"}
+        - {t: if it gives six months' notice, why: "การแจ้งล่วงหน้าเกี่ยวกับการถอนตัว"}
+    - stem: When can the agreement be ended immediately?
+      choices:
+        - {t: after a serious breach of the terms, why: "In the event of a serious breach ... forthwith"}
+        - {t: at any time with written notice, why: "ต้องแจ้งล่วงหน้าหกเดือน"}
+        - {t: after one year, why: "มีผลสามปี จึงใช้ไม่ได้"}
+        - {t: if the committee meets, why: "คณะกรรมการใช้กับข้อพิพาท"}
+    - stem: When does a dispute go to mediation?
+      choices:
+        - {t: only if the committee cannot decide within sixty days, why: "Only if the committee fails to reach a decision within sixty days"}
+        - {t: immediately, why: "ต้องผ่านคณะกรรมการก่อน"}
+        - {t: when either party wishes, why: "มีขั้นตอนก่อน จึงใช้ไม่ได้"}
+        - {t: never, why: "มีขั้นตอนไกล่เกลี่ย"}
+  status: draft
+- id: cefr-c2-w03-036
+  kind: listen
+  skill: li
+  topic: negotiation
+  level: 3
+  script:
+    - {who: Man, en: "We could agree to the lower price, on condition that you commit to a two-year contract. Otherwise, I'm afraid the numbers simply don't work for us."}
+  questions:
+    - stem: What does the man require for the lower price?
+      choices:
+        - {t: a two-year commitment, why: "on condition that you commit to a two-year contract"}
+        - {t: an immediate payment, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: a larger order, why: "บทไม่ได้พูดว่า a larger order"}
+        - {t: nothing, he agrees anyway, why: "มีเงื่อนไขชัดเจน"}
+  status: draft
+- id: cefr-c2-w03-037
+  kind: listen
+  skill: li
+  topic: negotiation
+  level: 3
+  script:
+    - {who: Woman, en: "Can you deliver by March?"}
+    - {who: Man, en: "If need be, yes, but it would necessitate weekend shifts, and that cost would have to be passed on to you."}
+  questions:
+    - stem: What does the man imply about March delivery?
+      choices:
+        - {t: possible but more expensive, why: "If need be, yes ... cost would have to be passed on"}
+        - {t: completely impossible, why: "ตอบว่าทำได้ถ้าจำเป็น"}
+        - {t: free of extra charge, why: "มีค่าใช้จ่ายเพิ่ม"}
+        - {t: already arranged, why: "ยังไม่ได้ตกลง จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w03-038
+  kind: listen
+  skill: li
+  topic: negotiation
+  level: 3
+  script:
+    - {who: Woman, en: "Fine. If your board won't accept a shorter notice period, so be it. But we'd want that reflected in the price."}
+  questions:
+    - stem: What is the woman's position?
+      choices:
+        - {t: she accepts the notice period but wants a better price, why: "so be it ... reflected in the price"}
+        - {t: she rejects the whole deal, why: "ยอมรับเงื่อนไข จึงใช้ไม่ได้"}
+        - {t: she wants a longer notice period, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: she will ask her own board first, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w03-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Should you need, any further information, please contact, our office]
+  sentence: Should you need any further information, please contact our office.
+  th: หากต้องการข้อมูลเพิ่มเติม โปรดติดต่อสำนักงาน
+  why: "Should + ประธาน + กริยารูปเดิม = If (ทางการ)"
+  status: draft
+- id: cefr-c2-w03-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Had it not been, for the warning, many people, would have been injured]
+  sentence: Had it not been for the warning, many people would have been injured.
+  th: ถ้าไม่มีคำเตือน คงมีคนบาดเจ็บมาก
+  why: "Had it not been for + คำนาม · would have been + ช่อง 3"
+  status: draft
+- id: cefr-c2-w03-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The committee, recommended that, the policy, be reviewed every year]
+  sentence: The committee recommended that the policy be reviewed every year.
+  th: คณะกรรมการแนะนำให้ทบทวนนโยบายทุกปี
+  why: "recommend that + ประธาน + be + ช่อง 3 (subjunctive)"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c2-w03-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We would be willing, to share the costs, on condition that, any income, be divided equally]
+  sentence: We would be willing to share the costs on condition that any income be divided equally.
+  th: เรายินดีแบ่งค่าใช้จ่าย โดยมีเงื่อนไขว่ารายได้ต้องแบ่งเท่ากัน
+  why: "on condition that + subjunctive be + ช่อง 3"
+  status: draft
