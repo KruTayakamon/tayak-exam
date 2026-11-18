@@ -1,0 +1,577 @@
+# คอร์ส b2 · สัปดาห์ 10 · เน้นและลดน้ำหนักคำพูด · tend to / seem / appear / it is likely that / to some extent · Not only... / Never... / What...is / It is...that
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · พูดอย่างระวัง ----------
+- id: cefr-b2-w10-001
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 1
+  stem: Younger customers ____ to prefer online shopping.
+  choices:
+    - {t: tend, why: "มักจะ (แนวโน้มทั่วไป) ใช้ ++tend to++"}
+    - {t: are tend, why: "tend เป็นกริยา ไม่ใช้ are"}
+    - {t: tending, why: "ต้องเป็นกริยาหลักของประโยค"}
+    - {t: likely, why: "likely ต้องมี be (are likely to)"}
+  explain: "แนวโน้ม ==tend to + กริยา== (ลดความฟันธง)"
+  status: approved
+- id: cefr-b2-w10-002
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 1
+  stem: It ____ that the new system is working well, but it's too early to be sure.
+  choices:
+    - {t: seems, why: "ดูเหมือนว่า ใช้ ++It seems that++"}
+    - {t: is seem, why: "seem เป็นกริยา ไม่ใช้ is"}
+    - {t: tends, why: "It tends that ไม่ใช่รูปที่ถูก"}
+    - {t: seeming, why: "ต้องมีกริยาหลัก seeming ใช้เดี่ยวไม่ได้"}
+  explain: "==It seems / appears that + ประโยค== = ดูเหมือนว่า"
+  status: approved
+- id: cefr-b2-w10-003
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: The results ____ to show a link between sleep and memory.
+  choices:
+    - {t: appear, why: "ดูเหมือนจะ (ทางการ) ใช้ ++appear to++"}
+    - {t: are appearing, why: "ไม่ใช้รูปต่อเนื่องในความหมายนี้"}
+    - {t: likely, why: "ขาด are จึงใช้ไม่ได้"}
+    - {t: seem that, why: "seem that ต้องมี It นำหน้า"}
+  explain: "==seem / appear + to + กริยา== = ดูเหมือนจะ"
+  status: approved
+- id: cefr-b2-w10-004
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: Prices are ____ to rise again next year.
+  choices:
+    - {t: likely, why: "มีแนวโน้มจะ ใช้ ++be likely to++"}
+    - {t: tend, why: "are tend ผิดรูป"}
+    - {t: seem, why: "are seem ผิดรูป"}
+    - {t: probably, why: "are probably to ผิดรูป"}
+  explain: "==be likely / unlikely to + กริยา== = น่าจะ / ไม่น่าจะ"
+  status: approved
+- id: cefr-b2-w10-005
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: I agree with you ____ some extent, but not completely.
+  choices:
+    - {t: to, why: "สำนวน ++to some extent++ = ในระดับหนึ่ง"}
+    - {t: in, why: "ไม่ใช่สำนวนที่ถูก"}
+    - {t: at, why: "บทไม่ได้พูดว่า at"}
+    - {t: for, why: "บทไม่ได้พูดว่า for"}
+  explain: "==to some extent / to a certain extent== = ในระดับหนึ่ง"
+  status: approved
+- id: cefr-b2-w10-006
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: Which sentence about the sales plan is the most CAUTIOUS?
+  choices:
+    - {t: "This may suggest that the plan is working.", why: "may + suggest ++ลดน้ำหนักสองชั้น++"}
+    - {t: "This proves the plan is working.", why: "proves ฟันธงที่สุด"}
+    - {t: "This shows the plan is working.", why: "shows ยังมั่นใจ"}
+    - {t: "The plan is definitely working.", why: "definitely ฟันธง"}
+  explain: "พูดอย่างระวัง ==may / might + suggest / indicate=="
+  status: approved
+- id: cefr-b2-w10-007
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: ____, the project was a success, although there were some problems.
+  choices:
+    - {t: On the whole, why: "โดยรวม ใช้ ++On the whole++"}
+    - {t: To the whole, why: "ไม่ใช่สำนวนที่ถูก"}
+    - {t: In whole, why: "บทไม่ได้พูดว่า In whole"}
+    - {t: On whole, why: "ขาด the จึงใช้ไม่ได้"}
+  explain: "==On the whole / Generally speaking== = โดยรวม"
+  status: approved
+- id: cefr-b2-w10-008
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: There ____ to be a problem with the internet connection.
+  choices:
+    - {t: seems, why: "There seems to be = ++ดูเหมือนจะมี++"}
+    - {t: seem, why: "a problem เป็นเอกพจน์ ต้องใช้ seems"}
+    - {t: is seeming, why: "ไม่ใช้รูปต่อเนื่อง"}
+    - {t: tends, why: "There tends to be ใช้กับสิ่งที่เกิดบ่อย ไม่ใช่ตอนนี้"}
+  explain: "==There seems / appears to be + คำนาม=="
+  status: approved
+- id: cefr-b2-w10-009
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 3
+  stem: "\"Students who sleep more tend to get better grades.\" What is the writer claiming?"
+  choices:
+    - {t: a general pattern with exceptions, why: "tend to = ++มักจะ ไม่ใช่ทุกคน++"}
+    - {t: that sleep always improves grades, why: "tend to ไม่ได้แปลว่าเสมอ"}
+    - {t: that sleep has no effect, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: that all students sleep too little, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  explain: "tend to = ==แนวโน้มทั่วไป มีข้อยกเว้นได้=="
+  status: approved
+- id: cefr-b2-w10-010
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 3
+  stem: It is ____ that all the rooms will be ready by Friday; the builders are already late.
+  choices:
+    - {t: unlikely, why: "ไม่น่าจะ (เพราะช่างช้าอยู่แล้ว) ใช้ ++unlikely++"}
+    - {t: likely, why: "ขัดกับข้อมูลว่าช่างช้า"}
+    - {t: certain, why: "บทไม่ได้พูดว่า certain"}
+    - {t: unlike, why: "unlike แปลว่าไม่เหมือน"}
+  explain: "==It is unlikely that== = ไม่น่าจะ"
+  status: approved
+- id: cefr-b2-w10-011
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: The figures ____ suggest that sales are improving.
+  choices:
+    - {t: would, why: "ลดความฟันธงแบบทางการ ใช้ ++would seem / would suggest++"}
+    - {t: will, why: "will ฟังมั่นใจเกินสำหรับการตีความ"}
+    - {t: are, why: "are suggest ผิดรูป"}
+    - {t: does, why: "figures เป็นพหูพจน์ และ does ใช้เน้นไม่ใช่ลดน้ำหนัก"}
+  explain: "ทางการ ==would suggest / would seem== = น่าจะบ่งชี้"
+  status: approved
+- id: cefr-b2-w10-012
+  kind: type
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: "People in cities t___ to have less free time than people in the countryside. (มักจะ)"
+  answer: tend
+  accept: [tend]
+  why: "tend to = มักจะ (แนวโน้ม)"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์ข้อมูลและแนวโน้ม ----------
+- id: cefr-b2-w10-013
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 1
+  stem: There is a growing ____ towards working from cafés.
+  choices:
+    - {t: trend, why: "แนวโน้ม ใช้ ++trend towards++"}
+    - {t: proportion, why: "proportion คือสัดส่วน"}
+    - {t: phenomenon, why: "phenomenon towards ไม่ใช่สำนวน"}
+    - {t: marginal, why: "marginal เป็นคุณศัพท์"}
+  explain: "trend = ==แนวโน้ม== (a trend towards / in)"
+  status: approved
+- id: cefr-b2-w10-014
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 1
+  stem: A large ____ of the population now shops online.
+  choices:
+    - {t: proportion, why: "สัดส่วน ใช้ ++a large proportion of++"}
+    - {t: trend, why: "a large trend of the population ไม่ใช่สำนวน"}
+    - {t: phenomenon, why: "ไม่ใช้บอกสัดส่วน"}
+    - {t: fundamental, why: "fundamental เป็นคุณศัพท์"}
+  explain: "proportion = ==สัดส่วน== (a high / small proportion of)"
+  status: approved
+- id: cefr-b2-w10-015
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: The increase was only ____, from 20.1% to 20.4%.
+  choices:
+    - {t: marginal, why: "เพียงเล็กน้อย ใช้ ++marginal++"}
+    - {t: drastic, why: "drastic แปลว่ารุนแรง ขัดกับ 0.3%"}
+    - {t: notable, why: "notable แปลว่าน่าสังเกต ขัดกับ only"}
+    - {t: crucial, why: "crucial แปลว่าสำคัญยิ่ง"}
+  explain: "marginal = ==เพียงเล็กน้อย ไม่มีนัย=="
+  status: approved
+- id: cefr-b2-w10-016
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: The company made ____ changes, closing half its shops in one year.
+  choices:
+    - {t: drastic, why: "รุนแรง ขนานใหญ่ ใช้ ++drastic++"}
+    - {t: marginal, why: "ขัดกับปิดร้านครึ่งหนึ่ง"}
+    - {t: tentative, why: "tentative แปลว่าชั่วคราว ยังไม่แน่"}
+    - {t: merely, why: "merely เป็นคำวิเศษณ์"}
+  explain: "drastic = ==รุนแรง ขนานใหญ่=="
+  status: approved
+- id: cefr-b2-w10-017
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: These are only ____ results; we need more data before we can be sure.
+  choices:
+    - {t: tentative, why: "เบื้องต้น ยังไม่แน่นอน ใช้ ++tentative++"}
+    - {t: fundamental, why: "fundamental แปลว่าพื้นฐาน"}
+    - {t: drastic, why: "drastic แปลว่ารุนแรง"}
+    - {t: prominent, why: "prominent แปลว่าโดดเด่น"}
+  explain: "tentative = ==เบื้องต้น ยังไม่แน่นอน=="
+  status: approved
+- id: cefr-b2-w10-018
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: It wasn't a complaint. I was ____ asking a question.
+  choices:
+    - {t: merely, why: "แค่ เพียง ใช้ ++merely++"}
+    - {t: notably, why: "notably แปลว่าโดยเฉพาะ"}
+    - {t: drastically, why: "drastically แปลว่าอย่างรุนแรง"}
+    - {t: fundamentally, why: "fundamentally แปลว่าโดยพื้นฐาน"}
+  explain: "merely = ==แค่ เพียง== (ลดน้ำหนัก)"
+  status: approved
+- id: cefr-b2-w10-019
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: The most ____ change was the rise in older users, which doubled.
+  choices:
+    - {t: notable, why: "น่าสังเกต ใช้ ++notable++"}
+    - {t: marginal, why: "ขัดกับ doubled จึงใช้ไม่ได้"}
+    - {t: tentative, why: "tentative ไม่ใช้บรรยายการเปลี่ยนแปลงที่ชัด"}
+    - {t: merely, why: "merely เป็นคำวิเศษณ์"}
+  explain: "notable = ==น่าสังเกต โดดเด่น=="
+  status: approved
+- id: cefr-b2-w10-020
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: Trust is ____ to any good relationship; without it, nothing works.
+  choices:
+    - {t: fundamental, why: "เป็นพื้นฐานสำคัญ ใช้ ++fundamental to++"}
+    - {t: marginal, why: "ขัดกับ nothing works"}
+    - {t: tentative, why: "tentative ไม่เข้ากับบริบท"}
+    - {t: prominent, why: "prominent to ไม่ใช่สำนวน"}
+  explain: "fundamental = ==พื้นฐาน จำเป็นที่สุด=="
+  status: approved
+- id: cefr-b2-w10-021
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: It is ____ that you arrive on time; the exam room will be locked at 9.
+  choices:
+    - {t: crucial, why: "สำคัญยิ่ง ใช้ ++crucial++"}
+    - {t: marginal, why: "ขัดกับห้องสอบถูกล็อก"}
+    - {t: tentative, why: "tentative ไม่เข้ากับคำเตือน"}
+    - {t: prominent, why: "prominent ไม่ใช้กับ It is ... that"}
+  explain: "crucial = ==สำคัญอย่างยิ่ง ชี้ขาด=="
+  status: approved
+- id: cefr-b2-w10-022
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 2
+  stem: She is a ____ scientist who often appears on television.
+  choices:
+    - {t: prominent, why: "มีชื่อเสียงโดดเด่น ใช้ ++prominent++"}
+    - {t: marginal, why: "ขัดกับออกทีวีบ่อย"}
+    - {t: tentative, why: "tentative ไม่ใช้บรรยายคน"}
+    - {t: drastic, why: "drastic ไม่ใช้บรรยายคน"}
+  explain: "prominent = ==โดดเด่น มีชื่อเสียง=="
+  status: approved
+- id: cefr-b2-w10-023
+  kind: mcq
+  skill: vo
+  topic: trends
+  level: 3
+  stem: Several new problems have ____ since the system was updated.
+  choices:
+    - {t: emerged, why: "ปรากฏขึ้น โผล่ขึ้น ใช้ ++emerge++"}
+    - {t: emerging, why: "have + ต้องใช้ช่อง 3"}
+    - {t: proportioned, why: "ไม่มีความหมายนี้"}
+    - {t: trended, why: "trend ไม่ใช้ในความหมายนี้"}
+  explain: "emerge = ==ปรากฏขึ้น เกิดขึ้นใหม่=="
+  status: approved
+- id: cefr-b2-w10-024
+  kind: type
+  skill: vo
+  topic: trends
+  level: 2
+  stem: "Social media addiction is a modern p_________. (ปรากฏการณ์)"
+  answer: phenomenon
+  accept: [phenomenon]
+  why: "phenomenon = ปรากฏการณ์ (พหูพจน์ phenomena)"
+  status: approved
+# ---------- วันที่ 3 · เน้นให้หนักแน่น ----------
+- id: cefr-b2-w10-025
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 1
+  stem: What I need ____ a long holiday.
+  choices:
+    - {t: is, why: "What-clause เป็นประธาน ใช้กริยาเอกพจน์ ++is++"}
+    - {t: are, why: "What I need เป็นเอกพจน์"}
+    - {t: it is, why: "มีประธานซ้ำ จึงใช้ไม่ได้"}
+    - {t: to be, why: "ต้องมีกริยาหลัก"}
+  explain: "เน้นด้วย ==What + ประโยค + is + สิ่งที่เน้น=="
+  status: approved
+- id: cefr-b2-w10-026
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 1
+  stem: It was my sister ____ told me about this course.
+  choices:
+    - {t: who, why: "เน้นคน It was ... ++who++"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+    - {t: what, why: "what ไม่ใช้ในโครงสร้างนี้"}
+    - {t: whom, why: "เป็นประธานของ told ต้องใช้ who (หรือ that)"}
+  explain: "==It was + ส่วนที่เน้น + who== + ส่วนที่เหลือ"
+  status: approved
+- id: cefr-b2-w10-027
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 2
+  stem: Not only ____ late, but he also forgot the documents.
+  choices:
+    - {t: was he, why: "Not only ขึ้นต้น ต้อง ++กลับกริยาช่วยไว้หน้าประธาน++"}
+    - {t: he was, why: "ไม่ได้กลับลำดับ"}
+    - {t: he did, why: "บทไม่ได้พูดว่า he did"}
+    - {t: did he was, why: "ซ้อนกริยาช่วย จึงใช้ไม่ได้"}
+  explain: "==Not only + กริยาช่วย + ประธาน ...==, but ... also"
+  status: approved
+- id: cefr-b2-w10-028
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 2
+  stem: Never ____ such a beautiful sunset.
+  choices:
+    - {t: have I seen, why: "Never ขึ้นต้น ++กลับลำดับ have + I++"}
+    - {t: I have seen, why: "ไม่ได้กลับลำดับ"}
+    - {t: I saw, why: "บทไม่ได้พูดว่า I saw"}
+    - {t: did I saw, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "คำปฏิเสธขึ้นต้น ==Never== / Rarely / Seldom + กริยาช่วย + ประธาน"
+  status: approved
+- id: cefr-b2-w10-029
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 2
+  stem: Not only ____ the exam, she also got the highest score.
+  choices:
+    - {t: did she pass, why: "ไม่มีกริยาช่วย ต้องเติม ++did + ประธาน + กริยารูปเดิม++"}
+    - {t: she passed, why: "ไม่ได้กลับลำดับ"}
+    - {t: passed she, why: "กลับกริยาหลักไม่ได้ ต้องใช้ did"}
+    - {t: did she passed, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "ไม่มีกริยาช่วย ==ใช้ do / does / did== แล้วกลับลำดับ"
+  status: approved
+- id: cefr-b2-w10-030
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 2
+  stem: I ____ want to help, but I simply don't have time.
+  choices:
+    - {t: do, why: "เน้นกริยา ใช้ ++do + กริยารูปเดิม++"}
+    - {t: am, why: "am want ผิดรูป จึงใช้ไม่ได้"}
+    - {t: did, why: "did ทำให้เป็นอดีต แต่ประโยคเป็นปัจจุบัน"}
+    - {t: does, why: "ประธาน I ใช้ do"}
+  explain: "เน้นกริยา ==do / does / did + กริยารูปเดิม== (จริง ๆ นะ)"
+  status: approved
+- id: cefr-b2-w10-031
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 3
+  stem: "Which sentence emphasises WHERE the meeting was?"
+  choices:
+    - {t: "It was in Chiang Mai that we held the meeting.", why: "It was + สถานที่ + that ++เน้นสถานที่++"}
+    - {t: "It was the meeting that we held in Chiang Mai.", why: "เน้นการประชุม ไม่ใช่สถานที่"}
+    - {t: "What we held in Chiang Mai was the meeting.", why: "เน้นสิ่งที่จัด ไม่ใช่สถานที่"}
+    - {t: "We held the meeting in Chiang Mai.", why: "ประโยคปกติ ไม่มีการเน้น"}
+  explain: "ส่วนที่อยู่ระหว่าง ==It was ... that== คือส่วนที่ถูกเน้น"
+  status: approved
+- id: cefr-b2-w10-032
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 3
+  stem: Rarely ____ such a clear explanation in a textbook.
+  choices:
+    - {t: do you find, why: "Rarely ขึ้นต้น ++กลับลำดับด้วย do++"}
+    - {t: you find, why: "ไม่ได้กลับลำดับ"}
+    - {t: you do find, why: "ลำดับยังไม่ได้กลับ"}
+    - {t: find you, why: "กลับกริยาหลักไม่ได้ ต้องใช้ do"}
+  explain: "==Rarely== / Seldom + do/does/did + ประธาน + กริยา"
+  status: approved
+- id: cefr-b2-w10-033
+  kind: type
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 2
+  stem: "W___ surprised me most was the price. (สิ่งที่)"
+  answer: what
+  accept: [what, What]
+  why: "What + ประโยค = สิ่งที่... ใช้เป็นประธานเพื่อเน้น"
+  status: approved
+- id: cefr-b2-w10-034
+  kind: cloze
+  skill: gm
+  topic: hedging
+  level: 2
+  text: |
+    Our survey of 500 workers (1) ____ that hybrid work is popular. Workers aged 25–35 (2) ____ to prefer two or three days at home. However, (3) ____ surprised us was that older workers wanted to be in the office more.
+  questions:
+    - choices:
+        - {t: suggests, why: "พูดอย่างระวังด้วย suggest"}
+        - {t: proves, why: "prove ฟันธงเกินไปสำหรับแบบสำรวจ"}
+        - {t: is suggesting that, why: "ไม่ใช้รูปต่อเนื่องและมี that ซ้ำ"}
+        - {t: tends, why: "tends that ไม่ใช่รูปที่ถูก"}
+    - choices:
+        - {t: tend, why: "แนวโน้มของกลุ่ม tend to"}
+        - {t: are tend, why: "tend เป็นกริยา ไม่ใช้ are"}
+        - {t: likely, why: "ขาด are จึงใช้ไม่ได้"}
+        - {t: seem that, why: "seem that ต้องมี It"}
+    - choices:
+        - {t: what, why: "What + ประโยค เป็นประธานเพื่อเน้น"}
+        - {t: that, why: "That surprised us ไม่ทำหน้าที่ สิ่งที่"}
+        - {t: which, why: "which ต้องมีคำนามให้ขยาย"}
+        - {t: it, why: "it surprised us was ผิดรูป"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบทคัดย่องานวิจัยและฟังการบรรยายแนวโน้ม ----------
+- id: cefr-b2-w10-035
+  kind: read
+  skill: rd
+  topic: research-summary
+  level: 2
+  title: "Summary · Does Reading for Pleasure Improve Vocabulary? (A Small Study)"
+  passage: |
+    This small study followed 120 adult English learners at a language centre in Bangkok for one semester. Learners were divided into two groups. The first group read graded stories of their own choice for twenty minutes a day; the second group followed the normal course only.
+
+    At the end of the semester, both groups took the same vocabulary test. Learners who read for pleasure scored an average of 12% higher than the other group. The difference was most notable among learners at lower levels, whereas the gain for advanced learners was marginal.
+
+    These results appear to support the view that regular reading helps vocabulary growth. However, they should be treated as tentative. The groups were small, and learners who chose to read may already have been more motivated. It is therefore not possible to say that reading alone caused the improvement.
+
+    What the study does suggest is that short, daily reading is a practical habit that adult learners tend to enjoy. Further research with larger groups is needed to confirm whether the effect lasts over time.
+  questions:
+    - stem: What was the main difference between the two groups?
+      choices:
+        - {t: one group read stories every day, why: "The first group read graded stories ... for twenty minutes a day"}
+        - {t: one group had more teachers, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: one group was older, why: "บทไม่ได้พูดว่า one group was older"}
+        - {t: one group took a different test, why: "ทั้งสองกลุ่มสอบชุดเดียวกัน"}
+    - stem: Which learners improved the most?
+      choices:
+        - {t: lower-level learners, why: "most notable among learners at lower levels"}
+        - {t: advanced learners, why: "the gain for advanced learners was marginal"}
+        - {t: both levels equally, why: "ต่างกันชัดเจน จึงใช้ไม่ได้"}
+        - {t: learners who did not read, why: "กลุ่มที่อ่านได้คะแนนสูงกว่า"}
+    - stem: Why does the writer say the results are tentative?
+      choices:
+        - {t: the groups were small and readers may have been more motivated, why: "The groups were small, and learners who chose to read may already have been more motivated"}
+        - {t: the test was too easy, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the reading group scored lower, why: "กลุ่มที่อ่านได้คะแนนสูงกว่า"}
+        - {t: the study lasted too long, why: "ศึกษาแค่หนึ่งภาคเรียน"}
+    - stem: Which statement would the writer AGREE with?
+      choices:
+        - {t: reading may help but more research is needed, why: "appear to support ... Further research ... is needed"}
+        - {t: reading alone definitely improves vocabulary, why: "not possible to say that reading alone caused the improvement"}
+        - {t: reading has no effect, why: "ผลบ่งชี้ว่าอาจช่วย"}
+        - {t: advanced learners should not read, why: "ไม่มีคำแนะนำนี้"}
+  status: approved
+- id: cefr-b2-w10-036
+  kind: listen
+  skill: li
+  topic: describing-trends
+  level: 2
+  script:
+    - {who: Woman, en: "As you can see, the proportion of customers paying by card has risen sharply, from about a third to almost two thirds."}
+  questions:
+    - stem: How much has card payment changed?
+      choices:
+        - {t: it has nearly doubled, why: "from about a third to almost two thirds"}
+        - {t: it has fallen, why: "has risen sharply"}
+        - {t: it has stayed the same, why: "เพิ่มขึ้นมาก จึงใช้ไม่ได้"}
+        - {t: it has tripled, why: "จากหนึ่งในสามเป็นเกือบสองในสาม คือเกือบสองเท่า"}
+  status: approved
+- id: cefr-b2-w10-037
+  kind: listen
+  skill: li
+  topic: describing-trends
+  level: 2
+  script:
+    - {who: Man, en: "So, has the new app reduced complaints?"}
+    - {who: Woman, en: "It seems to have helped to some extent, but it's too early to say for sure."}
+  questions:
+    - stem: How confident is the woman?
+      choices:
+        - {t: not very; the results are early, why: "seems ... to some extent ... too early to say for sure"}
+        - {t: completely certain, why: "บอกว่ายังเร็วเกินไป"}
+        - {t: certain the app failed, why: "บอกว่าช่วยได้บ้าง"}
+        - {t: she has no information, why: "บอกว่าดูเหมือนช่วยได้บ้าง"}
+  status: approved
+- id: cefr-b2-w10-038
+  kind: listen
+  skill: li
+  topic: describing-trends
+  level: 2
+  script:
+    - {who: Woman, en: "It wasn't the price that customers complained about; it was the slow delivery."}
+  questions:
+    - stem: What did customers complain about?
+      choices:
+        - {t: slow delivery, why: "it was the slow delivery"}
+        - {t: the price, why: "It wasn't the price"}
+        - {t: both price and delivery, why: "ปฏิเสธเรื่องราคาชัดเจน"}
+        - {t: product quality, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w10-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Older people, tend to, prefer, paying in cash]
+  sentence: Older people tend to prefer paying in cash.
+  th: ผู้สูงอายุมักชอบจ่ายเงินสด
+  why: "tend to + กริยารูปเดิม"
+  status: approved
+- id: cefr-b2-w10-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Not only, did the team, finish early, but they also saved money]
+  sentence: Not only did the team finish early, but they also saved money.
+  th: ทีมไม่เพียงทำเสร็จเร็ว แต่ยังประหยัดเงินได้ด้วย
+  why: "Not only + did + ประธาน + กริยารูปเดิม, but ... also"
+  status: approved
+- id: cefr-b2-w10-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What worries me, is the fact, that nobody, checked the figures]
+  sentence: What worries me is the fact that nobody checked the figures.
+  th: สิ่งที่ฉันกังวลคือไม่มีใครตรวจตัวเลขเลย
+  why: "What + ประโยค + is ... เพื่อเน้น"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b2-w10-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The data, would seem to suggest, that a growing proportion, of young people, are cooking at home]
+  sentence: The data would seem to suggest that a growing proportion of young people are cooking at home.
+  th: ข้อมูลดูเหมือนจะบ่งชี้ว่าคนหนุ่มสาวสัดส่วนที่มากขึ้นทำอาหารกินเองที่บ้าน
+  why: "would seem to suggest = พูดอย่างระวังแบบทางการ"
+  status: approved

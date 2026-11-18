@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 10 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 10
+phase: 3
+theme_th: เน้นและลดน้ำหนักคำพูด
+focus_th: พูดอย่างระวัง (tend to · seem/appear · be likely to · to some extent · may suggest) · เน้น (Not only / Never / Rarely + กลับลำดับ · What ... is · It is ... that · do + กริยา)
+can_do_th:
+  - บรรยายแนวโน้มและข้อมูลโดยไม่สรุปเกินหลักฐานได้
+  - แยกข้อเท็จจริงกับการตีความของผู้เขียนได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: พูดอย่างระวัง
+    lesson:
+      rule_th: "ภาษาอังกฤษทางการไม่ชอบฟันธงเกินหลักฐาน ใช้ ==tend to== · seem / appear to · be likely to และ ++may / might suggest++ · โดยรวมใช้ On the whole · ในระดับหนึ่งใช้ to some extent"
+      examples:
+        - {en: "Younger customers <k>tend to</k> shop online.", th: "มักจะ"}
+        - {en: "The results <k>appear to</k> show a link.", th: "==ดูเหมือนจะ=="}
+        - {en: "Prices <k>are likely to</k> rise.", th: "น่าจะ"}
+        - {en: "This <k>may suggest</k> that ...", th: "อาจบ่งชี้"}
+      signals:
+        - {label_th: "จากระวังมากถึงมั่นใจ", words: ["may suggest", "seems to show", "is likely to", "shows", "proves"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ดูเหมือน กับทุกโครงสร้าง คนจึงเขียน ~~is seem / are tend~~"
+        wrong: ["It is seem that the plan works.", "Young people are tend to sleep late."]
+        right: ["It seems that the plan works.", "Young people tend to sleep late."]
+      notes:
+        - {kind: tip, th: "seem / tend / appear ==เป็นกริยาเอง ห้ามมี is / are==" }
+        - {kind: use, th: "ตอบแบบนักวิชาการ The data would seem to suggest that ..."}
+    check: [cefr-b2-w10-001, cefr-b2-w10-002]
+    practice: [cefr-b2-w10-003, cefr-b2-w10-004, cefr-b2-w10-005, cefr-b2-w10-006, cefr-b2-w10-007, cefr-b2-w10-008, cefr-b2-w10-009, cefr-b2-w10-010, cefr-b2-w10-011, cefr-b2-w10-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับนิสัยของคนในเมืองของคุณ ใช้ tend to และ seem อย่างละครั้ง
+      frame: "People in my city tend to ____. It seems that ____."
+      model: "People in my city tend to eat dinner late. It seems that more young people are cooking at home than before."
+    classroom: {en: "To some extent, I agree.", th: "ในระดับหนึ่ง ฉันเห็นด้วย"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ข้อมูลและแนวโน้ม 12 คำ
+    lesson:
+      rule_th: "บรรยายขนาดของการเปลี่ยนแปลงให้แม่น ==drastic (มาก)== · notable (น่าสังเกต) · marginal (นิดเดียว) ++ความแน่นอน tentative (เบื้องต้น)++ · ความสำคัญ crucial / fundamental"
+      examples:
+        - {en: "a <k>drastic</k> change", th: "==เปลี่ยนมาก=="}
+        - {en: "The increase was <k>marginal</k>.", th: "นิดเดียว"}
+        - {en: "a large <k>proportion</k> of the population", th: "สัดส่วน"}
+        - {en: "New problems have <k>emerged</k>.", th: "ปรากฏขึ้น"}
+      words:
+        - {w: tentative, pos: adj., th: เบื้องต้น ยังไม่แน่นอน, ex: "We made a tentative plan."}
+        - {w: merely, pos: adv., th: แค่ เพียง, ex: "It's merely a suggestion."}
+        - {w: notable, pos: adj., th: น่าสังเกต, ex: "There was a notable rise in sales."}
+        - {w: fundamental, pos: adj., th: พื้นฐาน สำคัญที่สุด, ex: "Reading is fundamental to learning."}
+        - {w: crucial, pos: adj., th: สำคัญอย่างยิ่ง, ex: "The next few days are crucial."}
+        - {w: prominent, pos: adj., th: โดดเด่น มีชื่อเสียง, ex: "She's a prominent writer."}
+        - {w: drastic, pos: adj., th: รุนแรง ขนานใหญ่, ex: "We need drastic action."}
+        - {w: marginal, pos: adj., th: เล็กน้อย, ex: "The difference is marginal."}
+        - {w: proportion, pos: n., th: สัดส่วน, ex: "A small proportion of users complained."}
+        - {w: trend, pos: n., th: แนวโน้ม, ex: "There's a trend towards healthy food."}
+        - {w: phenomenon, pos: n., th: ปรากฏการณ์, ex: "It's a global phenomenon."}
+        - {w: emerge, pos: v., th: ปรากฏขึ้น, ex: "A clear pattern emerged."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~phenomenons~~ และสับสน drastic (มาก) กับ dramatic เมื่อพูดถึงตัวเลข"
+        wrong: ["These phenomenons are common.", "There was a merely increase."]
+        right: ["These phenomena are common.", "There was merely a small increase."]
+      notes:
+        - {kind: pin, th: "พหูพจน์ ==phenomenon → phenomena=="}
+        - {kind: use, th: "อธิบายกราฟ There was a notable / marginal rise in ..."}
+    check: [cefr-b2-w10-013, cefr-b2-w10-014]
+    practice: [cefr-b2-w10-015, cefr-b2-w10-016, cefr-b2-w10-017, cefr-b2-w10-018, cefr-b2-w10-019, cefr-b2-w10-020, cefr-b2-w10-021, cefr-b2-w10-022, cefr-b2-w10-023, cefr-b2-w10-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายแนวโน้มหนึ่งที่คุณสังเกตเห็นในสังคมไทย
+      frame: "There is a growing trend towards ____. A large proportion of ____."
+      model: "There is a growing trend towards ordering food through apps. A large proportion of office workers now eat lunch at their desks."
+    classroom: {en: "That's merely a suggestion.", th: "เป็นแค่ข้อเสนอเท่านั้นนะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เน้นให้หนักแน่น
+    lesson:
+      rule_th: "เน้นได้สามแบบ ==What ... is== / It is ... that (ยกส่วนที่เน้นออกมา) · ++คำปฏิเสธขึ้นต้น Never++ / Rarely / Not only แล้วกลับลำดับเหมือนคำถาม · do / does / did + กริยาเพื่อเน้นว่าจริง"
+      examples:
+        - {en: "<k>What I need is</k> a holiday.", th: "สิ่งที่ต้องการคือ"}
+        - {en: "<k>It was</k> my sister <k>who</k> told me.", th: "==เน้นคน=="}
+        - {en: "<k>Never have I seen</k> such a sunset.", th: "กลับลำดับ"}
+        - {en: "I <k>do</k> want to help.", th: "อยากช่วยจริง ๆ นะ"}
+      signals:
+        - {label_th: "ขึ้นต้นแล้วต้องกลับลำดับ", words: ["Never", "Rarely", "Seldom", "Not only", "Hardly ever"]}
+      thai_trap:
+        intro_th: "ภาษาไทยเน้นด้วยน้ำเสียง คนจึงขึ้นต้นด้วย Never แล้ว ~~ไม่กลับลำดับ~~"
+        wrong: ["Never I have seen such a mess.", "Not only she sings, she also dances."]
+        right: ["Never have I seen such a mess.", "Not only does she sing, she also dances."]
+      notes:
+        - {kind: tip, th: "ไม่มีกริยาช่วย ==ยืม do / does / did== มาใช้กลับลำดับ"}
+        - {kind: use, th: "ในการพูด What I'd like to say is ... ช่วยให้มีเวลาคิด"}
+    check: [cefr-b2-w10-025, cefr-b2-w10-026]
+    practice: [cefr-b2-w10-027, cefr-b2-w10-028, cefr-b2-w10-029, cefr-b2-w10-030, cefr-b2-w10-031, cefr-b2-w10-032, cefr-b2-w10-033, cefr-b2-w10-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเน้นสิ่งที่คุณชอบที่สุดในงานหรือเมืองของคุณ ใช้ What ... is และ It is ... that
+      frame: "What I like most about ____ is ____. It is ____ that ____."
+      model: "What I like most about my job is the people. It is my manager that makes the office such a good place to work."
+    classroom: {en: "What I mean is ...", th: "ที่ฉันหมายถึงคือ..."}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทคัดย่องานวิจัยและฟังการบรรยายแนวโน้ม
+    lesson:
+      rule_th: "บทคัดย่องานวิจัยแยก ==สิ่งที่พบ (ข้อเท็จจริง)== กับ ++การตีความ (appear to · may · tentative)++ คำถามมักถามว่าผู้เขียนมั่นใจแค่ไหน"
+      examples:
+        - {en: "Learners who read scored <k>12% higher</k>.", th: "ข้อเท็จจริง"}
+        - {en: "These results <k>appear to support</k> ...", th: "==การตีความอย่างระวัง=="}
+        - {en: "It is <k>not possible to say</k> that ...", th: "ข้อจำกัด"}
+      thai_trap:
+        intro_th: "ผู้อ่านสรุปว่าการอ่าน ~~ทำให้ศัพท์ดีขึ้นแน่นอน~~ ทั้งที่ผู้เขียนบอกชัดว่ายังสรุปเหตุผลไม่ได้"
+        wrong: ["ผู้เขียนพิสูจน์แล้วว่าการอ่านทำให้ศัพท์ดีขึ้น"]
+        right: ["ผลดูเหมือนสนับสนุน แต่กลุ่มเล็กและอาจมีแรงจูงใจต่างกัน ต้องวิจัยเพิ่ม"]
+      notes:
+        - {kind: tip, th: "เจอคำว่า ==may== · appear · tentative · further research ตอบแบบไม่ฟันธง"}
+        - {kind: use, th: "ฟังกราฟ จดคำบอกขนาด sharply · slightly · marginally"}
+    check: [cefr-b2-w10-036, cefr-b2-w10-037]
+    practice: [cefr-b2-w10-035, cefr-b2-w10-038, cefr-b2-w10-039, cefr-b2-w10-040, cefr-b2-w10-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปงานวิจัยเรื่องการอ่าน แยกสิ่งที่พบกับข้อจำกัด
+      frame: "The study found that ____. However, the results are tentative because ____."
+      model: "The study found that learners who read every day scored 12% higher on a vocabulary test. However, the results are tentative because the groups were small."
+    classroom: {en: "It's too early to say for sure.", th: "ยังเร็วเกินไปที่จะพูดให้แน่"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน บรรยายแนวโน้มจากข้อมูลอย่างระวัง 150 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนประมาณ 150 คำบรรยายข้อมูลนี้และให้ข้อสังเกตอย่างระวัง — วิธีเดินทางไปทำงานของพนักงานบริษัทหนึ่ง (ร้อยละ) ปี 2023 → 2026 · รถยนต์ส่วนตัว 48 → 35 · รถไฟฟ้า 22 → 36 · มอเตอร์ไซค์ 25 → 24 · จักรยาน/เดิน 5 → 5 · หมายเหตุ บริษัทย้ายสำนักงานไปใกล้สถานีรถไฟฟ้าในปี 2024"
+      frame:
+        - "The data shows how staff travelled to work between ____ and ____."
+        - "The most notable change was ____, which ____."
+        - "At the same time, ____, whereas ____ remained ____."
+        - "This would seem to suggest that ____. However, ____."
+        - "On the whole, ____."
+      model_pass: "The data shows how staff at one company travelled to work between 2023 and 2026. The most notable change was the rise in train use, which increased from 22% to 36%. At the same time, the proportion of people driving fell from 48% to 35%. Motorbike use fell only marginally, from 25% to 24%, whereas cycling and walking remained at 5%. This would seem to suggest that the office move near a train station in 2024 had a big effect. However, other factors, such as fuel prices, may also have played a part. On the whole, it appears that staff tend to choose public transport when it is convenient."
+      model_good: "The data illustrates how employees at one company commuted to work between 2023 and 2026. What stands out most is the sharp rise in rail use, which increased from 22% to 36%, while the proportion of staff driving fell by a similar amount, from 48% to 35%. By contrast, motorbike use declined only marginally, and the share of people cycling or walking remained unchanged at 5%. It is likely that the company's move to an office near a train station in 2024 was a crucial factor in this shift. Nevertheless, these conclusions should be treated as tentative. Other factors, such as rising fuel or parking costs, may also have encouraged people to leave their cars at home. On the whole, the figures would seem to suggest that commuters tend to choose public transport when it is genuinely convenient."
+      steps_th:
+        - อ่านตัวเลขแล้ววงการเปลี่ยนแปลงที่ใหญ่ที่สุดและเล็กที่สุด
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 130–170 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนดูว่าไม่มีประโยคที่สรุปเกินข้อมูล
+      checklist_th:
+        - บรรยายตัวเลขถูกต้องอย่างน้อย 4 จุด
+        - ใช้ภาษาระวังอย่างน้อย 3 จุด (seem · likely · may · tend to)
+        - มีการเน้นอย่างน้อย 1 จุด (What stands out is ... / It was ... that)
+        - แยกข้อเท็จจริงกับการตีความ และยาวประมาณ 150 คำ
+    practice: [cefr-b2-w10-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 10
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [8, 9, 10], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
