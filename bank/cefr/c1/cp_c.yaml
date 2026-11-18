@@ -1,0 +1,496 @@
+# คอร์ส c1 · ชุดวัดผล ชุด c · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: สัปดาห์ 4–11 ปนกัน + review · cloze: modality / negative-inversion / tense-aspect
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-c1-cpc-001
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 1
+  stem: It is vital that every employee ____ the new privacy policy before Friday.
+  choices:
+    - {t: read, why: "It is vital that + ++กริยารูปเดิม++ (subjunctive)"}
+    - {t: reads, why: "subjunctive ไม่เติม s"}
+    - {t: will read, why: "ไม่ใช้ will หลัง It is vital that"}
+    - {t: reading, why: "หลัง that ต้องมีกริยาแท้"}
+  explain: "It is ==vital / essential that + กริยารูปเดิม=="
+  status: approved
+- id: cefr-c1-cpc-002
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 1
+  stem: ____ the instructions carefully, I still couldn't assemble the shelf.
+  choices:
+    - {t: Having read, why: "อ่านเสร็จก่อนแล้ว ใช้ ++Having + ช่อง 3++"}
+    - {t: Read, why: "Read ขึ้นต้นจะเป็นคำสั่งหรือรูปถูกกระทำ ความหมายผิด"}
+    - {t: Being read, why: "Being read เป็นรูปถูกกระทำ ความหมายผิด"}
+    - {t: To read, why: "To read บอกจุดประสงค์ ไม่ใช่สิ่งที่ทำเสร็จก่อน"}
+  explain: "ทำเสร็จก่อน ==Having + ช่อง 3, ...=="
+  status: approved
+- id: cefr-c1-cpc-003
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 1
+  stem: There ____ to be a mistake on your bill. Could you check it for me?
+  choices:
+    - {t: seems, why: "แจ้งปัญหาอย่างสุภาพ ++There seems to be++"}
+    - {t: seem, why: "There seems ผันตาม a mistake ที่เป็นเอกพจน์"}
+    - {t: is seeming, why: "seem ไม่ใช้รูป -ing"}
+    - {t: seems being, why: "หลัง seem ต้องเป็น to + กริยา"}
+  explain: "แจ้งปัญหาสุภาพ ==There seems to be ...=="
+  status: approved
+- id: cefr-c1-cpc-004
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: The bank introduced a system ____ customers can freeze their cards with one tap.
+  choices:
+    - {t: whereby, why: "ระบบซึ่งโดยวิธีนั้น ใช้ ++whereby++"}
+    - {t: albeit, why: "albeit บอกความขัดแย้ง ไม่ใช่วิธีการ"}
+    - {t: whereas, why: "whereas ใช้เทียบความต่าง"}
+    - {t: insofar, why: "ต้องเป็น insofar as และความหมายไม่ตรง"}
+  explain: "a system ==whereby + ประโยค== = ซึ่งโดยวิธีนั้น"
+  status: approved
+- id: cefr-c1-cpc-005
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 1
+  stem: I'm ____ grateful for everything you've done for my family.
+  choices:
+    - {t: deeply, why: "วิเศษณ์คู่ตายตัว ++deeply grateful++"}
+    - {t: highly, why: "highly grateful ไม่ใช่คู่คำที่ใช้"}
+    - {t: bitterly, why: "bitterly ใช้กับความผิดหวัง ไม่ใช่ความขอบคุณ"}
+    - {t: heavily, why: "heavily grateful ไม่ใช่คู่คำที่ใช้"}
+  explain: "==deeply grateful== · highly likely · bitterly disappointed"
+  status: approved
+- id: cefr-c1-cpc-006
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 1
+  stem: "\"The service was a little slow\" is ____ than \"The service was terrible\"."
+  choices:
+    - {t: more tactful, why: "a little ลดความแรง ทำให้ ++สุภาพกว่า++"}
+    - {t: more aggressive, why: "a little ไม่ได้ทำให้แรงขึ้น"}
+    - {t: less polite, why: "ลดความแรงแล้วสุภาพขึ้น ไม่ใช่น้อยลง"}
+    - {t: more informal, why: "ระดับความเป็นทางการใกล้กัน ต่างที่ความแรง"}
+  explain: "a little / slightly ==ลดความแรงของคำติ=="
+  status: approved
+- id: cefr-c1-cpc-007
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: ____ the weather, the outdoor concert will go ahead as planned.
+  choices:
+    - {t: Whatever, why: "Whatever + คำนาม ++ไม่ว่าอากาศจะเป็นอย่างไร++"}
+    - {t: However, why: "However the weather ไม่ใช่รูปที่ใช้"}
+    - {t: Much as, why: "Much as ต้องตามด้วยประโยค"}
+    - {t: No matter, why: "No matter ต้องตามด้วย what/how ไม่ใช่คำนามตรง ๆ"}
+  explain: "==Whatever the + คำนาม,== ... = ไม่ว่า...จะเป็นอย่างไร"
+  status: approved
+- id: cefr-c1-cpc-008
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 2
+  stem: "\"A professional photographer took our wedding photos.\" = We ____ by a professional photographer."
+  choices:
+    - {t: had our wedding photos taken, why: "causative ++have + สิ่งของ + ช่อง 3++"}
+    - {t: took our wedding photos ourselves, why: "ความหมายเปลี่ยนเป็นถ่ายเอง"}
+    - {t: had taken our wedding photos, why: "past perfect แปลว่าถ่ายเองมาก่อน"}
+    - {t: had our wedding photos take, why: "หลัง have + สิ่งของ ต้องเป็นช่อง 3"}
+  explain: "ให้คนอื่นทำ ==have + สิ่งของ + ช่อง 3=="
+  status: approved
+- id: cefr-c1-cpc-009
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  stem: There has been a significant ____ in the number of tourists since the airport opened.
+  choices:
+    - {t: increase, why: "a significant + ++คำนาม increase in++"}
+    - {t: increasing, why: "a significant increasing ไม่ใช่รูปคำนามที่ใช้"}
+    - {t: increased, why: "increased เป็นกริยาช่อง 2/3"}
+    - {t: increasingly, why: "increasingly เป็นคำวิเศษณ์"}
+  explain: "rose significantly → ==a significant increase in=="
+  status: approved
+- id: cefr-c1-cpc-010
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  stem: "\"Will you be at the meeting tomorrow?\" \"I'm afraid ____.\""
+  choices:
+    - {t: not, why: "แทนประโยคปฏิเสธ ++I'm afraid not++"}
+    - {t: "no", why: "I'm afraid no ไม่ใช่รูปที่ใช้"}
+    - {t: so, why: "I'm afraid so แปลว่าใช่ จะไปประชุม ความหมายกลับกับน้ำเสียงเสียดาย"}
+    - {t: don't, why: "I'm afraid don't ผิดรูป"}
+  explain: "แทนประโยค ==I'm afraid not / I hope not=="
+  status: approved
+- id: cefr-c1-cpc-011
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  stem: If I hadn't missed the bus this morning, I ____ at my desk right now.
+  choices:
+    - {t: would be sitting, why: "อดีตไม่จริง → ผลตอนนี้ ++would be + -ing++"}
+    - {t: would have sat, why: "right now บอกว่าเป็นผลตอนนี้"}
+    - {t: will be sitting, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
+    - {t: had sat, why: "ส่วนผลต้องมี would"}
+  explain: "mixed ==If + had + ช่อง 3, would + กริยา (now)=="
+  status: approved
+- id: cefr-c1-cpc-012
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  stem: He talks about the project as if he ____ it all by himself.
+  choices:
+    - {t: had done, why: "ราวกับว่าทำมาก่อนหน้า (ซึ่งไม่จริง) ใช้ ++had + ช่อง 3++"}
+    - {t: does, why: "as if ที่ไม่จริงต้องถอยเวลา"}
+    - {t: has done, why: "as if ที่ไม่จริงใช้ had done ไม่ใช่ has done"}
+    - {t: will do, why: "will ไม่ใช้หลัง as if แบบนี้"}
+  explain: "as if + ==had + ช่อง 3== = ราวกับว่าได้ทำไปแล้ว (ไม่จริง)"
+  status: approved
+- id: cefr-c1-cpc-013
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  stem: The more you rely on your phone for directions, ____ your sense of direction becomes.
+  choices:
+    - {t: the weaker, why: "the + ขั้นกว่า ..., ++the + ขั้นกว่า++"}
+    - {t: weaker, why: "ท่อนที่สองต้องมี the"}
+    - {t: the weakest, why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
+    - {t: the more weakly, why: "become ตามด้วยคุณศัพท์ ไม่ใช่คำวิเศษณ์"}
+  explain: "==The + ขั้นกว่า ..., the + ขั้นกว่า ...=="
+  status: approved
+- id: cefr-c1-cpc-014
+  kind: mcq
+  skill: gm
+  topic: word-formation-advanced
+  level: 3
+  stem: We underestimated the ____ of the problem, and the project ran late.
+  choices:
+    - {t: complexity, why: "หลัง the ... of ต้องเป็นคำนาม ++complexity++"}
+    - {t: complex, why: "complex เป็นคุณศัพท์ในบริบทนี้"}
+    - {t: complexly, why: "complexly เป็นคำวิเศษณ์"}
+    - {t: complicate, why: "complicate เป็นกริยา"}
+  explain: "complex → ==complexity== (ความซับซ้อน)"
+  status: approved
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-c1-cpc-015
+  kind: cloze
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  text: |
+    Never (1) ____ we seen such a busy weekend at the shop. We had expected a quiet month, so we (2) ____ ordered so little stock. By Sunday afternoon, we (3) ____ almost everything on the shelves.
+  questions:
+    - choices:
+        - {t: have, why: "Never ขึ้นต้น สลับ have + we + seen"}
+        - {t: did, why: "did ต้องตามด้วยกริยารูปเดิม ไม่ใช่ seen"}
+        - {t: had, why: "Never had we ... ใช้เล่าอดีตก่อนอดีต แต่ประโยคนี้เป็นประสบการณ์ถึงตอนนี้"}
+        - {t: are, why: "are ไม่คู่กับ seen ในความหมายนี้"}
+    - choices:
+        - {t: shouldn't have, why: "เสียดายที่สั่งของน้อย shouldn't have + ช่อง 3"}
+        - {t: mustn't have, why: "mustn't have ไม่ใช้บอกความเสียดาย"}
+        - {t: needn't have, why: "needn't have แปลว่าไม่จำเป็นต้องทำ ไม่เข้ากับการสั่งของน้อยไป"}
+        - {t: can't have, why: "can't have เป็นการคาดเดา ไม่ใช่ความเสียดาย"}
+    - choices:
+        - {t: had sold, why: "เสร็จก่อนจุดเวลาในอดีต By Sunday afternoon ใช้ had + ช่อง 3"}
+        - {t: have sold, why: "By Sunday afternoon เป็นจุดในอดีต ใช้ had"}
+        - {t: were selling, why: "ไม่ได้บอกว่าขายหมดแล้ว ณ จุดเวลานั้น"}
+        - {t: sell, why: "ปัจจุบันไม่เข้ากับเรื่องที่เล่าในอดีต"}
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ (10 สัปดาห์ต่างกัน) ----------
+- id: cefr-c1-cpc-016
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: Photos can ____ emotions that are difficult to put into words.
+  choices:
+    - {t: convey, why: "สื่อความรู้สึก ใช้ ++convey++"}
+    - {t: allude, why: "allude ต้องตามด้วย to"}
+    - {t: coherent, why: "coherent เป็นคุณศัพท์"}
+    - {t: implicit, why: "implicit เป็นคุณศัพท์"}
+  explain: "convey = ==สื่อ ถ่ายทอด=="
+  status: approved
+- id: cefr-c1-cpc-017
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: The plan was formally ____ by the city council last week.
+  choices:
+    - {t: endorsed, why: "รับรองอย่างเป็นทางการ ใช้ ++endorsed++"}
+    - {t: fostered, why: "foster ใช้กับการบ่มเพาะ ไม่ใช่การอนุมัติ"}
+    - {t: scaffolded, why: "scaffold ใช้กับการเรียนรู้ทีละขั้น"}
+    - {t: endeavoured, why: "endeavour ไม่ใช้ในรูปถูกกระทำแบบนี้"}
+  explain: "endorse = ==รับรอง สนับสนุนอย่างเป็นทางการ=="
+  status: approved
+- id: cefr-c1-cpc-018
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: 'The discount sounds great, but there''s one ____: it only applies to new customers.'
+  choices:
+    - {t: caveat, why: "ข้อแม้ ใช้ ++caveat++"}
+    - {t: onus, why: "onus คือภาระหน้าที่"}
+    - {t: hierarchy, why: "hierarchy คือลำดับชั้น"}
+    - {t: discretion, why: "discretion คือดุลยพินิจ"}
+  explain: "caveat = ==ข้อแม้ คำเตือน=="
+  status: approved
+- id: cefr-c1-cpc-019
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 2
+  stem: Please give a ____ summary, no longer than three sentences.
+  choices:
+    - {t: succinct, why: "สั้นกระชับ ใช้ ++succinct++"}
+    - {t: rudimentary, why: "rudimentary แปลว่าพื้นฐาน ไม่ได้บอกความสั้น"}
+    - {t: pertinent, why: "pertinent แปลว่าตรงประเด็น ไม่ได้บอกความยาว"}
+    - {t: digressive, why: "digressive แปลว่าออกนอกเรื่อง ความหมายกลับ"}
+  explain: "succinct = ==สั้นกระชับ=="
+  status: approved
+- id: cefr-c1-cpc-020
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: The auditor noticed a ____ between the sales figures and the bank records.
+  choices:
+    - {t: discrepancy, why: "ตัวเลขสองชุดไม่ตรงกัน ใช้ ++discrepancy between++"}
+    - {t: conjecture, why: "conjecture คือการคาดเดา"}
+    - {t: anomaly, why: "anomaly คือสิ่งผิดปกติ ไม่ใช้กับ between A and B"}
+    - {t: credibility, why: "credibility คือความน่าเชื่อถือ"}
+  explain: "a discrepancy between A and B = ==ความไม่ตรงกัน=="
+  status: approved
+- id: cefr-c1-cpc-021
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: There is a huge ____ in salaries between the capital and rural areas.
+  choices:
+    - {t: disparity, why: "ความเหลื่อมล้ำ ใช้ ++disparity in++"}
+    - {t: dichotomy, why: "dichotomy คือการแบ่งสองขั้วเชิงความคิด"}
+    - {t: juxtaposition, why: "juxtaposition คือการวางเทียบกัน"}
+    - {t: culmination, why: "culmination คือจุดสูงสุด"}
+  explain: "disparity = ==ความเหลื่อมล้ำ=="
+  status: approved
+- id: cefr-c1-cpc-022
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 2
+  stem: I appreciated her ____ advice, even though it wasn't what I wanted to hear.
+  choices:
+    - {t: candid, why: "ตรงไปตรงมาอย่างจริงใจ ใช้ ++candid++"}
+    - {t: condescending, why: "condescending แปลว่าดูถูก ไม่น่าขอบคุณ"}
+    - {t: indifferent, why: "indifferent แปลว่าเฉยเมย"}
+    - {t: complacent, why: "complacent แปลว่าประมาท"}
+  explain: "candid = ==ตรงไปตรงมา จริงใจ=="
+  status: approved
+- id: cefr-c1-cpc-023
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: Long working hours can be ____ to both physical and mental health.
+  choices:
+    - {t: detrimental, why: "เป็นผลเสียต่อ ใช้ ++detrimental to++"}
+    - {t: conducive, why: "conducive to แปลว่าเอื้อต่อ ความหมายกลับ"}
+    - {t: negligible, why: "negligible ไม่ตามด้วย to"}
+    - {t: equitable, why: "equitable แปลว่าเป็นธรรม"}
+  explain: "detrimental to = ==เป็นผลเสียต่อ=="
+  status: approved
+- id: cefr-c1-cpc-024
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: Small businesses that survived the crisis proved remarkably ____.
+  choices:
+    - {t: resilient, why: "ฟื้นตัวได้ ทนทาน ใช้ ++resilient++"}
+    - {t: intricate, why: "intricate แปลว่าซับซ้อน"}
+    - {t: inquisitive, why: "inquisitive แปลว่าช่างสงสัย"}
+    - {t: impartial, why: "impartial แปลว่าเป็นกลาง"}
+  explain: "resilient = ==ล้มแล้วลุกได้เร็ว=="
+  status: approved
+- id: cefr-c1-cpc-025
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: There is a ____ of research on this topic, so experts still know very little about it.
+  choices:
+    - {t: paucity, why: "มีน้อยมาก ใช้ ++a paucity of++"}
+    - {t: plethora, why: "plethora แปลว่ามากเกินพอ ขัดกับ know very little"}
+    - {t: propensity, why: "propensity คือแนวโน้มนิสัย"}
+    - {t: rapport, why: "rapport คือความสัมพันธ์ดี"}
+  explain: "a paucity of = ==ขาดแคลน มีน้อย=="
+  status: approved
+- id: cefr-c1-cpc-026
+  kind: read
+  skill: rd
+  topic: research-analysis
+  level: 1
+  title: "Do Brain-Training Games Work?"
+  passage: |
+    Brain-training apps promise to keep our minds sharp as we age. Their advertisements are often compelling: play for ten minutes a day, they suggest, and you will remember more, think faster and perhaps even reduce your risk of dementia. Millions of people have downloaded them. But what does the evidence actually show?
+
+    The short answer is that people get better at the games. In study after study, players improve their scores steadily over several weeks. The more difficult question is whether these improvements transfer to everyday life, such as remembering a shopping list or following a conversation in a noisy room. Here, the evidence is far weaker. Most large reviews have found that the benefits are limited to the specific tasks practised, with little measurable effect on general memory or reasoning.
+
+    That is not to say that keeping the brain active is pointless. Activities that combine mental effort with social contact or physical movement, such as learning a language in a class, dancing or volunteering, appear to be more strongly linked to healthy ageing. However, these studies are mostly observational, which means they show a connection rather than proving that the activity causes the benefit.
+
+    For now, the most reasonable conclusion is a cautious one. Brain-training games are unlikely to do any harm, and some people simply enjoy them. But anyone hoping they will protect against memory loss would arguably be better off joining a class or taking a daily walk with a friend.
+  questions:
+    - stem: What is the writer's main conclusion about brain-training games?
+      choices:
+        - {t: they improve game scores but probably not everyday thinking, why: "benefits are limited to the specific tasks practised"}
+        - {t: they prevent dementia, why: "บทไม่ได้สนับสนุนข้ออ้างนี้"}
+        - {t: they are harmful to older people, why: "บทบอกว่า unlikely to do any harm"}
+        - {t: they are a better way to stay mentally healthy than social or physical activities, why: "บทบอกว่ากิจกรรมทางสังคมน่าจะดีกว่า"}
+    - stem: What does "transfer to everyday life" refer to?
+      choices:
+        - {t: skills from the games helping with real-life tasks, why: "เช่น จำรายการซื้อของ หรือฟังบทสนทนาในที่เสียงดัง"}
+        - {t: moving the games to another phone, why: "ไม่ใช่ความหมายในบท"}
+        - {t: playing the games with family, why: "บทไม่ได้พูดว่า playing the games with family"}
+        - {t: improving game scores over several weeks, why: "เป็นสิ่งที่พิสูจน์แล้ว ไม่ใช่ความหมายของ transfer"}
+    - stem: Why does the writer describe some studies as "observational"?
+      choices:
+        - {t: they show a link but not cause and effect, why: "they show a connection rather than proving that the activity causes the benefit"}
+        - {t: they were done by watching videos, why: "ไม่ใช่ความหมายในบท"}
+        - {t: they involved very few people, why: "บทไม่ได้พูดเรื่องจำนวนคน"}
+        - {t: their results were completely negative, why: "บทบอกว่ามีความเชื่อมโยง"}
+    - stem: What does the writer imply in the final sentence?
+      choices:
+        - {t: social and physical activities may be a better use of time, why: "would arguably be better off joining a class or taking a daily walk"}
+        - {t: people should delete the apps immediately, why: "ผู้เขียนบอกว่าเกมไม่น่าจะมีโทษ"}
+        - {t: walking is the only way to protect memory, why: "ผู้เขียนใช้ arguably และยกตัวอย่างหลายอย่าง"}
+        - {t: classes are too expensive for older people, why: "ไม่มีข้อมูลเรื่องค่าใช้จ่าย"}
+  status: approved
+- id: cefr-c1-cpc-027
+  kind: read
+  skill: rd
+  topic: analytical-article
+  level: 2
+  title: "Why Cities Are Planting Trees Again"
+  passage: |
+    For much of the twentieth century, city planners treated trees as decoration: pleasant to look at, but easily removed to make room for wider roads or new buildings. That view is changing rapidly. Across Asia, cities are now planting trees on a scale not seen for decades, and the reasons are less aesthetic than practical.
+
+    The most pressing is heat. Paved surfaces absorb sunlight and release it slowly, which means that dense city centres can be several degrees hotter than the surrounding countryside, particularly at night. Trees mitigate this effect in two ways: by providing shade and by releasing water through their leaves, which cools the surrounding air. In one fictional study of Bangkok's districts, streets with continuous tree cover were, on average, four degrees cooler in the afternoon than similar streets without it.
+
+    There are other benefits, too. Trees reduce flooding by allowing rainwater to soak into the ground, and there is growing evidence that access to green space is conducive to mental wellbeing. Such benefits, however, are not evenly distributed. Wealthier neighbourhoods typically have far more trees than poorer ones, a disparity that means those least able to afford air conditioning often live in the hottest streets.
+
+    Planting alone is not enough. Young trees need years of watering and care, and many die within the first few seasons. Insofar as cities measure success by the number of trees planted rather than the number that survive, the figures can be misleading. The real test, as one urban ecologist put it, is not how many trees a city plants, but how many it still has ten years later.
+  questions:
+    - stem: What is the main point of the article?
+      choices:
+        - {t: cities now value trees mainly for practical benefits, which must be managed well, why: "the reasons are less aesthetic than practical และต้องดูแลให้รอด"}
+        - {t: trees are mostly decoration and should make way for roads and buildings, why: "เป็นมุมมองเก่าที่บทบอกว่ากำลังเปลี่ยน"}
+        - {t: air conditioning is the best way to cool cities, why: "บทไม่ได้เสนอแบบนี้"}
+        - {t: Asian cities have stopped building roads, why: "ไม่มีข้อมูลที่สนับสนุน"}
+    - stem: How do trees reduce heat, according to the article?
+      choices:
+        - {t: by giving shade and cooling the air through their leaves, why: "providing shade and by releasing water through their leaves"}
+        - {t: by absorbing sunlight and releasing it at night, why: "นั่นคือสิ่งที่พื้นผิวลาดยางทำ ไม่ใช่ต้นไม้"}
+        - {t: by blocking the wind, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: by reducing the number of cars, why: "บทไม่ได้พูดว่า by reducing the number of cars"}
+    - stem: What problem does the word "disparity" describe in paragraph 3?
+      choices:
+        - {t: poorer areas tend to have fewer trees, why: "Wealthier neighbourhoods typically have far more trees than poorer ones"}
+        - {t: rich people dislike trees, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: trees grow faster in poor areas, why: "บทไม่ได้พูดว่า trees grow faster in poor areas"}
+        - {t: some streets flood more than others, why: "เรื่องน้ำท่วมเป็นประโยชน์อีกข้อ ไม่ใช่ความเหลื่อมล้ำที่พูดถึง"}
+    - stem: What does the final paragraph suggest about official tree-planting figures?
+      choices:
+        - {t: they may overstate success if survival is ignored, why: "measure success by the number of trees planted rather than the number that survive"}
+        - {t: they are always accurate, why: "บทบอกว่าอาจทำให้เข้าใจผิด"}
+        - {t: they include too many old trees, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: they are kept secret, why: "บทไม่ได้พูดว่า they are kept secret"}
+  status: approved
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-c1-cpc-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Are you coming to the team dinner on Friday?"}
+    - {who: Man, en: "I'd love to, but I've promised to help my sister move house. Maybe next time?"}
+  questions:
+    - stem: What is the man doing?
+      choices:
+        - {t: politely declining, why: "I'd love to, but ... Maybe next time? คือการปฏิเสธอย่างสุภาพ"}
+        - {t: accepting the invitation, why: "เขามีธุระอื่น จึงใช้ไม่ได้"}
+        - {t: inviting his sister, why: "เขาจะไปช่วยน้องสาวย้ายบ้าน ไม่ได้ชวนมา"}
+        - {t: changing the date, why: "เขาไม่ได้เสนอวันใหม่ที่ชัดเจน"}
+  status: approved
+- id: cefr-c1-cpc-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Lecturer, en: "Many people assume the main barrier to exercise is time. Our data suggest otherwise. The real issue is not so much a lack of time as a lack of energy at the end of the working day."}
+  questions:
+    - stem: According to the lecturer, what is the main barrier to exercise?
+      choices:
+        - {t: being tired after work, why: "a lack of energy at the end of the working day"}
+        - {t: a lack of time, why: "เป็นความเชื่อทั่วไปที่ผู้บรรยายแย้ง"}
+        - {t: the cost of gyms, why: "ไม่ได้พูดเรื่องราคา"}
+        - {t: bad weather, why: "ไม่ได้พูดเรื่องสภาพอากาศ"}
+  status: approved
+- id: cefr-c1-cpc-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "So, what did the director think of our idea?"}
+    - {who: Woman, en: "She said it was interesting, which, as you know, usually means she has no intention of approving it."}
+  questions:
+    - stem: What does the woman believe?
+      choices:
+        - {t: the director will probably reject the idea, why: "interesting usually means she has no intention of approving it"}
+        - {t: the director loved the idea, why: "ผู้หญิงตีความว่า interesting ไม่ใช่คำชมจริง"}
+        - {t: the director needs more time, why: "ไม่ได้พูดว่าต้องการเวลา"}
+        - {t: the idea has been approved, why: "ตรงข้ามกับที่เธอเชื่อ"}
+  status: approved
+- id: cefr-c1-cpc-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Announcer, en: "Due to essential maintenance, the 7.15 train to Ayutthaya has been cancelled. Passengers may use their tickets on the 7.45 service, which will depart from platform 6 rather than platform 2."}
+  questions:
+    - stem: What should passengers for Ayutthaya do?
+      choices:
+        - {t: take the 7.45 train from platform 6, why: "use their tickets on the 7.45 service ... from platform 6"}
+        - {t: take the 7.15 train from platform 2, why: "รถไฟ 7.15 ถูกยกเลิก"}
+        - {t: buy new tickets, why: "ใช้ตั๋วเดิมได้ จึงใช้ไม่ได้"}
+        - {t: wait at platform 2, why: "ชานชาลาเปลี่ยนเป็นหมายเลข 6"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-c1-cpc-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [It was, her calm reaction, that, impressed everyone]
+  sentence: It was her calm reaction that impressed everyone.
+  th: ปฏิกิริยาที่สงบของเธอต่างหากที่ทำให้ทุกคนประทับใจ
+  why: "It was + สิ่งที่เน้น + that + กริยา"
+  status: approved

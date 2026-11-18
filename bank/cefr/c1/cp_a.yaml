@@ -1,0 +1,497 @@
+# คอร์ส c1 · ชุดวัดผล ชุด a · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26 "ทำตามที่เสนอทุกอย่าง") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: d1 ของสัปดาห์ 1–11 + modality + inverted-conditionals + fronting · cloze: nominalisation / ellipsis / discourse-reference
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-c1-cpa-001
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 1
+  stem: She ____ five chapters of her thesis so far, and she hopes to finish by June.
+  choices:
+    - {t: has written, why: "นับจำนวนที่เสร็จแล้ว + so far ใช้ ++has written++"}
+    - {t: has been writing, why: "รูปต่อเนื่องไม่ใช้กับจำนวนชิ้นงานที่เสร็จแล้ว"}
+    - {t: is writing, why: "is writing ไม่บอกว่าเสร็จไปแล้วกี่บท"}
+    - {t: wrote, why: "so far เชื่อมถึงปัจจุบัน ใช้อดีตธรรมดาไม่ได้"}
+  explain: "มีจำนวน + so far → ==have + ช่อง 3=="
+  status: approved
+- id: cefr-c1-cpa-002
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 1
+  stem: Under no circumstances ____ the fire exit be blocked.
+  choices:
+    - {t: should, why: "วลีปฏิเสธขึ้นต้น สลับกริยาช่วย ++should++ ไว้หน้าประธาน"}
+    - {t: shouldn't, why: "ปฏิเสธซ้อนกับ no ความหมายกลับ"}
+    - {t: it should, why: "ไม่สลับลำดับ และมี it เกินมา"}
+    - {t: must not, why: "must not เป็นปฏิเสธซ้อนกับ no และไม่ได้สลับลำดับ"}
+  explain: "Under no circumstances + ==กริยาช่วย + ประธาน== (ไม่ใส่ not ซ้ำ)"
+  status: approved
+- id: cefr-c1-cpa-003
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 1
+  stem: ____ worries me is not the cost but the time it will take.
+  choices:
+    - {t: What, why: "What ... is ++เน้นสิ่งที่กังวล++"}
+    - {t: That, why: "That worries me ... ไม่ใช่โครงสร้างเน้นแบบนี้"}
+    - {t: It, why: "It worries me is ... ผิดรูป"}
+    - {t: Which, why: "Which ไม่ขึ้นต้นประโยคบอกเล่าแบบนี้"}
+  explain: "==What + กริยา + is + สิ่งที่เน้น=="
+  status: approved
+- id: cefr-c1-cpa-004
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: The inspector insisted that the kitchen ____ closed until the repairs were finished.
+  choices:
+    - {t: be, why: "insist that + ++be + ช่อง 3++ (subjunctive)"}
+    - {t: was, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม insisted"}
+    - {t: is, why: "subjunctive ใช้ be ไม่ผันเป็น is"}
+    - {t: being, why: "หลัง that ต้องมีกริยาแท้"}
+  explain: "insist / demand that + ==ประธาน + be + ช่อง 3=="
+  status: approved
+- id: cefr-c1-cpa-005
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: ____ by the long delay, several passengers demanded a refund.
+  choices:
+    - {t: Frustrated, why: "ผู้โดยสารรู้สึกหงุดหงิด ใช้ ++ช่อง 3++ บอกความรู้สึกที่ได้รับ"}
+    - {t: Frustrating, why: "frustrating ทำให้ผู้โดยสารเป็นผู้ทำให้คนอื่นหงุดหงิด"}
+    - {t: Having frustrated, why: "แปลว่าผู้โดยสารทำให้คนอื่นหงุดหงิดเสร็จแล้ว"}
+    - {t: To frustrate, why: "To frustrate บอกจุดประสงค์ ความหมายผิด"}
+  explain: "ความรู้สึกที่ประธานได้รับ ==ช่อง 3 ขึ้นต้น=="
+  status: approved
+- id: cefr-c1-cpa-006
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 1
+  stem: The two companies ____ to be discussing a merger, although neither has confirmed it.
+  choices:
+    - {t: are said, why: "รายงานโดยไม่ยืนยัน ++are said to be + -ing++"}
+    - {t: say, why: "บริษัทไม่ได้เป็นผู้พูด และไม่ได้ยืนยัน"}
+    - {t: are saying, why: "รูปกระทำ ขัดกับ neither has confirmed it"}
+    - {t: have said, why: "have said ขัดกับที่ยังไม่มีใครยืนยัน"}
+  explain: "passive reporting ==are said / reported to be + -ing=="
+  status: approved
+- id: cefr-c1-cpa-007
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: The hotel was comfortable, ____ a little far from the city centre.
+  choices:
+    - {t: albeit, why: "แม้จะ + วลีสั้น ใช้ ++albeit++"}
+    - {t: although, why: "although ต้องตามด้วยประโยคเต็ม"}
+    - {t: whereby, why: "whereby ไม่ได้บอกความขัดแย้ง"}
+    - {t: despite, why: "despite ไม่ตามด้วยวลีคุณศัพท์แบบนี้"}
+  explain: "==albeit + วลีสั้น== วางหลังจุลภาค"
+  status: approved
+- id: cefr-c1-cpa-008
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 1
+  stem: Both sides need to ____ a compromise before the deadline.
+  choices:
+    - {t: reach, why: "คู่คำตายตัว ++reach a compromise++"}
+    - {t: do, why: "do a compromise ไม่ใช่คู่คำที่ใช้"}
+    - {t: arrive, why: "arrive ต้องมี at และไม่เข้าคู่ตรงนี้"}
+    - {t: take, why: "take a compromise ไม่ใช่คู่คำที่ใช้"}
+  explain: "==reach a compromise== / an agreement / a decision"
+  status: approved
+- id: cefr-c1-cpa-009
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: Which is the most diplomatic way to point out an error in a colleague's report?
+  choices:
+    - {t: "I think there might be a small issue with the figures on page 3.", why: "ใช้ I think + might + small ++ลดความแรง++"}
+    - {t: "Your figures on page 3 are wrong.", why: "ตำหนิตรง ๆ ไม่ถนอมน้ำใจ"}
+    - {t: "Didn't you check page 3 before sending this?", why: "ฟังเหมือนกล่าวหา"}
+    - {t: "Page 3 is a complete disaster, honestly speaking.", why: "รุนแรงเกินจริงและไม่สุภาพ"}
+  explain: "ชี้ข้อผิดอย่างสุภาพ ==I think + might + a small ...=="
+  status: approved
+- id: cefr-c1-cpa-010
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: ____ much I enjoy city life, I sometimes miss the quiet of my village.
+  choices:
+    - {t: However, why: "However + much ++ไม่ว่าจะ...แค่ไหน++"}
+    - {t: Although, why: "Although much ผิดรูป"}
+    - {t: Whatever, why: "Whatever ไม่ตามด้วย much"}
+    - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
+  explain: "==However much + ประโยค== = ไม่ว่าจะ...มากแค่ไหน"
+  status: approved
+- id: cefr-c1-cpa-011
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 3
+  stem: "\"It's a shame I didn't keep the receipt.\" = I wish I ____ the receipt."
+  choices:
+    - {t: had kept, why: "เสียดายเรื่องในอดีต wish + ++had + ช่อง 3++"}
+    - {t: kept, why: "wish + อดีตธรรมดาใช้กับปัจจุบัน"}
+    - {t: would keep, why: "wish + would ใช้กับอนาคตหรือนิสัยคนอื่น"}
+    - {t: have kept, why: "wish ไม่ตามด้วย present perfect"}
+  explain: "เสียดายอดีต ==wish + had + ช่อง 3=="
+  status: approved
+- id: cefr-c1-cpa-012
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  stem: I ____ worried about the exam. In the end it was much easier than I expected.
+  choices:
+    - {t: needn't have, why: "กังวลไปแล้วโดยไม่จำเป็น ++needn't have + ช่อง 3++"}
+    - {t: mustn't have, why: "mustn't have ไม่ใช้บอกความไม่จำเป็นในอดีต"}
+    - {t: didn't need, why: "didn't need ต้องตามด้วย to"}
+    - {t: can't have, why: "can't have เป็นการคาดเดา ขัดกับที่กังวลจริง"}
+  explain: "ทำไปแล้วโดยไม่จำเป็น ==needn't have + ช่อง 3=="
+  status: approved
+- id: cefr-c1-cpa-013
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 3
+  stem: ____ we known about the roadworks, we would have taken a different route.
+  choices:
+    - {t: Had, why: "ตัด If แล้วสลับ ++Had we known++ = If we had known"}
+    - {t: If, why: "If we known ขาด had"}
+    - {t: Should, why: "Should ใช้กับอนาคต และ Should we known ผิดรูป"}
+    - {t: Were, why: "Were we known ผิดรูป"}
+  explain: "If ... had + ช่อง 3 = ==Had + ประธาน + ช่อง 3=="
+  status: approved
+- id: cefr-c1-cpa-014
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  stem: Such ____ that tickets sold out within an hour.
+  choices:
+    - {t: was the demand, why: "Such ขึ้นต้น สลับ ++was the demand++"}
+    - {t: the demand was, why: "Such ขึ้นต้นต้องสลับลำดับ"}
+    - {t: demand was, why: "ขาด the และไม่สลับลำดับ"}
+    - {t: was demand it, why: "มี it เกินมา จึงใช้ไม่ได้"}
+  explain: "==Such + be + คำนาม + that== = มากจน..."
+  status: approved
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-c1-cpa-015
+  kind: cloze
+  skill: gm
+  topic: nominalisation
+  level: 2
+  text: |
+    Following the (1) ____ of the new parking rules, complaints have fallen sharply. Some residents wanted the rules to be stricter, others more flexible; (2) ____ argued that cars should be banned altogether, while the latter preferred a permit system. The council has promised to review the rules, and it will (3) ____ next spring.
+  questions:
+    - choices:
+        - {t: introduction, why: "หลัง the ... of ต้องเป็นคำนาม introduction"}
+        - {t: introduce, why: "introduce เป็นกริยา"}
+        - {t: introductory, why: "introductory เป็นคุณศัพท์"}
+        - {t: introducing, why: "the introducing of ไม่ใช่รูปคำนามที่ใช้"}
+    - choices:
+        - {t: the former, why: "อ้างถึงกลุ่มแรก (อยากให้เข้มงวด) คู่กับ the latter"}
+        - {t: the formal, why: "formal แปลว่าทางการ สะกดคล้ายแต่ผิด"}
+        - {t: the later, why: "later แปลว่าทีหลัง ไม่ใช่คำอ้างอิง"}
+        - {t: such, why: "such ไม่ใช้ในตำแหน่งประธานแบบนี้"}
+    - choices:
+        - {t: do so, why: "do so แทน review the rules ไม่ต้องพูดซ้ำ"}
+        - {t: do it so, why: "มี it เกินมา จึงใช้ไม่ได้"}
+        - {t: so do, why: "ลำดับผิด จึงใช้ไม่ได้"}
+        - {t: doing so, why: "หลัง will ต้องใช้กริยารูปเดิม"}
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ (10 สัปดาห์ต่างกัน) ----------
+- id: cefr-c1-cpa-016
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: The speech was well structured and ____, so the audience followed every point.
+  choices:
+    - {t: coherent, why: "มีลำดับเหตุผลต่อเนื่อง ใช้ ++coherent++"}
+    - {t: ambiguous, why: "ambiguous แปลว่ากำกวม ขัดกับการตามทันทุกประเด็น"}
+    - {t: implicit, why: "implicit แปลว่าโดยนัย ไม่ได้บอกโครงสร้างที่ดี"}
+    - {t: incessant, why: "incessant แปลว่าไม่หยุด"}
+  explain: "coherent = ==ต่อเนื่อง มีเหตุผลเชื่อมกัน=="
+  status: approved
+- id: cefr-c1-cpa-017
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: With the storm ____, the beach was closed to all visitors.
+  choices:
+    - {t: imminent, why: "ใกล้จะมาถึง ใช้ ++imminent++"}
+    - {t: paramount, why: "paramount แปลว่าสำคัญที่สุด"}
+    - {t: profound, why: "profound แปลว่าลึกซึ้ง"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์ แปลว่าเสมอ"}
+  explain: "imminent = ==ใกล้จะเกิดเต็มที=="
+  status: approved
+- id: cefr-c1-cpa-018
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: The library runs reading clubs to ____ a love of books in young children.
+  choices:
+    - {t: foster, why: "บ่มเพาะให้เกิด ใช้ ++foster a love of++"}
+    - {t: streamline, why: "streamline ใช้กับขั้นตอนหรือระบบ"}
+    - {t: endorse, why: "endorse แปลว่ารับรองอย่างเป็นทางการ"}
+    - {t: consolidate, why: "consolidate ใช้กับสิ่งที่มีอยู่แล้วให้มั่นคง ไม่ใช่สร้างความรัก"}
+  explain: "foster = ==บ่มเพาะ ส่งเสริมให้เติบโต=="
+  status: approved
+- id: cefr-c1-cpa-019
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 2
+  stem: Ministers must be held ____ for decisions that waste public money.
+  choices:
+    - {t: accountable, why: "ต้องรับผิดชอบและชี้แจง ใช้ ++held accountable for++"}
+    - {t: compliance, why: "compliance เป็นคำนาม"}
+    - {t: hierarchy, why: "hierarchy เป็นคำนาม แปลว่าลำดับชั้น"}
+    - {t: discretion, why: "discretion เป็นคำนาม แปลว่าดุลยพินิจ"}
+  explain: "be held ==accountable for== = ต้องรับผิดชอบต่อ"
+  status: approved
+- id: cefr-c1-cpa-020
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: The survey was designed to ____ honest opinions from staff about their managers.
+  choices:
+    - {t: elicit, why: "ดึงความเห็นออกมาจากคน ใช้ ++elicit++"}
+    - {t: disseminate, why: "disseminate แปลว่าเผยแพร่ออกไป ทิศทางกลับกัน"}
+    - {t: digress, why: "digress ไม่มีกรรม"}
+    - {t: delineate, why: "delineate แปลว่าแจกแจงให้ชัด ไม่ใช่ดึงความเห็น"}
+  explain: "elicit = ==ดึงข้อมูล คำตอบ ความเห็นออกมา=="
+  status: approved
+- id: cefr-c1-cpa-021
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: Security camera footage ____ the driver's account of the accident.
+  choices:
+    - {t: corroborated, why: "ยืนยันด้วยหลักฐานอีกแหล่ง ใช้ ++corroborated++"}
+    - {t: discerned, why: "discern แปลว่าสังเกตเห็น ไม่ใช่ยืนยัน"}
+    - {t: conjectured, why: "conjecture แปลว่าคาดเดา ตรงข้ามกับการยืนยัน"}
+    - {t: ostensibly, why: "ostensibly เป็นคำวิเศษณ์"}
+  explain: "corroborate = ==ยืนยันด้วยหลักฐานเพิ่ม=="
+  status: approved
+- id: cefr-c1-cpa-022
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 2
+  stem: Back problems are increasingly ____ among young office workers.
+  choices:
+    - {t: prevalent, why: "พบบ่อยในกลุ่มนี้ ใช้ ++prevalent among++"}
+    - {t: intrinsic, why: "intrinsic among ไม่ใช่วลีที่ใช้"}
+    - {t: holistic, why: "holistic ไม่ได้บอกความชุก"}
+    - {t: overarching, why: "overarching ไม่ได้บอกความชุก"}
+  explain: "prevalent among = ==พบบ่อยในกลุ่ม=="
+  status: approved
+- id: cefr-c1-cpa-023
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: The new drug should help ____ the symptoms, although it is not a cure.
+  choices:
+    - {t: alleviate, why: "บรรเทาอาการ ใช้ ++alleviate symptoms++"}
+    - {t: thwart, why: "thwart ใช้กับแผนหรือความพยายาม"}
+    - {t: expedite, why: "expedite แปลว่าเร่ง ความหมายผิด"}
+    - {t: circumvent, why: "circumvent แปลว่าหลบเลี่ยง ไม่ใช้กับอาการ"}
+  explain: "alleviate = ==บรรเทา== (pain / symptoms / suffering)"
+  status: approved
+- id: cefr-c1-cpa-024
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: Building a metro line in such a small town is simply not ____ financially.
+  choices:
+    - {t: feasible, why: "ทำได้จริงในทางปฏิบัติ ใช้ ++feasible++"}
+    - {t: negligible, why: "negligible แปลว่าน้อยจนไม่สำคัญ"}
+    - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง ไม่ได้บอกความเป็นไปได้ทางการเงิน"}
+    - {t: precarious, why: "precarious แปลว่าไม่มั่นคง ไม่ใช้กับแผนแบบนี้"}
+  explain: "feasible = ==ทำได้ในทางปฏิบัติ=="
+  status: approved
+- id: cefr-c1-cpa-025
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: After three hours of discussion, the committee still could not reach a ____.
+  choices:
+    - {t: consensus, why: "มติร่วม ใช้ ++reach a consensus++"}
+    - {t: propensity, why: "propensity คือแนวโน้มนิสัย"}
+    - {t: paucity, why: "paucity คือความขาดแคลน"}
+    - {t: rapport, why: "rapport คือความสัมพันธ์ดี ไม่ใช้กับ reach"}
+  explain: "reach a consensus = ==ได้ข้อตกลงร่วมกัน=="
+  status: approved
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-c1-cpa-026
+  kind: read
+  skill: rd
+  topic: workplace-article
+  level: 1
+  title: "The Myth of Multitasking"
+  passage: |
+    Many job advertisements still ask for candidates who can "multitask". The assumption is that a worker who answers emails during a meeting, or checks messages while writing a report, is getting more done. Research suggests the opposite.
+
+    When we switch between tasks, our brains need time to refocus. Each switch may take only a fraction of a second, but over a day these small delays add up. In one study, office workers who were interrupted regularly took around a quarter longer to finish a writing task, and made noticeably more mistakes, than colleagues who worked without interruption. Interestingly, the interrupted group believed they had worked faster.
+
+    The problem is not simply lost time. Constant switching appears to make it harder to think deeply. People who habitually do several things at once tend to find it more difficult to ignore irrelevant information, even when they are trying to concentrate on a single task.
+
+    None of this means that people should never answer an email quickly. Some jobs, such as running a busy reception desk, require constant attention to many things. But for work that demands careful thought, such as writing, planning or analysing data, the researchers recommend protecting blocks of uninterrupted time. Several companies that have tried "quiet mornings", when meetings and messages are discouraged, report that staff feel less tired at the end of the day, not more.
+  questions:
+    - stem: What is the main point of the article?
+      choices:
+        - {t: switching between tasks often reduces the quality and speed of work, why: "บทแย้งความเชื่อเรื่อง multitask ด้วยผลวิจัย"}
+        - {t: companies should stop advertising jobs, why: "ไม่มีข้อเสนอนี้"}
+        - {t: receptionists work harder than other staff, why: "พนักงานต้อนรับเป็นตัวอย่างข้อยกเว้น ไม่ใช่ประเด็นหลัก"}
+        - {t: emails should never be answered quickly, why: "บทบอกว่า None of this means ... never answer an email quickly"}
+    - stem: What surprised researchers about the interrupted workers?
+      choices:
+        - {t: they thought they had been quicker, why: "the interrupted group believed they had worked faster"}
+        - {t: they made fewer mistakes, why: "บทบอกว่าผิดพลาดมากกว่า"}
+        - {t: they finished before the others, why: "บทบอกว่าใช้เวลานานกว่าราวหนึ่งในสี่"}
+        - {t: they refused to be interrupted, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: According to the article, which job may genuinely require attention to many things?
+      choices:
+        - {t: working at a busy reception desk, why: "running a busy reception desk, require constant attention"}
+        - {t: writing a long report, why: "การเขียนเป็นงานที่ต้องการเวลาไม่ถูกขัดจังหวะ"}
+        - {t: analysing data, why: "การวิเคราะห์ข้อมูลเป็นงานที่ต้องคิดลึก"}
+        - {t: planning a project, why: "การวางแผนเป็นงานที่ต้องคิดลึก"}
+    - stem: What can be inferred about the companies that tried "quiet mornings"?
+      choices:
+        - {t: the change did not make staff more exhausted, why: "staff feel less tired at the end of the day, not more"}
+        - {t: they cancelled all meetings permanently, why: "บทบอกแค่ว่าไม่สนับสนุนการประชุมในช่วงเช้า"}
+        - {t: their staff complained about the new rule, why: "บทไม่ได้พูดถึงการร้องเรียนของพนักงาน"}
+        - {t: they hired more receptionists, why: "ไม่มีข้อมูลนี้ในบท"}
+  status: approved
+- id: cefr-c1-cpa-027
+  kind: read
+  skill: rd
+  topic: policy-report
+  level: 2
+  title: "Policy Note · Free Bus Travel for Older Residents (fictional)"
+  passage: |
+    In 2025, the fictional city of Nakhon Rua introduced free bus travel for residents over sixty-five. This note summarises the first year of the scheme and recommends whether it should continue.
+
+    Use of the buses by older residents rose by almost 40 per cent. Survey data suggest that the scheme has had a tangible effect on wellbeing: participants reported visiting friends, markets and health centres more often, and feeling less isolated. Local shop owners near major bus routes also reported a modest increase in weekday trade.
+
+    The scheme is not without problems. Its cost, at roughly 35 million baht a year, has proved considerably higher than forecast, largely because more people used it than expected. Moreover, the benefits have been unevenly distributed. Residents in outer districts, where buses run only twice an hour, have gained far less than those in the city centre. Insofar as the aim was to reduce isolation, the scheme has arguably helped least those who were most isolated to begin with.
+
+    We therefore recommend that the scheme continue, albeit with two changes. First, a portion of the budget should be used to increase the frequency of services in outer districts. Second, the city should explore partnerships with local businesses, whereby shops on bus routes contribute a small amount in exchange for advertising space. Were these changes to be adopted, the scheme would be both fairer and more financially sustainable.
+  questions:
+    - stem: What is the overall recommendation of the note?
+      choices:
+        - {t: continue the scheme with some adjustments, why: "recommend that the scheme continue, albeit with two changes"}
+        - {t: end the scheme because it is too expensive, why: "บทแนะนำให้ดำเนินต่อ"}
+        - {t: extend free travel to all ages, why: "ไม่มีข้อเสนอนี้"}
+        - {t: replace buses with taxis, why: "บทไม่ได้พูดถึงแท็กซี่เลย"}
+    - stem: Why did the scheme cost more than expected?
+      choices:
+        - {t: more people used it than predicted, why: "largely because more people used it than expected"}
+        - {t: bus fares increased, why: "ไม่มีข้อมูลเรื่องค่าโดยสารเพิ่ม"}
+        - {t: new buses had to be bought, why: "ไม่มีข้อมูลเรื่องซื้อรถใหม่"}
+        - {t: shop owners demanded payment, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: Why have outer-district residents benefited less?
+      choices:
+        - {t: buses there are much less frequent, why: "buses run only twice an hour"}
+        - {t: they are not allowed to use the scheme, why: "ไม่ได้บอกว่าถูกห้ามใช้"}
+        - {t: they prefer to drive, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: they are younger on average, why: "ไม่มีข้อมูลเรื่องอายุเฉลี่ย"}
+    - stem: What does the phrase "has arguably helped least those who were most isolated" suggest?
+      choices:
+        - {t: the scheme may have missed the people who needed it most, why: "คนที่โดดเดี่ยวที่สุดอยู่รอบนอกที่รถมาน้อย จึงได้ประโยชน์น้อยสุด"}
+        - {t: isolated people refused to take part, why: "ไม่ได้บอกว่าปฏิเสธ"}
+        - {t: the scheme has helped everyone equally, why: "บทบอกว่าประโยชน์กระจายไม่เท่ากัน"}
+        - {t: isolation has increased in the city centre, why: "ไม่มีข้อมูลที่สนับสนุน"}
+  status: approved
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-c1-cpa-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "So, are you in favour of the new office layout?"}
+    - {who: Man, en: "In principle, yes. Much as I like the open space, though, I'm not convinced it'll work for people who make a lot of phone calls."}
+  questions:
+    - stem: What is the man's concern?
+      choices:
+        - {t: it may be too noisy for some staff, why: "not convinced it'll work for people who make a lot of phone calls"}
+        - {t: he dislikes open spaces, why: "เขาบอกว่า Much as I like the open space"}
+        - {t: it will cost too much, why: "ไม่ได้พูดเรื่องค่าใช้จ่าย"}
+        - {t: there are not enough desks, why: "ไม่ได้พูดเรื่องจำนวนโต๊ะ"}
+  status: approved
+- id: cefr-c1-cpa-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Lecturer, en: "The early results looked promising. However, once we accounted for the participants' income, the effect became negligible. In other words, it wasn't the programme that made the difference, but who joined it."}
+  questions:
+    - stem: What does the lecturer conclude?
+      choices:
+        - {t: the type of participant explained the results, why: "it wasn't the programme that made the difference, but who joined it"}
+        - {t: the programme was very effective, why: "หลังคิดเรื่องรายได้ ผลลดเหลือน้อยมาก"}
+        - {t: income had no effect, why: "รายได้เป็นสิ่งที่อธิบายผลได้"}
+        - {t: more participants are needed, why: "ไม่ได้พูดว่าต้องเพิ่มผู้เข้าร่วม"}
+  status: approved
+- id: cefr-c1-cpa-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "How was the new manager's first meeting?"}
+    - {who: Woman, en: "Let's just say it wasn't the most inspiring hour of my life. She read every slide word for word."}
+  questions:
+    - stem: How did the woman find the meeting?
+      choices:
+        - {t: dull, why: "wasn't the most inspiring hour เป็นการพูดเบาแต่หมายถึงน่าเบื่อ"}
+        - {t: inspiring, why: "เธอบอกตรงข้าม และวิจารณ์ว่าอ่านสไลด์ทุกคำ"}
+        - {t: too short, why: "ไม่ได้พูดเรื่องความยาว"}
+        - {t: confusing, why: "ปัญหาที่เธอพูดคือความน่าเบื่อ ไม่ใช่ความสับสน"}
+  status: approved
+- id: cefr-c1-cpa-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Please note a correction to this morning's email. The workshop will be held in Room 4, not Room 14, and it now starts at half past one rather than two."}
+  questions:
+    - stem: Where and when is the workshop now?
+      choices:
+        - {t: Room 4 at 1.30, why: "Room 4, not Room 14 ... starts at half past one"}
+        - {t: Room 14 at 2.00, why: "เป็นข้อมูลเดิมที่ถูกแก้แล้ว"}
+        - {t: Room 4 at 2.00, why: "เวลาเปลี่ยนเป็นบ่ายโมงครึ่งแล้ว"}
+        - {t: Room 14 at 1.30, why: "ห้องเปลี่ยนเป็นห้อง 4 แล้ว"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-c1-cpa-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Never before, has the company, received, so many complaints]
+  sentence: Never before has the company received so many complaints.
+  th: บริษัทไม่เคยได้รับเรื่องร้องเรียนมากขนาดนี้มาก่อน
+  why: "Never before ขึ้นต้นแล้วสลับ has + ประธาน + ช่อง 3"
+  status: approved

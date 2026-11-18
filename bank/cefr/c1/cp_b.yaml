@@ -1,0 +1,497 @@
+# คอร์ส c1 · ชุดวัดผล ชุด b · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: d3 ของสัปดาห์ 1–11 + tense-aspect + negative-inversion + cleft · cloze: hedging / advanced-linking / collocation
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-c1-cpb-001
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 1
+  stem: With so many people off sick, the project is ____ be delayed.
+  choices:
+    - {t: bound to, why: "แน่นอนว่าจะเกิด ใช้ ++is bound to + กริยา++"}
+    - {t: likely, why: "likely ต้องมี to ก่อนกริยา"}
+    - {t: sure of, why: "sure of ต้องตามด้วยคำนาม ไม่ใช่กริยา be"}
+    - {t: bound for, why: "bound for ตามด้วยสถานที่ปลายทาง"}
+  explain: "==be bound to / be sure to + กริยา== = แน่ ๆ ว่าจะ"
+  status: approved
+- id: cefr-c1-cpb-002
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 1
+  stem: ____ you have any questions about your order, please call our customer team.
+  choices:
+    - {t: Should, why: "เงื่อนไขทางการ ++Should you have++"}
+    - {t: Had, why: "Had you have ผิดรูป"}
+    - {t: Were, why: "Were you have ผิดรูป"}
+    - {t: Would, why: "Would ไม่ขึ้นต้นเงื่อนไข"}
+  explain: "==Should + ประธาน + กริยารูปเดิม== = If ... (ทางการ)"
+  status: approved
+- id: cefr-c1-cpb-003
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 1
+  stem: I ____ appreciate your help, even if I don't always say so.
+  choices:
+    - {t: do, why: "เน้นว่าจริง ๆ ใช้ ++do + กริยารูปเดิม++"}
+    - {t: am, why: "am appreciate ผิดรูป"}
+    - {t: does, why: "I ใช้ do ไม่ใช่ does"}
+    - {t: did, why: "did ทำให้เป็นอดีต ขัดกับ don't always say"}
+  explain: "เน้นด้วย ==do/does/did + กริยารูปเดิม=="
+  status: approved
+- id: cefr-c1-cpb-004
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 1
+  stem: The ____ of the old factory has created space for a new park.
+  choices:
+    - {t: demolition, why: "หลัง The ... of ต้องเป็นคำนาม ++demolition++"}
+    - {t: demolish, why: "demolish เป็นกริยา"}
+    - {t: demolished, why: "demolished เป็นกริยาช่อง 2/3"}
+    - {t: demolishing, why: "The demolishing of ไม่ใช่รูปที่ใช้ในภาษาทางการ"}
+  explain: "demolish → ==demolition== (การรื้อถอน)"
+  status: approved
+- id: cefr-c1-cpb-005
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 1
+  stem: "\"I haven't been to Japan.\" \"____ I, but I'd love to go.\""
+  choices:
+    - {t: Neither have, why: "ปฏิเสธเหมือนกัน ++Neither have I++"}
+    - {t: So have, why: "So ใช้กับประโยคบอกเล่า"}
+    - {t: Neither haven't, why: "Neither มีความหมายปฏิเสธแล้ว ห้ามใส่ not ซ้ำ"}
+    - {t: Neither do, why: "ประโยคแรกใช้ have ไม่ใช่ do"}
+  explain: "==Neither + กริยาช่วยบอกเล่า + ประธาน=="
+  status: approved
+- id: cefr-c1-cpb-006
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 1
+  stem: You can use my laptop ____ you don't install anything on it.
+  choices:
+    - {t: provided that, why: "โดยมีเงื่อนไขว่า ใช้ ++provided that++"}
+    - {t: unless, why: "unless แปลว่าถ้าไม่ ความหมายกลับ"}
+    - {t: in case, why: "in case แปลว่าเผื่อ ไม่ใช่เงื่อนไข"}
+    - {t: even though, why: "even though บอกความขัดแย้ง"}
+  explain: "==provided (that) / as long as== = โดยมีเงื่อนไขว่า"
+  status: approved
+- id: cefr-c1-cpb-007
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  stem: Prices rose by 15 per cent in a single month. ____ caught many families unprepared.
+  choices:
+    - {t: This sharp rise, why: "this + ++นามสรุป++ ชี้กลับไปที่ข้อมูลก่อนหน้า"}
+    - {t: It rise, why: "rise ต้องมีคำนำหน้าเป็นนาม และ It rise ผิดรูป"}
+    - {t: These sharply rising, why: "these ใช้กับพหูพจน์ และ rising ไม่ใช่นามสรุปที่ใช้เป็นประธาน"}
+    - {t: Such a rose, why: "rose เป็นกริยาช่อง 2 ใช้เป็นนามไม่ได้"}
+  explain: "เชื่อมย่อหน้าด้วย ==This + นามที่สรุปความ=="
+  status: approved
+- id: cefr-c1-cpb-008
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  stem: Her approach is entirely consistent ____ the company's values.
+  choices:
+    - {t: with, why: "บุพบทตายตัว ++consistent with++"}
+    - {t: to, why: "consistent to ไม่ใช่บุพบทที่ใช้"}
+    - {t: of, why: "consistent of ไม่ใช่บุพบทที่ใช้"}
+    - {t: for, why: "consistent for ไม่ใช่บุพบทที่ใช้"}
+  explain: "==consistent with== · in line with · compatible with"
+  status: approved
+- id: cefr-c1-cpb-009
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  stem: It's high time the government ____ something about air pollution.
+  choices:
+    - {t: did, why: "It's high time + ประธาน + ++อดีต++"}
+    - {t: does, why: "หลัง It's high time + ประธาน ต้องใช้อดีต"}
+    - {t: will do, why: "ไม่ใช้ will หลัง It's high time"}
+    - {t: has done, why: "has done บอกว่าทำแล้ว ขัดกับความหมาย"}
+  explain: "It's high time + ประธาน + ==อดีต== (ช้าไปแล้ว)"
+  status: approved
+- id: cefr-c1-cpb-010
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  stem: The sequel is ____ as good as the original film.
+  choices:
+    - {t: nowhere near, why: "ห่างไกลจาก ใช้ ++nowhere near as ... as++"}
+    - {t: far more, why: "far more as good ผิดรูป"}
+    - {t: much, why: "much as good ไม่ใช่รูปที่ใช้"}
+    - {t: by far, why: "by far ใช้กับขั้นสุด"}
+  explain: "ห่างกันมาก ==nowhere near / not nearly as ... as=="
+  status: approved
+- id: cefr-c1-cpb-011
+  kind: mcq
+  skill: gm
+  topic: word-formation-advanced
+  level: 3
+  stem: The instructions were so ____ that even the engineers were confused.
+  choices:
+    - {t: incomprehensible, why: "เข้าใจไม่ได้ ++in + comprehensible++"}
+    - {t: uncomprehensible, why: "คำปฏิเสธของ comprehensible ใช้ in- ไม่ใช่ un-"}
+    - {t: comprehension, why: "comprehension เป็นคำนาม"}
+    - {t: comprehensive, why: "comprehensive แปลว่าครอบคลุม ความหมายผิด"}
+  explain: "comprehensible → ==incomprehensible=="
+  status: approved
+- id: cefr-c1-cpb-012
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: I ____ to call you all week, but something always came up.
+  choices:
+    - {t: have been meaning, why: "ตั้งใจมาตลอดสัปดาห์และยังไม่ได้ทำ ใช้ ++have been meaning to++"}
+    - {t: have been meant to, why: "been meant เป็นรูปถูกกระทำ แปลว่าถูกกำหนดไว้ ความหมายผิด"}
+    - {t: am meaning, why: "am meaning ไม่ใช่รูปที่ใช้กับ all week"}
+    - {t: had meant, why: "past perfect ต้องมีเหตุการณ์อดีตอื่นเป็นจุดอ้างอิง"}
+  explain: "ตั้งใจมาสักพักแล้ว ==I've been meaning to + กริยา=="
+  status: approved
+- id: cefr-c1-cpb-013
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  stem: No sooner had the speaker started ____ the lights went out.
+  choices:
+    - {t: than, why: "No sooner ... ใช้คู่กับ ++than++"}
+    - {t: when, why: "when ใช้คู่กับ Hardly ไม่ใช่ No sooner"}
+    - {t: then, why: "then ไม่ใช่คู่ของ No sooner"}
+    - {t: as, why: "as ไม่ใช่คู่ของ No sooner"}
+  explain: "==No sooner ... than== · Hardly ... when"
+  status: approved
+- id: cefr-c1-cpb-014
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 3
+  stem: It wasn't until she lost her job ____ she realised how much she had relied on it.
+  choices:
+    - {t: that, why: "It wasn't until ... ++that++ ... = เพิ่งจะ...หลังจาก"}
+    - {t: when, why: "It wasn't until ใช้ that ไม่ใช่ when"}
+    - {t: so, why: "so ไม่ใช้ในโครงสร้างนี้"}
+    - {t: then, why: "then ไม่ใช่คำเชื่อมของโครงสร้างนี้"}
+  explain: "==It wasn't until X that ...=="
+  status: approved
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-c1-cpb-015
+  kind: cloze
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  text: |
+    The new diet (1) ____ to have helped some patients lose weight, although the study was small. The results were encouraging, (2) ____ based on only fifty people. Further research will (3) ____ a valuable contribution to our understanding.
+  questions:
+    - choices:
+        - {t: appears, why: "ระวังคำ appears to have + ช่อง 3"}
+        - {t: proves, why: "proves ฟันธงเกินไป ขัดกับ the study was small"}
+        - {t: is appearing, why: "appear ในความหมายนี้ไม่ใช้รูป -ing"}
+        - {t: has appeared, why: "has appeared to have ซ้อนรูป perfect ไม่เป็นธรรมชาติ"}
+    - choices:
+        - {t: albeit, why: "แม้จะ + วลีสั้น albeit based on"}
+        - {t: although, why: "although ต้องตามด้วยประโยคเต็ม"}
+        - {t: whereby, why: "whereby ไม่ได้บอกความขัดแย้ง"}
+        - {t: despite, why: "despite based on ผิดรูป"}
+    - choices:
+        - {t: make, why: "คู่คำตายตัว make a contribution"}
+        - {t: do, why: "do a contribution ไม่ใช่คู่คำที่ใช้"}
+        - {t: give out, why: "give out a contribution ไม่ใช่คู่คำที่ใช้"}
+        - {t: take, why: "take a contribution ไม่ใช่คู่คำที่ใช้"}
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ (10 สัปดาห์ต่างกัน) ----------
+- id: cefr-c1-cpb-016
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: The message was so ____ that half the team understood it one way and half the other.
+  choices:
+    - {t: ambiguous, why: "ตีความได้สองทาง ใช้ ++ambiguous++"}
+    - {t: lucid, why: "lucid แปลว่าชัดเจน ความหมายกลับ"}
+    - {t: eloquent, why: "eloquent แปลว่าพูดไพเราะ ไม่ได้บอกว่ากำกวม"}
+    - {t: concise, why: "concise แปลว่ากระชับ ไม่ได้ทำให้ตีความต่างกัน"}
+  explain: "ambiguous = ==กำกวม ตีความได้หลายทาง=="
+  status: approved
+- id: cefr-c1-cpb-017
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: Cutting staff numbers will only ____ the delays that customers already face.
+  choices:
+    - {t: exacerbate, why: "ทำให้ปัญหาที่มีอยู่แย่ลง ใช้ ++exacerbate++"}
+    - {t: deteriorate, why: "deteriorate ไม่มีกรรม ใช้กับ the delays แบบนี้ไม่ได้"}
+    - {t: alleviate, why: "alleviate แปลว่าบรรเทา ความหมายกลับ"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์"}
+  explain: "exacerbate + ==ปัญหา== = ทำให้แย่ลง"
+  status: approved
+- id: cefr-c1-cpb-018
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: Online forms have helped ____ the application process, which used to take weeks.
+  choices:
+    - {t: streamline, why: "ทำให้ขั้นตอนกระชับ เร็วขึ้น ใช้ ++streamline++"}
+    - {t: foster, why: "foster ใช้กับความรู้สึกหรือความสัมพันธ์"}
+    - {t: advocate, why: "advocate แปลว่าสนับสนุนแนวคิด"}
+    - {t: scaffold, why: "scaffold ใช้กับการเรียนรู้ทีละขั้น"}
+  explain: "streamline = ==ทำให้กระชับ คล่องตัว=="
+  status: approved
+- id: cefr-c1-cpb-019
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 2
+  stem: Late payments may be accepted at the landlord's ____.
+  choices:
+    - {t: discretion, why: "แล้วแต่ดุลยพินิจ ใช้ ++at someone's discretion++"}
+    - {t: hierarchy, why: "at the landlord's hierarchy ไม่มีความหมาย"}
+    - {t: compliance, why: "at the landlord's compliance ไม่มีความหมาย"}
+    - {t: bureaucracy, why: "at the landlord's bureaucracy ไม่มีความหมาย"}
+  explain: "at someone's discretion = ==แล้วแต่ดุลยพินิจ=="
+  status: approved
+- id: cefr-c1-cpb-020
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: Please keep your comments ____ to the item we are discussing.
+  choices:
+    - {t: pertinent, why: "ตรงประเด็น ใช้ ++pertinent to++"}
+    - {t: succinct, why: "succinct ไม่ตามด้วย to"}
+    - {t: cogent, why: "cogent ไม่ตามด้วย to"}
+    - {t: rudimentary, why: "rudimentary ไม่ตามด้วย to และแปลว่าพื้นฐาน"}
+  explain: "pertinent to = ==ตรงประเด็น เกี่ยวข้องกับ=="
+  status: approved
+- id: cefr-c1-cpb-021
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 1
+  stem: Many doctors remain ____ about the benefits of the new supplement.
+  choices:
+    - {t: sceptical, why: "ยังไม่ค่อยเชื่อ ใช้ ++sceptical about++"}
+    - {t: credible, why: "credible ใช้กับสิ่งที่น่าเชื่อ ไม่ใช่ความรู้สึกของหมอ"}
+    - {t: plausible, why: "plausible ใช้กับคำอธิบาย"}
+    - {t: fallible, why: "fallible แปลว่าผิดพลาดได้ ไม่ได้บอกความสงสัย"}
+  explain: "คน + ==sceptical about== + สิ่งที่สงสัย"
+  status: approved
+- id: cefr-c1-cpb-022
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 2
+  stem: Quick action by the bank ____ an attempt to steal customers' data.
+  choices:
+    - {t: thwarted, why: "ทำให้แผนล้มเหลว ใช้ ++thwart an attempt++"}
+    - {t: alleviated, why: "alleviate ไม่ใช้กับความพยายามก่อเหตุ"}
+    - {t: expedited, why: "expedite แปลว่าเร่ง ความหมายกลับ"}
+    - {t: ameliorated, why: "ameliorate แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
+  explain: "thwart = ==ทำให้แผนล้มเหลว=="
+  status: approved
+- id: cefr-c1-cpb-023
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: The restorers were ____, cleaning the painting one square centimetre at a time.
+  choices:
+    - {t: meticulous, why: "ละเอียดถี่ถ้วนมาก ใช้ ++meticulous++"}
+    - {t: complacent, why: "complacent แปลว่าประมาท ขัดกับความละเอียด"}
+    - {t: indifferent, why: "indifferent แปลว่าไม่ใส่ใจ ขัดกับความละเอียด"}
+    - {t: cynical, why: "cynical แปลว่ามองแง่ร้าย"}
+  explain: "meticulous = ==ละเอียดถี่ถ้วน=="
+  status: approved
+- id: cefr-c1-cpb-024
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: Every product goes through ____ safety checks before it leaves the factory.
+  choices:
+    - {t: rigorous, why: "เข้มงวด ละเอียด ใช้ ++rigorous checks++"}
+    - {t: inquisitive, why: "inquisitive ใช้กับคน"}
+    - {t: impartial, why: "impartial แปลว่าเป็นกลาง ไม่ได้บอกความเข้มงวด"}
+    - {t: authentic, why: "authentic แปลว่าแท้ ไม่ใช้กับการตรวจ"}
+  explain: "rigorous = ==เข้มงวด ละเอียดรอบคอบ=="
+  status: approved
+- id: cefr-c1-cpb-025
+  kind: mcq
+  skill: vo
+  topic: c1-vocabulary
+  level: 3
+  stem: The government offers tax cuts as an ____ for companies to hire young workers.
+  choices:
+    - {t: incentive, why: "สิ่งจูงใจ ใช้ ++an incentive for/to++"}
+    - {t: impetus, why: "impetus คือแรงผลักดันโดยรวม ไม่ใช่สิ่งจูงใจเฉพาะ และไม่ใช้กับ an ... for companies แบบนี้"}
+    - {t: stigma, why: "stigma คือตราบาป"}
+    - {t: repercussion, why: "repercussion คือผลกระทบทางลบ"}
+  explain: "incentive = ==สิ่งจูงใจ (เงิน รางวัล)=="
+  status: approved
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-c1-cpb-026
+  kind: read
+  skill: rd
+  topic: book-review
+  level: 1
+  title: "Review · Slow Money (fictional)"
+  passage: |
+    In Slow Money, financial journalist Prapai Wong argues that most people approach saving in exactly the wrong way. We wait until we have money left over at the end of the month, she says, and then wonder why there is never anything left. Her solution is simple: save first, spend second.
+
+    The strongest chapters are those based on interviews with ordinary families. A street-food seller in Chiang Mai describes putting aside twenty baht every morning before opening her stall; a young teacher explains how a separate bank account, which she deliberately made difficult to access, stopped her from spending her savings on impulse. These stories are told with warmth and humour, and they make a convincing case that small, regular habits matter more than large, occasional efforts.
+
+    Less successful is the chapter on investment. Wong covers shares, property and gold in barely twenty pages, which is far too little for such a complex topic. Readers hoping for practical guidance will find the advice rudimentary at best.
+
+    Nevertheless, this is a useful and readable book. It is not a complete guide to personal finance, and it does not claim to be. What it offers instead is a clear and memorable principle, supported by real examples. For readers who have never managed to save, that may be exactly what they need.
+  questions:
+    - stem: What is the reviewer's overall view of the book?
+      choices:
+        - {t: helpful for beginners despite a weak section, why: "ชมโดยรวม แต่บทเรื่องการลงทุนอ่อน"}
+        - {t: a complete guide to personal finance, why: "ผู้วิจารณ์บอกว่าไม่ใช่และไม่ได้อ้างว่าเป็น"}
+        - {t: too difficult and technical for most ordinary readers to follow, why: "ผู้วิจารณ์บอกว่าอ่านง่าย readable"}
+        - {t: mostly about investing in gold, why: "ทองเป็นแค่ส่วนหนึ่งของบทสั้น ๆ"}
+    - stem: What is Wong's main advice?
+      choices:
+        - {t: put money aside before spending, why: "save first, spend second"}
+        - {t: invest in property early, why: "การลงทุนเป็นบทที่ผู้วิจารณ์ว่าอ่อน ไม่ใช่คำแนะนำหลัก"}
+        - {t: wait until the end of the month to save, why: "ผู้เขียนบอกว่าวิธีนี้ผิด"}
+        - {t: open a street-food stall, why: "แม่ค้าเป็นตัวอย่าง ไม่ใช่คำแนะนำ"}
+    - stem: Why did the teacher make her savings account hard to access?
+      choices:
+        - {t: to stop herself spending the money on impulse, why: "stopped her from spending her savings on impulse"}
+        - {t: to earn more interest, why: "บทไม่ได้พูดถึงดอกเบี้ย"}
+        - {t: because her bank required it, why: "เธอตั้งใจทำเอง deliberately"}
+        - {t: to hide the money from her husband and the rest of her family, why: "บทไม่ได้พูดถึงครอบครัว"}
+    - stem: What does the reviewer suggest in the final sentence?
+      choices:
+        - {t: a simple principle may help people who struggle to save, why: "For readers who have never managed to save, that may be exactly what they need"}
+        - {t: only experienced investors should read it, why: "ตรงข้ามกับที่ผู้วิจารณ์บอก"}
+        - {t: the book needs a second volume, why: "ไม่มีข้อเสนอนี้"}
+        - {t: saving money is impossible for most people, why: "บทให้ตัวอย่างคนที่ออมได้"}
+  status: approved
+- id: cefr-c1-cpb-027
+  kind: read
+  skill: rd
+  topic: opinion-column
+  level: 2
+  title: "Column · The Tyranny of the Five-Star Review"
+  passage: |
+    I recently stayed in a guesthouse that was, by any reasonable measure, perfectly fine. The room was clean, the breakfast was adequate and the owner was polite. When I left, she asked me, rather anxiously, whether I would give her five stars. Four, she explained, would "damage the business".
+
+    This is where online ratings have brought us. A system designed to help travellers make informed choices has become, in practice, a system in which anything less than perfection is treated as failure. Much as I sympathise with small business owners, this inflation makes ratings almost meaningless. When nearly every hotel scores 4.8, the number tells us very little.
+
+    The consequences are not trivial. Owners feel pressure to offer extras they cannot afford, or to ask guests for reviews in ways that border on begging. Some, inevitably, are tempted to buy fake ones. Meanwhile, honest reviewers who give a fair three stars find themselves accused of being unkind.
+
+    There is no easy fix. Platforms could show the full distribution of ratings rather than a single average, or ask reviewers to answer specific questions about cleanliness or location. But the deeper problem is cultural. It is high time we accepted that "fine" is a perfectly respectable thing for a guesthouse to be. I gave the owner four stars, with a warm comment. I suspect she would rather I hadn't.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: inflated ratings have made online reviews less useful, why: "this inflation makes ratings almost meaningless"}
+        - {t: guesthouses should offer more extras, why: "ผู้เขียนบอกว่าแรงกดดันนี้เป็นปัญหา"}
+        - {t: all online reviews are fake, why: "ผู้เขียนพูดถึงรีวิวปลอมเป็นผลกระทบอย่างหนึ่ง ไม่ได้บอกว่าทั้งหมดปลอม"}
+        - {t: travellers should stop using the internet, why: "ไม่มีข้อเสนอนี้"}
+    - stem: Why was the guesthouse owner anxious?
+      choices:
+        - {t: she believed anything below five stars would hurt her business, why: "Four, she explained, would damage the business"}
+        - {t: the room was dirty, why: "ห้องสะอาด จึงใช้ไม่ได้"}
+        - {t: the writer had complained about breakfast, why: "ผู้เขียนไม่ได้ร้องเรียน"}
+        - {t: she wanted the writer to pay more, why: "ไม่มีข้อมูลเรื่องเงิน"}
+    - stem: Which solution does the writer mention?
+      choices:
+        - {t: showing how all the ratings are spread, why: "show the full distribution of ratings rather than a single average"}
+        - {t: banning reviews completely, why: "ไม่มีข้อเสนอนี้"}
+        - {t: allowing only five-star reviews, why: "ตรงข้ามกับแนวคิดของผู้เขียน"}
+        - {t: paying reviewers for honest comments, why: "ผู้เขียนไม่ได้พูดถึงการจ่ายเงินผู้รีวิว"}
+    - stem: What is the tone of the final sentence, "I suspect she would rather I hadn't"?
+      choices:
+        - {t: wryly humorous, why: "ประชดตัวเองเบา ๆ ว่าเจ้าของคงไม่ชอบสี่ดาว"}
+        - {t: angry, why: "ผู้เขียนให้คอมเมนต์อบอุ่น ไม่ได้โกรธ"}
+        - {t: deeply sad, why: "น้ำเสียงขำขัน ไม่ใช่เศร้า"}
+        - {t: completely neutral, why: "เป็นการแสดงทัศนะแบบขำ ไม่ใช่เป็นกลาง"}
+  status: approved
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-c1-cpb-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Did the client accept our proposal?"}
+    - {who: Woman, en: "Not exactly. They said it was very thorough, but they'd like us to come back with something rather less expensive."}
+  questions:
+    - stem: What did the client want?
+      choices:
+        - {t: a cheaper proposal, why: "come back with something rather less expensive"}
+        - {t: a more detailed proposal, why: "ลูกค้าชมว่าละเอียดแล้ว"}
+        - {t: to sign immediately, why: "Not exactly บอกว่ายังไม่ยอมรับ"}
+        - {t: a different company, why: "ไม่ได้บอกว่าจะเปลี่ยนบริษัท"}
+  status: approved
+- id: cefr-c1-cpb-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Lecturer, en: "We have two options: renovate the old building or construct a new one. The former is cheaper in the short term; the latter, however, would last at least fifty years."}
+  questions:
+    - stem: What is the advantage of constructing a new building?
+      choices:
+        - {t: it would last much longer, why: "the latter ... would last at least fifty years"}
+        - {t: it is cheaper in the short term, why: "นั่นคือข้อดีของ the former การปรับปรุง"}
+        - {t: it can be finished faster, why: "ไม่ได้พูดเรื่องความเร็ว"}
+        - {t: it needs fewer workers, why: "ไม่ได้พูดเรื่องจำนวนคนงาน"}
+  status: approved
+- id: cefr-c1-cpb-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Shall I send the report to the director today?"}
+    - {who: Man, en: "I'd rather you waited until Monday. I'd like to check the figures in section two once more."}
+  questions:
+    - stem: Why does the man want to wait?
+      choices:
+        - {t: he wants to check some numbers again, why: "I'd like to check the figures in section two once more"}
+        - {t: the director is on holiday, why: "ไม่ได้พูดถึงวันหยุดของผู้อำนวยการ"}
+        - {t: the report is not finished, why: "รายงานเสร็จแล้ว แค่อยากตรวจตัวเลขอีกรอบ"}
+        - {t: Monday is the deadline, why: "ไม่ได้บอกว่าวันจันทร์เป็นกำหนดส่ง"}
+  status: approved
+- id: cefr-c1-cpb-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Spokesperson, en: "Following a review, the hospital will reopen its night clinic on the first of March. Patients are advised, however, to book in advance, as walk-in appointments will be limited."}
+  questions:
+    - stem: What are patients advised to do?
+      choices:
+        - {t: make an appointment beforehand, why: "Patients are advised ... to book in advance"}
+        - {t: arrive without an appointment, why: "การเดินเข้ามาจะมีจำกัด"}
+        - {t: wait until April, why: "เปิดวันที่ 1 มีนาคม"}
+        - {t: go to another hospital, why: "ไม่ได้แนะนำให้ไปที่อื่น"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-c1-cpb-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [What surprised me, most, was, how quickly they replied]
+  sentence: What surprised me most was how quickly they replied.
+  th: สิ่งที่ทำให้ประหลาดใจที่สุดคือพวกเขาตอบกลับเร็วแค่ไหน
+  why: "What-clause เป็นประธาน + was + สิ่งที่เน้น"
+  status: approved
