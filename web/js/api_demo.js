@@ -64,7 +64,7 @@ export const demoApi = {
       stars: s.stars || null,
       pointer, pace: en.pace, day: d, due: Object.values(s.states).filter((x) => x.due <= d).length,
       week: { ...weekProgress(days, d, cfgOf()), days: [0, 1, 2, 3, 4, 5, 6].map((i) => days.includes(w0 + i)), todayIndex: d - w0 },
-      readiness: ready, checkpoints: [], finish_day: projectFinish(remainingSessions(pointer), en.pace, d, cfgOf()),
+      readiness: ready, checkpoints: (s.cps || []).filter((c) => c.score).map((c) => ({ n: c.n, score: c.score })), access: { level: 'paid', full: true, short: true, checkpoint: true }, finish_day: projectFinish(remainingSessions(pointer), en.pace, d, cfgOf()),
       full_sessions: s.sessions.filter((x) => x.kind === 'full').length,
       minutes: s.sessions.reduce((a, x) => a + (x.minutes || 0), 0),
       title: sess ? sess.title_th : null, theme: wk ? wk.theme_th : null, session_minutes: sess ? sess.minutes : 20,
@@ -103,6 +103,23 @@ export const demoApi = {
       Object.assign(s.enrol, pointer, { last_day: d });
     }
     put(s); return { accepted: graded.length, pointer, graded };
+  },
+  // ชุดวัดผล: เหมือน exam-api checkpoint_start/submit · ลำดับชุดคงที่ a b c ในโหมดสาธิต
+  async checkpointStart(n) {
+    const s = st(), form = 'abc'[n - 1];
+    const its = Object.values(globalThis.DEMO_DATA.items).filter((i) => i.id.startsWith(`cefr-b1-cp${form}-`)).sort((a, b) => a.id.localeCompare(b.id));
+    if (!its.length) return { error: 'content_missing' };
+    const cps = (s.cps ||= []); if (!cps.find((c) => c.n === n)) { cps.push({ n, form, ids: its.map((i) => i.id) }); put(s); }
+    return { n, form, time_min: 40, items: its.map((i) => strip(i)) };
+  },
+  async checkpointSubmit(n, answers) {
+    const s = st(), cp = (s.cps || []).find((c) => c.n === n);
+    if (!cp) return { error: 'not_started' }; if (cp.score) return { error: 'already_done' };
+    const by = {}; let total = 0, max = 0;
+    for (const id of cp.ids) { const it = itemOf(id), qs = it.questions ? it.questions.length : 1;
+      for (let q = 0; q < qs; q++) { const ok = grade(it, q, answers[qs > 1 ? `${id}:${q}` : id]); (by[it.skill] ||= { correct: 0, n: 0 }).n++; max++; if (ok) { by[it.skill].correct++; total++; } } }
+    cp.score = { total, max, pct: max ? Math.round(100 * total / max) : 0, by_skill: by }; put(s);
+    return { score: cp.score, extended: false, items: Object.fromEntries(cp.ids.map((id) => [id, itemOf(id)])) };
   },
   async report({ item_id, why }) { const s = st(); (s.reports ||= []).push({ item_id, why, at: Date.now() }); put(s); return { ok: true }; },
   // เฉพาะโหมดสาธิต: เลื่อนวัน และล้างข้อมูล

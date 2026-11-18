@@ -1,0 +1,499 @@
+# คอร์ส b1 · ชุดวัดผล ชุด c · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์ชุดนี้: สัปดาห์ 3–8 ทั้ง d1 d3 + modals-deduction + review-b1 · cloze: quantifiers / frequency / reported-statements
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-b1-cpc-001
+  kind: mcq
+  skill: gm
+  topic: past-simple-vs-continuous
+  level: 1
+  stem: Somchai ____ his leg when he was playing football last Sunday.
+  choices:
+    - {t: hurt, why: "เหตุการณ์สั้นที่แทรกเข้ามา ใช้ past simple ++hurt++"}
+    - {t: was hurting, why: "การบาดเจ็บเกิดทันที ไม่ใช่ช่วงยาวที่ถูกแทรก"}
+    - {t: hurts, why: "last Sunday เป็นอดีต"}
+    - {t: has hurt, why: "มี last Sunday บอกเวลาในอดีต ใช้ has hurt ไม่ได้"}
+  explain: "เรื่องสั้นที่แทรก ==past simple== · เรื่องยาวที่ถูกแทรก was -ing"
+  status: approved
+- id: cefr-b1-cpc-002
+  kind: mcq
+  skill: gm
+  topic: time-clauses-used-to
+  level: 1
+  stem: Please wait here ____ the doctor calls your name.
+  choices:
+    - {t: until, why: "รอจนกระทั่ง ใช้ ++until++"}
+    - {t: since, why: "since ใช้บอกจุดเริ่มต้นของช่วงเวลา"}
+    - {t: during, why: "during ต้องตามด้วยคำนาม ไม่ใช่ประโยค"}
+    - {t: for, why: "for ใช้กับระยะเวลา ไม่ใช่ประโยค"}
+  explain: "==until== = จนกระทั่ง (ตามด้วยประโยคปัจจุบันเมื่อหมายถึงอนาคต)"
+  status: approved
+- id: cefr-b1-cpc-003
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  stem: I ____ my wallet. Can you help me look for it?
+  choices:
+    - {t: have lost, why: "หายแล้วยังส่งผลตอนนี้ ใช้ ++have lost++"}
+    - {t: lose, why: "lose บอกเรื่องทั่วไป ไม่ใช่เหตุการณ์ที่เพิ่งเกิด"}
+    - {t: was losing, why: "ทำกระเป๋าหายเป็นเหตุการณ์ทันที ไม่ใช่รูปกำลังทำ"}
+    - {t: am losing, why: "ทำหายไปแล้ว ไม่ใช่กำลังทำหาย"}
+  explain: "ผลยังอยู่ตอนนี้ ==have + ช่อง 3=="
+  status: approved
+- id: cefr-b1-cpc-004
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 1
+  stem: "\"Do you want lunch?\" \"No, thanks. I've ____ eaten.\""
+  choices:
+    - {t: already, why: "กินแล้ว ใช้ ++already++ ในประโยคบอกเล่า"}
+    - {t: yet, why: "yet ใช้กับปฏิเสธหรือคำถาม และวางท้ายประโยค"}
+    - {t: since, why: "since ต้องตามด้วยจุดเริ่มต้น"}
+    - {t: still, why: "still ไม่วางระหว่าง have กับ eaten ในความหมายนี้"}
+  explain: "ทำแล้ว ==have already + ช่อง 3=="
+  status: approved
+- id: cefr-b1-cpc-005
+  kind: mcq
+  skill: gm
+  topic: future-forms
+  level: 2
+  stem: We ____ our grandparents this Saturday. We booked the bus tickets yesterday.
+  choices:
+    - {t: are visiting, why: "นัดหมายที่จัดแล้ว ใช้ ++present continuous++"}
+    - {t: visit, why: "visit บอกกิจวัตร ไม่ใช่แผนวันเสาร์นี้"}
+    - {t: visited, why: "this Saturday ยังไม่ถึง"}
+    - {t: would visit, why: "would visit ไม่ใช่การบอกแผนที่จองแล้ว"}
+  explain: "แผนที่จัดไว้แล้ว ==am/is/are + -ing== ใช้กับอนาคตได้"
+  status: approved
+- id: cefr-b1-cpc-006
+  kind: mcq
+  skill: gm
+  topic: first-conditional-time-clauses
+  level: 1
+  stem: If you ____ now, you'll catch the last train.
+  choices:
+    - {t: leave, why: "ส่วน if ของเรื่องที่เป็นไปได้ใช้ ++ปัจจุบัน++"}
+    - {t: will leave, why: "ไม่ใส่ will ในส่วน if"}
+    - {t: left, why: "ส่วนผลใช้ will จึงใช้อดีตในส่วน if ไม่ได้"}
+    - {t: would leave, why: "ไม่ใส่ would ในส่วน if"}
+  explain: "==If + ปัจจุบัน, will + กริยา== = เป็นไปได้จริง"
+  status: approved
+- id: cefr-b1-cpc-007
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  stem: This is ____ restaurant in our town.
+  choices:
+    - {t: the best, why: "ขั้นสุดของ good คือ ++the best++"}
+    - {t: the goodest, why: "good ผันไม่ปกติ ไม่มีรูป goodest"}
+    - {t: better, why: "better ใช้เปรียบสองสิ่ง และต้องมี than"}
+    - {t: the most good, why: "good ไม่ใช้ most"}
+  explain: "good → better → ==the best=="
+  status: approved
+- id: cefr-b1-cpc-008
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  stem: My friend suggested ____ the night market after dinner.
+  choices:
+    - {t: visiting, why: "suggest ตามด้วย ++-ing++"}
+    - {t: to visit, why: "suggest ไม่ตามด้วย to + กริยา"}
+    - {t: visit, why: "suggest ไม่ตามด้วยกริยารูปเดิมแบบนี้"}
+    - {t: us to visit, why: "suggest ไม่ใช้รูป suggest someone to do"}
+  explain: "==suggest / recommend + -ing== หรือ suggest that ..."
+  status: approved
+- id: cefr-b1-cpc-009
+  kind: mcq
+  skill: gm
+  topic: obligation-permission
+  level: 2
+  stem: Yesterday the trains weren't running, so I ____ take a taxi.
+  choices:
+    - {t: had to, why: "อดีตของการต้องทำ ใช้ ++had to++"}
+    - {t: must, why: "must ไม่มีรูปอดีต"}
+    - {t: have to, why: "Yesterday เป็นอดีต"}
+    - {t: mustn't, why: "mustn't แปลว่าห้าม ความหมายผิด"}
+  explain: "เมื่อวานต้องทำ ==had to== (must ใช้กับอดีตไม่ได้)"
+  status: approved
+- id: cefr-b1-cpc-010
+  kind: mcq
+  skill: gm
+  topic: passive-present-past
+  level: 2
+  stem: These bags ____ by women in a village near Nan.
+  choices:
+    - {t: are made, why: "กระเป๋าถูกทำเป็นประจำ ใช้ ++are + ช่อง 3++"}
+    - {t: make, why: "กระเป๋าทำตัวเองไม่ได้ และมี by ตามหลัง"}
+    - {t: is made, why: "these bags เป็นพหูพจน์"}
+    - {t: are making, why: "are making เป็นรูปกระทำ แปลว่ากระเป๋ากำลังทำบางอย่าง"}
+  explain: "passive ปัจจุบัน ==am/is/are + ช่อง 3=="
+  status: approved
+- id: cefr-b1-cpc-011
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  stem: What ____ you do if you lost your phone abroad?
+  choices:
+    - {t: would, why: "ถามเรื่องสมมติคู่กับ lost ใช้ ++would++"}
+    - {t: will, why: "ส่วน if เป็นอดีต จึงต้องคู่กับ would"}
+    - {t: did, why: "did ทำให้กลายเป็นคำถามเรื่องอดีตจริง"}
+    - {t: do, why: "do ไม่เข้าคู่กับส่วน if ที่เป็นอดีต"}
+  explain: "คำถามสมมติ ==What would you do if + อดีต?=="
+  status: approved
+- id: cefr-b1-cpc-012
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 3
+  stem: You won't get a seat ____ you book early.
+  choices:
+    - {t: unless, why: "ถ้าไม่จองเร็วจะไม่มีที่นั่ง ใช้ ++unless = if not++"}
+    - {t: if, why: "if you book early กับ won't get ขัดกัน"}
+    - {t: so, why: "so ไม่ใช่คำขึ้นเงื่อนไข"}
+    - {t: although, why: "although บอกความขัดแย้ง ไม่ใช่เงื่อนไข"}
+  explain: "unless + ==บอกเล่า== = ถ้าไม่"
+  status: approved
+- id: cefr-b1-cpc-013
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 3
+  stem: She has three dogs and two cats. She ____ love animals.
+  choices:
+    - {t: must, why: "หลักฐานชัด มั่นใจว่าใช่ ใช้ ++must++"}
+    - {t: can't, why: "can't แปลว่าไม่ใช่แน่ ขัดกับการเลี้ยงสัตว์หลายตัว"}
+    - {t: mustn't, why: "mustn't แปลว่าห้าม ไม่ใช่การคาดเดา"}
+    - {t: has to, why: "has to แปลว่าจำเป็นต้อง ไม่ใช่การคาดเดา"}
+  explain: "เดาอย่างมั่นใจจากหลักฐาน ==must=="
+  status: approved
+- id: cefr-b1-cpc-014
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 3
+  stem: "It was a great party, ____?"
+  choices:
+    - {t: wasn't it, why: "บอกเล่า was → tag ปฏิเสธ ++wasn't it++"}
+    - {t: was it, why: "ประโยคบอกเล่าต้องตามด้วย tag ปฏิเสธ"}
+    - {t: didn't it, why: "ประโยคใช้ was ไม่ใช่กริยาแท้อื่น"}
+    - {t: isn't it, why: "ประโยคเป็นอดีต ต้องใช้ wasn't"}
+  explain: "tag ใช้ ==กริยาช่วยและเวลาเดียวกับประโยคหลัก=="
+  status: approved
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-b1-cpc-015
+  kind: cloze
+  skill: gm
+  topic: quantifiers
+  level: 2
+  text: |
+    I go to the gym (1) ____ a week, usually on Mondays and Fridays. There aren't (2) ____ people there in the morning. Yesterday my trainer said that I (3) ____ much stronger now.
+  questions:
+    - choices:
+        - {t: twice, why: "สองวันต่อสัปดาห์ ใช้ twice a week"}
+        - {t: two, why: "two a week ไม่ใช่วลีบอกความถี่"}
+        - {t: second, why: "second a week ไม่มีความหมาย"}
+        - {t: double, why: "double a week ไม่ใช่วลีบอกความถี่"}
+    - choices:
+        - {t: many, why: "people นับได้ ในประโยคปฏิเสธใช้ many"}
+        - {t: much, why: "much ใช้กับคำนามนับไม่ได้"}
+        - {t: a little, why: "a little ใช้กับคำนามนับไม่ได้"}
+        - {t: lot, why: "lot ต้องเป็น a lot of"}
+    - choices:
+        - {t: was, why: "เล่าด้วย said ถอย am เป็น was"}
+        - {t: were, why: "I ใช้ was ไม่ใช่ were"}
+        - {t: have been, why: "am ถอยเป็น was ไม่ใช่ have been"}
+        - {t: be, why: "be ไม่ผัน ใช้เป็นกริยาแท้ไม่ได้"}
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ (10 สัปดาห์ต่างกัน) ----------
+- id: cefr-b1-cpc-016
+  kind: mcq
+  skill: vo
+  topic: work-study
+  level: 1
+  stem: I had lunch with a ____ from the sales team.
+  choices:
+    - {t: colleague, why: "เพื่อนร่วมงาน ใช้ ++colleague++"}
+    - {t: subject, why: "subject คือวิชาหรือหัวข้อ"}
+    - {t: staff, why: "staff หมายถึงพนักงานทั้งกลุ่ม ไม่ใช้กับ a"}
+    - {t: deadline, why: "deadline คือกำหนดส่ง"}
+  explain: "colleague = ==เพื่อนร่วมงาน=="
+  status: approved
+- id: cefr-b1-cpc-017
+  kind: mcq
+  skill: vo
+  topic: daily-routine
+  level: 1
+  stem: Is it ____ to book a table, or can we just walk in?
+  choices:
+    - {t: necessary, why: "จำเป็นไหม ใช้ ++necessary++"}
+    - {t: available, why: "available แปลว่าว่าง มีให้ ไม่เข้ากับ to book"}
+    - {t: typical, why: "typical แปลว่าทั่วไปตามแบบฉบับ"}
+    - {t: local, why: "local แปลว่าท้องถิ่น"}
+  explain: "Is it ==necessary to== ...? = จำเป็นต้อง...ไหม"
+  status: approved
+- id: cefr-b1-cpc-018
+  kind: mcq
+  skill: vo
+  topic: events-feelings
+  level: 1
+  stem: Did she ____ anything about the party? I haven't heard about it.
+  choices:
+    - {t: mention, why: "พูดถึง ใช้ ++mention + สิ่งที่พูดถึง++ ไม่มี about"}
+    - {t: realise, why: "realise anything about ไม่ได้แปลว่าพูดถึง"}
+    - {t: behave, why: "behave แปลว่าประพฤติ"}
+    - {t: describe, why: "describe anything about ผิดรูป"}
+  explain: "mention = ==พูดถึง== (ไม่ใช่ mention about)"
+  status: approved
+- id: cefr-b1-cpc-019
+  kind: mcq
+  skill: vo
+  topic: skills-experience
+  level: 1
+  stem: After the course, I felt more ____ about speaking in public.
+  choices:
+    - {t: confident, why: "มั่นใจขึ้น ใช้ ++confident++"}
+    - {t: successful, why: "successful about ไม่ใช่วลีที่ใช้"}
+    - {t: useful, why: "useful แปลว่ามีประโยชน์ ไม่ใช้กับความรู้สึกของคน"}
+    - {t: recently, why: "recently เป็นคำวิเศษณ์ ไม่ใช่ความรู้สึก"}
+  explain: "confident = ==มั่นใจ=="
+  status: approved
+- id: cefr-b1-cpc-020
+  kind: mcq
+  skill: vo
+  topic: plans-events
+  level: 2
+  stem: The concert was ____ because the singer was ill.
+  choices:
+    - {t: cancelled, why: "ยกเลิกเพราะนักร้องป่วย ใช้ ++cancelled++"}
+    - {t: celebrated, why: "celebrated แปลว่าฉลอง ขัดกับนักร้องป่วย"}
+    - {t: confirmed, why: "confirmed แปลว่ายืนยัน ขัดกับเหตุผล"}
+    - {t: gathered, why: "gathered แปลว่ารวมตัว"}
+  explain: "cancel = ==ยกเลิก== · delay = เลื่อนออกไป"
+  status: approved
+- id: cefr-b1-cpc-021
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 1
+  stem: My working hours are ____. I can start any time between 7 and 10.
+  choices:
+    - {t: flexible, why: "เลือกเวลาเริ่มงานได้ ใช้ ++flexible++"}
+    - {t: reliable, why: "reliable แปลว่าไว้ใจได้"}
+    - {t: valuable, why: "valuable แปลว่ามีค่า"}
+    - {t: suitable, why: "suitable ไม่ได้บอกว่าเลือกเวลาได้"}
+  explain: "flexible = ==ยืดหยุ่น=="
+  status: approved
+- id: cefr-b1-cpc-022
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  stem: Cycling to work helps me ____ my travel costs.
+  choices:
+    - {t: reduce, why: "ลดค่าใช้จ่าย ใช้ ++reduce++"}
+    - {t: increase, why: "increase แปลว่าเพิ่ม กลับความหมาย"}
+    - {t: afford, why: "afford my travel costs ไม่ได้แปลว่าลด"}
+    - {t: earn, why: "earn costs ไม่มีความหมาย"}
+  explain: "reduce = ==ลด== ตรงข้าม increase"
+  status: approved
+- id: cefr-b1-cpc-023
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 3
+  stem: The manager ____ to give us a day off, so we had to work on Saturday.
+  choices:
+    - {t: refused, why: "ไม่ยอมให้หยุด ใช้ ++refuse to++"}
+    - {t: agreed, why: "agreed ขัดกับต้องทำงานวันเสาร์"}
+    - {t: admitted, why: "admit ไม่ตามด้วย to + กริยาแบบนี้"}
+    - {t: complained, why: "complained to give ผิดรูป"}
+  explain: "refuse ↔ agree ==+ to + กริยา=="
+  status: approved
+- id: cefr-b1-cpc-024
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 3
+  stem: Making merit at the temple on special days is an important Thai ____.
+  choices:
+    - {t: tradition, why: "สิ่งที่ทำสืบกันมา ใช้ ++tradition++"}
+    - {t: pollution, why: "pollution คือมลพิษ"}
+    - {t: opinion, why: "opinion คือความเห็น"}
+    - {t: purpose, why: "purpose คือจุดประสงค์"}
+  explain: "tradition = ==ประเพณี=="
+  status: approved
+- id: cefr-b1-cpc-025
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 3
+  stem: He was ____ to finish the race, even with a painful knee.
+  choices:
+    - {t: determined, why: "ตั้งใจแน่วแน่ ใช้ ++determined to++"}
+    - {t: capable, why: "capable ตามด้วย of ไม่ใช่ to"}
+    - {t: qualified, why: "qualified ไม่ได้บอกความตั้งใจ"}
+    - {t: promoted, why: "promoted to finish ไม่มีความหมาย"}
+  explain: "be ==determined to + กริยา== = มุ่งมั่น"
+  status: approved
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-b1-cpc-026
+  kind: read
+  skill: rd
+  topic: speaker-profile
+  level: 1
+  title: "Our Speaker: Wanida Chai"
+  passage: |
+    Wanida Chai has worked as a chef for fifteen years. She started her career in a small hotel in Krabi, and later moved to Bangkok to open her own restaurant.
+
+    In 2020 she won a national cooking competition. Since then, she has written two cookbooks and has taught more than 300 students in her weekend classes.
+
+    In today's workshop, Wanida will show you how to cook healthy Thai food quickly at home. Please bring a notebook. All ingredients will be provided.
+  questions:
+    - stem: Where did Wanida begin her career?
+      choices:
+        - {t: in a hotel in Krabi, why: "started her career in a small hotel in Krabi"}
+        - {t: in her own restaurant, why: "ร้านของเธอเปิดทีหลังที่กรุงเทพฯ"}
+        - {t: at a cooking school, why: "ไม่ได้บอกว่าเริ่มที่โรงเรียนสอนทำอาหาร"}
+        - {t: in a Bangkok hotel, why: "เธอย้ายมากรุงเทพฯ ภายหลัง"}
+    - stem: What happened in 2020?
+      choices:
+        - {t: she won a competition, why: "In 2020 she won a national cooking competition"}
+        - {t: she opened a restaurant, why: "ไม่ได้ระบุปีที่เปิดร้าน"}
+        - {t: she wrote her first book, why: "หนังสือเขียนหลังจากปี 2020"}
+        - {t: she moved to Krabi, why: "เธอย้ายจากกระบี่มากรุงเทพฯ"}
+    - stem: What will the workshop teach?
+      choices:
+        - {t: quick healthy Thai cooking, why: "how to cook healthy Thai food quickly at home"}
+        - {t: how to write a cookbook, why: "เธอเขียนหนังสือ แต่ไม่ได้สอนเรื่องนี้"}
+        - {t: how to open a restaurant, why: "ไม่ใช่หัวข้อของเวิร์กชอป"}
+        - {t: how to enter a competition, why: "การแข่งขันเป็นประวัติของเธอ ไม่ใช่สิ่งที่สอน"}
+    - stem: What should participants bring?
+      choices:
+        - {t: a notebook, why: "Please bring a notebook"}
+        - {t: ingredients, why: "All ingredients will be provided"}
+        - {t: a cookbook, why: "ไม่ได้ขอให้นำหนังสือมา"}
+        - {t: their own knives, why: "ไม่ได้พูดถึงมีด"}
+  status: approved
+- id: cefr-b1-cpc-027
+  kind: read
+  skill: rd
+  topic: formal-email
+  level: 2
+  title: "Your gym membership"
+  passage: |
+    Dear Ms Orn,
+
+    Thank you for being a member of FitLife. We are writing to let you know that, from 1 July, our monthly fee will increase from 900 to 990 baht. Unfortunately, our electricity and cleaning costs have risen this year.
+
+    As a thank-you, members who renew for twelve months before 30 June will keep the old price for the whole year. If you would prefer to put off your decision, you can continue paying monthly at the new price.
+
+    Would you mind letting us know your choice by replying to this email? If you have any questions, please contact the front desk.
+
+    Kind regards,
+    Nok, Membership Team
+  questions:
+    - stem: Why is the gym fee going up?
+      choices:
+        - {t: some running costs are higher, why: "electricity and cleaning costs have risen"}
+        - {t: new machines were bought, why: "ไม่ได้พูดถึงเครื่องใหม่"}
+        - {t: there are more members, why: "ไม่ได้พูดถึงจำนวนสมาชิก"}
+        - {t: the gym is moving, why: "ไม่ได้พูดถึงการย้าย"}
+    - stem: How can Ms Orn keep the old price?
+      choices:
+        - {t: renew for a year before 30 June, why: "renew for twelve months before 30 June"}
+        - {t: pay monthly from July, why: "จ่ายรายเดือนต้องใช้ราคาใหม่"}
+        - {t: visit the front desk, why: "เคาน์เตอร์ใช้สอบถาม ไม่ใช่วิธีได้ราคาเดิม"}
+        - {t: wait until next year, why: "ไม่มีเงื่อนไขนี้"}
+    - stem: What does "put off your decision" mean here?
+      choices:
+        - {t: decide later, why: "put off = เลื่อนออกไป คือยังไม่ตัดสินใจตอนนี้"}
+        - {t: cancel the membership, why: "put off ไม่ได้แปลว่ายกเลิก"}
+        - {t: change your mind quickly, why: "ความหมายตรงข้าม"}
+        - {t: ask a friend, why: "ไม่เกี่ยวกับความหมายของ put off"}
+    - stem: What does the gym ask Ms Orn to do?
+      choices:
+        - {t: reply with her choice, why: "Would you mind letting us know your choice by replying"}
+        - {t: pay 990 baht now, why: "ไม่ได้ให้จ่ายทันที"}
+        - {t: come to a meeting, why: "ไม่ได้พูดถึงการประชุม"}
+        - {t: write a review, why: "ไม่ได้ขอให้เขียนรีวิว"}
+  status: approved
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-b1-cpc-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "I'd like to return these shoes. They're too small."}
+    - {who: Woman, en: "I'm sorry, we don't have a bigger size in this colour. Would you like the black ones instead, or your money back?"}
+  questions:
+    - stem: What does the woman offer?
+      choices:
+        - {t: another colour or a refund, why: "the black ones instead, or your money back"}
+        - {t: a bigger size in the same colour, why: "เธอบอกว่าไม่มีไซซ์ใหญ่ในสีนี้"}
+        - {t: a discount, why: "ไม่ได้เสนอส่วนลด"}
+        - {t: free socks, why: "ไม่ได้พูดถึงถุงเท้า"}
+  status: approved
+- id: cefr-b1-cpc-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "How long have you been learning Japanese?"}
+    - {who: Man, en: "For about two years. I started when my company opened an office in Osaka."}
+  questions:
+    - stem: Why did the man start learning Japanese?
+      choices:
+        - {t: because of his job, why: "my company opened an office in Osaka"}
+        - {t: he married a Japanese woman, why: "ไม่ได้พูดถึงการแต่งงาน"}
+        - {t: he wanted to study in Japan, why: "ไม่ได้พูดถึงการเรียนต่อ"}
+        - {t: a friend asked him to, why: "ไม่ได้พูดถึงเพื่อน"}
+  status: approved
+- id: cefr-b1-cpc-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Good morning, everyone. Please remember that the lift will be repaired today, so it can't be used until 3 p.m. Please use the stairs."}
+  questions:
+    - stem: What should people do this morning?
+      choices:
+        - {t: use the stairs, why: "Please use the stairs"}
+        - {t: wait for the lift, why: "ลิฟต์ใช้ไม่ได้จนบ่ายสาม"}
+        - {t: go home at 3 p.m., why: "บ่ายสามคือเวลาที่ลิฟต์ใช้ได้อีกครั้ง"}
+        - {t: repair the lift, why: "ไม่ได้ขอให้ทุกคนซ่อม"}
+  status: approved
+- id: cefr-b1-cpc-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Why weren't you at the meeting?"}
+    - {who: Man, en: "Nobody told me it had been moved to the morning. I thought it was at two."}
+  questions:
+    - stem: Why did the man miss the meeting?
+      choices:
+        - {t: he didn't know the time had changed, why: "Nobody told me it had been moved"}
+        - {t: he was ill, why: "ไม่ได้พูดว่าป่วย"}
+        - {t: he forgot about it, why: "เขาจำได้ แต่จำเวลาเดิม"}
+        - {t: the meeting was cancelled, why: "ประชุมย้ายเวลา ไม่ได้ยกเลิก"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-b1-cpc-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [If it rains, we will, stay at home, and watch a film]
+  sentence: If it rains, we will stay at home and watch a film.
+  th: ถ้าฝนตก เราจะอยู่บ้านและดูหนัง
+  why: "If + ปัจจุบัน แล้วตามด้วย will + กริยารูปเดิม"
+  status: approved

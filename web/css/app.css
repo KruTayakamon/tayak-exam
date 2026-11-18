@@ -224,3 +224,20 @@ a.btn{text-decoration:none} a{color:var(--accent)}
 pre.cap{white-space:pre-wrap;word-break:break-word;font-family:var(--ui);font-size:.92rem;background:var(--paper);border:1px dashed var(--line);border-radius:10px;padding:10px;margin:0;user-select:all;-webkit-user-select:all}
 .post.done{opacity:.6}
 .post .row .btn{flex:1}
+/* ชุดวัดผล (checkpoint.js) */
+.cpbar{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-weight:600}
+.cpbar .warn{color:var(--bad)}
+.cphead{margin:6px 0 0}
+.cpq{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.cpout{background:var(--accent-soft)}
+.chunk.on{border-color:var(--accent);background:var(--card)}
+.small-btn{width:auto;min-height:40px;padding:8px 14px;font-size:.9rem}
+.cprow{padding:6px 0;border-bottom:1px dashed var(--line)}
+.cprow:last-of-type{border-bottom:0}
+.cpscore{color:var(--accent);font-size:1.05rem}
+.cpans .cpa{padding:6px 0;border-top:1px dashed var(--line)}
+.cpans .cpa:first-of-type{border-top:0}
+.cpa.ok>p:first-child>b,.cpans.ok>p:first-child>b{color:var(--ok)}
+.cpa.no>p:first-child>b,.cpans.no>p:first-child>b{color:var(--bad)}
+.cpa .right{color:var(--ok)}
+.cpcard{border:2px solid var(--accent)}

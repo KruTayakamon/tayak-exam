@@ -22,7 +22,7 @@ Deno.serve(async (req) => {
     if (!man || !Array.isArray(man.sha256) || !man.sha256.includes(hash)) return json({ error: "not_in_manifest", hash }, 403);
     const p = JSON.parse(raw);
     const admin = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
-    const items = (p.items ?? []).filter((r: Any) => /^cefr-[a-z0-9]+-w\d{2}-\d{3}$/.test(r.id) && ST.includes(r.status));
+    const items = (p.items ?? []).filter((r: Any) => ST.includes(r.status) && ((/^cefr-[a-z0-9]+-w\d{2}-\d{3}$/.test(r.id) && ["session", "pool"].includes(r.role)) || (/^cefr-[a-z0-9]+-cp[abc]-\d{3}$/.test(r.id) && r.role === "checkpoint" && r.form === r.id.split("-")[2].slice(2))));
     const weeks = (p.weeks ?? []).filter((w: Any) => w.exam === "cefr" && /^[a-z0-9]+$/.test(w.course) && Number.isInteger(w.week) && ST.includes(w.status));
     if (items.length) {
       const { error } = await admin.from("exam_items").upsert(items.map((r: Any) => ({ ...r, updated_at: new Date().toISOString() })), { onConflict: "id" });

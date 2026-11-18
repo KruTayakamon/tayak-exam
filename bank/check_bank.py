@@ -6,7 +6,10 @@ import sys, re, glob, os, collections
 import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ID_RE = re.compile(r'^[a-z]+-[a-z0-9]+-w\d{2}-\d{3}$|^[a-z]+-[a-z0-9.]+-\d{4}$')
+ID_RE = re.compile(r'^[a-z]+-[a-z0-9]+-w\d{2}-\d{3}$|^[a-z]+-[a-z0-9]+-cp[abc]-\d{3}$|^[a-z]+-[a-z0-9.]+-\d{4}$')
+# ชุดวัดผล (course/cefr/_assessment.yaml checkpoint): ไฟล์ bank/cefr/<คอร์ส>/cp_<a|b|c>.yaml ชุดละ 40 คะแนนตามตารางทักษะ
+CP_SKILL = {'gm': 18, 'vo': 10, 'rd': 8, 'li': 4}         # gm = mcq 14 + cloze 3 ช่อง + order 1
+CP_LEVEL = {1: 16, 2: 18, 3: 6}
 KINDS = {'mcq', 'type', 'order', 'cloze', 'read', 'listen'}
 SKILLS = {'gm', 'vo', 'rd', 'li', 'wr', 'sp', 'dlg'}
 STATUS = {'draft', 'approved', 'retired'}
@@ -134,6 +137,20 @@ def main():
                 err(rel, f"ข้อถูกเป็นตัวเลือกยาวที่สุด {stats['longest']}/{stats['n']} เกิน {int(MAX_LONGEST*100)}%")
             if stats['shortest'] / stats['n'] > MAX_SHORTEST:
                 err(rel, f"ข้อถูกเป็นตัวเลือกสั้นที่สุด {stats['shortest']}/{stats['n']} เกิน {int(MAX_SHORTEST*100)}%")
+    # ชุดวัดผล: ตรวจคะแนนรวม ทักษะ ระดับ และรูปแบบรหัสตามไฟล์
+    for path in sorted(glob.glob(os.path.join(ROOT, 'bank', '*', '*', 'cp_*.yaml'))):
+        rel = os.path.relpath(path, ROOT); data = load(path) or []
+        form = os.path.basename(path)[3]; course = os.path.basename(os.path.dirname(path))
+        tot, sk, lv = 0, collections.Counter(), collections.Counter()
+        for it in data:
+            if not str(it.get('id', '')).startswith(f'cefr-{course}-cp{form}-'): err(rel, f"id {it.get('id')} ต้องขึ้นต้น cefr-{course}-cp{form}-")
+            if it.get('kind') == 'type': err(rel, f"{it.get('id')}: ชุดวัดผลไม่ใช้ข้อพิมพ์ (ตรวจคำสะกดบนจอสอบไม่ได้)")
+            p_ = points(it); tot += p_; sk[it.get('skill')] += p_; lv[it.get('level')] += p_
+        if tot != 40: err(rel, f'ชุดวัดผลต้องมี 40 คะแนน (มี {tot})')
+        for k, n in CP_SKILL.items():
+            if sk[k] != n: err(rel, f'ทักษะ {k} ต้องมี {n} คะแนน (มี {sk[k]})')
+        for k, n in CP_LEVEL.items():
+            if abs(lv[k] - n) > 1: err(rel, f'level {k} ต้องมี {n}±1 คะแนน (มี {lv[k]})')
     # ข้อซ้ำ (โจทย์เหมือนกันหลังตัดช่องว่าง)
     stems = collections.defaultdict(list)
     for iid, it in items.items():

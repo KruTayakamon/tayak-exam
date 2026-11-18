@@ -6,6 +6,7 @@ import { dayKey } from './engine/engine.mjs';
 import { SITE } from './config.js';
 import { quote } from './engine/pricing.mjs';
 import { currentUser, signOut } from './auth.js';
+import { cpCard } from './checkpoint.js';
 
 const SKILL_TH = { gm: 'ไวยากรณ์', vo: 'คำศัพท์', rd: 'การอ่าน', li: 'การฟัง', dlg: 'สนทนา', wr: 'การเขียน', sp: 'การพูด' };
 const READY = { in_target: ['อยู่ในช่วงเป้า', 'ok'], near: ['ใกล้เป้า', 'near'], far: ['ยังห่างเป้า', 'far'], insufficient: ['ข้อมูลยังไม่พอ', 'far'] };
@@ -53,6 +54,7 @@ export async function viewToday(root, go) {
   else {
     const st = getStars();
     if (st.stars) root.appendChild(el(`<a class="starchip" id="starChip" href="#results">⭐ ${st.stars} ดาว${st.perfect ? ` · 👑 ${st.perfect}` : ''}${st.best >= 5 ? ` · 🔥 ${st.best}` : ''}</a>`));
+    const cpo = cpCard(h, true); if (cpo) root.appendChild(el(cpo));
     root.appendChild(el(`<div><p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · ${esc(h.theme)}</p><h1 id="todayTitle">วันที่ ${h.pointer.day}: ${esc(h.title)}</h1></div>`));
     const main = el(`<button class="btn" id="startBtn">${paused && paused.kind === 'full' ? 'ทำต่อจากที่ค้าง' : `เริ่มเซสชันวันนี้ · ${h.pace === 10 ? 10 : h.session_minutes} นาที`}</button>`);
     main.addEventListener('click', () => go('session-full'));
@@ -84,7 +86,7 @@ export async function viewResults(root) {
   root.appendChild(el(trophyCard()));
   root.appendChild(el(`<p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · เซสชันเต็ม ${h.full_sessions} ครั้ง · เรียนแล้ว ${Math.floor(h.minutes / 60)} ชม. ${h.minutes % 60} นาที</p>`));
   root.appendChild(el(`<div class="card"><h2>ความพร้อมรายทักษะ</h2>${readyRows(h.readiness)}<p class="small">คำนวณจากคำตอบครั้งแรกใน 14 วันล่าสุด เป็นการประเมินจากแบบฝึกของเรา ไม่ใช่ผลสอบ</p></div>`));
-  root.appendChild(el('<div class="card"><h2>ชุดวัดผล</h2><p class="small">ครั้งที่ 1 ท้ายสัปดาห์ 4 · ครั้งที่ 2 ท้ายสัปดาห์ 8 · ครั้งที่ 3 ท้ายสัปดาห์ 12</p></div>'));
+  root.appendChild(el(cpCard(h)));
 }
 
 const thDay = (ms) => new Date(ms).toLocaleDateString('th-TH', { dateStyle: 'medium' });

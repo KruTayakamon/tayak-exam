@@ -130,6 +130,22 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   st = await state(p); ok(st.enrol.week === 2 && st.enrol.day === 1 && st.sessions.filter((x) => x.kind !== 'short').length === 6, 'ทำครบ 6 เซสชันของสัปดาห์');
   for (const r of ['course', 'extra', 'results', 'buy', 'account']) { await p.goto(base + '/dist-demo/app.html#' + r); await p.waitForSelector('#view h1'); ok(await noOverflow(p), `หน้า ${r} เปิดได้และไม่ล้นจอ`); }
   await p.goto(base + '/dist-demo/app.html#results'); await p.waitForSelector('#view h1'); await p.screenshot({ path: path.join(SHOTS, 'app_results.png'), fullPage: true });
+  // ชุดวัดผลครั้งที่ 1: ยังไม่ถึงสัปดาห์ 4 = ล็อก · ถึงแล้วเปิด · ทำครบ (ตอบตัวเลือกแรกทุกข้อ + เรียงประโยค) → ได้คะแนนและเฉลย → หน้าผลแสดงคะแนน
+  ok(!(await p.$('#cpGo1')) && (await p.textContent('#cpCard')).includes('เปิดเมื่อถึงสัปดาห์ 4'), 'ชุดวัดผลยังล็อกก่อนถึงสัปดาห์ 4');
+  await p.evaluate(() => { const s = JSON.parse(localStorage.getItem('cfk-demo')); s.enrol.week = 4; localStorage.setItem('cfk-demo', JSON.stringify(s)); });
+  await p.goto(base + '/dist-demo/app.html#today'); await p.waitForSelector('#cpOpen');
+  await p.click('#cpOpen a'); await p.waitForSelector('#cpStart'); await p.click('#cpStart'); await p.waitForSelector('#cpSubmit');
+  const nq = await p.$$eval('.cpq', (qs) => { qs.forEach((q) => q.querySelector('.opt').click()); return qs.length; });
+  while (await p.$('.cpitem .chunks:not(.cpout) .chunk')) await p.click('.cpitem .chunks:not(.cpout) .chunk');
+  ok(nq === 39 && (await p.textContent('#cpDone')).includes('40/40') && /⏱ (39|40):/.test(await p.textContent('#cpTime')), `ชุดวัดผล 40 คะแนน มีตัวจับเวลา และนับข้อที่ตอบ (${nq} คำถามเลือกตอบ)`);
+  ok(!(await p.$('.cpitem .why, .cpitem .opt.ok')), 'ระหว่างทำชุดวัดผลไม่แสดงเฉลย');
+  await p.screenshot({ path: path.join(SHOTS, 'app_checkpoint.png') });
+  await p.click('#cpSubmit'); await p.waitForSelector('#cpTotal');
+  ok(/\d+\/40/.test(await p.textContent('#cpTotal')) && (await p.$$('.cpans')).length === 32, 'ส่งแล้วเห็นคะแนนรวม แยกทักษะ และเฉลยทุกข้อ');
+  ok(await noOverflow(p), 'หน้าผลชุดวัดผลไม่ล้นจอ');
+  await p.screenshot({ path: path.join(SHOTS, 'app_checkpoint_result.png'), fullPage: true });
+  await p.click('#cpBack'); await p.waitForSelector('#cpCard');
+  ok(!!(await p.$('[data-cp="1"] .cpscore')) && (await p.textContent('[data-cp="2"]')).includes('สัปดาห์ 8'), 'หน้าผลแสดงคะแนนครั้งที่ 1 และครั้งที่ 2 ยังรอสัปดาห์ 8');
   await p.goto(base + '/dist-demo/app.html#buy'); await p.waitForSelector('.price');
   ok((await p.textContent('#view')).includes('290 บาท') && (await p.textContent('#view')).includes('490 บาท') && !(await p.textContent('#view')).includes('690 บาท'), 'หน้าราคาแสดงราคาเปิดตัว B1 (ราคาปกติขีดฆ่า) และไม่ขายทุกคอร์สจนกว่าคอร์สอื่นจะมีเนื้อหา');
 

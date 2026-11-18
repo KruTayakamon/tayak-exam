@@ -4,11 +4,12 @@
   → build/import_<คอร์ส>_wNN.json (มีเฉลย ห้ามใส่ใน dist) + เพิ่ม sha256 ลง web/import/manifest.json (build.py คัดลอกไป dist/import/) (มีแต่แฮช เผยแพร่ได้)
 แล้ว commit + push ขึ้น main รอ Pages อัปเดต แล้วส่ง:
   curl -s -X POST "$FN/exam-import" -H "apikey: <publishable>" --data-binary @build/import_b1_w03.json"""
-import os, sys, json, hashlib
+import os, sys, json, hashlib, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 args = [a for a in sys.argv[1:] if not a.startswith('--')]
 status = 'approved' if '--status' not in sys.argv else sys.argv[sys.argv.index('--status') + 1]
 course, weeks = args[0], [int(x) for x in args[1:] if x.isdigit()]
+forms = [x[2] for x in args[1:] if re.fullmatch(r'cp[abc]', x)]   # ชุดวัดผล: make_import.py b1 cpa cpb cpc
 items = json.load(open(os.path.join(ROOT, 'build', 'items.json'), encoding='utf-8'))
 cw = json.load(open(os.path.join(ROOT, 'build', f'course_cefr_{course}.json'), encoding='utf-8'))['weeks']
 mp = os.path.join(ROOT, 'web', 'import', 'manifest.json')   # build.py คัดลอกไป dist/import/
@@ -28,6 +29,17 @@ for w in weeks:
     data = {'items': rows, 'weeks': [{'exam': 'cefr', 'course': course, 'week': w, 'body': {**wk[0], 'status': status}, 'status': status}]}
     raw = json.dumps(data, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
     out = os.path.join(ROOT, 'build', f'import_{course}_w{w:02d}.json'); open(out, 'wb').write(raw)
+    h = hashlib.sha256(raw).hexdigest()
+    if h not in man['sha256']: man['sha256'].append(h)
+    print(f'{os.path.relpath(out, ROOT)} {len(rows)} ข้อ · {status} · {h[:12]}')
+for f in forms:                                                     # ชุดวัดผล role=checkpoint form=a|b|c week=null
+    pre = f'cefr-{course}-cp{f}-'
+    rows = [{'id': it['id'], 'exam': 'cefr', 'course': course, 'week': None, 'kind': it['kind'], 'skill': it['skill'], 'topic': it['topic'], 'level': it['level'],
+             'role': 'checkpoint', 'form': f, 'points': len(it['questions']) if it['kind'] in ('cloze', 'read', 'listen') else 1,
+             'body': {**it, 'status': status}, 'status': status, 'version': it.get('version', 1)} for it in items if it['id'].startswith(pre)]
+    if not rows: sys.exit(f'ไม่มีชุดวัดผล {f}')
+    raw = json.dumps({'items': rows, 'weeks': []}, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+    out = os.path.join(ROOT, 'build', f'import_{course}_cp{f}.json'); open(out, 'wb').write(raw)
     h = hashlib.sha256(raw).hexdigest()
     if h not in man['sha256']: man['sha256'].append(h)
     print(f'{os.path.relpath(out, ROOT)} {len(rows)} ข้อ · {status} · {h[:12]}')

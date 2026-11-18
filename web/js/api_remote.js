@@ -21,6 +21,8 @@ export const remoteApi = {
   session: (p) => call('exam-api', { action: 'session', course: COURSE(), ...p }),
   sync: (p) => call('exam-api', { action: 'sync', course: COURSE(), ...p }),
   report: (p) => call('exam-api', { action: 'report', ...p }),
+  checkpointStart: (n) => call('exam-api', { action: 'checkpoint_start', course: COURSE(), n }),
+  checkpointSubmit: (n, answers) => call('exam-api', { action: 'checkpoint_submit', course: COURSE(), n, answers }),
   placementItems: () => call('exam-api', { action: 'placement_items' }),
   placementGrade: (answers, src) => call('exam-api', { action: 'placement_grade', answers, src_post: src || null }),
 };
