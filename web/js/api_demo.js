@@ -39,7 +39,7 @@ export const demoApi = {
   },
   async status() {
     const now = Date.now();
-    return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }, { product: 'cefr-c1', expires_at: now + 180 * 86400000 }], prices: [...OPEN_COURSES.map((c) => 'cefr-' + c), 'cefr-extend'].map((p) => quote(p, now)), orders: [] };   // เหมือนเว็บจริง: ขายเฉพาะคอร์สที่มีเนื้อหา
+    return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }, { product: 'cefr-b2', expires_at: now + 180 * 86400000 }, { product: 'cefr-c1', expires_at: now + 180 * 86400000 }], prices: [...OPEN_COURSES.map((c) => 'cefr-' + c), 'cefr-extend'].map((p) => quote(p, now)), orders: [] };   // เหมือนเว็บจริง: ขายเฉพาะคอร์สที่มีเนื้อหา
   },
   async checkout() { return { url: '#buy', demo: true }; },          // โหมดสาธิตไม่จ่ายเงินจริง
   async verify() { return { credited: 0, pending: 0 }; },

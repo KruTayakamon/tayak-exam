@@ -73,9 +73,9 @@ function result(R) {
   const lvl = R.level.startsWith('below-') ? `ยังไม่ถึง ${BAND[R.level.slice(6)]}` : `${BAND[R.level]} ${R.position === 'high' ? 'ช่วงบน' : 'ช่วงล่าง'}`;
   const plan = (R.plan || []).map((c) => BAND[c]).join(' แล้วต่อ ');
   const skills = Object.entries(R.by_skill || {}).map(([k, [c, n]]) => `<div class="skill"><span>${SKILL[k] || k}</span><div class="bar"><span style="width:${Math.round(100 * c / n)}%"></span></div><small>${c}/${n}</small></div>`).join('');
-  // คอร์สที่เปิดแล้วซึ่งใกล้ผลที่สุด: a2 → b1 · b2 → b1 (ทบทวนให้แน่น) และเสนอ c1 เป็นทางเลือก · c2 → c1
-  const first = (R.plan || ['b1'])[0], NEAR = { a2: 'b1', b1: 'b1', b2: 'b1', c1: 'c1', c2: 'c1' };
-  const go = OPEN_COURSES.includes(first) ? first : (NEAR[first] || 'b1'), other = first === 'b2' ? 'c1' : null;
+  // คอร์สที่เปิดแล้วซึ่งใกล้ผลที่สุด: a2 → b1 · c2 → c1 (b1 b2 c1 เปิดแล้ว)
+  const first = (R.plan || ['b1'])[0], NEAR = { a2: 'b1', b1: 'b1', b2: 'b2', c1: 'c1', c2: 'c1' };
+  const go = OPEN_COURSES.includes(first) ? first : (NEAR[first] || 'b1'), other = null;
   const weak = Object.entries(R.by_skill || {}).filter(([, [c, n]]) => n && c / n < 0.6).map(([k]) => SKILL[k] || k);
   app.innerHTML = '';
   const v = el(`<div class="screen" id="view" data-level="${esc(R.level)}" data-scores="${esc(JSON.stringify(R.scores || {}))}">${head()}

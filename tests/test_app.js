@@ -157,6 +157,14 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await p.click('#startBtn'); await p.waitForSelector('.nb'); ok(await noOverflow(p), 'บทเรียน C1 เปิดได้และไม่ล้นจอ'); await p.screenshot({ path: path.join(SHOTS, 'app_c1_lesson.png'), fullPage: true });
   await p.goto(base + '/dist-demo/app.html#course'); await p.waitForSelector('#switchCourse'); await p.click('#switchCourse [data-course="b1"]'); await p.waitForSelector('#todayTitle');
   ok((await p.textContent('#courseTag')) === 'B1' && (await p.textContent('#view')).includes('สัปดาห์ 4'), 'กลับ B1 แล้วความคืบหน้าเดิม (สัปดาห์ 4) ยังอยู่');
+  // B2 เปิดเมื่อครบ 12 สัปดาห์ (18 พ.ย.): สลับไป B2 → ตั้งแผน → บทเรียนวันที่ 1 · แล้วกลับ B1
+  await p.goto(base + '/dist-demo/app.html#course'); await p.waitForSelector('#switchCourse');
+  ok((await p.$$eval('#switchCourse .cpick', (b) => b.map((x) => x.dataset.course).join(','))) === 'b1,b2,c1', 'หน้าคอร์สมีให้เลือก B1 B2 C1');
+  await p.click('#switchCourse [data-course="b2"]'); await p.waitForSelector('#coursePick'); await p.click('#usePlan'); await p.waitForSelector('#todayTitle');
+  ok((await p.textContent('#courseTag')) === 'B2', 'เรียน B2 สัปดาห์ 1 ได้');
+  await p.click('#startBtn'); await p.waitForSelector('.nb'); ok(await noOverflow(p), 'บทเรียน B2 เปิดได้และไม่ล้นจอ'); await p.screenshot({ path: path.join(SHOTS, 'app_b2_lesson.png'), fullPage: true });
+  await p.goto(base + '/dist-demo/app.html#course'); await p.waitForSelector('#switchCourse'); await p.screenshot({ path: path.join(SHOTS, 'app_course_switch3.png'), fullPage: true });
+  await p.click('#switchCourse [data-course="b1"]'); await p.waitForSelector('#todayTitle');
   await p.goto(base + '/dist-demo/app.html#buy'); await p.waitForSelector('.price');
   ok((await p.textContent('#view')).includes('290 บาท') && (await p.textContent('#view')).includes('490 บาท') && !(await p.textContent('#view')).includes('690 บาท'), 'หน้าราคาแสดงราคาเปิดตัว B1 (ราคาปกติขีดฆ่า) และไม่ขายทุกคอร์สจนกว่าคอร์สอื่นจะมีเนื้อหา');
 
