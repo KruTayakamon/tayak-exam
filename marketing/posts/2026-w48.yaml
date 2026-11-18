@@ -183,7 +183,7 @@
       choices:
         - {t: about, why: "worry ใช้คู่กับ ==about== เมื่อบอกเรื่องที่กังวล"}
         - {t: for, why: "worry for ใช้น้อยมาก และใช้กับคน ไม่ใช่เรื่อง"}
-        - {t: on, why: "worry on ไม่ใช่ภาษาอังกฤษมาตรฐาน"}
+        - {t: "on", why: "worry on ไม่ใช่ภาษาอังกฤษมาตรฐาน"}
         - {t: with, why: "worry with ไม่ใช้ในความหมายนี้"}
     - stem: "You want everyone to clap for a friend. You say: \"Let's give her a big ____.\""
       choices:
