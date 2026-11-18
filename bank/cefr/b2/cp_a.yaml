@@ -1,0 +1,498 @@
+# คอร์ส b2 · ชุดวัดผล ชุด a · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26 "ทำตามที่เสนอทุกอย่าง") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# ศัพท์ 10 คำจาก 10 สัปดาห์: overcome maintain anticipate evidence dilemma reputation negotiate compulsory controversial drastic
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-b2-cpa-001
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 1
+  stem: When the power came back, we ____ in the dark for over an hour.
+  choices:
+    - {t: had been sitting, why: "ทำต่อเนื่องมาก่อนเหตุการณ์ในอดีต ใช้ ++had been + -ing++"}
+    - {t: have been sitting, why: "present perfect ไม่เข้ากับเหตุการณ์ในอดีต came back"}
+    - {t: were sitting for, why: "past continuous ไม่ใช้กับ for over an hour ก่อนอีกเหตุการณ์ และมี for ซ้ำ"}
+    - {t: sat, why: "อดีตธรรมดาไม่บอกว่าต่อเนื่องมาก่อน"}
+  explain: "ต่อเนื่องมาก่อนอีกเหตุการณ์ในอดีต ==had been + -ing=="
+  status: approved
+- id: cefr-b2-cpa-002
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 1
+  stem: I ____ three job applications this week, and I'm still waiting for replies.
+  choices:
+    - {t: have sent, why: "นับจำนวนที่ทำเสร็จ ใช้ ++have + ช่อง 3++"}
+    - {t: have been sending, why: "รูปต่อเนื่องไม่ใช้กับจำนวนชิ้นที่เสร็จ"}
+    - {t: am sending, why: "ไม่ได้บอกว่าส่งเสร็จแล้ว"}
+    - {t: send, why: "ปัจจุบันธรรมดาไม่เข้ากับ this week ที่นับจำนวน"}
+  explain: "มีจำนวน ==have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpa-003
+  kind: mcq
+  skill: gm
+  topic: future-continuous-perfect
+  level: 1
+  stem: By the end of the month, we ____ the whole house.
+  choices:
+    - {t: will have painted, why: "เสร็จก่อนจุดเวลาในอนาคต ใช้ ++will have + ช่อง 3++"}
+    - {t: will be painting, why: "ไม่เข้ากับ By the end of"}
+    - {t: paint, why: "ต้องเป็นรูปอนาคต"}
+    - {t: have painted, why: "ไม่ได้ชี้ไปที่สิ้นเดือน"}
+  explain: "==By + เวลาในอนาคต → will have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpa-004
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 1
+  stem: All visitors must ____ at reception.
+  choices:
+    - {t: be registered, why: "หลัง modal ใช้ passive ++be + ช่อง 3++"}
+    - {t: been registered, why: "หลัง must ใช้ be ไม่ใช่ been"}
+    - {t: registered, why: "ขาด be จึงใช้ไม่ได้"}
+    - {t: being registered, why: "หลัง must ไม่ใช้ -ing"}
+  explain: "modal passive ==must + be + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpa-005
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 1
+  stem: If we ____ the map, we wouldn't have got lost.
+  choices:
+    - {t: had checked, why: "ส่วน if ของสมมติย้อนอดีต ++had + ช่อง 3++"}
+    - {t: checked, why: "สมมติปัจจุบัน ไม่เข้ากับ wouldn't have got"}
+    - {t: would have checked, why: "ไม่ใช้ would ในส่วน if"}
+    - {t: have checked, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+  explain: "==If + had + ช่อง 3, would have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpa-006
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: I wish my phone ____ so quickly. It's always running out of battery.
+  choices:
+    - {t: didn't die, why: "อยากให้ปัจจุบันต่างไป ใช้ ++wish + อดีต++"}
+    - {t: doesn't die, why: "หลัง wish ต้องถอยเป็นอดีต"}
+    - {t: won't die, why: "will ไม่ใช้หลัง wish กับสิ่งของในความหมายนี้"}
+    - {t: hadn't died, why: "had + ช่อง 3 ใช้กับเรื่องในอดีต"}
+  explain: "เรื่องตอนนี้ ==wish + อดีตธรรมดา=="
+  status: approved
+- id: cefr-b2-cpa-007
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  stem: He ____ the email. He replied to it ten minutes later.
+  choices:
+    - {t: must have read, why: "อนุมานจากหลักฐาน ++must have + ช่อง 3++"}
+    - {t: can't have read, why: "ขัดกับหลักฐานว่าตอบแล้ว"}
+    - {t: should have read, why: "should have = ควรทำแต่ไม่ได้ทำ"}
+    - {t: must read, why: "ต้องเป็นเรื่องที่เกิดแล้ว"}
+  explain: "หลักฐานชัด ==must have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpa-008
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: The receptionist advised us ____ a taxi because the buses were on strike.
+  choices:
+    - {t: to take, why: "advise + ++คน + to++"}
+    - {t: taking, why: "advise + คน ไม่ตามด้วย -ing"}
+    - {t: take, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: that take, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==advise / remind / warn + คน + to + กริยา=="
+  status: approved
+- id: cefr-b2-cpa-009
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: We interviewed ten candidates, three of ____ had worked abroad.
+  choices:
+    - {t: whom, why: "หลัง three of ใช้ ++whom++ กับคน"}
+    - {t: who, why: "หลังบุพบท of ต้องใช้ whom"}
+    - {t: them, why: "ทำให้ประโยคติดกันโดยไม่มีคำเชื่อม"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+  explain: "==some== / three / most of + whom (คน) / which (สิ่งของ)"
+  status: approved
+- id: cefr-b2-cpa-010
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: ____ feeling nervous, she gave an excellent presentation.
+  choices:
+    - {t: Despite, why: "ตามด้วย -ing ใช้ ++Despite++"}
+    - {t: Although, why: "although ต้องตามด้วยประโยค"}
+    - {t: Even though, why: "even though ต้องตามด้วยประโยค"}
+    - {t: Nevertheless, why: "nevertheless ไม่ใช้นำวลี -ing แบบนี้"}
+  explain: "==despite / in spite of + -ing=="
+  status: approved
+- id: cefr-b2-cpa-011
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: Online sales ____ to have grown since the new website was launched.
+  choices:
+    - {t: appear, why: "ดูเหมือนจะ ใช้ ++appear to have + ช่อง 3++"}
+    - {t: are appear, why: "appear เป็นกริยา ไม่ใช้ are"}
+    - {t: likely, why: "ขาด are จึงใช้ไม่ได้"}
+    - {t: tend that, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==seem / appear + to have + ช่อง 3== = ดูเหมือนจะ...แล้ว"
+  status: approved
+- id: cefr-b2-cpa-012
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 3
+  stem: Seldom ____ such a helpful shop assistant.
+  choices:
+    - {t: have I met, why: "Seldom ขึ้นต้น ++กลับลำดับ have + I++"}
+    - {t: I have met, why: "ไม่ได้กลับลำดับ"}
+    - {t: I met, why: "บทไม่ได้พูดว่า I met"}
+    - {t: did I met, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "คำปฏิเสธขึ้นต้น ==กริยาช่วย + ประธาน=="
+  status: approved
+- id: cefr-b2-cpa-013
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  stem: "\"I remember telling him about the meeting.\" What does this mean?"
+  choices:
+    - {t: I told him and I can recall doing it, why: "remember + -ing = ++จำได้ว่าเคยทำ++"}
+    - {t: I must not forget to tell him, why: "นั่นคือ remember to tell"}
+    - {t: I forgot to tell him, why: "ความหมายตรงกันข้าม"}
+    - {t: He told me about the meeting, why: "ผิดผู้กระทำ จึงใช้ไม่ได้"}
+  explain: "==remember -ing = จำได้ว่าทำไปแล้ว=="
+  status: approved
+- id: cefr-b2-cpa-014
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 3
+  stem: ____ by the noise, the baby started crying.
+  choices:
+    - {t: Frightened, why: "ทารกถูกทำให้กลัว ใช้ ++ช่อง 3++"}
+    - {t: Frightening, why: "-ing แปลว่าทารกทำให้คนอื่นกลัว"}
+    - {t: Having frightened, why: "รูปกระทำ ความหมายผิด"}
+    - {t: To frighten, why: "ความหมายผิด จึงใช้ไม่ได้"}
+  explain: "ประธานถูกกระทำ ==ขึ้นต้นด้วยช่อง 3=="
+  status: approved
+# ---------- เติมคำในข้อความ 1 ชุด (3 คะแนน) ----------
+- id: cefr-b2-cpa-015
+  kind: cloze
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  text: |
+    The library has extended its opening hours (1) ____ students can study in the evenings. (2) ____, it has added fifty new desks. As a result, the number of visitors (3) ____ by 40% since September.
+  questions:
+    - choices:
+        - {t: so that, why: "จุดประสงค์ + ประโยค"}
+        - {t: so as to, why: "so as to ตามด้วยกริยา ไม่ใช่ประโยค"}
+        - {t: despite, why: "despite ไม่บอกจุดประสงค์"}
+        - {t: whereas, why: "whereas ไม่บอกจุดประสงค์"}
+    - choices:
+        - {t: Moreover, why: "เพิ่มข้อมูลทิศเดียวกัน"}
+        - {t: Nevertheless, why: "nevertheless บอกการแย้ง"}
+        - {t: Whereas, why: "whereas ไม่ขึ้นประโยคใหม่"}
+        - {t: Despite, why: "despite ต้องตามด้วยคำนาม"}
+    - choices:
+        - {t: has risen, why: "since + เวลา ใช้ present perfect"}
+        - {t: rose, why: "since ไม่ใช้กับอดีตธรรมดา"}
+        - {t: is rising, why: "since ต้องใช้ perfect"}
+        - {t: has raised, why: "raise ต้องมีกรรม ตัวเลขเพิ่มขึ้นเองใช้ rise"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-b2-cpa-016
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I had my phone, repaired, at the shop, near the station]
+  sentence: I had my phone repaired at the shop near the station.
+  th: ฉันเอาโทรศัพท์ไปให้ร้านใกล้สถานีซ่อม
+  why: "have + สิ่งของ + ช่อง 3 = ให้คนอื่นทำให้"
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ ----------
+- id: cefr-b2-cpa-017
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: With hard work, she managed to ____ her fear of public speaking.
+  choices:
+    - {t: overcome, why: "เอาชนะ ใช้ ++overcome++"}
+    - {t: maintain, why: "maintain แปลว่ารักษาไว้ ขัดกับความกลัว"}
+    - {t: anticipate, why: "anticipate แปลว่าคาดการณ์"}
+    - {t: negotiate, why: "negotiate แปลว่าเจรจา"}
+  explain: "overcome = ==เอาชนะ (ความกลัว อุปสรรค)=="
+  status: approved
+- id: cefr-b2-cpa-018
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: It's important to ____ a healthy weight as you get older.
+  choices:
+    - {t: maintain, why: "รักษาระดับไว้ ใช้ ++maintain++"}
+    - {t: overcome, why: "overcome a healthy weight ไม่มีความหมาย"}
+    - {t: negotiate, why: "negotiate ไม่ใช้กับน้ำหนัก"}
+    - {t: anticipate, why: "anticipate ไม่ใช้ในความหมายนี้"}
+  explain: "maintain = ==รักษาไว้ คงระดับ=="
+  status: approved
+- id: cefr-b2-cpa-019
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: We didn't ____ so many people coming, so we ran out of food.
+  choices:
+    - {t: anticipate, why: "คาดการณ์ล่วงหน้า ใช้ ++anticipate++"}
+    - {t: maintain, why: "maintain ไม่ใช่การคาดการณ์"}
+    - {t: overcome, why: "overcome ไม่ใช่การคาดการณ์"}
+    - {t: negotiate, why: "negotiate ไม่ใช่การคาดการณ์"}
+  explain: "anticipate = ==คาดการณ์ล่วงหน้า=="
+  status: approved
+- id: cefr-b2-cpa-020
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: The police found no ____ that anyone had entered the house.
+  choices:
+    - {t: evidence, why: "หลักฐาน ใช้ ++evidence++"}
+    - {t: reputation, why: "reputation คือชื่อเสียง"}
+    - {t: dilemma, why: "dilemma คือภาวะเลือกยาก"}
+    - {t: compulsory, why: "compulsory เป็นคุณศัพท์"}
+  explain: "evidence = ==หลักฐาน== (นับไม่ได้)"
+  status: approved
+- id: cefr-b2-cpa-021
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: The hotel has a good ____ for friendly service.
+  choices:
+    - {t: reputation, why: "ชื่อเสียง ใช้ ++a reputation for++"}
+    - {t: evidence, why: "evidence for friendly service ไม่ได้แปลว่าชื่อเสียง"}
+    - {t: dilemma, why: "dilemma ไม่ใช่ชื่อเสียง"}
+    - {t: drastic, why: "drastic เป็นคุณศัพท์"}
+  explain: "reputation = ==ชื่อเสียง=="
+  status: approved
+- id: cefr-b2-cpa-022
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 2
+  stem: "I faced a ____: stay in my safe job or start my own business."
+  choices:
+    - {t: dilemma, why: "ภาวะเลือกยาก ใช้ ++dilemma++"}
+    - {t: reputation, why: "reputation ไม่ใช่การเลือก"}
+    - {t: evidence, why: "evidence ไม่ใช่การเลือก"}
+    - {t: controversy, why: "controversy คือการถกเถียงในสังคม ไม่ใช่การตัดสินใจส่วนตัว"}
+  explain: "dilemma = ==ภาวะเลือกยาก=="
+  status: approved
+- id: cefr-b2-cpa-023
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 2
+  stem: The union managed to ____ a better deal for the workers.
+  choices:
+    - {t: negotiate, why: "เจรจาจนได้ ใช้ ++negotiate++"}
+    - {t: overcome, why: "overcome a deal ไม่มีความหมาย"}
+    - {t: anticipate, why: "anticipate ไม่ใช่การเจรจา"}
+    - {t: maintain, why: "maintain a better deal ไม่ได้แปลว่าได้มาจากการเจรจา"}
+  explain: "negotiate = ==เจรจาต่อรอง=="
+  status: approved
+- id: cefr-b2-cpa-024
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: Wearing a helmet is ____ for everyone on a motorbike, including passengers.
+  choices:
+    - {t: compulsory, why: "บังคับ ใช้ ++compulsory++"}
+    - {t: optional, why: "ขัดกับ for everyone ในเรื่องกฎหมาย"}
+    - {t: controversial, why: "ไม่ได้บอกว่าต้องทำ"}
+    - {t: drastic, why: "drastic ไม่ใช้กับกฎ"}
+  explain: "compulsory = ==บังคับตามกฎ=="
+  status: approved
+- id: cefr-b2-cpa-025
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: The plan to close the old market is ____; some residents support it, but many are angry.
+  choices:
+    - {t: controversial, why: "เป็นที่ถกเถียง ใช้ ++controversial++"}
+    - {t: compulsory, why: "ไม่ได้บอกว่าคนเห็นต่าง"}
+    - {t: drastic, why: "drastic บอกความรุนแรง ไม่ได้บอกว่าคนเห็นต่าง"}
+    - {t: reluctant, why: "reluctant ใช้กับคน"}
+  explain: "controversial = ==เป็นที่ถกเถียง=="
+  status: approved
+- id: cefr-b2-cpa-026
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: The company made ____ cuts, closing ten of its twelve branches.
+  choices:
+    - {t: drastic, why: "รุนแรงขนานใหญ่ ใช้ ++drastic++"}
+    - {t: marginal, why: "ขัดกับปิดสิบจากสิบสองสาขา"}
+    - {t: compulsory, why: "compulsory cuts ไม่ได้บอกขนาด"}
+    - {t: controversial, why: "ไม่ได้บอกขนาดของการตัด"}
+  explain: "drastic = ==รุนแรง ขนานใหญ่=="
+  status: approved
+# ---------- อ่าน 2 บท ----------
+- id: cefr-b2-cpa-027
+  kind: read
+  skill: rd
+  topic: email-notice
+  level: 1
+  title: "Notice to Residents · Water Supply"
+  passage: |
+    Dear Residents,
+
+    Please note that the water supply to Buildings A and B will be turned off on Saturday 14 June from 9 a.m. to 3 p.m. while the main pipes are being replaced. Building C will not be affected.
+
+    We apologise for any inconvenience. We recommend that you store enough water for cooking and drinking before 9 a.m. Free bottled water will be available in the lobby of Building A from 10 a.m.
+
+    If the work is not finished by 3 p.m., we will post an update on the residents' LINE group. Please do not call the office on Saturday, as it will be closed.
+
+    Building Management
+  questions:
+    - stem: Why will the water be turned off?
+      choices:
+        - {t: pipes are being replaced, why: "while the main pipes are being replaced"}
+        - {t: the water is unsafe, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: residents have not paid, why: "บทไม่ได้พูดว่า residents have not paid"}
+        - {t: Building C needs more water, why: "อาคาร C ไม่ได้รับผลกระทบ"}
+    - stem: Who will NOT be affected?
+      choices:
+        - {t: residents of Building C, why: "Building C will not be affected"}
+        - {t: residents of Building A, why: "อาคาร A ถูกตัดน้ำ"}
+        - {t: residents of Building B, why: "อาคาร B ถูกตัดน้ำ"}
+        - {t: nobody, why: "อาคาร C ไม่ได้รับผลกระทบ"}
+    - stem: What can residents get in the lobby of Building A?
+      choices:
+        - {t: free bottled water, why: "Free bottled water will be available in the lobby"}
+        - {t: a refund, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: information from the office staff, why: "สำนักงานปิดวันเสาร์"}
+        - {t: food, why: "มีแค่น้ำดื่ม จึงใช้ไม่ได้"}
+    - stem: How will residents hear if the work takes longer?
+      choices:
+        - {t: through the LINE group, why: "we will post an update on the residents' LINE group"}
+        - {t: by calling the office, why: "Please do not call the office"}
+        - {t: by email, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: from a notice in the lift, why: "บทไม่ได้พูดว่า from a notice in the lift"}
+  status: approved
+- id: cefr-b2-cpa-028
+  kind: read
+  skill: rd
+  topic: opinion-article
+  level: 2
+  title: "Is the Four-Day Week Worth It?"
+  passage: |
+    Several companies in Bangkok have recently experimented with a four-day working week. Staff work the same hours over four days, or slightly fewer hours, while keeping the same pay. Early reports appear to be positive, but the evidence is still limited.
+
+    Supporters point out that employees who have an extra day off tend to be less stressed and take fewer sick days. Moreover, some companies have found that productivity did not fall; in a few cases, it even rose slightly. A small design agency that tried the system for six months reported that it had become much easier to recruit new staff.
+
+    Nevertheless, the four-day week does not suit every business. Hospitals, shops and restaurants need people at work every day, and introducing the system would require hiring extra staff. Critics also warn that longer working days may simply move stress from one part of the week to another.
+
+    In my view, the four-day week is worth testing, but only if companies measure the results honestly. What works for a design agency may not work for a hospital, and it would be a mistake to assume that one model fits all.
+  questions:
+    - stem: What does the writer say about the evidence so far?
+      choices:
+        - {t: it is positive but not yet strong, why: "appear to be positive, but the evidence is still limited"}
+        - {t: it proves the system works, why: "ใช้คำว่า appear และ limited"}
+        - {t: it is completely negative, why: "ผลเบื้องต้นดูดี"}
+        - {t: there is none, why: "มีรายงานเบื้องต้น"}
+    - stem: What advantage did the design agency report?
+      choices:
+        - {t: hiring became easier, why: "it had become much easier to recruit new staff"}
+        - {t: profits doubled, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: staff worked longer hours, why: "ไม่ใช่ข้อดีที่รายงาน"}
+        - {t: they closed one day a week to save money, why: "บทไม่ได้พูดว่า they closed one day a week to save money"}
+    - stem: Why might the system be difficult for hospitals?
+      choices:
+        - {t: they need staff every day, so would need to hire more, why: "need people at work every day ... require hiring extra staff"}
+        - {t: doctors do not want a day off, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: hospitals are too small, why: "บทไม่ได้พูดว่า hospitals are too small"}
+        - {t: patients would complain, why: "บทไม่ได้พูดว่า patients would complain"}
+    - stem: What is the writer's opinion?
+      choices:
+        - {t: it should be tested carefully as it may not suit everyone, why: "worth testing ... it would be a mistake to assume that one model fits all"}
+        - {t: every company should adopt it now, why: "ผู้เขียนเตือนว่าไม่เหมาะกับทุกที่"}
+        - {t: it should be banned, why: "ผู้เขียนเห็นว่าควรทดลอง"}
+        - {t: it only works in hospitals, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  status: approved
+# ---------- ฟัง 4 ข้อ ----------
+- id: cefr-b2-cpa-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "I was going to call the supplier this morning, but the meeting ran late. I'll do it first thing after lunch."}
+  questions:
+    - stem: When will the woman call the supplier?
+      choices:
+        - {t: after lunch, why: "I'll do it first thing after lunch"}
+        - {t: she called this morning, why: "was going to = ตั้งใจแต่ไม่ได้ทำ"}
+        - {t: tomorrow morning, why: "ไม่ได้พูดถึงพรุ่งนี้"}
+        - {t: during the meeting, why: "ประชุมเลิกช้า จึงยังไม่ได้โทร"}
+  status: approved
+- id: cefr-b2-cpa-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Have you finished the budget yet?"}
+    - {who: Woman, en: "Not quite. I've been working on it all morning, but I still need the figures from sales."}
+  questions:
+    - stem: Why hasn't the woman finished the budget?
+      choices:
+        - {t: she is waiting for information from sales, why: "I still need the figures from sales"}
+        - {t: she hasn't started it, why: "ทำมาทั้งเช้าแล้ว"}
+        - {t: she was in a meeting all morning, why: "ทำงบประมาณทั้งเช้า"}
+        - {t: the man has the figures, why: "ต้องการตัวเลขจากฝ่ายขาย"}
+  status: approved
+- id: cefr-b2-cpa-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "You can take the company car this weekend, as long as you fill it up with petrol before you return it."}
+  questions:
+    - stem: What condition does the woman give?
+      choices:
+        - {t: the man must refill the tank, why: "as long as you fill it up with petrol"}
+        - {t: he must return it on Friday, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: he must pay a fee, why: "บทไม่ได้พูดว่า he must pay a fee"}
+        - {t: he cannot take it this weekend, why: "อนุญาตให้ใช้ได้"}
+  status: approved
+- id: cefr-b2-cpa-032
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Not only was the hotel cheaper than we expected, but the breakfast was excellent too."}
+  questions:
+    - stem: How did the man feel about the hotel?
+      choices:
+        - {t: positive about both price and breakfast, why: "Not only ... cheaper ... but the breakfast was excellent too"}
+        - {t: it was too expensive, why: "ถูกกว่าที่คาด จึงใช้ไม่ได้"}
+        - {t: the breakfast was poor, why: "อาหารเช้าดีมาก จึงใช้ไม่ได้"}
+        - {t: he was disappointed, why: "พูดถึงข้อดีสองข้อ"}
+  status: approved

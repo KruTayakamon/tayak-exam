@@ -1,0 +1,499 @@
+# คอร์ส b2 · ชุดวัดผล ชุด b · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26 "ทำตามที่เสนอทุกอย่าง") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# ศัพท์ 10 คำจาก 10 สัปดาห์: reluctant postpone accurate justify genuine acknowledge restrict beneficial sustainable pursue
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-b2-cpb-001
+  kind: mcq
+  skill: gm
+  topic: used-to-would
+  level: 1
+  stem: When I was a child, my grandmother ____ us stories every night.
+  choices:
+    - {t: would tell, why: "การกระทำที่ทำซ้ำในอดีต ใช้ ++would + กริยา++"}
+    - {t: was telling, why: "past continuous ไม่ใช้กับนิสัยทุกคืน"}
+    - {t: has told, why: "present perfect ไม่เข้ากับ When I was a child"}
+    - {t: would told, why: "หลัง would ใช้กริยารูปเดิม"}
+  explain: "นิสัยในอดีต ==used to / would + กริยารูปเดิม=="
+  status: approved
+- id: cefr-b2-cpb-002
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 1
+  stem: ____ of my two brothers can cook, so we always eat out.
+  choices:
+    - {t: Neither, why: "ไม่มีใครเลยจากสองคน ใช้ ++Neither of++"}
+    - {t: Either, why: "Either แปลว่าคนไหนก็ได้ ขัดกับ eat out เสมอ"}
+    - {t: None, why: "None ใช้กับสามขึ้นไป"}
+    - {t: Both, why: "Both แปลว่าทั้งสองทำได้ ขัดกับเหตุผล"}
+  explain: "สองคน ==neither of = ไม่ทั้งสอง=="
+  status: approved
+- id: cefr-b2-cpb-003
+  kind: mcq
+  skill: gm
+  topic: future-in-past-expressions
+  level: 1
+  stem: The concert was ____ start at eight, but it began at nine.
+  choices:
+    - {t: supposed to, why: "ตามกำหนดที่ไม่เป็นจริง ใช้ ++was supposed to++"}
+    - {t: about to, why: "about to ไม่บอกกำหนดการที่ผิดไป"}
+    - {t: going, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: due, why: "บทไม่ได้พูดว่า due"}
+  explain: "==was supposed to== = ควรจะ...แต่ไม่ได้เป็นตามนั้น"
+  status: approved
+- id: cefr-b2-cpb-004
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 1
+  stem: It ____ that the new airport will open next year.
+  choices:
+    - {t: is expected, why: "มีการคาดว่า ใช้ ++It is expected that++"}
+    - {t: expects, why: "ต้องเป็นรูปถูกกระทำ"}
+    - {t: is expecting, why: "ไม่ใช้รูปต่อเนื่องในโครงสร้างนี้"}
+    - {t: expected, why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "==It is said== / expected / believed that + ประโยค"
+  status: approved
+- id: cefr-b2-cpb-005
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 1
+  stem: You won't be allowed in ____ you show your ticket.
+  choices:
+    - {t: unless, why: "ถ้าไม่ ใช้ ++unless++"}
+    - {t: if, why: "if you show ... won't be allowed ขัดกับเหตุผล"}
+    - {t: as long as, why: "ทำให้ความหมายกลับ"}
+    - {t: provided, why: "บทไม่ได้พูดว่า provided"}
+  explain: "==unless = if ... not=="
+  status: approved
+- id: cefr-b2-cpb-006
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  stem: If I hadn't missed the bus this morning, I ____ so tired now.
+  choices:
+    - {t: wouldn't be, why: "อดีตส่งผลถึงตอนนี้ ใช้ ++wouldn't + กริยา++"}
+    - {t: wouldn't have been, why: "ผลในอดีต ไม่เข้ากับ now"}
+    - {t: won't be, why: "will ไม่ใช้ในประโยคสมมติ"}
+    - {t: am not, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+  explain: "เงื่อนไขผสม ==If + had + ช่อง 3, would + กริยา + now=="
+  status: approved
+- id: cefr-b2-cpb-007
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: I'd rather you ____ my laptop without asking.
+  choices:
+    - {t: didn't use, why: "would rather + คนอื่น + ++อดีต++"}
+    - {t: don't use, why: "ต้องใช้อดีตหลัง would rather + คนอื่น"}
+    - {t: not use, why: "ขาดกริยาช่วย จึงใช้ไม่ได้"}
+    - {t: won't use, why: "will ไม่ใช้ในโครงสร้างนี้"}
+  explain: "==I'd rather + คนอื่น + อดีต=="
+  status: approved
+- id: cefr-b2-cpb-008
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: Could you tell me ____?
+  choices:
+    - {t: how much the tickets cost, why: "คำถามซ้อนใช้ ++ลำดับบอกเล่า++"}
+    - {t: how much do the tickets cost, why: "ไม่ใช้ลำดับคำถามในประโยคซ้อน"}
+    - {t: how much cost the tickets, why: "ลำดับคำไม่ถูก จึงใช้ไม่ได้"}
+    - {t: the tickets cost how much, why: "บทไม่ได้พูดว่า the tickets cost how much"}
+  explain: "คำถามซ้อน ==wh- + ประธาน + กริยา=="
+  status: approved
+- id: cefr-b2-cpb-009
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: The driver denied ____ through the red light.
+  choices:
+    - {t: going, why: "deny + ++-ing++"}
+    - {t: to go, why: "deny ไม่ตามด้วย to"}
+    - {t: go, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: that go, why: "บทไม่ได้พูดว่า that go"}
+  explain: "==deny / admit + -ing=="
+  status: approved
+- id: cefr-b2-cpb-010
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: The flight was delayed by five hours, ____ meant we missed our connection.
+  choices:
+    - {t: which, why: "ขยายทั้งประโยค ใช้ ++, which++"}
+    - {t: that, why: "that ขยายทั้งประโยคไม่ได้"}
+    - {t: what, why: "what ไม่ใช้ขยายประโยคก่อนหน้า"}
+    - {t: it, why: "ทำให้ประโยคติดกันโดยไม่มีคำเชื่อม"}
+  explain: "==, which== ขยายทั้งประโยค"
+  status: approved
+- id: cefr-b2-cpb-011
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  stem: She turned off her phone so as ____ disturbed during the exam.
+  choices:
+    - {t: not to be, why: "จุดประสงค์ปฏิเสธ passive ++so as not to be++"}
+    - {t: to not being, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: not being, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: that not be, why: "บทไม่ได้พูดว่า that not be"}
+  explain: "==so as not to + กริยา== (passive: not to be + ช่อง 3)"
+  status: approved
+- id: cefr-b2-cpb-012
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 3
+  stem: It was the price, not the quality, ____ customers complained about.
+  choices:
+    - {t: that, why: "cleft เน้นสิ่งของ ใช้ ++It was ... that++"}
+    - {t: what, why: "what ไม่ใช้ในโครงสร้าง It was ... "}
+    - {t: who, why: "who ใช้กับคน จึงใช้ไม่ได้"}
+    - {t: where, why: "where ใช้กับสถานที่"}
+  explain: "==It is/was + สิ่งที่เน้น + that=="
+  status: approved
+- id: cefr-b2-cpb-013
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 3
+  stem: The ____ of the new system took longer than expected.
+  choices:
+    - {t: installation, why: "หลัง The ต้องเป็นคำนาม ++installation++"}
+    - {t: install, why: "install เป็นกริยา"}
+    - {t: installed, why: "installed เป็นกริยาช่อง 2/3"}
+    - {t: installing, why: "the installing of ไม่เป็นธรรมชาติ ใช้คำนาม installation"}
+  explain: "หลัง the ... of ==ใช้คำนาม (-tion)=="
+  status: approved
+- id: cefr-b2-cpb-014
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  stem: The printer still isn't working. Try ____ the cable.
+  choices:
+    - {t: checking, why: "ลองทำดูเป็นวิธีแก้ ใช้ ++try + -ing++"}
+    - {t: to check, why: "try to เน้นความพยายามที่ยาก ไม่ใช่การลองวิธี"}
+    - {t: check, why: "ขาด -ing จึงใช้ไม่ได้"}
+    - {t: checked, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "แนะนำวิธีแก้ ==try + -ing=="
+  status: approved
+# ---------- เติมคำในข้อความ 1 ชุด (3 คะแนน) ----------
+- id: cefr-b2-cpb-015
+  kind: cloze
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  text: |
+    The old cinema in our town (1) ____ into a community centre. Work started in March and (2) ____ by December. Local people (3) ____ for their ideas, and many of them have been included in the design.
+  questions:
+    - choices:
+        - {t: is being turned, why: "กำลังถูกเปลี่ยนตอนนี้"}
+        - {t: is turning, why: "รูปกระทำ โรงหนังเปลี่ยนตัวเองไม่ได้"}
+        - {t: has turned, why: "รูปกระทำ จึงใช้ไม่ได้"}
+        - {t: turns, why: "บทไม่ได้พูดว่า turns"}
+    - choices:
+        - {t: should be finished, why: "modal passive คาดว่าจะเสร็จ"}
+        - {t: should finish, why: "รูปกระทำ งานทำตัวเองให้เสร็จไม่ได้ในความหมายนี้"}
+        - {t: should been finished, why: "ขาด be จึงใช้ไม่ได้"}
+        - {t: is finishing, why: "ไม่เข้ากับ by December"}
+    - choices:
+        - {t: were asked, why: "ถูกถามในอดีต passive"}
+        - {t: asked, why: "รูปกระทำ ความหมายกลับเป็นคนท้องถิ่นถาม"}
+        - {t: are asking, why: "รูปกระทำ จึงใช้ไม่ได้"}
+        - {t: have asked, why: "บทไม่ได้พูดว่า have asked"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-b2-cpb-016
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I wish, I hadn't, eaten so much, at dinner]
+  sentence: I wish I hadn't eaten so much at dinner.
+  th: ไม่น่ากินเยอะขนาดนั้นตอนมื้อเย็นเลย
+  why: "wish + had + ช่อง 3 สำหรับความเสียดายในอดีต"
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ ----------
+- id: cefr-b2-cpb-017
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: He was ____ to change jobs because he liked his colleagues.
+  choices:
+    - {t: reluctant, why: "ไม่เต็มใจ ใช้ ++reluctant to++"}
+    - {t: genuine, why: "genuine แปลว่าแท้ จริงใจ"}
+    - {t: accurate, why: "accurate ไม่ใช้กับความเต็มใจ"}
+    - {t: beneficial, why: "beneficial ไม่ใช้กับคนในความหมายนี้"}
+  explain: "reluctant to = ==ไม่เต็มใจจะ=="
+  status: approved
+- id: cefr-b2-cpb-018
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: The trip has been ____ until next month because of the storm.
+  choices:
+    - {t: postponed, why: "เลื่อนออกไป ใช้ ++postpone++"}
+    - {t: pursued, why: "pursue ไม่ใช้กับการเลื่อน"}
+    - {t: restricted, why: "restricted until ไม่ใช่สำนวนเรื่องเลื่อน"}
+    - {t: acknowledged, why: "acknowledge ไม่ใช้กับการเลื่อน"}
+  explain: "postpone = ==เลื่อน== (ไม่ใช่ยกเลิก)"
+  status: approved
+- id: cefr-b2-cpb-019
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: Please make sure the address is ____, or the parcel won't arrive.
+  choices:
+    - {t: accurate, why: "ถูกต้องแม่นยำ ใช้ ++accurate++"}
+    - {t: reluctant, why: "reluctant ใช้กับคน"}
+    - {t: sustainable, why: "sustainable ไม่ใช้กับที่อยู่"}
+    - {t: beneficial, why: "beneficial ไม่ได้แปลว่าถูกต้อง"}
+  explain: "accurate = ==ถูกต้อง แม่นยำ=="
+  status: approved
+- id: cefr-b2-cpb-020
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: How can the council ____ spending so much on a new office?
+  choices:
+    - {t: justify, why: "ให้เหตุผลว่าสมควร ใช้ ++justify++"}
+    - {t: acknowledge, why: "acknowledge spending ไม่ได้แปลว่าอธิบายเหตุผล"}
+    - {t: postpone, why: "postpone ไม่เข้ากับคำถามเรื่องเหตุผล"}
+    - {t: restrict, why: "restrict spending แปลว่าจำกัด ไม่ใช่ให้เหตุผล"}
+  explain: "justify = ==ให้เหตุผลว่าสมควร=="
+  status: approved
+- id: cefr-b2-cpb-021
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: She showed a ____ interest in my work and asked lots of questions.
+  choices:
+    - {t: genuine, why: "จริงใจ แท้ ใช้ ++genuine++"}
+    - {t: reluctant, why: "ขัดกับถามคำถามเยอะ"}
+    - {t: accurate, why: "accurate interest ไม่เป็นธรรมชาติ"}
+    - {t: sustainable, why: "sustainable interest ไม่ใช่ความหมายนี้"}
+  explain: "genuine = ==แท้ จริงใจ=="
+  status: approved
+- id: cefr-b2-cpb-022
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 2
+  stem: The company finally ____ that the product had a safety problem.
+  choices:
+    - {t: acknowledged, why: "ยอมรับความจริง ใช้ ++acknowledge++"}
+    - {t: justified, why: "justify ไม่ได้แปลว่ายอมรับ"}
+    - {t: pursued, why: "pursue ไม่ใช้กับการยอมรับ"}
+    - {t: restricted, why: "restrict ไม่ใช้กับการยอมรับ"}
+  explain: "acknowledge = ==ยอมรับ (ความผิด ความจริง)=="
+  status: approved
+- id: cefr-b2-cpb-023
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 2
+  stem: Entry to the old temple is ____ to small groups of ten.
+  choices:
+    - {t: restricted, why: "จำกัดเฉพาะ ใช้ ++restricted to++"}
+    - {t: postponed, why: "postponed to ไม่ใช่สำนวน"}
+    - {t: acknowledged, why: "acknowledged to ไม่ใช่สำนวน"}
+    - {t: pursued, why: "pursued to ไม่ใช่สำนวน"}
+  explain: "be restricted to = ==จำกัดเฉพาะ=="
+  status: approved
+- id: cefr-b2-cpb-024
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: A short walk after lunch is ____ for your digestion.
+  choices:
+    - {t: beneficial, why: "มีประโยชน์ต่อ ใช้ ++beneficial for++"}
+    - {t: genuine, why: "genuine for ไม่ใช่สำนวน"}
+    - {t: accurate, why: "accurate ไม่ใช้กับสุขภาพ"}
+    - {t: reluctant, why: "reluctant ใช้กับคน"}
+  explain: "beneficial = ==มีประโยชน์=="
+  status: approved
+- id: cefr-b2-cpb-025
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: Using too much groundwater is not ____; one day the wells will be empty.
+  choices:
+    - {t: sustainable, why: "ยั่งยืน ใช้ ++sustainable++"}
+    - {t: beneficial, why: "ไม่ได้บอกว่าจะใช้ได้ระยะยาว"}
+    - {t: accurate, why: "accurate ไม่ใช้ในความหมายนี้"}
+    - {t: genuine, why: "genuine ไม่ใช้ในความหมายนี้"}
+  explain: "sustainable = ==ยั่งยืน ใช้ได้ระยะยาว=="
+  status: approved
+- id: cefr-b2-cpb-026
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: After ten years in banking, he left to ____ his dream of becoming a chef.
+  choices:
+    - {t: pursue, why: "ไล่ตามความฝัน ใช้ ++pursue++"}
+    - {t: restrict, why: "restrict his dream ความหมายกลับ"}
+    - {t: postpone, why: "ขัดกับการลาออกเพื่อทำตามฝัน"}
+    - {t: acknowledge, why: "acknowledge ไม่ใช่การไล่ตาม"}
+  explain: "pursue = ==มุ่งไล่ตาม (ความฝัน อาชีพ)=="
+  status: approved
+# ---------- อ่าน 2 บท ----------
+- id: cefr-b2-cpb-027
+  kind: read
+  skill: rd
+  topic: email-notice
+  level: 1
+  title: "Email · Change to Training Schedule"
+  passage: |
+    Hi everyone,
+
+    I'm afraid the customer service training planned for Wednesday has been moved to Friday morning, because the trainer is ill. The session will still start at 9:30 and finish at 12:00, but it will now be held in Meeting Room 2, as Room 1 is being repainted.
+
+    Attendance is compulsory for all new staff who joined after January. Others are welcome to join if there is space, but please let me know by Thursday lunchtime.
+
+    Lunch will be provided after the session. If you have any food allergies, please reply to this email.
+
+    Thanks,
+    Kanya (HR)
+  questions:
+    - stem: Why has the training been moved?
+      choices:
+        - {t: the trainer is unwell, why: "because the trainer is ill"}
+        - {t: Room 1 is being painted, why: "นั่นคือเหตุผลที่เปลี่ยนห้อง ไม่ใช่เปลี่ยนวัน"}
+        - {t: too few people signed up, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: Friday is a holiday, why: "บทไม่ได้พูดว่า Friday is a holiday"}
+    - stem: Where will the training take place?
+      choices:
+        - {t: Meeting Room 2, why: "it will now be held in Meeting Room 2"}
+        - {t: Meeting Room 1, why: "ห้อง 1 กำลังทาสี"}
+        - {t: online, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the trainer's office, why: "บทไม่ได้พูดว่า the trainer's office"}
+    - stem: Who must attend?
+      choices:
+        - {t: staff who joined after January, why: "compulsory for all new staff who joined after January"}
+        - {t: all staff, why: "คนอื่นเข้าได้ถ้ามีที่ ไม่บังคับ"}
+        - {t: only managers and team leaders in the HR office, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: nobody, why: "บังคับสำหรับพนักงานใหม่"}
+    - stem: What should people with food allergies do?
+      choices:
+        - {t: reply to the email, why: "please reply to this email"}
+        - {t: bring their own lunch, why: "ไม่ได้ขอให้นำอาหารมาเอง"}
+        - {t: tell the trainer on Friday, why: "ไม่ได้บอกให้แจ้งวิทยากร"}
+        - {t: leave before lunch, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-cpb-028
+  kind: read
+  skill: rd
+  topic: report-article
+  level: 2
+  title: "Why Are Young People Moving Back to the Countryside?"
+  passage: |
+    For decades, young Thais have left their villages to look for work in Bangkok and other big cities. Recently, however, a small but notable number appear to be returning home. A survey of 800 people aged 25 to 35 suggests that around one in eight has moved back to a rural area in the last three years.
+
+    Several reasons seem to explain this trend. The most obvious is the cost of living in the city, where rent can take half a young worker's salary. Furthermore, faster internet in rural areas has made it possible for some people to keep their city jobs while working from home. Others say they wanted to look after ageing parents, or simply to have a slower, healthier life.
+
+    Not everyone who returns finds it easy. Well-paid jobs are still rare outside the cities, and some returners have struggled to adapt after years of urban life. A few told researchers that they had underestimated how lonely village life could be.
+
+    It would be a mistake to call this a mass movement; the numbers are still small. Nevertheless, if the trend continues, it may bring new ideas and businesses to rural communities that have lost many of their young people.
+  questions:
+    - stem: According to the survey, how many young people have moved back?
+      choices:
+        - {t: about one in eight, why: "around one in eight has moved back"}
+        - {t: about half, why: "ครึ่งหนึ่งพูดถึงค่าเช่า ไม่ใช่จำนวนคน"}
+        - {t: all 800 people who took part in the survey, why: "800 คือจำนวนผู้ตอบแบบสำรวจ"}
+        - {t: very few, almost none, why: "หนึ่งในแปดถือว่าน่าสังเกต"}
+    - stem: How has faster internet helped?
+      choices:
+        - {t: some can keep city jobs and work remotely, why: "keep their city jobs while working from home"}
+        - {t: it has created many new farming jobs in every village, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: it has made rent cheaper, why: "บทไม่ได้พูดว่า it has made rent cheaper"}
+        - {t: it has reduced loneliness, why: "บางคนยังเหงา จึงใช้ไม่ได้"}
+    - stem: What difficulty do some returners face?
+      choices:
+        - {t: feeling lonely and adapting to village life, why: "struggled to adapt ... how lonely village life could be"}
+        - {t: rent is too high, why: "ค่าเช่าแพงคือปัญหาในเมือง"}
+        - {t: they cannot find anywhere to live near their parents, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the internet is too slow, why: "อินเทอร์เน็ตเร็วขึ้นแล้ว"}
+    - stem: How does the writer describe the trend?
+      choices:
+        - {t: small but possibly important, why: "not a mass movement ... Nevertheless ... may bring new ideas"}
+        - {t: a mass movement, why: "It would be a mistake to call this a mass movement"}
+        - {t: a complete failure, why: "ไม่ได้บอกว่าล้มเหลว"}
+        - {t: certain to grow, why: "ใช้ if the trend continues"}
+  status: approved
+# ---------- ฟัง 4 ข้อ ----------
+- id: cefr-b2-cpb-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "I should have booked the tickets last week. Now the only seats left are at the very back."}
+  questions:
+    - stem: How does the man feel?
+      choices:
+        - {t: he regrets not booking earlier, why: "should have booked = ควรจองแต่ไม่ได้จอง"}
+        - {t: happy with his seats, why: "เหลือแค่ที่นั่งหลังสุด"}
+        - {t: he booked last week, why: "ไม่ได้จอง จึงใช้ไม่ได้"}
+        - {t: the tickets for the show were completely sold out, why: "ยังมีที่นั่งด้านหลัง"}
+  status: approved
+- id: cefr-b2-cpb-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Who suggested changing the delivery company?"}
+    - {who: Man, en: "It was Nok who suggested it, but the manager made the final decision."}
+  questions:
+    - stem: Who made the final decision?
+      choices:
+        - {t: the manager, why: "the manager made the final decision"}
+        - {t: Nok, why: "Nok เป็นคนเสนอ จึงใช้ไม่ได้"}
+        - {t: the man, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the delivery company, why: "บทไม่ได้พูดว่า the delivery company"}
+  status: approved
+- id: cefr-b2-cpb-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Although the new office is further from my home, I'm glad we moved. It's much brighter and quieter."}
+  questions:
+    - stem: How does the woman feel about the new office?
+      choices:
+        - {t: positive overall, why: "I'm glad we moved ... brighter and quieter"}
+        - {t: unhappy because it is far, why: "ยอมรับว่าไกลแต่ยังพอใจ"}
+        - {t: it is too noisy, why: "quieter จึงใช้ไม่ได้"}
+        - {t: she has not seen it, why: "ย้ายไปแล้ว จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-cpb-032
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "By the time the repair man arrives, I'll have been waiting for three hours."}
+  questions:
+    - stem: What is the man complaining about?
+      choices:
+        - {t: a long wait for the repair man, why: "I'll have been waiting for three hours"}
+        - {t: the repair was expensive, why: "ไม่ได้พูดถึงราคา"}
+        - {t: the repair man came earlier than he had promised, why: "ยังไม่มา จึงใช้ไม่ได้"}
+        - {t: he missed the repair man, why: "ยังรออยู่ จึงใช้ไม่ได้"}
+  status: approved

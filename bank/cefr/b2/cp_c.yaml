@@ -1,0 +1,499 @@
+# คอร์ส b2 · ชุดวัดผล ชุด c · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26 "ทำตามที่เสนอทุกอย่าง") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# ศัพท์ 10 คำจาก 10 สัปดาห์: gradually thorough temporary identify abandon imply collaborate procedure crucial expertise
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-b2-cpc-001
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 1
+  stem: I ____ along the beach when I found an old bottle with a message inside.
+  choices:
+    - {t: was walking, why: "กำลังทำอยู่แล้วมีเหตุการณ์แทรก ใช้ ++was + -ing++"}
+    - {t: had walked, why: "past perfect บอกว่าเดินเสร็จก่อน ไม่ใช่กำลังเดิน"}
+    - {t: am walking, why: "ต้องเป็นอดีตตาม found"}
+    - {t: walk, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+  explain: "เหตุการณ์ยาวถูกขัด ==was/were + -ing ... when + อดีต=="
+  status: approved
+- id: cefr-b2-cpc-002
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 1
+  stem: Your eyes are red. ____ you ____?
+  choices:
+    - {t: Have ... been crying, why: "เห็นร่องรอยจากกิจกรรม ใช้ ++have been + -ing++"}
+    - {t: Have ... cried, why: "เน้นผล ไม่เข้ากับร่องรอยที่เห็น"}
+    - {t: Are ... crying, why: "ไม่ได้ถามว่าร้องอยู่ตอนนี้"}
+    - {t: Did ... cried, why: "หลัง did ใช้กริยารูปเดิม"}
+  explain: "ร่องรอยตอนนี้ ==have been + -ing=="
+  status: approved
+- id: cefr-b2-cpc-003
+  kind: mcq
+  skill: gm
+  topic: future-continuous-perfect
+  level: 1
+  stem: Don't call between 2 and 4 tomorrow. I ____ a job interview.
+  choices:
+    - {t: will be having, why: "กำลังทำอยู่ช่วงเวลาในอนาคต ++will be + -ing++"}
+    - {t: will have had, why: "บอกว่าเสร็จแล้ว ขัดกับห้ามโทรช่วงนั้น"}
+    - {t: have, why: "ไม่ได้บอกว่าเป็นช่วงเวลาพรุ่งนี้"}
+    - {t: had, why: "ต้องเป็นอนาคต จึงใช้ไม่ได้"}
+  explain: "ช่วงเวลาในอนาคต ==will be + -ing=="
+  status: approved
+- id: cefr-b2-cpc-004
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 1
+  stem: We're having our kitchen ____ next week.
+  choices:
+    - {t: painted, why: "ให้คนอื่นทำให้ ++have + สิ่งของ + ช่อง 3++"}
+    - {t: paint, why: "ต้องเป็นช่อง 3 จึงใช้ไม่ได้"}
+    - {t: painting, why: "บทไม่ได้พูดว่า painting"}
+    - {t: to paint, why: "บทไม่ได้พูดว่า to paint"}
+  explain: "==have / get + สิ่งของ + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpc-005
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 1
+  stem: You ____ me you were coming. I would have cooked more food.
+  choices:
+    - {t: should have told, why: "ควรทำแต่ไม่ได้ทำ ++should have + ช่อง 3++"}
+    - {t: must have told, why: "must have = คงทำไปแล้ว ขัดกับบริบท"}
+    - {t: should tell, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+    - {t: can't have told, why: "เป็นการอนุมาน ไม่ใช่การตำหนิ"}
+  explain: "ตำหนิย้อนหลัง ==should have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpc-006
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: She ____ the job if she had prepared better for the interview.
+  choices:
+    - {t: might have got, why: "ผลสมมติที่ไม่แน่นอน ++might have + ช่อง 3++"}
+    - {t: might get, why: "สมมติปัจจุบัน ไม่เข้ากับ had prepared"}
+    - {t: had got, why: "ส่วนผลต้องมี modal"}
+    - {t: will have got, why: "will ไม่ใช้ในสมมติ"}
+  explain: "ผลไม่แน่นอน ==might / could have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpc-007
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: It's time you ____ looking for a new job. You've been unhappy for months.
+  choices:
+    - {t: started, why: "It's time + ประธาน + ++อดีต++"}
+    - {t: start, why: "หลัง It's time you ต้องใช้อดีต"}
+    - {t: will start, why: "will ไม่ใช้ในโครงสร้างนี้"}
+    - {t: have started, why: "present perfect ไม่ใช้ในโครงสร้างนี้"}
+  explain: "==It's time + ประธาน + อดีต=="
+  status: approved
+- id: cefr-b2-cpc-008
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: We still haven't decided ____ to rent or buy a flat.
+  choices:
+    - {t: whether, why: "ตามด้วย to + กริยา ใช้ ++whether++ (if ไม่ได้)"}
+    - {t: if, why: "if ไม่ตามด้วย to + กริยา"}
+    - {t: that, why: "that ไม่ใช้กับทางเลือก"}
+    - {t: what, why: "what to rent or buy ไม่เข้ากับ a flat"}
+  explain: "==whether to + กริยา=="
+  status: approved
+- id: cefr-b2-cpc-009
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  stem: ____ the report, she sent it to her manager.
+  choices:
+    - {t: Having finished, why: "ทำเสร็จก่อนอีกเหตุการณ์ ++Having + ช่อง 3++"}
+    - {t: Finished, why: "ช่อง 3 เดี่ยวแปลว่าเธอถูกทำให้เสร็จ"}
+    - {t: Having finishing, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: To finish, why: "ความหมายเปลี่ยนเป็นเพื่อจะทำให้เสร็จ"}
+  explain: "เสร็จก่อน ==Having + ช่อง 3=="
+  status: approved
+- id: cefr-b2-cpc-010
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: The car is old. ____, it has never broken down.
+  choices:
+    - {t: Nevertheless, why: "ขึ้นประโยคใหม่ที่แย้ง ++Nevertheless++"}
+    - {t: Despite, why: "despite ต้องตามด้วยคำนาม"}
+    - {t: Although, why: "although ต้องเชื่อมประโยคย่อยกับประโยคหลัก"}
+    - {t: Moreover, why: "moreover บอกทิศทางเดียวกัน แต่ประโยคนี้แย้ง"}
+  explain: "ขึ้นประโยคใหม่ ==Nevertheless, / However,=="
+  status: approved
+- id: cefr-b2-cpc-011
+  kind: mcq
+  skill: gm
+  topic: hedging
+  level: 2
+  stem: There ____ to be a mistake on this bill.
+  choices:
+    - {t: appears, why: "There appears to be = ++ดูเหมือนจะมี++"}
+    - {t: appear, why: "a mistake เป็นเอกพจน์ ต้องใช้ appears"}
+    - {t: is appearing, why: "ไม่ใช้รูปต่อเนื่อง"}
+    - {t: likely, why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "==There seems / appears to be + คำนาม=="
+  status: approved
+- id: cefr-b2-cpc-012
+  kind: mcq
+  skill: gm
+  topic: emphasis-inversion-cleft-intro
+  level: 3
+  stem: Not only ____ late, but she also forgot her notes.
+  choices:
+    - {t: did she arrive, why: "Not only ขึ้นต้น ++did + ประธาน + กริยารูปเดิม++"}
+    - {t: she arrived, why: "ไม่ได้กลับลำดับ"}
+    - {t: arrived she, why: "ต้องใช้ did จึงใช้ไม่ได้"}
+    - {t: did she arrived, why: "หลัง did ใช้กริยารูปเดิม"}
+  explain: "ไม่มีกริยาช่วย ==ยืม did แล้วกลับลำดับ=="
+  status: approved
+- id: cefr-b2-cpc-013
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 3
+  stem: The success of the event will depend largely ____ the weather.
+  choices:
+    - {t: "on", why: "กริยา depend ตามด้วย ++on++ เสมอ"}
+    - {t: of, why: "depend of ไม่ถูก"}
+    - {t: from, why: "depend from ไม่ถูก"}
+    - {t: in, why: "depend in ไม่ถูก"}
+  explain: "==depend on / rely on / focus on=="
+  status: approved
+- id: cefr-b2-cpc-014
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  stem: Nobody likes ____ to wait for a long time.
+  choices:
+    - {t: being asked, why: "ถูกกระทำ ++being + ช่อง 3++"}
+    - {t: asking, why: "รูปกระทำ ความหมายเปลี่ยนเป็นขอให้คนอื่นรอ"}
+    - {t: be asked, why: "หลัง like ต้องเป็น -ing หรือ to"}
+    - {t: asked, why: "ขาด being จึงใช้ไม่ได้"}
+  explain: "passive gerund ==being + ช่อง 3=="
+  status: approved
+# ---------- เติมคำในข้อความ 1 ชุด (3 คะแนน) ----------
+- id: cefr-b2-cpc-015
+  kind: cloze
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  text: |
+    At the meeting, Lek apologised (1) ____ late with the report. Pim suggested (2) ____ the deadline by a week, but the manager refused (3) ____ it, because the client needs the report on Monday.
+  questions:
+    - choices:
+        - {t: for being, why: "apologise for + -ing"}
+        - {t: to be, why: "apologise ไม่ตามด้วย to"}
+        - {t: of being, why: "apologise ใช้ for"}
+        - {t: being, why: "ขาด for จึงใช้ไม่ได้"}
+    - choices:
+        - {t: extending, why: "suggest + -ing เมื่อไม่ระบุว่าใครทำ"}
+        - {t: to extend, why: "suggest ไม่ตามด้วย to"}
+        - {t: him to extend, why: "suggest ไม่ใช้ คน + to"}
+        - {t: extend, why: "ต้องเป็น -ing หรือ that + ประโยค"}
+    - choices:
+        - {t: to change, why: "refuse + to + กริยา = ไม่ยอมทำ"}
+        - {t: changing, why: "refuse ไม่ตามด้วย -ing"}
+        - {t: change, why: "ขาด to จึงใช้ไม่ได้"}
+        - {t: for changing, why: "ผิดรูป จึงใช้ไม่ได้"}
+  status: approved
+# ---------- เรียงประโยค 1 ข้อ ----------
+- id: cefr-b2-cpc-016
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The woman, whose car, was stolen, called the police]
+  sentence: The woman whose car was stolen called the police.
+  th: ผู้หญิงที่รถถูกขโมยโทรแจ้งตำรวจ
+  why: "whose + คำนาม ขยายผู้หญิง แล้วตามด้วยกริยาหลัก"
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ ----------
+- id: cefr-b2-cpc-017
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: His English improved ____ over the year, a little every month.
+  choices:
+    - {t: gradually, why: "ค่อย ๆ ใช้ ++gradually++"}
+    - {t: thoroughly, why: "thoroughly แปลว่าอย่างละเอียด"}
+    - {t: temporarily, why: "temporarily แปลว่าชั่วคราว"}
+    - {t: crucially, why: "crucially แปลว่าที่สำคัญยิ่ง"}
+  explain: "gradually = ==ค่อย ๆ ทีละน้อย=="
+  status: approved
+- id: cefr-b2-cpc-018
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: The mechanic did a ____ check of the car before our long trip.
+  choices:
+    - {t: thorough, why: "ละเอียดทั่วถึง ใช้ ++thorough++"}
+    - {t: temporary, why: "temporary แปลว่าชั่วคราว"}
+    - {t: crucial, why: "crucial check ใช้ได้ แต่ไม่บอกความละเอียด"}
+    - {t: gradual, why: "gradual check ไม่เป็นธรรมชาติ"}
+  explain: "thorough = ==ละเอียดถี่ถ้วน=="
+  status: approved
+- id: cefr-b2-cpc-019
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: This is only a ____ job until I find something permanent.
+  choices:
+    - {t: temporary, why: "ชั่วคราว ใช้ ++temporary++"}
+    - {t: thorough, why: "thorough ไม่ใช้กับงานในความหมายนี้"}
+    - {t: crucial, why: "ขัดกับ only จึงใช้ไม่ได้"}
+    - {t: gradual, why: "gradual ไม่ใช้กับงาน"}
+  explain: "temporary = ==ชั่วคราว== · permanent = ถาวร"
+  status: approved
+- id: cefr-b2-cpc-020
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: The doctor ran some tests to ____ the cause of the pain.
+  choices:
+    - {t: identify, why: "ระบุ หาให้เจอ ใช้ ++identify++"}
+    - {t: abandon, why: "abandon แปลว่าทิ้ง"}
+    - {t: imply, why: "imply แปลว่าบอกเป็นนัย"}
+    - {t: collaborate, why: "collaborate แปลว่าร่วมมือ"}
+  explain: "identify = ==ระบุ หาว่าคืออะไร=="
+  status: approved
+- id: cefr-b2-cpc-021
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 1
+  stem: The project was ____ after the company ran out of money.
+  choices:
+    - {t: abandoned, why: "ล้มเลิกกลางทาง ใช้ ++abandon++"}
+    - {t: identified, why: "identified ไม่ได้แปลว่าล้มเลิก"}
+    - {t: implied, why: "implied ไม่ใช้กับโครงการ"}
+    - {t: collaborated, why: "collaborate ไม่ใช้รูปถูกกระทำแบบนี้"}
+  explain: "abandon = ==ล้มเลิก ทิ้งกลางคัน=="
+  status: approved
+- id: cefr-b2-cpc-022
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 2
+  stem: "When he said \"Nice shirt, very brave,\" he was ____ that he didn't like it."
+  choices:
+    - {t: implying, why: "บอกเป็นนัย ใช้ ++imply++"}
+    - {t: identifying, why: "identify ไม่ใช่การพูดเป็นนัย"}
+    - {t: abandoning, why: "abandon ไม่ใช้ในความหมายนี้"}
+    - {t: collaborating, why: "collaborate ไม่ใช้ในความหมายนี้"}
+  explain: "imply = ==บอกเป็นนัย=="
+  status: approved
+- id: cefr-b2-cpc-023
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 2
+  stem: The two universities ____ on a study of air pollution in Chiang Mai.
+  choices:
+    - {t: collaborated, why: "ร่วมมือกัน ใช้ ++collaborate on++"}
+    - {t: abandoned, why: "abandoned on ไม่ใช่สำนวน"}
+    - {t: identified, why: "identified on ไม่ใช่สำนวน"}
+    - {t: implied, why: "implied on ไม่ใช่สำนวน"}
+  explain: "collaborate on = ==ร่วมมือกันทำ=="
+  status: approved
+- id: cefr-b2-cpc-024
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: If you lose your card, follow the ____ on the back to block it.
+  choices:
+    - {t: procedure, why: "ขั้นตอน ใช้ ++procedure++"}
+    - {t: expertise, why: "expertise คือความเชี่ยวชาญ"}
+    - {t: policy, why: "policy คือนโยบาย ไม่ใช่ขั้นตอนที่ทำตาม"}
+    - {t: framework, why: "framework คือกรอบใหญ่"}
+  explain: "procedure = ==ขั้นตอนที่ต้องทำตาม=="
+  status: approved
+- id: cefr-b2-cpc-025
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: Getting enough sleep is ____ before an important exam.
+  choices:
+    - {t: crucial, why: "สำคัญยิ่ง ใช้ ++crucial++"}
+    - {t: temporary, why: "temporary ไม่บอกความสำคัญ"}
+    - {t: thorough, why: "thorough ไม่ใช้ในความหมายนี้"}
+    - {t: gradual, why: "gradual ไม่ใช้ในความหมายนี้"}
+  explain: "crucial = ==สำคัญอย่างยิ่ง=="
+  status: approved
+- id: cefr-b2-cpc-026
+  kind: mcq
+  skill: vo
+  topic: vocab-review
+  level: 3
+  stem: We need someone with ____ in social media marketing.
+  choices:
+    - {t: expertise, why: "ความเชี่ยวชาญ ใช้ ++expertise in++"}
+    - {t: procedure, why: "procedure in ไม่ได้แปลว่าความเชี่ยวชาญ"}
+    - {t: expert, why: "expert เป็นคน ต้องมี an"}
+    - {t: crucial, why: "crucial เป็นคุณศัพท์"}
+  explain: "expertise = ==ความเชี่ยวชาญ (นับไม่ได้)=="
+  status: approved
+# ---------- อ่าน 2 บท ----------
+- id: cefr-b2-cpc-027
+  kind: read
+  skill: rd
+  topic: email-notice
+  level: 1
+  title: "Email · Your Order"
+  passage: |
+    Dear Ms Suda,
+
+    Thank you for your order of a blue office chair (order no. 4417). Unfortunately, the blue model is temporarily out of stock and will not be available until 20 May.
+
+    You have three options. You can wait for the blue chair, which will be delivered free of charge. Alternatively, you can choose the same chair in grey, which we can send tomorrow. If neither option suits you, we will give you a full refund.
+
+    Please let us know your choice by replying to this email. If we do not hear from you within seven days, we will assume you are happy to wait for the blue model.
+
+    Kind regards,
+    Customer Service Team
+  questions:
+    - stem: What is the problem with the order?
+      choices:
+        - {t: the blue chair is not in stock, why: "the blue model is temporarily out of stock"}
+        - {t: the chair arrived damaged and needs to be replaced, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the address was wrong, why: "บทไม่ได้พูดว่า the address was wrong"}
+        - {t: the price has gone up, why: "บทไม่ได้พูดว่า the price has gone up"}
+    - stem: How quickly can the grey chair be sent?
+      choices:
+        - {t: tomorrow, why: "which we can send tomorrow"}
+        - {t: on 20 May, why: "นั่นคือวันของรุ่นสีฟ้า"}
+        - {t: in seven days, why: "เจ็ดวันคือเวลาให้ตอบกลับ"}
+        - {t: it cannot be sent, why: "ส่งได้พรุ่งนี้ จึงใช้ไม่ได้"}
+    - stem: What will happen if Ms Suda does not reply?
+      choices:
+        - {t: she will wait for the blue chair, why: "we will assume you are happy to wait for the blue model"}
+        - {t: she will get a refund, why: "คืนเงินต้องแจ้งเอง"}
+        - {t: she will receive the grey chair, why: "ไม่ได้ส่งสีเทาอัตโนมัติ"}
+        - {t: the order will be cancelled and her money returned, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: How much will delivery of the blue chair cost?
+      choices:
+        - {t: nothing, why: "delivered free of charge"}
+        - {t: the full price of the chair, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: it depends on the date, why: "บทไม่ได้พูดว่า it depends on the date"}
+        - {t: the email does not say, why: "บอกว่าฟรี จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-cpc-028
+  kind: read
+  skill: rd
+  topic: evaluation-article
+  level: 2
+  title: "What We Learned from a Year of Online Grocery Delivery"
+  passage: |
+    When a family-run supermarket in Khon Kaen started offering online delivery last year, the owners expected it to be a small extra service. Instead, it has become one of the most important parts of the business, accounting for almost a quarter of total sales.
+
+    The owners say the biggest surprise was who used the service. They had assumed that young office workers would be the main customers. In fact, the largest group turned out to be older people, many of whom found it difficult to carry heavy shopping home. Consequently, the shop has made its website easier to read and added a phone ordering line.
+
+    The service has not been without problems. In the first few months, around one order in ten contained mistakes, such as missing items or the wrong brand. Having identified the cause, a confusing stock system, the owners introduced a simple checking procedure, and errors have since fallen to fewer than one in fifty.
+
+    Costs remain a concern. Delivery drivers, packaging and fuel are expensive, and the shop currently makes very little profit on online orders. Nevertheless, the owners believe the service is worth keeping, as online customers tend to visit the physical shop more often too.
+  questions:
+    - stem: How important has online delivery become?
+      choices:
+        - {t: it makes up nearly a quarter of sales, why: "accounting for almost a quarter of total sales"}
+        - {t: it is a very small extra service, why: "นั่นคือสิ่งที่เจ้าของคาดไว้ตอนแรก"}
+        - {t: it is the only way the shop sells, why: "ยังมีร้านจริง จึงใช้ไม่ได้"}
+        - {t: it has completely replaced the physical shop in Khon Kaen, why: "ร้านจริงยังเปิด"}
+    - stem: Who turned out to be the main users?
+      choices:
+        - {t: older people, why: "the largest group turned out to be older people"}
+        - {t: young office workers, why: "เป็นกลุ่มที่เจ้าของคาดไว้ ไม่ใช่ความจริง"}
+        - {t: students, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: other shops, why: "บทไม่ได้พูดว่า other shops"}
+    - stem: What reduced the number of mistakes?
+      choices:
+        - {t: a simple checking procedure, why: "introduced a simple checking procedure, and errors have since fallen"}
+        - {t: hiring more delivery drivers to check each order, why: "ไม่ได้ช่วยลดความผิดพลาด"}
+        - {t: a phone ordering line, why: "สายโทรสั่งเพิ่มเพื่อผู้สูงอายุ"}
+        - {t: removing some brands, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: Why do the owners keep the service despite low profits?
+      choices:
+        - {t: online customers also visit the shop more, why: "online customers tend to visit the physical shop more often too"}
+        - {t: delivery costs are falling, why: "ค่าใช้จ่ายยังเป็นปัญหา"}
+        - {t: the government pays for the drivers, packaging and fuel, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: it is required by law, why: "บทไม่ได้พูดว่า it is required by law"}
+  status: approved
+# ---------- ฟัง 4 ข้อ ----------
+- id: cefr-b2-cpc-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "The trains have been cancelled because of the flooding. Passengers are advised to use the replacement buses outside the station."}
+  questions:
+    - stem: What should passengers do?
+      choices:
+        - {t: take the buses outside the station, why: "use the replacement buses outside the station"}
+        - {t: wait for the next train, why: "รถไฟถูกยกเลิก จึงใช้ไม่ได้"}
+        - {t: go home and come back to the station tomorrow morning, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: ask for a refund, why: "บทไม่ได้พูดว่า ask for a refund"}
+  status: approved
+- id: cefr-b2-cpc-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Is the course still running this term?"}
+    - {who: Woman, en: "It was supposed to, but too few people signed up, so it's been postponed until January."}
+  questions:
+    - stem: What has happened to the course?
+      choices:
+        - {t: it will start in January instead, why: "it's been postponed until January"}
+        - {t: it has been cancelled and will never run again, why: "postponed = เลื่อน"}
+        - {t: it is running this term, why: "was supposed to ... but"}
+        - {t: it is full, why: "คนสมัครน้อยเกินไป"}
+  status: approved
+- id: cefr-b2-cpc-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "What really annoyed me wasn't the delay; it was that nobody told us what was happening."}
+  questions:
+    - stem: What annoyed the woman most?
+      choices:
+        - {t: the lack of information, why: "it was that nobody told us what was happening"}
+        - {t: the delay, which was much longer than expected, why: "wasn't the delay"}
+        - {t: the noise, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the price, why: "บทไม่ได้พูดว่า the price"}
+  status: approved
+- id: cefr-b2-cpc-032
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "The data seems to suggest that customers prefer the new design, but we'll need a bigger survey to be sure."}
+  questions:
+    - stem: How certain is the man?
+      choices:
+        - {t: not completely sure, why: "seems to suggest ... need a bigger survey to be sure"}
+        - {t: completely certain, why: "บอกว่าต้องสำรวจเพิ่ม"}
+        - {t: certain customers dislike it, why: "ข้อมูลบ่งชี้ว่าชอบ"}
+        - {t: he has no data, why: "มีข้อมูลบางส่วน"}
+  status: approved
