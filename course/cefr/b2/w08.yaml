@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 8 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 8
+phase: 2
+theme_th: บรรยายคน สิ่งของ และนโยบาย
+focus_th: defining กับ non-defining · บุพบท + which/whom · ละ relative pronoun · participle clause (-ing · ช่อง 3 · having + ช่อง 3)
+can_do_th:
+  - อธิบายนโยบายหรือขั้นตอนอย่างเป็นระบบได้
+  - อ่านบทความเชิงอธิบายและแยกใจความหลักกับรายละเอียดได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ขยายความให้กระชับ
+    lesson:
+      rule_th: "ไม่มีจุลภาค = ==บอกว่าคนหรือสิ่งไหน (defining)== ใช้ that ได้ ละ pronoun ที่เป็นกรรมได้ · มีจุลภาค = ++ข้อมูลเสริม (non-defining)++ ห้าม that ห้ามละ · ทางการย้ายบุพบทไว้หน้า which / whom"
+      examples:
+        - {en: "The company <k>I work for</k> is big.", th: "ละ pronoun ได้"}
+        - {en: "My brother, <k>who lives in Phuket</k>, is a diver.", th: "==ข้อมูลเสริม ห้าม that=="}
+        - {en: "The trains were cancelled, <k>which</k> meant delays.", th: "ขยายทั้งประโยค"}
+        - {en: "the policy <k>with which</k> we disagree", th: "บุพบท + which"}
+      signals:
+        - {label_th: "ขยายอะไร", words: ["who (คน)", "which (สิ่งของ)", "whose (ของใคร)", "where (สถานที่)", "when (เวลา)"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ที่ / ซึ่ง เหมือนกันหมด คนจึงใส่ ~~that หลังจุลภาค~~ และใส่บุพบทซ้ำกับ where"
+        wrong: ["My mother, that is a nurse, works at night.", "The hotel where we stayed in was nice."]
+        right: ["My mother, who is a nurse, works at night.", "The hotel where we stayed was nice."]
+      notes:
+        - {kind: tip, th: "ลองตัดส่วนในจุลภาคออก ถ้าประโยคยังครบความ ==คือ non-defining=="}
+        - {kind: warn, th: "most of whom / some of which ห้ามใช้ who หรือ that"}
+    check: [cefr-b2-w08-001, cefr-b2-w08-002]
+    practice: [cefr-b2-w08-003, cefr-b2-w08-004, cefr-b2-w08-005, cefr-b2-w08-006, cefr-b2-w08-007, cefr-b2-w08-008, cefr-b2-w08-009, cefr-b2-w08-010, cefr-b2-w08-011, cefr-b2-w08-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำคนหรือสถานที่ที่คุณรู้จัก ใช้ non-defining clause อย่างน้อย 1 ครั้ง
+      frame: "____, who ____, is ____. ____, where ____, ____."
+      model: "My aunt, who taught maths for thirty years, is now learning to paint. Lampang, where she lives, has a lovely weekend market."
+    classroom: {en: "The person I spoke to was very helpful.", th: "คนที่ฉันคุยด้วยช่วยได้มาก"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์นโยบายและกฎ 12 คำ
+    lesson:
+      rule_th: "แยกระดับของกฎ ==legislation== (กฎหมาย) → policy (นโยบาย) → procedure (ขั้นตอน) · ++บังคับ compulsory = mandatory++ · เลือกได้ optional · กริยาที่มาคู่บุพบท impose on · restrict to · exclude from"
+      examples:
+        - {en: "a strict <k>policy</k> on phones", th: "นโยบาย"}
+        - {en: "Follow the correct <k>procedure</k>.", th: "ขั้นตอน"}
+        - {en: "Attendance is <k>mandatory</k>.", th: "==บังคับ=="}
+        - {en: "The police will <k>enforce</k> the limit.", th: "บังคับใช้"}
+      words:
+        - {w: policy, pos: n., th: นโยบาย, ex: "The school has a no-phone policy."}
+        - {w: procedure, pos: n., th: ขั้นตอน, ex: "What's the procedure for a refund?"}
+        - {w: framework, pos: n., th: กรอบแนวทาง, ex: "CEFR is a framework for languages."}
+        - {w: curriculum, pos: n., th: หลักสูตร, ex: "Music is part of the curriculum."}
+        - {w: compulsory, pos: adj., th: บังคับ, ex: "Education is compulsory until 15."}
+        - {w: optional, pos: adj., th: ไม่บังคับ เลือกได้, ex: "The tour is optional."}
+        - {w: mandatory, pos: adj., th: บังคับ (ทางการ), ex: "Helmets are mandatory on site."}
+        - {w: legislation, pos: n., th: กฎหมาย, ex: "New legislation protects workers."}
+        - {w: enforce, pos: v., th: บังคับใช้, ex: "The rule is hard to enforce."}
+        - {w: restrict, pos: v., th: จำกัด, ex: "Parking is restricted to residents."}
+        - {w: impose, pos: v., th: กำหนด บังคับให้มี, ex: "They imposed a fine on the company."}
+        - {w: exclude, pos: v., th: กันออก, ex: "Tax is excluded from the price."}
+      thai_trap:
+        intro_th: "คนไทยเติม s ให้ ~~legislations~~ และใช้ ~~impose to~~ แทน impose on"
+        wrong: ["The government passed new legislations.", "They imposed a fine to the shop."]
+        right: ["The government passed new legislation.", "They imposed a fine on the shop."]
+      notes:
+        - {kind: pin, th: "==impose on · restrict to · exclude from== จำเป็นคู่"}
+        - {kind: use, th: "ถามขั้นตอนอย่างสุภาพ What's the procedure for ...?"}
+    check: [cefr-b2-w08-013, cefr-b2-w08-014]
+    practice: [cefr-b2-w08-015, cefr-b2-w08-016, cefr-b2-w08-017, cefr-b2-w08-018, cefr-b2-w08-019, cefr-b2-w08-020, cefr-b2-w08-021, cefr-b2-w08-022, cefr-b2-w08-023, cefr-b2-w08-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับกฎในที่ทำงานหรือที่พักของคุณ บอกสิ่งที่บังคับและสิ่งที่เลือกได้
+      frame: "In my ____, it is compulsory to ____. However, ____ is optional."
+      model: "In my apartment building, it is compulsory to separate recyclable rubbish. However, joining the residents' committee is optional."
+    classroom: {en: "Is this compulsory or optional?", th: "อันนี้บังคับหรือเลือกได้"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ย่อประโยคด้วย -ing และ -ed
+    lesson:
+      rule_th: "ย่อ relative clause หรือประโยคเวลา/เหตุผล ==ผู้กระทำใช้ -ing · ถูกกระทำใช้ช่อง 3== · ++เกิดก่อนอีกเหตุการณ์ใช้ Having + ช่อง 3++ · ประธานของส่วนย่อต้องตรงกับประธานประโยคหลัก"
+      examples:
+        - {en: "the woman <k>sitting</k> by the window", th: "ผู้กระทำ"}
+        - {en: "houses <k>built</k> after the flood", th: "==ถูกกระทำ=="}
+        - {en: "<k>Reading</k> the email, she realised ...", th: "ประธานเดียวกัน"}
+        - {en: "<k>Having spent</k> all his money, he walked home.", th: "เกิดก่อน"}
+      signals:
+        - {label_th: "เลือกรูป", words: ["ทำเอง → -ing", "ถูกทำ → ช่อง 3", "เสร็จก่อน → having + ช่อง 3", "ปฏิเสธ → Not + -ing"]}
+      thai_trap:
+        intro_th: "ภาษาไทยละประธานได้อิสระ คนจึงเขียน ~~ส่วนย่อที่ประธานไม่ตรง~~ ซึ่งฟังตลกในภาษาอังกฤษ"
+        wrong: ["Walking to work, an accident happened.", "Built in 1890, people visit the museum."]
+        right: ["Walking to work, I saw an accident.", "Built in 1890, the museum attracts many visitors."]
+      notes:
+        - {kind: tip, th: "ถามว่า ==ใครเป็นคนทำ -ing นี้== คำตอบต้องอยู่หลังจุลภาคทันที"}
+        - {kind: use, th: "ประกาศทางการ Anyone wishing to ... / Items left behind will ..."}
+    check: [cefr-b2-w08-025, cefr-b2-w08-026]
+    practice: [cefr-b2-w08-027, cefr-b2-w08-028, cefr-b2-w08-029, cefr-b2-w08-030, cefr-b2-w08-031, cefr-b2-w08-032, cefr-b2-w08-033, cefr-b2-w08-034]
+    use:
+      prompt_th: เขียน 2 ประโยคประกาศสั้นในที่ทำงานหรือชุมชน ใช้ participle clause อย่างน้อย 1 จุด
+      frame: "Anyone wishing to ____ should ____. Items ____ will be ____."
+      model: "Anyone wishing to join the Friday football game should sign up at reception. Items left in the meeting room will be taken to lost property."
+    classroom: {en: "Anyone wishing to leave early, please let me know.", th: "ใครอยากกลับก่อน บอกได้เลยนะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความอธิบายนโยบายและฟังการบรรยาย
+    lesson:
+      rule_th: "บทความอธิบายนโยบายเรียง ==นโยบายคืออะไร → ใช้อย่างไร== → ข้อยกเว้น → การบังคับใช้ → ความเห็น คำถามรายละเอียดมักอยู่ใน ++relative clause++ ที่ขยายคำนาม"
+      examples:
+        - {en: "The policy, <k>which was approved in March</k>, ...", th: "ข้อมูลเสริม"}
+        - {en: "Some groups are <k>excluded</k> from the rules.", th: "==ข้อยกเว้น=="}
+        - {en: "<k>Critics, most of whom</k> are ...", th: "ความเห็นแย้ง"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นแผงตลาดได้เวลาเพิ่ม แล้วคิดว่า ~~ได้รับยกเว้นถาวร~~ ทั้งที่แค่ได้เวลาเตรียมตัวหกเดือน"
+        wrong: ["ตอบว่าแผงตลาดแจกถุงฟรีได้ตลอด"]
+        right: ["แผงตลาดได้เวลาเตรียมเพิ่มหกเดือน ข้อยกเว้นจริงคือร้านยาและถุงใส่เนื้อดิบ"]
+      notes:
+        - {kind: tip, th: "แยก ==exempt / excluded (ยกเว้น)== กับ extra time (ให้เวลาเพิ่ม)"}
+        - {kind: use, th: "ฟังการบรรยายนโยบาย จดสามช่อง ใคร ต้องทำอะไร ยกเว้นใคร"}
+    check: [cefr-b2-w08-036, cefr-b2-w08-037]
+    practice: [cefr-b2-w08-035, cefr-b2-w08-038, cefr-b2-w08-039, cefr-b2-w08-040, cefr-b2-w08-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปนโยบายถุงพลาสติกของเมือง ใช้ relative clause อย่างน้อย 1 จุด
+      frame: "The policy, which ____, requires shops to ____. Bags used for ____ are exempt."
+      model: "The policy, which starts on 1 July, requires shops to charge at least 5 baht per plastic bag. Bags used for medicine and raw meat are exempt."
+    classroom: {en: "Who does this rule apply to?", th: "กฎนี้ใช้กับใครบ้าง"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน บทความสั้นอธิบายนโยบายหรือขั้นตอน 150 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนบทความสั้นประมาณ 150 คำอธิบายนโยบายหรือขั้นตอนหนึ่งในที่ทำงาน ชุมชน หรือที่พักของคุณ (เช่น การลาพักร้อน การคัดแยกขยะ การจองห้องประชุม) บอกว่าคืออะไร ใช้กับใคร ทำอย่างไร ข้อยกเว้น และเหตุผล
+      frame:
+        - "At ____, there is a policy on ____, which ____."
+        - "It applies to ____, but ____ are excluded."
+        - "Anyone wishing to ____ must first ____."
+        - "Having ____, they should then ____."
+        - "The main reason for this policy is ____."
+      model_pass: "At my company, there is a policy on annual leave, which was introduced last year. It applies to all full-time staff, but people on short-term contracts are excluded. Anyone wishing to take leave must first check the team calendar, which shows who is already away. Having chosen their dates, they should then fill in an online form and send it to their manager at least two weeks in advance. Requests made during the busy period in December are usually refused. The main reason for this policy is to make sure that there are always enough people in the office. Most staff think it is fair, although some people find the two-week rule difficult when there is a family emergency."
+      model_good: "At the logistics company where I work, there is a clear policy on annual leave, which was introduced last year after several busy periods when half the team were away at once. It applies to all permanent staff, while those on temporary contracts, whose leave is agreed individually, are excluded. Anyone wishing to take time off must first check the shared team calendar. Having chosen suitable dates, they then submit an online request, which must reach their manager at least two weeks in advance. Requests for the first two weeks of December, our busiest time of year, are only approved in exceptional circumstances. The main purpose of the policy is to guarantee a minimum number of staff on every shift. Although a few colleagues feel the two-week rule is too strict, especially for family emergencies, most agree that the procedure is fair and transparent."
+      steps_th:
+        - เลือกนโยบายหรือขั้นตอนที่คุณรู้จักดี แล้วจดห้าหัวข้อตามโครง
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครงแล้วเขียนให้ได้ประมาณ 130–170 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนเฉพาะจุลภาคหน้า who / which ว่าถูกชนิดไหม
+      checklist_th:
+        - ใช้ relative clause อย่างน้อย 3 จุด (มี non-defining อย่างน้อย 1)
+        - ใช้ participle clause อย่างน้อย 1 จุด (wishing · having + ช่อง 3)
+        - มีข้อยกเว้นและเหตุผลของนโยบาย
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ และยาวประมาณ 150 คำ
+    practice: [cefr-b2-w08-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 8
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [6, 7, 8], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

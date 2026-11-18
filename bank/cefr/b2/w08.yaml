@@ -1,0 +1,579 @@
+# คอร์ส b2 · สัปดาห์ 8 · บรรยายคน สิ่งของ และนโยบาย · defining/non-defining · บุพบท + which · ละ relative pronoun · participle clauses
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · ขยายความให้กระชับ ----------
+- id: cefr-b2-w08-001
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 1
+  stem: My brother, ____ lives in Phuket, is a diving instructor.
+  choices:
+    - {t: who, why: "ข้อมูลเพิ่มเติมมีจุลภาค ใช้ ++who++ (ห้ามใช้ that)"}
+    - {t: that, why: "หลังจุลภาค (non-defining) ใช้ that ไม่ได้"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+    - {t: whom, why: "เป็นประธานของ lives ต้องใช้ who"}
+  explain: "มีจุลภาค (ข้อมูลเสริม) ==ใช้ who / which ห้าม that=="
+  status: approved
+- id: cefr-b2-w08-002
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 1
+  stem: The company ____ I work for has offices in five countries.
+  choices:
+    - {t: (no pronoun), why: "relative pronoun เป็นกรรม ++ละได้++ (the company I work for)"}
+    - {t: who, why: "who ใช้กับคน จึงใช้ไม่ได้"}
+    - {t: where, why: "where ใช้ไม่ได้เพราะมี for อยู่ท้าย"}
+    - {t: what, why: "what ไม่ใช้ขยายคำนาม"}
+  explain: "เป็นกรรมใน defining clause ==ละ that / which / who ได้=="
+  status: approved
+- id: cefr-b2-w08-003
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: This is the policy ____ we disagree most strongly.
+  choices:
+    - {t: with which, why: "บุพบทย้ายมาหน้า which ++with which++ (ทางการ)"}
+    - {t: with that, why: "บุพบทหน้า that ใช้ไม่ได้"}
+    - {t: which, why: "ขาด with (disagree with)"}
+    - {t: with what, why: "what ไม่ใช้ขยายคำนาม"}
+  explain: "ทางการ ==บุพบท + which / whom== · ห้าม บุพบท + that"
+  status: approved
+- id: cefr-b2-w08-004
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: The new manager, ____ I had never met before, was very friendly.
+  choices:
+    - {t: whom, why: "คนที่เป็นกรรม ใน non-defining ใช้ ++whom / who++"}
+    - {t: that, why: "หลังจุลภาคห้าม that"}
+    - {t: (no pronoun), why: "non-defining ละ pronoun ไม่ได้"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+  explain: "non-defining ==ละ pronoun ไม่ได้ และห้าม that=="
+  status: approved
+- id: cefr-b2-w08-005
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: The trains were cancelled, ____ meant that many people were late for work.
+  choices:
+    - {t: which, why: "ขยายทั้งประโยคก่อนหน้า ใช้ ++, which++"}
+    - {t: that, why: "that ขยายทั้งประโยคไม่ได้"}
+    - {t: what, why: "what ไม่ใช้ขยายประโยคก่อนหน้า"}
+    - {t: it, why: "it ทำให้เป็นสองประโยคติดกันโดยไม่มีคำเชื่อม"}
+  explain: "==, which== ขยายทั้งประโยคก่อนหน้า (ซึ่งทำให้...)"
+  status: approved
+- id: cefr-b2-w08-006
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: That's the woman ____ son won the singing competition.
+  choices:
+    - {t: whose, why: "แสดงความเป็นเจ้าของ ใช้ ++whose++"}
+    - {t: who, why: "who son ผิดรูป จึงใช้ไม่ได้"}
+    - {t: who's, why: "who's = who is จึงใช้ไม่ได้"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+  explain: "==whose + คำนาม== = ซึ่ง...ของเขา"
+  status: approved
+- id: cefr-b2-w08-007
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: I invited twenty people, most of ____ came.
+  choices:
+    - {t: whom, why: "หลัง most of / some of ใช้ ++whom++ กับคน"}
+    - {t: who, why: "หลังบุพบท of ต้องใช้ whom"}
+    - {t: them, why: "them ทำให้เป็นประโยคติดกันโดยไม่มีคำเชื่อม"}
+    - {t: that, why: "หลังบุพบทห้าม that"}
+  explain: "==some== / most / all / none of + whom (คน) / which (สิ่งของ)"
+  status: approved
+- id: cefr-b2-w08-008
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: Do you remember the year ____ we first met?
+  choices:
+    - {t: when, why: "ขยายเวลา ใช้ ++when++"}
+    - {t: which, why: "which ต้องมีบุพบท in which"}
+    - {t: where, why: "where ใช้กับสถานที่"}
+    - {t: who, why: "who ใช้กับคน จึงใช้ไม่ได้"}
+  explain: "เวลา ==when (= in which)== · สถานที่ where · เหตุผล why"
+  status: approved
+- id: cefr-b2-w08-009
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 3
+  stem: "\"My sister, who lives in Japan, is a nurse.\" What do the commas tell us?"
+  choices:
+    - {t: I have only one sister, why: "non-defining = ++ข้อมูลเสริม++ ไม่ได้แยกจากพี่น้องคนอื่น"}
+    - {t: I have several sisters, why: "ถ้ามีหลายคนจะไม่มีจุลภาค (my sister who lives in Japan)"}
+    - {t: my sister is moving to Japan, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: nothing; commas are optional, why: "จุลภาคเปลี่ยนความหมาย"}
+  explain: "จุลภาค = ==ข้อมูลเสริม ไม่ใช่ตัวแยกว่าคนไหน=="
+  status: approved
+- id: cefr-b2-w08-010
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 3
+  stem: Which sentence is correct about the hotel?
+  choices:
+    - {t: "The hotel where we stayed had a beautiful garden.", why: "where = in which ++ไม่ต้องมี in ซ้ำ++"}
+    - {t: "The hotel where we stayed in had a beautiful garden.", why: "where มี in อยู่แล้ว ใส่ in ซ้ำไม่ได้"}
+    - {t: "The hotel which we stayed had a beautiful garden.", why: "which ต้องมี in (which we stayed in)"}
+    - {t: "The hotel, that we stayed in, had a beautiful garden.", why: "หลังจุลภาคห้าม that"}
+  explain: "==where = in/at which== อย่าใส่บุพบทซ้ำ"
+  status: approved
+- id: cefr-b2-w08-011
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: The people ____ to the meeting all agreed with the plan.
+  choices:
+    - {t: who came, why: "defining ขยายว่าคนไหน ++who came++"}
+    - {t: ", who came,", why: "จุลภาคทำให้เป็นข้อมูลเสริม แต่ประโยคนี้ต้องแยกว่าคนไหน"}
+    - {t: which came, why: "which ใช้กับสิ่งของ"}
+    - {t: whose came, why: "whose ต้องตามด้วยคำนาม"}
+  explain: "แยกว่า ==คนไหน== ใช้ defining ไม่มีจุลภาค"
+  status: approved
+- id: cefr-b2-w08-012
+  kind: type
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  stem: "Chiang Mai, w____ I grew up, is very different now. (ที่ซึ่ง สถานที่)"
+  answer: where
+  accept: [where]
+  why: "where ขยายสถานที่ (= in which)"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์นโยบายและกฎ ----------
+- id: cefr-b2-w08-013
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 1
+  stem: The company has a strict ____ on using phones during meetings.
+  choices:
+    - {t: policy, why: "นโยบาย ใช้ ++policy on++"}
+    - {t: procedure, why: "procedure คือขั้นตอน ไม่ใช่นโยบาย"}
+    - {t: curriculum, why: "curriculum คือหลักสูตร"}
+    - {t: legislation, why: "legislation คือกฎหมาย ไม่ใช่ของบริษัท"}
+  explain: "policy = ==นโยบาย== (a policy on something)"
+  status: approved
+- id: cefr-b2-w08-014
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 1
+  stem: Please follow the correct ____ when you report an accident.
+  choices:
+    - {t: procedure, why: "ขั้นตอนที่ต้องทำตาม ใช้ ++procedure++"}
+    - {t: policy, why: "policy คือแนวนโยบาย ไม่ใช่ลำดับขั้น"}
+    - {t: framework, why: "framework คือกรอบใหญ่"}
+    - {t: legislation, why: "legislation คือกฎหมาย"}
+  explain: "procedure = ==ขั้นตอนการปฏิบัติ=="
+  status: approved
+- id: cefr-b2-w08-015
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: The ministry has created a new ____ for teacher training across the country.
+  choices:
+    - {t: framework, why: "กรอบแนวทาง ใช้ ++framework++"}
+    - {t: procedure, why: "procedure ไม่ใช่กรอบระดับประเทศ"}
+    - {t: exclusion, why: "exclusion แปลว่าการกันออก"}
+    - {t: curriculum, why: "curriculum ใช้กับวิชาที่เรียน ไม่ใช่กรอบการอบรมทั้งหมด"}
+  explain: "framework = ==กรอบแนวคิด โครงสร้างหลัก=="
+  status: approved
+- id: cefr-b2-w08-016
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: Coding is now part of the primary school ____.
+  choices:
+    - {t: curriculum, why: "หลักสูตร ใช้ ++curriculum++"}
+    - {t: framework, why: "part of the school framework ไม่ใช่สำนวนเรื่องวิชาที่เรียน"}
+    - {t: legislation, why: "legislation คือกฎหมาย"}
+    - {t: procedure, why: "procedure คือขั้นตอน"}
+  explain: "curriculum = ==หลักสูตร (วิชาที่เรียน)=="
+  status: approved
+- id: cefr-b2-w08-017
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: Wearing a seatbelt is ____ in Thailand; you can be fined if you don't.
+  choices:
+    - {t: compulsory, why: "บังคับ ใช้ ++compulsory++"}
+    - {t: optional, why: "optional แปลว่าเลือกได้ ขัดกับถูกปรับ"}
+    - {t: excluded, why: "excluded แปลว่าถูกกันออก"}
+    - {t: restricted, why: "restricted แปลว่าถูกจำกัด ไม่ได้แปลว่าต้องทำ"}
+  explain: "compulsory = ==บังคับ ต้องทำ=="
+  status: approved
+- id: cefr-b2-w08-018
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: The evening session is ____. You can leave after lunch if you prefer.
+  choices:
+    - {t: optional, why: "ไม่บังคับ เลือกได้ ใช้ ++optional++"}
+    - {t: mandatory, why: "mandatory แปลว่าบังคับ ขัดกับกลับได้"}
+    - {t: compulsory, why: "compulsory แปลว่าบังคับ"}
+    - {t: enforced, why: "enforced แปลว่าบังคับใช้"}
+  explain: "optional = ==ไม่บังคับ เลือกได้=="
+  status: approved
+- id: cefr-b2-w08-019
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: Attendance at the safety briefing is ____ for all new staff.
+  choices:
+    - {t: mandatory, why: "บังคับ (ทางการ) ใช้ ++mandatory++"}
+    - {t: optional, why: "ขัดกับ for all new staff ในบริบทความปลอดภัย"}
+    - {t: excluded, why: "excluded ไม่ใช้กับ attendance"}
+    - {t: imposed, why: "imposed ต้องตามด้วย on"}
+  explain: "mandatory = ==บังคับ (ภาษาทางการ)== ≈ compulsory"
+  status: approved
+- id: cefr-b2-w08-020
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: New ____ will make it illegal to sell alcohol near schools.
+  choices:
+    - {t: legislation, why: "กฎหมายที่ออกใหม่ ใช้ ++legislation++ (นับไม่ได้)"}
+    - {t: curriculum, why: "curriculum ไม่ทำให้สิ่งใดผิดกฎหมาย"}
+    - {t: procedure, why: "procedure ไม่ทำให้สิ่งใดผิดกฎหมาย"}
+    - {t: framework, why: "framework ไม่ได้แปลว่ากฎหมาย"}
+  explain: "legislation = ==กฎหมาย การออกกฎหมาย== (นับไม่ได้)"
+  status: approved
+- id: cefr-b2-w08-021
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: The police are going to ____ the new speed limit strictly.
+  choices:
+    - {t: enforce, why: "บังคับใช้กฎ ใช้ ++enforce++"}
+    - {t: exclude, why: "exclude แปลว่ากันออก"}
+    - {t: restrict, why: "restrict the speed limit ไม่ใช่สำนวน"}
+    - {t: impose, why: "impose ต้องตามด้วย on someone"}
+  explain: "enforce = ==บังคับใช้ (กฎ กฎหมาย)=="
+  status: approved
+- id: cefr-b2-w08-022
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  stem: Access to this area is ____ to staff with a security card.
+  choices:
+    - {t: restricted, why: "จำกัดเฉพาะ ใช้ ++restricted to++"}
+    - {t: enforced, why: "enforced to ไม่ใช่สำนวน"}
+    - {t: imposed, why: "imposed to ไม่ใช่สำนวน"}
+    - {t: optional, why: "optional to ไม่ใช่สำนวน"}
+  explain: "==be restricted to== = จำกัดเฉพาะ"
+  status: approved
+- id: cefr-b2-w08-023
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 3
+  stem: The government ____ a new tax on sugary drinks last year.
+  choices:
+    - {t: imposed, why: "กำหนดภาษีหรือกฎ ใช้ ++impose (on)++"}
+    - {t: enforced, why: "enforce ใช้กับการบังคับใช้กฎที่มีอยู่"}
+    - {t: excluded, why: "exclude ไม่ใช้กับภาษี"}
+    - {t: restricted, why: "restrict a tax ไม่ใช่สำนวน"}
+  explain: "==impose a tax / a rule / a fine on== = กำหนด บังคับให้มี"
+  status: approved
+- id: cefr-b2-w08-024
+  kind: type
+  skill: vo
+  topic: policies
+  level: 2
+  stem: "Children under twelve are e_______ from the competition. (ถูกกันออก ไม่ให้เข้าร่วม)"
+  answer: excluded
+  accept: [excluded]
+  why: "be excluded from = ถูกกันไม่ให้เข้าร่วม"
+  status: approved
+# ---------- วันที่ 3 · ย่อประโยคด้วย -ing และ -ed ----------
+- id: cefr-b2-w08-025
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 1
+  stem: The woman ____ next to the window is my manager.
+  choices:
+    - {t: sitting, why: "ย่อจาก who is sitting ใช้ ++-ing (กระทำ)++"}
+    - {t: sat, why: "sat ใช้เป็นรูปย่อแบบนี้ไม่ได้ในความหมายกำลังนั่ง"}
+    - {t: sits, why: "ต้องมี who ถ้าใช้ sits"}
+    - {t: is sitting, why: "ขาด who จึงใช้ไม่ได้"}
+  explain: "ย่อ relative ==ผู้กระทำ → -ing== (the woman sitting ...)"
+  status: approved
+- id: cefr-b2-w08-026
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 1
+  stem: The houses ____ after the flood are much stronger.
+  choices:
+    - {t: built, why: "ย่อจาก which were built ใช้ ++-ed (ถูกกระทำ)++"}
+    - {t: building, why: "บ้านไม่ได้สร้างเอง ต้องใช้รูปถูกกระทำ"}
+    - {t: were built, why: "ขาด which จึงใช้ไม่ได้"}
+    - {t: to build, why: "ความหมายเปลี่ยนเป็นบ้านที่จะสร้าง"}
+  explain: "ย่อ relative ==ถูกกระทำ → ช่อง 3== (houses built ...)"
+  status: approved
+- id: cefr-b2-w08-027
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  stem: ____ the email, she realised she had made a mistake.
+  choices:
+    - {t: Reading, why: "ย่อจาก When she read ประธานเดียวกัน ใช้ ++-ing++"}
+    - {t: Read, why: "ช่อง 3 จะแปลว่าเธอถูกอ่าน"}
+    - {t: She reading, why: "มีประธานซ้ำและขาดคำเชื่อม"}
+    - {t: To reading, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "ประธานเดียวกัน ==ย่อเหลือ -ing== (Reading the email, she ...)"
+  status: approved
+- id: cefr-b2-w08-028
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  stem: ____ in 1890, the building is now a museum.
+  choices:
+    - {t: Built, why: "อาคารถูกสร้าง ใช้ ++ช่อง 3++"}
+    - {t: Building, why: "อาคารไม่ได้สร้างเอง"}
+    - {t: Having built, why: "รูปกระทำ อาคารสร้างเองไม่ได้"}
+    - {t: To build, why: "ความหมายผิด จึงใช้ไม่ได้"}
+  explain: "ประธานถูกกระทำ ==ขึ้นต้นด้วยช่อง 3=="
+  status: approved
+- id: cefr-b2-w08-029
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  stem: ____ all his money, he had to walk home.
+  choices:
+    - {t: Having spent, why: "ทำเสร็จก่อนอีกเหตุการณ์ ใช้ ++Having + ช่อง 3++"}
+    - {t: Spent, why: "ช่อง 3 เดี่ยวแปลว่าเขาถูกใช้จ่าย"}
+    - {t: Spending, why: "-ing บอกว่าเกิดพร้อมกัน ไม่ชัดว่าเงินหมดก่อน"}
+    - {t: Having spending, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "เกิดก่อน ==Having + ช่อง 3== (เพราะได้...ไปแล้ว)"
+  status: approved
+- id: cefr-b2-w08-030
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 3
+  stem: Which sentence about walking to work is correct?
+  choices:
+    - {t: "Walking to work, I saw an accident.", why: "ประธานของ walking คือ I ++ตรงกัน++"}
+    - {t: "Walking to work, an accident happened.", why: "อุบัติเหตุเดินไปทำงานไม่ได้ ประธานไม่ตรงกัน"}
+    - {t: "Walked to work, I saw an accident.", why: "ช่อง 3 แปลว่าถูกเดิน ผิดความหมาย"}
+    - {t: "Walking to work, it was an accident.", why: "ประธานไม่ตรงกัน"}
+  explain: "ระวัง ประธานของ -ing ==ต้องตรงกับประธานประโยคหลัก=="
+  status: approved
+- id: cefr-b2-w08-031
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  stem: Anyone ____ to join the trip should contact Mr Lee.
+  choices:
+    - {t: wishing, why: "ย่อจาก who wishes ใช้ ++-ing++"}
+    - {t: wished, why: "ช่อง 3 แปลว่าถูกปรารถนา"}
+    - {t: wishes, why: "ต้องมี who จึงใช้ไม่ได้"}
+    - {t: to wish, why: "ผิดความหมาย จึงใช้ไม่ได้"}
+  explain: "ประกาศทางการนิยม ==Anyone + -ing== (Anyone wishing to ...)"
+  status: approved
+- id: cefr-b2-w08-032
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 3
+  stem: "\"Not knowing the answer, I said nothing.\" What does this mean?"
+  choices:
+    - {t: Because I didn't know the answer I said nothing., why: "participle ขึ้นต้นประโยคมักบอก ++เหตุผล++"}
+    - {t: Although I knew the answer I said nothing., why: "not knowing แปลว่าไม่รู้"}
+    - {t: I said nothing and then learned the answer., why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: Someone else didn't know the answer., why: "ประธานคือ I จึงใช้ไม่ได้"}
+  explain: "ปฏิเสธ ==Not + -ing== = เพราะไม่ได้..."
+  status: approved
+- id: cefr-b2-w08-033
+  kind: type
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  stem: "Products b_____ online can be returned within 14 days. (ที่ถูกซื้อ ช่อง 3 ของ buy)"
+  answer: bought
+  accept: [bought]
+  why: "ย่อจาก which are bought ใช้ช่อง 3"
+  status: approved
+- id: cefr-b2-w08-034
+  kind: cloze
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  text: |
+    Our new remote-work policy, (1) ____ starts in June, allows staff to work from home two days a week. Employees (2) ____ to use this option must agree a schedule with their manager, (3) ____ will make the final decision.
+  questions:
+    - choices:
+        - {t: which, why: "non-defining หลังจุลภาค ใช้ which กับสิ่งของ"}
+        - {t: that, why: "หลังจุลภาคห้าม that"}
+        - {t: who, why: "who ใช้กับคน จึงใช้ไม่ได้"}
+        - {t: what, why: "what ไม่ใช้ขยายคำนาม"}
+    - choices:
+        - {t: wishing, why: "ย่อจาก who wish"}
+        - {t: wished, why: "ช่อง 3 แปลว่าถูกปรารถนา"}
+        - {t: wish, why: "ต้องมี who จึงใช้ไม่ได้"}
+        - {t: are wishing, why: "ขาด who จึงใช้ไม่ได้"}
+    - choices:
+        - {t: who, why: "ขยายผู้จัดการ เป็นประธานของ will make"}
+        - {t: which, why: "which ใช้กับสิ่งของ"}
+        - {t: whom, why: "เป็นประธาน ต้องใช้ who"}
+        - {t: that, why: "หลังจุลภาคห้าม that"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบทความอธิบายนโยบายและฟังการบรรยาย ----------
+- id: cefr-b2-w08-035
+  kind: read
+  skill: rd
+  topic: policy-article
+  level: 2
+  title: "Explainer · The New Plastic Bag Policy in Riverton"
+  passage: |
+    From 1 July, shops in the town of Riverton will no longer be allowed to give customers free plastic bags. The policy, which was approved by the town council in March, is part of a wider framework aimed at reducing waste by 30% over five years.
+
+    Under the new rules, any shop wishing to provide plastic bags must charge at least 5 baht per bag. The money raised will go to a fund supporting local recycling projects. Small market stalls, many of which rely on plastic bags for fresh food, will be given an extra six months to prepare.
+
+    Some groups are excluded from the rules. Pharmacies, for example, may continue to provide small bags for medicine, and bags used for raw meat and fish are also exempt for health reasons.
+
+    The council has said it will enforce the policy through spot checks. Shops found breaking the rules three times may be fined up to 2,000 baht. However, officials emphasised that their main aim is education, not punishment, and the first year will focus on giving advice.
+
+    Reactions have been mixed. Supporters point to similar towns where plastic use fell by half within a year. Critics, most of whom are small business owners, argue that the policy imposes extra costs at a difficult time.
+  questions:
+    - stem: What is the main purpose of the article?
+      choices:
+        - {t: to explain how a new rule will work, why: "บทความอธิบายกฎ ข้อยกเว้น และการบังคับใช้"}
+        - {t: to persuade readers to oppose the rule, why: "นำเสนอทั้งสองฝ่าย ไม่ได้ชักชวน"}
+        - {t: to advertise reusable bags, why: "ไม่ได้โฆษณาสินค้า"}
+        - {t: to report on a court case, why: "ไม่เกี่ยวกับศาล"}
+    - stem: What will happen to the money from bag sales?
+      choices:
+        - {t: it will fund local recycling projects, why: "go to a fund supporting local recycling projects"}
+        - {t: shops will keep it, why: "เงินเข้ากองทุน จึงใช้ไม่ได้"}
+        - {t: it will pay fines, why: "ไม่เกี่ยวกับค่าปรับ"}
+        - {t: it will go to the national government, why: "เป็นกองทุนท้องถิ่น"}
+    - stem: Which bags are still allowed for free?
+      choices:
+        - {t: bags for medicine and raw meat or fish, why: "Pharmacies ... medicine และ raw meat and fish are also exempt"}
+        - {t: all bags at market stalls, why: "ตลาดได้เวลาเพิ่มหกเดือน ไม่ได้ยกเว้นถาวร"}
+        - {t: bags for vegetables, why: "ไม่มีข้อยกเว้นนี้"}
+        - {t: bags given by large supermarkets, why: "ร้านทุกขนาดต้องเก็บเงิน"}
+    - stem: What will the council focus on in the first year?
+      choices:
+        - {t: giving advice, why: "the first year will focus on giving advice"}
+        - {t: fining as many shops as possible, why: "main aim is education, not punishment"}
+        - {t: closing market stalls, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: building a recycling centre, why: "บทไม่ได้พูดว่า building a recycling centre"}
+  status: approved
+- id: cefr-b2-w08-036
+  kind: listen
+  skill: li
+  topic: policy-talk
+  level: 2
+  script:
+    - {who: Woman, en: "Staff working more than six hours a day are entitled to a one-hour break, which must be taken before 2 p.m."}
+  questions:
+    - stem: Who gets a one-hour break?
+      choices:
+        - {t: staff working over six hours a day, why: "Staff working more than six hours a day"}
+        - {t: all staff, why: "เฉพาะคนที่ทำเกินหกชั่วโมง"}
+        - {t: only part-time staff, why: "ไม่ได้แยกตามประเภท แยกตามชั่วโมง"}
+        - {t: staff who start after 2 p.m., why: "2 p.m. เป็นเวลาสุดท้ายที่ต้องพัก"}
+  status: approved
+- id: cefr-b2-w08-037
+  kind: listen
+  skill: li
+  topic: policy-talk
+  level: 2
+  script:
+    - {who: Man, en: "Is the online training compulsory?"}
+    - {who: Woman, en: "The first module is. The other three are optional, but we recommend them."}
+  questions:
+    - stem: How many modules must staff complete?
+      choices:
+        - {t: one, why: "The first module is (compulsory)"}
+        - {t: three, why: "อีกสามโมดูลเป็นแบบเลือกได้"}
+        - {t: four, why: "บังคับแค่โมดูลแรก"}
+        - {t: none, why: "โมดูลแรกบังคับ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w08-038
+  kind: listen
+  skill: li
+  topic: policy-talk
+  level: 2
+  script:
+    - {who: Woman, en: "Having reviewed all the feedback, we've decided to keep the current procedure for another year."}
+  questions:
+    - stem: What did they do before deciding?
+      choices:
+        - {t: they looked at the feedback, why: "Having reviewed all the feedback = ตรวจดูคำติชมก่อน"}
+        - {t: they changed the procedure, why: "ตัดสินใจคงขั้นตอนเดิม"}
+        - {t: they asked a lawyer, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: nothing, why: "ตรวจดูคำติชมก่อน"}
+  status: approved
+- id: cefr-b2-w08-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The man, who fixed, our roof, is my uncle]
+  sentence: The man who fixed our roof is my uncle.
+  th: ผู้ชายที่ซ่อมหลังคาบ้านเราคือลุงของฉัน
+  why: "defining clause ขยายคำนามโดยไม่มีจุลภาค"
+  status: approved
+- id: cefr-b2-w08-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Founded, in 1995, the company now, employs 500 people]
+  sentence: Founded in 1995, the company now employs 500 people.
+  th: บริษัทก่อตั้งในปี 1995 ปัจจุบันมีพนักงาน 500 คน
+  why: "ช่อง 3 ขึ้นต้นประโยค ประธานคือ the company"
+  status: approved
+- id: cefr-b2-w08-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [This is, the procedure, with which, all staff must comply]
+  sentence: This is the procedure with which all staff must comply.
+  th: นี่คือขั้นตอนที่พนักงานทุกคนต้องปฏิบัติตาม
+  why: "บุพบท + which (comply with) แบบทางการ"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b2-w08-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Staff wishing to, take annual leave, must complete a form, which should be sent, to HR two weeks in advance]
+  sentence: Staff wishing to take annual leave must complete a form, which should be sent to HR two weeks in advance.
+  th: พนักงานที่ต้องการลาพักร้อนต้องกรอกแบบฟอร์ม ซึ่งต้องส่งฝ่ายบุคคลล่วงหน้าสองสัปดาห์
+  why: "wishing ย่อจาก who wish · , which ขยาย a form"
+  status: approved
