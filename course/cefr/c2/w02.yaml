@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 2 · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 2
+phase: 1
+theme_th: โครงสร้างเน้นขั้นสูง
+focus_th: inversion ทุกแบบ (so/such · as/than · คำบอกสถานที่ · only after/by · little · not until) · การจัดข้อมูล (given-new · end-weight · cleft · fronting · passive)
+can_do_th:
+  - ใช้การกลับลำดับและการจัดข้อมูลเพื่อเน้นได้อย่างเหมาะสม
+  - เขียนบทความแสดงทัศนะที่มีจังหวะและน้ำหนัก
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กลับลำดับเพื่อเน้น
+    lesson:
+      rule_th: "ขึ้นต้นด้วยคำปฏิเสธหรือคำจำกัด ==กลับลำดับแบบคำถาม (กริยาช่วย + ประธาน)== · ++So + adj / Such + be ขึ้นต้น กลับ be++ · คำบอกสถานที่ขึ้นต้นกลับกริยาหลักได้เลย (Down came the rain) แต่สรรพนามไม่กลับ"
+      examples:
+        - {en: "<k>So strong was</k> the wind that ...", th: "so + adj + be"}
+        - {en: "<k>Such was</k> the demand that ...", th: "==such + be=="}
+        - {en: "<k>Only by</k> working together <k>can we</k> ...", th: "only by + กลับลำดับ"}
+        - {en: "On the hill <k>stood</k> an old temple.", th: "สถานที่ขึ้นต้น ไม่ใช้ did"}
+      signals:
+        - {label_th: "ขึ้นต้นแล้วต้องกลับลำดับ", words: ["Never / Rarely / Little", "Not until / Only after", "So + adj / Such", "In no way / Under no circumstances"]}
+      thai_trap:
+        intro_th: "ภาษาไทยเน้นด้วยการย้ายคำไว้หน้าได้อิสระ คนจึงย้ายคำขึ้นต้นแล้ว ~~ลืมกลับลำดับ~~ หรือกลับลำดับกับสรรพนาม"
+        wrong: ["Only after the meeting I realised the problem.", "Here comes it!"]
+        right: ["Only after the meeting did I realise the problem.", "Here it comes!"]
+      notes:
+        - {kind: tip, th: "Only after / Not until ==กลับลำดับในประโยคหลัก== ไม่ใช่ในส่วนเวลา"}
+        - {kind: warn, th: "inversion ฟังเป็นทางการและหนัก ใช้ไม่เกินหนึ่งหรือสองครั้งต่อย่อหน้า"}
+    check: [cefr-c2-w02-001, cefr-c2-w02-002]
+    practice: [cefr-c2-w02-003, cefr-c2-w02-004, cefr-c2-w02-005, cefr-c2-w02-006, cefr-c2-w02-007, cefr-c2-w02-008, cefr-c2-w02-009, cefr-c2-w02-010, cefr-c2-w02-011, cefr-c2-w02-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าเหตุการณ์ที่น่าประทับใจ ใช้ inversion สองแบบ
+      frame: "Never had I ____. So ____ was ____ that ____."
+      model: "Never had I seen my father so nervous. So important was the interview that he practised his answers for a week."
+    classroom: {en: "Only then did we realise our mistake.", th: "ตอนนั้นเองที่เราเพิ่งรู้ว่าพลาด"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การเน้นและความสำคัญ 12 คำ
+    lesson:
+      rule_th: "คำศัพท์ชุดนี้ช่วยให้ข้อเขียนมีน้ำหนัก แยก ==กริยา galvanise (กระตุ้นคน)== · underscore (เน้นย้ำ) · encapsulate (สรุปแก่น) และ ++คุณศัพท์ที่มีคู่คำตายตัว salient points++ · stark contrast · sweeping changes · pivotal moment"
+      examples:
+        - {en: "The disaster <k>galvanised</k> people into action.", th: "กระตุ้นให้ลงมือ"}
+        - {en: "a <k>stark</k> contrast", th: "==ชัดอย่างโหดร้าย=="}
+        - {en: "a <k>seminal</k> book", th: "งานต้นแบบ"}
+        - {en: "The message <k>resonated with</k> viewers.", th: "จับใจ"}
+      words:
+        - {w: galvanise, pos: v., th: กระตุ้นให้ลงมือ, ex: "The speech galvanised the volunteers."}
+        - {w: crystallise, pos: v., th: ชัดเจนเป็นรูปร่าง, ex: "My ideas began to crystallise."}
+        - {w: encapsulate, pos: v., th: สรุปแก่น, ex: "The photo encapsulates the mood of the era."}
+        - {w: underscore, pos: v., th: เน้นย้ำ, ex: "The data underscores the risk."}
+        - {w: resonate, pos: v., th: จับใจ สะท้อน, ex: "Her words resonated with me."}
+        - {w: salient, pos: adj., th: สำคัญและเด่น, ex: "Here are the salient facts."}
+        - {w: stark, pos: adj., th: ชัดอย่างโหดร้าย, ex: "The contrast is stark."}
+        - {w: emphatic, pos: adj., th: หนักแน่น, ex: "She gave an emphatic denial."}
+        - {w: sweeping, pos: adj., th: กว้างเกินไป เหมารวม, ex: "That's a sweeping statement."}
+        - {w: seminal, pos: adj., th: เป็นต้นแบบ มีอิทธิพล, ex: "It was a seminal study."}
+        - {w: pivotal, pos: adj., th: เป็นจุดเปลี่ยน, ex: "She played a pivotal role."}
+        - {w: hallmark, pos: n., th: ลักษณะเด่นประจำตัว, ex: "Humour is a hallmark of his writing."}
+      thai_trap:
+        intro_th: "คนไทยใช้คำเหล่านี้กับคู่คำผิด เช่น ~~salient contrast~~ หรือ ~~resonate the audience~~ เพราะแปลทีละคำ"
+        wrong: ["The speech resonated the audience.", "There is a salient contrast between them."]
+        right: ["The speech resonated with the audience.", "There is a stark contrast between them."]
+      notes:
+        - {kind: pin, th: "จำเป็นคู่ ==stark contrast== · salient points · sweeping changes"}
+        - {kind: use, th: "ปิดย่อหน้าอย่างมีน้ำหนัก This underscores the need for ..."}
+    check: [cefr-c2-w02-013, cefr-c2-w02-014]
+    practice: [cefr-c2-w02-015, cefr-c2-w02-016, cefr-c2-w02-017, cefr-c2-w02-018, cefr-c2-w02-019, cefr-c2-w02-020, cefr-c2-w02-021, cefr-c2-w02-022, cefr-c2-w02-023, cefr-c2-w02-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับเหตุการณ์ที่เป็นจุดเปลี่ยนในชีวิตหรือในประเทศ
+      frame: "____ was a pivotal moment because ____. It underscored ____."
+      model: "Losing my job in 2020 was a pivotal moment because it forced me to retrain. It underscored how fragile a single source of income can be."
+    classroom: {en: "Let me go over the salient points.", th: "ขอสรุปประเด็นสำคัญอีกที"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: จัดข้อมูลในประโยค
+    lesson:
+      rule_th: "ผู้อ่านเจ้าของภาษาคาดว่า ==ข้อมูลเดิมไว้ต้น ข้อมูลใหม่ไว้ท้าย== และส่วนยาวหนักไว้ท้าย เราเลือก ++passive cleft หรือ fronting++ เพื่อจัดลำดับนี้ ไม่ใช่เพราะไวยากรณ์บังคับ"
+      examples:
+        - {en: "<k>The new designer</k> was recommended by our client.", th: "ข้อมูลเดิมขึ้นต้น"}
+        - {en: "<k>It</k> surprised everyone <k>that</k> he resigned.", th: "==ส่วนยาวไปท้าย=="}
+        - {en: "<k>It was</k> his assistant <k>who</k> organised it.", th: "แก้ข้อมูลผิด"}
+        - {en: "<k>That kind of behaviour</k> we will not tolerate.", th: "fronting เน้นกรรม"}
+      signals:
+        - {label_th: "เครื่องมือจัดข้อมูล", words: ["passive", "It ... that", "What ... is", "fronting", "This + คำนามสรุป"]}
+      thai_trap:
+        intro_th: "คนไทยใช้ passive เพราะคิดว่าฟังทางการ แต่ ~~ใส่ข้อมูลใหม่ไว้ต้นประโยค~~ ทำให้ย่อหน้าไม่ลื่น"
+        wrong: ["Profits fell. Rising energy costs caused this fall.", "That the director resigned without warning surprised everyone."]
+        right: ["Profits fell. This fall was caused mainly by rising energy costs.", "It surprised everyone that the director resigned without warning."]
+      notes:
+        - {kind: tip, th: "ประโยคใหม่ควร ==เริ่มด้วยสิ่งที่ประโยคก่อนพูดถึงแล้ว=="}
+        - {kind: use, th: "แก้ความเข้าใจผิดอย่างสุภาพ Actually, it was Nok who ..."}
+    check: [cefr-c2-w02-025, cefr-c2-w02-026]
+    practice: [cefr-c2-w02-027, cefr-c2-w02-028, cefr-c2-w02-029, cefr-c2-w02-030, cefr-c2-w02-031, cefr-c2-w02-032, cefr-c2-w02-033, cefr-c2-w02-034]
+    use:
+      prompt_th: เขียน 2 ประโยคต่อกันที่ประโยคที่สองเริ่มด้วยข้อมูลจากประโยคแรก และใช้ What ... is
+      frame: "____. This ____ was ____. What ____ is ____."
+      model: "Our office moved to a new building last month. This move was meant to save money. What nobody expected is how much longer everyone's commute would become."
+    classroom: {en: "What I'm trying to say is this.", th: "สิ่งที่ฉันพยายามจะบอกคือ..."}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทบรรณาธิการและฟังสุนทรพจน์
+    lesson:
+      rule_th: "บทบรรณาธิการใช้โวหารเน้นเพื่อชักจูง ==inversion (Rarely does ...)== · ประโยคซ้ำโครงสร้าง (For a child ... For an elderly ... ) · ประโยคสั้นตบท้าย ++คำถามมักถามจุดประสงค์ของโวหารเหล่านี้++"
+      examples:
+        - {en: "<k>Nothing could be further from the truth.</k>", th: "ปฏิเสธอย่างหนักแน่น"}
+        - {en: "<k>For a child ... For an elderly resident ... For a job seeker ...</k>", th: "==ซ้ำโครงสร้างเพื่อสร้างน้ำหนัก=="}
+        - {en: "<k>Rarely does</k> a saving look so expensive.", th: "inversion ปิดย่อหน้า"}
+      thai_trap:
+        intro_th: "ผู้อ่านมองโวหารเป็นข้อเท็จจริง และ ~~ตอบว่าบทความเป็นกลาง~~ ทั้งที่บรรณาธิการแสดงจุดยืนชัด"
+        wrong: ["ตอบว่าบทความรายงานการตัดสินใจของสภาเมืองอย่างเป็นกลาง"]
+        right: ["บทความต้องการชักจูงให้สภาเมืองทบทวนการปิดห้องสมุด"]
+      notes:
+        - {kind: tip, th: "หาประโยค ==should / still has time to== เพื่อรู้ว่าผู้เขียนต้องการอะไร"}
+        - {kind: use, th: "ฟังสุนทรพจน์ จับประโยคหลัง If there is one idea ..."}
+    check: [cefr-c2-w02-036, cefr-c2-w02-037]
+    practice: [cefr-c2-w02-035, cefr-c2-w02-038, cefr-c2-w02-039, cefr-c2-w02-040, cefr-c2-w02-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกโวหารที่ผู้เขียนใช้และจุดประสงค์ของโวหารนั้น
+      frame: "The writer uses ____ to ____. This makes the argument ____."
+      model: "The writer uses three short examples, a child, a pensioner and a job seeker, to show who depends on libraries. This makes the argument more personal and harder to dismiss."
+    classroom: {en: "Nothing could be further from the truth.", th: "ไม่จริงเลยแม้แต่น้อย"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 35
+    title_th: ห้องฝึกเขียน บทความแสดงทัศนะที่มีน้ำหนักและจังหวะ 280 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนบทความแสดงทัศนะประมาณ 280 คำสำหรับเว็บไซต์ข่าวท้องถิ่น เรื่องใดเรื่องหนึ่ง: ควรเก็บค่าเข้าชมสวนสาธารณะหรือไม่ · ควรห้ามรถยนต์ในเขตเมืองเก่าหรือไม่ · ควรเปิดร้านค้า 24 ชั่วโมงใกล้ชุมชนหรือไม่ ใช้โครงสร้างเน้นอย่างน้อย 3 แบบ"
+      frame:
+        - "Opening: ____ (a striking fact or contrast)."
+        - "Position: What is really at stake here is not ____ but ____."
+        - "Argument 1 with emphasis: Rarely / Never / Such is ____."
+        - "Counter-argument: It is true that ____; this, however, misses the point."
+        - "Close: Only if ____ will ____."
+      model_pass: "Every weekend, thousands of families walk, run and picnic in Rama Park without paying a single baht. Next year, if the city's plan goes ahead, they will pay twenty baht each. The council says the money is needed for maintenance. What is really at stake, however, is not money but access. Parks are among the few places where rich and poor share the same space as equals. Never has that been more important than now, when so much of city life is divided by income. Such is the value of free public space that many cities spend more, not less, on their parks during hard times. It is true that the park needs repairs, and that someone must pay for them. This, however, misses the point. A small entrance fee will hardly worry a wealthy family, but for a parent with three children it may be the difference between going and staying at home. There are fairer options, such as sponsorship from local businesses or a modest charge for car parking. Only if the council considers these alternatives will it be able to protect both the park and the people who use it."
+      model_good: "On any Sunday morning, Rama Park offers a picture of the city at its best: retired teachers practising tai chi beside teenagers on skateboards, office workers jogging past families unpacking breakfast. From next year, if the council has its way, each of them will pay twenty baht for the privilege. The stated reason is maintenance. What is really at stake, though, is not the cost of mowing the grass but the principle of shared public space. Rarely do rich and poor meet as equals in a modern city; the park is one of the few places where they still do. Such is the value of that encounter that, during the last recession, several cities chose to protect their parks while cutting almost everything else. Nobody disputes that the paths are cracked and the toilets need replacing. To present a fee as the only solution, however, is disingenuous. For a wealthy family, twenty baht is invisible; for a single mother with three children, it is a reason to stay at home. Local businesses already benefit from the crowds the park attracts, and a modest parking charge would fall on those most able to pay. Only if the council looks seriously at such alternatives will it avoid turning a public good into a private pleasure."
+      steps_th:
+        - เลือกหัวข้อแล้วจดจุดยืน เหตุผลสองข้อ และข้อแย้งหนึ่งข้อ
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 250–300 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านออกเสียงหนึ่งรอบ ดูว่าจังหวะไม่หนักเกินและไม่ใช้ inversion ถี่เกินไป
+      checklist_th:
+        - ใช้โครงสร้างเน้นอย่างน้อย 3 แบบต่างกัน (inversion · cleft · What ... is · fronting)
+        - มีข้อแย้งและตอบข้อแย้งอย่างมีเหตุผล
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ ถูกคู่คำ
+        - ย่อหน้าชัดเจน ปิดด้วยประโยคที่มีน้ำหนัก และยาวประมาณ 280 คำ
+    practice: [cefr-c2-w02-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 2
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [1, 2], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

@@ -1,0 +1,578 @@
+# คอร์ส c2 · สัปดาห์ 2 · โครงสร้างเน้นขั้นสูง · inversion (so/such · as/than · สถานที่ขึ้นต้น · only after/by · little did) · information structure
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · กลับลำดับเพื่อเน้น ----------
+- id: cefr-c2-w02-001
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 1
+  stem: "So strong ____ that several trees were pulled out of the ground."
+  choices:
+    - {t: was the wind, why: "So + คุณศัพท์ ขึ้นต้น ++กลับลำดับ be + ประธาน++"}
+    - {t: the wind was, why: "ขึ้นต้นด้วย So + คุณศัพท์ ต้องกลับลำดับ"}
+    - {t: did the wind, why: "มี be อยู่แล้ว ไม่ต้องใช้ did"}
+    - {t: the wind blew, why: "ไม่ได้กลับลำดับและผิดโครงสร้าง"}
+  explain: "==So + adj + be + ประธาน + that ...=="
+  status: draft
+- id: cefr-c2-w02-002
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 1
+  stem: "Only after the meeting had ended ____ how serious the problem was."
+  choices:
+    - {t: did I realise, why: "Only after + ประโยค ขึ้นต้น ++กลับลำดับในประโยคหลัก++"}
+    - {t: I realised, why: "ต้องกลับลำดับในประโยคหลัก"}
+    - {t: had I realised, why: "had ไม่เข้ากับลำดับเวลา (รู้ทีหลังประชุมจบ)"}
+    - {t: realised I, why: "กลับกริยาหลักไม่ได้ ต้องใช้ did"}
+  explain: "==Only after== / Only when ... + กริยาช่วย + ประธาน (ในประโยคหลัก)"
+  status: draft
+- id: cefr-c2-w02-003
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "____ the demand for tickets that the organisers added a second performance."
+  choices:
+    - {t: Such was, why: "Such ขึ้นต้น ++Such + be + คำนาม + that++"}
+    - {t: So was, why: "So ต้องตามด้วยคุณศัพท์ ไม่ใช่ be + คำนาม"}
+    - {t: Such did, why: "ไม่ใช้ did กับ be"}
+    - {t: So great, why: "So great ต้องตามด้วย was the demand"}
+  explain: "==Such + be + ประธาน + that ...== = มากถึงขนาดที่"
+  status: draft
+- id: cefr-c2-w02-004
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "On the top of the hill ____, visible for miles around."
+  choices:
+    - {t: stood an old temple, why: "คำบอกสถานที่ขึ้นต้น ++กลับกริยาหลักกับประธาน++ (ไม่ใช้ did)"}
+    - {t: did an old temple stand, why: "การกลับลำดับแบบสถานที่ไม่ใช้ did"}
+    - {t: an old temple did stand, why: "ไม่ใช่การกลับลำดับแบบนี้"}
+    - {t: was standing it an old temple, why: "มีประธานซ้ำ จึงใช้ไม่ได้"}
+  explain: "สถานที่ขึ้นต้น ==กริยา (stand, lie, come) + ประธาน== ไม่ต้องมีกริยาช่วย"
+  status: draft
+- id: cefr-c2-w02-005
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "Only by working together ____ hope to solve this problem."
+  choices:
+    - {t: can we, why: "Only by + -ing ขึ้นต้น ++กลับลำดับ can + we++"}
+    - {t: we can, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
+    - {t: do we can, why: "ซ้อนกริยาช่วย จึงใช้ไม่ได้"}
+    - {t: we do, why: "ไม่ได้กลับลำดับ"}
+  explain: "==Only by + -ing + กริยาช่วย + ประธาน=="
+  status: draft
+- id: cefr-c2-w02-006
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "The new model is considerably lighter than ____ its predecessor."
+  choices:
+    - {t: was, why: "หลัง than แบบทางการ ++กลับลำดับ was + ประธาน++"}
+    - {t: did, why: "เทียบคุณสมบัติ (lighter) ใช้ be ไม่ใช่ did"}
+    - {t: had, why: "had ไม่ใช่กริยาที่ละไว้"}
+    - {t: it was, why: "มีประธานซ้ำ จึงใช้ไม่ได้"}
+  explain: "ทางการ ==than / as + กริยาช่วย + ประธาน== (than was its predecessor)"
+  status: draft
+- id: cefr-c2-w02-007
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "She was deeply moved by the speech, as ____ everyone else in the hall."
+  choices:
+    - {t: was, why: "as + ++กริยาช่วย + ประธาน++ = เช่นเดียวกับ"}
+    - {t: did, why: "ประโยคแรกใช้ was (passive) จึงต้องใช้ was"}
+    - {t: were, why: "everyone else เป็นเอกพจน์"}
+    - {t: had, why: "had ไม่ตรงกับกริยาของประโยคแรก"}
+  explain: "==, as + be/do + ประธาน== = เหมือนกับ... (กริยาช่วยตรงกับประโยคแรก)"
+  status: draft
+- id: cefr-c2-w02-008
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 3
+  stem: "Little ____ that the email would be forwarded to the entire company."
+  choices:
+    - {t: did he suspect, why: "Little ขึ้นต้น ++กลับลำดับด้วย did++"}
+    - {t: he suspected, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
+    - {t: had he suspect, why: "หลัง had ต้องใช้ช่อง 3"}
+    - {t: suspected he, why: "ต้องใช้ did จึงใช้ไม่ได้"}
+  explain: "==Little did + ประธาน + กริยารูปเดิม== = ไม่ได้รู้เลยว่า"
+  status: draft
+- id: cefr-c2-w02-009
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 3
+  stem: "Which sentence about the bus arriving is correct?"
+  choices:
+    - {t: "Here comes the bus.", why: "Here + กริยา + คำนาม ++กลับลำดับได้++"}
+    - {t: "Here comes it.", why: "ประธานเป็นสรรพนาม ไม่กลับลำดับ ต้องเป็น Here it comes"}
+    - {t: "Here does the bus come.", why: "ไม่ใช้ does กับ Here"}
+    - {t: "Here the bus does come.", why: "ไม่ใช่รูปมาตรฐาน"}
+  explain: "สรรพนาม ==ไม่กลับลำดับ== (Here it comes · Off they went)"
+  status: draft
+- id: cefr-c2-w02-010
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 3
+  stem: "In no way ____ responsible for the delay; it was caused by the supplier."
+  choices:
+    - {t: was our team, why: "In no way ขึ้นต้น ++กลับลำดับ be + ประธาน++"}
+    - {t: our team was, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
+    - {t: did our team be, why: "ไม่ใช้ did กับ be"}
+    - {t: our team wasn't, why: "ปฏิเสธซ้อนกับ no และไม่กลับลำดับ"}
+  explain: "วลีปฏิเสธขึ้นต้น ==In no way== / Under no circumstances + กลับลำดับ"
+  status: draft
+- id: cefr-c2-w02-011
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "Not until the results were published ____ the scale of the problem."
+  choices:
+    - {t: did anyone appreciate, why: "Not until ขึ้นต้น ++กลับลำดับในประโยคหลัก++"}
+    - {t: anyone appreciated, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
+    - {t: had anyone appreciate, why: "หลัง had ต้องใช้ช่อง 3"}
+    - {t: anyone did appreciate, why: "ลำดับยังไม่ได้กลับ"}
+  explain: "Not until + เวลา ==did + ประธาน + กริยา=="
+  status: draft
+- id: cefr-c2-w02-012
+  kind: type
+  skill: gm
+  topic: inversion-full
+  level: 2
+  stem: "S___ complex was the problem that nobody could solve it. (มากเสียจน)"
+  answer: so
+  accept: [so, So]
+  why: "So + adj + be + ประธาน + that"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การเน้นและความสำคัญ ----------
+- id: cefr-c2-w02-013
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 1
+  stem: "The disaster ____ local residents into action; within a week, they had raised two million baht."
+  choices:
+    - {t: galvanised, why: "กระตุ้นให้ลุกขึ้นทำทันที ใช้ ++galvanise into action++"}
+    - {t: crystallised, why: "crystallise ไม่ใช้กับ into action"}
+    - {t: encapsulated, why: "encapsulate แปลว่าสรุปรวบยอด"}
+    - {t: underscored, why: "underscore แปลว่าเน้นย้ำ ไม่ใช่กระตุ้นคน"}
+  explain: "galvanise = ==กระตุ้นให้ลงมือทำ== (galvanise someone into action)"
+  status: draft
+- id: cefr-c2-w02-014
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 1
+  stem: "The incident ____ the need for better safety training."
+  choices:
+    - {t: underscored, why: "เน้นย้ำให้เห็นชัด ใช้ ++underscore++"}
+    - {t: galvanised, why: "galvanise ใช้กับคน ไม่ใช่ความจำเป็น"}
+    - {t: resonated, why: "resonate เป็นกริยาไม่มีกรรมในความหมายนี้"}
+    - {t: crystallised, why: "crystallise the need ไม่เป็นธรรมชาติ"}
+  explain: "underscore = ==เน้นย้ำ ทำให้เห็นชัด== ≈ highlight"
+  status: draft
+- id: cefr-c2-w02-015
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "Her short speech ____ everything the campaign stood for."
+  choices:
+    - {t: encapsulated, why: "สรุปแก่นได้ในไม่กี่คำ ใช้ ++encapsulate++"}
+    - {t: galvanised, why: "galvanise ใช้กับคน"}
+    - {t: resonated, why: "resonate ไม่มีกรรม ต้องเป็น resonate with"}
+    - {t: underscored, why: "underscore เน้นจุดเดียว ไม่ใช่สรุปทั้งหมด"}
+  explain: "encapsulate = ==สรุปแก่นได้อย่างกระชับ=="
+  status: draft
+- id: cefr-c2-w02-016
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "It was only after the trip that her plans for the business began to ____."
+  choices:
+    - {t: crystallise, why: "เริ่มชัดเป็นรูปร่าง ใช้ ++crystallise++"}
+    - {t: encapsulate, why: "encapsulate ต้องมีกรรม"}
+    - {t: underscore, why: "underscore ต้องมีกรรม"}
+    - {t: galvanise, why: "galvanise ต้องมีกรรม"}
+  explain: "crystallise = ==(ความคิด แผน) ชัดเจนเป็นรูปร่าง=="
+  status: draft
+- id: cefr-c2-w02-017
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "The film's message about loneliness clearly ____ with older viewers."
+  choices:
+    - {t: resonated, why: "จับใจ เข้าถึง ใช้ ++resonate with++"}
+    - {t: underscored, why: "underscore with ไม่ใช่สำนวน"}
+    - {t: encapsulated, why: "encapsulate with ไม่ใช่สำนวน"}
+    - {t: galvanised, why: "galvanise with ไม่ใช่สำนวน"}
+  explain: "==resonate with== = จับใจ ตรงกับความรู้สึกของ"
+  status: draft
+- id: cefr-c2-w02-018
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "Let me summarise the ____ points of the report before we discuss it."
+  choices:
+    - {t: salient, why: "จุดสำคัญที่โดดเด่น ใช้ ++salient points++"}
+    - {t: stark, why: "stark points ไม่ใช่สำนวน"}
+    - {t: sweeping, why: "sweeping แปลว่ากว้างครอบคลุมเกินไป"}
+    - {t: emphatic, why: "emphatic ใช้กับน้ำเสียงหรือคำตอบ"}
+  explain: "salient = ==สำคัญและเด่นที่สุด== (salient features / points)"
+  status: draft
+- id: cefr-c2-w02-019
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "The report paints a ____ picture of poverty in rural areas."
+  choices:
+    - {t: stark, why: "ชัดแบบโหดร้ายไม่ปรุงแต่ง ใช้ ++a stark picture / contrast++"}
+    - {t: salient, why: "salient picture ไม่ใช่สำนวน"}
+    - {t: seminal, why: "seminal ใช้กับงานที่มีอิทธิพล"}
+    - {t: pivotal, why: "pivotal picture ไม่ใช่สำนวน"}
+  explain: "stark = ==ชัดเจนอย่างโหดร้าย== (stark contrast / reality)"
+  status: draft
+- id: cefr-c2-w02-020
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "Her answer was an ____ no; there was no room for discussion."
+  choices:
+    - {t: emphatic, why: "หนักแน่นเด็ดขาด ใช้ ++an emphatic no++"}
+    - {t: salient, why: "salient no ไม่ใช่สำนวน"}
+    - {t: seminal, why: "seminal ไม่ใช้กับคำตอบ"}
+    - {t: sweeping, why: "sweeping no ไม่ใช่สำนวน"}
+  explain: "emphatic = ==หนักแน่น เด็ดขาด=="
+  status: draft
+- id: cefr-c2-w02-021
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "It's unfair to make ____ generalisations about young people based on a few cases."
+  choices:
+    - {t: sweeping, why: "เหมารวมกว้างเกินไป ใช้ ++sweeping generalisations++"}
+    - {t: stark, why: "stark generalisations ไม่ใช่สำนวน"}
+    - {t: salient, why: "salient generalisations ไม่ใช่สำนวน"}
+    - {t: pivotal, why: "pivotal generalisations ไม่ใช่สำนวน"}
+  explain: "sweeping = ==กว้างครอบคลุมเกินไป เหมารวม== (sweeping changes / statements)"
+  status: draft
+- id: cefr-c2-w02-022
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "Her 1985 book was a ____ work that changed how teachers thought about reading."
+  choices:
+    - {t: seminal, why: "งานต้นแบบที่มีอิทธิพลมาก ใช้ ++seminal++"}
+    - {t: stark, why: "stark ไม่ใช้บรรยายหนังสือที่มีอิทธิพล"}
+    - {t: sweeping, why: "sweeping work ไม่เป็นธรรมชาติ"}
+    - {t: emphatic, why: "emphatic ไม่ใช้กับหนังสือ"}
+  explain: "seminal = ==เป็นต้นแบบ มีอิทธิพลต่อสิ่งที่ตามมา=="
+  status: draft
+- id: cefr-c2-w02-023
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 3
+  stem: "The 1997 crisis was a ____ moment in the country's economic history."
+  choices:
+    - {t: pivotal, why: "จุดเปลี่ยนสำคัญ ใช้ ++pivotal moment++"}
+    - {t: salient, why: "salient moment ไม่ใช่สำนวน"}
+    - {t: seminal, why: "seminal ใช้กับงานหรือความคิด ไม่ใช่ช่วงเวลา"}
+    - {t: emphatic, why: "emphatic moment ไม่ใช่สำนวน"}
+  explain: "pivotal = ==เป็นจุดเปลี่ยนสำคัญ=="
+  status: draft
+- id: cefr-c2-w02-024
+  kind: type
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  stem: "Attention to detail is the h_______ of her work. (ลักษณะเด่นประจำตัว)"
+  answer: hallmark
+  accept: [hallmark]
+  why: "hallmark = ลักษณะเด่นที่บ่งบอกตัวตน"
+  status: draft
+# ---------- วันที่ 3 · จัดข้อมูลในประโยค ----------
+- id: cefr-c2-w02-025
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 1
+  stem: "\"We've hired a new designer.\" Which reply follows the given-new principle best?"
+  choices:
+    - {t: "The new designer was recommended by our biggest client.", why: "เริ่มด้วยข้อมูลที่รู้แล้ว ++(the new designer)++ จบด้วยข้อมูลใหม่"}
+    - {t: "Our biggest client recommended the new designer.", why: "เริ่มด้วยข้อมูลใหม่ ข้อมูลเดิมไปอยู่ท้าย"}
+    - {t: "By our biggest client the new designer was recommended.", why: "ลำดับไม่เป็นธรรมชาติ"}
+    - {t: "Recommended was the new designer by our biggest client.", why: "การกลับลำดับแบบนี้ไม่เป็นธรรมชาติ"}
+  explain: "==ข้อมูลเดิมไว้ต้น ข้อมูลใหม่ไว้ท้าย== passive ช่วยจัดลำดับนี้"
+  status: draft
+- id: cefr-c2-w02-026
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 1
+  stem: Which sentence follows the end-weight principle?
+  choices:
+    - {t: "It surprised everyone that the director resigned without any warning.", why: "ประโยคยาวย้ายไปท้าย ++ใช้ It เป็นประธานแทน++"}
+    - {t: "That the director resigned without any warning surprised everyone.", why: "ถูกไวยากรณ์แต่ประธานยาวหนักต้นประโยค"}
+    - {t: "Everyone surprised it that the director resigned.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
+    - {t: "Surprised everyone it did that the director resigned.", why: "บทไม่ได้พูดว่า Surprised everyone it did that the director resigned."}
+  explain: "end-weight = ==ส่วนยาวหนักไว้ท้ายประโยค== ใช้ It ... that"
+  status: draft
+- id: cefr-c2-w02-027
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 2
+  stem: "\"Did Somchai organise the conference?\" \"No, ____ who organised it.\""
+  choices:
+    - {t: it was his assistant, why: "แก้ข้อมูลผิดด้วย ++cleft It was ... who++"}
+    - {t: his assistant was, why: "ขาด it และโครงสร้างไม่ครบ"}
+    - {t: what was his assistant, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: it was his assistant which, why: "which ใช้กับสิ่งของ"}
+  explain: "แก้ความเข้าใจผิด ==It was X who/that ...== เน้นส่วนที่แก้"
+  status: draft
+- id: cefr-c2-w02-028
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 2
+  stem: "____ I find hard to accept is the lack of an apology."
+  choices:
+    - {t: What, why: "pseudo-cleft ++What + ประโยค + is ...++"}
+    - {t: That, why: "That ไม่ทำหน้าที่ สิ่งที่"}
+    - {t: Which, why: "Which ต้องมีคำนามข้างหน้า"}
+    - {t: It, why: "It I find hard ... is ผิดรูป"}
+  explain: "เน้นท้ายประโยค ==What ... is + สิ่งที่เน้น=="
+  status: draft
+- id: cefr-c2-w02-029
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 2
+  stem: "Why is fronting used in \"That kind of behaviour we will not tolerate\"?"
+  choices:
+    - {t: to give strong emphasis to the object, why: "ย้ายกรรมขึ้นต้น ++เน้นหนัก++"}
+    - {t: because the subject is unknown, why: "ประธาน we ชัดเจน"}
+    - {t: to make it a question, why: "ไม่ใช่คำถาม จึงใช้ไม่ได้"}
+    - {t: to make it passive, why: "ยังเป็นรูปกระทำ"}
+  explain: "fronting = ==ย้ายส่วนที่เน้นขึ้นต้น== (กรรม คำวิเศษณ์)"
+  status: draft
+- id: cefr-c2-w02-030
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 2
+  stem: "\"Our profits fell.\" Which follow-up sentence is most cohesive?"
+  choices:
+    - {t: "This fall was caused mainly by rising energy costs.", why: "เริ่มด้วย ++This fall++ เชื่อมกับข้อมูลก่อนหน้า"}
+    - {t: "Rising energy costs mainly caused this fall.", why: "ข้อมูลใหม่อยู่ต้น เชื่อมไม่ลื่นเท่า"}
+    - {t: "Mainly caused this fall rising energy costs.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
+    - {t: "Caused mainly this fall was by rising energy costs.", why: "บทไม่ได้พูดว่า Caused mainly this fall was by rising energy costs."}
+  explain: "ใช้ ==This / These + คำนามสรุป== ขึ้นต้น เพื่อผูกกับประโยคก่อน"
+  status: draft
+- id: cefr-c2-w02-031
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 3
+  stem: "Which sentence puts the most emphasis on WHEN the decision was made?"
+  choices:
+    - {t: "It was not until midnight that the decision was finally made.", why: "It was not until ... that ++เน้นเวลา++"}
+    - {t: "The decision was finally made at midnight.", why: "ประโยคปกติ ไม่เน้น"}
+    - {t: "What was made at midnight was the decision.", why: "เน้นสิ่งที่ตัดสิน ไม่ใช่เวลา"}
+    - {t: "Finally the decision was made, at midnight.", why: "ไม่มีโครงสร้างเน้นเวลาโดยตรง"}
+  explain: "เน้นเวลา ==It was not until X that ...=="
+  status: draft
+- id: cefr-c2-w02-032
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 3
+  stem: "\"All it takes is one careless comment.\" What does this structure emphasise?"
+  choices:
+    - {t: how little is needed to cause a problem, why: "All it takes is = ++แค่นี้ก็พอแล้ว++"}
+    - {t: how many comments are required, why: "ตรงกันข้าม เน้นว่าแค่ครั้งเดียว"}
+    - {t: that comments are always careful, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: that everyone takes comments seriously, why: "บทไม่ได้พูดว่า that everyone takes comments seriously"}
+  explain: "==All (that) ... is / All it takes is== = เพียงแค่"
+  status: draft
+- id: cefr-c2-w02-033
+  kind: type
+  skill: gm
+  topic: information-structure
+  level: 2
+  stem: "W___ the company needs now is a clear strategy. (สิ่งที่)"
+  answer: what
+  accept: [what, What]
+  why: "What + ประโยค + is ... = pseudo-cleft"
+  status: draft
+- id: cefr-c2-w02-034
+  kind: cloze
+  skill: gm
+  topic: inversion-full
+  level: 2
+  text: |
+    (1) ____ did the town council expect so many people to come. Over five thousand residents arrived, and (2) ____ was the crowd that the meeting was moved outside. Only after three hours of debate (3) ____ to delay the decision.
+  questions:
+    - choices:
+        - {t: Rarely, why: "คำปฏิเสธขึ้นต้นตามด้วย did + ประธาน"}
+        - {t: Such, why: "Such ไม่ตามด้วย did"}
+        - {t: So, why: "So ต้องตามด้วยคุณศัพท์"}
+        - {t: Only, why: "Only ต้องตามด้วยวลี เช่น Only after"}
+    - choices:
+        - {t: such, why: "such + be + ประธาน + that"}
+        - {t: so, why: "so ต้องตามด้วยคุณศัพท์ เช่น so large was the crowd"}
+        - {t: what, why: "ไม่ใช่โครงสร้างนี้"}
+        - {t: rarely, why: "ความหมายไม่เข้า"}
+    - choices:
+        - {t: did they agree, why: "Only after ขึ้นต้น กลับลำดับในประโยคหลัก"}
+        - {t: they agreed, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
+        - {t: agreed they, why: "ต้องใช้ did จึงใช้ไม่ได้"}
+        - {t: had they agree, why: "หลัง had ต้องใช้ช่อง 3"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทบรรณาธิการและฟังสุนทรพจน์ ----------
+- id: cefr-c2-w02-035
+  kind: read
+  skill: rd
+  topic: editorial
+  level: 3
+  title: "Editorial · The Library Is Not a Luxury"
+  passage: |
+    Last week the city council announced, with remarkably little discussion, that three of the city's seven public libraries will close at the end of the year. The reason given was cost. What the council did not say, and perhaps did not consider, is who will pay the real price.
+
+    Libraries are often treated as a pleasant extra, the kind of service that can be trimmed when budgets are tight. Nothing could be further from the truth. For a child whose home has no books, the library is not a luxury but a lifeline. For an elderly resident living alone, it may be the only place where a conversation is guaranteed. For a job seeker without a computer, it is the office from which applications are sent. Close the library, and these people do not simply find an alternative. Many of them simply go without.
+
+    The council argues that most information is now available online. This is true, but it misses the point. Access to information has never been the library's only purpose. Equally important are the librarian who helps a confused pensioner fill in a form, the quiet desk where a teenager can study away from a crowded flat, and the sense that a public space belongs to everyone, regardless of income.
+
+    Such is the importance of these services that cities which have closed libraries have frequently been forced to reopen them, at greater cost, within a decade. Rarely does a saving look so expensive in hindsight.
+
+    The council still has time to reconsider. It should begin by asking those who use the libraries, not those who never set foot in them, what would be lost. If it does, we suspect the answer will galvanise far more support than the council expects.
+  questions:
+    - stem: What is the main purpose of the editorial?
+      choices:
+        - {t: to persuade the council to reconsider closing libraries, why: "The council still has time to reconsider"}
+        - {t: to report the council's decision neutrally, why: "เป็นบทบรรณาธิการแสดงจุดยืนชัดเจน"}
+        - {t: to argue that libraries should move online, why: "ผู้เขียนแย้งข้อนี้"}
+        - {t: to criticise librarians, why: "ผู้เขียนชื่นชมบรรณารักษ์"}
+    - stem: Why does the writer list a child, an elderly resident and a job seeker?
+      choices:
+        - {t: to show how different groups depend on libraries, why: "แต่ละกลุ่มใช้ห้องสมุดในบทบาทต่างกัน"}
+        - {t: to show who uses computers most, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: to explain how libraries are funded, why: "ไม่เกี่ยวกับงบ จึงใช้ไม่ได้"}
+        - {t: to suggest these groups should pay fees, why: "ไม่มีข้อเสนอนี้"}
+    - stem: How does the writer respond to the argument that information is available online?
+      choices:
+        - {t: accepts it but says it ignores the library's other roles, why: "This is true, but it misses the point"}
+        - {t: rejects it as completely false, why: "ยอมรับว่าจริง จึงใช้ไม่ได้"}
+        - {t: agrees that libraries are no longer needed, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: does not respond to it, why: "ตอบในย่อหน้า 3 จึงใช้ไม่ได้"}
+    - stem: "\"Rarely does a saving look so expensive in hindsight\" suggests that closing libraries ____."
+      choices:
+        - {t: often ends up costing more in the long run, why: "ปิดแล้วต้องเปิดใหม่แพงกว่า ภายในสิบปี"}
+        - {t: rarely saves any money at first, why: "ไม่ได้พูดถึงช่วงแรก"}
+        - {t: is always reversed within a year, why: "within a decade ไม่ใช่หนึ่งปี"}
+        - {t: is popular with most residents, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w02-036
+  kind: listen
+  skill: li
+  topic: closing-speech
+  level: 3
+  script:
+    - {who: Woman, en: "If there is one idea I hope you take away from these two days, it is this: change rarely comes from the top. It comes from people like you, in rooms like this."}
+  questions:
+    - stem: What is the speaker's key message?
+      choices:
+        - {t: change usually starts with ordinary participants, why: "change rarely comes from the top. It comes from people like you"}
+        - {t: leaders are responsible for change, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: the conference was too long, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: rooms should be bigger, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w02-037
+  kind: listen
+  skill: li
+  topic: closing-speech
+  level: 3
+  script:
+    - {who: Man, en: "Not once in thirty years have I seen a team work as hard as this one did. And, I should add, not once have I seen one complain less."}
+  questions:
+    - stem: What is the speaker doing?
+      choices:
+        - {t: praising the team strongly, why: "Not once ... as hard ... complain less = ++ชมอย่างหนัก++"}
+        - {t: complaining about the team, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: comparing two companies, why: "พูดถึงทีมเดียว จึงใช้ไม่ได้"}
+        - {t: announcing his retirement, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w02-038
+  kind: listen
+  skill: li
+  topic: closing-speech
+  level: 3
+  script:
+    - {who: Woman, en: "What we achieved this year was remarkable. What we do next will matter even more."}
+  questions:
+    - stem: What does the speaker emphasise?
+      choices:
+        - {t: future actions are more important than past success, why: "What we do next will matter even more"}
+        - {t: this year was a failure, why: "remarkable จึงใช้ไม่ได้"}
+        - {t: nothing needs to change, why: "เน้นสิ่งที่จะทำต่อ"}
+        - {t: the team should rest, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w02-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Never before, had the village, seen, so many visitors]
+  sentence: Never before had the village seen so many visitors.
+  th: หมู่บ้านไม่เคยมีนักท่องเที่ยวมากขนาดนี้มาก่อน
+  why: "Never before ขึ้นต้น กลับลำดับ had + ประธาน"
+  status: draft
+- id: cefr-c2-w02-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [It was, the lack of communication, rather than the cost, that caused the failure]
+  sentence: It was the lack of communication rather than the cost that caused the failure.
+  th: สิ่งที่ทำให้ล้มเหลวคือการขาดการสื่อสาร ไม่ใช่ค่าใช้จ่าย
+  why: "It was + ส่วนที่เน้น + that (cleft)"
+  status: draft
+- id: cefr-c2-w02-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [So successful, was the campaign, that it was, repeated the following year]
+  sentence: So successful was the campaign that it was repeated the following year.
+  th: แคมเปญประสบความสำเร็จมากจนถูกจัดซ้ำในปีต่อมา
+  why: "So + adj + be + ประธาน + that"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c2-w02-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What is at stake, is not simply money, but the trust, on which every community, depends]
+  sentence: What is at stake is not simply money but the trust on which every community depends.
+  th: สิ่งที่เดิมพันอยู่ไม่ใช่แค่เงิน แต่คือความไว้ใจที่ทุกชุมชนพึ่งพา
+  why: "What ... is (pseudo-cleft) · not simply ... but · on which (บุพบท + which)"
+  status: draft
