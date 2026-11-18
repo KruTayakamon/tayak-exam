@@ -1,0 +1,584 @@
+# คอร์ส b2 · สัปดาห์ 7 · รายงานการประชุม · reporting verbs (suggest deny admit urge remind warn) · noun clauses (that · wh- · whether · the fact that)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · รายงานเจตนาของผู้พูด ----------
+- id: cefr-b2-w07-001
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 1
+  stem: She suggested ____ the meeting until Friday.
+  choices:
+    - {t: moving, why: "suggest + ++-ing++ เมื่อไม่ระบุว่าใครทำ"}
+    - {t: to move, why: "suggest ไม่ตามด้วย to + กริยา"}
+    - {t: move, why: "suggest + กริยารูปเดิมต้องมีประธาน เช่น suggested that we move"}
+    - {t: us to move, why: "suggest ไม่ใช้รูป คน + to"}
+  explain: "==suggest + -ing== หรือ suggest that + ประธาน + กริยารูปเดิม"
+  status: approved
+- id: cefr-b2-w07-002
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 1
+  stem: He denied ____ the money from the office.
+  choices:
+    - {t: taking, why: "deny + ++-ing++"}
+    - {t: to take, why: "deny ไม่ตามด้วย to"}
+    - {t: take, why: "deny ต้องตามด้วย -ing หรือ that"}
+    - {t: that take, why: "that ต้องตามด้วยประโยคเต็ม that he took"}
+  explain: "==deny / admit + -ing== (หรือ + that + ประโยค)"
+  status: approved
+- id: cefr-b2-w07-003
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: The manager reminded us ____ our timesheets by Monday.
+  choices:
+    - {t: to submit, why: "remind + ++คน + to + กริยา++"}
+    - {t: submitting, why: "remind + คน ไม่ตามด้วย -ing"}
+    - {t: submit, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: for submitting, why: "remind for ใช้ไม่ได้ในความหมายนี้"}
+  explain: "==remind== / warn / urge / advise + คน + to + กริยา"
+  status: approved
+- id: cefr-b2-w07-004
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: The doctor warned him ____ too much salt.
+  choices:
+    - {t: not to eat, why: "เตือนไม่ให้ทำ ใช้ ++warn + คน + not to++"}
+    - {t: to not eating, why: "to ต้องตามด้วยกริยารูปเดิม"}
+    - {t: not eating, why: "warn + คน ต้องใช้ not to"}
+    - {t: don't eat, why: "ในประโยครายงานไม่ใช้รูปคำสั่ง"}
+  explain: "ห้ามทำ ==warn + คน + not to + กริยา== · หรือ warn someone against + -ing"
+  status: approved
+- id: cefr-b2-w07-005
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: "\"OK, it was me. I broke the printer.\" → He ____ the printer."
+  choices:
+    - {t: admitted breaking, why: "ยอมรับว่าทำ ใช้ ++admit + -ing++"}
+    - {t: denied breaking, why: "deny แปลว่าปฏิเสธ ขัดกับคำพูด"}
+    - {t: suggested breaking, why: "suggest แปลว่าเสนอ"}
+    - {t: admitted to break, why: "admit ไม่ตามด้วย to + กริยา"}
+  explain: "==admit + -ing== = ยอมรับว่าทำ"
+  status: approved
+- id: cefr-b2-w07-006
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: "\"You really must apply for the job!\" → She ____ me to apply for the job."
+  choices:
+    - {t: urged, why: "เร่งเร้าอย่างหนักแน่น ใช้ ++urge + คน + to++"}
+    - {t: suggested, why: "suggest ไม่ใช้รูป คน + to"}
+    - {t: denied, why: "deny ไม่ใช่การเร่งเร้า"}
+    - {t: admitted, why: "admit ไม่ใช่การเร่งเร้า"}
+  explain: "==urge== = เร่งเร้าให้ทำอย่างหนักแน่น"
+  status: approved
+- id: cefr-b2-w07-007
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: "\"Why don't we hire a temporary assistant?\" → She suggested that we ____ a temporary assistant."
+  choices:
+    - {t: hire, why: "suggest that + ประธาน + ++กริยารูปเดิม++ (หรือ should hire)"}
+    - {t: to hire, why: "หลัง that ต้องเป็นประโยค ไม่มี to"}
+    - {t: hiring, why: "หลัง that ต้องเป็นประโยคเต็ม"}
+    - {t: will hire, why: "will ไม่ใช้หลัง suggest that"}
+  explain: "==suggest that + ประธาน +== (should) + กริยารูปเดิม"
+  status: approved
+- id: cefr-b2-w07-008
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: He apologised ____ late for the interview.
+  choices:
+    - {t: for being, why: "apologise ++for + -ing++"}
+    - {t: to be, why: "apologise ไม่ตามด้วย to"}
+    - {t: being, why: "ขาด for จึงใช้ไม่ได้"}
+    - {t: of being, why: "apologise ใช้ for ไม่ใช่ of"}
+  explain: "==apologise for== / thank someone for / blame someone for + -ing"
+  status: approved
+- id: cefr-b2-w07-009
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 3
+  stem: "\"I'll definitely finish it by Friday.\" → He ____ it by Friday."
+  choices:
+    - {t: promised to finish, why: "สัญญาว่าจะทำ ใช้ ++promise + to++"}
+    - {t: promised finishing, why: "promise ไม่ตามด้วย -ing"}
+    - {t: promised me finishing, why: "promise + คน ต้องตามด้วย that"}
+    - {t: suggested to finish, why: "suggest ไม่ตามด้วย to และความหมายไม่ใช่สัญญา"}
+  explain: "==promise== / agree / refuse / offer + to + กริยา"
+  status: approved
+- id: cefr-b2-w07-010
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 3
+  stem: Which reporting verb fits "No, I won't sign it."?
+  choices:
+    - {t: She refused to sign it., why: "ไม่ยอมทำ ใช้ ++refuse + to++"}
+    - {t: She denied to sign it., why: "deny ไม่ตามด้วย to และใช้กับสิ่งที่ถูกกล่าวหา"}
+    - {t: She refused signing it., why: "refuse ไม่ตามด้วย -ing"}
+    - {t: She warned to sign it., why: "warn ต้องมีคน และความหมายไม่ตรง"}
+  explain: "ไม่ยอมทำ = ==refuse to== · ไม่ยอมรับว่าทำ = deny + -ing"
+  status: approved
+- id: cefr-b2-w07-011
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: The lawyer advised us ____ anything without reading it first.
+  choices:
+    - {t: not to sign, why: "แนะนำไม่ให้ทำ ++advise + คน + not to++"}
+    - {t: not signing, why: "advise + คน ต้องตามด้วย to"}
+    - {t: to not signing, why: "to ต้องตามด้วยกริยารูปเดิม"}
+    - {t: that not sign, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==advise + คน + (not) to + กริยา=="
+  status: approved
+- id: cefr-b2-w07-012
+  kind: type
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  stem: "She i______ on paying for dinner, even though I offered. (ยืนกราน)"
+  answer: insisted
+  accept: [insisted]
+  why: "insist on + -ing = ยืนกรานจะทำ"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การประชุมและความร่วมมือ ----------
+- id: cefr-b2-w07-013
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 1
+  stem: I'd like to ____ that this is only a draft, not the final plan.
+  choices:
+    - {t: emphasise, why: "เน้นย้ำ ใช้ ++emphasise++"}
+    - {t: oppose, why: "oppose แปลว่าคัดค้าน"}
+    - {t: negotiate, why: "negotiate แปลว่าเจรจา"}
+    - {t: participate, why: "participate ต้องตามด้วย in"}
+  explain: "emphasise = ==เน้นย้ำ== (อเมริกัน emphasize)"
+  status: approved
+- id: cefr-b2-w07-014
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 1
+  stem: Could you ____ what you mean by "soon"? Next week or next month?
+  choices:
+    - {t: clarify, why: "ทำให้ชัดเจน ใช้ ++clarify++"}
+    - {t: highlight, why: "highlight แปลว่าเน้นจุดสำคัญ ไม่ใช่อธิบายให้ชัด"}
+    - {t: propose, why: "propose แปลว่าเสนอ"}
+    - {t: consent, why: "consent แปลว่ายินยอม"}
+  explain: "clarify = ==ทำให้ชัดเจน อธิบายเพิ่ม=="
+  status: approved
+- id: cefr-b2-w07-015
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: The report ____ three main problems with the current system.
+  choices:
+    - {t: highlights, why: "ชี้จุดสำคัญให้เห็น ใช้ ++highlight++"}
+    - {t: consents, why: "consent ไม่ใช้กับรายงาน"}
+    - {t: participates, why: "participate ต้องตามด้วย in"}
+    - {t: collaborates, why: "collaborate ต้องมีคนทำร่วมกัน"}
+  explain: "highlight = ==ชี้ให้เห็นจุดสำคัญ=="
+  status: approved
+- id: cefr-b2-w07-016
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: The manager ____ that mistakes had been made and apologised.
+  choices:
+    - {t: acknowledged, why: "ยอมรับความจริง ใช้ ++acknowledge++"}
+    - {t: opposed, why: "oppose แปลว่าคัดค้าน"}
+    - {t: negotiated, why: "negotiate แปลว่าเจรจา"}
+    - {t: contributed, why: "contribute แปลว่ามีส่วนร่วม"}
+  explain: "acknowledge = ==ยอมรับ (ความจริง ความผิด)=="
+  status: approved
+- id: cefr-b2-w07-017
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: I'd like to ____ a new schedule that gives everyone one remote day a week.
+  choices:
+    - {t: propose, why: "เสนออย่างเป็นทางการ ใช้ ++propose++"}
+    - {t: oppose, why: "oppose แปลว่าคัดค้าน ขัดกับการให้ประโยชน์"}
+    - {t: acknowledge, why: "acknowledge ไม่ใช่การเสนอ"}
+    - {t: consent, why: "consent ต้องตามด้วย to"}
+  explain: "propose = ==เสนอ (แผน ความคิด)=="
+  status: approved
+- id: cefr-b2-w07-018
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: Several staff ____ the plan because it would mean working at weekends.
+  choices:
+    - {t: opposed, why: "คัดค้าน ใช้ ++oppose++"}
+    - {t: proposed, why: "ขัดกับเหตุผลที่ไม่อยากทำงานเสาร์อาทิตย์"}
+    - {t: highlighted, why: "highlight ไม่ใช่คัดค้าน"}
+    - {t: participated, why: "participate ต้องตามด้วย in"}
+  explain: "oppose = ==คัดค้าน== (be opposed to + -ing)"
+  status: approved
+- id: cefr-b2-w07-019
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: After two days, the union and the company ____ a new pay deal.
+  choices:
+    - {t: negotiated, why: "เจรจาจนได้ข้อตกลง ใช้ ++negotiate++"}
+    - {t: participated, why: "participate ไม่ตามด้วยกรรมโดยตรง"}
+    - {t: consented, why: "consent ต้องตามด้วย to"}
+    - {t: emphasised, why: "emphasise ไม่ใช่การเจรจา"}
+  explain: "negotiate = ==เจรจาต่อรอง=="
+  status: approved
+- id: cefr-b2-w07-020
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: Everyone ____ some ideas to the new logo design.
+  choices:
+    - {t: contributed, why: "มีส่วนช่วย ใช้ ++contribute to++"}
+    - {t: participated, why: "participate ใช้ with in ไม่ใช่ contribute ideas to"}
+    - {t: collaborated, why: "collaborate ไม่ตามด้วยกรรม ideas"}
+    - {t: negotiated, why: "negotiate ideas to ไม่ใช่สำนวน"}
+  explain: "==contribute (something) to== = มีส่วนช่วย ให้"
+  status: approved
+- id: cefr-b2-w07-021
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: All employees are expected to ____ in the safety training.
+  choices:
+    - {t: participate, why: "เข้าร่วม ใช้ ++participate in++"}
+    - {t: contribute, why: "contribute in ไม่ใช่สำนวนที่ถูก"}
+    - {t: propose, why: "propose in ไม่ใช่สำนวน"}
+    - {t: consent, why: "consent in ไม่ใช่สำนวน"}
+  explain: "==participate in== = เข้าร่วม"
+  status: approved
+- id: cefr-b2-w07-022
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: The two hospitals ____ on a research project about diabetes.
+  choices:
+    - {t: collaborated, why: "ร่วมมือกันทำ ใช้ ++collaborate on++"}
+    - {t: contributed, why: "contribute on ไม่ใช่สำนวน"}
+    - {t: opposed, why: "ขัดกับการทำโครงการร่วมกัน"}
+    - {t: acknowledged, why: "acknowledge ไม่ใช่การร่วมมือ"}
+  explain: "collaborate (with someone) on something = ==ร่วมมือกันทำ=="
+  status: approved
+- id: cefr-b2-w07-023
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 3
+  stem: Learning a language requires a long-term ____ of time and energy.
+  choices:
+    - {t: commitment, why: "การทุ่มเทผูกมัด ใช้ ++commitment++"}
+    - {t: consent, why: "consent คือการยินยอม"}
+    - {t: proposal, why: "proposal คือข้อเสนอ"}
+    - {t: participation, why: "participation of time ไม่เป็นธรรมชาติ"}
+  explain: "commitment = ==ความมุ่งมั่น การทุ่มเทที่ผูกมัด=="
+  status: approved
+- id: cefr-b2-w07-024
+  kind: type
+  skill: vo
+  topic: meetings
+  level: 2
+  stem: "Photos of children can only be posted with their parents' c______. (ความยินยอม)"
+  answer: consent
+  accept: [consent]
+  why: "consent = ความยินยอม การอนุญาต"
+  status: approved
+# ---------- วันที่ 3 · ประโยคที่ทำหน้าที่เป็นนาม ----------
+- id: cefr-b2-w07-025
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 1
+  stem: I don't know ____ the meeting starts.
+  choices:
+    - {t: what time, why: "wh-clause ใช้ ++ลำดับประโยคบอกเล่า++ what time + the meeting starts"}
+    - {t: what time does, why: "ในประโยคซ้อนไม่ใช้ลำดับคำถาม does"}
+    - {t: that, why: "that ไม่ได้บอกว่าเวลาไหน"}
+    - {t: if what time, why: "ซ้อนคำเชื่อมสองตัว"}
+  explain: "ประโยคซ้อน ==wh- + ประธาน + กริยา== (ไม่ใช้ do/does)"
+  status: approved
+- id: cefr-b2-w07-026
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 1
+  stem: Can you tell me ____ the office is open on Saturdays?
+  choices:
+    - {t: whether, why: "คำถามใช่หรือไม่ ใช้ ++whether / if++"}
+    - {t: what, why: "what ต้องมีสิ่งที่ถาม ไม่ใช้กับใช่หรือไม่"}
+    - {t: that, why: "that ใช้ในประโยคบอกเล่า ไม่ใช่คำถามซ้อน"}
+    - {t: is, why: "ในคำถามซ้อนไม่ขึ้นด้วย is"}
+  explain: "ถามใช่หรือไม่ในประโยคซ้อน ==whether / if=="
+  status: approved
+- id: cefr-b2-w07-027
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: ____ he resigned surprised everyone.
+  choices:
+    - {t: The fact that, why: "ประโยคเป็นประธาน ใช้ ++The fact that++ (หรือ That)"}
+    - {t: What, why: "What he resigned ไม่มีความหมาย"}
+    - {t: Whether, why: "เป็นเรื่องที่เกิดแล้ว ไม่ใช่คำถาม"}
+    - {t: Because, why: "Because ... surprised ขาดประธานของกริยาหลัก"}
+  explain: "ประโยคเป็นประธาน ==The fact that + ประโยค + กริยา=="
+  status: approved
+- id: cefr-b2-w07-028
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: ____ we choose depends on the price.
+  choices:
+    - {t: Which supplier, why: "wh-clause เป็นประธาน ++Which supplier we choose++"}
+    - {t: Which supplier do, why: "ไม่ใช้ลำดับคำถามในประโยคซ้อน"}
+    - {t: That supplier, why: "That supplier we choose ไม่เป็นประโยคที่สมบูรณ์"}
+    - {t: If supplier, why: "ไม่มีความหมาย จึงใช้ไม่ได้"}
+  explain: "wh-clause เป็นประธาน ใช้ ==กริยาเอกพจน์== depends"
+  status: approved
+- id: cefr-b2-w07-029
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: We haven't decided ____ to accept the offer or not.
+  choices:
+    - {t: whether, why: "มี or not และตามด้วย to ใช้ ++whether++"}
+    - {t: if, why: "if ไม่ตามด้วย to + กริยา"}
+    - {t: that, why: "that ไม่ใช้กับ or not"}
+    - {t: what, why: "what to accept ไม่เข้ากับ the offer or not"}
+  explain: "==whether + to + กริยา== / whether ... or not (ใช้ if ไม่ได้)"
+  status: approved
+- id: cefr-b2-w07-030
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: "\"Where is the station?\" → Do you know ____?"
+  choices:
+    - {t: where the station is, why: "ลำดับประโยคบอกเล่า ++ประธานก่อนกริยา++"}
+    - {t: where is the station, why: "ในคำถามซ้อนไม่สลับ is ไปหน้า"}
+    - {t: where does the station, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: the station is where, why: "ลำดับไม่ถูก จึงใช้ไม่ได้"}
+  explain: "คำถามซ้อน ==Do you know where + ประธาน + is?=="
+  status: approved
+- id: cefr-b2-w07-031
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 3
+  stem: "Which sentence is correct about the new price?"
+  choices:
+    - {t: "What surprised me was how cheap it was.", why: "wh-clause เป็นประธานและส่วนเติมเต็ม ++ลำดับบอกเล่าทั้งสองส่วน++"}
+    - {t: "What surprised me was how cheap was it.", why: "ส่วนหลังใช้ลำดับคำถาม ผิด"}
+    - {t: "What did surprise me was how cheap it was.", why: "ส่วนแรกไม่ใช้ did ในประโยคซ้อน"}
+    - {t: "That surprised me was how cheap it was.", why: "That ไม่ทำหน้าที่ สิ่งที่ แบบ What"}
+  explain: "==What + ประโยค = สิ่งที่...== ใช้เป็นประธานได้"
+  status: approved
+- id: cefr-b2-w07-032
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: It's clear ____ we need more staff.
+  choices:
+    - {t: that, why: "It's + คุณศัพท์ + ++that + ประโยค++"}
+    - {t: what, why: "what ต้องเป็นสิ่งที่ ไม่ใช้ตามหลัง It's clear ในที่นี้"}
+    - {t: whether, why: "whether ใช้กับคำถามใช่หรือไม่"}
+    - {t: which, why: "which ต้องมีคำนามให้ขยาย"}
+  explain: "==It's clear== / obvious / true that + ประโยค"
+  status: approved
+- id: cefr-b2-w07-033
+  kind: type
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  stem: "I'm not sure w______ she'll come or not. (หรือไม่)"
+  answer: whether
+  accept: [whether]
+  why: "whether ... or not = ...หรือไม่"
+  status: approved
+- id: cefr-b2-w07-034
+  kind: cloze
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  text: |
+    At the meeting, Nok suggested (1) ____ a shared calendar. Ben opposed the idea and asked (2) ____ it would really save time. In the end, the manager reminded everyone (3) ____ their availability by Thursday.
+  questions:
+    - choices:
+        - {t: using, why: "suggest + -ing เมื่อไม่ระบุว่าใครทำ"}
+        - {t: to use, why: "suggest ไม่ตามด้วย to"}
+        - {t: us to use, why: "suggest ไม่ใช้รูป คน + to"}
+        - {t: use, why: "ต้องใช้ -ing หรือ that + ประโยค"}
+    - choices:
+        - {t: whether, why: "คำถามใช่หรือไม่ในประโยครายงาน"}
+        - {t: that, why: "that ไม่ใช้กับคำถามรายงาน"}
+        - {t: what, why: "what ต้องมีสิ่งที่ถาม"}
+        - {t: does, why: "ไม่ใช้ลำดับคำถามในประโยครายงาน"}
+    - choices:
+        - {t: to update, why: "remind + คน + to"}
+        - {t: updating, why: "remind + คน ไม่ตามด้วย -ing"}
+        - {t: update, why: "ขาด to จึงใช้ไม่ได้"}
+        - {t: that update, why: "ผิดรูป จึงใช้ไม่ได้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านรายงานการประชุมและฟังการประชุมหลายคน ----------
+- id: cefr-b2-w07-035
+  kind: read
+  skill: rd
+  topic: meeting-minutes
+  level: 2
+  title: "Minutes · Customer Service Team Meeting, 12 March"
+  passage: |
+    Present: Ploy (team leader), Arthit, Mina, Sam, Jane
+
+    1. Response times. Ploy began by acknowledging that the team had been under pressure since two colleagues left in January. She emphasised that customers are now waiting an average of three days for an email reply, compared with one day last year.
+
+    2. Chatbot proposal. Arthit proposed introducing a chatbot to answer simple questions, such as delivery times. Mina opposed the idea, arguing that older customers find chatbots frustrating. Sam suggested trying it for one month on the website only, and keeping phone support unchanged. After some discussion, the team agreed to Sam's suggestion.
+
+    3. Weekend cover. Jane asked whether staff would be paid extra for weekend shifts. Ploy clarified that weekend work would be optional and paid at 1.5 times the normal rate. She also reminded everyone to sign up on the shared calendar by Friday.
+
+    4. Training. Ploy highlighted the fact that only two team members had completed the new complaints training. She urged the rest of the team to finish it before the end of the month.
+
+    Actions:
+    - Arthit to contact the chatbot company and ask for a price (by 19 March)
+    - All staff to sign up for weekend shifts (by 15 March)
+    - Mina, Sam and Jane to complete the complaints training (by 31 March)
+  questions:
+    - stem: What was decided about the chatbot?
+      choices:
+        - {t: to test it on the website for a month, why: "the team agreed to Sam's suggestion"}
+        - {t: to replace phone support with it, why: "phone support unchanged"}
+        - {t: to reject it completely, why: "Mina คัดค้าน แต่ทีมตกลงทดลอง"}
+        - {t: to use it only for older customers, why: "Mina กังวลเรื่องลูกค้าสูงวัย"}
+    - stem: What did Ploy clarify about weekend work?
+      choices:
+        - {t: it is voluntary and paid more, why: "optional and paid at 1.5 times the normal rate"}
+        - {t: everyone must do it, why: "optional แปลว่าไม่บังคับ"}
+        - {t: it will not be paid, why: "จ่าย 1.5 เท่า จึงใช้ไม่ได้"}
+        - {t: it starts in April, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: Who has to complete the complaints training?
+      choices:
+        - {t: Mina Sam and Jane, why: "ดูรายการ Actions ข้อสุดท้าย"}
+        - {t: everyone in the team, why: "บางคนทำเสร็จแล้ว"}
+        - {t: only Arthit, why: "Arthit รับหน้าที่ติดต่อบริษัทแชตบอต"}
+        - {t: only Ploy, why: "Ploy เป็นหัวหน้าทีมที่เร่งให้คนอื่นทำ"}
+    - stem: What is the first deadline mentioned in the action list?
+      choices:
+        - {t: 15 March, why: "sign up for weekend shifts (by 15 March)"}
+        - {t: 19 March, why: "เป็นกำหนดของ Arthit ซึ่งมาทีหลัง"}
+        - {t: 31 March, why: "เป็นกำหนดสุดท้าย"}
+        - {t: 12 March, why: "เป็นวันประชุม จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w07-036
+  kind: listen
+  skill: li
+  topic: meeting-discussion
+  level: 2
+  script:
+    - {who: Man, en: "Could you clarify whether the new rule applies to part-time staff too?"}
+    - {who: Woman, en: "Yes, it applies to everyone, including part-time and temporary staff."}
+  questions:
+    - stem: Who does the new rule apply to?
+      choices:
+        - {t: all staff, why: "it applies to everyone"}
+        - {t: only full-time staff, why: "รวมพนักงานพาร์ตไทม์ด้วย"}
+        - {t: only temporary staff, why: "ใช้กับทุกคน จึงใช้ไม่ได้"}
+        - {t: nobody yet, why: "ใช้กับทุกคนแล้ว"}
+  status: approved
+- id: cefr-b2-w07-037
+  kind: listen
+  skill: li
+  topic: meeting-discussion
+  level: 2
+  script:
+    - {who: Woman, en: "I'm not opposed to the idea, but I'd like to know how much it will cost before we agree."}
+  questions:
+    - stem: What is the woman's position?
+      choices:
+        - {t: she needs cost information first, why: "I'd like to know how much it will cost before we agree"}
+        - {t: she strongly opposes it, why: "I'm not opposed"}
+        - {t: she has already agreed, why: "ยังไม่ตกลงจนกว่าจะรู้ราคา"}
+        - {t: she thinks it is too cheap, why: "ยังไม่รู้ราคา จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w07-038
+  kind: listen
+  skill: li
+  topic: meeting-discussion
+  level: 2
+  script:
+    - {who: Man, en: "So, to sum up: we've agreed to postpone the launch, and Dao will contact the suppliers. Does anyone have anything to add?"}
+  questions:
+    - stem: What is the man doing?
+      choices:
+        - {t: summarising the decisions, why: "to sum up = สรุป"}
+        - {t: opening the meeting, why: "เป็นการสรุปท้ายประชุม"}
+        - {t: opposing the launch, why: "สรุปมติที่ตกลงกันแล้ว"}
+        - {t: contacting the suppliers, why: "Dao จะเป็นคนติดต่อ"}
+  status: approved
+- id: cefr-b2-w07-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [She reminded me, to bring, my ID card, to the interview]
+  sentence: She reminded me to bring my ID card to the interview.
+  th: เธอเตือนให้ฉันเอาบัตรประชาชนไปสัมภาษณ์
+  why: "remind + คน + to + กริยา"
+  status: approved
+- id: cefr-b2-w07-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Nobody knows, why the project, was cancelled, so suddenly]
+  sentence: Nobody knows why the project was cancelled so suddenly.
+  th: ไม่มีใครรู้ว่าทำไมโครงการถูกยกเลิกกะทันหัน
+  why: "wh-clause ใช้ลำดับบอกเล่า ประธานก่อนกริยา"
+  status: approved
+- id: cefr-b2-w07-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The manager, acknowledged, the fact that, the deadline was unrealistic]
+  sentence: The manager acknowledged the fact that the deadline was unrealistic.
+  th: ผู้จัดการยอมรับว่ากำหนดส่งงานไม่สมเหตุสมผล
+  why: "acknowledge the fact that + ประโยค"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b2-w07-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [At the meeting, Arthit proposed, using a chatbot, but Mina, was opposed to it]
+  sentence: At the meeting, Arthit proposed using a chatbot, but Mina was opposed to it.
+  th: ในที่ประชุม อาทิตย์เสนอให้ใช้แชตบอต แต่มีนาคัดค้าน
+  why: "propose + -ing · be opposed to"
+  status: approved

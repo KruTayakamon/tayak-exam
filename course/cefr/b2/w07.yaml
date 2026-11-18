@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 7 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 7
+phase: 2
+theme_th: รายงานการประชุม
+focus_th: กริยารายงาน (suggest deny admit urge remind warn promise refuse) และรูปที่ตามมา · noun clause (that · wh- · whether · the fact that)
+can_do_th:
+  - รายงานสิ่งที่แต่ละคนเสนอและคัดค้านได้
+  - ตามการประชุมที่มีหลายคนพูดได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: รายงานเจตนาของผู้พูด
+    lesson:
+      rule_th: "แทนที่จะพูด said ทุกครั้ง ใช้กริยาที่บอกเจตนา แต่ละตัวมีรูปที่ตามมาเฉพาะ ==suggest / deny / admit + -ing== · ++remind / warn / urge / advise + คน + to++ · promise / agree / refuse + to"
+      examples:
+        - {en: "She <k>suggested moving</k> the meeting.", th: "==suggest + -ing=="}
+        - {en: "He <k>denied taking</k> the money.", th: "ปฏิเสธว่าไม่ได้ทำ"}
+        - {en: "The manager <k>reminded us to submit</k> our timesheets.", th: "remind + คน + to"}
+        - {en: "She <k>refused to sign</k> it.", th: "ไม่ยอมทำ"}
+      signals:
+        - {label_th: "จัดกลุ่ม", words: ["+ -ing: suggest deny admit", "+ คน + to: remind warn urge advise", "+ to: promise agree refuse offer"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ เสนอให้... ได้ทุกแบบ คนจึงเขียน ~~suggest someone to~~ ซึ่งผิด"
+        wrong: ["She suggested me to apply.", "He denied to take the money."]
+        right: ["She suggested that I apply. / She suggested applying.", "He denied taking the money."]
+      notes:
+        - {kind: pin, th: "==suggest ห้ามตามด้วย คน + to== ใช้ suggest that + ประโยค"}
+        - {kind: use, th: "เขียนรายงานการประชุม ใช้ proposed · opposed · agreed · reminded แทน said"}
+    check: [cefr-b2-w07-001, cefr-b2-w07-002]
+    practice: [cefr-b2-w07-003, cefr-b2-w07-004, cefr-b2-w07-005, cefr-b2-w07-006, cefr-b2-w07-007, cefr-b2-w07-008, cefr-b2-w07-009, cefr-b2-w07-010, cefr-b2-w07-011, cefr-b2-w07-012]
+    use:
+      prompt_th: เขียน 2 ประโยครายงานสิ่งที่คนสองคนพูดกับคุณสัปดาห์นี้ ใช้กริยารายงานที่บอกเจตนา
+      frame: "My colleague suggested ____. My friend reminded me to ____."
+      model: "My colleague suggested ordering lunch for the whole team. My friend reminded me to renew my driving licence."
+    classroom: {en: "Can I suggest taking a short break?", th: "ขอเสนอพักสักครู่ได้ไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การประชุมและความร่วมมือ 12 คำ
+    lesson:
+      rule_th: "คำศัพท์การประชุมหลายคำต้องมีคำบุพบทตามหลัง ==participate in== · contribute to · collaborate on · consent to ++propose กับ oppose++ ความหมายตรงกันข้าม"
+      examples:
+        - {en: "Arthit <k>proposed</k> a chatbot.", th: "เสนอ"}
+        - {en: "Mina <k>opposed</k> the idea.", th: "==คัดค้าน=="}
+        - {en: "Everyone must <k>participate in</k> the training.", th: "เข้าร่วม"}
+        - {en: "Could you <k>clarify</k> that?", th: "อธิบายให้ชัด"}
+      words:
+        - {w: emphasise, pos: v., th: เน้นย้ำ, ex: "She emphasised the deadline."}
+        - {w: acknowledge, pos: v., th: ยอมรับ, ex: "He acknowledged his mistake."}
+        - {w: clarify, pos: v., th: ทำให้ชัดเจน, ex: "Let me clarify the rules."}
+        - {w: highlight, pos: v., th: ชี้จุดสำคัญ, ex: "The report highlights two risks."}
+        - {w: propose, pos: v., th: เสนอ, ex: "I propose a new schedule."}
+        - {w: oppose, pos: v., th: คัดค้าน, ex: "Many people opposed the plan."}
+        - {w: negotiate, pos: v., th: เจรจาต่อรอง, ex: "We negotiated a better price."}
+        - {w: contribute, pos: v., th: มีส่วนช่วย, ex: "Everyone contributed to the project."}
+        - {w: participate, pos: v., th: เข้าร่วม, ex: "Please participate in the survey."}
+        - {w: collaborate, pos: v., th: ร่วมมือกันทำ, ex: "We collaborated with another school."}
+        - {w: commitment, pos: n., th: ความมุ่งมั่น การผูกมัด, ex: "Thank you for your commitment."}
+        - {w: consent, pos: n./v., th: ความยินยอม, ex: "We need your written consent."}
+      thai_trap:
+        intro_th: "คนไทยลืมคำบุพบท เขียน ~~participate the meeting~~ หรือ ~~contribute in~~"
+        wrong: ["All staff must participate the meeting.", "She contributed a lot in the project."]
+        right: ["All staff must participate in the meeting.", "She contributed a lot to the project."]
+      notes:
+        - {kind: pin, th: "จำเป็นคู่ ==participate in== · contribute to · consent to"}
+        - {kind: use, th: "ขอให้อธิบายในที่ประชุม Could you clarify what you mean by ...?"}
+    check: [cefr-b2-w07-013, cefr-b2-w07-014]
+    practice: [cefr-b2-w07-015, cefr-b2-w07-016, cefr-b2-w07-017, cefr-b2-w07-018, cefr-b2-w07-019, cefr-b2-w07-020, cefr-b2-w07-021, cefr-b2-w07-022, cefr-b2-w07-023, cefr-b2-w07-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าการประชุมหรือการคุยกันในครอบครัว ใช้ propose และ oppose
+      frame: "____ proposed ____. ____ opposed it because ____."
+      model: "My sister proposed a family trip to Japan. My father opposed it because he thought it was too expensive."
+    classroom: {en: "Could you clarify that point?", th: "ช่วยอธิบายประเด็นนั้นให้ชัดอีกนิดได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ประโยคที่ทำหน้าที่เป็นนาม
+    lesson:
+      rule_th: "ประโยคย่อยที่ทำหน้าที่เป็นนาม ==ใช้ลำดับบอกเล่าเสมอ (ประธาน + กริยา)== แม้เริ่มด้วยคำแสดงคำถาม · ใช่หรือไม่ใช้ ++whether / if++ · ประโยคเป็นประธานใช้ The fact that"
+      examples:
+        - {en: "I don't know <k>what time the meeting starts</k>.", th: "==ไม่ใช้ does=="}
+        - {en: "Can you tell me <k>whether</k> it's open?", th: "ใช่หรือไม่"}
+        - {en: "<k>The fact that</k> he resigned surprised us.", th: "ประโยคเป็นประธาน"}
+        - {en: "<k>What surprised me</k> was the price.", th: "สิ่งที่..."}
+      signals:
+        - {label_th: "whether เท่านั้น (if ไม่ได้)", words: ["whether to + กริยา", "whether ... or not (ติดกัน)", "หลังคำบุพบท about whether"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่สลับคำในคำถาม แต่คนที่เรียนคำถามอังกฤษมา มักใส่ ~~ลำดับคำถามในประโยคซ้อน~~"
+        wrong: ["Do you know where is the station?", "I wonder what does she want."]
+        right: ["Do you know where the station is?", "I wonder what she wants."]
+      notes:
+        - {kind: tip, th: "ถามสุภาพแบบอ้อม Could you tell me ... ==แล้วเรียงแบบบอกเล่า=="}
+        - {kind: warn, th: "ประโยคที่เป็นประธานใช้กริยาเอกพจน์ What we need is ..."}
+    check: [cefr-b2-w07-025, cefr-b2-w07-026]
+    practice: [cefr-b2-w07-027, cefr-b2-w07-028, cefr-b2-w07-029, cefr-b2-w07-030, cefr-b2-w07-031, cefr-b2-w07-032, cefr-b2-w07-033, cefr-b2-w07-034]
+    use:
+      prompt_th: เขียน 2 ประโยคถามข้อมูลอย่างสุภาพจากหน่วยงาน ใช้คำถามซ้อน
+      frame: "Could you tell me whether ____? I'd also like to know when ____."
+      model: "Could you tell me whether the clinic is open on public holidays? I'd also like to know when the results will be ready."
+    classroom: {en: "Do you know where the meeting room is?", th: "รู้ไหมว่าห้องประชุมอยู่ที่ไหน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านรายงานการประชุมและฟังการประชุมหลายคน
+    lesson:
+      rule_th: "รายงานการประชุมแยก ==สิ่งที่แต่ละคนพูด== ออกจาก ++มติและงานที่มอบหมาย (Actions)++ คำถามมักถามว่าตกลงอะไร ไม่ใช่ใครเสนออะไร"
+      examples:
+        - {en: "Arthit <k>proposed</k> ... Mina <k>opposed</k> ...", th: "ความเห็นของแต่ละคน"}
+        - {en: "The team <k>agreed to</k> Sam's suggestion.", th: "==มติ=="}
+        - {en: "<k>Actions:</k> Arthit to contact ...", th: "งานที่มอบหมาย"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นข้อเสนอแรกแล้วตอบว่าเป็นมติ แต่มติจริงมักเป็น ~~ข้อเสนอที่ปรับแล้ว~~ หลัง After some discussion"
+        wrong: ["ตอบว่าทีมตกลงใช้แชตบอตแทนโทรศัพท์"]
+        right: ["ทีมตกลงทดลองแชตบอตบนเว็บหนึ่งเดือน โทรศัพท์คงเดิม"]
+      notes:
+        - {kind: tip, th: "หาคำว่า ==agreed · decided · to sum up== คำตอบเรื่องมติอยู่ตรงนั้น"}
+        - {kind: use, th: "ฟังประชุมหลายคน จดชื่อแล้วตามด้วย + (เห็นด้วย) หรือ − (ค้าน)"}
+    check: [cefr-b2-w07-036, cefr-b2-w07-037]
+    practice: [cefr-b2-w07-035, cefr-b2-w07-038, cefr-b2-w07-039, cefr-b2-w07-040, cefr-b2-w07-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปมติของการประชุมทีมบริการลูกค้า ใช้กริยารายงานอย่างน้อย 1 ตัว
+      frame: "The team agreed to ____. Ploy reminded everyone to ____."
+      model: "The team agreed to test a chatbot on the website for one month. Ploy reminded everyone to sign up for weekend shifts by Friday."
+    classroom: {en: "So, to sum up, we've agreed to ...", th: "สรุปคือ เราตกลงกันว่า..."}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด สรุปผลการประชุมให้คนที่ไม่ได้เข้า 90 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูด 90 วินาทีสรุปการประชุมหรือการคุยกันเรื่องหนึ่ง (งาน ครอบครัว ชุมชน) ให้คนที่ไม่ได้เข้าฟัง บอกหัวข้อ ใครเสนอหรือค้านอะไร มติ และสิ่งที่ผู้ฟังต้องทำ
+      frame:
+        - "You missed the meeting on ____, so here's a quick summary."
+        - "The main issue was ____."
+        - "____ proposed ____, but ____ was opposed to it because ____."
+        - "In the end, we agreed to ____."
+        - "You've been asked to ____ by ____."
+      model_pass: "You missed the meeting on Monday, so here's a quick summary. The main issue was the office air conditioning, which has been broken for two weeks. Krit proposed buying portable fans, but Nam was opposed to it because they are noisy. Our manager acknowledged that it was a serious problem and promised to call the repair company again. In the end, we agreed to work from home on the hottest afternoons. You've been asked to tell the manager which days you would prefer by Wednesday."
+      model_good: "Since you missed Monday's meeting, here's a quick summary. The main issue was the air conditioning, which has been out of action for almost two weeks now. Krit proposed buying portable fans as a short-term fix, but Nam was strongly opposed to it, pointing out that they're noisy and would make phone calls difficult. Our manager acknowledged that the situation was unacceptable, apologised for the delay and promised to escalate it with the repair company. She also clarified that nobody would be expected to work in the office if the temperature went above thirty-two degrees. In the end, we agreed to let people work from home on the hottest afternoons. You've been asked to let her know which days you'd prefer by Wednesday, so don't forget!"
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกการประชุมหรือการคุยจริง แล้วจดคำสำคัญตามโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้กริยารายงานอย่างน้อย 3 ตัว (เช่น proposed acknowledged promised) และรูปที่ตามมาถูก
+        - แยกให้ชัดว่าใครเสนอ ใครค้าน และมติคืออะไร
+        - บอกสิ่งที่ผู้ฟังต้องทำพร้อมกำหนดเวลา
+        - พูดได้ประมาณ 90 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b2-w07-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 7
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [5, 6, 7], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
