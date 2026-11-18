@@ -1,0 +1,171 @@
+# คอร์ส c1 · สัปดาห์ 1 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 1
+phase: 1
+theme_th: พูดให้แม่นยำ
+focus_th: ความต่างเล็กน้อยของ tense (perfect กับ continuous · กริยาสภาวะ) · modality ระดับสูง (bound to · likely to · modal perfect · needn't have กับ didn't need to)
+can_do_th:
+  - อธิบายแนวคิดที่ซับซ้อนได้ชัดและกระชับ
+  - จับความหมายแฝงและทัศนะของผู้เขียนได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ความต่างเล็กน้อยของ tense
+    lesson:
+      rule_th: "ระดับนี้ไม่ใช่แค่ถูกหรือผิด แต่คือ ==เลือกรูปให้ตรงกับสิ่งที่อยากเน้น== มีจำนวนชิ้นงานใช้ have + ช่อง 3 · เน้นระยะเวลาหรือร่องรอยที่เห็นใช้ ++have been + -ing++"
+      examples:
+        - {en: "I <k>have written</k> three reports this morning.", th: "มีจำนวนชิ้นที่เสร็จ"}
+        - {en: "I <k>have been working</k> all morning, so I'm exhausted.", th: "เน้นกิจกรรมต่อเนื่องและผลที่เห็น"}
+        - {en: "Kanya <k>is being</k> difficult today.", th: "==be + -ing== = ทำตัวแบบนั้นชั่วคราว"}
+        - {en: "I <k>was going to</k> call you, but I lost your number.", th: "ตั้งใจไว้แต่ไม่ได้ทำ"}
+      signals:
+        - {label_th: "เน้นผลหรือจำนวน", words: [three reports, already, just, so far]}
+        - {label_th: "เน้นระยะหรือร่องรอย", words: [all morning, lately, for hours, "that's why"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มีรูปกริยาบอกมุมมอง คนเก่งแล้วจึงยังใช้ ~~continuous กับกริยาสภาวะ~~ และใส่ continuous กับงานที่นับจำนวนได้"
+        wrong: ["I'm knowing the answer.", "I've been writing three reports today.", "What are you thinking of the plan?"]
+        right: ["I know the answer.", "I've written three reports today.", "What do you think of the plan?"]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่าอยากเน้น ==ผลลัพธ์หรือช่วงเวลาที่ทำ== แล้วค่อยเลือกรูป"}
+        - {kind: warn, th: "think / taste / have ใช้ -ing ได้เมื่อความหมายเปลี่ยนเป็นการกระทำ เช่น having lunch"}
+    check: [cefr-c1-w01-001, cefr-c1-w01-002]
+    practice: [cefr-c1-w01-003, cefr-c1-w01-004, cefr-c1-w01-005, cefr-c1-w01-006, cefr-c1-w01-007, cefr-c1-w01-008, cefr-c1-w01-009, cefr-c1-w01-010, cefr-c1-w01-011, cefr-c1-w01-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าสิ่งที่คุณทำสำเร็จแล้วในปีนี้ และสิ่งที่ทำต่อเนื่องมาตลอดช่วงหลัง
+      frame: "This year I have ____. Lately, I've been ____, which is why ____."
+      model: "This year I have read twelve books in English. Lately, I've been listening to podcasts on the way to work, which is why my listening has improved."
+    classroom: {en: "I've been meaning to ask you about that.", th: "ตั้งใจจะถามเรื่องนี้อยู่พอดี"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การสื่อสารอย่างแม่นยำ 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้พูดถึงการสื่อสารเอง แยกคู่ตรงข้ามให้ขาด ==explicit (ชัดแจ้ง) กับ implicit (โดยนัย)== และระวัง ++allude ต้องมี to++ เสมอ"
+      examples:
+        - {en: "She <k>articulated</k> her concerns clearly.", th: "อธิบายความคิดออกมาได้ชัด"}
+        - {en: "The rules weren't <k>explicit</k>, but they were <k>implicit</k>.", th: "==เขียนชัด กับ เข้าใจกันเอง=="}
+        - {en: "He <k>alluded to</k> the problem without naming it.", th: "พูดเป็นนัย"}
+        - {en: "The word has a negative <k>connotation</k>.", th: "ความหมายแฝง"}
+      words:
+        - {w: articulate, pos: v./adj., th: อธิบายได้ชัด พูดชัดเจน, ex: "She is articulate and confident in meetings."}
+        - {w: convey, pos: v., th: สื่อ ถ่ายทอด, ex: "Emojis help convey tone in messages."}
+        - {w: coherent, pos: adj., th: ต่อเนื่องมีเหตุผล, ex: "His argument was clear and coherent."}
+        - {w: concise, pos: adj., th: กระชับ, ex: "Keep your answers concise."}
+        - {w: explicit, pos: adj., th: ชัดแจ้ง, ex: "The instructions were explicit about the deadline."}
+        - {w: implicit, pos: adj., th: โดยนัย, ex: "There was an implicit promise of promotion."}
+        - {w: nuance, pos: n., th: ความต่างเล็ก ๆ ที่ละเอียดอ่อน, ex: "Translation is all about nuance."}
+        - {w: ambiguous, pos: adj., th: กำกวม, ex: "The question was ambiguous."}
+        - {w: lucid, pos: adj., th: ชัดเจน แจ่มแจ้ง, ex: "She gave a lucid explanation of the theory."}
+        - {w: eloquent, pos: adj., th: พูดเก่ง ไพเราะ, ex: "He made an eloquent speech at the wedding."}
+        - {w: connotation, pos: n., th: ความหมายแฝง, ex: "The word 'old' can have negative connotations."}
+        - {w: allude, pos: v., th: พูดเป็นนัย, ex: "She alluded to her health problems."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า สื่อ คำเดียว คนเลยใช้ ~~communicate a message~~ แทน convey และลืม to หลัง allude"
+        wrong: ["It's hard to communicate a feeling in one word.", "He alluded the problem."]
+        right: ["It's hard to convey a feeling in one word.", "He alluded to the problem."]
+      notes:
+        - {kind: pin, th: "==convey a message / feeling== · articulate an idea · allude to something"}
+        - {kind: use, th: "ชมคนในที่ประชุมว่า That was a very lucid explanation. ฟังสุภาพและเป็นธรรมชาติ"}
+    check: [cefr-c1-w01-013, cefr-c1-w01-014]
+    practice: [cefr-c1-w01-015, cefr-c1-w01-016, cefr-c1-w01-017, cefr-c1-w01-018, cefr-c1-w01-019, cefr-c1-w01-020, cefr-c1-w01-021, cefr-c1-w01-022, cefr-c1-w01-023, cefr-c1-w01-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเปรียบเทียบคำสั่งงานที่ชัดเจนกับที่กำกวมซึ่งคุณเคยได้รับ
+      frame: "The best instructions I've received were ____ and ____. The worst were so ____ that ____."
+      model: "The best instructions I've received were concise and explicit about the deadline. The worst were so ambiguous that three of us did the same task."
+    classroom: {en: "Could you be a little more explicit about what you need?", th: "ช่วยบอกให้ชัดกว่านี้หน่อยได้ไหมว่าต้องการอะไร"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ระดับความแน่ใจ และ modal perfect
+    lesson:
+      rule_th: "ไล่ความแน่ใจจาก ==bound to → likely to → might== (แน่นอน → น่าจะ → อาจจะ) และแยกให้ขาด ++needn't have = ทำไปแล้วโดยไม่จำเป็น++ ส่วน didn't need to = ไม่จำเป็นเลยไม่ได้ทำ"
+      examples:
+        - {en: "We're <k>bound to</k> be late.", th: "แน่นอนว่าจะสาย"}
+        - {en: "Rents are <k>likely to</k> rise.", th: "น่าจะ ไม่ถึงกับแน่"}
+        - {en: "I <k>needn't have cooked</k> so much.", th: "==ทำไปแล้ว แต่ไม่จำเป็น=="}
+        - {en: "He <k>can't have been</k> there. I didn't see him.", th: "มั่นใจว่าไม่ใช่ในอดีต"}
+      signals:
+        - {label_th: "คาดเดาอดีต", words: [must have, might have, can't have, should have]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ไม่จำเป็นต้อง... ก็ได้ คำเดียว คนจึงสลับ ~~needn't have กับ didn't need to~~ และใช้ mustn't have แทน can't have"
+        wrong: ["I didn't need to cook so much, so there's lots left.", "He mustn't have seen the email."]
+        right: ["I needn't have cooked so much, so there's lots left.", "He can't have seen the email."]
+      notes:
+        - {kind: tip, th: "ถามว่า ==ทำไปแล้วหรือยัง== ทำแล้วใช้ needn't have ไม่ได้ทำใช้ didn't need to"}
+        - {kind: warn, th: "ตรงข้ามของ must have คือ can't have ไม่ใช่ mustn't have"}
+    check: [cefr-c1-w01-025, cefr-c1-w01-026]
+    practice: [cefr-c1-w01-027, cefr-c1-w01-028, cefr-c1-w01-029, cefr-c1-w01-030, cefr-c1-w01-031, cefr-c1-w01-032, cefr-c1-w01-033, cefr-c1-w01-034]
+    use:
+      prompt_th: เขียน 2 ประโยค เรื่องที่คุณกังวลเกินเหตุ และคาดเดาสิ่งที่น่าจะเกิดกับเพื่อนที่ไม่ตอบข้อความ
+      frame: "I needn't have worried about ____ because ____. My friend hasn't replied. She must/might/can't have ____."
+      model: "I needn't have worried about the interview because the panel was very friendly. My friend hasn't replied. She might have left her phone at home."
+    classroom: {en: "You needn't have gone to all that trouble.", th: "ไม่ต้องลำบากขนาดนั้นก็ได้นะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความและฟังบรรยาย
+    lesson:
+      rule_th: "บทความระดับนี้มักเปิดด้วย ==ความเชื่อทั่วไปแล้วแย้ง== ประเด็นหลักจึงอยู่หลังคำอย่าง however หรือ in fact และข้ออนุมานต้อง ++มีหลักฐานในบท++ ไม่ใช่สิ่งที่เราคิดเอง"
+      examples:
+        - {en: "Most managers believe ... Their staff, <k>however</k>, often disagree.", th: "แย้งความเชื่อทั่วไป"}
+        - {en: "<k>In fact</k>, research suggests ...", th: "==ตรงนี้คือประเด็นจริง=="}
+        - {en: "<k>Not in so many words.</k>", th: "ไม่ได้พูดตรง แต่สื่อเป็นนัย"}
+      thai_trap:
+        intro_th: "คำตอบที่ ~~ฟังดูดีและน่าจะจริง~~ แต่บทไม่ได้พูด เป็นตัวลวงประจำของข้ออนุมาน"
+        wrong: ["ตอบว่าทีมไม่ทำผิดอีกเลย เพราะฟังดูเป็นผลดี"]
+        right: ["บทบอกแค่ว่าความล่าช้าลดลงและทีมกล้าถามมากขึ้น"]
+      notes:
+        - {kind: tip, th: "ข้ออนุมาน ให้ชี้ ==ประโยคในบทที่เป็นหลักฐาน== ได้ทุกครั้ง ถ้าชี้ไม่ได้อย่าเลือก"}
+        - {kind: warn, th: "คำตอบที่ถูกมักใช้คำต่างจากในบท ส่วนตัวลวงมักลอกคำในบทมาตรง ๆ"}
+    check: [cefr-c1-w01-036, cefr-c1-w01-037]
+    practice: [cefr-c1-w01-035, cefr-c1-w01-038, cefr-c1-w01-039, cefr-c1-w01-040, cefr-c1-w01-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปใจความของบทความที่อ่าน โดยใช้คำของคุณเอง
+      frame: "The article argues that ____. The key point is that ____."
+      model: "The article argues that misunderstandings at work come from unstated expectations rather than poor language. The key point is that short messages are fine if they say what, how well and by when."
+    classroom: {en: "Just to be clear, what exactly do you need and by when?", th: "ขอให้ชัดนะ ต้องการอะไรและภายในเมื่อไร"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด อธิบายแนวคิดนามธรรมให้คนทั่วไปเข้าใจ 2 นาที
+    lab:
+      mode: speak
+      prompt_th: เลือกแนวคิดนามธรรม 1 เรื่อง (เช่น ความไว้ใจในทีม เวลาส่วนตัว ความยุติธรรม) แล้วพูดอธิบายให้คนที่ไม่รู้เรื่องนี้เข้าใจใน 2 นาที นิยามสั้น ๆ ยกตัวอย่างจากชีวิตจริง บอกสิ่งที่คนมักเข้าใจผิด และสรุปในประโยคเดียว
+      frame:
+        - "Put simply, ____ is ____."
+        - "To give you an example, ____."
+        - "A common misunderstanding is that ____. In fact, ____."
+        - "This matters because ____."
+        - "So, if there's one thing to remember, it's that ____."
+      model_pass: "Put simply, trust in a team is the feeling that you can make a mistake without being punished. To give you an example, when I started my job, my manager told me she had also made mistakes in her first year. A common misunderstanding is that trust comes from being friendly. In fact, it comes from how people react when something goes wrong. This matters because people who feel safe ask more questions. So, if there's one thing to remember, it's that trust is built in difficult moments, not easy ones."
+      model_good: "Put simply, trust in a team is the confidence that you can admit a mistake without being judged for it. To give you an example, a former manager of mine once opened a meeting by describing an error she had made that week, and it completely changed how the rest of us spoke up. A common misunderstanding is that trust comes from team-building activities or being friendly. In fact, it's built far more quietly, through hundreds of small reactions when things go wrong. This matters because teams with high trust tend to spot problems earlier, simply because people aren't afraid to mention them. So, if there's one thing to remember, it's that trust isn't declared, it's demonstrated."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกแนวคิดของคุณ แล้วจดคำสำคัญของแต่ละส่วนในโครง 5 ส่วน (ไม่เขียนเต็มประโยค)
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยดูแค่คำสำคัญ
+      checklist_th:
+        - นิยามแนวคิดในประโยคเดียวที่คนทั่วไปเข้าใจ
+        - มีตัวอย่างจากชีวิตจริงที่เจาะจง (คน สถานที่ หรือเหตุการณ์)
+        - ใช้โครงสร้างของสัปดาห์อย่างน้อย 2 แบบ เช่น have been -ing · needn't have · is likely to
+        - พูดได้ประมาณ 2 นาที เชื่อมแต่ละส่วนด้วยวลีนำ (To give you an example · In fact)
+    practice: [cefr-c1-w01-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 1
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [1], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

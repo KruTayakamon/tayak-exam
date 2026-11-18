@@ -1,0 +1,580 @@
+# คอร์ส c1 · สัปดาห์ 2 · เน้นด้วยการสลับลำดับ · negative inversion · เงื่อนไขแบบสลับลำดับ (Had I known · Were it not for · Should you need)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · ขึ้นต้นด้วยคำปฏิเสธ ----------
+- id: cefr-c1-w02-001
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 1
+  stem: Never ____ such a beautiful sunrise.
+  choices:
+    - {t: have I seen, why: "ขึ้นต้นด้วย Never ต้องสลับกริยาช่วยมาหน้าประธาน ++have I seen++"}
+    - {t: I have seen, why: "หลัง Never ที่ขึ้นต้นประโยค ต้องสลับลำดับ"}
+    - {t: I saw, why: "ไม่สลับลำดับ และขาดกริยาช่วยที่ต้องย้ายมาหน้า"}
+    - {t: did I saw, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "คำปฏิเสธขึ้นต้น → ==กริยาช่วย + ประธาน== เหมือนคำถาม"
+  status: draft
+- id: cefr-c1-w02-002
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 1
+  stem: Rarely ____ late for work, so everyone was surprised this morning.
+  choices:
+    - {t: is she, why: "Rarely ขึ้นต้น สลับ be มาหน้าประธาน ++is she++"}
+    - {t: she is, why: "หลัง Rarely ที่ขึ้นต้นประโยคต้องสลับลำดับ"}
+    - {t: does she, why: "late เป็นคำคุณศัพท์ ต้องใช้ be ไม่ใช่ does"}
+    - {t: she does, why: "ไม่สลับลำดับ และใช้กริยาผิดตัว"}
+  explain: "ประโยคเดิมใช้ be สลับ be · ไม่มีกริยาช่วยให้ ==ใช้ do/does/did=="
+  status: draft
+- id: cefr-c1-w02-003
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: Not until the results came out ____ how serious the problem was.
+  choices:
+    - {t: did we realise, why: "Not until ... ส่วนหลังต้องสลับ ใช้ ++did we realise++"}
+    - {t: we realised, why: "หลังวลี Not until ต้องสลับลำดับในประโยคหลัก"}
+    - {t: we did realise, why: "ไม่สลับลำดับหลังวลี Not until"}
+    - {t: did we realised, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "Not until + เวลา/ประโยค ==แล้วจึงสลับในประโยคหลัก=="
+  status: draft
+- id: cefr-c1-w02-004
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: No sooner had we sat down ____ the fire alarm went off.
+  choices:
+    - {t: than, why: "No sooner ... ใช้คู่กับ ++than++"}
+    - {t: when, why: "when ใช้คู่กับ Hardly / Scarcely ไม่ใช่ No sooner"}
+    - {t: then, why: "then ไม่ใช่คู่ของ No sooner"}
+    - {t: that, why: "that ไม่ใช่คู่ของ No sooner"}
+  explain: "==No sooner ... than== · Hardly ... when (เพิ่งจะ...ก็...)"
+  status: draft
+- id: cefr-c1-w02-005
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: Hardly had the meeting started ____ the projector broke down.
+  choices:
+    - {t: when, why: "Hardly ... ใช้คู่กับ ++when++"}
+    - {t: than, why: "than ใช้คู่กับ No sooner"}
+    - {t: then, why: "then ไม่ใช่คู่ของ Hardly"}
+    - {t: as, why: "as ไม่ใช่คู่ของ Hardly"}
+  explain: "==Hardly / Scarcely ... when== = เพิ่งจะ...ก็..."
+  status: draft
+- id: cefr-c1-w02-006
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: Under no circumstances ____ leave the building during the inspection.
+  choices:
+    - {t: should staff, why: "Under no circumstances ขึ้นต้น สลับกริยาช่วย ++should staff++"}
+    - {t: staff should, why: "ต้องสลับลำดับหลังวลีปฏิเสธที่ขึ้นต้น"}
+    - {t: staff shouldn't, why: "ไม่สลับลำดับ และปฏิเสธซ้อน"}
+    - {t: shouldn't staff, why: "ปฏิเสธซ้อนกับ no ความหมายกลับกัน"}
+  explain: "วลีปฏิเสธมีคำว่า no อยู่แล้ว ==ห้ามใส่ not ซ้ำ=="
+  status: draft
+- id: cefr-c1-w02-007
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: Only after I had moved abroad ____ how much I missed Thai food.
+  choices:
+    - {t: did I understand, why: "Only after ... ส่วนหลังต้องสลับ ++did I understand++"}
+    - {t: I understood, why: "หลังวลี Only after ต้องสลับลำดับในประโยคหลัก"}
+    - {t: had I understood, why: "เข้าใจทีหลังการย้าย ใช้ past perfect ไม่ได้"}
+    - {t: I did understand, why: "ไม่สลับลำดับหลังวลี Only after"}
+  explain: "==Only after / Only when / Only then== ก็สลับลำดับเหมือนคำปฏิเสธ"
+  status: draft
+- id: cefr-c1-w02-008
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 1
+  stem: Seldom ____ a customer complain about our delivery service.
+  choices:
+    - {t: do we hear, why: "ไม่มีกริยาช่วย จึงเติม ++do++ แล้วสลับ"}
+    - {t: we hear, why: "หลัง Seldom ที่ขึ้นต้นต้องสลับลำดับ"}
+    - {t: hear we, why: "สลับกริยาแท้มาหน้าประธานไม่ได้ ต้องใช้ do"}
+    - {t: do we heard, why: "หลัง do ต้องใช้กริยารูปเดิม"}
+  explain: "ไม่มีกริยาช่วย ==เติม do/does/did แล้วสลับ=="
+  status: draft
+- id: cefr-c1-w02-009
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  stem: Not only ____ late, but he also forgot to bring the documents.
+  choices:
+    - {t: was he, why: "Not only ขึ้นต้น สลับ be ++was he++"}
+    - {t: he was, why: "หลัง Not only ที่ขึ้นต้นต้องสลับลำดับ"}
+    - {t: did he, why: "late เป็นคำคุณศัพท์ ต้องใช้ be"}
+    - {t: he did, why: "ไม่สลับลำดับ และใช้กริยาผิดตัว"}
+  explain: "==Not only + กริยาช่วย + ประธาน==, but ... also ..."
+  status: draft
+- id: cefr-c1-w02-010
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  stem: Little ____ that the small café would one day become a national chain.
+  choices:
+    - {t: did they know, why: "Little = แทบไม่รู้เลย ขึ้นต้นแล้วสลับ ++did they know++"}
+    - {t: they knew, why: "Little ขึ้นต้นในความหมายปฏิเสธต้องสลับลำดับ"}
+    - {t: they did know, why: "ไม่สลับลำดับหลังคำว่า Little"}
+    - {t: knew they, why: "สลับกริยาแท้มาหน้าไม่ได้ ต้องใช้ did"}
+  explain: "Little did I know = ==ไม่รู้เลยว่า== (ใช้เล่าเรื่องให้ตื่นเต้น)"
+  status: draft
+- id: cefr-c1-w02-011
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: Which sentence about the meeting is correct?
+  choices:
+    - {t: "At no point did the manager mention a pay cut.", why: "At no point + did + ประธาน + กริยารูปเดิม ++ถูกต้อง++"}
+    - {t: "At no point the manager mentioned a pay cut.", why: "ไม่สลับลำดับหลังวลีปฏิเสธ"}
+    - {t: "At no point didn't the manager mention a pay cut.", why: "ปฏิเสธซ้อน ความหมายกลับกัน"}
+    - {t: "At no point did the manager mentioned a pay cut.", why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "ตรวจ 3 จุด ==สลับลำดับ== · ไม่ปฏิเสธซ้อน · กริยารูปเดิมหลัง did"
+  status: draft
+- id: cefr-c1-w02-012
+  kind: type
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  stem: "N____ have I felt so welcome in a new job. (ไม่เคยเลย)"
+  answer: never
+  accept: [never, Never]
+  why: "Never ขึ้นต้นประโยคแล้วสลับ have I เพื่อเน้น"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ความรุนแรงและความเร่งด่วน ----------
+- id: cefr-c1-w02-013
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 1
+  stem: The flooding this year was ____. Nothing like it had ever happened before.
+  choices:
+    - {t: unprecedented, why: "ไม่เคยเกิดมาก่อน ใช้ ++unprecedented++"}
+    - {t: imminent, why: "imminent แปลว่าใกล้จะเกิด ขัดกับเกิดไปแล้ว"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์ แปลว่าเสมอ ๆ"}
+    - {t: incessant, why: "incessant แปลว่าไม่หยุด ไม่ได้บอกว่าไม่เคยเกิด"}
+  explain: "unprecedented = ==ไม่เคยมีมาก่อน=="
+  status: draft
+- id: cefr-c1-w02-014
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 1
+  stem: Dark clouds were gathering, and a storm seemed ____.
+  choices:
+    - {t: imminent, why: "ใกล้จะเกิดในไม่ช้า ใช้ ++imminent++"}
+    - {t: unprecedented, why: "unprecedented ไม่ได้บอกว่าใกล้จะเกิด"}
+    - {t: profound, why: "profound แปลว่าลึกซึ้ง ไม่ใช้กับพายุ"}
+    - {t: substantial, why: "substantial แปลว่ามาก ไม่ได้บอกเวลา"}
+  explain: "imminent = ==ใกล้จะเกิดเต็มที=="
+  status: draft
+- id: cefr-c1-w02-015
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: Passenger safety is ____. Nothing else matters more.
+  choices:
+    - {t: paramount, why: "สำคัญที่สุดเหนือทุกอย่าง ใช้ ++paramount++"}
+    - {t: incessant, why: "incessant แปลว่าไม่หยุด"}
+    - {t: imminent, why: "imminent แปลว่าใกล้จะเกิด"}
+    - {t: acute, why: "acute ใช้กับปัญหาหรืออาการที่รุนแรง ไม่ใช่สิ่งสำคัญที่สุด"}
+  explain: "paramount = ==สำคัญที่สุด เหนือสิ่งอื่น=="
+  status: draft
+- id: cefr-c1-w02-016
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: It is ____ that all staff complete the safety training before Monday.
+  choices:
+    - {t: imperative, why: "จำเป็นเร่งด่วนต้องทำ ใช้ ++It is imperative that++"}
+    - {t: unprecedented, why: "unprecedented ไม่ได้บอกว่าต้องทำ"}
+    - {t: profound, why: "It is profound that ไม่มีความหมายนี้"}
+    - {t: incessant, why: "incessant ไม่ใช้กับโครงสร้าง It is ... that"}
+  explain: "It is ==imperative / essential / vital== that + ประโยค"
+  status: draft
+- id: cefr-c1-w02-017
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: The company made a ____ profit last year, almost double the year before.
+  choices:
+    - {t: substantial, why: "จำนวนมากอย่างมีนัยสำคัญ ใช้ ++substantial++"}
+    - {t: imminent, why: "imminent profit ไม่ใช่วลีที่ใช้"}
+    - {t: acute, why: "acute ใช้กับปัญหาหรือความเจ็บปวด"}
+    - {t: incessant, why: "incessant ใช้กับสิ่งที่ไม่หยุด เช่น เสียง"}
+  explain: "substantial = ==มากอย่างมีนัย ปริมาณเยอะ=="
+  status: draft
+- id: cefr-c1-w02-018
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: Becoming a parent had a ____ effect on how he saw the world.
+  choices:
+    - {t: profound, why: "ผลกระทบลึกซึ้งต่อความคิด ใช้ ++profound++"}
+    - {t: imminent, why: "imminent ไม่ได้บอกความลึกของผลกระทบ"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์ วางหน้าคำนามไม่ได้"}
+    - {t: incessant, why: "incessant effect ไม่ใช่วลีที่ใช้"}
+  explain: "a profound effect / impact / change = ==ผลกระทบลึกซึ้ง=="
+  status: draft
+- id: cefr-c1-w02-019
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: The new team faces a ____ challenge, with only two months to rebuild the system.
+  choices:
+    - {t: formidable, why: "ยากและน่าเกรงขาม ใช้ ++formidable++"}
+    - {t: paramount, why: "paramount แปลว่าสำคัญที่สุด ไม่ใช่ยาก"}
+    - {t: imminent, why: "imminent challenge ไม่ได้บอกความยาก"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์ วางหน้าคำนามไม่ได้"}
+  explain: "a formidable task / opponent = ==ยากมาก น่าเกรงขาม=="
+  status: draft
+- id: cefr-c1-w02-020
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: There is an ____ shortage of nurses in rural hospitals.
+  choices:
+    - {t: acute, why: "ขาดแคลนรุนแรง ใช้ ++an acute shortage++"}
+    - {t: imperative, why: "imperative shortage ไม่ใช่วลีที่ใช้"}
+    - {t: eloquent, why: "eloquent ใช้กับการพูด ไม่ใช่การขาดแคลน"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์ วางหน้าคำนามไม่ได้"}
+  explain: "an ==acute shortage / acute pain== = รุนแรงมาก"
+  status: draft
+- id: cefr-c1-w02-021
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: The ____ noise from the construction site made it impossible to concentrate.
+  choices:
+    - {t: incessant, why: "ไม่หยุดเลย ใช้ ++incessant++"}
+    - {t: imminent, why: "imminent noise ไม่ได้บอกว่าดังต่อเนื่อง"}
+    - {t: paramount, why: "paramount แปลว่าสำคัญที่สุด"}
+    - {t: profound, why: "profound noise ไม่ใช่วลีที่ใช้"}
+  explain: "incessant = ==ไม่หยุดหย่อน== (มักใช้กับสิ่งที่น่ารำคาญ)"
+  status: draft
+- id: cefr-c1-w02-022
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: Whenever the boss is away, the meetings ____ run over time.
+  choices:
+    - {t: invariably, why: "เกิดขึ้นทุกครั้งไม่มีข้อยกเว้น ใช้ ++invariably++"}
+    - {t: imminent, why: "imminent เป็นคำคุณศัพท์ วางหน้ากริยาไม่ได้"}
+    - {t: substantial, why: "substantial เป็นคำคุณศัพท์ วางหน้ากริยาไม่ได้"}
+    - {t: incessant, why: "incessant เป็นคำคุณศัพท์ ต้องเป็น incessantly"}
+  explain: "invariably = ==ทุกครั้ง เสมอไม่มีเว้น=="
+  status: draft
+- id: cefr-c1-w02-023
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 3
+  stem: Cutting the cleaning budget will only ____ the hygiene problems we already have.
+  choices:
+    - {t: exacerbate, why: "ทำให้ปัญหาที่มีอยู่แย่ลง ใช้ ++exacerbate++"}
+    - {t: deteriorate, why: "deteriorate ไม่มีกรรม ใช้ deteriorate the problems ไม่ได้"}
+    - {t: alleviate, why: "alleviate แปลว่าบรรเทา ขัดกับการตัดงบ"}
+    - {t: invariably, why: "invariably เป็นคำวิเศษณ์ ใช้เป็นกริยาไม่ได้"}
+  explain: "exacerbate + ==ปัญหา== (มีกรรม) · deteriorate ไม่มีกรรม"
+  status: draft
+- id: cefr-c1-w02-024
+  kind: type
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  stem: "Without regular maintenance, the old bridge will continue to d__________. (เสื่อมลง)"
+  answer: deteriorate
+  accept: [deteriorate]
+  why: "deteriorate = แย่ลง เสื่อมลง ไม่ต้องมีกรรม ใช้หลัง continue to ได้"
+  status: draft
+# ---------- วันที่ 3 · เงื่อนไขแบบสลับลำดับ ----------
+- id: cefr-c1-w02-025
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 1
+  stem: ____ I known about the strike, I would have taken the train.
+  choices:
+    - {t: Had, why: "ตัด If แล้วสลับ had มาหน้า ++Had I known++ = If I had known"}
+    - {t: If, why: "If I known ขาด had"}
+    - {t: Have, why: "เรื่องอดีตที่ไม่จริงต้องใช้ had"}
+    - {t: Did, why: "Did I known ผิดรูป"}
+  explain: "If I had known = ==Had I known== (ทางการ)"
+  status: draft
+- id: cefr-c1-w02-026
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 1
+  stem: ____ you need any further information, please do not hesitate to contact me.
+  choices:
+    - {t: Should, why: "If you should need = ++Should you need++ ใช้ปิดอีเมลทางการ"}
+    - {t: Would, why: "Would you need ไม่ใช่เงื่อนไข"}
+    - {t: Had, why: "Had you need ผิดรูป"}
+    - {t: Were, why: "Were you need ผิดรูป ต้องเป็น Were you to need"}
+  explain: "ปิดอีเมลทางการ ==Should you need / have any questions,=="
+  status: draft
+- id: cefr-c1-w02-027
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  stem: Had it not ____ for her support, I would never have finished my degree.
+  choices:
+    - {t: been, why: "ถ้าไม่ใช่เพราะ... ในอดีต ใช้ ++Had it not been for++"}
+    - {t: being, why: "หลัง had ต้องเป็นช่อง 3 ไม่ใช่ -ing"}
+    - {t: be, why: "หลัง had ต้องเป็นช่อง 3 ไม่ใช่กริยารูปเดิม"}
+    - {t: was, why: "had was ผิดรูป ใช้กริยาสองตัวซ้อนไม่ได้"}
+  explain: "อดีต ==Had it not been for + คำนาม== · ปัจจุบัน Were it not for"
+  status: draft
+- id: cefr-c1-w02-028
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  stem: ____ it not for the rain, we could have the party outside.
+  choices:
+    - {t: Were, why: "สมมติปัจจุบัน ถ้าไม่ใช่เพราะฝน ใช้ ++Were it not for++"}
+    - {t: Had, why: "Had it not for ขาด been และเป็นอดีต"}
+    - {t: Should, why: "Should it not for ผิดรูป"}
+    - {t: If, why: "If it not for ขาดกริยา ต้องเป็น If it were not for"}
+  explain: "ถ้าไม่ใช่เพราะ... (ตอนนี้) = ==Were it not for + คำนาม=="
+  status: draft
+- id: cefr-c1-w02-029
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  stem: Had it not been for the seat belt, he ____ seriously injured.
+  choices:
+    - {t: would have been, why: "สมมติอดีตคู่กับ Had ... been ใช้ ++would have been++"}
+    - {t: would be, why: "would be เป็นผลในปัจจุบัน แต่อุบัติเหตุเกิดในอดีต"}
+    - {t: will have been, why: "will ไม่ใช้กับเรื่องสมมติในอดีต"}
+    - {t: had been, why: "ส่วนผลต้องมี would"}
+  explain: "Had ... ==would have + ช่อง 3== (อดีตที่ไม่ได้เกิดจริง)"
+  status: draft
+- id: cefr-c1-w02-030
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  stem: Were the company ____ its prices, many customers would leave.
+  choices:
+    - {t: to raise, why: "Were + ประธาน + ++to + กริยา++ = ถ้าเกิดว่า"}
+    - {t: raise, why: "หลัง Were ... ต้องมี to"}
+    - {t: raised, why: "Were the company raised เปลี่ยนเป็นรูปถูกกระทำ ความหมายผิด"}
+    - {t: raising, why: "Were the company raising ไม่ใช่รูปเงื่อนไขทางการ"}
+  explain: "If the company were to raise = ==Were the company to raise=="
+  status: draft
+- id: cefr-c1-w02-031
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 3
+  stem: ____ we left an hour earlier, we wouldn't be stuck in this traffic now.
+  choices:
+    - {t: Had, why: "อดีต (ออกเร็วกว่านี้) ส่งผลถึงปัจจุบัน (ตอนนี้) ใช้ ++Had++ แบบผสม"}
+    - {t: Were, why: "Were we left ผิดรูป และเป็นรูปปัจจุบัน"}
+    - {t: Should, why: "Should we left ผิดรูป"}
+    - {t: Did, why: "Did we left ไม่ใช่โครงสร้างเงื่อนไข"}
+  explain: "เงื่อนไขผสม ==Had + ช่อง 3, would + กริยา (now)=="
+  status: draft
+- id: cefr-c1-w02-032
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  stem: Which sentence has the same meaning as "If you should see Mai, tell her to call me"?
+  choices:
+    - {t: "Should you see Mai, tell her to call me.", why: "ตัด If แล้วสลับ ++Should you++ ความหมายเท่าเดิม"}
+    - {t: "Had you seen Mai, tell her to call me.", why: "Had ใช้กับอดีตที่ไม่ได้เกิด ไม่ตรงความหมาย"}
+    - {t: "Were you see Mai, tell her to call me.", why: "Were you ต้องตามด้วย to see"}
+    - {t: "You should see Mai and tell her to call me.", why: "กลายเป็นคำแนะนำ ไม่ใช่เงื่อนไข"}
+  explain: "If ... should = ==Should + ประธาน== (ถ้าบังเอิญ)"
+  status: draft
+- id: cefr-c1-w02-033
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 3
+  stem: ____ the government acted sooner, the crisis might have been avoided.
+  choices:
+    - {t: Had, why: "อดีตที่ไม่ได้เกิด might have been ใช้ ++Had ... acted++"}
+    - {t: Should, why: "Should ใช้กับอนาคตที่อาจเกิด ไม่ใช่อดีต"}
+    - {t: Were, why: "Were the government acted ผิดรูป"}
+    - {t: Would, why: "Would ไม่ใช้ขึ้นเงื่อนไข"}
+  explain: "Had + ประธาน + ช่อง 3 = ==If ... had + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w02-034
+  kind: cloze
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  text: |
+    Dear residents, rarely (1) ____ we faced such a severe water shortage. Had the dam (2) ____ repaired last year, the situation would be far better today. (3) ____ you notice any leaks, please report them to the office immediately.
+  questions:
+    - choices:
+        - {t: have, why: "rarely ขึ้นต้น สลับ have มาหน้า we"}
+        - {t: do, why: "ประโยคใช้ faced (ช่อง 3) ต้องคู่กับ have"}
+        - {t: did, why: "did ต้องตามด้วยกริยารูปเดิม ไม่ใช่ faced"}
+        - {t: are, why: "are ไม่ใช้กับ faced ในความหมายนี้"}
+    - choices:
+        - {t: been, why: "Had the dam been repaired = ถ้าเขื่อนได้รับการซ่อม (ถูกกระทำ)"}
+        - {t: being, why: "had being ผิดรูป"}
+        - {t: be, why: "had be ผิดรูป ต้องเป็นช่อง 3"}
+        - {t: was, why: "had was ผิดรูป ใช้กริยาซ้อนไม่ได้"}
+    - choices:
+        - {t: Should, why: "เงื่อนไขทางการสำหรับอนาคต Should you notice"}
+        - {t: Had, why: "Had you notice ผิดรูป"}
+        - {t: Were, why: "Were you notice ผิดรูป ต้องมี to"}
+        - {t: Did, why: "Did you notice เป็นคำถาม ไม่ใช่เงื่อนไข"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทบรรณาธิการและฟังสุนทรพจน์ ----------
+- id: cefr-c1-w02-035
+  kind: read
+  skill: rd
+  topic: editorial
+  level: 2
+  title: "Editorial · The Reading Crisis We Refuse to See"
+  passage: |
+    Never before have so many young people had so much access to information, and rarely have they read so little of it with care. A recent survey in the fictional province of Lanna Valley found that only a third of fifteen-year-olds could identify the main argument of a simple newspaper article. The figure was unprecedented, and the response from officials was, at best, muted.
+
+    It would be easy to blame smartphones. Yet the problem began long before the first phone arrived in a classroom. For years, reading lessons have focused on finding facts in a text rather than understanding why it was written. Students have become skilled at scanning for answers and strikingly poor at noticing what an author is trying to persuade them to believe.
+
+    The consequences go well beyond exam scores. Adults who cannot tell an argument from an advertisement are easier to mislead, whether by a dishonest seller or a persuasive politician. In this sense, the reading crisis is also a democratic one.
+
+    There is no single solution, but some steps are imperative. Schools should give students longer texts and more time to discuss them. Libraries, many of which have quietly closed, need funding again. Above all, parents should read in front of their children, not merely tell them to read. Were adults to model the habit themselves, the effect would be profound. Should we fail to act, the gap between those who read critically and those who do not will only widen.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: weak critical reading is a serious problem that needs action, why: "ทั้งบทชี้ว่าการอ่านเชิงวิเคราะห์อ่อนลงและเสนอสิ่งที่ต้องทำ"}
+        - {t: smartphones are the main cause of the problem, why: "ผู้เขียนบอกว่าโทษโทรศัพท์ง่ายเกินไป ปัญหาเริ่มก่อนนั้น"}
+        - {t: exam scores in the province are falling, why: "ผู้เขียนบอกว่าผลกระทบไปไกลกว่าคะแนนสอบ"}
+        - {t: libraries should replace schools, why: "ไม่มีข้อเสนอแบบนี้"}
+    - stem: According to the writer, what have reading lessons focused on?
+      choices:
+        - {t: locating information rather than understanding purpose, why: "focused on finding facts ... rather than understanding why it was written"}
+        - {t: reading long texts slowly, why: "ผู้เขียนเสนอให้อ่านบทยาวขึ้น แปลว่ายังไม่ได้ทำ"}
+        - {t: discussing advertisements, why: "ไม่ได้บอกว่าบทเรียนเน้นโฆษณา"}
+        - {t: using phones in class, why: "ไม่ได้บอกว่าบทเรียนเน้นโทรศัพท์"}
+    - stem: Why does the writer call it "a democratic" crisis?
+      choices:
+        - {t: people who read poorly are easier to mislead, why: "Adults who cannot tell an argument from an advertisement are easier to mislead"}
+        - {t: politicians do not read enough, why: "บทไม่ได้พูดว่านักการเมืองอ่านน้อย"}
+        - {t: voting rates have fallen, why: "ไม่มีข้อมูลเรื่องการเลือกตั้ง"}
+        - {t: the government closed the libraries, why: "บทบอกว่าห้องสมุดปิดไปเงียบ ๆ ไม่ได้บอกว่ารัฐบาลสั่ง"}
+    - stem: What does the writer imply about parents?
+      choices:
+        - {t: their example matters more than their instructions, why: "read in front of their children, not merely tell them to read"}
+        - {t: they should buy more books for schools, why: "ไม่มีข้อเสนอนี้"}
+        - {t: they read more than their children, why: "บทไม่ได้เปรียบเทียบแบบนี้"}
+        - {t: they are responsible for the closed libraries, why: "ไม่มีข้อมูลที่สนับสนุน"}
+  status: draft
+- id: cefr-c1-w02-036
+  kind: listen
+  skill: li
+  topic: speech-emphasis
+  level: 2
+  script:
+    - {who: Speaker, en: "Not once in thirty years has this community asked for help. Today, for the first time, we are asking. And we are asking not for money, but for your time."}
+  questions:
+    - stem: What is the speaker asking for?
+      choices:
+        - {t: people's time, why: "not for money, but for your time"}
+        - {t: money, why: "ผู้พูดบอกชัดว่าไม่ได้ขอเงิน"}
+        - {t: new members, why: "ไม่ได้ขอสมาชิกใหม่"}
+        - {t: thirty volunteers, why: "สามสิบคือจำนวนปี ไม่ใช่จำนวนคน"}
+  status: draft
+- id: cefr-c1-w02-037
+  kind: listen
+  skill: li
+  topic: speech-emphasis
+  level: 2
+  script:
+    - {who: Speaker, en: "Had we listened to the warnings five years ago, this hospital would not be closing today. But it is closing, and only by acting together now can we keep the clinic open."}
+  questions:
+    - stem: What does the speaker believe?
+      choices:
+        - {t: earlier action could have saved the hospital, why: "Had we listened to the warnings ... would not be closing"}
+        - {t: the hospital will stay open, why: "ผู้พูดบอกว่าโรงพยาบาลกำลังจะปิด"}
+        - {t: the clinic has already closed, why: "ยังมีโอกาสรักษาคลินิกไว้"}
+        - {t: nobody warned them, why: "มีคำเตือนแต่ไม่มีใครฟัง"}
+  status: draft
+- id: cefr-c1-w02-038
+  kind: listen
+  skill: li
+  topic: speech-emphasis
+  level: 2
+  script:
+    - {who: Man, en: "How was the minister's speech?"}
+    - {who: Woman, en: "Well, she certainly sounded passionate. Rarely, though, did she give a single number to support what she was saying."}
+  questions:
+    - stem: What was the woman's criticism?
+      choices:
+        - {t: the speech lacked evidence, why: "Rarely ... did she give a single number to support what she was saying"}
+        - {t: the minister sounded bored, why: "เธอบอกว่ารัฐมนตรีดูมีอารมณ์ร่วม passionate"}
+        - {t: the speech was too short, why: "ไม่ได้พูดเรื่องความยาว"}
+        - {t: there were too many numbers, why: "ตรงข้ามกับที่เธอพูด"}
+  status: draft
+- id: cefr-c1-w02-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Never, have I, worked with, such a supportive team]
+  sentence: Never have I worked with such a supportive team.
+  th: ไม่เคยทำงานกับทีมที่ช่วยเหลือกันขนาดนี้มาก่อนเลย
+  why: "Never ขึ้นต้นแล้วสลับ have I ตามด้วยช่อง 3"
+  status: draft
+- id: cefr-c1-w02-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Should you, have any questions, please, contact our office]
+  sentence: Should you have any questions, please contact our office.
+  th: หากมีข้อสงสัย กรุณาติดต่อสำนักงานของเรา
+  why: "Should + ประธาน + กริยารูปเดิม แทน If you have แล้วต่อด้วยคำขอ"
+  status: draft
+- id: cefr-c1-w02-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Only when, the last guest had left, did we, finally sit down]
+  sentence: Only when the last guest had left did we finally sit down.
+  th: จนกระทั่งแขกคนสุดท้ายกลับไปแล้ว เราจึงได้นั่งพักในที่สุด
+  why: "Only when + ประโยค แล้วสลับ did we ในประโยคหลัก"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c1-w02-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Rarely, has a single decision, had, such a profound effect, on so many lives]
+  sentence: Rarely has a single decision had such a profound effect on so many lives.
+  th: น้อยครั้งนักที่การตัดสินใจเพียงครั้งเดียวจะส่งผลลึกซึ้งต่อชีวิตผู้คนมากมายขนาดนี้
+  why: "Rarely ขึ้นต้นแล้วสลับ has + ประธาน ตามด้วยช่อง 3 had"
+  status: draft

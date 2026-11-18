@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 2 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 2
+phase: 1
+theme_th: เน้นด้วยการสลับลำดับ
+focus_th: negative inversion (Never · Seldom · Rarely · Not until · No sooner · Hardly · Under no circumstances) · เงื่อนไขแบบสลับลำดับ (Had I known · Were it not for · Should you need)
+can_do_th:
+  - ใช้โครงสร้างเน้นในงานเขียนทางการได้
+  - เข้าใจสุนทรพจน์ที่ใช้ภาษาเชิงโวหาร
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ขึ้นต้นด้วยคำปฏิเสธ
+    lesson:
+      rule_th: "อยากเน้นแบบทางการ ให้ยกคำปฏิเสธขึ้นต้นแล้ว ==เรียงเหมือนคำถาม== (กริยาช่วย + ประธาน) ถ้าประโยคเดิมไม่มีกริยาช่วย ++เติม do/does/did++"
+      examples:
+        - {en: "<k>Never have I seen</k> such a sunrise.", th: "I have never seen... แบบเน้น"}
+        - {en: "<k>Seldom do we hear</k> complaints.", th: "ไม่มีกริยาช่วย จึงเติม do"}
+        - {en: "<k>No sooner</k> had we sat down <k>than</k> the alarm rang.", th: "==No sooner ... than== คู่ตายตัว"}
+        - {en: "<k>Not until</k> the results came out <k>did we</k> realise.", th: "สลับในประโยคหลัก ไม่ใช่หลัง Not until"}
+      signals:
+        - {label_th: "คำที่ทำให้ต้องสลับ", words: [Never, Rarely, Seldom, Hardly, No sooner, Not until, Only after, Little, At no point]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่สลับลำดับเพื่อเน้น คนเก่งแล้วจึงยัง ~~ขึ้นด้วย Never แล้วเรียงแบบปกติ~~ หรือใส่ not ซ้อนกับคำปฏิเสธ"
+        wrong: ["Never I have seen such a mess.", "Under no circumstances you shouldn't open this door.", "No sooner had I arrived when it rained."]
+        right: ["Never have I seen such a mess.", "Under no circumstances should you open this door.", "No sooner had I arrived than it rained."]
+      notes:
+        - {kind: tip, th: "นึกว่ากำลัง ==ตั้งคำถาม== หลังคำปฏิเสธ จะเรียงถูกเอง"}
+        - {kind: warn, th: "โครงสร้างนี้ทางการและหนักแน่น ใช้ในการพูดทั่วไปบ่อยเกินจะฟังเหมือนเล่นละคร"}
+    check: [cefr-c1-w02-001, cefr-c1-w02-002]
+    practice: [cefr-c1-w02-003, cefr-c1-w02-004, cefr-c1-w02-005, cefr-c1-w02-006, cefr-c1-w02-007, cefr-c1-w02-008, cefr-c1-w02-009, cefr-c1-w02-010, cefr-c1-w02-011, cefr-c1-w02-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเน้นประสบการณ์ที่น่าประทับใจหรือเหตุการณ์ที่เกิดเร็วมาก
+      frame: "Never have I ____. No sooner had I ____ than ____."
+      model: "Never have I eaten such good som tam as in that small village. No sooner had I finished my plate than the owner brought me another."
+    classroom: {en: "Never have I seen the team work so well together.", th: "ไม่เคยเห็นทีมทำงานเข้าขากันขนาดนี้มาก่อนเลย"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ความรุนแรงและความเร่งด่วน 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้ในข่าวและบทความเชิงโน้มน้าว แยก ==imminent กับ unprecedented== (ใกล้จะเกิด กับ ไม่เคยเกิด) และระวัง ++exacerbate มีกรรม++ แต่ deteriorate ไม่มีกรรม"
+      examples:
+        - {en: "A storm seemed <k>imminent</k>.", th: "ใกล้จะมาเต็มที"}
+        - {en: "Safety is <k>paramount</k>.", th: "สำคัญเหนือทุกอย่าง"}
+        - {en: "Cuts will <k>exacerbate</k> the problem.", th: "==ทำให้ปัญหาแย่ลง== (มีกรรม)"}
+        - {en: "His health began to <k>deteriorate</k>.", th: "แย่ลงเอง (ไม่มีกรรม)"}
+      words:
+        - {w: unprecedented, pos: adj., th: ไม่เคยมีมาก่อน, ex: "Prices rose at an unprecedented rate."}
+        - {w: imminent, pos: adj., th: ใกล้จะเกิด, ex: "The company warned of imminent job cuts."}
+        - {w: paramount, pos: adj., th: สำคัญที่สุด, ex: "Customer privacy is paramount."}
+        - {w: imperative, pos: adj., th: จำเป็นเร่งด่วน, ex: "It is imperative that we act now."}
+        - {w: substantial, pos: adj., th: มากอย่างมีนัย, ex: "She received a substantial pay rise."}
+        - {w: profound, pos: adj., th: ลึกซึ้ง, ex: "The trip had a profound effect on me."}
+        - {w: formidable, pos: adj., th: ยากและน่าเกรงขาม, ex: "They face a formidable opponent."}
+        - {w: acute, pos: adj., th: รุนแรง เฉียบพลัน, ex: "There is an acute shortage of housing."}
+        - {w: incessant, pos: adj., th: ไม่หยุดหย่อน, ex: "The incessant rain lasted a week."}
+        - {w: invariably, pos: adv., th: เสมอ ไม่มีข้อยกเว้น, ex: "He invariably arrives five minutes late."}
+        - {w: exacerbate, pos: v., th: ทำให้แย่ลง, ex: "Stress can exacerbate back pain."}
+        - {w: deteriorate, pos: v., th: เสื่อมลง แย่ลง, ex: "The weather deteriorated during the afternoon."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ แย่ลง คำเดียวทั้งมีกรรมและไม่มีกรรม คนจึงเขียน ~~deteriorate the situation~~ ซึ่งผิด"
+        wrong: ["The new rule deteriorated the situation.", "The problem exacerbated quickly."]
+        right: ["The new rule exacerbated the situation.", "The situation deteriorated quickly."]
+      notes:
+        - {kind: pin, th: "==exacerbate + ปัญหา== · ปัญหา + deteriorate"}
+        - {kind: use, th: "อีเมลด่วนเปิดด้วย It is imperative that we ... ฟังจริงจังกว่า We must"}
+    check: [cefr-c1-w02-013, cefr-c1-w02-014]
+    practice: [cefr-c1-w02-015, cefr-c1-w02-016, cefr-c1-w02-017, cefr-c1-w02-018, cefr-c1-w02-019, cefr-c1-w02-020, cefr-c1-w02-021, cefr-c1-w02-022, cefr-c1-w02-023, cefr-c1-w02-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเตือนเรื่องปัญหาหนึ่งในเมืองของคุณที่กำลังแย่ลง
+      frame: "The ____ in our city has deteriorated ____. Unless we act, ____ will only exacerbate it."
+      model: "The traffic in our city has deteriorated sharply this year. Unless we act, the new shopping mall will only exacerbate it."
+    classroom: {en: "It's imperative that we finish this before the deadline.", th: "จำเป็นมากที่เราต้องทำให้เสร็จก่อนกำหนด"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เงื่อนไขแบบทางการ
+    lesson:
+      rule_th: "ตัด If ออกแล้วยก ==Had / Were / Should== ขึ้นต้นแทน ความหมายเท่าเดิมแต่ทางการขึ้น ++Should you need++ ใช้ปิดอีเมลได้ทันที"
+      examples:
+        - {en: "<k>Had I known</k>, I'd have taken the train.", th: "= If I had known (อดีต)"}
+        - {en: "<k>Were it not for</k> the rain, we'd eat outside.", th: "= If it weren't for (ปัจจุบัน)"}
+        - {en: "<k>Should you need</k> help, call me.", th: "==If you need แบบสุภาพ== (อนาคต)"}
+        - {en: "<k>Were</k> prices <k>to rise</k>, sales would fall.", th: "Were + ประธาน + to + กริยา"}
+      signals:
+        - {label_th: "เลือกตัวไหน", words: ["อดีตที่ไม่จริง → Had", "ปัจจุบันสมมติ → Were", "อนาคตที่อาจเกิด → Should"]}
+      thai_trap:
+        intro_th: "คนมักเก็บ If ไว้แล้วสลับซ้อน ~~If had I known~~ หรือลืม been ใน ~~Had it not for~~"
+        wrong: ["If had I known, I would have come.", "Had it not for your help, I would have failed.", "Should you needed help, call me."]
+        right: ["Had I known, I would have come.", "Had it not been for your help, I would have failed.", "Should you need help, call me."]
+      notes:
+        - {kind: tip, th: "สลับลำดับแล้ว ==ต้องตัด If ทิ้งเสมอ== ไม่ใช้ทั้งสองอย่างพร้อมกัน"}
+        - {kind: warn, th: "ห้ามสลับลำดับเมื่อเป็นรูปปฏิเสธแบบย่อ ใช้ Had I not ไม่ใช่ Hadn't I"}
+    check: [cefr-c1-w02-025, cefr-c1-w02-026]
+    practice: [cefr-c1-w02-027, cefr-c1-w02-028, cefr-c1-w02-029, cefr-c1-w02-030, cefr-c1-w02-031, cefr-c1-w02-032, cefr-c1-w02-033, cefr-c1-w02-034]
+    use:
+      prompt_th: เขียนประโยคเสียดายเรื่องในอดีต 1 ประโยค และประโยคปิดอีเมลทางการ 1 ประโยค
+      frame: "Had I ____, I would have ____. Should you ____, please ____."
+      model: "Had I booked earlier, I would have got a cheaper ticket. Should you require any further details, please let me know."
+    classroom: {en: "Should you need anything else, just let me know.", th: "หากต้องการอะไรเพิ่ม บอกได้เลยนะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทบรรณาธิการและฟังสุนทรพจน์
+    lesson:
+      rule_th: "บทบรรณาธิการคือ ==ความเห็นที่แต่งตัวเป็นข้อเท็จจริง== มองหาประโยคที่ผู้เขียนต้องการให้เชื่อ (should · imperative) และ ++ประโยคสลับลำดับ++ มักเป็นจุดที่ผู้เขียนเน้นที่สุด"
+      examples:
+        - {en: "<k>Rarely have they read</k> so little of it with care.", th: "ประโยคเน้น = ประเด็นสำคัญ"}
+        - {en: "It would be easy to blame smartphones. <k>Yet</k> ...", th: "==ปัดความเห็นทั่วไปแล้วแย้ง=="}
+        - {en: "Some steps are <k>imperative</k>.", th: "ข้อเสนอของผู้เขียน"}
+      thai_trap:
+        intro_th: "ประโยคที่ผู้เขียนยกมาเพื่อ ~~ปัดตก~~ เช่น It would be easy to blame... คนมักจำไปตอบว่าเป็นความเห็นของผู้เขียน"
+        wrong: ["ตอบว่าผู้เขียนโทษโทรศัพท์มือถือ"]
+        right: ["ผู้เขียนบอกว่าปัญหาเริ่มก่อนมีโทรศัพท์ และอยู่ที่วิธีสอนอ่าน"]
+      notes:
+        - {kind: tip, th: "It would be easy to... / Some argue that... มักตามด้วย ==Yet / However== คือความเห็นจริง"}
+        - {kind: warn, th: "ในสุนทรพจน์ ประโยค not ... but ... บอกสิ่งที่ผู้พูดต้องการจริงหลัง but"}
+    check: [cefr-c1-w02-036, cefr-c1-w02-037]
+    practice: [cefr-c1-w02-035, cefr-c1-w02-038, cefr-c1-w02-039, cefr-c1-w02-040, cefr-c1-w02-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าเห็นด้วยกับผู้เขียนบทบรรณาธิการแค่ไหน พร้อมเหตุผล
+      frame: "I largely agree that ____. However, I'm less convinced that ____."
+      model: "I largely agree that critical reading should be taught explicitly. However, I'm less convinced that parents reading in front of children will make a profound difference on its own."
+    classroom: {en: "Not only is this cheaper, but it's also faster.", th: "นี่ไม่ได้แค่ถูกกว่า แต่ยังเร็วกว่าด้วย"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน ย่อหน้าเปิดบทความเชิงโน้มน้าว 150 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนย่อหน้าเปิดของบทความเชิงโน้มน้าวประมาณ 150 คำ เรื่องปัญหาที่คุณคิดว่าคนมองข้าม (เช่น การนอนไม่พอ ขยะอาหาร ความเหงาของผู้สูงอายุ) ดึงความสนใจด้วยประโยคเน้น บอกขนาดของปัญหา ปัดความเห็นที่คนทั่วไปเชื่อ และบอกจุดยืนของคุณ
+      frame:
+        - "Rarely/Never has ____ been so ____."
+        - "According to ____, ____."
+        - "It would be easy to blame ____. Yet ____."
+        - "Were we to ____, ____."
+        - "It is imperative that ____."
+      model_pass: "Rarely has food been so cheap, and never have we thrown so much of it away. According to a recent report, an average Thai family wastes about a quarter of the food it buys. It would be easy to blame restaurants and supermarkets. Yet most waste happens at home, in our own fridges. We buy too much, forget what we have, and throw it away. Were every family to plan its meals for just one week, the amount of waste would fall dramatically. It is imperative that we start treating food as something valuable again, not something we can always replace."
+      model_good: "Rarely has food been so abundant, and never before have we discarded so much of it with so little thought. According to one recent estimate, a typical household in Thailand throws away roughly a quarter of everything it buys, a figure that would be unthinkable to our grandparents. It would be convenient to blame supermarkets for their discounts or restaurants for their oversized portions. Yet the evidence points somewhere far less comfortable: our own kitchens. Were each of us to plan meals a few days ahead and check the fridge before shopping, the impact on household budgets, and on landfill sites, would be substantial. It is imperative that we stop treating food as disposable and start treating waste as the avoidable problem it is."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกปัญหาของคุณ แล้วหาตัวเลขหรือข้อเท็จจริงที่เชื่อถือได้ 1 ข้อ
+        - เติมโครง 5 ส่วน แล้วเขียนเป็นย่อหน้าเดียวประมาณ 130–170 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - เขียนใหม่โดยเปลี่ยนประโยคแรกเป็นโครงสร้างเน้นอีกแบบ
+      checklist_th:
+        - ประโยคแรกใช้การสลับลำดับเพื่อเน้น และเรียงกริยาช่วยถูก
+        - มีข้อมูลหรือตัวเลข 1 จุดพร้อมบอกที่มา
+        - ปัดความเห็นทั่วไปแล้วแย้งด้วย Yet หรือ However
+        - ปิดด้วยจุดยืนชัดเจน และยาวประมาณ 150 คำ
+    practice: [cefr-c1-w02-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 2
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [1, 2], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

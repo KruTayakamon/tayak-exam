@@ -1,0 +1,581 @@
+# คอร์ส c1 · สัปดาห์ 1 · พูดให้แม่นยำ · ความต่างเล็กน้อยของ tense · modality ระดับสูง
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# หลักการเขียนตัวลวงระดับ C1: เรื่อง tense มักมีคำตอบที่ "พอฟังได้" หลายแบบ จึงให้ตัวลวงผิดชัดเจนเสมอ (ผิดรูป ผิดเวลา หรือขัดกับบริบทในโจทย์)
+# ---------- วันที่ 1 · ความต่างเล็กน้อยของ tense ----------
+- id: cefr-c1-w01-001
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 1
+  stem: I ____ in this neighbourhood for ten years, so I know every shortcut.
+  choices:
+    - {t: have lived, why: "เริ่มในอดีตและยังอยู่ถึงตอนนี้ + for ten years ใช้ ++have lived++"}
+    - {t: am living, why: "for ten years ต้องใช้ perfect ไม่ใช่ปัจจุบันกำลังทำ"}
+    - {t: live, why: "ปัจจุบันธรรมดาใช้กับ for + ช่วงเวลาที่ยังต่อเนื่องไม่ได้"}
+    - {t: was living, why: "อดีตกำลังทำ ทำให้ฟังเหมือนตอนนี้ย้ายไปแล้ว ขัดกับ I know"}
+  explain: "ต่อเนื่องถึงตอนนี้ + for/since = ==have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-002
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 1
+  stem: This soup ____ amazing. Can I have some more?
+  choices:
+    - {t: tastes, why: "taste ที่แปลว่า มีรสชาติ เป็นกริยาสภาวะ ใช้ ++tastes++"}
+    - {t: is tasting, why: "taste แบบมีรสชาติ ไม่ใช้รูป -ing (is tasting = กำลังชิม)"}
+    - {t: has tasted, why: "has tasted ไม่ได้บอกรสชาติที่เป็นอยู่ตอนนี้"}
+    - {t: was tasting, why: "อดีตกำลังทำ ขัดกับขอเพิ่มตอนนี้"}
+  explain: "taste / smell / look แบบบอกลักษณะ = ==สภาวะ ไม่ใช้ -ing=="
+  status: draft
+- id: cefr-c1-w01-003
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: Lately, I ____ about changing careers. I just can't stop.
+  choices:
+    - {t: have been thinking, why: "ทำต่อเนื่องช่วงหลังมานี้และยังทำอยู่ ใช้ ++have been thinking++"}
+    - {t: think, why: "lately ใช้กับ perfect ไม่ใช่ปัจจุบันธรรมดา"}
+    - {t: had thought, why: "past perfect ต้องมีเหตุการณ์อดีตอีกอันเป็นจุดอ้างอิง"}
+    - {t: have been thought, why: "been thought เป็นรูปถูกกระทำ ความหมายผิด"}
+  explain: "ช่วงหลังมานี้ทำต่อเนื่อง ==have been + -ing== (lately / recently)"
+  status: draft
+- id: cefr-c1-w01-004
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: I ____ three reports this morning, and it's only ten o'clock.
+  choices:
+    - {t: have written, why: "นับจำนวนงานที่เสร็จ ใช้ perfect ธรรมดา ++have written++"}
+    - {t: have been writing, why: "รูปต่อเนื่องเน้นกิจกรรม ใช้กับจำนวนชิ้นที่เสร็จแล้วไม่ได้"}
+    - {t: am writing, why: "am writing three reports ไม่บอกว่าเสร็จแล้ว และขัดกับ this morning"}
+    - {t: was written, why: "รูปถูกกระทำ ประธาน I ไม่ได้ถูกเขียน"}
+  explain: "มีจำนวน (three, five) = ==have + ช่อง 3== · เน้นระยะเวลา = have been -ing"
+  status: draft
+- id: cefr-c1-w01-005
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: I ____ on this presentation all morning, which is why I look so tired.
+  choices:
+    - {t: have been working, why: "ทำต่อเนื่องมาจนตอนนี้และเห็นผลคือเหนื่อย ใช้ ++have been working++"}
+    - {t: am working, why: "all morning ที่ต่อเนื่องถึงตอนนี้ต้องใช้รูป perfect"}
+    - {t: work, why: "ปัจจุบันธรรมดาเป็นกิจวัตร ไม่ใช่ช่วงเวลาเช้านี้"}
+    - {t: had been working, why: "past perfect ไม่เข้ากับผลที่เห็นตอนนี้ I look so tired"}
+  explain: "ผลที่เห็นตอนนี้จากกิจกรรมต่อเนื่อง ==have been + -ing=="
+  status: draft
+- id: cefr-c1-w01-006
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 1
+  stem: By the time we found our seats, the film ____.
+  choices:
+    - {t: had already started, why: "เกิดก่อนอีกเหตุการณ์ในอดีต ใช้ ++had + ช่อง 3++"}
+    - {t: has already started, why: "found เป็นอดีต ใช้ present perfect ไม่ได้"}
+    - {t: already starts, why: "ปัจจุบันธรรมดาไม่เข้ากับเรื่องที่เล่าในอดีต"}
+    - {t: would already start, why: "would ไม่ได้บอกว่าเกิดขึ้นก่อน"}
+  explain: "By the time + อดีต → ==had + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-007
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: This time next week, I ____ on a beach in Krabi.
+  choices:
+    - {t: will be lying, why: "กำลังทำอยู่ ณ จุดเวลาในอนาคต ใช้ ++will be + -ing++"}
+    - {t: lie, why: "ปัจจุบันธรรมดาไม่บอกเหตุการณ์ ณ จุดเวลาในอนาคต"}
+    - {t: was lying, why: "next week เป็นอนาคต"}
+    - {t: will have lied, why: "lied แปลว่าโกหก และ future perfect ไม่ตรงความหมาย"}
+  explain: "This time next week / tomorrow = ==will be + -ing=="
+  status: draft
+- id: cefr-c1-w01-008
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: By 2030, the project ____ more than 500 new jobs in the region.
+  choices:
+    - {t: will have created, why: "สำเร็จก่อนจุดเวลาในอนาคต ใช้ ++will have + ช่อง 3++"}
+    - {t: has created, why: "2030 เป็นอนาคต ใช้ present perfect ไม่ได้"}
+    - {t: is creating, why: "ไม่บอกว่าจะเสร็จก่อนปี 2030"}
+    - {t: creates, why: "ปัจจุบันธรรมดาไม่เข้ากับ By + อนาคต"}
+  explain: "By + เวลาในอนาคต → ==will have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-009
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: What ____ you ____ of the new manager so far?
+  choices:
+    - {t: do ... think, why: "ถามความเห็น think เป็นกริยาสภาวะ ใช้ ++do you think++"}
+    - {t: are ... thinking, why: "are you thinking ใช้กับ กำลังคิดจะทำ ไม่ใช่ความเห็น"}
+    - {t: have ... think, why: "หลัง have ต้องเป็นช่อง 3"}
+    - {t: did ... thinking, why: "หลัง did ต้องเป็นกริยารูปเดิม"}
+  explain: "think = ความเห็น ==ไม่ใช้ -ing== · think about = กำลังพิจารณา ใช้ -ing ได้"
+  status: draft
+- id: cefr-c1-w01-010
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 3
+  stem: Kanya ____ really difficult today. That's not like her at all.
+  choices:
+    - {t: is being, why: "พฤติกรรมชั่วคราวที่ผิดนิสัย ใช้ ++is being + คุณศัพท์++"}
+    - {t: being, why: "ขาดกริยาแท้ ประโยคไม่สมบูรณ์"}
+    - {t: has been being, why: "รูปนี้แทบไม่ใช้และฟังผิดธรรมชาติ"}
+    - {t: is been, why: "หลัง is ใช้ been ไม่ได้"}
+  explain: "be ใช้ -ing ได้เมื่อหมายถึง ==ทำตัวแบบนั้นชั่วคราว== (He's being silly.)"
+  status: draft
+- id: cefr-c1-w01-011
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 3
+  stem: I ____ call you last night, but I couldn't find your number.
+  choices:
+    - {t: was going to, why: "ตั้งใจไว้แต่ไม่ได้ทำ ใช้ ++was going to++"}
+    - {t: am going to, why: "last night เป็นอดีต"}
+    - {t: will, why: "will ไม่ใช้กับแผนในอดีต"}
+    - {t: had going to, why: "รูปนี้ไม่มีในภาษาอังกฤษ"}
+  explain: "แผนในอดีตที่ไม่ได้ทำ ==was/were going to=="
+  status: draft
+- id: cefr-c1-w01-012
+  kind: type
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  stem: "I've been w______ for you for an hour! Where were you? (รอ)"
+  answer: waiting
+  accept: [waiting]
+  why: "have been + -ing เน้นว่ารอมานานต่อเนื่องจนถึงตอนนี้"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การสื่อสารอย่างแม่นยำ ----------
+- id: cefr-c1-w01-013
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 1
+  stem: The instructions were so ____ that nobody knew what to do next.
+  choices:
+    - {t: ambiguous, why: "ตีความได้หลายทางจนไม่รู้จะทำอะไร ใช้ ++ambiguous++"}
+    - {t: lucid, why: "lucid แปลว่าชัดเจน ขัดกับไม่มีใครเข้าใจ"}
+    - {t: concise, why: "concise แปลว่ากระชับ ไม่ได้ทำให้งง"}
+    - {t: eloquent, why: "eloquent ใช้กับการพูดที่ไพเราะโน้มน้าว"}
+  explain: "ambiguous = ==กำกวม ตีความได้หลายทาง=="
+  status: draft
+- id: cefr-c1-w01-014
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 1
+  stem: Please keep your summary ____, no more than 100 words.
+  choices:
+    - {t: concise, why: "สั้นแต่ครบ ใช้ ++concise++"}
+    - {t: eloquent, why: "eloquent ไม่ได้เกี่ยวกับความยาว"}
+    - {t: implicit, why: "implicit แปลว่าโดยนัย"}
+    - {t: ambiguous, why: "ambiguous แปลว่ากำกวม ไม่ใช่สิ่งที่ขอให้ทำ"}
+  explain: "concise = ==กระชับ สั้นแต่ได้ใจความ=="
+  status: draft
+- id: cefr-c1-w01-015
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: She ____ her concerns so clearly that the board agreed to delay the decision.
+  choices:
+    - {t: articulated, why: "อธิบายความคิดออกมาได้ชัด ใช้ ++articulated++"}
+    - {t: alluded, why: "allude ต้องตามด้วย to และแปลว่าพูดเป็นนัย ขัดกับ so clearly"}
+    - {t: coherent, why: "coherent เป็นคำคุณศัพท์ ใช้เป็นกริยาไม่ได้"}
+    - {t: concise, why: "concise เป็นคำคุณศัพท์ ใช้เป็นกริยาไม่ได้"}
+  explain: "articulate (v.) = ==อธิบายความคิดออกมาเป็นคำพูดได้ชัด=="
+  status: draft
+- id: cefr-c1-w01-016
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: It's surprisingly hard to ____ sympathy in a short text message.
+  choices:
+    - {t: convey, why: "สื่อความรู้สึกออกไป ใช้ ++convey++"}
+    - {t: allude, why: "allude ต้องตามด้วย to"}
+    - {t: coherent, why: "coherent เป็นคำคุณศัพท์ ใช้หลัง to แบบนี้ไม่ได้"}
+    - {t: implicit, why: "implicit เป็นคำคุณศัพท์ ใช้หลัง to แบบนี้ไม่ได้"}
+  explain: "convey a message / feeling = ==สื่อ ถ่ายทอด=="
+  status: draft
+- id: cefr-c1-w01-017
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: Nothing was written down, but there was an ____ understanding that nobody would work at weekends.
+  choices:
+    - {t: implicit, why: "เข้าใจตรงกันโดยไม่ต้องพูด ใช้ ++implicit++"}
+    - {t: explicit, why: "explicit แปลว่าชัดแจ้ง ขัดกับ Nothing was written down"}
+    - {t: eloquent, why: "eloquent understanding ไม่มีความหมาย"}
+    - {t: concise, why: "concise understanding ไม่ใช่วลีที่ใช้"}
+  explain: "implicit = ==โดยนัย ไม่ได้พูดตรง ๆ== · ตรงข้าม explicit"
+  status: draft
+- id: cefr-c1-w01-018
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 1
+  stem: The contract makes it ____ that you may not work for a competitor for two years.
+  choices:
+    - {t: explicit, why: "เขียนไว้ชัดแจ้ง ใช้ ++make it explicit that++"}
+    - {t: implicit, why: "implicit แปลว่าโดยนัย ขัดกับการระบุไว้ในสัญญา"}
+    - {t: eloquent, why: "eloquent ใช้กับคนหรือการพูด ไม่ใช่สัญญา"}
+    - {t: ambiguous, why: "ambiguous แปลว่ากำกวม ขัดกับการบอกเงื่อนไขชัด"}
+  explain: "explicit = ==ชัดแจ้ง ระบุตรง ๆ=="
+  status: draft
+- id: cefr-c1-w01-019
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: The report was well organised and ____, with each section leading logically to the next.
+  choices:
+    - {t: coherent, why: "เชื่อมโยงเป็นเหตุเป็นผล ใช้ ++coherent++"}
+    - {t: ambiguous, why: "ambiguous ขัดกับ well organised"}
+    - {t: implicit, why: "implicit ไม่ได้บอกการเรียงเนื้อหา"}
+    - {t: alluded, why: "alluded เป็นกริยา ใช้บรรยายรายงานแบบนี้ไม่ได้"}
+  explain: "coherent = ==ต่อเนื่อง มีเหตุผลเชื่อมกัน=="
+  status: draft
+- id: cefr-c1-w01-020
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: Even after the accident, he remained ____ and could describe exactly what had happened.
+  choices:
+    - {t: lucid, why: "สติสัมปชัญญะยังดี คิดได้ชัด ใช้ ++lucid++"}
+    - {t: ambiguous, why: "ambiguous ใช้กับข้อความ ไม่ใช่สภาพของคน"}
+    - {t: implicit, why: "implicit ใช้กับความหมาย ไม่ใช่คน"}
+    - {t: concise, why: "concise ใช้กับข้อความ ไม่ได้บอกสติของคน"}
+  explain: "lucid = ==ชัดเจน แจ่มแจ้ง== (คนที่สติดี หรือคำอธิบายที่เข้าใจง่าย)"
+  status: draft
+- id: cefr-c1-w01-021
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: The bride's father gave an ____ speech that left half the guests in tears.
+  choices:
+    - {t: eloquent, why: "พูดได้ไพเราะกินใจ ใช้ ++eloquent++"}
+    - {t: ambiguous, why: "ambiguous ไม่ทำให้คนซึ้งจนน้ำตาไหล"}
+    - {t: implicit, why: "implicit speech ไม่ใช่วลีที่ใช้"}
+    - {t: explicit, why: "explicit เน้นความตรงไปตรงมา ไม่ใช่ความไพเราะ"}
+  explain: "eloquent = ==พูดเก่ง ไพเราะ โน้มน้าวใจ=="
+  status: draft
+- id: cefr-c1-w01-022
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 3
+  stem: 'The word "cheap" often has a negative ____: it can suggest poor quality, not just a low price.'
+  choices:
+    - {t: connotation, why: "ความหมายแฝงนอกเหนือความหมายตรง ใช้ ++connotation++"}
+    - {t: articulation, why: "articulation คือการออกเสียงหรืออธิบายให้ชัด"}
+    - {t: coherence, why: "coherence คือความต่อเนื่องของเนื้อหา"}
+    - {t: eloquence, why: "eloquence คือความสามารถในการพูดไพเราะ"}
+  explain: "connotation = ==ความหมายแฝง== ที่คำทำให้รู้สึก"
+  status: draft
+- id: cefr-c1-w01-023
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: A good interpreter notices every ____ in the speaker's tone.
+  choices:
+    - {t: nuance, why: "ความต่างเล็ก ๆ ที่ละเอียดอ่อน ใช้ ++nuance++"}
+    - {t: eloquence, why: "every eloquence ไม่ใช่วลีที่ใช้ eloquence นับไม่ได้"}
+    - {t: concise, why: "concise เป็นคำคุณศัพท์ วางหลัง every ไม่ได้"}
+    - {t: explicit, why: "explicit เป็นคำคุณศัพท์ วางหลัง every ไม่ได้"}
+  explain: "nuance = ==ความต่างเล็กน้อยที่ละเอียดอ่อน=="
+  status: draft
+- id: cefr-c1-w01-024
+  kind: type
+  skill: vo
+  topic: precise-communication
+  level: 2
+  stem: "In his speech, he a______ to the company's money problems but never mentioned them directly. (พูดเป็นนัย อดีต)"
+  answer: alluded
+  accept: [alluded]
+  why: "allude to = พูดถึงอ้อม ๆ เป็นนัย ใช้รูปอดีต alluded ตามเรื่องที่เล่า"
+  status: draft
+# ---------- วันที่ 3 · modality ระดับสูง ----------
+- id: cefr-c1-w01-025
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 1
+  stem: You ____ have told me you were vegetarian! I've just cooked beef for everyone.
+  choices:
+    - {t: should, why: "ตำหนิว่าน่าจะบอกแต่ไม่ได้บอก ใช้ ++should have + ช่อง 3++"}
+    - {t: must, why: "must have = คาดเดาว่าบอกแล้ว ขัดกับที่ไม่รู้มาก่อน"}
+    - {t: can, why: "can have ไม่ใช้ในประโยคบอกเล่าแบบนี้"}
+    - {t: ought, why: "ought ต้องมี to ก่อน have"}
+  explain: "ตำหนิ เสียดาย = ==should have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-026
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 1
+  stem: With all this traffic, we're ____ be late for the ceremony.
+  choices:
+    - {t: bound to, why: "แน่นอนว่าจะเกิด ใช้ ++be bound to + กริยา++"}
+    - {t: likely, why: "likely ต้องมี to ก่อนกริยา"}
+    - {t: bound for, why: "bound for แปลว่ากำลังมุ่งหน้าไปที่ ตามด้วยสถานที่"}
+    - {t: sure, why: "sure ต้องมี to ก่อนกริยา"}
+  explain: "be bound to / be sure to = ==แน่ ๆ ว่าจะ=="
+  status: draft
+- id: cefr-c1-w01-027
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  stem: The rain stopped, so I ____ a taxi. I walked and saved the money.
+  choices:
+    - {t: didn't need to take, why: "ไม่จำเป็นจึงไม่ได้นั่ง ใช้ ++didn't need to++"}
+    - {t: needn't have taken, why: "needn't have taken หมายถึงนั่งไปแล้วโดยไม่จำเป็น ขัดกับ I walked"}
+    - {t: mustn't have been taking, why: "ผิดรูป และ mustn't ไม่ได้บอกความจำเป็นในอดีต"}
+    - {t: hadn't to take, why: "รูป hadn't to ไม่ใช้กันในปัจจุบัน"}
+  explain: "didn't need to = ==ไม่จำเป็น เลยไม่ได้ทำ== · needn't have = ทำไปแล้วโดยไม่จำเป็น"
+  status: draft
+- id: cefr-c1-w01-028
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  stem: I ____ so much food. Only half the guests turned up.
+  choices:
+    - {t: needn't have cooked, why: "ทำไปแล้วแต่สุดท้ายไม่จำเป็น ใช้ ++needn't have + ช่อง 3++"}
+    - {t: didn't need to cook, why: "didn't need to มักหมายถึงไม่ได้ทำ แต่ประโยคนี้ทำไปแล้ว"}
+    - {t: mustn't have cooked, why: "mustn't have ไม่ใช้บอกความจำเป็นในอดีต"}
+    - {t: shouldn't cook, why: "shouldn't cook เป็นคำแนะนำทั่วไป ไม่ใช่เรื่องที่เกิดแล้ว"}
+  explain: "เสียแรงเปล่า ==needn't have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-029
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  stem: All the lights are off. They ____ have gone to bed already.
+  choices:
+    - {t: must, why: "มีหลักฐาน มั่นใจว่าเกิดแล้ว ใช้ ++must have++"}
+    - {t: can't, why: "can't have ขัดกับไฟที่ปิดหมด"}
+    - {t: needn't, why: "needn't have เป็นเรื่องความจำเป็น ไม่ใช่การคาดเดา"}
+    - {t: mustn't, why: "mustn't have ไม่ใช้คาดเดาในภาษาอังกฤษแบบบริติช"}
+  explain: "คาดเดาอดีตอย่างมั่นใจ ==must have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-030
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  stem: He ____ have been at the meeting. I was there the whole time and didn't see him.
+  choices:
+    - {t: can't, why: "มั่นใจว่าไม่ได้อยู่ ใช้ ++can't have++"}
+    - {t: must, why: "must have แปลว่ามั่นใจว่าอยู่ ขัดกับ didn't see him"}
+    - {t: ought, why: "ought ต้องมี to ก่อน have"}
+    - {t: mustn't, why: "mustn't have ไม่ใช้เป็นการคาดเดาว่าไม่ใช่"}
+  explain: "มั่นใจว่าไม่ใช่ ==can't / couldn't have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-031
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  stem: According to most experts, rents are ____ to rise again next year.
+  choices:
+    - {t: likely, why: "น่าจะเกิด ใช้ ++be likely to + กริยา++"}
+    - {t: probable, why: "probable ใช้ในรูป It is probable that ไม่ใช้ be probable to"}
+    - {t: possible, why: "possible ใช้ในรูป It is possible that ไม่ใช้กับประธานแบบนี้"}
+    - {t: probably, why: "probably เป็นคำวิเศษณ์ ใช้คู่กับ to แบบนี้ไม่ได้"}
+  explain: "ประธาน + ==be likely to== · It is probable/possible that ..."
+  status: draft
+- id: cefr-c1-w01-032
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  stem: You ____ have bought me a present, but it's very kind of you.
+  choices:
+    - {t: needn't, why: "ซื้อมาแล้วทั้งที่ไม่จำเป็น ใช้ ++needn't have++"}
+    - {t: mustn't, why: "mustn't have ไม่ใช้กับเรื่องในอดีตแบบนี้"}
+    - {t: can't, why: "can't have แปลว่าไม่ได้ซื้อแน่ ขัดกับที่ได้ของขวัญ"}
+    - {t: didn't need, why: "didn't need ต้องตามด้วย to และไม่ตามด้วย have bought"}
+  explain: "รับของขวัญอย่างสุภาพ ==You needn't have ...!=="
+  status: draft
+- id: cefr-c1-w01-033
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  stem: Which sentence means the speaker went to the bank, although it turned out to be unnecessary?
+  choices:
+    - {t: "I needn't have gone to the bank.", why: "needn't have gone = ++ไปแล้วแต่ไม่จำเป็น++"}
+    - {t: "I didn't need to go to the bank.", why: "มักหมายถึงไม่จำเป็นจึงไม่ได้ไป"}
+    - {t: "I mustn't go to the bank.", why: "mustn't แปลว่าห้ามไป"}
+    - {t: "I shouldn't go to the bank.", why: "เป็นคำแนะนำ ไม่ได้บอกว่าไปแล้ว"}
+  explain: "ไปแล้ว + ไม่จำเป็น = ==needn't have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w01-034
+  kind: cloze
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  text: |
+    The traffic was so bad that I was sure we (1) ____ miss the flight. In the end, it was delayed by two hours, so we (2) ____ rushed at all. Our luggage, however, (3) ____ been sent to the wrong city. We're still waiting to find out.
+  questions:
+    - choices:
+        - {t: were bound to, why: "แน่ใจว่าจะเกิด ใช้ were bound to"}
+        - {t: were likely, why: "likely ต้องมี to ก่อนกริยา"}
+        - {t: should to, why: "หลัง should ไม่มี to"}
+        - {t: were bound for, why: "bound for ตามด้วยสถานที่ปลายทาง ไม่ใช่กริยา"}
+    - choices:
+        - {t: needn't have, why: "รีบไปแล้วแต่ไม่จำเป็น ใช้ needn't have"}
+        - {t: mustn't have, why: "mustn't have ไม่ใช้บอกความจำเป็นในอดีต"}
+        - {t: didn't need, why: "didn't need ต้องตามด้วย to"}
+        - {t: can't have, why: "can't have rushed แปลว่ามั่นใจว่าไม่ได้รีบ ขัดกับที่รีบจริง"}
+    - choices:
+        - {t: may have, why: "ยังไม่แน่ใจ We're still waiting ใช้ may have"}
+        - {t: must have, why: "must have แปลว่ามั่นใจ ขัดกับยังรอคำตอบ"}
+        - {t: can have, why: "can have ไม่ใช้คาดเดาในประโยคบอกเล่า"}
+        - {t: had have, why: "รูปนี้ไม่มีในภาษาอังกฤษ"}
+  status: draft
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-c1-w01-035
+  kind: read
+  skill: rd
+  topic: workplace-communication
+  level: 2
+  title: "Why Clear Messages Get Lost at Work"
+  passage: |
+    Most managers believe they communicate clearly. Their staff, however, often disagree. In a survey of 1,200 office workers, nearly two thirds said they had wasted time in the past month because an instruction had been ambiguous. Interestingly, few of them blamed their managers' English or vocabulary. The problem, they said, was what had been left unsaid.
+
+    Consider a common email: "Could you have a look at the budget before Friday?" To the sender, the meaning may seem obvious: check the figures carefully and correct any errors. To the reader, however, "have a look" might suggest a quick glance. Neither person is wrong; they are simply relying on different assumptions. The more senior the writer, the researchers found, the more likely they were to assume that their expectations were implicit in a short message.
+
+    The cost of this gap is not only time. Employees who repeatedly misread instructions tend to become anxious and less willing to ask questions, fearing that doing so will make them look incompetent. Over time, this silence can do far more damage than any single mistake.
+
+    The solution is not necessarily longer messages. Concise instructions work well, the researchers argue, as long as they state three things explicitly: what needs to be done, to what standard, and by when. Managers who adopted this simple habit reported fewer delays within a month. Several also noticed something they had not expected: their teams began to ask more questions, not fewer, because the conversation had become safer.
+  questions:
+    - stem: What is the main point of the article?
+      choices:
+        - {t: "unclear expectations, not language, cause many workplace misunderstandings", why: "ปัญหาคือสิ่งที่ไม่ได้พูด (what had been left unsaid) ไม่ใช่ภาษาของผู้จัดการ"}
+        - {t: managers need better English vocabulary, why: "บทความบอกว่าพนักงานไม่ได้โทษภาษาหรือคำศัพท์"}
+        - {t: emails should always be longer, why: "บทความบอกว่าไม่จำเป็นต้องยาวขึ้น"}
+        - {t: office workers waste too much time on email, why: "เป็นรายละเอียดหนึ่ง ไม่ใช่ประเด็นหลัก"}
+    - stem: According to the survey, what did workers see as the cause of the problem?
+      choices:
+        - {t: important information that was not stated, why: "The problem, they said, was what had been left unsaid"}
+        - {t: their managers' poor grammar, why: "few of them blamed their managers' English"}
+        - {t: having too many long and pointless meetings, why: "ไม่มีการพูดถึงการประชุม"}
+        - {t: deadlines that were too short, why: "ไม่ได้โทษกำหนดเวลา"}
+    - stem: Why do some employees stop asking questions?
+      choices:
+        - {t: they worry about seeming unable to do their job, why: "fearing that doing so will make them look incompetent"}
+        - {t: their managers are rarely available, why: "ไม่ได้พูดว่าผู้จัดการไม่ว่าง"}
+        - {t: the instructions are already very long, why: "ไม่ได้บอกว่าคำสั่งยาวเกิน"}
+        - {t: they prefer to work alone, why: "ไม่มีข้อมูลนี้ในบทความ"}
+    - stem: What can be inferred about teams whose managers changed their habits?
+      choices:
+        - {t: team members felt more comfortable speaking up, why: "ถามมากขึ้นเพราะการคุยปลอดภัยขึ้น (had become safer)"}
+        - {t: they made no more mistakes at all, why: "บทความบอกแค่ว่าความล่าช้าลดลง ไม่ได้บอกว่าไม่ผิดเลย"}
+        - {t: they stopped needing a manager, why: "ไม่มีข้อมูลที่สนับสนุน"}
+        - {t: their emails became much shorter, why: "บทความไม่ได้พูดว่าอีเมลสั้นลง"}
+  status: draft
+- id: cefr-c1-w01-036
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 2
+  script:
+    - {who: Lecturer, en: "Today I want to challenge a common belief. Many people assume that a large vocabulary makes someone a good communicator. In fact, research suggests that the ability to choose the right word for a particular listener matters far more than the number of words you know."}
+  questions:
+    - stem: What does the lecturer say matters most?
+      choices:
+        - {t: choosing words that suit the listener, why: "the ability to choose the right word for a particular listener matters far more"}
+        - {t: knowing as many words as possible, why: "เป็นความเชื่อที่ผู้บรรยายต้องการแย้ง"}
+        - {t: speaking slowly and loudly, why: "ไม่ได้พูดถึงความเร็วหรือความดัง"}
+        - {t: using academic vocabulary, why: "ไม่ได้บอกให้ใช้ศัพท์วิชาการ"}
+  status: draft
+- id: cefr-c1-w01-037
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 2
+  script:
+    - {who: Lecturer, en: "The experiment was meant to last six weeks. However, the team needn't have waited that long. By the third week, the difference between the two groups was already so large that the result was beyond doubt."}
+  questions:
+    - stem: What does the lecturer suggest about the experiment?
+      choices:
+        - {t: it continued longer than necessary, why: "needn't have waited that long แปลว่ารอนานเกินจำเป็น"}
+        - {t: it was stopped after three weeks, why: "ไม่ได้บอกว่าหยุด แค่ผลชัดตั้งแต่สัปดาห์ที่สาม"}
+        - {t: the results were unclear, why: "ผลชัดเจน beyond doubt"}
+        - {t: the two groups were similar, why: "ความต่างระหว่างสองกลุ่มมีมาก"}
+  status: draft
+- id: cefr-c1-w01-038
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 2
+  script:
+    - {who: Woman, en: "Did the speaker say the policy had failed?"}
+    - {who: Man, en: "Not in so many words. But when she called it an interesting experiment and moved on quickly, I think the message was fairly clear."}
+  questions:
+    - stem: What does the man think the speaker meant?
+      choices:
+        - {t: the policy had not been successful, why: "Not in so many words แปลว่าไม่ได้พูดตรง แต่สื่อเป็นนัยว่าล้มเหลว"}
+        - {t: the policy was a great success, why: "ขัดกับความหมายแฝงที่เขาเข้าใจ"}
+        - {t: she had not studied the policy, why: "ไม่มีข้อมูลนี้ในบทสนทนา"}
+        - {t: she wanted to discuss it longer, why: "เธอรีบเปลี่ยนเรื่อง moved on quickly"}
+  status: draft
+- id: cefr-c1-w01-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [By the end of the year, we, will have trained, more than, two hundred volunteers]
+  sentence: By the end of the year, we will have trained more than two hundred volunteers.
+  th: ภายในสิ้นปี เราจะฝึกอาสาสมัครไปได้มากกว่าสองร้อยคน
+  why: "By + เวลาในอนาคต ใช้ will have + ช่อง 3 แล้วจึงบอกจำนวน"
+  status: draft
+- id: cefr-c1-w01-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [You, needn't have, brought, so much food, but thank you]
+  sentence: You needn't have brought so much food, but thank you.
+  th: ไม่ต้องเอาอาหารมาเยอะขนาดนี้ก็ได้ แต่ขอบคุณนะ
+  why: "needn't have + ช่อง 3 บอกว่าทำไปแล้วโดยไม่จำเป็น แล้วต่อด้วยคำขอบคุณ"
+  status: draft
+- id: cefr-c1-w01-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The new system, is bound to, cause, some confusion, at first]
+  sentence: The new system is bound to cause some confusion at first.
+  th: ระบบใหม่ต้องทำให้สับสนบ้างในช่วงแรกแน่ ๆ
+  why: "is bound to + กริยารูปเดิม แล้วจึงตามด้วยกรรมและเวลา"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c1-w01-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Put simply, the idea is, that what we leave unsaid, often matters, more than what we say]
+  sentence: Put simply, the idea is that what we leave unsaid often matters more than what we say.
+  th: พูดง่าย ๆ คือ สิ่งที่เราไม่ได้พูดมักสำคัญกว่าสิ่งที่พูด
+  why: "Put simply นำ แล้ว the idea is that + ประโยคที่มีประธานเป็น what-clause"
+  status: draft
