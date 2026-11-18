@@ -1,0 +1,584 @@
+# คอร์ส b2 · สัปดาห์ 6 · ความปรารถนาและการคาดเดา · wish / if only · it's time · would rather · must/might/can't/should have + ช่อง 3
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · อยากให้เป็น ----------
+- id: cefr-b2-w06-001
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 1
+  stem: I wish I ____ more free time. I'm always busy.
+  choices:
+    - {t: had, why: "อยากให้ปัจจุบันต่างไป ใช้ ++wish + อดีตธรรมดา++"}
+    - {t: have, why: "หลัง wish เรื่องปัจจุบันต้องถอยเป็นอดีต"}
+    - {t: will have, why: "will ไม่ใช้หลัง wish"}
+    - {t: had had, why: "had had ใช้กับเรื่องในอดีต"}
+  explain: "เสียดายเรื่องตอนนี้ ==wish + อดีตธรรมดา=="
+  status: approved
+- id: cefr-b2-w06-002
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 1
+  stem: I wish I ____ that email yesterday. My boss was very upset.
+  choices:
+    - {t: hadn't sent, why: "เสียดายเรื่องในอดีต ใช้ ++wish + had + ช่อง 3++"}
+    - {t: didn't send, why: "อดีตธรรมดาหลัง wish ใช้กับเรื่องปัจจุบัน"}
+    - {t: wouldn't send, why: "wish + would ใช้บ่นพฤติกรรมคนอื่น"}
+    - {t: haven't sent, why: "present perfect ไม่ใช้หลัง wish"}
+  explain: "เสียดายอดีต ==wish + had + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-003
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: I wish my neighbours ____ their music so loud every night.
+  choices:
+    - {t: wouldn't play, why: "บ่นพฤติกรรมคนอื่นที่อยากให้เลิก ใช้ ++wish + would++"}
+    - {t: don't play, why: "หลัง wish ไม่ใช้ปัจจุบันธรรมดา"}
+    - {t: hadn't played, why: "พูดถึงทุกคืนตอนนี้ ไม่ใช่อดีต"}
+    - {t: won't play, why: "won't ไม่ใช้หลัง wish"}
+  explain: "อยากให้คนอื่นเปลี่ยนนิสัย ==wish + someone + would=="
+  status: approved
+- id: cefr-b2-w06-004
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: If only I ____ how to swim! The others are all in the pool.
+  choices:
+    - {t: knew, why: "อยากให้ปัจจุบันต่างไป ใช้ ++If only + อดีต++"}
+    - {t: know, why: "หลัง If only เรื่องปัจจุบันต้องถอยเป็นอดีต"}
+    - {t: had known, why: "had known ใช้กับเสียดายอดีต"}
+    - {t: would know, why: "ไม่ใช้ would กับ know ของตัวเอง"}
+  explain: "==If only== = wish แต่หนักแน่นกว่า"
+  status: approved
+- id: cefr-b2-w06-005
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: It's late. It's time we ____ home.
+  choices:
+    - {t: went, why: "It's time + ประธาน + ++อดีตธรรมดา++ แต่ความหมายคือตอนนี้"}
+    - {t: go, why: "หลัง It's time we ต้องใช้อดีต"}
+    - {t: will go, why: "will ไม่ใช้ในโครงสร้างนี้"}
+    - {t: had gone, why: "had gone ไม่ใช้หลัง It's time"}
+  explain: "==It's time + ประธาน + อดีต== หรือ It's time to + กริยา"
+  status: approved
+- id: cefr-b2-w06-006
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: I'd rather you ____ smoke in the house, please.
+  choices:
+    - {t: didn't, why: "อยากให้คนอื่นทำ ใช้ ++would rather + คน + อดีต++"}
+    - {t: don't, why: "หลัง would rather + คน ใช้อดีต"}
+    - {t: not, why: "ขาดกริยาช่วย จึงใช้ไม่ได้"}
+    - {t: won't, why: "will ไม่ใช้ในโครงสร้างนี้"}
+  explain: "==I'd rather + คนอื่น + อดีต== · ตัวเอง I'd rather + กริยารูปเดิม"
+  status: approved
+- id: cefr-b2-w06-007
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: "\"Shall we eat out?\" \"I'd rather ____ at home tonight.\""
+  choices:
+    - {t: stay, why: "ตัวเองเลือก ใช้ ++would rather + กริยารูปเดิม++"}
+    - {t: to stay, why: "หลัง would rather ไม่มี to"}
+    - {t: stayed, why: "อดีตใช้เมื่อเป็นคนอื่น"}
+    - {t: staying, why: "หลัง would rather ไม่ใช้ -ing"}
+  explain: "ตัวเอง ==I'd rather + กริยารูปเดิม (ไม่มี to)=="
+  status: approved
+- id: cefr-b2-w06-008
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 3
+  stem: "\"I wish I had gone to the meeting.\" What does this mean?"
+  choices:
+    - {t: I didn't go and I regret it, why: "wish + had + ช่อง 3 = ++ความจริงตรงข้ามในอดีต++"}
+    - {t: I went and I enjoyed it, why: "ความจริงคือไม่ได้ไป"}
+    - {t: I want to go tomorrow, why: "พูดถึงอดีต จึงใช้ไม่ได้"}
+    - {t: I am at the meeting now, why: "บทไม่ได้พูดว่า I am at the meeting now"}
+  explain: "wish = ==ความจริงตรงข้าม== เสมอ"
+  status: approved
+- id: cefr-b2-w06-009
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 3
+  stem: Which sentence about wanting to be taller is correct in formal English?
+  choices:
+    - {t: "I wish I were taller.", why: "ภาษาทางการใช้ ++were กับทุกประธาน++ หลัง wish"}
+    - {t: "I wish I am taller.", why: "หลัง wish ต้องถอยเป็นอดีต"}
+    - {t: "I wish I will be taller.", why: "will ไม่ใช้หลัง wish"}
+    - {t: "I wish I have been taller.", why: "present perfect ไม่ใช้หลัง wish"}
+  explain: "ทางการ ==I wish I were / If only he were== (พูดทั่วไปใช้ was ได้)"
+  status: approved
+- id: cefr-b2-w06-010
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: If only you ____ me earlier! Now it's too late to change the booking.
+  choices:
+    - {t: had told, why: "เสียดายอดีต ใช้ ++had + ช่อง 3++"}
+    - {t: told, why: "อดีตธรรมดาใช้กับเรื่องปัจจุบัน"}
+    - {t: would tell, why: "would ใช้บ่นพฤติกรรมที่ทำซ้ำ"}
+    - {t: tell, why: "ต้องถอยเป็น had told"}
+  explain: "earlier + เสียดาย = ==had + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-011
+  kind: mcq
+  skill: gm
+  topic: wish-unreal-past
+  level: 3
+  stem: It's high time the city council ____ something about the flooding on our street.
+  choices:
+    - {t: did, why: "It's high time + ++อดีตธรรมดา++ = ควรทำนานแล้ว"}
+    - {t: does, why: "หลัง It's high time ต้องใช้อดีต"}
+    - {t: will do, why: "will ไม่ใช้ในโครงสร้างนี้"}
+    - {t: has done, why: "present perfect ไม่ใช้ในโครงสร้างนี้"}
+  explain: "==It's high time== = ควรทำตั้งนานแล้ว (น้ำเสียงตำหนิ)"
+  status: approved
+- id: cefr-b2-w06-012
+  kind: type
+  skill: gm
+  topic: wish-unreal-past
+  level: 2
+  stem: "I wish I c____ speak Japanese. Then I could talk to my clients. (สามารถ)"
+  answer: could
+  accept: [could]
+  why: "can ถอยเป็น could หลัง wish"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การตีความและความสัมพันธ์ ----------
+- id: cefr-b2-w06-013
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 1
+  stem: You made the ____ that I was angry, but I was just tired.
+  choices:
+    - {t: assumption, why: "การทึกทักเอาเอง ใช้ ++make an assumption++"}
+    - {t: reputation, why: "reputation คือชื่อเสียง"}
+    - {t: tension, why: "make the tension ไม่ใช่สำนวน"}
+    - {t: bias, why: "make the bias ไม่ใช่สำนวน"}
+  explain: "assumption = ==การทึกทัก สิ่งที่เชื่อโดยไม่มีหลักฐาน=="
+  status: approved
+- id: cefr-b2-w06-014
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 1
+  stem: ____, the shop is closing next month. That's what I heard from a friend.
+  choices:
+    - {t: Apparently, why: "ได้ยินมาว่า ใช้ ++Apparently++"}
+    - {t: Genuinely, why: "Genuinely แปลว่าอย่างจริงใจ"}
+    - {t: Subtly, why: "Subtly แปลว่าอย่างแนบเนียน"}
+    - {t: Obviously, why: "Obviously แปลว่าชัดเจน ไม่เข้ากับข่าวที่ได้ยินมา"}
+  explain: "apparently = ==ได้ยินมาว่า ดูเหมือนว่า=="
+  status: approved
+- id: cefr-b2-w06-015
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: Customers ____ the brand as cheap, even though its quality is high.
+  choices:
+    - {t: perceive, why: "มองว่า รับรู้ว่า ใช้ ++perceive ... as++"}
+    - {t: imply, why: "imply as ไม่ใช่รูปที่ถูก"}
+    - {t: speculate, why: "speculate as ไม่ใช่รูปที่ถูก"}
+    - {t: interpret, why: "interpret the brand ไม่เป็นธรรมชาติในความหมายนี้"}
+  explain: "==perceive + something + as== = มองว่าเป็น"
+  status: approved
+- id: cefr-b2-w06-016
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: How do you ____ these results? Are they good or bad for us?
+  choices:
+    - {t: interpret, why: "ตีความ ใช้ ++interpret++"}
+    - {t: imply, why: "imply แปลว่าบอกเป็นนัย ไม่ใช่ตีความ"}
+    - {t: perceive, why: "perceive these results ไม่ได้ถามว่าแปลว่าอะไร"}
+    - {t: speculate, why: "speculate ต้องตามด้วย about"}
+  explain: "interpret = ==ตีความ แปลความหมาย=="
+  status: approved
+- id: cefr-b2-w06-017
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: "When she said \"Nice of you to come on time for once,\" she was ____ that I'm usually late."
+  choices:
+    - {t: implying, why: "บอกเป็นนัย ใช้ ++imply++"}
+    - {t: interpreting, why: "ผู้พูดเป็นคน imply ผู้ฟังเป็นคน interpret"}
+    - {t: perceiving, why: "perceive ไม่ใช้กับสิ่งที่พูดเป็นนัย"}
+    - {t: assuming, why: "assuming ไม่ได้บอกการพูดเป็นนัย"}
+  explain: "imply = ==พูดเป็นนัย== (ผู้พูดทำ) · infer/interpret = ผู้ฟังทำ"
+  status: approved
+- id: cefr-b2-w06-018
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: It's pointless to ____ about why he left. Let's wait until he explains.
+  choices:
+    - {t: speculate, why: "เดาโดยไม่มีข้อมูล ใช้ ++speculate about++"}
+    - {t: imply, why: "imply about ไม่ใช่รูปที่ถูก"}
+    - {t: perceive, why: "perceive about ไม่ใช่รูปที่ถูก"}
+    - {t: interpret, why: "interpret about ไม่ใช่รูปที่ถูก"}
+  explain: "==speculate about== = คาดเดาโดยไม่มีข้อมูลพอ"
+  status: approved
+- id: cefr-b2-w06-019
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: There was a lot of ____ in the room before the results were announced.
+  choices:
+    - {t: tension, why: "บรรยากาศตึงเครียด ใช้ ++tension++"}
+    - {t: reputation, why: "reputation ไม่ใช่บรรยากาศ"}
+    - {t: assumption, why: "assumption ไม่ใช่บรรยากาศ"}
+    - {t: bias, why: "bias ไม่ใช่บรรยากาศ"}
+  explain: "tension = ==ความตึงเครียด=="
+  status: approved
+- id: cefr-b2-w06-020
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: The two departments are often in ____ over the budget.
+  choices:
+    - {t: conflict, why: "ขัดแย้งกัน ใช้ ++in conflict++"}
+    - {t: tension, why: "in tension ไม่ใช่สำนวนที่ใช้บอกการขัดแย้งระหว่างกลุ่ม"}
+    - {t: bias, why: "in bias ไม่ใช่สำนวน"}
+    - {t: reputation, why: "in reputation ไม่ใช่สำนวน"}
+  explain: "be in conflict (over/with) = ==ขัดแย้งกัน=="
+  status: approved
+- id: cefr-b2-w06-021
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: The restaurant has an excellent ____ for fresh seafood.
+  choices:
+    - {t: reputation, why: "ชื่อเสียง ใช้ ++a reputation for++"}
+    - {t: assumption, why: "assumption ไม่ใช่ชื่อเสียง"}
+    - {t: bias, why: "bias แปลว่าอคติ"}
+    - {t: tension, why: "tension ไม่ใช่ชื่อเสียง"}
+  explain: "==have a reputation for== = มีชื่อเสียงเรื่อง"
+  status: approved
+- id: cefr-b2-w06-022
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: Is this bag made of ____ leather, or is it fake?
+  choices:
+    - {t: genuine, why: "ของแท้ ใช้ ++genuine++"}
+    - {t: subtle, why: "subtle แปลว่าแนบเนียน ไม่ใช่ของแท้"}
+    - {t: apparent, why: "apparent แปลว่าเห็นได้ชัด ไม่ใช่ของแท้"}
+    - {t: biased, why: "biased แปลว่ามีอคติ"}
+  explain: "genuine = ==แท้ จริงใจ== (genuine interest = สนใจจริง)"
+  status: approved
+- id: cefr-b2-w06-023
+  kind: mcq
+  skill: vo
+  topic: interpretation
+  level: 3
+  stem: The difference between the two colours is very ____; most people can't see it.
+  choices:
+    - {t: subtle, why: "แตกต่างเล็กน้อยสังเกตยาก ใช้ ++subtle++"}
+    - {t: genuine, why: "genuine ไม่ได้บอกว่าสังเกตยาก"}
+    - {t: obvious, why: "obvious ขัดกับ most people can't see it"}
+    - {t: biased, why: "biased ไม่ใช้กับสี"}
+  explain: "subtle = ==แนบเนียน เล็กน้อยจนสังเกตยาก== (ไม่ออกเสียง b)"
+  status: approved
+- id: cefr-b2-w06-024
+  kind: type
+  skill: vo
+  topic: interpretation
+  level: 2
+  stem: "The judge must not show any b___ towards either side. (อคติ)"
+  answer: bias
+  accept: [bias]
+  why: "bias = อคติ ความลำเอียง"
+  status: approved
+# ---------- วันที่ 3 · น่าจะ...ไปแล้ว ควรจะ...แต่ไม่ได้ ----------
+- id: cefr-b2-w06-025
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 1
+  stem: The ground is wet. It ____ during the night.
+  choices:
+    - {t: must have rained, why: "อนุมานอย่างมั่นใจเรื่องในอดีต ใช้ ++must have + ช่อง 3++"}
+    - {t: must rain, why: "must rain เป็นปัจจุบัน ไม่ใช่เรื่องเมื่อคืน"}
+    - {t: should rain, why: "should rain ไม่ได้บอกการอนุมาน"}
+    - {t: can't have rained, why: "ขัดกับหลักฐานที่พื้นเปียก"}
+  explain: "มั่นใจว่าเกิดแล้ว ==must have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-026
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 1
+  stem: You ____ the doctor sooner. Your cough is much worse now.
+  choices:
+    - {t: should have seen, why: "ควรทำแต่ไม่ได้ทำ ใช้ ++should have + ช่อง 3++"}
+    - {t: must have seen, why: "must have seen แปลว่าคงไปหาหมอแล้ว ขัดกับบริบท"}
+    - {t: should see, why: "sooner ในอดีตต้องใช้ should have"}
+    - {t: can't have seen, why: "can't have seen เป็นการอนุมาน ไม่ใช่คำแนะนำย้อนหลัง"}
+  explain: "ตำหนิหรือเสียดาย ==should have + ช่อง 3== = ควรทำแต่ไม่ได้ทำ"
+  status: approved
+- id: cefr-b2-w06-027
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  stem: She ____ the message. Her phone was switched off all day.
+  choices:
+    - {t: can't have seen, why: "มั่นใจว่าไม่ได้เกิด ใช้ ++can't have + ช่อง 3++"}
+    - {t: must have seen, why: "ขัดกับหลักฐานว่าโทรศัพท์ปิด"}
+    - {t: should have seen, why: "should have เป็นคำตำหนิ ไม่ใช่การอนุมาน"}
+    - {t: mustn't have seen, why: "การอนุมานเชิงปฏิเสธใช้ can't have"}
+  explain: "มั่นใจว่าไม่เกิด ==can't / couldn't have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-028
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  stem: I'm not sure where my keys are. I ____ them at the office.
+  choices:
+    - {t: might have left, why: "อาจจะเกิดแล้ว ไม่แน่ใจ ใช้ ++might have + ช่อง 3++"}
+    - {t: must leave, why: "ไม่ใช่เรื่องอดีต และแปลว่าต้อง"}
+    - {t: should have left, why: "should have แปลว่าควรทำ ไม่เข้ากับไม่แน่ใจ"}
+    - {t: can't have left, why: "ขัดกับ I'm not sure"}
+  explain: "ไม่แน่ใจ ==might / may / could have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-029
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  stem: We ____ so much food. Half of it is still in the fridge.
+  choices:
+    - {t: needn't have bought, why: "ทำไปแล้วแต่ไม่จำเป็น ใช้ ++needn't have + ช่อง 3++"}
+    - {t: mustn't have bought, why: "mustn't have ไม่ใช้บอกว่าไม่จำเป็น"}
+    - {t: can't have bought, why: "can't have แปลว่าเป็นไปไม่ได้ว่าซื้อ ขัดกับมีอาหารเหลือ"}
+    - {t: shouldn't buy, why: "ต้องเป็นรูปอดีต have + ช่อง 3"}
+  explain: "==needn't have + ช่อง 3== = ทำไปแล้วแต่ไม่จำเป็นเลย"
+  status: approved
+- id: cefr-b2-w06-030
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 3
+  stem: "\"He could have been killed.\" What does this mean?"
+  choices:
+    - {t: he was in danger but survived, why: "could have = ++เป็นไปได้ แต่ไม่ได้เกิด++"}
+    - {t: he was definitely killed, why: "could have ไม่ได้บอกว่าเกิดจริง"}
+    - {t: he should be killed, why: "ความหมายผิดไปจากประโยค"}
+    - {t: he was able to kill someone, why: "รูป passive แปลว่าเขาเป็นผู้ถูกกระทำ"}
+  explain: "==could have + ช่อง 3== มักแปลว่าเกือบเกิด แต่ไม่ได้เกิด"
+  status: approved
+- id: cefr-b2-w06-031
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  stem: The lights are off and nobody's answering. They ____ out.
+  choices:
+    - {t: must have gone, why: "อนุมานจากหลักฐาน ใช้ ++must have gone++"}
+    - {t: should have gone, why: "should have แปลว่าควรไป ไม่ใช่การอนุมาน"}
+    - {t: can't have gone, why: "ขัดกับหลักฐาน จึงใช้ไม่ได้"}
+    - {t: needn't have gone, why: "needn't have ไม่ใช่การอนุมาน"}
+  explain: "หลักฐานชัด ==must have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-032
+  kind: mcq
+  skill: gm
+  topic: modal-perfect
+  level: 3
+  stem: Which sentence is correct when you are criticising a decision?
+  choices:
+    - {t: "They shouldn't have cut the budget.", why: "ไม่ควรทำแต่ทำไปแล้ว ++shouldn't have + ช่อง 3++"}
+    - {t: "They mustn't have cut the budget.", why: "mustn't have ไม่ใช้ตำหนิ"}
+    - {t: "They shouldn't cut the budget yesterday.", why: "yesterday ต้องใช้ shouldn't have cut"}
+    - {t: "They shouldn't have cutted the budget.", why: "cut ช่อง 3 คือ cut"}
+  explain: "ตำหนิอดีต ==shouldn't have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w06-033
+  kind: type
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  stem: "He looks really happy. He m___ have got the job. (คงจะ อย่างมั่นใจ)"
+  answer: must
+  accept: [must]
+  why: "must have + ช่อง 3 = มั่นใจว่าเกิดแล้ว"
+  status: approved
+- id: cefr-b2-w06-034
+  kind: cloze
+  skill: gm
+  topic: modal-perfect
+  level: 2
+  text: |
+    The package still hasn't arrived. The courier (1) ____ the wrong address, because my neighbour received a card. I really wish I (2) ____ the faster delivery option. Next time, I'd rather the shop (3) ____ me before sending anything.
+  questions:
+    - choices:
+        - {t: must have gone to, why: "อนุมานจากหลักฐานว่าเพื่อนบ้านได้บัตร"}
+        - {t: should have gone to, why: "should have = ควรไป ขัดกับความหมาย"}
+        - {t: needn't have gone to, why: "needn't have ไม่เข้ากับการอนุมาน"}
+        - {t: must go to, why: "ต้องเป็นเรื่องที่เกิดแล้ว"}
+    - choices:
+        - {t: had chosen, why: "เสียดายอดีต wish + had + ช่อง 3"}
+        - {t: chose, why: "อดีตธรรมดาหลัง wish ใช้กับปัจจุบัน"}
+        - {t: would choose, why: "wish + would ใช้กับคนอื่น"}
+        - {t: have chosen, why: "present perfect ไม่ใช้หลัง wish"}
+    - choices:
+        - {t: called, why: "would rather + คนอื่น + อดีต"}
+        - {t: call, why: "หลัง would rather + คนอื่น ต้องใช้อดีต"}
+        - {t: will call, why: "will ไม่ใช้ในโครงสร้างนี้"}
+        - {t: to call, why: "ไม่มี to จึงใช้ไม่ได้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านจดหมายถึงบรรณาธิการและฟังการคาดเดา ----------
+- id: cefr-b2-w06-035
+  kind: read
+  skill: rd
+  topic: letter-to-editor
+  level: 2
+  title: "Letter to the Editor · Our Park Deserves Better"
+  passage: |
+    Dear Editor,
+
+    I am writing about your article last week on the closure of Rim Nam Park. The article implied that local residents were happy with the council's decision to turn half the park into a car park. I am afraid this is a false assumption.
+
+    Apparently, the council asked only fifty people for their opinions, most of whom were shop owners who would benefit from more parking. I spoke to over two hundred residents, and almost all of them were against the plan. Many parents told me that the park is the only safe place for their children to play.
+
+    I am not suggesting that the council acted dishonestly. However, they should have consulted a wider range of people before making such an important decision. If they had held a public meeting, they would have understood how strongly people feel.
+
+    The council also claimed that the car park would reduce traffic. I find this hard to believe. More parking spaces usually encourage more people to drive, not fewer.
+
+    It is time the council listened to genuine local concerns. I wish your newspaper had asked residents for their views too. I would rather the council spent the money on a better bus service. Otherwise, I fear the tension between residents and the council will only grow.
+
+    Yours faithfully,
+    Somchai Rattanakul
+  questions:
+    - stem: Why did the writer send this letter?
+      choices:
+        - {t: to say the newspaper misrepresented residents' views, why: "The article implied ... this is a false assumption"}
+        - {t: to thank the council, why: "ผู้เขียนไม่เห็นด้วยกับสภาเมือง"}
+        - {t: to ask for more parking, why: "ตรงกันข้าม คัดค้านลานจอดรถ"}
+        - {t: to complain about shop owners, why: "ไม่ได้ตำหนิเจ้าของร้าน"}
+    - stem: What does the writer think the council should have done?
+      choices:
+        - {t: asked more people, why: "they should have consulted a wider range of people"}
+        - {t: closed the whole park, why: "ไม่มีข้อเสนอนี้"}
+        - {t: built the car park faster, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: asked only shop owners, why: "ตำหนิว่าถามแต่เจ้าของร้าน"}
+    - stem: Does the writer believe the council was dishonest?
+      choices:
+        - {t: "no", he says it wasn't, why: "I am not suggesting that the council acted dishonestly"}
+        - {t: "yes", strongly, why: "เขาบอกชัดว่าไม่ได้กล่าวหา"}
+        - {t: he is not sure, why: "บอกชัดเจน จึงใช้ไม่ได้"}
+        - {t: the letter does not say, why: "มีพูดถึงในย่อหน้าที่ 3"}
+    - stem: What is the tone of the letter?
+      choices:
+        - {t: firm but polite, why: "ใช้ I am afraid · I am not suggesting · Yours faithfully"}
+        - {t: rude and angry, why: "ไม่ได้ใช้ถ้อยคำรุนแรง"}
+        - {t: funny and relaxed, why: "เป็นเรื่องจริงจัง"}
+        - {t: uncertain and nervous, why: "ผู้เขียนมั่นใจในข้อมูลที่เก็บมา"}
+  status: approved
+- id: cefr-b2-w06-036
+  kind: listen
+  skill: li
+  topic: speculation
+  level: 2
+  script:
+    - {who: Woman, en: "Tom isn't here yet. He must have missed the train; he's never late."}
+  questions:
+    - stem: What does the woman think?
+      choices:
+        - {t: Tom probably missed the train, why: "must have missed = มั่นใจว่าตกรถ"}
+        - {t: Tom is often late, why: "he's never late"}
+        - {t: Tom is on the train now, why: "เธอคิดว่าเขาตกรถ"}
+        - {t: Tom has cancelled, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w06-037
+  kind: listen
+  skill: li
+  topic: speculation
+  level: 2
+  script:
+    - {who: Man, en: "Did you go to the conference?"}
+    - {who: Woman, en: "No, and I really wish I had. Apparently the speakers were excellent."}
+  questions:
+    - stem: How does the woman feel?
+      choices:
+        - {t: sorry she missed it, why: "I really wish I had = เสียดายที่ไม่ได้ไป"}
+        - {t: glad she stayed at home, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: angry with the speakers, why: "ได้ยินว่าวิทยากรดีมาก"}
+        - {t: she went and enjoyed it, why: "เธอตอบว่า No จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w06-038
+  kind: listen
+  skill: li
+  topic: speculation
+  level: 2
+  script:
+    - {who: Man, en: "We needn't have rushed. The meeting was postponed and nobody told us."}
+  questions:
+    - stem: What happened?
+      choices:
+        - {t: they hurried for no reason, why: "needn't have rushed = รีบไปแล้วแต่ไม่จำเป็น"}
+        - {t: they were late for the meeting, why: "ประชุมถูกเลื่อน"}
+        - {t: the meeting was cancelled permanently, why: "postponed = เลื่อน ไม่ใช่ยกเลิก"}
+        - {t: they decided not to go, why: "พวกเขารีบไปแล้ว"}
+  status: approved
+- id: cefr-b2-w06-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I wish, I had, saved more money, when I was younger]
+  sentence: I wish I had saved more money when I was younger.
+  th: อยากเก็บเงินมากกว่านี้ตอนยังหนุ่มสาว
+  why: "wish + had + ช่อง 3 สำหรับความเสียดายในอดีต"
+  status: approved
+- id: cefr-b2-w06-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She can't have, finished the report, already; it's, forty pages long]
+  sentence: She can't have finished the report already; it's forty pages long.
+  th: เธอไม่น่าจะทำรายงานเสร็จแล้ว มันยาวตั้งสี่สิบหน้า
+  why: "can't have + ช่อง 3 แล้วให้เหตุผลหลังเครื่องหมาย ;"
+  status: approved
+- id: cefr-b2-w06-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [It's time, we stopped, arguing and, started working together]
+  sentence: It's time we stopped arguing and started working together.
+  th: ถึงเวลาที่เราจะเลิกเถียงกันแล้วหันมาร่วมมือกัน
+  why: "It's time + ประธาน + อดีต (stopped / started)"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b2-w06-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I would be grateful, if you could, look into this matter, as I would rather, it did not happen again]
+  sentence: I would be grateful if you could look into this matter, as I would rather it did not happen again.
+  th: จะขอบคุณมากถ้าช่วยตรวจสอบเรื่องนี้ เพราะไม่อยากให้เกิดขึ้นอีก
+  why: "I would be grateful if you could ... · would rather + it + อดีต"
+  status: approved

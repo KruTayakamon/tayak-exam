@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 6 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 6
+phase: 2
+theme_th: ความปรารถนาและการคาดเดา
+focus_th: wish / if only (ปัจจุบัน อดีต would) · it's time · would rather · must / might / can't / should / needn't have + ช่อง 3
+can_do_th:
+  - คาดเดาสิ่งที่เกิดขึ้นในอดีตอย่างมีเหตุผลได้
+  - จับน้ำเสียงและเจตนาของผู้เขียนได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: อยากให้เป็น
+    lesson:
+      rule_th: "หลัง wish ให้ ==ถอยเวลาไปหนึ่งขั้น== ตอนนี้ใช้อดีต · อดีตใช้ had + ช่อง 3 · ++บ่นพฤติกรรมคนอื่นใช้ wish + would++ · It's time และ I'd rather + คนอื่น ก็ตามด้วยอดีต"
+      examples:
+        - {en: "I wish I <k>had</k> more time.", th: "ตอนนี้ไม่มีเวลา"}
+        - {en: "I wish I <k>hadn't sent</k> that email.", th: "==เสียดายอดีต=="}
+        - {en: "I wish they <k>wouldn't play</k> loud music.", th: "อยากให้คนอื่นเลิก"}
+        - {en: "It's time we <k>went</k> home.", th: "ถึงเวลาแล้ว"}
+      signals:
+        - {label_th: "ถอยเวลา", words: ["have → had", "can → could", "sent → had sent", "is → were (ทางการ)"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ อยากให้... โดยไม่เปลี่ยนเวลา คนจึงเขียน ~~wish + ปัจจุบัน~~"
+        wrong: ["I wish I have a car.", "I'd rather you don't smoke here."]
+        right: ["I wish I had a car.", "I'd rather you didn't smoke here."]
+      notes:
+        - {kind: tip, th: "wish ทุกแบบ = ==ความจริงตรงกันข้าม== แปลกลับก่อนตอบ"}
+        - {kind: warn, th: "ห้ามใช้ wish + would กับตัวเอง (I wish I would ... ผิด)"}
+    check: [cefr-b2-w06-001, cefr-b2-w06-002]
+    practice: [cefr-b2-w06-003, cefr-b2-w06-004, cefr-b2-w06-005, cefr-b2-w06-006, cefr-b2-w06-007, cefr-b2-w06-008, cefr-b2-w06-009, cefr-b2-w06-010, cefr-b2-w06-011, cefr-b2-w06-012]
+    use:
+      prompt_th: เขียน 2 ประโยค สิ่งที่อยากให้ต่างไปตอนนี้ และเรื่องในอดีตที่เสียดาย
+      frame: "I wish I ____ now. I also wish I had ____."
+      model: "I wish I lived closer to my office now. I also wish I had learned to drive when I was younger."
+    classroom: {en: "I'd rather stay in tonight.", th: "คืนนี้ขออยู่บ้านดีกว่า"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การตีความ 12 คำ
+    lesson:
+      rule_th: "แยก ==imply (ผู้พูดบอกเป็นนัย)== กับ ++interpret (ผู้ฟังตีความ)++ · คำนามหลายคำมาพร้อมคำบุพบท a reputation for · in conflict over · speculate about"
+      examples:
+        - {en: "She <k>implied</k> that I'm always late.", th: "==พูดเป็นนัย=="}
+        - {en: "How do you <k>interpret</k> these results?", th: "ตีความ"}
+        - {en: "<k>Apparently</k>, the shop is closing.", th: "ได้ยินมาว่า"}
+        - {en: "It has a <k>reputation for</k> good food.", th: "มีชื่อเสียงเรื่อง"}
+      words:
+        - {w: assumption, pos: n., th: การทึกทัก, ex: "Don't make assumptions about people."}
+        - {w: apparently, pos: adv., th: ได้ยินมาว่า ดูเหมือนว่า, ex: "Apparently, it's going to rain."}
+        - {w: perceive, pos: v., th: มองว่า รับรู้, ex: "He is perceived as a leader."}
+        - {w: interpret, pos: v., th: ตีความ, ex: "I interpreted her silence as a no."}
+        - {w: imply, pos: v., th: บอกเป็นนัย, ex: "Are you implying I'm lazy?"}
+        - {w: speculate, pos: v., th: คาดเดา, ex: "The media speculated about the reason."}
+        - {w: tension, pos: n., th: ความตึงเครียด, ex: "There is tension between the teams."}
+        - {w: conflict, pos: n., th: ความขัดแย้ง, ex: "They resolved the conflict."}
+        - {w: reputation, pos: n., th: ชื่อเสียง, ex: "The hotel has a good reputation."}
+        - {w: genuine, pos: adj., th: แท้ จริงใจ, ex: "She showed genuine interest."}
+        - {w: subtle, pos: adj., th: แนบเนียน สังเกตยาก, ex: "There is a subtle difference."}
+        - {w: bias, pos: n., th: อคติ, ex: "The report shows no bias."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~imply กับผู้ฟัง~~ ทั้งที่ผู้ฟังต้องใช้ interpret หรือ infer และออกเสียง b ใน subtle"
+        wrong: ["From her face, I implied she was angry.", "There's a very subtle (ซับ-เทิล) change."]
+        right: ["From her face, I interpreted that she was angry.", "There's a very subtle (ซัท-เทิล) change."]
+      notes:
+        - {kind: pin, th: "==ผู้พูด imply · ผู้ฟัง interpret / infer=="}
+        - {kind: use, th: "เล่าข่าวที่ได้ยินมา ขึ้นต้นด้วย Apparently ... ฟังสุภาพไม่ฟันธง"}
+    check: [cefr-b2-w06-013, cefr-b2-w06-014]
+    practice: [cefr-b2-w06-015, cefr-b2-w06-016, cefr-b2-w06-017, cefr-b2-w06-018, cefr-b2-w06-019, cefr-b2-w06-020, cefr-b2-w06-021, cefr-b2-w06-022, cefr-b2-w06-023, cefr-b2-w06-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับร้านหรือบริษัทที่คุณรู้จัก บอกชื่อเสียงและสิ่งที่ได้ยินมา
+      frame: "____ has a reputation for ____. Apparently, ____."
+      model: "The noodle shop near my office has a reputation for very spicy food. Apparently, it is opening a second branch next year."
+    classroom: {en: "What are you implying?", th: "หมายความว่ายังไง พูดเป็นนัยอะไร"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: น่าจะ...ไปแล้ว ควรจะ...แต่ไม่ได้
+    lesson:
+      rule_th: "modal + have + ช่อง 3 ใช้กับอดีต ==must have (มั่นใจว่าเกิด)== · can't have (มั่นใจว่าไม่เกิด) · might have (อาจ) และ ++should have (ควรทำแต่ไม่ได้ทำ)++ · needn't have (ทำแล้วแต่ไม่จำเป็น)"
+      examples:
+        - {en: "The ground is wet. It <k>must have rained</k>.", th: "==มั่นใจจากหลักฐาน=="}
+        - {en: "She <k>can't have seen</k> it. Her phone was off.", th: "เป็นไปไม่ได้"}
+        - {en: "You <k>should have seen</k> a doctor sooner.", th: "ควรทำแต่ไม่ได้ทำ"}
+        - {en: "We <k>needn't have bought</k> so much food.", th: "ซื้อมาแล้วแต่ไม่จำเป็น"}
+      signals:
+        - {label_th: "ความมั่นใจ", words: ["must have 90%", "might / could have 50%", "can't have 0%"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ น่าจะ กับทั้งการคาดเดาและการตำหนิ คนจึงสับสน ~~must have กับ should have~~ และใช้ mustn't have ในความหมายเป็นไปไม่ได้"
+        wrong: ["He mustn't have heard me.", "You must have told me earlier!"]
+        right: ["He can't have heard me.", "You should have told me earlier!"]
+      notes:
+        - {kind: tip, th: "ตรงข้ามของ must have คือ ==can't have== ไม่ใช่ mustn't have"}
+        - {kind: use, th: "ขอโทษตัวเอง I should have checked first. ฟังรับผิดชอบดี"}
+    check: [cefr-b2-w06-025, cefr-b2-w06-026]
+    practice: [cefr-b2-w06-027, cefr-b2-w06-028, cefr-b2-w06-029, cefr-b2-w06-030, cefr-b2-w06-031, cefr-b2-w06-032, cefr-b2-w06-033, cefr-b2-w06-034]
+    use:
+      prompt_th: เขียน 2 ประโยค คาดเดาสาเหตุของเรื่องหนึ่งที่เกิดขึ้น และสิ่งที่ควรทำแต่ไม่ได้ทำ
+      frame: "____. Someone must have ____. We should have ____."
+      model: "The printer stopped working this morning. Someone must have put the wrong paper in it. We should have read the instructions."
+    classroom: {en: "You must have been tired.", th: "คงเหนื่อยแย่เลย"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านจดหมายถึงบรรณาธิการและฟังการคาดเดา
+    lesson:
+      rule_th: "จดหมายถึงบรรณาธิการบอกจุดยืนตั้งแต่ย่อหน้าแรก แล้วให้เหตุผล ==คำถามเรื่องน้ำเสียงดูจากคำสุภาพ== ++I am afraid++ · I am not suggesting · I find this hard to believe = ไม่เห็นด้วยแบบสุภาพ"
+      examples:
+        - {en: "The article <k>implied</k> that ...", th: "บอกสิ่งที่ไม่เห็นด้วย"}
+        - {en: "<k>I am not suggesting</k> that ...", th: "==ปฏิเสธข้อกล่าวหาอย่างสุภาพ=="}
+        - {en: "They <k>should have consulted</k> ...", th: "ข้อตำหนิ"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นคำว่า dishonestly แล้วตอบว่าผู้เขียนกล่าวหา แต่ประโยคคือ ~~I am not suggesting~~ ซึ่งแปลว่าไม่ได้กล่าวหา"
+        wrong: ["ตอบว่าผู้เขียนคิดว่าสภาเมืองโกง"]
+        right: ["ผู้เขียนบอกชัดว่าไม่ได้กล่าวหาว่าโกง แค่ถามความเห็นคนไม่พอ"]
+      notes:
+        - {kind: tip, th: "อ่านคำปฏิเสธเล็ก ๆ ==not / hard to / I fear== ให้ครบก่อนตอบ"}
+        - {kind: use, th: "เขียนแย้งแบบสุภาพ I'm afraid I disagree. / I find this hard to believe."}
+    check: [cefr-b2-w06-036, cefr-b2-w06-037]
+    practice: [cefr-b2-w06-035, cefr-b2-w06-038, cefr-b2-w06-039, cefr-b2-w06-040, cefr-b2-w06-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปข้อเรียกร้องของผู้เขียนจดหมาย ใช้ should have หรือ wish
+      frame: "The writer thinks the council should have ____. He would rather ____."
+      model: "The writer thinks the council should have asked more residents before deciding. He would rather the money was spent on a better bus service."
+    classroom: {en: "I'm afraid I don't agree.", th: "ขอโทษนะ แต่ไม่เห็นด้วย"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน อีเมลแสดงความกังวลและข้อเสนอแนะอย่างสุภาพ 140 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนอีเมลประมาณ 140 คำถึงผู้จัดการอาคารหรือหน่วยงานหนึ่ง แสดงความกังวลเรื่องที่เกิดขึ้น (เช่น ลิฟต์เสียบ่อย ขยะไม่ถูกเก็บ เสียงก่อสร้าง) บอกสิ่งที่เกิด สาเหตุที่คาดว่าเป็น สิ่งที่ควรทำ และข้อเสนอแนะ ใช้ภาษาสุภาพ
+      frame:
+        - "Dear ____, I am writing to express my concern about ____."
+        - "Over the past ____, ____."
+        - "I assume / It must have been ____, but ____."
+        - "I wish ____ / Residents should have been ____."
+        - "I would be grateful if you could ____. Yours sincerely, ____"
+      model_pass: "Dear Building Manager, I am writing to express my concern about the lift in Building B. Over the past month, it has stopped working four times, and last Tuesday an elderly resident was stuck inside for twenty minutes. I assume the repairs must have been done quickly and cheaply, because the same problem keeps happening. Residents should have been informed about the problem and the repair plans. I wish there were a notice board in the lobby with this information. I would be grateful if you could arrange a full inspection and let us know the results. Yours sincerely, Malee Srisuk, Room 1204"
+      model_good: "Dear Building Manager, I am writing to express my concern about the lift in Building B, which has broken down four times over the past month. Last Tuesday, an elderly resident was trapped inside for nearly twenty minutes before help arrived. I appreciate that the maintenance team responded each time; however, the repairs must have been temporary, since the same fault keeps recurring. I am not suggesting that anyone has been careless, but residents should have been kept informed. Many of us only found out about the problem when we were waiting in the lobby. I wish there were a simple notice system so that people with mobility problems could plan ahead. I would be grateful if you could arrange a full inspection by an independent company and share the results with residents. Thank you for your attention to this matter. Yours sincerely, Malee Srisuk, Room 1204"
+      steps_th:
+        - เลือกเรื่องจริงที่คุณเคยกังวล แล้วจดสิ่งที่เกิด สาเหตุที่คาด ข้อเสนอ
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 120–160 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนดูว่าไม่มีคำที่ฟังกล่าวหาหรือหยาบ
+      checklist_th:
+        - ใช้ modal perfect (must have / should have) อย่างน้อย 1 จุด และ wish หรือ would rather 1 จุด
+        - มีข้อเท็จจริงชัดเจน (ครั้ง วัน เวลา)
+        - มีข้อเสนอแนะที่ทำได้จริงพร้อม I would be grateful if you could ...
+        - น้ำเสียงหนักแน่นแต่สุภาพ และยาวประมาณ 140 คำ
+    practice: [cefr-b2-w06-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 6
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [4, 5, 6], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
