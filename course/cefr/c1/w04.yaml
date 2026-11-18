@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 4 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 4
+phase: 1
+theme_th: ภาษาทางการ
+focus_th: subjunctive (recommend/insist/demand that he be · It is vital that · lest · Should there be) · nominalisation (เปลี่ยนกริยาเป็นนามเพื่อความกระชับและทางการ)
+can_do_th:
+  - เขียนข้อเสนอและหนังสือทางการด้วยระดับภาษาที่เหมาะสมได้
+  - อ่านเอกสารทางการและจับเงื่อนไขสำคัญได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ข้อเรียกร้องและข้อเสนอแบบทางการ
+    lesson:
+      rule_th: "หลังคำเรียกร้องอย่าง recommend insist demand และ It is vital that ใช้ ==กริยารูปเดิมไม่ผันเลย== ไม่เติม s ไม่เปลี่ยนเป็นอดีต รูปถูกกระทำใช้ ++be + ช่อง 3++"
+      examples:
+        - {en: "The doctor recommended that he <k>walk</k> slowly.", th: "ไม่ใช่ walks หรือ walked"}
+        - {en: "It is vital that every passenger <k>wear</k> a seat belt.", th: "==ไม่เติม s== แม้ประธานเอกพจน์"}
+        - {en: "They insisted that the rent <k>be paid</k> on time.", th: "ถูกกระทำใช้ be + ช่อง 3"}
+        - {en: "It is essential that she <k>not be</k> late.", th: "ปฏิเสธวาง not หน้ากริยา"}
+      signals:
+        - {label_th: "คำที่ตามด้วย subjunctive", words: [recommend that, insist that, demand that, propose that, request that, "It is vital/essential that"]}
+      thai_trap:
+        intro_th: "คนที่ฝึกเติม s มาตลอดจึงเติมให้อัตโนมัติ ~~that he walks~~ และเปลี่ยนเป็นอดีตตามกริยาหลัก"
+        wrong: ["The doctor recommended that he walked more.", "It is vital that she wears a helmet.", "They insisted that the fee is paid now."]
+        right: ["The doctor recommended that he walk more.", "It is vital that she wear a helmet.", "They insisted that the fee be paid now."]
+      notes:
+        - {kind: tip, th: "ไม่แน่ใจ ใช้ ==should + กริยา== ได้ในภาษาอังกฤษแบบบริติช (that he should walk)"}
+        - {kind: warn, th: "insist on + -ing แต่ insist that + ประโยค อย่าใส่ on หน้า that"}
+    check: [cefr-c1-w04-001, cefr-c1-w04-002]
+    practice: [cefr-c1-w04-003, cefr-c1-w04-004, cefr-c1-w04-005, cefr-c1-w04-006, cefr-c1-w04-007, cefr-c1-w04-008, cefr-c1-w04-009, cefr-c1-w04-010, cefr-c1-w04-011, cefr-c1-w04-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำแบบทางการแก่องค์กรหรือชุมชนของคุณ
+      frame: "I recommend that the ____ ____. It is essential that every ____ ____."
+      model: "I recommend that the office introduce flexible hours for parents. It is essential that every manager be trained before the change."
+    classroom: {en: "I'd suggest that we be careful with the budget.", th: "ขอเสนอให้เราระวังเรื่องงบประมาณ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ภาษาทางการและองค์กร 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้เจอในสัญญา ระเบียบ และจดหมายราชการ จำเป็นวลี ==at someone's discretion== · the onus is on · in compliance with และ ++notwithstanding ใช้แทน despite++ ในภาษาทางการ"
+      examples:
+        - {en: "The contract <k>stipulates</k> payment within 30 days.", th: "ระบุเป็นเงื่อนไข"}
+        - {en: "Refunds are <k>at the manager's discretion</k>.", th: "==แล้วแต่ดุลยพินิจ=="}
+        - {en: "<k>The onus is on</k> the seller to prove it.", th: "ภาระตกที่ผู้ขาย"}
+        - {en: "He <k>conceded</k> that mistakes had been made.", th: "ยอมรับอย่างไม่เต็มใจ"}
+      words:
+        - {w: stipulate, pos: v., th: ระบุเป็นเงื่อนไข, ex: "The rules stipulate a maximum of two guests."}
+        - {w: compliance, pos: n., th: การปฏิบัติตาม, ex: "We are checking compliance with the new law."}
+        - {w: accountable, pos: adj., th: ต้องรับผิดชอบ, ex: "Managers are accountable for their team's safety."}
+        - {w: bureaucracy, pos: n., th: ระบบราชการ ขั้นตอนยุ่งยาก, ex: "Too much bureaucracy slows everything down."}
+        - {w: hierarchy, pos: n., th: ลำดับชั้น, ex: "The company has a very flat hierarchy."}
+        - {w: discretion, pos: n., th: ดุลยพินิจ, ex: "Tips are left to the customer's discretion."}
+        - {w: onus, pos: n., th: ภาระ หน้าที่, ex: "The onus is on the landlord to repair the roof."}
+        - {w: caveat, pos: n., th: ข้อแม้ คำเตือน, ex: "The offer comes with one important caveat."}
+        - {w: entail, pos: v., th: ต้องมี ทำให้เกิดตามมา, ex: "What does the job entail?"}
+        - {w: relinquish, pos: v., th: สละ ปล่อยมือ, ex: "She relinquished her role as chair."}
+        - {w: concede, pos: v., th: ยอมรับ ยอมแพ้, ex: "He conceded that he had been wrong."}
+        - {w: notwithstanding, pos: prep., th: แม้จะมี, ex: "Notwithstanding the cost, the plan was approved."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ รับผิดชอบ คำเดียว คนจึงเขียน ~~responsible to~~ หรือ ~~accountable with~~ และลืมว่า discretion ใช้ at"
+        wrong: ["Managers are accountable with safety.", "Refunds are in the manager's discretion."]
+        right: ["Managers are accountable for safety.", "Refunds are at the manager's discretion."]
+      notes:
+        - {kind: pin, th: "==accountable for== + เรื่อง · accountable to + คน"}
+        - {kind: use, th: "ถามรายละเอียดงานในการสัมภาษณ์ว่า What does the role entail? ฟังมืออาชีพมาก"}
+    check: [cefr-c1-w04-013, cefr-c1-w04-014]
+    practice: [cefr-c1-w04-015, cefr-c1-w04-016, cefr-c1-w04-017, cefr-c1-w04-018, cefr-c1-w04-019, cefr-c1-w04-020, cefr-c1-w04-021, cefr-c1-w04-022, cefr-c1-w04-023, cefr-c1-w04-024]
+    use:
+      prompt_th: เขียน 2 ประโยคอธิบายเงื่อนไขของข้อเสนองานหรือสัญญาเช่าที่คุณเคยเจอ
+      frame: "The contract stipulated that ____. The only caveat was that ____."
+      model: "The contract stipulated that I give two months' notice. The only caveat was that the deposit would be returned at the landlord's discretion."
+    classroom: {en: "Could you tell me what the role entails?", th: "ช่วยเล่าหน่อยได้ไหมว่างานนี้ต้องทำอะไรบ้าง"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เปลี่ยนกริยาเป็นนาม
+    lesson:
+      rule_th: "งานเขียนทางการชอบ ==พูดเป็นนามแทนเป็นประโยค== เช่น because sales fell → due to a fall in sales ทำให้กระชับและดูเป็นกลาง และ ++กริยา + คำวิเศษณ์ → คุณศัพท์ + นาม++"
+      examples:
+        - {en: "They built the bridge. → <k>The construction</k> of the bridge ...", th: "กริยาเป็นนาม + of"}
+        - {en: "Prices rose sharply. → <k>a sharp rise</k> in prices", th: "==คำวิเศษณ์กลายเป็นคุณศัพท์=="}
+        - {en: "If you fail to comply → <k>Failure to comply</k>", th: "ภาษากฎระเบียบ"}
+        - {en: "They didn't have money. → <k>a lack of</k> funding", th: "กระชับ เป็นกลาง"}
+      signals:
+        - {label_th: "ปลายคำนามที่เจอบ่อย", words: ["-tion", "-ment", "-ance/-ence", "-al", "-ure"]}
+      thai_trap:
+        intro_th: "ภาษาไทยเขียนทางการด้วยการเติม การ/ความ คนจึงใช้ ~~the increasing of~~ หรือ ~~the decide~~ แทนคำนามจริงของคำนั้น"
+        wrong: ["The increasing of prices worried us.", "The decide to close was difficult.", "Fail to comply may cause a fine."]
+        right: ["The increase in prices worried us.", "The decision to close was difficult.", "Failure to comply may result in a fine."]
+      notes:
+        - {kind: tip, th: "เจอกริยาในประโยคทางการ ลองถาม ==คำนามของมันคืออะไร== แล้วเขียนใหม่"}
+        - {kind: warn, th: "ใส่นามมากเกินไปจนอ่านยาก จดหมายถึงลูกค้ายังควรมีกริยาชัด ๆ บ้าง"}
+    check: [cefr-c1-w04-025, cefr-c1-w04-026]
+    practice: [cefr-c1-w04-027, cefr-c1-w04-028, cefr-c1-w04-029, cefr-c1-w04-030, cefr-c1-w04-031, cefr-c1-w04-032, cefr-c1-w04-033, cefr-c1-w04-034]
+    use:
+      prompt_th: เขียนประโยคแบบพูดของคุณ 1 ประโยค แล้วเขียนใหม่ในแบบรายงานทางการ
+      frame: "Spoken: ____. Formal: The ____ of ____ led to ____."
+      model: "Spoken: Because they opened a new road, more people visited the town. Formal: The opening of a new road led to an increase in visitors to the town."
+    classroom: {en: "The introduction of the new system went smoothly.", th: "การนำระบบใหม่มาใช้เป็นไปอย่างราบรื่น"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านระเบียบทางการและฟังแถลงการณ์
+    lesson:
+      rule_th: "เอกสารทางการซ่อนสาระไว้ใน ==เงื่อนไขและข้อยกเว้น== (provided that · with the exception of · notwithstanding) และ ++shall = ต้อง++ ไม่ใช่ จะ"
+      examples:
+        - {en: "<k>with the exception of</k> festival markets", th: "ข้อยกเว้น"}
+        - {en: "<k>provided that</k> written reasons are given", th: "==เงื่อนไขที่ต้องมี=="}
+        - {en: "The permit <k>shall</k> be displayed.", th: "shall ในกฎ = ต้อง"}
+      thai_trap:
+        intro_th: "คนอ่านเร็วมักข้าม ~~provided that และ with the exception of~~ ทั้งที่คำถามแทบทุกข้อสร้างจากเงื่อนไขพวกนี้"
+        wrong: ["ตอบว่าร้านในตลาดเทศกาลที่ลงทะเบียนต้องมีใบอนุญาต"]
+        right: ["ตลาดเทศกาลที่ลงทะเบียนได้รับยกเว้นตั้งแต่ข้อ 1"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นใต้ ==ตัวเลขทุกตัว== (30 วัน 1.5 เมตร 20 เมตร 2 ปี) แล้วจับคู่กับเงื่อนไขของมัน"}
+        - {kind: warn, th: "notwithstanding แปลว่าแม้จะมี ไม่ใช่ ยกเว้น"}
+    check: [cefr-c1-w04-036, cefr-c1-w04-037]
+    practice: [cefr-c1-w04-035, cefr-c1-w04-038, cefr-c1-w04-039, cefr-c1-w04-040, cefr-c1-w04-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปกฎข้อหนึ่งของที่ทำงานหรือหมู่บ้านคุณด้วยภาษาทางการ
+      frame: "All ____ shall ____, provided that ____."
+      model: "All residents shall keep the corridor clear, provided that bicycles may be stored temporarily during heavy rain."
+    classroom: {en: "Is there an exception for people who live nearby?", th: "มีข้อยกเว้นสำหรับคนที่อยู่ใกล้ไหม"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน ข้อเสนอทางการถึงผู้บริหาร 200 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนข้อเสนอทางการประมาณ 200 คำถึงผู้บริหารองค์กรหรือนิติบุคคลอาคาร เสนอการเปลี่ยนแปลงหนึ่งเรื่อง (เช่น เวลาทำงานยืดหยุ่น จุดคัดแยกขยะ ห้องพักให้นมบุตร) บอกที่มา ข้อเสนอ ผลที่คาด ข้อแม้หรือค่าใช้จ่าย และคำขอให้พิจารณา
+      frame:
+        - "I am writing to propose ____."
+        - "At present, ____, which has resulted in ____."
+        - "I would therefore recommend that ____ be ____."
+        - "The implementation of this proposal would ____. The only caveat is that ____."
+        - "It is essential that ____. I would be grateful if ____."
+      model_pass: "Dear Ms Wanida, I am writing to propose the introduction of a recycling point on each floor of our building. At present, all waste is collected in one bin, which has resulted in very little recycling. I would therefore recommend that separate bins for paper, plastic and glass be placed next to the lifts. The implementation of this proposal would reduce the amount of waste we send to landfill and could earn the building a small income from recycled materials. The only caveat is that cleaners would need some extra time each week. It is essential that residents be informed clearly before the change. I would be grateful if this proposal could be discussed at the next committee meeting. Yours sincerely, Somchai Rattana, Room 804"
+      model_good: "Dear Ms Wanida, I am writing to propose the introduction of a recycling point on every floor of Sukhumvit Garden Residence. At present, all household waste is collected in a single bin, which has resulted in an estimated 90 per cent of recyclable material ending up in landfill. I would therefore recommend that colour-coded bins for paper, plastic and glass be installed beside the lifts, and that a short guide be sent to every unit. The implementation of this proposal would entail a one-off cost of around 15,000 baht; however, the sale of sorted materials could cover this within a year. The only caveat is that the cleaning team's workload would increase slightly, which I suggest be reflected in their schedule. It is essential that residents be consulted before any change is made. I would be grateful if this proposal could be placed on the agenda for the next committee meeting. Yours sincerely, Somchai Rattana, Room 804"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกเรื่องที่คุณอยากเสนอจริง แล้วหาตัวเลข 1 จุด (ค่าใช้จ่าย จำนวนคน หรือเวลา)
+        - เติมโครง 5 ส่วน แล้วเขียนให้ได้ประมาณ 180–220 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนแล้วเปลี่ยนประโยคแบบพูด 2 ประโยคให้เป็นแบบนาม
+      checklist_th:
+        - ใช้ subjunctive ถูกอย่างน้อย 2 ครั้ง (recommend that ... be · It is essential that ...)
+        - ใช้รูปนามอย่างน้อย 3 คำ (the introduction of · implementation · reduction)
+        - มีข้อแม้หรือค่าใช้จ่ายอย่างตรงไปตรงมา 1 ข้อ
+        - ขึ้นต้นและลงท้ายแบบจดหมายทางการ และยาวประมาณ 200 คำ
+    practice: [cefr-c1-w04-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 4
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [1, 2, 3, 4], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 3 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 3
+phase: 1
+theme_th: เน้นด้วยโครงสร้าง cleft
+focus_th: cleft sentences (It is/was ... that · What ... is · All ... is · The reason why) · fronting · do/does/did เพื่อเน้น · So/Such + inversion · Adj + as + it may seem
+can_do_th:
+  - เน้นประเด็นสำคัญในการพูดและเขียนได้อย่างมีชั้นเชิง
+  - ตามการอภิปรายที่ผู้พูดเน้นและแย้งกันได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ชี้ว่าส่วนไหนสำคัญ
+    lesson:
+      rule_th: "แยกประโยคเป็นสองท่อนเพื่อ ==ชี้นิ้วไปที่ส่วนสำคัญ== ใส่สิ่งที่เน้นไว้ใน It was ... that หรือหลัง ++What ... is++"
+      examples:
+        - {en: "<k>It was</k> my sister <k>who</k> told me.", th: "เน้นว่าเป็นพี่สาว ไม่ใช่คนอื่น"}
+        - {en: "<k>What</k> I need <k>is</k> a holiday.", th: "สิ่งที่ต้องการคือ..."}
+        - {en: "<k>All</k> I want <k>is</k> a quiet place.", th: "==สิ่งเดียวที่ต้องการ=="}
+        - {en: "<k>It wasn't until</k> I moved <k>that</k> I learned to cook.", th: "เพิ่งจะ...หลังจาก"}
+      signals:
+        - {label_th: "โครงเน้นที่ใช้บ่อย", words: ["It is/was ... that/who", "What ... is/was", "All ... is", "The reason why ... is that"]}
+      thai_trap:
+        intro_th: "ภาษาไทยเน้นด้วยคำว่า ต่างหาก หรือ นั่นแหละ คนจึงใส่ ~~because ซ้ำกับ The reason~~ หรือใช้ what หลัง It was"
+        wrong: ["The reason why I left is because the hours were long.", "It was my phone what I lost.", "What I need it is a break."]
+        right: ["The reason why I left is that the hours were long.", "It was my phone that I lost.", "What I need is a break."]
+      notes:
+        - {kind: tip, th: "อยากแก้ความเข้าใจผิดในการคุย ใช้ ==No, it was X that ...== ฟังสุภาพแต่ชัด"}
+        - {kind: warn, th: "ห้ามใส่ it หรือ he ซ้ำในท่อนหลัง เพราะ that/who แทนไปแล้ว"}
+    check: [cefr-c1-w03-001, cefr-c1-w03-002]
+    practice: [cefr-c1-w03-003, cefr-c1-w03-004, cefr-c1-w03-005, cefr-c1-w03-006, cefr-c1-w03-007, cefr-c1-w03-008, cefr-c1-w03-009, cefr-c1-w03-010, cefr-c1-w03-011, cefr-c1-w03-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเน้นสิ่งที่ชอบที่สุดในงานหรือชีวิตตอนนี้ และเหตุผลที่แท้จริงของการตัดสินใจครั้งหนึ่ง
+      frame: "What I enjoy most about ____ is ____. The reason why I ____ was that ____."
+      model: "What I enjoy most about my job is solving problems with customers. The reason why I changed teams was that I wanted more contact with people."
+    classroom: {en: "What I'm trying to say is that we need more time.", th: "สิ่งที่อยากจะบอกคือเราต้องการเวลาเพิ่ม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การพัฒนาและสนับสนุน 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้คุยเรื่ององค์กรและการพัฒนาคน แยก ==foster/cultivate (บ่มเพาะ)== ออกจาก streamline (ทำให้คล่องตัว) และจำว่า ++advocate for · endeavour to++"
+      examples:
+        - {en: "Feedback <k>fosters</k> trust.", th: "บ่มเพาะให้เกิด"}
+        - {en: "The app will <k>streamline</k> the process.", th: "ทำให้ขั้นตอนกระชับ"}
+        - {en: "Good managers <k>empower</k> staff <k>to</k> decide.", th: "==ให้อำนาจคนตัดสินใจ=="}
+        - {en: "She <k>advocates for</k> free health checks.", th: "รณรงค์สนับสนุน"}
+      words:
+        - {w: underpin, pos: v., th: เป็นรากฐานรองรับ, ex: "Trust underpins every good partnership."}
+        - {w: foster, pos: v., th: ส่งเสริม บ่มเพาะ, ex: "The club fosters a love of reading."}
+        - {w: cultivate, pos: v., th: ปลูกฝัง พัฒนา, ex: "He cultivated good relationships with clients."}
+        - {w: facilitate, pos: v., th: อำนวยความสะดวก, ex: "She facilitated the workshop."}
+        - {w: empower, pos: v., th: ให้อำนาจ ทำให้มั่นใจ, ex: "Education empowers women."}
+        - {w: bolster, pos: v., th: หนุน เสริมให้แข็งแรง, ex: "The win bolstered their confidence."}
+        - {w: consolidate, pos: v., th: รวบรวมให้มั่นคง, ex: "Review helps consolidate learning."}
+        - {w: streamline, pos: v., th: ทำให้กระชับ คล่องตัว, ex: "We streamlined the approval process."}
+        - {w: scaffold, pos: v., th: ประคองการเรียนรู้ทีละขั้น, ex: "Good tutors scaffold difficult tasks."}
+        - {w: endorse, pos: v., th: รับรอง สนับสนุนอย่างเป็นทางการ, ex: "The doctors' association endorsed the campaign."}
+        - {w: advocate, pos: v./n., th: สนับสนุน ผู้สนับสนุน, ex: "She is a strong advocate of public transport."}
+        - {w: endeavour, pos: v./n., th: พยายามอย่างเต็มที่, ex: "We endeavour to answer within a day."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ สนับสนุน คำเดียว คนเลยสลับ ~~endorse for / advocate the~~ และใส่ for ผิดที่"
+        wrong: ["The board endorsed for the plan.", "We endeavour replying within a day."]
+        right: ["The board endorsed the plan.", "We endeavour to reply within a day."]
+      notes:
+        - {kind: pin, th: "==advocate for== + สิ่งที่เรียกร้อง · endorse + สิ่งที่รับรอง (ไม่มี for)"}
+        - {kind: use, th: "อีเมลบริการลูกค้าใช้ We endeavour to ... แทน We try to ... ฟังมืออาชีพขึ้น"}
+    check: [cefr-c1-w03-013, cefr-c1-w03-014]
+    practice: [cefr-c1-w03-015, cefr-c1-w03-016, cefr-c1-w03-017, cefr-c1-w03-018, cefr-c1-w03-019, cefr-c1-w03-020, cefr-c1-w03-021, cefr-c1-w03-022, cefr-c1-w03-023, cefr-c1-w03-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเสนอวิธีพัฒนาทีมหรือชุมชนของคุณ
+      frame: "To foster ____, we could ____. This would also streamline ____."
+      model: "To foster a sense of community, we could hold a monthly market in the village square. This would also streamline the way local farmers sell their produce."
+    classroom: {en: "We'll endeavour to get back to you by Friday.", th: "เราจะพยายามติดต่อกลับภายในวันศุกร์"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ย้ายมาไว้หน้า และเน้นด้วย do
+    lesson:
+      rule_th: "เน้นได้อีกสามแบบ ==do/does/did + กริยารูปเดิม== (ยืนยันว่าทำจริง) · ย้ายกรรมขึ้นหน้าเพื่อเปรียบเทียบ · ++So/Such ขึ้นต้นแล้วสลับลำดับ++"
+      examples:
+        - {en: "I <k>do</k> want to help.", th: "อยากช่วยจริง ๆ นะ"}
+        - {en: "She <k>did</k> apologise in the end.", th: "==did + กริยารูปเดิม== ไม่ใช่ did apologised"}
+        - {en: "<k>So moving was</k> her speech that we stood up.", th: "So + คุณศัพท์ + be + ประธาน"}
+        - {en: "<k>Hard as</k> it may seem, we're on schedule.", th: "แม้จะดูยากก็ตาม"}
+      signals:
+        - {label_th: "แบบเน้น", words: [I do think, She did say, So + adj + was, Such was, Adj + as + it may seem]}
+      thai_trap:
+        intro_th: "ภาษาไทยเน้นด้วยน้ำเสียงหรือคำว่า จริง ๆ นะ คนจึงเขียน ~~I did warned you~~ หรือไม่สลับหลัง So"
+        wrong: ["I did warned you.", "So difficult the test was that few passed.", "Such the damage was that roads closed."]
+        right: ["I did warn you.", "So difficult was the test that few passed.", "Such was the damage that roads closed."]
+      notes:
+        - {kind: tip, th: "ในการคุย ==I do understand, but ...== ช่วยยอมรับอีกฝ่ายก่อนแย้งได้นุ่มนวล"}
+        - {kind: warn, th: "So/Such ขึ้นต้นเป็นภาษาทางการ ใช้ในงานเขียนหรือสุนทรพจน์มากกว่าคุยเล่น"}
+    check: [cefr-c1-w03-025, cefr-c1-w03-026]
+    practice: [cefr-c1-w03-027, cefr-c1-w03-028, cefr-c1-w03-029, cefr-c1-w03-030, cefr-c1-w03-031, cefr-c1-w03-032, cefr-c1-w03-033, cefr-c1-w03-034]
+    use:
+      prompt_th: เขียน 2 ประโยค ยืนยันสิ่งที่คุณทำไปแล้วแต่คนอื่นคิดว่ายังไม่ทำ และเล่าเหตุการณ์ที่รุนแรงจนมีผลตามมา
+      frame: "I did ____, but ____. So ____ was ____ that ____."
+      model: "I did send the report on Monday, but it may have gone to your spam folder. So heavy was the rain last night that our street flooded."
+    classroom: {en: "I do appreciate your help, I really do.", th: "ขอบคุณที่ช่วยจริง ๆ นะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความภาวะผู้นำและฟังการอภิปราย
+    lesson:
+      rule_th: "ผู้เขียนและผู้พูดระดับนี้ ==ใช้โครงสร้างเน้นเพื่อชี้ประเด็นหลัก== เวลาอ่านให้สังเกต It is precisely ... that และ What they did was ส่วนในการอภิปราย ++It's not X, it's Y++ บอกว่าผู้พูดแย้งอะไร"
+      examples:
+        - {en: "<k>It is precisely</k> this image <k>that</k> leads ...", th: "ประเด็นที่ผู้เขียนวิจารณ์"}
+        - {en: "<k>What they did was</k> delay decisions.", th: "==สิ่งที่ผู้นำเงียบทำจริง=="}
+        - {en: "<k>It's not</k> the money <k>that's</k> holding us back.", th: "แย้งความเห็นของอีกคน"}
+      thai_trap:
+        intro_th: "บทความมักยอมรับอีกฝั่งบางส่วน เช่น ~~confidence is a weakness~~ คนอ่านเร็วจึงเข้าใจว่าผู้เขียนต่อต้านความมั่นใจทั้งหมด"
+        wrong: ["ตอบว่าผู้เขียนคิดว่าผู้นำที่มั่นใจไม่มีประโยชน์เลย"]
+        right: ["ผู้เขียนบอกว่าความมั่นใจมีประโยชน์ในวิกฤต แต่ไม่ควรถือเป็นหลักฐานของความสามารถ"]
+      notes:
+        - {kind: tip, th: "ประโยค The researchers do not claim... บอก ==ขอบเขตของข้อสรุป== ซึ่งมักถูกถาม"}
+        - {kind: warn, th: "Not quite. What I said was ... ในการคุย คือการแก้คำพูดที่ถูกเข้าใจผิด"}
+    check: [cefr-c1-w03-036, cefr-c1-w03-037]
+    practice: [cefr-c1-w03-035, cefr-c1-w03-038, cefr-c1-w03-039, cefr-c1-w03-040, cefr-c1-w03-041]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าถึงผู้นำหรือหัวหน้าที่คุณนับถือ ใช้โครงสร้างเน้น
+      frame: "What I admired most about ____ was ____. It was ____ that ____."
+      model: "What I admired most about my first boss was her patience. It was her calm reaction to my first big mistake that made me want to stay."
+    classroom: {en: "Not quite. What I meant was that we should wait.", th: "ไม่ใช่อย่างนั้น ที่หมายถึงคือเราควรรอ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด โน้มน้าวที่ประชุมให้สนับสนุนโครงการ 2 นาที
+    lab:
+      mode: speak
+      prompt_th: คุณต้องโน้มน้าวที่ประชุม (ที่ทำงาน หมู่บ้าน หรือคอนโด) ให้สนับสนุนโครงการหนึ่ง เช่น สวนผักส่วนกลาง ชั่วโมงทำงานยืดหยุ่น หรือห้องอ่านหนังสือ พูด 2 นาที บอกปัญหาที่แท้จริง สิ่งที่โครงการจะทำ ยอมรับข้อกังวลหนึ่งข้อแล้วตอบ และขอให้ที่ประชุมตัดสินใจ
+      frame:
+        - "What I'd like to propose today is ____."
+        - "The real problem isn't ____. It's ____."
+        - "What this project would do is ____."
+        - "I do understand that ____. However, ____."
+        - "So what I'm asking for is ____."
+      model_pass: "What I'd like to propose today is a shared vegetable garden on the empty land behind our building. The real problem isn't the cost of food. It's that many of us never meet our neighbours. What this project would do is give us a reason to spend time together every weekend. I do understand that some people are worried about the cost. However, the seeds and tools would cost less than two thousand baht in total. So what I'm asking for is your permission to try it for three months."
+      model_good: "What I'd like to propose this evening is something small that could make a surprisingly big difference: a shared vegetable garden on the empty land behind Building B. The real problem in our community isn't the price of vegetables. It's that most of us have lived here for years without ever having a proper conversation with our neighbours. What this project would do is give people of every age a reason to come outside, work side by side and swap advice, and perhaps a few recipes. I do understand the concern about who will water it during the hot season. However, twelve residents have already volunteered to take turns. So what I'm asking for tonight is simply this: three months, two thousand baht and your support to see whether it works."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกโครงการจริงของคุณ แล้วจดคำสำคัญของแต่ละส่วนในโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบ โดยเน้นเสียงที่คำสำคัญหลัง What ... is และ It's ...
+      checklist_th:
+        - ใช้โครงสร้างเน้นอย่างน้อย 3 ครั้ง (What ... is · It's not X, it's Y · I do ...)
+        - ยอมรับข้อกังวลของผู้ฟังก่อนตอบ
+        - จบด้วยคำขอที่ชัดเจน (เวลา งบ หรือสิ่งที่ต้องการให้ตัดสิน)
+        - พูดได้ประมาณ 2 นาทีโดยไม่อ่านจากบท
+    practice: [cefr-c1-w03-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 3
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [1, 2, 3], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

@@ -1,0 +1,581 @@
+# คอร์ส c1 · สัปดาห์ 3 · เน้นด้วยโครงสร้าง cleft · It is/was...that · What...is · All...is · The reason why · fronting · do/does/did เพื่อเน้น · such/so + inversion
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · ชี้ว่าส่วนไหนสำคัญ ----------
+- id: cefr-c1-w03-001
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 1
+  stem: It was my sister ____ told me about this job, not my friend.
+  choices:
+    - {t: who, why: "It was + คน + ++who/that++ เน้นว่าเป็นคนนี้"}
+    - {t: which, why: "which ใช้กับสิ่งของ ไม่ใช่ my sister"}
+    - {t: what, why: "what ไม่ใช้ใน It was ... that"}
+    - {t: whom, why: "whom ใช้เป็นกรรม แต่ตรงนี้เป็นประธานของ told"}
+  explain: "It is/was + ==ส่วนที่เน้น== + who/that + ส่วนที่เหลือ"
+  status: draft
+- id: cefr-c1-w03-002
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 1
+  stem: ____ I need right now is a long holiday.
+  choices:
+    - {t: What, why: "What ... is = สิ่งที่...คือ ใช้ ++What I need is++"}
+    - {t: That, why: "That I need ... ไม่ใช่โครงสร้างเน้น"}
+    - {t: Which, why: "Which ไม่ใช้ขึ้นต้นประโยคเน้นแบบนี้"}
+    - {t: It, why: "It I need ผิดรูป ขาด is ... that"}
+  explain: "==What + ประธาน + กริยา + is + สิ่งที่เน้น=="
+  status: draft
+- id: cefr-c1-w03-003
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: It wasn't until I moved to Bangkok ____ I learned to cook.
+  choices:
+    - {t: that, why: "It wasn't until ... ++that++ ... = เพิ่งจะ...หลังจาก"}
+    - {t: when, why: "It wasn't until ... ใช้ that ไม่ใช่ when"}
+    - {t: then, why: "then ไม่ใช่คำเชื่อมของโครงสร้างนี้"}
+    - {t: so, why: "so ไม่ใช้ในโครงสร้าง It wasn't until"}
+  explain: "It wasn't until + เวลา + ==that== + ประโยค"
+  status: draft
+- id: cefr-c1-w03-004
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: All I want ____ a quiet place to work.
+  choices:
+    - {t: is, why: "All I want = สิ่งเดียวที่ต้องการ ใช้กริยาเอกพจน์ ++is++"}
+    - {t: are, why: "All I want เป็นเอกพจน์ ใช้ are ไม่ได้"}
+    - {t: being, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+    - {t: to be, why: "All I want to be เปลี่ยนความหมายเป็นอยากเป็น"}
+  explain: "==All + ประธาน + กริยา + is== = สิ่งเดียวที่..."
+  status: draft
+- id: cefr-c1-w03-005
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: The reason ____ I left was the long working hours.
+  choices:
+    - {t: why, why: "The reason ++why++ + ประโยค = เหตุผลที่"}
+    - {t: because, why: "The reason because ซ้ำซ้อน ใช้ไม่ได้"}
+    - {t: what, why: "The reason what ผิดรูป"}
+    - {t: for, why: "The reason for ต้องตามด้วยคำนาม ไม่ใช่ประโยค"}
+  explain: "The reason ==why / that== + ประโยค · ไม่ใช้ because ซ้ำ"
+  status: draft
+- id: cefr-c1-w03-006
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: What surprised me most ____ how friendly everyone was.
+  choices:
+    - {t: was, why: "What-clause เป็นประธานเอกพจน์ อดีต ใช้ ++was++"}
+    - {t: were, why: "What surprised me เป็นเอกพจน์"}
+    - {t: is, why: "surprised เป็นอดีต ควรใช้ was ให้ตรงเวลา"}
+    - {t: did, why: "did ไม่ใช่กริยาเชื่อมของโครงสร้าง What ... was"}
+  explain: "What + ==กริยาอดีต== ... was · What + ปัจจุบัน ... is"
+  status: draft
+- id: cefr-c1-w03-007
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: What we did ____ call every customer personally.
+  choices:
+    - {t: was, why: "What we did was + ++กริยารูปเดิม++ (เน้นการกระทำ)"}
+    - {t: was to calling, why: "หลัง to ใช้กริยารูปเดิม และไม่มี -ing"}
+    - {t: did, why: "did call ไม่ใช่โครงสร้าง What we did was"}
+    - {t: is, why: "did เป็นอดีต ต้องใช้ was"}
+  explain: "เน้นการกระทำ ==What ... did was (to) + กริยา=="
+  status: draft
+- id: cefr-c1-w03-008
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 1
+  stem: It is the price, not the quality, ____ worries most customers.
+  choices:
+    - {t: that, why: "It is + สิ่งของ + ++that++ + กริยา"}
+    - {t: who, why: "who ใช้กับคน ไม่ใช่ the price"}
+    - {t: what, why: "what ไม่ใช้หลัง It is + คำนาม"}
+    - {t: it, why: "it ซ้ำประธาน ใช้ไม่ได้"}
+  explain: "เน้นสิ่งของใช้ ==that== · เน้นคนใช้ who หรือ that"
+  status: draft
+- id: cefr-c1-w03-009
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 3
+  stem: Which sentence emphasises WHEN the parcel arrived?
+  choices:
+    - {t: "It was on Friday that the parcel arrived.", why: "เอาวันไว้ในส่วนที่เน้น ++It was on Friday that++"}
+    - {t: "It was the parcel that arrived on Friday.", why: "เน้นว่าเป็นพัสดุ ไม่ใช่วันที่มาถึง"}
+    - {t: "What arrived on Friday was the parcel.", why: "เน้นสิ่งที่มาถึง ไม่ใช่เวลา"}
+    - {t: "The parcel was what arrived on Friday.", why: "เน้นสิ่งของ และฟังผิดธรรมชาติ"}
+  explain: "ส่วนที่อยู่ระหว่าง ==It was ... that== คือสิ่งที่เน้น"
+  status: draft
+- id: cefr-c1-w03-010
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: It's not what you say ____ matters, it's how you say it.
+  choices:
+    - {t: that, why: "It's not X ++that++ matters, it's Y = เน้นเปรียบเทียบ"}
+    - {t: what, why: "what ซ้ำกับ what you say ใช้ไม่ได้"}
+    - {t: it, why: "it ซ้ำประธาน ใช้ไม่ได้"}
+    - {t: which, why: "which ไม่ใช้ในโครงสร้าง It's not ... that"}
+  explain: "It's not A ==that== matters, it's B"
+  status: draft
+- id: cefr-c1-w03-011
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 3
+  stem: "\"Did you lose your wallet?\" \"No, it was my phone ____.\""
+  choices:
+    - {t: that I lost, why: "It was my phone + ++that I lost++ แก้ข้อมูลที่ผิด"}
+    - {t: what I lost, why: "what ไม่ใช้หลัง It was + คำนาม"}
+    - {t: I lost it, why: "มี it ซ้ำกรรม ใช้ไม่ได้"}
+    - {t: which lost, why: "ขาดประธาน I จึงใช้ไม่ได้"}
+  explain: "แก้ความเข้าใจผิด ==No, it was X that ...=="
+  status: draft
+- id: cefr-c1-w03-012
+  kind: type
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  stem: "W___ I love about this city is the street food. (สิ่งที่)"
+  answer: what
+  accept: [what, What]
+  why: "What + ประธาน + กริยา + is ... ใช้เน้นสิ่งที่ชอบ"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การพัฒนาและสนับสนุน ----------
+- id: cefr-c1-w03-013
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 1
+  stem: Regular feedback helps ____ a culture of trust in the team.
+  choices:
+    - {t: foster, why: "ส่งเสริมให้เกิดและเติบโต ใช้ ++foster a culture++"}
+    - {t: streamline, why: "streamline แปลว่าทำให้กระชับ คล่องตัว ไม่ใช้กับวัฒนธรรม"}
+    - {t: endeavour, why: "endeavour ต้องตามด้วย to และแปลว่าพยายาม"}
+    - {t: scaffold, why: "scaffold ใช้กับการช่วยเรียนรู้ทีละขั้น ไม่ใช่วัฒนธรรม"}
+  explain: "foster trust / creativity = ==ส่งเสริม บ่มเพาะ=="
+  status: draft
+- id: cefr-c1-w03-014
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 1
+  stem: The new software will ____ the ordering process and save staff an hour a day.
+  choices:
+    - {t: streamline, why: "ทำให้ขั้นตอนกระชับ เร็วขึ้น ใช้ ++streamline++"}
+    - {t: foster, why: "foster ใช้กับความรู้สึกหรือความสัมพันธ์"}
+    - {t: endorse, why: "endorse แปลว่ารับรอง สนับสนุนอย่างเป็นทางการ"}
+    - {t: advocate, why: "advocate แปลว่าสนับสนุนแนวคิด ไม่ใช่ทำให้เร็วขึ้น"}
+  explain: "streamline = ==ทำให้กระชับ คล่องตัวขึ้น=="
+  status: draft
+- id: cefr-c1-w03-015
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: Good managers ____ their staff to make decisions without asking permission every time.
+  choices:
+    - {t: empower, why: "ให้อำนาจและความมั่นใจ ใช้ ++empower someone to++"}
+    - {t: underpin, why: "underpin ไม่ตามด้วยคน + to"}
+    - {t: consolidate, why: "consolidate แปลว่ารวมให้มั่นคง ไม่ตามด้วยคน + to"}
+    - {t: streamline, why: "streamline ใช้กับระบบหรือขั้นตอน ไม่ใช่คน"}
+  explain: "empower someone ==to do== something = ให้อำนาจ"
+  status: draft
+- id: cefr-c1-w03-016
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: Strong research ____ every recommendation in the report.
+  choices:
+    - {t: underpins, why: "เป็นรากฐานรองรับ ใช้ ++underpins++"}
+    - {t: endeavours, why: "endeavour ต้องตามด้วย to"}
+    - {t: advocates, why: "งานวิจัยไม่ได้รณรงค์ แต่เป็นฐานรองรับ"}
+    - {t: empowers, why: "empower ใช้กับคน ไม่ใช่ข้อเสนอแนะ"}
+  explain: "underpin = ==เป็นรากฐาน รองรับ=="
+  status: draft
+- id: cefr-c1-w03-017
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: The coach's job is to ____ the team's confidence before the final.
+  choices:
+    - {t: bolster, why: "เสริมให้แข็งแรงขึ้น ใช้ ++bolster confidence++"}
+    - {t: streamline, why: "streamline ไม่ใช้กับความมั่นใจ"}
+    - {t: endorse, why: "endorse confidence ไม่ใช่วลีที่ใช้"}
+    - {t: scaffold, why: "scaffold confidence ไม่ใช่วลีที่ใช้"}
+  explain: "bolster confidence / support = ==เสริม หนุนให้แข็งแรง=="
+  status: draft
+- id: cefr-c1-w03-018
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: After a successful first year, the company wants to ____ its position before expanding abroad.
+  choices:
+    - {t: consolidate, why: "ทำให้มั่นคงก่อนขยาย ใช้ ++consolidate its position++"}
+    - {t: endeavour, why: "endeavour its position ผิดรูป"}
+    - {t: advocate, why: "advocate its position แปลว่าสนับสนุนจุดยืน ไม่ใช่ทำให้มั่นคง"}
+    - {t: allude, why: "allude ต้องตามด้วย to"}
+  explain: "consolidate = ==รวบรวมให้มั่นคง=="
+  status: draft
+- id: cefr-c1-w03-019
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: Hobbies like gardening help older people ____ patience and a sense of purpose.
+  choices:
+    - {t: cultivate, why: "ปลูกฝัง ค่อย ๆ สร้าง ใช้ ++cultivate patience++"}
+    - {t: streamline, why: "streamline ไม่ใช้กับคุณลักษณะของคน"}
+    - {t: endorse, why: "endorse แปลว่ารับรอง ไม่ใช่ปลูกฝัง"}
+    - {t: consolidate, why: "consolidate patience ไม่ใช่วลีที่ใช้"}
+  explain: "cultivate a habit / skill / relationship = ==ปลูกฝัง=="
+  status: draft
+- id: cefr-c1-w03-020
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: The role of a mediator is to ____ discussion, not to take sides.
+  choices:
+    - {t: facilitate, why: "ช่วยให้การพูดคุยดำเนินไปได้ ใช้ ++facilitate++"}
+    - {t: endorse, why: "endorse แปลว่าสนับสนุนข้างใดข้างหนึ่ง ขัดกับ not take sides"}
+    - {t: advocate, why: "advocate แปลว่าสนับสนุนฝ่ายหนึ่ง ขัดกับ not take sides"}
+    - {t: bolster, why: "bolster discussion ไม่ใช่สิ่งที่ผู้ไกล่เกลี่ยทำ"}
+  explain: "facilitate = ==อำนวยความสะดวก ทำให้ดำเนินไปง่าย=="
+  status: draft
+- id: cefr-c1-w03-021
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: The plan was officially ____ by the board on Monday.
+  choices:
+    - {t: endorsed, why: "รับรองอย่างเป็นทางการ ใช้ ++endorsed++"}
+    - {t: endeavoured, why: "endeavour ไม่ใช้ในรูปถูกกระทำแบบนี้"}
+    - {t: cultivated, why: "cultivated ไม่ได้แปลว่ารับรอง"}
+    - {t: underpinned, why: "underpinned by the board ไม่ได้แปลว่าอนุมัติ"}
+  explain: "endorse = ==รับรอง สนับสนุนอย่างเป็นทางการ=="
+  status: draft
+- id: cefr-c1-w03-022
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: She has long ____ for free health checks for people over sixty.
+  choices:
+    - {t: advocated, why: "รณรงค์สนับสนุน ใช้ ++advocate for++"}
+    - {t: endorsed, why: "endorse ไม่ตามด้วย for"}
+    - {t: fostered, why: "foster ไม่ตามด้วย for"}
+    - {t: facilitated, why: "facilitate ไม่ตามด้วย for"}
+  explain: "advocate (for) = ==สนับสนุน เรียกร้องแทน=="
+  status: draft
+- id: cefr-c1-w03-023
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 3
+  stem: Good trainers ____ a new skill by breaking it into small, manageable steps.
+  choices:
+    - {t: scaffold, why: "ค้ำช่วยการเรียนรู้ทีละขั้น ใช้ ++scaffold++"}
+    - {t: endorse, why: "endorse a skill ไม่ได้แปลว่าช่วยสอน"}
+    - {t: consolidate, why: "consolidate คือการทำให้แน่นหลังเรียนแล้ว ไม่ใช่การแบ่งขั้น"}
+    - {t: advocate, why: "advocate a skill ไม่ได้แปลว่าสอนทีละขั้น"}
+  explain: "scaffold learning = ==ช่วยประคองทีละขั้น== แล้วค่อยปล่อย"
+  status: draft
+- id: cefr-c1-w03-024
+  kind: type
+  skill: vo
+  topic: development-support
+  level: 2
+  stem: "We will e________ to reply to all messages within 24 hours. (พยายามอย่างเต็มที่)"
+  answer: endeavour
+  accept: [endeavour, endeavor]
+  why: "endeavour to + กริยา = พยายามอย่างเต็มที่ ใช้ในภาษาทางการ"
+  status: draft
+# ---------- วันที่ 3 · ย้ายมาไว้หน้า และ do เพื่อเน้น ----------
+- id: cefr-c1-w03-025
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 1
+  stem: I ____ want to help. I just don't have time this week.
+  choices:
+    - {t: do, why: "เน้นว่าอยากจริง ๆ ใช้ ++do + กริยารูปเดิม++"}
+    - {t: am, why: "am want ผิดรูป จึงใช้ไม่ได้"}
+    - {t: does, why: "I ใช้ do ไม่ใช่ does"}
+    - {t: did, why: "did ทำให้เป็นอดีต ขัดกับ this week"}
+  explain: "เน้นด้วย ==do/does/did + กริยารูปเดิม== (I do like it!)"
+  status: draft
+- id: cefr-c1-w03-026
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 1
+  stem: She ____ apologise in the end, but only after a week.
+  choices:
+    - {t: did, why: "เน้นว่าขอโทษจริงในอดีต ใช้ ++did + กริยารูปเดิม++"}
+    - {t: does, why: "in the end และ after a week เป็นอดีต"}
+    - {t: was, why: "was apologise ผิดรูป"}
+    - {t: had, why: "had apologise ผิดรูป ต้องเป็นช่อง 3"}
+  explain: "เน้นในอดีต ==did + กริยารูปเดิม== (ไม่ใช่ did apologised)"
+  status: draft
+- id: cefr-c1-w03-027
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  stem: So ____ that the whole audience stood up and clapped.
+  choices:
+    - {t: moving was her speech, why: "So + คุณศัพท์ ขึ้นต้น สลับ ++was her speech++"}
+    - {t: moving her speech was, why: "So + คุณศัพท์ ขึ้นต้นต้องสลับลำดับ"}
+    - {t: her speech was moving, why: "ไม่สลับลำดับ และวางผิดตำแหน่ง"}
+    - {t: was moving her speech, why: "คุณศัพท์ต้องตามหลัง So ทันที"}
+  explain: "==So + คุณศัพท์ + be + ประธาน + that=="
+  status: draft
+- id: cefr-c1-w03-028
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  stem: Such ____ that the roads were closed for two days.
+  choices:
+    - {t: was the damage, why: "Such ขึ้นต้น สลับ ++was the damage++"}
+    - {t: the damage was, why: "Such ขึ้นต้นต้องสลับลำดับ"}
+    - {t: damage was, why: "ขาด the และไม่สลับลำดับ"}
+    - {t: was damage it, why: "มี it เกินมา จึงใช้ไม่ได้"}
+  explain: "==Such + be + คำนาม + that== = รุนแรงจน..."
+  status: draft
+- id: cefr-c1-w03-029
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  stem: The first two chapters I enjoyed. ____, I found far too long.
+  choices:
+    - {t: The rest, why: "ย้ายกรรมมาไว้หน้าเพื่อเปรียบเทียบ ++The rest, I found too long++"}
+    - {t: The rest it, why: "มี it ซ้ำกรรม ใช้ไม่ได้"}
+    - {t: It the rest, why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: That the rest, why: "That ทำให้เป็นอนุประโยค ประโยคไม่สมบูรณ์"}
+  explain: "fronting = ==ย้ายกรรมขึ้นหน้าเพื่อเปรียบเทียบ== ไม่ต้องใส่ it ซ้ำ"
+  status: draft
+- id: cefr-c1-w03-030
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  stem: At the top of the hill ____ an old temple.
+  choices:
+    - {t: stands, why: "ขึ้นต้นด้วยสถานที่ แล้วกริยาวางก่อนประธาน ++stands an old temple++"}
+    - {t: does stand, why: "ไม่ใช้ do กับการสลับหลังวลีสถานที่"}
+    - {t: it stands, why: "มี it เกินมา ประธานคือ an old temple"}
+    - {t: standing, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "วลีสถานที่ขึ้นต้น + ==กริยา + ประธาน== (Here comes the bus.)"
+  status: draft
+- id: cefr-c1-w03-031
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  stem: Which sentence uses emphasis correctly?
+  choices:
+    - {t: "I did warn you about the traffic.", why: "did + กริยารูปเดิม ++เน้นว่าเตือนแล้วจริง ๆ++"}
+    - {t: "I did warned you about the traffic.", why: "หลัง did ต้องใช้กริยารูปเดิม"}
+    - {t: "I do warned you about the traffic.", why: "do ปัจจุบันใช้กับ warned ไม่ได้"}
+    - {t: "I was warn you about the traffic.", why: "was warn ผิดรูป"}
+  explain: "ตอบโต้ว่าทำแล้วนะ ==I did + กริยารูปเดิม=="
+  status: draft
+- id: cefr-c1-w03-032
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  stem: So difficult ____ that only three people passed.
+  choices:
+    - {t: was the test, why: "So + คุณศัพท์ขึ้นต้น สลับ ++was the test++"}
+    - {t: the test was, why: "So + คุณศัพท์ขึ้นต้นต้องสลับลำดับ"}
+    - {t: did the test, why: "difficult เป็นคุณศัพท์ ต้องใช้ be ไม่ใช่ did"}
+    - {t: had the test, why: "had ไม่ใช่กริยาที่คู่กับ difficult"}
+  explain: "So difficult was the test = ==The test was so difficult== (แบบเน้น)"
+  status: draft
+- id: cefr-c1-w03-033
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  stem: Hard ____ it may seem, the project is still on schedule.
+  choices:
+    - {t: as, why: "คุณศัพท์ + ++as++ + it may seem = แม้จะดู...ก็ตาม"}
+    - {t: so, why: "Hard so it may seem ผิดรูป"}
+    - {t: like, why: "like ไม่ใช้ในโครงสร้างนี้"}
+    - {t: that, why: "Hard that ผิดรูป"}
+  explain: "==Adj + as + ประธาน + กริยา== = แม้จะ...ก็ตาม (ทางการ)"
+  status: draft
+- id: cefr-c1-w03-034
+  kind: cloze
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  text: |
+    Thank you all for coming. (1) ____ I want to say first is how proud I am of this team. Sales were low in January, but we (2) ____ recover by June. So strong (3) ____ our results that the company has decided to open a second branch.
+  questions:
+    - choices:
+        - {t: What, why: "What I want to say is ... ใช้ What ขึ้นต้น"}
+        - {t: That, why: "That ไม่ใช้ขึ้นต้นโครงสร้างเน้นนี้"}
+        - {t: It, why: "It I want to say ผิดรูป"}
+        - {t: Which, why: "Which ไม่ใช้ขึ้นต้นประโยคบอกเล่าแบบนี้"}
+    - choices:
+        - {t: did, why: "เน้นว่าฟื้นตัวได้จริงในอดีต did + กริยารูปเดิม"}
+        - {t: do, why: "by June เป็นอดีต ใช้ do ไม่ได้"}
+        - {t: were, why: "were recover ผิดรูป"}
+        - {t: had, why: "had recover ผิดรูป ต้องเป็นช่อง 3"}
+    - choices:
+        - {t: were, why: "So strong ขึ้นต้น สลับ were + our results (พหูพจน์)"}
+        - {t: was, why: "our results เป็นพหูพจน์ ใช้ were"}
+        - {t: did, why: "strong เป็นคุณศัพท์ ต้องใช้ be"}
+        - {t: are, why: "เรื่องที่เล่าเป็นอดีต และไม่ตรงกับ has decided ที่ตามมาจากผลเดิม"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความและฟังการอภิปราย ----------
+- id: cefr-c1-w03-035
+  kind: read
+  skill: rd
+  topic: leadership
+  level: 2
+  title: "The Quiet Leader"
+  passage: |
+    When we imagine a great leader, most of us picture someone confident and loud: the person who speaks first in meetings and makes decisions quickly. It is precisely this image, according to a growing body of research, that leads many organisations to promote the wrong people.
+
+    In a three-year study of 120 teams at a large logistics firm, researchers measured not only results but also how team members felt about their managers. What they found surprised the company's directors. The most productive teams were rarely led by the most charismatic managers. Instead, they tended to be led by people who asked more questions than they answered, and who were comfortable admitting when they did not know something.
+
+    These "quiet leaders" did not avoid difficult decisions. What they did was delay them until they had heard from the people closest to the problem. As one warehouse supervisor put it, "She never pretended to know our jobs better than we did. That's exactly why we trusted her."
+
+    The researchers do not claim that confidence is a weakness. Teams in a crisis, they note, often benefit from a decisive voice. But they argue that companies should stop treating confidence as a sign of competence. Such is the power of first impressions that a manager who speaks fluently in an interview can be hired over a far more capable colleague. Only by changing how they recruit and promote, the study concludes, will organisations stop rewarding the loudest person in the room.
+  questions:
+    - stem: What is the main idea of the article?
+      choices:
+        - {t: organisations often mistake confidence for good leadership, why: "ทั้งบทชี้ว่าองค์กรมองความมั่นใจเป็นความสามารถ และเลื่อนตำแหน่งผิดคน"}
+        - {t: loud managers always fail in a crisis, why: "บทบอกว่าในวิกฤต ทีมได้ประโยชน์จากเสียงที่เด็ดขาด"}
+        - {t: logistics companies have poor managers, why: "บริษัทขนส่งเป็นแค่ที่ทำวิจัย ไม่ใช่ประเด็นหลัก"}
+        - {t: managers should never make quick decisions, why: "บทไม่ได้ห้ามตัดสินใจเร็ว"}
+    - stem: What did the most productive teams' managers tend to do?
+      choices:
+        - {t: listen and admit what they did not know, why: "asked more questions ... comfortable admitting when they did not know"}
+        - {t: speak first in every meeting, why: "เป็นภาพของผู้นำที่มั่นใจ ซึ่งบทแย้ง"}
+        - {t: avoid making any difficult decisions, why: "บทบอกว่า did not avoid difficult decisions"}
+        - {t: replace staff who made mistakes, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: Why did the warehouse staff trust their supervisor?
+      choices:
+        - {t: she respected their knowledge of their work, why: "She never pretended to know our jobs better than we did"}
+        - {t: she was very charismatic, why: "บทบอกว่าผู้นำที่ได้ผลไม่ใช่คนที่มีเสน่ห์มากที่สุด"}
+        - {t: she made decisions quickly, why: "เธอชะลอการตัดสินใจจนได้ฟังคนหน้างาน"}
+        - {t: she had worked in the warehouse before, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: What can be inferred about job interviews?
+      choices:
+        - {t: they may favour candidates who speak well over those who work well, why: "a manager who speaks fluently in an interview can be hired over a far more capable colleague"}
+        - {t: they are the best way to find good leaders, why: "บทเสนอให้เปลี่ยนวิธีรับคน แปลว่าไม่ใช่วิธีที่ดีที่สุด"}
+        - {t: they should be done by warehouse staff, why: "ไม่มีข้อเสนอนี้"}
+        - {t: quiet people usually refuse to attend them, why: "ไม่มีข้อมูลที่สนับสนุน"}
+  status: draft
+- id: cefr-c1-w03-036
+  kind: listen
+  skill: li
+  topic: group-discussion
+  level: 2
+  script:
+    - {who: Woman, en: "I think the main problem is the budget."}
+    - {who: Man, en: "I'd disagree, actually. It's not the money that's holding us back. It's the fact that nobody has clear responsibility for the project."}
+  questions:
+    - stem: What does the man think is the real problem?
+      choices:
+        - {t: unclear responsibility, why: "nobody has clear responsibility for the project"}
+        - {t: the budget, why: "เป็นความเห็นของผู้หญิง ผู้ชายแย้ง"}
+        - {t: too many people, why: "ไม่ได้พูดถึงจำนวนคน"}
+        - {t: the deadline, why: "ไม่ได้พูดถึงกำหนดเวลา"}
+  status: draft
+- id: cefr-c1-w03-037
+  kind: listen
+  skill: li
+  topic: group-discussion
+  level: 2
+  script:
+    - {who: Man, en: "So, are we agreed that we should cancel the event?"}
+    - {who: Woman, en: "Not quite. What I said was that we should postpone it, not cancel it. There's a big difference."}
+  questions:
+    - stem: What does the woman want to do?
+      choices:
+        - {t: hold the event later, why: "we should postpone it, not cancel it"}
+        - {t: cancel the event, why: "เธอแก้ว่าไม่ได้พูดว่ายกเลิก"}
+        - {t: hold it as planned, why: "เธอเสนอให้เลื่อน"}
+        - {t: ask the manager first, why: "ไม่ได้พูดถึงผู้จัดการ"}
+  status: draft
+- id: cefr-c1-w03-038
+  kind: listen
+  skill: li
+  topic: group-discussion
+  level: 2
+  script:
+    - {who: Woman, en: "I do understand your concerns about the cost. But what you're forgetting is that the new system will save us at least two hours of work every single day."}
+  questions:
+    - stem: What is the speaker doing?
+      choices:
+        - {t: accepting a concern and then arguing against it, why: "I do understand ... But what you're forgetting is ..."}
+        - {t: agreeing that the system is too expensive, why: "เธอยอมรับความกังวลแต่แย้งต่อ"}
+        - {t: asking for more information, why: "ไม่ได้ถามข้อมูลเพิ่ม"}
+        - {t: complaining about extra work, why: "เธอพูดว่าระบบช่วยลดงาน"}
+  status: draft
+- id: cefr-c1-w03-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [It was, the customers, who, suggested the idea]
+  sentence: It was the customers who suggested the idea.
+  th: ลูกค้าต่างหากที่เป็นคนเสนอไอเดียนี้
+  why: "It was + คน + who + กริยา เน้นว่าใครเป็นผู้ทำ"
+  status: draft
+- id: cefr-c1-w03-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What, the team needs, is, more time, not more people]
+  sentence: What the team needs is more time, not more people.
+  th: สิ่งที่ทีมต้องการคือเวลาเพิ่ม ไม่ใช่คนเพิ่ม
+  why: "What + ประธาน + กริยา + is + สิ่งที่เน้น แล้วเทียบด้วย not"
+  status: draft
+- id: cefr-c1-w03-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [So popular, was the workshop, that, we had to, run it twice]
+  sentence: So popular was the workshop that we had to run it twice.
+  th: เวิร์กช็อปได้รับความนิยมมากจนต้องจัดสองรอบ
+  why: "So + คุณศัพท์ขึ้นต้น สลับ was + ประธาน แล้วต่อด้วย that"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c1-w03-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The reason why, I support this project, is that, it will empower, local farmers]
+  sentence: The reason why I support this project is that it will empower local farmers.
+  th: เหตุผลที่ฉันสนับสนุนโครงการนี้คือมันจะช่วยให้เกษตรกรในท้องถิ่นมีพลัง
+  why: "The reason why + ประโยค + is that + ประโยค"
+  status: draft

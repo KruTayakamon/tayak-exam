@@ -54,6 +54,8 @@ def check_choices(where, choices, stats):
         err(where, 'ต้องมี 4 ตัวเลือก'); return
     texts, whys = [], []
     for i, c in enumerate(choices):
+        if isinstance(c, dict) and 't' in c and not isinstance(c['t'], (str, int, float)) or isinstance(c, dict) and isinstance(c.get('t'), bool):
+            err(where, f'ตัวเลือกที่ {i+1} อ่านเป็น {c.get("t")!r} (yes/no/on/off ต้องครอบเครื่องหมายคำพูด)')
         if not isinstance(c, dict) or not c.get('t') or not c.get('why'):
             err(where, f'ตัวเลือกที่ {i+1} ต้องมี t และ why'); return
         texts.append(str(c['t']).strip()); whys.append(str(c['why']).strip())

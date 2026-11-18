@@ -36,7 +36,7 @@
   stem: The shop opens ____ 8 a.m. every day except Sunday.
   choices:
     - {t: at, why: "เวลาแบบนาฬิกาใช้ ++at++"}
-    - {t: on, why: "on ใช้กับวันหรือวันที่"}
+    - {t: "on", why: "on ใช้กับวันหรือวันที่"}
     - {t: in, why: "in ใช้กับเดือน ปี หรือช่วงเวลายาว"}
     - {t: by, why: "by แปลว่าไม่เกิน ไม่ใช่เวลาเปิดร้าน"}
   explain: "เวลา ==at== · วัน on · เดือน/ปี in"

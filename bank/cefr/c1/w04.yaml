@@ -1,0 +1,582 @@
+# คอร์ส c1 · สัปดาห์ 4 · ภาษาทางการ · subjunctive (insist/recommend that he be · It is vital that · lest) · nominalisation
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# หลักการเขียนตัวลวง: หลัง recommend/insist that แบบบริติชใช้ should + กริยาได้ด้วย จึงไม่ให้ should เป็นตัวลวงในข้อ subjunctive
+# ---------- วันที่ 1 · ข้อเรียกร้องและข้อเสนอแบบทางการ ----------
+- id: cefr-c1-w04-001
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 1
+  stem: The doctor recommended that he ____ more slowly after the operation.
+  choices:
+    - {t: walk, why: "recommend that + ประธาน + ++กริยารูปเดิม++ (subjunctive)"}
+    - {t: walks, why: "subjunctive ไม่เติม s แม้ประธานเป็นเอกพจน์"}
+    - {t: walked, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม recommended"}
+    - {t: to walk, why: "หลัง that ต้องเป็นประโยค ไม่ใช่ to + กริยา"}
+  explain: "recommend / suggest / insist that + ==ประธาน + กริยารูปเดิม=="
+  status: draft
+- id: cefr-c1-w04-002
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 1
+  stem: It is vital that every passenger ____ a seat belt.
+  choices:
+    - {t: wear, why: "It is vital that + ++กริยารูปเดิม++ (subjunctive)"}
+    - {t: wears, why: "subjunctive ไม่เติม s"}
+    - {t: wearing, why: "หลัง that ต้องมีกริยาแท้"}
+    - {t: will wear, why: "ไม่ใช้ will ในโครงสร้าง It is vital that"}
+  explain: "It is ==vital / essential / important== that + ประธาน + กริยารูปเดิม"
+  status: draft
+- id: cefr-c1-w04-003
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: The landlord insisted that the rent ____ paid by the fifth of each month.
+  choices:
+    - {t: be, why: "subjunctive รูปถูกกระทำใช้ ++be + ช่อง 3++"}
+    - {t: is, why: "subjunctive ใช้ be ไม่ผันเป็น is"}
+    - {t: was, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม insisted"}
+    - {t: being, why: "หลัง that ต้องมีกริยาแท้ being ใช้ไม่ได้"}
+  explain: "ถูกกระทำใน subjunctive = ==be + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w04-004
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: The committee proposed that the meeting ____ postponed until March.
+  choices:
+    - {t: be, why: "propose that + ประธาน + ++be + ช่อง 3++"}
+    - {t: is, why: "subjunctive ไม่ผัน be เป็น is"}
+    - {t: will be, why: "ไม่ใช้ will หลัง propose that"}
+    - {t: has been, why: "has been ไม่ใช่รูปข้อเสนอ"}
+  explain: "propose / demand / request that ... ==be + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w04-005
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: It is essential that she ____ late for the hearing.
+  choices:
+    - {t: not be, why: "ปฏิเสธใน subjunctive วาง ++not หน้ากริยารูปเดิม++"}
+    - {t: isn't, why: "subjunctive ไม่ใช้ is ที่ผันแล้ว"}
+    - {t: doesn't be, why: "ไม่ใช้ do ในรูปปฏิเสธของ subjunctive"}
+    - {t: be not, why: "ลำดับผิด not ต้องอยู่หน้า be"}
+  explain: "ปฏิเสธ subjunctive ==not + กริยารูปเดิม== (that he not be)"
+  status: draft
+- id: cefr-c1-w04-006
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: The manual insists ____ the machine be switched off before cleaning.
+  choices:
+    - {t: that, why: "insist + ++that++ + ประโยค subjunctive"}
+    - {t: "on", why: "insist on ต้องตามด้วยคำนามหรือ -ing ไม่ใช่ประโยค"}
+    - {t: to, why: "insist to ไม่ใช่รูปที่ใช้"}
+    - {t: for, why: "insist for ไม่ใช่รูปที่ใช้"}
+  explain: "insist ==that + ประโยค== · insist on + -ing"
+  status: draft
+- id: cefr-c1-w04-007
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 3
+  stem: Keep the receipt ____ there be any problem with the product.
+  choices:
+    - {t: should, why: "Should there be = ++ถ้าหากมี++ (เงื่อนไขทางการ)"}
+    - {t: lest, why: "lest แปลว่าเผื่อจะ ใช้คู่กับสิ่งที่ไม่อยากให้เกิด และไม่ตามด้วย there be แบบนี้"}
+    - {t: if, why: "if there be ไม่ใช้ในภาษาปัจจุบัน ต้องเป็น if there is"}
+    - {t: unless, why: "unless there be ผิดรูป และความหมายกลับ"}
+  explain: "เงื่อนไขทางการ ==Should there be / Should you need=="
+  status: draft
+- id: cefr-c1-w04-008
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 3
+  stem: She wrote down the address ____ she forget it.
+  choices:
+    - {t: lest, why: "lest = ++เพื่อไม่ให้++ ตามด้วยกริยารูปเดิม (ทางการมาก)"}
+    - {t: unless, why: "unless แปลว่าถ้าไม่ ความหมายไม่ตรง"}
+    - {t: so that, why: "so that ต้องตามด้วยประโยคที่มีกริยาผัน เช่น so that she wouldn't forget"}
+    - {t: in case of, why: "in case of ต้องตามด้วยคำนาม"}
+  explain: "lest + ประธาน + ==กริยารูปเดิม== = เพื่อไม่ให้ (ทางการ)"
+  status: draft
+- id: cefr-c1-w04-009
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 1
+  stem: It is important that every visitor ____ an identity card at reception.
+  choices:
+    - {t: show, why: "It is important that + ++กริยารูปเดิม++"}
+    - {t: shows, why: "subjunctive ไม่เติม s"}
+    - {t: showed, why: "ไม่ใช้รูปอดีตในข้อเรียกร้อง"}
+    - {t: showing, why: "หลัง that ต้องมีกริยาแท้"}
+  explain: "ข้อกำหนดทางการ ==It is important that + กริยารูปเดิม=="
+  status: draft
+- id: cefr-c1-w04-010
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: The union demanded that the company ____ its decision.
+  choices:
+    - {t: reconsider, why: "demand that + ++กริยารูปเดิม++"}
+    - {t: reconsiders, why: "subjunctive ไม่เติม s"}
+    - {t: reconsidered, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม demanded"}
+    - {t: to reconsider, why: "หลัง that ต้องเป็นประโยค ไม่ใช่ to + กริยา"}
+  explain: "demand that ... ==กริยารูปเดิม== · demand to + กริยา (เมื่อเป็นคนเดียวกัน)"
+  status: draft
+- id: cefr-c1-w04-011
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 3
+  stem: Which sentence is correct in formal English?
+  choices:
+    - {t: "We request that all guests be seated by 7 p.m.", why: "request that + ++be + ช่อง 3++ ถูกต้องตามแบบทางการ"}
+    - {t: "We request that all guests are seated by 7 p.m.", why: "แบบทางการใช้ be ไม่ใช่ are"}
+    - {t: "We request all guests that be seated by 7 p.m.", why: "ลำดับผิด that ต้องอยู่หน้าประธาน"}
+    - {t: "We request that all guests being seated by 7 p.m.", why: "หลัง that ต้องมีกริยาแท้"}
+  explain: "จดหมายเชิญทางการ ==We request that ... be + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w04-012
+  kind: type
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  stem: "The judge ordered that the documents b_ returned immediately. (subjunctive ถูกกระทำ)"
+  answer: be
+  accept: [be]
+  why: "order that + ประธาน + be + ช่อง 3 เป็นรูปข้อสั่งการทางการ"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ภาษาทางการและองค์กร ----------
+- id: cefr-c1-w04-013
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 1
+  stem: The contract ____ that payment must be made within thirty days.
+  choices:
+    - {t: stipulates, why: "ระบุเป็นเงื่อนไขชัดเจน ใช้ ++stipulates++"}
+    - {t: concedes, why: "concede แปลว่ายอมรับอย่างไม่เต็มใจ ไม่ใช่ระบุเงื่อนไข"}
+    - {t: relinquishes, why: "relinquish แปลว่าสละ"}
+    - {t: entails, why: "entail ไม่ตามด้วย that แบบนี้ และแปลว่าเกี่ยวข้องกับ"}
+  explain: "stipulate = ==ระบุเป็นเงื่อนไข== (สัญญา กฎหมาย)"
+  status: draft
+- id: cefr-c1-w04-014
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 1
+  stem: All factories must operate in full ____ with the new safety rules.
+  choices:
+    - {t: compliance, why: "ปฏิบัติตามกฎ ใช้ ++in compliance with++"}
+    - {t: discretion, why: "discretion คือดุลยพินิจ ไม่ใช้กับ in full ... with"}
+    - {t: hierarchy, why: "hierarchy คือลำดับขั้น"}
+    - {t: caveat, why: "caveat คือข้อแม้"}
+  explain: "in compliance with = ==เป็นไปตาม (กฎ ข้อบังคับ)=="
+  status: draft
+- id: cefr-c1-w04-015
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: Public officials must be held ____ for how they spend taxpayers' money.
+  choices:
+    - {t: accountable, why: "ต้องรับผิดชอบและชี้แจงได้ ใช้ ++held accountable for++"}
+    - {t: compliance, why: "compliance เป็นคำนาม วางหลัง held แบบนี้ไม่ได้"}
+    - {t: hierarchy, why: "hierarchy เป็นคำนาม ไม่ได้บอกความรับผิดชอบ"}
+    - {t: notwithstanding, why: "notwithstanding เป็นคำบุพบท ไม่ใช่คำคุณศัพท์"}
+  explain: "be held ==accountable for== = ต้องรับผิดชอบต่อ"
+  status: draft
+- id: cefr-c1-w04-016
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: It took six weeks and four forms to renew my licence. The ____ is unbelievable.
+  choices:
+    - {t: bureaucracy, why: "ขั้นตอนราชการที่ยุ่งยาก ใช้ ++bureaucracy++"}
+    - {t: discretion, why: "discretion คือดุลยพินิจ ไม่ใช่ความยุ่งยาก"}
+    - {t: caveat, why: "caveat คือข้อแม้"}
+    - {t: onus, why: "onus คือภาระความรับผิดชอบ ไม่ใช่ขั้นตอนเอกสาร"}
+  explain: "bureaucracy = ==ระบบราชการ ขั้นตอนเอกสารยืดยาว=="
+  status: draft
+- id: cefr-c1-w04-017
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: In a strict ____, junior staff rarely speak directly to the director.
+  choices:
+    - {t: hierarchy, why: "โครงสร้างลำดับชั้น ใช้ ++hierarchy++"}
+    - {t: compliance, why: "compliance ไม่ได้บอกโครงสร้างตำแหน่ง"}
+    - {t: discretion, why: "discretion คือดุลยพินิจ"}
+    - {t: caveat, why: "caveat คือข้อแม้ ไม่ใช่โครงสร้างองค์กร"}
+  explain: "hierarchy = ==ลำดับชั้นการบังคับบัญชา=="
+  status: draft
+- id: cefr-c1-w04-018
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: Refunds are given at the manager's ____, so there is no guarantee.
+  choices:
+    - {t: discretion, why: "ขึ้นกับการตัดสินใจของผู้จัดการ ใช้ ++at someone's discretion++"}
+    - {t: hierarchy, why: "at the manager's hierarchy ไม่มีความหมาย"}
+    - {t: compliance, why: "at the manager's compliance ไม่มีความหมาย"}
+    - {t: bureaucracy, why: "at the manager's bureaucracy ไม่มีความหมาย"}
+  explain: "at someone's discretion = ==แล้วแต่ดุลยพินิจของ=="
+  status: draft
+- id: cefr-c1-w04-019
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 3
+  stem: The ____ is on the seller to prove that the product was not damaged.
+  choices:
+    - {t: onus, why: "ภาระที่ต้องพิสูจน์ ใช้ ++the onus is on++"}
+    - {t: caveat, why: "the caveat is on ไม่ใช่วลีที่ใช้"}
+    - {t: discretion, why: "the discretion is on ไม่ใช่วลีที่ใช้"}
+    - {t: compliance, why: "the compliance is on ไม่ใช่วลีที่ใช้"}
+  explain: "The onus is on + คน = ==ภาระ หน้าที่ตกอยู่ที่=="
+  status: draft
+- id: cefr-c1-w04-020
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: 'The offer looks generous, but there is one ____: you must stay with the company for two years.'
+  choices:
+    - {t: caveat, why: "ข้อแม้ข้อควรระวัง ใช้ ++caveat++"}
+    - {t: onus, why: "onus คือภาระ ไม่ใช่ข้อแม้ของข้อเสนอ"}
+    - {t: hierarchy, why: "hierarchy คือลำดับชั้น"}
+    - {t: bureaucracy, why: "bureaucracy คือขั้นตอนราชการ"}
+  explain: "caveat = ==ข้อแม้ คำเตือน=="
+  status: draft
+- id: cefr-c1-w04-021
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: The new role will ____ a lot of travel, so please think carefully.
+  choices:
+    - {t: entail, why: "มีสิ่งนี้ตามมาด้วย ใช้ ++entail++"}
+    - {t: stipulate, why: "role ไม่ได้ระบุเงื่อนไข สัญญาเป็นผู้ระบุ"}
+    - {t: concede, why: "concede แปลว่ายอมรับ"}
+    - {t: relinquish, why: "relinquish แปลว่าสละ ขัดกับความหมาย"}
+  explain: "entail = ==ต้องมี ทำให้เกิดตามมา== (≈ involve)"
+  status: draft
+- id: cefr-c1-w04-022
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: After twenty years, he finally agreed to ____ control of the family business to his daughter.
+  choices:
+    - {t: relinquish, why: "สละอำนาจ ใช้ ++relinquish control++"}
+    - {t: stipulate, why: "stipulate control ไม่ได้แปลว่าส่งต่อ"}
+    - {t: entail, why: "entail control ไม่มีความหมายนี้"}
+    - {t: endorse, why: "endorse แปลว่ารับรอง ไม่ใช่สละ"}
+  explain: "relinquish = ==สละ ปล่อยมือ== (อำนาจ ตำแหน่ง สิทธิ์)"
+  status: draft
+- id: cefr-c1-w04-023
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 3
+  stem: The minister ____ that mistakes had been made, but refused to resign.
+  choices:
+    - {t: conceded, why: "ยอมรับอย่างไม่เต็มใจ ใช้ ++conceded that++"}
+    - {t: stipulated, why: "stipulate ใช้กับเงื่อนไขในเอกสาร"}
+    - {t: relinquished, why: "relinquish ไม่ตามด้วย that"}
+    - {t: entailed, why: "entail ไม่ตามด้วย that และใช้กับคนไม่ได้"}
+  explain: "concede that ... = ==ยอมรับ (อย่างไม่เต็มใจ)=="
+  status: draft
+- id: cefr-c1-w04-024
+  kind: type
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  stem: "N______________ the bad weather, the ceremony went ahead as planned. (แม้จะมี)"
+  answer: notwithstanding
+  accept: [notwithstanding, Notwithstanding]
+  why: "notwithstanding + คำนาม = แม้จะมี... (ทางการกว่า despite)"
+  status: draft
+# ---------- วันที่ 3 · เปลี่ยนกริยาเป็นนาม ----------
+- id: cefr-c1-w04-025
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 1
+  stem: The ____ of the new bridge took three years.
+  choices:
+    - {t: construction, why: "หลัง The ... of ต้องเป็นคำนาม ++construction++"}
+    - {t: construct, why: "construct เป็นกริยา วางหลัง The แบบนี้ไม่ได้"}
+    - {t: constructive, why: "constructive เป็นคำคุณศัพท์ แปลว่าสร้างสรรค์"}
+    - {t: constructing, why: "The constructing of ไม่ใช่รูปที่ใช้ในภาษาทางการ"}
+  explain: "ภาษาทางการเปลี่ยนกริยาเป็น ==คำนาม + of==: build → the construction of"
+  status: draft
+- id: cefr-c1-w04-026
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 1
+  stem: There has been a sharp ____ in the number of tourists this year.
+  choices:
+    - {t: increase, why: "a sharp + ++คำนาม++ increase in"}
+    - {t: increasing, why: "a sharp increasing ไม่ใช่รูปคำนามที่ใช้"}
+    - {t: increased, why: "increased เป็นกริยาช่อง 2/3 วางหลัง a sharp ไม่ได้"}
+    - {t: increasingly, why: "increasingly เป็นคำวิเศษณ์"}
+  explain: "Tourism increased sharply → ==a sharp increase in tourism=="
+  status: draft
+- id: cefr-c1-w04-027
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  stem: Which sentence is the most formal way to say "We decided to close the branch because sales fell"?
+  choices:
+    - {t: "The decision to close the branch was due to a fall in sales.", why: "เปลี่ยนกริยาเป็นนาม ++decision · fall++ กระชับและทางการ"}
+    - {t: "We closed the branch because the sales are falling.", why: "ยังเป็นภาษาพูด และ tense ไม่ตรงกัน"}
+    - {t: "Deciding we closed the branch, sales fell.", why: "โครงสร้างผิด ความหมายสับสน"}
+    - {t: "The decide of closing the branch was sales falling.", why: "decide เป็นกริยา ใช้เป็นนามไม่ได้"}
+  explain: "ภาษารายงาน ==ใช้นามแทนประโยค==: because sales fell → due to a fall in sales"
+  status: draft
+- id: cefr-c1-w04-028
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  stem: The ____ of the new system caused some delays at first.
+  choices:
+    - {t: introduction, why: "คำนามของ introduce คือ ++introduction++"}
+    - {t: introduce, why: "introduce เป็นกริยา"}
+    - {t: introductory, why: "introductory เป็นคำคุณศัพท์ แปลว่าเบื้องต้น"}
+    - {t: introducer, why: "introducer หมายถึงคน ไม่ใช่การนำเข้ามาใช้"}
+  explain: "introduce → ==the introduction of== (การนำมาใช้)"
+  status: draft
+- id: cefr-c1-w04-029
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  stem: The project failed because of a ____ of funding.
+  choices:
+    - {t: lack, why: "a lack of = ++การขาด++ (คำนาม)"}
+    - {t: lacking, why: "a lacking of ไม่ใช่รูปที่ใช้"}
+    - {t: lacked, why: "lacked เป็นกริยา"}
+    - {t: shortly, why: "shortly เป็นคำวิเศษณ์ แปลว่าในไม่ช้า"}
+  explain: "didn't have enough money → ==a lack of funding=="
+  status: draft
+- id: cefr-c1-w04-030
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  stem: Staff expressed strong ____ to the plan to cut holidays.
+  choices:
+    - {t: opposition, why: "คำนามของ oppose คือ ++opposition to++"}
+    - {t: opposite, why: "opposite แปลว่าตรงข้าม ไม่ใช่การคัดค้าน"}
+    - {t: oppose, why: "oppose เป็นกริยา"}
+    - {t: opposing, why: "strong opposing ไม่ใช่รูปคำนาม"}
+  explain: "oppose → ==opposition to== (การคัดค้าน)"
+  status: draft
+- id: cefr-c1-w04-031
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 3
+  stem: ____ of the rules may result in a fine.
+  choices:
+    - {t: Failure to comply with, why: "เปลี่ยน If you fail to comply เป็นนาม ++Failure to comply with++"}
+    - {t: Fail to comply, why: "Fail เป็นกริยา ขึ้นต้นประธานแบบนี้ไม่ได้"}
+    - {t: Failing comply, why: "ขาด to และรูปผิด"}
+    - {t: Failed complying, why: "failed เป็นกริยา และรูปไม่ถูก"}
+  explain: "If you fail to ... → ==Failure to + กริยา== ... (ภาษากฎระเบียบ)"
+  status: draft
+- id: cefr-c1-w04-032
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  stem: We are grateful for the ____ of all our volunteers.
+  choices:
+    - {t: involvement, why: "คำนามของ involve คือ ++involvement++"}
+    - {t: involve, why: "involve เป็นกริยา"}
+    - {t: involved, why: "involved เป็นคุณศัพท์หรือกริยาช่อง 3"}
+    - {t: involving, why: "the involving of ไม่ใช่รูปที่ใช้"}
+  explain: "involve → ==involvement== · achieve → achievement"
+  status: draft
+- id: cefr-c1-w04-033
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 3
+  stem: "Which is the best nominalised version of \"The company responded slowly, and customers were angry\"?"
+  choices:
+    - {t: "The company's slow response angered customers.", why: "response เป็นนาม slow เป็นคุณศัพท์ ++กระชับและทางการ++"}
+    - {t: "The company slowly responded angry customers.", why: "ขาดคำเชื่อม ความหมายผิด"}
+    - {t: "The company's respond was slow and anger customers.", why: "respond เป็นกริยา และ anger ผันผิด"}
+    - {t: "Responding slow, the customers angered the company.", why: "slow ต้องเป็น slowly และความหมายกลับกัน"}
+  explain: "กริยา + คำวิเศษณ์ → ==คุณศัพท์ + คำนาม== (responded slowly → slow response)"
+  status: draft
+- id: cefr-c1-w04-034
+  kind: cloze
+  skill: gm
+  topic: nominalisation
+  level: 2
+  text: |
+    Notice to all residents: following the (1) ____ of a new water tank, supply will be interrupted on Saturday. It is essential that all taps (2) ____ turned off during this time. Any (3) ____ to follow this instruction may cause damage to the pipes.
+  questions:
+    - choices:
+        - {t: installation, why: "หลัง the ... of ต้องเป็นนาม installation"}
+        - {t: install, why: "install เป็นกริยา"}
+        - {t: installed, why: "installed เป็นกริยาช่อง 3"}
+        - {t: installer, why: "installer หมายถึงคนติดตั้ง"}
+    - choices:
+        - {t: be, why: "It is essential that + be + ช่อง 3"}
+        - {t: are, why: "subjunctive ใช้ be ไม่ใช่ are"}
+        - {t: were, why: "subjunctive ไม่ใช้รูปอดีต"}
+        - {t: being, why: "หลัง that ต้องมีกริยาแท้"}
+    - choices:
+        - {t: failure, why: "Any failure to + กริยา = การไม่ทำตาม"}
+        - {t: fail, why: "fail เป็นกริยา วางหลัง Any แบบนี้ไม่ได้"}
+        - {t: failing, why: "Any failing to ไม่ใช่รูปที่ใช้"}
+        - {t: failed, why: "failed เป็นกริยาช่อง 2/3"}
+  status: draft
+# ---------- วันที่ 4 · อ่านระเบียบทางการและฟังแถลงการณ์ ----------
+- id: cefr-c1-w04-035
+  kind: read
+  skill: rd
+  topic: formal-regulation
+  level: 2
+  title: "Riverbend Municipality · Regulations on Street Vending (fictional)"
+  passage: |
+    1. Purpose. These regulations are intended to ensure the safe and orderly use of public footpaths while supporting small local businesses. They apply to all vendors operating within the municipal area, with the exception of registered festival markets.
+
+    2. Permits. Every vendor must hold a valid permit, which shall be displayed at the stall at all times. Applications must be submitted no later than thirty days before trading begins. The municipality reserves the right to refuse an application at its discretion, provided that written reasons are given.
+
+    3. Location. Stalls shall not obstruct more than half the width of any footpath. It is required that a clear path of at least 1.5 metres be maintained for pedestrians, including wheelchair users. Vending is not permitted within twenty metres of a hospital entrance.
+
+    4. Hygiene. Vendors selling cooked food must complete an approved food-safety course. Notwithstanding any previous training, all vendors must attend a refresher course every two years.
+
+    5. Penalties. Failure to comply with these regulations may result in a written warning. A second offence within twelve months may lead to the suspension of the permit. The onus is on the vendor to prove that any obstruction was temporary and unavoidable.
+  questions:
+    - stem: What is the main purpose of the regulations?
+      choices:
+        - {t: to balance pedestrian safety with support for vendors, why: "safe and orderly use of public footpaths while supporting small local businesses"}
+        - {t: to close all street stalls in the city, why: "ระเบียบสนับสนุนธุรกิจท้องถิ่น ไม่ได้ปิด"}
+        - {t: to increase the cost of permits, why: "ไม่มีการพูดถึงค่าใบอนุญาต"}
+        - {t: to organise festival markets, why: "ตลาดเทศกาลเป็นข้อยกเว้น ไม่ใช่จุดประสงค์"}
+    - stem: What must the municipality do if it refuses an application?
+      choices:
+        - {t: explain its decision in writing, why: "provided that written reasons are given"}
+        - {t: offer a different location, why: "ไม่มีข้อกำหนดนี้"}
+        - {t: return the vendor's money within thirty days, why: "สามสิบวันคือกำหนดยื่นคำขอ"}
+        - {t: ask a court for permission, why: "ระเบียบไม่ได้พูดถึงศาลเลย"}
+    - stem: Which vendor would be breaking the rules?
+      choices:
+        - {t: one whose stall leaves a 1-metre path, why: "ต้องเหลือทางเดินอย่างน้อย 1.5 เมตร"}
+        - {t: one at a registered festival market without a permit, why: "ตลาดเทศกาลที่ลงทะเบียนได้รับยกเว้น"}
+        - {t: one trading 50 metres from a hospital, why: "ห้ามเฉพาะภายใน 20 เมตร"}
+        - {t: one who took a food course a year ago, why: "ต้องอบรมซ้ำทุกสองปี หนึ่งปีจึงยังไม่ผิด"}
+    - stem: What does the final sentence imply?
+      choices:
+        - {t: vendors must provide evidence to defend themselves, why: "The onus is on the vendor to prove ..."}
+        - {t: officials must prove the vendor is guilty, why: "กลับด้าน ภาระพิสูจน์อยู่ที่ผู้ค้า"}
+        - {t: temporary obstructions are always allowed, why: "ต้องพิสูจน์ว่าชั่วคราวและหลีกเลี่ยงไม่ได้ ไม่ใช่อนุญาตเสมอ"}
+        - {t: permits cannot be suspended, why: "ข้อ 5 บอกว่าระงับใบอนุญาตได้"}
+  status: draft
+- id: cefr-c1-w04-036
+  kind: listen
+  skill: li
+  topic: official-statement
+  level: 2
+  script:
+    - {who: Spokesperson, en: "The airport authority regrets the disruption caused this morning. It is essential that passengers check their flight status online before travelling, as further delays cannot be ruled out."}
+  questions:
+    - stem: What are passengers asked to do?
+      choices:
+        - {t: check their flight online before leaving home, why: "It is essential that passengers check their flight status online before travelling"}
+        - {t: arrive at the airport early, why: "ไม่ได้ขอให้มาเร็ว"}
+        - {t: cancel their flights, why: "ไม่ได้ขอให้ยกเลิก"}
+        - {t: call the airport authority, why: "ไม่ได้ขอให้โทร จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c1-w04-037
+  kind: listen
+  skill: li
+  topic: official-statement
+  level: 2
+  script:
+    - {who: Spokesperson, en: "Following a review, the company has decided to suspend the product. Customers who have already bought it are advised to stop using it immediately. A full refund will be offered, notwithstanding the original receipt."}
+  questions:
+    - stem: Can customers without a receipt get a refund?
+      choices:
+        - {t: "yes", why: "notwithstanding the original receipt แปลว่าแม้ไม่มีใบเสร็จก็ได้คืน"}
+        - {t: "no", why: "notwithstanding แปลว่าไม่ขึ้นกับใบเสร็จ"}
+        - {t: only a partial refund, why: "ผู้พูดบอกว่าคืนเต็มจำนวน"}
+        - {t: only after the review, why: "การตรวจสอบเสร็จแล้ว"}
+  status: draft
+- id: cefr-c1-w04-038
+  kind: listen
+  skill: li
+  topic: official-statement
+  level: 2
+  script:
+    - {who: Spokesperson, en: "The council recognises the concerns raised by residents. However, the decision to close the library was taken only after careful consideration of the budget, and it will not be reversed at this stage."}
+  questions:
+    - stem: What is the council's position?
+      choices:
+        - {t: it will not change its decision, why: "it will not be reversed at this stage"}
+        - {t: it will reopen the library, why: "ขัดกับที่บอกว่าจะไม่กลับคำ"}
+        - {t: it ignored residents' concerns, why: "สภาบอกว่ารับทราบความกังวล"}
+        - {t: it has not decided yet, why: "การตัดสินใจเกิดขึ้นแล้ว"}
+  status: draft
+- id: cefr-c1-w04-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [It is, essential that, the form, be signed, by both parties]
+  sentence: It is essential that the form be signed by both parties.
+  th: แบบฟอร์มต้องได้รับการลงนามโดยทั้งสองฝ่าย
+  why: "It is essential that + ประธาน + be + ช่อง 3 + by"
+  status: draft
+- id: cefr-c1-w04-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The rapid growth, of online shopping, has led to, a decline in, high-street sales]
+  sentence: The rapid growth of online shopping has led to a decline in high-street sales.
+  th: การเติบโตอย่างรวดเร็วของการซื้อของออนไลน์ทำให้ยอดขายหน้าร้านลดลง
+  why: "ประโยคแบบนาม ประธานเป็นนามวลี แล้วใช้ has led to + นามวลี"
+  status: draft
+- id: cefr-c1-w04-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We, strongly recommend, that every employee, attend, the training session]
+  sentence: We strongly recommend that every employee attend the training session.
+  th: เราขอแนะนำอย่างยิ่งให้พนักงานทุกคนเข้าร่วมการอบรม
+  why: "recommend that + ประธาน + กริยารูปเดิม attend (ไม่เติม s)"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c1-w04-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I would therefore, propose that, the current policy, be reviewed, before the end of the year]
+  sentence: I would therefore propose that the current policy be reviewed before the end of the year.
+  th: ดังนั้นจึงขอเสนอให้ทบทวนนโยบายปัจจุบันก่อนสิ้นปี
+  why: "propose that + ประธาน + be + ช่อง 3 แล้วจึงบอกกำหนดเวลา"
+  status: draft
