@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 11 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 11
+phase: 3
+theme_th: การสร้างคำและคำที่ใช้คู่กัน
+focus_th: prefix · suffix · ตระกูลคำ (นาม กริยา คุณศัพท์ วิเศษณ์) · คำบุพบทที่ตามคำ · phrasal verbs · collocation กริยา + นาม
+can_do_th:
+  - ใช้คำในรูปที่ถูกต้องตามหน้าที่ในประโยคได้
+  - เลือกคำที่ใช้คู่กันได้เป็นธรรมชาติ
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เปลี่ยนรูปคำ
+    lesson:
+      rule_th: "ดูตำแหน่งในประโยคก่อนเลือกรูปคำ ==หลัง the / your = คำนาม== · หลัง be / very = คุณศัพท์ · ขยายกริยา = คำวิเศษณ์ · ++prefix ปฏิเสธ un- in- il- im- ir- dis-++ · คุณศัพท์เป็นกริยาด้วย -en -ise -ify"
+      examples:
+        - {en: "the <k>construction</k> of the hospital", th: "==หลัง the = คำนาม=="}
+        - {en: "She answered <k>confidently</k>.", th: "ขยายกริยา"}
+        - {en: "It's <k>illegal</k> to drive without a licence.", th: "il- หน้า l"}
+        - {en: "We need to <k>widen</k> the road.", th: "คุณศัพท์ → กริยา"}
+      signals:
+        - {label_th: "suffix บอกชนิดคำ", words: ["นาม -tion -ment -ness -ity", "คุณศัพท์ -ful -ous -ive -able", "กริยา -en -ise -ify", "วิเศษณ์ -ly"]}
+      thai_trap:
+        intro_th: "ภาษาไทยคำเดียวเป็นได้หลายชนิด คนจึงใช้ ~~คุณศัพท์แทนคำนาม~~ หรือ ~~คุณศัพท์แทนวิเศษณ์~~"
+        wrong: ["Thank you for your assist.", "She speaks English very good."]
+        right: ["Thank you for your assistance.", "She speaks English very well."]
+      notes:
+        - {kind: tip, th: "ก่อนเติมคำ ==ถามว่าช่องนี้ต้องการคำชนิดไหน== แล้วค่อยเลือก"}
+        - {kind: warn, th: "-ing = สิ่งที่ทำให้รู้สึก · -ed = คนที่รู้สึก (boring / bored)"}
+    check: [cefr-b2-w11-001, cefr-b2-w11-002]
+    practice: [cefr-b2-w11-003, cefr-b2-w11-004, cefr-b2-w11-005, cefr-b2-w11-006, cefr-b2-w11-007, cefr-b2-w11-008, cefr-b2-w11-009, cefr-b2-w11-010, cefr-b2-w11-011, cefr-b2-w11-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับงานของคุณ ใช้คำจากตระกูลเดียวกันสองรูป (เช่น success / successful)
+      frame: "The key to ____ in my job is ____. A ____ person usually ____."
+      model: "The key to success in my job is patience. A successful nurse usually listens carefully before acting."
+    classroom: {en: "Thank you for your assistance.", th: "ขอบคุณสำหรับความช่วยเหลือ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การพัฒนางาน 12 คำ
+    lesson:
+      rule_th: "กริยาพัฒนา ==enhance (ทำให้ดีขึ้น)== · reinforce (ตอกย้ำ) · promote (ส่งเสริม) กับคน ++motivate / inspire someone to++ · คุณศัพท์ความพอ adequate (พอใช้) · sufficient (เพียงพอ)"
+      examples:
+        - {en: "Good lighting can <k>enhance</k> a room.", th: "ทำให้ดีขึ้น"}
+        - {en: "Bonuses <k>motivate</k> staff to work harder.", th: "==กระตุ้นคน=="}
+        - {en: "an <k>innovative</k> solution", th: "สร้างสรรค์ใหม่"}
+        - {en: "her <k>expertise</k> in data", th: "ความเชี่ยวชาญ"}
+      words:
+        - {w: enhance, pos: v., th: ทำให้ดีขึ้น, ex: "Music can enhance a film."}
+        - {w: reinforce, pos: v., th: ตอกย้ำ เสริม, ex: "Repetition reinforces learning."}
+        - {w: promote, pos: v., th: ส่งเสริม เลื่อนตำแหน่ง, ex: "She was promoted to manager."}
+        - {w: motivate, pos: v., th: กระตุ้นให้มีแรง, ex: "What motivates you?"}
+        - {w: inspire, pos: v., th: สร้างแรงบันดาลใจ, ex: "His speech inspired me."}
+        - {w: innovative, pos: adj., th: สร้างสรรค์ใหม่, ex: "It's an innovative design."}
+        - {w: diverse, pos: adj., th: หลากหลาย, ex: "We have a diverse team."}
+        - {w: sustainable, pos: adj., th: ยั่งยืน, ex: "We need sustainable tourism."}
+        - {w: adequate, pos: adj., th: พอใช้ได้, ex: "The pay is adequate."}
+        - {w: sufficient, pos: adj., th: เพียงพอ, ex: "Is there sufficient evidence?"}
+        - {w: expertise, pos: n., th: ความเชี่ยวชาญ, ex: "We need your expertise."}
+        - {w: resource, pos: n., th: ทรัพยากร, ex: "Water is a precious resource."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~expertise กับคน~~ และเติม s ให้ expertise ทั้งที่นับไม่ได้"
+        wrong: ["She is an expertise in marketing.", "He has many expertises."]
+        right: ["She is an expert in marketing.", "He has a lot of expertise."]
+      notes:
+        - {kind: pin, th: "==expert = คน== · expertise = ความเชี่ยวชาญ (นับไม่ได้)"}
+        - {kind: use, th: "ขอบคุณเพื่อนร่วมงาน Thanks for sharing your expertise."}
+    check: [cefr-b2-w11-013, cefr-b2-w11-014]
+    practice: [cefr-b2-w11-015, cefr-b2-w11-016, cefr-b2-w11-017, cefr-b2-w11-018, cefr-b2-w11-019, cefr-b2-w11-020, cefr-b2-w11-021, cefr-b2-w11-022, cefr-b2-w11-023, cefr-b2-w11-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกสิ่งที่ทำให้คุณมีแรงจูงใจในการทำงานหรือเรียน และสิ่งที่สร้างแรงบันดาลใจ
+      frame: "What motivates me most is ____. I was inspired by ____."
+      model: "What motivates me most is seeing my customers happy. I was inspired by my first manager, who always stayed calm under pressure."
+    classroom: {en: "Thanks for sharing your expertise.", th: "ขอบคุณที่แบ่งปันความรู้"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: คำที่ไปด้วยกัน
+    lesson:
+      rule_th: "จำคำเป็นก้อน ไม่จำทีละคำ ==คำ + บุพบท (depend on== · good at · responsible for) · ++กริยา + นาม (make a decision++ · pay attention) · phrasal verb (look after · call off · run out of)"
+      examples:
+        - {en: "She's good <k>at</k> solving problems.", th: "==คำ + บุพบท=="}
+        - {en: "We need to <k>make</k> a decision.", th: "make ไม่ใช่ do"}
+        - {en: "The meeting was <k>called off</k>.", th: "ยกเลิก"}
+        - {en: "I'm used <k>to getting</k> up early.", th: "to เป็นบุพบท + -ing"}
+      signals:
+        - {label_th: "make หรือ do", words: ["make: a decision, a mistake, progress, an effort", "do: research, your best, business, the shopping"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ทำ กับทุกอย่าง คนจึงพูด ~~do a decision / do a mistake~~"
+        wrong: ["I did a big mistake.", "It depends of the weather."]
+        right: ["I made a big mistake.", "It depends on the weather."]
+      notes:
+        - {kind: tip, th: "จดศัพท์ใหม่ ==พร้อมคำที่ไปด้วยเสมอ== เช่น interested in ไม่ใช่ interested"}
+        - {kind: warn, th: "look forward to / be used to + -ing (to เป็นบุพบท)"}
+    check: [cefr-b2-w11-025, cefr-b2-w11-026]
+    practice: [cefr-b2-w11-027, cefr-b2-w11-028, cefr-b2-w11-029, cefr-b2-w11-030, cefr-b2-w11-031, cefr-b2-w11-032, cefr-b2-w11-033, cefr-b2-w11-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับความรับผิดชอบในงานของคุณ ใช้คำ + บุพบท อย่างน้อยสองคู่
+      frame: "I'm responsible for ____. Success in my job depends on ____."
+      model: "I'm responsible for training new staff. Success in my job depends on good communication with every department."
+    classroom: {en: "It depends on the situation.", th: "ขึ้นอยู่กับสถานการณ์"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความแนะนำแนวปฏิบัติและฟังบรรยายสั้น
+    lesson:
+      rule_th: "บทความแนะนำแบบเป็นข้อ ==แต่ละย่อหน้าเริ่มด้วยใจความหลัก (First==, Second, ...) คำถามมักถาม ++เงื่อนไขหรือเหตุผล++ ที่ซ่อนอยู่หลัง as long as · because · consequently"
+      examples:
+        - {en: "<k>First</k>, effective teams make decisions quickly.", th: "ใจความหลัก"}
+        - {en: "<k>as long as</k> people feel safe to speak up", th: "==เงื่อนไข=="}
+        - {en: "<k>Consequently</k>, the team can cope ...", th: "เหตุผลที่เป็นประโยชน์"}
+      thai_trap:
+        intro_th: "ผู้อ่านจับใจความหลักได้ แต่ ~~พลาดเงื่อนไข~~ ที่ตามมาหลังจุลภาค ซึ่งคือคำตอบจริง"
+        wrong: ["ตอบว่าความหลากหลายทำให้เกิดไอเดียใหม่เสมอ"]
+        right: ["ความหลากหลายทำให้เกิดไอเดียใหม่ ถ้าคนรู้สึกปลอดภัยที่จะพูด"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นใต้ ==as long as · provided · only if== ทุกครั้ง"}
+        - {kind: use, th: "ฟังบรรยาย ประโยคแรกมักบอกหัวข้อ Today we'll look at ..."}
+    check: [cefr-b2-w11-036, cefr-b2-w11-037]
+    practice: [cefr-b2-w11-035, cefr-b2-w11-038, cefr-b2-w11-039, cefr-b2-w11-040, cefr-b2-w11-041]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกนิสัยของทีมที่ดีข้อหนึ่งจากบทความ และทีมของคุณทำแล้วหรือยัง
+      frame: "One habit of effective teams is ____. My team ____."
+      model: "One habit of effective teams is sharing expertise. My team does this by working in pairs on new projects."
+    classroom: {en: "Let's call it off for today.", th: "วันนี้ยกเลิกไปก่อนเถอะ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด แนะนำวิธีทำงานที่ได้ผลให้เพื่อนร่วมงาน 2 นาที
+    lab:
+      mode: speak
+      prompt_th: พูด 2 นาทีแนะนำวิธีทำงานหนึ่งอย่างที่ได้ผลสำหรับคุณ (เช่น จัดลำดับงาน ประชุมสั้น เรียนรู้จากเพื่อนร่วมงาน) ให้เพื่อนร่วมงานใหม่ บอกว่าคืออะไร ทำอย่างไร ทำไมได้ผล และข้อควรระวัง
+      frame:
+        - "I'd like to share one habit that has really helped me: ____."
+        - "Basically, it involves ____."
+        - "It's effective because ____, and it also ____."
+        - "However, it only works as long as ____."
+        - "If you try it, I think you'll find that ____."
+      model_pass: "I'd like to share one habit that has really helped me: writing a short to-do list every morning. Basically, it involves choosing three important tasks before I open my emails. It's effective because I focus on what really matters, and it also motivates me when I tick things off. However, it only works as long as the list is short. If you write twenty things, you'll feel stressed. If you try it, I think you'll find that you're less tired at the end of the day."
+      model_good: "I'd like to share one habit that has made a real difference to my working day: deciding on just three priorities every morning before I look at my inbox. Basically, it involves taking five minutes with a coffee to ask myself which tasks will genuinely move my work forward. It's effective because it stops other people's requests from taking over my day, and it also reinforces a sense of progress, which keeps me motivated. However, it only works as long as you're realistic. If you're too ambitious and write down ten things, you'll end up frustrated rather than productive. My manager was sceptical at first, but she's now come round to the idea and uses it herself. If you give it a try for a couple of weeks, I think you'll find that you finish the day feeling far more in control."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกวิธีทำงานจริงของคุณ แล้วจดคำสำคัญตามโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ collocation หรือ phrasal verb อย่างน้อย 3 จุด ถูกบุพบท
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 2 คำ (เช่น motivate reinforce)
+        - มีเหตุผลว่าทำไมได้ผล และข้อควรระวัง
+        - พูดได้ประมาณ 2 นาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b2-w11-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 11
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [9, 10, 11], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

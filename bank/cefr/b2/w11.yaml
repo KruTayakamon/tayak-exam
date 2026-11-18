@@ -1,0 +1,583 @@
+# คอร์ส b2 · สัปดาห์ 11 · การสร้างคำและคำที่ใช้คู่กัน · prefix / suffix / ตระกูลคำ · dependent prepositions · phrasal verbs · collocation
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · เปลี่ยนรูปคำ ----------
+- id: cefr-b2-w11-001
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 1
+  stem: The ____ of the new hospital will take two years.
+  choices:
+    - {t: construction, why: "หลัง The ต้องเป็นคำนาม ++construction++"}
+    - {t: construct, why: "construct เป็นกริยา"}
+    - {t: constructive, why: "constructive เป็นคุณศัพท์"}
+    - {t: constructively, why: "constructively เป็นคำวิเศษณ์"}
+  explain: "หลัง the / a / of ==ต้องเป็นคำนาม== (-tion -ment -ness -ity)"
+  status: approved
+- id: cefr-b2-w11-002
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 1
+  stem: She answered the questions ____ and clearly.
+  choices:
+    - {t: confidently, why: "ขยายกริยา answered ต้องเป็นคำวิเศษณ์ ++confidently++"}
+    - {t: confident, why: "confident เป็นคุณศัพท์"}
+    - {t: confidence, why: "confidence เป็นคำนาม"}
+    - {t: confide, why: "confide เป็นกริยา"}
+  explain: "ขยายกริยา ==ใช้คำวิเศษณ์ (-ly)=="
+  status: approved
+- id: cefr-b2-w11-003
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: It's ____ to drive without a licence.
+  choices:
+    - {t: illegal, why: "ตรงข้ามของ legal ใช้ prefix ++il-++"}
+    - {t: unlegal, why: "legal ใช้ un ไม่ได้"}
+    - {t: inlegal, why: "หน้า l ใช้ il ไม่ใช่ in"}
+    - {t: dislegal, why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+  explain: "prefix ปฏิเสธ ==il- (หน้า l)== · im- (หน้า m/p) · ir- (หน้า r) · un- / in- / dis-"
+  status: approved
+- id: cefr-b2-w11-004
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: The film was a huge ____; millions of people watched it.
+  choices:
+    - {t: success, why: "หลัง a huge ต้องเป็นคำนาม ++success++"}
+    - {t: successful, why: "successful เป็นคุณศัพท์"}
+    - {t: succeed, why: "succeed เป็นกริยา"}
+    - {t: successfully, why: "successfully เป็นคำวิเศษณ์"}
+  explain: "ตระกูลคำ ==succeed (v)== · success (n) · successful (adj) · successfully (adv)"
+  status: approved
+- id: cefr-b2-w11-005
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: We need to ____ the road because traffic has doubled.
+  choices:
+    - {t: widen, why: "ทำให้กว้างขึ้น ใช้ suffix ++-en++ (wide → widen)"}
+    - {t: width, why: "width เป็นคำนาม"}
+    - {t: wide, why: "wide เป็นคุณศัพท์"}
+    - {t: widely, why: "widely เป็นคำวิเศษณ์"}
+  explain: "คุณศัพท์ → กริยา ==-en (widen)== · -ise (modernise) · -ify (simplify)"
+  status: approved
+- id: cefr-b2-w11-006
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: Thank you for your ____. We couldn't have done it without your help.
+  choices:
+    - {t: assistance, why: "หลัง your ต้องเป็นคำนาม ++assistance++"}
+    - {t: assist, why: "assist เป็นกริยา"}
+    - {t: assistant, why: "assistant คือผู้ช่วย (คน) ไม่ใช่ความช่วยเหลือ"}
+    - {t: assisting, why: "หลัง your ใช้คำนามที่แปลว่าความช่วยเหลือ"}
+  explain: "ระวัง ==assistance== (ความช่วยเหลือ) กับ assistant (ผู้ช่วย)"
+  status: approved
+- id: cefr-b2-w11-007
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: The instructions were ____; nobody could understand them.
+  choices:
+    - {t: confusing, why: "สิ่งที่ทำให้งง ใช้ ++-ing++"}
+    - {t: confused, why: "confused ใช้กับคนที่รู้สึกงง"}
+    - {t: confusion, why: "confusion เป็นคำนาม"}
+    - {t: confuse, why: "confuse เป็นกริยา"}
+  explain: "==-ing = สิ่งที่ทำให้รู้สึก== · -ed = คนที่รู้สึก"
+  status: approved
+- id: cefr-b2-w11-008
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: I ____ with your point; I think there's another way to look at it.
+  choices:
+    - {t: disagree, why: "ตรงข้ามของ agree ใช้ prefix ++dis-++"}
+    - {t: unagree, why: "agree ใช้ un ไม่ได้"}
+    - {t: misagree, why: "mis- แปลว่าผิด ไม่ใช่ไม่"}
+    - {t: inagree, why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+  explain: "==dis- (disagree, dislike)== · mis- = ผิด (misunderstand) · re- = อีกครั้ง"
+  status: approved
+- id: cefr-b2-w11-009
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 3
+  stem: The ____ of the bridge was caused by poor maintenance.
+  choices:
+    - {t: collapse, why: "คำนามเหมือนกริยา ++collapse++ (n./v.)"}
+    - {t: collapsing, why: "the collapsing of ใช้น้อยและไม่เป็นธรรมชาติในที่นี้"}
+    - {t: collapsed, why: "collapsed เป็นกริยาช่อง 2/3 หรือคุณศัพท์"}
+    - {t: collapsible, why: "collapsible แปลว่าพับได้"}
+  explain: "บางคำ ==คำนามกับกริยารูปเดียวกัน== (collapse, increase, change)"
+  status: approved
+- id: cefr-b2-w11-010
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 3
+  stem: The new software is very ____ and works on any device.
+  choices:
+    - {t: flexible, why: "คุณศัพท์ขยาย software ++flexible++"}
+    - {t: flexibility, why: "flexibility เป็นคำนาม"}
+    - {t: flexibly, why: "flexibly เป็นคำวิเศษณ์"}
+    - {t: flex, why: "flex เป็นกริยา จึงใช้ไม่ได้"}
+  explain: "หลัง very / be ==ใช้คุณศัพท์== (-ible -able -ous -ive -al -ful)"
+  status: approved
+- id: cefr-b2-w11-011
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: Please ____ the old password before creating a new one.
+  choices:
+    - {t: remove, why: "กริยาหลัง please ++remove++"}
+    - {t: removal, why: "removal เป็นคำนาม"}
+    - {t: removable, why: "removable เป็นคุณศัพท์"}
+    - {t: removed, why: "หลัง Please ใช้กริยารูปเดิม"}
+  explain: "คำสั่ง ==Please + กริยารูปเดิม=="
+  status: approved
+- id: cefr-b2-w11-012
+  kind: type
+  skill: gm
+  topic: word-formation
+  level: 2
+  stem: "There is a lot of c__________ between the two shops for customers. (การแข่งขัน คำนามของ compete)"
+  answer: competition
+  accept: [competition]
+  why: "compete (v) → competition (n) · competitive (adj)"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การพัฒนางาน ----------
+- id: cefr-b2-w11-013
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 1
+  stem: Good lighting can ____ the look of a small room.
+  choices:
+    - {t: enhance, why: "ทำให้ดีขึ้น ใช้ ++enhance++"}
+    - {t: reinforce, why: "reinforce แปลว่าเสริมให้แข็งแรง ไม่ใช่ทำให้สวยขึ้น"}
+    - {t: inspire, why: "inspire ใช้กับคน"}
+    - {t: sufficient, why: "sufficient เป็นคุณศัพท์"}
+  explain: "enhance = ==ทำให้ดีขึ้น เพิ่มคุณภาพ=="
+  status: approved
+- id: cefr-b2-w11-014
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 1
+  stem: The company uses social media to ____ its new products.
+  choices:
+    - {t: promote, why: "ส่งเสริม โปรโมต ใช้ ++promote++"}
+    - {t: motivate, why: "motivate ใช้กับคน"}
+    - {t: reinforce, why: "reinforce ไม่ใช่การโปรโมตสินค้า"}
+    - {t: expertise, why: "expertise เป็นคำนาม"}
+  explain: "promote = ==ส่งเสริม โปรโมต== (หรือ เลื่อนตำแหน่ง)"
+  status: approved
+- id: cefr-b2-w11-015
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: Bonuses can ____ staff to work harder.
+  choices:
+    - {t: motivate, why: "กระตุ้นให้อยากทำ ใช้ ++motivate someone to++"}
+    - {t: promote, why: "promote someone แปลว่าเลื่อนตำแหน่ง"}
+    - {t: enhance, why: "enhance ไม่ตามด้วย คน + to"}
+    - {t: reinforce, why: "reinforce ไม่ตามด้วย คน + to"}
+  explain: "motivate = ==กระตุ้นให้มีแรงทำ=="
+  status: approved
+- id: cefr-b2-w11-016
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: Her story ____ me to start my own business.
+  choices:
+    - {t: inspired, why: "สร้างแรงบันดาลใจ ใช้ ++inspire++"}
+    - {t: enhanced, why: "enhance ไม่ใช้กับคน + to"}
+    - {t: promoted, why: "promote me ไม่ได้แปลว่าบันดาลใจ"}
+    - {t: reinforced, why: "reinforce ไม่ใช้ในความหมายนี้"}
+  explain: "inspire = ==สร้างแรงบันดาลใจ=="
+  status: approved
+- id: cefr-b2-w11-017
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: Practice tests ____ what you learned in class.
+  choices:
+    - {t: reinforce, why: "เสริมให้แน่นขึ้น ใช้ ++reinforce++"}
+    - {t: inspire, why: "inspire ใช้กับคน"}
+    - {t: promote, why: "promote ไม่ใช้กับความรู้ในความหมายนี้"}
+    - {t: motivate, why: "motivate ใช้กับคน"}
+  explain: "reinforce = ==เสริมให้แข็งแรง ตอกย้ำ=="
+  status: approved
+- id: cefr-b2-w11-018
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: The team came up with an ____ solution that nobody had tried before.
+  choices:
+    - {t: innovative, why: "สร้างสรรค์ใหม่ ใช้ ++innovative++"}
+    - {t: adequate, why: "adequate แปลว่าพอใช้ ไม่ได้บอกว่าใหม่"}
+    - {t: sufficient, why: "sufficient แปลว่าเพียงพอ"}
+    - {t: diverse, why: "diverse ใช้กับกลุ่มที่หลากหลาย"}
+  explain: "innovative = ==ใหม่ สร้างสรรค์ ไม่เคยมีมาก่อน=="
+  status: approved
+- id: cefr-b2-w11-019
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: Bangkok has a ____ population, with people from all over the world.
+  choices:
+    - {t: diverse, why: "หลากหลาย ใช้ ++diverse++"}
+    - {t: sustainable, why: "sustainable แปลว่ายั่งยืน"}
+    - {t: innovative, why: "innovative ไม่ใช้กับประชากร"}
+    - {t: adequate, why: "adequate ไม่เข้ากับ from all over the world"}
+  explain: "diverse = ==หลากหลาย== (diversity = ความหลากหลาย)"
+  status: approved
+- id: cefr-b2-w11-020
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: Solar energy is a more ____ choice than coal for the future.
+  choices:
+    - {t: sustainable, why: "ยั่งยืน ใช้ ++sustainable++"}
+    - {t: diverse, why: "diverse ไม่ใช้กับพลังงานในความหมายนี้"}
+    - {t: adequate, why: "adequate ไม่ได้บอกความยั่งยืน"}
+    - {t: inspired, why: "inspired ไม่ใช้กับพลังงาน"}
+  explain: "sustainable = ==ยั่งยืน ใช้ได้นานไม่ทำลาย=="
+  status: approved
+- id: cefr-b2-w11-021
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: The room was small but ____ for a meeting of six people.
+  choices:
+    - {t: adequate, why: "พอใช้ได้ ใช้ ++adequate for++"}
+    - {t: innovative, why: "innovative ไม่ได้บอกว่าพอใช้"}
+    - {t: diverse, why: "diverse ไม่ใช้กับห้อง"}
+    - {t: sustainable, why: "sustainable ไม่ใช้กับขนาดห้อง"}
+  explain: "adequate = ==พอใช้ได้ ไม่ถึงกับดีมาก=="
+  status: approved
+- id: cefr-b2-w11-022
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: We don't have ____ time to finish everything today.
+  choices:
+    - {t: sufficient, why: "เพียงพอ ใช้ ++sufficient++"}
+    - {t: diverse, why: "diverse time ไม่มีความหมาย"}
+    - {t: innovative, why: "innovative time ไม่มีความหมาย"}
+    - {t: inspired, why: "inspired time ไม่มีความหมาย"}
+  explain: "sufficient = ==เพียงพอ== ≈ enough (ทางการกว่า)"
+  status: approved
+- id: cefr-b2-w11-023
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 3
+  stem: We hired her because of her ____ in data analysis.
+  choices:
+    - {t: expertise, why: "ความเชี่ยวชาญ ใช้ ++expertise in++"}
+    - {t: resource, why: "resource คือทรัพยากร"}
+    - {t: expert, why: "expert คือผู้เชี่ยวชาญ (คน)"}
+    - {t: expertly, why: "expertly เป็นคำวิเศษณ์"}
+  explain: "expertise = ==ความเชี่ยวชาญ== (นับไม่ได้) · expert = ผู้เชี่ยวชาญ"
+  status: approved
+- id: cefr-b2-w11-024
+  kind: type
+  skill: vo
+  topic: work-development
+  level: 2
+  stem: "Time is our most valuable r_______; we can't get it back. (ทรัพยากร)"
+  answer: resource
+  accept: [resource]
+  why: "resource = ทรัพยากร สิ่งที่นำมาใช้ได้"
+  status: approved
+# ---------- วันที่ 3 · คำที่ไปด้วยกัน ----------
+- id: cefr-b2-w11-025
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 1
+  stem: She is very good ____ solving problems.
+  choices:
+    - {t: at, why: "good ++at++ + -ing"}
+    - {t: in, why: "good in ไม่ใช่สำนวนนี้"}
+    - {t: for, why: "good for แปลว่าดีต่อ"}
+    - {t: with, why: "good with ใช้กับคน/สิ่งของ เช่น good with children"}
+  explain: "==good at== · interested in · responsible for · aware of"
+  status: approved
+- id: cefr-b2-w11-026
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 1
+  stem: Can you ____ my cat while I'm on holiday?
+  choices:
+    - {t: look after, why: "ดูแล ใช้ phrasal verb ++look after++"}
+    - {t: look for, why: "look for แปลว่ามองหา"}
+    - {t: look up, why: "look up แปลว่าค้นหาข้อมูล"}
+    - {t: look into, why: "look into แปลว่าตรวจสอบ"}
+  explain: "==look after = ดูแล== · look for = หา · look into = ตรวจสอบ"
+  status: approved
+- id: cefr-b2-w11-027
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  stem: We need to ____ a decision by Friday.
+  choices:
+    - {t: make, why: "collocation ++make a decision++"}
+    - {t: do, why: "do a decision ไม่ใช่สำนวน"}
+    - {t: take place, why: "take place แปลว่าเกิดขึ้น"}
+    - {t: give, why: "give a decision ไม่เป็นธรรมชาติ"}
+  explain: "==make a decision / a mistake / progress== · do research / your best"
+  status: approved
+- id: cefr-b2-w11-028
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  stem: The meeting was ____ because the manager was ill.
+  choices:
+    - {t: called off, why: "ยกเลิก ใช้ ++call off++"}
+    - {t: called up, why: "call up แปลว่าโทรหา"}
+    - {t: called for, why: "call for แปลว่าเรียกร้อง"}
+    - {t: called in, why: "call in แปลว่าแวะหรือเรียกตัวมา"}
+  explain: "==call off = ยกเลิก · put off = เลื่อน=="
+  status: approved
+- id: cefr-b2-w11-029
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  stem: I'm not used to ____ up so early.
+  choices:
+    - {t: getting, why: "be used ++to + -ing++ (to เป็นบุพบท)"}
+    - {t: get, why: "to ในที่นี้เป็นบุพบท ต้องตามด้วย -ing"}
+    - {t: got, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: be getting, why: "บทไม่ได้พูดว่า be getting"}
+  explain: "==be used to== / look forward to / object to + -ing"
+  status: approved
+- id: cefr-b2-w11-030
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  stem: The price of the trip depends ____ the season.
+  choices:
+    - {t: "on", why: "กริยา depend ตามด้วย ++on++ เสมอ"}
+    - {t: of, why: "depend of ไม่ถูก"}
+    - {t: from, why: "depend from ไม่ถูก"}
+    - {t: in, why: "depend in ไม่ถูก"}
+  explain: "==depend on== · rely on · focus on · insist on"
+  status: approved
+- id: cefr-b2-w11-031
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 3
+  stem: We've ____ milk. Can you buy some on the way home?
+  choices:
+    - {t: run out of, why: "หมด ใช้ ++run out of++"}
+    - {t: run into, why: "run into แปลว่าเจอโดยบังเอิญ"}
+    - {t: run over, why: "run over แปลว่าขับรถทับ"}
+    - {t: run off, why: "run off แปลว่าวิ่งหนีไป"}
+  explain: "phrasal verb 3 คำ ==run out of== · get on with · come up with · put up with"
+  status: approved
+- id: cefr-b2-w11-032
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 3
+  stem: "Which sentence uses the correct collocation?"
+  choices:
+    - {t: "She paid attention to every detail.", why: "++pay attention to++ ถูกต้อง"}
+    - {t: "She gave attention on every detail.", why: "ไม่ใช่สำนวนที่ถูก"}
+    - {t: "She made attention to every detail.", why: "make attention ไม่ใช่สำนวน"}
+    - {t: "She paid attention on every detail.", why: "pay attention ใช้ to ไม่ใช่ on"}
+  explain: "==pay attention to== · take part in · have an effect on"
+  status: approved
+- id: cefr-b2-w11-033
+  kind: type
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  stem: "She c___ up with a brilliant idea for the campaign. (คิดออก ช่อง 2)"
+  answer: came
+  accept: [came]
+  why: "come up with = คิดขึ้นมาได้ (ช่อง 2 came)"
+  status: approved
+- id: cefr-b2-w11-034
+  kind: cloze
+  skill: gm
+  topic: word-formation
+  level: 2
+  text: |
+    Working from home can improve (1) ____, but only if you set clear rules. Many people find it hard to (2) ____ on their work with family around. It also (3) ____ on having a quiet space and a reliable internet connection.
+  questions:
+    - choices:
+        - {t: productivity, why: "หลัง improve ต้องเป็นคำนาม"}
+        - {t: productive, why: "productive เป็นคุณศัพท์"}
+        - {t: produce, why: "produce เป็นกริยา"}
+        - {t: productively, why: "productively เป็นคำวิเศษณ์"}
+    - choices:
+        - {t: concentrate, why: "concentrate on = มีสมาธิกับ"}
+        - {t: concentration, why: "หลัง to ต้องเป็นกริยา"}
+        - {t: concentrated, why: "หลัง to ต้องเป็นกริยารูปเดิม"}
+        - {t: concentrating, why: "บทไม่ได้พูดว่า concentrating"}
+    - choices:
+        - {t: depends, why: "depend on = ขึ้นอยู่กับ"}
+        - {t: consists, why: "consists on ไม่ถูก (consist of) และความหมายไม่ใช่ขึ้นอยู่กับ"}
+        - {t: insists, why: "insists on แปลว่ายืนกราน"}
+        - {t: focuses, why: "focuses on แปลว่าเน้น"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบทความแนะนำแนวปฏิบัติและฟังบรรยาย ----------
+- id: cefr-b2-w11-035
+  kind: read
+  skill: rd
+  topic: workplace-advice
+  level: 2
+  title: "Five Habits of Effective Teams"
+  passage: |
+    Why do some teams achieve so much while others struggle? Research into workplace performance points to a few simple habits that make a real difference.
+
+    First, effective teams make decisions quickly but carefully. Rather than waiting for perfect information, they agree on what is "good enough" and move forward. However, they are also willing to change direction when new evidence emerges.
+
+    Second, they value diverse opinions. Team members come from different backgrounds and are encouraged to disagree openly. This diversity tends to produce more innovative ideas, as long as people feel safe to speak up.
+
+    Third, good teams look after their members. Leaders keep workloads sustainable and make sure that people have sufficient time to rest. Teams that ignore burnout may perform well for a few months, but they rarely last.
+
+    Fourth, they share expertise. Instead of one person holding all the knowledge, skills are passed on through short training sessions or by working in pairs. Consequently, the team can cope when someone is ill or leaves.
+
+    Finally, effective teams celebrate progress, not just results. Recognising small successes motivates people and reinforces the behaviour that led to them.
+
+    None of these habits requires extra resources. What they do require is a leader who is committed to putting them into practice.
+  questions:
+    - stem: What do effective teams do when new evidence appears?
+      choices:
+        - {t: they are ready to change direction, why: "willing to change direction when new evidence emerges"}
+        - {t: they ignore it, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: they wait for perfect information, why: "Rather than waiting for perfect information"}
+        - {t: they start a new team, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: According to the article, when does diversity lead to more innovative ideas?
+      choices:
+        - {t: when people feel safe to speak, why: "as long as people feel safe to speak up"}
+        - {t: when everyone agrees, why: "ส่งเสริมให้เห็นต่างอย่างเปิดเผย"}
+        - {t: when the team is small, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: when there is more money, why: "บทไม่ได้พูดว่า when there is more money"}
+    - stem: Why is sharing expertise useful?
+      choices:
+        - {t: the team can manage when someone is absent, why: "the team can cope when someone is ill or leaves"}
+        - {t: it saves money on training, why: "ไม่ได้พูดถึงการประหยัดเงิน"}
+        - {t: it makes one person the expert, why: "ตรงกันข้าม ไม่ให้คนเดียวถือความรู้ทั้งหมด"}
+        - {t: it reduces the number of meetings, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: What is the main message of the final paragraph?
+      choices:
+        - {t: the habits need a committed leader rather than money, why: "None ... requires extra resources. What they do require is a leader"}
+        - {t: teams need more resources, why: "ไม่ต้องใช้ทรัพยากรเพิ่ม"}
+        - {t: leaders should work alone, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the habits are impossible, why: "บอกว่าทำได้ถ้าผู้นำมุ่งมั่น"}
+  status: approved
+- id: cefr-b2-w11-036
+  kind: listen
+  skill: li
+  topic: short-lecture
+  level: 2
+  script:
+    - {who: Man, en: "Today we'll look at how small, regular rewards can motivate employees far more effectively than one large annual bonus."}
+  questions:
+    - stem: What is the topic of the talk?
+      choices:
+        - {t: how frequent small rewards motivate staff, why: "small, regular rewards can motivate employees far more effectively"}
+        - {t: why annual bonuses are best, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: how to hire new employees, why: "ไม่ใช่หัวข้อ จึงใช้ไม่ได้"}
+        - {t: how to reduce salaries, why: "บทไม่ได้พูดว่า how to reduce salaries"}
+  status: approved
+- id: cefr-b2-w11-037
+  kind: listen
+  skill: li
+  topic: short-lecture
+  level: 2
+  script:
+    - {who: Woman, en: "Can we put off the training until next month?"}
+    - {who: Man, en: "I'm afraid not. It's compulsory, and it has to be done by the end of this month."}
+  questions:
+    - stem: What does the man say about the training?
+      choices:
+        - {t: it cannot be postponed, why: "I'm afraid not ... has to be done by the end of this month"}
+        - {t: it can wait until next month, why: "ตอบว่าไม่ได้ จึงใช้ไม่ได้"}
+        - {t: it has been cancelled, why: "ยังต้องทำ จึงใช้ไม่ได้"}
+        - {t: it is optional, why: "It's compulsory"}
+  status: approved
+- id: cefr-b2-w11-038
+  kind: listen
+  skill: li
+  topic: short-lecture
+  level: 2
+  script:
+    - {who: Woman, en: "The key to sustainable growth isn't hiring more people; it's making better use of the resources we already have."}
+  questions:
+    - stem: What does the woman recommend?
+      choices:
+        - {t: using existing resources better, why: "making better use of the resources we already have"}
+        - {t: hiring more staff, why: "isn't hiring more people"}
+        - {t: stopping growth, why: "พูดถึงการเติบโตอย่างยั่งยืน"}
+        - {t: buying new equipment, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w11-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I'm really, looking forward to, meeting, the new team]
+  sentence: I'm really looking forward to meeting the new team.
+  th: ฉันตั้งตารอที่จะได้พบทีมใหม่
+  why: "look forward to + -ing"
+  status: approved
+- id: cefr-b2-w11-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She is, responsible for, the safety, of all visitors]
+  sentence: She is responsible for the safety of all visitors.
+  th: เธอรับผิดชอบความปลอดภัยของผู้มาเยือนทุกคน
+  why: "responsible for + คำนาม"
+  status: approved
+- id: cefr-b2-w11-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We had to, put up with, a lot of noise, during the renovation]
+  sentence: We had to put up with a lot of noise during the renovation.
+  th: เราต้องทนเสียงดังมากระหว่างการปรับปรุง
+  why: "put up with = ทน (phrasal verb 3 คำ)"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b2-w11-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [One thing, that really, motivates our team, is recognising, small successes every week]
+  sentence: One thing that really motivates our team is recognising small successes every week.
+  th: สิ่งหนึ่งที่ทำให้ทีมมีแรงจูงใจจริง ๆ คือการชื่นชมความสำเร็จเล็ก ๆ ทุกสัปดาห์
+  why: "ประธานยาว One thing that ... แล้ว is + -ing"
+  status: approved
