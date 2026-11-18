@@ -1,0 +1,582 @@
+# คอร์ส c1 · สัปดาห์ 9 · น้ำเสียงและเจตนา · tone และ register (การเลือกคำ understatement irony) · โครงสร้างสมมติในอดีต (as if/as though · it's high time · would rather + past)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · น้ำเสียงของข้อความ ----------
+- id: cefr-c1-w09-001
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 1
+  stem: Which is the most polite way to ask a colleague to reply faster?
+  choices:
+    - {t: "I was wondering if you might be able to reply by Friday.", why: "ใช้ was wondering + might ++อ้อมและสุภาพที่สุด++"}
+    - {t: "Reply by Friday.", why: "เป็นคำสั่งตรง ๆ ฟังห้วน"}
+    - {t: "You need to reply faster.", why: "ตำหนิตรง ๆ ไม่สุภาพ"}
+    - {t: "Why haven't you replied to my message yet? I've been waiting all week.", why: "ฟังเหมือนกล่าวหาและต่อว่า"}
+  explain: "ยิ่งอ้อม ยิ่งสุภาพ ==I was wondering if + might/could=="
+  status: draft
+- id: cefr-c1-w09-002
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 1
+  stem: "After a terrible storm, someone says: \"The weather wasn't exactly perfect.\" This is an example of ____."
+  choices:
+    - {t: understatement, why: "พูดเบากว่าความจริงมาก ๆ คือ ++understatement++"}
+    - {t: exaggeration, why: "exaggeration คือพูดเกินจริง ซึ่งตรงข้าม"}
+    - {t: a compliment, why: "ประโยคนี้ไม่ได้ชมใคร"}
+    - {t: a formal apology, why: "ประโยคนี้ไม่ได้ขอโทษ"}
+  explain: "understatement = ==พูดเบากว่าความจริงเพื่อเน้น== (not exactly · a bit of a ...)"
+  status: draft
+- id: cefr-c1-w09-003
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: "Your report arrives three weeks late, and your boss says: \"Thanks for getting this to me so quickly.\" What is the boss's tone?"
+  choices:
+    - {t: ironic, why: "พูดตรงข้ามกับความจริงเพื่อประชด ++ironic++"}
+    - {t: grateful, why: "รายงานช้าสามสัปดาห์ คำขอบคุณจึงไม่ใช่ความหมายตรง"}
+    - {t: confused, why: "ผู้พูดรู้ดีว่ารายงานช้า"}
+    - {t: neutral, why: "การพูดตรงข้ามกับความจริงไม่ใช่น้ำเสียงกลาง ๆ"}
+  explain: "irony = ==พูดตรงข้ามกับสิ่งที่หมายถึง=="
+  status: draft
+- id: cefr-c1-w09-004
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: Which sentence softens criticism most effectively?
+  choices:
+    - {t: "The report could perhaps be a little shorter.", why: "could + perhaps + a little ++ลดความแรงสามชั้น++"}
+    - {t: "The report is far too long.", why: "far too ทำให้ฟังรุนแรง"}
+    - {t: "The report is long.", why: "ตรงไปตรงมา ไม่ได้ลดความแรง"}
+    - {t: "Honestly, nobody in this office is ever going to read a report this long.", why: "เหมารวมและแรงกว่าเดิม"}
+  explain: "ลดความแรง ==could + perhaps + a little/slightly=="
+  status: draft
+- id: cefr-c1-w09-005
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: Which phrase is most suitable in a formal complaint letter?
+  choices:
+    - {t: "I would like to express my dissatisfaction with the service.", why: "ใช้คำทางการ ++express dissatisfaction++"}
+    - {t: "Your service was totally rubbish.", why: "rubbish เป็นภาษาพูดและหยาบ"}
+    - {t: "I'm kind of annoyed about the service.", why: "kind of เป็นภาษาพูดไม่เป็นทางการ"}
+    - {t: "What on earth is wrong with you people?", why: "ก้าวร้าวและไม่สุภาพ"}
+  explain: "จดหมายร้องเรียน ==ทางการ หนักแน่น แต่ไม่หยาบ=="
+  status: draft
+- id: cefr-c1-w09-006
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 1
+  stem: "\"It's a bit of a problem\" is ____ than \"It's a disaster\"."
+  choices:
+    - {t: milder, why: "a bit of a ลดความรุนแรง จึง ++milder++"}
+    - {t: stronger, why: "a bit of a ไม่ได้ทำให้แรงขึ้น"}
+    - {t: ruder, why: "ประโยคนี้สุภาพกว่า ไม่ได้หยาบกว่า"}
+    - {t: more formal, why: "a bit of a เป็นภาษากึ่งพูด ไม่ได้ทางการกว่า"}
+  explain: "a bit of a / slightly / rather = ==ทำให้เบาลง=="
+  status: draft
+- id: cefr-c1-w09-007
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: Which reply sounds most tactful when you disagree with your manager?
+  choices:
+    - {t: "I see your point, but I wonder whether we've considered the cost.", why: "ยอมรับก่อนแล้วแย้งด้วยคำถาม ++นุ่มนวล++"}
+    - {t: "That's wrong.", why: "ปฏิเสธตรง ๆ ไม่ถนอมน้ำใจ"}
+    - {t: "You obviously haven't thought about the cost of this at all, have you?", why: "obviously และ at all ทำให้ฟังเหมือนดูถูก"}
+    - {t: "Whatever you say.", why: "ฟังประชดและไม่ร่วมมือ"}
+  explain: "แย้งแบบมีชั้นเชิง ==ยอมรับ + แย้งด้วยคำถาม=="
+  status: draft
+- id: cefr-c1-w09-008
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: "A customer writes: \"I must say I'm rather surprised that nobody has contacted me.\" How does the customer feel?"
+  choices:
+    - {t: annoyed, why: "rather surprised ในจดหมายทางการคือ ++ไม่พอใจแบบสุภาพ++"}
+    - {t: delighted, why: "ไม่มีใครติดต่อ ไม่ใช่เรื่องน่ายินดี"}
+    - {t: confused about the product, why: "ไม่ได้พูดถึงความไม่เข้าใจสินค้า"}
+    - {t: completely calm, why: "I must say บอกว่าผู้เขียนต้องการแสดงความไม่พอใจ"}
+  explain: "ภาษาทางการบอกความไม่พอใจผ่าน ==understatement== (rather surprised = โกรธ)"
+  status: draft
+- id: cefr-c1-w09-009
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 3
+  stem: "Which word makes \"The plan has some weaknesses\" sound more critical?"
+  choices:
+    - {t: serious, why: "some serious weaknesses ++แรงขึ้น++"}
+    - {t: minor, why: "minor ทำให้เบาลง"}
+    - {t: slight, why: "slight ทำให้เบาลง"}
+    - {t: possible, why: "possible ทำให้ไม่แน่ใจ จึงเบาลง"}
+  explain: "เพิ่มความแรง ==serious / major / fundamental== · ลด minor / slight"
+  status: draft
+- id: cefr-c1-w09-010
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: Which is most appropriate in an email to a new client?
+  choices:
+    - {t: "Please find attached the quotation you requested.", why: "ทางการ กระชับ ++เหมาะกับลูกค้าใหม่++"}
+    - {t: "Here's the price thing you wanted.", why: "price thing เป็นภาษาพูด ไม่เป็นทางการ"}
+    - {t: "Attached. Let me know.", why: "ห้วนเกินไปสำหรับลูกค้าใหม่"}
+    - {t: "As I told you before, here is the quote.", why: "As I told you before ฟังตำหนิ"}
+  explain: "ลูกค้าใหม่ = ==สุภาพ ทางการ กระชับ=="
+  status: draft
+- id: cefr-c1-w09-011
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 3
+  stem: "\"With all due respect, I think you may have misunderstood.\" What does the speaker really mean?"
+  choices:
+    - {t: they politely believe the listener is wrong, why: "With all due respect มักนำ ++การแย้งอย่างสุภาพ++"}
+    - {t: they admire the listener greatly, why: "วลีนี้ไม่ได้ใช้ชม แต่ใช้นำการแย้ง"}
+    - {t: they agree completely, why: "ผู้พูดบอกว่าอีกฝ่ายอาจเข้าใจผิด"}
+    - {t: they are asking the listener to explain the idea again, why: "ประโยคนี้ไม่ได้ขอให้อธิบายซ้ำ"}
+  explain: "With all due respect = ==กำลังจะแย้ง (อย่างสุภาพ)=="
+  status: draft
+- id: cefr-c1-w09-012
+  kind: type
+  skill: gm
+  topic: tone-register
+  level: 2
+  stem: "I was w________ if you could send me the file again. (สงสัยว่า ใช้ขออย่างสุภาพ)"
+  answer: wondering
+  accept: [wondering]
+  why: "I was wondering if ... เป็นวิธีขออ้อม ๆ ที่สุภาพมาก"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์บุคลิกและทัศนคติ ----------
+- id: cefr-c1-w09-013
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 1
+  stem: I appreciate your ____ feedback. It's better to know the truth.
+  choices:
+    - {t: candid, why: "พูดตรงไปตรงมาอย่างจริงใจ ใช้ ++candid++"}
+    - {t: condescending, why: "condescending แปลว่าดูถูก ไม่น่าขอบคุณ"}
+    - {t: complacent, why: "complacent แปลว่าพอใจจนประมาท"}
+    - {t: indifferent, why: "indifferent แปลว่าไม่สนใจ"}
+  explain: "candid = ==ตรงไปตรงมา จริงใจ== (เชิงบวก)"
+  status: draft
+- id: cefr-c1-w09-014
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 1
+  stem: He explained it in a ____ way, as if we were children.
+  choices:
+    - {t: condescending, why: "ทำเหมือนคนอื่นโง่กว่า ใช้ ++condescending++"}
+    - {t: candid, why: "candid เป็นคำบวก ไม่ได้บอกการดูถูก"}
+    - {t: meticulous, why: "meticulous แปลว่าละเอียดถี่ถ้วน"}
+    - {t: pragmatic, why: "pragmatic แปลว่าเน้นความเป็นจริง"}
+  explain: "condescending = ==ดูถูก ทำตัวเหนือกว่า=="
+  status: draft
+- id: cefr-c1-w09-015
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: After years of broken promises, many voters have become ____ about politicians.
+  choices:
+    - {t: cynical, why: "ไม่เชื่อว่าคนจะมีเจตนาดี ใช้ ++cynical++"}
+    - {t: diligent, why: "diligent แปลว่าขยัน"}
+    - {t: meticulous, why: "meticulous แปลว่าละเอียด"}
+    - {t: candid, why: "candid แปลว่าตรงไปตรงมา ไม่ใช่หมดศรัทธา"}
+  explain: "cynical = ==มองโลกในแง่ร้าย ไม่เชื่อเจตนาดี=="
+  status: draft
+- id: cefr-c1-w09-016
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: The team became ____ after winning three years in a row, and they lost the final.
+  choices:
+    - {t: complacent, why: "พอใจจนประมาท ใช้ ++complacent++"}
+    - {t: astute, why: "astute แปลว่าเฉียบแหลม ไม่เป็นเหตุให้แพ้"}
+    - {t: diligent, why: "diligent แปลว่าขยัน ขัดกับการแพ้เพราะประมาท"}
+    - {t: scrupulous, why: "scrupulous แปลว่าซื่อตรงละเอียด"}
+  explain: "complacent = ==พอใจในตัวเองจนประมาท=="
+  status: draft
+- id: cefr-c1-w09-017
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: She was ____ that she had locked the door, but it was wide open.
+  choices:
+    - {t: adamant, why: "ยืนยันหนักแน่นไม่ยอมเปลี่ยน ใช้ ++adamant that++"}
+    - {t: indifferent, why: "indifferent ไม่ตามด้วย that แบบนี้"}
+    - {t: pragmatic, why: "pragmatic ไม่ตามด้วย that แบบนี้"}
+    - {t: diligent, why: "diligent ไม่ตามด้วย that"}
+  explain: "be adamant that = ==ยืนกรานว่า=="
+  status: draft
+- id: cefr-c1-w09-018
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: He seemed completely ____ to the problems of his staff.
+  choices:
+    - {t: indifferent, why: "ไม่ใส่ใจ ใช้ ++indifferent to++"}
+    - {t: adamant, why: "adamant ไม่ตามด้วย to"}
+    - {t: astute, why: "astute ไม่ตามด้วย to และเป็นคำบวก"}
+    - {t: meticulous, why: "meticulous ไม่ตามด้วย to"}
+  explain: "indifferent to = ==ไม่สนใจ เฉยเมย=="
+  status: draft
+- id: cefr-c1-w09-019
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: He's so ____ that he refuses to listen to any idea that differs from his own.
+  choices:
+    - {t: dogmatic, why: "ยึดความเชื่อตัวเองไม่ฟังคนอื่น ใช้ ++dogmatic++"}
+    - {t: pragmatic, why: "pragmatic แปลว่าเน้นความเป็นจริง มักยืดหยุ่น"}
+    - {t: candid, why: "candid ไม่ได้บอกว่าไม่ฟังคนอื่น"}
+    - {t: diligent, why: "diligent แปลว่าขยัน"}
+  explain: "dogmatic = ==ยึดติดความเชื่อ ไม่เปิดใจ=="
+  status: draft
+- id: cefr-c1-w09-020
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: An ____ investor, she sold her shares just before prices fell.
+  choices:
+    - {t: astute, why: "เฉียบแหลมมองขาด ใช้ ++astute++"}
+    - {t: indifferent, why: "indifferent ไม่สอดคล้องกับการขายทันเวลา"}
+    - {t: adamant, why: "adamant ไม่ได้บอกความฉลาดในการลงทุน"}
+    - {t: complacent, why: "complacent investor จะไม่ขายทัน ความหมายกลับ"}
+  explain: "astute = ==เฉียบแหลม รู้ทัน=="
+  status: draft
+- id: cefr-c1-w09-021
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: The accountant was ____, checking every receipt twice.
+  choices:
+    - {t: meticulous, why: "ละเอียดถี่ถ้วนมาก ใช้ ++meticulous++"}
+    - {t: cynical, why: "cynical ไม่ได้บอกความละเอียด"}
+    - {t: condescending, why: "condescending แปลว่าดูถูก"}
+    - {t: indifferent, why: "indifferent ขัดกับการตรวจสองรอบ"}
+  explain: "meticulous = ==ละเอียดถี่ถ้วนทุกจุด=="
+  status: draft
+- id: cefr-c1-w09-022
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: Rather than waiting for the perfect solution, we need a ____ approach that works now.
+  choices:
+    - {t: pragmatic, why: "เน้นสิ่งที่ทำได้จริง ใช้ ++pragmatic++"}
+    - {t: dogmatic, why: "dogmatic ยึดหลักการ ขัดกับการยืดหยุ่นให้ทำได้ตอนนี้"}
+    - {t: complacent, why: "complacent ไม่ใช่สิ่งที่ควรเป็น"}
+    - {t: cynical, why: "cynical approach ไม่ได้แปลว่าทำได้จริง"}
+  explain: "pragmatic = ==เน้นความเป็นจริง ทำได้จริง=="
+  status: draft
+- id: cefr-c1-w09-023
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 3
+  stem: The firm has a reputation for being ____ honest, even when the truth costs it money.
+  choices:
+    - {t: scrupulously, why: "ซื่อตรงอย่างเคร่งครัดทุกรายละเอียด ใช้ ++scrupulously honest++"}
+    - {t: indifferently, why: "indifferently honest ไม่ใช่คู่คำที่ใช้"}
+    - {t: cynically, why: "cynically honest ขัดกันในตัว"}
+    - {t: condescendingly, why: "condescendingly honest ไม่ใช่คู่คำที่ใช้"}
+  explain: "คู่ตายตัว ==scrupulously honest / fair=="
+  status: draft
+- id: cefr-c1-w09-024
+  kind: type
+  skill: vo
+  topic: attitude-character
+  level: 2
+  stem: "She's a d________ student who never misses a class. (ขยันหมั่นเพียร)"
+  answer: diligent
+  accept: [diligent]
+  why: "diligent = ขยัน ตั้งใจทำงานอย่างสม่ำเสมอ"
+  status: draft
+# ---------- วันที่ 3 · สมมติและตำหนิอย่างสุภาพ ----------
+- id: cefr-c1-w09-025
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 1
+  stem: It's high time we ____ a decision about the budget.
+  choices:
+    - {t: made, why: "It's high time + ++อดีต++ = ถึงเวลาแล้วที่ควร (ช้าไปแล้ว)"}
+    - {t: make, why: "หลัง It's high time + ประธาน ต้องใช้อดีต"}
+    - {t: will make, why: "ไม่ใช้ will หลัง It's high time"}
+    - {t: have made, why: "have made บอกว่าทำแล้ว ขัดกับความหมาย"}
+  explain: "It's (high) time + ประธาน + ==อดีต== (ทั้งที่หมายถึงตอนนี้)"
+  status: draft
+- id: cefr-c1-w09-026
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 1
+  stem: He talks ____ he were the boss, but he only joined last month.
+  choices:
+    - {t: as if, why: "ทำราวกับว่า ใช้ ++as if + อดีต++ (ไม่จริง)"}
+    - {t: even if, why: "even if แปลว่าแม้ว่า ความหมายผิด"}
+    - {t: so that, why: "so that บอกจุดประสงค์"}
+    - {t: in case, why: "in case แปลว่าเผื่อ"}
+  explain: "as if / as though + ==อดีต== = ราวกับว่า (ซึ่งไม่จริง)"
+  status: draft
+- id: cefr-c1-w09-027
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  stem: I'd rather you ____ smoke in the car, if you don't mind.
+  choices:
+    - {t: didn't, why: "would rather + คนอื่น + ++อดีต++ (ปฏิเสธใช้ didn't)"}
+    - {t: don't, why: "หลัง would rather + ประธานอื่น ต้องใช้อดีต"}
+    - {t: won't, why: "ไม่ใช้ will หลัง would rather"}
+    - {t: not, why: "ขาดกริยาช่วย ต้องเป็น didn't"}
+  explain: "ขอแบบสุภาพ ==I'd rather you + อดีต== (I'd rather you didn't.)"
+  status: draft
+- id: cefr-c1-w09-028
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  stem: She looked as though she ____ all night. Her eyes were red and tired.
+  choices:
+    - {t: had been crying, why: "ราวกับว่าได้ทำมาก่อนหน้า ใช้ ++had been + -ing++"}
+    - {t: has cried, why: "เล่าเรื่องในอดีต ใช้ has cried ไม่ได้"}
+    - {t: cries, why: "เล่าเรื่องในอดีต ใช้ปัจจุบันไม่ได้"}
+    - {t: would cry, why: "would cry ไม่ได้บอกสิ่งที่เกิดก่อน"}
+  explain: "ราวกับว่าเคยเกิดก่อนหน้า ==as though + had (been) ...=="
+  status: draft
+- id: cefr-c1-w09-029
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  stem: It's about time the council ____ the potholes on this road.
+  choices:
+    - {t: fixed, why: "It's about time + ประธาน + ++อดีต++"}
+    - {t: fixes, why: "ต้องใช้อดีตหลัง It's about time + ประธาน"}
+    - {t: will fix, why: "ไม่ใช้ will หลัง It's about time"}
+    - {t: is fixing, why: "ต้องใช้อดีต ไม่ใช่ปัจจุบันกำลังทำ"}
+  explain: "บ่นว่าช้าไปแล้ว ==It's about time + ประธาน + อดีต=="
+  status: draft
+- id: cefr-c1-w09-030
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  stem: I'd rather ____ at home tonight. I'm exhausted.
+  choices:
+    - {t: stay, why: "would rather + ประธานเดียวกัน ใช้ ++กริยารูปเดิม++"}
+    - {t: stayed, why: "อดีตใช้เมื่อพูดถึงคนอื่น เช่น I'd rather you stayed"}
+    - {t: to stay, why: "หลัง would rather ไม่มี to"}
+    - {t: staying, why: "หลัง would rather ไม่ใช้ -ing"}
+  explain: "ตัวเอง ==I'd rather + กริยารูปเดิม== · คนอื่น I'd rather you + อดีต"
+  status: draft
+- id: cefr-c1-w09-031
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  stem: Which sentence is a polite but clear criticism?
+  choices:
+    - {t: "It's high time we reviewed our safety procedures.", why: "บอกว่าช้าไปแล้วอย่างสุภาพ ++ตำหนิแต่ไม่โทษใคร++"}
+    - {t: "Our safety procedures are a joke.", why: "รุนแรงและดูถูก จึงใช้ไม่ได้"}
+    - {t: "It's high time we review our safety procedures.", why: "หลัง It's high time + ประธาน ต้องใช้อดีต"}
+    - {t: "You never review the safety procedures.", why: "กล่าวโทษตรง ๆ ไม่สุภาพ"}
+  explain: "ตำหนิโดยใช้ ==we และ It's high time== ฟังร่วมรับผิดชอบ"
+  status: draft
+- id: cefr-c1-w09-032
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  stem: "\"Shall I call him now?\" \"I'd rather you ____ until tomorrow.\""
+  choices:
+    - {t: waited, why: "would rather + คนอื่น + ++อดีต++"}
+    - {t: wait, why: "หลัง would rather + ประธานอื่น ต้องใช้อดีต"}
+    - {t: will wait, why: "ไม่ใช้ will หลัง would rather"}
+    - {t: to wait, why: "หลัง would rather you ไม่มี to"}
+  explain: "==I'd rather you + อดีต== = อยากให้คุณ...มากกว่า (สุภาพ)"
+  status: draft
+- id: cefr-c1-w09-033
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  stem: He spoke to me as if I ____ nothing about the subject, although I'd studied it for years.
+  choices:
+    - {t: knew, why: "ราวกับว่า (ไม่จริง) ใช้ ++อดีต++ หลัง as if"}
+    - {t: know, why: "as if ที่ไม่จริงใช้อดีต และเล่าเรื่องในอดีต"}
+    - {t: would know, why: "would know ไม่ใช้หลัง as if แบบนี้"}
+    - {t: am knowing, why: "know ไม่ใช้รูป -ing"}
+  explain: "as if + อดีต ==บอกว่าไม่จริง== (ซึ่งมักแฝงความไม่พอใจ)"
+  status: draft
+- id: cefr-c1-w09-034
+  kind: cloze
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  text: |
+    Thanks for the draft. Overall it's good, but I'd rather you (1) ____ the client's name from the title. Some parts read as if they (2) ____ in a hurry. It's probably time we (3) ____ a short meeting to go through it together.
+  questions:
+    - choices:
+        - {t: removed, why: "would rather you + อดีต"}
+        - {t: remove, why: "หลัง would rather you ต้องใช้อดีต"}
+        - {t: will remove, why: "ไม่ใช้ will หลัง would rather"}
+        - {t: removing, why: "หลัง would rather you ไม่ใช้ -ing"}
+    - choices:
+        - {t: had been written, why: "as if + had been + ช่อง 3 ราวกับถูกเขียนมาอย่างรีบ"}
+        - {t: are written, why: "as if ที่สื่อว่าน่าจะเกิดก่อนหน้าควรใช้รูปอดีต"}
+        - {t: have wrote, why: "have wrote ผิดรูป"}
+        - {t: write, why: "ข้อความเขียนตัวเองไม่ได้ ต้องเป็นรูปถูกกระทำ"}
+    - choices:
+        - {t: had, why: "It's time + ประธาน + อดีต"}
+        - {t: have, why: "หลัง It's time we ต้องใช้อดีต"}
+        - {t: will have, why: "ไม่ใช้ will หลัง It's time"}
+        - {t: having, why: "หลัง It's time we ต้องมีกริยาแท้"}
+  status: draft
+# ---------- วันที่ 4 · อ่านคอลัมน์และฟังบทสนทนาที่มีนัย ----------
+- id: cefr-c1-w09-035
+  kind: read
+  skill: rd
+  topic: opinion-column
+  level: 2
+  title: "Column · In Praise of the Meeting That Could Have Been an Email"
+  passage: |
+    Last Tuesday I attended what was, by any measure, a remarkable meeting. Fourteen people gathered for ninety minutes to agree that we should "revisit the issue next quarter". Nobody mentioned what the issue was. I suspect nobody knew.
+
+    I don't wish to sound cynical. Meetings, after all, have their uses. They give managers a chance to feel productive, and they give the rest of us a chance to practise looking interested. In some organisations, a full calendar is treated as proof of hard work, as if the number of hours spent talking about a task were somehow connected to whether it gets done.
+
+    The cost is not small. If each of those fourteen people earns, say, 40,000 baht a month, last Tuesday's conversation cost the company several thousand baht, and that is before we count the time spent preparing slides nobody read. Multiply that by the dozens of meetings held every week, and the figure becomes, to put it mildly, uncomfortable.
+
+    There is a simple alternative. Before calling a meeting, write down the decision you need. If you cannot, you are not ready to meet. If you can, ask whether an email would do. Most of the time, it would. It is high time we treated people's time with the same care we give to their salaries. Until then, I shall continue to attend, smile and take notes, although I'd rather you didn't ask me what they say.
+  questions:
+    - stem: What is the writer's main point?
+      choices:
+        - {t: many meetings waste time and money and should be replaced, why: "ทั้งบทวิจารณ์การประชุมที่ไม่จำเป็นและเสนอทางเลือก"}
+        - {t: managers work harder than other staff, why: "ผู้เขียนประชดว่าการประชุมทำให้ผู้จัดการรู้สึกว่าทำงาน"}
+        - {t: salaries in the company are too high, why: "เงินเดือนใช้คำนวณต้นทุน ไม่ใช่ประเด็นหลัก"}
+        - {t: meetings should always last ninety minutes, why: "เก้าสิบนาทีคือตัวอย่างที่ผู้เขียนวิจารณ์"}
+    - stem: What is the tone of "they give the rest of us a chance to practise looking interested"?
+      choices:
+        - {t: ironic, why: "ทำเป็นชมแต่จริง ๆ แล้วประชดว่าการประชุมน่าเบื่อ"}
+        - {t: grateful, why: "ผู้เขียนไม่ได้ขอบคุณจริง"}
+        - {t: angry and aggressive, why: "น้ำเสียงประชดแบบขำ ไม่ได้ก้าวร้าว"}
+        - {t: neutral and factual, why: "เป็นการแสดงทัศนะ ไม่ใช่ข้อเท็จจริงเป็นกลาง"}
+    - stem: What does "to put it mildly" suggest about the cost?
+      choices:
+        - {t: it is much more serious than the word suggests, why: "to put it mildly = พูดเบา ๆ แล้ว ความจริงหนักกว่านั้น"}
+        - {t: it is too small to worry about, why: "ตรงข้ามกับความหมาย"}
+        - {t: it has been calculated exactly, why: "ผู้เขียนใช้ say 40,000 เป็นตัวอย่างประมาณ"}
+        - {t: it is paid by the managers, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: What advice does the writer give before calling a meeting?
+      choices:
+        - {t: identify the decision that needs to be made, why: "write down the decision you need"}
+        - {t: prepare detailed slides, why: "ผู้เขียนประชดว่าไม่มีใครอ่านสไลด์"}
+        - {t: invite as many people as possible, why: "ขัดกับแนวคิดของผู้เขียน"}
+        - {t: schedule it for next quarter, why: "next quarter เป็นข้อสรุปที่ผู้เขียนเยาะ"}
+  status: draft
+- id: cefr-c1-w09-036
+  kind: listen
+  skill: li
+  topic: implied-meaning
+  level: 2
+  script:
+    - {who: Man, en: "So, what did you think of my presentation?"}
+    - {who: Woman, en: "Well, the slides were certainly very colourful."}
+  questions:
+    - stem: What does the woman imply?
+      choices:
+        - {t: she was not impressed by the content, why: "ชมแค่สีของสไลด์ แปลว่าส่วนอื่นไม่ค่อยดี"}
+        - {t: she loved the presentation, why: "ถ้าชอบจริงจะชมเนื้อหา ไม่ใช่แค่สี"}
+        - {t: she did not see the slides, why: "เธอพูดถึงสไลด์ แปลว่าเห็นแล้ว"}
+        - {t: she wants him to add more colour, why: "ไม่ได้ขอให้เพิ่มสี"}
+  status: draft
+- id: cefr-c1-w09-037
+  kind: listen
+  skill: li
+  topic: implied-meaning
+  level: 2
+  script:
+    - {who: Woman, en: "Could you help me move some boxes this weekend?"}
+    - {who: Man, en: "I'd love to, but I've got rather a lot on at the moment. Maybe ask Tom?"}
+  questions:
+    - stem: What is the man doing?
+      choices:
+        - {t: politely refusing, why: "I'd love to, but ... Maybe ask Tom? คือปฏิเสธอย่างสุภาพ"}
+        - {t: agreeing to help, why: "เขาแนะนำให้ไปขอคนอื่น"}
+        - {t: asking for payment, why: "ไม่ได้พูดเรื่องเงิน"}
+        - {t: complaining about Tom, why: "เขาแนะนำทอม ไม่ได้ตำหนิ"}
+  status: draft
+- id: cefr-c1-w09-038
+  kind: listen
+  skill: li
+  topic: implied-meaning
+  level: 2
+  script:
+    - {who: Man, en: "The new manager seems nice."}
+    - {who: Woman, en: "She does. Though I'd rather she didn't change everything in her first week."}
+  questions:
+    - stem: How does the woman feel about the new manager?
+      choices:
+        - {t: positive but concerned about the speed of change, why: "She does ... Though I'd rather she didn't change everything"}
+        - {t: completely happy, why: "เธอมีข้อกังวลเรื่องการเปลี่ยนเร็ว"}
+        - {t: very angry, why: "เธอยอมรับว่าผู้จัดการดูดี"}
+        - {t: she hasn't met her yet, why: "เธอรู้ว่าผู้จัดการเปลี่ยนอะไรบ้างแล้ว"}
+  status: draft
+- id: cefr-c1-w09-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [It's high time, we, updated, our website]
+  sentence: It's high time we updated our website.
+  th: ถึงเวลาแล้วที่เราควรปรับปรุงเว็บไซต์
+  why: "It's high time + ประธาน + อดีต แล้วจึงตามด้วยกรรม"
+  status: draft
+- id: cefr-c1-w09-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I'd rather, you, didn't share, this information, with the team yet]
+  sentence: I'd rather you didn't share this information with the team yet.
+  th: อยากให้ยังไม่แชร์ข้อมูลนี้กับทีมก่อน
+  why: "I'd rather + you + อดีตปฏิเสธ แล้วจึงตามด้วยกรรมและเวลา"
+  status: draft
+- id: cefr-c1-w09-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She, behaves, as though, she owned, the company]
+  sentence: She behaves as though she owned the company.
+  th: เธอทำตัวราวกับว่าเป็นเจ้าของบริษัท
+  why: "as though + อดีต บอกว่าไม่จริง"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c1-w09-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Overall it's strong, but I wonder whether, the introduction, could perhaps, be a little shorter]
+  sentence: Overall it's strong, but I wonder whether the introduction could perhaps be a little shorter.
+  th: โดยรวมดีมาก แต่สงสัยว่าบทนำจะสั้นลงอีกหน่อยได้ไหม
+  why: "ชมก่อน แล้วติด้วย I wonder whether + could perhaps + a little"
+  status: draft

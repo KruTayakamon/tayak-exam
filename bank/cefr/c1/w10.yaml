@@ -1,0 +1,580 @@
+# คอร์ส c1 · สัปดาห์ 10 · อ่านเชิงวิเคราะห์ · ยอมรับก่อนแย้ง (much as · however + adj · whatever · no matter) · เปรียบเทียบระดับสูง (the more...the more · nowhere near · by far · not so much...as)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · ยอมรับก่อนแย้ง ----------
+- id: cefr-c1-w10-001
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 1
+  stem: ____ hard I try, I can't remember people's names.
+  choices:
+    - {t: However, why: "However + คุณศัพท์/วิเศษณ์ = ++ไม่ว่าจะ...แค่ไหน++"}
+    - {t: Although, why: "Although ไม่ตามด้วย hard แบบนี้ ต้องเป็น Although I try hard"}
+    - {t: Whatever, why: "Whatever ใช้กับคำนาม ไม่ใช่ hard"}
+    - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
+  explain: "==However + adj/adv + ประธาน + กริยา== = ไม่ว่าจะ...แค่ไหน"
+  status: draft
+- id: cefr-c1-w10-002
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 1
+  stem: ____ you decide, I'll support you.
+  choices:
+    - {t: Whatever, why: "ไม่ว่าจะตัดสินใจอะไร ใช้ ++Whatever++"}
+    - {t: However, why: "However ต้องตามด้วยคุณศัพท์หรือวิเศษณ์ก่อน"}
+    - {t: Although, why: "Although you decide ไม่มีความหมาย"}
+    - {t: Unless, why: "Unless ทำให้ความหมายเป็นถ้าไม่ตัดสินใจ"}
+  explain: "==Whatever / Whoever / Wherever== + ประโยค = ไม่ว่าอะไร/ใคร/ที่ไหน"
+  status: draft
+- id: cefr-c1-w10-003
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: ____ I admire his talent, I can't accept the way he treats his staff.
+  choices:
+    - {t: Much as, why: "แม้จะ...มากเพียงใด ใช้ ++Much as++ (ทางการ)"}
+    - {t: As much, why: "As much ขึ้นต้นแบบนี้ไม่ใช่โครงสร้างยอมรับก่อนแย้ง"}
+    - {t: However much as, why: "ซ้อน however กับ as ไม่ได้"}
+    - {t: So much, why: "So much ไม่ใช้ในความหมายนี้"}
+  explain: "==Much as + ประโยค== = แม้จะ...มาก (ทางการ)"
+  status: draft
+- id: cefr-c1-w10-004
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: No matter ____ you go in the city, you'll find a 7-Eleven.
+  choices:
+    - {t: where, why: "ไม่ว่าจะไปที่ไหน ใช้ ++No matter where++"}
+    - {t: what, why: "No matter what you go ไม่ตรงความหมาย"}
+    - {t: whatever, why: "No matter whatever ซ้อนกันไม่ได้"}
+    - {t: if, why: "No matter if you go ไม่ได้แปลว่าที่ไหน"}
+  explain: "No matter ==who/what/where/how== = ไม่ว่า..."
+  status: draft
+- id: cefr-c1-w10-005
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: ____ tempting the offer may be, we can't afford it right now.
+  choices:
+    - {t: However, why: "However + คุณศัพท์ + may be ++ยอมรับก่อนแย้ง++"}
+    - {t: Although, why: "Although tempting ... may be ลำดับคำผิด"}
+    - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
+    - {t: Even, why: "Even tempting ไม่ใช่โครงสร้างที่ใช้"}
+  explain: "However + adj + ==ประธาน + may be== = แม้จะ...แค่ไหนก็ตาม"
+  status: draft
+- id: cefr-c1-w10-006
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 1
+  stem: ____ the cost, the trip was worth it.
+  choices:
+    - {t: Whatever, why: "Whatever + คำนาม ++ไม่ว่า...จะเป็นเท่าไร++"}
+    - {t: However, why: "However the cost ไม่ใช่รูปที่ใช้"}
+    - {t: Much as, why: "Much as ต้องตามด้วยประโยค"}
+    - {t: No matter, why: "No matter ต้องตามด้วย what/how ไม่ใช่คำนามตรง ๆ"}
+  explain: "==Whatever the + คำนาม,== ... (Whatever the reason, ...)"
+  status: draft
+- id: cefr-c1-w10-007
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: Strange ____ it may sound, I actually enjoy doing my taxes.
+  choices:
+    - {t: as, why: "คุณศัพท์ + ++as++ + it may sound = แม้จะฟังดู..."}
+    - {t: though it, why: "มี it ซ้ำ จึงใช้ไม่ได้"}
+    - {t: that, why: "Strange that it may sound ผิดรูป"}
+    - {t: so, why: "Strange so ไม่ใช่โครงสร้างที่ใช้"}
+  explain: "==Adj + as/though + ประธาน + กริยา== ยอมรับก่อนแย้ง"
+  status: draft
+- id: cefr-c1-w10-008
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: I'll finish this report tonight, ____ long it takes.
+  choices:
+    - {t: however, why: "however + long ++ไม่ว่าจะนานแค่ไหน++"}
+    - {t: whatever, why: "whatever long ไม่ใช่รูปที่ใช้"}
+    - {t: although, why: "although long it takes ผิดรูป"}
+    - {t: much as, why: "much as long ไม่มีความหมาย"}
+  explain: "==however long== / however much / however hard"
+  status: draft
+- id: cefr-c1-w10-009
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 3
+  stem: Which sentence with no matter is correct?
+  choices:
+    - {t: "No matter how busy she is, she always calls her mother.", why: "No matter how + adj + ประธาน + กริยา ++ถูกต้อง++"}
+    - {t: "No matter how she is busy, she always calls her mother.", why: "คุณศัพท์ต้องอยู่ติด how"}
+    - {t: "No matter busy she is, she always calls her mother.", why: "ขาด how จึงใช้ไม่ได้"}
+    - {t: "No matter how busy is she, she always calls her mother.", why: "ไม่สลับลำดับหลัง No matter how"}
+  explain: "No matter how ==+ adj + ประธาน + กริยา== (ไม่สลับลำดับ)"
+  status: draft
+- id: cefr-c1-w10-010
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: ____ he says, don't sign anything until you've read it carefully.
+  choices:
+    - {t: Whatever, why: "ไม่ว่าเขาจะพูดอะไร ใช้ ++Whatever++"}
+    - {t: However, why: "However he says ขาดคุณศัพท์หลัง however"}
+    - {t: Much as, why: "Much as he says ไม่ตรงความหมาย"}
+    - {t: Wherever, why: "Wherever แปลว่าไม่ว่าที่ไหน"}
+  explain: "Whatever = ==ไม่ว่าอะไรก็ตาม== (= No matter what)"
+  status: draft
+- id: cefr-c1-w10-011
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 3
+  stem: "Which sentence means the same as \"Although I like her, I don't trust her\"?"
+  choices:
+    - {t: "Much as I like her, I don't trust her.", why: "Much as = ++Although (ทางการ)++ ความหมายเท่าเดิม"}
+    - {t: "As much as I like her, so I don't trust her.", why: "ใส่ so ทำให้เป็นเหตุผล ความหมายผิด"}
+    - {t: "However I like her, I don't trust her.", why: "However ต้องตามด้วย much"}
+    - {t: "Whatever I like her, I don't trust her.", why: "Whatever ไม่ใช้กับประโยคนี้"}
+  explain: "Although I like ... = ==Much as I like ...=="
+  status: draft
+- id: cefr-c1-w10-012
+  kind: type
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  stem: "W_______ the reason, the delay is unacceptable. (ไม่ว่า...จะเป็นอะไร)"
+  answer: whatever
+  accept: [whatever, Whatever]
+  why: "Whatever the + คำนาม = ไม่ว่า...จะเป็นอะไรก็ตาม"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การประเมิน ----------
+- id: cefr-c1-w10-013
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 1
+  stem: Smoking is ____ to your health.
+  choices:
+    - {t: detrimental, why: "เป็นผลเสีย ใช้ ++detrimental to++"}
+    - {t: conducive, why: "conducive to แปลว่าเอื้อให้เกิดผลดี ความหมายกลับ"}
+    - {t: negligible, why: "negligible ไม่ตามด้วย to และแปลว่าน้อยมาก"}
+    - {t: viable, why: "viable ไม่ตามด้วย to"}
+  explain: "detrimental to = ==เป็นผลเสียต่อ== ตรงข้าม conducive to"
+  status: draft
+- id: cefr-c1-w10-014
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 1
+  stem: 'The difference in price is ____: only two baht.'
+  choices:
+    - {t: negligible, why: "น้อยจนไม่ต้องสนใจ ใช้ ++negligible++"}
+    - {t: detrimental, why: "detrimental แปลว่าเป็นผลเสีย"}
+    - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง"}
+    - {t: volatile, why: "volatile แปลว่าผันผวน"}
+  explain: "negligible = ==น้อยมากจนไม่สำคัญ=="
+  status: draft
+- id: cefr-c1-w10-015
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: Let's not waste time arguing about such ____ details.
+  choices:
+    - {t: trivial, why: "เล็กน้อยไม่สำคัญ ใช้ ++trivial details++"}
+    - {t: tangible, why: "tangible แปลว่าจับต้องได้ เห็นผลชัด"}
+    - {t: viable, why: "viable แปลว่าเป็นไปได้"}
+    - {t: equitable, why: "equitable แปลว่าเป็นธรรม"}
+  explain: "trivial = ==เล็กน้อย ไม่สำคัญ=="
+  status: draft
+- id: cefr-c1-w10-016
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: Without a permanent contract, his financial situation is ____.
+  choices:
+    - {t: precarious, why: "ไม่มั่นคง เสี่ยงล้ม ใช้ ++precarious++"}
+    - {t: tangible, why: "tangible ไม่ได้บอกความไม่มั่นคง"}
+    - {t: inclusive, why: "inclusive แปลว่าครอบคลุมทุกคน"}
+    - {t: conducive, why: "conducive ต้องตามด้วย to"}
+  explain: "precarious = ==ไม่มั่นคง ล่อแหลม=="
+  status: draft
+- id: cefr-c1-w10-017
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: Oil prices have been extremely ____ this year, rising and falling every week.
+  choices:
+    - {t: volatile, why: "ผันผวนขึ้นลงเร็ว ใช้ ++volatile++"}
+    - {t: negligible, why: "negligible แปลว่าน้อยมาก ขัดกับขึ้นลงทุกสัปดาห์"}
+    - {t: equitable, why: "equitable แปลว่าเป็นธรรม"}
+    - {t: tangible, why: "tangible แปลว่าจับต้องได้"}
+  explain: "volatile = ==ผันผวน เปลี่ยนเร็ว คาดเดายาก=="
+  status: draft
+- id: cefr-c1-w10-018
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: Without more funding, the project is simply not ____.
+  choices:
+    - {t: viable, why: "ไม่สามารถดำเนินต่อได้จริง ใช้ ++viable++"}
+    - {t: volatile, why: "volatile แปลว่าผันผวน"}
+    - {t: trivial, why: "trivial แปลว่าไม่สำคัญ"}
+    - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง ไม่เกี่ยวกับงบ"}
+  explain: "viable = ==อยู่รอดได้ ดำเนินไปได้จริง=="
+  status: draft
+- id: cefr-c1-w10-019
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: Is it ____ to build a new hospital in only two years?
+  choices:
+    - {t: feasible, why: "ทำได้จริงในทางปฏิบัติ ใช้ ++feasible++"}
+    - {t: negligible, why: "negligible แปลว่าน้อยมาก ไม่เข้ากับคำถาม"}
+    - {t: precarious, why: "precarious แปลว่าไม่มั่นคง"}
+    - {t: detrimental, why: "detrimental แปลว่าเป็นผลเสีย"}
+  explain: "feasible = ==ทำได้ในทางปฏิบัติ== (a feasibility study)"
+  status: draft
+- id: cefr-c1-w10-020
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: 'After six months, the programme has produced ____ results: fewer accidents and lower costs.'
+  choices:
+    - {t: tangible, why: "ผลที่เห็นได้ชัดจับต้องได้ ใช้ ++tangible results++"}
+    - {t: trivial, why: "trivial results ขัดกับผลที่ยกตัวอย่างมา"}
+    - {t: volatile, why: "volatile ไม่ได้บอกว่าผลชัดเจน"}
+    - {t: contentious, why: "contentious results แปลว่าผลเป็นที่ถกเถียง"}
+  explain: "tangible = ==จับต้องได้ เห็นผลจริง=="
+  status: draft
+- id: cefr-c1-w10-021
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: The new tax system is more ____, as richer people now pay a higher share.
+  choices:
+    - {t: equitable, why: "เป็นธรรมตามสัดส่วน ใช้ ++equitable++"}
+    - {t: volatile, why: "volatile ไม่ได้บอกความเป็นธรรม"}
+    - {t: negligible, why: "negligible แปลว่าน้อยมาก"}
+    - {t: precarious, why: "precarious แปลว่าไม่มั่นคง"}
+  explain: "equitable = ==เป็นธรรม เท่าเทียมตามสัดส่วน=="
+  status: draft
+- id: cefr-c1-w10-022
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: The festival aims to be ____, with ramps, sign language and free tickets for low-income families.
+  choices:
+    - {t: inclusive, why: "เปิดให้ทุกคนมีส่วนร่วม ใช้ ++inclusive++"}
+    - {t: volatile, why: "volatile แปลว่าผันผวน"}
+    - {t: trivial, why: "trivial แปลว่าไม่สำคัญ"}
+    - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง"}
+  explain: "inclusive = ==ครอบคลุม ไม่กีดกันใคร=="
+  status: draft
+- id: cefr-c1-w10-023
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 3
+  stem: A quiet, well-lit room is ____ to concentration.
+  choices:
+    - {t: conducive, why: "เอื้อให้เกิด ใช้ ++conducive to++"}
+    - {t: detrimental, why: "detrimental to แปลว่าเป็นผลเสีย ความหมายกลับ"}
+    - {t: feasible, why: "feasible ไม่ตามด้วย to แบบนี้"}
+    - {t: tangible, why: "tangible ไม่ตามด้วย to"}
+  explain: "conducive to = ==เอื้อต่อ ส่งเสริมให้เกิด=="
+  status: draft
+- id: cefr-c1-w10-024
+  kind: type
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  stem: "Raising the retirement age is a highly c__________ issue; people feel strongly on both sides. (เป็นที่ถกเถียง)"
+  answer: contentious
+  accept: [contentious]
+  why: "contentious = เป็นที่ถกเถียงอย่างรุนแรง"
+  status: draft
+# ---------- วันที่ 3 · เปรียบเทียบระดับสูง ----------
+- id: cefr-c1-w10-025
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 1
+  stem: The more you practise, ____ you become.
+  choices:
+    - {t: the more confident, why: "the + ขั้นกว่า ..., ++the + ขั้นกว่า++"}
+    - {t: more confident, why: "ท่อนที่สองต้องมี the"}
+    - {t: the most confident, why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
+    - {t: the more confidently, why: "become ตามด้วยคุณศัพท์ ไม่ใช่คำวิเศษณ์"}
+  explain: "==The + ขั้นกว่า ..., the + ขั้นกว่า ...== = ยิ่ง...ยิ่ง..."
+  status: draft
+- id: cefr-c1-w10-026
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 1
+  stem: This is ____ the best restaurant in town.
+  choices:
+    - {t: by far, why: "เน้นขั้นสุด ใช้ ++by far the best++"}
+    - {t: very, why: "very the best ผิดรูป"}
+    - {t: much more, why: "much more the best ซ้อนขั้นกว่ากับขั้นสุด"}
+    - {t: so, why: "so the best ผิดรูป"}
+  explain: "เน้นขั้นสุด ==by far / easily + the + ขั้นสุด=="
+  status: draft
+- id: cefr-c1-w10-027
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  stem: The new version is ____ as good as the old one. It's much worse.
+  choices:
+    - {t: nowhere near, why: "ห่างไกลจาก ใช้ ++nowhere near as ... as++"}
+    - {t: almost, why: "almost as good แปลว่าดีเกือบเท่า ขัดกับ much worse"}
+    - {t: just, why: "just as good แปลว่าดีพอ ๆ กัน ความหมายกลับ"}
+    - {t: twice, why: "twice as good แปลว่าดีกว่าสองเท่า ความหมายกลับ"}
+  explain: "ห่างกันมาก ==nowhere near / not nearly as ... as=="
+  status: draft
+- id: cefr-c1-w10-028
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  stem: The problem is not so much the cost ____ the time it takes.
+  choices:
+    - {t: as, why: "not so much A ++as++ B = ไม่ใช่ A มากเท่ากับ B"}
+    - {t: than, why: "not so much ใช้คู่กับ as ไม่ใช่ than"}
+    - {t: but, why: "not so much ... but ไม่ใช่คู่คำที่ใช้"}
+    - {t: like, why: "not so much ... like ไม่ใช่คู่คำที่ใช้"}
+  explain: "==not so much A as B== = ปัญหาจริงคือ B"
+  status: draft
+- id: cefr-c1-w10-029
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  stem: Rents in Bangkok are ____ higher than in my hometown, maybe three times as much.
+  choices:
+    - {t: considerably, why: "เน้นขั้นกว่าว่ามาก ใช้ ++considerably higher++"}
+    - {t: very, why: "very ใช้กับขั้นกว่าไม่ได้"}
+    - {t: by far, why: "by far ใช้กับขั้นสุด หรือวางหลัง higher เท่านั้น"}
+    - {t: so, why: "so higher ผิดรูป"}
+  explain: "เน้นขั้นกว่า ==considerably== / significantly / far / much"
+  status: draft
+- id: cefr-c1-w10-030
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  stem: The sooner we start, ____ we'll finish.
+  choices:
+    - {t: the earlier, why: "the + ขั้นกว่า คู่กัน ++the earlier++"}
+    - {t: earlier, why: "ท่อนที่สองต้องมี the"}
+    - {t: the earliest, why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
+    - {t: the more early, why: "early ใช้ earlier ไม่ใช่ more early"}
+  explain: "The sooner ..., the + ==ขั้นกว่า== ..."
+  status: draft
+- id: cefr-c1-w10-031
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  stem: Which sentence means "The two cities are very different in size"?
+  choices:
+    - {t: "Chiang Mai is nowhere near as big as Bangkok.", why: "nowhere near as big = ++เล็กกว่ามาก++"}
+    - {t: "Chiang Mai is almost as big as Bangkok.", why: "almost as big = ขนาดใกล้เคียงกัน ความหมายกลับ"}
+    - {t: "Chiang Mai is just as big as Bangkok.", why: "just as big = เท่ากัน ความหมายกลับ"}
+    - {t: "Chiang Mai is slightly smaller than Bangkok.", why: "slightly = ต่างกันนิดเดียว ความหมายกลับ"}
+  explain: "ต่างมาก ==nowhere near== · ต่างนิดเดียว slightly / almost"
+  status: draft
+- id: cefr-c1-w10-032
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  stem: The second film was ____ less exciting than the first.
+  choices:
+    - {t: far, why: "เน้นขั้นกว่า (less) ใช้ ++far less++"}
+    - {t: very, why: "very less ผิดรูป"}
+    - {t: most, why: "most less ผิดรูป"}
+    - {t: such, why: "such less ผิดรูป"}
+  explain: "==far / much / a lot + less/more=="
+  status: draft
+- id: cefr-c1-w10-033
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  stem: "The more expensive the hotel, ____."
+  choices:
+    - {t: "the higher the expectations", why: "ละกริยาได้ในโครงสร้างนี้ ++the + ขั้นกว่า + นาม++"}
+    - {t: "higher the expectations are", why: "ขาด the หน้าขั้นกว่า"}
+    - {t: "the highest the expectations", why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
+    - {t: "the expectations are higher", why: "ท่อนที่สองต้องขึ้นด้วย the + ขั้นกว่า"}
+  explain: "แบบสั้น ==The bigger the house==, the higher the bills."
+  status: draft
+- id: cefr-c1-w10-034
+  kind: cloze
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  text: |
+    (1) ____ attractive online courses may seem, they are nowhere near (2) ____ effective as classroom learning for some students. The problem is not so much the technology (3) ____ the lack of personal contact.
+  questions:
+    - choices:
+        - {t: However, why: "However + adj + ประธาน + may seem"}
+        - {t: Although, why: "Although attractive ... ลำดับผิด"}
+        - {t: Whatever, why: "Whatever ใช้กับคำนาม"}
+        - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
+    - choices:
+        - {t: as, why: "nowhere near as ... as"}
+        - {t: so, why: "nowhere near so effective ใช้น้อย และคู่ที่ใช้คือ as"}
+        - {t: more, why: "nowhere near more effective ผิดรูป"}
+        - {t: than, why: "nowhere near than ผิดรูป"}
+    - choices:
+        - {t: as, why: "not so much A as B"}
+        - {t: than, why: "not so much ... than ผิดคู่"}
+        - {t: but, why: "not so much ... but ผิดคู่"}
+        - {t: like, why: "not so much ... like ผิดคู่"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความวิชาการและฟังอภิปราย ----------
+- id: cefr-c1-w10-035
+  kind: read
+  skill: rd
+  topic: educational-equity
+  level: 2
+  title: "Equal Access, Unequal Outcomes"
+  passage: |
+    Over the past twenty years, access to secondary education in many middle-income countries has expanded dramatically. In the fictional nation of Valaria, for instance, the proportion of fifteen-year-olds attending school rose from 60 to over 90 per cent. By that measure alone, the policy has been a remarkable success.
+
+    Yet attendance is not the same as learning. Much as governments might wish otherwise, national test results in Valaria have barely changed, and the gap between urban and rural pupils has, if anything, widened. Rural schools tend to have fewer qualified teachers, larger classes and limited internet access, conditions hardly conducive to effective learning. The more remote the school, the wider the gap tends to be.
+
+    Two broad responses have been proposed. The first is to direct additional funding to the most disadvantaged schools, an approach that is more equitable but politically contentious, since wealthier areas may lose resources. The second is to expand online learning, which appears cheaper and faster to introduce. However attractive the latter may seem, evidence suggests that it is nowhere near as effective for younger pupils without adult support at home, precisely the group that needs help most.
+
+    Neither approach is likely to succeed on its own. What the research does suggest is that the problem is not so much a lack of schools as a lack of the conditions that make learning possible: trained teachers, manageable class sizes and stable funding. Whatever the chosen policy, progress will be measured not in buildings opened but in skills gained.
+  questions:
+    - stem: What is the main argument of the article?
+      choices:
+        - {t: wider access to school has not produced equal learning, why: "attendance is not the same as learning และช่องว่างยังอยู่"}
+        - {t: Valaria's education policy has completely failed, why: "บทยอมรับว่าการเข้าเรียนเพิ่มขึ้นเป็นความสำเร็จ"}
+        - {t: online learning is the best solution, why: "บทบอกว่าการเรียนออนไลน์ไม่ได้ผลกับเด็กเล็ก"}
+        - {t: rural pupils do not want to learn, why: "บทโทษสภาพแวดล้อม ไม่ใช่ตัวนักเรียน"}
+    - stem: According to the article, why is extra funding for poor schools "contentious"?
+      choices:
+        - {t: richer areas might receive less money, why: "since wealthier areas may lose resources"}
+        - {t: it has never been tried before, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: it is slower than online learning, why: "บทเทียบความเร็วกับแนวทางที่สอง ไม่ใช่เหตุผลที่ถกเถียง"}
+        - {t: teachers oppose it, why: "บทไม่ได้พูดว่าครูคัดค้าน"}
+    - stem: What does the writer suggest about online learning?
+      choices:
+        - {t: it may help least those who need help most, why: "nowhere near as effective for younger pupils ... the group that needs help most"}
+        - {t: it should replace all rural schools, why: "ไม่มีข้อเสนอนี้"}
+        - {t: it is more expensive than extra funding, why: "บทบอกว่าดูเหมือนถูกกว่า"}
+        - {t: it works best for young children, why: "ตรงข้ามกับที่บทบอก"}
+    - stem: What can be inferred about how the writer would judge future success?
+      choices:
+        - {t: by improvements in what pupils can actually do, why: "progress will be measured ... in skills gained"}
+        - {t: by the number of new schools built, why: "ผู้เขียนบอกว่าไม่ได้วัดจากจำนวนอาคาร"}
+        - {t: by attendance rates alone, why: "ผู้เขียนบอกว่าการเข้าเรียนไม่เท่ากับการเรียนรู้"}
+        - {t: by how cheap the policy is, why: "บทไม่ได้ใช้ราคาเป็นเกณฑ์หลัก"}
+  status: draft
+- id: cefr-c1-w10-036
+  kind: listen
+  skill: li
+  topic: analytical-discussion
+  level: 2
+  script:
+    - {who: Man, en: "So you think the four-day week is a bad idea?"}
+    - {who: Woman, en: "Not at all. Much as I like the idea, though, I'm not convinced it's feasible for hospitals or schools, where someone always needs to be there."}
+  questions:
+    - stem: What is the woman's concern?
+      choices:
+        - {t: it may not work in some types of workplace, why: "not convinced it's feasible for hospitals or schools"}
+        - {t: she dislikes the idea completely, why: "เธอบอกว่า Much as I like the idea"}
+        - {t: it would cost too much, why: "ไม่ได้พูดเรื่องค่าใช้จ่าย"}
+        - {t: workers would be bored, why: "ไม่ได้พูดเรื่องความเบื่อ"}
+  status: draft
+- id: cefr-c1-w10-037
+  kind: listen
+  skill: li
+  topic: analytical-discussion
+  level: 2
+  script:
+    - {who: Woman, en: "The effect of the new law on house prices has been negligible. The real issue isn't so much the law as the lack of new homes being built."}
+  questions:
+    - stem: According to the speaker, what is the main cause of the problem?
+      choices:
+        - {t: not enough new homes, why: "The real issue isn't so much the law as the lack of new homes"}
+        - {t: the new law, why: "ผลของกฎหมายน้อยมาก negligible"}
+        - {t: high interest rates, why: "ไม่ได้พูดถึงดอกเบี้ย"}
+        - {t: foreign buyers, why: "ไม่ได้พูดถึงผู้ซื้อต่างชาติ"}
+  status: draft
+- id: cefr-c1-w10-038
+  kind: listen
+  skill: li
+  topic: analytical-discussion
+  level: 2
+  script:
+    - {who: Man, en: "Both plans are viable, but the second one is by far the more inclusive. It's the only one that includes people who work night shifts."}
+  questions:
+    - stem: Why does the speaker prefer the second plan?
+      choices:
+        - {t: it includes more people, why: "by far the more inclusive ... includes people who work night shifts"}
+        - {t: it is the only viable plan, why: "เขาบอกว่าทั้งสองแผนเป็นไปได้"}
+        - {t: it is cheaper, why: "ไม่ได้พูดเรื่องราคา"}
+        - {t: it is faster to introduce, why: "ไม่ได้พูดเรื่องความเร็ว"}
+  status: draft
+- id: cefr-c1-w10-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The more, we, read, the more, we understand]
+  sentence: The more we read, the more we understand.
+  th: ยิ่งอ่านมาก ยิ่งเข้าใจมาก
+  why: "The more + ประโยค, the more + ประโยค"
+  status: draft
+- id: cefr-c1-w10-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [However difficult, the task, may seem, we must, try]
+  sentence: However difficult the task may seem, we must try.
+  th: ไม่ว่างานจะดูยากแค่ไหน เราก็ต้องลอง
+  why: "However + adj + ประธาน + may seem แล้วตามด้วยประโยคหลัก"
+  status: draft
+- id: cefr-c1-w10-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The issue, is not so much, the price, as, the quality]
+  sentence: The issue is not so much the price as the quality.
+  th: ประเด็นไม่ได้อยู่ที่ราคามากเท่ากับคุณภาพ
+  why: "not so much A as B บอกว่าประเด็นจริงคือ B"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c1-w10-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Much as, the first approach, appeals to me, the second is, far more feasible]
+  sentence: Much as the first approach appeals to me, the second is far more feasible.
+  th: แม้แนวทางแรกจะน่าสนใจสำหรับฉัน แต่แนวทางที่สองทำได้จริงมากกว่ามาก
+  why: "Much as + ประโยคยอมรับ แล้วตามด้วยการเปรียบเทียบด้วย far more"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 9 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 9
+phase: 3
+theme_th: น้ำเสียงและเจตนา
+focus_th: tone และ register (การลดความแรง · understatement · irony · ภาษาทางการกับไม่ทางการ) · โครงสร้างสมมติในอดีต (as if/as though · it's high time · would rather + อดีต)
+can_do_th:
+  - จับน้ำเสียง ทัศนคติ และเจตนาที่ไม่ได้พูดตรง ๆ ได้
+  - ให้ข้อเสนอแนะเชิงวิจารณ์โดยรักษาความสัมพันธ์ได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: น้ำเสียงของข้อความ
+    lesson:
+      rule_th: "ภาษาอังกฤษสุภาพด้วย ==ความอ้อม== ไม่ใช่คำว่า please อย่างเดียว ลดความแรงด้วย could · perhaps · a little และ ++understatement++ (พูดเบากว่าความจริง) มักหมายถึงเรื่องหนัก"
+      examples:
+        - {en: "<k>I was wondering if</k> you <k>might</k> reply by Friday.", th: "ขอแบบอ้อม สุภาพมาก"}
+        - {en: "The report <k>could perhaps be a little</k> shorter.", th: "ติแบบเบาลงสามชั้น"}
+        - {en: "The weather <k>wasn't exactly</k> perfect.", th: "==understatement = แย่มาก=="}
+        - {en: "<k>With all due respect</k>, I think you may be wrong.", th: "สัญญาณว่ากำลังจะแย้ง"}
+      signals:
+        - {label_th: "ตัวลดความแรง", words: [perhaps, slightly, a little, rather, "I wonder whether", "not exactly", "a bit of a"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำลงท้ายบอกความสุภาพ พอเป็นอังกฤษจึงเขียน ~~ตรงไปตรงมาแล้วเติม please~~ ซึ่งยังฟังเป็นคำสั่ง"
+        wrong: ["Please send me the file now.", "Your report is too long, please fix it."]
+        right: ["Could you send me the file when you have a moment?", "The report could perhaps be a little shorter."]
+      notes:
+        - {kind: tip, th: "เวลาติ ใช้สูตร ==ชม + ติแบบเบา + เสนอทางออก== ความสัมพันธ์ไม่เสีย"}
+        - {kind: warn, th: "I'm rather surprised ในจดหมายทางการ อาจหมายถึงโกรธมาก อย่าอ่านตามตัวอักษร"}
+    check: [cefr-c1-w09-001, cefr-c1-w09-002]
+    practice: [cefr-c1-w09-003, cefr-c1-w09-004, cefr-c1-w09-005, cefr-c1-w09-006, cefr-c1-w09-007, cefr-c1-w09-008, cefr-c1-w09-009, cefr-c1-w09-010, cefr-c1-w09-011, cefr-c1-w09-012]
+    use:
+      prompt_th: เขียนคำขอที่ตรงเกินไป 1 ประโยค แล้วเขียนใหม่ให้สุภาพและอ้อมขึ้น
+      frame: "Too direct: ____. Better: I was wondering if you might ____."
+      model: "Too direct: Change the meeting to Thursday. Better: I was wondering if you might be able to move the meeting to Thursday."
+    classroom: {en: "I was wondering if you could help me with something.", th: "ไม่ทราบว่าพอจะช่วยอะไรหน่อยได้ไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์บุคลิกและทัศนคติ 12 คำ
+    lesson:
+      rule_th: "คำบรรยายนิสัยระดับนี้มี ==น้ำหนักบวกลบ== ชัด candid · astute · diligent · meticulous เป็นคำชม ส่วน ++condescending · complacent · dogmatic++ เป็นคำติ เลือกผิดคือดูถูกคนโดยไม่ตั้งใจ"
+      examples:
+        - {en: "Thanks for your <k>candid</k> feedback.", th: "ชมว่าตรงไปตรงมา"}
+        - {en: "Don't be so <k>condescending</k>!", th: "ติว่าดูถูก"}
+        - {en: "The team became <k>complacent</k>.", th: "==พอใจจนประมาท=="}
+        - {en: "We need a <k>pragmatic</k> solution.", th: "ทำได้จริง"}
+      words:
+        - {w: candid, pos: adj., th: ตรงไปตรงมา จริงใจ, ex: "She was candid about her mistakes."}
+        - {w: condescending, pos: adj., th: ดูถูก ทำตัวเหนือกว่า, ex: "His condescending tone annoyed everyone."}
+        - {w: cynical, pos: adj., th: มองแง่ร้าย ไม่เชื่อเจตนาดี, ex: "I'm cynical about celebrity charity events."}
+        - {w: complacent, pos: adj., th: พอใจจนประมาท, ex: "We can't afford to become complacent."}
+        - {w: adamant, pos: adj., th: ยืนกราน, ex: "He was adamant that he had paid."}
+        - {w: indifferent, pos: adj., th: เฉยเมย ไม่สนใจ, ex: "She seemed indifferent to the result."}
+        - {w: dogmatic, pos: adj., th: ยึดติดความเชื่อ, ex: "Try not to be dogmatic about diets."}
+        - {w: astute, pos: adj., th: เฉียบแหลม, ex: "That was an astute observation."}
+        - {w: diligent, pos: adj., th: ขยันหมั่นเพียร, ex: "He is a diligent worker."}
+        - {w: meticulous, pos: adj., th: ละเอียดถี่ถ้วน, ex: "She keeps meticulous records."}
+        - {w: scrupulous, pos: adj., th: ซื่อตรงเคร่งครัด, ex: "He is scrupulous about paying tax."}
+        - {w: pragmatic, pos: adj., th: เน้นความเป็นจริง, ex: "We took a pragmatic approach."}
+      thai_trap:
+        intro_th: "คำไทยว่า ตรง ๆ อาจชมหรือติก็ได้ คนจึงใช้ ~~cynical แทน candid~~ หรือคิดว่า indifferent แปลว่าไม่ต่างกัน"
+        wrong: ["Thank you for being so cynical with me.", "It's indifferent to me which one we choose."]
+        right: ["Thank you for being so candid with me.", "It makes no difference to me which one we choose."]
+      notes:
+        - {kind: pin, th: "==indifferent = ไม่สนใจ== ไม่ใช่ ไม่แตกต่าง"}
+        - {kind: use, th: "ชมคนในที่ประชุมว่า That's an astute point. ฟังจริงใจและเป็นมืออาชีพ"}
+    check: [cefr-c1-w09-013, cefr-c1-w09-014]
+    practice: [cefr-c1-w09-015, cefr-c1-w09-016, cefr-c1-w09-017, cefr-c1-w09-018, cefr-c1-w09-019, cefr-c1-w09-020, cefr-c1-w09-021, cefr-c1-w09-022, cefr-c1-w09-023, cefr-c1-w09-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายหัวหน้าหรือเพื่อนร่วมงานที่ดีที่สุดและแย่ที่สุดที่เคยเจอ (ไม่ต้องบอกชื่อ)
+      frame: "The best boss I've had was ____ and ____. The worst was so ____ that ____."
+      model: "The best boss I've had was candid and meticulous. The worst was so condescending that nobody dared to ask her a question."
+    classroom: {en: "Thanks for being so candid with me.", th: "ขอบคุณที่พูดตรง ๆ นะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: สมมติและตำหนิอย่างสุภาพ
+    lesson:
+      rule_th: "สามโครงสร้างนี้ ==ใช้อดีตแต่หมายถึงตอนนี้== It's high time we left · as if he were the boss · ++I'd rather you didn't++ ใช้ตำหนิหรือขออย่างสุภาพได้ดีมาก"
+      examples:
+        - {en: "<k>It's high time</k> we <k>made</k> a decision.", th: "ช้าไปแล้วนะ"}
+        - {en: "He talks <k>as if</k> he <k>were</k> the boss.", th: "ราวกับว่า (ไม่จริง)"}
+        - {en: "<k>I'd rather you didn't</k> smoke here.", th: "==ขอห้ามแบบสุภาพ=="}
+        - {en: "<k>I'd rather stay</k> at home.", th: "ตัวเองใช้กริยารูปเดิม"}
+      signals:
+        - {label_th: "ตามด้วยอดีต", words: ["It's high time + ประธาน", "It's about time + ประธาน", "as if/as though", "I'd rather + คนอื่น"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่เปลี่ยนเวลาของกริยา คนจึงเขียน ~~It's time we go~~ และ ~~I'd rather you don't~~ ซึ่งผิดในภาษาอังกฤษ"
+        wrong: ["It's high time we go home.", "I'd rather you don't tell anyone.", "I'd rather to stay here."]
+        right: ["It's high time we went home.", "I'd rather you didn't tell anyone.", "I'd rather stay here."]
+      notes:
+        - {kind: tip, th: "ตำหนิโดยไม่ชี้นิ้ว ใช้ ==It's high time we...== ใส่ we ไว้ให้ฟังร่วมรับผิดชอบ"}
+        - {kind: warn, th: "I'd rather + ตัวเอง = กริยารูปเดิม · + คนอื่น = อดีต อย่าสลับ"}
+    check: [cefr-c1-w09-025, cefr-c1-w09-026]
+    practice: [cefr-c1-w09-027, cefr-c1-w09-028, cefr-c1-w09-029, cefr-c1-w09-030, cefr-c1-w09-031, cefr-c1-w09-032, cefr-c1-w09-033, cefr-c1-w09-034]
+    use:
+      prompt_th: เขียน 2 ประโยค ขอให้คนอื่นไม่ทำอะไรบางอย่างอย่างสุภาพ และบ่นเรื่องที่ควรทำนานแล้ว
+      frame: "I'd rather you didn't ____. It's high time ____."
+      model: "I'd rather you didn't park in front of the gate. It's high time the building put up a proper sign."
+    classroom: {en: "I'd rather you didn't mention it to anyone yet.", th: "อยากให้ยังไม่บอกใครก่อนนะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านคอลัมน์ทัศนะและฟังบทสนทนาที่มีนัย
+    lesson:
+      rule_th: "คอลัมน์ทัศนะมักใช้ ==ประชดและพูดเบาเกินจริง== เพื่อวิจารณ์ ถามตัวเองว่าผู้เขียน ++หมายความตามตัวอักษรไหม++ ส่วนในบทสนทนา คำชมสั้น ๆ แค่เรื่องเล็กมักหมายถึงไม่ชอบเรื่องใหญ่"
+      examples:
+        - {en: "what was, <k>by any measure</k>, a remarkable meeting", th: "ประชด remarkable = แย่"}
+        - {en: "the figure becomes, <k>to put it mildly</k>, uncomfortable", th: "==พูดเบาแต่หมายถึงหนัก=="}
+        - {en: "Well, the slides were certainly very <k>colourful</k>.", th: "ชมเรื่องเล็ก = ไม่ชอบเรื่องใหญ่"}
+      thai_trap:
+        intro_th: "คนอ่านเอาความหมาย ~~ตามตัวอักษร~~ เช่น remarkable = น่าทึ่งจริง ๆ ทั้งที่ผู้เขียนกำลังประชด"
+        wrong: ["ตอบว่าผู้เขียนชื่นชมการประชุมเมื่อวันอังคาร"]
+        right: ["ผู้เขียนประชดว่าการประชุมเสียเวลาและไม่ได้อะไร"]
+      notes:
+        - {kind: tip, th: "ถ้าคำชมขัดกับรายละเอียดที่ตามมา ==นั่นคือประชด=="}
+        - {kind: warn, th: "I'd love to, but ... ในบทสนทนาเกือบทุกครั้งคือการปฏิเสธอย่างสุภาพ"}
+    check: [cefr-c1-w09-036, cefr-c1-w09-037]
+    practice: [cefr-c1-w09-035, cefr-c1-w09-038, cefr-c1-w09-039, cefr-c1-w09-040, cefr-c1-w09-041]
+    use:
+      prompt_th: เขียน 2 ประโยคอธิบายน้ำเสียงของคอลัมน์ที่อ่าน พร้อมยกหลักฐานจากบท
+      frame: "The writer's tone is ____. For example, when he says ____, he actually means ____."
+      model: "The writer's tone is ironic. For example, when he says the meeting was remarkable, he actually means it was a complete waste of time."
+    classroom: {en: "I'd love to, but I've got rather a lot on.", th: "อยากช่วยนะ แต่ตอนนี้งานล้นมือ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด ให้ข้อเสนอแนะเชิงวิจารณ์อย่างสุภาพ 2 นาที
+    lab:
+      mode: speak
+      prompt_th: เพื่อนร่วมงานขอความเห็นเรื่องงานนำเสนอ รายงาน หรือแผนงานของเขา พูด 2 นาที ชมสิ่งที่ดีจริง ๆ ติ 2 จุดอย่างนุ่มนวล เสนอวิธีแก้ และปิดด้วยการให้กำลังใจ
+      frame:
+        - "First of all, I really liked ____."
+        - "One thing I wonder about is whether ____ could perhaps be ____."
+        - "I'd also suggest ____, because ____."
+        - "If it were me, I might ____."
+        - "Overall, ____. I think with a few small changes, ____."
+      model_pass: "First of all, I really liked your opening story. It made everyone listen. One thing I wonder about is whether the middle part could perhaps be a little shorter. There were quite a lot of numbers. I'd also suggest putting the main recommendation on the first slide, because some managers might leave early. If it were me, I might use one clear chart instead of three tables. Overall, it's a strong presentation. I think with a few small changes, it will be excellent."
+      model_good: "First of all, I really liked the way you opened with the story about the customer in Chiang Rai. It was memorable, and it set up the problem far better than any statistic could. One thing I wonder about is whether the middle section could perhaps be tightened a little. There's a lot of very valuable data, but at times it felt as if we were being asked to read rather than listen. I'd also suggest bringing your main recommendation forward, simply because senior managers tend to make up their minds in the first five minutes. If it were me, I might replace the three tables with a single chart and keep the details in a handout. Overall, the thinking behind it is genuinely astute, and with a few small changes, I think it'll be one of the strongest presentations they see this year."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - นึกถึงงานจริงของคนที่คุณรู้จัก จดคำชม 1 จุด จุดที่ควรแก้ 2 จุด และทางออก
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบ ฟังว่าน้ำเสียงอ่อนโยนแต่ยังชัดเจนไหม
+      checklist_th:
+        - เริ่มด้วยคำชมที่เจาะจง ไม่ใช่ชมกว้าง ๆ
+        - ติด้วยตัวลดความแรงอย่างน้อย 2 แบบ (I wonder whether · could perhaps · a little)
+        - เสนอทางแก้ที่ทำได้จริงทุกครั้งที่ติ
+        - ปิดด้วยการให้กำลังใจ และพูดได้ประมาณ 2 นาที
+    practice: [cefr-c1-w09-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 9
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [6, 7, 8, 9], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

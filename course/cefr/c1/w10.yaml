@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 10 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 10
+phase: 3
+theme_th: อ่านเชิงวิเคราะห์
+focus_th: ยอมรับก่อนแย้ง (much as · however + adj · whatever · no matter · adj + as + it may seem) · เปรียบเทียบระดับสูง (the more ... the more · nowhere near · by far · not so much ... as · far/considerably + ขั้นกว่า)
+can_do_th:
+  - วิเคราะห์เปรียบเทียบแนวคิดและประเมินความเป็นไปได้
+  - อนุมานสิ่งที่ผู้เขียนไม่ได้กล่าวตรง ๆ ได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ยอมรับก่อนแย้ง
+    lesson:
+      rule_th: "นักเขียนเก่ง ==ยอมรับอีกฝ่ายก่อนแล้วจึงแย้ง== ใช้ Much as · However + คุณศัพท์ · ++No matter how/what++ ทำให้ข้อโต้แย้งฟังยุติธรรมและน่าเชื่อขึ้น"
+      examples:
+        - {en: "<k>Much as</k> I admire him, I can't accept this.", th: "แม้จะชื่นชมมาก"}
+        - {en: "<k>However hard</k> I try, I forget names.", th: "ไม่ว่าจะพยายามแค่ไหน"}
+        - {en: "<k>No matter where</k> you go, ...", th: "==ไม่ว่าจะไปที่ไหน=="}
+        - {en: "<k>Strange as</k> it may sound, I enjoy it.", th: "แม้จะฟังดูแปลก"}
+      signals:
+        - {label_th: "เปิดการยอมรับ", words: [Much as, "However + adj", "No matter how/what", "Whatever the + นาม", "Adj + as + it may seem"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ไม่ว่าจะ...แค่ไหน คนจึงเขียน ~~No matter how she is busy~~ แยกคุณศัพท์ออกจาก how"
+        wrong: ["No matter how she is busy, she calls.", "However I try hard, I fail.", "Although strange it sounds, it's true."]
+        right: ["No matter how busy she is, she calls.", "However hard I try, I fail.", "Strange as it may sound, it's true."]
+      notes:
+        - {kind: tip, th: "คุณศัพท์หรือวิเศษณ์ ==ต้องอยู่ติดกับ how/however== เสมอ"}
+        - {kind: warn, th: "หลัง No matter how ไม่สลับลำดับ ใช้ประธาน + กริยาตามปกติ"}
+    check: [cefr-c1-w10-001, cefr-c1-w10-002]
+    practice: [cefr-c1-w10-003, cefr-c1-w10-004, cefr-c1-w10-005, cefr-c1-w10-006, cefr-c1-w10-007, cefr-c1-w10-008, cefr-c1-w10-009, cefr-c1-w10-010, cefr-c1-w10-011, cefr-c1-w10-012]
+    use:
+      prompt_th: เขียน 2 ประโยคยอมรับข้อดีของสิ่งที่คุณไม่ชอบ แล้วจึงบอกเหตุผลที่ไม่ชอบ
+      frame: "Much as I ____, I ____. However ____ it may be, ____."
+      model: "Much as I enjoy online shopping, I worry about the packaging waste. However convenient it may be, it can't replace the local market."
+    classroom: {en: "Much as I'd like to help, I really can't this week.", th: "อยากช่วยมากนะ แต่สัปดาห์นี้ไม่ได้จริง ๆ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การประเมิน 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้ประเมินนโยบายและแผน แยก ==viable กับ feasible== (อยู่รอดได้ กับ ทำได้จริง) และจำคู่ตรงข้าม ++detrimental to กับ conducive to++"
+      examples:
+        - {en: "Smoking is <k>detrimental to</k> health.", th: "เป็นผลเสียต่อ"}
+        - {en: "A quiet room is <k>conducive to</k> study.", th: "==เอื้อต่อ=="}
+        - {en: "Is the plan <k>feasible</k> in two years?", th: "ทำได้จริงไหม"}
+        - {en: "The effect was <k>negligible</k>.", th: "น้อยจนไม่ต้องสนใจ"}
+      words:
+        - {w: detrimental, pos: adj., th: เป็นผลเสีย, ex: "Lack of sleep is detrimental to health."}
+        - {w: negligible, pos: adj., th: น้อยมากจนไม่สำคัญ, ex: "The extra cost is negligible."}
+        - {w: trivial, pos: adj., th: เล็กน้อยไม่สำคัญ, ex: "Don't worry about trivial mistakes."}
+        - {w: precarious, pos: adj., th: ไม่มั่นคง ล่อแหลม, ex: "Many freelancers live in a precarious situation."}
+        - {w: volatile, pos: adj., th: ผันผวน, ex: "The market is very volatile."}
+        - {w: viable, pos: adj., th: อยู่รอดได้ ดำเนินไปได้, ex: "Is the business still viable?"}
+        - {w: feasible, pos: adj., th: ทำได้ในทางปฏิบัติ, ex: "It's not feasible to finish by Friday."}
+        - {w: tangible, pos: adj., th: จับต้องได้ เห็นผลชัด, ex: "We need tangible results."}
+        - {w: equitable, pos: adj., th: เป็นธรรม, ex: "an equitable share of the profits"}
+        - {w: inclusive, pos: adj., th: ครอบคลุม ไม่กีดกัน, ex: "We want an inclusive workplace."}
+        - {w: conducive, pos: adj., th: เอื้อต่อ, ex: "The climate is conducive to growing coffee."}
+        - {w: contentious, pos: adj., th: เป็นที่ถกเถียง, ex: "It's a contentious decision."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ เป็นไปได้ กับทุกอย่าง คนจึงใช้ ~~possible แทน feasible~~ ในรายงาน และลืม to หลัง conducive"
+        wrong: ["The plan is possible but not practical.", "The noise is not conducive for sleep."]
+        right: ["The plan is feasible in theory but not in practice.", "The noise is not conducive to sleep."]
+      notes:
+        - {kind: pin, th: "==conducive to== · detrimental to ใช้ to ทั้งคู่"}
+        - {kind: use, th: "ถามในที่ประชุมว่า Is that feasible within the budget? ฟังรอบคอบกว่า Is it possible?"}
+    check: [cefr-c1-w10-013, cefr-c1-w10-014]
+    practice: [cefr-c1-w10-015, cefr-c1-w10-016, cefr-c1-w10-017, cefr-c1-w10-018, cefr-c1-w10-019, cefr-c1-w10-020, cefr-c1-w10-021, cefr-c1-w10-022, cefr-c1-w10-023, cefr-c1-w10-024]
+    use:
+      prompt_th: เขียน 2 ประโยคประเมินแผนหรือนโยบายหนึ่งในที่ทำงานหรือชุมชนของคุณ
+      frame: "The plan is ____, but it may be detrimental to ____. A more ____ option would be ____."
+      model: "The plan is feasible, but it may be detrimental to small shops nearby. A more equitable option would be to give them a lower rent for two years."
+    classroom: {en: "Is that feasible within our budget?", th: "แบบนั้นทำได้จริงภายในงบเราไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เปรียบเทียบระดับสูง
+    lesson:
+      rule_th: "เปรียบเทียบให้มีน้ำหนัก ใช้ ==the more ..., the more ...== (ยิ่ง...ยิ่ง) · nowhere near as ... as (ห่างไกล) และ ++not so much A as B++ ชี้ว่าประเด็นจริงคือ B"
+      examples:
+        - {en: "<k>The more</k> you practise, <k>the more confident</k> you become.", th: "ยิ่ง...ยิ่ง..."}
+        - {en: "It's <k>by far</k> the best option.", th: "ดีที่สุดแบบทิ้งห่าง"}
+        - {en: "It's <k>nowhere near as</k> good <k>as</k> the old one.", th: "==ห่างไกลกันมาก=="}
+        - {en: "It's <k>not so much</k> the cost <k>as</k> the time.", th: "ประเด็นจริงคือเวลา"}
+      signals:
+        - {label_th: "ตัวเน้นการเปรียบเทียบ", words: ["far/much/considerably + ขั้นกว่า", "by far + ขั้นสุด", "nowhere near as", "slightly/a bit + ขั้นกว่า"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ มาก กับทุกระดับ คนจึงเขียน ~~very higher · very the best~~ และลืม the ในท่อนที่สองของ the more"
+        wrong: ["Rents are very higher here.", "The more you practise, more confident you become.", "It's not so much the cost than the time."]
+        right: ["Rents are much higher here.", "The more you practise, the more confident you become.", "It's not so much the cost as the time."]
+      notes:
+        - {kind: tip, th: "very ใช้กับคุณศัพท์ธรรมดาเท่านั้น ==ขั้นกว่าใช้ much/far== ขั้นสุดใช้ by far"}
+        - {kind: warn, th: "the more ... the more ต้องมี the ทั้งสองท่อนเสมอ"}
+    check: [cefr-c1-w10-025, cefr-c1-w10-026]
+    practice: [cefr-c1-w10-027, cefr-c1-w10-028, cefr-c1-w10-029, cefr-c1-w10-030, cefr-c1-w10-031, cefr-c1-w10-032, cefr-c1-w10-033, cefr-c1-w10-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเปรียบเทียบสองเมือง สองงาน หรือสองแอปที่คุณรู้จัก
+      frame: "____ is by far ____. The more ____, the more ____."
+      model: "Grab is by far the most convenient app in Bangkok. The more I use it, the more I worry about how much I spend."
+    classroom: {en: "It's not so much the money as the time.", th: "ไม่ใช่เรื่องเงินหรอก เรื่องเวลามากกว่า"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความวิชาการและฟังการอภิปรายเชิงวิเคราะห์
+    lesson:
+      rule_th: "บทความวิเคราะห์มักบอก ==ข้อดีของแต่ละทาง แล้วตามด้วยข้อจำกัด== ข้อสรุปของผู้เขียนอยู่ในประโยคที่มี not so much ... as หรือ Neither ... ส่วน ++ข้ออนุมาน++ ให้ดูว่าผู้เขียนใช้อะไรวัดความสำเร็จ"
+      examples:
+        - {en: "<k>By that measure alone</k>, the policy has been a success.", th: "ยอมรับแบบมีเงื่อนไข"}
+        - {en: "<k>Yet</k> attendance is not the same as learning.", th: "==ประเด็นหลักหลัง Yet=="}
+        - {en: "<k>Neither approach</k> is likely to succeed on its own.", th: "สรุปของผู้เขียน"}
+      thai_trap:
+        intro_th: "คำว่า remarkable success ในย่อหน้าแรกทำให้คนตอบว่า ~~ผู้เขียนพอใจกับนโยบาย~~ ทั้งที่ by that measure alone จำกัดความสำเร็จไว้แค่เรื่องเดียว"
+        wrong: ["ตอบว่าผู้เขียนคิดว่านโยบายประสบความสำเร็จโดยรวม"]
+        right: ["ผู้เขียนยอมรับเฉพาะเรื่องการเข้าเรียน แต่บอกว่าการเรียนรู้ยังไม่ดีขึ้น"]
+      notes:
+        - {kind: tip, th: "วลี ==by that measure alone / on paper== บอกว่าความสำเร็จมีเงื่อนไข"}
+        - {kind: warn, th: "Not at all ในต้นประโยคตอบ อาจหมายถึงไม่ได้คิดแบบนั้นเลย ฟังต่อให้จบ"}
+    check: [cefr-c1-w10-036, cefr-c1-w10-037]
+    practice: [cefr-c1-w10-035, cefr-c1-w10-038, cefr-c1-w10-039, cefr-c1-w10-040, cefr-c1-w10-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปว่าผู้เขียนคิดว่าอะไรคือปัญหาที่แท้จริงของการศึกษาในบทอ่าน
+      frame: "According to the writer, the real problem is not so much ____ as ____."
+      model: "According to the writer, the real problem is not so much a shortage of schools as a shortage of trained teachers and stable funding."
+    classroom: {en: "By that measure alone, yes, it worked.", th: "ถ้าวัดแค่ด้านนั้น ก็ใช่ ได้ผล"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน เรียงความเปรียบเทียบสองแนวทาง 250 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนเรียงความเชิงวิเคราะห์ประมาณ 250 คำ เปรียบเทียบสองแนวทางแก้ปัญหาหนึ่ง (เช่น ภาษีน้ำตาลกับการรณรงค์ ทำงานที่บ้านกับออฟฟิศ เรียนออนไลน์กับในห้อง) บอกข้อดีข้อจำกัดของแต่ละทาง ประเมินว่าทางไหนเป็นไปได้มากกว่า และสรุปจุดยืน
+      frame:
+        - "There are two broad approaches to ____: ____ and ____."
+        - "The first is ____. Much as ____, ____."
+        - "The second, by contrast, ____. However attractive it may seem, ____."
+        - "The more ____, the more ____."
+        - "On balance, the problem is not so much ____ as ____, which is why ____."
+      model_pass: "There are two broad approaches to reducing sugar consumption: a sugar tax and public education campaigns. The first is a tax on sweet drinks. It is easy to introduce and it raises money for health services. Much as some people dislike new taxes, evidence from several countries suggests that prices do affect what people buy. The second approach, by contrast, is to educate people about healthy eating. However attractive this may seem, campaigns are often expensive and their effect is difficult to measure. The more information people receive, the more they may simply ignore it. On balance, the problem is not so much a lack of knowledge as the low price of unhealthy food, which is why I believe a tax is the more feasible option. However, the money it raises should be used to support healthy food in schools."
+      model_good: "There are two broad approaches to reducing sugar consumption: taxing sugary products and investing in public education. The first, a tax on sweetened drinks, is relatively simple to introduce and generates revenue that can be directed towards health services. Much as taxes are rarely popular, evidence from countries that have adopted them suggests that even modest price rises lead to measurable changes in what people buy. Education campaigns, by contrast, aim to change behaviour by changing understanding. However attractive this may seem, such campaigns are costly, slow to show tangible results and tend to reach the people who are already health-conscious. Indeed, the more advice people receive, the easier it often becomes to ignore. Nevertheless, a tax alone is arguably less equitable, since it takes a larger share of income from poorer households. On balance, the problem is not so much a lack of knowledge as the price and availability of unhealthy food, which is why a tax appears the more feasible starting point, provided its revenue is used to make healthy options cheaper for precisely those families."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกปัญหาและสองแนวทางของคุณ จดข้อดีและข้อจำกัดอย่างละ 1–2 ข้อ
+        - เติมโครง 5 ส่วน แล้วเขียนให้ได้ประมาณ 230–270 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนแล้วเพิ่มประโยคยอมรับอีกฝ่ายอีก 1 ประโยค
+      checklist_th:
+        - เสนอทั้งสองแนวทางอย่างยุติธรรมก่อนตัดสิน
+        - ใช้โครงสร้างยอมรับก่อนแย้งอย่างน้อย 2 แบบ (Much as · However + adj · No matter)
+        - ใช้การเปรียบเทียบระดับสูงอย่างน้อย 1 แบบ (the more ... the more · not so much ... as · by far)
+        - สรุปจุดยืนชัดพร้อมเงื่อนไข และยาวประมาณ 250 คำ
+    practice: [cefr-c1-w10-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 10
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [7, 8, 9, 10], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
