@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 12 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 12
+phase: 3
+theme_th: ซ้อมใหญ่
+focus_th: remember / stop / try / forget / regret / go on + -ing หรือ to · passive gerund · ทบทวนโครงสร้างทั้ง 11 สัปดาห์ + กลยุทธ์ทำชุดจับเวลา
+can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: รูปที่ตามมาเปลี่ยน ความหมายเปลี่ยน
+    lesson:
+      rule_th: "กริยาบางตัวตามด้วยได้ทั้ง to และ -ing แต่ ==ความหมายต่างกัน== จำง่าย ๆ ว่า ++to = มองไปข้างหน้า (ยังไม่ได้ทำ)++ · -ing = มองย้อนหลัง (ทำไปแล้ว) · ถูกกระทำหลัง enjoy / avoid ใช้ being + ช่อง 3"
+      examples:
+        - {en: "Remember <k>to lock</k> the door.", th: "อย่าลืมล็อก (ยังไม่ได้ทำ)"}
+        - {en: "I remember <k>watching</k> this film.", th: "==จำได้ว่าเคยดู=="}
+        - {en: "He stopped <k>smoking</k>.", th: "เลิกสูบ"}
+        - {en: "We stopped <k>to buy</k> fruit.", th: "หยุดเพื่อไปซื้อ"}
+      signals:
+        - {label_th: "คู่ที่ความหมายเปลี่ยน", words: ["remember / forget", "stop", "try", "regret", "go on"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ หยุด... ทั้งสองแบบ คนจึงพูด ~~stopped to smoke~~ เมื่ออยากบอกว่าเลิกบุหรี่"
+        wrong: ["My father stopped to smoke last year.", "I remember to visit Phuket as a child."]
+        right: ["My father stopped smoking last year.", "I remember visiting Phuket as a child."]
+      notes:
+        - {kind: tip, th: "==to = อนาคต (ยังไม่เกิด)== · -ing = อดีต (เกิดแล้ว) ใช้กับ remember forget regret"}
+        - {kind: use, th: "แนะนำเพื่อน Have you tried turning it off and on again?"}
+    check: [cefr-b2-w12-001, cefr-b2-w12-002]
+    practice: [cefr-b2-w12-003, cefr-b2-w12-004, cefr-b2-w12-005, cefr-b2-w12-006, cefr-b2-w12-007, cefr-b2-w12-008, cefr-b2-w12-009, cefr-b2-w12-010, cefr-b2-w12-011, cefr-b2-w12-012]
+    use:
+      prompt_th: เขียน 2 ประโยค สิ่งที่คุณเลิกทำแล้ว และสิ่งที่ต้องจำไว้ทำสัปดาห์หน้า
+      frame: "I stopped ____ last year. Next week, I must remember to ____."
+      model: "I stopped drinking sweet coffee last year. Next week, I must remember to renew my passport."
+    classroom: {en: "Have you tried restarting it?", th: "ลองรีสตาร์ตดูหรือยัง"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การพัฒนาวิชาชีพ 12 คำ
+    lesson:
+      rule_th: "แยกคู่ที่สับสน ==adapt== (ปรับตัว) กับ adjust (ปรับเล็กน้อย) และ ++ensure++ (ทำให้แน่ใจ) กับ establish (ก่อตั้ง) · คำนามมาพร้อมบุพบท approach to · insight into · impact on"
+      examples:
+        - {en: "It took months to <k>adapt</k> to a new country.", th: "ปรับตัว"}
+        - {en: "Can you <k>adjust</k> the chair?", th: "==ปรับเล็กน้อย=="}
+        - {en: "a new <k>approach</k> to customer service", th: "แนวทาง"}
+        - {en: "a huge <k>impact</k> on shopping", th: "ผลกระทบ"}
+      words:
+        - {w: adapt, pos: v., th: ปรับตัว ดัดแปลง, ex: "Children adapt quickly."}
+        - {w: adjust, pos: v., th: ปรับเล็กน้อย, ex: "Adjust the volume, please."}
+        - {w: approach, pos: n./v., th: แนวทาง, ex: "I like her approach to teaching."}
+        - {w: reflect, pos: v., th: ไตร่ตรอง สะท้อน, ex: "Take time to reflect on your work."}
+        - {w: pursue, pos: v., th: มุ่งไล่ตาม, ex: "She is pursuing a master's degree."}
+        - {w: ensure, pos: v., th: ทำให้แน่ใจ, ex: "Ensure your seatbelt is fastened."}
+        - {w: establish, pos: v., th: ก่อตั้ง สร้างให้มั่นคง, ex: "The school was established in 1950."}
+        - {w: demonstrate, pos: v., th: แสดงให้เห็น, ex: "Let me demonstrate how it works."}
+        - {w: determine, pos: v., th: เป็นตัวกำหนด, ex: "Price often determines what we buy."}
+        - {w: insight, pos: n., th: ความเข้าใจลึกซึ้ง, ex: "The book gives insight into Thai history."}
+        - {w: impact, pos: n., th: ผลกระทบ, ex: "Tourism has a big impact on the island."}
+        - {w: capacity, pos: n., th: ความจุ ความสามารถ, ex: "The hall has a capacity of 500."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~impact to~~ และ ~~insight about~~ เพราะแปลตรงตัวจากภาษาไทย"
+        wrong: ["Phones have a big impact to children.", "This gave me an insight about the problem."]
+        right: ["Phones have a big impact on children.", "This gave me an insight into the problem."]
+      notes:
+        - {kind: pin, th: "==impact on · insight into · approach to=="}
+        - {kind: use, th: "สัมภาษณ์งาน In my last job, I demonstrated my ability to ..."}
+    check: [cefr-b2-w12-013, cefr-b2-w12-014]
+    practice: [cefr-b2-w12-015, cefr-b2-w12-016, cefr-b2-w12-017, cefr-b2-w12-018, cefr-b2-w12-019, cefr-b2-w12-020, cefr-b2-w12-021, cefr-b2-w12-022, cefr-b2-w12-023, cefr-b2-w12-024]
+    use:
+      prompt_th: เขียน 2 ประโยคไตร่ตรองการเรียนภาษาอังกฤษ 12 สัปดาห์ที่ผ่านมา
+      frame: "Looking back, this course has had an impact on ____. I would like to pursue ____ next."
+      model: "Looking back, this course has had a real impact on my confidence in meetings. I would like to pursue a C1 course next."
+    classroom: {en: "Let me demonstrate how it works.", th: "ขอสาธิตให้ดูว่าใช้งานอย่างไร"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวนปนกัน
+    lesson:
+      rule_th: "ข้อสอบปนกันทุกเรื่อง ==อ่านทั้งประโยคหาคำสัญญาณก่อนดูตัวเลือก== (by the time · if · despite · Not only) · ++ไม่แน่ใจให้ตัดตัวเลือกที่ผิดรูปออกก่อน++ · อย่าใช้เวลาข้อเดียวนานเกิน 1 นาที"
+      examples:
+        - {en: "<k>By the time</k> we arrived, the film had started.", th: "past perfect"}
+        - {en: "<k>If</k> I had known, I would have come.", th: "==third conditional=="}
+        - {en: "<k>Despite</k> the traffic, ...", th: "despite + คำนาม"}
+        - {en: "<k>Not only</k> did he miss ...", th: "กลับลำดับ"}
+      signals:
+        - {label_th: "คำสัญญาณ → เรื่อง", words: ["by the time → perfect", "if + had → would have", "wish → ถอยเวลา", "suggest → -ing", ", who → non-defining"]}
+      thai_trap:
+        intro_th: "ตอนจับเวลา คนมักรีบเลือก ~~ตัวเลือกที่แปลไทยแล้วฟังดี~~ แต่ผิดรูปไวยากรณ์"
+        wrong: ["เลือก suggested us to hold เพราะแปลว่า เสนอให้เราจัด"]
+        right: ["ตรวจรูปก่อน suggest ไม่ตามด้วย คน + to จึงตัดทิ้ง"]
+      notes:
+        - {kind: tip, th: "==ตัดตัวเลือกที่ผิดรูปออกก่อน== มักเหลือสองตัว แล้วค่อยดูความหมาย"}
+        - {kind: use, th: "ชุด 20 ข้อ 15 นาที ทำรอบแรกข้อที่มั่นใจก่อน แล้วค่อยกลับมาข้อที่ข้ามไว้"}
+    check: [cefr-b2-w12-025, cefr-b2-w12-026]
+    practice: [cefr-b2-w12-027, cefr-b2-w12-028, cefr-b2-w12-029, cefr-b2-w12-030, cefr-b2-w12-031, cefr-b2-w12-032, cefr-b2-w12-033, cefr-b2-w12-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับตัวคุณ ใช้โครงสร้างจากคอร์สนี้อย่างน้อย 2 แบบ (เช่น wish · third conditional · despite)
+      frame: "Despite ____, I ____. If I hadn't ____, I wouldn't ____."
+      model: "Despite working long hours, I managed to finish this course. If I hadn't studied every evening, I wouldn't feel so confident now."
+    classroom: {en: "Let's go back to the ones we skipped.", th: "กลับไปทำข้อที่ข้ามไว้กัน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความยาวเรื่องการพัฒนาวิชาชีพและฟังปนกัน
+    lesson:
+      rule_th: "บทความยาวอ่าน ==ย่อหน้าแรกกับย่อหน้าสุดท้ายก่อน== จะได้ข้อโต้แย้งหลัก แล้วค่อยกลับมาหาคำตอบรายละเอียด คำถามเรื่องความมั่นใจของผู้เขียนดูจาก ++suggest · appear · likely++"
+      examples:
+        - {en: "Why does so much training <k>fail</k>?", th: "คำถามที่บทความตอบ"}
+        - {en: "<k>One reason</k> is timing.", th: "==เหตุผลทีละข้อ=="}
+        - {en: "<k>None of this means</k> that ...", th: "ผู้เขียนกันไม่ให้สรุปเกิน"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นคำวิจารณ์การอบรมหลายข้อแล้วตอบว่า ~~ผู้เขียนคิดว่าการอบรมไร้ประโยชน์~~ ทั้งที่มีประโยคปฏิเสธชัดเจน"
+        wrong: ["ผู้เขียนบอกให้เลิกจัดอบรม"]
+        right: ["ผู้เขียนเสนอให้ใช้คอร์สคู่กับการช่วยเหลือในงานและการไตร่ตรอง"]
+      notes:
+        - {kind: tip, th: "ชุดจับเวลา ==อ่านคำถามก่อนอ่านบท== แล้วขีดคำสำคัญ"}
+        - {kind: use, th: "ฟังปนกัน ประโยคที่มี but / so มักเป็นคำตอบ"}
+    check: [cefr-b2-w12-036, cefr-b2-w12-037]
+    practice: [cefr-b2-w12-035, cefr-b2-w12-038, cefr-b2-w12-039, cefr-b2-w12-040, cefr-b2-w12-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปเหตุผลที่การอบรมมักไม่ได้ผล และวิธีที่ผู้เขียนเสนอ
+      frame: "According to the writer, training often fails because ____. Instead, organisations should ____."
+      model: "According to the writer, training often fails because people learn skills long before they need them. Instead, organisations should combine courses with support at work and time for reflection."
+    classroom: {en: "What's the main point of this article?", th: "ใจความหลักของบทความนี้คืออะไร"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 30
+    title_th: ห้องฝึกเขียน เรียงความแสดงความเห็น 180 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนเรียงความประมาณ 180 คำตอบคำถามนี้ — Some people believe that adults learn best in a classroom with a teacher, while others prefer to learn online at their own pace. Discuss both views and give your own opinion."
+      frame:
+        - "Introduction: ____ is a question many adult learners ask. While some ____, others ____."
+        - "View 1: Supporters of classroom learning argue that ____. Moreover, ____."
+        - "View 2: On the other hand, ____. Furthermore, ____."
+        - "Your opinion: In my view, ____, provided that ____."
+        - "Conclusion: On balance, ____."
+      model_pass: "How adults should learn is a question many people ask. While some believe classroom learning is best, others prefer to study online at their own pace. Supporters of classroom learning argue that a teacher can correct mistakes immediately. Moreover, studying with other people keeps learners motivated. On the other hand, online learning is much more flexible. People with jobs and families can study whenever they have time. Furthermore, online courses are often cheaper. In my view, online learning can be just as effective as a classroom, provided that the learner is disciplined. I studied English online for three months and I improved a lot, because I studied every day. However, I sometimes wished I had a teacher to ask. On balance, I think the best option is to combine both: study online most of the time and join a class or meet a tutor sometimes."
+      model_good: "Whether adults learn more effectively in a classroom or online is a question that has become increasingly relevant. While some insist that nothing can replace a teacher, others value the freedom of studying at their own pace. Supporters of classroom learning argue that immediate feedback is crucial; a teacher can notice and correct mistakes before they become habits. Moreover, the presence of classmates tends to motivate people who might otherwise give up. On the other hand, online learning offers flexibility that many working adults simply cannot do without. Furthermore, learners can replay explanations as often as they need, which is arguably more efficient than waiting for a teacher's attention. In my view, online learning can be every bit as effective, provided that learners set clear goals and reflect regularly on their progress. Having studied this way myself, I can say that consistency mattered far more than the format. On balance, however, the ideal approach is probably a combination: independent online study, supported by occasional sessions with a teacher who can offer insight that no app can."
+      steps_th:
+        - อ่านคำถามแล้วจดเหตุผลฝั่งละสองข้อ และจุดยืนของคุณ
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วน แล้วเขียนให้ได้ประมาณ 160–200 คำ ภายใน 30 นาที
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนหาโครงสร้างจากคอร์สนี้ที่ใช้ได้อีก 1–2 จุด
+      checklist_th:
+        - มีสองมุมมองและความเห็นของตัวเองชัดเจน
+        - ใช้คำเชื่อมถูกทิศทางอย่างน้อย 5 คำ (moreover however furthermore provided that on balance)
+        - ใช้โครงสร้าง B2 อย่างน้อย 3 แบบ (เช่น conditional · relative clause · hedging · participle)
+        - มีย่อหน้าชัดเจน และยาวประมาณ 180 คำ
+    practice: [cefr-b2-w12-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 12 (ทบทวนทั้งคอร์ส)
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

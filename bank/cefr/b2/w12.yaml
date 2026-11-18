@@ -1,0 +1,579 @@
+# คอร์ส b2 · สัปดาห์ 12 · ซ้อมใหญ่ · remember/stop/try/forget/regret + -ing หรือ to · passive gerund · ทบทวนทั้งคอร์ส
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · รูปที่ตามมาเปลี่ยน ความหมายเปลี่ยน ----------
+- id: cefr-b2-w12-001
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 1
+  stem: Please remember ____ the office door when you leave tonight.
+  choices:
+    - {t: to lock, why: "จำไว้ว่าต้องทำ (ยังไม่ได้ทำ) ใช้ ++remember to++"}
+    - {t: locking, why: "remember + -ing = จำได้ว่าเคยทำแล้ว"}
+    - {t: lock, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: locked, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==remember to = อย่าลืมทำ== · remember -ing = จำได้ว่าเคยทำ"
+  status: approved
+- id: cefr-b2-w12-002
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 1
+  stem: I remember ____ this film when I was a child.
+  choices:
+    - {t: watching, why: "จำได้ว่าเคยทำในอดีต ใช้ ++remember + -ing++"}
+    - {t: to watch, why: "remember to = อย่าลืมทำ ไม่ใช่ความทรงจำ"}
+    - {t: watch, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: watched, why: "ผิดรูปหลัง remember"}
+  explain: "ความทรงจำ ==remember + -ing=="
+  status: approved
+- id: cefr-b2-w12-003
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: He stopped ____ five years ago and feels much healthier now.
+  choices:
+    - {t: smoking, why: "เลิกทำ ใช้ ++stop + -ing++"}
+    - {t: to smoke, why: "stop to smoke = หยุดเพื่อสูบ ความหมายกลับ"}
+    - {t: smoke, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: smoked, why: "ผิดรูปหลัง stopped"}
+  explain: "==stop -ing = เลิกทำ== · stop to do = หยุด (สิ่งอื่น) เพื่อไปทำ"
+  status: approved
+- id: cefr-b2-w12-004
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: On the way home, we stopped ____ some fruit at the market.
+  choices:
+    - {t: to buy, why: "หยุดรถเพื่อไปซื้อ ใช้ ++stop to++"}
+    - {t: buying, why: "stop buying = เลิกซื้อ ไม่เข้ากับบริบท"}
+    - {t: buy, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: for buying, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==stop to + กริยา== = หยุดเพื่อทำอีกอย่าง"
+  status: approved
+- id: cefr-b2-w12-005
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: I tried ____ the window, but it was stuck.
+  choices:
+    - {t: to open, why: "พยายามทำแต่ทำไม่ได้ ใช้ ++try to++"}
+    - {t: opening, why: "try -ing = ลองทำดู (ซึ่งทำได้) ไม่เข้ากับ it was stuck"}
+    - {t: open, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: opened, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==try to = พยายาม (ยาก)== · try -ing = ลองดูว่าได้ผลไหม"
+  status: approved
+- id: cefr-b2-w12-006
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: If you can't sleep, try ____ a warm drink before bed.
+  choices:
+    - {t: having, why: "ลองทำดูเป็นวิธีแก้ ใช้ ++try + -ing++"}
+    - {t: to have, why: "try to have เน้นความพยายาม ไม่ใช่การลองวิธี"}
+    - {t: have, why: "ขาด to หรือ -ing"}
+    - {t: had, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "แนะนำวิธีแก้ ==try + -ing== (ลองดู)"
+  status: approved
+- id: cefr-b2-w12-007
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: I'll never forget ____ the Taj Mahal for the first time.
+  choices:
+    - {t: seeing, why: "ความทรงจำที่ไม่ลืม ใช้ ++forget + -ing++"}
+    - {t: to see, why: "forget to = ลืมทำ ความหมายต่าง"}
+    - {t: see, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: saw, why: "ผิดรูปหลัง forget"}
+  explain: "==never forget + -ing== = ไม่มีวันลืมว่าเคย..."
+  status: approved
+- id: cefr-b2-w12-008
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: We regret ____ you that the flight has been cancelled.
+  choices:
+    - {t: to inform, why: "เสียใจที่ต้องแจ้ง (ทางการ) ใช้ ++regret to++"}
+    - {t: informing, why: "regret informing = เสียใจที่เคยแจ้งไปแล้ว"}
+    - {t: inform, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: for informing, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==regret to inform== = เสียใจที่ต้องแจ้ง · regret -ing = เสียใจที่ทำไปแล้ว"
+  status: approved
+- id: cefr-b2-w12-009
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: Nobody enjoys ____ in front of other people.
+  choices:
+    - {t: being criticised, why: "ถูกกระทำ หลัง enjoy ใช้ ++being + ช่อง 3++"}
+    - {t: criticising, why: "รูปกระทำ ความหมายเปลี่ยนเป็นวิจารณ์คนอื่น"}
+    - {t: to be criticised, why: "enjoy ไม่ตามด้วย to"}
+    - {t: criticised, why: "ขาด being จึงใช้ไม่ได้"}
+  explain: "passive gerund ==being + ช่อง 3== (enjoy / avoid / hate)"
+  status: approved
+- id: cefr-b2-w12-010
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  stem: She went on ____ for another hour after everyone had left.
+  choices:
+    - {t: working, why: "ทำต่อเรื่องเดิม ใช้ ++go on + -ing++"}
+    - {t: to work, why: "go on to work = เปลี่ยนไปทำอีกเรื่องต่อ"}
+    - {t: work, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: worked, why: "บทไม่ได้พูดว่า worked"}
+  explain: "==go on -ing = ทำเรื่องเดิมต่อ== · go on to do = ไปทำเรื่องใหม่ต่อ"
+  status: approved
+- id: cefr-b2-w12-011
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  stem: "\"I stopped to talk to her.\" What does this mean?"
+  choices:
+    - {t: I stopped what I was doing in order to talk to her, why: "stop to = ++หยุดเพื่อไปทำอีกอย่าง++"}
+    - {t: I no longer talk to her, why: "นั่นคือ stopped talking"}
+    - {t: I never talked to her, why: "ความหมายผิด จึงใช้ไม่ได้"}
+    - {t: She stopped talking to me, why: "ผิดประธาน จึงใช้ไม่ได้"}
+  explain: "stop to + กริยา = ==หยุดเพื่อ...== ไม่ใช่เลิก"
+  status: approved
+- id: cefr-b2-w12-012
+  kind: type
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  stem: "I avoid b_____ asked personal questions at work. (ถูก... ใส่ being)"
+  answer: being
+  accept: [being]
+  why: "avoid + being + ช่อง 3 = เลี่ยงการถูก..."
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การพัฒนาวิชาชีพ ----------
+- id: cefr-b2-w12-013
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 1
+  stem: It took me a few months to ____ to living in a new country.
+  choices:
+    - {t: adapt, why: "ปรับตัว ใช้ ++adapt to++"}
+    - {t: pursue, why: "pursue แปลว่าไล่ตาม"}
+    - {t: determine, why: "determine แปลว่ากำหนด ตัดสิน"}
+    - {t: ensure, why: "ensure แปลว่าทำให้มั่นใจ"}
+  explain: "adapt to = ==ปรับตัวให้เข้ากับ (สถานการณ์ใหม่)=="
+  status: approved
+- id: cefr-b2-w12-014
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 1
+  stem: Can you ____ the chair? It's a bit too low for me.
+  choices:
+    - {t: adjust, why: "ปรับเล็กน้อย ใช้ ++adjust++"}
+    - {t: adapt, why: "adapt ใช้กับการปรับตัวหรือดัดแปลง ไม่ใช่ปรับระดับเก้าอี้"}
+    - {t: establish, why: "establish แปลว่าก่อตั้ง"}
+    - {t: reflect, why: "reflect แปลว่าไตร่ตรอง"}
+  explain: "adjust = ==ปรับเล็กน้อยให้พอดี=="
+  status: approved
+- id: cefr-b2-w12-015
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: We need a new ____ to customer service; the old one isn't working.
+  choices:
+    - {t: approach, why: "แนวทาง วิธีการ ใช้ ++approach to++"}
+    - {t: insight, why: "insight คือความเข้าใจลึก ไม่ใช่วิธีการ"}
+    - {t: capacity, why: "capacity คือความจุ ความสามารถ"}
+    - {t: impact, why: "impact คือผลกระทบ"}
+  explain: "approach to = ==แนวทาง วิธีการจัดการ=="
+  status: approved
+- id: cefr-b2-w12-016
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: At the end of each week, I ____ on what went well and what I could improve.
+  choices:
+    - {t: reflect, why: "ไตร่ตรองย้อนดู ใช้ ++reflect on++"}
+    - {t: pursue, why: "pursue on ไม่ใช่สำนวน"}
+    - {t: ensure, why: "ensure on ไม่ใช่สำนวน"}
+    - {t: demonstrate, why: "demonstrate on ไม่ใช่สำนวน"}
+  explain: "reflect on = ==ไตร่ตรอง ทบทวนตัวเอง=="
+  status: approved
+- id: cefr-b2-w12-017
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: After university, she decided to ____ a career in medicine.
+  choices:
+    - {t: pursue, why: "ไล่ตาม มุ่งทำ ใช้ ++pursue a career++"}
+    - {t: adjust, why: "adjust a career ไม่ใช่สำนวน"}
+    - {t: reflect, why: "reflect a career ไม่ใช่สำนวน"}
+    - {t: ensure, why: "ensure a career ไม่ได้แปลว่ามุ่งทำ"}
+  explain: "pursue = ==มุ่งไล่ตาม (อาชีพ เป้าหมาย การศึกษา)=="
+  status: approved
+- id: cefr-b2-w12-018
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: Please ____ that all windows are closed before you leave.
+  choices:
+    - {t: ensure, why: "ทำให้แน่ใจ ใช้ ++ensure that++"}
+    - {t: establish, why: "establish that แปลว่าพิสูจน์ว่า ไม่ใช่ตรวจให้แน่ใจ"}
+    - {t: pursue, why: "pursue that ไม่ใช่สำนวน"}
+    - {t: adapt, why: "adapt that ไม่ใช่สำนวน"}
+  explain: "ensure = ==ทำให้แน่ใจว่า=="
+  status: approved
+- id: cefr-b2-w12-019
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: The company was ____ in 1985 by two brothers.
+  choices:
+    - {t: established, why: "ก่อตั้ง ใช้ ++establish++"}
+    - {t: ensured, why: "ensure ไม่ใช้กับบริษัท"}
+    - {t: pursued, why: "pursue ไม่ใช้กับการก่อตั้ง"}
+    - {t: reflected, why: "reflect ไม่ใช้กับการก่อตั้ง"}
+  explain: "establish = ==ก่อตั้ง สร้างให้มั่นคง=="
+  status: approved
+- id: cefr-b2-w12-020
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: In the interview, she ____ her ability to solve problems under pressure.
+  choices:
+    - {t: demonstrated, why: "แสดงให้เห็น ใช้ ++demonstrate++"}
+    - {t: determined, why: "determine แปลว่ากำหนด"}
+    - {t: adjusted, why: "adjust ไม่ใช่การแสดงความสามารถ"}
+    - {t: pursued, why: "pursue ไม่ใช่การแสดง"}
+  explain: "demonstrate = ==แสดงให้เห็น พิสูจน์ด้วยการกระทำ=="
+  status: approved
+- id: cefr-b2-w12-021
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: Your score will ____ which class you join.
+  choices:
+    - {t: determine, why: "เป็นตัวกำหนด ใช้ ++determine++"}
+    - {t: demonstrate, why: "demonstrate ไม่ได้แปลว่าเป็นตัวกำหนด"}
+    - {t: reflect, why: "reflect ไม่ใช่ตัวกำหนด"}
+    - {t: pursue, why: "pursue ไม่เข้ากับบริบท"}
+  explain: "determine = ==เป็นตัวกำหนด ตัดสิน=="
+  status: approved
+- id: cefr-b2-w12-022
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: The interviews gave us a real ____ into how customers use our app.
+  choices:
+    - {t: insight, why: "ความเข้าใจลึกซึ้ง ใช้ ++insight into++"}
+    - {t: impact, why: "impact into ไม่ใช่สำนวน"}
+    - {t: capacity, why: "capacity into ไม่ใช่สำนวน"}
+    - {t: approach, why: "approach into ไม่ใช่สำนวน"}
+  explain: "insight into = ==ความเข้าใจลึกซึ้งเรื่อง=="
+  status: approved
+- id: cefr-b2-w12-023
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 3
+  stem: The new stadium has a ____ of 50,000 people.
+  choices:
+    - {t: capacity, why: "ความจุ ใช้ ++capacity++"}
+    - {t: impact, why: "impact ไม่ใช่ความจุ"}
+    - {t: insight, why: "insight ไม่ใช่ความจุ"}
+    - {t: approach, why: "approach ไม่ใช่ความจุ"}
+  explain: "capacity = ==ความจุ หรือ ความสามารถที่จะทำได้=="
+  status: approved
+- id: cefr-b2-w12-024
+  kind: type
+  skill: vo
+  topic: professional-growth
+  level: 2
+  stem: "Social media has had a huge i_____ on how we shop. (ผลกระทบ)"
+  answer: impact
+  accept: [impact]
+  why: "have an impact on = ส่งผลกระทบต่อ"
+  status: approved
+# ---------- วันที่ 3 · ทบทวนปนกัน ----------
+- id: cefr-b2-w12-025
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 1
+  stem: By the time we arrived, the film ____.
+  choices:
+    - {t: had already started, why: "เกิดก่อนอีกเหตุการณ์ในอดีต ใช้ ++past perfect++ (สัปดาห์ 1)"}
+    - {t: already started, why: "ไม่บอกลำดับก่อนหลัง"}
+    - {t: has already started, why: "ต้องเป็นอดีตตาม arrived"}
+    - {t: will have started, why: "ประโยคพูดถึงอดีต"}
+  explain: "ทบทวนสัปดาห์ 1 ==By the time + อดีต, had + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w12-026
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 1
+  stem: If I ____ about the sale, I would have bought two.
+  choices:
+    - {t: had known, why: "สมมติย้อนอดีต ++had + ช่อง 3++ (สัปดาห์ 5)"}
+    - {t: knew, why: "สมมติปัจจุบัน จึงใช้ไม่ได้"}
+    - {t: would know, why: "ไม่ใช้ would ในส่วน if"}
+    - {t: have known, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+  explain: "ทบทวนสัปดาห์ 5 ==If + had + ช่อง 3, would have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w12-027
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 2
+  stem: The report ____ by the end of next week.
+  choices:
+    - {t: will have been finished, why: "future perfect passive ++(สัปดาห์ 3 + 4)++"}
+    - {t: will have finished, why: "รายงานทำตัวเองไม่ได้ ต้องเป็นรูปถูกกระทำ"}
+    - {t: will be finishing, why: "รูปกระทำ จึงใช้ไม่ได้"}
+    - {t: has been finished, why: "ไม่ได้ชี้ไปที่อนาคต"}
+  explain: "ทบทวน ==will have been + ช่อง 3== (by + อนาคต + passive)"
+  status: approved
+- id: cefr-b2-w12-028
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 2
+  stem: She ____ the keys at home. They're not in her bag.
+  choices:
+    - {t: must have left, why: "อนุมานอย่างมั่นใจ ++(สัปดาห์ 6)++"}
+    - {t: should have left, why: "should have = ควรทำแต่ไม่ได้ทำ"}
+    - {t: must leave, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+    - {t: can't have left, why: "ขัดกับหลักฐานว่าไม่อยู่ในกระเป๋า"}
+  explain: "ทบทวนสัปดาห์ 6 ==must have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w12-029
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 2
+  stem: The manager suggested ____ the meeting online.
+  choices:
+    - {t: holding, why: "suggest + -ing ++(สัปดาห์ 7)++"}
+    - {t: to hold, why: "suggest ไม่ตามด้วย to"}
+    - {t: us to hold, why: "suggest ไม่ใช้ คน + to"}
+    - {t: hold, why: "ต้องเป็น -ing หรือ that + ประโยค"}
+  explain: "ทบทวนสัปดาห์ 7 ==suggest + -ing=="
+  status: approved
+- id: cefr-b2-w12-030
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 2
+  stem: My sister, ____ works in Japan, is visiting next month.
+  choices:
+    - {t: who, why: "non-defining ใช้ who ++(สัปดาห์ 8)++"}
+    - {t: that, why: "หลังจุลภาคห้าม that"}
+    - {t: which, why: "which ใช้กับสิ่งของ"}
+    - {t: whose, why: "whose ต้องตามด้วยคำนาม"}
+  explain: "ทบทวนสัปดาห์ 8 ==มีจุลภาค ห้าม that=="
+  status: approved
+- id: cefr-b2-w12-031
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 3
+  stem: ____ the heavy traffic, she arrived on time.
+  choices:
+    - {t: Despite, why: "ตามด้วยคำนาม ++(สัปดาห์ 9)++"}
+    - {t: Although, why: "although ต้องตามด้วยประโยค"}
+    - {t: However, why: "however ไม่ใช้เชื่อมแบบนี้"}
+    - {t: Even though, why: "even though ต้องตามด้วยประโยค"}
+  explain: "ทบทวนสัปดาห์ 9 ==despite + คำนาม · although + ประโยค=="
+  status: approved
+- id: cefr-b2-w12-032
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 3
+  stem: Not only ____ the deadline, but he also forgot to call the client.
+  choices:
+    - {t: did he miss, why: "Not only ขึ้นต้น กลับลำดับ ++(สัปดาห์ 10)++"}
+    - {t: he missed, why: "ไม่ได้กลับลำดับ"}
+    - {t: missed he, why: "ต้องใช้ did จึงใช้ไม่ได้"}
+    - {t: did he missed, why: "หลัง did ใช้กริยารูปเดิม"}
+  explain: "ทบทวนสัปดาห์ 10 ==Not only + did + ประธาน + กริยา=="
+  status: approved
+- id: cefr-b2-w12-033
+  kind: type
+  skill: gm
+  topic: review-b2
+  level: 2
+  stem: "I wish I h__ more time to study. I'm always busy. (สัปดาห์ 6)"
+  answer: had
+  accept: [had]
+  why: "wish + อดีต สำหรับปัจจุบันที่อยากให้ต่างไป"
+  status: approved
+- id: cefr-b2-w12-034
+  kind: cloze
+  skill: gm
+  topic: review-b2
+  level: 2
+  text: |
+    Last year I decided (1) ____ a new career in teaching. It wasn't easy: I had to get used to (2) ____ up at 5:30 every morning. Looking back, I don't regret it. If I hadn't changed jobs, I (3) ____ as happy as I am now.
+  questions:
+    - choices:
+        - {t: to pursue, why: "decide + to + กริยา"}
+        - {t: pursuing, why: "decide ไม่ตามด้วย -ing"}
+        - {t: pursue, why: "ขาด to จึงใช้ไม่ได้"}
+        - {t: for pursuing, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - choices:
+        - {t: getting, why: "get used to + -ing (to เป็นบุพบท)"}
+        - {t: get, why: "to ในที่นี้เป็นบุพบท ต้องตามด้วย -ing"}
+        - {t: got, why: "ผิดรูป จึงใช้ไม่ได้"}
+        - {t: be getting, why: "บทไม่ได้พูดว่า be getting"}
+    - choices:
+        - {t: wouldn't be, why: "เงื่อนไขผสม ผลอยู่ที่ตอนนี้ now"}
+        - {t: wouldn't have been, why: "ผลอยู่ในอดีต ไม่เข้ากับ now"}
+        - {t: won't be, why: "will ไม่ใช้ในสมมติ"}
+        - {t: am not, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบทความยาวและฟังปนกัน ----------
+- id: cefr-b2-w12-035
+  kind: read
+  skill: rd
+  topic: professional-development
+  level: 3
+  title: "Learning at Work: Why Most Training Fails, and What Works Instead"
+  passage: |
+    Every year, companies spend enormous sums on training courses. Yet research consistently suggests that much of what employees learn in a classroom is forgotten within weeks. Why does so much training fail to have a lasting impact?
+
+    One reason is timing. People tend to attend courses long before or long after they actually need a skill. A manager who learns about difficult conversations in January may not face one until June, by which time most of the advice has faded. What appears to work better is learning that happens close to the moment of need: a short video watched just before a meeting, or a quick discussion with an experienced colleague.
+
+    A second problem is that traditional training often ignores reflection. Employees listen, take notes and return to their desks, but they are rarely asked to reflect on how they will apply what they have learned. Studies of professional learning suggest that even ten minutes spent planning how to use a new skill can significantly increase the chance that it is actually used.
+
+    Third, many organisations fail to ensure that the workplace supports new behaviour. A nurse who learns a more efficient way of recording patient information will soon return to the old method if her colleagues and systems do not adapt. Learning, in other words, is not only an individual matter; it depends on the environment.
+
+    None of this means that formal courses are useless. They can provide valuable insights and establish a shared language within a team. However, organisations that want real change would be wise to combine courses with on-the-job support, regular reflection and managers who are willing to adjust systems. Only then is training likely to demonstrate genuine value.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: training works better when combined with support and reflection at work, why: "ย่อหน้าสุดท้าย combine courses with on-the-job support, regular reflection"}
+        - {t: formal courses are useless, why: "None of this means that formal courses are useless"}
+        - {t: companies should stop spending on training, why: "ไม่ได้เสนอให้หยุด"}
+        - {t: employees are too lazy to learn, why: "ไม่ได้โทษพนักงาน"}
+    - stem: Why is timing a problem, according to the writer?
+      choices:
+        - {t: people often learn skills long before they use them, why: "attend courses long before or long after they actually need a skill"}
+        - {t: courses are too long, why: "ไม่ได้พูดถึงความยาวของคอร์ส"}
+        - {t: courses are held at night, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: managers have no time to attend, why: "บทไม่ได้พูดว่า managers have no time to attend"}
+    - stem: What does the example of the nurse show?
+      choices:
+        - {t: new skills need a supportive environment, why: "Learning ... depends on the environment"}
+        - {t: nurses learn slowly, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: the new method was worse, why: "บอกว่าวิธีใหม่มีประสิทธิภาพกว่า"}
+        - {t: patient records are not important, why: "บทไม่ได้พูดว่า patient records are not important"}
+    - stem: How certain is the writer about the benefits of reflection?
+      choices:
+        - {t: fairly confident but cautious, why: "Studies ... suggest ... can significantly increase the chance"}
+        - {t: completely certain, why: "ใช้คำว่า suggest ไม่ใช่ prove"}
+        - {t: very doubtful, why: "เสนอให้ใช้การไตร่ตรอง"}
+        - {t: the writer does not mention reflection, why: "มีย่อหน้าเรื่องนี้"}
+  status: approved
+- id: cefr-b2-w12-036
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 2
+  script:
+    - {who: Woman, en: "I meant to send you the file yesterday, but I completely forgot. I'll send it as soon as I get back to my desk."}
+  questions:
+    - stem: When will the woman send the file?
+      choices:
+        - {t: when she returns to her desk, why: "as soon as I get back to my desk"}
+        - {t: she sent it yesterday, why: "เธอลืมส่ง จึงใช้ไม่ได้"}
+        - {t: tomorrow, why: "ไม่ได้บอกว่าพรุ่งนี้"}
+        - {t: she won't send it, why: "เธอจะส่ง จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w12-037
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 2
+  script:
+    - {who: Man, en: "Did you manage to fix the printer?"}
+    - {who: Woman, en: "I tried restarting it, but that didn't work, so I've called the technician."}
+  questions:
+    - stem: What happened when the woman restarted the printer?
+      choices:
+        - {t: it did not solve the problem, why: "that didn't work"}
+        - {t: it fixed the problem, why: "ไม่ได้ผล จึงใช้ไม่ได้"}
+        - {t: the printer broke completely, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the technician restarted it, why: "เธอลองรีสตาร์ตเอง"}
+  status: approved
+- id: cefr-b2-w12-038
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 2
+  script:
+    - {who: Woman, en: "What really made the difference wasn't the new software; it was the training that came with it."}
+  questions:
+    - stem: According to the woman, what made the biggest difference?
+      choices:
+        - {t: the training, why: "it was the training that came with it"}
+        - {t: the new software, why: "wasn't the new software"}
+        - {t: both equally, why: "เน้นว่าเป็นการอบรม"}
+        - {t: neither, why: "บอกว่าการอบรมช่วยได้"}
+  status: approved
+- id: cefr-b2-w12-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Don't forget, to reflect on, what you learned, this week]
+  sentence: Don't forget to reflect on what you learned this week.
+  th: อย่าลืมทบทวนสิ่งที่เรียนสัปดาห์นี้
+  why: "forget to + กริยา · reflect on + what-clause"
+  status: approved
+- id: cefr-b2-w12-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Having completed, the course, she felt confident enough, to apply for the job]
+  sentence: Having completed the course, she felt confident enough to apply for the job.
+  th: หลังจากเรียนจบคอร์ส เธอมั่นใจพอที่จะสมัครงานนั้น
+  why: "Having + ช่อง 3 (เกิดก่อน) · enough to + กริยา"
+  status: approved
+- id: cefr-b2-w12-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [If I hadn't, taken this course, I wouldn't be able to, write this essay now]
+  sentence: If I hadn't taken this course, I wouldn't be able to write this essay now.
+  th: ถ้าไม่ได้เรียนคอร์สนี้ ตอนนี้ฉันคงเขียนเรียงความนี้ไม่ได้
+  why: "เงื่อนไขผสม อดีตส่งผลถึงตอนนี้"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b2-w12-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While some people argue that, online learning is less effective, I believe that, it can be just as valuable, provided that learners are motivated]
+  sentence: While some people argue that online learning is less effective, I believe that it can be just as valuable, provided that learners are motivated.
+  th: แม้บางคนแย้งว่าการเรียนออนไลน์ได้ผลน้อยกว่า ฉันเชื่อว่ามีคุณค่าไม่แพ้กัน ถ้าผู้เรียนมีแรงจูงใจ
+  why: "While + ฝ่ายแย้ง แล้วจุดยืน และเงื่อนไข provided that"
+  status: approved
