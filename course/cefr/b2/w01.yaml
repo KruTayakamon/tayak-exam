@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 1 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 1
+phase: 1
+theme_th: เล่าเหตุการณ์และประสบการณ์
+focus_th: narrative tenses (past simple · past continuous · past perfect ใช้ร่วมกัน) · past perfect continuous · used to กับ would · be used to
+can_do_th:
+  - เล่าเรื่องที่ซับซ้อนโดยเรียงลำดับเวลาได้ชัด
+  - ตามเรื่องเล่ายาวและจับลำดับเหตุการณ์ได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ลำดับเหตุการณ์ในอดีต
+    lesson:
+      rule_th: "เล่าเรื่องให้ชัดต้องใช้สาม tense ร่วมกัน ==past continuous = ฉากหลัง== · past simple = เหตุการณ์หลัก และ ++past perfect = เกิดก่อนหน้านั้น++"
+      examples:
+        - {en: "I <k>was walking</k> along the beach when I <k>saw</k> a turtle.", th: "ฉากหลัง + เหตุการณ์แทรก"}
+        - {en: "When I arrived, the train <k>had</k> already <k>left</k>.", th: "==เกิดก่อนอีกเหตุการณ์=="}
+        - {en: "She <k>sent</k> the email, <k>closed</k> her laptop and <k>left</k>.", th: "ลำดับเหตุการณ์ใช้ past simple"}
+        - {en: "<k>By the time</k> the ambulance came, a nurse <k>had helped</k> him.", th: "By the time + past perfect"}
+      signals:
+        - {label_th: "คำบอกลำดับ", words: [when, while, as, just as, by the time, before, after, already]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้คำว่า แล้ว บอกลำดับ คนจึงใช้ ~~past simple ทั้งเรื่อง~~ จนผู้ฟังไม่รู้ว่าอะไรเกิดก่อน"
+        wrong: ["When I arrived, the train left.", "I walked along the beach when I saw a turtle."]
+        right: ["When I arrived, the train had left.", "I was walking along the beach when I saw a turtle."]
+      notes:
+        - {kind: tip, th: "วาดเส้นเวลาในหัว ==อะไรเกิดก่อนสุดใช้ had + ช่อง 3=="}
+        - {kind: warn, th: "ไม่ต้องใช้ past perfect ทุกประโยค ใช้เฉพาะเมื่อลำดับไม่ชัด"}
+    check: [cefr-b2-w01-001, cefr-b2-w01-002]
+    practice: [cefr-b2-w01-003, cefr-b2-w01-004, cefr-b2-w01-005, cefr-b2-w01-006, cefr-b2-w01-007, cefr-b2-w01-008, cefr-b2-w01-009, cefr-b2-w01-010, cefr-b2-w01-011, cefr-b2-w01-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าเหตุการณ์ที่ไม่คาดคิดซึ่งเคยเกิดกับคุณ ใช้ tense อย่างน้อยสองแบบ
+      frame: "I was ____ when ____. By the time ____, ____ had ____."
+      model: "I was waiting for a bus when it started to pour with rain. By the time the bus arrived, I had got completely wet."
+    classroom: {en: "By the time I got there, everyone had left.", th: "พอไปถึง ทุกคนกลับกันหมดแล้ว"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ความท้าทายและการรับมือ 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้เล่าเรื่องยากที่ผ่านมาได้ แยก ==initially== (ตอนแรก) กับ eventually (ในที่สุด) และจำว่า ++cope ต้องมี with++"
+      examples:
+        - {en: "Starting a new job was a big <k>challenge</k>.", th: "ความท้าทาย"}
+        - {en: "She <k>overcame</k> her fear of speaking.", th: "เอาชนะ"}
+        - {en: "<k>Initially</k> I hated it, but <k>eventually</k> I loved it.", th: "==ตอนแรก...ในที่สุด=="}
+        - {en: "I felt <k>overwhelmed</k> by the work.", th: "ท่วมท้นรับไม่ไหว"}
+      words:
+        - {w: challenge, pos: n./v., th: ความท้าทาย, ex: "Learning to drive was a real challenge."}
+        - {w: issue, pos: n., th: ประเด็น ปัญหา, ex: "Parking is a big issue in our area."}
+        - {w: circumstance, pos: n., th: สถานการณ์แวดล้อม, ex: "Under the circumstances, we did well."}
+        - {w: consequence, pos: n., th: ผลที่ตามมา, ex: "Every decision has consequences."}
+        - {w: overcome, pos: v., th: เอาชนะ, ex: "He overcame many difficulties."}
+        - {w: cope, pos: v., th: รับมือ, ex: "How do you cope with stress?"}
+        - {w: eventually, pos: adv., th: ในที่สุด, ex: "We eventually found the hotel."}
+        - {w: initially, pos: adv., th: ตอนแรก, ex: "Initially, I was nervous."}
+        - {w: gradually, pos: adv., th: ค่อย ๆ, ex: "The pain gradually went away."}
+        - {w: frustrated, pos: adj., th: หงุดหงิด, ex: "I get frustrated when the internet is slow."}
+        - {w: overwhelmed, pos: adj., th: ท่วมท้นรับไม่ไหว, ex: "New parents often feel overwhelmed."}
+        - {w: reluctant, pos: adj., th: ไม่เต็มใจ ลังเล, ex: "She was reluctant to leave her hometown."}
+      thai_trap:
+        intro_th: "คนไทยมักใช้ ~~eventually = อาจจะ~~ เพราะคล้ายคำในภาษาอื่น และลืม with หลัง cope"
+        wrong: ["Eventually I will come, I'm not sure.", "I can't cope this situation."]
+        right: ["I might come, I'm not sure.", "I can't cope with this situation."]
+      notes:
+        - {kind: pin, th: "==eventually = ในที่สุด== ไม่ใช่ อาจจะ"}
+        - {kind: use, th: "เล่าความสำเร็จแบบถ่อมตัว Initially it was hard, but I gradually got used to it."}
+    check: [cefr-b2-w01-013, cefr-b2-w01-014]
+    practice: [cefr-b2-w01-015, cefr-b2-w01-016, cefr-b2-w01-017, cefr-b2-w01-018, cefr-b2-w01-019, cefr-b2-w01-020, cefr-b2-w01-021, cefr-b2-w01-022, cefr-b2-w01-023, cefr-b2-w01-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าความท้าทายที่คุณเคยผ่านมาได้
+      frame: "Initially, I felt ____ because ____. Eventually, I ____."
+      model: "Initially, I felt overwhelmed because I had to manage a team for the first time. Eventually, I learned to ask for help and the team grew stronger."
+    classroom: {en: "How are you coping with the new system?", th: "รับมือกับระบบใหม่ได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทำมาก่อนหน้านั้น และนิสัยในอดีต
+    lesson:
+      rule_th: "ทำต่อเนื่องมาก่อนจุดหนึ่งในอดีตใช้ ==had been + -ing== · เล่านิสัยในอดีตใช้ used to หรือ would แต่ ++would ใช้กับสภาพไม่ได้++ (live, have, be)"
+      examples:
+        - {en: "Her eyes were red because she <k>had been crying</k>.", th: "ทำต่อเนื่องก่อนหน้า เห็นผล"}
+        - {en: "We <k>would</k> visit my grandparents every summer.", th: "การกระทำซ้ำในอดีต"}
+        - {en: "I <k>used to</k> live in Hat Yai.", th: "==สภาพในอดีตใช้ used to=="}
+        - {en: "I <k>wasn't used to</k> getting up early.", th: "ไม่คุ้นเคย + -ing"}
+      signals:
+        - {label_th: "แยกสามคำ", words: ["used to + กริยา = เคย", "be used to + -ing = คุ้นเคย", "would + กริยา = มักจะ (อดีต)"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ เคย กับทุกอย่าง คนจึงสลับ ~~used to กับ be used to~~ และใช้ would กับสภาพ"
+        wrong: ["I am used to live in Hat Yai.", "We would have a big garden.", "I'm used to get up early."]
+        right: ["I used to live in Hat Yai.", "We used to have a big garden.", "I'm used to getting up early."]
+      notes:
+        - {kind: tip, th: "เห็น ==be/get + used to== ให้ตามด้วย -ing เสมอ"}
+        - {kind: warn, th: "would เล่าความหลังได้ไพเราะ แต่ต้องบอกเวลาในอดีตก่อน ไม่งั้นจะฟังเป็นสมมติ"}
+    check: [cefr-b2-w01-025, cefr-b2-w01-026]
+    practice: [cefr-b2-w01-027, cefr-b2-w01-028, cefr-b2-w01-029, cefr-b2-w01-030, cefr-b2-w01-031, cefr-b2-w01-032, cefr-b2-w01-033, cefr-b2-w01-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าว่าชีวิตคุณเมื่อสิบปีก่อนต่างจากตอนนี้อย่างไร
+      frame: "Ten years ago, I used to ____. Every weekend, I would ____."
+      model: "Ten years ago, I used to live with my parents in Korat. Every weekend, I would help my father in his small shop."
+    classroom: {en: "I used to hate coffee, but now I can't live without it.", th: "เมื่อก่อนไม่ชอบกาแฟเลย ตอนนี้ขาดไม่ได้แล้ว"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านเรื่องเล่าและฟังลำดับเหตุการณ์
+    lesson:
+      rule_th: "เรื่องเล่าไม่ได้เรียงตามเวลาเสมอ ==past perfect บอกว่ากระโดดย้อน== ส่วนคำอย่าง The turning point · Gradually · Eventually ++บอกโครงของเรื่อง++"
+      examples:
+        - {en: "a senior nurse <k>had been watching</k> from the corridor", th: "ย้อนไปก่อนหน้า"}
+        - {en: "<k>The turning point</k> came when ...", th: "==จุดเปลี่ยนของเรื่อง=="}
+        - {en: "<k>Looking back</k>, I realise ...", th: "ข้อคิดของผู้เล่า"}
+      thai_trap:
+        intro_th: "คนอ่านตาม ~~ลำดับประโยค~~ แล้วคิดว่าเหตุการณ์เกิดตามนั้น ทั้งที่ past perfect บอกว่าเกิดก่อน"
+        wrong: ["ตอบว่าพยาบาลอาวุโสเริ่มดูหลังจากเข้ามาช่วย"]
+        right: ["พยาบาลอาวุโสดูอยู่ก่อนแล้ว จึงเข้ามาช่วยได้ทัน"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นใต้ ==had + ช่อง 3== ทุกตัว แล้วถามว่าเกิดก่อนอะไร"}
+        - {kind: warn, th: "It wasn't until ... that ... บอกจุดที่เรื่องเปลี่ยน มักถูกถาม"}
+    check: [cefr-b2-w01-036, cefr-b2-w01-037]
+    practice: [cefr-b2-w01-035, cefr-b2-w01-038, cefr-b2-w01-039, cefr-b2-w01-040, cefr-b2-w01-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกจุดเปลี่ยนในเรื่องที่อ่าน และข้อคิดที่คุณได้
+      frame: "The turning point came when ____. Looking back, ____."
+      model: "The turning point came when the senior nurse shared her own story. Looking back, I think honesty from experienced people makes a huge difference."
+    classroom: {en: "Looking back, I'm glad it happened.", th: "มองย้อนกลับไป ก็ดีใจที่มันเกิดขึ้น"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด เล่าปัญหาที่เคยแก้ได้ในงาน 90 วินาที
+    lab:
+      mode: speak
+      prompt_th: เล่าปัญหาหนึ่งที่คุณเคยเจอในการทำงานหรือชีวิตประจำวันและแก้ได้สำเร็จ 90 วินาที บอกสถานการณ์ สิ่งที่เกิดขึ้นก่อน วิธีแก้ และผลลัพธ์ พร้อมข้อคิดที่ได้
+      frame:
+        - "A few years ago, I was working as ____."
+        - "One day, ____ when ____."
+        - "I had been ____ for ____, so ____."
+        - "Eventually, I ____."
+        - "Looking back, I learned that ____."
+      model_pass: "A few years ago, I was working as a receptionist at a hotel in Phuket. One day, I was checking in a family when the computer system suddenly crashed. I had been working there for only two weeks, so I didn't know what to do. Initially, I panicked, but then I wrote down their details by hand and gave them a key. Eventually, the system came back and I entered everything. Looking back, I learned that staying calm is more important than knowing everything."
+      model_good: "A few years ago, I was working on the front desk of a busy hotel in Phuket. One evening, I was checking in a family of six when the booking system suddenly crashed. I had been working there for barely two weeks, and nobody had ever explained what to do in that situation. Initially, I froze, but I could see the children were exhausted, so I took their passport details by hand, gave them a room I knew was empty and promised to sort everything out later. Eventually, the system came back online and, to my relief, everything matched. Looking back, I learned that customers rarely expect perfection; what they remember is whether you stayed calm and took care of them."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - นึกถึงเรื่องจริงของคุณ แล้วจดคำสำคัญตามโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ past simple past continuous และ past perfect อย่างน้อยอย่างละครั้ง
+        - ใช้คำบอกลำดับ (initially · eventually · by the time) ให้ผู้ฟังตามได้
+        - มีข้อคิดหรือบทเรียนในตอนท้าย
+        - พูดได้ประมาณ 90 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b2-w01-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 1
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [1], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

@@ -1,0 +1,579 @@
+# คอร์ส b2 · สัปดาห์ 1 · เล่าเหตุการณ์และประสบการณ์ · narrative tenses · past perfect continuous · used to กับ would
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26 "ทำตามที่เสนอทุกอย่าง")
+# ---------- วันที่ 1 · ลำดับเหตุการณ์ในอดีต ----------
+- id: cefr-b2-w01-001
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 1
+  stem: When I arrived at the station, the train ____, so I had to wait an hour.
+  choices:
+    - {t: had already left, why: "รถไฟออกไปก่อนที่ฉันจะถึง ใช้ ++past perfect++"}
+    - {t: already left, why: "past simple ทำให้ไม่ชัดว่าเกิดก่อน และฟังผิดธรรมชาติกับ already ในเรื่องเล่า"}
+    - {t: was leaving, why: "was leaving แปลว่ากำลังจะออก ขัดกับต้องรอหนึ่งชั่วโมง"}
+    - {t: has left, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+  explain: "เกิดก่อนอีกเหตุการณ์ในอดีต ==had + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w01-002
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 1
+  stem: I ____ along the beach when I saw a turtle coming out of the sea.
+  choices:
+    - {t: was walking, why: "กำลังเดินอยู่แล้วมีเหตุการณ์แทรก ใช้ ++past continuous++"}
+    - {t: walked, why: "walked ทำให้ฟังเหมือนเดินหลังเห็นเต่า"}
+    - {t: had walked, why: "had walked บอกว่าเดินเสร็จก่อน ไม่ใช่กำลังเดิน"}
+    - {t: am walking, why: "saw เป็นอดีต ใช้ปัจจุบันไม่ได้"}
+  explain: "ฉากหลังที่กำลังเกิด ==was/were + -ing== · เหตุการณ์แทรก past simple"
+  status: approved
+- id: cefr-b2-w01-003
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  stem: By the time the ambulance arrived, a nurse ____ first aid to the driver.
+  choices:
+    - {t: had given, why: "ให้การปฐมพยาบาลเสร็จก่อนรถพยาบาลมา ใช้ ++had given++"}
+    - {t: gave, why: "By the time + อดีต ต้องใช้ past perfect ในประโยคหลัก"}
+    - {t: has given, why: "เรื่องเล่าในอดีต ใช้ has given ไม่ได้"}
+    - {t: was give, why: "was give ผิดรูป"}
+  explain: "==By the time + past simple==, ... had + ช่อง 3"
+  status: approved
+- id: cefr-b2-w01-004
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  stem: While we ____ dinner, the lights suddenly went out.
+  choices:
+    - {t: were having, why: "while + การกระทำต่อเนื่องที่ถูกแทรก ใช้ ++were having++"}
+    - {t: had, why: "had dinner ทำให้ไม่ชัดว่ากำลังกินอยู่ตอนไฟดับ"}
+    - {t: have had, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+    - {t: are having, why: "went out เป็นอดีต"}
+  explain: "==While + was/were -ing==, ... past simple"
+  status: approved
+- id: cefr-b2-w01-005
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 1
+  stem: She ____ the email, closed her laptop and left the office.
+  choices:
+    - {t: sent, why: "เหตุการณ์เรียงต่อกันในอดีต ใช้ ++past simple++ ทุกตัว"}
+    - {t: was sending, why: "การกระทำต่อเนื่องไม่เข้ากับลำดับเหตุการณ์ที่จบทีละอย่าง"}
+    - {t: had been sending, why: "รูปนี้เน้นช่วงเวลา ไม่เข้ากับเหตุการณ์ตามลำดับ"}
+    - {t: has sent, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+  explain: "เหตุการณ์ต่อกันเป็นลำดับ ==past simple + past simple=="
+  status: approved
+- id: cefr-b2-w01-006
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  stem: I didn't recognise my old neighbour at first because he ____ a beard.
+  choices:
+    - {t: had grown, why: "ไว้เคราก่อนที่ฉันจะเห็น ใช้ ++had grown++"}
+    - {t: grew, why: "grew ทำให้ฟังเหมือนไว้เคราตอนที่เจอกัน"}
+    - {t: has grown, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+    - {t: was growing, why: "ไม่ได้กำลังไว้เคราตอนนั้น แต่ไว้มาก่อนแล้ว"}
+  explain: "สาเหตุที่เกิดก่อน ==had + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w01-007
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  stem: The sun ____ and the birds were singing as we set off on our journey.
+  choices:
+    - {t: was shining, why: "บรรยายฉากหลังในเรื่องเล่า ใช้ ++past continuous++"}
+    - {t: shined, why: "ฉากหลังที่ต่อเนื่องคู่กับ were singing ใช้รูปต่อเนื่อง"}
+    - {t: had shone, why: "had shone บอกว่าเกิดก่อนและจบแล้ว"}
+    - {t: has been shining, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+  explain: "บรรยายบรรยากาศ ==was/were + -ing=="
+  status: approved
+- id: cefr-b2-w01-008
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 3
+  stem: When the manager walked in, everyone ____ working, even though they had been chatting a moment before.
+  choices:
+    - {t: started, why: "เริ่มทำงานทันทีที่ผู้จัดการเข้ามา ใช้ ++past simple++"}
+    - {t: had started, why: "had started บอกว่าเริ่มก่อนผู้จัดการเข้า ขัดกับที่คุยกันอยู่"}
+    - {t: were starting, why: "เป็นปฏิกิริยาทันที ไม่ใช่กำลังเริ่ม"}
+    - {t: have started, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+  explain: "เหตุการณ์ตอบสนองทันที ==when + past simple, past simple=="
+  status: approved
+- id: cefr-b2-w01-009
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  stem: Which sentence shows that the film started BEFORE we arrived?
+  choices:
+    - {t: "When we arrived, the film had started.", why: "had started = ++เริ่มก่อนเรามาถึง++"}
+    - {t: "When we arrived, the film started.", why: "หมายถึงหนังเริ่มตอนเรามาถึงพอดี"}
+    - {t: "When we arrived, the film was going to start.", why: "หมายถึงหนังยังไม่เริ่ม"}
+    - {t: "When we arrived, the film starts.", why: "ผิดเวลา และไม่บอกลำดับ"}
+  explain: "past perfect บอก ==เกิดก่อน== · past simple บอกเกิดพร้อมหรือตามมา"
+  status: approved
+- id: cefr-b2-w01-010
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 1
+  stem: The phone rang just as I ____ to go to sleep.
+  choices:
+    - {t: was trying, why: "กำลังพยายามอยู่แล้วโทรศัพท์ดัง ใช้ ++was trying++"}
+    - {t: tried, why: "tried ไม่ได้บอกว่ากำลังทำอยู่ตอนโทรศัพท์ดัง"}
+    - {t: had tried, why: "had tried บอกว่าพยายามเสร็จก่อนแล้ว"}
+    - {t: try, why: "rang เป็นอดีต จึงใช้ไม่ได้"}
+  explain: "just as + ==was/were -ing== = ขณะกำลัง..."
+  status: approved
+- id: cefr-b2-w01-011
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 3
+  stem: It was only after I ____ the contract that I noticed the extra fees.
+  choices:
+    - {t: had signed, why: "เซ็นก่อนแล้วจึงสังเกตเห็น ใช้ ++had signed++"}
+    - {t: was signing, why: "was signing แปลว่ากำลังเซ็นอยู่ ขัดกับ only after"}
+    - {t: have signed, why: "เรื่องเล่าในอดีต ใช้ present perfect ไม่ได้"}
+    - {t: would sign, why: "would sign ไม่ได้บอกว่าเกิดก่อน"}
+  explain: "only after + ==had + ช่อง 3== เน้นว่าเกิดก่อนอีกเรื่อง"
+  status: approved
+- id: cefr-b2-w01-012
+  kind: type
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  stem: "When I got home, I realised I had l___ my keys at the office. (ทิ้งไว้ ช่อง 3)"
+  answer: left
+  accept: [left]
+  why: "had + ช่อง 3 ของ leave คือ left บอกว่าลืมไว้ก่อนกลับถึงบ้าน"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์ความท้าทายและการรับมือ ----------
+- id: cefr-b2-w01-013
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 1
+  stem: Starting a new job in another country was a big ____ for me.
+  choices:
+    - {t: challenge, why: "เรื่องยากที่ต้องพยายาม ใช้ ++challenge++"}
+    - {t: consequence, why: "consequence คือผลที่ตามมา ไม่ใช่เรื่องยากที่เผชิญ"}
+    - {t: circumstance, why: "circumstance คือสถานการณ์แวดล้อม ไม่ได้บอกความยาก"}
+    - {t: reluctant, why: "reluctant เป็นคุณศัพท์ วางหลัง a big ไม่ได้"}
+  explain: "a big challenge = ==ความท้าทายใหญ่=="
+  status: approved
+- id: cefr-b2-w01-014
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 1
+  stem: After weeks of practice, she finally ____ her fear of speaking in public.
+  choices:
+    - {t: overcame, why: "เอาชนะความกลัว ใช้ ++overcame++"}
+    - {t: coped, why: "cope ต้องตามด้วย with"}
+    - {t: eventually, why: "eventually เป็นคำวิเศษณ์"}
+    - {t: frustrated, why: "frustrated her fear ไม่มีความหมายนี้"}
+  explain: "overcome a fear / problem = ==เอาชนะ=="
+  status: approved
+- id: cefr-b2-w01-015
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: It's hard to ____ with so much work and two young children.
+  choices:
+    - {t: cope, why: "รับมือได้ ใช้ ++cope with++"}
+    - {t: overcome, why: "overcome ไม่ตามด้วย with"}
+    - {t: challenge, why: "challenge with ไม่มีความหมายนี้"}
+    - {t: issue, why: "issue เป็นคำนาม"}
+  explain: "cope ==with== = รับมือกับ"
+  status: approved
+- id: cefr-b2-w01-016
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: Missing the deadline had serious ____ for the whole team.
+  choices:
+    - {t: consequences, why: "ผลที่ตามมา ใช้ ++consequences for++"}
+    - {t: challenges, why: "challenges ไม่ได้บอกผลที่ตามมา"}
+    - {t: circumstances, why: "circumstances คือสถานการณ์แวดล้อม"}
+    - {t: issues, why: "issues for the team ไม่ได้บอกว่าเป็นผลที่ตามมา"}
+  explain: "have consequences for = ==ส่งผลตามมาต่อ=="
+  status: approved
+- id: cefr-b2-w01-017
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: Under the ____, we had no choice but to cancel the trip.
+  choices:
+    - {t: circumstances, why: "ในสถานการณ์เช่นนั้น ใช้ ++Under the circumstances++"}
+    - {t: consequences, why: "Under the consequences ไม่ใช่วลีที่ใช้"}
+    - {t: challenges, why: "Under the challenges ไม่ใช่วลีที่ใช้"}
+    - {t: issues, why: "Under the issues ไม่ใช่วลีที่ใช้"}
+  explain: "Under the circumstances = ==ในสถานการณ์อย่างนี้=="
+  status: approved
+- id: cefr-b2-w01-018
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 1
+  stem: The main ____ we discussed at the meeting was the lack of parking.
+  choices:
+    - {t: issue, why: "ประเด็นปัญหา ใช้ ++issue++"}
+    - {t: consequence, why: "consequence คือผลที่ตามมา ไม่ใช่ประเด็นที่คุย"}
+    - {t: reluctant, why: "reluctant เป็นคุณศัพท์"}
+    - {t: overcome, why: "overcome เป็นกริยา"}
+  explain: "issue = ==ประเด็น ปัญหาที่ต้องจัดการ=="
+  status: approved
+- id: cefr-b2-w01-019
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: ____, I found the new software confusing, but now I use it every day.
+  choices:
+    - {t: Initially, why: "ตอนแรก ใช้ ++Initially++ ตัดกับ but now"}
+    - {t: Eventually, why: "Eventually แปลว่าในที่สุด ขัดกับ but now"}
+    - {t: Gradually, why: "Gradually แปลว่าค่อย ๆ ไม่ได้บอกจุดเริ่ม"}
+    - {t: Consequence, why: "Consequence เป็นคำนาม"}
+  explain: "Initially = ==ตอนแรก== · Eventually = ในที่สุด"
+  status: approved
+- id: cefr-b2-w01-020
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: We waited for hours, but ____ the plane took off.
+  choices:
+    - {t: eventually, why: "ในที่สุดหลังรอนาน ใช้ ++eventually++"}
+    - {t: initially, why: "initially แปลว่าตอนแรก ขัดกับหลังรอหลายชั่วโมง"}
+    - {t: gradual, why: "gradual เป็นคุณศัพท์"}
+    - {t: reluctant, why: "reluctant เป็นคุณศัพท์"}
+  explain: "eventually = ==ในที่สุด (หลังจากใช้เวลานาน)== ไม่ใช่ อาจจะ"
+  status: approved
+- id: cefr-b2-w01-021
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: My English improved ____ over the year, not all at once.
+  choices:
+    - {t: gradually, why: "ค่อย ๆ ดีขึ้น ใช้ ++gradually++"}
+    - {t: eventually, why: "eventually แปลว่าในที่สุด ไม่ได้บอกว่าค่อยเป็นค่อยไป"}
+    - {t: initially, why: "initially แปลว่าตอนแรก"}
+    - {t: overwhelmed, why: "overwhelmed เป็นคุณศัพท์"}
+  explain: "gradually = ==ค่อย ๆ ทีละน้อย=="
+  status: approved
+- id: cefr-b2-w01-022
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: I felt completely ____ by the number of emails waiting for me after my holiday.
+  choices:
+    - {t: overwhelmed, why: "รู้สึกรับไม่ไหวเพราะมากเกินไป ใช้ ++overwhelmed by++"}
+    - {t: reluctant, why: "reluctant ตามด้วย to และแปลว่าไม่เต็มใจ"}
+    - {t: frustrating, why: "frustrating ใช้บรรยายสิ่งที่ทำให้หงุดหงิด ไม่ใช่ความรู้สึกของคน"}
+    - {t: gradual, why: "gradual ไม่ใช้บอกความรู้สึก"}
+  explain: "overwhelmed by = ==ท่วมท้นจนรับไม่ไหว=="
+  status: approved
+- id: cefr-b2-w01-023
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 3
+  stem: He was ____ to ask for help, so he struggled alone for weeks.
+  choices:
+    - {t: reluctant, why: "ไม่เต็มใจ ลังเล ใช้ ++reluctant to++"}
+    - {t: overwhelmed, why: "overwhelmed ไม่ตามด้วย to + กริยา"}
+    - {t: frustrated, why: "frustrated to ask ไม่ใช่รูปที่ใช้ในความหมายนี้"}
+    - {t: eventually, why: "eventually เป็นคำวิเศษณ์"}
+  explain: "be reluctant to + กริยา = ==ไม่เต็มใจ ลังเลที่จะ=="
+  status: approved
+- id: cefr-b2-w01-024
+  kind: type
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  stem: "I felt f__________ when the website kept crashing. (หงุดหงิด)"
+  answer: frustrated
+  accept: [frustrated]
+  why: "คนรู้สึกหงุดหงิดใช้ frustrated (-ed) ส่วนสิ่งที่ทำให้หงุดหงิดใช้ frustrating"
+  status: approved
+# ---------- วันที่ 3 · ทำมาก่อนหน้านั้น และนิสัยในอดีต ----------
+- id: cefr-b2-w01-025
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 1
+  stem: Her eyes were red because she ____ for hours.
+  choices:
+    - {t: had been crying, why: "ทำต่อเนื่องก่อนหน้าและเห็นผลในอดีต ใช้ ++had been + -ing++"}
+    - {t: has been crying, why: "เรื่องเล่าในอดีต ใช้ has been ไม่ได้"}
+    - {t: was cried, why: "was cried ผิดรูป"}
+    - {t: cries, why: "were เป็นอดีต ใช้ปัจจุบันไม่ได้"}
+  explain: "ทำต่อเนื่องก่อนจุดในอดีต ==had been + -ing=="
+  status: approved
+- id: cefr-b2-w01-026
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 1
+  stem: When I was a child, we ____ visit my grandparents every summer.
+  choices:
+    - {t: would, why: "นิสัยที่ทำซ้ำในอดีต ใช้ ++would + กริยา++"}
+    - {t: will, why: "will ใช้กับอนาคต"}
+    - {t: are used to, why: "are used to แปลว่าคุ้นเคยตอนนี้ และต้องตามด้วย -ing"}
+    - {t: had, why: "had visit ผิดรูป"}
+  explain: "การกระทำซ้ำในอดีต ==used to / would + กริยา=="
+  status: approved
+- id: cefr-b2-w01-027
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  stem: I ____ live in Hat Yai before I moved to Bangkok.
+  choices:
+    - {t: used to, why: "สภาพในอดีตที่ไม่จริงแล้ว ใช้ ++used to++ (would ใช้กับสภาพไม่ได้)"}
+    - {t: would, why: "would ใช้กับการกระทำซ้ำ ไม่ใช้กับสภาพอย่าง live"}
+    - {t: was used to, why: "was used to แปลว่าคุ้นเคย และต้องตามด้วย -ing"}
+    - {t: use to, why: "บอกเล่าต้องเป็น used to"}
+  explain: "สภาพในอดีต (live, have, be) ใช้ ==used to เท่านั้น== ไม่ใช้ would"
+  status: approved
+- id: cefr-b2-w01-028
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  stem: By the time the manager arrived, we ____ for over an hour.
+  choices:
+    - {t: had been waiting, why: "รอต่อเนื่องจนถึงจุดในอดีต ใช้ ++had been waiting++"}
+    - {t: were waiting, why: "ไม่ได้บอกระยะเวลาสะสมก่อนผู้จัดการมา"}
+    - {t: have been waiting, why: "เรื่องเล่าในอดีต ใช้ have been ไม่ได้"}
+    - {t: waited, why: "for over an hour ก่อนจุดในอดีตต้องใช้ past perfect continuous"}
+  explain: "By the time + อดีต + for ... ==had been + -ing=="
+  status: approved
+- id: cefr-b2-w01-029
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  stem: She was exhausted because she ____ all night on her presentation.
+  choices:
+    - {t: had been working, why: "ทำต่อเนื่องก่อนหน้าแล้วเหนื่อย ใช้ ++had been working++"}
+    - {t: had worked on, why: "รูปนี้ไม่เน้นระยะเวลาต่อเนื่องที่ทำให้เหนื่อย"}
+    - {t: was worked, why: "was worked ผิดรูป"}
+    - {t: works, why: "was เป็นอดีต ใช้ปัจจุบันไม่ได้"}
+  explain: "สาเหตุที่ทำต่อเนื่องมาก่อน ==had been + -ing=="
+  status: approved
+- id: cefr-b2-w01-030
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  stem: I ____ getting up so early, but now it feels normal.
+  choices:
+    - {t: wasn't used to, why: "ไม่คุ้นเคยในอดีต ใช้ ++wasn't used to + -ing++"}
+    - {t: didn't use to, why: "didn't use to ต้องตามด้วยกริยารูปเดิม ไม่ใช่ getting"}
+    - {t: wouldn't, why: "wouldn't getting ผิดรูป"}
+    - {t: hadn't used to, why: "รูป hadn't used to ไม่ใช้กัน"}
+  explain: "คุ้นเคย ==be used to + -ing== · เคยทำ used to + กริยารูปเดิม"
+  status: approved
+- id: cefr-b2-w01-031
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 3
+  stem: Which sentence is NOT correct?
+  choices:
+    - {t: "We would have a dog when I was young.", why: "have ในความหมายเป็นเจ้าของคือสภาพ ++ใช้ would ไม่ได้++"}
+    - {t: "We used to have a dog when I was young.", why: "used to ใช้กับสภาพในอดีตได้ จึงถูก"}
+    - {t: "We would play in the garden after school.", why: "would ใช้กับการกระทำซ้ำได้ จึงถูก"}
+    - {t: "We used to play in the garden after school.", why: "used to ใช้กับการกระทำซ้ำได้ จึงถูก"}
+  explain: "would ใช้กับ ==การกระทำซ้ำเท่านั้น== ไม่ใช้กับสภาพ"
+  status: approved
+- id: cefr-b2-w01-032
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  stem: How long ____ there before the company moved you to Singapore?
+  choices:
+    - {t: had you been working, why: "ถามระยะเวลาก่อนจุดในอดีต ใช้ ++had you been working++"}
+    - {t: have you been working, why: "เรื่องในอดีตที่จบแล้ว ใช้ have ไม่ได้"}
+    - {t: were you working, why: "ไม่ได้ถามระยะเวลาสะสมก่อนการย้าย"}
+    - {t: did you working, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "How long + ==had + ประธาน + been -ing== ...? (ก่อนเหตุการณ์ในอดีต)"
+  status: approved
+- id: cefr-b2-w01-033
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 3
+  stem: My grandfather ____ tell us the same story every New Year, and we never got tired of it.
+  choices:
+    - {t: would, why: "นิสัยที่ทำซ้ำในอดีต ใช้ ++would++"}
+    - {t: was used to, why: "was used to ต้องตามด้วย -ing และแปลว่าคุ้นเคย"}
+    - {t: had been, why: "had been tell ผิดรูป"}
+    - {t: is used to, why: "is used to เป็นปัจจุบันและต้องตามด้วย -ing"}
+  explain: "เล่าความหลังด้วย ==would + กริยา== (การกระทำซ้ำ)"
+  status: approved
+- id: cefr-b2-w01-034
+  kind: cloze
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  text: |
+    When I first joined the company, I (1) ____ to working in such a big team. I (2) ____ work alone at my previous job. By the end of my first month, I (3) ____ overtime almost every day, so I asked my manager for help.
+  questions:
+    - choices:
+        - {t: wasn't used, why: "ไม่คุ้นเคย wasn't used to + -ing"}
+        - {t: didn't use, why: "didn't use to ต้องตามด้วยกริยารูปเดิม ไม่ใช่ working"}
+        - {t: wouldn't, why: "wouldn't to working ผิดรูป"}
+        - {t: hadn't been, why: "hadn't been to working ผิดรูป"}
+    - choices:
+        - {t: used to, why: "นิสัยในอดีตที่ไม่ทำแล้ว used to + กริยารูปเดิม"}
+        - {t: was used to, why: "was used to ต้องตามด้วย -ing"}
+        - {t: am used to, why: "am used to เป็นปัจจุบัน และต้องตามด้วย -ing"}
+        - {t: use to, why: "บอกเล่าต้องเป็น used to"}
+    - choices:
+        - {t: had been doing, why: "ทำต่อเนื่องจนถึงจุดในอดีต had been + -ing"}
+        - {t: have been doing, why: "เรื่องเล่าในอดีต ใช้ have been ไม่ได้"}
+        - {t: was done, why: "was done เป็นรูปถูกกระทำ ความหมายผิด"}
+        - {t: do, why: "เรื่องเล่าในอดีต ใช้ปัจจุบันไม่ได้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านเรื่องเล่าและฟังลำดับเหตุการณ์ ----------
+- id: cefr-b2-w01-035
+  kind: read
+  skill: rd
+  topic: first-year-story
+  level: 2
+  title: "My First Year as a Nurse"
+  passage: |
+    I had always wanted to be a nurse, but nothing had prepared me for my first year on a busy hospital ward. On my very first night shift, two patients needed urgent care at the same time, and I froze. Fortunately, a senior nurse had been watching from the corridor. She stepped in calmly, and within minutes both patients were stable.
+
+    For the next few months I felt overwhelmed. I would go home after twelve-hour shifts and lie awake, replaying every decision I had made. I was reluctant to ask questions because I didn't want my colleagues to think I was incompetent.
+
+    The turning point came when that same senior nurse invited me for coffee. She told me she had cried in the staff toilets during her own first year. Initially, I didn't believe her; she seemed so confident. But her story gave me permission to admit that I was struggling.
+
+    Gradually, things improved. I started asking for advice and writing short notes after each shift about what had gone well. Eventually, the panic I used to feel turned into something closer to focus. Looking back, I realise that the difficult moments taught me more than any textbook. I now mentor new nurses myself, and the first thing I tell them is that everyone finds the first year hard.
+  questions:
+    - stem: What is the main message of the story?
+      choices:
+        - {t: difficulties in the first year are normal and can be overcome with support, why: "ทั้งเรื่องเล่าความยากและการได้รับการช่วยเหลือจนดีขึ้น"}
+        - {t: nursing is too stressful for most people, why: "ผู้เขียนยังทำงานและเป็นพี่เลี้ยงให้คนอื่น"}
+        - {t: textbooks are more useful than experience, why: "ผู้เขียนบอกตรงข้าม"}
+        - {t: senior nurses are often unkind, why: "พยาบาลอาวุโสในเรื่องช่วยเหลือผู้เขียน"}
+    - stem: Why didn't the writer ask questions at first?
+      choices:
+        - {t: she worried about looking unable to do the job, why: "didn't want my colleagues to think I was incompetent"}
+        - {t: she was too busy, why: "เรื่องไม่ได้ให้เหตุผลนี้"}
+        - {t: nobody was available, why: "มีพยาบาลอาวุโสอยู่"}
+        - {t: she already knew the answers, why: "เธอรู้สึกท่วมท้นและไม่มั่นใจ"}
+    - stem: What happened BEFORE the senior nurse stepped in on the first night?
+      choices:
+        - {t: she had been watching from the corridor, why: "a senior nurse had been watching from the corridor"}
+        - {t: she had invited the writer for coffee, why: "การชวนดื่มกาแฟเกิดหลายเดือนต่อมา"}
+        - {t: she had cried in the staff toilets, why: "เรื่องนี้เกิดในปีแรกของพยาบาลอาวุโสเอง"}
+        - {t: the patients had become stable, why: "ผู้ป่วยอาการคงที่หลังพยาบาลอาวุโสเข้ามาช่วย"}
+    - stem: What can be inferred about the writer now?
+      choices:
+        - {t: she uses her own experience to help others, why: "I now mentor new nurses myself"}
+        - {t: she plans to leave nursing, why: "ไม่มีข้อมูลนี้ในเรื่อง"}
+        - {t: she still panics on every shift, why: "ความตื่นตระหนกกลายเป็นสมาธิแล้ว"}
+        - {t: she has stopped writing notes, why: "บทไม่ได้พูดว่า she has stopped writing notes"}
+  status: approved
+- id: cefr-b2-w01-036
+  kind: listen
+  skill: li
+  topic: long-narrative
+  level: 2
+  script:
+    - {who: Woman, en: "We'd been driving for about three hours when the car started making a strange noise. We pulled over, and while my husband was checking the engine, a farmer stopped and offered to tow us to the next village."}
+  questions:
+    - stem: What happened first?
+      choices:
+        - {t: they had been driving for three hours, why: "We'd been driving for about three hours when..."}
+        - {t: a farmer stopped, why: "ชาวนาจอดหลังจากรถมีเสียงแปลก"}
+        - {t: the husband checked the engine, why: "เกิดหลังจากจอดรถ"}
+        - {t: they reached the next village, why: "เกิดเป็นลำดับสุดท้าย"}
+  status: approved
+- id: cefr-b2-w01-037
+  kind: listen
+  skill: li
+  topic: long-narrative
+  level: 2
+  script:
+    - {who: Man, en: "I used to hate public speaking. At school I would feel sick for days before a presentation. It wasn't until I joined a drama club at university that I finally started to enjoy it."}
+  questions:
+    - stem: What helped the man overcome his fear?
+      choices:
+        - {t: joining a drama club, why: "It wasn't until I joined a drama club ... that I finally started to enjoy it"}
+        - {t: practising at school, why: "ที่โรงเรียนเขายังกลัวมาก"}
+        - {t: taking medicine, why: "ไม่ได้พูดถึงยา จึงใช้ไม่ได้"}
+        - {t: avoiding presentations, why: "ไม่ได้บอกว่าหลีกเลี่ยงจนหาย"}
+  status: approved
+- id: cefr-b2-w01-038
+  kind: listen
+  skill: li
+  topic: long-narrative
+  level: 2
+  script:
+    - {who: Woman, en: "By the time I found the right building, the interview had already started. Luckily, they let me in, and in the end I got the job."}
+  questions:
+    - stem: What was the result?
+      choices:
+        - {t: she was offered the job, why: "in the end I got the job"}
+        - {t: she missed the interview, why: "เธอได้เข้าไปสัมภาษณ์"}
+        - {t: she went to the wrong company, why: "เธอหาตึกที่ถูกเจอ"}
+        - {t: the interview was cancelled, why: "การสัมภาษณ์เริ่มไปแล้ว ไม่ได้ยกเลิก"}
+  status: approved
+- id: cefr-b2-w01-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [When I got, to the airport, my flight, had already left]
+  sentence: When I got to the airport, my flight had already left.
+  th: เมื่อไปถึงสนามบิน เครื่องบินออกไปแล้ว
+  why: "When + past simple แล้วประโยคหลักใช้ had already + ช่อง 3"
+  status: approved
+- id: cefr-b2-w01-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She had been, working there, for ten years, before she, got a promotion]
+  sentence: She had been working there for ten years before she got a promotion.
+  th: เธอทำงานที่นั่นมาสิบปีก่อนจะได้เลื่อนตำแหน่ง
+  why: "had been + -ing + for + ระยะเวลา + before + past simple"
+  status: approved
+- id: cefr-b2-w01-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [My mother, would always, cook a big meal, on Sundays]
+  sentence: My mother would always cook a big meal on Sundays.
+  th: แม่มักจะทำอาหารมื้อใหญ่ทุกวันอาทิตย์
+  why: "would always + กริยารูปเดิม เล่านิสัยในอดีต"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b2-w01-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I had been, struggling with, the problem for weeks, when a colleague, suggested a new approach]
+  sentence: I had been struggling with the problem for weeks when a colleague suggested a new approach.
+  th: ฉันติดปัญหานี้อยู่หลายสัปดาห์ จนเพื่อนร่วมงานเสนอวิธีใหม่
+  why: "had been + -ing บอกช่วงก่อนหน้า แล้ว when + past simple บอกจุดเปลี่ยน"
+  status: approved
