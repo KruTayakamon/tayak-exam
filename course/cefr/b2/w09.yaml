@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 9 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 9
+phase: 3
+theme_th: โต้แย้งอย่างมีเหตุผล
+focus_th: despite / in spite of / although / even though / whereas / nevertheless · moreover / furthermore / consequently / therefore · so as to / so that / in order to
+can_do_th:
+  - เสนอข้อโต้แย้งสองด้านและสรุปจุดยืนได้
+  - ตามการโต้แย้งและแยกข้อสนับสนุนกับข้อคัดค้านได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: แม้ว่า ในขณะที่ อย่างไรก็ตาม
+    lesson:
+      rule_th: "ดูว่าคำที่ตามมาเป็นอะไร ==despite / in spite of + คำนาม หรือ -ing== · ++although++ / even though / whereas + ประโยค · ขึ้นประโยคใหม่ใช้ However, / Nevertheless,"
+      examples:
+        - {en: "<k>Despite</k> the rain, the festival went ahead.", th: "==ตามด้วยคำนาม=="}
+        - {en: "<k>Although</k> it was raining, ...", th: "ตามด้วยประโยค"}
+        - {en: "Some love spicy food, <k>whereas</k> others can't eat it.", th: "เทียบสองข้าง"}
+        - {en: "It's expensive. <k>Nevertheless</k>, it's worth it.", th: "ขึ้นประโยคใหม่"}
+      signals:
+        - {label_th: "ตามด้วยอะไร", words: ["despite + คำนาม/-ing", "although + ประโยค", "despite the fact that + ประโยค", "However, + ประโยคใหม่"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูด แม้ว่า...แต่... คนจึงใส่ ~~although คู่กับ but~~ และใส่ of หลัง despite"
+        wrong: ["Although it was late, but we kept working.", "Despite of the rain, we went out."]
+        right: ["Although it was late, we kept working.", "Despite the rain, we went out."]
+      notes:
+        - {kind: pin, th: "==although ห้ามมี but ตามมา== ใช้อย่างใดอย่างหนึ่ง"}
+        - {kind: warn, th: "despite ไม่มี of · in spite of มี of"}
+    check: [cefr-b2-w09-001, cefr-b2-w09-002]
+    practice: [cefr-b2-w09-003, cefr-b2-w09-004, cefr-b2-w09-005, cefr-b2-w09-006, cefr-b2-w09-007, cefr-b2-w09-008, cefr-b2-w09-009, cefr-b2-w09-010, cefr-b2-w09-011, cefr-b2-w09-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับสิ่งที่คุณทำแม้มีอุปสรรค ใช้ despite และ although อย่างละครั้ง
+      frame: "Despite ____, I ____. Although ____, ____."
+      model: "Despite the traffic, I arrived on time. Although I was tired, I went to the gym after work."
+    classroom: {en: "Even so, I think it's worth trying.", th: "ถึงอย่างนั้น ก็คิดว่าน่าลองนะ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การโต้แย้ง 12 คำ
+    lesson:
+      rule_th: "คำเชื่อมบอกทิศทางของเหตุผล ==moreover (ทิศเดียวกัน)== · nevertheless (แย้ง) · consequently (ผล) ++คำนาม perspective++ (มุมมองคน) กับ aspect (แง่มุมของเรื่อง) ต่างกัน"
+      examples:
+        - {en: "<k>Moreover</k>, the rent is reasonable.", th: "เพิ่มข้อดี"}
+        - {en: "<k>Consequently</k>, many people were late.", th: "==ผลที่ตามมา=="}
+        - {en: "from a parent's <k>perspective</k>", th: "มุมมองของคน"}
+        - {en: "Cost is one <k>aspect</k> of the problem.", th: "แง่มุมของเรื่อง"}
+      words:
+        - {w: whereas, pos: conj., th: ในขณะที่ (เทียบ), ex: "I like tea, whereas she likes coffee."}
+        - {w: nevertheless, pos: adv., th: อย่างไรก็ตาม, ex: "It was hard. Nevertheless, we finished."}
+        - {w: moreover, pos: adv., th: ยิ่งไปกว่านั้น, ex: "It's cheap. Moreover, it's fast."}
+        - {w: consequently, pos: adv., th: ผลที่ตามมาคือ, ex: "He was ill. Consequently, he missed the exam."}
+        - {w: controversial, pos: adj., th: เป็นที่ถกเถียง, ex: "It's a controversial decision."}
+        - {w: perspective, pos: n., th: มุมมอง, ex: "Try to see it from my perspective."}
+        - {w: aspect, pos: n., th: แง่มุม, ex: "Safety is an important aspect."}
+        - {w: advantage, pos: n., th: ข้อดี, ex: "The main advantage is the price."}
+        - {w: beneficial, pos: adj., th: มีประโยชน์, ex: "Sleep is beneficial for memory."}
+        - {w: relevant, pos: adj., th: เกี่ยวข้อง ตรงประเด็น, ex: "Is this information relevant?"}
+        - {w: arguably, pos: adv., th: อาจกล่าวได้ว่า, ex: "It's arguably the best film this year."}
+        - {w: widespread, pos: adj., th: แพร่หลาย, ex: "The problem is widespread."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~moreover กับข้อที่แย้งกัน~~ เพราะแปลว่า และ เหมือนกัน"
+        wrong: ["The hotel is cheap. Moreover, the rooms are dirty.", "In my aspect, it's a good idea."]
+        right: ["The hotel is cheap. However, the rooms are dirty.", "From my perspective, it's a good idea."]
+      notes:
+        - {kind: pin, th: "moreover ใช้ ==เมื่อสองข้อไปทิศเดียวกัน== เท่านั้น"}
+        - {kind: use, th: "เสนอความเห็นแบบไม่ฟันธง It's arguably the best option."}
+    check: [cefr-b2-w09-013, cefr-b2-w09-014]
+    practice: [cefr-b2-w09-015, cefr-b2-w09-016, cefr-b2-w09-017, cefr-b2-w09-018, cefr-b2-w09-019, cefr-b2-w09-020, cefr-b2-w09-021, cefr-b2-w09-022, cefr-b2-w09-023, cefr-b2-w09-024]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกข้อดีหนึ่งข้อและข้อเสียหนึ่งข้อของการมีรถส่วนตัว ใช้คำเชื่อมของสัปดาห์
+      frame: "One advantage of ____ is ____. Nevertheless, ____."
+      model: "One advantage of having a car is that you can travel whenever you want. Nevertheless, parking in the city centre is expensive and stressful."
+    classroom: {en: "From my perspective, it's a good idea.", th: "ในมุมมองของฉัน เป็นความคิดที่ดี"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ยิ่งไปกว่านั้น ดังนั้น เพื่อ
+    lesson:
+      rule_th: "จุดประสงค์ ==to / so as to / in order to + กริยา== · ++so that + ประโยค (มัก can/could)++ · ผล Therefore, / As a result, · เพิ่มเติม Furthermore, · ปฏิเสธจุดประสงค์ so as not to"
+      examples:
+        - {en: "I left early <k>so that</k> I could avoid traffic.", th: "จุดประสงค์ + ประโยค"}
+        - {en: "Speak quietly <k>so as not to</k> wake the baby.", th: "==ปฏิเสธจุดประสงค์=="}
+        - {en: "<k>As a result</k>, 300 workers lost their jobs.", th: "ผล"}
+        - {en: "<k>Furthermore</k>, it's taught by experts.", th: "เพิ่มเติม"}
+      signals:
+        - {label_th: "เพื่อ...", words: ["to + กริยา", "so as to + กริยา", "in order to + กริยา", "so that + ประโยค"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ เพื่อ + กริยา คนจึงเขียน ~~for + กริยา~~ ซึ่งผิด"
+        wrong: ["I came here for study English.", "I left early so as I could catch the bus."]
+        right: ["I came here to study English.", "I left early so that I could catch the bus."]
+      notes:
+        - {kind: pin, th: "==for + คำนาม== (for a holiday) · to + กริยา (to relax)"}
+        - {kind: use, th: "เขียนรายงาน ขึ้นย่อหน้าด้วย Furthermore, / As a result, ฟังเป็นระบบ"}
+    check: [cefr-b2-w09-025, cefr-b2-w09-026]
+    practice: [cefr-b2-w09-027, cefr-b2-w09-028, cefr-b2-w09-029, cefr-b2-w09-030, cefr-b2-w09-031, cefr-b2-w09-032, cefr-b2-w09-033, cefr-b2-w09-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับสิ่งที่คุณทำเพื่อสุขภาพหรือการเงิน บอกจุดประสงค์และผล
+      frame: "I ____ so that ____. As a result, ____."
+      model: "I started cooking at home so that I could save money. As a result, I have saved almost 3,000 baht a month."
+    classroom: {en: "Let's leave now so that we don't miss it.", th: "ไปกันเลยเถอะ จะได้ไม่พลาด"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความสองด้านและฟังการโต้วาที
+    lesson:
+      rule_th: "บทความสองด้านเรียง ==ข้อสนับสนุน → ข้อคัดค้าน== → ความเห็นผู้เขียน คำเชื่อมบอกว่ากำลังเปลี่ยนข้าง ++Nevertheless / However = เปลี่ยนข้าง++ · Moreover = ข้างเดิม"
+      examples:
+        - {en: "<k>Supporters</k> of a ban make three arguments.", th: "ฝ่ายสนับสนุน"}
+        - {en: "<k>Nevertheless</k>, there are strong arguments on the other side.", th: "==เปลี่ยนข้าง=="}
+        - {en: "<k>In my view</k>, ...", th: "ความเห็นผู้เขียน"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นข้อดีของการห้ามหลายข้อแล้ว ~~ตอบว่าผู้เขียนสนับสนุนการห้าม~~ ทั้งที่ย่อหน้าสุดท้ายเสนอทางกลาง"
+        wrong: ["ตอบว่าผู้เขียนอยากห้ามโทรศัพท์ทั้งหมด"]
+        right: ["ผู้เขียนเสนอเก็บโทรศัพท์ระหว่างเรียน แต่ให้ครูอนุญาตบางกิจกรรม"]
+      notes:
+        - {kind: tip, th: "ความเห็นของผู้เขียนอยู่หลัง ==In my view / I believe== มักเป็นย่อหน้าท้าย"}
+        - {kind: use, th: "ฟังการโต้วาที จดสองคอลัมน์ + กับ − แล้วฟังคำสรุป on balance"}
+    check: [cefr-b2-w09-036, cefr-b2-w09-037]
+    practice: [cefr-b2-w09-035, cefr-b2-w09-038, cefr-b2-w09-039, cefr-b2-w09-040, cefr-b2-w09-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปความเห็นของผู้เขียนบทความเรื่องโทรศัพท์ในโรงเรียน ใช้คำเชื่อมอย่างน้อย 1 คำ
+      frame: "The writer believes ____. However, ____."
+      model: "The writer believes phones should be kept in lockers during lessons. However, teachers should be allowed to use them for specific activities."
+    classroom: {en: "On balance, I'd support it.", th: "ชั่งดูแล้ว ฉันสนับสนุน"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด ชั่งข้อดีข้อเสียแล้วสรุปจุดยืน 2 นาที
+    lab:
+      mode: speak
+      prompt_th: "พูด 2 นาทีเรื่องประเด็นหนึ่งที่คนเห็นต่างกัน (เช่น ทำงานจากบ้าน · ห้ามรถเข้าใจกลางเมือง · ให้เด็กมีโทรศัพท์) บอกข้อดีสองข้อ ข้อเสียสองข้อ แล้วสรุปจุดยืนของคุณพร้อมเหตุผล"
+      frame:
+        - "Today I'd like to talk about ____, which is quite controversial."
+        - "On the one hand, ____. Moreover, ____."
+        - "On the other hand, ____. Furthermore, ____."
+        - "Despite ____, I believe ____."
+        - "On balance, ____, so that ____."
+      model_pass: "Today I'd like to talk about working from home, which is quite controversial. On the one hand, it saves time because you don't have to travel. Moreover, many people find they can concentrate better at home. On the other hand, it can be lonely. Furthermore, some managers find it hard to know what their team is doing. Despite these problems, I believe working from home is a good idea for most office jobs. On balance, I think the best solution is to work from home two or three days a week, so that people can enjoy the benefits but still see their colleagues."
+      model_good: "Today I'd like to talk about working from home, which has become surprisingly controversial since the pandemic. On the one hand, the advantages are obvious. Employees save hours every week on commuting, and, moreover, many of them report that they concentrate far better without office interruptions. On the other hand, there are real drawbacks. Working alone can be isolating, especially for younger staff, and furthermore, managers often find it harder to support people they rarely see. Some companies have consequently started asking everyone to return full-time. Despite these concerns, I believe that a complete return to the office would be a mistake. On balance, a hybrid model, with two or three days at home, is arguably the most sensible approach, so that people keep the flexibility they value while still benefiting from face-to-face contact."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกประเด็นแล้วจดข้อดีสองข้อ ข้อเสียสองข้อ และจุดยืน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้คำเชื่อมอย่างน้อย 5 คำ และถูกทิศทาง (เพิ่ม แย้ง ผล จุดประสงค์)
+        - มีทั้งสองด้านอย่างละอย่างน้อยสองข้อ
+        - สรุปจุดยืนชัดเจนพร้อมเหตุผล (On balance, ...)
+        - พูดได้ประมาณ 2 นาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b2-w09-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 9
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [7, 8, 9], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

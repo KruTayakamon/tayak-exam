@@ -1,0 +1,576 @@
+# คอร์ส b2 · สัปดาห์ 9 · โต้แย้งอย่างมีเหตุผล · despite / in spite of / whereas / nevertheless / even though · moreover / consequently / therefore / so as to / so that
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · แม้ว่า ในขณะที่ อย่างไรก็ตาม ----------
+- id: cefr-b2-w09-001
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 1
+  stem: ____ the rain, the festival went ahead as planned.
+  choices:
+    - {t: Despite, why: "ตามด้วยคำนาม the rain ใช้ ++Despite++"}
+    - {t: Although, why: "Although ต้องตามด้วยประโยค"}
+    - {t: Even though, why: "Even though ต้องตามด้วยประโยค"}
+    - {t: Despite of, why: "despite ไม่มี of"}
+  explain: "==despite / in spite of + คำนาม หรือ -ing== · although + ประโยค"
+  status: approved
+- id: cefr-b2-w09-002
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 1
+  stem: ____ it was raining, the festival went ahead as planned.
+  choices:
+    - {t: Although, why: "ตามด้วยประโยคเต็ม ใช้ ++Although++"}
+    - {t: Despite, why: "despite ไม่ตามด้วยประโยค"}
+    - {t: In spite of, why: "in spite of ไม่ตามด้วยประโยค"}
+    - {t: However, why: "However ไม่ใช้เชื่อมแบบนี้ในประโยคเดียว"}
+  explain: "==although / even though + ประธาน + กริยา=="
+  status: approved
+- id: cefr-b2-w09-003
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: In spite of ____ tired, she finished the report.
+  choices:
+    - {t: being, why: "หลัง in spite of ใช้ ++-ing++"}
+    - {t: she was, why: "in spite of ไม่ตามด้วยประโยค"}
+    - {t: to be, why: "หลังบุพบทไม่ใช้ to + กริยา"}
+    - {t: be, why: "หลังบุพบทต้องใช้ -ing"}
+  explain: "==in spite of / despite + -ing== (ประธานเดียวกัน)"
+  status: approved
+- id: cefr-b2-w09-004
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: Some people love spicy food, ____ others can't eat it at all.
+  choices:
+    - {t: whereas, why: "เปรียบเทียบสองกลุ่มที่ต่างกัน ใช้ ++whereas++"}
+    - {t: despite, why: "despite ไม่ตามด้วยประโยค"}
+    - {t: nevertheless, why: "nevertheless ไม่ใช้เชื่อมกลางประโยคหลังจุลภาคแบบนี้"}
+    - {t: so that, why: "so that บอกจุดประสงค์"}
+  explain: "เปรียบเทียบความต่าง ==whereas / while=="
+  status: approved
+- id: cefr-b2-w09-005
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: The plan is expensive. ____, we believe it is the right choice.
+  choices:
+    - {t: Nevertheless, why: "ขึ้นประโยคใหม่ ขัดแย้งกับประโยคก่อน ใช้ ++Nevertheless++"}
+    - {t: Although, why: "Although ต้องตามด้วยประโยคย่อยแล้วมีประโยคหลัก"}
+    - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
+    - {t: Whereas, why: "Whereas ไม่ใช้ขึ้นประโยคใหม่แบบนี้"}
+  explain: "ขึ้นประโยคใหม่ ==Nevertheless, / However,== + จุลภาค"
+  status: approved
+- id: cefr-b2-w09-006
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: Despite ____ the instructions, I still couldn't fix it.
+  choices:
+    - {t: following, why: "หลัง despite ใช้ ++-ing++"}
+    - {t: I followed, why: "despite ไม่ตามด้วยประโยค"}
+    - {t: of following, why: "despite ไม่มี of"}
+    - {t: to follow, why: "หลัง despite ไม่ใช้ to"}
+  explain: "==despite + -ing== · despite the fact that + ประโยค"
+  status: approved
+- id: cefr-b2-w09-007
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: ____ he earns a good salary, he never seems to have any money.
+  choices:
+    - {t: Even though, why: "แม้ว่า (เน้น) + ประโยค ใช้ ++Even though++"}
+    - {t: Despite, why: "despite ไม่ตามด้วยประโยค"}
+    - {t: Nevertheless, why: "nevertheless ไม่ใช้นำประโยคย่อย"}
+    - {t: Even, why: "even เดี่ยวไม่ใช่คำเชื่อม"}
+  explain: "==even though== = although แต่หนักแน่นกว่า"
+  status: approved
+- id: cefr-b2-w09-008
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: Which sentence about working late is correct?
+  choices:
+    - {t: "Despite the fact that it was late, we kept working.", why: "despite the fact that + ++ประโยค++ ถูกต้อง"}
+    - {t: "Despite it was late, we kept working.", why: "despite ไม่ตามด้วยประโยคโดยตรง"}
+    - {t: "Although of the late hour, we kept working.", why: "although ไม่มี of"}
+    - {t: "In spite it was late, we kept working.", why: "ขาด of และ the fact that"}
+  explain: "อยากใช้ประโยคหลัง despite ==ต้องมี the fact that=="
+  status: approved
+- id: cefr-b2-w09-009
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 3
+  stem: "Which word shows CONTRAST, not concession, in \"City life is fast, ____ village life is slow\"?"
+  choices:
+    - {t: whereas, why: "whereas ++เทียบสองสิ่งที่ต่างกัน++"}
+    - {t: although, why: "although บอกการยอมรับแต่แย้ง ไม่ได้เทียบสองข้าง"}
+    - {t: despite, why: "despite ไม่ตามด้วยประโยค"}
+    - {t: so, why: "so บอกผล จึงใช้ไม่ได้"}
+  explain: "เทียบสองข้าง ==whereas== · ยอมรับแต่แย้ง although"
+  status: approved
+- id: cefr-b2-w09-010
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: The hotel was old. It was, ____, very clean and comfortable.
+  choices:
+    - {t: however, why: "วางกลางประโยคระหว่างจุลภาคได้ ใช้ ++however++"}
+    - {t: although, why: "although ต้องตามด้วยประโยค"}
+    - {t: despite, why: "despite ต้องตามด้วยคำนาม"}
+    - {t: whereas, why: "whereas ไม่วางกลางประโยคแบบนี้"}
+  explain: "==however / nevertheless== ย้ายได้ ต้นประโยค กลาง หรือท้าย"
+  status: approved
+- id: cefr-b2-w09-011
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 3
+  stem: ____ hard she tries, she can't remember people's names.
+  choices:
+    - {t: However, why: "However + คุณศัพท์/คำวิเศษณ์ = ++ไม่ว่าจะ...แค่ไหน++"}
+    - {t: Although, why: "Although hard ผิดลำดับ"}
+    - {t: Despite, why: "Despite hard ผิดรูป"}
+    - {t: Whereas, why: "Whereas ไม่ใช้ความหมายไม่ว่าแค่ไหน"}
+  explain: "==However + adj/adv + ประธาน + กริยา== = ไม่ว่าจะ...แค่ไหน"
+  status: approved
+- id: cefr-b2-w09-012
+  kind: type
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  stem: "We enjoyed the trip in s____ of the bad weather. (แม้ว่า)"
+  answer: spite
+  accept: [spite]
+  why: "in spite of + คำนาม = แม้ว่า"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การโต้แย้ง ----------
+- id: cefr-b2-w09-013
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 1
+  stem: The new law is very ____; people have strong opinions on both sides.
+  choices:
+    - {t: controversial, why: "เป็นที่ถกเถียง ใช้ ++controversial++"}
+    - {t: beneficial, why: "beneficial แปลว่ามีประโยชน์ ไม่ได้บอกว่าถกเถียง"}
+    - {t: relevant, why: "relevant แปลว่าเกี่ยวข้อง"}
+    - {t: widespread, why: "widespread แปลว่าแพร่หลาย"}
+  explain: "controversial = ==เป็นที่ถกเถียง=="
+  status: approved
+- id: cefr-b2-w09-014
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 1
+  stem: One big ____ of working from home is that you save time on travel.
+  choices:
+    - {t: advantage, why: "ข้อดี ใช้ ++advantage++"}
+    - {t: aspect, why: "aspect คือแง่มุม ไม่ได้บอกว่าดี"}
+    - {t: perspective, why: "perspective คือมุมมองของคน"}
+    - {t: beneficial, why: "beneficial เป็นคุณศัพท์"}
+  explain: "advantage = ==ข้อดี== (ตรงข้าม disadvantage)"
+  status: approved
+- id: cefr-b2-w09-015
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: From a parent's ____, the school day is too short.
+  choices:
+    - {t: perspective, why: "มุมมองของใครบางคน ใช้ ++from ... perspective++"}
+    - {t: aspect, why: "from a parent's aspect ไม่ใช่สำนวน"}
+    - {t: advantage, why: "ไม่ใช่สำนวนบอกมุมมอง"}
+    - {t: phenomenon, why: "บทไม่ได้พูดว่า phenomenon"}
+  explain: "==from someone's perspective== = ในมุมมองของ"
+  status: approved
+- id: cefr-b2-w09-016
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: Cost is only one ____ of the problem; we also need to think about safety.
+  choices:
+    - {t: aspect, why: "แง่มุมหนึ่ง ใช้ ++aspect++"}
+    - {t: perspective, why: "perspective ใช้กับมุมมองของคน"}
+    - {t: advantage, why: "ค่าใช้จ่ายไม่ใช่ข้อดีของปัญหา"}
+    - {t: consequence, why: "consequence คือผลที่ตามมา ไม่ใช่แง่มุม"}
+  explain: "aspect = ==แง่มุม ด้านหนึ่งของเรื่อง=="
+  status: approved
+- id: cefr-b2-w09-017
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: Regular exercise is ____ for both physical and mental health.
+  choices:
+    - {t: beneficial, why: "มีประโยชน์ ใช้ ++beneficial for++"}
+    - {t: controversial, why: "การออกกำลังกายไม่ได้เป็นที่ถกเถียง"}
+    - {t: relevant, why: "relevant for health ไม่ได้บอกว่ามีประโยชน์"}
+    - {t: arguably, why: "arguably เป็นคำวิเศษณ์"}
+  explain: "beneficial = ==มีประโยชน์ (ต่อ)=="
+  status: approved
+- id: cefr-b2-w09-018
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: Please keep your comments ____ to the item on the agenda.
+  choices:
+    - {t: relevant, why: "เกี่ยวข้อง ตรงประเด็น ใช้ ++relevant to++"}
+    - {t: beneficial, why: "beneficial to the topic ไม่ใช่ความหมายตรงประเด็น"}
+    - {t: widespread, why: "widespread ไม่ใช้กับคำถาม"}
+    - {t: controversial, why: "ขัดกับคำขอให้ตรงประเด็น"}
+  explain: "==relevant to== = เกี่ยวข้อง ตรงประเด็น"
+  status: approved
+- id: cefr-b2-w09-019
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: The use of mobile banking is now ____ in Thailand, even among older people.
+  choices:
+    - {t: widespread, why: "แพร่หลาย ใช้ ++widespread++"}
+    - {t: relevant, why: "relevant ไม่ได้บอกว่าแพร่หลาย"}
+    - {t: arguably, why: "arguably เป็นคำวิเศษณ์"}
+    - {t: beneficial, why: "beneficial ไม่เข้ากับ even among older people"}
+  explain: "widespread = ==แพร่หลาย พบทั่วไป=="
+  status: approved
+- id: cefr-b2-w09-020
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: She is ____ the best player in the team, although some people might disagree.
+  choices:
+    - {t: arguably, why: "อาจกล่าวได้ว่า ใช้ ++arguably++"}
+    - {t: consequently, why: "consequently บอกผล"}
+    - {t: moreover, why: "moreover บอกการเพิ่มเติม"}
+    - {t: whereas, why: "whereas เป็นคำเชื่อม"}
+  explain: "arguably = ==อาจกล่าวได้ว่า (มีเหตุผลสนับสนุน)=="
+  status: approved
+- id: cefr-b2-w09-021
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: The flat is close to the station. ____, the rent is very reasonable.
+  choices:
+    - {t: Moreover, why: "เพิ่มข้อดีอีกข้อ ใช้ ++Moreover++"}
+    - {t: Nevertheless, why: "nevertheless บอกความขัดแย้ง แต่ทั้งสองเป็นข้อดี"}
+    - {t: Whereas, why: "whereas ไม่ขึ้นประโยคใหม่แบบนี้"}
+    - {t: Consequently, why: "ค่าเช่าถูกไม่ได้เป็นผลจากใกล้สถานี"}
+  explain: "moreover = ==ยิ่งไปกว่านั้น (เพิ่มเหตุผลทิศเดียวกัน)=="
+  status: approved
+- id: cefr-b2-w09-022
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  stem: The road was closed. ____, many people were late for work.
+  choices:
+    - {t: Consequently, why: "เป็นผลที่ตามมา ใช้ ++Consequently++"}
+    - {t: Moreover, why: "moreover เพิ่มข้อมูล ไม่บอกผล"}
+    - {t: Nevertheless, why: "nevertheless บอกความขัดแย้ง"}
+    - {t: Arguably, why: "arguably ไม่บอกผล"}
+  explain: "consequently = ==ผลที่ตามมาคือ== ≈ as a result"
+  status: approved
+- id: cefr-b2-w09-023
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 3
+  stem: Online classes are flexible. ____, many learners miss face-to-face contact.
+  choices:
+    - {t: Nevertheless, why: "ยอมรับข้อดีแล้วแย้ง ใช้ ++Nevertheless++"}
+    - {t: Moreover, why: "moreover เพิ่มข้อดี แต่ประโยคหลังเป็นข้อเสีย"}
+    - {t: Consequently, why: "การขาดการพบหน้าไม่ใช่ผลของความยืดหยุ่น"}
+    - {t: Whereas, why: "whereas ไม่ขึ้นประโยคใหม่"}
+  explain: "ข้อดี → ข้อเสีย ใช้ ==Nevertheless / However=="
+  status: approved
+- id: cefr-b2-w09-024
+  kind: type
+  skill: vo
+  topic: argument
+  level: 2
+  stem: "Tom likes the city, w______ his wife prefers the countryside. (ในขณะที่)"
+  answer: whereas
+  accept: [whereas]
+  why: "whereas = ในขณะที่ (เทียบสองข้าง)"
+  status: approved
+# ---------- วันที่ 3 · ยิ่งไปกว่านั้น ดังนั้น เพื่อ ----------
+- id: cefr-b2-w09-025
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 1
+  stem: I left early ____ I could avoid the traffic.
+  choices:
+    - {t: so that, why: "เพื่อที่จะ + ประโยค ใช้ ++so that++"}
+    - {t: so as to, why: "so as to ตามด้วยกริยารูปเดิม ไม่ใช่ประโยค"}
+    - {t: therefore, why: "therefore บอกผล ไม่ใช่จุดประสงค์"}
+    - {t: moreover, why: "moreover บอกการเพิ่มเติม"}
+  explain: "จุดประสงค์ ==so that + ประธาน + can/could + กริยา=="
+  status: approved
+- id: cefr-b2-w09-026
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 1
+  stem: I left early so as ____ the traffic.
+  choices:
+    - {t: to avoid, why: "so as ++to + กริยารูปเดิม++"}
+    - {t: avoiding, why: "so as ต้องตามด้วย to"}
+    - {t: I could avoid, why: "so as ไม่ตามด้วยประโยค"}
+    - {t: avoid, why: "ขาด to จึงใช้ไม่ได้"}
+  explain: "==so as to / in order to + กริยารูปเดิม== (ทางการกว่า to)"
+  status: approved
+- id: cefr-b2-w09-027
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  stem: The factory closed. ____, 300 workers lost their jobs.
+  choices:
+    - {t: As a result, why: "บอกผล ใช้ ++As a result++"}
+    - {t: So as to, why: "so as to บอกจุดประสงค์"}
+    - {t: Despite, why: "despite บอกการแย้ง"}
+    - {t: Furthermore, why: "furthermore เพิ่มข้อมูล ไม่บอกผล"}
+  explain: "ผล ==As a result,== / Therefore, / Consequently,"
+  status: approved
+- id: cefr-b2-w09-028
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  stem: Please speak quietly so as ____ the baby.
+  choices:
+    - {t: not to wake, why: "จุดประสงค์ปฏิเสธ ใช้ ++so as not to++"}
+    - {t: to not waking, why: "to ต้องตามด้วยกริยารูปเดิม"}
+    - {t: not wake, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: don't wake, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "ปฏิเสธ ==so as not to / in order not to + กริยา=="
+  status: approved
+- id: cefr-b2-w09-029
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  stem: The course is cheap. ____, it's taught by experienced teachers.
+  choices:
+    - {t: Furthermore, why: "เพิ่มข้อดีอีกข้อ ใช้ ++Furthermore++"}
+    - {t: Therefore, why: "ครูมีประสบการณ์ไม่ใช่ผลของราคาถูก"}
+    - {t: Whereas, why: "whereas ไม่ขึ้นประโยคใหม่"}
+    - {t: So that, why: "so that บอกจุดประสงค์"}
+  explain: "เพิ่มเติม ==Furthermore, / Moreover, / In addition,=="
+  status: approved
+- id: cefr-b2-w09-030
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  stem: The bridge is unsafe and ____ will be closed for repairs.
+  choices:
+    - {t: therefore, why: "วางกลางประโยคหลัง and ได้ ใช้ ++therefore++"}
+    - {t: so as to, why: "so as to ต้องตามด้วยกริยารูปเดิม และความหมายผิด"}
+    - {t: whereas, why: "whereas ไม่บอกผล"}
+    - {t: despite, why: "despite ไม่บอกผล"}
+  explain: "==therefore== วางหลัง and หรือหน้ากริยาได้ (and therefore will ...)"
+  status: approved
+- id: cefr-b2-w09-031
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 3
+  stem: Which sentence about saving money is correct?
+  choices:
+    - {t: "I saved money so that I could travel.", why: "so that + ประโยค ++ถูกต้อง++"}
+    - {t: "I saved money so as I could travel.", why: "so as ต้องตามด้วย to"}
+    - {t: "I saved money for travel to Japan next year.", why: "for + กริยารูปเดิมใช้บอกจุดประสงค์ไม่ได้ ต้องเป็น to travel"}
+    - {t: "I saved money so that to travel.", why: "so that ต้องตามด้วยประโยค"}
+  explain: "จุดประสงค์ ==to / so as to + กริยา · so that + ประโยค== (ไม่ใช่ for + กริยา)"
+  status: approved
+- id: cefr-b2-w09-032
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 3
+  stem: "The price rose ____ that fewer people could afford it."
+  choices:
+    - {t: so much, why: "ผลที่เกิดจากระดับ ++so + adv + that++"}
+    - {t: such, why: "such ต้องตามด้วยคำนาม"}
+    - {t: so as, why: "so as ตามด้วย to"}
+    - {t: therefore, why: "therefore ไม่ตามด้วย that แบบนี้"}
+  explain: "==so + adj/adv + that== · such + (a) + คำนาม + that = จน...ทำให้"
+  status: approved
+- id: cefr-b2-w09-033
+  kind: type
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  stem: "She studied every evening i_ order to pass the exam. (เพื่อ)"
+  answer: in
+  accept: [in]
+  why: "in order to = เพื่อที่จะ"
+  status: approved
+- id: cefr-b2-w09-034
+  kind: cloze
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  text: |
+    Should cities ban cars from the centre? (1) ____ the benefits for air quality, many shop owners are worried. They fear customers will go elsewhere. (2) ____, research from other cities shows that people actually spend more when they walk. Cities should introduce bans gradually (3) ____ businesses have time to adapt.
+  questions:
+    - choices:
+        - {t: Despite, why: "despite + คำนาม the benefits"}
+        - {t: Although, why: "although ต้องตามด้วยประโยค"}
+        - {t: Whereas, why: "whereas ต้องตามด้วยประโยค"}
+        - {t: Moreover, why: "moreover ไม่ตามด้วยคำนามแบบนี้"}
+    - choices:
+        - {t: However, why: "ขึ้นประโยคใหม่ที่แย้งความกลัวก่อนหน้า"}
+        - {t: Moreover, why: "moreover เพิ่มทิศเดียวกัน แต่ประโยคนี้แย้ง"}
+        - {t: Therefore, why: "ไม่ใช่ผลของความกลัว"}
+        - {t: Despite, why: "despite ต้องตามด้วยคำนาม"}
+    - choices:
+        - {t: so that, why: "จุดประสงค์ + ประโยค"}
+        - {t: so as to, why: "so as to ต้องตามด้วยกริยา ไม่ใช่ประโยค"}
+        - {t: whereas, why: "whereas ไม่บอกจุดประสงค์"}
+        - {t: despite, why: "despite ไม่บอกจุดประสงค์"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบทความสองด้านและฟังการโต้วาที ----------
+- id: cefr-b2-w09-035
+  kind: read
+  skill: rd
+  topic: opinion-article
+  level: 2
+  title: "Should Schools Ban Phones? Two Perspectives"
+  passage: |
+    The idea of banning mobile phones in schools has become increasingly controversial. Several countries have introduced bans, whereas others have chosen to teach students how to use phones responsibly.
+
+    Supporters of a ban make three main arguments. First, phones are a major distraction; students who check messages during lessons find it harder to concentrate. Furthermore, a ban may reduce online bullying during school hours. Finally, some head teachers report that students talk and play together more at break time once phones are put away.
+
+    Nevertheless, there are strong arguments on the other side. Phones can be beneficial learning tools, allowing students to look up information or use language apps. Moreover, many parents want to be able to contact their children in an emergency. Critics also point out that a ban does not teach young people how to manage their screen time, which is arguably a more relevant skill for adult life.
+
+    In my view, the most sensible approach lies somewhere in between. Phones should be kept in lockers during lessons so as to protect concentration, but teachers should be free to allow them for specific activities. Consequently, students would learn when phones are useful and when they are not. A complete ban may be simple, but it ignores an important aspect of modern education.
+  questions:
+    - stem: According to supporters, what happens at break time when phones are put away?
+      choices:
+        - {t: students interact more with each other, why: "students talk and play together more at break time"}
+        - {t: students study more, why: "ไม่ได้พูดถึงการเรียนช่วงพัก"}
+        - {t: bullying increases, why: "ตรงกันข้าม การกลั่นแกล้งอาจลดลง"}
+        - {t: teachers take the phones home, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: Which is an argument AGAINST a ban?
+      choices:
+        - {t: parents want to reach their children in emergencies, why: "many parents want to be able to contact their children"}
+        - {t: phones are a distraction, why: "เป็นเหตุผลของฝ่ายสนับสนุน"}
+        - {t: it reduces online bullying, why: "บทไม่ได้พูดว่า it reduces online bullying"}
+        - {t: it is simple, why: "ผู้เขียนยอมรับว่าง่าย แต่ไม่ได้เป็นเหตุผลค้าน"}
+    - stem: What is the writer's own view?
+      choices:
+        - {t: phones should be restricted but allowed for some activities, why: "kept in lockers ... but teachers should be free to allow them"}
+        - {t: phones should be completely banned, why: "ผู้เขียนบอกว่าการห้ามทั้งหมดละเลยด้านสำคัญ"}
+        - {t: there should be no rules at all, why: "เสนอให้เก็บในล็อกเกอร์ระหว่างเรียน"}
+        - {t: the writer gives no opinion, why: "มี In my view จึงใช้ไม่ได้"}
+    - stem: Which word in the last paragraph introduces a result?
+      choices:
+        - {t: Consequently, why: "Consequently = ผลที่ตามมา"}
+        - {t: but, why: "but บอกความขัดแย้ง"}
+        - {t: so as to, why: "so as to บอกจุดประสงค์"}
+        - {t: may, why: "may บอกความเป็นไปได้"}
+  status: approved
+- id: cefr-b2-w09-036
+  kind: listen
+  skill: li
+  topic: debate
+  level: 2
+  script:
+    - {who: Man, en: "Although electric cars are better for the air, the batteries are expensive and difficult to recycle."}
+  questions:
+    - stem: What is the man's main point?
+      choices:
+        - {t: electric cars have some disadvantages, why: "Although ... the batteries are expensive and difficult to recycle"}
+        - {t: electric cars are bad for the air, why: "ยอมรับว่าดีต่ออากาศ"}
+        - {t: batteries are cheap, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: everyone should buy electric cars, why: "ไม่ได้แนะนำแบบนั้น"}
+  status: approved
+- id: cefr-b2-w09-037
+  kind: listen
+  skill: li
+  topic: debate
+  level: 2
+  script:
+    - {who: Woman, en: "Working four days a week is good for staff. Moreover, companies that tried it found productivity didn't fall."}
+  questions:
+    - stem: What did companies that tried a four-day week find?
+      choices:
+        - {t: productivity stayed the same, why: "productivity didn't fall"}
+        - {t: productivity fell sharply, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: staff were unhappy, why: "ดีต่อพนักงาน จึงใช้ไม่ได้"}
+        - {t: they went back to five days, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w09-038
+  kind: listen
+  skill: li
+  topic: debate
+  level: 2
+  script:
+    - {who: Man, en: "On balance, I think the advantages outweigh the disadvantages, so I'd support the plan."}
+  questions:
+    - stem: What is the man's final position?
+      choices:
+        - {t: he supports the plan, why: "I'd support the plan"}
+        - {t: he opposes the plan, why: "ข้อดีมากกว่าข้อเสีย จึงสนับสนุน"}
+        - {t: he has no opinion, why: "สรุปชัดเจน จึงใช้ไม่ได้"}
+        - {t: he wants more time, why: "ไม่ได้ขอเวลา จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w09-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Despite the cost, we decided, to repair, the old car]
+  sentence: Despite the cost, we decided to repair the old car.
+  th: แม้จะแพง เราก็ตัดสินใจซ่อมรถคันเก่า
+  why: "Despite + คำนาม แล้วตามด้วยประโยคหลัก"
+  status: approved
+- id: cefr-b2-w09-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I wrote it down, so that, I wouldn't, forget it]
+  sentence: I wrote it down so that I wouldn't forget it.
+  th: ฉันจดไว้จะได้ไม่ลืม
+  why: "so that + ประธาน + wouldn't + กริยา (จุดประสงค์ในอดีต)"
+  status: approved
+- id: cefr-b2-w09-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Some people prefer, to rent, whereas others, want to buy a home]
+  sentence: Some people prefer to rent, whereas others want to buy a home.
+  th: บางคนชอบเช่า ในขณะที่บางคนอยากซื้อบ้าน
+  why: "whereas เชื่อมสองข้างที่ต่างกัน"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b2-w09-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Although there are, some disadvantages, on balance, I believe, the benefits are greater]
+  sentence: Although there are some disadvantages, on balance, I believe the benefits are greater.
+  th: แม้จะมีข้อเสียอยู่บ้าง แต่ชั่งดูแล้ว ฉันเชื่อว่าข้อดีมากกว่า
+  why: "Although + ประโยค แล้วสรุปจุดยืนด้วย on balance"
+  status: approved
