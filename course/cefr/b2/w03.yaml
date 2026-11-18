@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 3 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 3
+phase: 1
+theme_th: อนาคตและแผนพัฒนา
+focus_th: future continuous กับ future perfect (by the time) · was going to · be about to · be supposed to · be due to
+can_do_th:
+  - นำเสนอแผนพร้อมกรอบเวลาได้
+  - เข้าใจการนำเสนอแผนและคำถามที่ตามมา
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ณ เวลานั้นจะ...
+    lesson:
+      rule_th: "ณ จุดเวลาในอนาคต ++กำลังทำอยู่++ ใช้ will be + -ing · ==เสร็จก่อนจุดเวลานั้น== ใช้ will have + ช่อง 3 (มักมาคู่กับ by / by the time)"
+      examples:
+        - {en: "At 8 tonight I <k>will be having</k> dinner.", th: "กำลังกินอยู่ตอนนั้น"}
+        - {en: "By Friday I <k>will have written</k> the report.", th: "==เสร็จก่อนวันศุกร์=="}
+        - {en: "By the time you <k>arrive</k>, we'll have started.", th: "หลัง by the time ใช้ปัจจุบันธรรมดา"}
+        - {en: "<k>Will you be using</k> the car later?", th: "ถามแผนคนอื่นอย่างสุภาพ"}
+      signals:
+        - {label_th: "เลือกรูป", words: ["this time tomorrow → will be -ing", "by Friday / by then → will have + ช่อง 3", "by the time + ปัจจุบันธรรมดา"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า พอเธอมาถึง... จึงมีคนใส่ ~~will หลัง by the time~~ และลืมรูป perfect"
+        wrong: ["By the time you will arrive, we will start.", "By Friday I finish the report."]
+        right: ["By the time you arrive, we will have started.", "By Friday I will have finished the report."]
+      notes:
+        - {kind: tip, th: "เห็น ==by + เวลาในอนาคต== ให้นึกถึง will have + ช่อง 3 ก่อน"}
+        - {kind: use, th: "ถามเพื่อนแบบไม่กดดัน Will you be coming to the party?"}
+    check: [cefr-b2-w03-001, cefr-b2-w03-002]
+    practice: [cefr-b2-w03-003, cefr-b2-w03-004, cefr-b2-w03-005, cefr-b2-w03-006, cefr-b2-w03-007, cefr-b2-w03-008, cefr-b2-w03-009, cefr-b2-w03-010, cefr-b2-w03-011, cefr-b2-w03-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณจะทำอะไรอยู่ในเวลานี้ของปีหน้า และจะทำอะไรเสร็จภายในสิ้นปีหน้า
+      frame: "This time next year, I will be ____. By the end of next year, I will have ____."
+      model: "This time next year, I will be working in a new department. By the end of next year, I will have saved enough money for a trip to Japan."
+    classroom: {en: "By the time we finish, it'll be dark.", th: "กว่าเราจะเสร็จ ฟ้าคงมืดแล้ว"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์แผนและเป้าหมาย 12 คำ
+    lesson:
+      rule_th: "คำศัพท์แผนงานแยกเป็นสามกลุ่ม ==เป้าหมาย (objective, priority)== ++วิธีการ (strategy++, initiative, implement) และเวลา (postpone, temporary, permanent)"
+      examples:
+        - {en: "Our main <k>objective</k> is to cut costs.", th: "เป้าหมาย"}
+        - {en: "Safety is our top <k>priority</k>.", th: "==เรื่องสำคัญอันดับหนึ่ง=="}
+        - {en: "The rules will be <k>implemented</k> in January.", th: "นำไปใช้จริง"}
+        - {en: "The match was <k>postponed</k>.", th: "เลื่อน ไม่ใช่ยกเลิก"}
+      words:
+        - {w: objective, pos: n., th: เป้าหมาย วัตถุประสงค์, ex: "What is the objective of this meeting?"}
+        - {w: strategy, pos: n., th: กลยุทธ์, ex: "We need a new marketing strategy."}
+        - {w: initiative, pos: n., th: การริเริ่ม โครงการริเริ่ม, ex: "The tree-planting day was her initiative."}
+        - {w: priority, pos: n., th: เรื่องสำคัญที่ต้องทำก่อน, ex: "Family is my first priority."}
+        - {w: prioritise, pos: v., th: จัดลำดับความสำคัญ, ex: "Prioritise the urgent emails."}
+        - {w: implement, pos: v., th: นำไปใช้จริง, ex: "The plan will be implemented next month."}
+        - {w: anticipate, pos: v., th: คาดการณ์ล่วงหน้า, ex: "We anticipate heavy traffic."}
+        - {w: postpone, pos: v., th: เลื่อนออกไป, ex: "They postponed the trip."}
+        - {w: prospect, pos: n., th: โอกาสในอนาคต, ex: "Job prospects are good in this field."}
+        - {w: temporary, pos: adj., th: ชั่วคราว, ex: "It's only a temporary solution."}
+        - {w: permanent, pos: adj., th: ถาวร, ex: "She got a permanent job."}
+        - {w: approximately, pos: adv., th: ประมาณ, ex: "It takes approximately two hours."}
+      thai_trap:
+        intro_th: "คำว่า เลื่อน ในภาษาไทยใช้ได้ทั้งเลื่อนเวลาและยกเลิก แต่ ~~postpone ไม่ได้แปลว่ายกเลิก~~ (ยกเลิกคือ cancel)"
+        wrong: ["The concert was postponed, so we'll never see it.", "Our first priority are customers."]
+        right: ["The concert was cancelled, so we'll never see it.", "Our first priority is customers."]
+      notes:
+        - {kind: pin, th: "==postpone = เลื่อน · cancel = ยกเลิก=="}
+        - {kind: warn, th: "prospects แบบพหูพจน์ใช้กับโอกาสงาน job prospects"}
+    check: [cefr-b2-w03-013, cefr-b2-w03-014]
+    practice: [cefr-b2-w03-015, cefr-b2-w03-016, cefr-b2-w03-017, cefr-b2-w03-018, cefr-b2-w03-019, cefr-b2-w03-020, cefr-b2-w03-021, cefr-b2-w03-022, cefr-b2-w03-023, cefr-b2-w03-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกเป้าหมายหลักของคุณปีนี้และกลยุทธ์ที่จะใช้
+      frame: "My main objective this year is to ____. My strategy is to ____."
+      model: "My main objective this year is to get a promotion. My strategy is to prioritise the projects my manager cares about most."
+    classroom: {en: "What's our top priority this week?", th: "สัปดาห์นี้เรื่องไหนสำคัญที่สุด"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กำลังจะ ควรจะ
+    lesson:
+      rule_th: "==was going to== ตั้งใจแต่ไม่ได้ทำ · ++be about to++ กำลังจะเกิดในไม่ช้า · be supposed to ควรจะตามกฎหรือที่ตกลงไว้ · be due to ตามกำหนดการ ทุกรูปตามด้วย to + กริยารูปเดิม"
+      examples:
+        - {en: "I <k>was going to</k> call you, but I forgot.", th: "==ตั้งใจแต่ไม่ได้ทำ=="}
+        - {en: "The train <k>is about to</k> leave.", th: "อีกไม่กี่วินาที"}
+        - {en: "You're <k>supposed to</k> wear a helmet.", th: "ตามกฎ"}
+        - {en: "The report <k>is due to</k> be published in March.", th: "ตามกำหนดการ"}
+      signals:
+        - {label_th: "ความใกล้", words: ["about to → อีกไม่กี่นาที", "due to → ตามตาราง", "supposed to → ตามกฎหรือที่คาด"]}
+      thai_trap:
+        intro_th: "คำว่า ควรจะ ในภาษาไทยใช้ทั้งคำแนะนำและกฎ คนจึงใช้ ~~should แทน was supposed to~~ ทั้งที่ was supposed to บอกว่าไม่ได้เป็นไปตามนั้น"
+        wrong: ["The bus should arrive at 9, but it came at 10.", "The train is about to leave next month."]
+        right: ["The bus was supposed to arrive at 9, but it came at 10.", "The train is due to leave next month."]
+      notes:
+        - {kind: tip, th: "พูดว่า ==was supposed to== เมื่อแผนไม่เป็นตามนั้น ฟังเป็นธรรมชาติกว่า should"}
+        - {kind: warn, th: "about to ไม่ใช้กับเวลาที่บอกชัดว่าอีกนาน เช่น next month"}
+    check: [cefr-b2-w03-025, cefr-b2-w03-026]
+    practice: [cefr-b2-w03-027, cefr-b2-w03-028, cefr-b2-w03-029, cefr-b2-w03-030, cefr-b2-w03-031, cefr-b2-w03-032, cefr-b2-w03-033, cefr-b2-w03-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าแผนที่เคยตั้งใจไว้แต่ไม่เป็นไปตามนั้น
+      frame: "I was going to ____, but ____. It was supposed to ____."
+      model: "I was going to start running every morning, but it rained for two weeks. It was supposed to be the dry season!"
+    classroom: {en: "I was just about to call you.", th: "กำลังจะโทรหาพอดีเลย"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านแผนพัฒนาธุรกิจและฟังการนำเสนอ
+    lesson:
+      rule_th: "แผนพัฒนามีลำดับ ==เป้าหมาย → กลยุทธ์== → ความท้าทาย → ผลที่คาด คำถามมักถามว่า ++อะไรเสร็จเมื่อไร++ ให้หา by + เวลา และ will have + ช่อง 3"
+      examples:
+        - {en: "Our main <k>objective</k> is ...", th: "เป้าหมาย"}
+        - {en: "<k>By the end of March</k>, we will have translated ...", th: "==สิ่งที่เสร็จตามเวลา=="}
+        - {en: "We <k>were going to</k> start in January. However, ...", th: "แผนเดิมที่เปลี่ยน"}
+      thai_trap:
+        intro_th: "ผู้อ่านมักตอบตามแผนเดิม เพราะเห็นวันที่ก่อน แต่ ~~was going to~~ บอกว่าแผนนั้นไม่ได้เกิดแล้ว"
+        wrong: ["ตอบว่าครัวเริ่มสร้างเดือนมกราคม"]
+        right: ["ครัวเลื่อนไปเริ่มเดือนพฤษภาคม (มกราคมเป็นแผนเดิม)"]
+      notes:
+        - {kind: tip, th: "เห็น ==was going to / was supposed to== ให้หาคำว่า but / however ตามมา คำตอบมักอยู่ตรงนั้น"}
+        - {kind: use, th: "ตอนฟังการนำเสนอ จดเป็นตาราง เมื่อไร กับ ทำอะไร"}
+    check: [cefr-b2-w03-036, cefr-b2-w03-037]
+    practice: [cefr-b2-w03-035, cefr-b2-w03-038, cefr-b2-w03-039, cefr-b2-w03-040, cefr-b2-w03-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปแผนโฮมสเตย์ บอกเป้าหมายและสิ่งที่ถูกเลื่อน
+      frame: "The homestay wants to ____. The new kitchen was going to ____, but ____."
+      model: "The homestay wants to attract more international guests on weekdays. The new kitchen was going to be built in January, but the loan was delayed, so it has been postponed until May."
+    classroom: {en: "When is it due to be finished?", th: "มีกำหนดเสร็จเมื่อไร"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด นำเสนอแผนพัฒนาตัวเองหรืองาน 90 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูดนำเสนอแผนพัฒนาตัวเองหรืองานของคุณ 90 วินาที บอกเป้าหมาย สิ่งที่จะทำ สิ่งที่จะเสร็จภายในเวลาที่กำหนด อุปสรรคที่คาดไว้ และผลที่หวัง
+      frame:
+        - "My main objective for the next year is to ____."
+        - "First, I'm going to ____. This time next month, I'll be ____."
+        - "By ____, I will have ____."
+        - "I anticipate one problem: ____, so I'll ____."
+        - "If everything goes to plan, ____."
+      model_pass: "My main objective for the next year is to get a job in the tourism industry. First, I'm going to take an online course in hotel management. This time next month, I'll be studying every evening after work. By June, I will have finished the course and updated my CV. I anticipate one problem: I don't have much free time, so I'll prioritise the course over social media. If everything goes to plan, I'll be working in a hotel by the end of the year."
+      model_good: "My main objective over the next twelve months is to move from office work into the tourism industry. My strategy has two parts. First, I'm going to complete an online course in hotel management; this time next month, I'll be studying for an hour every evening. Second, I'll volunteer at weekends at a local homestay to get real experience. By June, I will have finished the course, and by August I'll have built up enough experience to apply for jobs. I anticipate one obvious challenge: time. I was going to start in January, but I had to postpone it, so now I'm prioritising ruthlessly. If everything goes to plan, I'll be greeting guests at a hotel reception by the end of the year."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกเป้าหมายจริงของคุณ แล้วจดคำสำคัญตามโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ will be + -ing และ will have + ช่อง 3 อย่างน้อยอย่างละครั้ง
+        - บอกเวลาชัดเจน (by June · this time next month)
+        - มีอุปสรรคที่คาดไว้และวิธีรับมือ
+        - พูดได้ประมาณ 90 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b2-w03-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 3
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [1, 2, 3], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
