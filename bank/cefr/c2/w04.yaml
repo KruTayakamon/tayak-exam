@@ -1,0 +1,573 @@
+# คอร์ส c2 · สัปดาห์ 4 · การย่อความคิดให้แน่น · นามวลียาว / nominalisation · absolute constructions · verbless clauses · with/without + นาม + participle
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · นามวลียาว ----------
+- id: cefr-c2-w04-001
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 1
+  stem: "\"Prices rose sharply, and this worried consumers.\" Which is the best nominalised version?"
+  choices:
+    - {t: "The sharp rise in prices worried consumers.", why: "เปลี่ยนกริยาเป็นคำนาม ++rise in prices++ ย่อสองประโยคเป็นหนึ่ง"}
+    - {t: "The prices sharply rising worried consumers.", why: "ลำดับคำไม่เป็นธรรมชาติ"}
+    - {t: "The rise sharp of prices worried consumers.", why: "คุณศัพท์ต้องอยู่หน้าคำนาม"}
+    - {t: "Prices' sharp rising was worrying consumers.", why: "ไม่ใช่นามวลีมาตรฐาน"}
+  explain: "nominalisation ==กริยา → คำนาม + of/in== (rise in · increase in · loss of)"
+  status: draft
+- id: cefr-c2-w04-002
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 1
+  stem: "There has been a significant increase ____ the number of people working from home."
+  choices:
+    - {t: in, why: "increase / rise / fall / decline ++in++ + สิ่งที่เปลี่ยน"}
+    - {t: of, why: "increase of ใช้กับจำนวน (an increase of 10%) ไม่ใช่สิ่งที่เปลี่ยน"}
+    - {t: "on", why: "increase on ใช้เทียบกับช่วงก่อน ไม่ใช่ในที่นี้"}
+    - {t: at, why: "increase at ไม่ใช่สำนวน"}
+  explain: "==an increase in + สิ่ง== · an increase of + จำนวน"
+  status: draft
+- id: cefr-c2-w04-003
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "\"the failure of the government to respond quickly to the crisis\" What is the head noun?"
+  choices:
+    - {t: failure, why: "คำนามหลักของนามวลีคือ ++failure++ ส่วนอื่นขยาย"}
+    - {t: government, why: "government อยู่ใน of-phrase ที่ขยาย failure"}
+    - {t: crisis, why: "crisis อยู่ท้ายสุด แต่ไม่ใช่คำหลัก"}
+    - {t: response, why: "ไม่มีคำนี้ในนามวลี"}
+  explain: "หา ==คำนามหลัก== ก่อน แล้วอ่านส่วนขยายทีละชั้น"
+  status: draft
+- id: cefr-c2-w04-004
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "\"The rapid expansion of private schools in rural areas\" is the subject. Which verb agrees?"
+  choices:
+    - {t: has, why: "คำนามหลัก expansion เป็นเอกพจน์ ใช้ ++has++"}
+    - {t: have, why: "schools ไม่ใช่คำนามหลัก"}
+    - {t: are, why: "ประธานเป็นเอกพจน์"}
+    - {t: were, why: "บทไม่ได้พูดว่า were"}
+  explain: "กริยาตาม ==คำนามหลัก== ไม่ใช่คำนามที่อยู่ใกล้สุด"
+  status: draft
+- id: cefr-c2-w04-005
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "Which version is clearest for a general reader?"
+  choices:
+    - {t: "The council has not repaired the bridge, so drivers face long delays.", why: "แตกนามวลียาวเป็นประโยค ++อ่านง่ายสำหรับคนทั่วไป++"}
+    - {t: "Council bridge repair non-completion is causing driver delay increases.", why: "นามซ้อนหลายชั้นจนอ่านยาก"}
+    - {t: "The non-repair of the bridge by the council causes delays of drivers.", why: "ถูกไวยากรณ์ แต่แข็งและไม่เป็นธรรมชาติ"}
+    - {t: "Delays of drivers are the council's bridge non-repair result.", why: "อ่านยากและไม่เป็นธรรมชาติ"}
+  explain: "ผู้อ่านทั่วไป ==แตกนามวลีกลับเป็นประโยค== งานวิชาการค่อยใช้นามวลี"
+  status: draft
+- id: cefr-c2-w04-006
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "The ____ of the new policy took longer than expected."
+  choices:
+    - {t: implementation, why: "คำนามของ implement ++implementation++"}
+    - {t: implementer, why: "implementer คือผู้นำไปใช้ (คน) ไม่ใช่การนำไปใช้"}
+    - {t: implement, why: "implement เป็นกริยา (หรือคำนามที่แปลว่าเครื่องมือ)"}
+    - {t: implemented, why: "เป็นกริยาช่อง 3"}
+  explain: "เขียนทางการ ใช้ ==คำนาม -tion / -ment== แทน -ing"
+  status: draft
+- id: cefr-c2-w04-007
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "Which noun phrase correctly expresses \"the way that people perceive risk\"?"
+  choices:
+    - {t: people's perception of risk, why: "possessive + คำนาม + of ++people's perception of risk++"}
+    - {t: the perceiving risk of people, why: "ลำดับไม่ถูก จึงใช้ไม่ได้"}
+    - {t: the people risk perception, why: "นามซ้อนไม่ถูกต้อง"}
+    - {t: risk's perception by people, why: "ไม่เป็นธรรมชาติ"}
+  explain: "ประธานของการกระทำ ==ใช้ 's== กรรมใช้ of (people's perception of risk)"
+  status: draft
+- id: cefr-c2-w04-008
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 3
+  stem: "\"The decision to close the factory\" means ____."
+  choices:
+    - {t: someone decided that the factory would close, why: "decision + to + กริยา = ++การตัดสินใจที่จะ++"}
+    - {t: the factory decided to close itself, why: "โรงงานตัดสินใจเองไม่ได้"}
+    - {t: the factory has already been demolished, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: the factory is near a decision, why: "ความหมายผิด จึงใช้ไม่ได้"}
+  explain: "==noun + to-infinitive== (decision / attempt / plan to ...)"
+  status: draft
+- id: cefr-c2-w04-009
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 3
+  stem: "Which sentence avoids ambiguity?"
+  choices:
+    - {t: "The report on staff training, which was published in May, has been widely praised.", why: "relative clause ชัดว่า ++ขยาย report++ เพราะเป็นข้อมูลเสริม"}
+    - {t: "The report on staff training published in May has been widely praised.", why: "กำกวมว่าตีพิมพ์คือรายงานหรือการอบรม"}
+    - {t: "The staff training report published in May widely praised has been.", why: "ผิดลำดับ จึงใช้ไม่ได้"}
+    - {t: "Published in May, staff training has been widely praised in the report.", why: "ความหมายเปลี่ยน"}
+  explain: "นามวลียาวอาจ ==กำกวมว่าส่วนขยายเกาะคำไหน== ใช้ , which ช่วยให้ชัด"
+  status: draft
+- id: cefr-c2-w04-010
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "Her ____ to accept the offer surprised everyone."
+  choices:
+    - {t: refusal, why: "คำนามของ refuse ++refusal++ + to"}
+    - {t: refuse, why: "refuse เป็นกริยา (หรือคำนามแปลว่าขยะ)"}
+    - {t: refusement, why: "ไม่มีคำนี้ คำนามของ refuse คือ refusal"}
+    - {t: refused, why: "เป็นกริยาช่อง 2/3"}
+  explain: "==refuse → refusal== · fail → failure · arrive → arrival"
+  status: draft
+- id: cefr-c2-w04-011
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "\"Unemployment fell, which was mainly because tourism recovered.\" Best academic version?"
+  choices:
+    - {t: "The fall in unemployment was mainly due to the recovery of tourism.", why: "nominalise ทั้งเหตุและผล ++fall in · recovery of++"}
+    - {t: "Unemployment falling was mainly due to tourism recovering.", why: "ใช้ -ing ไม่กระชับเท่าคำนาม"}
+    - {t: "The unemployment fall was mainly due to tourism's recovering.", why: "นามซ้อนไม่เป็นธรรมชาติ"}
+    - {t: "Mainly due to recovery tourism, unemployment fell.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
+  explain: "เหตุและผลทางวิชาการ ==คำนาม + be due to + คำนาม=="
+  status: draft
+- id: cefr-c2-w04-012
+  kind: type
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  stem: "The a______ of the new machines reduced costs by 20%. (การนำเข้ามาใช้ · คำนามของ adopt)"
+  answer: adoption
+  accept: [adoption]
+  why: "adopt (v) → adoption (n)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การเปลี่ยนแปลงและผลตามมา ----------
+- id: cefr-c2-w04-013
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 1
+  stem: "The ____ of fake news websites has made it harder to trust what we read online."
+  choices:
+    - {t: proliferation, why: "การแพร่ขยายอย่างรวดเร็ว ใช้ ++proliferation++"}
+    - {t: cessation, why: "cessation แปลว่าการหยุด"}
+    - {t: inception, why: "inception แปลว่าจุดเริ่มต้น"}
+    - {t: attrition, why: "attrition แปลว่าการลดลงทีละน้อย"}
+  explain: "proliferation = ==การเพิ่มจำนวนอย่างรวดเร็ว=="
+  status: draft
+- id: cefr-c2-w04-014
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 1
+  stem: "Since its ____ in 2010, the charity has helped over 10,000 families."
+  choices:
+    - {t: inception, why: "จุดเริ่มต้น ใช้ ++since its inception++"}
+    - {t: cessation, why: "cessation แปลว่าการหยุด ขัดกับยังช่วยอยู่"}
+    - {t: precedent, why: "precedent แปลว่าแบบอย่างที่มีมาก่อน"}
+    - {t: trajectory, why: "trajectory แปลว่าเส้นทาง"}
+  explain: "inception = ==การเริ่มต้นก่อตั้ง== (since its inception)"
+  status: draft
+- id: cefr-c2-w04-015
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "Years of heavy rain have caused serious ____ of the coastline."
+  choices:
+    - {t: erosion, why: "การกัดเซาะ ใช้ ++erosion++"}
+    - {t: proliferation, why: "proliferation ไม่ใช้กับชายฝั่ง"}
+    - {t: inception, why: "inception ไม่ใช้กับชายฝั่ง"}
+    - {t: corollary, why: "corollary แปลว่าผลที่ตามมาโดยธรรมชาติ"}
+  explain: "erosion = ==การกัดกร่อน== (ใช้เชิงเปรียบได้ erosion of trust)"
+  status: draft
+- id: cefr-c2-w04-016
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "The company lost a third of its staff through ____; nobody was fired, but many who left were not replaced."
+  choices:
+    - {t: attrition, why: "การลดจำนวนจากคนออกเองโดยไม่รับใหม่ ใช้ ++attrition++"}
+    - {t: erosion, why: "erosion ไม่ใช้กับจำนวนพนักงาน"}
+    - {t: upheaval, why: "upheaval แปลว่าการเปลี่ยนแปลงรุนแรงกะทันหัน"}
+    - {t: cessation, why: "cessation แปลว่าการหยุด"}
+  explain: "attrition = ==การลดลงทีละน้อยจากการลาออกเอง=="
+  status: draft
+- id: cefr-c2-w04-017
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "The agreement called for the immediate ____ of all fighting."
+  choices:
+    - {t: cessation, why: "การยุติ ใช้ ++cessation of++"}
+    - {t: inception, why: "inception แปลว่าการเริ่ม ขัดกับบริบท"}
+    - {t: proliferation, why: "ขัดกับบริบท จึงใช้ไม่ได้"}
+    - {t: manifestation, why: "manifestation แปลว่าการแสดงออก"}
+  explain: "cessation = ==การยุติ หยุด (ทางการ)=="
+  status: draft
+- id: cefr-c2-w04-018
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "Nobody had fully considered the ____ of the decision for small businesses."
+  choices:
+    - {t: ramifications, why: "ผลกระทบที่ตามมาหลายทาง ใช้ ++ramifications++"}
+    - {t: inceptions, why: "inception ไม่ใช้ในความหมายนี้"}
+    - {t: cessations, why: "ขัดกับบริบท จึงใช้ไม่ได้"}
+    - {t: prerequisites, why: "prerequisite คือสิ่งที่ต้องมีก่อน"}
+  explain: "ramifications = ==ผลกระทบที่ตามมา (มักไม่คาดคิด)=="
+  status: draft
+- id: cefr-c2-w04-019
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "Constant tiredness can be a ____ of stress rather than a physical illness."
+  choices:
+    - {t: manifestation, why: "การแสดงออกของ ใช้ ++a manifestation of++"}
+    - {t: precedent, why: "precedent ไม่ใช่อาการ"}
+    - {t: trajectory, why: "trajectory ไม่ใช่อาการ"}
+    - {t: cessation, why: "cessation ไม่ใช่อาการ"}
+  explain: "manifestation = ==สิ่งที่แสดงให้เห็นว่ามีบางอย่างอยู่=="
+  status: draft
+- id: cefr-c2-w04-020
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "A good knowledge of statistics is a ____ for this course."
+  choices:
+    - {t: prerequisite, why: "สิ่งที่ต้องมีก่อน ใช้ ++prerequisite++"}
+    - {t: precedent, why: "precedent ไม่ใช่สิ่งที่ต้องมี"}
+    - {t: corollary, why: "corollary คือผลที่ตามมา ไม่ใช่สิ่งที่ต้องมีก่อน"}
+    - {t: manifestation, why: "ไม่เข้ากับบริบท"}
+  explain: "prerequisite = ==เงื่อนไขที่ต้องมีก่อน=="
+  status: draft
+- id: cefr-c2-w04-021
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "If we allow one exception, we will set a ____ that others will follow."
+  choices:
+    - {t: precedent, why: "แบบอย่างให้คนอื่นอ้าง ใช้ ++set a precedent++"}
+    - {t: prerequisite, why: "set a prerequisite ไม่ใช่สำนวนนี้"}
+    - {t: trajectory, why: "set a trajectory ไม่เข้ากับบริบท"}
+    - {t: manifestation, why: "set a manifestation ไม่ใช่สำนวน"}
+  explain: "==set a precedent== = สร้างแบบอย่างที่คนอื่นอ้างได้"
+  status: draft
+- id: cefr-c2-w04-022
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "Higher rents are a natural ____ of rising demand for housing."
+  choices:
+    - {t: corollary, why: "ผลที่ตามมาโดยธรรมชาติ ใช้ ++corollary++"}
+    - {t: prerequisite, why: "prerequisite คือสิ่งที่ต้องมีก่อน"}
+    - {t: inception, why: "inception คือจุดเริ่ม"}
+    - {t: cessation, why: "cessation คือการหยุด"}
+  explain: "corollary = ==ผลที่ตามมาโดยธรรมชาติ=="
+  status: draft
+- id: cefr-c2-w04-023
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 3
+  stem: "Moving to a new country can cause great emotional ____, especially for children."
+  choices:
+    - {t: upheaval, why: "การเปลี่ยนแปลงรุนแรงที่ทำให้วุ่นวาย ใช้ ++upheaval++"}
+    - {t: attrition, why: "attrition คือการลดทีละน้อย"}
+    - {t: inception, why: "inception ไม่เข้ากับบริบท"}
+    - {t: precedent, why: "precedent ไม่เข้ากับบริบท"}
+  explain: "upheaval = ==การเปลี่ยนแปลงรุนแรง วุ่นวาย=="
+  status: draft
+- id: cefr-c2-w04-024
+  kind: type
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: "Her career followed an upward t_________ from assistant to director in ten years. (เส้นทางการเปลี่ยนแปลง)"
+  answer: trajectory
+  accept: [trajectory]
+  why: "trajectory = เส้นทาง ทิศทางการพัฒนา"
+  status: draft
+# ---------- วันที่ 3 · ประโยคย่อไม่มีกริยาแท้ ----------
+- id: cefr-c2-w04-025
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 1
+  stem: "____ finished, the team went out to celebrate."
+  choices:
+    - {t: The work, why: "absolute construction ++คำนาม + participle++ (The work finished = When the work was finished)"}
+    - {t: Having the work, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: The work was, why: "ทำให้มีสองประโยคติดกันโดยไม่มีคำเชื่อม"}
+    - {t: Being the work, why: "บทไม่ได้พูดว่า Being the work"}
+  explain: "==คำนาม + participle, ประโยคหลัก== (ประธานต่างกัน)"
+  status: draft
+- id: cefr-c2-w04-026
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 1
+  stem: "____ tired, she kept working until midnight."
+  choices:
+    - {t: Though, why: "verbless clause ++Though + คุณศัพท์++ (= Though she was tired)"}
+    - {t: Despite, why: "despite ไม่ตามด้วยคุณศัพท์เดี่ยว"}
+    - {t: However, why: "however ไม่ใช้แบบนี้"}
+    - {t: Nevertheless, why: "nevertheless ไม่ตามด้วยคุณศัพท์"}
+  explain: "==Though== / Although / If / When + คุณศัพท์ หรือวลี ละ ประธาน + be"
+  status: draft
+- id: cefr-c2-w04-027
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 2
+  stem: "She walked into the meeting ____ her phone still ringing."
+  choices:
+    - {t: with, why: "with + คำนาม + -ing ++บอกสภาพที่เกิดพร้อมกัน++"}
+    - {t: and, why: "and her phone still ringing ขาดกริยาแท้"}
+    - {t: as, why: "as her phone still ringing ขาดกริยาแท้"}
+    - {t: while, why: "while ต้องมีกริยาแท้ (was ringing)"}
+  explain: "==with + คำนาม + -ing / ช่อง 3== = โดยที่..."
+  status: draft
+- id: cefr-c2-w04-028
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 2
+  stem: "____ the weather permitting, the ceremony will be held outdoors."
+  choices:
+    - {t: "(no word)", why: "absolute construction ตายตัว ++Weather permitting++ ไม่ต้องมีคำนำ"}
+    - {t: If, why: "If weather permitting ผิดรูป"}
+    - {t: With, why: "With weather permitting ใช้ไม่ได้ในสำนวนนี้"}
+    - {t: Being, why: "Being weather permitting ผิดรูป"}
+  explain: "สำนวน ==Weather permitting== · All things considered · Time permitting"
+  status: draft
+- id: cefr-c2-w04-029
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 2
+  stem: "____ in 1890, the bridge is the oldest in the city."
+  choices:
+    - {t: Built, why: "ประธาน (the bridge) ถูกกระทำ ++ช่อง 3++"}
+    - {t: Building, why: "สะพานไม่ได้สร้างเอง"}
+    - {t: Having built, why: "รูปกระทำ ความหมายผิด"}
+    - {t: To build, why: "ความหมายผิด จึงใช้ไม่ได้"}
+  explain: "ส่วนย่อต้น ==ประธานเดียวกับประโยคหลัก== และเลือก -ing / ช่อง 3 ตามความหมาย"
+  status: draft
+- id: cefr-c2-w04-030
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 2
+  stem: "Which sentence contains a dangling modifier?"
+  choices:
+    - {t: "Driving to work, the accident blocked the road.", why: "ประธานของ driving คือ ++the accident++ ซึ่งขับรถไม่ได้"}
+    - {t: "Driving to work, I saw the accident.", why: "ประธานตรงกัน ถูกต้อง"}
+    - {t: "The accident having blocked the road, I was late.", why: "absolute construction ถูกต้อง"}
+    - {t: "Though delayed, I reached work by nine.", why: "verbless clause ถูกต้อง"}
+  explain: "dangling modifier = ==ส่วนย่อไม่มีประธานที่ถูกต้องในประโยคหลัก=="
+  status: draft
+- id: cefr-c2-w04-031
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 3
+  stem: "\"All things considered, the event was a success.\" What does the first part mean?"
+  choices:
+    - {t: when everything is taken into account, why: "สำนวน absolute ++เมื่อพิจารณาทุกอย่างแล้ว++"}
+    - {t: because all things were expensive, why: "ความหมายผิด จึงใช้ไม่ได้"}
+    - {t: although nothing was planned, why: "บทไม่ได้พูดว่า although nothing was planned"}
+    - {t: after all the things were sold, why: "บทไม่ได้พูดว่า after all the things were sold"}
+  explain: "==All things considered== = เมื่อพิจารณาทุกด้านแล้ว"
+  status: draft
+- id: cefr-c2-w04-032
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 3
+  stem: "____ no further questions, the chair closed the meeting."
+  choices:
+    - {t: There being, why: "absolute construction กับ there ++There being + คำนาม++"}
+    - {t: There were, why: "ทำให้มีสองประโยคโดยไม่มีคำเชื่อม"}
+    - {t: Being there, why: "ความหมายผิด จึงใช้ไม่ได้"}
+    - {t: Having there, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==There being + คำนาม== = เนื่องจากไม่มี/มี... (ทางการ)"
+  status: draft
+- id: cefr-c2-w04-033
+  kind: type
+  skill: gm
+  topic: non-finite-verbless
+  level: 2
+  stem: "W_______ any warning, the power went off. (โดยไม่มี)"
+  answer: without
+  accept: [without, Without]
+  why: "without + คำนาม = โดยไม่มี"
+  status: draft
+- id: cefr-c2-w04-034
+  kind: cloze
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  text: |
+    This study examines (1) ____ of mobile banking among older adults in northern Thailand. (2) ____ from 600 participants, the data suggest that (3) ____ to digital services remains the main barrier, rather than a lack of interest.
+  questions:
+    - choices:
+        - {t: the adoption, why: "nominalisation the adoption of"}
+        - {t: adopting, why: "examines adopting of ไม่ถูก"}
+        - {t: the adopt, why: "adopt เป็นกริยา"}
+        - {t: to adopt, why: "examines to adopt ไม่ถูก"}
+    - choices:
+        - {t: Collected, why: "ข้อมูลถูกเก็บ ใช้ช่อง 3 ประธานคือ the data"}
+        - {t: Collecting, why: "ข้อมูลเก็บตัวเองไม่ได้"}
+        - {t: Having collected, why: "รูปกระทำ ประธานไม่ตรง"}
+        - {t: To collect, why: "ความหมายผิด จึงใช้ไม่ได้"}
+    - choices:
+        - {t: limited access, why: "นามวลี limited access to"}
+        - {t: limit accessing, why: "ผิดรูป จึงใช้ไม่ได้"}
+        - {t: limitedly access, why: "บทไม่ได้พูดว่า limitedly access"}
+        - {t: limiting accessed, why: "บทไม่ได้พูดว่า limiting accessed"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทคัดย่องานวิจัยและฟังการนำเสนอ ----------
+- id: cefr-c2-w04-035
+  kind: read
+  skill: rd
+  topic: research-abstract
+  level: 3
+  title: "Abstract and Introduction · Reading Habits and Screen Use among Thai Adults (fictional study)"
+  passage: |
+    Abstract. The proliferation of smartphones over the past decade has raised concerns about the erosion of sustained reading among adults. This study investigated the relationship between daily screen time and the frequency of extended reading (defined as reading a single text for at least twenty minutes) among 1,200 Thai adults aged 25 to 60. Data were collected through an online survey and a two-week reading diary. Contrary to expectations, no simple negative relationship was found. Participants with high screen use read as often as those with low screen use; however, their reading sessions were significantly shorter, and a greater proportion of their reading took place on phones rather than in print. The findings suggest that screen use may be reshaping, rather than replacing, reading habits. Implications for public library services and adult education are discussed.
+
+    Introduction. Since the inception of the smartphone, commentators have predicted the decline of the book. Much of this commentary, however, rests on anecdote rather than evidence. Previous research, mostly conducted in Europe and North America, has produced mixed results: some studies report a fall in reading time, while others find that digital reading has simply increased the total amount of text people consume. Little is known about adult readers in Southeast Asia, where patterns of phone use and access to printed books differ considerably. The present study addresses this gap. A secondary aim is to examine whether the shift to shorter reading sessions is a manifestation of reduced attention or a corollary of the way digital texts are designed, an issue with clear ramifications for how libraries and educators support adult learners.
+  questions:
+    - stem: What was the main finding of the study?
+      choices:
+        - {t: heavy screen users read as often but in shorter sessions, why: "read as often ... however, their reading sessions were significantly shorter"}
+        - {t: heavy screen users read much less often, why: "Contrary to expectations, no simple negative relationship was found"}
+        - {t: nobody reads printed books anymore, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: smartphones improve concentration, why: "บทไม่ได้พูดว่า smartphones improve concentration"}
+    - stem: What does "reshaping, rather than replacing" suggest?
+      choices:
+        - {t: reading is changing form but has not disappeared, why: "reshaping = เปลี่ยนรูปแบบ · not replacing = ไม่ได้หายไป"}
+        - {t: screens have completely replaced reading, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: reading has stayed exactly the same, why: "เวลาอ่านต่อครั้งสั้นลง"}
+        - {t: libraries should close, why: "ไม่มีข้อเสนอนี้"}
+    - stem: Why did the researchers focus on Southeast Asia?
+      choices:
+        - {t: little previous research had looked at this region, why: "Little is known about adult readers in Southeast Asia ... addresses this gap"}
+        - {t: phone use is identical everywhere, why: "ตรงกันข้าม ต่างกันมาก"}
+        - {t: European studies were all positive, why: "ผลวิจัยเดิมผสมกัน"}
+        - {t: books are cheaper there, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: What is the study's secondary aim?
+      choices:
+        - {t: to find out why reading sessions are shorter, why: "whether the shift ... is a manifestation of reduced attention or a corollary of the way digital texts are designed"}
+        - {t: to count how many books people own, why: "ไม่ใช่จุดประสงค์"}
+        - {t: to design a new reading app, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: to compare men and women, why: "บทไม่ได้พูดว่า to compare men and women"}
+  status: draft
+- id: cefr-c2-w04-036
+  kind: listen
+  skill: li
+  topic: research-presentation
+  level: 3
+  script:
+    - {who: Woman, en: "The sample size being relatively small, I'd treat these results as indicative rather than conclusive."}
+  questions:
+    - stem: Why does the speaker urge caution?
+      choices:
+        - {t: the sample was small, why: "The sample size being relatively small"}
+        - {t: the results were negative, why: "ไม่ได้พูดว่าผลเป็นลบ"}
+        - {t: the data were lost, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the study took too long, why: "บทไม่ได้พูดว่า the study took too long"}
+  status: draft
+- id: cefr-c2-w04-037
+  kind: listen
+  skill: li
+  topic: research-presentation
+  level: 3
+  script:
+    - {who: Man, en: "Does the decline in attendance reflect a loss of interest?"}
+    - {who: Woman, en: "Not necessarily. It may simply be a corollary of the move to evening classes, which many parents can't attend."}
+  questions:
+    - stem: What explanation does the woman suggest?
+      choices:
+        - {t: the change of class times, why: "a corollary of the move to evening classes"}
+        - {t: people are less interested, why: "Not necessarily"}
+        - {t: the classes were too expensive, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the teachers left, why: "บทไม่ได้พูดว่า the teachers left"}
+  status: draft
+- id: cefr-c2-w04-038
+  kind: listen
+  skill: li
+  topic: research-presentation
+  level: 3
+  script:
+    - {who: Woman, en: "Since the programme's inception, the trajectory has been broadly upward, with one notable exception: the year of the floods."}
+  questions:
+    - stem: What does the speaker say about the programme's progress?
+      choices:
+        - {t: generally improving except for one year, why: "broadly upward, with one notable exception"}
+        - {t: steadily declining, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: completely unchanged, why: "มีแนวโน้มขึ้น จึงใช้ไม่ได้"}
+        - {t: stopped after the floods, why: "เป็นแค่ปีที่ยกเว้น"}
+  status: draft
+- id: cefr-c2-w04-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The meeting over, everyone, went back, to their desks]
+  sentence: The meeting over, everyone went back to their desks.
+  th: พอประชุมเสร็จ ทุกคนก็กลับไปที่โต๊ะ
+  why: "absolute construction คำนาม + over แล้วประโยคหลัก"
+  status: draft
+- id: cefr-c2-w04-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The steady growth, of food delivery apps, has led to, a decline in restaurant visits]
+  sentence: The steady growth of food delivery apps has led to a decline in restaurant visits.
+  th: การเติบโตต่อเนื่องของแอปส่งอาหารทำให้คนไปนั่งกินที่ร้านน้อยลง
+  why: "นามวลี growth of ... · lead to · decline in"
+  status: draft
+- id: cefr-c2-w04-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [With prices, rising every month, many families, are cutting back on travel]
+  sentence: With prices rising every month, many families are cutting back on travel.
+  th: เมื่อราคาขึ้นทุกเดือน หลายครอบครัวจึงลดการเดินทาง
+  why: "with + คำนาม + -ing บอกสภาพแวดล้อม"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c2-w04-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [This project examines, the impact of, community gardens, on the well-being, of older residents]
+  sentence: This project examines the impact of community gardens on the well-being of older residents.
+  th: โครงการนี้ศึกษาผลกระทบของสวนชุมชนต่อสุขภาวะของผู้สูงอายุ
+  why: "examine + นามวลี impact of ... on ..."
+  status: draft

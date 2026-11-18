@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 4 · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 4
+phase: 1
+theme_th: การย่อความคิดให้แน่น
+focus_th: นามวลียาวและ nominalisation · การแตกนามวลีเพื่อความชัด · absolute constructions · verbless clauses · with/without + นาม + participle
+can_do_th:
+  - เขียนข้อความเชิงวิชาการที่กระชับและแน่นได้
+  - อ่านนามวลียาวและแยกคำหลักกับส่วนขยายได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: นามวลียาว
+    lesson:
+      rule_th: "งานเขียนวิชาการเปลี่ยน ==กริยาเป็นคำนาม (nominalisation)== เพื่อย่อหลายประโยคเป็นหนึ่ง แต่ ++ต้องหาคำนามหลักให้เจอ++ เพราะกริยาตามคำนามหลัก และเมื่อเขียนให้คนทั่วไปอ่าน ให้แตกนามวลีกลับเป็นประโยค"
+      examples:
+        - {en: "<k>The sharp rise in prices</k> worried consumers.", th: "==สองประโยคเหลือหนึ่ง=="}
+        - {en: "an increase <k>in</k> numbers · an increase <k>of</k> 10%", th: "in กับสิ่ง of กับจำนวน"}
+        - {en: "<k>The expansion</k> of private schools <k>has</k> ...", th: "กริยาตามคำหลัก"}
+        - {en: "<k>people's perception of</k> risk", th: "'s ผู้ทำ · of สิ่งที่ถูกทำ"}
+      signals:
+        - {label_th: "คู่กริยา → คำนาม", words: ["rise → rise in", "fail → failure", "refuse → refusal", "adopt → adoption", "decide → decision to"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่ผันกริยาตามประธาน คนจึงผันตาม ~~คำนามที่อยู่ใกล้กริยาที่สุด~~ ไม่ใช่คำนามหลัก"
+        wrong: ["The growth of online shops have changed retail.", "There was an increase of the number of tourists."]
+        right: ["The growth of online shops has changed retail.", "There was an increase in the number of tourists."]
+      notes:
+        - {kind: tip, th: "อ่านนามวลียาว ==หาคำนามตัวแรกก่อน of / in== นั่นมักเป็นคำหลัก"}
+        - {kind: warn, th: "นามซ้อนเกินสามชั้นอ่านยาก แตกเป็นประโยคดีกว่า"}
+    check: [cefr-c2-w04-001, cefr-c2-w04-002]
+    practice: [cefr-c2-w04-003, cefr-c2-w04-004, cefr-c2-w04-005, cefr-c2-w04-006, cefr-c2-w04-007, cefr-c2-w04-008, cefr-c2-w04-009, cefr-c2-w04-010, cefr-c2-w04-011, cefr-c2-w04-012]
+    use:
+      prompt_th: เปลี่ยน 2 ประโยคนี้เป็นประโยคเดียวแบบวิชาการ แล้วเขียนอีก 1 ประโยคแบบอ่านง่าย "Tourists arrived in large numbers. This put pressure on water supplies."
+      frame: "Academic: The ____ of ____ put pressure on ____. Plain: ____."
+      model: "Academic: The arrival of large numbers of tourists put pressure on water supplies. Plain: So many tourists came that the town began to run short of water."
+    classroom: {en: "Let me rephrase that more simply.", th: "ขอพูดใหม่ให้ง่ายกว่านี้"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การเปลี่ยนแปลงและผลตามมา 12 คำ
+    lesson:
+      rule_th: "คำนามชุดนี้ใช้บรรยายการเปลี่ยนแปลงในงานวิชาการ ==จุดเริ่ม inception== · การหยุด cessation · การเพิ่ม proliferation · การลด attrition / erosion และ ++ผลตามมา ramification++ · corollary · precedent"
+      examples:
+        - {en: "<k>the proliferation of</k> fake news", th: "แพร่ขยายรวดเร็ว"}
+        - {en: "since its <k>inception</k>", th: "==ตั้งแต่ก่อตั้ง=="}
+        - {en: "<k>set a precedent</k>", th: "สร้างแบบอย่าง"}
+        - {en: "a natural <k>corollary</k> of demand", th: "ผลตามธรรมชาติ"}
+      words:
+        - {w: proliferation, pos: n., th: การแพร่ขยายรวดเร็ว, ex: "the proliferation of delivery apps"}
+        - {w: erosion, pos: n., th: การกัดกร่อน, ex: "the erosion of public trust"}
+        - {w: attrition, pos: n., th: การลดลงทีละน้อย, ex: "staff attrition"}
+        - {w: inception, pos: n., th: จุดเริ่มต้น, ex: "since the company's inception"}
+        - {w: cessation, pos: n., th: การยุติ, ex: "a cessation of hostilities"}
+        - {w: ramification, pos: n., th: ผลกระทบที่ตามมา, ex: "the legal ramifications"}
+        - {w: manifestation, pos: n., th: การแสดงออก อาการ, ex: "a manifestation of stress"}
+        - {w: prerequisite, pos: n., th: สิ่งที่ต้องมีก่อน, ex: "Trust is a prerequisite for teamwork."}
+        - {w: precedent, pos: n., th: แบบอย่างที่มีมาก่อน, ex: "There is no precedent for this."}
+        - {w: corollary, pos: n., th: ผลที่ตามมาโดยธรรมชาติ, ex: "a corollary of the new rules"}
+        - {w: upheaval, pos: n., th: การเปลี่ยนแปลงรุนแรง, ex: "political upheaval"}
+        - {w: trajectory, pos: n., th: เส้นทาง ทิศทาง, ex: "an upward trajectory"}
+      thai_trap:
+        intro_th: "คนไทยสลับ ~~prerequisite กับ precedent~~ เพราะขึ้นต้นด้วย pre เหมือนกัน"
+        wrong: ["English is a precedent for this job.", "This case will set a prerequisite."]
+        right: ["English is a prerequisite for this job.", "This case will set a precedent."]
+      notes:
+        - {kind: pin, th: "==prerequisite ต้องมีก่อน== · precedent เคยเกิดมาก่อน"}
+        - {kind: use, th: "เขียนบทนำ Since its inception, the programme has ..."}
+    check: [cefr-c2-w04-013, cefr-c2-w04-014]
+    practice: [cefr-c2-w04-015, cefr-c2-w04-016, cefr-c2-w04-017, cefr-c2-w04-018, cefr-c2-w04-019, cefr-c2-w04-020, cefr-c2-w04-021, cefr-c2-w04-022, cefr-c2-w04-023, cefr-c2-w04-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบวิชาการบรรยายการเปลี่ยนแปลงในเมืองหรือที่ทำงานของคุณ
+      frame: "The proliferation of ____ has led to ____. One ramification of this is ____."
+      model: "The proliferation of food delivery apps has led to a sharp rise in motorbike traffic. One ramification of this is the growing number of minor accidents near office buildings."
+    classroom: {en: "There's no precedent for this.", th: "เรื่องนี้ไม่เคยมีมาก่อน"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ประโยคย่อไม่มีกริยาแท้
+    lesson:
+      rule_th: "ย่อประโยคเวลาหรือเหตุผลได้โดยไม่มีกริยาแท้ ==ประธานต่างกัน ใช้ absolute== (The work finished, ...) · ++ประธานเดียวกัน ใช้ Though++ / When + คุณศัพท์ หรือ participle · with + คำนาม + -ing บอกสภาพที่เกิดพร้อมกัน"
+      examples:
+        - {en: "<k>The work finished</k>, we went out.", th: "==ประธานต่างกัน=="}
+        - {en: "<k>Though tired</k>, she kept working.", th: "ละ she was"}
+        - {en: "<k>With prices rising</k>, families cut back.", th: "with + นาม + -ing"}
+        - {en: "<k>There being</k> no questions, the chair closed the meeting.", th: "there being ทางการ"}
+      signals:
+        - {label_th: "สำนวนตายตัว", words: ["weather permitting", "all things considered", "time permitting", "that said"]}
+      thai_trap:
+        intro_th: "ภาษาไทยละประธานได้อิสระ คนจึงเขียน ~~ส่วนย่อที่ประธานไม่ตรง (dangling)~~ ซึ่งฟังผิดความหมาย"
+        wrong: ["Driving to work, the accident blocked the road.", "Being a holiday, the shops were closed."]
+        right: ["As I was driving to work, an accident blocked the road.", "It being a holiday, the shops were closed."]
+      notes:
+        - {kind: tip, th: "ถามว่า ==ใครทำกริยาในส่วนย่อ== ถ้าไม่ใช่ประธานประโยคหลัก ให้ใส่ประธานเข้าไป"}
+        - {kind: use, th: "รายงานวิชาการ The sample being small, these results are tentative."}
+    check: [cefr-c2-w04-025, cefr-c2-w04-026]
+    practice: [cefr-c2-w04-027, cefr-c2-w04-028, cefr-c2-w04-029, cefr-c2-w04-030, cefr-c2-w04-031, cefr-c2-w04-032, cefr-c2-w04-033, cefr-c2-w04-034]
+    use:
+      prompt_th: เขียน 2 ประโยค ใช้ absolute construction และ with + คำนาม + -ing อย่างละครั้ง
+      frame: "____ finished, ____. With ____ -ing, ____."
+      model: "The renovation finished, the café reopened with a larger kitchen. With more customers arriving every week, the owners are now hiring two more staff."
+    classroom: {en: "All things considered, it went well.", th: "โดยรวมแล้วถือว่าไปได้ดี"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทคัดย่องานวิจัยและฟังการนำเสนอ
+    lesson:
+      rule_th: "บทคัดย่อเรียงตายตัว ==ปัญหา → วิธีวิจัย → ผล → ความหมาย== บทนำบอก ++ช่องว่างของงานวิจัยเดิม++ (Little is known about ...) และจุดประสงค์ของงานนี้"
+      examples:
+        - {en: "<k>This study investigated</k> ...", th: "วิธีวิจัย"}
+        - {en: "<k>Contrary to expectations</k>, ...", th: "==ผลที่ไม่คาดคิด=="}
+        - {en: "<k>Little is known about</k> ...", th: "ช่องว่างของงานวิจัย"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นประโยคแรกเรื่องความกังวล แล้วตอบว่า ~~ผลวิจัยยืนยันความกังวลนั้น~~ ทั้งที่ผลจริงขัดกับที่คาด"
+        wrong: ["ตอบว่าคนใช้มือถือมากอ่านหนังสือน้อยลง"]
+        right: ["คนใช้มือถือมากอ่านบ่อยเท่ากัน แต่อ่านครั้งละสั้นลงและอ่านบนมือถือมากขึ้น"]
+      notes:
+        - {kind: tip, th: "หาคำว่า ==however · contrary to · rather than== ผลจริงมักอยู่ตรงนั้น"}
+        - {kind: use, th: "ฟังนำเสนองานวิจัย จดขนาดกลุ่มตัวอย่างและข้อจำกัดที่ผู้พูดยอมรับ"}
+    check: [cefr-c2-w04-036, cefr-c2-w04-037]
+    practice: [cefr-c2-w04-035, cefr-c2-w04-038, cefr-c2-w04-039, cefr-c2-w04-040, cefr-c2-w04-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปผลวิจัยเรื่องการอ่านโดยใช้นามวลี
+      frame: "The study found no ____ between ____ and ____. Instead, ____."
+      model: "The study found no simple relationship between screen time and the frequency of reading. Instead, heavy screen use was associated with shorter reading sessions."
+    classroom: {en: "Let me put that in context.", th: "ขออธิบายบริบทก่อน"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 35
+    title_th: ห้องฝึกเขียน บทคัดย่อของโครงการ 200 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนบทคัดย่อประมาณ 200 คำของโครงการที่คุณทำหรืออยากทำ (เช่น สวนผักชุมชน · ชมรมอ่านหนังสือ · โครงการลดขยะในออฟฟิศ · การสอนผู้สูงอายุใช้มือถือ) บอกปัญหา จุดประสงค์ วิธีดำเนินการ ผลที่ได้หรือที่คาด และความหมายของผลนั้น ใช้นามวลีและภาษาวิชาการ"
+      frame:
+        - "Background: The ____ of ____ has raised concerns about ____."
+        - "Aim: This project aims to ____."
+        - "Method: Over ____, ____ were ____."
+        - "Results: The findings suggest that ____, although ____."
+        - "Implications: These results have implications for ____."
+      model_pass: "The rapid growth of online shopping has led to a large increase in packaging waste in office buildings. This project aimed to reduce the amount of plastic and cardboard thrown away at a company in Bangkok with 300 employees. Over six months, recycling bins were placed on every floor, and staff were given short training sessions on how to sort waste. A small reward was offered to the department with the best results each month. The weight of waste sent to landfill was measured every week. The findings suggest that the project reduced landfill waste by about 35 per cent. The biggest improvement was seen in the first two months, after which progress slowed. Staff feedback indicated that the training was more effective than the rewards. These results have implications for other companies that want to reduce waste, as they show that clear information may be more important than incentives. Further research is needed to see whether the improvement lasts."
+      model_good: "The proliferation of online shopping has led to a marked increase in packaging waste in workplaces, much of which is sent to landfill rather than recycled. This project investigated whether a low-cost intervention could change waste-sorting behaviour in a Bangkok office of 300 employees. Over six months, sorting stations were installed on every floor, staff attended two fifteen-minute training sessions, and a monthly reward was offered to the best-performing department. The weight of landfill waste was recorded weekly and compared with a three-month baseline. Landfill waste fell by approximately 35 per cent, with the sharpest reduction occurring in the first eight weeks. Thereafter, the trajectory flattened, suggesting that initial enthusiasm alone is insufficient to sustain change. Staff feedback indicated that the training was perceived as considerably more useful than the reward scheme. These findings, though limited to a single site, have implications for organisations seeking to reduce waste without significant investment: clear information appears to be a prerequisite for change, whereas incentives may play only a marginal role. A longer follow-up period is needed to establish whether the reduction is maintained."
+      steps_th:
+        - จดหัวข้อห้าส่วน ปัญหา จุดประสงค์ วิธี ผล ความหมาย
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครงแล้วเขียนให้ได้ประมาณ 180–220 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนเฉพาะนามวลี ดูว่ากริยาตรงกับคำนามหลักทุกจุด
+      checklist_th:
+        - ครบห้าส่วนตามลำดับของบทคัดย่อ
+        - ใช้ nominalisation อย่างน้อย 4 จุด และไม่ซ้อนจนอ่านยาก
+        - ใช้ภาษาระวังกับผลที่ได้ (suggest · appear · approximately)
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 2 คำ และยาวประมาณ 200 คำ
+    practice: [cefr-c2-w04-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 4
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [1, 2, 3, 4], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
