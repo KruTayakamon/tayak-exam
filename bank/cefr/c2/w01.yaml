@@ -1,0 +1,578 @@
+# คอร์ส c2 · สัปดาห์ 1 · ความแม่นยำของความหมาย · will/would พฤติกรรมประจำ · may well · might as well · shall ทางการ · tense ในประโยคซ้อน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย (แอปยังไม่มีปุ่มสลับภาษา เหมือน C1)
+# ---------- วันที่ 1 · ความต่างเล็กน้อยของ modal ----------
+- id: cefr-c2-w01-001
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 1
+  stem: "My grandfather ____ sit on the porch for hours, watching the traffic go by. He still does it every afternoon."
+  choices:
+    - {t: will, why: "นิสัยประจำที่ยังเป็นอยู่ตอนนี้ ใช้ ++will++ (characteristic behaviour)"}
+    - {t: would, why: "would ใช้กับนิสัยในอดีต แต่ประโยคบอกว่ายังทำอยู่"}
+    - {t: shall, why: "shall ไม่ใช้บอกนิสัย"}
+    - {t: used to, why: "used to บอกว่าเคยทำแต่ตอนนี้เลิกแล้ว"}
+  explain: "นิสัยประจำตอนนี้ ==will + กริยา== · อดีต would"
+  status: draft
+- id: cefr-c2-w01-002
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 1
+  stem: "The last bus has gone, so we ____ walk. It's only twenty minutes."
+  choices:
+    - {t: might as well, why: "ไม่มีทางเลือกที่ดีกว่า ก็ทำไปเถอะ ใช้ ++might as well++"}
+    - {t: may well, why: "may well แปลว่าน่าจะเป็นไปได้มาก ไม่ใช่ทำเพราะไม่มีทางเลือก"}
+    - {t: had better, why: "had better ใช้เตือนว่าถ้าไม่ทำจะเกิดผลเสีย ไม่ใช่ความหมายช่างมันเถอะ"}
+    - {t: would rather, why: "would rather บอกความชอบ ขัดกับไม่มีทางเลือก"}
+  explain: "==might as well== = ไม่มีอะไรดีกว่านี้ ก็ทำไปเลย"
+  status: draft
+- id: cefr-c2-w01-003
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "Given the recent figures, interest rates ____ rise again before the end of the year."
+  choices:
+    - {t: may well, why: "น่าจะเป็นไปได้มาก ใช้ ++may well++"}
+    - {t: might as well, why: "might as well ใช้กับการตัดสินใจทำ ไม่ใช่การคาดการณ์"}
+    - {t: will have, why: "will have ต้องตามด้วยช่อง 3"}
+    - {t: shall, why: "shall ไม่ใช้คาดการณ์เศรษฐกิจในความหมายนี้"}
+  explain: "==may well / could well== = มีโอกาสสูงที่จะ"
+  status: draft
+- id: cefr-c2-w01-004
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "\"He would leave the lights on, wouldn't he? Every single time.\" What does stressed would express?"
+  choices:
+    - {t: irritation at typical behaviour, why: "would ที่ลงเสียงหนัก ++บ่นนิสัยที่น่ารำคาญ++"}
+    - {t: a polite request, why: "ไม่ใช่คำขอ จึงใช้ไม่ได้"}
+    - {t: a future plan, why: "ไม่ได้พูดถึงแผนอนาคต"}
+    - {t: a hypothetical situation, why: "เป็นสิ่งที่เกิดจริงซ้ำ ๆ ไม่ใช่สมมติ"}
+  explain: "would / will ลงเสียงหนัก = ==รำคาญนิสัยที่ทำเป็นประจำ=="
+  status: draft
+- id: cefr-c2-w01-005
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "The tenant ____ pay the rent no later than the fifth day of each month. (สัญญาเช่าทางการ)"
+  choices:
+    - {t: shall, why: "ภาษากฎหมาย/สัญญา ใช้ ++shall++ บอกหน้าที่"}
+    - {t: might, why: "might บอกความเป็นไปได้ ไม่ใช่หน้าที่"}
+    - {t: would, why: "would ไม่ใช้บอกหน้าที่ในสัญญา"}
+    - {t: may well, why: "may well บอกการคาดการณ์"}
+  explain: "เอกสารทางกฎหมาย ==shall = ต้อง (หน้าที่)=="
+  status: draft
+- id: cefr-c2-w01-006
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "____ I open the window? It's rather stuffy in here."
+  choices:
+    - {t: Shall, why: "เสนอทำให้ ใช้ ++Shall I++"}
+    - {t: Will, why: "Will I open ...? ถามอนาคตของตัวเอง ไม่ใช่การเสนอ"}
+    - {t: Would, why: "Would I open ...? ไม่ใช่รูปเสนอทำให้"}
+    - {t: May well, why: "may well ไม่ใช้ในคำถาม"}
+  explain: "เสนอหรือชวน ==Shall I / Shall we ...?=="
+  status: draft
+- id: cefr-c2-w01-007
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 3
+  stem: "\"You may well be right, but I still think we should wait.\" What is the speaker doing?"
+  choices:
+    - {t: conceding a point before disagreeing, why: "may well ... but = ++ยอมรับว่าอาจถูก แล้วแย้ง++"}
+    - {t: giving permission, why: "may ในที่นี้ไม่ใช่การอนุญาต"}
+    - {t: agreeing completely, why: "มี but และความเห็นต่าง"}
+    - {t: predicting the future, why: "ไม่ได้คาดการณ์อนาคต"}
+  explain: "==may well ... but== = ยอมรับบางส่วนก่อนแย้ง"
+  status: draft
+- id: cefr-c2-w01-008
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "Accidents ____ happen, however careful you are."
+  choices:
+    - {t: will, why: "ความจริงทั่วไปที่เลี่ยงไม่ได้ ใช้ ++will++"}
+    - {t: shall, why: "shall ไม่ใช้กับความจริงทั่วไป"}
+    - {t: might as well, why: "might as well ไม่เข้ากับความจริงทั่วไป"}
+    - {t: would rather, why: "would rather บอกความชอบ"}
+  explain: "นิสัยหรือธรรมชาติของสิ่งต่าง ๆ ==will== (Boys will be boys)"
+  status: draft
+- id: cefr-c2-w01-009
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 3
+  stem: Which sentence is most natural?
+  choices:
+    - {t: "We've missed the start, so we might as well have a coffee first.", why: "might as well + ++ตัดสินใจทำเพราะไม่มีทางเลือกที่ดีกว่า++"}
+    - {t: "We've missed the start, so we may well have a coffee first.", why: "may well = น่าจะเกิด ไม่เข้ากับการตัดสินใจ"}
+    - {t: "We've missed the start, so we shall well have a coffee first.", why: "shall well ไม่มีในภาษาอังกฤษ"}
+    - {t: "We've missed the start, so we would as well have a coffee first.", why: "would as well ไม่ใช่สำนวนมาตรฐาน"}
+  explain: "แยกให้ขาด ==might as well (ตัดสินใจ)== · may well (คาดการณ์)"
+  status: draft
+- id: cefr-c2-w01-010
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 3
+  stem: "\"She will insist on checking every figure herself.\" The speaker suggests that this is ____."
+  choices:
+    - {t: typical of her, why: "will + นิสัย = ++เป็นเช่นนี้ประจำ++"}
+    - {t: something she plans to do once, why: "ไม่ใช่แผนครั้งเดียว"}
+    - {t: something she has been ordered to do, why: "ไม่มีการสั่ง จึงใช้ไม่ได้"}
+    - {t: unlikely to happen, why: "ตรงกันข้าม เกิดเป็นประจำ"}
+  explain: "will + insist on = ==ชอบทำแบบนี้เป็นประจำ (มักแฝงความรำคาญ)=="
+  status: draft
+- id: cefr-c2-w01-011
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "If you're going to the shops anyway, you ____ pick up some milk."
+  choices:
+    - {t: might as well, why: "ไหน ๆ ก็ไปอยู่แล้ว ใช้ ++might as well++"}
+    - {t: may well, why: "may well เป็นการคาดการณ์"}
+    - {t: will, why: "will pick up ฟังเป็นคำทำนาย ไม่ใช่คำแนะนำแบบไหน ๆ ก็"}
+    - {t: shall, why: "you shall ฟังเป็นคำสั่งทางการเกินไป"}
+  explain: "ไหน ๆ ก็... ==might as well=="
+  status: draft
+- id: cefr-c2-w01-012
+  kind: type
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  stem: "The results m__ well change once we include the new data. (น่าจะเป็นไปได้มาก)"
+  answer: may
+  accept: [may]
+  why: "may well = มีโอกาสสูงที่จะ"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ความหมายและการตีความ ----------
+- id: cefr-c2-w01-013
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 1
+  stem: The investigators are still trying to ____ exactly what happened on the night of the fire.
+  choices:
+    - {t: ascertain, why: "หาข้อเท็จจริงให้แน่ชัด ใช้ ++ascertain++"}
+    - {t: construe, why: "construe แปลว่าตีความ ไม่ใช่สืบหาข้อเท็จจริง"}
+    - {t: purport, why: "purport แปลว่าอ้างว่า"}
+    - {t: denote, why: "denote แปลว่าหมายถึง"}
+  explain: "ascertain = ==สืบหาให้แน่ชัด== (ทางการ)"
+  status: draft
+- id: cefr-c2-w01-014
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 1
+  stem: "Her silence was ____ as agreement, although she later said she had simply been tired."
+  choices:
+    - {t: construed, why: "ถูกตีความว่า ใช้ ++be construed as++"}
+    - {t: ascertained, why: "ascertain ไม่ใช้กับ as"}
+    - {t: denoted, why: "denoted as ไม่ใช้กับการตีความท่าที"}
+    - {t: elucidated, why: "elucidate แปลว่าอธิบายให้กระจ่าง"}
+  explain: "==construe ... as== = ตีความว่า"
+  status: draft
+- id: cefr-c2-w01-015
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "The letter ____ to come from the bank, but it was in fact a scam."
+  choices:
+    - {t: purported, why: "อ้างว่าเป็น (ซึ่งอาจไม่จริง) ใช้ ++purport to++"}
+    - {t: denoted, why: "denote ไม่ตามด้วย to + กริยา"}
+    - {t: construed, why: "construe ไม่ตามด้วย to come"}
+    - {t: ascertained, why: "ascertain ไม่ใช้ในความหมายนี้"}
+  explain: "==purport to be / to come from== = อ้างว่า (มักไม่จริง)"
+  status: draft
+- id: cefr-c2-w01-016
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "On the map, a red triangle ____ a campsite."
+  choices:
+    - {t: denotes, why: "เป็นสัญลักษณ์แทน ใช้ ++denote++"}
+    - {t: purports, why: "purport ไม่ใช้กับสัญลักษณ์"}
+    - {t: elucidates, why: "elucidate แปลว่าอธิบาย"}
+    - {t: ascertains, why: "ascertain แปลว่าหาความจริง"}
+  explain: "denote = ==เป็นสัญลักษณ์ของ หมายถึง=="
+  status: draft
+- id: cefr-c2-w01-017
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "Could you ____ on that last point? I'm not sure I followed your reasoning."
+  choices:
+    - {t: elucidate, why: "อธิบายให้กระจ่าง ใช้ ++elucidate++"}
+    - {t: denote, why: "denote on ไม่ใช่สำนวน"}
+    - {t: purport, why: "purport on ไม่ใช่สำนวน"}
+    - {t: construe, why: "construe on ไม่ใช่สำนวน"}
+  explain: "elucidate = ==อธิบายให้กระจ่าง== (ทางการกว่า explain)"
+  status: draft
+- id: cefr-c2-w01-018
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "The minister's answer was deliberately ____, so both sides claimed she supported them."
+  choices:
+    - {t: equivocal, why: "กำกวมโดยเจตนา ใช้ ++equivocal++"}
+    - {t: unequivocal, why: "unequivocal แปลว่าชัดเจน ขัดกับทั้งสองฝ่ายอ้าง"}
+    - {t: verbatim, why: "verbatim แปลว่าคำต่อคำ"}
+    - {t: pedantic, why: "pedantic แปลว่าจู้จี้เรื่องรายละเอียด"}
+  explain: "equivocal = ==กำกวม ตีความได้หลายทาง=="
+  status: draft
+- id: cefr-c2-w01-019
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "The court's ruling was ____: the company must pay the full amount."
+  choices:
+    - {t: unequivocal, why: "ชัดเจนไม่กำกวม ใช้ ++unequivocal++"}
+    - {t: equivocal, why: "ขัดกับคำตัดสินที่ชัดเจน"}
+    - {t: nebulous, why: "nebulous แปลว่าคลุมเครือ"}
+    - {t: tacit, why: "tacit แปลว่าโดยปริยาย ไม่ได้พูดออกมา"}
+  explain: "unequivocal = ==ชัดเจน ไม่มีข้อสงสัย=="
+  status: draft
+- id: cefr-c2-w01-020
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "Nobody signed anything, but there was a ____ agreement that the work would be shared equally."
+  choices:
+    - {t: tacit, why: "เข้าใจกันโดยไม่ต้องพูด ใช้ ++tacit++"}
+    - {t: verbatim, why: "verbatim ไม่ใช้กับข้อตกลงที่ไม่ได้พูด"}
+    - {t: unequivocal, why: "ข้อตกลงที่ไม่ได้เขียนไว้ไม่ใช่ unequivocal"}
+    - {t: pedantic, why: "pedantic ไม่ใช้กับข้อตกลง"}
+  explain: "tacit = ==โดยปริยาย เข้าใจกันเองไม่ต้องพูด=="
+  status: draft
+- id: cefr-c2-w01-021
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "The plan is still rather ____; nobody knows who will pay for it or when it will start."
+  choices:
+    - {t: nebulous, why: "คลุมเครือยังไม่เป็นรูปเป็นร่าง ใช้ ++nebulous++"}
+    - {t: unequivocal, why: "ขัดกับไม่มีใครรู้รายละเอียด"}
+    - {t: verbatim, why: "verbatim ไม่ใช้กับแผน"}
+    - {t: tacit, why: "tacit ไม่ได้แปลว่ายังไม่ชัด"}
+  explain: "nebulous = ==คลุมเครือ ยังไม่ชัดเจน=="
+  status: draft
+- id: cefr-c2-w01-022
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "The journalist quoted the speech ____, without changing a single word."
+  choices:
+    - {t: verbatim, why: "คำต่อคำ ใช้ ++verbatim++"}
+    - {t: tacitly, why: "tacitly แปลว่าโดยปริยาย"}
+    - {t: pedantically, why: "pedantically ไม่ได้แปลว่าคำต่อคำ"}
+    - {t: equivocally, why: "equivocally แปลว่าอย่างกำกวม"}
+  explain: "verbatim = ==คำต่อคำ ตรงทุกคำ=="
+  status: draft
+- id: cefr-c2-w01-023
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 3
+  stem: "Correcting a colleague's grammar in a friendly chat can seem rather ____."
+  choices:
+    - {t: pedantic, why: "จู้จี้เรื่องรายละเอียดเล็กน้อย ใช้ ++pedantic++"}
+    - {t: tacit, why: "tacit ไม่บรรยายพฤติกรรมนี้"}
+    - {t: nebulous, why: "nebulous ไม่บรรยายพฤติกรรมนี้"}
+    - {t: verbatim, why: "verbatim ไม่บรรยายพฤติกรรม"}
+  explain: "pedantic = ==จู้จี้เรื่องกฎหรือรายละเอียดเกินเหตุ=="
+  status: draft
+- id: cefr-c2-w01-024
+  kind: type
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: "The argument is not really about facts; it's about s________, the meaning of the word \"fair\". (ความหมายของคำ)"
+  answer: semantics
+  accept: [semantics]
+  why: "semantics = ความหมายของถ้อยคำ อรรถศาสตร์"
+  status: draft
+# ---------- วันที่ 3 · เวลาในประโยคซ้อน ----------
+- id: cefr-c2-w01-025
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 1
+  stem: "Our teacher told us yesterday that the Earth ____ around the Sun."
+  choices:
+    - {t: goes, why: "ความจริงที่ยังเป็นจริง ++ไม่ต้องเลื่อน tense++"}
+    - {t: will go, why: "ไม่ใช่เรื่องอนาคต"}
+    - {t: had gone, why: "past perfect บอกว่าจบแล้ว ขัดกับความจริงถาวร"}
+    - {t: was going to go, why: "ไม่ใช่แผนในอดีต"}
+  explain: "ความจริงทั่วไป ==ไม่เลื่อน tense ใน reported speech== (went ก็ใช้ได้ แต่ goes ชัดกว่า)"
+  status: draft
+- id: cefr-c2-w01-026
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 1
+  stem: "It's high time you ____ your own flat; you're thirty-five!"
+  choices:
+    - {t: got, why: "It's high time + ++อดีต (ความหมายตอนนี้)++"}
+    - {t: get, why: "หลัง It's high time + ประธาน ต้องใช้อดีต"}
+    - {t: had got, why: "had got ใช้กับสมมติในอดีต"}
+    - {t: will get, why: "will ไม่ใช้ในโครงสร้างนี้"}
+  explain: "==It's (high) time + อดีต== = ควรทำตั้งนานแล้ว"
+  status: draft
+- id: cefr-c2-w01-027
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  stem: "When we met in 2015, I had no idea that she ____ my business partner one day."
+  choices:
+    - {t: would become, why: "อนาคตมองจากอดีต ใช้ ++would + กริยา++"}
+    - {t: will become, why: "มองจากอดีตต้องใช้ would"}
+    - {t: had become, why: "past perfect บอกว่าเกิดก่อน 2015"}
+    - {t: became, why: "อดีตธรรมดาไม่บอกว่าเป็นอนาคตของตอนนั้น"}
+  explain: "future in the past ==would / was going to / was to=="
+  status: draft
+- id: cefr-c2-w01-028
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  stem: "He talks about the project as if he ____ it himself, but he only joined last month."
+  choices:
+    - {t: had designed, why: "สมมติย้อนอดีต (ไม่จริง) หลัง as if ใช้ ++had + ช่อง 3++"}
+    - {t: designs, why: "ไม่บอกความไม่จริง"}
+    - {t: has designed, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+    - {t: would design, why: "ไม่ใช้ would หลัง as if ในความหมายนี้"}
+  explain: "==as if / as though + had + ช่อง 3== = ราวกับว่า (ไม่จริงในอดีต)"
+  status: draft
+- id: cefr-c2-w01-029
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  stem: "The meeting that was to ____ place on Friday has been cancelled."
+  choices:
+    - {t: have taken, why: "was to have + ช่อง 3 = ++มีกำหนดแต่ไม่ได้เกิด++"}
+    - {t: taking, why: "หลัง to ใช้กริยารูปเดิม"}
+    - {t: took, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: be taken, why: "รูปถูกกระทำ ผิดความหมาย"}
+  explain: "แผนที่ล้ม ==was to have + ช่อง 3=="
+  status: draft
+- id: cefr-c2-w01-030
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  stem: "\"I'm moving to Lisbon next year,\" she said last week. → She said she ____ to Lisbon next year."
+  choices:
+    - {t: is moving, why: "แผนยังเป็นจริงและยังไม่ถึงเวลา ++ไม่ต้องเลื่อน tense ได้++"}
+    - {t: had moved, why: "past perfect บอกว่าย้ายไปแล้ว ขัดกับ next year"}
+    - {t: has moved, why: "ขัดกับ next year"}
+    - {t: moved, why: "อดีตธรรมดาบอกว่าเกิดแล้ว"}
+  explain: "เรื่องที่ยังเป็นจริง ==คง tense เดิมได้== (was moving ก็ถูก)"
+  status: draft
+- id: cefr-c2-w01-031
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 3
+  stem: "\"Suppose you had been offered the job; would you have taken it?\" What does the speaker assume?"
+  choices:
+    - {t: the job was not offered, why: "had been offered ในประโยคสมมติ = ++ความจริงคือไม่ได้รับข้อเสนอ++"}
+    - {t: the job was offered, why: "ความจริงตรงกันข้าม"}
+    - {t: the job will be offered soon, why: "พูดถึงอดีต จึงใช้ไม่ได้"}
+    - {t: the listener took the job, why: "ไม่ได้รับข้อเสนอ จึงไม่ได้รับงาน"}
+  explain: "==Suppose / Supposing + had + ช่อง 3== = สมมติย้อนอดีต"
+  status: draft
+- id: cefr-c2-w01-032
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 3
+  stem: "Which sentence about the company closing is correct?"
+  choices:
+    - {t: "Little did they know that the company would close within a year.", why: "Little did + กลับลำดับ + ++would (อนาคตจากอดีต)++"}
+    - {t: "Little did they know that the company will close within a year.", why: "มองจากอดีตต้องใช้ would"}
+    - {t: "Little they knew that the company would close within a year.", why: "Little ขึ้นต้นต้องกลับลำดับ did they know"}
+    - {t: "Little did they knew that the company would close within a year.", why: "หลัง did ใช้กริยารูปเดิม know"}
+  explain: "Little did ... know + ==would + กริยา=="
+  status: draft
+- id: cefr-c2-w01-033
+  kind: type
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  stem: "I'd rather you d____ mention this to anyone yet. (อย่าเพิ่ง · ตอนนี้)"
+  answer: didn't
+  accept: ["didn't", did not]
+  why: "would rather + คนอื่น + อดีต (didn't) แม้ความหมายคือตอนนี้"
+  status: draft
+- id: cefr-c2-w01-034
+  kind: cloze
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  text: |
+    When the museum opened in 1998, few people imagined that it (1) ____ one of the most visited sites in the country. Its founder, who (2) ____ at the opening, later said she had always believed it would succeed. Today, visitors often ask if the founder (3) ____ still alive; sadly, she died in 2019.
+  questions:
+    - choices:
+        - {t: would become, why: "อนาคตมองจากปี 1998"}
+        - {t: will become, why: "มองจากอดีตต้องใช้ would"}
+        - {t: had become, why: "บอกว่าเกิดก่อน 1998"}
+        - {t: becomes, why: "ไม่ใช่มุมมองจากอดีต"}
+    - choices:
+        - {t: spoke, why: "เหตุการณ์ในอดีตธรรมดา"}
+        - {t: speaks, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+        - {t: would speak, why: "ไม่ใช่อนาคตในอดีต"}
+        - {t: has spoken, why: "present perfect ไม่ใช้กับเหตุการณ์ที่ระบุเวลาในอดีต"}
+    - choices:
+        - {t: is, why: "คำถามรายงานเรื่องที่ถามอยู่ตอนนี้ ใช้ปัจจุบัน"}
+        - {t: would be, why: "ไม่ใช่อนาคตในอดีต"}
+        - {t: had been, why: "past perfect ไม่เข้ากับ Today"}
+        - {t: be, why: "ขาดการผันกริยา จึงใช้ไม่ได้"}
+  status: draft
+# ---------- วันที่ 4 · อ่านความเรียงเรื่องความกำกวมและฟังบรรยาย ----------
+- id: cefr-c2-w01-035
+  kind: read
+  skill: rd
+  topic: philosophy-of-language
+  level: 3
+  title: "In Praise of Ambiguity"
+  passage: |
+    We are often told that good writing is clear writing, and that ambiguity is a fault to be eliminated. Legal drafters, engineers and safety inspectors would no doubt agree, and with good reason: a contract that can be construed in two ways is an invitation to litigation, and an equivocal warning on a medicine bottle could be fatal. Yet the assumption that ambiguity is always a defect deserves closer scrutiny.
+
+    Consider ordinary conversation. When a colleague asks whether we "might be free on Thursday", the vagueness is not a failure of language but a courtesy. It allows us to decline without either party losing face. Much of social life runs on such tacit understandings, and a speaker who insisted on unequivocal statements at every turn would quickly be thought pedantic, if not downright rude.
+
+    Ambiguity also does valuable work in diplomacy. Negotiators frequently agree on wording that each side can interpret to its own satisfaction. Critics call this cowardice; supporters argue that it buys time, allowing trust to grow until the issue can be settled more precisely. A treaty that purports to resolve everything at once may well collapse within a year, whereas a deliberately nebulous one might survive long enough to become irrelevant.
+
+    None of this is to suggest that clarity is overrated. The point, rather, is that clarity and ambiguity are tools, and the skilled writer knows when to reach for each. The question to ask is not "Is this ambiguous?" but "Who benefits from the ambiguity, and who bears the risk?" A vague promise from an employer protects the employer; a vague question from a friend protects the person being asked.
+
+    Seen in this light, the demand for absolute precision begins to look less like a principle than a preference, and one that suits some situations far better than others.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: ambiguity can be useful depending on the situation, why: "clarity and ambiguity are tools ... knows when to reach for each"}
+        - {t: ambiguity should always be removed, why: "ผู้เขียนตั้งคำถามกับความคิดนี้"}
+        - {t: clarity is overrated, why: "None of this is to suggest that clarity is overrated"}
+        - {t: diplomats are cowards, why: "เป็นความเห็นของนักวิจารณ์ ไม่ใช่ผู้เขียน"}
+    - stem: Why does the writer mention the question about being "free on Thursday"?
+      choices:
+        - {t: to show vagueness can be a form of politeness, why: "the vagueness is not a failure of language but a courtesy"}
+        - {t: to criticise unclear colleagues, why: "ไม่ได้ตำหนิ จึงใช้ไม่ได้"}
+        - {t: to show that meetings are badly planned, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: to give an example of a legal problem, why: "เป็นตัวอย่างบทสนทนาทั่วไป"}
+    - stem: According to supporters, what is the benefit of vague wording in treaties?
+      choices:
+        - {t: it gives time for trust to develop, why: "it buys time, allowing trust to grow"}
+        - {t: it settles every issue immediately, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: it protects the weaker country, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: it makes treaties cheaper, why: "บทไม่ได้พูดว่า it makes treaties cheaper"}
+    - stem: What does the final paragraph imply about demands for absolute precision?
+      choices:
+        - {t: they reflect a preference rather than a universal rule, why: "less like a principle than a preference"}
+        - {t: they are always unreasonable, why: "suits some situations far better than others = บางครั้งเหมาะ"}
+        - {t: they are required by law, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: they protect employees, why: "ผู้เขียนยกตัวอย่างคำสัญญาคลุมเครือของนายจ้างแยกต่างหาก"}
+  status: draft
+- id: cefr-c2-w01-036
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 3
+  script:
+    - {who: Man, en: "So the study found that, sorry, I should say it suggested, rather than found, that bilingual children are better at switching tasks. The evidence isn't conclusive yet."}
+  questions:
+    - stem: Why does the speaker correct himself?
+      choices:
+        - {t: to make the claim less certain, why: "found → suggested ... isn't conclusive = ลดความมั่นใจ"}
+        - {t: because he gave the wrong number, why: "ไม่ได้พูดถึงตัวเลข"}
+        - {t: because the study was cancelled, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: to make the claim stronger, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w01-037
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 3
+  script:
+    - {who: Woman, en: "People often use 'disinterested' to mean 'not interested', but strictly speaking it means impartial, having nothing to gain. A disinterested judge is exactly what you want."}
+  questions:
+    - stem: What does the speaker say a 'disinterested judge' is?
+      choices:
+        - {t: a fair judge with nothing to gain, why: "it means impartial, having nothing to gain"}
+        - {t: a judge who is bored, why: "นั่นคือความหมายที่คนใช้ผิด"}
+        - {t: a judge who is unqualified, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: a judge who refuses the case, why: "บทไม่ได้พูดว่า a judge who refuses the case"}
+  status: draft
+- id: cefr-c2-w01-038
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 3
+  script:
+    - {who: Man, en: "The government said the new tax would be temporary. That was in 1992. It is, I'm told, still being collected."}
+  questions:
+    - stem: What is the speaker's attitude?
+      choices:
+        - {t: ironic about the promise, why: "temporary ... 1992 ... still being collected = ++ประชดคำสัญญา++"}
+        - {t: grateful for the tax, why: "ไม่ได้แสดงความขอบคุณ"}
+        - {t: unsure when the tax started, why: "บอกปีชัดเจน จึงใช้ไม่ได้"}
+        - {t: confident the tax will end soon, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w01-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [She will, talk for hours, about her garden, if you let her]
+  sentence: She will talk for hours about her garden if you let her.
+  th: เธอคุยเรื่องสวนได้เป็นชั่วโมงถ้าปล่อยให้คุย (นิสัยประจำ)
+  why: "will + กริยา บอกนิสัยประจำ"
+  status: draft
+- id: cefr-c2-w01-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Little did, I realise, that this meeting, would change my career]
+  sentence: Little did I realise that this meeting would change my career.
+  th: ฉันไม่รู้เลยว่าการพบครั้งนั้นจะเปลี่ยนเส้นทางอาชีพของฉัน
+  why: "Little did + ประธาน + กริยารูปเดิม แล้ว would (อนาคตจากอดีต)"
+  status: draft
+- id: cefr-c2-w01-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The term, purports to describe, a single idea, but it is used in several ways]
+  sentence: The term purports to describe a single idea, but it is used in several ways.
+  th: คำนี้อ้างว่าหมายถึงแนวคิดเดียว แต่ถูกใช้หลายแบบ
+  why: "purport to + กริยา แล้วแย้งด้วย but"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c2-w01-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Although the two terms, are often used interchangeably, they denote, quite different ideas, as I shall explain]
+  sentence: Although the two terms are often used interchangeably, they denote quite different ideas, as I shall explain.
+  th: แม้สองคำนี้มักใช้แทนกัน แต่หมายถึงแนวคิดที่ต่างกันมาก ดังที่จะอธิบายต่อไป
+  why: "Although + ประโยค · denote · as I shall explain (shall ทางการ)"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 1 · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 1
+phase: 1
+theme_th: ความแม่นยำของความหมาย
+focus_th: will/would กับพฤติกรรมประจำ · may well · might as well · shall ทางการ · tense ในประโยคซ้อน (ไม่เลื่อน tense · อนาคตในอดีต · สมมติ)
+can_do_th:
+  - เลือก modal ให้ตรงความหมายแฝงได้แม่น
+  - อธิบายความต่างของสองแนวคิดที่ใกล้กันได้ชัด
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ความต่างเล็กน้อยของ modal
+    lesson:
+      rule_th: "ระดับ C2 ไม่ได้ถามว่า modal ไหนถูกไวยากรณ์ แต่ถามว่า ==สื่อความหมายแฝงอะไร== · ++will++ / would = นิสัยประจำ (ลงเสียงหนัก = รำคาญ) · may well = น่าจะเกิดมาก · might as well = ไหน ๆ ก็... · shall = หน้าที่ในเอกสารทางการ"
+      examples:
+        - {en: "He <k>will</k> sit there for hours.", th: "นิสัยประจำตอนนี้"}
+        - {en: "Rates <k>may well</k> rise again.", th: "==น่าจะเกิดมาก=="}
+        - {en: "We <k>might as well</k> walk.", th: "ไหน ๆ ก็ไม่มีทางเลือก"}
+        - {en: "The tenant <k>shall</k> pay by the fifth.", th: "หน้าที่ตามสัญญา"}
+      signals:
+        - {label_th: "แยกคู่ที่สับสน", words: ["may well = คาดการณ์", "might as well = ตัดสินใจ", "will = นิสัยตอนนี้", "would = นิสัยในอดีต"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ คง กับทั้งสองแบบ คนจึงสลับ ~~may well กับ might as well~~"
+        wrong: ["The bus has gone, so we may well walk.", "Prices might as well rise next year."]
+        right: ["The bus has gone, so we might as well walk.", "Prices may well rise next year."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==กำลังคาดการณ์ หรือกำลังตัดสินใจ== คาดการณ์ = may well"}
+        - {kind: use, th: "ยอมรับก่อนแย้งอย่างสุภาพ You may well be right, but ..."}
+    check: [cefr-c2-w01-001, cefr-c2-w01-002]
+    practice: [cefr-c2-w01-003, cefr-c2-w01-004, cefr-c2-w01-005, cefr-c2-w01-006, cefr-c2-w01-007, cefr-c2-w01-008, cefr-c2-w01-009, cefr-c2-w01-010, cefr-c2-w01-011, cefr-c2-w01-012]
+    use:
+      prompt_th: เขียน 2 ประโยค เล่านิสัยประจำของคนที่คุณรู้จักด้วย will และยอมรับความเห็นต่างด้วย may well
+      frame: "My ____ will ____. You may well be right that ____, but ____."
+      model: "My uncle will tell the same joke at every family dinner. You may well be right that he does it to make people relax, but we've all heard it fifty times."
+    classroom: {en: "You may well be right, but let's check.", th: "คุณอาจพูดถูกก็ได้ แต่ขอตรวจดูก่อน"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ความหมายและการตีความ 12 คำ
+    lesson:
+      rule_th: "คำศัพท์ชุดนี้ใช้พูดถึงภาษาเอง ==ascertain (หาความจริง)== · construe (ตีความ) · elucidate (อธิบายให้กระจ่าง) และ ++คู่ตรงข้าม equivocal++ (กำกวม) กับ unequivocal (ชัดเจน)"
+      examples:
+        - {en: "We need to <k>ascertain</k> the facts.", th: "สืบหาให้แน่ชัด"}
+        - {en: "Her silence was <k>construed as</k> agreement.", th: "==ถูกตีความว่า=="}
+        - {en: "The letter <k>purported</k> to come from the bank.", th: "อ้างว่า (ไม่จริง)"}
+        - {en: "a <k>tacit</k> agreement", th: "ข้อตกลงโดยปริยาย"}
+      words:
+        - {w: ascertain, pos: v., th: สืบหาให้แน่ชัด, ex: "Police are trying to ascertain the cause."}
+        - {w: construe, pos: v., th: ตีความ, ex: "His words were construed as a threat."}
+        - {w: purport, pos: v., th: อ้างว่า, ex: "The photo purports to show a UFO."}
+        - {w: denote, pos: v., th: หมายถึง เป็นสัญลักษณ์ของ, ex: "Red denotes danger."}
+        - {w: elucidate, pos: v., th: อธิบายให้กระจ่าง, ex: "Could you elucidate your point?"}
+        - {w: equivocal, pos: adj., th: กำกวม, ex: "She gave an equivocal reply."}
+        - {w: unequivocal, pos: adj., th: ชัดเจน ไม่กำกวม, ex: "The answer was an unequivocal no."}
+        - {w: tacit, pos: adj., th: โดยปริยาย, ex: "There was tacit approval."}
+        - {w: nebulous, pos: adj., th: คลุมเครือ, ex: "The idea is still nebulous."}
+        - {w: verbatim, pos: adv./adj., th: คำต่อคำ, ex: "He repeated it verbatim."}
+        - {w: pedantic, pos: adj., th: จู้จี้เรื่องรายละเอียด, ex: "Don't be so pedantic."}
+        - {w: semantics, pos: n., th: ความหมายของคำ, ex: "It's just a question of semantics."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~construe แทน construct~~ เพราะหน้าตาคล้ายกัน และใช้ purport กับเรื่องที่จริงแน่นอน"
+        wrong: ["They construed a new bridge.", "The award purports to be given to the best student."]
+        right: ["They constructed a new bridge.", "The award is given to the best student."]
+      notes:
+        - {kind: pin, th: "==purport มักแฝงความสงสัย== ว่าอาจไม่จริง"}
+        - {kind: use, th: "ตัดบทการเถียงเรื่องคำ That's just semantics."}
+    check: [cefr-c2-w01-013, cefr-c2-w01-014]
+    practice: [cefr-c2-w01-015, cefr-c2-w01-016, cefr-c2-w01-017, cefr-c2-w01-018, cefr-c2-w01-019, cefr-c2-w01-020, cefr-c2-w01-021, cefr-c2-w01-022, cefr-c2-w01-023, cefr-c2-w01-024]
+    use:
+      prompt_th: เขียน 2 ประโยค เกี่ยวกับคำตอบหรือคำสัญญาที่กำกวมซึ่งคุณเคยได้รับ
+      frame: "I once received an equivocal ____. It could be construed as ____ or ____."
+      model: "I once received an equivocal reply from a landlord about repairs. It could be construed as a promise or simply as a polite way of saying no."
+    classroom: {en: "Could you elucidate that a little?", th: "ช่วยขยายความหน่อยได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เวลาในประโยคซ้อน
+    lesson:
+      rule_th: "กติกาเลื่อน tense ไม่ใช่กติกาตายตัว ==เรื่องที่ยังเป็นจริงไม่ต้องเลื่อน== · ++อนาคตมองจากอดีตใช้ would / was to++ · แผนที่ล้มใช้ was to have + ช่อง 3 · หลัง as if / it's time / would rather ใช้อดีตเพื่อบอกความไม่จริง"
+      examples:
+        - {en: "She said she <k>is moving</k> to Lisbon next year.", th: "==แผนยังเป็นจริง ไม่เลื่อน=="}
+        - {en: "I had no idea she <k>would become</k> my partner.", th: "อนาคตในอดีต"}
+        - {en: "The meeting <k>was to have taken</k> place on Friday.", th: "กำหนดไว้แต่ไม่ได้เกิด"}
+        - {en: "He talks as if he <k>had designed</k> it.", th: "ราวกับว่า (ไม่จริง)"}
+      signals:
+        - {label_th: "หลังคำเหล่านี้ใช้อดีตแบบไม่จริง", words: ["as if / as though", "it's (high) time", "would rather + คนอื่น", "suppose / supposing", "if only"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มี tense คนที่เรียนกติกาเลื่อน tense มา มักเลื่อน ~~ทุกครั้งแม้เรื่องยังจริง~~ จนฟังเหมือนเรื่องจบไปแล้ว"
+        wrong: ["She told me last week that she had been pregnant. (ฟังเหมือนไม่ได้ท้องแล้ว)", "Little did they know the company will close."]
+        right: ["She told me last week that she is pregnant.", "Little did they know the company would close."]
+      notes:
+        - {kind: tip, th: "ถามว่า ==ตอนพูดรายงาน เรื่องนั้นยังจริงไหม== ถ้ายังจริง คง tense เดิมได้"}
+        - {kind: warn, th: "was to + กริยา = มีกำหนด · was to have + ช่อง 3 = กำหนดแต่ไม่ได้เกิด"}
+    check: [cefr-c2-w01-025, cefr-c2-w01-026]
+    practice: [cefr-c2-w01-027, cefr-c2-w01-028, cefr-c2-w01-029, cefr-c2-w01-030, cefr-c2-w01-031, cefr-c2-w01-032, cefr-c2-w01-033, cefr-c2-w01-034]
+    use:
+      prompt_th: เขียน 2 ประโยค เล่าเหตุการณ์ในอดีตที่ตอนนั้นคุณไม่รู้ว่าจะสำคัญ ใช้อนาคตในอดีต
+      frame: "When I first ____, I had no idea that ____ would ____. Little did I know ____."
+      model: "When I first moved to Khon Kaen, I had no idea that a small language class would change my career. Little did I know that I would end up teaching it myself."
+    classroom: {en: "It's high time we made a decision.", th: "ถึงเวลาตัดสินใจได้แล้ว"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านความเรียงเรื่องความกำกวมและฟังบรรยายวิชาการ
+    lesson:
+      rule_th: "ความเรียงเชิงความคิดมักเริ่มด้วย ==ความเชื่อทั่วไปที่ผู้เขียนจะโต้แย้ง== (We are often told ...) ++จุดยืนจริงอยู่ในย่อหน้าที่มี The point++, rather, is ... และผู้เขียนมักกันไม่ให้ผู้อ่านสรุปเกินด้วย None of this is to suggest ..."
+      examples:
+        - {en: "<k>We are often told</k> that ...", th: "ความเชื่อที่จะโต้แย้ง"}
+        - {en: "<k>None of this is to suggest</k> that clarity is overrated.", th: "==กันไม่ให้สรุปเกิน=="}
+        - {en: "<k>The point, rather, is</k> that ...", th: "จุดยืนจริง"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นผู้เขียนชมความกำกวมแล้วตอบว่า ~~ผู้เขียนคิดว่าความชัดเจนไม่สำคัญ~~ ทั้งที่มีประโยคปฏิเสธชัดเจน"
+        wrong: ["ตอบว่าผู้เขียนเห็นว่าควรเขียนให้กำกวม"]
+        right: ["ผู้เขียนเห็นว่าความชัดและความกำกวมเป็นเครื่องมือ ต้องเลือกให้เหมาะกับสถานการณ์"]
+      notes:
+        - {kind: tip, th: "ฟังบรรยาย ==สิ่งที่พูดหลัง I should say== คือสิ่งที่ผู้พูดหมายถึงจริง"}
+        - {kind: use, th: "จับน้ำเสียงประชด ดูข้อเท็จจริงที่ขัดกับคำพูด"}
+    check: [cefr-c2-w01-036, cefr-c2-w01-037]
+    practice: [cefr-c2-w01-035, cefr-c2-w01-038, cefr-c2-w01-039, cefr-c2-w01-040, cefr-c2-w01-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปจุดยืนของผู้เขียนเรื่องความกำกวม และตัวอย่างหนึ่งข้อ
+      frame: "The writer argues that ____. For example, ____."
+      model: "The writer argues that ambiguity is a tool rather than a fault. For example, a vague invitation lets the other person decline without losing face."
+    classroom: {en: "Sorry, I should say 'suggested' rather than 'found'.", th: "ขอแก้ ควรพูดว่า 'บ่งชี้' มากกว่า 'พบ'"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด อธิบายความต่างของสองแนวคิดที่ใกล้กันมาก 3 นาที
+    lab:
+      mode: speak
+      prompt_th: "พูด 3 นาทีอธิบายความต่างของสองแนวคิดที่คนมักใช้แทนกัน (เช่น efficient กับ effective · privacy กับ secrecy · confidence กับ arrogance · ความเห็นใจกับความสงสาร) บอกนิยามของแต่ละคำ ตัวอย่างที่ต่างกัน กรณีที่ทับซ้อน และเหตุผลว่าทำไมความต่างนี้สำคัญ"
+      frame:
+        - "People often use ____ and ____ as if they meant the same thing, but strictly speaking ____."
+        - "____ denotes ____, whereas ____ refers to ____."
+        - "Take, for example, ____."
+        - "Admittedly, the two may well overlap when ____."
+        - "This distinction matters because ____, as I shall try to show."
+      model_pass: "People often use 'confidence' and 'arrogance' as if they were simply stronger and weaker versions of the same thing, but strictly speaking they are quite different. Confidence denotes a belief in your own ability that is based on experience, whereas arrogance refers to an exaggerated sense of your own importance. Take, for example, a surgeon who calmly explains the risks of an operation; that is confidence. A surgeon who refuses to listen to a nurse's warning is being arrogant. Admittedly, the two may well overlap when someone is very successful and people stop questioning them. This distinction matters because we often discourage confidence in young people for fear of making them arrogant, and that, I think, is a mistake."
+      model_good: "People often use 'confidence' and 'arrogance' as if one were simply an excess of the other, but strictly speaking they point in opposite directions. Confidence denotes a belief in your own judgement that remains open to correction; arrogance, by contrast, refers to a belief that you are beyond correction altogether. Take a surgeon who explains the risks of an operation calmly and then invites questions. That is confidence. A surgeon who dismisses a nurse's warning because of who she is, rather than what she has said, is being arrogant, however skilled he may be. Admittedly, the two may well overlap in practice, particularly when success has gone unchallenged for years and people simply stop disagreeing. This distinction matters because, in trying to prevent arrogance, schools and workplaces often end up suppressing confidence as well. The more useful question, I'd suggest, is not how sure someone is, but whether they are still listening."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกคู่แนวคิดแล้วจดนิยาม ตัวอย่างคนละข้อ และจุดที่ทับซ้อน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - นิยามแต่ละคำชัดเจน และใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ (denote · strictly speaking · equivocal)
+        - มีตัวอย่างที่แสดงความต่างให้เห็นชัด อย่างน้อยฝั่งละ 1 ตัวอย่าง
+        - ใช้ modal บอกความหมายแฝงอย่างน้อย 2 จุด (may well · might · shall)
+        - พูดได้ประมาณ 3 นาทีอย่างลื่นไหล
+    practice: [cefr-c2-w01-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 1
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [1], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
