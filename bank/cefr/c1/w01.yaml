@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 1 · พูดให้แม่นยำ · ความต่างเล็กน้อยของ tense · modality ระดับสูง
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # หลักการเขียนตัวลวงระดับ C1: เรื่อง tense มักมีคำตอบที่ "พอฟังได้" หลายแบบ จึงให้ตัวลวงผิดชัดเจนเสมอ (ผิดรูป ผิดเวลา หรือขัดกับบริบทในโจทย์)
 # ---------- วันที่ 1 · ความต่างเล็กน้อยของ tense ----------
 - id: cefr-c1-w01-001
@@ -14,7 +14,7 @@
     - {t: live, why: "ปัจจุบันธรรมดาใช้กับ for + ช่วงเวลาที่ยังต่อเนื่องไม่ได้"}
     - {t: was living, why: "อดีตกำลังทำ ทำให้ฟังเหมือนตอนนี้ย้ายไปแล้ว ขัดกับ I know"}
   explain: "ต่อเนื่องถึงตอนนี้ + for/since = ==have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-002
   kind: mcq
   skill: gm
@@ -27,7 +27,7 @@
     - {t: has tasted, why: "has tasted ไม่ได้บอกรสชาติที่เป็นอยู่ตอนนี้"}
     - {t: was tasting, why: "อดีตกำลังทำ ขัดกับขอเพิ่มตอนนี้"}
   explain: "taste / smell / look แบบบอกลักษณะ = ==สภาวะ ไม่ใช้ -ing=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-003
   kind: mcq
   skill: gm
@@ -40,7 +40,7 @@
     - {t: had thought, why: "past perfect ต้องมีเหตุการณ์อดีตอีกอันเป็นจุดอ้างอิง"}
     - {t: have been thought, why: "been thought เป็นรูปถูกกระทำ ความหมายผิด"}
   explain: "ช่วงหลังมานี้ทำต่อเนื่อง ==have been + -ing== (lately / recently)"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-004
   kind: mcq
   skill: gm
@@ -53,7 +53,7 @@
     - {t: am writing, why: "am writing three reports ไม่บอกว่าเสร็จแล้ว และขัดกับ this morning"}
     - {t: was written, why: "รูปถูกกระทำ ประธาน I ไม่ได้ถูกเขียน"}
   explain: "มีจำนวน (three, five) = ==have + ช่อง 3== · เน้นระยะเวลา = have been -ing"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-005
   kind: mcq
   skill: gm
@@ -66,7 +66,7 @@
     - {t: work, why: "ปัจจุบันธรรมดาเป็นกิจวัตร ไม่ใช่ช่วงเวลาเช้านี้"}
     - {t: had been working, why: "past perfect ไม่เข้ากับผลที่เห็นตอนนี้ I look so tired"}
   explain: "ผลที่เห็นตอนนี้จากกิจกรรมต่อเนื่อง ==have been + -ing=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-006
   kind: mcq
   skill: gm
@@ -79,7 +79,7 @@
     - {t: already starts, why: "ปัจจุบันธรรมดาไม่เข้ากับเรื่องที่เล่าในอดีต"}
     - {t: would already start, why: "would ไม่ได้บอกว่าเกิดขึ้นก่อน"}
   explain: "By the time + อดีต → ==had + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-007
   kind: mcq
   skill: gm
@@ -92,7 +92,7 @@
     - {t: was lying, why: "next week เป็นอนาคต"}
     - {t: will have lied, why: "lied แปลว่าโกหก และ future perfect ไม่ตรงความหมาย"}
   explain: "This time next week / tomorrow = ==will be + -ing=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-008
   kind: mcq
   skill: gm
@@ -105,7 +105,7 @@
     - {t: is creating, why: "ไม่บอกว่าจะเสร็จก่อนปี 2030"}
     - {t: creates, why: "ปัจจุบันธรรมดาไม่เข้ากับ By + อนาคต"}
   explain: "By + เวลาในอนาคต → ==will have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-009
   kind: mcq
   skill: gm
@@ -118,7 +118,7 @@
     - {t: have ... think, why: "หลัง have ต้องเป็นช่อง 3"}
     - {t: did ... thinking, why: "หลัง did ต้องเป็นกริยารูปเดิม"}
   explain: "think = ความเห็น ==ไม่ใช้ -ing== · think about = กำลังพิจารณา ใช้ -ing ได้"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-010
   kind: mcq
   skill: gm
@@ -131,7 +131,7 @@
     - {t: has been being, why: "รูปนี้แทบไม่ใช้และฟังผิดธรรมชาติ"}
     - {t: is been, why: "หลัง is ใช้ been ไม่ได้"}
   explain: "be ใช้ -ing ได้เมื่อหมายถึง ==ทำตัวแบบนั้นชั่วคราว== (He's being silly.)"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-011
   kind: mcq
   skill: gm
@@ -144,7 +144,7 @@
     - {t: will, why: "will ไม่ใช้กับแผนในอดีต"}
     - {t: had going to, why: "รูปนี้ไม่มีในภาษาอังกฤษ"}
   explain: "แผนในอดีตที่ไม่ได้ทำ ==was/were going to=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-012
   kind: type
   skill: gm
@@ -154,7 +154,7 @@
   answer: waiting
   accept: [waiting]
   why: "have been + -ing เน้นว่ารอมานานต่อเนื่องจนถึงตอนนี้"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การสื่อสารอย่างแม่นยำ ----------
 - id: cefr-c1-w01-013
   kind: mcq
@@ -168,7 +168,7 @@
     - {t: concise, why: "concise แปลว่ากระชับ ไม่ได้ทำให้งง"}
     - {t: eloquent, why: "eloquent ใช้กับการพูดที่ไพเราะโน้มน้าว"}
   explain: "ambiguous = ==กำกวม ตีความได้หลายทาง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-014
   kind: mcq
   skill: vo
@@ -181,7 +181,7 @@
     - {t: implicit, why: "implicit แปลว่าโดยนัย"}
     - {t: ambiguous, why: "ambiguous แปลว่ากำกวม ไม่ใช่สิ่งที่ขอให้ทำ"}
   explain: "concise = ==กระชับ สั้นแต่ได้ใจความ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-015
   kind: mcq
   skill: vo
@@ -194,7 +194,7 @@
     - {t: coherent, why: "coherent เป็นคำคุณศัพท์ ใช้เป็นกริยาไม่ได้"}
     - {t: concise, why: "concise เป็นคำคุณศัพท์ ใช้เป็นกริยาไม่ได้"}
   explain: "articulate (v.) = ==อธิบายความคิดออกมาเป็นคำพูดได้ชัด=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-016
   kind: mcq
   skill: vo
@@ -207,7 +207,7 @@
     - {t: coherent, why: "coherent เป็นคำคุณศัพท์ ใช้หลัง to แบบนี้ไม่ได้"}
     - {t: implicit, why: "implicit เป็นคำคุณศัพท์ ใช้หลัง to แบบนี้ไม่ได้"}
   explain: "convey a message / feeling = ==สื่อ ถ่ายทอด=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-017
   kind: mcq
   skill: vo
@@ -220,7 +220,7 @@
     - {t: eloquent, why: "eloquent understanding ไม่มีความหมาย"}
     - {t: concise, why: "concise understanding ไม่ใช่วลีที่ใช้"}
   explain: "implicit = ==โดยนัย ไม่ได้พูดตรง ๆ== · ตรงข้าม explicit"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-018
   kind: mcq
   skill: vo
@@ -233,7 +233,7 @@
     - {t: eloquent, why: "eloquent ใช้กับคนหรือการพูด ไม่ใช่สัญญา"}
     - {t: ambiguous, why: "ambiguous แปลว่ากำกวม ขัดกับการบอกเงื่อนไขชัด"}
   explain: "explicit = ==ชัดแจ้ง ระบุตรง ๆ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-019
   kind: mcq
   skill: vo
@@ -246,7 +246,7 @@
     - {t: implicit, why: "implicit ไม่ได้บอกการเรียงเนื้อหา"}
     - {t: alluded, why: "alluded เป็นกริยา ใช้บรรยายรายงานแบบนี้ไม่ได้"}
   explain: "coherent = ==ต่อเนื่อง มีเหตุผลเชื่อมกัน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-020
   kind: mcq
   skill: vo
@@ -259,7 +259,7 @@
     - {t: implicit, why: "implicit ใช้กับความหมาย ไม่ใช่คน"}
     - {t: concise, why: "concise ใช้กับข้อความ ไม่ได้บอกสติของคน"}
   explain: "lucid = ==ชัดเจน แจ่มแจ้ง== (คนที่สติดี หรือคำอธิบายที่เข้าใจง่าย)"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-021
   kind: mcq
   skill: vo
@@ -272,7 +272,7 @@
     - {t: implicit, why: "implicit speech ไม่ใช่วลีที่ใช้"}
     - {t: explicit, why: "explicit เน้นความตรงไปตรงมา ไม่ใช่ความไพเราะ"}
   explain: "eloquent = ==พูดเก่ง ไพเราะ โน้มน้าวใจ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-022
   kind: mcq
   skill: vo
@@ -285,7 +285,7 @@
     - {t: coherence, why: "coherence คือความต่อเนื่องของเนื้อหา"}
     - {t: eloquence, why: "eloquence คือความสามารถในการพูดไพเราะ"}
   explain: "connotation = ==ความหมายแฝง== ที่คำทำให้รู้สึก"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-023
   kind: mcq
   skill: vo
@@ -298,7 +298,7 @@
     - {t: concise, why: "concise เป็นคำคุณศัพท์ วางหลัง every ไม่ได้"}
     - {t: explicit, why: "explicit เป็นคำคุณศัพท์ วางหลัง every ไม่ได้"}
   explain: "nuance = ==ความต่างเล็กน้อยที่ละเอียดอ่อน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-024
   kind: type
   skill: vo
@@ -308,7 +308,7 @@
   answer: alluded
   accept: [alluded]
   why: "allude to = พูดถึงอ้อม ๆ เป็นนัย ใช้รูปอดีต alluded ตามเรื่องที่เล่า"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · modality ระดับสูง ----------
 - id: cefr-c1-w01-025
   kind: mcq
@@ -322,7 +322,7 @@
     - {t: can, why: "can have ไม่ใช้ในประโยคบอกเล่าแบบนี้"}
     - {t: ought, why: "ought ต้องมี to ก่อน have"}
   explain: "ตำหนิ เสียดาย = ==should have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-026
   kind: mcq
   skill: gm
@@ -335,7 +335,7 @@
     - {t: bound for, why: "bound for แปลว่ากำลังมุ่งหน้าไปที่ ตามด้วยสถานที่"}
     - {t: sure, why: "sure ต้องมี to ก่อนกริยา"}
   explain: "be bound to / be sure to = ==แน่ ๆ ว่าจะ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-027
   kind: mcq
   skill: gm
@@ -348,7 +348,7 @@
     - {t: mustn't have been taking, why: "ผิดรูป และ mustn't ไม่ได้บอกความจำเป็นในอดีต"}
     - {t: hadn't to take, why: "รูป hadn't to ไม่ใช้กันในปัจจุบัน"}
   explain: "didn't need to = ==ไม่จำเป็น เลยไม่ได้ทำ== · needn't have = ทำไปแล้วโดยไม่จำเป็น"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-028
   kind: mcq
   skill: gm
@@ -361,7 +361,7 @@
     - {t: mustn't have cooked, why: "mustn't have ไม่ใช้บอกความจำเป็นในอดีต"}
     - {t: shouldn't cook, why: "shouldn't cook เป็นคำแนะนำทั่วไป ไม่ใช่เรื่องที่เกิดแล้ว"}
   explain: "เสียแรงเปล่า ==needn't have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-029
   kind: mcq
   skill: gm
@@ -374,7 +374,7 @@
     - {t: needn't, why: "needn't have เป็นเรื่องความจำเป็น ไม่ใช่การคาดเดา"}
     - {t: mustn't, why: "mustn't have ไม่ใช้คาดเดาในภาษาอังกฤษแบบบริติช"}
   explain: "คาดเดาอดีตอย่างมั่นใจ ==must have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-030
   kind: mcq
   skill: gm
@@ -387,7 +387,7 @@
     - {t: ought, why: "ought ต้องมี to ก่อน have"}
     - {t: mustn't, why: "mustn't have ไม่ใช้เป็นการคาดเดาว่าไม่ใช่"}
   explain: "มั่นใจว่าไม่ใช่ ==can't / couldn't have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-031
   kind: mcq
   skill: gm
@@ -400,7 +400,7 @@
     - {t: possible, why: "possible ใช้ในรูป It is possible that ไม่ใช้กับประธานแบบนี้"}
     - {t: probably, why: "probably เป็นคำวิเศษณ์ ใช้คู่กับ to แบบนี้ไม่ได้"}
   explain: "ประธาน + ==be likely to== · It is probable/possible that ..."
-  status: draft
+  status: approved
 - id: cefr-c1-w01-032
   kind: mcq
   skill: gm
@@ -413,7 +413,7 @@
     - {t: can't, why: "can't have แปลว่าไม่ได้ซื้อแน่ ขัดกับที่ได้ของขวัญ"}
     - {t: didn't need, why: "didn't need ต้องตามด้วย to และไม่ตามด้วย have bought"}
   explain: "รับของขวัญอย่างสุภาพ ==You needn't have ...!=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-033
   kind: mcq
   skill: gm
@@ -426,7 +426,7 @@
     - {t: "I mustn't go to the bank.", why: "mustn't แปลว่าห้ามไป"}
     - {t: "I shouldn't go to the bank.", why: "เป็นคำแนะนำ ไม่ได้บอกว่าไปแล้ว"}
   explain: "ไปแล้ว + ไม่จำเป็น = ==needn't have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w01-034
   kind: cloze
   skill: gm
@@ -450,7 +450,7 @@
         - {t: must have, why: "must have แปลว่ามั่นใจ ขัดกับยังรอคำตอบ"}
         - {t: can have, why: "can have ไม่ใช้คาดเดาในประโยคบอกเล่า"}
         - {t: had have, why: "รูปนี้ไม่มีในภาษาอังกฤษ"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านและฟัง ----------
 - id: cefr-c1-w01-035
   kind: read
@@ -491,7 +491,7 @@
         - {t: they made no more mistakes at all, why: "บทความบอกแค่ว่าความล่าช้าลดลง ไม่ได้บอกว่าไม่ผิดเลย"}
         - {t: they stopped needing a manager, why: "ไม่มีข้อมูลที่สนับสนุน"}
         - {t: their emails became much shorter, why: "บทความไม่ได้พูดว่าอีเมลสั้นลง"}
-  status: draft
+  status: approved
 - id: cefr-c1-w01-036
   kind: listen
   skill: li
@@ -506,7 +506,7 @@
         - {t: knowing as many words as possible, why: "เป็นความเชื่อที่ผู้บรรยายต้องการแย้ง"}
         - {t: speaking slowly and loudly, why: "ไม่ได้พูดถึงความเร็วหรือความดัง"}
         - {t: using academic vocabulary, why: "ไม่ได้บอกให้ใช้ศัพท์วิชาการ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w01-037
   kind: listen
   skill: li
@@ -521,7 +521,7 @@
         - {t: it was stopped after three weeks, why: "ไม่ได้บอกว่าหยุด แค่ผลชัดตั้งแต่สัปดาห์ที่สาม"}
         - {t: the results were unclear, why: "ผลชัดเจน beyond doubt"}
         - {t: the two groups were similar, why: "ความต่างระหว่างสองกลุ่มมีมาก"}
-  status: draft
+  status: approved
 - id: cefr-c1-w01-038
   kind: listen
   skill: li
@@ -537,7 +537,7 @@
         - {t: the policy was a great success, why: "ขัดกับความหมายแฝงที่เขาเข้าใจ"}
         - {t: she had not studied the policy, why: "ไม่มีข้อมูลนี้ในบทสนทนา"}
         - {t: she wanted to discuss it longer, why: "เธอรีบเปลี่ยนเรื่อง moved on quickly"}
-  status: draft
+  status: approved
 - id: cefr-c1-w01-039
   kind: order
   skill: gm
@@ -547,7 +547,7 @@
   sentence: By the end of the year, we will have trained more than two hundred volunteers.
   th: ภายในสิ้นปี เราจะฝึกอาสาสมัครไปได้มากกว่าสองร้อยคน
   why: "By + เวลาในอนาคต ใช้ will have + ช่อง 3 แล้วจึงบอกจำนวน"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-040
   kind: order
   skill: gm
@@ -557,7 +557,7 @@
   sentence: You needn't have brought so much food, but thank you.
   th: ไม่ต้องเอาอาหารมาเยอะขนาดนี้ก็ได้ แต่ขอบคุณนะ
   why: "needn't have + ช่อง 3 บอกว่าทำไปแล้วโดยไม่จำเป็น แล้วต่อด้วยคำขอบคุณ"
-  status: draft
+  status: approved
 - id: cefr-c1-w01-041
   kind: order
   skill: gm
@@ -567,7 +567,7 @@
   sentence: The new system is bound to cause some confusion at first.
   th: ระบบใหม่ต้องทำให้สับสนบ้างในช่วงแรกแน่ ๆ
   why: "is bound to + กริยารูปเดิม แล้วจึงตามด้วยกรรมและเวลา"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c1-w01-042
   kind: order
@@ -578,4 +578,4 @@
   sentence: Put simply, the idea is that what we leave unsaid often matters more than what we say.
   th: พูดง่าย ๆ คือ สิ่งที่เราไม่ได้พูดมักสำคัญกว่าสิ่งที่พูด
   why: "Put simply นำ แล้ว the idea is that + ประโยคที่มีประธานเป็น what-clause"
-  status: draft
+  status: approved

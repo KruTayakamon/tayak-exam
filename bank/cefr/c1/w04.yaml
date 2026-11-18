@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 4 · ภาษาทางการ · subjunctive (insist/recommend that he be · It is vital that · lest) · nominalisation
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # หลักการเขียนตัวลวง: หลัง recommend/insist that แบบบริติชใช้ should + กริยาได้ด้วย จึงไม่ให้ should เป็นตัวลวงในข้อ subjunctive
 # ---------- วันที่ 1 · ข้อเรียกร้องและข้อเสนอแบบทางการ ----------
 - id: cefr-c1-w04-001
@@ -14,7 +14,7 @@
     - {t: walked, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม recommended"}
     - {t: to walk, why: "หลัง that ต้องเป็นประโยค ไม่ใช่ to + กริยา"}
   explain: "recommend / suggest / insist that + ==ประธาน + กริยารูปเดิม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-002
   kind: mcq
   skill: gm
@@ -27,7 +27,7 @@
     - {t: wearing, why: "หลัง that ต้องมีกริยาแท้"}
     - {t: will wear, why: "ไม่ใช้ will ในโครงสร้าง It is vital that"}
   explain: "It is ==vital / essential / important== that + ประธาน + กริยารูปเดิม"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-003
   kind: mcq
   skill: gm
@@ -40,7 +40,7 @@
     - {t: was, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม insisted"}
     - {t: being, why: "หลัง that ต้องมีกริยาแท้ being ใช้ไม่ได้"}
   explain: "ถูกกระทำใน subjunctive = ==be + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-004
   kind: mcq
   skill: gm
@@ -53,7 +53,7 @@
     - {t: will be, why: "ไม่ใช้ will หลัง propose that"}
     - {t: has been, why: "has been ไม่ใช่รูปข้อเสนอ"}
   explain: "propose / demand / request that ... ==be + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-005
   kind: mcq
   skill: gm
@@ -66,7 +66,7 @@
     - {t: doesn't be, why: "ไม่ใช้ do ในรูปปฏิเสธของ subjunctive"}
     - {t: be not, why: "ลำดับผิด not ต้องอยู่หน้า be"}
   explain: "ปฏิเสธ subjunctive ==not + กริยารูปเดิม== (that he not be)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-006
   kind: mcq
   skill: gm
@@ -79,7 +79,7 @@
     - {t: to, why: "insist to ไม่ใช่รูปที่ใช้"}
     - {t: for, why: "insist for ไม่ใช่รูปที่ใช้"}
   explain: "insist ==that + ประโยค== · insist on + -ing"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-007
   kind: mcq
   skill: gm
@@ -92,7 +92,7 @@
     - {t: if, why: "if there be ไม่ใช้ในภาษาปัจจุบัน ต้องเป็น if there is"}
     - {t: unless, why: "unless there be ผิดรูป และความหมายกลับ"}
   explain: "เงื่อนไขทางการ ==Should there be / Should you need=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-008
   kind: mcq
   skill: gm
@@ -105,7 +105,7 @@
     - {t: so that, why: "so that ต้องตามด้วยประโยคที่มีกริยาผัน เช่น so that she wouldn't forget"}
     - {t: in case of, why: "in case of ต้องตามด้วยคำนาม"}
   explain: "lest + ประธาน + ==กริยารูปเดิม== = เพื่อไม่ให้ (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-009
   kind: mcq
   skill: gm
@@ -118,7 +118,7 @@
     - {t: showed, why: "ไม่ใช้รูปอดีตในข้อเรียกร้อง"}
     - {t: showing, why: "หลัง that ต้องมีกริยาแท้"}
   explain: "ข้อกำหนดทางการ ==It is important that + กริยารูปเดิม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-010
   kind: mcq
   skill: gm
@@ -131,7 +131,7 @@
     - {t: reconsidered, why: "subjunctive ไม่เปลี่ยนเป็นอดีตตาม demanded"}
     - {t: to reconsider, why: "หลัง that ต้องเป็นประโยค ไม่ใช่ to + กริยา"}
   explain: "demand that ... ==กริยารูปเดิม== · demand to + กริยา (เมื่อเป็นคนเดียวกัน)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-011
   kind: mcq
   skill: gm
@@ -144,7 +144,7 @@
     - {t: "We request all guests that be seated by 7 p.m.", why: "ลำดับผิด that ต้องอยู่หน้าประธาน"}
     - {t: "We request that all guests being seated by 7 p.m.", why: "หลัง that ต้องมีกริยาแท้"}
   explain: "จดหมายเชิญทางการ ==We request that ... be + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-012
   kind: type
   skill: gm
@@ -154,7 +154,7 @@
   answer: be
   accept: [be]
   why: "order that + ประธาน + be + ช่อง 3 เป็นรูปข้อสั่งการทางการ"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ภาษาทางการและองค์กร ----------
 - id: cefr-c1-w04-013
   kind: mcq
@@ -168,7 +168,7 @@
     - {t: relinquishes, why: "relinquish แปลว่าสละ"}
     - {t: entails, why: "entail ไม่ตามด้วย that แบบนี้ และแปลว่าเกี่ยวข้องกับ"}
   explain: "stipulate = ==ระบุเป็นเงื่อนไข== (สัญญา กฎหมาย)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-014
   kind: mcq
   skill: vo
@@ -181,7 +181,7 @@
     - {t: hierarchy, why: "hierarchy คือลำดับขั้น"}
     - {t: caveat, why: "caveat คือข้อแม้"}
   explain: "in compliance with = ==เป็นไปตาม (กฎ ข้อบังคับ)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-015
   kind: mcq
   skill: vo
@@ -194,7 +194,7 @@
     - {t: hierarchy, why: "hierarchy เป็นคำนาม ไม่ได้บอกความรับผิดชอบ"}
     - {t: notwithstanding, why: "notwithstanding เป็นคำบุพบท ไม่ใช่คำคุณศัพท์"}
   explain: "be held ==accountable for== = ต้องรับผิดชอบต่อ"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-016
   kind: mcq
   skill: vo
@@ -207,7 +207,7 @@
     - {t: caveat, why: "caveat คือข้อแม้"}
     - {t: onus, why: "onus คือภาระความรับผิดชอบ ไม่ใช่ขั้นตอนเอกสาร"}
   explain: "bureaucracy = ==ระบบราชการ ขั้นตอนเอกสารยืดยาว=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-017
   kind: mcq
   skill: vo
@@ -220,7 +220,7 @@
     - {t: discretion, why: "discretion คือดุลยพินิจ"}
     - {t: caveat, why: "caveat คือข้อแม้ ไม่ใช่โครงสร้างองค์กร"}
   explain: "hierarchy = ==ลำดับชั้นการบังคับบัญชา=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-018
   kind: mcq
   skill: vo
@@ -233,7 +233,7 @@
     - {t: compliance, why: "at the manager's compliance ไม่มีความหมาย"}
     - {t: bureaucracy, why: "at the manager's bureaucracy ไม่มีความหมาย"}
   explain: "at someone's discretion = ==แล้วแต่ดุลยพินิจของ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-019
   kind: mcq
   skill: vo
@@ -246,7 +246,7 @@
     - {t: discretion, why: "the discretion is on ไม่ใช่วลีที่ใช้"}
     - {t: compliance, why: "the compliance is on ไม่ใช่วลีที่ใช้"}
   explain: "The onus is on + คน = ==ภาระ หน้าที่ตกอยู่ที่=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-020
   kind: mcq
   skill: vo
@@ -259,7 +259,7 @@
     - {t: hierarchy, why: "hierarchy คือลำดับชั้น"}
     - {t: bureaucracy, why: "bureaucracy คือขั้นตอนราชการ"}
   explain: "caveat = ==ข้อแม้ คำเตือน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-021
   kind: mcq
   skill: vo
@@ -272,7 +272,7 @@
     - {t: concede, why: "concede แปลว่ายอมรับ"}
     - {t: relinquish, why: "relinquish แปลว่าสละ ขัดกับความหมาย"}
   explain: "entail = ==ต้องมี ทำให้เกิดตามมา== (≈ involve)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-022
   kind: mcq
   skill: vo
@@ -285,7 +285,7 @@
     - {t: entail, why: "entail control ไม่มีความหมายนี้"}
     - {t: endorse, why: "endorse แปลว่ารับรอง ไม่ใช่สละ"}
   explain: "relinquish = ==สละ ปล่อยมือ== (อำนาจ ตำแหน่ง สิทธิ์)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-023
   kind: mcq
   skill: vo
@@ -298,7 +298,7 @@
     - {t: relinquished, why: "relinquish ไม่ตามด้วย that"}
     - {t: entailed, why: "entail ไม่ตามด้วย that และใช้กับคนไม่ได้"}
   explain: "concede that ... = ==ยอมรับ (อย่างไม่เต็มใจ)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-024
   kind: type
   skill: vo
@@ -308,7 +308,7 @@
   answer: notwithstanding
   accept: [notwithstanding, Notwithstanding]
   why: "notwithstanding + คำนาม = แม้จะมี... (ทางการกว่า despite)"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · เปลี่ยนกริยาเป็นนาม ----------
 - id: cefr-c1-w04-025
   kind: mcq
@@ -322,7 +322,7 @@
     - {t: constructive, why: "constructive เป็นคำคุณศัพท์ แปลว่าสร้างสรรค์"}
     - {t: constructing, why: "The constructing of ไม่ใช่รูปที่ใช้ในภาษาทางการ"}
   explain: "ภาษาทางการเปลี่ยนกริยาเป็น ==คำนาม + of==: build → the construction of"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-026
   kind: mcq
   skill: gm
@@ -335,7 +335,7 @@
     - {t: increased, why: "increased เป็นกริยาช่อง 2/3 วางหลัง a sharp ไม่ได้"}
     - {t: increasingly, why: "increasingly เป็นคำวิเศษณ์"}
   explain: "Tourism increased sharply → ==a sharp increase in tourism=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-027
   kind: mcq
   skill: gm
@@ -348,7 +348,7 @@
     - {t: "Deciding we closed the branch, sales fell.", why: "โครงสร้างผิด ความหมายสับสน"}
     - {t: "The decide of closing the branch was sales falling.", why: "decide เป็นกริยา ใช้เป็นนามไม่ได้"}
   explain: "ภาษารายงาน ==ใช้นามแทนประโยค==: because sales fell → due to a fall in sales"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-028
   kind: mcq
   skill: gm
@@ -361,7 +361,7 @@
     - {t: introductory, why: "introductory เป็นคำคุณศัพท์ แปลว่าเบื้องต้น"}
     - {t: introducer, why: "introducer หมายถึงคน ไม่ใช่การนำเข้ามาใช้"}
   explain: "introduce → ==the introduction of== (การนำมาใช้)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-029
   kind: mcq
   skill: gm
@@ -374,7 +374,7 @@
     - {t: lacked, why: "lacked เป็นกริยา"}
     - {t: shortly, why: "shortly เป็นคำวิเศษณ์ แปลว่าในไม่ช้า"}
   explain: "didn't have enough money → ==a lack of funding=="
-  status: draft
+  status: approved
 - id: cefr-c1-w04-030
   kind: mcq
   skill: gm
@@ -387,7 +387,7 @@
     - {t: oppose, why: "oppose เป็นกริยา"}
     - {t: opposing, why: "strong opposing ไม่ใช่รูปคำนาม"}
   explain: "oppose → ==opposition to== (การคัดค้าน)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-031
   kind: mcq
   skill: gm
@@ -400,7 +400,7 @@
     - {t: Failing comply, why: "ขาด to และรูปผิด"}
     - {t: Failed complying, why: "failed เป็นกริยา และรูปไม่ถูก"}
   explain: "If you fail to ... → ==Failure to + กริยา== ... (ภาษากฎระเบียบ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-032
   kind: mcq
   skill: gm
@@ -413,7 +413,7 @@
     - {t: involved, why: "involved เป็นคุณศัพท์หรือกริยาช่อง 3"}
     - {t: involving, why: "the involving of ไม่ใช่รูปที่ใช้"}
   explain: "involve → ==involvement== · achieve → achievement"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-033
   kind: mcq
   skill: gm
@@ -426,7 +426,7 @@
     - {t: "The company's respond was slow and anger customers.", why: "respond เป็นกริยา และ anger ผันผิด"}
     - {t: "Responding slow, the customers angered the company.", why: "slow ต้องเป็น slowly และความหมายกลับกัน"}
   explain: "กริยา + คำวิเศษณ์ → ==คุณศัพท์ + คำนาม== (responded slowly → slow response)"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-034
   kind: cloze
   skill: gm
@@ -450,7 +450,7 @@
         - {t: fail, why: "fail เป็นกริยา วางหลัง Any แบบนี้ไม่ได้"}
         - {t: failing, why: "Any failing to ไม่ใช่รูปที่ใช้"}
         - {t: failed, why: "failed เป็นกริยาช่อง 2/3"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านระเบียบทางการและฟังแถลงการณ์ ----------
 - id: cefr-c1-w04-035
   kind: read
@@ -493,7 +493,7 @@
         - {t: officials must prove the vendor is guilty, why: "กลับด้าน ภาระพิสูจน์อยู่ที่ผู้ค้า"}
         - {t: temporary obstructions are always allowed, why: "ต้องพิสูจน์ว่าชั่วคราวและหลีกเลี่ยงไม่ได้ ไม่ใช่อนุญาตเสมอ"}
         - {t: permits cannot be suspended, why: "ข้อ 5 บอกว่าระงับใบอนุญาตได้"}
-  status: draft
+  status: approved
 - id: cefr-c1-w04-036
   kind: listen
   skill: li
@@ -508,7 +508,7 @@
         - {t: arrive at the airport early, why: "ไม่ได้ขอให้มาเร็ว"}
         - {t: cancel their flights, why: "ไม่ได้ขอให้ยกเลิก"}
         - {t: call the airport authority, why: "ไม่ได้ขอให้โทร จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c1-w04-037
   kind: listen
   skill: li
@@ -523,7 +523,7 @@
         - {t: "no", why: "notwithstanding แปลว่าไม่ขึ้นกับใบเสร็จ"}
         - {t: only a partial refund, why: "ผู้พูดบอกว่าคืนเต็มจำนวน"}
         - {t: only after the review, why: "การตรวจสอบเสร็จแล้ว"}
-  status: draft
+  status: approved
 - id: cefr-c1-w04-038
   kind: listen
   skill: li
@@ -538,7 +538,7 @@
         - {t: it will reopen the library, why: "ขัดกับที่บอกว่าจะไม่กลับคำ"}
         - {t: it ignored residents' concerns, why: "สภาบอกว่ารับทราบความกังวล"}
         - {t: it has not decided yet, why: "การตัดสินใจเกิดขึ้นแล้ว"}
-  status: draft
+  status: approved
 - id: cefr-c1-w04-039
   kind: order
   skill: gm
@@ -548,7 +548,7 @@
   sentence: It is essential that the form be signed by both parties.
   th: แบบฟอร์มต้องได้รับการลงนามโดยทั้งสองฝ่าย
   why: "It is essential that + ประธาน + be + ช่อง 3 + by"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-040
   kind: order
   skill: gm
@@ -558,7 +558,7 @@
   sentence: The rapid growth of online shopping has led to a decline in high-street sales.
   th: การเติบโตอย่างรวดเร็วของการซื้อของออนไลน์ทำให้ยอดขายหน้าร้านลดลง
   why: "ประโยคแบบนาม ประธานเป็นนามวลี แล้วใช้ has led to + นามวลี"
-  status: draft
+  status: approved
 - id: cefr-c1-w04-041
   kind: order
   skill: gm
@@ -568,7 +568,7 @@
   sentence: We strongly recommend that every employee attend the training session.
   th: เราขอแนะนำอย่างยิ่งให้พนักงานทุกคนเข้าร่วมการอบรม
   why: "recommend that + ประธาน + กริยารูปเดิม attend (ไม่เติม s)"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c1-w04-042
   kind: order
@@ -579,4 +579,4 @@
   sentence: I would therefore propose that the current policy be reviewed before the end of the year.
   th: ดังนั้นจึงขอเสนอให้ทบทวนนโยบายปัจจุบันก่อนสิ้นปี
   why: "propose that + ประธาน + be + ช่อง 3 แล้วจึงบอกกำหนดเวลา"
-  status: draft
+  status: approved

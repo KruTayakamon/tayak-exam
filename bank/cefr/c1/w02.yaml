@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 2 · เน้นด้วยการสลับลำดับ · negative inversion · เงื่อนไขแบบสลับลำดับ (Had I known · Were it not for · Should you need)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ขึ้นต้นด้วยคำปฏิเสธ ----------
 - id: cefr-c1-w02-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: I saw, why: "ไม่สลับลำดับ และขาดกริยาช่วยที่ต้องย้ายมาหน้า"}
     - {t: did I saw, why: "หลัง did ต้องใช้กริยารูปเดิม"}
   explain: "คำปฏิเสธขึ้นต้น → ==กริยาช่วย + ประธาน== เหมือนคำถาม"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: does she, why: "late เป็นคำคุณศัพท์ ต้องใช้ be ไม่ใช่ does"}
     - {t: she does, why: "ไม่สลับลำดับ และใช้กริยาผิดตัว"}
   explain: "ประโยคเดิมใช้ be สลับ be · ไม่มีกริยาช่วยให้ ==ใช้ do/does/did=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: we did realise, why: "ไม่สลับลำดับหลังวลี Not until"}
     - {t: did we realised, why: "หลัง did ต้องใช้กริยารูปเดิม"}
   explain: "Not until + เวลา/ประโยค ==แล้วจึงสลับในประโยคหลัก=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: then, why: "then ไม่ใช่คู่ของ No sooner"}
     - {t: that, why: "that ไม่ใช่คู่ของ No sooner"}
   explain: "==No sooner ... than== · Hardly ... when (เพิ่งจะ...ก็...)"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: then, why: "then ไม่ใช่คู่ของ Hardly"}
     - {t: as, why: "as ไม่ใช่คู่ของ Hardly"}
   explain: "==Hardly / Scarcely ... when== = เพิ่งจะ...ก็..."
-  status: draft
+  status: approved
 - id: cefr-c1-w02-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: staff shouldn't, why: "ไม่สลับลำดับ และปฏิเสธซ้อน"}
     - {t: shouldn't staff, why: "ปฏิเสธซ้อนกับ no ความหมายกลับกัน"}
   explain: "วลีปฏิเสธมีคำว่า no อยู่แล้ว ==ห้ามใส่ not ซ้ำ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: had I understood, why: "เข้าใจทีหลังการย้าย ใช้ past perfect ไม่ได้"}
     - {t: I did understand, why: "ไม่สลับลำดับหลังวลี Only after"}
   explain: "==Only after / Only when / Only then== ก็สลับลำดับเหมือนคำปฏิเสธ"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: hear we, why: "สลับกริยาแท้มาหน้าประธานไม่ได้ ต้องใช้ do"}
     - {t: do we heard, why: "หลัง do ต้องใช้กริยารูปเดิม"}
   explain: "ไม่มีกริยาช่วย ==เติม do/does/did แล้วสลับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: did he, why: "late เป็นคำคุณศัพท์ ต้องใช้ be"}
     - {t: he did, why: "ไม่สลับลำดับ และใช้กริยาผิดตัว"}
   explain: "==Not only + กริยาช่วย + ประธาน==, but ... also ..."
-  status: draft
+  status: approved
 - id: cefr-c1-w02-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: they did know, why: "ไม่สลับลำดับหลังคำว่า Little"}
     - {t: knew they, why: "สลับกริยาแท้มาหน้าไม่ได้ ต้องใช้ did"}
   explain: "Little did I know = ==ไม่รู้เลยว่า== (ใช้เล่าเรื่องให้ตื่นเต้น)"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: "At no point didn't the manager mention a pay cut.", why: "ปฏิเสธซ้อน ความหมายกลับกัน"}
     - {t: "At no point did the manager mentioned a pay cut.", why: "หลัง did ต้องใช้กริยารูปเดิม"}
   explain: "ตรวจ 3 จุด ==สลับลำดับ== · ไม่ปฏิเสธซ้อน · กริยารูปเดิมหลัง did"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: never
   accept: [never, Never]
   why: "Never ขึ้นต้นประโยคแล้วสลับ have I เพื่อเน้น"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ความรุนแรงและความเร่งด่วน ----------
 - id: cefr-c1-w02-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: invariably, why: "invariably เป็นคำวิเศษณ์ แปลว่าเสมอ ๆ"}
     - {t: incessant, why: "incessant แปลว่าไม่หยุด ไม่ได้บอกว่าไม่เคยเกิด"}
   explain: "unprecedented = ==ไม่เคยมีมาก่อน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: profound, why: "profound แปลว่าลึกซึ้ง ไม่ใช้กับพายุ"}
     - {t: substantial, why: "substantial แปลว่ามาก ไม่ได้บอกเวลา"}
   explain: "imminent = ==ใกล้จะเกิดเต็มที=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: imminent, why: "imminent แปลว่าใกล้จะเกิด"}
     - {t: acute, why: "acute ใช้กับปัญหาหรืออาการที่รุนแรง ไม่ใช่สิ่งสำคัญที่สุด"}
   explain: "paramount = ==สำคัญที่สุด เหนือสิ่งอื่น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: profound, why: "It is profound that ไม่มีความหมายนี้"}
     - {t: incessant, why: "incessant ไม่ใช้กับโครงสร้าง It is ... that"}
   explain: "It is ==imperative / essential / vital== that + ประโยค"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: acute, why: "acute ใช้กับปัญหาหรือความเจ็บปวด"}
     - {t: incessant, why: "incessant ใช้กับสิ่งที่ไม่หยุด เช่น เสียง"}
   explain: "substantial = ==มากอย่างมีนัย ปริมาณเยอะ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: invariably, why: "invariably เป็นคำวิเศษณ์ วางหน้าคำนามไม่ได้"}
     - {t: incessant, why: "incessant effect ไม่ใช่วลีที่ใช้"}
   explain: "a profound effect / impact / change = ==ผลกระทบลึกซึ้ง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: imminent, why: "imminent challenge ไม่ได้บอกความยาก"}
     - {t: invariably, why: "invariably เป็นคำวิเศษณ์ วางหน้าคำนามไม่ได้"}
   explain: "a formidable task / opponent = ==ยากมาก น่าเกรงขาม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: eloquent, why: "eloquent ใช้กับการพูด ไม่ใช่การขาดแคลน"}
     - {t: invariably, why: "invariably เป็นคำวิเศษณ์ วางหน้าคำนามไม่ได้"}
   explain: "an ==acute shortage / acute pain== = รุนแรงมาก"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: paramount, why: "paramount แปลว่าสำคัญที่สุด"}
     - {t: profound, why: "profound noise ไม่ใช่วลีที่ใช้"}
   explain: "incessant = ==ไม่หยุดหย่อน== (มักใช้กับสิ่งที่น่ารำคาญ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: substantial, why: "substantial เป็นคำคุณศัพท์ วางหน้ากริยาไม่ได้"}
     - {t: incessant, why: "incessant เป็นคำคุณศัพท์ ต้องเป็น incessantly"}
   explain: "invariably = ==ทุกครั้ง เสมอไม่มีเว้น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: alleviate, why: "alleviate แปลว่าบรรเทา ขัดกับการตัดงบ"}
     - {t: invariably, why: "invariably เป็นคำวิเศษณ์ ใช้เป็นกริยาไม่ได้"}
   explain: "exacerbate + ==ปัญหา== (มีกรรม) · deteriorate ไม่มีกรรม"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: deteriorate
   accept: [deteriorate]
   why: "deteriorate = แย่ลง เสื่อมลง ไม่ต้องมีกรรม ใช้หลัง continue to ได้"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · เงื่อนไขแบบสลับลำดับ ----------
 - id: cefr-c1-w02-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: Have, why: "เรื่องอดีตที่ไม่จริงต้องใช้ had"}
     - {t: Did, why: "Did I known ผิดรูป"}
   explain: "If I had known = ==Had I known== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: Had, why: "Had you need ผิดรูป"}
     - {t: Were, why: "Were you need ผิดรูป ต้องเป็น Were you to need"}
   explain: "ปิดอีเมลทางการ ==Should you need / have any questions,=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: be, why: "หลัง had ต้องเป็นช่อง 3 ไม่ใช่กริยารูปเดิม"}
     - {t: was, why: "had was ผิดรูป ใช้กริยาสองตัวซ้อนไม่ได้"}
   explain: "อดีต ==Had it not been for + คำนาม== · ปัจจุบัน Were it not for"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: Should, why: "Should it not for ผิดรูป"}
     - {t: If, why: "If it not for ขาดกริยา ต้องเป็น If it were not for"}
   explain: "ถ้าไม่ใช่เพราะ... (ตอนนี้) = ==Were it not for + คำนาม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: will have been, why: "will ไม่ใช้กับเรื่องสมมติในอดีต"}
     - {t: had been, why: "ส่วนผลต้องมี would"}
   explain: "Had ... ==would have + ช่อง 3== (อดีตที่ไม่ได้เกิดจริง)"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: raised, why: "Were the company raised เปลี่ยนเป็นรูปถูกกระทำ ความหมายผิด"}
     - {t: raising, why: "Were the company raising ไม่ใช่รูปเงื่อนไขทางการ"}
   explain: "If the company were to raise = ==Were the company to raise=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: Should, why: "Should we left ผิดรูป"}
     - {t: Did, why: "Did we left ไม่ใช่โครงสร้างเงื่อนไข"}
   explain: "เงื่อนไขผสม ==Had + ช่อง 3, would + กริยา (now)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: "Were you see Mai, tell her to call me.", why: "Were you ต้องตามด้วย to see"}
     - {t: "You should see Mai and tell her to call me.", why: "กลายเป็นคำแนะนำ ไม่ใช่เงื่อนไข"}
   explain: "If ... should = ==Should + ประธาน== (ถ้าบังเอิญ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: Were, why: "Were the government acted ผิดรูป"}
     - {t: Would, why: "Would ไม่ใช้ขึ้นเงื่อนไข"}
   explain: "Had + ประธาน + ช่อง 3 = ==If ... had + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w02-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: Had, why: "Had you notice ผิดรูป"}
         - {t: Were, why: "Were you notice ผิดรูป ต้องมี to"}
         - {t: Did, why: "Did you notice เป็นคำถาม ไม่ใช่เงื่อนไข"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทบรรณาธิการและฟังสุนทรพจน์ ----------
 - id: cefr-c1-w02-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: they should buy more books for schools, why: "ไม่มีข้อเสนอนี้"}
         - {t: they read more than their children, why: "บทไม่ได้เปรียบเทียบแบบนี้"}
         - {t: they are responsible for the closed libraries, why: "ไม่มีข้อมูลที่สนับสนุน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w02-036
   kind: listen
   skill: li
@@ -505,7 +505,7 @@
         - {t: money, why: "ผู้พูดบอกชัดว่าไม่ได้ขอเงิน"}
         - {t: new members, why: "ไม่ได้ขอสมาชิกใหม่"}
         - {t: thirty volunteers, why: "สามสิบคือจำนวนปี ไม่ใช่จำนวนคน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w02-037
   kind: listen
   skill: li
@@ -520,7 +520,7 @@
         - {t: the hospital will stay open, why: "ผู้พูดบอกว่าโรงพยาบาลกำลังจะปิด"}
         - {t: the clinic has already closed, why: "ยังมีโอกาสรักษาคลินิกไว้"}
         - {t: nobody warned them, why: "มีคำเตือนแต่ไม่มีใครฟัง"}
-  status: draft
+  status: approved
 - id: cefr-c1-w02-038
   kind: listen
   skill: li
@@ -536,7 +536,7 @@
         - {t: the minister sounded bored, why: "เธอบอกว่ารัฐมนตรีดูมีอารมณ์ร่วม passionate"}
         - {t: the speech was too short, why: "ไม่ได้พูดเรื่องความยาว"}
         - {t: there were too many numbers, why: "ตรงข้ามกับที่เธอพูด"}
-  status: draft
+  status: approved
 - id: cefr-c1-w02-039
   kind: order
   skill: gm
@@ -546,7 +546,7 @@
   sentence: Never have I worked with such a supportive team.
   th: ไม่เคยทำงานกับทีมที่ช่วยเหลือกันขนาดนี้มาก่อนเลย
   why: "Never ขึ้นต้นแล้วสลับ have I ตามด้วยช่อง 3"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-040
   kind: order
   skill: gm
@@ -556,7 +556,7 @@
   sentence: Should you have any questions, please contact our office.
   th: หากมีข้อสงสัย กรุณาติดต่อสำนักงานของเรา
   why: "Should + ประธาน + กริยารูปเดิม แทน If you have แล้วต่อด้วยคำขอ"
-  status: draft
+  status: approved
 - id: cefr-c1-w02-041
   kind: order
   skill: gm
@@ -566,7 +566,7 @@
   sentence: Only when the last guest had left did we finally sit down.
   th: จนกระทั่งแขกคนสุดท้ายกลับไปแล้ว เราจึงได้นั่งพักในที่สุด
   why: "Only when + ประโยค แล้วสลับ did we ในประโยคหลัก"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c1-w02-042
   kind: order
@@ -577,4 +577,4 @@
   sentence: Rarely has a single decision had such a profound effect on so many lives.
   th: น้อยครั้งนักที่การตัดสินใจเพียงครั้งเดียวจะส่งผลลึกซึ้งต่อชีวิตผู้คนมากมายขนาดนี้
   why: "Rarely ขึ้นต้นแล้วสลับ has + ประธาน ตามด้วยช่อง 3 had"
-  status: draft
+  status: approved

@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 10 · อ่านเชิงวิเคราะห์ · ยอมรับก่อนแย้ง (much as · however + adj · whatever · no matter) · เปรียบเทียบระดับสูง (the more...the more · nowhere near · by far · not so much...as)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ยอมรับก่อนแย้ง ----------
 - id: cefr-c1-w10-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: Whatever, why: "Whatever ใช้กับคำนาม ไม่ใช่ hard"}
     - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
   explain: "==However + adj/adv + ประธาน + กริยา== = ไม่ว่าจะ...แค่ไหน"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: Although, why: "Although you decide ไม่มีความหมาย"}
     - {t: Unless, why: "Unless ทำให้ความหมายเป็นถ้าไม่ตัดสินใจ"}
   explain: "==Whatever / Whoever / Wherever== + ประโยค = ไม่ว่าอะไร/ใคร/ที่ไหน"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: However much as, why: "ซ้อน however กับ as ไม่ได้"}
     - {t: So much, why: "So much ไม่ใช้ในความหมายนี้"}
   explain: "==Much as + ประโยค== = แม้จะ...มาก (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: whatever, why: "No matter whatever ซ้อนกันไม่ได้"}
     - {t: if, why: "No matter if you go ไม่ได้แปลว่าที่ไหน"}
   explain: "No matter ==who/what/where/how== = ไม่ว่า..."
-  status: draft
+  status: approved
 - id: cefr-c1-w10-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: Despite, why: "Despite ต้องตามด้วยคำนาม"}
     - {t: Even, why: "Even tempting ไม่ใช่โครงสร้างที่ใช้"}
   explain: "However + adj + ==ประธาน + may be== = แม้จะ...แค่ไหนก็ตาม"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: Much as, why: "Much as ต้องตามด้วยประโยค"}
     - {t: No matter, why: "No matter ต้องตามด้วย what/how ไม่ใช่คำนามตรง ๆ"}
   explain: "==Whatever the + คำนาม,== ... (Whatever the reason, ...)"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: that, why: "Strange that it may sound ผิดรูป"}
     - {t: so, why: "Strange so ไม่ใช่โครงสร้างที่ใช้"}
   explain: "==Adj + as/though + ประธาน + กริยา== ยอมรับก่อนแย้ง"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: although, why: "although long it takes ผิดรูป"}
     - {t: much as, why: "much as long ไม่มีความหมาย"}
   explain: "==however long== / however much / however hard"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "No matter busy she is, she always calls her mother.", why: "ขาด how จึงใช้ไม่ได้"}
     - {t: "No matter how busy is she, she always calls her mother.", why: "ไม่สลับลำดับหลัง No matter how"}
   explain: "No matter how ==+ adj + ประธาน + กริยา== (ไม่สลับลำดับ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: Much as, why: "Much as he says ไม่ตรงความหมาย"}
     - {t: Wherever, why: "Wherever แปลว่าไม่ว่าที่ไหน"}
   explain: "Whatever = ==ไม่ว่าอะไรก็ตาม== (= No matter what)"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: "However I like her, I don't trust her.", why: "However ต้องตามด้วย much"}
     - {t: "Whatever I like her, I don't trust her.", why: "Whatever ไม่ใช้กับประโยคนี้"}
   explain: "Although I like ... = ==Much as I like ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: whatever
   accept: [whatever, Whatever]
   why: "Whatever the + คำนาม = ไม่ว่า...จะเป็นอะไรก็ตาม"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การประเมิน ----------
 - id: cefr-c1-w10-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: negligible, why: "negligible ไม่ตามด้วย to และแปลว่าน้อยมาก"}
     - {t: viable, why: "viable ไม่ตามด้วย to"}
   explain: "detrimental to = ==เป็นผลเสียต่อ== ตรงข้าม conducive to"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง"}
     - {t: volatile, why: "volatile แปลว่าผันผวน"}
   explain: "negligible = ==น้อยมากจนไม่สำคัญ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: viable, why: "viable แปลว่าเป็นไปได้"}
     - {t: equitable, why: "equitable แปลว่าเป็นธรรม"}
   explain: "trivial = ==เล็กน้อย ไม่สำคัญ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: inclusive, why: "inclusive แปลว่าครอบคลุมทุกคน"}
     - {t: conducive, why: "conducive ต้องตามด้วย to"}
   explain: "precarious = ==ไม่มั่นคง ล่อแหลม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: equitable, why: "equitable แปลว่าเป็นธรรม"}
     - {t: tangible, why: "tangible แปลว่าจับต้องได้"}
   explain: "volatile = ==ผันผวน เปลี่ยนเร็ว คาดเดายาก=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: trivial, why: "trivial แปลว่าไม่สำคัญ"}
     - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง ไม่เกี่ยวกับงบ"}
   explain: "viable = ==อยู่รอดได้ ดำเนินไปได้จริง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: precarious, why: "precarious แปลว่าไม่มั่นคง"}
     - {t: detrimental, why: "detrimental แปลว่าเป็นผลเสีย"}
   explain: "feasible = ==ทำได้ในทางปฏิบัติ== (a feasibility study)"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: volatile, why: "volatile ไม่ได้บอกว่าผลชัดเจน"}
     - {t: contentious, why: "contentious results แปลว่าผลเป็นที่ถกเถียง"}
   explain: "tangible = ==จับต้องได้ เห็นผลจริง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: negligible, why: "negligible แปลว่าน้อยมาก"}
     - {t: precarious, why: "precarious แปลว่าไม่มั่นคง"}
   explain: "equitable = ==เป็นธรรม เท่าเทียมตามสัดส่วน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: trivial, why: "trivial แปลว่าไม่สำคัญ"}
     - {t: contentious, why: "contentious แปลว่าเป็นที่ถกเถียง"}
   explain: "inclusive = ==ครอบคลุม ไม่กีดกันใคร=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: feasible, why: "feasible ไม่ตามด้วย to แบบนี้"}
     - {t: tangible, why: "tangible ไม่ตามด้วย to"}
   explain: "conducive to = ==เอื้อต่อ ส่งเสริมให้เกิด=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: contentious
   accept: [contentious]
   why: "contentious = เป็นที่ถกเถียงอย่างรุนแรง"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · เปรียบเทียบระดับสูง ----------
 - id: cefr-c1-w10-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: the most confident, why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
     - {t: the more confidently, why: "become ตามด้วยคุณศัพท์ ไม่ใช่คำวิเศษณ์"}
   explain: "==The + ขั้นกว่า ..., the + ขั้นกว่า ...== = ยิ่ง...ยิ่ง..."
-  status: draft
+  status: approved
 - id: cefr-c1-w10-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: much more, why: "much more the best ซ้อนขั้นกว่ากับขั้นสุด"}
     - {t: so, why: "so the best ผิดรูป"}
   explain: "เน้นขั้นสุด ==by far / easily + the + ขั้นสุด=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: just, why: "just as good แปลว่าดีพอ ๆ กัน ความหมายกลับ"}
     - {t: twice, why: "twice as good แปลว่าดีกว่าสองเท่า ความหมายกลับ"}
   explain: "ห่างกันมาก ==nowhere near / not nearly as ... as=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: but, why: "not so much ... but ไม่ใช่คู่คำที่ใช้"}
     - {t: like, why: "not so much ... like ไม่ใช่คู่คำที่ใช้"}
   explain: "==not so much A as B== = ปัญหาจริงคือ B"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: by far, why: "by far ใช้กับขั้นสุด หรือวางหลัง higher เท่านั้น"}
     - {t: so, why: "so higher ผิดรูป"}
   explain: "เน้นขั้นกว่า ==considerably== / significantly / far / much"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: the earliest, why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
     - {t: the more early, why: "early ใช้ earlier ไม่ใช่ more early"}
   explain: "The sooner ..., the + ==ขั้นกว่า== ..."
-  status: draft
+  status: approved
 - id: cefr-c1-w10-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: "Chiang Mai is just as big as Bangkok.", why: "just as big = เท่ากัน ความหมายกลับ"}
     - {t: "Chiang Mai is slightly smaller than Bangkok.", why: "slightly = ต่างกันนิดเดียว ความหมายกลับ"}
   explain: "ต่างมาก ==nowhere near== · ต่างนิดเดียว slightly / almost"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: most, why: "most less ผิดรูป"}
     - {t: such, why: "such less ผิดรูป"}
   explain: "==far / much / a lot + less/more=="
-  status: draft
+  status: approved
 - id: cefr-c1-w10-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: "the highest the expectations", why: "ใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
     - {t: "the expectations are higher", why: "ท่อนที่สองต้องขึ้นด้วย the + ขั้นกว่า"}
   explain: "แบบสั้น ==The bigger the house==, the higher the bills."
-  status: draft
+  status: approved
 - id: cefr-c1-w10-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: than, why: "not so much ... than ผิดคู่"}
         - {t: but, why: "not so much ... but ผิดคู่"}
         - {t: like, why: "not so much ... like ผิดคู่"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความวิชาการและฟังอภิปราย ----------
 - id: cefr-c1-w10-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: by the number of new schools built, why: "ผู้เขียนบอกว่าไม่ได้วัดจากจำนวนอาคาร"}
         - {t: by attendance rates alone, why: "ผู้เขียนบอกว่าการเข้าเรียนไม่เท่ากับการเรียนรู้"}
         - {t: by how cheap the policy is, why: "บทไม่ได้ใช้ราคาเป็นเกณฑ์หลัก"}
-  status: draft
+  status: approved
 - id: cefr-c1-w10-036
   kind: listen
   skill: li
@@ -506,7 +506,7 @@
         - {t: she dislikes the idea completely, why: "เธอบอกว่า Much as I like the idea"}
         - {t: it would cost too much, why: "ไม่ได้พูดเรื่องค่าใช้จ่าย"}
         - {t: workers would be bored, why: "ไม่ได้พูดเรื่องความเบื่อ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w10-037
   kind: listen
   skill: li
@@ -521,7 +521,7 @@
         - {t: the new law, why: "ผลของกฎหมายน้อยมาก negligible"}
         - {t: high interest rates, why: "ไม่ได้พูดถึงดอกเบี้ย"}
         - {t: foreign buyers, why: "ไม่ได้พูดถึงผู้ซื้อต่างชาติ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w10-038
   kind: listen
   skill: li
@@ -536,7 +536,7 @@
         - {t: it is the only viable plan, why: "เขาบอกว่าทั้งสองแผนเป็นไปได้"}
         - {t: it is cheaper, why: "ไม่ได้พูดเรื่องราคา"}
         - {t: it is faster to introduce, why: "ไม่ได้พูดเรื่องความเร็ว"}
-  status: draft
+  status: approved
 - id: cefr-c1-w10-039
   kind: order
   skill: gm
@@ -546,7 +546,7 @@
   sentence: The more we read, the more we understand.
   th: ยิ่งอ่านมาก ยิ่งเข้าใจมาก
   why: "The more + ประโยค, the more + ประโยค"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-040
   kind: order
   skill: gm
@@ -556,7 +556,7 @@
   sentence: However difficult the task may seem, we must try.
   th: ไม่ว่างานจะดูยากแค่ไหน เราก็ต้องลอง
   why: "However + adj + ประธาน + may seem แล้วตามด้วยประโยคหลัก"
-  status: draft
+  status: approved
 - id: cefr-c1-w10-041
   kind: order
   skill: gm
@@ -566,7 +566,7 @@
   sentence: The issue is not so much the price as the quality.
   th: ประเด็นไม่ได้อยู่ที่ราคามากเท่ากับคุณภาพ
   why: "not so much A as B บอกว่าประเด็นจริงคือ B"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c1-w10-042
   kind: order
@@ -577,4 +577,4 @@
   sentence: Much as the first approach appeals to me, the second is far more feasible.
   th: แม้แนวทางแรกจะน่าสนใจสำหรับฉัน แต่แนวทางที่สองทำได้จริงมากกว่ามาก
   why: "Much as + ประโยคยอมรับ แล้วตามด้วยการเปรียบเทียบด้วย far more"
-  status: draft
+  status: approved

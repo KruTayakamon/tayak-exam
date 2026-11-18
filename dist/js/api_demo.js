@@ -6,15 +6,16 @@ import { buildSession, advancePointer, remainingSessions, startPointer } from '.
 import { grade, strip } from './engine/grade.mjs';
 import { quote, PRODUCTS } from './engine/pricing.mjs';
 import { load, save, drop } from './store.js';
+import { SITE, OPEN_COURSES } from './config.js';
 
-const KEY = 'cfk-demo';
+const KEY = () => (SITE.course === 'b1' ? 'cfk-demo' : 'cfk-demo-' + SITE.course);   // แยกข้อมูลสาธิตต่อคอร์ส
 const fresh = () => ({ enrol: null, states: {}, events: [], sessions: [], offset: 0 });
-const st = () => load(KEY, fresh());
-const put = (s) => save(KEY, s);
+const st = () => load(KEY(), fresh());
+const put = (s) => save(KEY(), s);
 const cfgOf = () => globalThis.DEMO_DATA.config;
 const nowMs = (s) => Date.now() + (s.offset || 0) * 86400000;
 const today = (s) => dayNo(nowMs(s), cfgOf());
-const weekOf = (n) => globalThis.DEMO_DATA.course.weeks.find((w) => w.week === n) || null;
+const weekOf = (n) => ((globalThis.DEMO_DATA.courses || {})[SITE.course] || globalThis.DEMO_DATA.course).weeks.find((w) => w.week === n) || null;
 const itemOf = (id) => globalThis.DEMO_DATA.items[id];
 
 export const demoApi = {
@@ -38,7 +39,7 @@ export const demoApi = {
   },
   async status() {
     const now = Date.now();
-    return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }], prices: ['cefr-b1', 'cefr-extend'].map((p) => quote(p, now)), orders: [] };   // เหมือนเว็บจริง: ขายเฉพาะคอร์สที่มีเนื้อหา
+    return { entitlements: [{ product: 'cefr-b1', expires_at: now + 180 * 86400000 }, { product: 'cefr-c1', expires_at: now + 180 * 86400000 }], prices: [...OPEN_COURSES.map((c) => 'cefr-' + c), 'cefr-extend'].map((p) => quote(p, now)), orders: [] };   // เหมือนเว็บจริง: ขายเฉพาะคอร์สที่มีเนื้อหา
   },
   async checkout() { return { url: '#buy', demo: true }; },          // โหมดสาธิตไม่จ่ายเงินจริง
   async verify() { return { credited: 0, pending: 0 }; },
@@ -107,7 +108,7 @@ export const demoApi = {
   // ชุดวัดผล: เหมือน exam-api checkpoint_start/submit · ลำดับชุดคงที่ a b c ในโหมดสาธิต
   async checkpointStart(n) {
     const s = st(), form = 'abc'[n - 1];
-    const its = Object.values(globalThis.DEMO_DATA.items).filter((i) => i.id.startsWith(`cefr-b1-cp${form}-`)).sort((a, b) => a.id.localeCompare(b.id));
+    const its = Object.values(globalThis.DEMO_DATA.items).filter((i) => i.id.startsWith(`cefr-${SITE.course}-cp${form}-`)).sort((a, b) => a.id.localeCompare(b.id));
     if (!its.length) return { error: 'content_missing' };
     const cps = (s.cps ||= []); if (!cps.find((c) => c.n === n)) { cps.push({ n, form, ids: its.map((i) => i.id) }); put(s); }
     return { n, form, time_min: 40, items: its.map((i) => strip(i)) };
@@ -124,6 +125,6 @@ export const demoApi = {
   async report({ item_id, why }) { const s = st(); (s.reports ||= []).push({ item_id, why, at: Date.now() }); put(s); return { ok: true }; },
   // เฉพาะโหมดสาธิต: เลื่อนวัน และล้างข้อมูล
   demoShiftDay(n) { const s = st(); s.offset = (s.offset || 0) + n; put(s); return s.offset; },
-  demoReset() { drop(KEY); },
+  demoReset() { drop(KEY()); },
   demoState() { return st(); },
 };

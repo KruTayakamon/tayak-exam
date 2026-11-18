@@ -2,7 +2,7 @@
 // บันไดขั้น 3 ใน docs/cefr/08_marketing.md · ผลเป็นการประเมินคร่าว ๆ เพื่อเลือกคอร์ส ไม่ใช่การรับรองระดับ
 import { api } from './api.js';
 import { el, esc } from './items.js';
-import { SITE } from './config.js';
+import { SITE, OPEN_COURSES } from './config.js';
 
 const app = document.getElementById('app');
 const BAND = { a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
@@ -73,6 +73,9 @@ function result(R) {
   const lvl = R.level.startsWith('below-') ? `ยังไม่ถึง ${BAND[R.level.slice(6)]}` : `${BAND[R.level]} ${R.position === 'high' ? 'ช่วงบน' : 'ช่วงล่าง'}`;
   const plan = (R.plan || []).map((c) => BAND[c]).join(' แล้วต่อ ');
   const skills = Object.entries(R.by_skill || {}).map(([k, [c, n]]) => `<div class="skill"><span>${SKILL[k] || k}</span><div class="bar"><span style="width:${Math.round(100 * c / n)}%"></span></div><small>${c}/${n}</small></div>`).join('');
+  // คอร์สที่เปิดแล้วซึ่งใกล้ผลที่สุด: a2 → b1 · b2 → b1 (ทบทวนให้แน่น) และเสนอ c1 เป็นทางเลือก · c2 → c1
+  const first = (R.plan || ['b1'])[0], NEAR = { a2: 'b1', b1: 'b1', b2: 'b1', c1: 'c1', c2: 'c1' };
+  const go = OPEN_COURSES.includes(first) ? first : (NEAR[first] || 'b1'), other = first === 'b2' ? 'c1' : null;
   const weak = Object.entries(R.by_skill || {}).filter(([, [c, n]]) => n && c / n < 0.6).map(([k]) => SKILL[k] || k);
   app.innerHTML = '';
   const v = el(`<div class="screen" id="view" data-level="${esc(R.level)}" data-scores="${esc(JSON.stringify(R.scores || {}))}">${head()}
@@ -80,9 +83,10 @@ function result(R) {
     <div class="card"><p class="small">ระดับโดยประมาณ</p><p class="price" id="level">${esc(lvl)}</p>${R.borderline ? '<p class="small">ผลอยู่ใกล้เส้นแบ่งระหว่างสองระดับ</p>' : ''}
       <p>คอร์สที่แนะนำ: <b id="plan">${esc(plan)}</b></p></div>
     <div class="card"><h2>แยกตามทักษะ</h2>${skills}${weak.length ? `<p class="small">ควรฝึกก่อน: ${esc(weak.join(' · '))}</p>` : ''}</div>
-    <div class="card"><h2>ขั้นต่อไป</h2><p>เรียนสัปดาห์แรกของคอร์ส ${esc(BAND[(R.plan || [])[0]] || '')} ฟรีทั้งสัปดาห์ วันละประมาณ 20 นาที</p>
-      <a class="btn" id="startCourse" href="app.html">เริ่มเรียนสัปดาห์แรกฟรี</a>
-      <p class="small">ตอนนี้เปิดคอร์ส B1 เป็นคอร์สแรก คอร์สระดับอื่นทยอยเปิดตามลำดับ</p></div>
+    <div class="card"><h2>ขั้นต่อไป</h2><p>เรียนสัปดาห์แรกของคอร์ส ${esc(BAND[go])} ฟรีทั้งสัปดาห์ วันละประมาณ 20 นาที</p>
+      <a class="btn" id="startCourse" href="app.html?course=${esc(go)}">เริ่มเรียนคอร์ส ${esc(BAND[go])} สัปดาห์แรกฟรี</a>
+      ${go !== first ? `<p class="small">คอร์ส ${esc(BAND[first] || '')} ยังไม่เปิด ตอนนี้แนะนำคอร์ส ${esc(BAND[go])} ซึ่งใกล้ระดับของคุณที่สุด${other ? ` หรือ <a href="app.html?course=${esc(other)}" id="otherCourse">ลองคอร์ส ${esc(BAND[other])}</a>` : ''}</p>` : ''}
+      <p class="small">ตอนนี้เปิดคอร์ส ${OPEN_COURSES.map((c) => BAND[c]).join(' และ ')} คอร์สระดับอื่นทยอยเปิดตามลำดับ</p></div>
     <p class="small">ผลนี้เป็นการประเมินคร่าว ๆ จากแบบวัด 25 ข้อเพื่อช่วยเลือกคอร์ส ไม่ใช่การรับรองระดับภาษาและไม่ได้บอกผลสอบจริง</p>
     <button class="btn quiet" id="again">ทำอีกครั้ง</button></div>`);
   v.querySelector('#again').onclick = () => start();

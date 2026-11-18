@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 6 · ลดน้ำหนักและระวังคำ · hedging (It would appear · is thought to · arguably · passive reporting) · เงื่อนไขระดับสูง (but for · supposing · were to · mixed)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ไม่ฟันธง ----------
 - id: cefr-c1-w06-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: is thinking, why: "is thinking เป็นรูปกระทำ ความหมายผิด"}
     - {t: has thought, why: "has thought เป็นรูปกระทำ ไฟไม่ได้คิด"}
   explain: "passive reporting ==ประธาน + is thought to + กริยา== (said / believed ก็ได้)"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: appearing, why: "หลัง would ต้องใช้กริยารูปเดิม ไม่ใช่ -ing"}
     - {t: be appear, why: "be appear ผิดรูป ใช้กริยาซ้อนกันไม่ได้"}
   explain: "It would appear / seem that = ==ดูเหมือนว่า (ระวังคำ)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: is widely believing, why: "รูป -ing ไม่ใช้กับ passive reporting"}
     - {t: widely believed, why: "ขาด is ประโยคไม่สมบูรณ์"}
   explain: "==It is said that + ประโยค== (believed / reported ก็ได้)"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: to be painting, why: "รูปกำลังทำ ความหมายผิด"}
     - {t: having been painting, why: "หลัง is said ต้องเป็น to + กริยา ไม่ใช่ having"}
   explain: "อดีต + ถูกกระทำ ==is said to have been + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: certainly, why: "certainly ฟันธงเกินไป ขัดกับประโยคหลัง"}
     - {t: argue, why: "argue เป็นกริยา วางตรงนี้ไม่ได้"}
   explain: "arguably = ==อาจกล่าวได้ว่า (มีคนเถียงได้)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: suggests, why: "the results เป็นพหูพจน์ ไม่เติม s"}
     - {t: are suggest, why: "are suggest ผิดรูป"}
   explain: "ภาษาวิชาการ ==suggest / indicate== ปลอดภัยกว่า prove"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: "Screen time definitely causes poor sleep.", why: "definitely ฟันธงเต็มที่"}
     - {t: "Everyone knows that screen time ruins sleep.", why: "อ้างว่าทุกคนรู้ ไม่มีหลักฐาน และไม่ระวังคำ"}
   explain: "เพิ่มความระวังด้วย ==may / might / could + indicate / suggest=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: is seeming, why: "seem ไม่ใช้รูป -ing"}
     - {t: seems being, why: "หลัง seem ต้องเป็น to + กริยา"}
   explain: "แจ้งปัญหาอย่างสุภาพ ==There seems to be / It seems that=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: has reported, why: "has reported เป็นรูปกระทำ ความหมายผิด"}
     - {t: is reporting, why: "is reporting เป็นรูปกระทำ ความหมายผิด"}
   explain: "กำลังทำอยู่ตามข่าว ==is reported to be + -ing=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: Instead of, why: "Instead of แปลว่าแทนที่จะ"}
     - {t: In comparison with, why: "In comparison with ใช้เปรียบเทียบ ไม่ใช่อ้างหลักฐาน"}
   explain: "อ้างที่มา ==On the basis of / Based on + หลักฐาน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: "in every case", why: "in every case ทำให้ข้ออ้างแรงขึ้น"}
     - {t: "beyond question", why: "beyond question แปลว่าไม่ต้องสงสัย"}
   explain: "ลดน้ำหนัก ==to some extent== · in many cases · tends to"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: tend
   accept: [tend]
   why: "tend to + กริยา = มีแนวโน้ม ใช้ลดการเหมารวม"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์หลักฐานและความน่าเชื่อถือ ----------
 - id: cefr-c1-w06-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: ambivalent, why: "ambivalent แปลว่ารู้สึกสองจิตสองใจ"}
     - {t: tenuous, why: "tenuous แปลว่าอ่อนบาง ขัดกับการยอมรับ"}
   explain: "plausible = ==ฟังขึ้น เป็นไปได้=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: plausible, why: "plausible ใช้กับคำอธิบาย ไม่ใช่ความรู้สึก"}
     - {t: fallible, why: "fallible ไม่ได้แปลว่าสงสัย"}
   explain: "sceptical (about) = ==ไม่ค่อยเชื่อ สงสัย=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: plausible, why: "plausible ไม่เข้ากับ at best ที่บอกว่าอ่อน"}
     - {t: sceptical, why: "sceptical ใช้กับคน ไม่ใช่ความเชื่อมโยง"}
   explain: "a tenuous link / connection = ==เชื่อมโยงกันอย่างอ่อน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: credibly, why: "credibly แปลว่าอย่างน่าเชื่อถือ ขัดกับเงินเข้ากรรมการ"}
     - {t: sceptically, why: "sceptically แปลว่าอย่างสงสัย ความหมายผิด"}
   explain: "ostensibly = ==โดยอ้างว่า ภายนอกดูเหมือน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: ambivalent, why: "ambivalent ไม่ได้บอกความน่าเชื่อถือ"}
     - {t: tenuous, why: "tenuous ใช้กับความเชื่อมโยง ไม่ใช่พยาน"}
   explain: "credible = ==น่าเชื่อถือ== (a credible witness / source)"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: conjectured, why: "conjecture แปลว่าคาดเดา ตรงข้ามกับการยืนยัน"}
     - {t: ostensibly, why: "ostensibly เป็นคำวิเศษณ์"}
   explain: "corroborate = ==ยืนยันด้วยหลักฐานอีกแหล่ง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: conjecture, why: "conjecture ไม่ได้แปลว่ามองเห็น"}
     - {t: credible, why: "credible เป็นคำคุณศัพท์ วางหลัง to แบบนี้ไม่ได้"}
   explain: "discern = ==สังเกตเห็น แยกแยะได้ (ยาก)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: conjecture, why: "conjecture คือการคาดเดา"}
     - {t: credibility, why: "credibility คือความน่าเชื่อถือ"}
   explain: "a discrepancy between A and B = ==ความไม่ตรงกัน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: ambivalent, why: "ambivalent เป็นคำคุณศัพท์"}
     - {t: plausible, why: "plausible เป็นคำคุณศัพท์"}
   explain: "anomaly = ==สิ่งผิดปกติ ผิดแบบแผน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: sceptical, why: "sceptical ไม่ได้บอกว่าผิดพลาดได้"}
     - {t: tenuous, why: "tenuous ไม่ใช้กับคน"}
   explain: "fallible = ==ผิดพลาดได้== · infallible = ไม่มีวันผิด"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: plausible, why: "plausible ไม่ใช้บอกความรู้สึกของคน"}
     - {t: credible, why: "credible ไม่ใช้บอกความรู้สึก"}
   explain: "ambivalent = ==รู้สึกขัดแย้งในใจ สองจิตสองใจ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: conjecture
   accept: [conjecture]
   why: "conjecture = การคาดเดาที่ไม่มีหลักฐาน ใช้ใน pure conjecture"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · เงื่อนไขระดับสูง ----------
 - id: cefr-c1-w06-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: Except, why: "Except your help ไม่ใช่โครงสร้างเงื่อนไข"}
     - {t: If not, why: "If not your help ผิดรูป"}
   explain: "But for + ==คำนาม== = If it hadn't been for"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: Provided, why: "Provided ใช้กับเงื่อนไขที่ต้องมี ไม่ใช่การสมมติร้าย ๆ"}
     - {t: Even, why: "Even ต้องเป็น Even if"}
   explain: "Supposing / Suppose + อดีต = ==สมมติว่า=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: will, why: "ไม่ใส่ will ในส่วน if"}
     - {t: would to, why: "would to ผิดรูป"}
   explain: "If + ==were to + กริยา== = ถ้าเกิดสมมติว่า (ไม่น่าเกิด)"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: will be, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
     - {t: had been, why: "ส่วนผลต้องมี would"}
   explain: "mixed ==If + had + ช่อง 3, would + กริยา (now)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: had applied, why: "ส่วนผลต้องมี would"}
     - {t: will apply, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
   explain: "นิสัยตอนนี้ส่งผลต่ออดีต ==If + อดีต, would have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: on condition of, why: "ต้องเป็น on condition that ตามด้วยประโยค"}
     - {t: even though, why: "even though บอกความขัดแย้ง"}
   explain: "provided (that) / as long as = ==โดยมีเงื่อนไขว่า=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: provided, why: "provided แปลว่าโดยมีเงื่อนไข ไม่ใช่เผื่อไว้"}
     - {t: unless, why: "unless แปลว่าถ้าไม่ ความหมายผิด"}
   explain: "==in case== = เผื่อไว้ก่อน (ทำตอนนี้) · if = เฉพาะเมื่อเกิด"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: Should, why: "Should I to accept ผิดรูป Should ไม่ตามด้วย to"}
     - {t: Would, why: "Would ไม่ใช้ขึ้นเงื่อนไข"}
   explain: "If I were to → ==Were I to== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: Unless so, why: "Unless so ไม่ใช่รูปที่ใช้"}
     - {t: Otherwise, why: "Otherwise แปลว่ามิฉะนั้น ความหมายผิด"}
   explain: "แทนเงื่อนไขทั้งประโยค ==If so / If not=="
-  status: draft
+  status: approved
 - id: cefr-c1-w06-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: had, why: "had the council to cut ผิดความหมาย"}
         - {t: should, why: "should the council to ผิดรูป"}
         - {t: if, why: "if the council to cut ขาดกริยา were"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทวิเคราะห์งานวิจัยและฟังสัมมนา ----------
 - id: cefr-c1-w06-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: it is a good way to win votes, why: "ไม่ได้พูดถึงการเลือกตั้ง"}
         - {t: it is certain to come true, why: "ผู้เขียนบอกว่าเราไม่รู้ว่าจะมีความสุขขึ้นแค่ไหน"}
         - {t: it should only be done in four cities, why: "สี่เมืองคือที่ทำวิจัย ไม่ใช่ข้อเสนอ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w06-036
   kind: listen
   skill: li
@@ -506,7 +506,7 @@
         - {t: she agrees completely, why: "เธอบอกว่า I wouldn't go that far"}
         - {t: she says the data is false, why: "เธอไม่ได้บอกว่าข้อมูลผิด"}
         - {t: she says productivity falls at home, why: "เธอบอกว่าบางคนทำงานได้ดีขึ้นที่บ้าน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w06-037
   kind: listen
   skill: li
@@ -521,7 +521,7 @@
         - {t: people recycled more than they said, why: "ทิศทางตรงข้ามกับที่ผู้บรรยายสื่อ"}
         - {t: people refused to answer, why: "ผู้เข้าร่วมตอบว่ารีไซเคิลประจำ"}
         - {t: the waste data was lost, why: "ข้อมูลขยะถูกใช้เทียบ ไม่ได้หาย"}
-  status: draft
+  status: approved
 - id: cefr-c1-w06-038
   kind: listen
   skill: li
@@ -537,7 +537,7 @@
         - {t: the results were impossible, why: "เขาไม่ได้บอกว่าผลเป็นไปไม่ได้"}
         - {t: the researchers were dishonest, why: "ไม่มีการกล่าวหาเรื่องความซื่อสัตย์"}
         - {t: the study took too long, why: "ไม่ได้พูดถึงระยะเวลา"}
-  status: draft
+  status: approved
 - id: cefr-c1-w06-039
   kind: order
   skill: gm
@@ -547,7 +547,7 @@
   sentence: The bridge is believed to have been built in the twelfth century.
   th: เชื่อกันว่าสะพานนี้สร้างขึ้นในศตวรรษที่ 12
   why: "is believed to have been + ช่อง 3 รายงานเรื่องในอดีตแบบไม่ฟันธง"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-040
   kind: order
   skill: gm
@@ -557,7 +557,7 @@
   sentence: But for the warning, many people would have been injured.
   th: ถ้าไม่มีคำเตือน คงมีคนบาดเจ็บจำนวนมาก
   why: "But for + คำนาม แล้วตามด้วย would have been + ช่อง 3"
-  status: draft
+  status: approved
 - id: cefr-c1-w06-041
   kind: order
   skill: gm
@@ -567,7 +567,7 @@
   sentence: It would appear that the problem is more complex than we thought.
   th: ดูเหมือนว่าปัญหาจะซับซ้อนกว่าที่เราคิด
   why: "It would appear that + ประโยค ใช้ระวังคำในการสรุป"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c1-w06-042
   kind: order
@@ -578,4 +578,4 @@
   sentence: While the findings are broadly credible, the claim that parks cause happiness is arguably premature.
   th: แม้ผลการศึกษาจะน่าเชื่อโดยรวม แต่ข้ออ้างว่าสวนทำให้มีความสุขอาจด่วนสรุปเกินไป
   why: "While + ยอมรับ แล้วจึงตามด้วยข้อวิจารณ์ที่ระวังคำด้วย arguably"
-  status: draft
+  status: approved

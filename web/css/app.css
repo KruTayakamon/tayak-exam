@@ -241,3 +241,11 @@ pre.cap{white-space:pre-wrap;word-break:break-word;font-family:var(--ui);font-si
 .cpa.no>p:first-child>b,.cpans.no>p:first-child>b{color:var(--bad)}
 .cpa .right{color:var(--ok)}
 .cpcard{border:2px solid var(--accent)}
+/* เลือกคอร์ส (มติบอส 18 พ.ย. รอบ 26) */
+.coursepick{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cpick{display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:14px;padding:12px;cursor:pointer;font:inherit;min-height:44px}
+.cpick b{font-size:1.4rem;color:var(--accent)}
+.cpick span{font-weight:600;font-size:.92rem}
+.cpick small{font-size:.78rem;color:var(--muted,#667);line-height:1.4}
+.cpick.on{border-color:var(--accent);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}
+a.tag{text-decoration:none}

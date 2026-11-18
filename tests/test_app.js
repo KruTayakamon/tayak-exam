@@ -146,6 +146,17 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await p.screenshot({ path: path.join(SHOTS, 'app_checkpoint_result.png'), fullPage: true });
   await p.click('#cpBack'); await p.waitForSelector('#cpCard');
   ok(!!(await p.$('[data-cp="1"] .cpscore')) && (await p.textContent('[data-cp="2"]')).includes('สัปดาห์ 8'), 'หน้าผลแสดงคะแนนครั้งที่ 1 และครั้งที่ 2 ยังรอสัปดาห์ 8');
+  // เลือกคอร์ส (มติบอส 18 พ.ย. รอบ 26): หน้าคอร์สสลับไป C1 → ตั้งแผน C1 → เรียนสัปดาห์ 1 ของ C1 · กลับ B1 แล้วความคืบหน้าเดิมยังอยู่
+  await p.goto(base + '/dist-demo/app.html#course'); await p.waitForSelector('#switchCourse');
+  ok((await p.textContent('#view h1')).includes('B1'), 'หน้าคอร์สบอกคอร์สที่กำลังเรียน (B1)');
+  await p.click('#switchCourse [data-course="c1"]'); await p.waitForSelector('#coursePick');
+  ok(await p.$eval('#coursePick .cpick.on', (b) => b.dataset.course) === 'c1', 'สลับไป C1 ที่ยังไม่เคยเรียน → หน้าตั้งแผนเลือก C1 ไว้ให้');
+  await p.screenshot({ path: path.join(SHOTS, 'app_course_pick.png'), fullPage: true });
+  await p.click('#usePlan'); await p.waitForSelector('#todayTitle');
+  ok((await p.textContent('#courseTag')) === 'C1' && (await p.textContent('#todayTitle')).includes('ความต่างเล็กน้อยของ tense'), 'เรียน C1 สัปดาห์ 1 วันที่ 1 ได้');
+  await p.click('#startBtn'); await p.waitForSelector('.nb'); ok(await noOverflow(p), 'บทเรียน C1 เปิดได้และไม่ล้นจอ'); await p.screenshot({ path: path.join(SHOTS, 'app_c1_lesson.png'), fullPage: true });
+  await p.goto(base + '/dist-demo/app.html#course'); await p.waitForSelector('#switchCourse'); await p.click('#switchCourse [data-course="b1"]'); await p.waitForSelector('#todayTitle');
+  ok((await p.textContent('#courseTag')) === 'B1' && (await p.textContent('#view')).includes('สัปดาห์ 4'), 'กลับ B1 แล้วความคืบหน้าเดิม (สัปดาห์ 4) ยังอยู่');
   await p.goto(base + '/dist-demo/app.html#buy'); await p.waitForSelector('.price');
   ok((await p.textContent('#view')).includes('290 บาท') && (await p.textContent('#view')).includes('490 บาท') && !(await p.textContent('#view')).includes('690 บาท'), 'หน้าราคาแสดงราคาเปิดตัว B1 (ราคาปกติขีดฆ่า) และไม่ขายทุกคอร์สจนกว่าคอร์สอื่นจะมีเนื้อหา');
 
@@ -168,6 +179,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok(screens === 23 && !sawWhy, 'แบบวัดระดับมี 23 หน้าจอ (25 คะแนน) และไม่แสดงเหตุผลระหว่างทำ');
   const lv = await pl.getAttribute('#view', 'data-level'), pn = await pl.textContent('#plan'), sc = await pl.getAttribute('#view', 'data-scores');
   ok(lv === 'c1' && pn === 'C2', 'ตอบถูกทุกข้อ ได้ผล C1 และแนะนำคอร์ส C2 ' + JSON.stringify([lv, pn, sc]));
+  ok((await pl.getAttribute('#startCourse', 'href')) === 'app.html?course=c1', 'ผล C2 (คอร์สยังไม่เปิด) พาไปคอร์ส C1 ที่ใกล้ที่สุด');
   ok(await noOverflow(pl), 'หน้าผลวัดระดับไม่ล้นจอ'); await pl.screenshot({ path: path.join(SHOTS, 'placement_result.png'), fullPage: true });
   // หน้าโพสต์ที่อนุมัติแล้วอยู่ในเว็บจริง และปุ่มวัดระดับพาไปหน้าวัดระดับ
   await pl.goto(base + '/dist/p/mk-quiz-0002/index.html'); await pl.waitForSelector('#q0 .opt'); await pl.click('#q0 .opt'); await pl.click('#moreBtn');

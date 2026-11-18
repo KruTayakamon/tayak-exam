@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 9 · น้ำเสียงและเจตนา · tone และ register (การเลือกคำ understatement irony) · โครงสร้างสมมติในอดีต (as if/as though · it's high time · would rather + past)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · น้ำเสียงของข้อความ ----------
 - id: cefr-c1-w09-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: "You need to reply faster.", why: "ตำหนิตรง ๆ ไม่สุภาพ"}
     - {t: "Why haven't you replied to my message yet? I've been waiting all week.", why: "ฟังเหมือนกล่าวหาและต่อว่า"}
   explain: "ยิ่งอ้อม ยิ่งสุภาพ ==I was wondering if + might/could=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: a compliment, why: "ประโยคนี้ไม่ได้ชมใคร"}
     - {t: a formal apology, why: "ประโยคนี้ไม่ได้ขอโทษ"}
   explain: "understatement = ==พูดเบากว่าความจริงเพื่อเน้น== (not exactly · a bit of a ...)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: confused, why: "ผู้พูดรู้ดีว่ารายงานช้า"}
     - {t: neutral, why: "การพูดตรงข้ามกับความจริงไม่ใช่น้ำเสียงกลาง ๆ"}
   explain: "irony = ==พูดตรงข้ามกับสิ่งที่หมายถึง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: "The report is long.", why: "ตรงไปตรงมา ไม่ได้ลดความแรง"}
     - {t: "Honestly, nobody in this office is ever going to read a report this long.", why: "เหมารวมและแรงกว่าเดิม"}
   explain: "ลดความแรง ==could + perhaps + a little/slightly=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: "I'm kind of annoyed about the service.", why: "kind of เป็นภาษาพูดไม่เป็นทางการ"}
     - {t: "What on earth is wrong with you people?", why: "ก้าวร้าวและไม่สุภาพ"}
   explain: "จดหมายร้องเรียน ==ทางการ หนักแน่น แต่ไม่หยาบ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: ruder, why: "ประโยคนี้สุภาพกว่า ไม่ได้หยาบกว่า"}
     - {t: more formal, why: "a bit of a เป็นภาษากึ่งพูด ไม่ได้ทางการกว่า"}
   explain: "a bit of a / slightly / rather = ==ทำให้เบาลง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: "You obviously haven't thought about the cost of this at all, have you?", why: "obviously และ at all ทำให้ฟังเหมือนดูถูก"}
     - {t: "Whatever you say.", why: "ฟังประชดและไม่ร่วมมือ"}
   explain: "แย้งแบบมีชั้นเชิง ==ยอมรับ + แย้งด้วยคำถาม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: confused about the product, why: "ไม่ได้พูดถึงความไม่เข้าใจสินค้า"}
     - {t: completely calm, why: "I must say บอกว่าผู้เขียนต้องการแสดงความไม่พอใจ"}
   explain: "ภาษาทางการบอกความไม่พอใจผ่าน ==understatement== (rather surprised = โกรธ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: slight, why: "slight ทำให้เบาลง"}
     - {t: possible, why: "possible ทำให้ไม่แน่ใจ จึงเบาลง"}
   explain: "เพิ่มความแรง ==serious / major / fundamental== · ลด minor / slight"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: "Attached. Let me know.", why: "ห้วนเกินไปสำหรับลูกค้าใหม่"}
     - {t: "As I told you before, here is the quote.", why: "As I told you before ฟังตำหนิ"}
   explain: "ลูกค้าใหม่ = ==สุภาพ ทางการ กระชับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: they agree completely, why: "ผู้พูดบอกว่าอีกฝ่ายอาจเข้าใจผิด"}
     - {t: they are asking the listener to explain the idea again, why: "ประโยคนี้ไม่ได้ขอให้อธิบายซ้ำ"}
   explain: "With all due respect = ==กำลังจะแย้ง (อย่างสุภาพ)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: wondering
   accept: [wondering]
   why: "I was wondering if ... เป็นวิธีขออ้อม ๆ ที่สุภาพมาก"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์บุคลิกและทัศนคติ ----------
 - id: cefr-c1-w09-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: complacent, why: "complacent แปลว่าพอใจจนประมาท"}
     - {t: indifferent, why: "indifferent แปลว่าไม่สนใจ"}
   explain: "candid = ==ตรงไปตรงมา จริงใจ== (เชิงบวก)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: meticulous, why: "meticulous แปลว่าละเอียดถี่ถ้วน"}
     - {t: pragmatic, why: "pragmatic แปลว่าเน้นความเป็นจริง"}
   explain: "condescending = ==ดูถูก ทำตัวเหนือกว่า=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: meticulous, why: "meticulous แปลว่าละเอียด"}
     - {t: candid, why: "candid แปลว่าตรงไปตรงมา ไม่ใช่หมดศรัทธา"}
   explain: "cynical = ==มองโลกในแง่ร้าย ไม่เชื่อเจตนาดี=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: diligent, why: "diligent แปลว่าขยัน ขัดกับการแพ้เพราะประมาท"}
     - {t: scrupulous, why: "scrupulous แปลว่าซื่อตรงละเอียด"}
   explain: "complacent = ==พอใจในตัวเองจนประมาท=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: pragmatic, why: "pragmatic ไม่ตามด้วย that แบบนี้"}
     - {t: diligent, why: "diligent ไม่ตามด้วย that"}
   explain: "be adamant that = ==ยืนกรานว่า=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: astute, why: "astute ไม่ตามด้วย to และเป็นคำบวก"}
     - {t: meticulous, why: "meticulous ไม่ตามด้วย to"}
   explain: "indifferent to = ==ไม่สนใจ เฉยเมย=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: candid, why: "candid ไม่ได้บอกว่าไม่ฟังคนอื่น"}
     - {t: diligent, why: "diligent แปลว่าขยัน"}
   explain: "dogmatic = ==ยึดติดความเชื่อ ไม่เปิดใจ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: adamant, why: "adamant ไม่ได้บอกความฉลาดในการลงทุน"}
     - {t: complacent, why: "complacent investor จะไม่ขายทัน ความหมายกลับ"}
   explain: "astute = ==เฉียบแหลม รู้ทัน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: condescending, why: "condescending แปลว่าดูถูก"}
     - {t: indifferent, why: "indifferent ขัดกับการตรวจสองรอบ"}
   explain: "meticulous = ==ละเอียดถี่ถ้วนทุกจุด=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: complacent, why: "complacent ไม่ใช่สิ่งที่ควรเป็น"}
     - {t: cynical, why: "cynical approach ไม่ได้แปลว่าทำได้จริง"}
   explain: "pragmatic = ==เน้นความเป็นจริง ทำได้จริง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: cynically, why: "cynically honest ขัดกันในตัว"}
     - {t: condescendingly, why: "condescendingly honest ไม่ใช่คู่คำที่ใช้"}
   explain: "คู่ตายตัว ==scrupulously honest / fair=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: diligent
   accept: [diligent]
   why: "diligent = ขยัน ตั้งใจทำงานอย่างสม่ำเสมอ"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · สมมติและตำหนิอย่างสุภาพ ----------
 - id: cefr-c1-w09-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: will make, why: "ไม่ใช้ will หลัง It's high time"}
     - {t: have made, why: "have made บอกว่าทำแล้ว ขัดกับความหมาย"}
   explain: "It's (high) time + ประธาน + ==อดีต== (ทั้งที่หมายถึงตอนนี้)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: so that, why: "so that บอกจุดประสงค์"}
     - {t: in case, why: "in case แปลว่าเผื่อ"}
   explain: "as if / as though + ==อดีต== = ราวกับว่า (ซึ่งไม่จริง)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: won't, why: "ไม่ใช้ will หลัง would rather"}
     - {t: not, why: "ขาดกริยาช่วย ต้องเป็น didn't"}
   explain: "ขอแบบสุภาพ ==I'd rather you + อดีต== (I'd rather you didn't.)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: cries, why: "เล่าเรื่องในอดีต ใช้ปัจจุบันไม่ได้"}
     - {t: would cry, why: "would cry ไม่ได้บอกสิ่งที่เกิดก่อน"}
   explain: "ราวกับว่าเคยเกิดก่อนหน้า ==as though + had (been) ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: will fix, why: "ไม่ใช้ will หลัง It's about time"}
     - {t: is fixing, why: "ต้องใช้อดีต ไม่ใช่ปัจจุบันกำลังทำ"}
   explain: "บ่นว่าช้าไปแล้ว ==It's about time + ประธาน + อดีต=="
-  status: draft
+  status: approved
 - id: cefr-c1-w09-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: to stay, why: "หลัง would rather ไม่มี to"}
     - {t: staying, why: "หลัง would rather ไม่ใช้ -ing"}
   explain: "ตัวเอง ==I'd rather + กริยารูปเดิม== · คนอื่น I'd rather you + อดีต"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: "It's high time we review our safety procedures.", why: "หลัง It's high time + ประธาน ต้องใช้อดีต"}
     - {t: "You never review the safety procedures.", why: "กล่าวโทษตรง ๆ ไม่สุภาพ"}
   explain: "ตำหนิโดยใช้ ==we และ It's high time== ฟังร่วมรับผิดชอบ"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: will wait, why: "ไม่ใช้ will หลัง would rather"}
     - {t: to wait, why: "หลัง would rather you ไม่มี to"}
   explain: "==I'd rather you + อดีต== = อยากให้คุณ...มากกว่า (สุภาพ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: would know, why: "would know ไม่ใช้หลัง as if แบบนี้"}
     - {t: am knowing, why: "know ไม่ใช้รูป -ing"}
   explain: "as if + อดีต ==บอกว่าไม่จริง== (ซึ่งมักแฝงความไม่พอใจ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: have, why: "หลัง It's time we ต้องใช้อดีต"}
         - {t: will have, why: "ไม่ใช้ will หลัง It's time"}
         - {t: having, why: "หลัง It's time we ต้องมีกริยาแท้"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านคอลัมน์และฟังบทสนทนาที่มีนัย ----------
 - id: cefr-c1-w09-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: prepare detailed slides, why: "ผู้เขียนประชดว่าไม่มีใครอ่านสไลด์"}
         - {t: invite as many people as possible, why: "ขัดกับแนวคิดของผู้เขียน"}
         - {t: schedule it for next quarter, why: "next quarter เป็นข้อสรุปที่ผู้เขียนเยาะ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w09-036
   kind: listen
   skill: li
@@ -506,7 +506,7 @@
         - {t: she loved the presentation, why: "ถ้าชอบจริงจะชมเนื้อหา ไม่ใช่แค่สี"}
         - {t: she did not see the slides, why: "เธอพูดถึงสไลด์ แปลว่าเห็นแล้ว"}
         - {t: she wants him to add more colour, why: "ไม่ได้ขอให้เพิ่มสี"}
-  status: draft
+  status: approved
 - id: cefr-c1-w09-037
   kind: listen
   skill: li
@@ -522,7 +522,7 @@
         - {t: agreeing to help, why: "เขาแนะนำให้ไปขอคนอื่น"}
         - {t: asking for payment, why: "ไม่ได้พูดเรื่องเงิน"}
         - {t: complaining about Tom, why: "เขาแนะนำทอม ไม่ได้ตำหนิ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w09-038
   kind: listen
   skill: li
@@ -538,7 +538,7 @@
         - {t: completely happy, why: "เธอมีข้อกังวลเรื่องการเปลี่ยนเร็ว"}
         - {t: very angry, why: "เธอยอมรับว่าผู้จัดการดูดี"}
         - {t: she hasn't met her yet, why: "เธอรู้ว่าผู้จัดการเปลี่ยนอะไรบ้างแล้ว"}
-  status: draft
+  status: approved
 - id: cefr-c1-w09-039
   kind: order
   skill: gm
@@ -548,7 +548,7 @@
   sentence: It's high time we updated our website.
   th: ถึงเวลาแล้วที่เราควรปรับปรุงเว็บไซต์
   why: "It's high time + ประธาน + อดีต แล้วจึงตามด้วยกรรม"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-040
   kind: order
   skill: gm
@@ -558,7 +558,7 @@
   sentence: I'd rather you didn't share this information with the team yet.
   th: อยากให้ยังไม่แชร์ข้อมูลนี้กับทีมก่อน
   why: "I'd rather + you + อดีตปฏิเสธ แล้วจึงตามด้วยกรรมและเวลา"
-  status: draft
+  status: approved
 - id: cefr-c1-w09-041
   kind: order
   skill: gm
@@ -568,7 +568,7 @@
   sentence: She behaves as though she owned the company.
   th: เธอทำตัวราวกับว่าเป็นเจ้าของบริษัท
   why: "as though + อดีต บอกว่าไม่จริง"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c1-w09-042
   kind: order
@@ -579,4 +579,4 @@
   sentence: Overall it's strong, but I wonder whether the introduction could perhaps be a little shorter.
   th: โดยรวมดีมาก แต่สงสัยว่าบทนำจะสั้นลงอีกหน่อยได้ไหม
   why: "ชมก่อน แล้วติด้วย I wonder whether + could perhaps + a little"
-  status: draft
+  status: approved

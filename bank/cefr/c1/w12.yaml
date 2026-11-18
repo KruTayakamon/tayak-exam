@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 12 · ซ้อมใหญ่ · ทบทวน 1 (โครงสร้างเน้น เงื่อนไข ภาษาทางการ) · ทบทวน 2 (การเชื่อมความ คำที่ใช้คู่กัน น้ำเสียง) + กลยุทธ์บริหารเวลา
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ทบทวนปนกัน 1 ----------
 - id: cefr-c1-w12-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: we did discover, why: "ไม่สลับลำดับในประโยคหลัก"}
     - {t: had we discover, why: "หลัง had ต้องเป็นช่อง 3"}
   explain: "ทบทวน: Only after ... ==กริยาช่วย + ประธาน== ในประโยคหลัก"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: Were, why: "Were you require ผิดรูป"}
     - {t: Would, why: "Would ไม่ขึ้นต้นเงื่อนไข"}
   explain: "ทบทวน: ==Should + ประธาน + กริยารูปเดิม== = If ... (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: it is, why: "มี it ซ้ำประธาน"}
     - {t: that is, why: "that เกินมา ทำให้ประโยคผิดรูป"}
   explain: "ทบทวน cleft: ==What + ... + is + สิ่งที่เน้น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: resigned, why: "subjunctive ไม่เปลี่ยนเป็นอดีต"}
     - {t: to resign, why: "หลัง that ต้องเป็นประโยค"}
   explain: "ทบทวน: recommend that + ==ประธาน + กริยารูปเดิม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: will live, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
     - {t: had lived, why: "ส่วนผลต้องมี would"}
   explain: "ทบทวน mixed: ==If + had + ช่อง 3, would + กริยา (now)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: who, why: "who ใช้กับคน จึงใช้ไม่ได้"}
     - {t: it, why: "it ซ้ำประธาน จึงใช้ไม่ได้"}
   explain: "ทบทวน cleft: ==It was X that ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: is believing, why: "รูป -ing ความหมายผิด"}
     - {t: has believed, why: "has believed เป็นรูปกระทำ"}
   explain: "ทบทวน hedging: ==is believed== / thought / said to have been + ช่อง 3"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: Should, why: "Should it not for ผิดรูป"}
     - {t: If, why: "If it not for ขาดกริยา"}
   explain: "ทบทวน: ==Were it not for + คำนาม== (ปัจจุบัน)"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "We've got to tell everyone first, OK?", why: "got to และ OK เป็นภาษาพูด"}
     - {t: "Let's make sure people find out about it first.", why: "find out เป็นกริยาวลีแบบพูด"}
   explain: "ทางการ ==subjunctive · passive · nominalisation=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: did the exhibition, why: "successful เป็นคุณศัพท์ ต้องใช้ be"}
     - {t: had the exhibition, why: "had ไม่คู่กับ successful"}
   explain: "ทบทวน: ==So + adj + be + ประธาน + that=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: didn't need, why: "didn't need ต้องตามด้วย to และไม่ตามด้วย booked"}
     - {t: can't have, why: "can't have เป็นการคาดเดา ไม่ใช่ความจำเป็น"}
   explain: "ทบทวน: ทำไปแล้วโดยไม่จำเป็น ==needn't have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: seldom
   accept: [seldom, Seldom, rarely, Rarely]
   why: "Seldom/Rarely ขึ้นต้นแล้วสลับ have I เพื่อเน้น"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ภาพรวมระดับ C1 ----------
 - id: cefr-c1-w12-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: paucity, why: "paucity คือความขาดแคลน"}
     - {t: repercussion, why: "repercussion คือผลกระทบที่ตามมา มักไม่ดี"}
   explain: "incentive = ==สิ่งจูงใจ== (an incentive to do something)"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: propensity, why: "propensity คือแนวโน้มนิสัย"}
     - {t: stigma, why: "stigma คือตราบาป"}
   explain: "reach a consensus = ==ได้ข้อตกลงร่วมกัน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: consensus, why: "consensus คือมติร่วม"}
     - {t: acumen, why: "acumen คือความเฉียบแหลมทางธุรกิจ"}
   explain: "build / establish a rapport with = ==สร้างความสัมพันธ์ที่ดี=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: affinities, why: "affinities คือความผูกพัน"}
     - {t: consensuses, why: "consensus ไม่ใช่ผลกระทบ"}
   explain: "repercussions = ==ผลกระทบที่ตามมา== (มักเป็นทางลบ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: impetus, why: "impetus คือแรงผลักดัน"}
     - {t: acumen, why: "acumen คือความเฉียบแหลม"}
   explain: "the stigma attached to = ==ตราบาปที่ติดอยู่กับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: paucity, why: "paucity คือความขาดแคลน"}
     - {t: rapport, why: "rapport คือความสัมพันธ์ดี"}
   explain: "impetus = ==แรงกระตุ้น แรงผลักดัน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: plethora, why: "plethora คือจำนวนมากเกิน"}
     - {t: repercussion, why: "repercussion คือผลกระทบ"}
   explain: "foresight = ==การมองการณ์ไกล=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: paucity, why: "paucity คือความขาดแคลน ความหมายกลับ"}
     - {t: stigma, why: "stigma คือตราบาป"}
   explain: "business acumen = ==หัวการค้า ความเฉียบแหลมทางธุรกิจ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: foresight, why: "foresight คือการมองการณ์ไกล"}
     - {t: rapport, why: "rapport คือความสัมพันธ์ดี"}
   explain: "a propensity to do = ==มีแนวโน้มนิสัยที่จะ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: repercussion, why: "repercussion คือผลกระทบ"}
     - {t: paucity, why: "paucity คือความขาดแคลน"}
   explain: "a natural affinity for = ==ถูกโฉลกกับ ชอบโดยธรรมชาติ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: consensus, why: "a consensus of data ไม่มีความหมายนี้"}
     - {t: propensity, why: "propensity ไม่ใช้กับข้อมูล"}
   explain: "a paucity of = ==ขาดแคลน== ตรงข้าม a plethora of"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: plethora
   accept: [plethora]
   why: "a plethora of = มีมากเกินความจำเป็น"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ทบทวนปนกัน 2 ----------
 - id: cefr-c1-w12-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: whereby, why: "whereby ไม่ได้บอกความขัดแย้ง"}
     - {t: despite, why: "despite ไม่ตามด้วยวลีแบบนี้"}
   explain: "ทบทวน: ==albeit + วลีสั้น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: Former, why: "ต้องมี The นำหน้า"}
     - {t: The formal, why: "formal แปลว่าทางการ สะกดคล้าย"}
   explain: "ทบทวน: ==the former · the latter=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: do, why: "do steps ไม่ใช่คู่คำที่ใช้"}
     - {t: give, why: "give steps ไม่ใช่คู่คำที่ใช้"}
   explain: "ทบทวน collocation: ==take steps / take action / take measures=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: "I can't. I'm busy, obviously.", why: "obviously ทำให้ฟังเหมือนดูถูก"}
     - {t: "Why would I come to that?", why: "ฟังเหมือนดูแคลนงาน"}
   explain: "ทบทวน tone: ==I'd love to, but I'm afraid ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: notwithstanding, why: "notwithstanding ตามด้วยคำนาม"}
     - {t: whereby, why: "whereby ต้องตามหลังคำนามที่เป็นวิธีการ"}
   explain: "ทบทวน: ==insofar as = ในแง่ที่== (จำกัดขอบเขต)"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: of, why: "criticise of ไม่ใช่บุพบทที่ใช้"}
     - {t: with, why: "criticise with ไม่ใช่บุพบทที่ใช้"}
   explain: "ทบทวน: ==criticise / praise / blame + for=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: the speaker did not attend, why: "ผู้พูดบรรยายการประชุม จึงน่าจะเข้าร่วม"}
     - {t: the meeting was too short, why: "ไม่ได้พูดเรื่องความยาว"}
   explain: "ทบทวน tone: ==understatement มักหมายถึงเรื่องหนัก=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: By contrast, why: "By contrast ใช้เทียบความต่าง"}
     - {t: Albeit, why: "Albeit ไม่ขึ้นต้นประโยค"}
   explain: "ทบทวน: ผล ==As a result / Consequently=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: "The new policy has done a big effect to rural families.", why: "do an effect to ผิดทั้งกริยาและบุพบท"}
     - {t: "The new policy has given a strong influence for rural families.", why: "give influence for ไม่ใช่คู่คำที่ใช้"}
   explain: "ทบทวน: ==have an impact/effect/influence on=="
-  status: draft
+  status: approved
 - id: cefr-c1-w12-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: make, why: "make steps ไม่ใช่คู่คำที่ใช้"}
         - {t: do, why: "do steps ไม่ใช่คู่คำที่ใช้"}
         - {t: put, why: "put steps ไม่ใช่คู่คำที่ใช้"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความยาวและฟังปนกัน ----------
 - id: cefr-c1-w12-035
   kind: read
@@ -492,7 +492,7 @@
         - {t: independent restaurants will grow quickly, why: "ตรงข้ามกับความเสี่ยงที่ผู้เขียนกังวล"}
         - {t: delivery apps will disappear, why: "ไม่มีข้อมูลที่สนับสนุน"}
         - {t: riders will soon become employees, why: "ผู้เขียนไม่ได้คาดการณ์เรื่องนี้"}
-  status: draft
+  status: approved
 - id: cefr-c1-w12-036
   kind: listen
   skill: li
@@ -507,7 +507,7 @@
         - {t: she failed the interview, why: "เธอไม่ทันได้สัมภาษณ์"}
         - {t: she decided not to go, why: "เธอไปแต่สาย จึงใช้ไม่ได้"}
         - {t: the job was cancelled, why: "บริษัทเลือกคนอื่นไปแล้ว ไม่ได้ยกเลิกตำแหน่ง"}
-  status: draft
+  status: approved
 - id: cefr-c1-w12-037
   kind: listen
   skill: li
@@ -523,7 +523,7 @@
         - {t: it was inspiring, why: "เธอไม่ได้ชมเนื้อหา ชมแค่ความยาวแบบประชด"}
         - {t: it was too short, why: "เธอบอกว่ายาว จึงใช้ไม่ได้"}
         - {t: it was very practical, why: "เธอไม่รู้ว่าต้องทำอะไรต่าง จึงไม่ใช่ใช้ได้จริง"}
-  status: draft
+  status: approved
 - id: cefr-c1-w12-038
   kind: listen
   skill: li
@@ -538,7 +538,7 @@
         - {t: the data were lost, why: "ไม่ได้พูดว่าข้อมูลหาย"}
         - {t: the study was too long, why: "ไม่ได้พูดเรื่องระยะเวลา"}
         - {t: the results proved the link, why: "ผู้บรรยายบอกว่าแค่ดูเหมือนมีความเชื่อมโยง"}
-  status: draft
+  status: approved
 - id: cefr-c1-w12-039
   kind: order
   skill: gm
@@ -548,7 +548,7 @@
   sentence: Rarely has a decision caused so much controversy.
   th: น้อยครั้งนักที่การตัดสินใจหนึ่งจะก่อให้เกิดข้อถกเถียงมากขนาดนี้
   why: "Rarely ขึ้นต้นแล้วสลับ has + ประธาน + ช่อง 3"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-040
   kind: order
   skill: gm
@@ -558,7 +558,7 @@
   sentence: What concerns me most is not the cost but the impact on staff.
   th: สิ่งที่ฉันกังวลที่สุดไม่ใช่ค่าใช้จ่าย แต่เป็นผลกระทบต่อพนักงาน
   why: "What-clause + is not A but B เน้นประเด็นที่สำคัญจริง"
-  status: draft
+  status: approved
 - id: cefr-c1-w12-041
   kind: order
   skill: gm
@@ -568,7 +568,7 @@
   sentence: The proposal was accepted, albeit with some reluctance.
   th: ข้อเสนอได้รับการยอมรับ แม้จะค่อนข้างไม่เต็มใจ
   why: "ประโยคหลักแล้วจึงตามด้วย albeit + วลีสั้น"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c1-w12-042
   kind: order
@@ -579,4 +579,4 @@
   sentence: While it would be unrealistic to ban delivery apps, it is high time their true cost was shared more fairly.
   th: แม้การห้ามแอปส่งอาหารจะไม่สมจริง แต่ถึงเวลาแล้วที่ต้นทุนแท้จริงควรแบ่งกันอย่างเป็นธรรมขึ้น
   why: "While + ยอมรับ แล้วตามด้วย it is high time + ประธาน + อดีต"
-  status: draft
+  status: approved

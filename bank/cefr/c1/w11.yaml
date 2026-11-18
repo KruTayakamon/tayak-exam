@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 11 · เรียบเรียงใหม่ด้วยคำที่กำหนด · transformations (passive causative inversion wish) · word formation ระดับสูง (prefix suffix คำประสม การเปลี่ยนชนิดคำหลายขั้น)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ความหมายเดิม โครงสร้างใหม่ ----------
 - id: cefr-c1-w11-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: had repaired my car, why: "past perfect แปลว่าซ่อมเองมาก่อน ความหมายผิด"}
     - {t: had my car repair, why: "หลัง have + สิ่งของ ต้องเป็นช่อง 3"}
   explain: "จ้างหรือให้คนอื่นทำ ==have/get + สิ่งของ + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: is saying to be, why: "รูป -ing ความหมายผิด"}
     - {t: is said being, why: "หลัง is said ต้องเป็น to + กริยา"}
   explain: "People say that X is ... = ==X is said to be ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: would learn, why: "wish + would ใช้กับอนาคตหรือนิสัยคนอื่น"}
     - {t: have learned, why: "wish ไม่ตามด้วย present perfect"}
   explain: "regret not doing (อดีต) = ==wish + had + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: did I see, why: "ประโยคเดิมเป็น present perfect ต้องคงรูปเดิม"}
     - {t: I saw, why: "ไม่สลับลำดับและเปลี่ยนเวลา"}
   explain: "เขียนใหม่ด้วย inversion ==คงเวลาเดิม แค่สลับลำดับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: shouldn't bring, why: "เป็นคำแนะนำทั่วไป ไม่ใช่เรื่องที่เกิดแล้ว"}
     - {t: hadn't to bring, why: "รูป hadn't to ไม่ใช้ในภาษาปัจจุบัน"}
   explain: "It wasn't necessary + ทำไปแล้ว = ==needn't have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: Without of, why: "Without ไม่มี of"}
     - {t: Except, why: "Except your help ไม่ใช่โครงสร้างเงื่อนไข"}
   explain: "If ... hadn't ... = ==But for / Without + คำนาม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: had lived, why: "had lived ใช้กับเรื่องในอดีต"}
     - {t: would live, why: "wish + would ใช้กับนิสัยหรืออนาคต"}
   explain: "It's a pity + ปัจจุบัน = ==wish + อดีต=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: has built, why: "has built เป็นรูปกระทำ และเปลี่ยนเวลา"}
     - {t: is built, why: "is built ไม่ได้บอกว่ากำลังสร้างอยู่"}
   explain: "are building → ==is being + ช่อง 3== (คงรูปกำลังทำ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: she did realise, why: "ไม่สลับลำดับ จึงใช้ไม่ได้"}
     - {t: had she realised, why: "ประโยคเดิมเป็น past simple ไม่ใช่ past perfect"}
   explain: "didn't ... until X = ==Not until X did + ประธาน + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: should be fixing, why: "รูปกำลังทำ ความหมายผิด"}
     - {t: should have fixed, why: "เปลี่ยนเป็นเรื่องอดีตที่ไม่ได้ทำ"}
   explain: "modal + passive = ==modal + be + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: such boring film, why: "ขาด a หน้าคำนามนับได้เอกพจน์"}
     - {t: a so boring film, why: "ลำดับผิด จึงใช้ไม่ได้"}
   explain: "so + adj = ==such a + adj + noun=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: cut
   accept: [cut]
   why: "have + สิ่งของ + ช่อง 3 · cut เป็นกริยาที่ทั้งสามช่องเหมือนกัน"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์คุณลักษณะของผู้เรียนรู้ ----------
 - id: cefr-c1-w11-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: intricate, why: "intricate ใช้กับสิ่งที่ซับซ้อน ไม่ใช่คน"}
     - {t: rigorous, why: "rigorous แปลว่าเข้มงวด ละเอียด"}
   explain: "inquisitive = ==ช่างสงสัย อยากรู้=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: authentic, why: "authentic แปลว่าแท้ ของจริง"}
     - {t: commendable, why: "commendable ใช้ชมการกระทำ ไม่ใช่ความสามารถทางภาษา"}
   explain: "proficient in = ==ชำนาญ มีทักษะสูง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: comprehensive, why: "comprehensive ใช้กับรายงานหรือความรู้"}
     - {t: impartial, why: "impartial ไม่ได้บอกความอดทนต่อการเปลี่ยนแปลง"}
   explain: "resilient = ==ล้มแล้วลุกได้เร็ว ยืดหยุ่น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: inquisitive, why: "inquisitive ไม่ตามด้วย at"}
     - {t: authentic, why: "authentic ไม่ตามด้วย at"}
   explain: "adept at + -ing = ==ทำ...ได้เก่ง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: resilient, why: "resilient ใช้กับคนหรือระบบที่ทนทาน"}
     - {t: intricate, why: "intricate แปลว่าซับซ้อน ไม่ได้บอกว่ามองทะลุ"}
   explain: "insightful = ==มองลึก เข้าใจแก่นเรื่อง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: inquisitive, why: "inquisitive ใช้กับคน ไม่ใช่การตัดสินใจ"}
     - {t: proficient, why: "proficient ใช้กับความสามารถ ไม่ใช่การกระทำที่ดี"}
   explain: "commendable = ==น่ายกย่อง น่าชมเชย=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: resilient, why: "resilient testing ไม่ใช่คู่คำที่ใช้"}
     - {t: commendable, why: "commendable testing ไม่ใช่คู่คำที่ใช้"}
   explain: "rigorous = ==เข้มงวด ละเอียดรอบคอบ== (testing / research)"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: adept, why: "adept ใช้กับคน จึงใช้ไม่ได้"}
     - {t: inquisitive, why: "inquisitive ใช้กับคน"}
   explain: "comprehensive = ==ครอบคลุมครบถ้วน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: resilient, why: "resilient case ไม่ใช่คู่คำที่ใช้"}
     - {t: inquisitive, why: "inquisitive ใช้กับคน"}
   explain: "a compelling case / argument = ==โน้มน้าวได้อย่างหนักแน่น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: rigorous, why: "rigorous ไม่ใช้กับอาหาร"}
     - {t: adept, why: "adept ใช้กับคน จึงใช้ไม่ได้"}
   explain: "authentic = ==แท้ ของจริง ตามต้นตำรับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: compelling, why: "compelling ใช้กับข้อโต้แย้ง ไม่ใช่ผู้พิพากษา"}
     - {t: authentic, why: "authentic ใช้กับของ ไม่ได้บอกความเป็นกลาง"}
   explain: "impartial = ==เป็นกลาง ไม่ลำเอียง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: intricate
   accept: [intricate]
   why: "intricate = ซับซ้อนละเอียดมาก ใช้กับลวดลายหรือระบบ"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ตระกูลคำระดับสูง ----------
 - id: cefr-c1-w11-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: believably, why: "believably ความหมายกลับ แปลว่าอย่างน่าเชื่อ"}
     - {t: unbelief, why: "unbelief เป็นคำนาม"}
   explain: "ขยายคุณศัพท์ใช้ ==คำวิเศษณ์ (-ly)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: completely, why: "completely เป็นคำวิเศษณ์"}
     - {t: completing, why: "The completing of ไม่ใช่รูปคำนามที่ใช้"}
   explain: "complete → ==completion== (คำนาม)"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: incomprehension, why: "incomprehension เป็นคำนาม"}
     - {t: comprehensive, why: "comprehensive แปลว่าครอบคลุม ความหมายผิด"}
   explain: "comprehend → comprehensible → ==incomprehensible=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: resist, why: "resist เป็นกริยา"}
     - {t: resisting, why: "His resisting to ไม่ใช่รูปที่ใช้"}
   explain: "resist → resistant (adj) → ==resistance (n)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: environment, why: "environment friendly ไม่ใช่รูปมาตรฐาน"}
     - {t: environmentalist, why: "environmentalist เป็นคำนามหมายถึงคน"}
   explain: "คำประสม ==วิเศษณ์ + คุณศัพท์== (environmentally friendly · highly skilled)"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: workless, why: "workless ไม่มีความหมายนี้"}
     - {t: misworking, why: "misworking ไม่ใช่คำในภาษาอังกฤษ"}
   explain: "work → workable → ==unworkable=="
-  status: draft
+  status: approved
 - id: cefr-c1-w11-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: vulnerableness, why: "vulnerableness ไม่ใช่รูปมาตรฐาน"}
     - {t: vulnerably, why: "vulnerably เป็นคำวิเศษณ์"}
   explain: "-able → ==-ability== (vulnerable → vulnerability)"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: misestimate, why: "misestimate ไม่ใช่รูปที่ใช้ และไม่เป็นช่อง 3"}
     - {t: estimation, why: "estimation เป็นคำนาม"}
   explain: "under- = ==น้อยเกินไป== · over- = มากเกินไป"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: attentively, why: "attentively เป็นคำวิเศษณ์"}
     - {t: attend, why: "attend เป็นกริยา"}
   explain: "attend → attentive → ==attention== (attention to detail)"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: dramatic, why: "dramatic เป็นคุณศัพท์"}
         - {t: drama, why: "drama เป็นคำนาม"}
         - {t: dramatise, why: "dramatise เป็นกริยา"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความและฟังบรรยายที่ต้องจดประเด็น ----------
 - id: cefr-c1-w11-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: adults are unable to learn after fifty, why: "ตรงข้ามกับที่บทบอก"}
         - {t: governments have already solved the problem, why: "ไม่มีข้อมูลที่สนับสนุน"}
         - {t: teachers should refuse to teach older learners, why: "ไม่มีข้อเสนอนี้"}
-  status: draft
+  status: approved
 - id: cefr-c1-w11-036
   kind: listen
   skill: li
@@ -505,7 +505,7 @@
         - {t: relevance, why: "เป็นข้อแรก ไม่ได้บอกว่าถูกมองข้าม"}
         - {t: control, why: "เป็นข้อที่สอง ไม่ได้บอกว่าถูกมองข้าม"}
         - {t: low cost, why: "ไม่ได้อยู่ในสามเงื่อนไข"}
-  status: draft
+  status: approved
 - id: cefr-c1-w11-037
   kind: listen
   skill: li
@@ -520,7 +520,7 @@
         - {t: they greatly increased income, why: "ผลบอกว่ารายได้ไม่เพิ่มอย่างมีนัย"}
         - {t: they made no difference at all, why: "ความพึงพอใจในงานเพิ่มขึ้นมาก"}
         - {t: most people dropped out, why: "ไม่ได้พูดถึงการลาออกกลางคัน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w11-038
   kind: listen
   skill: li
@@ -535,7 +535,7 @@
         - {t: two million baht, why: "เป็นตัวเลขที่ผู้บรรยายแก้แล้ว"}
         - {t: twenty million baht, why: "ไม่มีตัวเลขนี้ จึงใช้ไม่ได้"}
         - {t: it was free, why: "มีค่าใช้จ่ายสิบสองล้าน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w11-039
   kind: order
   skill: gm
@@ -545,7 +545,7 @@
   sentence: We had the documents translated into English.
   th: เราให้คนแปลเอกสารเป็นภาษาอังกฤษ
   why: "causative have + สิ่งของ + ช่อง 3 แล้วจึงบอกภาษาปลายทาง"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-040
   kind: order
   skill: gm
@@ -555,7 +555,7 @@
   sentence: The castle is thought to have been built by a Portuguese merchant.
   th: เชื่อกันว่าปราสาทนี้สร้างโดยพ่อค้าชาวโปรตุเกส
   why: "passive reporting + to have been + ช่อง 3 + by ผู้กระทำ"
-  status: draft
+  status: approved
 - id: cefr-c1-w11-041
   kind: order
   skill: gm
@@ -565,7 +565,7 @@
   sentence: Her willingness to listen is highly commendable.
   th: ความเต็มใจรับฟังของเธอน่ายกย่องมาก
   why: "คำนาม willingness + to + กริยา แล้วตามด้วย is highly + คุณศัพท์"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c1-w11-042
   kind: order
@@ -576,4 +576,4 @@
   sentence: To put it another way, the question is not whether adults can learn, but how we support them.
   th: พูดอีกแบบคือ คำถามไม่ใช่ว่าผู้ใหญ่เรียนได้ไหม แต่คือเราจะสนับสนุนพวกเขาอย่างไร
   why: "To put it another way นำการเรียบเรียงใหม่ แล้ว not whether ... but how ..."
-  status: draft
+  status: approved

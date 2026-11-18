@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 7 · เชื่อมความระดับบทความ · คำเชื่อมทางการ (albeit · whereby · insofar as · notwithstanding · inasmuch as) · การอ้างอิงในบทความ (the former/the latter · such · this + นามสรุป · discourse markers)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · คำเชื่อมทางการ ----------
 - id: cefr-c1-w07-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: whereby, why: "whereby แปลว่าซึ่งโดยวิธีนั้น ไม่ได้บอกความขัดแย้ง"}
     - {t: despite, why: "despite ไม่ตามด้วยคุณศัพท์ขั้นกว่าแบบนี้"}
   explain: "albeit + ==คุณศัพท์/วลีสั้น== = แม้จะ (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: insofar as, why: "insofar as แปลว่าเท่าที่ ไม่ได้อธิบายโครงการ"}
     - {t: whereas, why: "whereas ใช้เทียบความต่างสองอย่าง"}
   explain: "a system/scheme ==whereby + ประโยค== = ซึ่งโดยวิธีนั้น"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: whereby, why: "whereby ต้องตามหลังคำนามที่เป็นระบบหรือวิธี"}
     - {t: notwithstanding, why: "notwithstanding ตามด้วยคำนาม และแปลว่าแม้จะมี"}
   explain: "insofar as = ==ในแง่ที่ เท่าที่== (จำกัดขอบเขตของข้ออ้าง)"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: Although, why: "Although ต้องตามด้วยประโยค ไม่ใช่คำนาม"}
     - {t: Whereby, why: "Whereby ไม่ขึ้นต้นประโยคและไม่ได้บอกความขัดแย้ง"}
   explain: "Notwithstanding / Despite + ==คำนาม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: whereby, why: "whereby ต้องตามหลังคำนามที่เป็นวิธีการ"}
     - {t: notwithstanding, why: "notwithstanding แปลว่าแม้จะมี ความหมายผิด"}
   explain: "inasmuch as = ==ในแง่ที่ เนื่องจาก== (ทางการมาก)"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
     - {t: hence, why: "hence บอกผล ไม่ใช่ความต่าง"}
   explain: "==whereas / while== = ในขณะที่ (เทียบความต่าง)"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: whereas, why: "whereas ไม่ตามหลังเครื่องหมาย ; แบบนี้"}
     - {t: albeit, why: "albeit ไม่ใช้เชื่อมสองประโยคแบบนี้"}
   explain: "; ==consequently / therefore / hence==, = ผลก็คือ"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: Whereas, why: "Whereas ไม่ขึ้นประโยคเดี่ยวตามด้วยจุลภาค"}
     - {t: Moreover, why: "Moreover ใช้เพิ่มข้อมูลไปทางเดียวกัน"}
   explain: "==Nevertheless / Nonetheless,== = ถึงกระนั้น"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: Hence, why: "Hence บอกผล การถูกกว่าไม่ได้ทำให้ใช้แบตน้อย"}
     - {t: Whereby, why: "Whereby ไม่ขึ้นต้นประโยค"}
   explain: "เพิ่มข้อมูล ==Moreover / Furthermore / In addition=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: "Albeit tiring, but the trip was enjoyable.", why: "ใช้ albeit คู่กับ but ไม่ได้"}
     - {t: "The trip was enjoyable, although rather tiring it.", why: "it เกินมา และลำดับผิด"}
   explain: "albeit ==+ วลีสั้น== วางหลังจุลภาค"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: therefore, why: "therefore เชื่อมสองประโยคด้วยจุลภาคอย่างเดียวไม่ได้ ต้องใช้ ; หรือขึ้นประโยคใหม่"}
     - {t: whereas, why: "whereas บอกความต่าง ไม่ใช่ผล"}
   explain: "จุลภาค + ==so + ประโยค== · ; therefore, + ประโยค · hence + นามวลี"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: albeit
   accept: [albeit]
   why: "albeit + วลีสั้น ใช้เพิ่มข้อจำกัดหลังจุลภาค"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การวิเคราะห์ภาพรวม ----------
 - id: cefr-c1-w07-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: subsequent, why: "subsequent แปลว่าที่ตามมาภายหลัง"}
     - {t: holistic, why: "holistic แปลว่าองค์รวม"}
   explain: "ubiquitous = ==มีอยู่ทุกหนทุกแห่ง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: subsequent, why: "subsequent แปลว่าที่ตามมา ขัดกับเป้าหมายหลัก"}
     - {t: pervasive, why: "pervasive ใช้กับสิ่งที่แพร่กระจาย มักเป็นสิ่งไม่ดี"}
   explain: "overarching = ==ครอบคลุมทั้งหมด เป็นเป้าใหญ่=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: subsequent, why: "subsequent approach แปลว่าวิธีที่ตามมา"}
     - {t: prevalent, why: "prevalent แปลว่าแพร่หลาย ไม่ได้บอกลักษณะวิธี"}
   explain: "holistic = ==องค์รวม มองทั้งระบบ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: overarching, why: "overarching ไม่วางหลังคำนามแบบนี้"}
     - {t: subsequent, why: "subsequent in ไม่ใช่วลีที่ใช้"}
   explain: "inherent in = ==มีอยู่ในตัว แยกไม่ได้=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: overarching, why: "overarching value แปลว่าคุณค่าหลักเหนือข้ออื่น ไม่ใช่คุณค่าในตัว"}
     - {t: incessant, why: "incessant ใช้กับสิ่งที่ไม่หยุด"}
   explain: "intrinsic = ==ในตัวเอง โดยเนื้อแท้=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: holistic, why: "holistic ไม่ได้บอกความชุก"}
     - {t: subsequent, why: "subsequent among ไม่ใช่วลีที่ใช้"}
   explain: "prevalent (among/in) = ==พบบ่อย แพร่หลาย=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: intrinsic, why: "intrinsic culture ไม่ได้บอกการแผ่กระจาย"}
     - {t: subsequent, why: "subsequent ไม่ได้บอกว่าแผ่ไปทั่ว"}
   explain: "pervasive = ==แผ่ซ่านไปทั่ว== (มักใช้กับสิ่งไม่ดี)"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: juxtaposition, why: "juxtaposition คือการวางเทียบกัน ไม่ใช่การแบ่งขั้ว"}
     - {t: anomaly, why: "anomaly คือสิ่งผิดปกติ"}
   explain: "a false dichotomy = ==การแบ่งสองขั้วที่ไม่จริง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: juxtaposition, why: "juxtaposition ไม่ได้บอกความไม่เท่ากัน"}
     - {t: holistic, why: "holistic เป็นคำคุณศัพท์"}
   explain: "disparity = ==ความเหลื่อมล้ำ ความต่างที่ไม่เท่าเทียม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: dichotomy, why: "dichotomy เป็นการแบ่งเชิงแนวคิด"}
     - {t: culmination, why: "culmination คือจุดสูงสุด"}
   explain: "juxtaposition = ==การวางเทียบเคียงให้เห็นความต่าง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: juxtaposed, why: "juxtapose ไม่ตามด้วย in แบบนี้"}
     - {t: prevailed, why: "prevail in ไม่ได้แปลว่าจบลงด้วย"}
   explain: "culminate in = ==สิ้นสุดลงด้วย (จุดสูงสุด)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: subsequent
   accept: [subsequent]
   why: "subsequent = ที่ตามมาภายหลัง ใช้หน้าคำนาม"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ผูกเรื่องให้ต่อเนื่อง ----------
 - id: cefr-c1-w07-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: Former, why: "ต้องมี The นำหน้า former เสมอ"}
     - {t: The first of the latter, why: "ซ้อนคำอ้างอิงจนไม่มีความหมาย"}
   explain: "สองอย่าง ==the former = อันแรก== · the latter = อันหลัง"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: latter, why: "ต้องมี the นำหน้า"}
     - {t: the last, why: "the last ใช้เมื่อมีมากกว่าสองอย่าง"}
   explain: "the latter = ==อันหลัง (จากสองอย่าง)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: That increased, why: "increased เป็นกริยา ใช้เป็นประธานไม่ได้"}
     - {t: These increase, why: "these ใช้กับพหูพจน์"}
   explain: "เชื่อมย่อหน้าด้วย ==This + นามที่สรุปความ== (This decision · This trend)"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: This, why: "This ใช้กับคำนามเอกพจน์ แต่ delays เป็นพหูพจน์"}
     - {t: Same, why: "Same ต้องมี the นำหน้า และไม่ใช่ความหมายนี้"}
   explain: "Such + นาม = ==แบบนั้น (ที่เพิ่งพูดถึง)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: In addition, why: "In addition เพิ่มข้อมูลไปทางเดียวกัน"}
     - {t: For instance, why: "For instance ใช้ยกตัวอย่าง"}
   explain: "ความต่าง ==By contrast== / In contrast / On the other hand"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: Nevertheless, why: "Nevertheless บอกความขัดแย้ง"}
     - {t: As a result, why: "As a result บอกผล"}
   explain: "เน้นเจาะจง ==In particular / Notably / Above all=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: In contrast, why: "In contrast ใช้เทียบสองสิ่ง ไม่ใช่ตอบปฏิเสธคำถาม"}
     - {t: Likewise, why: "Likewise แปลว่าเช่นเดียวกัน ความหมายกลับ"}
   explain: "ปฏิเสธข้อสันนิษฐาน ==On the contrary== · เทียบสองด้าน on the other hand"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: Such a, why: "such a ใช้กับคำนามเอกพจน์"}
     - {t: Those that, why: "Those that ทำให้ต้องมีอนุประโยคตาม ประโยคไม่สมบูรณ์"}
   explain: "this/that + ==เอกพจน์== · these/those + พหูพจน์"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: "For instance, they demand a high level of self-discipline.", why: "For instance ยกตัวอย่าง แต่ประโยคนี้ไม่ใช่ตัวอย่างของความถูก"}
     - {t: "Likewise, they demand a high level of self-discipline.", why: "Likewise แปลว่าเช่นเดียวกัน ไม่เข้ากับการนำข้อเสีย"}
   explain: "ยอมรับแล้วนำข้อแย้ง ==That said / Having said that=="
-  status: draft
+  status: approved
 - id: cefr-c1-w07-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: whereas, why: "whereas ใช้เทียบความต่าง ไม่ได้อธิบายวิธีการ"}
         - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
         - {t: insofar, why: "ต้องเป็น insofar as และความหมายไม่ตรง"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความเชิงวิเคราะห์และฟังบรรยายยาว ----------
 - id: cefr-c1-w07-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: tourist numbers will fall sharply, why: "บทไม่ได้คาดว่าจำนวนนักท่องเที่ยวจะลด"}
         - {t: slow tourism will disappear, why: "ไม่มีข้อมูลที่สนับสนุน"}
         - {t: hotels will stop being built, why: "บทไม่ได้คาดการณ์เรื่องการสร้างโรงแรม"}
-  status: draft
+  status: approved
 - id: cefr-c1-w07-036
   kind: listen
   skill: li
@@ -505,7 +505,7 @@
         - {t: the outline of the problem, why: "เป็นส่วนแรก ผู้บรรยายไม่ได้เน้นให้อภิปรายมาก"}
         - {t: the history of the city, why: "ไม่ได้พูดถึงประวัติเมือง"}
         - {t: the cost of each solution, why: "ไม่ได้พูดถึงค่าใช้จ่ายโดยตรง"}
-  status: draft
+  status: approved
 - id: cefr-c1-w07-037
   kind: listen
   skill: li
@@ -520,7 +520,7 @@
         - {t: more benefits of remote work, why: "That said เปลี่ยนจากข้อดีไปข้อเสีย"}
         - {t: how to hire colleagues, why: "ไม่ได้พูดถึงการจ้างงาน"}
         - {t: why offices are expensive, why: "ไม่ได้พูดถึงค่าใช้จ่ายสำนักงาน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w07-038
   kind: listen
   skill: li
@@ -535,7 +535,7 @@
         - {t: stopping research on the topic, why: "ผู้บรรยายเสนอให้วิจัยต่อ"}
         - {t: studying only young adults, why: "ตรงข้ามกับที่เสนอ"}
         - {t: repeating the same studies, why: "ไม่ได้เสนอให้ทำซ้ำ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w07-039
   kind: order
   skill: gm
@@ -545,7 +545,7 @@
   sentence: The film was a success, albeit a rather expensive one.
   th: ภาพยนตร์ประสบความสำเร็จ แม้จะใช้ทุนสูงพอสมควร
   why: "albeit + วลีสั้นวางหลังจุลภาค ใช้ one แทน success"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-040
   kind: order
   skill: gm
@@ -555,7 +555,7 @@
   sentence: We introduced a system whereby customers can track their orders online.
   th: เรานำระบบที่ลูกค้าสามารถติดตามคำสั่งซื้อออนไลน์ได้มาใช้
   why: "a system + whereby + ประโยคเต็ม อธิบายวิธีการ"
-  status: draft
+  status: approved
 - id: cefr-c1-w07-041
   kind: order
   skill: gm
@@ -565,7 +565,7 @@
   sentence: Such criticism should not be ignored.
   th: คำวิจารณ์แบบนั้นไม่ควรถูกเพิกเฉย
   why: "Such + คำนาม อ้างถึงสิ่งที่เพิ่งพูด แล้วตามด้วย should not be + ช่อง 3"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c1-w07-042
   kind: order
@@ -576,4 +576,4 @@
   sentence: Having outlined the problem, I'd now like to turn to two possible solutions.
   th: เมื่ออธิบายปัญหาแล้ว ต่อไปขอพูดถึงทางแก้ที่เป็นไปได้สองทาง
   why: "Having + ช่อง 3 สรุปส่วนที่ผ่านมา แล้ว I'd now like to turn to นำส่วนต่อไป"
-  status: draft
+  status: approved

@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 3 · เน้นด้วยโครงสร้าง cleft · It is/was...that · What...is · All...is · The reason why · fronting · do/does/did เพื่อเน้น · such/so + inversion
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ชี้ว่าส่วนไหนสำคัญ ----------
 - id: cefr-c1-w03-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: what, why: "what ไม่ใช้ใน It was ... that"}
     - {t: whom, why: "whom ใช้เป็นกรรม แต่ตรงนี้เป็นประธานของ told"}
   explain: "It is/was + ==ส่วนที่เน้น== + who/that + ส่วนที่เหลือ"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: Which, why: "Which ไม่ใช้ขึ้นต้นประโยคเน้นแบบนี้"}
     - {t: It, why: "It I need ผิดรูป ขาด is ... that"}
   explain: "==What + ประธาน + กริยา + is + สิ่งที่เน้น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: then, why: "then ไม่ใช่คำเชื่อมของโครงสร้างนี้"}
     - {t: so, why: "so ไม่ใช้ในโครงสร้าง It wasn't until"}
   explain: "It wasn't until + เวลา + ==that== + ประโยค"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: being, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
     - {t: to be, why: "All I want to be เปลี่ยนความหมายเป็นอยากเป็น"}
   explain: "==All + ประธาน + กริยา + is== = สิ่งเดียวที่..."
-  status: draft
+  status: approved
 - id: cefr-c1-w03-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: what, why: "The reason what ผิดรูป"}
     - {t: for, why: "The reason for ต้องตามด้วยคำนาม ไม่ใช่ประโยค"}
   explain: "The reason ==why / that== + ประโยค · ไม่ใช้ because ซ้ำ"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: is, why: "surprised เป็นอดีต ควรใช้ was ให้ตรงเวลา"}
     - {t: did, why: "did ไม่ใช่กริยาเชื่อมของโครงสร้าง What ... was"}
   explain: "What + ==กริยาอดีต== ... was · What + ปัจจุบัน ... is"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: did, why: "did call ไม่ใช่โครงสร้าง What we did was"}
     - {t: is, why: "did เป็นอดีต ต้องใช้ was"}
   explain: "เน้นการกระทำ ==What ... did was (to) + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: what, why: "what ไม่ใช้หลัง It is + คำนาม"}
     - {t: it, why: "it ซ้ำประธาน ใช้ไม่ได้"}
   explain: "เน้นสิ่งของใช้ ==that== · เน้นคนใช้ who หรือ that"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "What arrived on Friday was the parcel.", why: "เน้นสิ่งที่มาถึง ไม่ใช่เวลา"}
     - {t: "The parcel was what arrived on Friday.", why: "เน้นสิ่งของ และฟังผิดธรรมชาติ"}
   explain: "ส่วนที่อยู่ระหว่าง ==It was ... that== คือสิ่งที่เน้น"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: it, why: "it ซ้ำประธาน ใช้ไม่ได้"}
     - {t: which, why: "which ไม่ใช้ในโครงสร้าง It's not ... that"}
   explain: "It's not A ==that== matters, it's B"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: I lost it, why: "มี it ซ้ำกรรม ใช้ไม่ได้"}
     - {t: which lost, why: "ขาดประธาน I จึงใช้ไม่ได้"}
   explain: "แก้ความเข้าใจผิด ==No, it was X that ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: what
   accept: [what, What]
   why: "What + ประธาน + กริยา + is ... ใช้เน้นสิ่งที่ชอบ"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การพัฒนาและสนับสนุน ----------
 - id: cefr-c1-w03-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: endeavour, why: "endeavour ต้องตามด้วย to และแปลว่าพยายาม"}
     - {t: scaffold, why: "scaffold ใช้กับการช่วยเรียนรู้ทีละขั้น ไม่ใช่วัฒนธรรม"}
   explain: "foster trust / creativity = ==ส่งเสริม บ่มเพาะ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: endorse, why: "endorse แปลว่ารับรอง สนับสนุนอย่างเป็นทางการ"}
     - {t: advocate, why: "advocate แปลว่าสนับสนุนแนวคิด ไม่ใช่ทำให้เร็วขึ้น"}
   explain: "streamline = ==ทำให้กระชับ คล่องตัวขึ้น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: consolidate, why: "consolidate แปลว่ารวมให้มั่นคง ไม่ตามด้วยคน + to"}
     - {t: streamline, why: "streamline ใช้กับระบบหรือขั้นตอน ไม่ใช่คน"}
   explain: "empower someone ==to do== something = ให้อำนาจ"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: advocates, why: "งานวิจัยไม่ได้รณรงค์ แต่เป็นฐานรองรับ"}
     - {t: empowers, why: "empower ใช้กับคน ไม่ใช่ข้อเสนอแนะ"}
   explain: "underpin = ==เป็นรากฐาน รองรับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: endorse, why: "endorse confidence ไม่ใช่วลีที่ใช้"}
     - {t: scaffold, why: "scaffold confidence ไม่ใช่วลีที่ใช้"}
   explain: "bolster confidence / support = ==เสริม หนุนให้แข็งแรง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: advocate, why: "advocate its position แปลว่าสนับสนุนจุดยืน ไม่ใช่ทำให้มั่นคง"}
     - {t: allude, why: "allude ต้องตามด้วย to"}
   explain: "consolidate = ==รวบรวมให้มั่นคง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: endorse, why: "endorse แปลว่ารับรอง ไม่ใช่ปลูกฝัง"}
     - {t: consolidate, why: "consolidate patience ไม่ใช่วลีที่ใช้"}
   explain: "cultivate a habit / skill / relationship = ==ปลูกฝัง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: advocate, why: "advocate แปลว่าสนับสนุนฝ่ายหนึ่ง ขัดกับ not take sides"}
     - {t: bolster, why: "bolster discussion ไม่ใช่สิ่งที่ผู้ไกล่เกลี่ยทำ"}
   explain: "facilitate = ==อำนวยความสะดวก ทำให้ดำเนินไปง่าย=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: cultivated, why: "cultivated ไม่ได้แปลว่ารับรอง"}
     - {t: underpinned, why: "underpinned by the board ไม่ได้แปลว่าอนุมัติ"}
   explain: "endorse = ==รับรอง สนับสนุนอย่างเป็นทางการ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: fostered, why: "foster ไม่ตามด้วย for"}
     - {t: facilitated, why: "facilitate ไม่ตามด้วย for"}
   explain: "advocate (for) = ==สนับสนุน เรียกร้องแทน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: consolidate, why: "consolidate คือการทำให้แน่นหลังเรียนแล้ว ไม่ใช่การแบ่งขั้น"}
     - {t: advocate, why: "advocate a skill ไม่ได้แปลว่าสอนทีละขั้น"}
   explain: "scaffold learning = ==ช่วยประคองทีละขั้น== แล้วค่อยปล่อย"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: endeavour
   accept: [endeavour, endeavor]
   why: "endeavour to + กริยา = พยายามอย่างเต็มที่ ใช้ในภาษาทางการ"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ย้ายมาไว้หน้า และ do เพื่อเน้น ----------
 - id: cefr-c1-w03-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: does, why: "I ใช้ do ไม่ใช่ does"}
     - {t: did, why: "did ทำให้เป็นอดีต ขัดกับ this week"}
   explain: "เน้นด้วย ==do/does/did + กริยารูปเดิม== (I do like it!)"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: was, why: "was apologise ผิดรูป"}
     - {t: had, why: "had apologise ผิดรูป ต้องเป็นช่อง 3"}
   explain: "เน้นในอดีต ==did + กริยารูปเดิม== (ไม่ใช่ did apologised)"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: her speech was moving, why: "ไม่สลับลำดับ และวางผิดตำแหน่ง"}
     - {t: was moving her speech, why: "คุณศัพท์ต้องตามหลัง So ทันที"}
   explain: "==So + คุณศัพท์ + be + ประธาน + that=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: damage was, why: "ขาด the และไม่สลับลำดับ"}
     - {t: was damage it, why: "มี it เกินมา จึงใช้ไม่ได้"}
   explain: "==Such + be + คำนาม + that== = รุนแรงจน..."
-  status: draft
+  status: approved
 - id: cefr-c1-w03-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: It the rest, why: "ลำดับคำผิด จึงใช้ไม่ได้"}
     - {t: That the rest, why: "That ทำให้เป็นอนุประโยค ประโยคไม่สมบูรณ์"}
   explain: "fronting = ==ย้ายกรรมขึ้นหน้าเพื่อเปรียบเทียบ== ไม่ต้องใส่ it ซ้ำ"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: it stands, why: "มี it เกินมา ประธานคือ an old temple"}
     - {t: standing, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
   explain: "วลีสถานที่ขึ้นต้น + ==กริยา + ประธาน== (Here comes the bus.)"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: "I do warned you about the traffic.", why: "do ปัจจุบันใช้กับ warned ไม่ได้"}
     - {t: "I was warn you about the traffic.", why: "was warn ผิดรูป"}
   explain: "ตอบโต้ว่าทำแล้วนะ ==I did + กริยารูปเดิม=="
-  status: draft
+  status: approved
 - id: cefr-c1-w03-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: did the test, why: "difficult เป็นคุณศัพท์ ต้องใช้ be ไม่ใช่ did"}
     - {t: had the test, why: "had ไม่ใช่กริยาที่คู่กับ difficult"}
   explain: "So difficult was the test = ==The test was so difficult== (แบบเน้น)"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: like, why: "like ไม่ใช้ในโครงสร้างนี้"}
     - {t: that, why: "Hard that ผิดรูป"}
   explain: "==Adj + as + ประธาน + กริยา== = แม้จะ...ก็ตาม (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: was, why: "our results เป็นพหูพจน์ ใช้ were"}
         - {t: did, why: "strong เป็นคุณศัพท์ ต้องใช้ be"}
         - {t: are, why: "เรื่องที่เล่าเป็นอดีต และไม่ตรงกับ has decided ที่ตามมาจากผลเดิม"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความและฟังการอภิปราย ----------
 - id: cefr-c1-w03-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: they are the best way to find good leaders, why: "บทเสนอให้เปลี่ยนวิธีรับคน แปลว่าไม่ใช่วิธีที่ดีที่สุด"}
         - {t: they should be done by warehouse staff, why: "ไม่มีข้อเสนอนี้"}
         - {t: quiet people usually refuse to attend them, why: "ไม่มีข้อมูลที่สนับสนุน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w03-036
   kind: listen
   skill: li
@@ -506,7 +506,7 @@
         - {t: the budget, why: "เป็นความเห็นของผู้หญิง ผู้ชายแย้ง"}
         - {t: too many people, why: "ไม่ได้พูดถึงจำนวนคน"}
         - {t: the deadline, why: "ไม่ได้พูดถึงกำหนดเวลา"}
-  status: draft
+  status: approved
 - id: cefr-c1-w03-037
   kind: listen
   skill: li
@@ -522,7 +522,7 @@
         - {t: cancel the event, why: "เธอแก้ว่าไม่ได้พูดว่ายกเลิก"}
         - {t: hold it as planned, why: "เธอเสนอให้เลื่อน"}
         - {t: ask the manager first, why: "ไม่ได้พูดถึงผู้จัดการ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w03-038
   kind: listen
   skill: li
@@ -537,7 +537,7 @@
         - {t: agreeing that the system is too expensive, why: "เธอยอมรับความกังวลแต่แย้งต่อ"}
         - {t: asking for more information, why: "ไม่ได้ถามข้อมูลเพิ่ม"}
         - {t: complaining about extra work, why: "เธอพูดว่าระบบช่วยลดงาน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w03-039
   kind: order
   skill: gm
@@ -547,7 +547,7 @@
   sentence: It was the customers who suggested the idea.
   th: ลูกค้าต่างหากที่เป็นคนเสนอไอเดียนี้
   why: "It was + คน + who + กริยา เน้นว่าใครเป็นผู้ทำ"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-040
   kind: order
   skill: gm
@@ -557,7 +557,7 @@
   sentence: What the team needs is more time, not more people.
   th: สิ่งที่ทีมต้องการคือเวลาเพิ่ม ไม่ใช่คนเพิ่ม
   why: "What + ประธาน + กริยา + is + สิ่งที่เน้น แล้วเทียบด้วย not"
-  status: draft
+  status: approved
 - id: cefr-c1-w03-041
   kind: order
   skill: gm
@@ -567,7 +567,7 @@
   sentence: So popular was the workshop that we had to run it twice.
   th: เวิร์กช็อปได้รับความนิยมมากจนต้องจัดสองรอบ
   why: "So + คุณศัพท์ขึ้นต้น สลับ was + ประธาน แล้วต่อด้วย that"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c1-w03-042
   kind: order
@@ -578,4 +578,4 @@
   sentence: The reason why I support this project is that it will empower local farmers.
   th: เหตุผลที่ฉันสนับสนุนโครงการนี้คือมันจะช่วยให้เกษตรกรในท้องถิ่นมีพลัง
   why: "The reason why + ประโยค + is that + ประโยค"
-  status: draft
+  status: approved

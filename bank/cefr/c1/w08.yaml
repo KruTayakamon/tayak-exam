@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 8 · คำที่ใช้คู่กันและสำนวน · collocation (กริยา+นาม · วิเศษณ์+คุณศัพท์ · คู่คำตายตัว) · บุพบทและระดับภาษา (dependent prepositions · กริยาวลีกับคำทางการ)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # หลักการเขียนตัวลวง: ศัพท์สัปดาห์นี้ความหมายใกล้กันมาก (hinder impede hamper) จึงให้ตัวลวงผิดด้วยโครงสร้างหรือคู่คำที่ชัด ไม่ใช้คำใกล้ความหมายที่ใช้แทนได้
 # ---------- วันที่ 1 · คำที่เจ้าของภาษาใช้คู่กัน ----------
 - id: cefr-c1-w08-001
@@ -14,7 +14,7 @@
     - {t: take on, why: "take on แปลว่ารับงานหรือรับคน ไม่ใช้กับ decision"}
     - {t: give, why: "give a decision ไม่ใช่คู่คำที่ใช้ทั่วไป"}
   explain: "==make a decision / make progress== · do research / do business"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-002
   kind: mcq
   skill: gm
@@ -27,7 +27,7 @@
     - {t: did, why: "did an agreement ไม่ใช่คู่คำที่ใช้"}
     - {t: got to make, why: "got to make an agreement ฟังผิดธรรมชาติและซ้อนกริยา"}
   explain: "==reach an agreement== / a decision / a conclusion"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-003
   kind: mcq
   skill: gm
@@ -40,7 +40,7 @@
     - {t: deeply, why: "deeply ใช้กับความรู้สึก เช่น deeply grateful ไม่ใช่ aware"}
     - {t: bitterly, why: "bitterly ใช้กับความผิดหวังหรือความเย็น ไม่ใช่ aware"}
   explain: "==fully aware== · highly likely · deeply grateful · bitterly disappointed"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-004
   kind: mcq
   skill: gm
@@ -53,7 +53,7 @@
     - {t: highly, why: "highly disappointed ไม่ใช่คู่คำที่ใช้ทั่วไป"}
     - {t: strongly, why: "strongly ใช้กับความเห็น เช่น strongly disagree"}
   explain: "ผิดหวังมาก ==bitterly disappointed=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-005
   kind: mcq
   skill: gm
@@ -66,7 +66,7 @@
     - {t: done, why: "do changes ไม่ใช่คู่คำที่ใช้"}
     - {t: given, why: "give changes ไม่ใช่คู่คำที่ใช้"}
   explain: "==bring about / make / introduce + changes=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-006
   kind: mcq
   skill: gm
@@ -79,7 +79,7 @@
     - {t: waited, why: "waited ไม่ใช้ในรูป is waited to"}
     - {t: looked, why: "looked ไม่ใช้ในรูป is looked to แบบนี้"}
   explain: "พยากรณ์ ==is expected to / is set to + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-007
   kind: mcq
   skill: gm
@@ -92,7 +92,7 @@
     - {t: did to, why: "did to serious damage ลำดับผิด"}
     - {t: raised, why: "raise damage ไม่ใช่คู่คำที่ใช้"}
   explain: "==cause damage / do damage (to)== · ไม่ใช้ make damage"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-008
   kind: mcq
   skill: gm
@@ -105,7 +105,7 @@
     - {t: lower, why: "lower ใช้กับระดับหรือราคา ไม่ใช่ gap"}
     - {t: shorten, why: "shorten ใช้กับความยาวหรือเวลา ไม่ใช้กับ gap"}
   explain: "==narrow / close / bridge the gap=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-009
   kind: mcq
   skill: gm
@@ -118,7 +118,7 @@
     - {t: "a big smoker", why: "big smoker ไม่เป็นธรรมชาติ"}
     - {t: "a hard smoker", why: "hard smoker ไม่ใช่คู่คำที่ใช้"}
   explain: "==heavy smoker== / heavy traffic / heavy rain · strong coffee"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-010
   kind: mcq
   skill: gm
@@ -131,7 +131,7 @@
     - {t: speak, why: "speak a pattern ไม่ใช่คู่คำที่ใช้"}
     - {t: say, why: "say a pattern ไม่ใช่คู่คำที่ใช้"}
   explain: "ผลการศึกษา ==reveal / show / indicate== + pattern / trend"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-011
   kind: mcq
   skill: gm
@@ -144,7 +144,7 @@
     - {t: make, why: "make attention ไม่ใช่คู่คำที่ใช้"}
     - {t: take, why: "take attention ไม่ใช่คู่คำที่ใช้"}
   explain: "==pay attention== / pay a visit / pay a compliment"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-012
   kind: type
   skill: gm
@@ -154,7 +154,7 @@
   answer: do
   accept: [do]
   why: "คู่คำตายตัว do someone a favour ไม่ใช้ make"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ลดปัญหาและขัดขวาง ----------
 - id: cefr-c1-w08-013
   kind: mcq
@@ -168,7 +168,7 @@
     - {t: circumvent, why: "circumvent แปลว่าหลบเลี่ยงกฎ ไม่ใช่ลดความเสี่ยง"}
     - {t: undermine, why: "undermine แปลว่าบ่อนทำลาย ความหมายกลับ"}
   explain: "mitigate = ==บรรเทา ลดความรุนแรง== (risk / impact)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-014
   kind: mcq
   skill: vo
@@ -181,7 +181,7 @@
     - {t: expedite, why: "expedite pain แปลว่าเร่งความเจ็บปวด ความหมายผิด"}
     - {t: deter, why: "deter ใช้กับการขู่ไม่ให้คนทำ ไม่ใช่ความเจ็บปวด"}
   explain: "alleviate = ==บรรเทา== (pain / suffering / poverty)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-015
   kind: mcq
   skill: vo
@@ -194,7 +194,7 @@
     - {t: hamper, why: "hamper แปลว่าขัดขวาง ความหมายกลับ"}
     - {t: circumvent, why: "circumvent แปลว่าหลบเลี่ยง ไม่ใช่ทำให้ดีขึ้น"}
   explain: "ameliorate = ==ทำให้ดีขึ้น== (ทางการมาก ≈ improve)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-016
   kind: mcq
   skill: vo
@@ -207,7 +207,7 @@
     - {t: expedite, why: "expedite แปลว่าเร่ง ไม่ใช่ลดเวลาเปิด"}
     - {t: deter, why: "deter ใช้ขู่ไม่ให้คนทำ ไม่ใช่ลดเวลา"}
   explain: "curtail = ==ตัดทอน จำกัด== (spending / hours / freedom)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-017
   kind: mcq
   skill: vo
@@ -220,7 +220,7 @@
     - {t: ameliorate, why: "ameliorate แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
     - {t: alleviate, why: "alleviate แปลว่าบรรเทา ไม่ใช่ขัดขวาง"}
   explain: "hinder = ==ขัดขวาง ทำให้ยากขึ้น=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-018
   kind: mcq
   skill: vo
@@ -233,7 +233,7 @@
     - {t: ameliorated, why: "ameliorated แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
     - {t: deterred, why: "deter ใช้กับคนที่ถูกขู่ ไม่ใช้กับ progress"}
   explain: "impede = ==ขัดขวางการเคลื่อนหรือการคืบหน้า=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-019
   kind: mcq
   skill: vo
@@ -246,7 +246,7 @@
     - {t: alleviated, why: "alleviated ใช้กับความเจ็บปวด ไม่ใช่การค้นหา"}
     - {t: mitigated, why: "mitigated by bad weather ความหมายกลับ"}
   explain: "be hampered by = ==ถูกทำให้ติดขัดโดย=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-020
   kind: mcq
   skill: vo
@@ -259,7 +259,7 @@
     - {t: ameliorated, why: "ameliorate แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
     - {t: expedited, why: "expedite แปลว่าเร่ง ความหมายกลับ"}
   explain: "thwart = ==ทำให้แผนล้มเหลว== (an attempt / a plan)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-021
   kind: mcq
   skill: vo
@@ -272,7 +272,7 @@
     - {t: alleviate, why: "alleviate confidence ไม่มีความหมาย"}
     - {t: circumvent, why: "circumvent confidence ไม่มีความหมาย"}
   explain: "undermine = ==บ่อนทำลายทีละน้อย== (confidence / trust / authority)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-022
   kind: mcq
   skill: vo
@@ -285,7 +285,7 @@
     - {t: ameliorate, why: "ameliorate rules ไม่ได้แปลว่าหลบเลี่ยง"}
     - {t: expedite, why: "expedite rules ไม่มีความหมาย"}
   explain: "circumvent = ==หลบเลี่ยง (กฎ ข้อจำกัด)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-023
   kind: mcq
   skill: vo
@@ -298,7 +298,7 @@
     - {t: curtail, why: "curtail drivers from ผิดรูป"}
     - {t: undermine, why: "undermine drivers from ผิดรูป"}
   explain: "deter someone ==from + -ing== = ทำให้ไม่กล้าทำ"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-024
   kind: type
   skill: vo
@@ -308,7 +308,7 @@
   answer: expedite
   accept: [expedite]
   why: "expedite = เร่งขั้นตอนให้เร็วขึ้น ใช้กับคำร้องหรือการส่งของ"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · บุพบทและระดับภาษา ----------
 - id: cefr-c1-w08-025
   kind: mcq
@@ -322,7 +322,7 @@
     - {t: from, why: "depend from ไม่ใช่บุพบทที่ใช้"}
     - {t: to, why: "depend to ไม่ใช่บุพบทที่ใช้"}
   explain: "==depend on== · rely on · insist on · focus on"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-026
   kind: mcq
   skill: gm
@@ -335,7 +335,7 @@
     - {t: "on", why: "commitment on ไม่ใช่บุพบทที่ใช้"}
     - {t: with, why: "commitment with ไม่ใช่บุพบทที่ใช้"}
   explain: "commitment / dedication / key ==to + -ing=="
-  status: draft
+  status: approved
 - id: cefr-c1-w08-027
   kind: mcq
   skill: gm
@@ -348,7 +348,7 @@
     - {t: look up to, why: "look up to แปลว่านับถือ ความหมายผิด"}
     - {t: come across as, why: "come across as แปลว่าดูเหมือน ความหมายผิด"}
   explain: "find out → ==ascertain / determine== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-028
   kind: mcq
   skill: gm
@@ -361,7 +361,7 @@
     - {t: prolong, why: "prolong แปลว่ายืดให้นานขึ้น ไม่ใช่เลื่อนออกไป"}
     - {t: resume, why: "resume แปลว่ากลับมาทำต่อ"}
   explain: "put off → ==postpone== · call off → cancel"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-029
   kind: mcq
   skill: gm
@@ -374,7 +374,7 @@
     - {t: because, why: "because ต้องตามด้วยประโยค"}
     - {t: "on", why: "criticise on ไม่ใช่บุพบทที่ใช้"}
   explain: "==criticise / blame / praise someone for== something"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-030
   kind: mcq
   skill: gm
@@ -387,7 +387,7 @@
     - {t: "The committee is gonna check this out.", why: "gonna และ check out เป็นภาษาพูดไม่เป็นทางการ"}
     - {t: "The committee will dig around in the matter.", why: "dig around เป็นภาษาพูด ไม่เหมาะกับรายงาน"}
   explain: "look into → ==investigate== · go up → increase · set up → establish"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-031
   kind: mcq
   skill: gm
@@ -400,7 +400,7 @@
     - {t: of, why: "consistent of ไม่ใช่บุพบทที่ใช้"}
     - {t: for, why: "consistent for ไม่ใช่บุพบทที่ใช้"}
   explain: "==consistent with== · compatible with · in line with"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-032
   kind: mcq
   skill: gm
@@ -413,7 +413,7 @@
     - {t: "on", why: "increase on ไม่ใช่บุพบทที่ใช้ตรงนี้"}
     - {t: at, why: "increase at ไม่ใช่บุพบทที่ใช้"}
   explain: "an increase ==in crime== · an increase of 10%"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-033
   kind: mcq
   skill: gm
@@ -426,7 +426,7 @@
     - {t: to, why: "concern to ไม่ใช่บุพบทที่ใช้"}
     - {t: at, why: "concern at ใช้น้อยมากและไม่เป็นธรรมชาติในบริบทนี้"}
   explain: "express concern ==about / over== = แสดงความกังวลเกี่ยวกับ"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-034
   kind: cloze
   skill: gm
@@ -450,7 +450,7 @@
         - {t: made, why: "make damage ไม่ใช่คู่คำที่ใช้"}
         - {t: brought, why: "bring damage ไม่ใช่คู่คำที่ใช้ทั่วไป"}
         - {t: raised, why: "raise damage ไม่ใช่คู่คำที่ใช้"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านรายงานเชิงนโยบายและฟังสัมภาษณ์ ----------
 - id: cefr-c1-w08-035
   kind: read
@@ -491,7 +491,7 @@
         - {t: it could increase the number of accidents, why: "ไม่มีการกล่าวถึงข้อนี้"}
         - {t: it could make helmets more expensive, why: "ไม่มีการกล่าวถึงราคาหมวก"}
         - {t: it could close local schools, why: "โรงเรียนถูกเสนอให้มีส่วนร่วม ไม่ได้ถูกปิด"}
-  status: draft
+  status: approved
 - id: cefr-c1-w08-036
   kind: listen
   skill: li
@@ -507,7 +507,7 @@
         - {t: completely useless, why: "เขาบอกว่าอาจลดการใช้ถุงได้"}
         - {t: the best possible solution, why: "เขาบอกว่าไม่พอถ้าใช้อย่างเดียว"}
         - {t: too expensive for shops, why: "ไม่ได้พูดเรื่องค่าใช้จ่ายของร้าน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w08-037
   kind: listen
   skill: li
@@ -523,7 +523,7 @@
         - {t: the flooding got worse, why: "น้ำท่วมเป็นปัญหาของปีแรก"}
         - {t: the project was cancelled, why: "คาดว่าจะเปิดในเดือนมีนาคม"}
         - {t: the budget was cut, why: "ไม่ได้พูดถึงงบประมาณ"}
-  status: draft
+  status: approved
 - id: cefr-c1-w08-038
   kind: listen
   skill: li
@@ -539,7 +539,7 @@
         - {t: the size of the fine, why: "เขาบอกว่าค่าปรับช่วยบางคน แต่ไม่ใช่ปัจจัยสำคัญที่สุด"}
         - {t: the number of bins, why: "ไม่ได้พูดถึงถังขยะ"}
         - {t: education at school, why: "ไม่ได้พูดถึงการศึกษา"}
-  status: draft
+  status: approved
 - id: cefr-c1-w08-039
   kind: order
   skill: gm
@@ -549,7 +549,7 @@
   sentence: The new measures have made a significant contribution to road safety.
   th: มาตรการใหม่มีส่วนช่วยอย่างมากต่อความปลอดภัยบนท้องถนน
   why: "คู่คำ make a contribution to + สิ่งที่ได้รับผล"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-040
   kind: order
   skill: gm
@@ -559,7 +559,7 @@
   sentence: Higher fines are intended to deter drivers from speeding.
   th: ค่าปรับที่สูงขึ้นมีไว้เพื่อป้องปรามไม่ให้ผู้ขับขี่ขับเร็ว
   why: "deter + คน + from + -ing"
-  status: draft
+  status: approved
 - id: cefr-c1-w08-041
   kind: order
   skill: gm
@@ -569,7 +569,7 @@
   sentence: The meeting has been postponed until further notice due to the storm.
   th: การประชุมเลื่อนออกไปจนกว่าจะแจ้งใหม่เนื่องจากพายุ
   why: "postponed ทางการกว่า put off ตามด้วย until further notice และเหตุผล"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c1-w08-042
   kind: order
@@ -580,4 +580,4 @@
   sentence: We therefore recommend that the measures be introduced in two stages.
   th: ดังนั้นจึงขอเสนอให้นำมาตรการมาใช้เป็นสองระยะ
   why: "recommend that + ประธาน + be + ช่อง 3 ภาษาข้อเสนอเชิงนโยบาย"
-  status: draft
+  status: approved

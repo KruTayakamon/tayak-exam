@@ -1,5 +1,5 @@
 # คอร์ส c1 · สัปดาห์ 5 · เขียนให้กระชับ · participle clauses ระดับสูง (present past perfect · with + participle) · ellipsis และ substitution (so do I · one/ones · do so)
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 18 พ.ย. (รอบ 26 "ส่งได้เลย")
 # ---------- วันที่ 1 · ย่อประโยคระดับสูง ----------
 - id: cefr-c1-w05-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: To send, why: "To send บอกจุดประสงค์ ไม่ใช่สิ่งที่ทำเสร็จก่อน"}
     - {t: Being sent, why: "Being sent เป็นรูปถูกกระทำ ความหมายผิด"}
   explain: "ทำเสร็จก่อนอีกเหตุการณ์ ==Having + ช่อง 3, ...=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: Having built, why: "Having built แปลว่าโรงแรมสร้างอะไรเสร็จ ความหมายผิด"}
     - {t: To build, why: "To build บอกจุดประสงค์ ไม่ใช่ข้อมูลประวัติ"}
   explain: "ประธานถูกกระทำ → ==ช่อง 3 ขึ้นต้น== (Built in 1890, ...)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: Being worked, why: "Being worked เป็นรูปถูกกระทำ"}
     - {t: Have worked, why: "Have worked ขึ้นประโยคแบบนี้ไม่ได้ ต้องเป็น Having"}
   explain: "ระยะเวลาก่อนอีกเหตุการณ์ ==Having + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: seated by, why: "seated by แปลว่าถูกจัดให้นั่งโดยใคร ความหมายผิด"}
     - {t: having sit, why: "having ต้องตามด้วยช่อง 3 sat ไม่ใช่ sit"}
   explain: "ย่อ who/which + ==กริยาแบบกระทำ → -ing=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: are made, why: "are made ทำให้มีกริยาแท้สองตัว"}
     - {t: having made, why: "having made แปลว่าสินค้าผลิตอะไรเสร็จ ความหมายผิด"}
   explain: "ย่อ which + be + ช่อง 3 → ==ช่อง 3 อย่างเดียว=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: risen, why: "risen ใช้กับเรื่องที่เสร็จแล้ว ขัดกับ every month"}
     - {t: are rising, why: "หลัง With ไม่ใช้กริยาแท้"}
   explain: "==With + นาม + -ing/ช่อง 3== = ในเมื่อ... (บอกเหตุหรือสภาพแวดล้อม)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: "Walked home, I saw an old friend.", why: "Walked ขึ้นต้นเป็นรูปถูกกระทำ ความหมายผิด"}
     - {t: "Having walk home, I saw an old friend.", why: "Having ต้องตามด้วยช่อง 3"}
   explain: "ประธานของประโยคหลัก ==ต้องเป็นคนที่ทำกริยา -ing== (กันประโยคห้อย)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: Having discouraged, why: "แปลว่าเราทำให้คนอื่นท้อเสร็จแล้ว ความหมายผิด"}
     - {t: To discourage, why: "To discourage บอกจุดประสงค์ ไม่ใช่เหตุผล"}
   explain: "ความรู้สึกที่ประธานได้รับ ==ช่อง 3== (Tired / Surprised by ...)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: known, why: "known เป็นรูปถูกกระทำ ความหมายผิด"}
     - {t: to know, why: "Not to know ไม่ได้บอกเหตุผลแบบนี้"}
   explain: "ปฏิเสธ ==Not + -ing, ...== (Not having seen it, ...)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: Being rejecting, why: "รูปนี้ผิด ใช้ being คู่กับ -ing ไม่ได้"}
     - {t: Rejecting, why: "Rejecting ทำให้ผู้สมัครเป็นผู้ปฏิเสธ"}
   explain: "ถูกกระทำมาก่อน ==Having been + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: was published, why: "ทำให้มีกริยาแท้สองตัวในประโยค"}
     - {t: having publish, why: "having ต้องตามด้วยช่อง 3"}
   explain: "ข้อมูลเสริมแบบย่อ ==, + ช่อง 3 + ..., =="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: having
   accept: [having, Having]
   why: "Having + ช่อง 3 บอกว่าทำเสร็จก่อนเหตุการณ์ในประโยคหลัก"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การสรุปและนำเสนอความคิด ----------
 - id: cefr-c1-w05-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: pertinent, why: "pertinent แปลว่าตรงประเด็น ไม่ได้บอกความสั้นโดยตรง"}
     - {t: cogent, why: "cogent แปลว่ามีเหตุผลน่าเชื่อ ไม่ได้บอกความสั้น"}
   explain: "succinct ≈ concise = ==สั้นกระชับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: elicited, why: "elicit ต้องมีกรรม"}
     - {t: encompassed, why: "encompass ต้องมีกรรม และแปลว่าครอบคลุม"}
   explain: "digress = ==ออกนอกเรื่อง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: elicits, why: "elicit แปลว่าดึงคำตอบจากคน ไม่ใช่แจกแจง"}
     - {t: disseminates, why: "disseminate แปลว่าเผยแพร่ ไม่ใช่แจกแจงหน้าที่"}
   explain: "delineate = ==อธิบาย แบ่งขอบเขตให้ชัด=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: digresses, why: "digress ไม่มีกรรม"}
     - {t: elicits, why: "elicit แปลว่าดึงคำตอบ ไม่ใช่เป็นตัวอย่าง"}
   explain: "exemplify = ==เป็นตัวอย่างของ ยกตัวอย่าง=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: exemplifying, why: "exemplify a strategy ไม่ได้แปลว่าวางแผน"}
     - {t: encompassing, why: "encompass a strategy แปลว่าครอบคลุม ไม่ใช่สร้าง"}
   explain: "formulate a plan / policy = ==คิด วางแผนอย่างเป็นระบบ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: digress, why: "digress ไม่มีกรรม"}
     - {t: elicit, why: "elicit แปลว่าดึงข้อมูลจากคน ทิศทางกลับกัน"}
   explain: "disseminate information = ==เผยแพร่ กระจายข้อมูล=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: exemplify, why: "exemplify answers ไม่ได้แปลว่าดึงคำตอบ"}
     - {t: digress, why: "digress ไม่มีกรรม"}
   explain: "elicit a response / information = ==ดึงออกมา=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: digresses, why: "digress ไม่มีกรรม"}
     - {t: delineates, why: "delineate everything from ... to ไม่ใช่วลีที่ใช้"}
   explain: "encompass = ==ครอบคลุม== (≈ cover / include)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: rudimentary, why: "rudimentary ไม่ตามด้วย to และแปลว่าพื้นฐาน"}
     - {t: cogent, why: "cogent ไม่ตามด้วย to"}
   explain: "pertinent to = ==ตรงประเด็น เกี่ยวข้องกับ=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: pertinent, why: "pertinent แปลว่าตรงประเด็น ไม่ได้บอกพลังโน้มน้าว"}
     - {t: digressive, why: "digressive แปลว่าออกนอกเรื่อง ขัดกับความหมาย"}
   explain: "cogent = ==มีเหตุผลหนักแน่น โน้มน้าวได้=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: pertinent, why: "pertinent knowledge แปลว่าความรู้ที่เกี่ยวข้อง ไม่ได้บอกระดับ"}
     - {t: succinct, why: "succinct ใช้กับคำพูดหรือข้อเขียน"}
   explain: "rudimentary = ==พื้นฐานเบื้องต้นมาก=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: brevity
   accept: [brevity, Brevity]
   why: "brevity = ความสั้นกระชับ เป็นคำนามที่ใช้ขึ้นต้นประโยคได้"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ละและแทน ----------
 - id: cefr-c1-w05-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: love, why: "So + กริยาแท้ + I ไม่ใช่รูปที่ใช้"}
     - {t: have, why: "ประโยคแรกไม่ได้ใช้ have"}
   explain: "เห็นด้วยแบบสั้น ==So + กริยาช่วยของประโยคแรก + ประธาน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: do, why: "ประโยคแรกใช้ have ไม่ใช่ do"}
     - {t: did, why: "ประโยคแรกเป็น present perfect ไม่ใช่อดีต"}
   explain: "ปฏิเสธเหมือนกัน ==Neither/Nor + กริยาช่วยบอกเล่า + ประธาน=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: it, why: "it ไม่ใช้หลังคุณศัพท์แบบนี้"}
     - {t: them, why: "them ไม่ใช้หลังคุณศัพท์ bigger"}
   explain: "แทนคำนามนับได้ ==one (เอกพจน์) / ones (พหูพจน์)=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: it, why: "I hope it ไม่ครบประโยค"}
     - {t: don't, why: "I hope don't ผิดรูป"}
   explain: "แทนประโยค ==I hope so / I hope not== · I think so / I don't think so"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: so done, why: "ลำดับคำผิด จึงใช้ไม่ได้"}
     - {t: did so, why: "หลัง have ต้องเป็นช่อง 3 done"}
   explain: "แทนการกระทำแบบทางการ ==do so / did so / have done so=="
-  status: draft
+  status: approved
 - id: cefr-c1-w05-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: afford going, why: "afford ไม่ตามด้วย -ing"}
     - {t: to afford, why: "ลำดับผิด ขาดกริยาช่วยหน้า afford"}
   explain: "ละกริยาซ้ำได้ ==เหลือแค่ to== (I'd love to · I'm trying to)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: might not do, why: "do ใช้แทน have locked ไม่ได้"}
     - {t: might have not, why: "ลำดับผิด not ต้องอยู่หลังกริยาช่วยตัวแรก"}
   explain: "ละส่วนที่ซ้ำ ==เหลือกริยาช่วยตัวสุดท้าย== (I might have. / She should be.)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: has, why: "เป็นเรื่องในอดีต และ has ไม่ได้แทน succeeded"}
     - {t: does, why: "เป็นอดีต ใช้ does ไม่ได้"}
   explain: "แทนกริยาแท้ด้วย ==do/does/did== ให้ตรงเวลา"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-033
   kind: mcq
   skill: gm
@@ -425,7 +425,7 @@
     - {t: have, why: "wish ไม่ตามด้วย present perfect"}
     - {t: would, why: "wish I would ใช้กับอนาคตหรือนิสัย ไม่ใช่เรื่องที่ผ่านแล้ว"}
   explain: "ละแล้วเหลือ ==กริยาช่วยของรูปเต็ม== (I wish I had told her → I wish I had)"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-034
   kind: cloze
   skill: gm
@@ -449,7 +449,7 @@
         - {t: neither, why: "neither ใช้กับประโยคปฏิเสธ แต่ประโยคหน้าเป็นบอกเล่า"}
         - {t: also, why: "also did her editor ผิดลำดับ"}
         - {t: too, why: "too วางท้ายประโยค ไม่ใช่หน้า did"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทวิจารณ์หนังสือและฟังบรรยาย ----------
 - id: cefr-c1-w05-035
   kind: read
@@ -490,7 +490,7 @@
         - {t: managers should not read the book, why: "ผู้วิจารณ์แนะนำให้แจกหนังสือ"}
         - {t: the book is too expensive for teams, why: "ไม่มีการพูดถึงราคา"}
         - {t: staff write better than their managers, why: "บทไม่ได้เปรียบเทียบตรง ๆ แบบนี้"}
-  status: draft
+  status: approved
 - id: cefr-c1-w05-036
   kind: listen
   skill: li
@@ -505,7 +505,7 @@
         - {t: strict rules, why: "The former = strict rules ใช้ได้ดีในโรงงาน"}
         - {t: a mixture of both, why: "ผู้บรรยายไม่ได้เสนอแบบผสม"}
         - {t: neither approach, why: "ผู้บรรยายบอกว่าแบบหลังได้ผลดีกว่า"}
-  status: draft
+  status: approved
 - id: cefr-c1-w05-037
   kind: listen
   skill: li
@@ -520,7 +520,7 @@
         - {t: saying they want feedback, why: "บริษัทส่วนใหญ่พูดอยู่แล้ว do so หมายถึงการลงมือทำ"}
         - {t: keeping employees longer, why: "เป็นผลลัพธ์ ไม่ใช่สิ่งที่ do so แทน"}
         - {t: hiring more staff, why: "ไม่ได้พูดถึงการจ้างคน"}
-  status: draft
+  status: approved
 - id: cefr-c1-w05-038
   kind: listen
   skill: li
@@ -535,7 +535,7 @@
         - {t: annual long sessions work better, why: "ตรงข้ามกับข้อสรุป"}
         - {t: training makes no difference, why: "ข้อสรุปบอกว่าแบบหนึ่งได้ผลกว่า"}
         - {t: more studies are needed first, why: "ไม่ได้พูดว่าต้องศึกษาเพิ่ม"}
-  status: draft
+  status: approved
 - id: cefr-c1-w05-039
   kind: order
   skill: gm
@@ -545,7 +545,7 @@
   sentence: Having read the report twice, I still had several questions.
   th: อ่านรายงานสองรอบแล้ว ก็ยังมีคำถามอีกหลายข้อ
   why: "Having + ช่อง 3 ขึ้นต้น แล้วประธาน I เป็นคนที่อ่าน"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-040
   kind: order
   skill: gm
@@ -555,7 +555,7 @@
   sentence: With the deadline approaching, everyone was working late.
   th: เมื่อกำหนดส่งใกล้เข้ามา ทุกคนจึงทำงานดึก
   why: "With + คำนาม + -ing บอกสถานการณ์ แล้วตามด้วยประโยคหลัก"
-  status: draft
+  status: approved
 - id: cefr-c1-w05-041
   kind: order
   skill: gm
@@ -565,7 +565,7 @@
   sentence: I was asked to update the website, and I have done so.
   th: ได้รับมอบหมายให้อัปเดตเว็บไซต์ และทำเรียบร้อยแล้ว
   why: "done so แทนการกระทำ update the website ที่พูดไปแล้ว"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c1-w05-042
   kind: order
@@ -576,4 +576,4 @@
   sentence: In short, the article argues that longer reports are rarely better ones.
   th: สรุปสั้น ๆ บทความเสนอว่ารายงานที่ยาวกว่ามักไม่ได้ดีกว่า
   why: "In short นำการสรุป แล้วใช้ ones แทน reports เพื่อไม่ซ้ำคำ"
-  status: draft
+  status: approved

@@ -1,9 +1,10 @@
 // จอนอกเซสชัน: ตั้งแผน · วันนี้ · คอร์ส · ฝึกเพิ่ม · ผล · ซื้อ · บัญชี (ตามต้นแบบ design/cefr_prototype.html)
 import { api } from './api.js';
-import { getSession, getPrefs, putPrefs, getStars, mergeStars } from './store.js';
+import { getSession, clearSession, getPrefs, putPrefs, getStars, mergeStars } from './store.js';
 import { el, esc } from './items.js';
 import { dayKey } from './engine/engine.mjs';
-import { SITE } from './config.js';
+import { SITE, OPEN_COURSES, COURSE_TH, COURSE_FOR, setCourse } from './config.js';
+import { flush } from './player.js';
 import { quote } from './engine/pricing.mjs';
 import { currentUser, signOut } from './auth.js';
 import { cpCard } from './checkpoint.js';
@@ -23,7 +24,10 @@ function trophyCard() {
     <div class="badges">${Object.entries(BADGE_TH).map(([k, [i, th]]) => `<span class="badge b-${k}${t.badges[k] ? '' : ' off'}"><i>${i}</i>${th}${t.badges[k] ? ` ×${t.badges[k]}` : ''}</span>`).join('')}</div>
     <p class="small">ตอบถูกตั้งแต่ครั้งแรก 1 ข้อ = 1 ดาว · เก็บไว้ในเครื่องนี้</p></div>`;
 }
-const demoNote = () => (api.mode === 'demo' ? '<div class="demo">โหมดสาธิต: เนื้อหาร่างสัปดาห์ 1 ของคอร์ส B1 ข้อมูลเก็บในเครื่องนี้เท่านั้น</div>' : '');
+const demoNote = () => (api.mode === 'demo' ? '<div class="demo">โหมดสาธิต: ข้อมูลเก็บในเครื่องนี้เท่านั้น</div>' : '');
+const CL = (c) => (c || SITE.course).toUpperCase();
+/** สลับคอร์ส: ส่งคำตอบที่ค้างของคอร์สเดิมก่อน แล้วล้างเซสชันที่ทำค้าง */
+async function switchCourse(c, go) { await flush().catch(() => null); clearSession(); setCourse(c); go('today'); }
 
 function readyRows(r) {
   const keys = Object.keys(r);
@@ -32,11 +36,15 @@ function readyRows(r) {
 }
 
 export async function viewPlan(root, go) {
-  root.innerHTML = header() + demoNote() + '<h1>ตั้งแผนเรียน</h1><h2>วันละกี่นาที</h2>';
+  root.innerHTML = header() + demoNote() + '<h1>ตั้งแผนเรียน</h1><h2>เลือกคอร์ส</h2>';
+  let course = SITE.course;
+  const cc = el('<div class="coursepick" id="coursePick">' + OPEN_COURSES.map((c) => `<button class="cpick${c === course ? ' on' : ''}" data-course="${c}"><b>${esc(CL(c))}</b><span>${esc(COURSE_TH[c])}</span><small>${esc(COURSE_FOR[c] || '')}</small></button>`).join('') + '</div>');
+  cc.addEventListener('click', (e) => { const b = e.target.closest('.cpick'); if (!b) return; course = b.dataset.course; cc.querySelectorAll('.cpick').forEach((x) => x.classList.toggle('on', x === b)); });
+  root.append(cc, el('<p class="small">ยังไม่แน่ใจ <a href="placement.html">วัดระดับฟรี 20 นาที</a> · สัปดาห์แรกของทุกคอร์สเรียนฟรี</p>'), el('<h2>วันละกี่นาที</h2>'));
   const chips = el('<div class="chips">' + [[10, '10 นาที · 24 สัปดาห์'], [20, '20 นาที · 12 สัปดาห์'], [40, '40 นาที · 6 สัปดาห์']].map(([p, t]) => `<button class="chip${p === 20 ? ' on' : ''}" data-pace="${p}">${t}</button>`).join('') + '</div>');
   chips.addEventListener('click', (e) => { const c = e.target.closest('.chip'); if (!c) return; chips.querySelectorAll('.chip').forEach((x) => x.classList.remove('on')); c.classList.add('on'); });
   const b = el('<button class="btn" id="usePlan">ใช้แผนนี้</button>');
-  b.addEventListener('click', async () => { await api.enrol({ pace: Number(chips.querySelector('.on').dataset.pace) }); go('today'); });
+  b.addEventListener('click', async () => { if (course !== SITE.course) { clearSession(); setCourse(course); } await api.enrol({ pace: Number(chips.querySelector('.on').dataset.pace) }); go('today'); });
   root.append(chips, el('<p class="small">เปลี่ยนจังหวะได้ทุกเมื่อในหน้าบัญชี ระบบจะคำนวณวันจบให้ใหม่</p>'), b);
 }
 
@@ -55,7 +63,7 @@ export async function viewToday(root, go) {
     const st = getStars();
     if (st.stars) root.appendChild(el(`<a class="starchip" id="starChip" href="#results">⭐ ${st.stars} ดาว${st.perfect ? ` · 👑 ${st.perfect}` : ''}${st.best >= 5 ? ` · 🔥 ${st.best}` : ''}</a>`));
     const cpo = cpCard(h, true); if (cpo) root.appendChild(el(cpo));
-    root.appendChild(el(`<div><p class="small">สัปดาห์ ${h.pointer.week} จาก 12 · ${esc(h.theme)}</p><h1 id="todayTitle">วันที่ ${h.pointer.day}: ${esc(h.title)}</h1></div>`));
+    root.appendChild(el(`<div><p class="small"><a class="tag" id="courseTag" href="#course">${esc(CL())}</a> สัปดาห์ ${h.pointer.week} จาก 12 · ${esc(h.theme)}</p><h1 id="todayTitle">วันที่ ${h.pointer.day}: ${esc(h.title)}</h1></div>`));
     const main = el(`<button class="btn" id="startBtn">${paused && paused.kind === 'full' ? 'ทำต่อจากที่ค้าง' : `เริ่มเซสชันวันนี้ · ${h.pace === 10 ? 10 : h.session_minutes} นาที`}</button>`);
     main.addEventListener('click', () => go('session-full'));
     root.appendChild(main);
@@ -67,11 +75,14 @@ export async function viewToday(root, go) {
   root.appendChild(el(`<div class="card"><div class="row"><h2 class="grow">ความพร้อม</h2><span class="small">เรียนแล้ว ${Math.floor(h.minutes / 60)} ชม. ${h.minutes % 60} นาที</span></div>${readyRows(h.readiness)}<p class="small">ประเมินจากแบบฝึกของเรา ไม่ใช่ผลสอบ · คาดว่าจบคอร์ส ${thDate(h.finish_day)}</p></div>`));
 }
 
-export async function viewCourse(root) {
+export async function viewCourse(root, go) {
   const h = await api.home();
-  root.innerHTML = header() + '<h1>คอร์สเป้าหมาย B1</h1><p class="small">12 สัปดาห์ สัปดาห์ละ 6 วัน</p>';
+  root.innerHTML = header() + `<h1>${esc(COURSE_TH[SITE.course])}</h1><p class="small">12 สัปดาห์ สัปดาห์ละ 6 วัน</p>`;
+  const sw = el('<div class="card" id="switchCourse"><h2>เปลี่ยนคอร์ส</h2><p class="small">ความคืบหน้าของแต่ละคอร์สเก็บแยกกัน กลับมาเรียนต่อได้เสมอ · สัปดาห์แรกของทุกคอร์สเรียนฟรี</p><div class="coursepick">' + OPEN_COURSES.map((c) => `<button class="cpick${c === SITE.course ? ' on' : ''}" data-course="${c}"><b>${esc(CL(c))}</b><span>${esc(COURSE_TH[c])}</span><small>${c === SITE.course ? 'กำลังเรียนอยู่' : esc(COURSE_FOR[c] || '')}</small></button>`).join('') + '</div></div>');
+  sw.addEventListener('click', (e) => { const b = e.target.closest('.cpick'); if (b && b.dataset.course !== SITE.course) switchCourse(b.dataset.course, go); });
   const cur = h && h.pointer ? h.pointer.week : 1;
   root.appendChild(el('<div class="card">' + Array.from({ length: 12 }, (_, i) => `<div class="row" style="justify-content:space-between"><span>สัปดาห์ ${i + 1}</span><span class="small">${i + 1 < cur ? 'เรียนแล้ว' : i + 1 === cur ? `กำลังเรียน วันที่ ${h.pointer.day}` : i === 3 || i === 7 || i === 11 ? 'มีชุดวัดผลท้ายสัปดาห์' : ''}</span></div>`).join('') + '</div>'));
+  root.appendChild(sw);
 }
 
 export async function viewExtra(root) {
@@ -97,7 +108,7 @@ export async function viewBuy(root, go, msg) {
   if (msg) root.appendChild(el(`<div class="note" id="buyMsg">${esc(msg)}</div>`));
   const live = !!(s && !s.error && s.prices);
   if (!live) {                                             // ยังไม่ล็อกอินหรือระบบชำระเงินขัดข้อง: แสดงราคาจากกติกาเดียวกับเซิร์ฟเวอร์ แต่ไม่มีปุ่มซื้อ
-    s = { prices: ['cefr-b1'].map((p) => quote(p, Date.now())), entitlements: [], orders: [] };
+    s = { prices: OPEN_COURSES.map((c) => quote('cefr-' + c, Date.now())), entitlements: [], orders: [] };
     root.appendChild(el('<div class="note" id="payingSoon">ยังเปิดหน้าซื้อไม่ได้ในขณะนี้ ลองใหม่อีกครั้งภายหลัง ระหว่างนี้เรียนสัปดาห์แรกฟรีได้เลย</div>'));
   }
   const now = Date.now(), ents = (s.entitlements || []).filter((e) => e.expires_at > now);

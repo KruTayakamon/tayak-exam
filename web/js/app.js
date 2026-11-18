@@ -4,7 +4,7 @@ import { viewToday, viewCourse, viewExtra, viewResults, viewBuy, viewAccount } f
 import { getPrefs } from './store.js';
 import { el, esc } from './items.js';
 import { api } from './api.js';
-import { SITE } from './config.js';
+import { SITE, setCourse } from './config.js';
 import { authInit, signIn } from './auth.js';
 import { viewCheckpoint } from './checkpoint.js';
 
@@ -60,6 +60,8 @@ async function render() {
 window.addEventListener('hashchange', render);
 window.addEventListener('online', () => flush());
 // กลับจากหน้าจ่ายของ Beam: /app?order=<รหัส>#buy → ถามเซิร์ฟเวอร์ให้ตรวจกับ Beam แล้วแสดงผล (ไม่เชื่อค่าในลิงก์)
+const QS = new URLSearchParams(location.search);
+if (QS.get('course')) setCourse(QS.get('course'));                // ลิงก์จากหน้าวัดระดับ ?course=c1
 const ORDER = new URLSearchParams(location.search).get('order');
 async function afterPay() {
   if (!(await signedIn())) return;
