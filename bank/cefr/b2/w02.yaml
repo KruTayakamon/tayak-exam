@@ -1,0 +1,581 @@
+# คอร์ส b2 · สัปดาห์ 2 · งานที่ทำมาอย่างต่อเนื่อง · present perfect simple กับ continuous · article และ quantifier ระดับสูง (each every either neither)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# หลักการเขียนตัวลวง: ข้อที่ simple และ continuous ใช้ได้ทั้งคู่ (live, work + for) ไม่ใช้เป็นโจทย์ให้เลือกระหว่างสองรูปนี้
+# ---------- วันที่ 1 · ผลลัพธ์ หรือ ความต่อเนื่อง ----------
+- id: cefr-b2-w02-001
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 1
+  stem: I ____ twenty emails this morning, and there are still more to answer.
+  choices:
+    - {t: have answered, why: "นับจำนวนที่ทำเสร็จ ใช้ ++have answered++"}
+    - {t: have been answering, why: "รูปต่อเนื่องไม่ใช้กับจำนวนชิ้นที่เสร็จแล้ว"}
+    - {t: am answering, why: "ไม่ได้บอกว่าเสร็จไปแล้วกี่ฉบับ"}
+    - {t: answer, why: "ปัจจุบันธรรมดาเป็นกิจวัตร ไม่เข้ากับ this morning"}
+  explain: "มีจำนวน = ==have + ช่อง 3== · เน้นระยะเวลา = have been -ing"
+  status: approved
+- id: cefr-b2-w02-002
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 1
+  stem: You look hot. ____ you ____?
+  choices:
+    - {t: Have ... been running, why: "เห็นร่องรอยจากกิจกรรมที่เพิ่งทำ ใช้ ++have been + -ing++"}
+    - {t: Have ... run, why: "have run เน้นผลสำเร็จ ไม่เข้ากับร่องรอยบนตัว"}
+    - {t: Are ... running, why: "ตอนนี้ไม่ได้วิ่งอยู่ แค่เห็นร่องรอย"}
+    - {t: Did ... ran, why: "หลัง did ต้องใช้กริยารูปเดิม"}
+  explain: "เห็นร่องรอยตอนนี้ ==have been + -ing=="
+  status: approved
+- id: cefr-b2-w02-003
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: She ____ the report, so you can read it now.
+  choices:
+    - {t: has finished, why: "เสร็จแล้วและพร้อมใช้ ใช้ ++has finished++"}
+    - {t: has been finishing, why: "finish เป็นการกระทำที่จบในตัว ไม่ใช้รูปต่อเนื่องแบบนี้"}
+    - {t: is finishing, why: "ยังไม่เสร็จ ขัดกับ you can read it now"}
+    - {t: finishes, why: "ปัจจุบันธรรมดาไม่ได้บอกว่าเสร็จแล้ว"}
+  explain: "ผลลัพธ์พร้อมใช้ตอนนี้ ==have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w02-004
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: I ____ this book for weeks, but I'm only halfway through.
+  choices:
+    - {t: have been reading, why: "ทำต่อเนื่องและยังไม่จบ ใช้ ++have been reading++"}
+    - {t: have read, why: "have read บอกว่าอ่านจบแล้ว ขัดกับ only halfway"}
+    - {t: read, why: "อดีตธรรมดาไม่เชื่อมถึงตอนนี้"}
+    - {t: am read, why: "am read ผิดรูป จึงใช้ไม่ได้"}
+  explain: "ยังไม่เสร็จ ทำต่อเนื่อง ==have been + -ing=="
+  status: approved
+- id: cefr-b2-w02-005
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: How many countries ____ so far?
+  choices:
+    - {t: have you visited, why: "ถาม How many = จำนวน ใช้ ++have + ช่อง 3++"}
+    - {t: have you been visiting, why: "รูปต่อเนื่องไม่ใช้กับ How many"}
+    - {t: are you visiting, why: "so far ต้องใช้ perfect"}
+    - {t: did you visit, why: "so far เชื่อมถึงปัจจุบัน ใช้อดีตธรรมดาไม่ได้"}
+  explain: "==How many / How much + have + ช่อง 3==?"
+  status: approved
+- id: cefr-b2-w02-006
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: How long ____ for the bus? It's very late today.
+  choices:
+    - {t: have you been waiting, why: "ถาม How long ของการกระทำต่อเนื่อง ใช้ ++have been + -ing++"}
+    - {t: are you waiting, why: "How long กับช่วงเวลาถึงตอนนี้ต้องใช้ perfect"}
+    - {t: did you wait, why: "ยังรออยู่ ใช้อดีตธรรมดาไม่ได้"}
+    - {t: have you waited for, why: "มี for ซ้ำกับท้ายประโยค"}
+  explain: "==How long + have + been -ing==? (ยังทำอยู่)"
+  status: approved
+- id: cefr-b2-w02-007
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 1
+  stem: I ____ my wallet. Have you seen it anywhere?
+  choices:
+    - {t: have lost, why: "หายแล้วยังส่งผลตอนนี้ ใช้ ++have lost++"}
+    - {t: have been losing, why: "lose เป็นการกระทำที่จบทันที ไม่ใช้รูปต่อเนื่อง"}
+    - {t: am losing, why: "ทำหายไปแล้ว ไม่ใช่กำลังทำหาย"}
+    - {t: lose, why: "ปัจจุบันธรรมดาไม่บอกว่าหายแล้ว"}
+  explain: "เหตุการณ์ที่จบทันที (lose, break, find) ==ใช้ have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w02-008
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: They ____ the road outside my house since March, and the noise is driving me crazy.
+  choices:
+    - {t: have been repairing, why: "ทำต่อเนื่องมาตั้งแต่มีนาคมและยังไม่เสร็จ ใช้ ++have been repairing++"}
+    - {t: have repaired, why: "have repaired บอกว่าซ่อมเสร็จแล้ว ขัดกับเสียงที่ยังดังอยู่"}
+    - {t: repaired, why: "since ต้องใช้ perfect"}
+    - {t: are repairing, why: "since + จุดเริ่มต้นต้องใช้ perfect"}
+  explain: "ยังทำอยู่ + since ==have been + -ing=="
+  status: approved
+- id: cefr-b2-w02-009
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 3
+  stem: Which sentence suggests the painting is COMPLETE?
+  choices:
+    - {t: "I've painted the kitchen.", why: "have + ช่อง 3 ++เน้นผลว่าเสร็จแล้ว++"}
+    - {t: "I've been painting the kitchen.", why: "เน้นกิจกรรม อาจยังไม่เสร็จ"}
+    - {t: "I'm painting the kitchen.", why: "ยังทำอยู่ตอนนี้"}
+    - {t: "I was painting the kitchen.", why: "กำลังทำในอดีต ไม่ได้บอกว่าเสร็จ"}
+  explain: "simple = ==เสร็จแล้ว== · continuous = อาจยังไม่เสร็จ"
+  status: approved
+- id: cefr-b2-w02-010
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: I ____ him for years, so I can tell you he's very reliable.
+  choices:
+    - {t: have known, why: "know เป็นกริยาสภาวะ ใช้ ++have known++ (ไม่ใช้ -ing)"}
+    - {t: have been knowing, why: "know เป็นกริยาสภาวะ ไม่ใช้รูป -ing"}
+    - {t: know, why: "for years ถึงตอนนี้ต้องใช้ perfect"}
+    - {t: knew, why: "อดีตธรรมดาบอกว่าไม่ได้รู้จักแล้ว"}
+  explain: "กริยาสภาวะ (know, believe, own) ==ใช้ have + ช่อง 3 เท่านั้น=="
+  status: approved
+- id: cefr-b2-w02-011
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 3
+  stem: Your hands are covered in oil. What ____?
+  choices:
+    - {t: have you been doing, why: "ถามกิจกรรมที่ทิ้งร่องรอย ใช้ ++have been doing++"}
+    - {t: have you done, why: "ถามผลสำเร็จ ไม่ได้ถามว่ากำลังทำอะไรมาจนมือเปื้อน"}
+    - {t: are you doing, why: "ไม่ได้ถามว่าทำอะไรอยู่ตอนนี้ แต่ถามสิ่งที่ทำมา"}
+    - {t: did you do, why: "ไม่เชื่อมกับร่องรอยที่เห็นตอนนี้"}
+  explain: "เห็นร่องรอย ถามว่า ==What have you been doing?=="
+  status: approved
+- id: cefr-b2-w02-012
+  kind: type
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  stem: "I've been l______ for a new flat for months, but I haven't found one yet. (มองหา)"
+  answer: looking
+  accept: [looking]
+  why: "have been + -ing เน้นว่ามองหาต่อเนื่องและยังไม่สำเร็จ"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การทำงานต่อเนื่อง ----------
+- id: cefr-b2-w02-013
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 1
+  stem: We've made good ____ on the project this month.
+  choices:
+    - {t: progress, why: "ความคืบหน้า ใช้ ++make progress++"}
+    - {t: workload, why: "workload คือปริมาณงาน ไม่ใช้กับ make good"}
+    - {t: burnout, why: "burnout คือภาวะหมดไฟ"}
+    - {t: efficient, why: "efficient เป็นคุณศัพท์"}
+  explain: "make progress = ==มีความคืบหน้า== (นับไม่ได้ ไม่ใช้ a)"
+  status: approved
+- id: cefr-b2-w02-014
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 1
+  stem: My ____ has doubled since two colleagues left.
+  choices:
+    - {t: workload, why: "ปริมาณงาน ใช้ ++workload++"}
+    - {t: progress, why: "progress ไม่ได้บอกปริมาณงาน"}
+    - {t: punctual, why: "punctual เป็นคุณศัพท์"}
+    - {t: ongoing, why: "ongoing เป็นคุณศัพท์"}
+  explain: "workload = ==ปริมาณงานที่ต้องทำ=="
+  status: approved
+- id: cefr-b2-w02-015
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: Working twelve hours a day for months led to ____, and she had to take a long break.
+  choices:
+    - {t: burnout, why: "ภาวะหมดไฟจากงานหนัก ใช้ ++burnout++"}
+    - {t: progress, why: "progress เป็นสิ่งดี ไม่ทำให้ต้องพักยาว"}
+    - {t: workload, why: "workload คือปริมาณงาน ไม่ใช่ผลที่เกิดกับคน"}
+    - {t: thorough, why: "thorough เป็นคุณศัพท์"}
+  explain: "burnout = ==ภาวะหมดไฟ หมดแรงจากงาน=="
+  status: approved
+- id: cefr-b2-w02-016
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: It's hard to ____ high standards when you're short of staff.
+  choices:
+    - {t: maintain, why: "รักษาระดับไว้ ใช้ ++maintain standards++"}
+    - {t: monitor, why: "monitor standards แปลว่าเฝ้าดู ไม่ใช่รักษาไว้"}
+    - {t: progress, why: "progress เป็นคำนามในความหมายนี้"}
+    - {t: consistent, why: "consistent เป็นคุณศัพท์"}
+  explain: "maintain = ==รักษาไว้ คงระดับ=="
+  status: approved
+- id: cefr-b2-w02-017
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: The nurse will ____ your blood pressure every hour tonight.
+  choices:
+    - {t: monitor, why: "เฝ้าติดตามอย่างต่อเนื่อง ใช้ ++monitor++"}
+    - {t: maintain, why: "maintain แปลว่ารักษาระดับ ไม่ใช่วัดเป็นระยะ"}
+    - {t: punctual, why: "punctual เป็นคุณศัพท์"}
+    - {t: ongoing, why: "ongoing เป็นคุณศัพท์"}
+  explain: "monitor = ==เฝ้าติดตาม ตรวจเป็นระยะ=="
+  status: approved
+- id: cefr-b2-w02-018
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: Negotiations are ____, so we can't announce anything yet.
+  choices:
+    - {t: ongoing, why: "ยังดำเนินอยู่ ใช้ ++ongoing++"}
+    - {t: punctual, why: "punctual แปลว่าตรงเวลา"}
+    - {t: thorough, why: "thorough แปลว่าละเอียด ไม่ได้บอกว่ายังไม่จบ"}
+    - {t: efficient, why: "efficient ไม่ได้บอกว่ายังไม่จบ"}
+  explain: "ongoing = ==ยังดำเนินอยู่ ยังไม่จบ=="
+  status: approved
+- id: cefr-b2-w02-019
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: His work is excellent and ____; he never has a bad week.
+  choices:
+    - {t: consistent, why: "สม่ำเสมอ ใช้ ++consistent++"}
+    - {t: ongoing, why: "ongoing แปลว่ายังไม่จบ ไม่ได้บอกความสม่ำเสมอ"}
+    - {t: punctual, why: "punctual แปลว่าตรงเวลา ไม่ได้บอกคุณภาพงานสม่ำเสมอ"}
+    - {t: burnout, why: "burnout เป็นคำนาม"}
+  explain: "consistent = ==สม่ำเสมอ คงที่=="
+  status: approved
+- id: cefr-b2-w02-020
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: The inspector did a ____ check of every room, opening every cupboard.
+  choices:
+    - {t: thorough, why: "ละเอียดทั่วถึง ใช้ ++thorough++"}
+    - {t: punctual, why: "punctual แปลว่าตรงเวลา"}
+    - {t: ongoing, why: "ongoing แปลว่ายังไม่จบ"}
+    - {t: considerably, why: "considerably เป็นคำวิเศษณ์"}
+  explain: "thorough = ==ละเอียดถี่ถ้วน ทั่วถึง=="
+  status: approved
+- id: cefr-b2-w02-021
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: She's always ____; she has never been late for a meeting.
+  choices:
+    - {t: punctual, why: "ตรงเวลา ใช้ ++punctual++"}
+    - {t: thorough, why: "thorough ไม่ได้บอกเรื่องเวลา"}
+    - {t: consistent, why: "consistent ไม่ได้บอกเรื่องเวลาโดยตรง"}
+    - {t: ongoing, why: "ongoing ไม่ใช้บรรยายคน"}
+  explain: "punctual = ==ตรงต่อเวลา=="
+  status: approved
+- id: cefr-b2-w02-022
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: The new machine is more ____; it uses less energy to do the same job.
+  choices:
+    - {t: efficient, why: "ใช้ทรัพยากรน้อยแต่ได้งานเท่ากัน ใช้ ++efficient++"}
+    - {t: effective, why: "effective แปลว่าได้ผล ไม่ได้เน้นการประหยัดพลังงาน"}
+    - {t: punctual, why: "punctual ใช้กับคนและเวลา"}
+    - {t: thorough, why: "thorough แปลว่าละเอียด"}
+  explain: "efficient = ==คุ้มค่า ไม่สิ้นเปลือง== · effective = ได้ผล"
+  status: approved
+- id: cefr-b2-w02-023
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 3
+  stem: The medicine is very ____; most patients feel better within a day.
+  choices:
+    - {t: effective, why: "ได้ผลดี ใช้ ++effective++"}
+    - {t: efficient, why: "efficient เน้นการไม่สิ้นเปลือง ไม่ใช่ผลการรักษา"}
+    - {t: punctual, why: "punctual ไม่ใช้กับยา"}
+    - {t: consistent, why: "consistent ไม่ได้บอกว่ารักษาได้ผล"}
+  explain: "effective = ==ได้ผล บรรลุเป้าหมาย=="
+  status: approved
+- id: cefr-b2-w02-024
+  kind: type
+  skill: vo
+  topic: work-progress
+  level: 2
+  stem: "Prices have risen c___________ since last year, by almost 30%. (อย่างมาก คำวิเศษณ์)"
+  answer: considerably
+  accept: [considerably]
+  why: "considerably = อย่างมาก ใช้ขยายกริยาหรือขั้นกว่า"
+  status: approved
+# ---------- วันที่ 3 · a the หรือไม่ใส่ และ each every either neither ----------
+- id: cefr-b2-w02-025
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 1
+  stem: ____ honesty is the most important quality in a friend.
+  choices:
+    - {t: (no article), why: "คำนามนามธรรมพูดแบบทั่วไป ++ไม่ใส่ article++"}
+    - {t: The, why: "The honesty ใช้เมื่อเจาะจงความซื่อสัตย์ของใครบางคน"}
+    - {t: An, why: "honesty นับไม่ได้ ใช้ an ไม่ได้"}
+    - {t: A, why: "honesty นับไม่ได้ ใช้ a ไม่ได้"}
+  explain: "นามนามธรรมพูดทั่วไป ==ไม่ใส่ article== (Honesty is ...)"
+  status: approved
+- id: cefr-b2-w02-026
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 1
+  stem: ____ student in the class received a certificate.
+  choices:
+    - {t: Each, why: "แต่ละคนทีละคน + นามเอกพจน์ ใช้ ++Each++"}
+    - {t: All, why: "All ต้องตามด้วยนามพหูพจน์ All students"}
+    - {t: Both, why: "Both ใช้กับสองคน และตามด้วยพหูพจน์"}
+    - {t: Few, why: "Few ต้องตามด้วยนามพหูพจน์"}
+  explain: "==each / every + นามเอกพจน์== + กริยาเอกพจน์"
+  status: approved
+- id: cefr-b2-w02-027
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  stem: My mother is in ____ hospital, so I'm visiting her every evening.
+  choices:
+    - {t: (no article), why: "อยู่โรงพยาบาลในฐานะคนไข้ ++ไม่ใส่ article++ (be in hospital)"}
+    - {t: a, why: "in a hospital ไม่ใช่สำนวนแบบบริติชเมื่อเป็นคนไข้"}
+    - {t: an, why: "hospital ขึ้นต้นด้วยเสียง h ใช้ an ไม่ได้"}
+    - {t: some, why: "in some hospital ฟังเหมือนไม่รู้ว่าโรงพยาบาลไหน"}
+  explain: "สถาบันตามหน้าที่ ==in hospital · at school · in prison== (ไม่ใส่ the)"
+  status: approved
+- id: cefr-b2-w02-028
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  stem: "\"Tea or coffee?\" \"____ is fine. I don't mind.\""
+  choices:
+    - {t: Either, why: "อันไหนก็ได้จากสองอย่าง ใช้ ++Either++"}
+    - {t: Neither, why: "Neither แปลว่าไม่เอาทั้งสอง ขัดกับ is fine"}
+    - {t: Both, why: "Both is ผิด ต้องเป็น Both are และแปลว่าเอาทั้งสอง"}
+    - {t: Each, why: "Each ไม่ใช้ตอบแบบเลือกอันไหนก็ได้"}
+  explain: "สองอย่าง ==either = อันไหนก็ได้== · neither = ไม่ทั้งสอง"
+  status: approved
+- id: cefr-b2-w02-029
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  stem: ____ of the two applicants had enough experience, so we advertised again.
+  choices:
+    - {t: Neither, why: "ไม่มีใครเลยจากสองคน ใช้ ++Neither of++"}
+    - {t: Either, why: "Either แปลว่าคนไหนก็ได้ ขัดกับต้องประกาศใหม่"}
+    - {t: None, why: "None ใช้กับสามขึ้นไป แต่โจทย์มีสองคน"}
+    - {t: Both, why: "Both แปลว่าทั้งสองมีประสบการณ์ ขัดกับต้องประกาศใหม่"}
+  explain: "สองคน ==Neither of== · สามขึ้นไป None of"
+  status: approved
+- id: cefr-b2-w02-030
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  stem: ____ Mekong River flows through six countries.
+  choices:
+    - {t: The, why: "ชื่อแม่น้ำใช้ ++the++ เสมอ"}
+    - {t: (no article), why: "ชื่อแม่น้ำต้องมี the"}
+    - {t: A, why: "แม่น้ำโขงมีสายเดียว ใช้ a ไม่ได้"}
+    - {t: An, why: "Mekong ขึ้นต้นด้วยพยัญชนะ และต้องใช้ the"}
+  explain: "ชื่อแม่น้ำ ทะเล ทะเลทราย ==ใช้ the== · ชื่อทะเลสาบ ภูเขาเดี่ยว ไม่ใช้"
+  status: approved
+- id: cefr-b2-w02-031
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 3
+  stem: ____ of the five candidates was interviewed for thirty minutes.
+  choices:
+    - {t: Each, why: "ทีละคนจากกลุ่ม + of the ใช้ ++Each of++ (every ใช้กับ of ไม่ได้)"}
+    - {t: Every, why: "every ไม่ใช้กับ of ต้องเป็น every one of"}
+    - {t: Either, why: "either ใช้กับสองคน แต่มีห้าคน"}
+    - {t: All, why: "All of ... ต้องใช้กริยาพหูพจน์ were"}
+  explain: "==Each of + พหูพจน์ + กริยาเอกพจน์== · every ใช้กับ of ไม่ได้"
+  status: approved
+- id: cefr-b2-w02-032
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  stem: She plays ____ piano beautifully.
+  choices:
+    - {t: the, why: "เล่นเครื่องดนตรีใช้ ++the++"}
+    - {t: a, why: "plays a piano ไม่ใช่สำนวนการเล่นเครื่องดนตรี"}
+    - {t: (no article), why: "เครื่องดนตรีต้องมี the (กีฬาไม่ใส่)"}
+    - {t: some, why: "some piano ไม่มีความหมายนี้"}
+  explain: "เล่นดนตรี ==play the + เครื่องดนตรี== · เล่นกีฬา play + กีฬา"
+  status: approved
+- id: cefr-b2-w02-033
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 3
+  stem: Which sentence about the new handbook is correct?
+  choices:
+    - {t: "Every employee has received the new handbook.", why: "every + เอกพจน์ + has ++ถูกต้อง++"}
+    - {t: "Every employees have received the new handbook.", why: "every ต้องตามด้วยนามเอกพจน์"}
+    - {t: "Every of the employees has received the new handbook.", why: "every ใช้กับ of ไม่ได้"}
+    - {t: "Every employee have received the new handbook.", why: "every + เอกพจน์ ต้องใช้กริยาเอกพจน์ has"}
+  explain: "==every + นามเอกพจน์ + กริยาเอกพจน์=="
+  status: approved
+- id: cefr-b2-w02-034
+  kind: cloze
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  text: |
+    Progress update: we (1) ____ on the new website since January, and the design is almost finished. (2) ____ of the two developers is working on the payment page, while (3) ____ manager is preparing the launch plan.
+  questions:
+    - choices:
+        - {t: have been working, why: "ทำต่อเนื่องตั้งแต่มกราคมและยังไม่เสร็จ"}
+        - {t: have worked, why: "เน้นผลที่เสร็จแล้ว ขัดกับ almost finished"}
+        - {t: are working, why: "since ต้องใช้ perfect"}
+        - {t: worked, why: "since เชื่อมถึงปัจจุบัน ใช้อดีตธรรมดาไม่ได้"}
+    - choices:
+        - {t: One, why: "หนึ่งในสองคน One of the two"}
+        - {t: Every, why: "every ใช้กับ of ไม่ได้"}
+        - {t: Either, why: "Either is working ไม่ได้บอกว่าคนไหนกำลังทำ"}
+        - {t: Both, why: "Both ต้องใช้กริยาพหูพจน์ are"}
+    - choices:
+        - {t: the, why: "ผู้จัดการที่รู้กันว่าคนไหน ใช้ the"}
+        - {t: a, why: "a manager ฟังเหมือนผู้จัดการคนไหนก็ได้"}
+        - {t: (no article), why: "manager นับได้เอกพจน์ ต้องมี article"}
+        - {t: each, why: "each manager ไม่เข้ากับบริบทที่มีผู้จัดการคนเดียว"}
+  status: approved
+# ---------- วันที่ 4 · อ่านรายงานความคืบหน้าและฟังรายงานปากเปล่า ----------
+- id: cefr-b2-w02-035
+  kind: read
+  skill: rd
+  topic: progress-report
+  level: 2
+  title: "Monthly Progress Report · Community Health App"
+  passage: |
+    Over the past month, the team has been testing the new appointment app in three local clinics. So far, 1,200 patients have registered, considerably more than the 800 we had expected. Feedback has generally been positive, especially from older users, who say the large buttons make the app easy to use.
+
+    However, two issues need attention. First, the reminder messages have not been arriving consistently. Some patients received three reminders, while others received none. Our developers have been investigating the problem since last Tuesday and believe it is caused by a server setting. They expect to fix it by the end of next week.
+
+    Second, clinic staff report that their workload has increased. Because patients can now book online at any time, receptionists have been spending more time checking and confirming appointments. Neither clinic manager wants to stop the online system, but both have asked for a simpler way to view each day's bookings.
+
+    Next month, we will monitor the reminder system closely and design a daily summary screen for clinic staff. We remain on schedule to launch the app in all twelve clinics in March.
+  questions:
+    - stem: What is the main purpose of the report?
+      choices:
+        - {t: to update readers on results and problems so far, why: "รายงานผลการทดลอง ปัญหา และแผนเดือนหน้า"}
+        - {t: to advertise the app to patients, why: "เป็นรายงานภายใน ไม่ใช่โฆษณา"}
+        - {t: to cancel the project, why: "รายงานบอกว่ายังเป็นไปตามแผน"}
+        - {t: to complain about the developers, why: "ไม่ได้ตำหนินักพัฒนา"}
+    - stem: How did the number of registrations compare with expectations?
+      choices:
+        - {t: it was much higher, why: "1,200 ... considerably more than the 800 we had expected"}
+        - {t: it was slightly lower, why: "ตัวเลขจริงสูงกว่าที่คาด"}
+        - {t: it was exactly as expected, why: "ต่างกัน 400 คน จึงใช้ไม่ได้"}
+        - {t: it is not mentioned, why: "รายงานให้ตัวเลขชัดเจน"}
+    - stem: Why has the receptionists' workload increased?
+      choices:
+        - {t: they spend more time checking online bookings, why: "receptionists have been spending more time checking and confirming appointments"}
+        - {t: more staff have left the clinics, why: "ไม่มีข้อมูลเรื่องพนักงานลาออก"}
+        - {t: the app has stopped working, why: "แอปยังใช้งานได้ มีปัญหาเฉพาะข้อความเตือน"}
+        - {t: patients phone more often, why: "ไม่มีข้อมูลนี้ในรายงาน"}
+    - stem: What do the clinic managers want?
+      choices:
+        - {t: an easier way to see daily appointments, why: "asked for a simpler way to view each day's bookings"}
+        - {t: to stop online booking, why: "Neither clinic manager wants to stop the online system"}
+        - {t: more reminder messages, why: "ปัญหาคือข้อความเตือนไม่สม่ำเสมอ ไม่ได้ขอเพิ่ม"}
+        - {t: to delay the launch, why: "รายงานบอกว่ายังเปิดตัวตามแผน"}
+  status: approved
+- id: cefr-b2-w02-036
+  kind: listen
+  skill: li
+  topic: oral-report
+  level: 2
+  script:
+    - {who: Man, en: "Quick update on the training programme. We've trained forty staff so far, and we've been running two sessions a week since October. The feedback has been very positive."}
+  questions:
+    - stem: How many staff have been trained?
+      choices:
+        - {t: forty, why: "We've trained forty staff so far"}
+        - {t: two, why: "สองคือจำนวนครั้งต่อสัปดาห์"}
+        - {t: fourteen, why: "ไม่มีตัวเลขนี้ จึงใช้ไม่ได้"}
+        - {t: it isn't mentioned, why: "ผู้พูดบอกจำนวนชัดเจน"}
+  status: approved
+- id: cefr-b2-w02-037
+  kind: listen
+  skill: li
+  topic: oral-report
+  level: 2
+  script:
+    - {who: Woman, en: "What have you been working on this week?"}
+    - {who: Man, en: "I've been updating the customer database. I haven't finished yet, but I've already found over two hundred duplicate records."}
+  questions:
+    - stem: Which is true about the man's task?
+      choices:
+        - {t: it is not finished yet, why: "I haven't finished yet"}
+        - {t: it was finished on Monday, why: "เขาบอกว่ายังไม่เสร็จ"}
+        - {t: he has found no problems, why: "พบข้อมูลซ้ำกว่าสองร้อยรายการ"}
+        - {t: someone else is doing it, why: "เขาเป็นคนทำเอง จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w02-038
+  kind: listen
+  skill: li
+  topic: oral-report
+  level: 2
+  script:
+    - {who: Woman, en: "Both suppliers sent quotes, but neither of them can deliver before January. We may need to look for a third option."}
+  questions:
+    - stem: Why might they need a third supplier?
+      choices:
+        - {t: neither supplier can deliver in time, why: "neither of them can deliver before January"}
+        - {t: both quotes were too expensive, why: "ไม่ได้พูดเรื่องราคา"}
+        - {t: one supplier refused to send a quote, why: "ทั้งสองรายส่งใบเสนอราคามาแล้ว"}
+        - {t: they want more choice, why: "เหตุผลคือส่งของไม่ทันเวลา"}
+  status: approved
+- id: cefr-b2-w02-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [We have, been working, on this project, since March]
+  sentence: We have been working on this project since March.
+  th: เราทำโครงการนี้มาตั้งแต่เดือนมีนาคม
+  why: "have been + -ing แล้วตามด้วยงานและจุดเริ่มต้น since"
+  status: approved
+- id: cefr-b2-w02-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Neither of, the reports, was, finished on time]
+  sentence: Neither of the reports was finished on time.
+  th: ไม่มีรายงานฉบับไหนเลย (จากสองฉบับ) ที่เสร็จทันเวลา
+  why: "Neither of + พหูพจน์ + กริยาเอกพจน์ was"
+  status: approved
+- id: cefr-b2-w02-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I've already, completed, three of the five tasks, on the list]
+  sentence: I've already completed three of the five tasks on the list.
+  th: ทำงานในรายการเสร็จไปแล้วสามจากห้างาน
+  why: "have already + ช่อง 3 กับจำนวนที่ทำเสร็จ"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-b2-w02-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Since the last meeting, we have, made considerable progress, and each task, is now on schedule]
+  sentence: Since the last meeting, we have made considerable progress, and each task is now on schedule.
+  th: ตั้งแต่ประชุมครั้งที่แล้ว เรามีความคืบหน้ามาก และงานแต่ละอย่างเป็นไปตามกำหนด
+  why: "Since + เวลา แล้ว have made progress · each + เอกพจน์ + is"
+  status: approved

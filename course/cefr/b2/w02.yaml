@@ -1,0 +1,170 @@
+# คอร์ส b2 · สัปดาห์ 2 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 2
+phase: 1
+theme_th: งานที่ทำมาอย่างต่อเนื่อง
+focus_th: present perfect simple กับ continuous (ผลลัพธ์ หรือ ความต่อเนื่อง) · article กับนามทั่วไป นามเฉพาะ สถาบัน · each every either neither
+can_do_th:
+  - รายงานความคืบหน้าของงานได้ชัดเจน
+  - ใช้ article ได้ถูกในข้อความทางการ
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ผลลัพธ์ หรือ ความต่อเนื่อง
+    lesson:
+      rule_th: "อยากบอก ==ผลหรือจำนวนที่เสร็จ== ใช้ have + ช่อง 3 · อยากบอก ++กิจกรรมที่ทำมาต่อเนื่องหรือร่องรอย++ ใช้ have been + -ing"
+      examples:
+        - {en: "I <k>have answered</k> twenty emails.", th: "จำนวนที่เสร็จ"}
+        - {en: "I <k>have been reading</k> this book for weeks.", th: "ยังไม่จบ ทำต่อเนื่อง"}
+        - {en: "You look hot. <k>Have you been running</k>?", th: "==เห็นร่องรอย=="}
+        - {en: "I <k>have known</k> him for years.", th: "กริยาสภาวะไม่ใช้ -ing"}
+      signals:
+        - {label_th: "เลือกรูป", words: ["How many → simple", "How long → continuous", "so far / already → simple", "all day / for weeks → continuous"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ทำมา... แล้ว กับทั้งสองแบบ คนจึงใช้ ~~continuous กับจำนวน~~ และกับกริยาสภาวะ"
+        wrong: ["I've been writing three reports today.", "I've been knowing her since 2010."]
+        right: ["I've written three reports today.", "I've known her since 2010."]
+      notes:
+        - {kind: tip, th: "ถามตัวเองว่า ==เสร็จแล้วหรือยังทำอยู่== เสร็จใช้ simple ยังทำใช้ continuous"}
+        - {kind: warn, th: "live / work + for ใช้ได้ทั้งสองรูป ความหมายแทบไม่ต่าง"}
+    check: [cefr-b2-w02-001, cefr-b2-w02-002]
+    practice: [cefr-b2-w02-003, cefr-b2-w02-004, cefr-b2-w02-005, cefr-b2-w02-006, cefr-b2-w02-007, cefr-b2-w02-008, cefr-b2-w02-009, cefr-b2-w02-010, cefr-b2-w02-011, cefr-b2-w02-012]
+    use:
+      prompt_th: เขียน 2 ประโยครายงานงานของคุณสัปดาห์นี้ บอกสิ่งที่เสร็จแล้ว และสิ่งที่ยังทำต่อเนื่องอยู่
+      frame: "This week I have ____. I've also been ____, but I haven't finished yet."
+      model: "This week I have finished the budget report. I've also been training two new staff, but I haven't finished yet."
+    classroom: {en: "What have you been working on lately?", th: "ช่วงนี้ทำงานอะไรอยู่"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การทำงานต่อเนื่อง 12 คำ
+    lesson:
+      rule_th: "แยกคู่ที่คนไทยสับสนบ่อย ==efficient (ไม่สิ้นเปลือง)== กับ effective (ได้ผล) และ ++maintain (รักษาไว้)++ กับ monitor (เฝ้าดู)"
+      examples:
+        - {en: "We've made good <k>progress</k>.", th: "ความคืบหน้า นับไม่ได้"}
+        - {en: "My <k>workload</k> has doubled.", th: "ปริมาณงาน"}
+        - {en: "The machine is <k>efficient</k>; the medicine is <k>effective</k>.", th: "==ประหยัด กับ ได้ผล=="}
+        - {en: "Negotiations are <k>ongoing</k>.", th: "ยังดำเนินอยู่"}
+      words:
+        - {w: progress, pos: n., th: ความคืบหน้า, ex: "We are making steady progress."}
+        - {w: workload, pos: n., th: ปริมาณงาน, ex: "Teachers have a heavy workload in March."}
+        - {w: burnout, pos: n., th: ภาวะหมดไฟ, ex: "Long hours can lead to burnout."}
+        - {w: maintain, pos: v., th: รักษาไว้, ex: "We must maintain quality."}
+        - {w: monitor, pos: v., th: เฝ้าติดตาม, ex: "We monitor sales every week."}
+        - {w: ongoing, pos: adj., th: ยังดำเนินอยู่, ex: "The investigation is ongoing."}
+        - {w: consistent, pos: adj., th: สม่ำเสมอ, ex: "She gets consistent results."}
+        - {w: thorough, pos: adj., th: ละเอียดทั่วถึง, ex: "He did a thorough job."}
+        - {w: punctual, pos: adj., th: ตรงต่อเวลา, ex: "Please be punctual for the interview."}
+        - {w: efficient, pos: adj., th: มีประสิทธิภาพ ไม่สิ้นเปลือง, ex: "The new system is more efficient."}
+        - {w: effective, pos: adj., th: ได้ผล, ex: "Exercise is an effective way to reduce stress."}
+        - {w: considerably, pos: adv., th: อย่างมาก, ex: "Sales have increased considerably."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~a progress~~ หรือ ~~progresses~~ เพราะคิดว่าเป็นนามนับได้ และใช้ efficient กับยา"
+        wrong: ["We made a good progress.", "This medicine is very efficient."]
+        right: ["We made good progress.", "This medicine is very effective."]
+      notes:
+        - {kind: pin, th: "==progress นับไม่ได้== ไม่ใช้ a ไม่เติม s"}
+        - {kind: use, th: "รายงานหัวหน้า We're making good progress, and everything is on schedule."}
+    check: [cefr-b2-w02-013, cefr-b2-w02-014]
+    practice: [cefr-b2-w02-015, cefr-b2-w02-016, cefr-b2-w02-017, cefr-b2-w02-018, cefr-b2-w02-019, cefr-b2-w02-020, cefr-b2-w02-021, cefr-b2-w02-022, cefr-b2-w02-023, cefr-b2-w02-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำวิธีป้องกันภาวะหมดไฟในที่ทำงาน
+      frame: "To avoid burnout, it's important to ____. Managers should monitor ____."
+      model: "To avoid burnout, it's important to take short breaks and keep a realistic workload. Managers should monitor overtime and talk to staff regularly."
+    classroom: {en: "We're making good progress.", th: "งานคืบหน้าไปได้ดี"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: a the หรือไม่ใส่ และ each every either neither
+    lesson:
+      rule_th: "นามนามธรรมพูดทั่วไป ==ไม่ใส่ article== · ชื่อแม่น้ำ ทะเล เครื่องดนตรีใช้ the · ++in hospital / at school++ ตามหน้าที่ไม่ใส่ the · each/every + เอกพจน์ · either/neither ใช้กับสองอย่าง"
+      examples:
+        - {en: "<k>Honesty</k> is important.", th: "นามธรรมทั่วไป ไม่ใส่ article"}
+        - {en: "<k>The</k> Mekong flows through six countries.", th: "ชื่อแม่น้ำใช้ the"}
+        - {en: "My mother is <k>in hospital</k>.", th: "==เป็นคนไข้ ไม่ใส่ the=="}
+        - {en: "<k>Neither of</k> the two applicants was suitable.", th: "ไม่ทั้งสอง + กริยาเอกพจน์"}
+      signals:
+        - {label_th: "จำนวนที่ใช้", words: ["either/neither/both → สองอย่าง", "each/every/all/none → สามขึ้นไปได้", "every + of ไม่ได้"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มี article คนจึงใส่ ~~the กับนามทั่วไป~~ หรือลืม the กับชื่อแม่น้ำ และใช้ every of"
+        wrong: ["The honesty is important.", "Every of the students passed.", "Mekong is very long."]
+        right: ["Honesty is important.", "Each of the students passed.", "The Mekong is very long."]
+      notes:
+        - {kind: tip, th: "นามนับได้เอกพจน์ ==ห้ามยืนเดี่ยว== ต้องมี a / the / my / this นำหน้า"}
+        - {kind: warn, th: "Neither of + พหูพจน์ ในภาษาทางการใช้กริยาเอกพจน์"}
+    check: [cefr-b2-w02-025, cefr-b2-w02-026]
+    practice: [cefr-b2-w02-027, cefr-b2-w02-028, cefr-b2-w02-029, cefr-b2-w02-030, cefr-b2-w02-031, cefr-b2-w02-032, cefr-b2-w02-033, cefr-b2-w02-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับสองตัวเลือกที่คุณเคยพิจารณา ใช้ either หรือ neither และ article ให้ถูก
+      frame: "I looked at two ____. Neither of them ____, so ____."
+      model: "I looked at two apartments near the river. Neither of them had a parking space, so I kept looking."
+    classroom: {en: "Either day is fine with me.", th: "วันไหนก็ได้ทั้งนั้น"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านรายงานความคืบหน้าและฟังรายงานปากเปล่า
+    lesson:
+      rule_th: "รายงานความคืบหน้ามีสี่ส่วน ==ผลที่ได้== · ปัญหา · สิ่งที่กำลังทำ · แผนต่อไป ปัญหามักนำด้วย ++However++ และคำถามมักถามตัวเลขเทียบกับที่คาด"
+      examples:
+        - {en: "<k>So far</k>, 1,200 patients have registered.", th: "ผลที่ได้"}
+        - {en: "<k>However</k>, two issues need attention.", th: "==เปลี่ยนไปพูดถึงปัญหา=="}
+        - {en: "<k>Next month</k>, we will monitor ...", th: "แผนต่อไป"}
+      thai_trap:
+        intro_th: "ตัวเลขในรายงานมีหลายตัว คนมัก ~~ตอบตัวเลขที่คาดไว้~~ แทนตัวเลขจริง"
+        wrong: ["ตอบว่ามีผู้ลงทะเบียน 800 คน"]
+        right: ["มีผู้ลงทะเบียนจริง 1,200 คน ส่วน 800 เป็นตัวเลขที่คาดไว้"]
+      notes:
+        - {kind: tip, th: "วงตัวเลขแล้วเขียนกำกับ ==จริงหรือคาด== ทุกตัว"}
+        - {kind: warn, th: "Neither ... wants to stop แปลว่าไม่มีใครอยากหยุด อย่าอ่านกลับด้าน"}
+    check: [cefr-b2-w02-036, cefr-b2-w02-037]
+    practice: [cefr-b2-w02-035, cefr-b2-w02-038, cefr-b2-w02-039, cefr-b2-w02-040, cefr-b2-w02-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปปัญหาหลักในรายงานและสิ่งที่ทีมจะทำ
+      frame: "The main issue is that ____. To solve it, the team will ____."
+      model: "The main issue is that reminder messages have not been arriving consistently. To solve it, the team will monitor the system closely next month."
+    classroom: {en: "So far, everything is going to plan.", th: "จนถึงตอนนี้ ทุกอย่างเป็นไปตามแผน"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน รายงานความคืบหน้าสั้นถึงหัวหน้าทีม 120 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนอีเมลรายงานความคืบหน้าประมาณ 120 คำถึงหัวหน้าทีม เรื่องงานหรือโครงการหนึ่งที่คุณทำอยู่ (งานจริง งานบ้าน งานอาสา หรือการเรียน) บอกสิ่งที่ทำเสร็จแล้ว สิ่งที่กำลังทำ ปัญหา 1 ข้อ และแผนสัปดาห์หน้า
+      frame:
+        - "Dear ____, here is a quick update on ____."
+        - "So far, we have ____."
+        - "We have been ____ since ____."
+        - "However, ____."
+        - "Next week, we will ____. Please let me know if ____."
+      model_pass: "Dear Khun Somsak, here is a quick update on the office move. So far, we have packed all the files and booked the moving company. We have been checking the new building since Monday, and the internet is now working. However, the furniture delivery has been delayed by three days. Next week, we will set up the computers and test the phones. Please let me know if you would like to visit the new office before we move. Best regards, Nok"
+      model_good: "Dear Khun Somsak, here is a brief update on the office relocation. So far, we have packed and labelled all the files, and the moving company has been booked for the 15th. We have been running checks in the new building since Monday; the internet connection is now stable, although the meeting room projector still needs replacing. However, the furniture supplier has informed us that delivery will be delayed by three days, which may affect our first week. Neither option they offered is ideal, so I have asked for a partial delivery. Next week, we will install the computers and test every phone line. Please let me know if you would like to inspect the new office before the move. Best regards, Nok"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกงานจริงของคุณ แล้วจดสิ่งที่เสร็จ กำลังทำ ปัญหา และแผน
+        - เติมโครง 5 ส่วน แล้วเขียนให้ได้ประมาณ 100–140 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนเฉพาะ article (a/the/ไม่ใส่) ทุกจุด
+      checklist_th:
+        - ใช้ present perfect simple กับสิ่งที่เสร็จ และ continuous กับสิ่งที่ทำต่อเนื่อง
+        - มีปัญหา 1 ข้อพร้อมสิ่งที่ทำเพื่อแก้
+        - ใช้ article ถูกทุกจุด (โดยเฉพาะนามนับได้เอกพจน์)
+        - ขึ้นต้นและลงท้ายแบบอีเมลถึงหัวหน้า และยาวประมาณ 120 คำ
+    practice: [cefr-b2-w02-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 2
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [1, 2], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
