@@ -1,0 +1,579 @@
+# คอร์ส b2 · สัปดาห์ 5 · ถ้าย้อนกลับไปได้ · third conditional · mixed conditionals · provided that / as long as / unless / otherwise
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26)
+# ---------- วันที่ 1 · ถ้าตอนนั้น... ----------
+- id: cefr-b2-w05-001
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 1
+  stem: If I had left home earlier, I ____ the train.
+  choices:
+    - {t: would have caught, why: "สมมติย้อนอดีต ผลใช้ ++would have + ช่อง 3++"}
+    - {t: would catch, why: "would catch ใช้กับสมมติปัจจุบัน ไม่ใช่อดีต"}
+    - {t: will have caught, why: "will ไม่ใช้ในประโยคสมมติย้อนอดีต"}
+    - {t: had caught, why: "ส่วนผลต้องมี would have"}
+  explain: "==If + had + ช่อง 3, would have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w05-002
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 1
+  stem: If she ____ harder, she would have passed the exam.
+  choices:
+    - {t: had studied, why: "ส่วน if ของสมมติย้อนอดีต ใช้ ++had + ช่อง 3++"}
+    - {t: would have studied, why: "ไม่ใช้ would ในส่วน if"}
+    - {t: studied, why: "studied ใช้กับสมมติปัจจุบัน"}
+    - {t: has studied, why: "present perfect ไม่ใช่รูปสมมติ"}
+  explain: "ส่วน if ==had + ช่อง 3== ห้ามใส่ would"
+  status: approved
+- id: cefr-b2-w05-003
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: We ____ lost if we hadn't had a map.
+  choices:
+    - {t: would have got, why: "ผลสมมติในอดีต ใช้ ++would have got++"}
+    - {t: would get, why: "would get เป็นสมมติปัจจุบัน"}
+    - {t: had got, why: "ส่วนผลต้องมี would have"}
+    - {t: will get, why: "will ไม่ใช้ในประโยคสมมติ"}
+  explain: "ผลสมมติในอดีต ==would have + ช่อง 3== สลับเอา if ไว้หลังได้"
+  status: approved
+- id: cefr-b2-w05-004
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: "\"If you had told me, I would have helped you.\" What really happened?"
+  choices:
+    - {t: you didn't tell me and I didn't help, why: "สมมติย้อนอดีต = ++ความจริงตรงกันข้าม++"}
+    - {t: you told me and I helped, why: "third conditional พูดถึงสิ่งที่ไม่ได้เกิด"}
+    - {t: you will tell me tomorrow, why: "ประโยคพูดถึงอดีต"}
+    - {t: I helped but you didn't tell me, why: "ผลก็ไม่ได้เกิดเช่นกัน"}
+  explain: "third conditional = ==ทั้งเหตุและผลไม่ได้เกิดจริง=="
+  status: approved
+- id: cefr-b2-w05-005
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: If the bus hadn't been late, I ____ the start of the interview.
+  choices:
+    - {t: wouldn't have missed, why: "ผลสมมติเชิงปฏิเสธในอดีต ++wouldn't have + ช่อง 3++"}
+    - {t: didn't miss, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+    - {t: hadn't missed, why: "ส่วนผลต้องมี would"}
+    - {t: won't miss, why: "will ไม่ใช้ในสมมติย้อนอดีต"}
+  explain: "ปฏิเสธ ==wouldn't have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w05-006
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: If I had known about the traffic, I ____ taken a taxi. (บอกว่าเป็นไปได้ ไม่แน่นอน)
+  choices:
+    - {t: might have, why: "ผลที่อาจเกิด ใช้ ++might have + ช่อง 3++"}
+    - {t: would, why: "would taken ขาด have"}
+    - {t: will have, why: "will ไม่ใช้ในสมมติย้อนอดีต"}
+    - {t: had, why: "ส่วนผลต้องมี modal"}
+  explain: "ผลไม่แน่นอน ==might / could have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w05-007
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: What ____ if you hadn't found a job in Bangkok?
+  choices:
+    - {t: would you have done, why: "ถามผลสมมติในอดีต ใช้ ++would you have done++"}
+    - {t: would you do, why: "would you do เป็นสมมติปัจจุบัน"}
+    - {t: did you do, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+    - {t: had you done, why: "ส่วนผลต้องมี would"}
+  explain: "คำถาม ==What would you have done if ...?=="
+  status: approved
+- id: cefr-b2-w05-008
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 3
+  stem: ____ the problem earlier, we could have fixed it cheaply.
+  choices:
+    - {t: Had we noticed, why: "ละ if แล้วกลับ had ไว้หน้า ++Had we noticed++ (ภาษาทางการ)"}
+    - {t: We had noticed, why: "ไม่มี if และไม่ได้กลับลำดับ ประโยคจึงไม่เชื่อม"}
+    - {t: If we noticed, why: "noticed เป็นสมมติปัจจุบัน ไม่เข้ากับ could have fixed"}
+    - {t: Would we notice, why: "ไม่ใช่รูปเงื่อนไข"}
+  explain: "ทางการ ==Had + ประธาน + ช่อง 3== = If + ประธาน + had"
+  status: approved
+- id: cefr-b2-w05-009
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: Which sentence about eating outside is correct?
+  choices:
+    - {t: "If it hadn't rained, we would have eaten outside.", why: "had + ช่อง 3 กับ would have + ช่อง 3 ++ถูกต้อง++"}
+    - {t: "If it wouldn't have rained, we would have eaten outside.", why: "ไม่ใช้ would ในส่วน if"}
+    - {t: "If it hadn't rained, we would eat outside yesterday.", why: "yesterday ต้องใช้ would have eaten"}
+    - {t: "If it didn't rain, we would have eaten outside.", why: "ส่วน if ต้องเป็น hadn't rained"}
+  explain: "จับคู่ให้ครบ ==had + ช่อง 3 ↔ would have + ช่อง 3=="
+  status: approved
+- id: cefr-b2-w05-010
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 3
+  stem: "In speech, \"If I'd known\" usually means ____."
+  choices:
+    - {t: If I had known, why: "ในส่วน if ++'d = had++"}
+    - {t: If I would known, why: "would known ผิดรูป"}
+    - {t: If I did know, why: "'d ไม่ใช่ did จึงใช้ไม่ได้"}
+    - {t: If I could know, why: "'d ไม่ใช่ could"}
+  explain: "'d ในส่วน if = ==had== · ในส่วนผล 'd = would"
+  status: approved
+- id: cefr-b2-w05-011
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: If they ____ the instructions, the machine wouldn't have broken.
+  choices:
+    - {t: had followed, why: "ส่วน if ใช้ ++had followed++"}
+    - {t: followed, why: "followed เป็นสมมติปัจจุบัน"}
+    - {t: would have followed, why: "ไม่ใช้ would ในส่วน if"}
+    - {t: have followed, why: "present perfect ไม่ใช่รูปสมมติ"}
+  explain: "==If + had + ช่อง 3== ทุกครั้งในสมมติย้อนอดีต"
+  status: approved
+- id: cefr-b2-w05-012
+  kind: type
+  skill: gm
+  topic: third-conditional
+  level: 2
+  stem: "If I had saved more money, I would have b_____ a car. (ซื้อ)"
+  answer: bought
+  accept: [bought]
+  why: "would have + ช่อง 3 ของ buy คือ bought"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การตัดสินใจ ----------
+- id: cefr-b2-w05-013
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 1
+  stem: I ____ not learning to swim when I was young. Now I'm afraid of water.
+  choices:
+    - {t: regret, why: "เสียใจที่ไม่ได้ทำ ใช้ ++regret + -ing++"}
+    - {t: neglect, why: "neglect แปลว่าละเลย ไม่ได้บอกความเสียใจ"}
+    - {t: justify, why: "justify แปลว่าให้เหตุผลสนับสนุน"}
+    - {t: decline, why: "decline แปลว่าปฏิเสธหรือลดลง"}
+  explain: "regret + -ing = ==เสียใจที่ (ได้/ไม่ได้) ทำ=="
+  status: approved
+- id: cefr-b2-w05-014
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 1
+  stem: Many parents ____ their free time to look after their children.
+  choices:
+    - {t: sacrifice, why: "ยอมเสียสละ ใช้ ++sacrifice++"}
+    - {t: abandon, why: "abandon แปลว่าทิ้ง ไม่ได้มีความหมายเสียสละเพื่อคนอื่น"}
+    - {t: convince, why: "convince แปลว่าโน้มน้าว"}
+    - {t: compromise, why: "compromise their free time ไม่ได้แปลว่ายอมเสียสละ"}
+  explain: "sacrifice = ==เสียสละ ยอมเสียสิ่งหนึ่งเพื่ออีกสิ่ง=="
+  status: approved
+- id: cefr-b2-w05-015
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: She wanted the beach, he wanted the mountains, so they reached a ____ and went to a lake.
+  choices:
+    - {t: compromise, why: "ต่างฝ่ายยอมคนละครึ่ง ใช้ ++compromise++"}
+    - {t: dilemma, why: "dilemma คือภาวะเลือกยาก ไม่ใช่ข้อตกลง"}
+    - {t: sacrifice, why: "reach a sacrifice ไม่ใช่สำนวน"}
+    - {t: regret, why: "reach a regret ไม่ใช่สำนวน"}
+  explain: "reach a compromise = ==ตกลงกันได้แบบต่างฝ่ายยอมบางส่วน=="
+  status: approved
+- id: cefr-b2-w05-016
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: "I'm in a real ____: if I take the job, I'll earn more, but I'll hardly see my family."
+  choices:
+    - {t: dilemma, why: "เลือกยากเพราะทั้งสองทางมีข้อเสีย ใช้ ++dilemma++"}
+    - {t: compromise, why: "compromise คือข้อตกลง ไม่ใช่ภาวะเลือกยาก"}
+    - {t: sacrifice, why: "in a sacrifice ไม่ใช่สำนวน"}
+    - {t: decline, why: "in a decline แปลว่ากำลังลดลง"}
+  explain: "dilemma = ==ภาวะเลือกยาก ทั้งสองทางมีข้อเสีย=="
+  status: approved
+- id: cefr-b2-w05-017
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: The garden was ____ for years, so it was full of weeds.
+  choices:
+    - {t: neglected, why: "ถูกละเลยไม่ดูแล ใช้ ++neglected++"}
+    - {t: sacrificed, why: "sacrificed ไม่ใช้กับการไม่ดูแลสวน"}
+    - {t: justified, why: "justified แปลว่ามีเหตุผลสมควร"}
+    - {t: convinced, why: "convinced ใช้กับคน"}
+  explain: "neglect = ==ละเลย ไม่ดูแล=="
+  status: approved
+- id: cefr-b2-w05-018
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: With so much rain, some flooding was ____; nobody could have stopped it.
+  choices:
+    - {t: inevitable, why: "หลีกเลี่ยงไม่ได้ ใช้ ++inevitable++"}
+    - {t: reasonable, why: "reasonable แปลว่ามีเหตุผล ไม่ได้แปลว่าหลีกเลี่ยงไม่ได้"}
+    - {t: obvious, why: "obvious แปลว่าชัดเจน ไม่ได้บอกว่าห้ามไม่ได้"}
+    - {t: neglected, why: "neglected ไม่เข้ากับ flooding"}
+  explain: "inevitable = ==หลีกเลี่ยงไม่ได้ ต้องเกิดแน่=="
+  status: approved
+- id: cefr-b2-w05-019
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: It's ____ that she's tired; she's been yawning all morning.
+  choices:
+    - {t: obvious, why: "เห็นได้ชัด ใช้ ++obvious++"}
+    - {t: inevitable, why: "inevitable แปลว่าหลีกเลี่ยงไม่ได้ ไม่เข้ากับหลักฐานที่เห็น"}
+    - {t: reasonable, why: "reasonable that ไม่เข้ากับการเห็นอาการ"}
+    - {t: justified, why: "justified ไม่ใช้บอกสิ่งที่เห็นได้ชัด"}
+  explain: "obvious = ==ชัดเจน ใครก็เห็น=="
+  status: approved
+- id: cefr-b2-w05-020
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: 500 baht for a two-hour lesson seems ____ to me. It's not too expensive.
+  choices:
+    - {t: reasonable, why: "สมเหตุสมผล ไม่แพงเกิน ใช้ ++reasonable++"}
+    - {t: inevitable, why: "inevitable ไม่ใช้กับราคา"}
+    - {t: obvious, why: "obvious ไม่ได้บอกว่าราคาพอดี"}
+    - {t: neglected, why: "neglected ไม่ใช้กับราคา"}
+  explain: "reasonable = ==สมเหตุสมผล (ราคา) ไม่แพงเกิน=="
+  status: approved
+- id: cefr-b2-w05-021
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: How can you ____ spending so much on a phone? It's half your salary!
+  choices:
+    - {t: justify, why: "ให้เหตุผลว่าสมควร ใช้ ++justify++"}
+    - {t: convince, why: "convince spending ไม่ใช่รูปที่ถูก ต้อง convince someone"}
+    - {t: regret, why: "regret spending แปลว่าเสียใจ ไม่ใช่ถามเหตุผล"}
+    - {t: sacrifice, why: "sacrifice spending ไม่มีความหมาย"}
+  explain: "justify = ==ให้เหตุผลว่าทำถูกหรือสมควร=="
+  status: approved
+- id: cefr-b2-w05-022
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: I finally ____ my father to see a doctor about his back.
+  choices:
+    - {t: convinced, why: "โน้มน้าวให้ทำ ใช้ ++convince someone to++"}
+    - {t: justified, why: "justify ไม่ตามด้วยคน + to"}
+    - {t: declined, why: "declined แปลว่าปฏิเสธ ขัดกับบริบท"}
+    - {t: neglected, why: "neglected ขัดกับความหมาย"}
+  explain: "==convince + คน + to + กริยา== = โน้มน้าวให้ทำ"
+  status: approved
+- id: cefr-b2-w05-023
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 3
+  stem: They offered him the job, but he ____ because the salary was too low.
+  choices:
+    - {t: declined, why: "ปฏิเสธอย่างสุภาพ ใช้ ++decline++"}
+    - {t: abandoned, why: "abandon ใช้กับสิ่งที่เริ่มแล้ว ไม่ใช่ข้อเสนอ"}
+    - {t: neglected, why: "neglected ไม่ใช้กับการปฏิเสธข้อเสนอ"}
+    - {t: regretted, why: "regretted ไม่ได้บอกการปฏิเสธ"}
+  explain: "decline = ==ปฏิเสธอย่างสุภาพ== หรือ ลดลง (Sales declined)"
+  status: approved
+- id: cefr-b2-w05-024
+  kind: type
+  skill: vo
+  topic: decisions
+  level: 2
+  stem: "The climbers had to a______ their attempt because of the storm. (ล้มเลิกกลางทาง)"
+  answer: abandon
+  accept: [abandon]
+  why: "abandon = ล้มเลิก ทิ้งสิ่งที่ทำอยู่กลางทาง"
+  status: approved
+# ---------- วันที่ 3 · เงื่อนไขผสม และคำแทน if ----------
+- id: cefr-b2-w05-025
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 1
+  stem: You can borrow my car ____ you drive carefully.
+  choices:
+    - {t: as long as, why: "มีเงื่อนไขว่าต้อง ใช้ ++as long as++"}
+    - {t: unless, why: "unless = ถ้าไม่ ทำให้ความหมายกลับ"}
+    - {t: otherwise, why: "otherwise ไม่ใช้เชื่อมเงื่อนไขแบบนี้"}
+    - {t: in case, why: "in case = เผื่อว่า ความหมายต่างกัน"}
+  explain: "==as long as== / provided that = ตราบใดที่ ถ้า (เงื่อนไขจำเป็น)"
+  status: approved
+- id: cefr-b2-w05-026
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 1
+  stem: You won't get a seat ____ you book in advance.
+  choices:
+    - {t: unless, why: "ถ้าไม่จองล่วงหน้า ใช้ ++unless = if not++"}
+    - {t: provided, why: "provided ทำให้ความหมายกลับเป็นจองแล้วไม่ได้ที่"}
+    - {t: as long as, why: "ทำให้ความหมายกลับ"}
+    - {t: if, why: "if you book ... won't get ขัดกับเหตุผล"}
+  explain: "==unless = if ... not== (หลัง unless ไม่ใส่ not ซ้ำ)"
+  status: approved
+- id: cefr-b2-w05-027
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  stem: If I had taken that job in Singapore, I ____ there now.
+  choices:
+    - {t: would be living, why: "อดีตส่งผลถึงปัจจุบัน ใช้ ++would be + -ing / would + กริยา++"}
+    - {t: would have lived, why: "would have lived ส่งผลในอดีต ไม่เข้ากับ now"}
+    - {t: will live, why: "will ไม่ใช้ในประโยคสมมติ"}
+    - {t: had lived, why: "ส่วนผลต้องมี would"}
+  explain: "เงื่อนไขผสม ==If + had + ช่อง 3, would + กริยา + now=="
+  status: approved
+- id: cefr-b2-w05-028
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  stem: If I ____ afraid of flying, I would have visited you in London last year.
+  choices:
+    - {t: weren't, why: "นิสัยปัจจุบัน (กลัวเครื่องบิน) ส่งผลถึงอดีต ใช้ ++weren't++"}
+    - {t: hadn't been, why: "hadn't been บอกว่าเคยกลัวแค่ในอดีต แต่เขายังกลัวอยู่"}
+    - {t: am not, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+    - {t: wouldn't be, why: "ไม่ใช้ would ในส่วน if"}
+  explain: "ผสมอีกแบบ ==If + อดีต (ความจริงตอนนี้)==, would have + ช่อง 3"
+  status: approved
+- id: cefr-b2-w05-029
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  stem: Write down the address; ____ you'll forget it.
+  choices:
+    - {t: otherwise, why: "มิฉะนั้น ใช้ ++otherwise++"}
+    - {t: unless, why: "unless ต้องตามด้วยประโยคเงื่อนไข ไม่ใช้แบบนี้"}
+    - {t: as long as, why: "ความหมายไม่เข้ากับคำเตือน"}
+    - {t: provided, why: "บทไม่ได้พูดว่า provided"}
+  explain: "==คำสั่ง/คำแนะนำ; otherwise + ผลเสีย== = มิฉะนั้น"
+  status: approved
+- id: cefr-b2-w05-030
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 3
+  stem: The company will pay for the course, ____ that you stay for at least two years.
+  choices:
+    - {t: provided, why: "เงื่อนไขทางการ ใช้ ++provided that++"}
+    - {t: unless, why: "unless that ไม่ใช่รูปที่ถูก"}
+    - {t: otherwise, why: "otherwise that ไม่ใช่รูปที่ถูก"}
+    - {t: even, why: "even that ไม่ใช่คำเชื่อมเงื่อนไข"}
+  explain: "==provided (that)== ทางการกว่า as long as"
+  status: approved
+- id: cefr-b2-w05-031
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 3
+  stem: "\"If she had listened to her doctor, she wouldn't be in hospital now.\" Which is true?"
+  choices:
+    - {t: she didn't listen and she is in hospital now, why: "เงื่อนไขผสม ++อดีตไม่ได้ทำ → ผลตอนนี้++"}
+    - {t: she listened and she is at home now, why: "ความจริงตรงกันข้ามกับประโยคสมมติ"}
+    - {t: she will go to hospital tomorrow, why: "ผลคืออยู่โรงพยาบาลตอนนี้"}
+    - {t: she was in hospital last year, why: "ประโยคพูดถึงตอนนี้"}
+  explain: "เงื่อนไขผสม = ==ความจริงตรงข้ามทั้งสองส่วน=="
+  status: approved
+- id: cefr-b2-w05-032
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  stem: Which sentence about missing the bus is correct?
+  choices:
+    - {t: "Unless you hurry, you'll miss the bus.", why: "unless + ปัจจุบัน และไม่มี not ซ้ำ ++ถูกต้อง++"}
+    - {t: "Unless you don't hurry, you'll miss the bus.", why: "unless มีความหมายปฏิเสธอยู่แล้ว ใส่ don't ซ้ำไม่ได้"}
+    - {t: "Unless you will hurry, you'll miss the bus.", why: "หลัง unless ไม่ใช้ will"}
+    - {t: "Unless you hurry, you miss the bus tomorrow.", why: "ส่วนผลในอนาคตต้องใช้ will"}
+  explain: "หลัง unless ==ไม่ใช้ not และไม่ใช้ will=="
+  status: approved
+- id: cefr-b2-w05-033
+  kind: type
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  stem: "You can stay out late a_ long as you call me. (ตราบใดที่)"
+  answer: as
+  accept: [as]
+  why: "as long as = ตราบใดที่"
+  status: approved
+- id: cefr-b2-w05-034
+  kind: cloze
+  skill: gm
+  topic: third-conditional
+  level: 2
+  text: |
+    Looking back, I made one big mistake. If I (1) ____ the contract carefully, I would have seen the extra fees. If I had seen them, I (2) ____ so much money now. My advice? Never sign anything (3) ____ you've read every page.
+  questions:
+    - choices:
+        - {t: had read, why: "ส่วน if ของสมมติย้อนอดีต"}
+        - {t: read, why: "สมมติปัจจุบัน ไม่เข้ากับ would have seen"}
+        - {t: would have read, why: "ไม่ใช้ would ในส่วน if"}
+        - {t: have read, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+    - choices:
+        - {t: wouldn't owe, why: "เงื่อนไขผสม ผลอยู่ที่ตอนนี้ now"}
+        - {t: wouldn't have owed, why: "ผลอยู่ในอดีต ไม่เข้ากับ now"}
+        - {t: didn't owe, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+        - {t: won't owe, why: "will ไม่ใช้ในสมมติ"}
+    - choices:
+        - {t: unless, why: "ถ้ายังไม่ได้อ่าน = if you haven't read"}
+        - {t: provided, why: "ทำให้ความหมายกลับ"}
+        - {t: otherwise, why: "otherwise ไม่ใช้วางกลางแบบนี้"}
+        - {t: as long as, why: "บทไม่ได้พูดว่า as long as"}
+  status: approved
+# ---------- วันที่ 4 · อ่านบทความสะท้อนบทเรียนและฟังการอภิปราย ----------
+- id: cefr-b2-w05-035
+  kind: read
+  skill: rd
+  topic: reflection-article
+  level: 2
+  title: "What Our Failed Food Truck Taught Us"
+  passage: |
+    Two years ago, my sister and I abandoned our office jobs to open a food truck selling northern Thai noodles. Eight months later, we sold the truck at a loss. People often ask whether we regret it. The honest answer is no, but we would do many things differently.
+
+    Our biggest mistake was location. We parked near a university because rent was cheap, but students had little money and the area was empty during holidays. If we had spent a week counting customers at different spots, we would have chosen the business district, where office workers pay more for a good lunch.
+
+    Second, we neglected our costs. We were so focused on the food that we didn't track how much we were spending on gas, parking and ingredients. By the time we noticed, we had already lost most of our savings. Had we checked our accounts every week, we could have raised our prices earlier.
+
+    Finally, we faced a constant dilemma about our menu. My sister wanted to keep it small, while I wanted to offer more choice. We never reached a real compromise, so the menu kept changing and customers were confused.
+
+    Was failure inevitable? I don't think so. If we had planned more carefully, we might still be running the truck today. But the experience convinced us that we can work together under pressure, and next year we are opening a small restaurant, provided that we can find the right location.
+  questions:
+    - stem: Why was the university area a poor choice?
+      choices:
+        - {t: customers had little money and it was quiet in holidays, why: "students had little money and the area was empty during holidays"}
+        - {t: the rent was too expensive, why: "ค่าเช่าถูก จึงเลือกที่นั่น"}
+        - {t: the police would not allow parking, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: students did not like noodles, why: "บทไม่ได้พูดว่า students did not like noodles"}
+    - stem: What does the writer say about costs?
+      choices:
+        - {t: they did not check them often enough, why: "we neglected our costs ... didn't track"}
+        - {t: they were lower than expected, why: "ใช้เงินเก็บไปเกือบหมด"}
+        - {t: they raised prices every week, why: "บอกว่าถ้าตรวจทุกสัปดาห์ จะขึ้นราคาได้เร็วกว่านี้"}
+        - {t: the gas price was the only problem, why: "มีหลายรายการ ไม่ใช่แค่ค่าแก๊ส"}
+    - stem: "\"We never reached a real compromise\" means the sisters ____."
+      choices:
+        - {t: never agreed on the menu, why: "ไม่เคยตกลงกันได้ เมนูจึงเปลี่ยนตลอด"}
+        - {t: always agreed, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: closed the menu completely, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: let customers decide, why: "บทไม่ได้พูดว่า let customers decide"}
+    - stem: What is the writer's attitude now?
+      choices:
+        - {t: positive and ready to try again, why: "no regret และจะเปิดร้านปีหน้า"}
+        - {t: angry with her sister, why: "บอกว่าทำงานด้วยกันได้ภายใต้แรงกดดัน"}
+        - {t: certain that failure was inevitable, why: "Was failure inevitable? I don't think so."}
+        - {t: afraid of starting another business, why: "จะเปิดร้านอาหารปีหน้า"}
+  status: approved
+- id: cefr-b2-w05-036
+  kind: listen
+  skill: li
+  topic: reflection-discussion
+  level: 2
+  script:
+    - {who: Man, en: "If we'd tested the website on phones before the launch, we wouldn't have lost so many customers in the first week."}
+  questions:
+    - stem: What does the man think went wrong?
+      choices:
+        - {t: the website wasn't tested on phones, why: "If we'd tested ... = ความจริงคือไม่ได้ทดสอบ"}
+        - {t: the website was tested too much, why: "ความจริงคือไม่ได้ทดสอบบนโทรศัพท์"}
+        - {t: the launch was a great success, why: "เสียลูกค้าไปมาก"}
+        - {t: they had too few phones, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w05-037
+  kind: listen
+  skill: li
+  topic: reflection-discussion
+  level: 2
+  script:
+    - {who: Woman, en: "Should we accept their offer?"}
+    - {who: Man, en: "I'd say yes, provided that they deliver by March. Otherwise, it's not worth it."}
+  questions:
+    - stem: When will the man accept the offer?
+      choices:
+        - {t: only if delivery is by March, why: "provided that they deliver by March"}
+        - {t: in any case, why: "มีเงื่อนไขชัดเจน"}
+        - {t: never, why: "เขาตอบว่า yes แบบมีเงื่อนไข"}
+        - {t: only if the price is lower, why: "ไม่ได้พูดเรื่องราคา"}
+  status: approved
+- id: cefr-b2-w05-038
+  kind: listen
+  skill: li
+  topic: reflection-discussion
+  level: 2
+  script:
+    - {who: Woman, en: "Honestly, I don't regret leaving my old job. If I hadn't left, I wouldn't be doing something I love now."}
+  questions:
+    - stem: How does the woman feel about her decision?
+      choices:
+        - {t: happy with it, why: "I don't regret ... doing something I love now"}
+        - {t: sorry about it, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: unsure, why: "พูดชัดว่าไม่เสียใจ"}
+        - {t: she has not decided yet, why: "ลาออกไปแล้ว จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-b2-w05-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [If I had known, about the party, I would have, come]
+  sentence: If I had known about the party, I would have come.
+  th: ถ้ารู้เรื่องงานปาร์ตี้ ฉันคงมาแล้ว
+  why: "If + had + ช่อง 3 แล้ว would have + ช่อง 3"
+  status: approved
+- id: cefr-b2-w05-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [You can use, the meeting room, as long as, you book it first]
+  sentence: You can use the meeting room as long as you book it first.
+  th: ใช้ห้องประชุมได้ ตราบใดที่จองก่อน
+  why: "ประโยคหลัก แล้ว as long as + เงื่อนไข"
+  status: approved
+- id: cefr-b2-w05-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [If I had studied, medicine, I would be, a doctor now]
+  sentence: If I had studied medicine, I would be a doctor now.
+  th: ถ้าเรียนแพทย์ ตอนนี้ฉันคงเป็นหมอแล้ว
+  why: "เงื่อนไขผสม had + ช่อง 3 กับ would be ... now"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-b2-w05-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Looking back, if I had, asked for advice earlier, I would have, avoided many problems]
+  sentence: Looking back, if I had asked for advice earlier, I would have avoided many problems.
+  th: มองย้อนกลับไป ถ้าฉันขอคำแนะนำเร็วกว่านี้ คงเลี่ยงปัญหาได้หลายอย่าง
+  why: "Looking back แล้วตามด้วย third conditional"
+  status: approved

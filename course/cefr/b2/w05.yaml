@@ -1,0 +1,169 @@
+# คอร์ส b2 · สัปดาห์ 5 · เขียน 18 พ.ย. 2569 · บอสอนุมัติ (รอบ 26) · บริบทผู้ใหญ่ทั่วไป
+course: cefr/b2
+week: 5
+phase: 2
+theme_th: ถ้าย้อนกลับไปได้
+focus_th: third conditional · เงื่อนไขผสม (อดีต↔ปัจจุบัน) · provided that · as long as · unless · otherwise
+can_do_th:
+  - พูดถึงสิ่งที่ไม่ได้เกิดขึ้นและผลที่จะตามมาได้
+  - เข้าใจการอภิปรายเรื่องทางเลือกและผล
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ถ้าตอนนั้น...
+    lesson:
+      rule_th: "สมมติย้อนอดีต (ความจริงตรงกันข้าม) ใช้ ==If + had + ช่อง 3, would have + ช่อง 3== · ผลไม่แน่นอนใช้ ++might / could have++"
+      examples:
+        - {en: "If I <k>had left</k> earlier, I <k>would have caught</k> the train.", th: "ความจริง ออกช้า เลยตกรถ"}
+        - {en: "We <k>wouldn't have got</k> lost if we'd had a map.", th: "==สลับ if ไว้หลังได้=="}
+        - {en: "<k>Had we noticed</k> earlier, we could have fixed it.", th: "แบบทางการ ไม่มี if"}
+      signals:
+        - {label_th: "จับคู่ให้ครบ", words: ["had + ช่อง 3 ↔ would have + ช่อง 3", "I'd known = I had known", "I'd have come = I would have come"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ถ้า...คง... เหมือนกันทุกเวลา คนจึงเขียน ~~would ในส่วน if~~ หรือใช้รูปปัจจุบันกับเรื่องในอดีต"
+        wrong: ["If I would have known, I would have come.", "If I knew yesterday, I would come."]
+        right: ["If I had known, I would have come.", "If I had known yesterday, I would have come."]
+      notes:
+        - {kind: tip, th: "ส่วน if ==ห้ามใส่ would== ทุกแบบของเงื่อนไข"}
+        - {kind: use, th: "ขอโทษอย่างจริงใจ If I'd known, I would have helped."}
+    check: [cefr-b2-w05-001, cefr-b2-w05-002]
+    practice: [cefr-b2-w05-003, cefr-b2-w05-004, cefr-b2-w05-005, cefr-b2-w05-006, cefr-b2-w05-007, cefr-b2-w05-008, cefr-b2-w05-009, cefr-b2-w05-010, cefr-b2-w05-011, cefr-b2-w05-012]
+    use:
+      prompt_th: เขียน 2 ประโยค เรื่องที่ผ่านมาซึ่งถ้าเป็นอีกแบบผลคงต่างไป
+      frame: "If I had ____, I would have ____. I might have ____ too."
+      model: "If I had checked the weather, I would have taken an umbrella. I might have arrived at the meeting dry too."
+    classroom: {en: "If I'd known, I would have come.", th: "ถ้ารู้คงมาแล้ว"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การตัดสินใจ 12 คำ
+    lesson:
+      rule_th: "คำศัพท์การตัดสินใจจับเป็นคู่ ==dilemma== (เลือกยาก) → compromise (ยอมกันคนละครึ่ง) ++convince++ (โน้มน้าว) กับ justify (ให้เหตุผลสนับสนุน)"
+      examples:
+        - {en: "I'm in a real <k>dilemma</k>.", th: "เลือกยาก"}
+        - {en: "We reached a <k>compromise</k>.", th: "==ตกลงกันได้=="}
+        - {en: "I <k>convinced</k> him to see a doctor.", th: "โน้มน้าวคน"}
+        - {en: "How can you <k>justify</k> the cost?", th: "ให้เหตุผลว่าสมควร"}
+      words:
+        - {w: regret, pos: v./n., th: เสียใจ เสียดาย, ex: "I regret not studying harder."}
+        - {w: neglect, pos: v., th: ละเลย, ex: "Don't neglect your health."}
+        - {w: sacrifice, pos: v./n., th: เสียสละ, ex: "She sacrificed her career for her family."}
+        - {w: compromise, pos: n./v., th: การยอมกันคนละครึ่ง, ex: "We found a compromise."}
+        - {w: dilemma, pos: n., th: ภาวะเลือกยาก, ex: "It's a difficult dilemma."}
+        - {w: inevitable, pos: adj., th: หลีกเลี่ยงไม่ได้, ex: "Change is inevitable."}
+        - {w: obvious, pos: adj., th: ชัดเจน, ex: "The answer is obvious."}
+        - {w: reasonable, pos: adj., th: สมเหตุสมผล, ex: "That's a reasonable price."}
+        - {w: justify, pos: v., th: ให้เหตุผลว่าสมควร, ex: "Can you justify this decision?"}
+        - {w: convince, pos: v., th: โน้มน้าว ทำให้เชื่อ, ex: "She convinced me to try."}
+        - {w: decline, pos: v., th: ปฏิเสธอย่างสุภาพ ลดลง, ex: "He declined the invitation."}
+        - {w: abandon, pos: v., th: ล้มเลิก ทิ้ง, ex: "They abandoned the plan."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~I regret to not go~~ เพราะแปลตรงตัว และใช้ convince กับสิ่งของ"
+        wrong: ["I regret to not go to university.", "He convinced the plan to the team."]
+        right: ["I regret not going to university.", "He convinced the team to accept the plan."]
+      notes:
+        - {kind: pin, th: "==regret + -ing== = เสียใจที่ทำไปแล้ว · regret to tell you = เสียใจที่ต้องแจ้ง"}
+        - {kind: warn, th: "decline มีสองความหมาย ปฏิเสธ และ ลดลง ดูบริบท"}
+    check: [cefr-b2-w05-013, cefr-b2-w05-014]
+    practice: [cefr-b2-w05-015, cefr-b2-w05-016, cefr-b2-w05-017, cefr-b2-w05-018, cefr-b2-w05-019, cefr-b2-w05-020, cefr-b2-w05-021, cefr-b2-w05-022, cefr-b2-w05-023, cefr-b2-w05-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าทางเลือกยากที่เคยเจอ และตกลงกันอย่างไร
+      frame: "I once faced a dilemma: ____. In the end, we reached a compromise: ____."
+      model: "I once faced a dilemma: my parents wanted me to stay home, but I wanted to work abroad. In the end, we reached a compromise: I worked in Bangkok, which is only an hour away."
+    classroom: {en: "Let's find a compromise.", th: "หาทางที่ยอมกันได้ทั้งสองฝ่ายเถอะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เงื่อนไขผสม และคำแทน if
+    lesson:
+      rule_th: "==อดีตส่งผลถึงตอนนี้== If + had + ช่อง 3, would + กริยา (now) · ความจริงตอนนี้ส่งผลถึงอดีต If + อดีต, would have + ช่อง 3 · ++unless = if not++ · provided that / as long as = ถ้า (เงื่อนไขจำเป็น)"
+      examples:
+        - {en: "If I <k>had taken</k> the job, I <k>would be living</k> in Singapore now.", th: "==อดีต → ตอนนี้=="}
+        - {en: "If I <k>weren't</k> afraid of flying, I <k>would have visited</k> you.", th: "นิสัยตอนนี้ → อดีต"}
+        - {en: "<k>Unless</k> you hurry, you'll miss the bus.", th: "ถ้าไม่รีบ"}
+        - {en: "Write it down; <k>otherwise</k> you'll forget.", th: "มิฉะนั้น"}
+      signals:
+        - {label_th: "คำแทน if", words: ["unless = if not", "as long as", "provided (that)", "otherwise = ถ้าไม่ทำ"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า ถ้าไม่...ก็... คนจึงใส่ ~~not ซ้ำหลัง unless~~"
+        wrong: ["Unless you don't study, you'll fail.", "If I had studied medicine, I would have been a doctor now."]
+        right: ["Unless you study, you'll fail.", "If I had studied medicine, I would be a doctor now."]
+      notes:
+        - {kind: tip, th: "เห็น ==now / today== ในส่วนผล ใช้ would + กริยา ไม่ใช่ would have"}
+        - {kind: warn, th: "otherwise ขึ้นประโยคใหม่หรือหลังเครื่องหมาย ; ไม่ใช่คำเชื่อมแบบ if"}
+    check: [cefr-b2-w05-025, cefr-b2-w05-026]
+    practice: [cefr-b2-w05-027, cefr-b2-w05-028, cefr-b2-w05-029, cefr-b2-w05-030, cefr-b2-w05-031, cefr-b2-w05-032, cefr-b2-w05-033, cefr-b2-w05-034]
+    use:
+      prompt_th: เขียน 2 ประโยค เรื่องการตัดสินใจในอดีตที่ส่งผลต่อชีวิตตอนนี้
+      frame: "If I hadn't ____, I wouldn't be ____ now. I'll keep doing it as long as ____."
+      model: "If I hadn't moved to Chiang Mai, I wouldn't be running my own café now. I'll keep doing it as long as I enjoy it."
+    classroom: {en: "You can go, as long as you're back by six.", th: "ไปได้ ขอแค่กลับก่อนหกโมง"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความสะท้อนบทเรียนและฟังการอภิปราย
+    lesson:
+      rule_th: "บทความสะท้อนบทเรียนบอก ==ความผิดพลาด → สิ่งที่ควรทำ → ข้อคิด== ++ทุกประโยค If + had++ บอกความจริงตรงกันข้าม คำถามมักถามว่าความจริงคืออะไร"
+      examples:
+        - {en: "If we <k>had spent</k> a week counting customers, ...", th: "==ความจริง ไม่ได้นับ=="}
+        - {en: "We <k>neglected</k> our costs.", th: "ความผิดพลาด"}
+        - {en: "Was failure <k>inevitable</k>? I don't think so.", th: "ทัศนคติของผู้เขียน"}
+      thai_trap:
+        intro_th: "ผู้อ่านมักอ่านประโยค If + had เป็นสิ่งที่เกิดจริง แล้วตอบ ~~ตรงกันข้ามกับความจริง~~"
+        wrong: ["ตอบว่าพี่น้องไปขายที่ย่านธุรกิจ"]
+        right: ["จริง ๆ จอดหน้ามหาวิทยาลัย ย่านธุรกิจเป็นสิ่งที่ควรทำ"]
+      notes:
+        - {kind: tip, th: "เขียนกำกับข้าง ๆ ทุกประโยค If + had ว่า ==จริงคือ...=="}
+        - {kind: use, th: "คำถามเรื่องทัศนคติ ให้ดูย่อหน้าสุดท้าย"}
+    check: [cefr-b2-w05-036, cefr-b2-w05-037]
+    practice: [cefr-b2-w05-035, cefr-b2-w05-038, cefr-b2-w05-039, cefr-b2-w05-040, cefr-b2-w05-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปบทเรียนจากรถขายอาหาร ใช้ third conditional อย่างน้อย 1 จุด
+      frame: "The sisters ____. If they had ____, they would have ____."
+      model: "The sisters chose a cheap location near a university. If they had studied different locations first, they would have earned more in the business district."
+    classroom: {en: "What would you have done differently?", th: "ถ้าย้อนได้ จะทำอะไรต่างไป"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด สะท้อนการตัดสินใจในอดีต 90 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูด 90 วินาทีเกี่ยวกับการตัดสินใจครั้งสำคัญในอดีต บอกสิ่งที่ตัดสินใจ ผลที่เกิด สิ่งที่จะทำต่างไปถ้าย้อนได้ และผลต่อชีวิตตอนนี้
+      frame:
+        - "A few years ago, I decided to ____."
+        - "At the time, it seemed reasonable because ____."
+        - "If I had ____, I would have ____."
+        - "If I hadn't ____, I wouldn't be ____ now."
+        - "So, do I regret it? ____."
+      model_pass: "A few years ago, I decided to buy a car instead of saving money. At the time, it seemed reasonable because the buses near my house were very slow. But the car was expensive to run. If I had waited one more year, I would have saved enough for a deposit on a condo. On the other hand, if I hadn't bought the car, I wouldn't be working at my current company now, because it's far from the train line. So, do I regret it? Not really. It was a compromise, and it worked."
+      model_good: "A few years ago, I faced a real dilemma: I could either buy a car or keep saving for a condo. At the time, the car seemed the more reasonable choice, because the buses in my area were unreliable and I was wasting two hours a day. Financially, it was probably a mistake. If I had waited just one more year, I would have saved enough for a deposit, and I'd be paying a mortgage now instead of rent. Then again, if I hadn't bought the car, I wouldn't have been able to accept my current job, which is miles from any train line. So, do I regret it? Not really. Looking back, I'd make the same choice, provided that I kept a closer eye on running costs."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกการตัดสินใจจริงของคุณ แล้วจดคำสำคัญตามโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ third conditional อย่างน้อย 1 ครั้ง และเงื่อนไขผสมอย่างน้อย 1 ครั้ง
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ (เช่น dilemma regret reasonable)
+        - มีข้อสรุปว่าเสียใจหรือไม่ พร้อมเหตุผล
+        - พูดได้ประมาณ 90 วินาทีโดยไม่หยุดนานเกิน 3 วินาที
+    practice: [cefr-b2-w05-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 5
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/b2, weeks: [3, 4, 5], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
