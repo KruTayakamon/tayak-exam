@@ -1,0 +1,593 @@
+# คอร์ส c2 · สัปดาห์ 6 · จุดยืน ระยะห่าง และความสุภาพ · stance adverbials · boosting กับ hedging · understatement · litotes · คำถามเชิงโวหาร · ปฏิเสธอย่างสุภาพ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · คำบอกจุดยืน ----------
+- id: cefr-c2-w06-001
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 1
+  stem: "____, the new manager turned out to be very easy to work with. Nobody had expected that."
+  choices:
+    - {t: Surprisingly, why: "บอกท่าทีของผู้พูดต่อเหตุการณ์ ++Surprisingly++ (เข้ากับ nobody had expected)"}
+    - {t: Predictably, why: "ขัดกับ Nobody had expected that"}
+    - {t: Admittedly, why: "admittedly ใช้ยอมรับข้อเสียก่อนแย้ง"}
+    - {t: Allegedly, why: "allegedly ใช้กับข้อกล่าวหาที่ยังไม่พิสูจน์"}
+  explain: "stance adverb ==บอกความรู้สึกหรือท่าทีของผู้พูด== ต่อทั้งประโยค"
+  status: draft
+- id: cefr-c2-w06-002
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 1
+  stem: "____, the plan has some weaknesses, but it is still the best option we have."
+  choices:
+    - {t: Admittedly, why: "ยอมรับจุดอ่อนก่อนแย้ง ใช้ ++Admittedly++"}
+    - {t: Allegedly, why: "allegedly ใช้กับข้อกล่าวหา"}
+    - {t: Undoubtedly, why: "undoubtedly ฟันธง ไม่เข้ากับการยอมรับแล้วแย้ง"}
+    - {t: Fortunately, why: "จุดอ่อนไม่ใช่เรื่องโชคดี"}
+  explain: "==Admittedly, ... but ...== = ยอมรับว่า... แต่"
+  status: draft
+- id: cefr-c2-w06-003
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "The director ____ accepted payments from a supplier, although he denies it."
+  choices:
+    - {t: allegedly, why: "ถูกกล่าวหาแต่ยังไม่พิสูจน์ ใช้ ++allegedly++"}
+    - {t: undoubtedly, why: "ฟันธงว่าจริง ขัดกับ he denies it"}
+    - {t: admittedly, why: "admittedly ใช้กับสิ่งที่ผู้พูดยอมรับเอง"}
+    - {t: thankfully, why: "ไม่เข้ากับบริบท"}
+  explain: "ข่าวที่ยังไม่พิสูจน์ ==allegedly / reportedly=="
+  status: draft
+- id: cefr-c2-w06-004
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "Which sentence both boosts and hedges in a single statement?"
+  choices:
+    - {t: "This is almost certainly the main cause, though other factors may play a part.", why: "almost certainly ++ยืนยันแต่ยังเว้นที่++ แล้ว may ลดน้ำหนักส่วนที่เหลือ"}
+    - {t: "This is the main cause.", why: "ฟันธงอย่างเดียว"}
+    - {t: "This might be a cause.", why: "ลดน้ำหนักอย่างเดียว"}
+    - {t: "This is definitely and absolutely the only cause.", why: "เน้นอย่างเดียว เกินจริง"}
+  explain: "ระดับ C2 ==ผสมความมั่นใจกับความระวัง== ในประโยคเดียว"
+  status: draft
+- id: cefr-c2-w06-005
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "____ speaking, the results are not as bad as the headlines suggest."
+  choices:
+    - {t: Broadly, why: "สำนวน ++Broadly speaking++ = พูดโดยรวม"}
+    - {t: Wide, why: "wide speaking ไม่ใช่สำนวน"}
+    - {t: Broad, why: "ต้องใช้คำวิเศษณ์ broadly"}
+    - {t: Overly, why: "overly speaking ไม่ใช่สำนวน"}
+  explain: "==Broadly / Generally / Strictly speaking== บอกมุมมองการพูด"
+  status: draft
+- id: cefr-c2-w06-006
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "The survey was, ____, rather small, so we should be careful with the conclusions."
+  choices:
+    - {t: admittedly, why: "ยอมรับข้อจำกัดของตัวเอง ใช้ ++admittedly++"}
+    - {t: allegedly, why: "ไม่ใช่ข้อกล่าวหา"}
+    - {t: unquestionably, why: "ขัดกับการระวังข้อสรุป"}
+    - {t: fortunately, why: "กลุ่มเล็กไม่ใช่เรื่องโชคดี"}
+  explain: "stance adverb ==วางกลางประโยคระหว่างจุลภาค== ได้"
+  status: draft
+- id: cefr-c2-w06-007
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "____, the fire started at night, when the building was empty."
+  choices:
+    - {t: Fortunately, why: "เหตุการณ์ดีในสถานการณ์ร้าย ใช้ ++Fortunately++"}
+    - {t: Allegedly, why: "ไม่มีข้อกล่าวหา"}
+    - {t: Admittedly, why: "ไม่ใช่การยอมรับก่อนแย้ง"}
+    - {t: Predictably, why: "ไม่มีข้อมูลว่าคาดไว้"}
+  explain: "stance adverb ==ตัดสินคุณค่าของข้อเท็จจริง== (fortunately · sadly · ironically)"
+  status: draft
+- id: cefr-c2-w06-008
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 3
+  stem: "\"The project was, ironically, delayed by the new efficiency software.\" Why is ironically used?"
+  choices:
+    - {t: the result is the opposite of what was intended, why: "ซอฟต์แวร์ที่ช่วยให้เร็ว ++กลับทำให้ช้า++"}
+    - {t: the writer is joking about the project, why: "ไม่ได้ล้อเล่น จึงใช้ไม่ได้"}
+    - {t: the software was cheap, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: the delay was expected, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  explain: "ironically = ==ผลออกมาตรงข้ามกับที่ตั้งใจ=="
+  status: draft
+- id: cefr-c2-w06-009
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 3
+  stem: "Which word shows the strongest commitment to a claim?"
+  choices:
+    - {t: undeniably, why: "ปฏิเสธไม่ได้ ++ยืนยันหนักที่สุด++"}
+    - {t: arguably, why: "อาจกล่าวได้ มีที่ให้เถียง"}
+    - {t: apparently, why: "ได้ยินมา ไม่ใช่ความเห็นตัวเอง"}
+    - {t: seemingly, why: "ดูเหมือน ยังไม่แน่ใจ"}
+  explain: "ไล่ระดับ ไล่จาก seemingly ถึง ==undeniably (มั่นใจสุด)=="
+  status: draft
+- id: cefr-c2-w06-010
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "\"Frankly, I think the proposal is a waste of money.\" What does frankly signal?"
+  choices:
+    - {t: the speaker is about to be direct, why: "frankly = ++พูดตรง ๆ นะ++ เตือนว่าจะพูดแรง"}
+    - {t: the speaker is unsure, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: the speaker is quoting someone, why: "เป็นความเห็นของตัวเอง"}
+    - {t: the speaker agrees, why: "ไม่เห็นด้วย จึงใช้ไม่ได้"}
+  explain: "==Frankly / To be honest / Quite frankly== = เตือนว่าจะพูดตรง"
+  status: draft
+- id: cefr-c2-w06-011
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "The minister was ____ unaware of the problem until it appeared in the press."
+  choices:
+    - {t: reportedly, why: "ตามรายงาน ไม่ได้ยืนยันเอง ++reportedly++"}
+    - {t: admittedly, why: "ไม่ใช่สิ่งที่ผู้เขียนยอมรับ"}
+    - {t: frankly, why: "frankly ไม่วางตำแหน่งนี้ในความหมายนี้"}
+    - {t: fortunately, why: "การไม่รู้ปัญหาไม่ใช่เรื่องโชคดี"}
+  explain: "ข่าวที่ผู้เขียนไม่ยืนยันเอง ==reportedly · allegedly · apparently=="
+  status: draft
+- id: cefr-c2-w06-012
+  kind: type
+  skill: gm
+  topic: stance
+  level: 2
+  stem: "A________, I haven't read the whole report, but the summary is worrying. (ยอมรับว่า)"
+  answer: admittedly
+  accept: [admittedly, Admittedly]
+  why: "admittedly = ยอมรับว่า (ก่อนแย้ง)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ความเห็นต่างและความสุภาพ ----------
+- id: cefr-c2-w06-013
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 1
+  stem: "When asked to work on Sunday, she ____, saying she had family commitments."
+  choices:
+    - {t: demurred, why: "แสดงความไม่เห็นด้วยอย่างสุภาพ ใช้ ++demur++"}
+    - {t: concurred, why: "concur แปลว่าเห็นด้วย"}
+    - {t: acquiesced, why: "acquiesce แปลว่ายอมตาม ขัดกับบริบท"}
+    - {t: reiterated, why: "reiterate แปลว่าย้ำซ้ำ"}
+  explain: "demur = ==ไม่เห็นด้วยหรือลังเลอย่างสุภาพ=="
+  status: draft
+- id: cefr-c2-w06-014
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 1
+  stem: "I ____ with the previous speaker: we need more time to decide."
+  choices:
+    - {t: concur, why: "เห็นด้วย (ทางการ) ใช้ ++concur with++"}
+    - {t: demur, why: "demur แปลว่าไม่เห็นด้วย"}
+    - {t: dissent, why: "dissent แปลว่าเห็นต่าง"}
+    - {t: insinuate, why: "insinuate แปลว่าพูดเป็นนัยในทางลบ"}
+  explain: "concur = ==เห็นด้วย (ทางการ)=="
+  status: draft
+- id: cefr-c2-w06-015
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "Most of the board voted in favour, but two members ____."
+  choices:
+    - {t: dissented, why: "ลงความเห็นแย้ง ใช้ ++dissent++"}
+    - {t: concurred, why: "ขัดกับ but จึงใช้ไม่ได้"}
+    - {t: acquiesced, why: "acquiesce แปลว่ายอมตาม ขัดกับ but"}
+    - {t: intimated, why: "intimate แปลว่าบอกเป็นนัย"}
+  explain: "dissent = ==เห็นแย้ง ไม่ลงมติด้วย=="
+  status: draft
+- id: cefr-c2-w06-016
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "Tired of arguing, he finally ____ to their demands."
+  choices:
+    - {t: acquiesced, why: "ยอมตามอย่างไม่เต็มใจ ใช้ ++acquiesce to/in++"}
+    - {t: dissented, why: "ขัดกับ finally ... to their demands"}
+    - {t: demurred, why: "ขัดกับการยอมตาม"}
+    - {t: reiterated, why: "reiterate ไม่ตามด้วย to"}
+  explain: "acquiesce = ==ยอมตาม (มักไม่เต็มใจ)=="
+  status: draft
+- id: cefr-c2-w06-017
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "Let me ____ that the deadline cannot be changed."
+  choices:
+    - {t: reiterate, why: "ย้ำซ้ำอีกครั้ง ใช้ ++reiterate++"}
+    - {t: insinuate, why: "insinuate แปลว่าพูดเป็นนัยในทางลบ"}
+    - {t: downplay, why: "downplay แปลว่าลดความสำคัญ"}
+    - {t: acquiesce, why: "acquiesce ไม่ตามด้วย that แบบนี้"}
+  explain: "reiterate = ==ย้ำซ้ำ (สิ่งที่เคยพูดแล้ว)=="
+  status: draft
+- id: cefr-c2-w06-018
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "Are you ____ that I took the money? Because I certainly didn't."
+  choices:
+    - {t: insinuating, why: "พูดเป็นนัยในทางลบ ใช้ ++insinuate++"}
+    - {t: reiterating, why: "reiterate ไม่ใช่การกล่าวหาเป็นนัย"}
+    - {t: concurring, why: "concur แปลว่าเห็นด้วย"}
+    - {t: overstating, why: "overstate แปลว่าพูดเกินจริง"}
+  explain: "insinuate = ==พูดเป็นนัยในทางไม่ดี=="
+  status: draft
+- id: cefr-c2-w06-019
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "She ____ that she might be willing to compromise, though she said nothing definite."
+  choices:
+    - {t: intimated, why: "บอกเป็นนัยอย่างแนบเนียน (ไม่ใช่ทางลบ) ใช้ ++intimate++"}
+    - {t: insinuated, why: "insinuate มักเป็นความหมายลบ ไม่เข้ากับการประนีประนอม"}
+    - {t: reiterated, why: "reiterate ใช้กับสิ่งที่พูดชัดแล้ว"}
+    - {t: dissented, why: "dissent ไม่ตามด้วย that แบบนี้"}
+  explain: "intimate (v.) = ==บอกเป็นนัย== (ไม่ใช่ความหมายลบเหมือน insinuate)"
+  status: draft
+- id: cefr-c2-w06-020
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "The company tried to ____ the problem, calling it a 'minor technical issue'."
+  choices:
+    - {t: downplay, why: "ทำให้ดูไม่สำคัญ ใช้ ++downplay++"}
+    - {t: overstate, why: "overstate แปลว่าพูดเกินจริง ตรงข้าม"}
+    - {t: reiterate, why: "ไม่เข้ากับบริบท"}
+    - {t: concur, why: "บทไม่ได้พูดว่า concur"}
+  explain: "downplay = ==ลดความสำคัญให้ดูเล็กลง=="
+  status: draft
+- id: cefr-c2-w06-021
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "It would be easy to ____ the risks; in fact, most users never experience a problem."
+  choices:
+    - {t: overstate, why: "พูดเกินจริง ใช้ ++overstate++"}
+    - {t: downplay, why: "ขัดกับ in fact most users never experience a problem"}
+    - {t: acquiesce, why: "ไม่เข้ากับบริบท"}
+    - {t: intimate, why: "บทไม่ได้พูดว่า intimate"}
+  explain: "overstate = ==พูดเกินจริง== ตรงข้าม downplay / understate"
+  status: draft
+- id: cefr-c2-w06-022
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "\"Letting someone go\" is a common ____ for firing them."
+  choices:
+    - {t: euphemism, why: "คำพูดอ้อมให้ฟังนุ่มนวล ใช้ ++euphemism++"}
+    - {t: deference, why: "deference คือความเคารพ ยอมตาม"}
+    - {t: tact, why: "tact คือความรู้กาลเทศะ"}
+    - {t: dissent, why: "dissent คือความเห็นแย้ง"}
+  explain: "euphemism = ==คำพูดอ้อมให้นุ่มนวล=="
+  status: draft
+- id: cefr-c2-w06-023
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 3
+  stem: "Telling a colleague their presentation needs work requires a great deal of ____."
+  choices:
+    - {t: tact, why: "ความรู้จักพูดไม่ให้เสียน้ำใจ ใช้ ++tact++"}
+    - {t: deference, why: "deference คือความเคารพผู้มีอำนาจ"}
+    - {t: euphemism, why: "euphemism นับได้ ไม่ใช้กับ a great deal of"}
+    - {t: dissent, why: "ไม่เข้ากับบริบท"}
+  explain: "tact = ==ความรู้กาลเทศะ พูดไม่ให้เสียน้ำใจ== (tactful)"
+  status: draft
+- id: cefr-c2-w06-024
+  kind: type
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: "Out of d_______ to the elderly guests, the music was kept quiet. (ความเคารพ เกรงใจ)"
+  answer: deference
+  accept: [deference]
+  why: "out of deference to = ด้วยความเคารพเกรงใจ"
+  status: draft
+# ---------- วันที่ 3 · พูดอ้อมและปฏิเสธอย่างสุภาพ ----------
+- id: cefr-c2-w06-025
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 1
+  stem: "\"The food wasn't bad.\" What does the speaker most likely mean?"
+  choices:
+    - {t: it was fairly good, why: "litotes ++ปฏิเสธสิ่งตรงข้าม = ค่อนข้างดี++"}
+    - {t: it was terrible, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: it was the best ever, why: "เกินไปจากความหมาย"}
+    - {t: there was no food, why: "บทไม่ได้พูดว่า there was no food"}
+  explain: "litotes = ==ปฏิเสธสิ่งตรงข้ามเพื่อพูดอ้อม== (not bad = good)"
+  status: draft
+- id: cefr-c2-w06-026
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 1
+  stem: "Which is the most polite way to refuse an invitation?"
+  choices:
+    - {t: "I'd love to, but I'm afraid I've already got plans that evening.", why: "แสดงความอยาก + ++ขอโทษ + เหตุผล++"}
+    - {t: "No, I can't come.", why: "ตรงเกินไป จึงใช้ไม่ได้"}
+    - {t: "I won't come.", why: "ฟังห้วน จึงใช้ไม่ได้"}
+    - {t: "Not interested.", why: "ไม่สุภาพ จึงใช้ไม่ได้"}
+  explain: "ปฏิเสธสุภาพ ==บอกความอยาก + I'm afraid + เหตุผล=="
+  status: draft
+- id: cefr-c2-w06-027
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 2
+  stem: "\"It's not exactly what we were hoping for.\" What is the speaker really saying?"
+  choices:
+    - {t: they are disappointed, why: "understatement ++พูดเบาให้ฟังสุภาพ แต่หมายถึงผิดหวัง++"}
+    - {t: they are delighted, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: they need more information, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: it is exactly right, why: "บทไม่ได้พูดว่า it is exactly right"}
+  explain: "understatement = ==พูดเบากว่าความจริงเพื่อความสุภาพ=="
+  status: draft
+- id: cefr-c2-w06-028
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 2
+  stem: "\"Who wouldn't want a four-day week?\" This is a rhetorical question meaning ____."
+  choices:
+    - {t: everyone would want it, why: "คำถามเชิงโวหาร ++ไม่ต้องการคำตอบ หมายถึงทุกคนอยาก++"}
+    - {t: nobody wants it, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: the speaker wants a list of names, why: "ไม่ได้ถามจริง จึงใช้ไม่ได้"}
+    - {t: the speaker doesn't know, why: "ไม่ใช่คำถามจริง"}
+  explain: "rhetorical question = ==คำถามที่ไม่ต้องการคำตอบ ใช้เน้นความเห็น=="
+  status: draft
+- id: cefr-c2-w06-029
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 2
+  stem: "Which sentence disagrees most politely?"
+  choices:
+    - {t: "I wonder whether that might be a little ambitious.", why: "I wonder + might + a little ++ลดความแรงหลายชั้น++"}
+    - {t: "That's wrong.", why: "ตรงเกินไป จึงใช้ไม่ได้"}
+    - {t: "You don't understand the problem.", why: "ตำหนิผู้ฟัง จึงใช้ไม่ได้"}
+    - {t: "That will never work.", why: "ฟันธงและแรง จึงใช้ไม่ได้"}
+  explain: "ไม่เห็นด้วยอย่างสุภาพ ==I wonder whether / might / a little=="
+  status: draft
+- id: cefr-c2-w06-030
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 2
+  stem: "\"I'm not entirely convinced\" is a polite way of saying ____."
+  choices:
+    - {t: I don't agree, why: "not entirely = ++พูดอ้อมเพื่อไม่ให้แรง++"}
+    - {t: I completely agree, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: I'm very tired, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: I haven't heard the idea, why: "บทไม่ได้พูดว่า I haven't heard the idea"}
+  explain: "==not entirely== / not quite / not altogether = อ้อมของ ไม่"
+  status: draft
+- id: cefr-c2-w06-031
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 3
+  stem: "\"With the greatest respect, I think you may have overlooked one point.\" What usually follows?"
+  choices:
+    - {t: a firm disagreement, why: "With the greatest respect ++มักนำหน้าการแย้งที่หนักแน่น++"}
+    - {t: a compliment, why: "ไม่ใช่การชม จึงใช้ไม่ได้"}
+    - {t: an apology, why: "ไม่ใช่คำขอโทษ จึงใช้ไม่ได้"}
+    - {t: complete agreement, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  explain: "==With (the greatest) respect, ...== = สุภาพแต่กำลังจะแย้งแรง"
+  status: draft
+- id: cefr-c2-w06-032
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 3
+  stem: "\"She's not unaware of the risks.\" This means she is ____."
+  choices:
+    - {t: aware of the risks, why: "not un- = ++ปฏิเสธซ้อน หมายถึงรู้++ (litotes)"}
+    - {t: unaware of the risks, why: "ปฏิเสธซ้อนกลับเป็นบวก"}
+    - {t: afraid of the risks, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: causing the risks, why: "บทไม่ได้พูดว่า causing the risks"}
+  explain: "==not + un-/in- = บวกแบบระวัง== (not uncommon = ค่อนข้างพบบ่อย)"
+  status: draft
+- id: cefr-c2-w06-033
+  kind: type
+  skill: gm
+  topic: indirectness
+  level: 2
+  stem: "I'm a_____ I won't be able to attend the meeting on Friday. (เกรงว่า · ปฏิเสธสุภาพ)"
+  answer: afraid
+  accept: [afraid]
+  why: "I'm afraid ... = เกรงว่า ใช้นำข่าวไม่ดีอย่างสุภาพ"
+  status: draft
+- id: cefr-c2-w06-034
+  kind: cloze
+  skill: gm
+  topic: indirectness
+  level: 2
+  text: |
+    Thank you for your proposal. (1) ____, there is much in it that we like. However, I am not (2) ____ convinced that the timeline is realistic, and I wonder (3) ____ we might discuss it further before making a decision.
+  questions:
+    - choices:
+        - {t: Undoubtedly, why: "ยืนยันข้อดีก่อนแย้ง"}
+        - {t: Allegedly, why: "ไม่ใช่ข้อกล่าวหา"}
+        - {t: Unfortunately, why: "ข้อดีไม่ใช่เรื่องโชคร้าย"}
+        - {t: Reportedly, why: "ผู้เขียนพูดความเห็นตัวเอง ไม่ใช่รายงาน"}
+    - choices:
+        - {t: entirely, why: "not entirely = อ้อมของ ไม่"}
+        - {t: rather, why: "not rather ผิดรูป"}
+        - {t: very much, why: "not very much convinced ไม่เป็นธรรมชาติ"}
+        - {t: hardly, why: "not hardly ปฏิเสธซ้อนผิด"}
+    - choices:
+        - {t: whether, why: "I wonder whether = ถามอ้อมอย่างสุภาพ"}
+        - {t: that, why: "wonder that ไม่ใช่การถาม"}
+        - {t: what, why: "what we might discuss it ผิดรูป"}
+        - {t: which, why: "ผิดรูป จึงใช้ไม่ได้"}
+  status: draft
+# ---------- วันที่ 4 · อ่านจดหมายโต้ตอบและฟังการประชุมที่เห็นต่าง ----------
+- id: cefr-c2-w06-035
+  kind: read
+  skill: rd
+  topic: formal-correspondence
+  level: 3
+  title: "Correspondence · Proposed Changes to the Community Centre Timetable"
+  passage: |
+    Letter 1 · From the Centre Manager
+
+    Dear members of the Residents' Committee,
+
+    As you know, the centre has faced rising costs this year. Having reviewed the timetable, we propose to close on Sunday afternoons and to move the children's art class from Saturday to a weekday evening. We are confident that these changes will have only a minimal impact on users, and we would be grateful for your support.
+
+    Yours sincerely,
+    Pranee Saetang, Centre Manager
+
+    Letter 2 · From the Chair of the Residents' Committee
+
+    Dear Ms Saetang,
+
+    Thank you for your letter and for explaining the financial pressures facing the centre. We fully appreciate that difficult choices have to be made, and we concur that the current timetable cannot continue unchanged.
+
+    With the greatest respect, however, we are not entirely convinced that the impact will be "minimal". Sunday afternoons are, admittedly, quieter than weekdays, but they are the only time many working parents can bring their children. Moving the art class to a weekday evening would, in practice, exclude most of the families who currently attend.
+
+    We would not wish to appear ungrateful, and we are certainly not suggesting that the committee should have the final word. We do wonder, though, whether alternatives have been fully explored. Several members have intimated that they would be willing to volunteer at weekends, which might reduce staffing costs considerably.
+
+    We would welcome the opportunity to discuss this before any decision is taken.
+
+    Yours sincerely,
+    Wichai Boonmee, Chair
+  questions:
+    - stem: Which statement in Letter 1 does the committee challenge?
+      choices:
+        - {t: that the changes will have only a minimal impact, why: "we are not entirely convinced that the impact will be 'minimal'"}
+        - {t: that costs have risen, why: "คณะกรรมการยอมรับเรื่องค่าใช้จ่าย"}
+        - {t: that the timetable must change, why: "we concur that the current timetable cannot continue unchanged"}
+        - {t: that the manager has reviewed the timetable, why: "ไม่ได้โต้แย้งข้อนี้"}
+    - stem: Why does the committee object to moving the art class?
+      choices:
+        - {t: working parents could not bring their children, why: "would, in practice, exclude most of the families who currently attend"}
+        - {t: the art teacher is unavailable, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: weekday rooms are too small, why: "บทไม่ได้พูดว่า weekday rooms are too small"}
+        - {t: children prefer Sundays, why: "เหตุผลคือพ่อแม่ทำงาน"}
+    - stem: What does the committee suggest as an alternative?
+      choices:
+        - {t: using volunteers at weekends to cut costs, why: "willing to volunteer at weekends, which might reduce staffing costs"}
+        - {t: raising membership fees, why: "ไม่มีข้อเสนอนี้"}
+        - {t: closing on weekdays instead, why: "บทไม่ได้พูดว่า closing on weekdays instead"}
+        - {t: letting the committee decide, why: "we are certainly not suggesting that the committee should have the final word"}
+    - stem: How would you describe the tone of Letter 2?
+      choices:
+        - {t: polite but firm, why: "สุภาพ (Thank you · With the greatest respect) แต่แย้งชัดเจน"}
+        - {t: angry and rude, why: "ไม่มีถ้อยคำหยาบ"}
+        - {t: completely supportive, why: "แย้งข้อเสนอสำคัญ"}
+        - {t: uncertain and confused, why: "จุดยืนชัดเจน จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w06-036
+  kind: listen
+  skill: li
+  topic: polite-disagreement
+  level: 3
+  script:
+    - {who: Man, en: "I take your point, and I don't want to overstate this, but I'm not sure the figures quite support that conclusion."}
+  questions:
+    - stem: What is the man doing?
+      choices:
+        - {t: disagreeing politely, why: "I take your point ... but I'm not sure the figures quite support"}
+        - {t: agreeing completely, why: "มี but และแย้ง จึงใช้ไม่ได้"}
+        - {t: presenting new figures, why: "ไม่ได้เสนอตัวเลขใหม่"}
+        - {t: apologising for a mistake, why: "ไม่ได้ขอโทษ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w06-037
+  kind: listen
+  skill: li
+  topic: polite-disagreement
+  level: 3
+  script:
+    - {who: Woman, en: "So are we all agreed?"}
+    - {who: Man, en: "Broadly, yes. I'd just reiterate my concern about the timing; I'm not convinced March is realistic."}
+  questions:
+    - stem: What is the man's position?
+      choices:
+        - {t: he generally agrees but repeats a concern about timing, why: "Broadly, yes ... reiterate my concern about the timing"}
+        - {t: he completely disagrees, why: "Broadly, yes จึงใช้ไม่ได้"}
+        - {t: he has no concerns, why: "ยังกังวลเรื่องเวลา"}
+        - {t: he wants an earlier date, why: "เขาคิดว่ามีนาคมเร็วเกินไป"}
+  status: draft
+- id: cefr-c2-w06-038
+  kind: listen
+  skill: li
+  topic: polite-disagreement
+  level: 3
+  script:
+    - {who: Woman, en: "It's not that I'm against the idea. It's just that I'm not sure now is the right moment."}
+  questions:
+    - stem: What does the woman object to?
+      choices:
+        - {t: the timing, why: "I'm not sure now is the right moment"}
+        - {t: the idea itself, why: "It's not that I'm against the idea"}
+        - {t: the cost, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: the people involved, why: "บทไม่ได้พูดว่า the people involved"}
+  status: draft
+- id: cefr-c2-w06-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I'm afraid, I'm not entirely convinced, that this is, the best solution]
+  sentence: I'm afraid I'm not entirely convinced that this is the best solution.
+  th: เกรงว่าฉันยังไม่ค่อยมั่นใจว่านี่คือทางออกที่ดีที่สุด
+  why: "I'm afraid + not entirely convinced = แย้งอย่างสุภาพ"
+  status: draft
+- id: cefr-c2-w06-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Admittedly, the plan is expensive, but it is, undoubtedly the safest option]
+  sentence: Admittedly, the plan is expensive, but it is undoubtedly the safest option.
+  th: ยอมรับว่าแผนนี้แพง แต่เป็นทางที่ปลอดภัยที่สุดแน่นอน
+  why: "Admittedly ยอมรับ แล้ว but + undoubtedly ยืนยัน"
+  status: draft
+- id: cefr-c2-w06-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [With the greatest respect, I think, you may have, underestimated the cost]
+  sentence: With the greatest respect, I think you may have underestimated the cost.
+  th: ด้วยความเคารพ ฉันคิดว่าคุณอาจประเมินค่าใช้จ่ายต่ำไป
+  why: "With the greatest respect + may have + ช่อง 3 = แย้งสุภาพ"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c2-w06-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While we fully appreciate, the pressures you face, we would urge you, to consider, the alternatives outlined below]
+  sentence: While we fully appreciate the pressures you face, we would urge you to consider the alternatives outlined below.
+  th: แม้เราเข้าใจแรงกดดันที่ท่านเผชิญ แต่ขอให้พิจารณาทางเลือกด้านล่าง
+  why: "While + ยอมรับ แล้ว would urge + คน + to"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 6 · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 6
+phase: 2
+theme_th: จุดยืน ระยะห่าง และความสุภาพ
+focus_th: stance adverbials (admittedly · allegedly · surprisingly · frankly · undeniably) · เน้นกับลดน้ำหนักในประโยคเดียว · understatement · litotes · คำถามเชิงโวหาร · การแย้งและปฏิเสธอย่างสุภาพ
+can_do_th:
+  - แสดงจุดยืนได้หนักแน่นแต่สุภาพ
+  - จับความหมายจริงหลังคำพูดอ้อมได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: คำบอกจุดยืน
+    lesson:
+      rule_th: "คำวิเศษณ์ต้นประโยคบอก ==ท่าทีของผู้พูดต่อทั้งประโยค== · ++admittedly (ยอมรับก่อนแย้ง)++ · allegedly / reportedly (ไม่ยืนยันเอง) · frankly (กำลังจะพูดตรง) · ระดับ C2 ผสมความมั่นใจกับความระวังในประโยคเดียว"
+      examples:
+        - {en: "<k>Admittedly</k>, the plan has weaknesses, but ...", th: "ยอมรับก่อนแย้ง"}
+        - {en: "He <k>allegedly</k> accepted payments.", th: "==ถูกกล่าวหา ยังไม่พิสูจน์=="}
+        - {en: "This is <k>almost certainly</k> the main cause, though ...", th: "มั่นใจแต่เว้นที่"}
+        - {en: "<k>Frankly</k>, it's a waste of money.", th: "พูดตรง ๆ"}
+      signals:
+        - {label_th: "ระดับความมั่นใจ", words: ["seemingly", "arguably", "clearly", "undoubtedly", "undeniably"]}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~actually~~ เป็นคำเชื่อมทุกครั้งเหมือน จริง ๆ แล้ว ทั้งที่ในภาษาอังกฤษ actually มักแปลว่า แย้งสิ่งที่เพิ่งพูด"
+        wrong: ["Actually, I'm a teacher. (แนะนำตัวธรรมดา)"]
+        right: ["I'm a teacher. / Actually, I'm a teacher, not a nurse. (แก้ความเข้าใจผิด)"]
+      notes:
+        - {kind: tip, th: "ข่าวที่ยังไม่ยืนยัน ==ใส่ allegedly / reportedly เสมอ== กันปัญหาข้อกล่าวหา"}
+        - {kind: use, th: "ยอมรับข้อจำกัดในรายงาน The sample was, admittedly, small."}
+    check: [cefr-c2-w06-001, cefr-c2-w06-002]
+    practice: [cefr-c2-w06-003, cefr-c2-w06-004, cefr-c2-w06-005, cefr-c2-w06-006, cefr-c2-w06-007, cefr-c2-w06-008, cefr-c2-w06-009, cefr-c2-w06-010, cefr-c2-w06-011, cefr-c2-w06-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแสดงความเห็นเรื่องหนึ่งในเมืองของคุณ ใช้ admittedly และคำยืนยันในประโยคเดียวกัน
+      frame: "Admittedly, ____, but ____ is almost certainly ____."
+      model: "Admittedly, the new bus lanes have made driving slower, but they are almost certainly the main reason buses now run on time."
+    classroom: {en: "Admittedly, I haven't read it all.", th: "ยอมรับว่ายังอ่านไม่หมด"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ความเห็นต่างและความสุภาพ 12 คำ
+    lesson:
+      rule_th: "แยกระดับการเห็นด้วย ==concur (เห็นด้วย)== · acquiesce (ยอมตามไม่เต็มใจ) · demur (ลังเลแย้งสุภาพ) · dissent (แย้งชัด) และ ++คู่ที่สับสน intimate++ (บอกเป็นนัยธรรมดา) กับ insinuate (บอกเป็นนัยทางลบ)"
+      examples:
+        - {en: "I <k>concur</k> with the previous speaker.", th: "เห็นด้วย"}
+        - {en: "He finally <k>acquiesced</k> to their demands.", th: "==ยอมตามไม่เต็มใจ=="}
+        - {en: "Are you <k>insinuating</k> that I lied?", th: "นัยทางลบ"}
+        - {en: "Out of <k>deference</k> to the guests, ...", th: "เกรงใจ"}
+      words:
+        - {w: demur, pos: v., th: แย้งหรือลังเลอย่างสุภาพ, ex: "She demurred at the suggestion."}
+        - {w: concur, pos: v., th: เห็นด้วย, ex: "I concur with your analysis."}
+        - {w: dissent, pos: v./n., th: เห็นแย้ง, ex: "Two judges dissented."}
+        - {w: acquiesce, pos: v., th: ยอมตาม, ex: "He acquiesced in the decision."}
+        - {w: reiterate, pos: v., th: ย้ำซ้ำ, ex: "Let me reiterate our position."}
+        - {w: insinuate, pos: v., th: พูดเป็นนัยทางลบ, ex: "What are you insinuating?"}
+        - {w: intimate, pos: v., th: บอกเป็นนัย, ex: "She intimated that she might resign."}
+        - {w: downplay, pos: v., th: ลดความสำคัญ, ex: "Don't downplay your achievements."}
+        - {w: overstate, pos: v., th: พูดเกินจริง, ex: "It's hard to overstate its importance."}
+        - {w: euphemism, pos: n., th: คำพูดอ้อม, ex: "'Passed away' is a euphemism for 'died'."}
+        - {w: tact, pos: n., th: ความรู้กาลเทศะ, ex: "She handled it with great tact."}
+        - {w: deference, pos: n., th: ความเคารพเกรงใจ, ex: "in deference to tradition"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~intimate~~ ในความหมาย สนิท อย่างเดียว พอเจอ intimate ที่เป็นกริยา (ออกเสียง อิน-ทิ-เมท) จึงอ่านผิดความหมาย"
+        wrong: ["She intimated that she might resign. → อ่านว่า เธอสนิทกับ..."]
+        right: ["She intimated that she might resign. → เธอบอกเป็นนัยว่าอาจลาออก"]
+      notes:
+        - {kind: pin, th: "==It's hard to overstate== = สำคัญมากจนพูดเกินไม่ได้ (ความหมายบวก)"}
+        - {kind: warn, th: "demur ออกเสียง ดิ-เมอร์ ไม่ใช่ เดม-เมอร์"}
+    check: [cefr-c2-w06-013, cefr-c2-w06-014]
+    practice: [cefr-c2-w06-015, cefr-c2-w06-016, cefr-c2-w06-017, cefr-c2-w06-018, cefr-c2-w06-019, cefr-c2-w06-020, cefr-c2-w06-021, cefr-c2-w06-022, cefr-c2-w06-023, cefr-c2-w06-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าการประชุมที่มีคนเห็นต่าง ใช้ concur และ dissent หรือ acquiesce
+      frame: "Most of the team concurred with ____, but ____ dissented because ____."
+      model: "Most of the team concurred with the idea of a shorter lunch break, but two senior staff dissented because they often meet clients at midday."
+    classroom: {en: "Let me reiterate one point.", th: "ขอย้ำอีกประเด็นหนึ่ง"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: พูดอ้อมและปฏิเสธอย่างสุภาพ
+    lesson:
+      rule_th: "ภาษาอังกฤษแบบสุภาพ ==พูดเบากว่าความจริง (understatement)== และ ++ปฏิเสธสิ่งตรงข้าม (litotes เช่น not bad++ · not unaware) · แย้งสุภาพด้วย I wonder whether · not entirely · With respect"
+      examples:
+        - {en: "The food <k>wasn't bad</k>.", th: "litotes = ค่อนข้างดี"}
+        - {en: "It's <k>not exactly</k> what we hoped for.", th: "==พูดเบา แต่ผิดหวัง=="}
+        - {en: "<k>I wonder whether</k> that might be ambitious.", th: "แย้งอ้อม"}
+        - {en: "<k>With the greatest respect</k>, ...", th: "สุภาพแต่จะแย้งแรง"}
+      signals:
+        - {label_th: "อ้อมของ ไม่", words: ["not entirely / not quite", "not exactly", "I'm not sure that ...", "I wonder whether ..."]}
+      thai_trap:
+        intro_th: "คนไทยตีความคำพูดอังกฤษ ~~ตามตัวอักษร~~ เช่น เข้าใจว่า With the greatest respect คือชม หรือ not bad คือแย่"
+        wrong: ["ตอบว่า 'not bad' แปลว่าไม่ดี", "ตอบว่า 'With respect' แปลว่ากำลังชม"]
+        right: ["'not bad' = ค่อนข้างดี", "'With respect' = สุภาพแต่กำลังจะแย้ง"]
+      notes:
+        - {kind: tip, th: "ยิ่งคำนำสุภาพมาก ==ยิ่งเตรียมฟังการแย้งที่หนัก=="}
+        - {kind: use, th: "ปฏิเสธนัด I'd love to, but I'm afraid ..."}
+    check: [cefr-c2-w06-025, cefr-c2-w06-026]
+    practice: [cefr-c2-w06-027, cefr-c2-w06-028, cefr-c2-w06-029, cefr-c2-w06-030, cefr-c2-w06-031, cefr-c2-w06-032, cefr-c2-w06-033, cefr-c2-w06-034]
+    use:
+      prompt_th: เขียน 2 ประโยคแย้งข้อเสนอของหัวหน้าอย่างสุภาพ
+      frame: "I can see why ____, but I'm not entirely convinced that ____. I wonder whether ____."
+      model: "I can see why you want to launch in March, but I'm not entirely convinced that the team will be ready. I wonder whether we might aim for April instead."
+    classroom: {en: "I'm not entirely convinced.", th: "ยังไม่ค่อยเชื่อเท่าไร"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านจดหมายโต้ตอบทางการและฟังการประชุมที่เห็นต่าง
+    lesson:
+      rule_th: "จดหมายแย้งที่สุภาพเรียงเป็น ==ขอบคุณ → ยอมรับ → แย้ง → เสนอทางเลือก== คำถามมักถามว่า ++แย้งข้อไหน ยอมรับข้อไหน++"
+      examples:
+        - {en: "<k>We concur that</k> the timetable cannot continue.", th: "ยอมรับ"}
+        - {en: "<k>With the greatest respect, however,</k> ...", th: "==เริ่มแย้ง=="}
+        - {en: "<k>We do wonder, though, whether</k> ...", th: "เสนอทางเลือก"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นคำขอบคุณยาวแล้ว ~~ตอบว่าผู้เขียนสนับสนุน~~ ทั้งที่คำขอบคุณเป็นแค่การเปิดอย่างสุภาพ"
+        wrong: ["ตอบว่าคณะกรรมการเห็นด้วยกับข้อเสนอทั้งหมด"]
+        right: ["คณะกรรมการยอมรับว่าต้องเปลี่ยน แต่แย้งว่าผลกระทบไม่น้อยอย่างที่อ้าง"]
+      notes:
+        - {kind: tip, th: "แยกสองคอลัมน์ ==ยอมรับอะไร / แย้งอะไร== ก่อนตอบ"}
+        - {kind: use, th: "ฟังประชุม Broadly, yes ... = เห็นด้วยโดยรวม แต่กำลังจะมีข้อแม้"}
+    check: [cefr-c2-w06-036, cefr-c2-w06-037]
+    practice: [cefr-c2-w06-035, cefr-c2-w06-038, cefr-c2-w06-039, cefr-c2-w06-040, cefr-c2-w06-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปจุดยืนของประธานคณะกรรมการในจดหมายฉบับที่สอง
+      frame: "The chair accepts that ____, but argues that ____."
+      model: "The chair accepts that the timetable has to change, but argues that the proposed changes would exclude many working families."
+    classroom: {en: "I take your point, but ...", th: "เข้าใจประเด็นของคุณ แต่..."}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 35
+    title_th: ห้องฝึกเขียน จดหมายคัดค้านข้อเสนออย่างสุภาพแต่หนักแน่น 280 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนจดหมายประมาณ 280 คำคัดค้านข้อเสนอหนึ่งอย่างสุภาพ (เช่น นิติบุคคลอาคารจะขึ้นค่าส่วนกลาง 40% · บริษัทจะยกเลิกการทำงานจากบ้าน · เทศบาลจะตัดต้นไม้ริมถนนเพื่อขยายถนน) ขอบคุณ ยอมรับเหตุผลของอีกฝ่าย แย้งพร้อมหลักฐาน และเสนอทางเลือก"
+      frame:
+        - "Dear ____, Thank you for ____. We fully appreciate that ____."
+        - "We concur that ____. With respect, however, we are not entirely convinced that ____."
+        - "Admittedly, ____; nevertheless, ____."
+        - "We wonder whether ____ might ____."
+        - "We would welcome the opportunity to ____. Yours sincerely, ____"
+      model_pass: "Dear Building Manager, Thank you for your letter explaining the proposed 40% increase in the monthly service charge. We fully appreciate that maintenance costs have risen, and we concur that some increase is unavoidable. With respect, however, we are not entirely convinced that an increase of this size is justified. The letter mentions repairs to the swimming pool and the lifts, but it does not explain how the total figure was calculated. Admittedly, the lifts are old and need attention; nevertheless, many residents are retired and live on fixed incomes, and a sudden rise of this kind would cause real hardship. We would not wish to appear ungrateful for the work your team does. We do wonder, though, whether the increase might be introduced in stages over two years, and whether some of the pool repairs could be postponed. We would also be grateful for a detailed breakdown of the costs. We would welcome the opportunity to discuss these points at the next residents' meeting before any final decision is taken. Yours sincerely, Kanya Wong, on behalf of Building C residents"
+      model_good: "Dear Building Manager, Thank you for your letter of 3 November setting out the proposed 40% increase in the monthly service charge. We fully appreciate the financial pressures you describe, and we concur that some adjustment is unavoidable after several years without one. With the greatest respect, however, we are not entirely convinced that an increase of this magnitude is either necessary or fair. The letter refers in general terms to the lifts and the swimming pool, but offers no breakdown of how the overall figure was reached. Admittedly, the lifts are overdue for replacement; nevertheless, it is not unreasonable for residents to ask why the full cost should fall on a single year's budget. Many of us are retired and live on fixed incomes, and a rise of this kind would, in practice, force some long-standing residents to consider leaving. We would not wish to appear ungrateful for the considerable work your team undertakes. We do wonder, though, whether the increase might be phased in over two or three years, and whether the more cosmetic pool improvements could be deferred. A detailed account of the projected costs would also go a long way towards reassuring residents. We would welcome the opportunity to discuss these alternatives at the next residents' meeting, before any final decision is taken. Yours sincerely, Kanya Wong, on behalf of the residents of Building C"
+      steps_th:
+        - เลือกข้อเสนอแล้วจดสิ่งที่ยอมรับได้ สิ่งที่แย้ง หลักฐาน และทางเลือก
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 250–300 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนหาคำที่ฟังกล่าวหาหรือแรงเกินไป แล้วปรับให้อ้อมขึ้น
+      checklist_th:
+        - มีครบสี่ขั้น ขอบคุณ ยอมรับ แย้ง เสนอทางเลือก
+        - ใช้ภาษาอ้อมอย่างน้อย 3 จุด (not entirely · I wonder whether · with respect · not unreasonable)
+        - ใช้ stance adverb อย่างน้อย 2 คำ (admittedly · nevertheless · in practice)
+        - หนักแน่นแต่ไม่หยาบ ไม่กล่าวหา และยาวประมาณ 280 คำ
+    practice: [cefr-c2-w06-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 6
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [4, 5, 6], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
