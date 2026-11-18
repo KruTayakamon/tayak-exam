@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 5 · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 5
+phase: 2
+theme_th: การอ้างอิงและการผูกเรื่องในข้อความยาว
+focus_th: การละ (gapping · ละหลัง to · ในการเปรียบเทียบ) · คำแทน (so · not · one · do so/it/that) · การผูกเรื่อง (this + คำนามสรุป · the former/the latter · สายการอ้างอิง)
+can_do_th:
+  - ตามสายการอ้างอิงในข้อความยาวได้
+  - สังเคราะห์ความเห็นของผู้พูดหลายคนได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: การละและคำแทน
+    lesson:
+      rule_th: "เจ้าของภาษาไม่พูดซ้ำ ==ละส่วนที่ซ้ำแต่คงกริยาช่วยไว้== (he said he would, and he did) · ++ใช้คำแทน so / not / one / do so++ · ทางการละกริยาด้วยจุลภาค (the first is cheaper; the second, faster)"
+      examples:
+        - {en: "Somchai ordered the fish, and his wife the chicken.", th: "==gapping ละกริยา=="}
+        - {en: "We were asked to cut costs, and we have <k>done so</k>.", th: "do so ทางการ"}
+        - {en: "\"Will it rain?\" \"I hope <k>not</k>.\"", th: "แทนประโยค"}
+        - {en: "Prices are higher than they <k>were</k>.", th: "คงกริยาช่วย"}
+      signals:
+        - {label_th: "คำแทน", words: ["so / not แทนประโยค", "one / ones แทนคำนาม", "do so / do that แทนการกระทำ", "to แทนกริยาหลัง to"]}
+      thai_trap:
+        intro_th: "ภาษาไทยละได้ทั้งหมด คนจึงละ ~~to หรือกริยาช่วย~~ ที่ภาษาอังกฤษต้องคงไว้"
+        wrong: ["I'd like to come, but I'm not able.", "\"Is it ready?\" \"I think yes.\""]
+        right: ["I'd like to come, but I'm not able to.", "\"Is it ready?\" \"I think so.\""]
+      notes:
+        - {kind: tip, th: "ละกริยาหลักได้ ==แต่กริยาช่วยต้องเหลือ== และต้องตรงกับประโยคแรก"}
+        - {kind: use, th: "ตอบแบบเสียดาย I'm afraid so / I'm afraid not."}
+    check: [cefr-c2-w05-001, cefr-c2-w05-002]
+    practice: [cefr-c2-w05-003, cefr-c2-w05-004, cefr-c2-w05-005, cefr-c2-w05-006, cefr-c2-w05-007, cefr-c2-w05-008, cefr-c2-w05-009, cefr-c2-w05-010, cefr-c2-w05-011, cefr-c2-w05-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเปรียบเทียบสองตัวเลือก ใช้ gapping หรือ do so อย่างน้อย 1 จุด
+      frame: "The first ____ is ____; the second, ____. I was asked to ____, and I did so ____."
+      model: "The first flat is closer to work; the second, much cheaper. I was asked to choose by Friday, and I did so the same afternoon."
+    classroom: {en: "I'm afraid not.", th: "เสียดายแต่คงไม่"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การอ้างอิงและการเชื่อมโยง 12 คำ
+    lesson:
+      rule_th: "คำชุดนี้ช่วยผูกข้อความยาว ==ชี้ย้อน aforementioned== · erstwhile · respective ++ชี้ไปข้างหน้าหรือผล ensuing++ · thereafter · hence · whereupon และระบุให้ชัด namely · chiefly · per se · in lieu of"
+      examples:
+        - {en: "the <k>aforementioned</k> problems", th: "ที่กล่าวข้างต้น"}
+        - {en: "their <k>respective</k> offices", th: "==ของแต่ละคน=="}
+        - {en: "The bridge is unsafe; <k>hence</k> the repairs.", th: "ก็เลย + คำนาม"}
+        - {en: "one candidate, <k>namely</k> the youngest", th: "ก็คือ"}
+      words:
+        - {w: aforementioned, pos: adj., th: ที่กล่าวถึงข้างต้น, ex: "the aforementioned report"}
+        - {w: respective, pos: adj., th: ของแต่ละคน, ex: "They went to their respective homes."}
+        - {w: ensuing, pos: adj., th: ที่ตามมา, ex: "the ensuing debate"}
+        - {w: erstwhile, pos: adj., th: ที่เคยเป็น, ex: "his erstwhile friend"}
+        - {w: conversely, pos: adv., th: ในทางกลับกัน, ex: "Conversely, prices fell in the north."}
+        - {w: thereafter, pos: adv., th: หลังจากนั้น, ex: "She moved to Paris and thereafter to Rome."}
+        - {w: hence, pos: adv., th: ก็เลย, ex: "It's handmade, hence the price."}
+        - {w: whereupon, pos: conj., th: ซึ่งทันทีหลังจากนั้น, ex: "He insulted her, whereupon she left."}
+        - {w: namely, pos: adv., th: ก็คือ, ex: "two cities, namely Hanoi and Hue"}
+        - {w: chiefly, pos: adv., th: เป็นหลัก, ex: "chiefly because of cost"}
+        - {w: per se, pos: adv., th: โดยตัวมันเอง, ex: "Money is not the problem per se."}
+        - {w: in lieu of, pos: prep., th: แทน, ex: "a voucher in lieu of cash"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~respectively แทน respective~~ และใช้ hence ตามด้วยประโยคเต็มในภาษาพูด ซึ่งฟังแข็ง"
+        wrong: ["They returned to their offices respective.", "It was late, hence we went home."]
+        right: ["They returned to their respective offices.", "It was late, so we went home."]
+      notes:
+        - {kind: pin, th: "==hence + คำนาม== ฟังเป็นธรรมชาติที่สุด (hence the delay)"}
+        - {kind: warn, th: "คำส่วนใหญ่ชุดนี้ทางการ ใช้ในงานเขียนมากกว่าพูด"}
+    check: [cefr-c2-w05-013, cefr-c2-w05-014]
+    practice: [cefr-c2-w05-015, cefr-c2-w05-016, cefr-c2-w05-017, cefr-c2-w05-018, cefr-c2-w05-019, cefr-c2-w05-020, cefr-c2-w05-021, cefr-c2-w05-022, cefr-c2-w05-023, cefr-c2-w05-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบรายงาน ใช้ hence และ namely อย่างละครั้ง
+      frame: "____, hence ____. Only one ____ was ____, namely ____."
+      model: "The supplier changed its delivery schedule, hence the delay in our orders. Only one product was affected seriously, namely the imported coffee."
+    classroom: {en: "Hence the confusion.", th: "ถึงได้สับสนกันนี่เอง"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ผูกเรื่องในข้อความยาว
+    lesson:
+      rule_th: "ข้อความยาวผูกกันด้วย ==this / these + คำนามสรุป (this measure== · these concerns) และ ++the former / the latter++ คำนามสรุปที่ดีไม่ใช่แค่แทนคำ แต่ตีความด้วย เช่น this haste · this success"
+      examples:
+        - {en: "<k>This measure</k> has since been copied.", th: "==this + คำนามสรุป=="}
+        - {en: "<k>The latter</k> were more concerned ...", th: "ตัวหลัง"}
+        - {en: "<k>These concerns</k>, however, proved unfounded.", th: "เดาเนื้อหาย่อหน้าก่อนได้"}
+        - {en: "There are, however, <k>notable exceptions</k>.", th: "ประโยคแรกบอกหน้าที่ย่อหน้า"}
+      signals:
+        - {label_th: "คำนามสรุปที่ใช้บ่อย", words: ["this measure / policy", "these concerns / findings", "this trend / shift", "such exceptions"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ สิ่งนี้ / เรื่องนี้ คนจึงขึ้นประโยคด้วย ~~This~~ เฉย ๆ ทำให้ผู้อ่านไม่รู้ว่า This หมายถึงอะไร"
+        wrong: ["The council cut bus routes and raised fares. This made people angry."]
+        right: ["The council cut bus routes and raised fares. These changes made people angry."]
+      notes:
+        - {kind: tip, th: "ขึ้นประโยคด้วย This ==ให้ตามด้วยคำนามเสมอ== ในงานเขียนทางการ"}
+        - {kind: use, th: "ข้อสอบเติมย่อหน้า หาคำว่า these / such / the latter ในย่อหน้าถัดไป"}
+    check: [cefr-c2-w05-025, cefr-c2-w05-026]
+    practice: [cefr-c2-w05-027, cefr-c2-w05-028, cefr-c2-w05-029, cefr-c2-w05-030, cefr-c2-w05-031, cefr-c2-w05-032, cefr-c2-w05-033, cefr-c2-w05-034]
+    use:
+      prompt_th: เขียน 3 ประโยคต่อกัน ประโยคที่สองและสามขึ้นต้นด้วยคำนามสรุปที่อ้างถึงประโยคก่อน
+      frame: "____. This ____ ____. These ____, however, ____."
+      model: "Our town opened a night market last year. This decision brought hundreds of new visitors. These visitors, however, also brought traffic and noise."
+    classroom: {en: "The latter, I think.", th: "อันหลังมั้ง"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความยาวที่ผูกย่อหน้าและฟังการอภิปราย
+    lesson:
+      rule_th: "ข้อสอบเรียงหรือเติมย่อหน้าทดสอบ ==สายการอ้างอิงระหว่างย่อหน้า== ++มองหาคำชี้ย้อน (such++ · these · the aforementioned) ที่ต้นย่อหน้า แล้วถามว่ามันชี้ไปที่อะไรในย่อหน้าก่อน"
+      examples:
+        - {en: "<k>Such exceptions</k> highlight ...", th: "ชี้ย้อนไปตัวอย่างก่อนหน้า"}
+        - {en: "<k>It is in these moments</k> that ...", th: "==ชี้ย้อนไปสถานการณ์ที่เพิ่งพูด=="}
+        - {en: "<k>The aforementioned</k> bus stop ...", th: "ผูกตอนจบกับตอนต้น"}
+      thai_trap:
+        intro_th: "ผู้อ่านตามคำชี้ย้อนไป ~~แค่ประโยคก่อนหน้า~~ ทั้งที่บางคำชี้ไกลถึงย่อหน้าแรก"
+        wrong: ["คิดว่า the aforementioned bus stop หมายถึงที่นั่งบนรถใน [C]"]
+        right: ["ป้ายรถเมล์ถูกพูดถึงครั้งแรกใน [A] ผู้เขียนผูกตอนจบกลับไปที่ตอนต้น"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นคำชี้ย้อน ==แล้วลากเส้นไปหาคำที่มันชี้== ทีละคำ"}
+        - {kind: use, th: "ฟังอภิปรายหลายคน จดชื่อแล้วจดว่าใครเห็นด้วยกับใคร"}
+    check: [cefr-c2-w05-036, cefr-c2-w05-037]
+    practice: [cefr-c2-w05-035, cefr-c2-w05-038, cefr-c2-w05-039, cefr-c2-w05-040, cefr-c2-w05-041]
+    use:
+      prompt_th: เขียน 2 ประโยคอธิบายว่าบทความเรื่องการต่อแถวผูกตอนจบกับตอนต้นอย่างไร
+      frame: "The writer opens with ____ and returns to it at the end by ____. This makes ____."
+      model: "The writer opens with a bus stop in Bangkok and returns to it at the end by calling it 'the aforementioned bus stop'. This makes the article feel complete and shows how the small example connects to the larger idea."
+    classroom: {en: "Going back to your earlier point ...", th: "ย้อนกลับไปที่ประเด็นที่คุณพูดก่อนหน้า..."}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด สังเคราะห์ความเห็นของผู้พูดสามคนแล้วเสนอข้อสรุป 3 นาที
+    lab:
+      mode: speak
+      prompt_th: "อ่านความเห็นสามคนนี้ แล้วพูด 3 นาทีสรุปว่าแต่ละคนคิดอย่างไร ตรงกันและต่างกันตรงไหน และเสนอข้อสรุปของคุณ — หัวข้อ: บริษัทควรให้พนักงานทำงานสี่วันต่อสัปดาห์ไหม · น้อย (ฝ่ายบุคคล): ช่วยรักษาพนักงานไว้ ลดการลาออก · ต้น (ฝ่ายขาย): ลูกค้าติดต่อไม่ได้ในวันที่หยุด เสียลูกค้า · ฝน (ผู้จัดการ): ทดลองได้ แต่ต้องวัดผลงานจริง ไม่ใช่ดูแค่ความพอใจ"
+      frame:
+        - "Three colleagues gave their views on ____."
+        - "Noi focused chiefly on ____; Ton, on ____."
+        - "Fon took a middle position, namely that ____."
+        - "Where Noi and Fon agree is ____. Conversely, Ton ____."
+        - "On balance, I'd suggest ____, hence ____."
+      model_pass: "Three colleagues gave their views on whether we should move to a four-day week. Noi, from HR, focused chiefly on keeping staff, because she thinks fewer people would resign. Ton, from sales, was worried about customers, who might not be able to contact us on the extra day off. Fon, our manager, took a middle position, namely that we could try it but should measure real results, not just how happy people are. Where Noi and Fon agree is that the idea is worth testing. Conversely, Ton thinks the risk to sales is too high. On balance, I'd suggest a three-month trial with a rota, so that someone is always available for customers. Hence we could keep both the staff and the clients happy."
+      model_good: "Three colleagues have given their views on whether we should move to a four-day week, and their positions overlap more than they might first appear. Noi, speaking for HR, focused chiefly on retention: in her view, the extra day would reduce resignations, which have been costly. Ton, from sales, raised the opposite concern, namely that clients who can't reach us on the extra day may simply go elsewhere. Fon, as manager, took a more cautious line. She is not opposed to the idea per se, but insists that any trial be judged on output rather than on satisfaction surveys. Where Noi and Fon agree, then, is that the idea deserves a test. Ton's objection, conversely, is not really to the four-day week itself but to the gap in coverage it might create. If that is the case, the solution may be organisational rather than a matter of principle: a staggered rota would keep the office open five days while giving each person four. On balance, I'd recommend a three-month pilot on that basis, with clear targets agreed in advance. Hence each of the three concerns would be addressed rather than dismissed."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - จดความเห็นของแต่ละคนเป็นคำสำคัญ แล้วหาจุดที่ตรงกันและต่างกัน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - สรุปความเห็นครบทั้งสามคนอย่างเที่ยงตรง
+        - ชี้จุดที่ตรงกันและต่างกันอย่างน้อยอย่างละ 1 จุด
+        - ใช้คำเชื่อมและคำอ้างอิงของสัปดาห์อย่างน้อย 3 คำ (namely · conversely · hence · chiefly)
+        - มีข้อสรุปของตัวเองที่ตอบความกังวลของแต่ละฝ่าย และพูดได้ประมาณ 3 นาที
+    practice: [cefr-c2-w05-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 5
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [3, 4, 5], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

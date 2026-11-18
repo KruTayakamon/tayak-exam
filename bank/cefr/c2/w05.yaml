@@ -1,0 +1,578 @@
+# คอร์ส c2 · สัปดาห์ 5 · การอ้างอิงและการผูกเรื่องในข้อความยาว · gapping · pro-forms · do so/it/that · การละในการเปรียบเทียบ · lexical cohesion
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · การละและคำแทน ----------
+- id: cefr-c2-w05-001
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 1
+  stem: "Somchai ordered the fish, and his wife ____ the chicken."
+  choices:
+    - {t: "(nothing)", why: "gapping ++ละกริยาที่ซ้ำได้++ (his wife the chicken)"}
+    - {t: did, why: "did the chicken ผิด เพราะ do แทนกริยาที่มีกรรมต่างกันแบบนี้ไม่ได้"}
+    - {t: so did, why: "so did ใช้เมื่อทำสิ่งเดียวกัน"}
+    - {t: does, why: "ผิด tense และผิดรูป"}
+  explain: "gapping = ==ละกริยาที่ซ้ำในประโยคที่สอง== (ทางการ)"
+  status: draft
+- id: cefr-c2-w05-002
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 1
+  stem: "The committee asked us to reduce costs, and we have ____."
+  choices:
+    - {t: done so, why: "แทนการกระทำที่พูดถึงแล้ว (ทางการ) ++done so++"}
+    - {t: done it so, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: made so, why: "make ไม่ใช้แทนการกระทำ"}
+    - {t: so, why: "we have so ขาดกริยา"}
+  explain: "==do so== แทน กริยา + ส่วนที่ตามมา (ทางการ)"
+  status: draft
+- id: cefr-c2-w05-003
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "\"Will the shop be open tomorrow?\" \"I expect ____.\""
+  choices:
+    - {t: so, why: "แทนประโยคบอกเล่าหลัง expect / think / hope ใช้ ++so++"}
+    - {t: it, why: "expect it แปลว่าคาดสิ่งนั้น ไม่ใช่ตอบว่าใช่"}
+    - {t: that, why: "I expect that ต้องตามด้วยประโยค"}
+    - {t: "yes", why: "I expect yes ไม่ใช่ภาษาอังกฤษมาตรฐาน"}
+  explain: "==I think / expect / hope so== · ปฏิเสธ I hope not / I don't think so"
+  status: draft
+- id: cefr-c2-w05-004
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "\"Is it going to rain?\" \"I hope ____. The garden needs water.\""
+  choices:
+    - {t: so, why: "หวังว่าใช่ ++I hope so++"}
+    - {t: not, why: "I hope not แปลว่าหวังว่าไม่ ขัดกับสวนต้องการน้ำ"}
+    - {t: it, why: "I hope it ผิดรูป"}
+    - {t: that, why: "I hope that ต้องตามด้วยประโยค"}
+  explain: "หวังว่าใช่ ==I hope so== · หวังว่าไม่ I hope not"
+  status: draft
+- id: cefr-c2-w05-005
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "Prices are higher this year than they ____ last year."
+  choices:
+    - {t: were, why: "การละในการเปรียบเทียบ ++คงกริยาช่วยไว้++ (than they were high last year)"}
+    - {t: did, why: "เทียบด้วย be (are higher) ต้องใช้ were"}
+    - {t: had, why: "had ไม่ตรงกับกริยาหลัก"}
+    - {t: was, why: "they ใช้ were จึงใช้ไม่ได้"}
+  explain: "เทียบแล้วละ ==กริยาช่วยต้องตรงกับประโยคหลัก=="
+  status: draft
+- id: cefr-c2-w05-006
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "I'd love to help with the event, but I'm afraid I won't be able ____."
+  choices:
+    - {t: to, why: "ละกริยาหลัง to ได้ ++able to (help)++"}
+    - {t: "(nothing)", why: "able ต้องมี to ตาม"}
+    - {t: to do, why: "to do ฟังแปลก ใช้ to ก็พอ"}
+    - {t: it, why: "able it ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==ละกริยาหลัง to ได้ แต่ต้องคง to ไว้== (I'd like to · I'm not able to)"
+  status: draft
+- id: cefr-c2-w05-007
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "He said he would apologise, and he ____, the very next morning."
+  choices:
+    - {t: did, why: "คงกริยาช่วยของการกระทำที่ละไว้ ++did (apologise)++"}
+    - {t: would, why: "would บอกแผน ไม่ใช่สิ่งที่เกิดจริง"}
+    - {t: has, why: "the very next morning ต้องใช้อดีตธรรมดา"}
+    - {t: was, why: "apologise ใช้ did ไม่ใช่ was"}
+  explain: "ละกริยาหลัก ==เหลือกริยาช่วย (did / will / has)=="
+  status: draft
+- id: cefr-c2-w05-008
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "I lost my umbrella, so I bought a new ____."
+  choices:
+    - {t: one, why: "แทนคำนามนับได้ ++one++"}
+    - {t: it, why: "it หมายถึงร่มเดิม"}
+    - {t: that, why: "a new that ผิดรูป"}
+    - {t: some, why: "some ใช้กับนามนับไม่ได้หรือพหูพจน์"}
+  explain: "==one / ones== แทนคำนามนับได้ที่พูดถึงแล้ว · it แทนสิ่งเดิม"
+  status: draft
+- id: cefr-c2-w05-009
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 3
+  stem: "\"Someone left the door unlocked.\" \"I know. I did ____ by mistake.\" Which word fits best?"
+  choices:
+    - {t: that, why: "do that ++ชี้การกระทำเฉพาะที่เพิ่งพูดถึง++ ฟังเป็นธรรมชาติ"}
+    - {t: so, why: "do so ทางการเกินไปในบทสนทนาแบบนี้"}
+    - {t: one, why: "one แทนคำนาม ไม่ใช่การกระทำ"}
+    - {t: such, why: "do such ไม่ใช่รูปมาตรฐาน"}
+  explain: "==do that / do it== พูดทั่วไป · do so ทางการ"
+  status: draft
+- id: cefr-c2-w05-010
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 3
+  stem: "Which sentence uses ellipsis correctly?"
+  choices:
+    - {t: "Some staff prefer to work from home; others, in the office.", why: "gapping ละ prefer to work ++ใส่จุลภาคแทน++"}
+    - {t: "Some staff prefer to work from home; others prefer, in the office.", why: "ละไม่ครบ กริยาค้างไม่มีส่วนเติม"}
+    - {t: "Some staff prefer to work from home; others do in the office.", why: "do แทน prefer to work แบบนี้ไม่ได้"}
+    - {t: "Some staff prefer to work from home; others so in the office.", why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "gapping ทางการ ==ใช้จุลภาคแทนกริยาที่ละ=="
+  status: draft
+- id: cefr-c2-w05-011
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "\"Do you think they'll accept?\" \"I'm afraid ____.\" (คิดว่าไม่)"
+  choices:
+    - {t: not, why: "คิดว่าไม่ (แบบเสียดาย) ++I'm afraid not++"}
+    - {t: so, why: "I'm afraid so แปลว่าคิดว่าใช่ (แบบเสียดาย)"}
+    - {t: "no", why: "I'm afraid no ไม่ใช่รูปมาตรฐาน"}
+    - {t: it, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==I'm afraid so / not== ตอบแบบเสียดาย"
+  status: draft
+- id: cefr-c2-w05-012
+  kind: type
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: "These shoes are too small. Do you have any bigger o___? (แทนคำนามพหูพจน์)"
+  answer: ones
+  accept: [ones]
+  why: "ones แทนคำนามพหูพจน์ (shoes)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การอ้างอิงและการเชื่อมโยง ----------
+- id: cefr-c2-w05-013
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 1
+  stem: "The ____ problems will be discussed in more detail in section 3."
+  choices:
+    - {t: aforementioned, why: "ที่กล่าวถึงข้างต้น ใช้ ++aforementioned++"}
+    - {t: ensuing, why: "ensuing แปลว่าที่ตามมา"}
+    - {t: erstwhile, why: "erstwhile แปลว่าในอดีต"}
+    - {t: respective, why: "respective แปลว่าของแต่ละคน"}
+  explain: "aforementioned = ==ที่กล่าวถึงข้างต้น== (ทางการ)"
+  status: draft
+- id: cefr-c2-w05-014
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 1
+  stem: "Anna and Ben returned to their ____ offices after the meeting."
+  choices:
+    - {t: respective, why: "ของแต่ละคน ใช้ ++respective++"}
+    - {t: aforementioned, why: "aforementioned ไม่ได้แปลว่าของแต่ละคน"}
+    - {t: ensuing, why: "ensuing ไม่เข้ากับบริบท"}
+    - {t: erstwhile, why: "erstwhile แปลว่าในอดีต"}
+  explain: "respective = ==ของแต่ละคน/แต่ละสิ่ง== (respectively = ตามลำดับ)"
+  status: draft
+- id: cefr-c2-w05-015
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "The decision was announced on Monday, and the ____ protests lasted for a week."
+  choices:
+    - {t: ensuing, why: "ที่ตามมา ใช้ ++ensuing++"}
+    - {t: erstwhile, why: "erstwhile ขัดกับลำดับเวลา"}
+    - {t: aforementioned, why: "ยังไม่ได้กล่าวถึงการประท้วง"}
+    - {t: respective, why: "ไม่เข้ากับบริบท"}
+  explain: "ensuing = ==ที่เกิดตามมา=="
+  status: draft
+- id: cefr-c2-w05-016
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "The two companies, ____ rivals, are now working together on a joint project."
+  choices:
+    - {t: erstwhile, why: "เคยเป็น ในอดีต ใช้ ++erstwhile++"}
+    - {t: ensuing, why: "ensuing rivals ขัดกับบริบท"}
+    - {t: respective, why: "respective rivals ไม่มีความหมายนี้"}
+    - {t: aforementioned, why: "ไม่ได้กล่าวถึงมาก่อน"}
+  explain: "erstwhile = ==ที่เคยเป็น== ≈ former"
+  status: draft
+- id: cefr-c2-w05-017
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "Some people find early mornings productive; ____, others work best late at night."
+  choices:
+    - {t: conversely, why: "กลับกัน ในทางตรงข้าม ใช้ ++conversely++"}
+    - {t: hence, why: "hence บอกผล จึงใช้ไม่ได้"}
+    - {t: namely, why: "namely แปลว่าก็คือ"}
+    - {t: thereafter, why: "thereafter บอกเวลา"}
+  explain: "conversely = ==ในทางกลับกัน=="
+  status: draft
+- id: cefr-c2-w05-018
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "She trained as a nurse and ____ worked in a hospital for twenty years."
+  choices:
+    - {t: thereafter, why: "หลังจากนั้น ใช้ ++thereafter++"}
+    - {t: conversely, why: "conversely บอกความตรงข้าม"}
+    - {t: namely, why: "namely แปลว่าก็คือ"}
+    - {t: per se, why: "per se แปลว่าโดยตัวมันเอง"}
+  explain: "thereafter = ==หลังจากนั้น== (ทางการ)"
+  status: draft
+- id: cefr-c2-w05-019
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "The bridge is old and unsafe; ____ the need for urgent repairs."
+  choices:
+    - {t: hence, why: "ก็เลย (ตามด้วยคำนามได้) ใช้ ++hence++"}
+    - {t: conversely, why: "ไม่บอกผล จึงใช้ไม่ได้"}
+    - {t: namely, why: "namely ไม่บอกผล"}
+    - {t: whereupon, why: "whereupon บอกเหตุการณ์ที่เกิดทันทีหลังจากนั้น"}
+  explain: "hence = ==ก็เลย== (ตามด้วยคำนามได้: hence the need)"
+  status: draft
+- id: cefr-c2-w05-020
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "The speaker made a joke about the minister, ____ half the audience walked out."
+  choices:
+    - {t: whereupon, why: "ซึ่งทันทีที่นั้น ใช้ ++whereupon++"}
+    - {t: hence, why: "hence ต้องตามด้วยคำนามหรือเป็นประโยคใหม่"}
+    - {t: conversely, why: "ไม่บอกลำดับเหตุการณ์"}
+    - {t: namely, why: "บทไม่ได้พูดว่า namely"}
+  explain: "whereupon = ==ซึ่งทันทีหลังจากนั้น== (ทางการ)"
+  status: draft
+- id: cefr-c2-w05-021
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "Only one candidate met all the criteria, ____ the youngest applicant."
+  choices:
+    - {t: namely, why: "ก็คือ ระบุให้ชัด ใช้ ++namely++"}
+    - {t: hence, why: "hence บอกผล จึงใช้ไม่ได้"}
+    - {t: conversely, why: "ไม่เข้ากับบริบท"}
+    - {t: chiefly, why: "chiefly แปลว่าส่วนใหญ่"}
+  explain: "namely = ==ก็คือ ได้แก่== (ระบุเฉพาะ)"
+  status: draft
+- id: cefr-c2-w05-022
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "The museum attracts visitors ____ from Europe and Japan."
+  choices:
+    - {t: chiefly, why: "ส่วนใหญ่ เป็นหลัก ใช้ ++chiefly++"}
+    - {t: namely, why: "namely ต้องตามหลังสิ่งที่จะระบุ"}
+    - {t: per se, why: "ไม่เข้ากับบริบท"}
+    - {t: whereupon, why: "บทไม่ได้พูดว่า whereupon"}
+  explain: "chiefly = ==ส่วนใหญ่ เป็นหลัก== ≈ mainly"
+  status: draft
+- id: cefr-c2-w05-023
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 3
+  stem: "Technology is not the problem ____; it's how we use it."
+  choices:
+    - {t: per se, why: "โดยตัวมันเอง ใช้ ++per se++"}
+    - {t: in lieu of, why: "in lieu of ต้องตามด้วยคำนาม"}
+    - {t: namely, why: "ไม่เข้ากับบริบท"}
+    - {t: hence, why: "บทไม่ได้พูดว่า hence"}
+  explain: "per se = ==โดยตัวมันเอง== (มักวางหลังคำนาม)"
+  status: draft
+- id: cefr-c2-w05-024
+  kind: type
+  skill: vo
+  topic: reference-linking
+  level: 2
+  stem: "Staff can take an extra day off in l___ of overtime pay. (แทน)"
+  answer: lieu
+  accept: [lieu]
+  why: "in lieu of = แทน (ทางการ)"
+  status: draft
+# ---------- วันที่ 3 · ผูกเรื่องในข้อความยาว ----------
+- id: cefr-c2-w05-025
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 1
+  stem: "\"The government introduced a sugar tax in 2020. ____ has since been copied by three other countries.\""
+  choices:
+    - {t: This measure, why: "this + ++คำนามสรุป++ อ้างถึงสิ่งที่พูดก่อนอย่างชัด"}
+    - {t: It's, why: "It's has ผิดรูป"}
+    - {t: Which, why: "Which ขึ้นประโยคใหม่ไม่ได้"}
+    - {t: Such, why: "Such has ไม่ถูกรูป"}
+  explain: "==This / These + คำนามสรุป== ผูกประโยคใหม่กับเนื้อหาเดิม"
+  status: draft
+- id: cefr-c2-w05-026
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 1
+  stem: "\"Many cities have banned cars from their centres. Paris and Oslo are two ____.\""
+  choices:
+    - {t: examples, why: "คำนามสรุปที่เชื่อมกับข้อความก่อน ++two examples++"}
+    - {t: reasons, why: "ปารีสกับออสโลไม่ใช่เหตุผล"}
+    - {t: results, why: "ไม่ใช่ผล จึงใช้ไม่ได้"}
+    - {t: problems, why: "ไม่ใช่ปัญหา จึงใช้ไม่ได้"}
+  explain: "lexical cohesion ==ใช้คำนามที่บอกความสัมพันธ์== (examples · reason · result)"
+  status: draft
+- id: cefr-c2-w05-027
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 2
+  stem: "\"Teachers and parents were surveyed. The ____ were more concerned about screen time, the former about homework.\" Fill the gap."
+  choices:
+    - {t: latter, why: "the former / the latter ++อ้างถึงตัวแรก / ตัวหลัง++ (ที่นี่ the latter = parents)"}
+    - {t: former, why: "the former ใช้ในส่วนหลังของประโยคแล้ว"}
+    - {t: last, why: "the last ไม่ใช่คู่กับ the former"}
+    - {t: other, why: "the other ไม่ใช้คู่กับ the former"}
+  explain: "==the former = ตัวแรก== · the latter = ตัวหลัง"
+  status: draft
+- id: cefr-c2-w05-028
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 2
+  stem: "Which word best avoids repeating \"the decision\" in \"The board made the decision quickly. ____ surprised many shareholders.\""
+  choices:
+    - {t: This haste, why: "สรุปลักษณะของการกระทำ ++This haste++ เชื่อมและเพิ่มความหมาย"}
+    - {t: Them, why: "them เป็นกรรม ขึ้นต้นประโยคไม่ได้"}
+    - {t: Such, why: "Such surprised ผิดรูป"}
+    - {t: Itself, why: "itself ขึ้นต้นประโยคไม่ได้"}
+  explain: "คำนามสรุป ==ไม่ใช่แค่แทนคำเดิม แต่ตีความด้วย== (this haste · this success)"
+  status: draft
+- id: cefr-c2-w05-029
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 2
+  stem: "Which sentence best follows \"Online learning offers great flexibility.\"?"
+  choices:
+    - {t: "This flexibility, however, can make it harder to stay motivated.", why: "อ้างคำเดิม ++This flexibility++ แล้วเพิ่มประเด็นใหม่"}
+    - {t: "Motivation is important in sport.", why: "ไม่เชื่อมกับประโยคก่อน"}
+    - {t: "Flexible people often do yoga.", why: "เปลี่ยนความหมายของ flexible"}
+    - {t: "However, it rained a lot last year.", why: "ไม่เกี่ยวข้อง จึงใช้ไม่ได้"}
+  explain: "ย่อหน้าที่ลื่น ==ประโยคต่อไปหยิบคำจากประโยคก่อน=="
+  status: draft
+- id: cefr-c2-w05-030
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  stem: "A paragraph begins \"These concerns, however, proved unfounded.\" What must the previous paragraph contain?"
+  choices:
+    - {t: some worries or fears, why: "These concerns ++อ้างถึงความกังวลที่พูดไว้ก่อน++"}
+    - {t: a list of successes, why: "ไม่ใช่ความกังวล"}
+    - {t: a conclusion, why: "however แสดงว่าจะแย้งสิ่งก่อนหน้า"}
+    - {t: a question to the reader, why: "ไม่จำเป็น จึงใช้ไม่ได้"}
+  explain: "ใช้ ==this / these + คำนาม== เดาเนื้อหาย่อหน้าก่อนได้"
+  status: draft
+- id: cefr-c2-w05-031
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  stem: "In \"The policy was popular in cities but not in rural areas, where it was seen as unfair\", what does where refer to?"
+  choices:
+    - {t: rural areas, why: "relative where ขยาย ++คำนามที่อยู่ใกล้ที่สุดที่เป็นสถานที่++"}
+    - {t: cities, why: "where ตามหลัง rural areas"}
+    - {t: the policy, why: "policy ไม่ใช่สถานที่"}
+    - {t: both cities and rural areas, why: "ประโยคบอกว่าเห็นว่าไม่ยุติธรรมเฉพาะชนบท"}
+  explain: "สายการอ้างอิง ==ตามไปหาคำที่ pronoun ชี้ทุกครั้ง=="
+  status: draft
+- id: cefr-c2-w05-032
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  stem: "Which linking phrase best introduces a paragraph that gives a counter-example?"
+  choices:
+    - {t: "There are, however, notable exceptions.", why: "บอกล่วงหน้าว่า ++จะมีตัวอย่างค้าน++"}
+    - {t: "As a result of this, sales rose.", why: "บอกผล ไม่ใช่ตัวอย่างค้าน"}
+    - {t: "To sum up, the trend is clear.", why: "ใช้สรุป จึงใช้ไม่ได้"}
+    - {t: "In addition, costs fell.", why: "เพิ่มเติมทิศทางเดียวกัน"}
+  explain: "ประโยคแรกของย่อหน้า ==บอกหน้าที่ของย่อหน้า== (exception · result · summary)"
+  status: draft
+- id: cefr-c2-w05-033
+  kind: type
+  skill: gm
+  topic: cohesion-long-text
+  level: 2
+  stem: "Coffee and tea both contain caffeine, but the l_____ usually contains less. (ตัวหลัง)"
+  answer: latter
+  accept: [latter]
+  why: "the latter = ตัวหลัง (tea)"
+  status: draft
+- id: cefr-c2-w05-034
+  kind: cloze
+  skill: gm
+  topic: cohesion-long-text
+  level: 2
+  text: |
+    In 2019, the town introduced free buses for residents over sixty. (1) ____ was intended to reduce loneliness among older people. Two years later, a survey found that bus use had doubled. (2) ____, it also found that many older residents still rarely left home, (3) ____ the scheme alone could not solve the problem.
+  questions:
+    - choices:
+        - {t: This scheme, why: "this + คำนามสรุป อ้างถึงรถเมล์ฟรี"}
+        - {t: Which, why: "Which ขึ้นประโยคใหม่ไม่ได้"}
+        - {t: It's, why: "It's was ผิดรูป"}
+        - {t: These, why: "พหูพจน์ไม่ตรงกับ was"}
+    - choices:
+        - {t: However, why: "แย้งผลบวกก่อนหน้า"}
+        - {t: Hence, why: "ไม่ใช่ผล จึงใช้ไม่ได้"}
+        - {t: Namely, why: "ไม่ใช่การระบุ จึงใช้ไม่ได้"}
+        - {t: Thereafter, why: "ไม่ใช่ลำดับเวลา"}
+    - choices:
+        - {t: suggesting that, why: "participle ต่อท้ายบอกข้อสรุป"}
+        - {t: whereupon, why: "whereupon บอกเหตุการณ์ที่ตามมาทันที"}
+        - {t: per se, why: "ไม่ใช่คำเชื่อม จึงใช้ไม่ได้"}
+        - {t: respective, why: "บทไม่ได้พูดว่า respective"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความยาวที่ย่อหน้าถูกสลับและฟังการอภิปราย ----------
+- id: cefr-c2-w05-035
+  kind: read
+  skill: rd
+  topic: paragraph-order
+  level: 3
+  title: "The Four-Paragraph Puzzle · Why Do We Queue?"
+  passage: |
+    The paragraphs below come from an article about queuing. They are in the correct order, but read them closely and notice how each one is tied to the last.
+
+    [A] Few social rituals reveal as much about a culture as the humble queue. Whether at a bus stop in Bangkok, a bakery in Paris or a post office in London, the way people wait in line tells us how they think about fairness, time and one another.
+
+    [B] Underlying almost every queue is a single principle, namely "first come, first served". This principle is so widely accepted that we rarely question it. Yet it is not, per se, the only fair system. Hospitals, for instance, see patients according to need rather than arrival time, and few people would wish it otherwise.
+
+    [C] Such exceptions highlight an important point: what counts as fair depends on what is being distributed. When the resource is urgent medical care, need takes priority; when it is a seat on a bus, arrival time seems the obvious rule. Problems arise chiefly when the two principles collide, as when an elderly passenger arrives last but needs a seat most.
+
+    [D] It is in these moments of collision that the unwritten rules of a society become visible. Some cultures expect the young to give up their seats; others leave it to individual conscience. Conversely, attempts to formalise such rules, through signs or announcements, are often resented as an intrusion into what people regard as a private judgement. The aforementioned bus stop, then, is not merely a place to wait. It is a small daily test of how a community balances rules against kindness.
+  questions:
+    - stem: Which phrase in [C] refers back to the example in [B]?
+      choices:
+        - {t: Such exceptions, why: "Such exceptions อ้างถึง ++ตัวอย่างโรงพยาบาล++ ที่ไม่ใช้หลักมาก่อนได้ก่อน"}
+        - {t: an important point, why: "เป็นสิ่งที่จะอธิบายต่อ ไม่ได้อ้างย้อน"}
+        - {t: the resource, why: "เป็นคำทั่วไป จึงใช้ไม่ได้"}
+        - {t: the two principles, why: "อ้างถึงหลักการทั้งสอง ไม่ใช่ตัวอย่าง"}
+    - stem: What does "per se" in [B] suggest about "first come, first served"?
+      choices:
+        - {t: it is not automatically the fairest system in itself, why: "per se = ++โดยตัวมันเอง++ ไม่ได้ยุติธรรมโดยอัตโนมัติ"}
+        - {t: it is the only fair system, why: "ผู้เขียนแย้งข้อนี้"}
+        - {t: it is used only in hospitals, why: "โรงพยาบาลใช้หลักอื่น"}
+        - {t: it is never fair, why: "ไม่ได้บอกว่าไม่ยุติธรรมเลย"}
+    - stem: According to [C], when do problems with queues mainly arise?
+      choices:
+        - {t: when arrival time and need conflict, why: "Problems arise chiefly when the two principles collide"}
+        - {t: when queues are too long, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: when hospitals are busy, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: when buses are late, why: "บทไม่ได้พูดว่า when buses are late"}
+    - stem: What does "The aforementioned bus stop" in [D] show about the article's structure?
+      choices:
+        - {t: it links the ending back to the opening paragraph, why: "ป้ายรถเมล์พูดถึงครั้งแรกใน [A] ++ผูกตอนจบกับตอนต้น++"}
+        - {t: it introduces a new example, why: "เคยพูดถึงแล้ว จึงใช้ไม่ได้"}
+        - {t: it shows the article is incomplete, why: "ไม่ใช่ จึงใช้ไม่ได้"}
+        - {t: "it refers to a bus stop in [C]", why: "[C] พูดถึงที่นั่งบนรถ ไม่ใช่ป้ายรถเมล์"}
+  status: draft
+- id: cefr-c2-w05-036
+  kind: listen
+  skill: li
+  topic: multi-speaker-discussion
+  level: 3
+  script:
+    - {who: Woman, en: "I agree with what Somchai said about cost, but not with Mali's point. If anything, the opposite is true: the smaller schools have done better, not worse."}
+  questions:
+    - stem: What does the woman think about Mali's point?
+      choices:
+        - {t: she disagrees with it, why: "but not with Mali's point ... the opposite is true"}
+        - {t: she agrees with it, why: "เธอเห็นด้วยกับสมชาย ไม่ใช่มะลิ"}
+        - {t: she has not heard it, why: "เธออ้างถึงมัน จึงใช้ไม่ได้"}
+        - {t: she thinks it is about cost, why: "ประเด็นราคาเป็นของสมชาย"}
+  status: draft
+- id: cefr-c2-w05-037
+  kind: listen
+  skill: li
+  topic: multi-speaker-discussion
+  level: 3
+  script:
+    - {who: Man, en: "Going back to the earlier question, the one about funding: yes, we did apply, and we were turned down, hence the delay."}
+  questions:
+    - stem: Why was there a delay?
+      choices:
+        - {t: the funding application was rejected, why: "we were turned down, hence the delay"}
+        - {t: they forgot to apply, why: "we did apply จึงใช้ไม่ได้"}
+        - {t: the question was unclear, why: "ไม่ใช่สาเหตุ จึงใช้ไม่ได้"}
+        - {t: the meeting started late, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w05-038
+  kind: listen
+  skill: li
+  topic: multi-speaker-discussion
+  level: 3
+  script:
+    - {who: Woman, en: "Both proposals have merit. The first is cheaper; the second, faster. Personally, I'd choose the latter."}
+  questions:
+    - stem: Which proposal does the woman prefer?
+      choices:
+        - {t: the faster one, why: "the latter = ข้อเสนอที่สอง ซึ่งเร็วกว่า"}
+        - {t: the cheaper one, why: "นั่นคือข้อเสนอแรก"}
+        - {t: neither, why: "เธอเลือก the latter"}
+        - {t: both equally, why: "เธอเลือกข้อเดียว"}
+  status: draft
+- id: cefr-c2-w05-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I asked him, to check the figures, and he did so, immediately]
+  sentence: I asked him to check the figures, and he did so immediately.
+  th: ฉันขอให้เขาตรวจตัวเลข และเขาก็ทำทันที
+  why: "do so แทนการกระทำที่พูดถึงแล้ว"
+  status: draft
+- id: cefr-c2-w05-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The first option, is cheaper, the second, more reliable]
+  sentence: The first option is cheaper; the second, more reliable.
+  th: ทางเลือกแรกถูกกว่า ส่วนทางที่สองน่าเชื่อถือกว่า
+  why: "gapping ละ is ในส่วนหลัง ใช้จุลภาคแทน"
+  status: draft
+- id: cefr-c2-w05-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [This decline, was caused, chiefly by, rising costs]
+  sentence: This decline was caused chiefly by rising costs.
+  th: การลดลงนี้เกิดจากต้นทุนที่สูงขึ้นเป็นหลัก
+  why: "This + คำนามสรุป ขึ้นต้น · chiefly by"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c2-w05-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While the first two speakers, focused on cost, the third, raised a different concern, namely fairness]
+  sentence: While the first two speakers focused on cost, the third raised a different concern, namely fairness.
+  th: ขณะที่ผู้พูดสองคนแรกเน้นเรื่องค่าใช้จ่าย คนที่สามยกประเด็นอื่น ก็คือความยุติธรรม
+  why: "While + ประโยค · the third (ละ speaker) · namely"
+  status: draft
