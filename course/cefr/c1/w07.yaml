@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 7 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 7
+phase: 2
+theme_th: เชื่อมความระดับบทความ
+focus_th: คำเชื่อมทางการ (albeit · whereby · insofar as · inasmuch as · notwithstanding · whereas · consequently · nevertheless) · การอ้างอิงในบทความ (the former/the latter · such · this + นามสรุป · By contrast · That said · On the contrary)
+can_do_th:
+  - เรียบเรียงข้อความยาวให้ต่อเนื่องและมีโครงสร้างได้
+  - มองเห็นโครงสร้างของบทความยาวและความสัมพันธ์ระหว่างย่อหน้า
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: คำเชื่อมทางการ
+    lesson:
+      rule_th: "คำเชื่อมระดับนี้แต่ละตัว ==ตามด้วยสิ่งต่างกัน== albeit + วลีสั้น · whereby + ประโยค (หลังคำนามที่เป็นวิธี) · notwithstanding + คำนาม · ++insofar as = ในแง่ที่++"
+      examples:
+        - {en: "It worked, <k>albeit</k> slowly.", th: "แม้จะช้า"}
+        - {en: "a scheme <k>whereby</k> staff can buy shares", th: "ซึ่งโดยวิธีนั้น"}
+        - {en: "The report is useful <k>insofar as</k> it shows the problems.", th: "==มีประโยชน์ในแง่นี้เท่านั้น=="}
+        - {en: "Sales fell; <k>consequently</k>, we delayed the launch.", th: "บอกผล ใช้ ; หน้า"}
+      signals:
+        - {label_th: "ตามด้วยอะไร", words: ["albeit + วลี", "although + ประโยค", "notwithstanding + นาม", "whereby + ประโยค", "hence + นามวลี"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ จึง ต่อประโยคได้ตรง ๆ คนจึงเขียน ~~, therefore + ประโยค~~ แบบจุลภาคเดียว และใช้ albeit กับประโยคเต็ม"
+        wrong: ["Sales fell, therefore we delayed the launch.", "It was successful, albeit it was expensive."]
+        right: ["Sales fell; therefore, we delayed the launch.", "It was successful, albeit expensive."]
+      notes:
+        - {kind: tip, th: "ไม่แน่ใจเครื่องหมาย ==ขึ้นประโยคใหม่แล้วใส่จุลภาค== (Therefore, ...) ปลอดภัยที่สุด"}
+        - {kind: warn, th: "คำเชื่อมทางการมากเกินทำให้อ่านหนัก ใช้ย่อหน้าละ 2–3 ตัวก็พอ"}
+    check: [cefr-c1-w07-001, cefr-c1-w07-002]
+    practice: [cefr-c1-w07-003, cefr-c1-w07-004, cefr-c1-w07-005, cefr-c1-w07-006, cefr-c1-w07-007, cefr-c1-w07-008, cefr-c1-w07-009, cefr-c1-w07-010, cefr-c1-w07-011, cefr-c1-w07-012]
+    use:
+      prompt_th: เขียน 2 ประโยคประเมินบริการหรือระบบหนึ่งที่คุณใช้ ด้วยคำเชื่อมทางการ
+      frame: "The new ____ is useful insofar as ____. It works well, albeit ____."
+      model: "The new booking system is useful insofar as it shows every free appointment. It works well, albeit a little slowly on older phones."
+    classroom: {en: "It went well, albeit not quite as planned.", th: "ผ่านไปด้วยดี แม้ไม่เป๊ะตามแผน"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การวิเคราะห์ภาพรวม 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้มองภาพใหญ่ แยก ==prevalent · pervasive · ubiquitous== (พบบ่อย · แผ่ไปทั่วมักไม่ดี · มีทุกที่) และ ++dichotomy ต่างจาก disparity++ (แบ่งสองขั้ว กับ เหลื่อมล้ำ)"
+      examples:
+        - {en: "Smartphones are <k>ubiquitous</k>.", th: "มีอยู่ทุกที่"}
+        - {en: "Risk is <k>inherent in</k> business.", th: "มีอยู่ในตัว"}
+        - {en: "a growing <k>disparity</k> in income", th: "==ความเหลื่อมล้ำ=="}
+        - {en: "Talks <k>culminated in</k> an agreement.", th: "จบลงด้วยผลสูงสุด"}
+      words:
+        - {w: overarching, pos: adj., th: ครอบคลุมทั้งหมด, ex: "Our overarching aim is to reduce waste."}
+        - {w: holistic, pos: adj., th: องค์รวม, ex: "We take a holistic view of health."}
+        - {w: inherent, pos: adj., th: มีอยู่ในตัว, ex: "There are risks inherent in any investment."}
+        - {w: intrinsic, pos: adj., th: โดยเนื้อแท้ ในตัวเอง, ex: "Music has intrinsic value."}
+        - {w: prevalent, pos: adj., th: พบบ่อย แพร่หลาย, ex: "Diabetes is more prevalent in older adults."}
+        - {w: pervasive, pos: adj., th: แผ่ซ่านไปทั่ว, ex: "There was a pervasive smell of smoke."}
+        - {w: ubiquitous, pos: adj., th: มีอยู่ทุกหนทุกแห่ง, ex: "Coffee shops are ubiquitous in the city."}
+        - {w: dichotomy, pos: n., th: การแบ่งเป็นสองขั้ว, ex: "the dichotomy between work and life"}
+        - {w: juxtaposition, pos: n., th: การวางเทียบกัน, ex: "the juxtaposition of old and new buildings"}
+        - {w: disparity, pos: n., th: ความเหลื่อมล้ำ, ex: "There is a disparity between men's and women's pay."}
+        - {w: subsequent, pos: adj., th: ที่ตามมาภายหลัง, ex: "Subsequent tests confirmed the result."}
+        - {w: culminate, pos: v., th: สิ้นสุดลงด้วย, ex: "The festival culminates in a fireworks show."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ แพร่หลาย คำเดียว คนจึงใช้ ~~pervasive กับสิ่งดี~~ หรือใช้ prevalent แทน ubiquitous เวลาหมายถึงเห็นทุกที่"
+        wrong: ["Kindness is pervasive in our team.", "The festival culminated with fireworks."]
+        right: ["Kindness is common in our team.", "The festival culminated in fireworks."]
+      notes:
+        - {kind: pin, th: "==culminate in== · inherent in · prevalent among จำพร้อมบุพบท"}
+        - {kind: use, th: "เปิดรายงานด้วย Our overarching aim is to ... ฟังเป็นมืออาชีพทันที"}
+    check: [cefr-c1-w07-013, cefr-c1-w07-014]
+    practice: [cefr-c1-w07-015, cefr-c1-w07-016, cefr-c1-w07-017, cefr-c1-w07-018, cefr-c1-w07-019, cefr-c1-w07-020, cefr-c1-w07-021, cefr-c1-w07-022, cefr-c1-w07-023, cefr-c1-w07-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายความเหลื่อมล้ำหรือแนวโน้มหนึ่งในสังคมไทย
+      frame: "There is a growing disparity between ____ and ____. This trend is particularly prevalent among ____."
+      model: "There is a growing disparity between workers in Bangkok and those in rural provinces. This trend is particularly prevalent among young people without a university degree."
+    classroom: {en: "What's the overarching goal here?", th: "เป้าหมายใหญ่ของเรื่องนี้คืออะไร"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ผูกเรื่องให้ต่อเนื่อง
+    lesson:
+      rule_th: "บทความที่อ่านลื่น ==ชี้กลับไปหาสิ่งที่พูดแล้ว== ด้วย the former/the latter · This + นามสรุป · Such + นาม และใช้ ++discourse markers++ บอกทิศทาง (By contrast · That said · In particular · On the contrary)"
+      examples:
+        - {en: "Renting and buying: <k>the former</k> is cheaper.", th: "อ้างถึงตัวแรก"}
+        - {en: "Prices rose 20%. <k>This sudden increase</k> caused panic.", th: "==This + นามที่สรุปเรื่อง=="}
+        - {en: "<k>Such delays</k> are unacceptable.", th: "อ้างถึงลักษณะที่เพิ่งพูด"}
+        - {en: "It's flexible. <k>That said</k>, it needs discipline.", th: "ยอมรับแล้วนำข้อแย้ง"}
+      signals:
+        - {label_th: "ทิศทางของย่อหน้าถัดไป", words: ["ต่าง → By contrast", "เพิ่ม → Moreover", "เจาะจง → In particular", "แย้ง → That said", "ปฏิเสธ → On the contrary"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ อีกด้านหนึ่ง กับทุกกรณี คนจึงใช้ ~~On the contrary~~ แทน on the other hand ทั้งที่ on the contrary ใช้ปฏิเสธข้อความก่อนหน้า"
+        wrong: ["The city is noisy. On the contrary, it has great food.", "Prices rose by 20%. It caused panic."]
+        right: ["The city is noisy. On the other hand, it has great food.", "Prices rose by 20%. This increase caused panic."]
+      notes:
+        - {kind: tip, th: "ขึ้นย่อหน้าใหม่ด้วย ==This + นามสรุป== ช่วยให้ผู้อ่านรู้ว่ากำลังต่อจากเรื่องไหน"}
+        - {kind: warn, th: "the former / the latter ใช้ได้เมื่อมีแค่สองอย่าง ถ้าสามอย่างขึ้นไปใช้ the first / the last"}
+    check: [cefr-c1-w07-025, cefr-c1-w07-026]
+    practice: [cefr-c1-w07-027, cefr-c1-w07-028, cefr-c1-w07-029, cefr-c1-w07-030, cefr-c1-w07-031, cefr-c1-w07-032, cefr-c1-w07-033, cefr-c1-w07-034]
+    use:
+      prompt_th: เขียน 3 ประโยคเปรียบเทียบสองทางเลือก ใช้ the former/the latter และ discourse marker
+      frame: "There are two options: ____ and ____. The former ____, whereas the latter ____. That said, ____."
+      model: "There are two options: taking the train or flying. The former is cheaper and greener, whereas the latter saves almost a whole day. That said, flights are often delayed in the rainy season."
+    classroom: {en: "That said, I think we should still try it.", th: "ถึงอย่างนั้น ก็ยังคิดว่าเราควรลองดู"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความเชิงวิเคราะห์และฟังบรรยายยาว
+    lesson:
+      rule_th: "บทความยาวมีโครง ==เปิดประเด็น → ด้าน A → ด้าน B → ข้อสรุป== ประโยคแรกของแต่ละย่อหน้าบอกหน้าที่ของย่อหน้า และ ++คำอ้างอิงอย่าง the latter มักถูกถาม++ ว่าหมายถึงอะไร"
+      examples:
+        - {en: "<k>The appeal of</k> mass tourism is obvious.", th: "ย่อหน้าข้อดีของด้าน A"}
+        - {en: "Slower tourism, <k>by contrast</k>, ...", th: "==ย่อหน้าด้าน B=="}
+        - {en: "<k>The choice, then,</k> is not a simple dichotomy.", th: "then ตรงนี้ = สรุปแล้ว"}
+      thai_trap:
+        intro_th: "เวลาอ่านเร็ว คนมัก ~~เดา the latter จากคำที่อยู่ใกล้สุด~~ แทนที่จะย้อนกลับไปดูลำดับที่ผู้เขียนแนะนำไว้"
+        wrong: ["ตอบว่า the latter หมายถึงการท่องเที่ยวแบบมวลชน เพราะพูดถึงล่าสุด"]
+        right: ["the latter คืออันที่สองที่แนะนำในย่อหน้าแรก คือการท่องเที่ยวแบบอยู่นาน"]
+      notes:
+        - {kind: tip, th: "อ่านประโยคแรกของทุกย่อหน้าก่อน ==จะเห็นโครงทั้งบท== ใน 30 วินาที"}
+        - {kind: warn, th: "ในบรรยาย Finally, and this is where... บอกส่วนที่ผู้พูดถือว่าสำคัญที่สุด"}
+    check: [cefr-c1-w07-036, cefr-c1-w07-037]
+    practice: [cefr-c1-w07-035, cefr-c1-w07-038, cefr-c1-w07-039, cefr-c1-w07-040, cefr-c1-w07-041]
+    use:
+      prompt_th: เขียนประโยคแรกของ 3 ย่อหน้าสำหรับบทความเปรียบเทียบสองแนวทางที่คุณเลือกเอง
+      frame: "Paragraph 1: ____. Paragraph 2: The appeal of ____ is ____. Paragraph 3: ____, by contrast, ____."
+      model: "Paragraph 1: Cities face a choice between building more roads and improving public transport. Paragraph 2: The appeal of new roads is that results are visible quickly. Paragraph 3: Public transport, by contrast, takes longer to build but serves more people."
+    classroom: {en: "Let me break this down into three parts.", th: "ขอแบ่งเรื่องนี้เป็นสามส่วนนะ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด นำเสนอประเด็นซับซ้อนให้มีโครงเรื่องชัด 3 นาที
+    lab:
+      mode: speak
+      prompt_th: นำเสนอ 3 นาทีเรื่องที่มีสองด้าน (เช่น ทำงานที่บ้านกับที่ออฟฟิศ ท่องเที่ยวแบบมวลชนกับแบบชุมชน รถยนต์ไฟฟ้ากับขนส่งสาธารณะ) บอกโครงตั้งแต่ต้น อธิบายทั้งสองด้าน เทียบกัน และสรุปจุดยืนของคุณ
+      frame:
+        - "I'll divide this into three parts: first ____, then ____, and finally ____."
+        - "Let's start with ____. The main advantage is ____."
+        - "Turning now to ____. By contrast, ____."
+        - "That said, the choice isn't a simple dichotomy. ____."
+        - "To sum up, ____. Insofar as ____, I'd argue that ____."
+      model_pass: "I'll divide this into three parts: first working from home, then working in the office, and finally my own view. Let's start with working from home. The main advantage is that people save time and money on travel. Turning now to the office. By contrast, it is easier to ask quick questions and build friendships with colleagues. That said, the choice isn't a simple dichotomy. Many companies now use a mix of both. To sum up, both have benefits. Insofar as teams need to meet in person, I'd argue that two office days a week is a good balance."
+      model_good: "I'll divide this into three parts: first, the case for working from home; second, the case for the office; and finally, why I think the debate itself is slightly misleading. Let's start with home working. Its main advantage, beyond the obvious savings in time and money, is control: people can organise their day around when they concentrate best. Turning now to the office. By contrast, its value lies in the conversations nobody plans, the quick question at someone's desk that saves an hour of emails. Such moments are hard to measure, which is precisely why they're so often overlooked. That said, the choice isn't a simple dichotomy. The former suits focused individual work; the latter suits collaboration and training. To sum up, insofar as most jobs involve both, I'd argue that the question shouldn't be where we work, but which tasks we do where."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกหัวข้อของคุณ แล้วจดคำสำคัญของแต่ละส่วนในโครง 5 ส่วน
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบ จับเวลาให้ได้ประมาณ 3 นาที
+      checklist_th:
+        - บอกโครงการนำเสนอตั้งแต่ประโยคแรก และพูดตามลำดับนั้นจริง
+        - ใช้ signposting เปลี่ยนส่วนอย่างน้อย 3 ครั้ง (Let's start with · Turning now to · To sum up)
+        - ใช้คำอ้างอิงหรือคำเชื่อมทางการอย่างน้อย 2 ตัว (the former/the latter · such · albeit · insofar as)
+        - สรุปด้วยจุดยืนของตัวเองที่ชัด และพูดได้ประมาณ 3 นาที
+    practice: [cefr-c1-w07-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 7
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [4, 5, 6, 7], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

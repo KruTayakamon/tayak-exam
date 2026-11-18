@@ -1,0 +1,579 @@
+# คอร์ส c1 · สัปดาห์ 7 · เชื่อมความระดับบทความ · คำเชื่อมทางการ (albeit · whereby · insofar as · notwithstanding · inasmuch as) · การอ้างอิงในบทความ (the former/the latter · such · this + นามสรุป · discourse markers)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · คำเชื่อมทางการ ----------
+- id: cefr-c1-w07-001
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 1
+  stem: The plan was successful, ____ more expensive than expected.
+  choices:
+    - {t: albeit, why: "แม้จะ + คุณศัพท์ ไม่ต้องมีประโยค ใช้ ++albeit++"}
+    - {t: although, why: "although ต้องตามด้วยประโยคที่มีประธานและกริยา"}
+    - {t: whereby, why: "whereby แปลว่าซึ่งโดยวิธีนั้น ไม่ได้บอกความขัดแย้ง"}
+    - {t: despite, why: "despite ไม่ตามด้วยคุณศัพท์ขั้นกว่าแบบนี้"}
+  explain: "albeit + ==คุณศัพท์/วลีสั้น== = แม้จะ (ทางการ)"
+  status: draft
+- id: cefr-c1-w07-002
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 1
+  stem: The company introduced a scheme ____ staff can buy shares at a discount.
+  choices:
+    - {t: whereby, why: "โครงการซึ่งโดยวิธีนั้น ใช้ ++whereby++"}
+    - {t: albeit, why: "albeit บอกความขัดแย้ง ไม่ใช่วิธีการ"}
+    - {t: insofar as, why: "insofar as แปลว่าเท่าที่ ไม่ได้อธิบายโครงการ"}
+    - {t: whereas, why: "whereas ใช้เทียบความต่างสองอย่าง"}
+  explain: "a system/scheme ==whereby + ประโยค== = ซึ่งโดยวิธีนั้น"
+  status: draft
+- id: cefr-c1-w07-003
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: The report is useful ____ it shows where the problems are, but it offers few solutions.
+  choices:
+    - {t: insofar as, why: "มีประโยชน์ในแง่ที่... ใช้ ++insofar as++"}
+    - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
+    - {t: whereby, why: "whereby ต้องตามหลังคำนามที่เป็นระบบหรือวิธี"}
+    - {t: notwithstanding, why: "notwithstanding ตามด้วยคำนาม และแปลว่าแม้จะมี"}
+  explain: "insofar as = ==ในแง่ที่ เท่าที่== (จำกัดขอบเขตของข้ออ้าง)"
+  status: draft
+- id: cefr-c1-w07-004
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: ____ the difficulties, the team delivered the project on time.
+  choices:
+    - {t: Notwithstanding, why: "แม้จะมี + คำนาม ใช้ ++Notwithstanding++"}
+    - {t: Albeit, why: "Albeit ไม่ขึ้นต้นประโยคแบบนี้"}
+    - {t: Although, why: "Although ต้องตามด้วยประโยค ไม่ใช่คำนาม"}
+    - {t: Whereby, why: "Whereby ไม่ขึ้นต้นประโยคและไม่ได้บอกความขัดแย้ง"}
+  explain: "Notwithstanding / Despite + ==คำนาม=="
+  status: draft
+- id: cefr-c1-w07-005
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 3
+  stem: The decision was unfair ____ it ignored the views of the people most affected.
+  choices:
+    - {t: inasmuch as, why: "ในแง่ที่ / เพราะว่า (ทางการ) ใช้ ++inasmuch as++"}
+    - {t: albeit, why: "albeit บอกความขัดแย้ง ไม่ใช่เหตุผล"}
+    - {t: whereby, why: "whereby ต้องตามหลังคำนามที่เป็นวิธีการ"}
+    - {t: notwithstanding, why: "notwithstanding แปลว่าแม้จะมี ความหมายผิด"}
+  explain: "inasmuch as = ==ในแง่ที่ เนื่องจาก== (ทางการมาก)"
+  status: draft
+- id: cefr-c1-w07-006
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 1
+  stem: Some people prefer to work alone, ____ others need a team around them.
+  choices:
+    - {t: whereas, why: "เทียบความต่างสองกลุ่ม ใช้ ++whereas++"}
+    - {t: whereby, why: "whereby ไม่ได้ใช้เทียบความต่าง"}
+    - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
+    - {t: hence, why: "hence บอกผล ไม่ใช่ความต่าง"}
+  explain: "==whereas / while== = ในขณะที่ (เทียบความต่าง)"
+  status: draft
+- id: cefr-c1-w07-007
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: Sales fell sharply in March; ____, the company had to delay its expansion.
+  choices:
+    - {t: consequently, why: "บอกผลที่ตามมา ใช้ ++consequently++"}
+    - {t: nevertheless, why: "nevertheless บอกความขัดแย้ง ไม่ใช่ผล"}
+    - {t: whereas, why: "whereas ไม่ตามหลังเครื่องหมาย ; แบบนี้"}
+    - {t: albeit, why: "albeit ไม่ใช้เชื่อมสองประโยคแบบนี้"}
+  explain: "; ==consequently / therefore / hence==, = ผลก็คือ"
+  status: draft
+- id: cefr-c1-w07-008
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: The project had serious problems. ____, it achieved most of its goals.
+  choices:
+    - {t: Nevertheless, why: "ขัดกับประโยคก่อน ใช้ ++Nevertheless++"}
+    - {t: Consequently, why: "Consequently บอกผล ขัดกับความหมาย"}
+    - {t: Whereas, why: "Whereas ไม่ขึ้นประโยคเดี่ยวตามด้วยจุลภาค"}
+    - {t: Moreover, why: "Moreover ใช้เพิ่มข้อมูลไปทางเดียวกัน"}
+  explain: "==Nevertheless / Nonetheless,== = ถึงกระนั้น"
+  status: draft
+- id: cefr-c1-w07-009
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: The new app is cheaper. ____, it uses far less battery.
+  choices:
+    - {t: Moreover, why: "เพิ่มข้อดีไปทางเดียวกัน ใช้ ++Moreover++"}
+    - {t: However, why: "However บอกความขัดแย้ง แต่สองประโยคเป็นข้อดีทั้งคู่"}
+    - {t: Hence, why: "Hence บอกผล การถูกกว่าไม่ได้ทำให้ใช้แบตน้อย"}
+    - {t: Whereby, why: "Whereby ไม่ขึ้นต้นประโยค"}
+  explain: "เพิ่มข้อมูล ==Moreover / Furthermore / In addition=="
+  status: draft
+- id: cefr-c1-w07-010
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 3
+  stem: Which sentence about the trip is correct?
+  choices:
+    - {t: "The trip was enjoyable, albeit rather tiring.", why: "albeit + วลีคุณศัพท์ ++ถูกต้อง++"}
+    - {t: "The trip was enjoyable, albeit it was rather tiring.", why: "albeit ไม่ตามด้วยประโยคเต็มในภาษาปัจจุบัน"}
+    - {t: "Albeit tiring, but the trip was enjoyable.", why: "ใช้ albeit คู่กับ but ไม่ได้"}
+    - {t: "The trip was enjoyable, although rather tiring it.", why: "it เกินมา และลำดับผิด"}
+  explain: "albeit ==+ วลีสั้น== วางหลังจุลภาค"
+  status: draft
+- id: cefr-c1-w07-011
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: He was late, ____ he missed the opening speech.
+  choices:
+    - {t: so, why: "เชื่อมเหตุกับผลในประโยคเดียว ใช้ ++so++"}
+    - {t: hence, why: "hence ตามด้วยคำนามหรือวลี ไม่ตามด้วยประโยคเต็มในรูปนี้"}
+    - {t: therefore, why: "therefore เชื่อมสองประโยคด้วยจุลภาคอย่างเดียวไม่ได้ ต้องใช้ ; หรือขึ้นประโยคใหม่"}
+    - {t: whereas, why: "whereas บอกความต่าง ไม่ใช่ผล"}
+  explain: "จุลภาค + ==so + ประโยค== · ; therefore, + ประโยค · hence + นามวลี"
+  status: draft
+- id: cefr-c1-w07-012
+  kind: type
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  stem: "The results were positive, a_____ based on a small sample. (แม้จะ คำเชื่อมทางการ)"
+  answer: albeit
+  accept: [albeit]
+  why: "albeit + วลีสั้น ใช้เพิ่มข้อจำกัดหลังจุลภาค"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การวิเคราะห์ภาพรวม ----------
+- id: cefr-c1-w07-013
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 1
+  stem: Smartphones have become ____. You see them everywhere, even in remote villages.
+  choices:
+    - {t: ubiquitous, why: "พบได้ทุกที่ ใช้ ++ubiquitous++"}
+    - {t: intrinsic, why: "intrinsic แปลว่าโดยเนื้อแท้ ไม่ได้บอกว่ามีทุกที่"}
+    - {t: subsequent, why: "subsequent แปลว่าที่ตามมาภายหลัง"}
+    - {t: holistic, why: "holistic แปลว่าองค์รวม"}
+  explain: "ubiquitous = ==มีอยู่ทุกหนทุกแห่ง=="
+  status: draft
+- id: cefr-c1-w07-014
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 1
+  stem: The ____ goal of the plan is to reduce poverty. All other targets support this.
+  choices:
+    - {t: overarching, why: "เป้าหมายครอบคลุมเหนือทุกข้อ ใช้ ++overarching++"}
+    - {t: ubiquitous, why: "ubiquitous ใช้กับสิ่งที่พบทุกที่"}
+    - {t: subsequent, why: "subsequent แปลว่าที่ตามมา ขัดกับเป้าหมายหลัก"}
+    - {t: pervasive, why: "pervasive ใช้กับสิ่งที่แพร่กระจาย มักเป็นสิ่งไม่ดี"}
+  explain: "overarching = ==ครอบคลุมทั้งหมด เป็นเป้าใหญ่=="
+  status: draft
+- id: cefr-c1-w07-015
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: The hospital takes a ____ approach, treating the patient's mind as well as their body.
+  choices:
+    - {t: holistic, why: "มองเป็นองค์รวม ใช้ ++holistic++"}
+    - {t: inherent, why: "inherent approach ไม่ได้บอกการมองทั้งระบบ"}
+    - {t: subsequent, why: "subsequent approach แปลว่าวิธีที่ตามมา"}
+    - {t: prevalent, why: "prevalent แปลว่าแพร่หลาย ไม่ได้บอกลักษณะวิธี"}
+  explain: "holistic = ==องค์รวม มองทั้งระบบ=="
+  status: draft
+- id: cefr-c1-w07-016
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: There are risks ____ in any new business, however careful you are.
+  choices:
+    - {t: inherent, why: "มีอยู่ในตัวโดยธรรมชาติ ใช้ ++inherent in++"}
+    - {t: ubiquitous, why: "ubiquitous ไม่ตามด้วย in แบบนี้"}
+    - {t: overarching, why: "overarching ไม่วางหลังคำนามแบบนี้"}
+    - {t: subsequent, why: "subsequent in ไม่ใช่วลีที่ใช้"}
+  explain: "inherent in = ==มีอยู่ในตัว แยกไม่ได้=="
+  status: draft
+- id: cefr-c1-w07-017
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: Learning has an ____ value, beyond any job or salary it may bring.
+  choices:
+    - {t: intrinsic, why: "คุณค่าในตัวเอง ใช้ ++intrinsic value++"}
+    - {t: ubiquitous, why: "ubiquitous value ไม่ใช่วลีที่ใช้"}
+    - {t: overarching, why: "overarching value แปลว่าคุณค่าหลักเหนือข้ออื่น ไม่ใช่คุณค่าในตัว"}
+    - {t: incessant, why: "incessant ใช้กับสิ่งที่ไม่หยุด"}
+  explain: "intrinsic = ==ในตัวเอง โดยเนื้อแท้=="
+  status: draft
+- id: cefr-c1-w07-018
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: Back pain is particularly ____ among office workers who sit all day.
+  choices:
+    - {t: prevalent, why: "พบบ่อยในกลุ่มนี้ ใช้ ++prevalent among++"}
+    - {t: intrinsic, why: "intrinsic among ไม่ใช่วลีที่ใช้"}
+    - {t: holistic, why: "holistic ไม่ได้บอกความชุก"}
+    - {t: subsequent, why: "subsequent among ไม่ใช่วลีที่ใช้"}
+  explain: "prevalent (among/in) = ==พบบ่อย แพร่หลาย=="
+  status: draft
+- id: cefr-c1-w07-019
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: A ____ culture of fear made staff afraid to report mistakes.
+  choices:
+    - {t: pervasive, why: "แทรกซึมไปทั่ว (มักไม่ดี) ใช้ ++pervasive++"}
+    - {t: holistic, why: "holistic ใช้ในแง่บวกกับวิธีคิด"}
+    - {t: intrinsic, why: "intrinsic culture ไม่ได้บอกการแผ่กระจาย"}
+    - {t: subsequent, why: "subsequent ไม่ได้บอกว่าแผ่ไปทั่ว"}
+  explain: "pervasive = ==แผ่ซ่านไปทั่ว== (มักใช้กับสิ่งไม่ดี)"
+  status: draft
+- id: cefr-c1-w07-020
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: The debate often presents a false ____ between economic growth and protecting nature.
+  choices:
+    - {t: dichotomy, why: "การแบ่งเป็นสองขั้วตรงข้าม ใช้ ++dichotomy++"}
+    - {t: disparity, why: "disparity คือความเหลื่อมล้ำ ไม่ใช่การแบ่งขั้ว"}
+    - {t: juxtaposition, why: "juxtaposition คือการวางเทียบกัน ไม่ใช่การแบ่งขั้ว"}
+    - {t: anomaly, why: "anomaly คือสิ่งผิดปกติ"}
+  explain: "a false dichotomy = ==การแบ่งสองขั้วที่ไม่จริง=="
+  status: draft
+- id: cefr-c1-w07-021
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: There is a growing ____ in income between the city and the countryside.
+  choices:
+    - {t: disparity, why: "ความเหลื่อมล้ำ ใช้ ++disparity in income++"}
+    - {t: dichotomy, why: "dichotomy เป็นการแบ่งเชิงความคิด ไม่ใช่ช่องว่างรายได้"}
+    - {t: juxtaposition, why: "juxtaposition ไม่ได้บอกความไม่เท่ากัน"}
+    - {t: holistic, why: "holistic เป็นคำคุณศัพท์"}
+  explain: "disparity = ==ความเหลื่อมล้ำ ความต่างที่ไม่เท่าเทียม=="
+  status: draft
+- id: cefr-c1-w07-022
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 3
+  stem: The photo's power comes from the ____ of a luxury hotel and a slum right next to it.
+  choices:
+    - {t: juxtaposition, why: "การวางสองสิ่งตัดกันไว้ใกล้กัน ใช้ ++juxtaposition++"}
+    - {t: disparity, why: "disparity บอกความต่าง แต่ไม่ได้บอกการวางคู่กันในภาพ"}
+    - {t: dichotomy, why: "dichotomy เป็นการแบ่งเชิงแนวคิด"}
+    - {t: culmination, why: "culmination คือจุดสูงสุด"}
+  explain: "juxtaposition = ==การวางเทียบเคียงให้เห็นความต่าง=="
+  status: draft
+- id: cefr-c1-w07-023
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: Months of negotiation ____ in a historic agreement.
+  choices:
+    - {t: culminated, why: "จบลงด้วยผลสูงสุด ใช้ ++culminate in++"}
+    - {t: subsequent, why: "subsequent เป็นคำคุณศัพท์"}
+    - {t: juxtaposed, why: "juxtapose ไม่ตามด้วย in แบบนี้"}
+    - {t: prevailed, why: "prevail in ไม่ได้แปลว่าจบลงด้วย"}
+  explain: "culminate in = ==สิ้นสุดลงด้วย (จุดสูงสุด)=="
+  status: draft
+- id: cefr-c1-w07-024
+  kind: type
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  stem: "The first meeting went well, but s_________ meetings were less productive. (ที่ตามมาภายหลัง)"
+  answer: subsequent
+  accept: [subsequent]
+  why: "subsequent = ที่ตามมาภายหลัง ใช้หน้าคำนาม"
+  status: draft
+# ---------- วันที่ 3 · ผูกเรื่องให้ต่อเนื่อง ----------
+- id: cefr-c1-w07-025
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 1
+  stem: We considered two options, renting and buying. ____ was cheaper in the short term.
+  choices:
+    - {t: The former, why: "อ้างถึงตัวแรก renting ใช้ ++The former++"}
+    - {t: The formal, why: "formal แปลว่าทางการ สะกดคล้ายแต่ความหมายผิด"}
+    - {t: Former, why: "ต้องมี The นำหน้า former เสมอ"}
+    - {t: The first of the latter, why: "ซ้อนคำอ้างอิงจนไม่มีความหมาย"}
+  explain: "สองอย่าง ==the former = อันแรก== · the latter = อันหลัง"
+  status: draft
+- id: cefr-c1-w07-026
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 1
+  stem: Tea and coffee both contain caffeine, but ____ usually contains more.
+  choices:
+    - {t: the latter, why: "อ้างถึงตัวหลัง coffee ใช้ ++the latter++"}
+    - {t: the later, why: "later แปลว่าทีหลัง สะกดคล้ายแต่ความหมายผิด"}
+    - {t: latter, why: "ต้องมี the นำหน้า"}
+    - {t: the last, why: "the last ใช้เมื่อมีมากกว่าสองอย่าง"}
+  explain: "the latter = ==อันหลัง (จากสองอย่าง)=="
+  status: draft
+- id: cefr-c1-w07-027
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  stem: Prices rose by 20% in a single month. ____ caused panic among small business owners.
+  choices:
+    - {t: This sudden increase, why: "this + ++นามสรุป++ ชี้กลับไปที่ข้อมูลก่อนหน้า"}
+    - {t: It increase, why: "increase ต้องมีคำนำหน้าเป็นนาม และ It increase ผิดรูป"}
+    - {t: That increased, why: "increased เป็นกริยา ใช้เป็นประธานไม่ได้"}
+    - {t: These increase, why: "these ใช้กับพหูพจน์"}
+  explain: "เชื่อมย่อหน้าด้วย ==This + นามที่สรุปความ== (This decision · This trend)"
+  status: draft
+- id: cefr-c1-w07-028
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  stem: Some customers waited three hours. ____ delays are unacceptable.
+  choices:
+    - {t: Such, why: "อ้างถึงลักษณะที่พูดไปแล้ว ใช้ ++Such + นามพหูพจน์++"}
+    - {t: So, why: "So ไม่วางหน้าคำนามแบบนี้"}
+    - {t: This, why: "This ใช้กับคำนามเอกพจน์ แต่ delays เป็นพหูพจน์"}
+    - {t: Same, why: "Same ต้องมี the นำหน้า และไม่ใช่ความหมายนี้"}
+  explain: "Such + นาม = ==แบบนั้น (ที่เพิ่งพูดถึง)=="
+  status: draft
+- id: cefr-c1-w07-029
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  stem: The first study found no effect. ____, more recent research suggests a small benefit.
+  choices:
+    - {t: By contrast, why: "เทียบความต่างกับประโยคก่อน ใช้ ++By contrast++"}
+    - {t: As a result, why: "As a result บอกผล ไม่ใช่ความต่าง"}
+    - {t: In addition, why: "In addition เพิ่มข้อมูลไปทางเดียวกัน"}
+    - {t: For instance, why: "For instance ใช้ยกตัวอย่าง"}
+  explain: "ความต่าง ==By contrast== / In contrast / On the other hand"
+  status: draft
+- id: cefr-c1-w07-030
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  stem: Many factors affect sleep. ____, caffeine and screen time play a major role.
+  choices:
+    - {t: In particular, why: "เจาะจงตัวอย่างสำคัญ ใช้ ++In particular++"}
+    - {t: On the contrary, why: "On the contrary ใช้แย้งประโยคก่อน"}
+    - {t: Nevertheless, why: "Nevertheless บอกความขัดแย้ง"}
+    - {t: As a result, why: "As a result บอกผล"}
+  explain: "เน้นเจาะจง ==In particular / Notably / Above all=="
+  status: draft
+- id: cefr-c1-w07-031
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 3
+  stem: "\"Was the trip expensive?\" \"____, it was cheaper than staying at home.\""
+  choices:
+    - {t: On the contrary, why: "แย้งข้อสันนิษฐานในคำถามว่าตรงกันข้าม ใช้ ++On the contrary++"}
+    - {t: On the other hand, why: "On the other hand ใช้เทียบสองด้าน ไม่ใช่ปฏิเสธข้อสันนิษฐาน"}
+    - {t: In contrast, why: "In contrast ใช้เทียบสองสิ่ง ไม่ใช่ตอบปฏิเสธคำถาม"}
+    - {t: Likewise, why: "Likewise แปลว่าเช่นเดียวกัน ความหมายกลับ"}
+  explain: "ปฏิเสธข้อสันนิษฐาน ==On the contrary== · เทียบสองด้าน on the other hand"
+  status: draft
+- id: cefr-c1-w07-032
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  stem: The government cut taxes and raised spending. ____ policies led to a large deficit.
+  choices:
+    - {t: These, why: "อ้างถึงนโยบายทั้งสองที่พูดไป ใช้ ++These + พหูพจน์++"}
+    - {t: This, why: "policies เป็นพหูพจน์ ใช้ This ไม่ได้"}
+    - {t: Such a, why: "such a ใช้กับคำนามเอกพจน์"}
+    - {t: Those that, why: "Those that ทำให้ต้องมีอนุประโยคตาม ประโยคไม่สมบูรณ์"}
+  explain: "this/that + ==เอกพจน์== · these/those + พหูพจน์"
+  status: draft
+- id: cefr-c1-w07-033
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 3
+  stem: Which sentence best follows "Online courses are flexible and cheap"?
+  choices:
+    - {t: "That said, they demand a high level of self-discipline.", why: "That said ++ยอมรับข้อดีแล้วนำข้อเสีย++ ต่อเนื่องเป็นธรรมชาติ"}
+    - {t: "Therefore, they demand a high level of self-discipline.", why: "Therefore บอกผล แต่ความยืดหยุ่นไม่ได้เป็นเหตุของการต้องมีวินัยโดยตรง"}
+    - {t: "For instance, they demand a high level of self-discipline.", why: "For instance ยกตัวอย่าง แต่ประโยคนี้ไม่ใช่ตัวอย่างของความถูก"}
+    - {t: "Likewise, they demand a high level of self-discipline.", why: "Likewise แปลว่าเช่นเดียวกัน ไม่เข้ากับการนำข้อเสีย"}
+  explain: "ยอมรับแล้วนำข้อแย้ง ==That said / Having said that=="
+  status: draft
+- id: cefr-c1-w07-034
+  kind: cloze
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  text: |
+    The council tested two systems: weekly collection and fortnightly collection. (1) ____ was more popular with residents, (2) ____ the latter saved more money. In the end, the council chose a mixed approach (3) ____ food waste is collected weekly and everything else fortnightly.
+  questions:
+    - choices:
+        - {t: The former, why: "อ้างถึงระบบแรก weekly collection"}
+        - {t: The formal, why: "formal แปลว่าทางการ สะกดคล้ายแต่ผิดความหมาย"}
+        - {t: The later, why: "later แปลว่าทีหลัง ไม่ใช่ the latter"}
+        - {t: Such, why: "Such ต้องตามด้วยคำนาม"}
+    - choices:
+        - {t: whereas, why: "เทียบความต่างสองระบบในประโยคเดียว whereas"}
+        - {t: whereby, why: "whereby ไม่ได้ใช้เทียบความต่าง"}
+        - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
+        - {t: hence, why: "hence บอกผล ไม่ใช่ความต่าง"}
+    - choices:
+        - {t: whereby, why: "วิธีการซึ่งโดยวิธีนั้น a mixed approach whereby"}
+        - {t: whereas, why: "whereas ใช้เทียบความต่าง ไม่ได้อธิบายวิธีการ"}
+        - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
+        - {t: insofar, why: "ต้องเป็น insofar as และความหมายไม่ตรง"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความเชิงวิเคราะห์และฟังบรรยายยาว ----------
+- id: cefr-c1-w07-035
+  kind: read
+  skill: rd
+  topic: analytical-article
+  level: 2
+  title: "Two Kinds of Tourism"
+  passage: |
+    Tourism is often discussed as if it were a single industry. In reality, two very different models exist side by side. The first relies on large numbers of visitors who stay briefly and spend relatively little each. The second attracts fewer people, who stay longer and spend more, often on local services. The former has dominated policy in many countries for decades; the latter has only recently begun to receive serious attention.
+
+    The appeal of mass tourism is obvious. It creates jobs quickly and requires little planning beyond hotels and transport. Its costs, however, are less visible. Popular destinations suffer from overcrowding, rising rents and pressure on water supplies. Such problems are rarely included in official figures, which tend to count arrivals rather than their impact.
+
+    Slower tourism, by contrast, spreads income more widely. A visitor who stays two weeks in a village guesthouse is likely to eat in local restaurants, hire local guides and buy local products. This pattern keeps a larger share of the money within the community. Its main limitation is scale: it cannot replace the income from millions of short-stay visitors, at least not quickly.
+
+    The choice, then, is not a simple dichotomy. Most successful destinations combine both models, albeit in different proportions. What matters is that planners measure what tourism actually does to a place, not merely how many people it brings. Insofar as governments continue to judge success by arrival numbers alone, the disparity between busy tourist centres and the communities around them is likely to grow.
+  questions:
+    - stem: What is the main argument of the article?
+      choices:
+        - {t: tourism policy should measure impact rather than visitor numbers, why: "What matters is that planners measure what tourism actually does to a place"}
+        - {t: mass tourism should be banned, why: "ผู้เขียนบอกว่าที่สำเร็จมักผสมทั้งสองแบบ"}
+        - {t: slow tourism can quickly replace mass tourism, why: "บทบอกว่าแทนไม่ได้ อย่างน้อยไม่ใช่เร็ว ๆ"}
+        - {t: villages do not benefit from tourism, why: "บทบอกว่าการท่องเที่ยวแบบช้าช่วยกระจายรายได้สู่ชุมชน"}
+    - stem: In the first paragraph, what does "the latter" refer to?
+      choices:
+        - {t: tourism with fewer visitors who stay longer, why: "the latter = แบบที่สอง ที่มาน้อยแต่อยู่นานและใช้จ่ายมาก"}
+        - {t: tourism with large numbers of short-stay visitors, why: "นั่นคือ the former"}
+        - {t: the hotel industry, why: "โรงแรมถูกพูดถึงในย่อหน้าที่สอง ไม่ใช่สิ่งที่ the latter อ้างถึง"}
+        - {t: government policy, why: "ไม่ใช่สิ่งที่ the latter อ้างถึง"}
+    - stem: Why are the costs of mass tourism described as "less visible"?
+      choices:
+        - {t: official figures usually count visitors and not their effects, why: "official figures ... tend to count arrivals rather than their impact"}
+        - {t: tourists hide their spending, why: "บทไม่ได้บอกว่านักท่องเที่ยวปกปิดการใช้จ่าย"}
+        - {t: the costs only appear decades later, why: "บทไม่ได้พูดเรื่องเวลาที่ผลปรากฏ"}
+        - {t: they are paid by foreign companies, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: What does the writer imply will happen if governments do not change their approach?
+      choices:
+        - {t: inequality between tourist centres and nearby communities may increase, why: "the disparity between busy tourist centres and the communities around them is likely to grow"}
+        - {t: tourist numbers will fall sharply, why: "บทไม่ได้คาดว่าจำนวนนักท่องเที่ยวจะลด"}
+        - {t: slow tourism will disappear, why: "ไม่มีข้อมูลที่สนับสนุน"}
+        - {t: hotels will stop being built, why: "บทไม่ได้คาดการณ์เรื่องการสร้างโรงแรม"}
+  status: draft
+- id: cefr-c1-w07-036
+  kind: listen
+  skill: li
+  topic: structured-lecture
+  level: 2
+  script:
+    - {who: Lecturer, en: "I'll divide today's talk into three parts. First, I'll outline the problem. Second, I'll look at two possible solutions. Finally, and this is where I'd like most of our discussion to happen, I'll ask which of them is realistic for a city like ours."}
+  questions:
+    - stem: Which part does the lecturer want to discuss most?
+      choices:
+        - {t: which solution is realistic for their city, why: "Finally, and this is where I'd like most of our discussion to happen"}
+        - {t: the outline of the problem, why: "เป็นส่วนแรก ผู้บรรยายไม่ได้เน้นให้อภิปรายมาก"}
+        - {t: the history of the city, why: "ไม่ได้พูดถึงประวัติเมือง"}
+        - {t: the cost of each solution, why: "ไม่ได้พูดถึงค่าใช้จ่ายโดยตรง"}
+  status: draft
+- id: cefr-c1-w07-037
+  kind: listen
+  skill: li
+  topic: structured-lecture
+  level: 2
+  script:
+    - {who: Lecturer, en: "We've looked at the benefits of remote work. That said, it would be naive to ignore its downside. Several studies point to a pervasive sense of isolation among workers who rarely meet colleagues in person."}
+  questions:
+    - stem: What is the lecturer about to discuss?
+      choices:
+        - {t: a disadvantage of remote work, why: "That said ... its downside ... a pervasive sense of isolation"}
+        - {t: more benefits of remote work, why: "That said เปลี่ยนจากข้อดีไปข้อเสีย"}
+        - {t: how to hire colleagues, why: "ไม่ได้พูดถึงการจ้างงาน"}
+        - {t: why offices are expensive, why: "ไม่ได้พูดถึงค่าใช้จ่ายสำนักงาน"}
+  status: draft
+- id: cefr-c1-w07-038
+  kind: listen
+  skill: li
+  topic: structured-lecture
+  level: 2
+  script:
+    - {who: Lecturer, en: "To sum up, then: the evidence is mixed, albeit leaning towards a modest benefit. Subsequent research should focus on older adults, who were largely missing from the studies we reviewed."}
+  questions:
+    - stem: What does the lecturer recommend for future research?
+      choices:
+        - {t: including more older people, why: "Subsequent research should focus on older adults"}
+        - {t: stopping research on the topic, why: "ผู้บรรยายเสนอให้วิจัยต่อ"}
+        - {t: studying only young adults, why: "ตรงข้ามกับที่เสนอ"}
+        - {t: repeating the same studies, why: "ไม่ได้เสนอให้ทำซ้ำ"}
+  status: draft
+- id: cefr-c1-w07-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The film, was a success, albeit, a rather expensive one]
+  sentence: The film was a success, albeit a rather expensive one.
+  th: ภาพยนตร์ประสบความสำเร็จ แม้จะใช้ทุนสูงพอสมควร
+  why: "albeit + วลีสั้นวางหลังจุลภาค ใช้ one แทน success"
+  status: draft
+- id: cefr-c1-w07-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We introduced, a system, whereby, customers can, track their orders online]
+  sentence: We introduced a system whereby customers can track their orders online.
+  th: เรานำระบบที่ลูกค้าสามารถติดตามคำสั่งซื้อออนไลน์ได้มาใช้
+  why: "a system + whereby + ประโยคเต็ม อธิบายวิธีการ"
+  status: draft
+- id: cefr-c1-w07-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Such, criticism, should not, be ignored]
+  sentence: Such criticism should not be ignored.
+  th: คำวิจารณ์แบบนั้นไม่ควรถูกเพิกเฉย
+  why: "Such + คำนาม อ้างถึงสิ่งที่เพิ่งพูด แล้วตามด้วย should not be + ช่อง 3"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c1-w07-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Having outlined, the problem, I'd now like, to turn to, two possible solutions]
+  sentence: Having outlined the problem, I'd now like to turn to two possible solutions.
+  th: เมื่ออธิบายปัญหาแล้ว ต่อไปขอพูดถึงทางแก้ที่เป็นไปได้สองทาง
+  why: "Having + ช่อง 3 สรุปส่วนที่ผ่านมา แล้ว I'd now like to turn to นำส่วนต่อไป"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 8 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 8
+phase: 2
+theme_th: คำที่ใช้คู่กันและสำนวน
+focus_th: collocation (กริยา+นาม · วิเศษณ์+คุณศัพท์ · คู่คำตายตัว) · dependent prepositions · กริยาวลีกับคำทางการที่ความหมายเท่ากัน
+can_do_th:
+  - เลือกคำที่ใช้คู่กันได้แม่นและเป็นธรรมชาติ
+  - ปรับระดับภาษาระหว่างทางการกับกลางได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: คำที่เจ้าของภาษาใช้คู่กัน
+    lesson:
+      rule_th: "ระดับนี้ถูกไวยากรณ์อย่างเดียวไม่พอ ต้อง ==ใช้คำที่เจ้าของภาษาใช้คู่กัน== เช่น make a decision · reach an agreement · ++bitterly disappointed++ จำเป็นก้อน ไม่แปลทีละคำ"
+      examples:
+        - {en: "We need to <k>make a decision</k>.", th: "ไม่ใช่ do a decision"}
+        - {en: "They <k>reached an agreement</k>.", th: "ไม่ใช่ arrived an agreement"}
+        - {en: "I'm <k>fully aware</k> of the risks.", th: "==วิเศษณ์ + คุณศัพท์ที่เข้าคู่=="}
+        - {en: "The scandal <k>caused damage</k> to its reputation.", th: "ไม่ใช่ made damage"}
+      signals:
+        - {label_th: "คู่ที่ใช้บ่อย", words: [make a decision, do research, pay attention, narrow the gap, heavy traffic, highly likely, deeply grateful]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ทำ กับเกือบทุกอย่าง คนจึงเลือก ~~do/make ตามคำแปล~~ และใช้ very กับคุณศัพท์ทุกตัว"
+        wrong: ["We did a decision yesterday.", "He is a strong smoker.", "I'm very aware of the problem."]
+        right: ["We made a decision yesterday.", "He is a heavy smoker.", "I'm fully aware of the problem."]
+      notes:
+        - {kind: tip, th: "จดศัพท์ใหม่ ==พร้อมคำที่มาด้วยเสมอ== เช่น จด make progress ไม่ใช่จด progress อย่างเดียว"}
+        - {kind: warn, th: "เดาคู่คำจากภาษาไทยเสี่ยงผิดมาก ถ้าไม่แน่ใจใช้คำกลาง ๆ อย่าง very หรือ cause แทน"}
+    check: [cefr-c1-w08-001, cefr-c1-w08-002]
+    practice: [cefr-c1-w08-003, cefr-c1-w08-004, cefr-c1-w08-005, cefr-c1-w08-006, cefr-c1-w08-007, cefr-c1-w08-008, cefr-c1-w08-009, cefr-c1-w08-010, cefr-c1-w08-011, cefr-c1-w08-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าการตัดสินใจสำคัญของคุณ ใช้คู่คำของวันนี้อย่างน้อย 3 คู่
+      frame: "Last year I made a ____ decision to ____. I was fully aware ____, but ____."
+      model: "Last year I made a difficult decision to leave my job. I was fully aware of the risks, but I wanted to make progress with my own business."
+    classroom: {en: "We need to reach a decision by Friday.", th: "เราต้องได้ข้อสรุปภายในวันศุกร์"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ลดปัญหาและขัดขวาง 12 คำ
+    lesson:
+      rule_th: "แบ่งเป็นสองกลุ่ม ==ทำให้ดีขึ้น== (mitigate alleviate ameliorate) กับ ++ขัดขวาง++ (hinder impede hamper thwart) แล้วจำคำที่มาคู่ เช่น alleviate pain · thwart an attempt · deter someone from"
+      examples:
+        - {en: "Painkillers <k>alleviate</k> pain.", th: "บรรเทาความเจ็บ"}
+        - {en: "Walls <k>mitigate</k> the risk of floods.", th: "ลดความรุนแรงของความเสี่ยง"}
+        - {en: "Bad weather <k>hampered</k> the search.", th: "==ขัดขวางให้ยากลำบาก=="}
+        - {en: "Fines <k>deter</k> people <k>from</k> littering.", th: "ขู่ไม่ให้ทำ"}
+      words:
+        - {w: mitigate, pos: v., th: ลดความรุนแรง, ex: "Trees help mitigate the effects of heat."}
+        - {w: alleviate, pos: v., th: บรรเทา, ex: "The new road alleviated traffic in the centre."}
+        - {w: ameliorate, pos: v., th: ทำให้ดีขึ้น, ex: "Measures were taken to ameliorate conditions."}
+        - {w: curtail, pos: v., th: ตัดทอน จำกัด, ex: "The government curtailed spending."}
+        - {w: hinder, pos: v., th: ขัดขวาง, ex: "Noise can hinder concentration."}
+        - {w: impede, pos: v., th: ขัดขวางการคืบหน้า, ex: "Snow impeded traffic on the pass."}
+        - {w: hamper, pos: v., th: ทำให้ติดขัด, ex: "The project was hampered by delays."}
+        - {w: thwart, pos: v., th: ทำให้แผนล้มเหลว, ex: "Guards thwarted the escape attempt."}
+        - {w: undermine, pos: v., th: บ่อนทำลายทีละน้อย, ex: "Rumours undermined her authority."}
+        - {w: circumvent, pos: v., th: หลบเลี่ยง, ex: "They found a way to circumvent the rules."}
+        - {w: deter, pos: v., th: ป้องปราม ขู่ไม่ให้ทำ, ex: "Cameras deter thieves."}
+        - {w: expedite, pos: v., th: เร่งให้เร็วขึ้น, ex: "We will expedite your order."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ลด กับทุกอย่าง คนจึงใช้ ~~alleviate the rules~~ หรือ ~~mitigate pain~~ แบบไม่เข้าคู่ และลืม from หลัง deter"
+        wrong: ["The fine deters people to speed.", "This medicine reduces down the pain."]
+        right: ["The fine deters people from speeding.", "This medicine alleviates the pain."]
+      notes:
+        - {kind: pin, th: "==deter someone from + -ing== · be hampered by"}
+        - {kind: use, th: "อีเมลเร่งงานที่สุภาพ Is there any way to expedite this? ฟังมืออาชีพกว่า hurry up"}
+    check: [cefr-c1-w08-013, cefr-c1-w08-014]
+    practice: [cefr-c1-w08-015, cefr-c1-w08-016, cefr-c1-w08-017, cefr-c1-w08-018, cefr-c1-w08-019, cefr-c1-w08-020, cefr-c1-w08-021, cefr-c1-w08-022, cefr-c1-w08-023, cefr-c1-w08-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเรื่องปัญหาในเมืองของคุณ บอกสิ่งที่ขัดขวาง และสิ่งที่ช่วยบรรเทา
+      frame: "Efforts to ____ have been hampered by ____. One way to mitigate this would be to ____."
+      model: "Efforts to reduce air pollution have been hampered by the number of old trucks in the city. One way to mitigate this would be to offer owners money to replace them."
+    classroom: {en: "Is there any way to expedite this?", th: "พอจะมีทางเร่งเรื่องนี้ได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: บุพบทและระดับภาษา
+    lesson:
+      rule_th: "บุพบทหลังคำบางคำ ==ตายตัวเดาไม่ได้== (depend on · consistent with · criticise for) และงานเขียนทางการ ++เปลี่ยนกริยาวลีเป็นคำเดี่ยว++ เช่น put off → postpone · look into → investigate"
+      examples:
+        - {en: "It <k>depends on</k> the weather.", th: "ไม่ใช่ depends of"}
+        - {en: "an increase <k>in</k> crime · an increase <k>of</k> 10%", th: "==in = สิ่งที่เปลี่ยน · of = ตัวเลข=="}
+        - {en: "The meeting was <k>postponed</k>.", th: "ทางการกว่า put off"}
+        - {en: "The police will <k>investigate</k>.", th: "ทางการกว่า look into"}
+      signals:
+        - {label_th: "กริยาวลี → คำทางการ", words: ["find out → ascertain", "put off → postpone", "look into → investigate", "go up → increase", "set up → establish"]}
+      thai_trap:
+        intro_th: "บุพบทไทยแปลตรงทำให้ได้ ~~depend of · consistent to~~ และ criticise about ซึ่งผิดทั้งหมด"
+        wrong: ["It depends of the price.", "The plan is not consistent to our values.", "They were criticised about the delay."]
+        right: ["It depends on the price.", "The plan is not consistent with our values.", "They were criticised for the delay."]
+      notes:
+        - {kind: tip, th: "อีเมลถึงเพื่อนร่วมงานใช้กริยาวลีได้ ==รายงานหรือจดหมายทางการใช้คำเดี่ยว=="}
+        - {kind: warn, th: "อย่าเปลี่ยนทุกคำเป็นทางการในบทสนทนา จะฟังแข็งเกินไป"}
+    check: [cefr-c1-w08-025, cefr-c1-w08-026]
+    practice: [cefr-c1-w08-027, cefr-c1-w08-028, cefr-c1-w08-029, cefr-c1-w08-030, cefr-c1-w08-031, cefr-c1-w08-032, cefr-c1-w08-033, cefr-c1-w08-034]
+    use:
+      prompt_th: เขียนประโยคแบบพูด 2 ประโยค แล้วเปลี่ยนเป็นแบบรายงานทางการ
+      frame: "Spoken: We'll look into ____ and put off ____. Formal: We will investigate ____ and postpone ____."
+      model: "Spoken: We'll look into the complaints and put off the launch. Formal: We will investigate the complaints and postpone the launch."
+    classroom: {en: "I'll look into it and get back to you.", th: "จะตรวจสอบให้แล้วติดต่อกลับ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านรายงานเชิงนโยบายและฟังสัมภาษณ์ผู้เชี่ยวชาญ
+    lesson:
+      rule_th: "รายงานนโยบายเรียง ==ปัญหา → สาเหตุ → ข้อเสนอ → ข้อจำกัด== ย่อหน้าข้อจำกัดคือที่ผู้เขียนแสดงความรอบคอบ และ ++มักถูกถามในข้อท้าย++"
+      examples:
+        - {en: "The data <k>reveal</k> a clear pattern.", th: "ย่อหน้าสาเหตุ"}
+        - {en: "<k>First</k>, we recommend ...", th: "==ข้อเสนอเรียงเป็นข้อ=="}
+        - {en: "These measures are <k>not without cost</k>.", th: "เปิดย่อหน้าข้อจำกัด"}
+      thai_trap:
+        intro_th: "คนมักคิดว่ารายงานที่ยอมรับข้อจำกัด ~~ไม่มั่นใจในข้อเสนอของตัวเอง~~ ทั้งที่เป็นสัญญาณของรายงานที่ดี"
+        wrong: ["ตอบว่าผู้เขียนไม่แนะนำให้ตรวจหมวกเพราะมีความเสี่ยง"]
+        right: ["ผู้เขียนแนะนำให้ตรวจ แต่ให้ทำร่วมกับโรงเรียนและชุมชนเพื่อลดความเสี่ยง"]
+      notes:
+        - {kind: tip, th: "ถามสามข้อขณะอ่าน ==ปัญหาคืออะไร เสนออะไร ติดอะไร== จะตอบได้เกือบทุกคำถาม"}
+        - {kind: warn, th: "On its own, no. ในสัมภาษณ์ แปลว่ามีประโยชน์แต่ไม่พอ ไม่ใช่ไร้ประโยชน์"}
+    check: [cefr-c1-w08-036, cefr-c1-w08-037]
+    practice: [cefr-c1-w08-035, cefr-c1-w08-038, cefr-c1-w08-039, cefr-c1-w08-040, cefr-c1-w08-041]
+    use:
+      prompt_th: เขียนข้อเสนอ 1 ข้อพร้อมข้อจำกัด 1 ข้อ สำหรับปัญหาในชุมชนของคุณ
+      frame: "We recommend ____. This measure is not without cost: ____."
+      model: "We recommend adding a pedestrian crossing outside the market. This measure is not without cost: it may slow traffic at busy times."
+    classroom: {en: "On its own, that won't be enough.", th: "แค่นั้นอย่างเดียวคงไม่พอ"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน สรุปเชิงนโยบายพร้อมข้อเสนอแนะ 220 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนสรุปเชิงนโยบายประมาณ 220 คำ ถึงผู้บริหารเมือง หน่วยงาน หรือบริษัท เรื่องปัญหาหนึ่ง (เช่น ขยะริมทาง เด็กติดเกม พนักงานลาออกบ่อย) บอกปัญหาด้วยข้อมูล 1 จุด สาเหตุ ข้อเสนอ 2 ข้อ ข้อจำกัด และคำแนะนำสุดท้าย
+      frame:
+        - "This brief summarises ____ and recommends ____."
+        - "The data reveal that ____. This is largely due to ____."
+        - "First, we recommend ____. Second, ____ would help mitigate ____."
+        - "These measures are not without cost. ____."
+        - "We therefore recommend that ____ be ____."
+      model_pass: "This brief summarises the problem of staff leaving our company and recommends two changes. The data reveal that 30 per cent of new staff leave within their first year. This is largely due to heavy workloads and a lack of training. First, we recommend a three-month training programme for every new employee. Second, regular meetings between staff and managers would help mitigate stress and make problems visible earlier. These measures are not without cost. Training requires time from experienced staff, which may hamper their own work in the short term. However, replacing staff is far more expensive. We therefore recommend that the training programme be introduced in January and reviewed after six months."
+      model_good: "This brief summarises the causes of high staff turnover at our company and recommends two measures that could be introduced within the next quarter. The data reveal that nearly a third of new employees leave within twelve months, a rate considerably higher than the industry average. Exit interviews suggest that this is largely due to unrealistic workloads in the first weeks and limited access to training. First, we recommend a structured induction programme, whereby every new employee is paired with an experienced colleague for three months. Second, monthly one-to-one meetings with line managers would help mitigate the stress that currently goes unreported until it is too late. These measures are not without cost. Mentoring will inevitably curtail the time senior staff can spend on their own projects, and managers may need training themselves. Nevertheless, the cost of recruiting and training replacements far outweighs these investments. We therefore recommend that both measures be piloted in two departments from January and evaluated after six months."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกปัญหาจริงในที่ทำงานหรือชุมชนของคุณ แล้วหาตัวเลข 1 จุด
+        - เติมโครง 5 ส่วน แล้วเขียนให้ได้ประมาณ 200–240 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนแล้วเปลี่ยนกริยาวลี 2 คำให้เป็นคำทางการ
+      checklist_th:
+        - ใช้คู่คำที่เป็นธรรมชาติอย่างน้อย 4 คู่ (make a contribution · cause damage · reach a decision · narrow the gap)
+        - ใช้ศัพท์ของสัปดาห์อย่างน้อย 2 คำ (mitigate · hamper · curtail · deter)
+        - มีย่อหน้าข้อจำกัดที่ตรงไปตรงมา
+        - ใช้ภาษาทางการตลอด (ไม่มีกริยาวลีแบบพูด) และยาวประมาณ 220 คำ
+    practice: [cefr-c1-w08-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 8
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [5, 6, 7, 8], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

@@ -1,0 +1,583 @@
+# คอร์ส c1 · สัปดาห์ 8 · คำที่ใช้คู่กันและสำนวน · collocation (กริยา+นาม · วิเศษณ์+คุณศัพท์ · คู่คำตายตัว) · บุพบทและระดับภาษา (dependent prepositions · กริยาวลีกับคำทางการ)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# หลักการเขียนตัวลวง: ศัพท์สัปดาห์นี้ความหมายใกล้กันมาก (hinder impede hamper) จึงให้ตัวลวงผิดด้วยโครงสร้างหรือคู่คำที่ชัด ไม่ใช้คำใกล้ความหมายที่ใช้แทนได้
+# ---------- วันที่ 1 · คำที่เจ้าของภาษาใช้คู่กัน ----------
+- id: cefr-c1-w08-001
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 1
+  stem: The company needs to ____ a decision about the new office by Friday.
+  choices:
+    - {t: make, why: "คู่คำตายตัว ++make a decision++"}
+    - {t: do, why: "do a decision ไม่ใช่คู่คำที่ใช้"}
+    - {t: take on, why: "take on แปลว่ารับงานหรือรับคน ไม่ใช้กับ decision"}
+    - {t: give, why: "give a decision ไม่ใช่คู่คำที่ใช้ทั่วไป"}
+  explain: "==make a decision / make progress== · do research / do business"
+  status: draft
+- id: cefr-c1-w08-002
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 1
+  stem: The two sides finally ____ an agreement after ten hours of talks.
+  choices:
+    - {t: reached, why: "คู่คำตายตัว ++reach an agreement++"}
+    - {t: arrived, why: "arrive ต้องตามด้วย at และไม่ใช่คู่คำนี้โดยตรง"}
+    - {t: did, why: "did an agreement ไม่ใช่คู่คำที่ใช้"}
+    - {t: got to make, why: "got to make an agreement ฟังผิดธรรมชาติและซ้อนกริยา"}
+  explain: "==reach an agreement== / a decision / a conclusion"
+  status: draft
+- id: cefr-c1-w08-003
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: I'm ____ aware of the risks, but I still want to try.
+  choices:
+    - {t: fully, why: "วิเศษณ์คู่กับ aware ใช้ ++fully aware++"}
+    - {t: highly, why: "highly ใช้คู่กับคุณศัพท์อื่น เช่น highly likely ไม่ใช้กับ aware"}
+    - {t: deeply, why: "deeply ใช้กับความรู้สึก เช่น deeply grateful ไม่ใช่ aware"}
+    - {t: bitterly, why: "bitterly ใช้กับความผิดหวังหรือความเย็น ไม่ใช่ aware"}
+  explain: "==fully aware== · highly likely · deeply grateful · bitterly disappointed"
+  status: draft
+- id: cefr-c1-w08-004
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: The team was ____ disappointed when the project was cancelled.
+  choices:
+    - {t: bitterly, why: "วิเศษณ์คู่ตายตัวกับ disappointed ใช้ ++bitterly++"}
+    - {t: fully, why: "fully disappointed ไม่ใช่คู่คำที่ใช้"}
+    - {t: highly, why: "highly disappointed ไม่ใช่คู่คำที่ใช้ทั่วไป"}
+    - {t: strongly, why: "strongly ใช้กับความเห็น เช่น strongly disagree"}
+  explain: "ผิดหวังมาก ==bitterly disappointed=="
+  status: draft
+- id: cefr-c1-w08-005
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: The new manager has ____ a lot of changes since she arrived.
+  choices:
+    - {t: brought about, why: "ทำให้เกิดการเปลี่ยนแปลง ใช้ ++bring about changes++"}
+    - {t: brought up, why: "bring up แปลว่าเลี้ยงดูหรือยกขึ้นมาพูด"}
+    - {t: done, why: "do changes ไม่ใช่คู่คำที่ใช้"}
+    - {t: given, why: "give changes ไม่ใช่คู่คำที่ใช้"}
+  explain: "==bring about / make / introduce + changes=="
+  status: draft
+- id: cefr-c1-w08-006
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 1
+  stem: Heavy rain is ____ to continue until Sunday.
+  choices:
+    - {t: expected, why: "คาดว่าจะ ใช้ ++is expected to++ กับพยากรณ์"}
+    - {t: hoped, why: "ไม่มีใครหวังให้ฝนตกหนัก ความหมายไม่เข้า"}
+    - {t: waited, why: "waited ไม่ใช้ในรูป is waited to"}
+    - {t: looked, why: "looked ไม่ใช้ในรูป is looked to แบบนี้"}
+  explain: "พยากรณ์ ==is expected to / is set to + กริยา=="
+  status: draft
+- id: cefr-c1-w08-007
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: The scandal ____ serious damage to the company's reputation.
+  choices:
+    - {t: caused, why: "คู่คำ ++cause damage++"}
+    - {t: made, why: "make damage ไม่ใช่คู่คำที่ใช้"}
+    - {t: did to, why: "did to serious damage ลำดับผิด"}
+    - {t: raised, why: "raise damage ไม่ใช่คู่คำที่ใช้"}
+  explain: "==cause damage / do damage (to)== · ไม่ใช้ make damage"
+  status: draft
+- id: cefr-c1-w08-008
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: The new law aims to ____ the gap between rich and poor.
+  choices:
+    - {t: narrow, why: "ลดช่องว่าง ใช้ ++narrow the gap++"}
+    - {t: thin, why: "thin the gap ไม่ใช่คู่คำที่ใช้"}
+    - {t: lower, why: "lower ใช้กับระดับหรือราคา ไม่ใช่ gap"}
+    - {t: shorten, why: "shorten ใช้กับความยาวหรือเวลา ไม่ใช้กับ gap"}
+  explain: "==narrow / close / bridge the gap=="
+  status: draft
+- id: cefr-c1-w08-009
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 3
+  stem: Which collocation is natural?
+  choices:
+    - {t: "a heavy smoker", why: "คนสูบบุหรี่จัด ใช้ ++heavy smoker++"}
+    - {t: "a strong smoker", why: "strong smoker ไม่ใช่คู่คำที่ใช้"}
+    - {t: "a big smoker", why: "big smoker ไม่เป็นธรรมชาติ"}
+    - {t: "a hard smoker", why: "hard smoker ไม่ใช่คู่คำที่ใช้"}
+  explain: "==heavy smoker== / heavy traffic / heavy rain · strong coffee"
+  status: draft
+- id: cefr-c1-w08-010
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: 'The results ____ a clear pattern: the earlier people start, the better they do.'
+  choices:
+    - {t: reveal, why: "ผลลัพธ์เผยให้เห็น ใช้ ++reveal a pattern++"}
+    - {t: tell, why: "tell a pattern ไม่ใช่คู่คำที่ใช้"}
+    - {t: speak, why: "speak a pattern ไม่ใช่คู่คำที่ใช้"}
+    - {t: say, why: "say a pattern ไม่ใช่คู่คำที่ใช้"}
+  explain: "ผลการศึกษา ==reveal / show / indicate== + pattern / trend"
+  status: draft
+- id: cefr-c1-w08-011
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 3
+  stem: Please ____ attention to the safety instructions before you begin.
+  choices:
+    - {t: pay, why: "คู่คำตายตัว ++pay attention to++"}
+    - {t: put, why: "put attention ไม่ใช่คู่คำที่ใช้"}
+    - {t: make, why: "make attention ไม่ใช่คู่คำที่ใช้"}
+    - {t: take, why: "take attention ไม่ใช่คู่คำที่ใช้"}
+  explain: "==pay attention== / pay a visit / pay a compliment"
+  status: draft
+- id: cefr-c1-w08-012
+  kind: type
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  stem: "Could you d_ me a favour and post this letter? (ทำ ช่วย)"
+  answer: do
+  accept: [do]
+  why: "คู่คำตายตัว do someone a favour ไม่ใช้ make"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ลดปัญหาและขัดขวาง ----------
+- id: cefr-c1-w08-013
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 1
+  stem: The new flood walls should ____ the risk of damage to homes.
+  choices:
+    - {t: mitigate, why: "ลดความรุนแรงของความเสี่ยง ใช้ ++mitigate the risk++"}
+    - {t: expedite, why: "expedite แปลว่าเร่งให้เร็วขึ้น ความหมายผิด"}
+    - {t: circumvent, why: "circumvent แปลว่าหลบเลี่ยงกฎ ไม่ใช่ลดความเสี่ยง"}
+    - {t: undermine, why: "undermine แปลว่าบ่อนทำลาย ความหมายกลับ"}
+  explain: "mitigate = ==บรรเทา ลดความรุนแรง== (risk / impact)"
+  status: draft
+- id: cefr-c1-w08-014
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 1
+  stem: This medicine will help ____ the pain for a few hours.
+  choices:
+    - {t: alleviate, why: "บรรเทาความเจ็บปวด ใช้ ++alleviate pain++"}
+    - {t: thwart, why: "thwart ใช้กับแผนหรือความพยายาม ไม่ใช่ความเจ็บปวด"}
+    - {t: expedite, why: "expedite pain แปลว่าเร่งความเจ็บปวด ความหมายผิด"}
+    - {t: deter, why: "deter ใช้กับการขู่ไม่ให้คนทำ ไม่ใช่ความเจ็บปวด"}
+  explain: "alleviate = ==บรรเทา== (pain / suffering / poverty)"
+  status: draft
+- id: cefr-c1-w08-015
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: The charity works to ____ living conditions in the poorest areas.
+  choices:
+    - {t: ameliorate, why: "ทำให้ดีขึ้น ใช้ ++ameliorate conditions++"}
+    - {t: curtail, why: "curtail แปลว่าตัดทอน ความหมายผิด"}
+    - {t: hamper, why: "hamper แปลว่าขัดขวาง ความหมายกลับ"}
+    - {t: circumvent, why: "circumvent แปลว่าหลบเลี่ยง ไม่ใช่ทำให้ดีขึ้น"}
+  explain: "ameliorate = ==ทำให้ดีขึ้น== (ทางการมาก ≈ improve)"
+  status: draft
+- id: cefr-c1-w08-016
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: Because of the budget cuts, the museum has had to ____ its opening hours.
+  choices:
+    - {t: curtail, why: "ตัดทอนให้น้อยลง ใช้ ++curtail opening hours++"}
+    - {t: alleviate, why: "alleviate ใช้กับความทุกข์หรือความเจ็บปวด ไม่ใช่เวลาเปิด"}
+    - {t: expedite, why: "expedite แปลว่าเร่ง ไม่ใช่ลดเวลาเปิด"}
+    - {t: deter, why: "deter ใช้ขู่ไม่ให้คนทำ ไม่ใช่ลดเวลา"}
+  explain: "curtail = ==ตัดทอน จำกัด== (spending / hours / freedom)"
+  status: draft
+- id: cefr-c1-w08-017
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: Poor internet access can ____ students' ability to study at home.
+  choices:
+    - {t: hinder, why: "ขัดขวางทำให้ยากขึ้น ใช้ ++hinder++"}
+    - {t: expedite, why: "expedite แปลว่าเร่งให้เร็ว ความหมายกลับ"}
+    - {t: ameliorate, why: "ameliorate แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
+    - {t: alleviate, why: "alleviate แปลว่าบรรเทา ไม่ใช่ขัดขวาง"}
+  explain: "hinder = ==ขัดขวาง ทำให้ยากขึ้น=="
+  status: draft
+- id: cefr-c1-w08-018
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: Fallen trees ____ the progress of rescue teams through the valley.
+  choices:
+    - {t: impeded, why: "ขัดขวางการเคลื่อนที่ ใช้ ++impeded progress++"}
+    - {t: expedited, why: "expedited แปลว่าเร่ง ความหมายกลับ"}
+    - {t: ameliorated, why: "ameliorated แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
+    - {t: deterred, why: "deter ใช้กับคนที่ถูกขู่ ไม่ใช้กับ progress"}
+  explain: "impede = ==ขัดขวางการเคลื่อนหรือการคืบหน้า=="
+  status: draft
+- id: cefr-c1-w08-019
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: The search was ____ by bad weather and poor visibility.
+  choices:
+    - {t: hampered, why: "ถูกทำให้ยากลำบาก ใช้ ++was hampered by++"}
+    - {t: expedited, why: "expedited by bad weather ขัดกัน สภาพอากาศเลวไม่ได้ช่วยเร่ง"}
+    - {t: alleviated, why: "alleviated ใช้กับความเจ็บปวด ไม่ใช่การค้นหา"}
+    - {t: mitigated, why: "mitigated by bad weather ความหมายกลับ"}
+  explain: "be hampered by = ==ถูกทำให้ติดขัดโดย=="
+  status: draft
+- id: cefr-c1-w08-020
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: Police ____ an attempt to steal money from the bank's cash machines.
+  choices:
+    - {t: thwarted, why: "ขัดขวางแผนให้ล้มเหลว ใช้ ++thwart an attempt++"}
+    - {t: alleviated, why: "alleviate ไม่ใช้กับความพยายามก่ออาชญากรรม"}
+    - {t: ameliorated, why: "ameliorate แปลว่าทำให้ดีขึ้น ความหมายกลับ"}
+    - {t: expedited, why: "expedite แปลว่าเร่ง ความหมายกลับ"}
+  explain: "thwart = ==ทำให้แผนล้มเหลว== (an attempt / a plan)"
+  status: draft
+- id: cefr-c1-w08-021
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: Constant criticism can ____ a person's confidence over time.
+  choices:
+    - {t: undermine, why: "บ่อนทำลายทีละน้อย ใช้ ++undermine confidence++"}
+    - {t: expedite, why: "expedite confidence ไม่มีความหมาย"}
+    - {t: alleviate, why: "alleviate confidence ไม่มีความหมาย"}
+    - {t: circumvent, why: "circumvent confidence ไม่มีความหมาย"}
+  explain: "undermine = ==บ่อนทำลายทีละน้อย== (confidence / trust / authority)"
+  status: draft
+- id: cefr-c1-w08-022
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: Some companies set up offices abroad to ____ tax rules at home.
+  choices:
+    - {t: circumvent, why: "หาทางเลี่ยงกฎ ใช้ ++circumvent rules++"}
+    - {t: alleviate, why: "alleviate rules ไม่มีความหมาย"}
+    - {t: ameliorate, why: "ameliorate rules ไม่ได้แปลว่าหลบเลี่ยง"}
+    - {t: expedite, why: "expedite rules ไม่มีความหมาย"}
+  explain: "circumvent = ==หลบเลี่ยง (กฎ ข้อจำกัด)=="
+  status: draft
+- id: cefr-c1-w08-023
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 3
+  stem: Higher fines are intended to ____ drivers from using their phones.
+  choices:
+    - {t: deter, why: "ขู่ไม่ให้ทำ ใช้ ++deter someone from + -ing++"}
+    - {t: alleviate, why: "alleviate drivers from ผิดรูป และแปลว่าบรรเทา"}
+    - {t: curtail, why: "curtail drivers from ผิดรูป"}
+    - {t: undermine, why: "undermine drivers from ผิดรูป"}
+  explain: "deter someone ==from + -ing== = ทำให้ไม่กล้าทำ"
+  status: draft
+- id: cefr-c1-w08-024
+  kind: type
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  stem: "Paying a small fee will e_______ your passport application. (เร่งให้เร็วขึ้น)"
+  answer: expedite
+  accept: [expedite]
+  why: "expedite = เร่งขั้นตอนให้เร็วขึ้น ใช้กับคำร้องหรือการส่งของ"
+  status: draft
+# ---------- วันที่ 3 · บุพบทและระดับภาษา ----------
+- id: cefr-c1-w08-025
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 1
+  stem: The success of the project depends ____ everyone working together.
+  choices:
+    - {t: "on", why: "บุพบทตายตัว ++depend on++"}
+    - {t: of, why: "depend of เป็นความผิดที่พบบ่อยจากการแปลตรง"}
+    - {t: from, why: "depend from ไม่ใช่บุพบทที่ใช้"}
+    - {t: to, why: "depend to ไม่ใช่บุพบทที่ใช้"}
+  explain: "==depend on== · rely on · insist on · focus on"
+  status: draft
+- id: cefr-c1-w08-026
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 1
+  stem: She has a strong commitment ____ improving public health.
+  choices:
+    - {t: to, why: "commitment ++to + -ing++ (to เป็นบุพบท)"}
+    - {t: for, why: "commitment for ไม่ใช่บุพบทที่ใช้"}
+    - {t: "on", why: "commitment on ไม่ใช่บุพบทที่ใช้"}
+    - {t: with, why: "commitment with ไม่ใช่บุพบทที่ใช้"}
+  explain: "commitment / dedication / key ==to + -ing=="
+  status: draft
+- id: cefr-c1-w08-027
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  stem: In a formal report, which verb would replace "find out"?
+  choices:
+    - {t: ascertain, why: "คำทางการที่มีความหมายเท่า find out คือ ++ascertain++"}
+    - {t: discover out, why: "discover ไม่ต้องมี out"}
+    - {t: look up to, why: "look up to แปลว่านับถือ ความหมายผิด"}
+    - {t: come across as, why: "come across as แปลว่าดูเหมือน ความหมายผิด"}
+  explain: "find out → ==ascertain / determine== (ทางการ)"
+  status: draft
+- id: cefr-c1-w08-028
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  stem: In a formal letter, which verb would replace "put off"?
+  choices:
+    - {t: postpone, why: "put off = ++postpone++ ในภาษาทางการ"}
+    - {t: cancel, why: "cancel แปลว่ายกเลิก ไม่ใช่เลื่อน"}
+    - {t: prolong, why: "prolong แปลว่ายืดให้นานขึ้น ไม่ใช่เลื่อนออกไป"}
+    - {t: resume, why: "resume แปลว่ากลับมาทำต่อ"}
+  explain: "put off → ==postpone== · call off → cancel"
+  status: draft
+- id: cefr-c1-w08-029
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  stem: The government has been criticised ____ its slow response to the crisis.
+  choices:
+    - {t: for, why: "criticise someone ++for++ something"}
+    - {t: about, why: "criticise about ไม่ใช่บุพบทที่ใช้"}
+    - {t: because, why: "because ต้องตามด้วยประโยค"}
+    - {t: "on", why: "criticise on ไม่ใช่บุพบทที่ใช้"}
+  explain: "==criticise / blame / praise someone for== something"
+  status: draft
+- id: cefr-c1-w08-030
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  stem: Which sentence is most suitable for a formal report?
+  choices:
+    - {t: "The committee will investigate the matter further.", why: "ใช้กริยาทางการ ++investigate++"}
+    - {t: "The committee will look into the matter a bit more.", why: "look into และ a bit more เป็นภาษากึ่งพูด"}
+    - {t: "The committee is gonna check this out.", why: "gonna และ check out เป็นภาษาพูดไม่เป็นทางการ"}
+    - {t: "The committee will dig around in the matter.", why: "dig around เป็นภาษาพูด ไม่เหมาะกับรายงาน"}
+  explain: "look into → ==investigate== · go up → increase · set up → establish"
+  status: draft
+- id: cefr-c1-w08-031
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 3
+  stem: The new rules are not consistent ____ the company's own values.
+  choices:
+    - {t: with, why: "บุพบทตายตัว ++consistent with++"}
+    - {t: to, why: "consistent to ไม่ใช่บุพบทที่ใช้"}
+    - {t: of, why: "consistent of ไม่ใช่บุพบทที่ใช้"}
+    - {t: for, why: "consistent for ไม่ใช่บุพบทที่ใช้"}
+  explain: "==consistent with== · compatible with · in line with"
+  status: draft
+- id: cefr-c1-w08-032
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  stem: There has been a sharp increase ____ the number of online scams.
+  choices:
+    - {t: in, why: "increase/decrease ++in++ + สิ่งที่เปลี่ยน"}
+    - {t: of, why: "increase of ใช้กับตัวเลขที่เพิ่ม เช่น an increase of 10% ไม่ใช่สิ่งที่เปลี่ยน"}
+    - {t: "on", why: "increase on ไม่ใช่บุพบทที่ใช้ตรงนี้"}
+    - {t: at, why: "increase at ไม่ใช่บุพบทที่ใช้"}
+  explain: "an increase ==in crime== · an increase of 10%"
+  status: draft
+- id: cefr-c1-w08-033
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 3
+  stem: Several staff members have expressed concern ____ the new shift system.
+  choices:
+    - {t: about, why: "express concern ++about / over++ something"}
+    - {t: of, why: "concern of ไม่ใช่บุพบทที่ใช้ในความหมายนี้"}
+    - {t: to, why: "concern to ไม่ใช่บุพบทที่ใช้"}
+    - {t: at, why: "concern at ใช้น้อยมากและไม่เป็นธรรมชาติในบริบทนี้"}
+  explain: "express concern ==about / over== = แสดงความกังวลเกี่ยวกับ"
+  status: draft
+- id: cefr-c1-w08-034
+  kind: cloze
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  text: |
+    The report concludes that the new bus lanes have (1) ____ a significant contribution to reducing traffic. However, the council has been criticised (2) ____ failing to consult local shop owners, who claim the lanes have (3) ____ serious damage to their trade.
+  questions:
+    - choices:
+        - {t: made, why: "คู่คำตายตัว make a contribution"}
+        - {t: done, why: "do a contribution ไม่ใช่คู่คำที่ใช้"}
+        - {t: given, why: "give a contribution ไม่ใช่คู่คำที่ใช้ในความหมายนี้"}
+        - {t: taken, why: "take a contribution ไม่ใช่คู่คำที่ใช้"}
+    - choices:
+        - {t: for, why: "criticise someone for + -ing"}
+        - {t: about, why: "criticise about ไม่ใช่บุพบทที่ใช้"}
+        - {t: because, why: "because ต้องตามด้วยประโยค"}
+        - {t: with, why: "criticise with ไม่ใช่บุพบทที่ใช้"}
+    - choices:
+        - {t: caused, why: "คู่คำ cause damage"}
+        - {t: made, why: "make damage ไม่ใช่คู่คำที่ใช้"}
+        - {t: brought, why: "bring damage ไม่ใช่คู่คำที่ใช้ทั่วไป"}
+        - {t: raised, why: "raise damage ไม่ใช่คู่คำที่ใช้"}
+  status: draft
+# ---------- วันที่ 4 · อ่านรายงานเชิงนโยบายและฟังสัมภาษณ์ ----------
+- id: cefr-c1-w08-035
+  kind: read
+  skill: rd
+  topic: policy-report
+  level: 2
+  title: "Policy Brief · Reducing Road Deaths among Motorcyclists (fictional)"
+  passage: |
+    Motorcyclists account for nearly three quarters of road deaths in the fictional province of Saeng Thong. This brief summarises the main causes and recommends three measures that could be introduced within twelve months.
+
+    The data reveal a clear pattern. Most fatal accidents involve riders aged between 15 and 24, take place at night and occur on rural roads within ten kilometres of the rider's home. Helmet use in these areas is below 40 per cent, compared with over 80 per cent in the provincial capital. Weak enforcement, poor street lighting and limited public transport all hamper efforts to improve safety.
+
+    First, we recommend increasing helmet checks on rural roads, particularly in the evening. Experience in neighbouring provinces suggests that visible enforcement deters risky behaviour more effectively than higher fines alone. Second, the province should prioritise lighting on the twenty most dangerous rural routes. Third, a pilot night-bus service for young people would mitigate the need to ride after dark.
+
+    These measures are not without cost. Enforcement requires additional staff, and lighting upgrades depend on support from the national budget, which may delay their introduction. Moreover, enforcement alone risks undermining trust between police and young people if it is seen as unfair. For this reason, we recommend that any campaign be designed in consultation with local schools and community leaders. If implemented together, these steps could reduce motorcycle deaths substantially, although the exact effect cannot yet be ascertained.
+  questions:
+    - stem: What is the main purpose of the policy brief?
+      choices:
+        - {t: to explain causes of motorcycle deaths and propose solutions, why: "summarises the main causes and recommends three measures"}
+        - {t: to ban motorcycles on rural roads, why: "ไม่มีข้อเสนอให้ห้ามขับ"}
+        - {t: to criticise the national government, why: "กล่าวถึงงบประมาณกลางเพียงเป็นข้อจำกัด ไม่ใช่จุดประสงค์"}
+        - {t: to compare helmet brands, why: "ไม่มีการเปรียบเทียบยี่ห้อ"}
+    - stem: According to the data, where do most fatal accidents happen?
+      choices:
+        - {t: on country roads close to the rider's home, why: "on rural roads within ten kilometres of the rider's home"}
+        - {t: in the provincial capital, why: "ตัวเมืองมีอัตราการสวมหมวกสูงกว่า ไม่ใช่ที่เกิดเหตุส่วนใหญ่"}
+        - {t: on motorways, why: "ไม่ได้พูดถึงทางหลวงพิเศษ"}
+        - {t: near schools during the day, why: "อุบัติเหตุส่วนใหญ่เกิดตอนกลางคืน"}
+    - stem: Why does the brief recommend visible police checks?
+      choices:
+        - {t: they discourage risky riding more than fines alone, why: "visible enforcement deters risky behaviour more effectively than higher fines alone"}
+        - {t: they are cheaper than street lighting, why: "ไม่ได้เปรียบเทียบราคา"}
+        - {t: young people asked for them, why: "ไม่มีข้อมูลนี้ในบทความ"}
+        - {t: fines have already been abolished, why: "บทไม่ได้บอกว่ายกเลิกค่าปรับ"}
+    - stem: What risk of enforcement do the authors mention?
+      choices:
+        - {t: it could damage relations between police and young people, why: "risks undermining trust between police and young people"}
+        - {t: it could increase the number of accidents, why: "ไม่มีการกล่าวถึงข้อนี้"}
+        - {t: it could make helmets more expensive, why: "ไม่มีการกล่าวถึงราคาหมวก"}
+        - {t: it could close local schools, why: "โรงเรียนถูกเสนอให้มีส่วนร่วม ไม่ได้ถูกปิด"}
+  status: draft
+- id: cefr-c1-w08-036
+  kind: listen
+  skill: li
+  topic: expert-interview
+  level: 2
+  script:
+    - {who: Interviewer, en: "Will the new tax solve the plastic problem?"}
+    - {who: Expert, en: "On its own, no. It may curtail the use of plastic bags, but it does nothing about packaging, which is a far bigger source of waste."}
+  questions:
+    - stem: What is the expert's view of the new tax?
+      choices:
+        - {t: helpful but not enough, why: "It may curtail ... but it does nothing about packaging"}
+        - {t: completely useless, why: "เขาบอกว่าอาจลดการใช้ถุงได้"}
+        - {t: the best possible solution, why: "เขาบอกว่าไม่พอถ้าใช้อย่างเดียว"}
+        - {t: too expensive for shops, why: "ไม่ได้พูดเรื่องค่าใช้จ่ายของร้าน"}
+  status: draft
+- id: cefr-c1-w08-037
+  kind: listen
+  skill: li
+  topic: expert-interview
+  level: 2
+  script:
+    - {who: Interviewer, en: "Why has the bridge taken so long to build?"}
+    - {who: Expert, en: "The work was hampered by flooding in the first year. Since then, a new contractor has expedited things considerably, so we expect it to open in March."}
+  questions:
+    - stem: What changed after the first year?
+      choices:
+        - {t: the work speeded up, why: "a new contractor has expedited things considerably"}
+        - {t: the flooding got worse, why: "น้ำท่วมเป็นปัญหาของปีแรก"}
+        - {t: the project was cancelled, why: "คาดว่าจะเปิดในเดือนมีนาคม"}
+        - {t: the budget was cut, why: "ไม่ได้พูดถึงงบประมาณ"}
+  status: draft
+- id: cefr-c1-w08-038
+  kind: listen
+  skill: li
+  topic: expert-interview
+  level: 2
+  script:
+    - {who: Interviewer, en: "Do high fines really stop people from dropping litter?"}
+    - {who: Expert, en: "They deter some people, certainly. But what makes the biggest difference is whether people believe they'll actually be caught."}
+  questions:
+    - stem: According to the expert, what matters most?
+      choices:
+        - {t: how likely people think they are to be caught, why: "whether people believe they'll actually be caught"}
+        - {t: the size of the fine, why: "เขาบอกว่าค่าปรับช่วยบางคน แต่ไม่ใช่ปัจจัยสำคัญที่สุด"}
+        - {t: the number of bins, why: "ไม่ได้พูดถึงถังขยะ"}
+        - {t: education at school, why: "ไม่ได้พูดถึงการศึกษา"}
+  status: draft
+- id: cefr-c1-w08-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The new measures, have made, a significant contribution, to road safety]
+  sentence: The new measures have made a significant contribution to road safety.
+  th: มาตรการใหม่มีส่วนช่วยอย่างมากต่อความปลอดภัยบนท้องถนน
+  why: "คู่คำ make a contribution to + สิ่งที่ได้รับผล"
+  status: draft
+- id: cefr-c1-w08-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Higher fines, are intended, to deter drivers, from speeding]
+  sentence: Higher fines are intended to deter drivers from speeding.
+  th: ค่าปรับที่สูงขึ้นมีไว้เพื่อป้องปรามไม่ให้ผู้ขับขี่ขับเร็ว
+  why: "deter + คน + from + -ing"
+  status: draft
+- id: cefr-c1-w08-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The meeting, has been postponed, until further notice, due to the storm]
+  sentence: The meeting has been postponed until further notice due to the storm.
+  th: การประชุมเลื่อนออกไปจนกว่าจะแจ้งใหม่เนื่องจากพายุ
+  why: "postponed ทางการกว่า put off ตามด้วย until further notice และเหตุผล"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c1-w08-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We therefore recommend, that, the measures, be introduced, in two stages]
+  sentence: We therefore recommend that the measures be introduced in two stages.
+  th: ดังนั้นจึงขอเสนอให้นำมาตรการมาใช้เป็นสองระยะ
+  why: "recommend that + ประธาน + be + ช่อง 3 ภาษาข้อเสนอเชิงนโยบาย"
+  status: draft
