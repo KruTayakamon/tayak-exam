@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 5 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 5
+phase: 2
+theme_th: เขียนให้กระชับ
+focus_th: participle clauses ระดับสูง (Having + ช่อง 3 · Having been + ช่อง 3 · ช่อง 3 ขึ้นต้น · with + นาม + -ing) · ellipsis และ substitution (So do I · Neither have I · one/ones · do so · I hope not)
+can_do_th:
+  - สรุปเนื้อหายาวให้สั้นโดยคงใจความได้
+  - ตามการอ้างอิงย้อนในข้อความยาวได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ย่อประโยคระดับสูง
+    lesson:
+      rule_th: "ตัดประธานและคำเชื่อมออกได้เมื่อ ==ประธานสองท่อนเป็นคนเดียวกัน== ทำเสร็จก่อนใช้ Having + ช่อง 3 ถูกกระทำใช้ช่อง 3 และ ++ประธานของประโยคหลักต้องเป็นผู้ทำ++ เสมอ"
+      examples:
+        - {en: "<k>Having sent</k> the email, she realised her mistake.", th: "ส่งก่อน แล้วค่อยรู้ตัว"}
+        - {en: "<k>Built</k> in 1890, the hotel is the oldest on the street.", th: "โรงแรมถูกสร้าง"}
+        - {en: "<k>With prices rising</k>, families are cutting back.", th: "==With + นาม + -ing== บอกสถานการณ์"}
+        - {en: "<k>Not knowing</k> what to say, she smiled.", th: "ปฏิเสธใช้ Not + -ing"}
+      signals:
+        - {label_th: "เลือกรูป", words: ["ทำเอง → -ing", "ทำเสร็จก่อน → Having + ช่อง 3", "ถูกกระทำ → ช่อง 3", "ถูกกระทำมาก่อน → Having been + ช่อง 3"]}
+      thai_trap:
+        intro_th: "ภาษาไทยละประธานได้อิสระ คนจึงเขียน ~~ประโยคห้อย~~ ที่ผู้ทำกริยาแรกไม่ใช่ประธานของประโยคหลัก"
+        wrong: ["Walking home, the rain started.", "Having finished the report, the computer crashed."]
+        right: ["Walking home, I got caught in the rain.", "Having finished the report, I saved it twice."]
+      notes:
+        - {kind: tip, th: "อ่านทวนแล้วถามว่า ==ใครเป็นคนทำกริยาแรก== คนนั้นต้องอยู่หลังจุลภาคทันที"}
+        - {kind: warn, th: "อย่าย่อทุกประโยค ใช้ 1–2 ครั้งต่อย่อหน้าก็พอ ถ้ามากไปจะอ่านยาก"}
+    check: [cefr-c1-w05-001, cefr-c1-w05-002]
+    practice: [cefr-c1-w05-003, cefr-c1-w05-004, cefr-c1-w05-005, cefr-c1-w05-006, cefr-c1-w05-007, cefr-c1-w05-008, cefr-c1-w05-009, cefr-c1-w05-010, cefr-c1-w05-011, cefr-c1-w05-012]
+    use:
+      prompt_th: เขียนประโยคยาว 2 ประโยคของคุณใหม่ให้สั้นลงด้วย participle clause
+      frame: "Having ____, I ____. With ____ -ing, ____."
+      model: "Having worked in sales for five years, I moved into training. With more staff working from home, our team now meets online twice a week."
+    classroom: {en: "Having read your email, I think we should meet.", th: "อ่านอีเมลแล้ว คิดว่าเราควรนัดคุยกัน"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การสรุปและนำเสนอความคิด 12 คำ
+    lesson:
+      rule_th: "แยกคู่ทิศทางตรงข้าม ==elicit กับ disseminate== (ดึงข้อมูลเข้า กับ กระจายออก) และจำว่า ++digress ไม่มีกรรม++"
+      examples:
+        - {en: "Please be <k>succinct</k>.", th: "พูดให้สั้นกระชับ"}
+        - {en: "Sorry, I <k>digressed</k>.", th: "ออกนอกเรื่อง ไม่มีกรรม"}
+        - {en: "The survey <k>elicited</k> 500 responses.", th: "==ดึงคำตอบจากคน=="}
+        - {en: "The ministry <k>disseminates</k> health information.", th: "กระจายข้อมูลออกไป"}
+      words:
+        - {w: brevity, pos: n., th: ความกระชับ, ex: "The speech was praised for its brevity."}
+        - {w: digress, pos: v., th: ออกนอกเรื่อง, ex: "Let me digress for a moment."}
+        - {w: delineate, pos: v., th: แจกแจงให้ชัด, ex: "The contract delineates each person's role."}
+        - {w: exemplify, pos: v., th: เป็นตัวอย่าง ยกตัวอย่าง, ex: "This case exemplifies the problem."}
+        - {w: formulate, pos: v., th: คิดวางแผนอย่างเป็นระบบ, ex: "We need to formulate a clear policy."}
+        - {w: disseminate, pos: v., th: เผยแพร่, ex: "The results were disseminated online."}
+        - {w: elicit, pos: v., th: ดึงข้อมูลหรือคำตอบออกมา, ex: "Her question elicited a long silence."}
+        - {w: encompass, pos: v., th: ครอบคลุม, ex: "The role encompasses sales and marketing."}
+        - {w: pertinent, pos: adj., th: ตรงประเด็น, ex: "She asked a very pertinent question."}
+        - {w: cogent, pos: adj., th: มีเหตุผลหนักแน่น, ex: "He made a cogent case for change."}
+        - {w: succinct, pos: adj., th: สั้นกระชับ, ex: "Give me a succinct summary."}
+        - {w: rudimentary, pos: adj., th: พื้นฐานมาก, ex: "I have only a rudimentary knowledge of Excel."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ คำตอบ คำเดียว คนจึงเขียน ~~elicit to someone~~ หรือใส่กรรมหลัง digress"
+        wrong: ["The teacher elicited to the students.", "He digressed the topic."]
+        right: ["The teacher elicited answers from the students.", "He digressed from the topic."]
+      notes:
+        - {kind: pin, th: "==elicit something from someone== · digress from the topic"}
+        - {kind: use, th: "ตอบในที่ประชุมว่า That's a very pertinent question. ซื้อเวลาคิดได้อย่างสุภาพ"}
+    check: [cefr-c1-w05-013, cefr-c1-w05-014]
+    practice: [cefr-c1-w05-015, cefr-c1-w05-016, cefr-c1-w05-017, cefr-c1-w05-018, cefr-c1-w05-019, cefr-c1-w05-020, cefr-c1-w05-021, cefr-c1-w05-022, cefr-c1-w05-023, cefr-c1-w05-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำวิธีทำให้การประชุมสั้นลง
+      frame: "To keep meetings succinct, we should ____. Any point that isn't pertinent to ____ should ____."
+      model: "To keep meetings succinct, we should send the agenda a day before. Any point that isn't pertinent to the agenda should be discussed by email instead."
+    classroom: {en: "Sorry, I'm digressing. Back to the main point.", th: "ขอโทษ ออกนอกเรื่องไปหน่อย กลับมาที่ประเด็นหลัก"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ละและแทน
+    lesson:
+      rule_th: "คนเก่งภาษา ==ไม่พูดซ้ำสิ่งที่พูดไปแล้ว== ใช้ so/neither + กริยาช่วย · one/ones แทนคำนาม · ++do so แทนการกระทำ++ และ I hope so/not แทนทั้งประโยค"
+      examples:
+        - {en: "\"I love it.\" \"<k>So do I</k>.\"", th: "เห็นด้วยแบบสั้น"}
+        - {en: "Do you have any bigger <k>ones</k>?", th: "แทน shoes"}
+        - {en: "They asked us to cut costs, and we've <k>done so</k>.", th: "==แทนการกระทำทั้งก้อน=="}
+        - {en: "\"Did you lock it?\" \"I <k>might not have</k>.\"", th: "ละเหลือกริยาช่วยตัวสุดท้าย"}
+      signals:
+        - {label_th: "ตัวแทนที่ใช้บ่อย", words: [So do I, Neither have I, one/ones, do so, I hope not, I'd love to]}
+      thai_trap:
+        intro_th: "ภาษาไทยตอบว่า ฉันก็เหมือนกัน ได้ทุกกรณี คนจึงพูด ~~Me too~~ กับประโยคปฏิเสธ หรือใส่ it ซ้ำใน do it so"
+        wrong: ["\"I don't eat meat.\" \"Me too.\"", "We were asked to cut costs and we have done it so.", "I hope no."]
+        right: ["\"I don't eat meat.\" \"Neither do I.\"", "We were asked to cut costs and we have done so.", "I hope not."]
+      notes:
+        - {kind: tip, th: "กริยาช่วยของคำตอบสั้น ==ต้องตรงกับประโยคแรก== (have → have · love → do)"}
+        - {kind: warn, th: "Neither มีความหมายปฏิเสธในตัว ห้ามใส่ not ซ้ำ"}
+    check: [cefr-c1-w05-025, cefr-c1-w05-026]
+    practice: [cefr-c1-w05-027, cefr-c1-w05-028, cefr-c1-w05-029, cefr-c1-w05-030, cefr-c1-w05-031, cefr-c1-w05-032, cefr-c1-w05-033, cefr-c1-w05-034]
+    use:
+      prompt_th: เขียนบทสนทนาสั้น 2 บรรทัดที่ใช้การละหรือการแทนอย่างน้อย 2 แบบ
+      frame: "A: \"I ____.\" B: \"So/Neither ____. I'd love to ____, but I can't afford to.\""
+      model: "A: \"I haven't been on holiday for two years.\" B: \"Neither have I. I'd love to go to Japan, but I can't afford to.\""
+    classroom: {en: "I was going to, but I didn't have time.", th: "ตั้งใจจะทำอยู่ แต่ไม่มีเวลา"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทวิจารณ์และฟังบรรยายที่อ้างอิงย้อน
+    lesson:
+      rule_th: "บทวิจารณ์มักชมก่อนแล้วติ หรือติก่อนแล้วชม ==คำตัดสินจริงอยู่ในย่อหน้าสุดท้าย== และคำอย่าง the former · the latter · do so · such ++ชี้กลับไปหาสิ่งที่พูดไปแล้ว++ ต้องหาให้เจอ"
+      examples:
+        - {en: "<k>Less convincing</k> is the final third.", th: "สัญญาณการติ"}
+        - {en: "<k>Nevertheless</k>, this is a pertinent book.", th: "==คำตัดสินโดยรวม=="}
+        - {en: "<k>The former</k> works in factories; <k>the latter</k> in creative teams.", th: "former = อันแรก · latter = อันหลัง"}
+      thai_trap:
+        intro_th: "คนมักตอบตาม ~~ย่อหน้าที่ติ~~ ว่าผู้วิจารณ์ไม่ชอบหนังสือ ทั้งที่ย่อหน้าสุดท้ายแนะนำให้อ่าน"
+        wrong: ["ตอบว่าผู้วิจารณ์คิดว่าหนังสือไม่มีประโยชน์ เพราะกฎหลายข้อเป็นเรื่องพื้นฐาน"]
+        right: ["ผู้วิจารณ์ชมโดยรวม แม้ส่วนท้ายจะอ่อนกว่า"]
+      notes:
+        - {kind: tip, th: "เจอ the former / the latter / do so ให้ ==ย้อนกลับไปขีดเส้นใต้สิ่งที่มันแทน== ทันที"}
+        - {kind: warn, th: "Nevertheless / That said มักนำคำตัดสินสุดท้ายของผู้เขียน"}
+    check: [cefr-c1-w05-036, cefr-c1-w05-037]
+    practice: [cefr-c1-w05-035, cefr-c1-w05-038, cefr-c1-w05-039, cefr-c1-w05-040, cefr-c1-w05-041]
+    use:
+      prompt_th: เขียนบทวิจารณ์สั้น 2 ประโยคของหนังสือ ซีรีส์ หรือแอปที่คุณใช้
+      frame: "The strongest part of ____ is ____. Less convincing is ____; nevertheless, ____."
+      model: "The strongest part of the app is its simple design. Less convincing is the price of the premium version; nevertheless, I would recommend it to beginners."
+    classroom: {en: "To sum up in one sentence, ...", th: "สรุปในประโยคเดียวคือ..."}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด สรุปบทความใน 90 วินาที
+    lab:
+      mode: speak
+      prompt_th: เลือกบทความภาษาไทยหรืออังกฤษที่คุณเพิ่งอ่าน (หรือใช้บทวิจารณ์ในวันที่ 4) แล้วพูดสรุปเป็นภาษาอังกฤษใน 90 วินาที บอกประเด็นหลัก หลักฐานสำคัญ 2 ข้อ จุดอ่อนหนึ่งข้อ และความเห็นของคุณ โดยไม่อ่านประโยคจากบทความ
+      frame:
+        - "The article, written by ____, argues that ____."
+        - "Drawing on ____, the writer shows that ____."
+        - "The most pertinent point, in my view, is ____."
+        - "Less convincing is ____."
+        - "In short, ____."
+      model_pass: "The review, written by a journalist, argues that the book The Art of Saying Less is useful for people who write at work. Drawing on interviews with eighty managers, the author shows that long reports often hide the important information. The most pertinent point, in my view, is the idea of defensive writing. Less convincing is the last part of the book, because the rules are quite basic. In short, the reviewer thinks it is a good book, especially for managers."
+      model_good: "The review, published in a business magazine, argues that The Art of Saying Less is a timely and largely convincing book. Drawing on interviews with more than eighty managers, the author shows that much workplace writing is long not because the topic is complex but because writers want to appear thorough. The most pertinent point, in my view, is her idea of defensive writing, which I recognise from my own inbox. Less convincing, as the reviewer notes, is the final section, whose rules feel rudimentary for experienced readers. In short, it's a cogent, succinct book whose main lesson most of us, managers included, could still benefit from."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - อ่านบทความของคุณ แล้วจดคำสำคัญไม่เกิน 10 คำ ห้ามจดเป็นประโยค
+        - อัดเสียงสรุป 1 รอบ จับเวลาให้ไม่เกิน 90 วินาที (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีกรอบ ตัดคำที่ซ้ำหรือออกนอกเรื่องออก
+      checklist_th:
+        - บอกประเด็นหลักในประโยคแรก ไม่เล่าตามลำดับบทความ
+        - ใช้ participle clause หรือการละ/การแทนอย่างน้อย 2 ครั้ง (Drawing on · Having read · do so · one)
+        - แยกสิ่งที่ผู้เขียนพูดกับความเห็นของคุณชัดเจน (argues · shows · in my view)
+        - จบภายใน 90 วินาทีและไม่ออกนอกเรื่อง
+    practice: [cefr-c1-w05-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 5
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [2, 3, 4, 5], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

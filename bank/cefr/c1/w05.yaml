@@ -1,0 +1,579 @@
+# คอร์ส c1 · สัปดาห์ 5 · เขียนให้กระชับ · participle clauses ระดับสูง (present past perfect · with + participle) · ellipsis และ substitution (so do I · one/ones · do so)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · ย่อประโยคระดับสูง ----------
+- id: cefr-c1-w05-001
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 1
+  stem: ____ the email, she realised she had sent it to the wrong person.
+  choices:
+    - {t: Having sent, why: "ส่งเสร็จก่อนจะรู้ตัว ใช้ ++Having + ช่อง 3++"}
+    - {t: Sent, why: "Sent ขึ้นต้นทำให้ความหมายเป็นถูกส่ง ไม่ใช่เธอส่ง"}
+    - {t: To send, why: "To send บอกจุดประสงค์ ไม่ใช่สิ่งที่ทำเสร็จก่อน"}
+    - {t: Being sent, why: "Being sent เป็นรูปถูกกระทำ ความหมายผิด"}
+  explain: "ทำเสร็จก่อนอีกเหตุการณ์ ==Having + ช่อง 3, ...=="
+  status: draft
+- id: cefr-c1-w05-002
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 1
+  stem: ____ in 1890, the hotel is the oldest building on the street.
+  choices:
+    - {t: Built, why: "โรงแรมถูกสร้าง ใช้ ++ช่อง 3++ ขึ้นต้นแบบถูกกระทำ"}
+    - {t: Building, why: "Building ทำให้ความหมายเป็นโรงแรมสร้างเอง"}
+    - {t: Having built, why: "Having built แปลว่าโรงแรมสร้างอะไรเสร็จ ความหมายผิด"}
+    - {t: To build, why: "To build บอกจุดประสงค์ ไม่ใช่ข้อมูลประวัติ"}
+  explain: "ประธานถูกกระทำ → ==ช่อง 3 ขึ้นต้น== (Built in 1890, ...)"
+  status: draft
+- id: cefr-c1-w05-003
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: ____ for hours, the volunteers finally stopped for lunch.
+  choices:
+    - {t: Having worked, why: "ทำงานมาหลายชั่วโมงก่อนหยุด ใช้ ++Having worked++"}
+    - {t: Worked, why: "Worked ขึ้นต้นเป็นรูปถูกกระทำ ใช้ไม่ได้"}
+    - {t: Being worked, why: "Being worked เป็นรูปถูกกระทำ"}
+    - {t: Have worked, why: "Have worked ขึ้นประโยคแบบนี้ไม่ได้ ต้องเป็น Having"}
+  explain: "ระยะเวลาก่อนอีกเหตุการณ์ ==Having + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w05-004
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: The man ____ next to me on the plane turned out to be a famous writer.
+  choices:
+    - {t: sitting, why: "ย่อมาจาก who was sitting ใช้ ++-ing++"}
+    - {t: sat, why: "sat ทำให้เหมือนมีกริยาแท้สองตัว"}
+    - {t: seated by, why: "seated by แปลว่าถูกจัดให้นั่งโดยใคร ความหมายผิด"}
+    - {t: having sit, why: "having ต้องตามด้วยช่อง 3 sat ไม่ใช่ sit"}
+  explain: "ย่อ who/which + ==กริยาแบบกระทำ → -ing=="
+  status: draft
+- id: cefr-c1-w05-005
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: Most of the products ____ in this factory are sold abroad.
+  choices:
+    - {t: made, why: "ย่อมาจาก which are made ใช้ ++ช่อง 3++"}
+    - {t: making, why: "making ทำให้สินค้าเป็นผู้ผลิตเอง"}
+    - {t: are made, why: "are made ทำให้มีกริยาแท้สองตัว"}
+    - {t: having made, why: "having made แปลว่าสินค้าผลิตอะไรเสร็จ ความหมายผิด"}
+  explain: "ย่อ which + be + ช่อง 3 → ==ช่อง 3 อย่างเดียว=="
+  status: draft
+- id: cefr-c1-w05-006
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: With prices ____ every month, many families are cutting back.
+  choices:
+    - {t: rising, why: "With + คำนาม + ++-ing++ บอกสถานการณ์ที่กำลังเกิด"}
+    - {t: rise, why: "With + คำนาม + กริยารูปเดิมไม่ใช้"}
+    - {t: risen, why: "risen ใช้กับเรื่องที่เสร็จแล้ว ขัดกับ every month"}
+    - {t: are rising, why: "หลัง With ไม่ใช้กริยาแท้"}
+  explain: "==With + นาม + -ing/ช่อง 3== = ในเมื่อ... (บอกเหตุหรือสภาพแวดล้อม)"
+  status: draft
+- id: cefr-c1-w05-007
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 3
+  stem: Which sentence uses the participle clause correctly?
+  choices:
+    - {t: "Walking home, I saw an old friend.", why: "ผู้เดินคือ I ++ประธานตรงกัน++"}
+    - {t: "Walking home, an old friend saw me.", why: "ทำให้ฟังเหมือนเพื่อนเป็นคนเดินกลับบ้าน (ประธานไม่ตรง)"}
+    - {t: "Walked home, I saw an old friend.", why: "Walked ขึ้นต้นเป็นรูปถูกกระทำ ความหมายผิด"}
+    - {t: "Having walk home, I saw an old friend.", why: "Having ต้องตามด้วยช่อง 3"}
+  explain: "ประธานของประโยคหลัก ==ต้องเป็นคนที่ทำกริยา -ing== (กันประโยคห้อย)"
+  status: draft
+- id: cefr-c1-w05-008
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 1
+  stem: ____ by the long queue, we decided to eat somewhere else.
+  choices:
+    - {t: Discouraged, why: "เรารู้สึกท้อเพราะคิวยาว ใช้ ++ช่อง 3 (ความรู้สึก)++"}
+    - {t: Discouraging, why: "discouraging ทำให้เราเป็นผู้ทำให้คนอื่นท้อ"}
+    - {t: Having discouraged, why: "แปลว่าเราทำให้คนอื่นท้อเสร็จแล้ว ความหมายผิด"}
+    - {t: To discourage, why: "To discourage บอกจุดประสงค์ ไม่ใช่เหตุผล"}
+  explain: "ความรู้สึกที่ประธานได้รับ ==ช่อง 3== (Tired / Surprised by ...)"
+  status: draft
+- id: cefr-c1-w05-009
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: Not ____ what to say, she simply smiled.
+  choices:
+    - {t: knowing, why: "ปฏิเสธ participle วาง ++Not + -ing++"}
+    - {t: knew, why: "หลัง Not ขึ้นต้นต้องเป็น -ing"}
+    - {t: known, why: "known เป็นรูปถูกกระทำ ความหมายผิด"}
+    - {t: to know, why: "Not to know ไม่ได้บอกเหตุผลแบบนี้"}
+  explain: "ปฏิเสธ ==Not + -ing, ...== (Not having seen it, ...)"
+  status: draft
+- id: cefr-c1-w05-010
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 3
+  stem: ____ twice, the candidate was not allowed to try again.
+  choices:
+    - {t: Having been rejected, why: "ถูกปฏิเสธมาแล้วก่อน ใช้ ++Having been + ช่อง 3++"}
+    - {t: Having rejected, why: "แปลว่าผู้สมัครปฏิเสธคนอื่น ความหมายผิด"}
+    - {t: Being rejecting, why: "รูปนี้ผิด ใช้ being คู่กับ -ing ไม่ได้"}
+    - {t: Rejecting, why: "Rejecting ทำให้ผู้สมัครเป็นผู้ปฏิเสธ"}
+  explain: "ถูกกระทำมาก่อน ==Having been + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w05-011
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: The report, ____ last week, contains several errors.
+  choices:
+    - {t: published, why: "รายงานถูกตีพิมพ์ ใช้ ++ช่อง 3++ แทน which was published"}
+    - {t: publishing, why: "publishing ทำให้รายงานเป็นผู้ตีพิมพ์"}
+    - {t: was published, why: "ทำให้มีกริยาแท้สองตัวในประโยค"}
+    - {t: having publish, why: "having ต้องตามด้วยช่อง 3"}
+  explain: "ข้อมูลเสริมแบบย่อ ==, + ช่อง 3 + ..., =="
+  status: draft
+- id: cefr-c1-w05-012
+  kind: type
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  stem: "H______ finished the report, she went home early. (ทำเสร็จแล้ว)"
+  answer: having
+  accept: [having, Having]
+  why: "Having + ช่อง 3 บอกว่าทำเสร็จก่อนเหตุการณ์ในประโยคหลัก"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การสรุปและนำเสนอความคิด ----------
+- id: cefr-c1-w05-013
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 1
+  stem: Please be ____. We only have five minutes for each speaker.
+  choices:
+    - {t: succinct, why: "พูดสั้นกระชับ ใช้ ++succinct++"}
+    - {t: rudimentary, why: "rudimentary แปลว่าพื้นฐานมาก ไม่ได้บอกความสั้น"}
+    - {t: pertinent, why: "pertinent แปลว่าตรงประเด็น ไม่ได้บอกความสั้นโดยตรง"}
+    - {t: cogent, why: "cogent แปลว่ามีเหตุผลน่าเชื่อ ไม่ได้บอกความสั้น"}
+  explain: "succinct ≈ concise = ==สั้นกระชับ=="
+  status: draft
+- id: cefr-c1-w05-014
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 1
+  stem: Sorry, I ____. Let me get back to the main point.
+  choices:
+    - {t: digressed, why: "พูดออกนอกเรื่อง ใช้ ++digressed++"}
+    - {t: delineated, why: "delineate แปลว่าอธิบายให้ชัด ไม่ใช่ออกนอกเรื่อง"}
+    - {t: elicited, why: "elicit ต้องมีกรรม"}
+    - {t: encompassed, why: "encompass ต้องมีกรรม และแปลว่าครอบคลุม"}
+  explain: "digress = ==ออกนอกเรื่อง=="
+  status: draft
+- id: cefr-c1-w05-015
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: The report clearly ____ the responsibilities of each department.
+  choices:
+    - {t: delineates, why: "แจกแจงขอบเขตอย่างชัดเจน ใช้ ++delineates++"}
+    - {t: digresses, why: "digress ไม่มีกรรม และแปลว่าออกนอกเรื่อง"}
+    - {t: elicits, why: "elicit แปลว่าดึงคำตอบจากคน ไม่ใช่แจกแจง"}
+    - {t: disseminates, why: "disseminate แปลว่าเผยแพร่ ไม่ใช่แจกแจงหน้าที่"}
+  explain: "delineate = ==อธิบาย แบ่งขอบเขตให้ชัด=="
+  status: draft
+- id: cefr-c1-w05-016
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: Her career ____ everything that is good about public service.
+  choices:
+    - {t: exemplifies, why: "เป็นตัวอย่างที่ดีของ ใช้ ++exemplifies++"}
+    - {t: formulates, why: "formulate แปลว่าคิดสูตรหรือแผน"}
+    - {t: digresses, why: "digress ไม่มีกรรม"}
+    - {t: elicits, why: "elicit แปลว่าดึงคำตอบ ไม่ใช่เป็นตัวอย่าง"}
+  explain: "exemplify = ==เป็นตัวอย่างของ ยกตัวอย่าง=="
+  status: draft
+- id: cefr-c1-w05-017
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: The team spent a month ____ a new strategy for reaching younger customers.
+  choices:
+    - {t: formulating, why: "คิดวางแผนอย่างเป็นระบบ ใช้ ++formulating++"}
+    - {t: digressing, why: "digress ไม่มีกรรม"}
+    - {t: exemplifying, why: "exemplify a strategy ไม่ได้แปลว่าวางแผน"}
+    - {t: encompassing, why: "encompass a strategy แปลว่าครอบคลุม ไม่ใช่สร้าง"}
+  explain: "formulate a plan / policy = ==คิด วางแผนอย่างเป็นระบบ=="
+  status: draft
+- id: cefr-c1-w05-018
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: The health ministry uses social media to ____ information about vaccines.
+  choices:
+    - {t: disseminate, why: "เผยแพร่ให้กว้าง ใช้ ++disseminate++"}
+    - {t: delineate, why: "delineate แปลว่าแจกแจงให้ชัด ไม่ใช่กระจาย"}
+    - {t: digress, why: "digress ไม่มีกรรม"}
+    - {t: elicit, why: "elicit แปลว่าดึงข้อมูลจากคน ทิศทางกลับกัน"}
+  explain: "disseminate information = ==เผยแพร่ กระจายข้อมูล=="
+  status: draft
+- id: cefr-c1-w05-019
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: A good interviewer knows how to ____ honest answers without making people nervous.
+  choices:
+    - {t: elicit, why: "ดึงคำตอบออกมาจากคน ใช้ ++elicit++"}
+    - {t: disseminate, why: "disseminate แปลว่าเผยแพร่ ทิศทางกลับกัน"}
+    - {t: exemplify, why: "exemplify answers ไม่ได้แปลว่าดึงคำตอบ"}
+    - {t: digress, why: "digress ไม่มีกรรม"}
+  explain: "elicit a response / information = ==ดึงออกมา=="
+  status: draft
+- id: cefr-c1-w05-020
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: The course ____ everything from basic budgeting to long-term investment.
+  choices:
+    - {t: encompasses, why: "ครอบคลุมตั้งแต่...ถึง... ใช้ ++encompasses++"}
+    - {t: elicits, why: "elicit ไม่ได้แปลว่าครอบคลุม"}
+    - {t: digresses, why: "digress ไม่มีกรรม"}
+    - {t: delineates, why: "delineate everything from ... to ไม่ใช่วลีที่ใช้"}
+  explain: "encompass = ==ครอบคลุม== (≈ cover / include)"
+  status: draft
+- id: cefr-c1-w05-021
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: Please keep your questions ____ to today's topic.
+  choices:
+    - {t: pertinent, why: "เกี่ยวข้องตรงประเด็น ใช้ ++pertinent to++"}
+    - {t: succinct, why: "succinct ไม่ตามด้วย to"}
+    - {t: rudimentary, why: "rudimentary ไม่ตามด้วย to และแปลว่าพื้นฐาน"}
+    - {t: cogent, why: "cogent ไม่ตามด้วย to"}
+  explain: "pertinent to = ==ตรงประเด็น เกี่ยวข้องกับ=="
+  status: draft
+- id: cefr-c1-w05-022
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 3
+  stem: She presented such a ____ argument that even her critics agreed with her.
+  choices:
+    - {t: cogent, why: "มีเหตุผลหนักแน่นน่าเชื่อ ใช้ ++cogent++"}
+    - {t: rudimentary, why: "rudimentary แปลว่าพื้นฐาน ขัดกับการโน้มน้าวคู่แย้งได้"}
+    - {t: pertinent, why: "pertinent แปลว่าตรงประเด็น ไม่ได้บอกพลังโน้มน้าว"}
+    - {t: digressive, why: "digressive แปลว่าออกนอกเรื่อง ขัดกับความหมาย"}
+  explain: "cogent = ==มีเหตุผลหนักแน่น โน้มน้าวได้=="
+  status: draft
+- id: cefr-c1-w05-023
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: I only have a ____ knowledge of Japanese, enough to order food and say thank you.
+  choices:
+    - {t: rudimentary, why: "ความรู้แค่ขั้นพื้นฐานมาก ใช้ ++rudimentary++"}
+    - {t: cogent, why: "cogent ใช้กับเหตุผล ไม่ใช่ความรู้ภาษา"}
+    - {t: pertinent, why: "pertinent knowledge แปลว่าความรู้ที่เกี่ยวข้อง ไม่ได้บอกระดับ"}
+    - {t: succinct, why: "succinct ใช้กับคำพูดหรือข้อเขียน"}
+  explain: "rudimentary = ==พื้นฐานเบื้องต้นมาก=="
+  status: draft
+- id: cefr-c1-w05-024
+  kind: type
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  stem: "B______ is important in a speech: say less, but say it well. (ความกระชับ คำนาม)"
+  answer: brevity
+  accept: [brevity, Brevity]
+  why: "brevity = ความสั้นกระชับ เป็นคำนามที่ใช้ขึ้นต้นประโยคได้"
+  status: draft
+# ---------- วันที่ 3 · ละและแทน ----------
+- id: cefr-c1-w05-025
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 1
+  stem: "\"I love spicy food.\" \"So ____ I.\""
+  choices:
+    - {t: do, why: "ประโยคแรกใช้ love (ไม่มีกริยาช่วย) จึงใช้ ++So do I++"}
+    - {t: am, why: "ประโยคแรกไม่ได้ใช้ be"}
+    - {t: love, why: "So + กริยาแท้ + I ไม่ใช่รูปที่ใช้"}
+    - {t: have, why: "ประโยคแรกไม่ได้ใช้ have"}
+  explain: "เห็นด้วยแบบสั้น ==So + กริยาช่วยของประโยคแรก + ประธาน=="
+  status: draft
+- id: cefr-c1-w05-026
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 1
+  stem: "\"I haven't finished the report yet.\" \"Neither ____ I.\""
+  choices:
+    - {t: have, why: "ประโยคแรกใช้ haven't จึงตอบ ++Neither have I++"}
+    - {t: haven't, why: "Neither มีความหมายปฏิเสธแล้ว ห้ามใส่ not ซ้ำ"}
+    - {t: do, why: "ประโยคแรกใช้ have ไม่ใช่ do"}
+    - {t: did, why: "ประโยคแรกเป็น present perfect ไม่ใช่อดีต"}
+  explain: "ปฏิเสธเหมือนกัน ==Neither/Nor + กริยาช่วยบอกเล่า + ประธาน=="
+  status: draft
+- id: cefr-c1-w05-027
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  stem: These shoes are too small. Do you have any bigger ____?
+  choices:
+    - {t: ones, why: "แทนคำนามพหูพจน์ shoes ใช้ ++ones++"}
+    - {t: one, why: "shoes เป็นพหูพจน์ ใช้ one ไม่ได้"}
+    - {t: it, why: "it ไม่ใช้หลังคุณศัพท์แบบนี้"}
+    - {t: them, why: "them ไม่ใช้หลังคุณศัพท์ bigger"}
+  explain: "แทนคำนามนับได้ ==one (เอกพจน์) / ones (พหูพจน์)=="
+  status: draft
+- id: cefr-c1-w05-028
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  stem: "\"Will the train be late?\" \"I hope ____.\""
+  choices:
+    - {t: not, why: "หวังว่าจะไม่ ใช้ ++I hope not++"}
+    - {t: "no", why: "I hope no ไม่ใช่รูปที่ใช้"}
+    - {t: it, why: "I hope it ไม่ครบประโยค"}
+    - {t: don't, why: "I hope don't ผิดรูป"}
+  explain: "แทนประโยค ==I hope so / I hope not== · I think so / I don't think so"
+  status: draft
+- id: cefr-c1-w05-029
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  stem: The manager asked us to reduce costs, and we have ____.
+  choices:
+    - {t: done so, why: "แทนทั้งการกระทำ reduce costs ใช้ ++done so++"}
+    - {t: done it so, why: "มี it ซ้ำ ใช้ไม่ได้"}
+    - {t: so done, why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: did so, why: "หลัง have ต้องเป็นช่อง 3 done"}
+  explain: "แทนการกระทำแบบทางการ ==do so / did so / have done so=="
+  status: draft
+- id: cefr-c1-w05-030
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  stem: I wanted to go to the concert, but I couldn't ____.
+  choices:
+    - {t: afford to, why: "ละกริยาหลัง to ได้ ++afford to++ (= afford to go)"}
+    - {t: afford it to, why: "มี it เกินมา จึงใช้ไม่ได้"}
+    - {t: afford going, why: "afford ไม่ตามด้วย -ing"}
+    - {t: to afford, why: "ลำดับผิด ขาดกริยาช่วยหน้า afford"}
+  explain: "ละกริยาซ้ำได้ ==เหลือแค่ to== (I'd love to · I'm trying to)"
+  status: draft
+- id: cefr-c1-w05-031
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 3
+  stem: "\"Did you lock the door?\" \"I'm not sure. I ____ have.\""
+  choices:
+    - {t: might not, why: "ละ locked it ได้ เหลือ ++might not have++"}
+    - {t: might not have it, why: "มี it เกินมา และขาดช่อง 3"}
+    - {t: might not do, why: "do ใช้แทน have locked ไม่ได้"}
+    - {t: might have not, why: "ลำดับผิด not ต้องอยู่หลังกริยาช่วยตัวแรก"}
+  explain: "ละส่วนที่ซ้ำ ==เหลือกริยาช่วยตัวสุดท้าย== (I might have. / She should be.)"
+  status: draft
+- id: cefr-c1-w05-032
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  stem: Few people expected the plan to succeed, but it ____.
+  choices:
+    - {t: did, why: "แทน succeeded ด้วย ++did++"}
+    - {t: was, why: "succeed ไม่ใช้ be"}
+    - {t: has, why: "เป็นเรื่องในอดีต และ has ไม่ได้แทน succeeded"}
+    - {t: does, why: "เป็นอดีต ใช้ does ไม่ได้"}
+  explain: "แทนกริยาแท้ด้วย ==do/does/did== ให้ตรงเวลา"
+  status: draft
+- id: cefr-c1-w05-033
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 3
+  stem: "\"You didn't tell her, did you?\" \"No, but I wish I ____.\""
+  choices:
+    - {t: had, why: "เสียดายเรื่องอดีต wish + ++had++ (ละ told her)"}
+    - {t: did, why: "wish เรื่องอดีตใช้ had ไม่ใช่ did"}
+    - {t: have, why: "wish ไม่ตามด้วย present perfect"}
+    - {t: would, why: "wish I would ใช้กับอนาคตหรือนิสัย ไม่ใช่เรื่องที่ผ่านแล้ว"}
+  explain: "ละแล้วเหลือ ==กริยาช่วยของรูปเต็ม== (I wish I had told her → I wish I had)"
+  status: draft
+- id: cefr-c1-w05-034
+  kind: cloze
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  text: |
+    (1) ____ the first draft, the author asked three colleagues for feedback. Two of them suggested cutting the introduction, and she agreed to (2) ____. The third preferred the original version, and (3) ____ did her editor.
+  questions:
+    - choices:
+        - {t: Having written, why: "เขียนเสร็จก่อนขอความเห็น Having + ช่อง 3"}
+        - {t: Written, why: "Written ขึ้นต้นทำให้ผู้เขียนเป็นสิ่งที่ถูกเขียน"}
+        - {t: To write, why: "To write บอกจุดประสงค์ ไม่ใช่สิ่งที่ทำเสร็จก่อน"}
+        - {t: Being written, why: "Being written เป็นรูปถูกกระทำ ความหมายผิด"}
+    - choices:
+        - {t: do so, why: "แทน cut the introduction ด้วย do so"}
+        - {t: do it so, why: "มี it ซ้ำ ใช้ไม่ได้"}
+        - {t: so do, why: "ลำดับผิด จึงใช้ไม่ได้"}
+        - {t: doing so, why: "agree to + กริยารูปเดิม ไม่ใช่ -ing"}
+    - choices:
+        - {t: so, why: "เห็นแบบเดียวกัน so + did + ประธาน"}
+        - {t: neither, why: "neither ใช้กับประโยคปฏิเสธ แต่ประโยคหน้าเป็นบอกเล่า"}
+        - {t: also, why: "also did her editor ผิดลำดับ"}
+        - {t: too, why: "too วางท้ายประโยค ไม่ใช่หน้า did"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทวิจารณ์หนังสือและฟังบรรยาย ----------
+- id: cefr-c1-w05-035
+  kind: read
+  skill: rd
+  topic: book-review
+  level: 2
+  title: "Review · The Art of Saying Less (fictional)"
+  passage: |
+    In The Art of Saying Less, communication researcher Dr Anong Siri sets out to answer a deceptively simple question: why do intelligent people so often write badly at work? Her answer, developed over twelve chapters, is that most professionals confuse length with effort. Having been taught at school that longer answers earn higher marks, they carry the habit into reports and emails, where it does far more harm than good.
+
+    The book's strongest section deals with what Siri calls "defensive writing": adding unnecessary detail in order to appear thorough or to avoid blame. Drawing on interviews with more than eighty managers, she shows how such writing hides the one sentence the reader actually needs. Her examples, taken from real (though anonymised) documents, are painfully familiar.
+
+    Less convincing is the final third of the book, in which Siri offers a set of rules for clearer writing. Some are useful, such as stating the main request in the first two lines. Others, however, feel rudimentary for a book aimed at experienced professionals. Readers who have attended even one writing workshop will have heard most of them before.
+
+    Nevertheless, this is a pertinent and often witty book. Its central argument is cogent, its research is careful, and, fittingly, it is short. Managers who want their teams to write more succinctly could do worse than give everyone a copy, though they might find, uncomfortably, that the first person who needs it is themselves.
+  questions:
+    - stem: What is the reviewer's overall opinion of the book?
+      choices:
+        - {t: worthwhile despite a weaker final section, why: "ชมเหตุผลหลักและงานวิจัย แต่ส่วนท้ายไม่ค่อยน่าเชื่อ"}
+        - {t: too long and poorly researched, why: "ผู้วิจารณ์บอกว่าหนังสือสั้นและวิจัยอย่างรอบคอบ"}
+        - {t: useful only for students, why: "ผู้วิจารณ์แนะนำให้ผู้จัดการแจกทีม"}
+        - {t: completely original in every chapter, why: "ผู้วิจารณ์บอกว่ากฎหลายข้อเคยได้ยินมาแล้ว"}
+    - stem: According to Siri, why do professionals write long documents?
+      choices:
+        - {t: they learned at school to link length with quality, why: "taught at school that longer answers earn higher marks"}
+        - {t: their managers demand more detail, why: "บทไม่ได้บอกว่าผู้จัดการสั่ง"}
+        - {t: they do not have time to edit, why: "ไม่มีข้อมูลเรื่องเวลา"}
+        - {t: their English is not strong enough, why: "บทไม่ได้พูดเรื่องความสามารถทางภาษา"}
+    - stem: What is "defensive writing"?
+      choices:
+        - {t: adding detail to look careful or avoid criticism, why: "adding unnecessary detail in order to appear thorough or to avoid blame"}
+        - {t: writing that attacks other people, why: "บทไม่ได้พูดถึงการโจมตีคนอื่น"}
+        - {t: refusing to answer emails, why: "บทไม่ได้พูดถึงการไม่ตอบอีเมล"}
+        - {t: using very formal vocabulary, why: "บทไม่ได้นิยามแบบนี้"}
+    - stem: What does the reviewer suggest in the final sentence?
+      choices:
+        - {t: some managers may be guilty of the same problem, why: "the first person who needs it is themselves"}
+        - {t: managers should not read the book, why: "ผู้วิจารณ์แนะนำให้แจกหนังสือ"}
+        - {t: the book is too expensive for teams, why: "ไม่มีการพูดถึงราคา"}
+        - {t: staff write better than their managers, why: "บทไม่ได้เปรียบเทียบตรง ๆ แบบนี้"}
+  status: draft
+- id: cefr-c1-w05-036
+  kind: listen
+  skill: li
+  topic: lecture-reference
+  level: 2
+  script:
+    - {who: Lecturer, en: "We looked at two approaches last week: strict rules and personal choice. The former works well in factories, where safety is paramount. The latter, as we'll see today, tends to produce better results in creative teams."}
+  questions:
+    - stem: Which approach works better in creative teams, according to the lecturer?
+      choices:
+        - {t: personal choice, why: "The latter = personal choice ได้ผลดีกว่าในทีมสร้างสรรค์"}
+        - {t: strict rules, why: "The former = strict rules ใช้ได้ดีในโรงงาน"}
+        - {t: a mixture of both, why: "ผู้บรรยายไม่ได้เสนอแบบผสม"}
+        - {t: neither approach, why: "ผู้บรรยายบอกว่าแบบหลังได้ผลดีกว่า"}
+  status: draft
+- id: cefr-c1-w05-037
+  kind: listen
+  skill: li
+  topic: lecture-reference
+  level: 2
+  script:
+    - {who: Lecturer, en: "Many companies say they want feedback from staff. Fewer actually act on it. Those that do so, however, tend to keep their employees for much longer."}
+  questions:
+    - stem: What does "do so" refer to?
+      choices:
+        - {t: acting on staff feedback, why: "do so แทน act on it ในประโยคก่อนหน้า"}
+        - {t: saying they want feedback, why: "บริษัทส่วนใหญ่พูดอยู่แล้ว do so หมายถึงการลงมือทำ"}
+        - {t: keeping employees longer, why: "เป็นผลลัพธ์ ไม่ใช่สิ่งที่ do so แทน"}
+        - {t: hiring more staff, why: "ไม่ได้พูดถึงการจ้างคน"}
+  status: draft
+- id: cefr-c1-w05-038
+  kind: listen
+  skill: li
+  topic: lecture-reference
+  level: 2
+  script:
+    - {who: Lecturer, en: "Having reviewed more than two hundred studies, the team reached a surprising conclusion. Short training sessions, repeated often, were more effective than long ones held once a year."}
+  questions:
+    - stem: What did the team conclude?
+      choices:
+        - {t: frequent short sessions work better, why: "Short training sessions, repeated often, were more effective"}
+        - {t: annual long sessions work better, why: "ตรงข้ามกับข้อสรุป"}
+        - {t: training makes no difference, why: "ข้อสรุปบอกว่าแบบหนึ่งได้ผลกว่า"}
+        - {t: more studies are needed first, why: "ไม่ได้พูดว่าต้องศึกษาเพิ่ม"}
+  status: draft
+- id: cefr-c1-w05-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Having read, the report twice, I, still had, several questions]
+  sentence: Having read the report twice, I still had several questions.
+  th: อ่านรายงานสองรอบแล้ว ก็ยังมีคำถามอีกหลายข้อ
+  why: "Having + ช่อง 3 ขึ้นต้น แล้วประธาน I เป็นคนที่อ่าน"
+  status: draft
+- id: cefr-c1-w05-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [With, the deadline, approaching, everyone, was working late]
+  sentence: With the deadline approaching, everyone was working late.
+  th: เมื่อกำหนดส่งใกล้เข้ามา ทุกคนจึงทำงานดึก
+  why: "With + คำนาม + -ing บอกสถานการณ์ แล้วตามด้วยประโยคหลัก"
+  status: draft
+- id: cefr-c1-w05-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I was asked, to update the website, and, I have, done so]
+  sentence: I was asked to update the website, and I have done so.
+  th: ได้รับมอบหมายให้อัปเดตเว็บไซต์ และทำเรียบร้อยแล้ว
+  why: "done so แทนการกระทำ update the website ที่พูดไปแล้ว"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c1-w05-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [In short, the article argues, that, longer reports, are rarely better ones]
+  sentence: In short, the article argues that longer reports are rarely better ones.
+  th: สรุปสั้น ๆ บทความเสนอว่ารายงานที่ยาวกว่ามักไม่ได้ดีกว่า
+  why: "In short นำการสรุป แล้วใช้ ones แทน reports เพื่อไม่ซ้ำคำ"
+  status: draft

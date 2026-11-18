@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 6 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 6
+phase: 2
+theme_th: ลดน้ำหนักและระวังคำ
+focus_th: hedging (It would appear that · is thought/said to · arguably · suggest · tend to) · เงื่อนไขระดับสูง (but for · supposing · were to · mixed · provided that · in case)
+can_do_th:
+  - วิจารณ์ข้ออ้างโดยแยกหลักฐานกับการคาดเดาได้
+  - ประเมินน้ำหนักของข้อโต้แย้งในบทความได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ไม่ฟันธง
+    lesson:
+      rule_th: "คนเก่งระดับนี้ ==ไม่พูดเกินหลักฐาน== ใช้ suggest แทน prove · It would appear that แทน It is · และ ++passive reporting++ เพื่อรายงานสิ่งที่คนอื่นพูดโดยไม่รับรองเอง"
+      examples:
+        - {en: "The results <k>suggest</k> a link.", th: "ไม่ใช่ prove"}
+        - {en: "<k>It would appear that</k> the policy has failed.", th: "ดูเหมือนว่า"}
+        - {en: "The fire <k>is thought to have started</k> in the kitchen.", th: "==รายงานโดยไม่ยืนยันเอง=="}
+        - {en: "This is <k>arguably</k> the best option.", th: "ยอมรับว่ามีคนเห็นต่างได้"}
+      signals:
+        - {label_th: "คำลดน้ำหนัก", words: [suggest, indicate, tend to, may, arguably, to some extent, It would appear]}
+      thai_trap:
+        intro_th: "ภาษาไทยในรายงานมักเขียน ~~พิสูจน์แล้วว่า~~ ตรงตัว พอแปลจึงใช้ prove กับงานวิจัยชิ้นเดียว ฟังเกินจริงในสายตาผู้อ่านต่างชาติ"
+        wrong: ["This study proves that coffee prevents cancer.", "It is thought the fire to start in the kitchen."]
+        right: ["This study suggests that coffee may lower the risk of cancer.", "The fire is thought to have started in the kitchen."]
+      notes:
+        - {kind: tip, th: "ใช้คำลดน้ำหนัก ==1–2 คำต่อประโยค== พอ ถ้าใส่ทุกคำจะฟังเหมือนไม่มีความเห็นเลย"}
+        - {kind: warn, th: "อดีตใช้ to have + ช่อง 3 · ถูกกระทำในอดีตใช้ to have been + ช่อง 3"}
+    check: [cefr-c1-w06-001, cefr-c1-w06-002]
+    practice: [cefr-c1-w06-003, cefr-c1-w06-004, cefr-c1-w06-005, cefr-c1-w06-006, cefr-c1-w06-007, cefr-c1-w06-008, cefr-c1-w06-009, cefr-c1-w06-010, cefr-c1-w06-011, cefr-c1-w06-012]
+    use:
+      prompt_th: เขียนข้ออ้างที่ฟันธงเกินไป 1 ประโยค แล้วเขียนใหม่ให้ระวังคำ
+      frame: "Too strong: ____. Better: It would appear that ____ tend to ____."
+      model: "Too strong: Social media makes teenagers unhappy. Better: It would appear that teenagers who spend many hours on social media tend to report lower wellbeing."
+    classroom: {en: "It would appear that there's been a misunderstanding.", th: "ดูเหมือนจะมีความเข้าใจผิดกันนะ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์หลักฐานและความน่าเชื่อถือ 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้ประเมินข้ออ้าง แยก ==discrepancy (สองชุดไม่ตรงกัน)== กับ anomaly (สิ่งผิดปกติ) และ ++plausible ฟังขึ้น · credible น่าเชื่อถือ++"
+      examples:
+        - {en: "Her story was <k>plausible</k> but not proven.", th: "ฟังขึ้น"}
+        - {en: "The link is <k>tenuous</k>.", th: "เชื่อมโยงกันอ่อน ๆ"}
+        - {en: "Other studies <k>corroborate</k> the results.", th: "==ยืนยันด้วยหลักฐานอื่น=="}
+        - {en: "I feel <k>ambivalent</k> about the move.", th: "รู้สึกสองทาง"}
+      words:
+        - {w: plausible, pos: adj., th: ฟังขึ้น เป็นไปได้, ex: "That's a plausible explanation."}
+        - {w: conjecture, pos: n., th: การคาดเดา, ex: "Without evidence, it's just conjecture."}
+        - {w: tenuous, pos: adj., th: อ่อนบาง ไม่หนักแน่น, ex: "The connection is tenuous at best."}
+        - {w: ostensibly, pos: adv., th: โดยอ้างว่า ภายนอกดูเหมือน, ex: "He left, ostensibly to visit his mother."}
+        - {w: sceptical, pos: adj., th: ไม่ค่อยเชื่อ สงสัย, ex: "I'm sceptical about online reviews."}
+        - {w: credible, pos: adj., th: น่าเชื่อถือ, ex: "We need a credible source."}
+        - {w: corroborate, pos: v., th: ยืนยันด้วยหลักฐานเพิ่ม, ex: "CCTV footage corroborated her account."}
+        - {w: discern, pos: v., th: สังเกตเห็น แยกแยะได้, ex: "I couldn't discern any pattern."}
+        - {w: anomaly, pos: n., th: สิ่งผิดปกติ, ex: "The result was an anomaly."}
+        - {w: discrepancy, pos: n., th: ความไม่ตรงกัน, ex: "There is a discrepancy in the figures."}
+        - {w: fallible, pos: adj., th: ผิดพลาดได้, ex: "All humans are fallible."}
+        - {w: ambivalent, pos: adj., th: สองจิตสองใจ, ex: "She's ambivalent about the new job."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ น่าเชื่อ คำเดียว คนจึงใช้ ~~sceptical กับสิ่งของ~~ หรือ ~~credible กับความรู้สึกของคน~~ สลับกัน"
+        wrong: ["The report is sceptical.", "I'm credible about the plan."]
+        right: ["I'm sceptical about the report.", "The report is credible."]
+      notes:
+        - {kind: pin, th: "==คน + sceptical about + สิ่งของ== · สิ่งของ + credible/plausible"}
+        - {kind: use, th: "ตอบอย่างสุภาพว่า That's plausible, but I'd want to see the data. ช่วยแย้งโดยไม่หักหน้า"}
+    check: [cefr-c1-w06-013, cefr-c1-w06-014]
+    practice: [cefr-c1-w06-015, cefr-c1-w06-016, cefr-c1-w06-017, cefr-c1-w06-018, cefr-c1-w06-019, cefr-c1-w06-020, cefr-c1-w06-021, cefr-c1-w06-022, cefr-c1-w06-023, cefr-c1-w06-024]
+    use:
+      prompt_th: เขียน 2 ประโยคประเมินข่าวหรือโฆษณาที่คุณเห็นเมื่อเร็ว ๆ นี้
+      frame: "The claim that ____ sounds plausible, but I'm sceptical because ____."
+      model: "The claim that this tea helps you lose five kilos a month sounds plausible on the advert, but I'm sceptical because no credible study is mentioned."
+    classroom: {en: "That's plausible, but is there any evidence?", th: "ฟังขึ้นนะ แต่มีหลักฐานไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เงื่อนไขระดับสูง
+    lesson:
+      rule_th: "นอกจาก if ยังมี ==But for + คำนาม== · Supposing · were to · provided that · in case และ ++mixed conditional++ ที่อดีตส่งผลถึงปัจจุบัน หรือนิสัยตอนนี้ส่งผลต่ออดีต"
+      examples:
+        - {en: "<k>But for</k> your help, I'd have got lost.", th: "ถ้าไม่มีความช่วยเหลือของคุณ"}
+        - {en: "If I <k>had studied</k> medicine, I <k>would be</k> a doctor now.", th: "==อดีต → ผลตอนนี้=="}
+        - {en: "If prices <k>were to</k> rise, sales would fall.", th: "สมมติที่ไม่น่าเกิด"}
+        - {en: "Take an umbrella <k>in case</k> it rains.", th: "เผื่อไว้ก่อน ไม่ใช่ if"}
+      signals:
+        - {label_th: "คำขึ้นเงื่อนไขอื่น", words: [But for, Supposing, provided that, as long as, in case, If so, If not]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ถ้า กับทั้ง if และ เผื่อ คนจึงเขียน ~~Take an umbrella if it rains~~ ซึ่งหมายถึงเอาไปเฉพาะเมื่อฝนตกแล้ว"
+        wrong: ["Take a jacket if it gets cold.", "If I studied harder at school, I would have a better job now.", "But for you helped me, I would fail."]
+        right: ["Take a jacket in case it gets cold.", "If I had studied harder at school, I would have a better job now.", "But for your help, I would have failed."]
+      notes:
+        - {kind: tip, th: "ดูคำบอกเวลาในแต่ละท่อน ==now / last month== แล้วเลือกรูปแยกกัน นั่นคือ mixed conditional"}
+        - {kind: warn, th: "But for ตามด้วยคำนามเท่านั้น ถ้ามีประโยคใช้ If it hadn't been for"}
+    check: [cefr-c1-w06-025, cefr-c1-w06-026]
+    practice: [cefr-c1-w06-027, cefr-c1-w06-028, cefr-c1-w06-029, cefr-c1-w06-030, cefr-c1-w06-031, cefr-c1-w06-032, cefr-c1-w06-033, cefr-c1-w06-034]
+    use:
+      prompt_th: เขียน mixed conditional 1 ประโยคเรื่องการตัดสินใจในอดีตของคุณ และประโยค in case 1 ประโยค
+      frame: "If I had(n't) ____, I would(n't) ____ now. I always ____ in case ____."
+      model: "If I hadn't moved to Chiang Mai, I wouldn't know so much about coffee now. I always carry a power bank in case my phone dies."
+    classroom: {en: "I'll bring some extra copies in case more people come.", th: "จะเอาสำเนามาเผื่อ เผื่อคนมาเพิ่ม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทวิเคราะห์งานวิจัยและฟังสัมมนา
+    lesson:
+      rule_th: "แยกให้ขาดระหว่าง ==ความสัมพันธ์กับเหตุและผล== (correlation กับ cause) บทวิเคราะห์ที่ดีจะบอกว่าผลวิจัยพิสูจน์อะไรได้ และ ++พิสูจน์อะไรไม่ได้++"
+      examples:
+        - {en: "The difference is <k>statistically real, but small</k>.", th: "ยอมรับแต่จำกัดขอบเขต"}
+        - {en: "One <k>plausible</k> explanation is ... Yet there are others.", th: "==มีคำอธิบายอื่นได้=="}
+        - {en: "<k>None of this means</k> the study is worthless.", th: "กันไม่ให้ผู้อ่านเหมารวม"}
+      thai_trap:
+        intro_th: "บทวิจารณ์งานวิจัยมักถูกอ่านเป็น ~~ผู้เขียนบอกว่างานวิจัยผิด~~ ทั้งที่ผู้เขียนแค่บอกว่าสรุปเกินหลักฐาน"
+        wrong: ["ตอบว่าผู้เขียนคิดว่าสวนไม่มีผลต่อความสุขเลย"]
+        right: ["ผู้เขียนยอมรับความสัมพันธ์ แต่บอกว่ายังสรุปเป็นเหตุและผลไม่ได้"]
+      notes:
+        - {kind: tip, th: "หาประโยค ==None of this means...== ซึ่งบอกขอบเขตของการวิจารณ์"}
+        - {kind: warn, th: "I wouldn't go that far = ไม่เห็นด้วยกับข้อสรุปที่แรงเกิน ไม่ใช่ค้านทั้งหมด"}
+    check: [cefr-c1-w06-036, cefr-c1-w06-037]
+    practice: [cefr-c1-w06-035, cefr-c1-w06-038, cefr-c1-w06-039, cefr-c1-w06-040, cefr-c1-w06-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าผลวิจัยในบทอ่านบอกอะไรได้ และบอกอะไรไม่ได้
+      frame: "The study suggests that ____. However, it does not show that ____."
+      model: "The study suggests that people living near parks report slightly higher happiness. However, it does not show that the parks themselves cause this difference."
+    classroom: {en: "I wouldn't go that far, but I see your point.", th: "ไม่ถึงขนาดนั้นหรอก แต่เข้าใจที่พูดนะ"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน วิจารณ์ข้อสรุปของงานวิจัยอย่างระวัง 200 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนประมาณ 200 คำวิจารณ์ข้อสรุปจากงานวิจัยหรือข่าว 1 เรื่อง (เช่น กาแฟทำให้อายุยืน เด็กที่เรียนดนตรีเก่งคณิต ทำงานที่บ้านดีกว่า) บอกข้ออ้าง หลักฐานที่มี คำอธิบายอื่นที่เป็นไปได้ และข้อสรุปที่ระวังคำมากขึ้น
+      frame:
+        - "It is often claimed that ____."
+        - "A recent study appears to support this: ____."
+        - "However, one plausible alternative explanation is that ____."
+        - "Were researchers to ____, we might ____."
+        - "On the basis of current evidence, it would be fairer to say that ____."
+      model_pass: "It is often claimed that drinking coffee helps people live longer. A recent study appears to support this: people who drank three cups a day were less likely to die during the ten-year study. However, one plausible alternative explanation is that coffee drinkers are different in other ways. For example, they may be wealthier or have more active social lives. The study also relied on people remembering how much coffee they drank, which is not always accurate. Were researchers to compare people with similar incomes and lifestyles, we might get a clearer answer. On the basis of current evidence, it would be fairer to say that coffee does not seem to be harmful for most adults, and that it may have some benefits. Newspapers should be careful not to claim more than this."
+      model_good: "It is frequently claimed that coffee is the secret to a longer life. A widely reported study appears to support this: over ten years, participants who drank around three cups a day were somewhat less likely to die than those who drank none. However, the link is arguably more tenuous than the headlines suggest. One plausible alternative explanation is that regular coffee drinkers tend to be healthier to begin with, since people with certain illnesses are often advised to avoid caffeine. Moreover, the study relied on participants' own estimates of their consumption, which are notoriously fallible. Were researchers to follow people who changed their coffee habits over time, we might be able to discern whether coffee itself makes a difference. On the basis of current evidence, it would be fairer to say that moderate coffee drinking is unlikely to be harmful for most adults and may offer modest benefits. That is a far less exciting headline, but a considerably more credible one."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกข้ออ้างที่คุณเคยเห็นจริง แล้วคิดคำอธิบายอื่นอย่างน้อย 1 ข้อ
+        - เติมโครง 5 ส่วน แล้วเขียนให้ได้ประมาณ 180–220 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนแล้วเปลี่ยนคำที่ฟันธงเกินไป (prove · always · definitely) ให้ระวังขึ้น
+      checklist_th:
+        - แยกชัดว่าส่วนไหนคือข้ออ้าง หลักฐาน และความเห็นของคุณ
+        - มีคำอธิบายอื่นที่เป็นไปได้อย่างน้อย 1 ข้อ
+        - ใช้ hedging อย่างน้อย 3 แบบ (appears to · arguably · may · tend to · it would be fairer to say)
+        - ใช้เงื่อนไขระดับสูง 1 ครั้ง และยาวประมาณ 200 คำ
+    practice: [cefr-c1-w06-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 6
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [3, 4, 5, 6], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

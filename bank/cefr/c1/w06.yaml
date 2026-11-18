@@ -1,0 +1,581 @@
+# คอร์ส c1 · สัปดาห์ 6 · ลดน้ำหนักและระวังคำ · hedging (It would appear · is thought to · arguably · passive reporting) · เงื่อนไขระดับสูง (but for · supposing · were to · mixed)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · ไม่ฟันธง ----------
+- id: cefr-c1-w06-001
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 1
+  stem: The fire ____ to have started in the kitchen, but the cause has not been confirmed.
+  choices:
+    - {t: is thought, why: "รายงานแบบไม่ฟันธง ใช้ ++is thought to have + ช่อง 3++"}
+    - {t: thinks, why: "ไฟคิดเองไม่ได้ ต้องเป็นรูปถูกกระทำ"}
+    - {t: is thinking, why: "is thinking เป็นรูปกระทำ ความหมายผิด"}
+    - {t: has thought, why: "has thought เป็นรูปกระทำ ไฟไม่ได้คิด"}
+  explain: "passive reporting ==ประธาน + is thought to + กริยา== (said / believed ก็ได้)"
+  status: draft
+- id: cefr-c1-w06-002
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 1
+  stem: It would ____ that the new policy has had little effect so far.
+  choices:
+    - {t: appear, why: "ลดความแน่นอนด้วย ++It would appear that++"}
+    - {t: appears, why: "หลัง would ต้องใช้กริยารูปเดิม"}
+    - {t: appearing, why: "หลัง would ต้องใช้กริยารูปเดิม ไม่ใช่ -ing"}
+    - {t: be appear, why: "be appear ผิดรูป ใช้กริยาซ้อนกันไม่ได้"}
+  explain: "It would appear / seem that = ==ดูเหมือนว่า (ระวังคำ)=="
+  status: draft
+- id: cefr-c1-w06-003
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: It ____ that the minister will resign before the end of the year.
+  choices:
+    - {t: is widely believed, why: "รายงานความเชื่อของคนทั่วไป ใช้ ++It is widely believed that++"}
+    - {t: widely believes, why: "It ไม่ได้เป็นผู้เชื่อ ต้องเป็นรูปถูกกระทำ"}
+    - {t: is widely believing, why: "รูป -ing ไม่ใช้กับ passive reporting"}
+    - {t: widely believed, why: "ขาด is ประโยคไม่สมบูรณ์"}
+  explain: "==It is said that + ประโยค== (believed / reported ก็ได้)"
+  status: draft
+- id: cefr-c1-w06-004
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: The painting is said ____ by a student, not by the famous artist himself.
+  choices:
+    - {t: to have been painted, why: "ภาพถูกวาดในอดีต ใช้ ++to have been + ช่อง 3++"}
+    - {t: to paint, why: "ภาพวาดเองไม่ได้ และเป็นเรื่องในอดีต"}
+    - {t: to be painting, why: "รูปกำลังทำ ความหมายผิด"}
+    - {t: having been painting, why: "หลัง is said ต้องเป็น to + กริยา ไม่ใช่ having"}
+  explain: "อดีต + ถูกกระทำ ==is said to have been + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w06-005
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: This is ____ the most important discovery of the decade, although some experts would disagree.
+  choices:
+    - {t: arguably, why: "ยอมรับว่ามีคนเห็นต่างได้ ใช้ ++arguably++"}
+    - {t: undoubtedly, why: "undoubtedly แปลว่าไม่ต้องสงสัย ขัดกับ some experts would disagree"}
+    - {t: certainly, why: "certainly ฟันธงเกินไป ขัดกับประโยคหลัง"}
+    - {t: argue, why: "argue เป็นกริยา วางตรงนี้ไม่ได้"}
+  explain: "arguably = ==อาจกล่าวได้ว่า (มีคนเถียงได้)=="
+  status: draft
+- id: cefr-c1-w06-006
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 1
+  stem: The results ____ that regular exercise improves memory in older adults.
+  choices:
+    - {t: suggest, why: "ผลวิจัยชี้ว่า ไม่ฟันธงเกินหลักฐาน ใช้ ++suggest++"}
+    - {t: prove beyond doubt, why: "งานวิจัยชิ้นเดียวพิสูจน์แบบหมดข้อสงสัยไม่ได้ ฟันธงเกินไป"}
+    - {t: suggests, why: "the results เป็นพหูพจน์ ไม่เติม s"}
+    - {t: are suggest, why: "are suggest ผิดรูป"}
+  explain: "ภาษาวิชาการ ==suggest / indicate== ปลอดภัยกว่า prove"
+  status: draft
+- id: cefr-c1-w06-007
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: Which sentence is the most cautious?
+  choices:
+    - {t: "The data may indicate a link between screen time and poor sleep.", why: "may + indicate ++ระวังคำมากที่สุด++"}
+    - {t: "The data proves that screen time causes poor sleep.", why: "proves และ causes ฟันธงเกินไป"}
+    - {t: "Screen time definitely causes poor sleep.", why: "definitely ฟันธงเต็มที่"}
+    - {t: "Everyone knows that screen time ruins sleep.", why: "อ้างว่าทุกคนรู้ ไม่มีหลักฐาน และไม่ระวังคำ"}
+  explain: "เพิ่มความระวังด้วย ==may / might / could + indicate / suggest=="
+  status: draft
+- id: cefr-c1-w06-008
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: There ____ to be a problem with your account. Could you call us?
+  choices:
+    - {t: seems, why: "ลดความแรงของข่าวไม่ดี ใช้ ++There seems to be++"}
+    - {t: seem, why: "There seems ผันตาม a problem ที่เป็นเอกพจน์"}
+    - {t: is seeming, why: "seem ไม่ใช้รูป -ing"}
+    - {t: seems being, why: "หลัง seem ต้องเป็น to + กริยา"}
+  explain: "แจ้งปัญหาอย่างสุภาพ ==There seems to be / It seems that=="
+  status: draft
+- id: cefr-c1-w06-009
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 3
+  stem: The company ____ to be planning job cuts, according to sources close to the board.
+  choices:
+    - {t: is reported, why: "รายงานข่าวโดยไม่ยืนยัน ++is reported to be + -ing++"}
+    - {t: reports, why: "บริษัทไม่ได้เป็นผู้รายงาน ต้องเป็นรูปถูกกระทำ"}
+    - {t: has reported, why: "has reported เป็นรูปกระทำ ความหมายผิด"}
+    - {t: is reporting, why: "is reporting เป็นรูปกระทำ ความหมายผิด"}
+  explain: "กำลังทำอยู่ตามข่าว ==is reported to be + -ing=="
+  status: draft
+- id: cefr-c1-w06-010
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: ____ the evidence, it is unlikely that the drug is harmful.
+  choices:
+    - {t: On the basis of, why: "อ้างหลักฐานอย่างระวัง ใช้ ++On the basis of++"}
+    - {t: In spite of, why: "In spite of ทำให้ความหมายขัดกัน"}
+    - {t: Instead of, why: "Instead of แปลว่าแทนที่จะ"}
+    - {t: In comparison with, why: "In comparison with ใช้เปรียบเทียบ ไม่ใช่อ้างหลักฐาน"}
+  explain: "อ้างที่มา ==On the basis of / Based on + หลักฐาน=="
+  status: draft
+- id: cefr-c1-w06-011
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 3
+  stem: Which phrase makes the claim less certain?
+  choices:
+    - {t: "to some extent", why: "บอกว่าจริงบางส่วน ++ลดความแน่นอน++"}
+    - {t: "without exception", why: "without exception ทำให้ข้ออ้างแรงขึ้น"}
+    - {t: "in every case", why: "in every case ทำให้ข้ออ้างแรงขึ้น"}
+    - {t: "beyond question", why: "beyond question แปลว่าไม่ต้องสงสัย"}
+  explain: "ลดน้ำหนัก ==to some extent== · in many cases · tends to"
+  status: draft
+- id: cefr-c1-w06-012
+  kind: type
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  stem: "Younger workers t____ to change jobs more often than older ones. (มีแนวโน้ม)"
+  answer: tend
+  accept: [tend]
+  why: "tend to + กริยา = มีแนวโน้ม ใช้ลดการเหมารวม"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์หลักฐานและความน่าเชื่อถือ ----------
+- id: cefr-c1-w06-013
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 1
+  stem: Her explanation sounded ____, so the manager accepted it.
+  choices:
+    - {t: plausible, why: "ฟังดูมีเหตุผลน่าเชื่อ ใช้ ++plausible++"}
+    - {t: fallible, why: "fallible แปลว่าผิดพลาดได้ ใช้กับคนหรือระบบ"}
+    - {t: ambivalent, why: "ambivalent แปลว่ารู้สึกสองจิตสองใจ"}
+    - {t: tenuous, why: "tenuous แปลว่าอ่อนบาง ขัดกับการยอมรับ"}
+  explain: "plausible = ==ฟังขึ้น เป็นไปได้=="
+  status: draft
+- id: cefr-c1-w06-014
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 1
+  stem: I'm ____ about these "miracle" diets. They rarely work in the long term.
+  choices:
+    - {t: sceptical, why: "ไม่ค่อยเชื่อ สงสัย ใช้ ++sceptical about++"}
+    - {t: credible, why: "credible ใช้กับสิ่งที่น่าเชื่อ ไม่ใช่ความรู้สึกของคน"}
+    - {t: plausible, why: "plausible ใช้กับคำอธิบาย ไม่ใช่ความรู้สึก"}
+    - {t: fallible, why: "fallible ไม่ได้แปลว่าสงสัย"}
+  explain: "sceptical (about) = ==ไม่ค่อยเชื่อ สงสัย=="
+  status: draft
+- id: cefr-c1-w06-015
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: The link between the two events is ____ at best. There is very little evidence.
+  choices:
+    - {t: tenuous, why: "เชื่อมโยงกันอย่างบางเบา ใช้ ++tenuous++"}
+    - {t: credible, why: "credible ขัดกับ very little evidence"}
+    - {t: plausible, why: "plausible ไม่เข้ากับ at best ที่บอกว่าอ่อน"}
+    - {t: sceptical, why: "sceptical ใช้กับคน ไม่ใช่ความเชื่อมโยง"}
+  explain: "a tenuous link / connection = ==เชื่อมโยงกันอย่างอ่อน=="
+  status: draft
+- id: cefr-c1-w06-016
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: The so-called "charity" was ____ helping children, but most of the money went to its directors.
+  choices:
+    - {t: ostensibly, why: "ดูภายนอกเหมือน แต่ความจริงไม่ใช่ ใช้ ++ostensibly++"}
+    - {t: plausible, why: "plausible เป็นคุณศัพท์ วางหน้ากริยา -ing ไม่ได้"}
+    - {t: credibly, why: "credibly แปลว่าอย่างน่าเชื่อถือ ขัดกับเงินเข้ากรรมการ"}
+    - {t: sceptically, why: "sceptically แปลว่าอย่างสงสัย ความหมายผิด"}
+  explain: "ostensibly = ==โดยอ้างว่า ภายนอกดูเหมือน=="
+  status: draft
+- id: cefr-c1-w06-017
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: The witness was not considered ____ because she had changed her story three times.
+  choices:
+    - {t: credible, why: "น่าเชื่อถือ ใช้ ++credible++"}
+    - {t: fallible, why: "not fallible แปลว่าไม่ผิดพลาด ความหมายกลับ"}
+    - {t: ambivalent, why: "ambivalent ไม่ได้บอกความน่าเชื่อถือ"}
+    - {t: tenuous, why: "tenuous ใช้กับความเชื่อมโยง ไม่ใช่พยาน"}
+  explain: "credible = ==น่าเชื่อถือ== (a credible witness / source)"
+  status: draft
+- id: cefr-c1-w06-018
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: Two other studies have ____ the original findings.
+  choices:
+    - {t: corroborated, why: "ยืนยันด้วยหลักฐานเพิ่ม ใช้ ++corroborated++"}
+    - {t: discerned, why: "discern แปลว่าสังเกตเห็น ไม่ใช่ยืนยัน"}
+    - {t: conjectured, why: "conjecture แปลว่าคาดเดา ตรงข้ามกับการยืนยัน"}
+    - {t: ostensibly, why: "ostensibly เป็นคำวิเศษณ์"}
+  explain: "corroborate = ==ยืนยันด้วยหลักฐานอีกแหล่ง=="
+  status: draft
+- id: cefr-c1-w06-019
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: It was hard to ____ any difference between the original and the copy.
+  choices:
+    - {t: discern, why: "มองเห็นความต่างที่ยาก ใช้ ++discern++"}
+    - {t: corroborate, why: "corroborate a difference ไม่ใช่วลีที่ใช้"}
+    - {t: conjecture, why: "conjecture ไม่ได้แปลว่ามองเห็น"}
+    - {t: credible, why: "credible เป็นคำคุณศัพท์ วางหลัง to แบบนี้ไม่ได้"}
+  explain: "discern = ==สังเกตเห็น แยกแยะได้ (ยาก)=="
+  status: draft
+- id: cefr-c1-w06-020
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: The auditor found a ____ of 20,000 baht between the two sets of accounts.
+  choices:
+    - {t: discrepancy, why: "ตัวเลขไม่ตรงกัน ใช้ ++discrepancy++"}
+    - {t: anomaly, why: "anomaly คือสิ่งผิดปกติทั่วไป แต่ between two sets ใช้ discrepancy"}
+    - {t: conjecture, why: "conjecture คือการคาดเดา"}
+    - {t: credibility, why: "credibility คือความน่าเชื่อถือ"}
+  explain: "a discrepancy between A and B = ==ความไม่ตรงกัน=="
+  status: draft
+- id: cefr-c1-w06-021
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: The sudden drop in temperature was an ____ that scientists could not explain.
+  choices:
+    - {t: anomaly, why: "สิ่งผิดปกติจากแบบแผน ใช้ ++anomaly++"}
+    - {t: discrepancy, why: "discrepancy ใช้กับข้อมูลสองชุดที่ไม่ตรงกัน"}
+    - {t: ambivalent, why: "ambivalent เป็นคำคุณศัพท์"}
+    - {t: plausible, why: "plausible เป็นคำคุณศัพท์"}
+  explain: "anomaly = ==สิ่งผิดปกติ ผิดแบบแผน=="
+  status: draft
+- id: cefr-c1-w06-022
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: Even experienced doctors are ____. That's why second opinions matter.
+  choices:
+    - {t: fallible, why: "ผิดพลาดได้ ใช้ ++fallible++"}
+    - {t: credible, why: "credible ไม่ได้บอกว่าผิดพลาดได้"}
+    - {t: sceptical, why: "sceptical ไม่ได้บอกว่าผิดพลาดได้"}
+    - {t: tenuous, why: "tenuous ไม่ใช้กับคน"}
+  explain: "fallible = ==ผิดพลาดได้== · infallible = ไม่มีวันผิด"
+  status: draft
+- id: cefr-c1-w06-023
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 3
+  stem: She feels ____ about moving abroad. She's excited, but she'd miss her family terribly.
+  choices:
+    - {t: ambivalent, why: "รู้สึกสองทางพร้อมกัน ใช้ ++ambivalent++"}
+    - {t: sceptical, why: "sceptical แปลว่าไม่เชื่อ ไม่ใช่รู้สึกสองทาง"}
+    - {t: plausible, why: "plausible ไม่ใช้บอกความรู้สึกของคน"}
+    - {t: credible, why: "credible ไม่ใช้บอกความรู้สึก"}
+  explain: "ambivalent = ==รู้สึกขัดแย้งในใจ สองจิตสองใจ=="
+  status: draft
+- id: cefr-c1-w06-024
+  kind: type
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  stem: "Without data, any explanation is pure c_________. (การคาดเดา)"
+  answer: conjecture
+  accept: [conjecture]
+  why: "conjecture = การคาดเดาที่ไม่มีหลักฐาน ใช้ใน pure conjecture"
+  status: draft
+# ---------- วันที่ 3 · เงื่อนไขระดับสูง ----------
+- id: cefr-c1-w06-025
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 1
+  stem: ____ your help, I would never have found the right house.
+  choices:
+    - {t: But for, why: "ถ้าไม่มี + คำนาม ใช้ ++But for++"}
+    - {t: Unless, why: "Unless ต้องตามด้วยประโยค"}
+    - {t: Except, why: "Except your help ไม่ใช่โครงสร้างเงื่อนไข"}
+    - {t: If not, why: "If not your help ผิดรูป"}
+  explain: "But for + ==คำนาม== = If it hadn't been for"
+  status: draft
+- id: cefr-c1-w06-026
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 1
+  stem: ____ you lost your job tomorrow, what would you do?
+  choices:
+    - {t: Supposing, why: "สมมติว่า ใช้ ++Supposing + อดีต++"}
+    - {t: Unless, why: "Unless ทำให้ความหมายเป็นถ้าไม่ ผิดบริบท"}
+    - {t: Provided, why: "Provided ใช้กับเงื่อนไขที่ต้องมี ไม่ใช่การสมมติร้าย ๆ"}
+    - {t: Even, why: "Even ต้องเป็น Even if"}
+  explain: "Supposing / Suppose + อดีต = ==สมมติว่า=="
+  status: draft
+- id: cefr-c1-w06-027
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  stem: If the government ____ raise taxes, there would be protests.
+  choices:
+    - {t: were to, why: "สมมติที่ไม่น่าเกิด ใช้ ++were to + กริยา++"}
+    - {t: was going, why: "was going ขาด to และไม่ใช่รูปสมมติ"}
+    - {t: will, why: "ไม่ใส่ will ในส่วน if"}
+    - {t: would to, why: "would to ผิดรูป"}
+  explain: "If + ==were to + กริยา== = ถ้าเกิดสมมติว่า (ไม่น่าเกิด)"
+  status: draft
+- id: cefr-c1-w06-028
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  stem: If I had studied medicine, I ____ a doctor now.
+  choices:
+    - {t: would be, why: "อดีตไม่จริง ส่งผลถึงปัจจุบัน (now) ใช้ ++would be++"}
+    - {t: would have been, why: "now บอกว่าผลเป็นปัจจุบัน ไม่ใช่อดีต"}
+    - {t: will be, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
+    - {t: had been, why: "ส่วนผลต้องมี would"}
+  explain: "mixed ==If + had + ช่อง 3, would + กริยา (now)=="
+  status: draft
+- id: cefr-c1-w06-029
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  stem: If she weren't so shy, she ____ for the job last month.
+  choices:
+    - {t: would have applied, why: "นิสัยตอนนี้ส่งผลต่ออดีต ใช้ ++would have + ช่อง 3++"}
+    - {t: would apply, why: "last month เป็นอดีต ต้องใช้ would have"}
+    - {t: had applied, why: "ส่วนผลต้องมี would"}
+    - {t: will apply, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
+  explain: "นิสัยตอนนี้ส่งผลต่ออดีต ==If + อดีต, would have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w06-030
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  stem: You can borrow my car ____ you bring it back by six.
+  choices:
+    - {t: provided that, why: "โดยมีเงื่อนไขว่า ใช้ ++provided that++"}
+    - {t: unless, why: "unless แปลว่าถ้าไม่ ความหมายกลับ"}
+    - {t: on condition of, why: "ต้องเป็น on condition that ตามด้วยประโยค"}
+    - {t: even though, why: "even though บอกความขัดแย้ง"}
+  explain: "provided (that) / as long as = ==โดยมีเงื่อนไขว่า=="
+  status: draft
+- id: cefr-c1-w06-031
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 3
+  stem: Take an umbrella ____ it rains later.
+  choices:
+    - {t: in case, why: "เผื่อไว้ ใช้ ++in case + ปัจจุบัน++"}
+    - {t: if, why: "if ทำให้เป็นว่าเอาร่มไปเฉพาะเมื่อฝนตก ความหมายเปลี่ยน"}
+    - {t: provided, why: "provided แปลว่าโดยมีเงื่อนไข ไม่ใช่เผื่อไว้"}
+    - {t: unless, why: "unless แปลว่าถ้าไม่ ความหมายผิด"}
+  explain: "==in case== = เผื่อไว้ก่อน (ทำตอนนี้) · if = เฉพาะเมื่อเกิด"
+  status: draft
+- id: cefr-c1-w06-032
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  stem: ____ I to accept the offer, I would have to move to Singapore.
+  choices:
+    - {t: Were, why: "Were + ประธาน + ++to + กริยา++ = ถ้าเกิดว่า (ทางการ)"}
+    - {t: Had, why: "Had I to accept ใช้กับความจำเป็น ไม่ใช่การสมมติแบบนี้"}
+    - {t: Should, why: "Should I to accept ผิดรูป Should ไม่ตามด้วย to"}
+    - {t: Would, why: "Would ไม่ใช้ขึ้นเงื่อนไข"}
+  explain: "If I were to → ==Were I to== (ทางการ)"
+  status: draft
+- id: cefr-c1-w06-033
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 3
+  stem: "\"Do you think you'll get the job?\" \"____, I'll be really surprised.\""
+  choices:
+    - {t: If so, why: "แทนประโยค if I get the job ด้วย ++If so++"}
+    - {t: If not, why: "ถ้าไม่ได้งานแล้วจะแปลกใจ ขัดกับน้ำเสียงที่ไม่มั่นใจ"}
+    - {t: Unless so, why: "Unless so ไม่ใช่รูปที่ใช้"}
+    - {t: Otherwise, why: "Otherwise แปลว่ามิฉะนั้น ความหมายผิด"}
+  explain: "แทนเงื่อนไขทั้งประโยค ==If so / If not=="
+  status: draft
+- id: cefr-c1-w06-034
+  kind: cloze
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  text: |
+    It (1) ____ that the new bus route has reduced traffic in the city centre, although the data is limited. (2) ____ the route, many residents would still be driving to work. However, (3) ____ the council to cut the service, these gains could quickly disappear.
+  questions:
+    - choices:
+        - {t: would appear, why: "ระวังคำเพราะข้อมูลจำกัด It would appear that"}
+        - {t: proves, why: "ฟันธงเกินไป ขัดกับ the data is limited"}
+        - {t: is appearing, why: "appear ในความหมายนี้ไม่ใช้รูป -ing"}
+        - {t: appears to, why: "appears to ต้องตามด้วยกริยา ไม่ใช่ that"}
+    - choices:
+        - {t: But for, why: "ถ้าไม่มี + คำนาม But for the route"}
+        - {t: Unless, why: "Unless ต้องตามด้วยประโยค"}
+        - {t: Supposing, why: "Supposing ต้องตามด้วยประโยค"}
+        - {t: In case, why: "In case ต้องตามด้วยประโยค และแปลว่าเผื่อ"}
+    - choices:
+        - {t: were, why: "were + ประธาน + to + กริยา (สมมติทางการ)"}
+        - {t: had, why: "had the council to cut ผิดความหมาย"}
+        - {t: should, why: "should the council to ผิดรูป"}
+        - {t: if, why: "if the council to cut ขาดกริยา were"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทวิเคราะห์งานวิจัยและฟังสัมมนา ----------
+- id: cefr-c1-w06-035
+  kind: read
+  skill: rd
+  topic: research-analysis
+  level: 2
+  title: "Does Green Space Make Us Happier?"
+  passage: |
+    A widely shared study published last year appeared to show that people who live near parks are significantly happier than those who do not. Newspapers quickly ran headlines claiming that "parks make you happy". On closer inspection, however, the link is rather more tenuous than those headlines suggested.
+
+    The researchers surveyed around 3,000 adults in four cities and asked them to rate their happiness on a scale from one to ten. Those living within 500 metres of a park scored, on average, 0.4 points higher. The difference is statistically real, but it is small, and the study cannot tell us why it exists.
+
+    One plausible explanation is that green space reduces stress. Yet there are others. Homes near parks tend to be more expensive, so their residents are, on average, wealthier, and income is itself strongly linked to wellbeing. The authors did attempt to control for income, but they relied on a single question about monthly salary, which arguably fails to capture savings, debts or family support.
+
+    None of this means the study is worthless. Its findings are broadly corroborated by smaller studies in Europe, and the idea that nature benefits mental health is credible. What we should be sceptical about is the leap from correlation to cause. Were a city to build a new park tomorrow, we simply do not know how much happier its neighbours would become. Supposing they became only slightly happier, the park might still be worth building for other reasons, such as cleaner air. But it would be unwise to promise residents more than the evidence can deliver.
+  questions:
+    - stem: What is the writer's main point?
+      choices:
+        - {t: the study shows a link but not that parks cause happiness, why: "ผู้เขียนเตือนเรื่องการกระโดดจากความสัมพันธ์ไปเป็นเหตุผล"}
+        - {t: the study is worthless and should be ignored, why: "ผู้เขียนบอกชัดว่า None of this means the study is worthless"}
+        - {t: parks have no effect on people's wellbeing, why: "ผู้เขียนบอกว่าแนวคิดนี้น่าเชื่อ credible"}
+        - {t: cities should stop building parks, why: "ผู้เขียนบอกว่าสวนอาจยังคุ้มค่าด้วยเหตุผลอื่น"}
+    - stem: Why might wealth explain the results?
+      choices:
+        - {t: richer people often live near parks and income affects happiness, why: "Homes near parks tend to be more expensive ... income is itself strongly linked to wellbeing"}
+        - {t: parks charge high entrance fees, why: "ไม่มีข้อมูลเรื่องค่าเข้าสวน"}
+        - {t: wealthy people answered more questions, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the researchers were paid by developers, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: What weakness does the writer see in how income was measured?
+      choices:
+        - {t: one salary question may miss other financial factors, why: "relied on a single question about monthly salary, which arguably fails to capture savings, debts or family support"}
+        - {t: income was not measured at all, why: "ผู้วิจัยพยายามควบคุมรายได้แล้ว"}
+        - {t: the salary data was invented, why: "ไม่มีข้อกล่าวหานี้ในบท"}
+        - {t: only rich people were asked about income, why: "ไม่มีข้อมูลนี้ในบท"}
+    - stem: What does the writer imply about promising residents happiness from a new park?
+      choices:
+        - {t: it would go beyond what the research supports, why: "it would be unwise to promise residents more than the evidence can deliver"}
+        - {t: it is a good way to win votes, why: "ไม่ได้พูดถึงการเลือกตั้ง"}
+        - {t: it is certain to come true, why: "ผู้เขียนบอกว่าเราไม่รู้ว่าจะมีความสุขขึ้นแค่ไหน"}
+        - {t: it should only be done in four cities, why: "สี่เมืองคือที่ทำวิจัย ไม่ใช่ข้อเสนอ"}
+  status: draft
+- id: cefr-c1-w06-036
+  kind: listen
+  skill: li
+  topic: academic-seminar
+  level: 2
+  script:
+    - {who: Man, en: "So the data proves that working from home increases productivity?"}
+    - {who: Woman, en: "I wouldn't go that far. It suggests that some people are more productive at home, particularly those with quiet workspaces. That's a much narrower claim."}
+  questions:
+    - stem: How does the woman respond to the man's claim?
+      choices:
+        - {t: she says the evidence supports a more limited conclusion, why: "I wouldn't go that far ... That's a much narrower claim"}
+        - {t: she agrees completely, why: "เธอบอกว่า I wouldn't go that far"}
+        - {t: she says the data is false, why: "เธอไม่ได้บอกว่าข้อมูลผิด"}
+        - {t: she says productivity falls at home, why: "เธอบอกว่าบางคนทำงานได้ดีขึ้นที่บ้าน"}
+  status: draft
+- id: cefr-c1-w06-037
+  kind: listen
+  skill: li
+  topic: academic-seminar
+  level: 2
+  script:
+    - {who: Lecturer, en: "There was a discrepancy between what participants said and what they actually did. Most claimed to recycle regularly, yet their household waste told a rather different story."}
+  questions:
+    - stem: What did the researchers find?
+      choices:
+        - {t: people recycled less than they said, why: "their household waste told a rather different story"}
+        - {t: people recycled more than they said, why: "ทิศทางตรงข้ามกับที่ผู้บรรยายสื่อ"}
+        - {t: people refused to answer, why: "ผู้เข้าร่วมตอบว่ารีไซเคิลประจำ"}
+        - {t: the waste data was lost, why: "ข้อมูลขยะถูกใช้เทียบ ไม่ได้หาย"}
+  status: draft
+- id: cefr-c1-w06-038
+  kind: listen
+  skill: li
+  topic: academic-seminar
+  level: 2
+  script:
+    - {who: Woman, en: "Supposing the sample had been larger, would the results have been different?"}
+    - {who: Man, en: "Possibly. With only forty participants, I'd be cautious about drawing any firm conclusions."}
+  questions:
+    - stem: Why is the man cautious?
+      choices:
+        - {t: the study involved too few people, why: "With only forty participants"}
+        - {t: the results were impossible, why: "เขาไม่ได้บอกว่าผลเป็นไปไม่ได้"}
+        - {t: the researchers were dishonest, why: "ไม่มีการกล่าวหาเรื่องความซื่อสัตย์"}
+        - {t: the study took too long, why: "ไม่ได้พูดถึงระยะเวลา"}
+  status: draft
+- id: cefr-c1-w06-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The bridge, is believed, to have been built, in the twelfth century]
+  sentence: The bridge is believed to have been built in the twelfth century.
+  th: เชื่อกันว่าสะพานนี้สร้างขึ้นในศตวรรษที่ 12
+  why: "is believed to have been + ช่อง 3 รายงานเรื่องในอดีตแบบไม่ฟันธง"
+  status: draft
+- id: cefr-c1-w06-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [But for, the warning, many people, would have been, injured]
+  sentence: But for the warning, many people would have been injured.
+  th: ถ้าไม่มีคำเตือน คงมีคนบาดเจ็บจำนวนมาก
+  why: "But for + คำนาม แล้วตามด้วย would have been + ช่อง 3"
+  status: draft
+- id: cefr-c1-w06-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [It would appear, that, the problem, is more complex, than we thought]
+  sentence: It would appear that the problem is more complex than we thought.
+  th: ดูเหมือนว่าปัญหาจะซับซ้อนกว่าที่เราคิด
+  why: "It would appear that + ประโยค ใช้ระวังคำในการสรุป"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c1-w06-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While the findings, are broadly credible, the claim that, parks cause happiness, is arguably premature]
+  sentence: While the findings are broadly credible, the claim that parks cause happiness is arguably premature.
+  th: แม้ผลการศึกษาจะน่าเชื่อโดยรวม แต่ข้ออ้างว่าสวนทำให้มีความสุขอาจด่วนสรุปเกินไป
+  why: "While + ยอมรับ แล้วจึงตามด้วยข้อวิจารณ์ที่ระวังคำด้วย arguably"
+  status: draft
