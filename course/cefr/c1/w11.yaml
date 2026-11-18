@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 11 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 11
+phase: 3
+theme_th: เรียบเรียงใหม่ด้วยคำที่กำหนด
+focus_th: transformations (causative have/get · passive reporting · wish · inversion · needn't have · But for · such/so) · word formation ระดับสูง (prefix in-/un-/under-/over- · suffix -tion/-ance/-ability/-ness · คำประสม)
+can_do_th:
+  - พูดเรื่องเดียวกันได้หลายแบบโดยคงความหมาย
+  - ใช้คำในรูปที่ถูกต้องในบริบทวิชาการ
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ความหมายเดิม โครงสร้างใหม่
+    lesson:
+      rule_th: "เขียนใหม่ให้ความหมายเท่าเดิม ==เช็กสามอย่าง: เวลา ผู้กระทำ ความหมาย== ไม่เปลี่ยน แล้วเลือกโครงสร้างใหม่ เช่น have something done · ++is said to be++ · wish + had"
+      examples:
+        - {en: "A mechanic repaired my car. → I <k>had my car repaired</k>.", th: "ให้คนอื่นทำ"}
+        - {en: "People say it's old. → It <k>is said to be</k> old.", th: "รายงานแบบไม่ระบุคนพูด"}
+        - {en: "I regret not learning. → I <k>wish I had learned</k>.", th: "==เสียดายอดีต=="}
+        - {en: "I've never seen ... → <k>Never have I seen</k> ...", th: "คงเวลาเดิม สลับลำดับ"}
+      signals:
+        - {label_th: "คู่ที่ออกบ่อย", words: ["regret → wish + had", "It's a pity → wish + อดีต", "If ... hadn't → But for", "so + adj → such a + adj + noun", "wasn't necessary → needn't have"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่แยก ทำเอง กับ ให้คนอื่นทำ คนจึงเขียน ~~I repaired my car~~ ทั้งที่ช่างเป็นคนซ่อม ฟังเหมือนซ่อมเอง"
+        wrong: ["I cut my hair yesterday. (ที่ร้าน)", "I wish I learned to swim when I was young.", "It was so a boring film."]
+        right: ["I had my hair cut yesterday.", "I wish I had learned to swim when I was young.", "It was such a boring film."]
+      notes:
+        - {kind: tip, th: "เขียนเสร็จแล้ว ==อ่านทั้งสองประโยคเทียบกัน== ถ้าเวลาหรือคนทำเปลี่ยน แปลว่าผิด"}
+        - {kind: warn, th: "inversion ต้องคงเวลาเดิม ประโยค present perfect สลับเป็น have I ไม่ใช่ did I"}
+    check: [cefr-c1-w11-001, cefr-c1-w11-002]
+    practice: [cefr-c1-w11-003, cefr-c1-w11-004, cefr-c1-w11-005, cefr-c1-w11-006, cefr-c1-w11-007, cefr-c1-w11-008, cefr-c1-w11-009, cefr-c1-w11-010, cefr-c1-w11-011, cefr-c1-w11-012]
+    use:
+      prompt_th: เขียนประโยคเกี่ยวกับตัวคุณ 2 ประโยค แล้วเขียนใหม่แต่ละประโยคด้วยโครงสร้างอื่นโดยความหมายเท่าเดิม
+      frame: "1) ____. → ____. 2) ____. → ____."
+      model: "1) A friend designed my logo. → I had my logo designed by a friend. 2) I regret not saving money in my twenties. → I wish I had saved money in my twenties."
+    classroom: {en: "To put it another way, we need more time.", th: "พูดอีกแบบคือ เราต้องการเวลาเพิ่ม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์คุณลักษณะของผู้เรียนรู้ 12 คำ
+    lesson:
+      rule_th: "ศัพท์ชุดนี้ใช้ชมคนและงานในบริบทวิชาการ จำคำที่มาคู่ ==adept at · proficient in== · a compelling case · rigorous testing และ ++impartial = เป็นกลาง++ ไม่ใช่ ไม่สมบูรณ์"
+      examples:
+        - {en: "She is <k>proficient in</k> Japanese.", th: "ชำนาญภาษา"}
+        - {en: "He's <k>adept at</k> calming customers.", th: "==ทำได้เก่ง=="}
+        - {en: "a <k>compelling</k> argument", th: "โน้มน้าวหนักแน่น"}
+        - {en: "A judge must be <k>impartial</k>.", th: "เป็นกลาง"}
+      words:
+        - {w: resilient, pos: adj., th: ฟื้นตัวเร็ว ทนทาน, ex: "Children are often more resilient than we think."}
+        - {w: proficient, pos: adj., th: ชำนาญ, ex: "Applicants must be proficient in Excel."}
+        - {w: adept, pos: adj., th: เก่ง คล่อง, ex: "She is adept at solving problems."}
+        - {w: insightful, pos: adj., th: มองลึก เฉียบแหลม, ex: "Thank you for your insightful comments."}
+        - {w: inquisitive, pos: adj., th: ช่างสงสัย อยากรู้, ex: "He has an inquisitive mind."}
+        - {w: commendable, pos: adj., th: น่ายกย่อง, ex: "Their effort was commendable."}
+        - {w: rigorous, pos: adj., th: เข้มงวด ละเอียดรอบคอบ, ex: "The research was rigorous."}
+        - {w: comprehensive, pos: adj., th: ครอบคลุมครบถ้วน, ex: "a comprehensive guide to Thai cooking"}
+        - {w: compelling, pos: adj., th: น่าเชื่อ ดึงดูดใจ, ex: "She told a compelling story."}
+        - {w: authentic, pos: adj., th: แท้ ของจริง, ex: "The museum displays authentic costumes."}
+        - {w: impartial, pos: adj., th: เป็นกลาง, ex: "We need impartial advice."}
+        - {w: intricate, pos: adj., th: ซับซ้อนละเอียด, ex: "an intricate wood carving"}
+      thai_trap:
+        intro_th: "คนไทยแปลตรงว่า ~~impartial = ไม่สมบูรณ์~~ เพราะเห็น im- และใช้ ~~good in~~ แทน adept at"
+        wrong: ["The report is impartial because the last chapter is missing.", "She is adept in negotiating."]
+        right: ["The report is incomplete because the last chapter is missing.", "She is adept at negotiating."]
+      notes:
+        - {kind: pin, th: "==adept at + -ing== · proficient in + ทักษะ"}
+        - {kind: use, th: "ตอบในที่ประชุมว่า That's a very insightful point. ชมได้อย่างจริงใจ"}
+    check: [cefr-c1-w11-013, cefr-c1-w11-014]
+    practice: [cefr-c1-w11-015, cefr-c1-w11-016, cefr-c1-w11-017, cefr-c1-w11-018, cefr-c1-w11-019, cefr-c1-w11-020, cefr-c1-w11-021, cefr-c1-w11-022, cefr-c1-w11-023, cefr-c1-w11-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำตัวเองในใบสมัครงานหรือโปรไฟล์ออนไลน์ ใช้ศัพท์ของวันนี้
+      frame: "I am proficient in ____ and adept at ____. Colleagues describe me as ____."
+      model: "I am proficient in data analysis and adept at explaining numbers to non-experts. Colleagues describe me as resilient and inquisitive."
+    classroom: {en: "That's a really insightful question.", th: "เป็นคำถามที่ลึกซึ้งมาก"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ตระกูลคำระดับสูง
+    lesson:
+      rule_th: "ดู ==ตำแหน่งในประโยค== ก่อนเลือกรูป หลัง the/his เป็นนาม · ขยายนามเป็นคุณศัพท์ · ขยายกริยาหรือคุณศัพท์เป็นวิเศษณ์ แล้วจึงดู ++คำนำหน้าปฏิเสธ++ (un- in- im- ir- dis-)"
+      examples:
+        - {en: "The <k>completion</k> of the road", th: "หลัง The ... of ต้องเป็นนาม"}
+        - {en: "<k>unbelievably</k> slow", th: "ขยายคุณศัพท์ใช้วิเศษณ์"}
+        - {en: "<k>incomprehensible</k> instructions", th: "==ปฏิเสธใช้ in-=="}
+        - {en: "<k>environmentally</k> friendly", th: "คำประสม วิเศษณ์ + คุณศัพท์"}
+      signals:
+        - {label_th: "ปลายคำบอกชนิด", words: ["-tion/-ance/-ity/-ness → นาม", "-ive/-able/-ous/-al → คุณศัพท์", "-ly → วิเศษณ์", "-ise/-en → กริยา"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่เปลี่ยนรูปคำตามหน้าที่ คนจึงใช้ ~~คุณศัพท์ขยายคุณศัพท์~~ และเดาคำปฏิเสธผิดตัว"
+        wrong: ["The service was unbelievable slow.", "The rules are uncomprehensible.", "His resist to change was a problem."]
+        right: ["The service was unbelievably slow.", "The rules are incomprehensible.", "His resistance to change was a problem."]
+      notes:
+        - {kind: tip, th: "ถามสองคำถาม ==ช่องนี้ต้องการชนิดคำอะไร== และความหมายบวกหรือลบ"}
+        - {kind: warn, th: "คำปฏิเสธแต่ละคำมีคำนำหน้าตายตัว จำเป็นคำ ๆ ไป (unable · inability)"}
+    check: [cefr-c1-w11-025, cefr-c1-w11-026]
+    practice: [cefr-c1-w11-027, cefr-c1-w11-028, cefr-c1-w11-029, cefr-c1-w11-030, cefr-c1-w11-031, cefr-c1-w11-032, cefr-c1-w11-033, cefr-c1-w11-034]
+    use:
+      prompt_th: เลือกคำ 1 คำ (เช่น rely · able · decide) แล้วเขียน 2 ประโยคที่ใช้คำในตระกูลนั้นต่างชนิดกัน
+      frame: "____ (noun) ____. ____ (adjective) ____."
+      model: "Her reliability is the reason we promoted her. Unfortunately, the bus service here is completely unreliable."
+    classroom: {en: "Your attention to detail is impressive.", th: "ความละเอียดของคุณน่าประทับใจมาก"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความและฟังบรรยายที่ต้องจดประเด็น
+    lesson:
+      rule_th: "บทความระดับนี้ ==แก้ความเชื่อผิด ๆ ด้วยหลักฐาน== ดูคำอย่าง wrongly · Research paints a more encouraging picture ส่วนการฟังบรรยาย ++จดเป็นรายการตามที่ผู้พูดนับ++ (First · Second · And third)"
+      examples:
+        - {en: "others believe, <k>wrongly</k>, that ...", th: "ผู้เขียนบอกว่าความเชื่อนี้ผิด"}
+        - {en: "<k>Research paints a more encouraging picture.</k>", th: "==กำลังจะแย้งด้วยหลักฐาน=="}
+        - {en: "<k>Let me correct something</k> from last week.", th: "ข้อมูลใหม่แทนข้อมูลเดิม"}
+      thai_trap:
+        intro_th: "ในการฟัง คนจด ~~ตัวเลขแรกที่ได้ยิน~~ แล้วพลาดตัวเลขที่ถูกแก้ทีหลัง"
+        wrong: ["จดว่าโครงการใช้งบสองล้านบาท"]
+        right: ["ผู้บรรยายแก้ว่าความจริงคือสิบสองล้านบาท"]
+      notes:
+        - {kind: tip, th: "ได้ยิน ==in fact · actually · let me correct== ให้ขีดฆ่าข้อมูลเดิมแล้วจดใหม่"}
+        - {kind: warn, th: "this is the one most often ignored บอกจุดเน้นของผู้บรรยาย มักถูกถาม"}
+    check: [cefr-c1-w11-036, cefr-c1-w11-037]
+    practice: [cefr-c1-w11-035, cefr-c1-w11-038, cefr-c1-w11-039, cefr-c1-w11-040, cefr-c1-w11-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกความเชื่อผิด ๆ เรื่องการเรียนของผู้ใหญ่ และสิ่งที่บทความบอกแทน
+      frame: "Many people believe, wrongly, that ____. In fact, ____."
+      model: "Many people believe, wrongly, that you can't learn a language after fifty. In fact, older learners are often better at connecting new knowledge to what they already know."
+    classroom: {en: "Let me correct something I said earlier.", th: "ขอแก้สิ่งที่พูดไปเมื่อกี้หน่อย"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด อภิปรายหัวข้อนามธรรมและตอบคำถามต่อเนื่อง 3 นาที
+    lab:
+      mode: speak
+      prompt_th: พูด 3 นาทีตอบคำถามหลัก "Is it ever too late to learn something new?" แล้วตอบคำถามต่อเนื่องอีก 2 ข้อทีละข้อ (1) What makes adults stop learning? (2) Who should pay for adult education? ใช้การเรียบเรียงใหม่เพื่ออธิบายความคิดให้ชัดขึ้น
+      frame:
+        - "My answer, put simply, is ____."
+        - "To put it another way, ____."
+        - "What stops many adults is not so much ____ as ____."
+        - "As for who should pay, I'd argue that ____, provided that ____."
+        - "If I could go back, I wish I had ____."
+      model_pass: "My answer, put simply, is no, it's never too late. My father started learning English at sixty and now he talks to tourists every week. To put it another way, age changes how we learn, not whether we can learn. What stops many adults is not so much ability as fear of looking silly. As for who should pay, I'd argue that employers should pay part of it, provided that the course is useful for the job. If I could go back, I wish I had started learning a second language much earlier, but I'm glad I'm doing it now."
+      model_good: "My answer, put simply, is that it's almost never too late, although what we learn and how we learn it certainly change with age. My father, for instance, took up English at sixty-two, and within two years he was proficient enough to guide visitors around his village temple. To put it another way, age seems to affect the speed of learning far less than it affects our confidence. What stops many adults is not so much a lack of ability as a fear of being judged, which is why patient, impartial teachers matter so much. As for who should pay, I'd argue that the cost should be shared between individuals, employers and the state, provided that courses lead to skills people can actually use. If I could go back, I wish I had been less afraid of making mistakes in my twenties; I'd have learned a great deal more."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - จดคำสำคัญสำหรับคำถามหลักและคำถามต่อเนื่องทั้งสองข้อ
+        - อัดเสียงตอบทีละคำถาม รวมประมาณ 3 นาที (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดใหม่โดยให้คนอื่นอ่านคำถามต่อเนื่องให้ฟัง (หรือเปิดแบบสุ่มลำดับ)
+      checklist_th:
+        - ตอบตรงคำถามในประโยคแรกทุกครั้ง แล้วจึงขยาย
+        - ใช้การเรียบเรียงใหม่อย่างน้อย 2 ครั้ง (To put it another way · In other words · wish + had)
+        - ใช้ศัพท์ของสัปดาห์อย่างน้อย 3 คำ (proficient · resilient · impartial · insightful)
+        - ตอบคำถามต่อเนื่องได้โดยไม่หยุดนานเกิน 3 วินาที รวมประมาณ 3 นาที
+    practice: [cefr-c1-w11-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 11
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [8, 9, 10, 11], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

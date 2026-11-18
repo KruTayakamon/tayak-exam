@@ -1,0 +1,582 @@
+# คอร์ส c1 · สัปดาห์ 12 · ซ้อมใหญ่ · ทบทวน 1 (โครงสร้างเน้น เงื่อนไข ภาษาทางการ) · ทบทวน 2 (การเชื่อมความ คำที่ใช้คู่กัน น้ำเสียง) + กลยุทธ์บริหารเวลา
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ
+# ---------- วันที่ 1 · ทบทวนปนกัน 1 ----------
+- id: cefr-c1-w12-001
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 1
+  stem: Only after the contract was signed ____ the full cost.
+  choices:
+    - {t: did we discover, why: "Only after ... สลับในประโยคหลัก ++did we discover++"}
+    - {t: we discovered, why: "หลังวลี Only after ต้องสลับลำดับ"}
+    - {t: we did discover, why: "ไม่สลับลำดับในประโยคหลัก"}
+    - {t: had we discover, why: "หลัง had ต้องเป็นช่อง 3"}
+  explain: "ทบทวน: Only after ... ==กริยาช่วย + ประธาน== ในประโยคหลัก"
+  status: draft
+- id: cefr-c1-w12-002
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 1
+  stem: ____ you require further assistance, please contact our office.
+  choices:
+    - {t: Should, why: "เงื่อนไขทางการ ++Should you require++"}
+    - {t: Had, why: "Had you require ผิดรูป และเป็นอดีต"}
+    - {t: Were, why: "Were you require ผิดรูป"}
+    - {t: Would, why: "Would ไม่ขึ้นต้นเงื่อนไข"}
+  explain: "ทบทวน: ==Should + ประธาน + กริยารูปเดิม== = If ... (ทางการ)"
+  status: draft
+- id: cefr-c1-w12-003
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: What really matters ____ how we treat our customers.
+  choices:
+    - {t: is, why: "What-clause เป็นประธานเอกพจน์ ใช้ ++is++"}
+    - {t: are, why: "What really matters เป็นเอกพจน์"}
+    - {t: it is, why: "มี it ซ้ำประธาน"}
+    - {t: that is, why: "that เกินมา ทำให้ประโยคผิดรูป"}
+  explain: "ทบทวน cleft: ==What + ... + is + สิ่งที่เน้น=="
+  status: draft
+- id: cefr-c1-w12-004
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: The board recommended that the director ____ immediately.
+  choices:
+    - {t: resign, why: "recommend that + ++กริยารูปเดิม++ (subjunctive)"}
+    - {t: resigns, why: "subjunctive ไม่เติม s"}
+    - {t: resigned, why: "subjunctive ไม่เปลี่ยนเป็นอดีต"}
+    - {t: to resign, why: "หลัง that ต้องเป็นประโยค"}
+  explain: "ทบทวน: recommend that + ==ประธาน + กริยารูปเดิม=="
+  status: draft
+- id: cefr-c1-w12-005
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: If she had taken the job in Singapore, she ____ there now.
+  choices:
+    - {t: would be living, why: "mixed: อดีตไม่จริง → ผลตอนนี้ ++would be + -ing++"}
+    - {t: would have lived, why: "now บอกว่าเป็นผลตอนนี้ ไม่ใช่อดีต"}
+    - {t: will live, why: "will ไม่ใช้ในเงื่อนไขสมมติ"}
+    - {t: had lived, why: "ส่วนผลต้องมี would"}
+  explain: "ทบทวน mixed: ==If + had + ช่อง 3, would + กริยา (now)=="
+  status: draft
+- id: cefr-c1-w12-006
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 1
+  stem: It was the noise, not the heat, ____ kept me awake.
+  choices:
+    - {t: that, why: "It was + สิ่งของ + ++that++ + กริยา"}
+    - {t: what, why: "what ไม่ใช้หลัง It was + คำนาม"}
+    - {t: who, why: "who ใช้กับคน จึงใช้ไม่ได้"}
+    - {t: it, why: "it ซ้ำประธาน จึงใช้ไม่ได้"}
+  explain: "ทบทวน cleft: ==It was X that ...=="
+  status: draft
+- id: cefr-c1-w12-007
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: The cancellation ____ to have been caused by a computer error.
+  choices:
+    - {t: is believed, why: "passive reporting ++is believed to have been++"}
+    - {t: believes, why: "การยกเลิกเชื่อเองไม่ได้"}
+    - {t: is believing, why: "รูป -ing ความหมายผิด"}
+    - {t: has believed, why: "has believed เป็นรูปกระทำ"}
+  explain: "ทบทวน hedging: ==is believed== / thought / said to have been + ช่อง 3"
+  status: draft
+- id: cefr-c1-w12-008
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: ____ it not for the volunteers, the festival could not take place.
+  choices:
+    - {t: Were, why: "สมมติปัจจุบัน ++Were it not for++"}
+    - {t: Had, why: "Had it not for ขาด been"}
+    - {t: Should, why: "Should it not for ผิดรูป"}
+    - {t: If, why: "If it not for ขาดกริยา"}
+  explain: "ทบทวน: ==Were it not for + คำนาม== (ปัจจุบัน)"
+  status: draft
+- id: cefr-c1-w12-009
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 3
+  stem: Which sentence is the most formal?
+  choices:
+    - {t: "It is essential that all staff be informed before the change.", why: "subjunctive + passive ++ทางการที่สุด++"}
+    - {t: "Everyone needs to know before we change things.", why: "เป็นภาษาพูดทั่วไป"}
+    - {t: "We've got to tell everyone first, OK?", why: "got to และ OK เป็นภาษาพูด"}
+    - {t: "Let's make sure people find out about it first.", why: "find out เป็นกริยาวลีแบบพูด"}
+  explain: "ทางการ ==subjunctive · passive · nominalisation=="
+  status: draft
+- id: cefr-c1-w12-010
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: So successful ____ that it was extended for another month.
+  choices:
+    - {t: was the exhibition, why: "So + คุณศัพท์ขึ้นต้น สลับ ++was the exhibition++"}
+    - {t: the exhibition was, why: "So + คุณศัพท์ขึ้นต้นต้องสลับลำดับ"}
+    - {t: did the exhibition, why: "successful เป็นคุณศัพท์ ต้องใช้ be"}
+    - {t: had the exhibition, why: "had ไม่คู่กับ successful"}
+  explain: "ทบทวน: ==So + adj + be + ประธาน + that=="
+  status: draft
+- id: cefr-c1-w12-011
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 3
+  stem: I ____ booked a hotel. My cousin let us stay at her house for free.
+  choices:
+    - {t: needn't have, why: "จองไปแล้วแต่ไม่จำเป็น ++needn't have + ช่อง 3++"}
+    - {t: mustn't have, why: "mustn't have ไม่ได้บอกความไม่จำเป็น"}
+    - {t: didn't need, why: "didn't need ต้องตามด้วย to และไม่ตามด้วย booked"}
+    - {t: can't have, why: "can't have เป็นการคาดเดา ไม่ใช่ความจำเป็น"}
+  explain: "ทบทวน: ทำไปแล้วโดยไม่จำเป็น ==needn't have + ช่อง 3=="
+  status: draft
+- id: cefr-c1-w12-012
+  kind: type
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  stem: "S______ have I seen such a well-organised event. (น้อยครั้ง คำปฏิเสธขึ้นต้น)"
+  answer: seldom
+  accept: [seldom, Seldom, rarely, Rarely]
+  why: "Seldom/Rarely ขึ้นต้นแล้วสลับ have I เพื่อเน้น"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ภาพรวมระดับ C1 ----------
+- id: cefr-c1-w12-013
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 1
+  stem: The company offers a bonus as an ____ to meet sales targets.
+  choices:
+    - {t: incentive, why: "สิ่งจูงใจ ใช้ ++incentive to++"}
+    - {t: stigma, why: "stigma คือตราบาป"}
+    - {t: paucity, why: "paucity คือความขาดแคลน"}
+    - {t: repercussion, why: "repercussion คือผลกระทบที่ตามมา มักไม่ดี"}
+  explain: "incentive = ==สิ่งจูงใจ== (an incentive to do something)"
+  status: draft
+- id: cefr-c1-w12-014
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 1
+  stem: After a long debate, the committee finally reached a ____.
+  choices:
+    - {t: consensus, why: "มติร่วมกัน ใช้ ++reach a consensus++"}
+    - {t: plethora, why: "plethora คือจำนวนมากเกินพอ"}
+    - {t: propensity, why: "propensity คือแนวโน้มนิสัย"}
+    - {t: stigma, why: "stigma คือตราบาป"}
+  explain: "reach a consensus = ==ได้ข้อตกลงร่วมกัน=="
+  status: draft
+- id: cefr-c1-w12-015
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: The new teacher quickly built a good ____ with her students.
+  choices:
+    - {t: rapport, why: "ความสัมพันธ์ที่ดี เข้าใจกัน ใช้ ++rapport with++"}
+    - {t: affinity, why: "affinity with/for คือความรู้สึกผูกพันโดยธรรมชาติ ไม่ได้สร้างขึ้นเร็ว ๆ ด้วย build"}
+    - {t: consensus, why: "consensus คือมติร่วม"}
+    - {t: acumen, why: "acumen คือความเฉียบแหลมทางธุรกิจ"}
+  explain: "build / establish a rapport with = ==สร้างความสัมพันธ์ที่ดี=="
+  status: draft
+- id: cefr-c1-w12-016
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: The decision to close the factory had serious ____ for the whole town.
+  choices:
+    - {t: repercussions, why: "ผลกระทบที่ตามมา (มักไม่ดี) ใช้ ++repercussions for++"}
+    - {t: incentives, why: "incentives คือสิ่งจูงใจ ไม่ใช่ผลเสีย"}
+    - {t: affinities, why: "affinities คือความผูกพัน"}
+    - {t: consensuses, why: "consensus ไม่ใช่ผลกระทบ"}
+  explain: "repercussions = ==ผลกระทบที่ตามมา== (มักเป็นทางลบ)"
+  status: draft
+- id: cefr-c1-w12-017
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: Many people still avoid seeing a therapist because of the ____ attached to mental illness.
+  choices:
+    - {t: stigma, why: "ตราบาปทางสังคม ใช้ ++stigma attached to++"}
+    - {t: rapport, why: "rapport คือความสัมพันธ์ดี"}
+    - {t: impetus, why: "impetus คือแรงผลักดัน"}
+    - {t: acumen, why: "acumen คือความเฉียบแหลม"}
+  explain: "the stigma attached to = ==ตราบาปที่ติดอยู่กับ=="
+  status: draft
+- id: cefr-c1-w12-018
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: The floods provided the ____ for a new national water policy.
+  choices:
+    - {t: impetus, why: "แรงผลักดันให้เกิด ใช้ ++provide the impetus for++"}
+    - {t: stigma, why: "stigma ไม่ได้ผลักดันให้เกิดนโยบาย"}
+    - {t: paucity, why: "paucity คือความขาดแคลน"}
+    - {t: rapport, why: "rapport คือความสัมพันธ์ดี"}
+  explain: "impetus = ==แรงกระตุ้น แรงผลักดัน=="
+  status: draft
+- id: cefr-c1-w12-019
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: With great ____, she bought land near the station years before the new line was built.
+  choices:
+    - {t: foresight, why: "มองการณ์ไกล ใช้ ++foresight++"}
+    - {t: stigma, why: "stigma ไม่ได้บอกการมองการณ์ไกล"}
+    - {t: plethora, why: "plethora คือจำนวนมากเกิน"}
+    - {t: repercussion, why: "repercussion คือผลกระทบ"}
+  explain: "foresight = ==การมองการณ์ไกล=="
+  status: draft
+- id: cefr-c1-w12-020
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: Her business ____ helped the small shop grow into a national brand.
+  choices:
+    - {t: acumen, why: "ความเฉียบแหลมทางธุรกิจ ใช้ ++business acumen++"}
+    - {t: affinity, why: "business affinity ไม่ใช่คู่คำที่ใช้"}
+    - {t: paucity, why: "paucity คือความขาดแคลน ความหมายกลับ"}
+    - {t: stigma, why: "stigma คือตราบาป"}
+  explain: "business acumen = ==หัวการค้า ความเฉียบแหลมทางธุรกิจ=="
+  status: draft
+- id: cefr-c1-w12-021
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: He has a ____ to exaggerate when he tells stories.
+  choices:
+    - {t: propensity, why: "แนวโน้มนิสัยที่จะทำ ใช้ ++a propensity to/for++"}
+    - {t: consensus, why: "consensus คือมติร่วม"}
+    - {t: foresight, why: "foresight คือการมองการณ์ไกล"}
+    - {t: rapport, why: "rapport คือความสัมพันธ์ดี"}
+  explain: "a propensity to do = ==มีแนวโน้มนิสัยที่จะ=="
+  status: draft
+- id: cefr-c1-w12-022
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: Growing up by the sea gave her a natural ____ for water sports.
+  choices:
+    - {t: affinity, why: "ความชอบความผูกพันโดยธรรมชาติ ใช้ ++affinity for++"}
+    - {t: stigma, why: "stigma ไม่ใช่ความชอบ"}
+    - {t: repercussion, why: "repercussion คือผลกระทบ"}
+    - {t: paucity, why: "paucity คือความขาดแคลน"}
+  explain: "a natural affinity for = ==ถูกโฉลกกับ ชอบโดยธรรมชาติ=="
+  status: draft
+- id: cefr-c1-w12-023
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 3
+  stem: There is a ____ of reliable data on rural incomes, so any estimate is uncertain.
+  choices:
+    - {t: paucity, why: "มีน้อยมาก ขาดแคลน ใช้ ++a paucity of++"}
+    - {t: plethora, why: "plethora แปลว่ามากเกินพอ ความหมายกลับ"}
+    - {t: consensus, why: "a consensus of data ไม่มีความหมายนี้"}
+    - {t: propensity, why: "propensity ไม่ใช้กับข้อมูล"}
+  explain: "a paucity of = ==ขาดแคลน== ตรงข้าม a plethora of"
+  status: draft
+- id: cefr-c1-w12-024
+  kind: type
+  skill: vo
+  topic: c1-overview
+  level: 2
+  stem: "The app offers a p_______ of features, but most people use only three. (จำนวนมากเกินพอ)"
+  answer: plethora
+  accept: [plethora]
+  why: "a plethora of = มีมากเกินความจำเป็น"
+  status: draft
+# ---------- วันที่ 3 · ทบทวนปนกัน 2 ----------
+- id: cefr-c1-w12-025
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 1
+  stem: The plan worked, ____ more slowly than we had hoped.
+  choices:
+    - {t: albeit, why: "แม้จะ + วลีสั้น ใช้ ++albeit++"}
+    - {t: although, why: "although ต้องตามด้วยประโยคเต็ม"}
+    - {t: whereby, why: "whereby ไม่ได้บอกความขัดแย้ง"}
+    - {t: despite, why: "despite ไม่ตามด้วยวลีแบบนี้"}
+  explain: "ทบทวน: ==albeit + วลีสั้น=="
+  status: draft
+- id: cefr-c1-w12-026
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 1
+  stem: The two candidates were very different. ____ was experienced, while the latter was full of new ideas.
+  choices:
+    - {t: The former, why: "อ้างถึงคนแรก ใช้ ++The former++ คู่กับ the latter"}
+    - {t: The first of the latter, why: "ซ้อนคำอ้างอิงจนไม่มีความหมาย"}
+    - {t: Former, why: "ต้องมี The นำหน้า"}
+    - {t: The formal, why: "formal แปลว่าทางการ สะกดคล้าย"}
+  explain: "ทบทวน: ==the former · the latter=="
+  status: draft
+- id: cefr-c1-w12-027
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  stem: We must ____ steps to reduce waste in the office.
+  choices:
+    - {t: take, why: "คู่คำตายตัว ++take steps++"}
+    - {t: make, why: "make steps ไม่ใช่คู่คำที่ใช้"}
+    - {t: do, why: "do steps ไม่ใช่คู่คำที่ใช้"}
+    - {t: give, why: "give steps ไม่ใช่คู่คำที่ใช้"}
+  explain: "ทบทวน collocation: ==take steps / take action / take measures=="
+  status: draft
+- id: cefr-c1-w12-028
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  stem: Which reply is the most tactful way to decline an invitation?
+  choices:
+    - {t: "I'd love to, but I'm afraid I've already got plans that evening.", why: "ขอบคุณ + ขอโทษ + เหตุผล ++สุภาพที่สุด++"}
+    - {t: "No, I don't want to come.", why: "ปฏิเสธห้วน ๆ จึงใช้ไม่ได้"}
+    - {t: "I can't. I'm busy, obviously.", why: "obviously ทำให้ฟังเหมือนดูถูก"}
+    - {t: "Why would I come to that?", why: "ฟังเหมือนดูแคลนงาน"}
+  explain: "ทบทวน tone: ==I'd love to, but I'm afraid ...=="
+  status: draft
+- id: cefr-c1-w12-029
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  stem: The project was a success ____ it brought the community together.
+  choices:
+    - {t: insofar as, why: "สำเร็จในแง่ที่... ใช้ ++insofar as++"}
+    - {t: albeit, why: "albeit ไม่ตามด้วยประโยคเต็ม"}
+    - {t: notwithstanding, why: "notwithstanding ตามด้วยคำนาม"}
+    - {t: whereby, why: "whereby ต้องตามหลังคำนามที่เป็นวิธีการ"}
+  explain: "ทบทวน: ==insofar as = ในแง่ที่== (จำกัดขอบเขต)"
+  status: draft
+- id: cefr-c1-w12-030
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  stem: The company has been criticised ____ its poor treatment of workers.
+  choices:
+    - {t: for, why: "บุพบทตายตัว ++criticise for++"}
+    - {t: about, why: "criticise about ไม่ใช่บุพบทที่ใช้"}
+    - {t: of, why: "criticise of ไม่ใช่บุพบทที่ใช้"}
+    - {t: with, why: "criticise with ไม่ใช่บุพบทที่ใช้"}
+  explain: "ทบทวน: ==criticise / praise / blame + for=="
+  status: draft
+- id: cefr-c1-w12-031
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 3
+  stem: "\"The meeting was, shall we say, not entirely productive.\" What does the speaker mean?"
+  choices:
+    - {t: the meeting achieved very little, why: "understatement + shall we say ++หมายถึงแย่มาก++"}
+    - {t: the meeting was very successful, why: "not entirely productive บอกว่าไม่ได้ผล"}
+    - {t: the speaker did not attend, why: "ผู้พูดบรรยายการประชุม จึงน่าจะเข้าร่วม"}
+    - {t: the meeting was too short, why: "ไม่ได้พูดเรื่องความยาว"}
+  explain: "ทบทวน tone: ==understatement มักหมายถึงเรื่องหนัก=="
+  status: draft
+- id: cefr-c1-w12-032
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  stem: Sales rose sharply in June. ____, the company hired twenty new staff.
+  choices:
+    - {t: As a result, why: "บอกผลที่ตามมา ใช้ ++As a result++"}
+    - {t: Nevertheless, why: "Nevertheless บอกความขัดแย้ง ไม่ใช่ผล"}
+    - {t: By contrast, why: "By contrast ใช้เทียบความต่าง"}
+    - {t: Albeit, why: "Albeit ไม่ขึ้นต้นประโยค"}
+  explain: "ทบทวน: ผล ==As a result / Consequently=="
+  status: draft
+- id: cefr-c1-w12-033
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 3
+  stem: Which sentence uses the most natural collocation?
+  choices:
+    - {t: "The new policy has had a profound impact on rural families.", why: "คู่คำ ++have a profound impact on++"}
+    - {t: "The new policy has made a deep hit on rural families.", why: "make a deep hit ไม่ใช่คู่คำที่ใช้"}
+    - {t: "The new policy has done a big effect to rural families.", why: "do an effect to ผิดทั้งกริยาและบุพบท"}
+    - {t: "The new policy has given a strong influence for rural families.", why: "give influence for ไม่ใช่คู่คำที่ใช้"}
+  explain: "ทบทวน: ==have an impact/effect/influence on=="
+  status: draft
+- id: cefr-c1-w12-034
+  kind: cloze
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  text: |
+    (1) ____ the delays, the new library has proved extremely popular. It is used by students and retired people alike; (2) ____ come mainly in the evenings, the latter during the day. The council now plans to (3) ____ steps to extend its opening hours.
+  questions:
+    - choices:
+        - {t: Notwithstanding, why: "แม้จะมี + คำนาม Notwithstanding the delays"}
+        - {t: Albeit, why: "Albeit ไม่ขึ้นต้นประโยคแบบนี้"}
+        - {t: Although, why: "Although ต้องตามด้วยประโยค"}
+        - {t: Whereby, why: "Whereby ไม่ได้บอกความขัดแย้ง"}
+    - choices:
+        - {t: the former, why: "อ้างถึง students คู่กับ the latter"}
+        - {t: the formal, why: "formal แปลว่าทางการ สะกดคล้ายแต่ผิด"}
+        - {t: the first ones of them, why: "ฟังยืดยาวและไม่คู่กับ the latter ในภาษาเขียน"}
+        - {t: such, why: "such ไม่ใช้ในตำแหน่งประธานแบบนี้"}
+    - choices:
+        - {t: take, why: "คู่คำ take steps"}
+        - {t: make, why: "make steps ไม่ใช่คู่คำที่ใช้"}
+        - {t: do, why: "do steps ไม่ใช่คู่คำที่ใช้"}
+        - {t: put, why: "put steps ไม่ใช่คู่คำที่ใช้"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความยาวและฟังปนกัน ----------
+- id: cefr-c1-w12-035
+  kind: read
+  skill: rd
+  topic: long-analytical
+  level: 2
+  title: "The Hidden Cost of Convenience"
+  passage: |
+    Few inventions have changed daily life as quickly as food delivery apps. In many Asian cities, a meal can now arrive within thirty minutes of a few taps on a phone. For busy workers, the appeal is obvious. Yet the speed and ease that make these services so attractive also carry costs that are rarely visible to the customer.
+
+    The most obvious is waste. A single delivered meal often comes with several plastic containers, a bag and cutlery, much of which is used once and thrown away. Some platforms now ask customers whether they want cutlery, a small change that, according to one company, reduced plastic use by a third. Such measures are welcome, albeit modest compared with the scale of the problem.
+
+    Less visible are the effects on workers. Delivery riders are usually classified as independent contractors rather than employees, an arrangement whereby companies avoid paying for health insurance or sick leave. Riders earn more the faster they deliver, which creates a strong incentive to take risks on crowded roads. The repercussions of this system fall almost entirely on the riders themselves.
+
+    Finally, there are effects on neighbourhoods. Restaurants pay commission of up to thirty per cent on each order, and some small businesses report that they now earn less despite selling more. Much as customers enjoy the choice, the long-term risk is a city with fewer independent restaurants and a handful of dominant platforms.
+
+    None of this means that delivery apps should be abandoned. What it does suggest is that their true cost should be shared more fairly, between companies, customers and the governments that regulate them, rather than borne by riders, small restaurants and the environment.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: the costs of delivery apps are unfairly distributed and should be shared, why: "their true cost should be shared more fairly"}
+        - {t: delivery apps should be banned, why: "บทบอกว่า None of this means ... should be abandoned"}
+        - {t: delivery apps have no real benefits, why: "บทยอมรับว่ามีข้อดีชัดเจนสำหรับคนทำงาน"}
+        - {t: restaurants earn more because of the apps, why: "ร้านเล็กบางร้านบอกว่าได้น้อยลง"}
+    - stem: How does the writer view the "no cutlery" option?
+      choices:
+        - {t: positive but limited in impact, why: "Such measures are welcome, albeit modest"}
+        - {t: completely useless, why: "ผู้เขียนบอกว่ายินดี welcome"}
+        - {t: the solution to the waste problem, why: "ผู้เขียนบอกว่าเล็กเมื่อเทียบกับขนาดปัญหา"}
+        - {t: too expensive for companies, why: "ไม่มีข้อมูลเรื่องค่าใช้จ่ายนี้"}
+    - stem: Why do riders take risks, according to the article?
+      choices:
+        - {t: their pay depends on how quickly they deliver, why: "Riders earn more the faster they deliver ... incentive to take risks"}
+        - {t: they have health insurance, why: "บทบอกว่าบริษัทไม่จ่ายประกันสุขภาพ"}
+        - {t: customers complain about slow food, why: "ไม่ได้พูดถึงการร้องเรียนของลูกค้า"}
+        - {t: the roads are empty, why: "บทบอกว่าถนนแออัด"}
+    - stem: What can be inferred about the writer's view of the future?
+      choices:
+        - {t: without change, a few platforms may dominate the city's food, why: "a city with fewer independent restaurants and a handful of dominant platforms"}
+        - {t: independent restaurants will grow quickly, why: "ตรงข้ามกับความเสี่ยงที่ผู้เขียนกังวล"}
+        - {t: delivery apps will disappear, why: "ไม่มีข้อมูลที่สนับสนุน"}
+        - {t: riders will soon become employees, why: "ผู้เขียนไม่ได้คาดการณ์เรื่องนี้"}
+  status: draft
+- id: cefr-c1-w12-036
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Had the train been on time, I would have made the interview. As it was, I arrived twenty minutes late, and they'd already chosen someone else."}
+  questions:
+    - stem: Why didn't the woman get the job?
+      choices:
+        - {t: she arrived too late, why: "I arrived twenty minutes late, and they'd already chosen someone else"}
+        - {t: she failed the interview, why: "เธอไม่ทันได้สัมภาษณ์"}
+        - {t: she decided not to go, why: "เธอไปแต่สาย จึงใช้ไม่ได้"}
+        - {t: the job was cancelled, why: "บริษัทเลือกคนอื่นไปแล้ว ไม่ได้ยกเลิกตำแหน่ง"}
+  status: draft
+- id: cefr-c1-w12-037
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "What did you make of the director's speech?"}
+    - {who: Woman, en: "Well, it was certainly long. I'm still not sure what she actually wants us to do differently, though."}
+  questions:
+    - stem: What does the woman think of the speech?
+      choices:
+        - {t: it was unclear, why: "I'm still not sure what she actually wants us to do"}
+        - {t: it was inspiring, why: "เธอไม่ได้ชมเนื้อหา ชมแค่ความยาวแบบประชด"}
+        - {t: it was too short, why: "เธอบอกว่ายาว จึงใช้ไม่ได้"}
+        - {t: it was very practical, why: "เธอไม่รู้ว่าต้องทำอะไรต่าง จึงไม่ใช่ใช้ได้จริง"}
+  status: draft
+- id: cefr-c1-w12-038
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Lecturer, en: "The data appear to suggest a link, but I'd urge some caution. The sample was small, and the participants were all volunteers, who may differ from the general population."}
+  questions:
+    - stem: Why does the lecturer urge caution?
+      choices:
+        - {t: the sample may not represent most people, why: "The sample was small ... volunteers, who may differ from the general population"}
+        - {t: the data were lost, why: "ไม่ได้พูดว่าข้อมูลหาย"}
+        - {t: the study was too long, why: "ไม่ได้พูดเรื่องระยะเวลา"}
+        - {t: the results proved the link, why: "ผู้บรรยายบอกว่าแค่ดูเหมือนมีความเชื่อมโยง"}
+  status: draft
+- id: cefr-c1-w12-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Rarely, has a decision, caused, so much controversy]
+  sentence: Rarely has a decision caused so much controversy.
+  th: น้อยครั้งนักที่การตัดสินใจหนึ่งจะก่อให้เกิดข้อถกเถียงมากขนาดนี้
+  why: "Rarely ขึ้นต้นแล้วสลับ has + ประธาน + ช่อง 3"
+  status: draft
+- id: cefr-c1-w12-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What concerns me most, is not, the cost, but, the impact on staff]
+  sentence: What concerns me most is not the cost but the impact on staff.
+  th: สิ่งที่ฉันกังวลที่สุดไม่ใช่ค่าใช้จ่าย แต่เป็นผลกระทบต่อพนักงาน
+  why: "What-clause + is not A but B เน้นประเด็นที่สำคัญจริง"
+  status: draft
+- id: cefr-c1-w12-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The proposal, was accepted, albeit, with some reluctance]
+  sentence: The proposal was accepted, albeit with some reluctance.
+  th: ข้อเสนอได้รับการยอมรับ แม้จะค่อนข้างไม่เต็มใจ
+  why: "ประโยคหลักแล้วจึงตามด้วย albeit + วลีสั้น"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c1-w12-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While it would be unrealistic, to ban delivery apps, it is high time, their true cost, was shared more fairly]
+  sentence: While it would be unrealistic to ban delivery apps, it is high time their true cost was shared more fairly.
+  th: แม้การห้ามแอปส่งอาหารจะไม่สมจริง แต่ถึงเวลาแล้วที่ต้นทุนแท้จริงควรแบ่งกันอย่างเป็นธรรมขึ้น
+  why: "While + ยอมรับ แล้วตามด้วย it is high time + ประธาน + อดีต"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c1 · สัปดาห์ 12 · เขียน 18 พ.ย. 2569 · draft รอบอสอนุมัติในแผงเจ้าของ · บริบทผู้ใหญ่ทั่วไป
+course: cefr/c1
+week: 12
+phase: 3
+theme_th: ซ้อมใหญ่
+focus_th: ทบทวนโครงสร้างเน้น เงื่อนไข และภาษาทางการ · ทบทวนการเชื่อมความ คำที่ใช้คู่กัน และน้ำเสียง · กลยุทธ์บริหารเวลาในชุดจับเวลา
+can_do_th:
+  - ทำชุดข้อสอบแบบจับเวลาได้ทันเวลา
+  - ใช้โครงสร้างของทั้งคอร์สปนกันได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวนปนกัน 1 · โครงสร้างเน้น เงื่อนไข ภาษาทางการ
+    lesson:
+      rule_th: "เวลาข้อปนกัน ==ดูคำแรกของประโยคก่อน== ถ้าเป็นคำปฏิเสธ Only So Should Had Were ให้คิดเรื่องการสลับลำดับทันที ถ้าเห็น recommend/insist that ให้คิด ++กริยารูปเดิม++"
+      examples:
+        - {en: "<k>Only after</k> it was signed <k>did we</k> discover ...", th: "สลับในประโยคหลัก"}
+        - {en: "<k>Should you require</k> help, ...", th: "เงื่อนไขทางการ"}
+        - {en: "<k>What really matters is</k> ...", th: "==cleft เน้นประเด็น=="}
+        - {en: "They recommended that she <k>resign</k>.", th: "subjunctive ไม่เติม s"}
+      signals:
+        - {label_th: "คำแรกที่ต้องระวัง", words: [Never, Rarely, Only after, Not until, So + adj, Should, Had, Were, What ... is, It was ... that]}
+      thai_trap:
+        intro_th: "ในชุดจับเวลา คนรีบจน ~~อ่านแค่ช่องว่างไม่อ่านต้นประโยค~~ ทั้งที่คำแรกมักเป็นตัวบอกคำตอบ"
+        wrong: ["Only after the meeting we realised the problem.", "They recommended that he resigns."]
+        right: ["Only after the meeting did we realise the problem.", "They recommended that he resign."]
+      notes:
+        - {kind: tip, th: "ข้อไวยากรณ์ใช้ไม่เกิน ==40 วินาทีต่อข้อ== ไม่แน่ใจให้ทำเครื่องหมายแล้วข้ามก่อน"}
+        - {kind: warn, th: "ตัวลวงระดับนี้มักถูกครึ่งหนึ่ง เช่น สลับลำดับแต่ผิดเวลา ตรวจให้ครบทุกจุด"}
+    check: [cefr-c1-w12-001, cefr-c1-w12-002]
+    practice: [cefr-c1-w12-003, cefr-c1-w12-004, cefr-c1-w12-005, cefr-c1-w12-006, cefr-c1-w12-007, cefr-c1-w12-008, cefr-c1-w12-009, cefr-c1-w12-010, cefr-c1-w12-011, cefr-c1-w12-012]
+    use:
+      prompt_th: เขียน 2 ประโยคทางการเกี่ยวกับการเปลี่ยนแปลงที่คุณอยากเห็นในที่ทำงาน ใช้โครงสร้างเน้นอย่างน้อย 1 แบบ
+      frame: "What our team needs most is ____. I would recommend that ____ be ____."
+      model: "What our team needs most is clearer priorities. I would recommend that each project be reviewed by the director every Monday."
+    classroom: {en: "Should you have any questions, feel free to ask.", th: "หากมีคำถาม ถามได้เลยนะ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ภาพรวมระดับ C1 12 คำ
+    lesson:
+      rule_th: "ศัพท์สัปดาห์สุดท้ายเป็นคำนามที่ใช้บ่อยในบทความระดับสูง จำเป็น ==คู่ตรงข้าม plethora กับ paucity== และวลีตายตัว ++reach a consensus++ · business acumen · build a rapport"
+      examples:
+        - {en: "a bonus as an <k>incentive</k>", th: "สิ่งจูงใจ"}
+        - {en: "They finally reached a <k>consensus</k>.", th: "มติร่วมกัน"}
+        - {en: "a <k>paucity</k> of reliable data", th: "==ขาดแคลน=="}
+        - {en: "the <k>stigma</k> attached to mental illness", th: "ตราบาปทางสังคม"}
+      words:
+        - {w: incentive, pos: n., th: สิ่งจูงใจ, ex: "Tax cuts are an incentive to invest."}
+        - {w: impetus, pos: n., th: แรงผลักดัน, ex: "The report gave new impetus to the campaign."}
+        - {w: rapport, pos: n., th: ความสัมพันธ์ที่ดี, ex: "She has a good rapport with her clients."}
+        - {w: repercussion, pos: n., th: ผลกระทบที่ตามมา, ex: "The decision had serious repercussions."}
+        - {w: stigma, pos: n., th: ตราบาป, ex: "There's still a stigma attached to divorce."}
+        - {w: consensus, pos: n., th: มติร่วม, ex: "There is a growing consensus that change is needed."}
+        - {w: foresight, pos: n., th: การมองการณ์ไกล, ex: "Thanks to her foresight, we saved money."}
+        - {w: acumen, pos: n., th: ความเฉียบแหลม, ex: "He is admired for his business acumen."}
+        - {w: propensity, pos: n., th: แนวโน้มนิสัย, ex: "She has a propensity to worry."}
+        - {w: affinity, pos: n., th: ความชอบ ความผูกพัน, ex: "I've always had an affinity for animals."}
+        - {w: plethora, pos: n., th: จำนวนมากเกินพอ, ex: "There's a plethora of apps for that."}
+        - {w: paucity, pos: n., th: ความขาดแคลน, ex: "There is a paucity of evidence."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~impact กับ repercussion~~ แทนกันตลอด แต่ repercussion มักเป็นผลเสียที่ตามมาทีหลัง และมักใช้รูปพหูพจน์"
+        wrong: ["The new park had a positive repercussion on the area.", "We made a consensus."]
+        right: ["The new park had a positive impact on the area.", "We reached a consensus."]
+      notes:
+        - {kind: pin, th: "==reach a consensus== · build a rapport · have a propensity to"}
+        - {kind: use, th: "สรุปที่ประชุมว่า I think we've reached a consensus. ฟังเป็นมืออาชีพมาก"}
+    check: [cefr-c1-w12-013, cefr-c1-w12-014]
+    practice: [cefr-c1-w12-015, cefr-c1-w12-016, cefr-c1-w12-017, cefr-c1-w12-018, cefr-c1-w12-019, cefr-c1-w12-020, cefr-c1-w12-021, cefr-c1-w12-022, cefr-c1-w12-023, cefr-c1-w12-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเรื่องนโยบายหรือการตัดสินใจครั้งใหญ่ในประเทศหรือองค์กร ใช้ศัพท์ของวันนี้อย่างน้อย 3 คำ
+      frame: "The ____ provided the impetus for ____. However, its repercussions ____."
+      model: "The floods of 2011 provided the impetus for a new water management plan. However, its repercussions for farmers living near the dams are still being felt."
+    classroom: {en: "I think we've reached a consensus.", th: "คิดว่าเราได้ข้อสรุปร่วมกันแล้วนะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวนปนกัน 2 · การเชื่อมความ คำคู่ น้ำเสียง
+    lesson:
+      rule_th: "ข้อเชื่อมความให้ดู ==สิ่งที่ตามหลังช่องว่าง== (ประโยค วลี หรือคำนาม) ข้อคำคู่ให้นึกเป็นก้อน และข้อน้ำเสียงให้ถามว่า ++ผู้พูดหมายความตามตัวอักษรไหม++ พร้อมแบ่งเวลาให้ครบทุกส่วน"
+      examples:
+        - {en: "It worked, <k>albeit</k> slowly.", th: "albeit + วลีสั้น"}
+        - {en: "We must <k>take steps</k> to ...", th: "คำคู่ตายตัว"}
+        - {en: "It was, <k>shall we say</k>, not entirely productive.", th: "==พูดเบาแต่หมายถึงแย่=="}
+        - {en: "<k>The former</k> ..., <k>the latter</k> ...", th: "อ้างถึงสองอย่าง"}
+      signals:
+        - {label_th: "แบ่งเวลาชุด 15 นาที 20 ข้อ", words: ["ไวยากรณ์และศัพท์ 6 นาที", "อ่าน 6 นาที", "ฟัง 2 นาที", "ทวน 1 นาที"]}
+      thai_trap:
+        intro_th: "คนมักใช้เวลานานกับ ~~ข้อแรก ๆ ที่ยาก~~ จนทำบทอ่านไม่ทัน ทั้งที่บทอ่านมี 4 คะแนนต่อบท"
+        wrong: ["ใช้ 3 นาทีกับข้อไวยากรณ์ข้อเดียว แล้วเดาบทอ่านทั้งบท"]
+        right: ["ข้ามข้อที่ติดไว้ก่อน ทำบทอ่านให้ครบ แล้วกลับมาทวน"]
+      notes:
+        - {kind: tip, th: "เริ่มจาก ==ส่วนที่ถนัดที่สุด== เพื่อเก็บคะแนนให้ได้ก่อนเวลาหมด"}
+        - {kind: warn, th: "อย่าเปลี่ยนคำตอบตอนทวนถ้าไม่มีเหตุผลชัด คำตอบแรกมักถูกกว่า"}
+    check: [cefr-c1-w12-025, cefr-c1-w12-026]
+    practice: [cefr-c1-w12-027, cefr-c1-w12-028, cefr-c1-w12-029, cefr-c1-w12-030, cefr-c1-w12-031, cefr-c1-w12-032, cefr-c1-w12-033, cefr-c1-w12-034]
+    use:
+      prompt_th: เขียนแผนแบ่งเวลาของคุณสำหรับชุดจับเวลา 15 นาที 2 ประโยค แล้วบอกส่วนที่จะทำก่อนพร้อมเหตุผล
+      frame: "I will start with ____ because ____. I'll spend about ____ minutes on ____, albeit ____."
+      model: "I will start with the reading because it's worth the most points. I'll spend about six minutes on it, albeit a little longer if the text is difficult."
+    classroom: {en: "Let's take steps to make sure this doesn't happen again.", th: "มาหาทางกันไม่ให้เกิดขึ้นอีกนะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความยาวและฟังปนกัน
+    lesson:
+      rule_th: "บทความยาวระดับนี้ ==ประโยคแรกและประโยคสุดท้ายของแต่ละย่อหน้า== บอกโครงทั้งหมด อ่านคำถามก่อนแล้วกลับไปหาคำตอบ ส่วนข้ออนุมานต้อง ++ชี้ประโยคหลักฐานได้++"
+      examples:
+        - {en: "<k>Yet</k> the speed and ease ... also carry costs.", th: "ประเด็นหลักของบท"}
+        - {en: "<k>Less visible</k> are the effects on workers.", th: "==ย่อหน้าใหม่ ประเด็นใหม่=="}
+        - {en: "<k>None of this means</k> ... What it does suggest is ...", th: "ข้อสรุปของผู้เขียน"}
+      thai_trap:
+        intro_th: "คำตอบที่ ~~ใช้คำเหมือนในบทเป๊ะ~~ มักเป็นตัวลวง ส่วนคำตอบที่ถูกมักถอดความด้วยคำอื่น"
+        wrong: ["เลือกคำตอบที่มีคำว่า independent restaurants เพราะเห็นในบท"]
+        right: ["เลือกคำตอบที่ถอดความว่า แพลตฟอร์มไม่กี่รายจะครองตลาด"]
+      notes:
+        - {kind: tip, th: "อ่าน ==คำถามทั้ง 4 ข้อก่อน== แล้วจึงอ่านบท จะรู้ว่าต้องหาอะไร"}
+        - {kind: warn, th: "None of this means... มักนำข้อสรุปที่ถูกถามในข้อใจความหลัก"}
+    check: [cefr-c1-w12-036, cefr-c1-w12-037]
+    practice: [cefr-c1-w12-035, cefr-c1-w12-038, cefr-c1-w12-039, cefr-c1-w12-040, cefr-c1-w12-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปบทความด้วยคำของคุณเอง โดยไม่ลอกประโยคในบท
+      frame: "The writer argues that ____. In particular, ____."
+      model: "The writer argues that delivery apps are convenient for customers but shift many hidden costs onto others. In particular, riders take dangerous risks because their income depends on speed."
+    classroom: {en: "Let me read the questions first.", th: "ขออ่านคำถามก่อนนะ"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน เรียงความเชิงโต้แย้ง 250 คำ
+    lab:
+      mode: write
+      prompt_th: งานเขียนเต็มรูป เขียนเรียงความเชิงโต้แย้งประมาณ 250 คำ หัวข้อ "Convenience has made modern life better." คุณเห็นด้วยแค่ไหน มีบทนำที่บอกจุดยืน ย่อหน้าเนื้อหา 2 ย่อหน้า ยอมรับข้อแย้ง 1 จุด และบทสรุป จับเวลา 40 นาที
+      frame:
+        - "Rarely has ____ changed as quickly as ____. In this essay, I will argue that ____."
+        - "The most obvious benefit is ____. What is less often noticed, however, is ____."
+        - "Much as ____, ____. Such ____ are rarely ____."
+        - "It could be argued that ____. That said, ____."
+        - "In conclusion, ____. It is high time ____."
+      model_pass: "Rarely has daily life changed as quickly as in the last ten years. In this essay, I will argue that convenience has made life easier but not always better. The most obvious benefit is time. We can order food, pay bills and talk to friends without leaving home. What is less often noticed, however, is the cost of this convenience. Much as I enjoy food delivery, it creates a lot of plastic waste and puts riders in danger. Such costs are rarely included in the price we pay. It could be argued that people are free to choose and that nobody is forced to use these services. That said, when everyone around us uses them, it becomes difficult to live differently. In conclusion, convenience has given us more time, but we should think more carefully about how we use it. It is high time we paid attention to the hidden costs."
+      model_good: "Rarely has everyday life been transformed as rapidly as it has in the past decade. Groceries, meals, taxis and even medical advice can now be summoned with a few taps on a screen. In this essay, I will argue that while this convenience has undeniably made life easier, it has not necessarily made it better. The most obvious benefit is time: tasks that once took an afternoon now take minutes, which is particularly valuable for working parents and older people with limited mobility. What is less often noticed, however, is who absorbs the cost of that saved time. Much as customers appreciate thirty-minute deliveries, the speed depends on riders who are given every incentive to take risks, and on packaging that is discarded within the hour. Such costs are rarely reflected in the price. It could be argued that consumers are free to choose and that these services create jobs. That said, freedom of choice means little when the alternatives, such as local shops, are gradually disappearing. In conclusion, convenience is not the problem in itself; the problem is a system that hides its true cost. It is high time we demanded that this cost be shared more fairly."
+      steps_th:
+        - อ่านโจทย์แล้ววางแผน 5 นาที (จุดยืน · เหตุผล 2 ข้อ · ข้อแย้ง 1 ข้อ)
+        - เขียนตามโครง 5 ส่วนให้ได้ 230–270 คำ ภายใน 30 นาที
+        - ใช้ 5 นาทีสุดท้ายทวน (กริยาตามประธาน · คำเชื่อม · คำคู่)
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - เลือกย่อหน้าที่อ่อนที่สุดแล้วเขียนใหม่ด้วยโครงสร้างของคอร์สอีก 1 แบบ
+      checklist_th:
+        - บทนำบอกจุดยืนชัดในประโยคเดียว
+        - ใช้โครงสร้างจากคอร์สอย่างน้อย 4 แบบ (inversion · cleft · much as · It is high time · albeit · subjunctive)
+        - ยอมรับข้อแย้งแล้วตอบกลับอย่างมีเหตุผล
+        - เขียนเสร็จภายใน 40 นาที และยาวประมาณ 250 คำ
+    practice: [cefr-c1-w12-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 12
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c1, weeks: [9, 10, 11, 12], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
