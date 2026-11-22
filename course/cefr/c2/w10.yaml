@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 10 · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 10
+phase: 3
+theme_th: อ่านระหว่างบรรทัด
+focus_th: ความหมายโดยนัย · ข้อสมมติล่วงหน้า · การประชดและ scare quotes · ทัศนคติของผู้เขียน · โครงสร้างข้อโต้แย้ง · เหตุผลวิบัติ (ad hominem · straw man · false dilemma · slippery slope · correlation) · หลักฐานกับข้ออ้าง
+can_do_th:
+  - จับความหมายแฝงและน้ำเสียงประชดในบทอ่านได้
+  - ชี้จุดอ่อนของข้อโต้แย้งอย่างมีเหตุผลได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ความหมายโดยนัยและทัศนคติ
+    lesson:
+      rule_th: "ผู้เขียนบอกทัศนคติผ่าน ==คำเล็ก ๆ (even== · actually · so-called · at least) และ ++เครื่องหมายคำพูดรอบคำ (scare quotes)++ · คำถามบางแบบซ่อนข้อสมมติล่วงหน้า (Have you stopped ...?)"
+      examples:
+        - {en: "<k>Even</k> the manager admitted it.", th: "แม้แต่คนที่ไม่น่าจะยอม"}
+        - {en: "The <k>so-called</k> reform ...", th: "==ไม่เชื่อว่าสมชื่อ=="}
+        - {en: "the 'popular' workshop", th: "scare quotes ประชด"}
+        - {en: "Have you <k>stopped</k> wasting money?", th: "สมมติว่าเคยทำ"}
+      signals:
+        - {label_th: "คำที่แฝงทัศนคติ", words: ["even", "actually", "so-called", "at least", "I'm sure ... (ประชด)"]}
+      thai_trap:
+        intro_th: "ผู้อ่านไทยมักอ่าน ~~ตามตัวอักษร~~ เมื่อผู้เขียนชมแบบประชด และตอบว่าผู้เขียนเห็นด้วย"
+        wrong: ["'I'm sure the minister had excellent reasons' → ตอบว่าผู้เขียนเชื่อใจรัฐมนตรี"]
+        right: ["'I'm sure ... excellent reasons for ignoring the report' → ประชดว่าไม่มีเหตุผลที่ดี"]
+      notes:
+        - {kind: tip, th: "ถามเสมอว่า ==ทำไมผู้เขียนเลือกคำนี้ ไม่ใช่คำอื่น=="}
+        - {kind: use, th: "แสดงความไม่เชื่ออย่างสุภาพในงานเขียน the so-called ..."}
+    check: [cefr-c2-w10-001, cefr-c2-w10-002]
+    practice: [cefr-c2-w10-003, cefr-c2-w10-004, cefr-c2-w10-005, cefr-c2-w10-006, cefr-c2-w10-007, cefr-c2-w10-008, cefr-c2-w10-009, cefr-c2-w10-010, cefr-c2-w10-011, cefr-c2-w10-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแสดงความไม่พอใจต่อบริการหนึ่งแบบประชดสุภาพ ใช้ so-called หรือ scare quotes
+      frame: "The so-called ____ has ____. At least ____."
+      model: "The so-called express lane at the supermarket took twenty minutes. At least I had plenty of time to read the magazine covers."
+    classroom: {en: "Even the critics liked it.", th: "แม้แต่นักวิจารณ์ยังชอบ"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การชม ติ และน้ำเสียง 12 คำ
+    lesson:
+      rule_th: "แยกคำชม ==extol · laud== คำติ ++disparage · deride++ และคุณศัพท์น้ำเสียง sardonic (เยาะเย้ย) · wry (ขำแห้ง ๆ) · facetious (ตลกไม่ถูกเวลา) · scathing (รุนแรง) · disingenuous (ไม่จริงใจ)"
+      examples:
+        - {en: "The book <k>extols</k> the benefits of walking.", th: "ยกย่อง"}
+        - {en: "Critics <k>derided</k> it as impossible.", th: "==เยาะเย้ย=="}
+        - {en: "a <k>scathing</k> review", th: "วิจารณ์รุนแรง"}
+        - {en: "a thinly <k>veiled</k> attack", th: "โจมตีแบบแฝง"}
+      words:
+        - {w: disparage, pos: v., th: ดูถูก ทำให้ด้อยค่า, ex: "Don't disparage other people's work."}
+        - {w: deride, pos: v., th: เยาะเย้ย, ex: "The plan was derided as naive."}
+        - {w: extol, pos: v., th: ยกย่อง, ex: "She extols the virtues of patience."}
+        - {w: laud, pos: v., th: ชมเชย, ex: "He was lauded as a hero."}
+        - {w: lament, pos: v., th: เสียดาย คร่ำครวญ, ex: "They lament the loss of the old town."}
+        - {w: begrudge, pos: v., th: ไม่เต็มใจ อิจฉา, ex: "I don't begrudge him his success."}
+        - {w: sardonic, pos: adj., th: เยาะเย้ยถากถาง, ex: "a sardonic grin"}
+        - {w: facetious, pos: adj., th: ตลกไม่ถูกเวลา, ex: "a facetious comment"}
+        - {w: wry, pos: adj., th: ขำแบบแห้ง ๆ, ex: "a wry smile"}
+        - {w: scathing, pos: adj., th: รุนแรงเผ็ดร้อน, ex: "scathing criticism"}
+        - {w: disingenuous, pos: adj., th: ไม่จริงใจ แสร้งไม่รู้, ex: "a disingenuous excuse"}
+        - {w: veiled, pos: adj., th: แฝง อำพราง, ex: "a veiled threat"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~ingenuous / disingenuous สลับกับ genius~~ เพราะหน้าตาคล้าย ทั้งที่ disingenuous แปลว่าไม่จริงใจ"
+        wrong: ["His disingenuous idea solved the problem. (ตั้งใจชมว่าฉลาด)"]
+        right: ["His ingenious idea solved the problem.", "His disingenuous excuse fooled nobody."]
+      notes:
+        - {kind: pin, th: "==ingenious = ฉลาดหลักแหลม== · disingenuous = ไม่จริงใจ"}
+        - {kind: use, th: "เขียนบทวิจารณ์ The reviews have been scathing."}
+    check: [cefr-c2-w10-013, cefr-c2-w10-014]
+    practice: [cefr-c2-w10-015, cefr-c2-w10-016, cefr-c2-w10-017, cefr-c2-w10-018, cefr-c2-w10-019, cefr-c2-w10-020, cefr-c2-w10-021, cefr-c2-w10-022, cefr-c2-w10-023, cefr-c2-w10-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายปฏิกิริยาของคนต่อการตัดสินใจหนึ่ง ใช้คำชมและคำติอย่างละคำ
+      frame: "When ____, some people lauded ____, while others derided ____."
+      model: "When the city closed the old market, some people lauded the cleaner streets, while others derided the decision as a gift to property developers."
+    classroom: {en: "That was a bit facetious, sorry.", th: "เมื่อกี้พูดเล่นไม่ถูกเวลา ขอโทษนะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ประเมินข้อโต้แย้ง
+    lesson:
+      rule_th: "ข้อโต้แย้งที่ดี ==มีข้ออ้าง + หลักฐานที่ตรวจสอบได้== จุดอ่อนที่พบบ่อยคือ ++เหตุผลวิบัติ++ ตัวอย่างเดียว · โจมตีตัวบุคคล · บิดข้อเสนอ (straw man) · บีบให้เหลือสองทาง · ลากผลไปไกล · สับสนความสัมพันธ์กับเหตุผล"
+      examples:
+        - {en: "My grandfather smoked and lived to 95.", th: "ตัวอย่างเดียว"}
+        - {en: "You can't trust him; he failed maths.", th: "==โจมตีตัวบุคคล=="}
+        - {en: "Either we ban cars or the city dies.", th: "บีบสองทาง"}
+        - {en: "So you want no rules at all?", th: "straw man"}
+      signals:
+        - {label_th: "คำถามทดสอบข้อโต้แย้ง", words: ["หลักฐานคืออะไร?", "ใครถูกถาม กี่คน?", "มีทางเลือกอื่นไหม?", "เป็นเหตุหรือแค่เกิดพร้อมกัน?"]}
+      thai_trap:
+        intro_th: "ผู้อ่านไทยมักเชื่อ ~~ตัวเลขทุกตัว~~ ในบทความ โดยไม่ถามว่ามาจากกลุ่มตัวอย่างแบบไหน"
+        wrong: ["'9 ใน 10 ทันตแพทย์แนะนำ' → เชื่อทันที"]
+        right: ["'9 ใน 10 ทันตแพทย์แนะนำ' → ถามว่าถามทันตแพทย์กี่คน เลือกมาอย่างไร"]
+      notes:
+        - {kind: tip, th: "แยกประโยคเป็นสองกอง ==ข้ออ้าง / หลักฐาน== ก่อนประเมิน"}
+        - {kind: use, th: "แย้งสุภาพ That's not quite what I said. / That's a false choice."}
+    check: [cefr-c2-w10-025, cefr-c2-w10-026]
+    practice: [cefr-c2-w10-027, cefr-c2-w10-028, cefr-c2-w10-029, cefr-c2-w10-030, cefr-c2-w10-031, cefr-c2-w10-032, cefr-c2-w10-033, cefr-c2-w10-034]
+    use:
+      prompt_th: เขียน 2 ประโยคชี้จุดอ่อนของข้อโต้แย้งนี้ "เด็กสมัยนี้เล่นมือถือทั้งวัน เพราะฉะนั้นควรห้ามขายมือถือให้คนอายุต่ำกว่า 18"
+      frame: "This argument assumes that ____. It also presents ____, ignoring ____."
+      model: "This argument assumes that all young people use phones in the same harmful way, without offering any evidence. It also presents a ban as the only solution, ignoring options such as education or time limits."
+    classroom: {en: "That's not what I said.", th: "ฉันไม่ได้พูดแบบนั้น"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความโต้แย้งที่มีน้ำเสียงประชดและฟังการโต้วาที
+    lesson:
+      rule_th: "บทความประชด ==พูดตรงข้ามกับสิ่งที่คิดตลอดทั้งบท== สังเกตจาก ++เหตุผลที่ไร้สาระจงใจ และคำชมที่เกินจริง++ คำถามมักถามความเห็นจริงของผู้เขียน และเทคนิคที่ใช้"
+      examples:
+        - {en: "I would like to offer a <k>humble defence</k>.", th: "เริ่มด้วยท่าทีประชด"}
+        - {en: "the <k>alarming prospect of free time</k>", th: "==เรียกสิ่งดีว่าน่ากลัว=="}
+        - {en: "they were conducted by people who clearly had time", th: "เหตุผลวิบัติแบบจงใจ"}
+      thai_trap:
+        intro_th: "ผู้อ่านตอบว่า ~~ผู้เขียนอยากให้ประชุมนานขึ้น~~ เพราะอ่านตามตัวอักษร"
+        wrong: ["ผู้เขียนสนับสนุนการประชุม 8 ชั่วโมง"]
+        right: ["ผู้เขียนประชดว่าการประชุมส่วนใหญ่เสียเวลา"]
+      notes:
+        - {kind: tip, th: "ถ้าคำชม ==ฟังไร้สาระเมื่ออ่านตามตัวอักษร== แสดงว่ากำลังประชด"}
+        - {kind: use, th: "ฟังโต้วาที จับว่าใครใช้หลักฐาน ใครใช้เหตุผลวิบัติ"}
+    check: [cefr-c2-w10-036, cefr-c2-w10-037]
+    practice: [cefr-c2-w10-035, cefr-c2-w10-038, cefr-c2-w10-039, cefr-c2-w10-040, cefr-c2-w10-041]
+    use:
+      prompt_th: เขียน 2 ประโยคอธิบายว่าบทความเรื่องการประชุมใช้การประชดอย่างไร
+      frame: "On the surface, the writer ____. In reality, ____, as shown by ____."
+      model: "On the surface, the writer defends long meetings. In reality, she is mocking them, as shown by her description of free time as an 'alarming prospect'."
+    classroom: {en: "I think she's being ironic.", th: "คิดว่าเธอกำลังประชดนะ"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 35
+    title_th: ห้องฝึกเขียน บทตอบโต้ชี้จุดอ่อนของข้อโต้แย้ง 300 คำ
+    lab:
+      mode: write
+      prompt_th: "อ่านข้อโต้แย้งนี้ แล้วเขียนบทตอบโต้ประมาณ 300 คำชี้จุดอ่อนอย่างสุภาพและมีเหตุผล — \"ผู้ใหญ่ไม่จำเป็นต้องเรียนภาษาอังกฤษอีกแล้ว เพราะแอปแปลภาษาทำได้ทุกอย่าง ลูกพี่ลูกน้องของฉันไปญี่ปุ่นมาโดยไม่รู้ภาษาญี่ปุ่นสักคำ ใครที่ยังจ่ายเงินเรียนภาษาก็แค่ไม่ทันโลก ถ้าเรายังบังคับคนเรียนภาษา ต่อไปคนจะไม่มีเวลาเรียนเรื่องที่สำคัญจริง ๆ\""
+      frame:
+        - "Introduction: The writer argues that ____. While ____, the argument has several weaknesses."
+        - "Weakness 1 (evidence): The only evidence offered is ____."
+        - "Weakness 2 (personal attack / false choice): ____."
+        - "Weakness 3 (slippery slope): ____."
+        - "Conclusion: A stronger argument would ____."
+      model_pass: "The writer argues that adults no longer need to learn English because translation apps can do everything. While translation technology has certainly improved, the argument has several weaknesses. First, the only evidence offered is a single story about a cousin who travelled in Japan. One holiday cannot tell us whether apps are good enough for work, study or building relationships. A tourist buying food is very different from a nurse explaining treatment to a patient. Second, the writer suggests that anyone who pays for language lessons is simply out of date. This attacks people instead of answering their reasons. Many learners study because they want to understand others directly, not only to get information. Third, the final sentence claims that if we keep requiring language study, people will have no time for important subjects. No evidence is given for this, and it ignores the fact that language learning can support other subjects. A stronger argument would compare the accuracy of apps in different situations and would accept that apps and language learning can work together."
+      model_good: "The writer contends that adults no longer need to learn English because translation apps have made it redundant. It would be disingenuous to deny that translation technology has improved dramatically; nevertheless, the argument rests on remarkably thin foundations. The only evidence offered is a single anecdote about a cousin who visited Japan. A holiday spent ordering food and buying train tickets tells us very little about whether an app can support a nurse explaining a diagnosis, a teacher responding to a parent's concern, or two colleagues negotiating a delicate disagreement. Generalising from one tourist's experience to every adult learner is, at best, premature. The writer then dismisses anyone who still pays for lessons as being 'behind the times'. This is not an argument but a caricature; it attacks the learners rather than engaging with their reasons, many of which have nothing to do with information and everything to do with connection, confidence and respect. Finally, the claim that requiring language study will leave people with 'no time for anything important' is a classic slippery slope, offered without a shred of evidence and ignoring the considerable research suggesting that language learning strengthens, rather than displaces, other skills. A more persuasive case would compare the accuracy of translation tools across different contexts and acknowledge that technology and learning are complementary rather than competing."
+      steps_th:
+        - อ่านข้อโต้แย้งแล้วขีดเส้นใต้ข้ออ้างแต่ละข้อ และหาเหตุผลวิบัติสามจุด
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 270–320 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนดูว่าแย้งข้อโต้แย้ง ไม่ได้โจมตีผู้เขียน
+      checklist_th:
+        - ชี้จุดอ่อนอย่างน้อย 3 จุด พร้อมบอกชื่อชนิดของเหตุผลวิบัติ
+        - ยอมรับส่วนที่ถูกของอีกฝ่ายอย่างน้อย 1 จุด
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ (disingenuous · caricature · scathing · deride)
+        - น้ำเสียงหนักแน่นแต่สุภาพ ไม่โจมตีบุคคล และยาวประมาณ 300 คำ
+    practice: [cefr-c2-w10-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 10
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [8, 9, 10], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

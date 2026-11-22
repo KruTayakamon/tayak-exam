@@ -1,0 +1,579 @@
+# คอร์ส c2 · สัปดาห์ 10 · อ่านระหว่างบรรทัด · ความหมายโดยนัย ข้อสมมติล่วงหน้า การประชด ทัศนคติของผู้เขียน · โครงสร้างข้อโต้แย้ง เหตุผลวิบัติ หลักฐานกับข้ออ้าง
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · ความหมายโดยนัยและทัศนคติ ----------
+- id: cefr-c2-w10-001
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 1
+  stem: "\"Even the manager admitted the plan had problems.\" What does \"even\" imply?"
+  choices:
+    - {t: the manager was unlikely to admit it, why: "even = ++แม้แต่คนที่ไม่น่าจะยอมรับ++"}
+    - {t: the manager admits problems often and openly in meetings, why: "ตรงกันข้าม even บอกว่าไม่ค่อยยอม"}
+    - {t: the manager designed a perfect plan, why: "ขัดกับ had problems"}
+    - {t: nobody else noticed any problems, why: "even ไม่ได้บอกว่าคนอื่นไม่เห็น"}
+  explain: "==even== แฝงความหมายว่า ไม่น่าเป็นไปได้ แต่ก็เป็น"
+  status: draft
+- id: cefr-c2-w10-002
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 1
+  stem: "\"Have you stopped wasting money on lottery tickets?\" What does the question presuppose?"
+  choices:
+    - {t: the listener used to waste money on them, why: "stopped ++สมมติล่วงหน้าว่าเคยทำ++"}
+    - {t: the listener has never bought one, why: "ขัดกับ stopped จึงใช้ไม่ได้"}
+    - {t: the speaker sells lottery tickets and wants more customers, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: lottery tickets are good value, why: "ขัดกับ wasting money"}
+  explain: "ข้อสมมติล่วงหน้า (presupposition) ==สิ่งที่คำถามถือว่าจริงอยู่แล้ว=="
+  status: draft
+- id: cefr-c2-w10-003
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"The new policy has, at least, been consistent: consistently confusing.\" The writer's attitude is ____."
+  choices:
+    - {t: sarcastic and critical, why: "ชมคำว่า consistent แล้วพลิกเป็น confusing ++ประชด++"}
+    - {t: sincerely admiring, why: "ไม่ได้ชมจริง จึงใช้ไม่ได้"}
+    - {t: neutral and factual, why: "มีน้ำเสียงชัดเจน"}
+    - {t: uncertain and confused, why: "ผู้เขียนมั่นใจในการวิจารณ์"}
+  explain: "ประชด ==ชมก่อนแล้วพลิกความหมาย=="
+  status: draft
+- id: cefr-c2-w10-004
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"Some people prefer facts to feelings.\" In a debate, what is the speaker most likely implying?"
+  choices:
+    - {t: the opponent relies on emotion rather than facts, why: "เทียบแบบแฝง ++โจมตีอีกฝ่ายว่าใช้อารมณ์++"}
+    - {t: everyone should ignore their feelings, why: "ไม่ได้เสนอแบบนั้น"}
+    - {t: the speaker has no facts, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: feelings and facts are always equally important in any debate, why: "ไม่ใช่สิ่งที่สื่อ"}
+  explain: "ความหมายโดยนัย ==ถามว่าทำไมผู้พูดเลือกพูดประโยคนี้ตอนนี้=="
+  status: draft
+- id: cefr-c2-w10-005
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"The so-called 'reform' has doubled waiting times.\" What does \"so-called\" suggest?"
+  choices:
+    - {t: the writer doubts it deserves the name, why: "so-called ++แสดงความไม่เชื่อว่าสมชื่อ++"}
+    - {t: the reform is officially recognised by every political party, why: "ไม่ใช่น้ำเสียงนี้"}
+    - {t: the writer supports the reform, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: the name is new, why: "ไม่ใช่ความหมายหลัก"}
+  explain: "==so-called / เครื่องหมายคำพูดรอบคำ== = ไม่เชื่อว่าสมชื่อ"
+  status: draft
+- id: cefr-c2-w10-006
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"I'm sure the minister had excellent reasons for ignoring the report.\" The tone is most likely ____."
+  choices:
+    - {t: ironic, why: "พูดว่าแน่ใจแต่จริง ๆ ++ไม่เชื่อ++"}
+    - {t: genuinely trusting, why: "คำว่า ignoring the report ขัดกับความไว้ใจ"}
+    - {t: angry and direct, why: "พูดอ้อม ไม่ใช่ตรง"}
+    - {t: confused, why: "ไม่ได้สับสน จึงใช้ไม่ได้"}
+  explain: "ประชดแบบสุภาพ ==I'm sure ... had excellent reasons== = ไม่เชื่อเลย"
+  status: draft
+- id: cefr-c2-w10-007
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"Only three people attended the 'popular' workshop.\" Why are quotation marks used?"
+  choices:
+    - {t: to show the word is used ironically, why: "เครื่องหมายคำพูด ++ใช้ประชดว่าไม่จริง++"}
+    - {t: to quote a famous person, why: "ไม่ได้อ้างคำพูดใคร"}
+    - {t: to show it is a title, why: "ไม่ใช่ชื่อเรื่อง"}
+    - {t: to show strong agreement with the workshop organisers, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  explain: "scare quotes ==เครื่องหมายคำพูด== รอบคำเพื่อแสดงความไม่เชื่อ"
+  status: draft
+- id: cefr-c2-w10-008
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  stem: "\"It would be unfair to say the project failed completely; the coffee was excellent.\" What is implied?"
+  choices:
+    - {t: almost everything about the project failed, why: "ชมเรื่องไม่สำคัญ ++แปลว่าเรื่องสำคัญล้มเหลวทั้งหมด++"}
+    - {t: the project was a great success, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: the project was about coffee, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: the writer is being fair and balanced about a mixed result, why: "เป็นการประชด ไม่ใช่ความสมดุลจริง"}
+  explain: "ชมสิ่งเล็กน้อยอย่างจริงจัง ==คือการประชดว่าส่วนอื่นแย่=="
+  status: draft
+- id: cefr-c2-w10-009
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  stem: "\"Not one of the critics, it should be noted, had actually read the book.\" What is the writer suggesting?"
+  choices:
+    - {t: the criticism lacks credibility, why: "ไม่มีใครอ่านจริง ++คำวิจารณ์จึงไม่น่าเชื่อ++"}
+    - {t: the book is too long to read, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+    - {t: the critics are experts, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: the writer agrees with the critics, why: "บทไม่ได้พูดว่า the writer agrees with the critics"}
+  explain: "==it should be noted== มักนำข้อมูลที่ทำให้อีกฝ่ายอ่อนลง"
+  status: draft
+- id: cefr-c2-w10-010
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"Surprisingly, the new app actually works.\" What does \"actually\" add?"
+  choices:
+    - {t: the writer expected it not to work, why: "actually ++ขัดกับความคาดหวังเดิม++"}
+    - {t: the app is very old, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: the writer designed the app and is proud of its success, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: the app works only sometimes, why: "บทไม่ได้พูดว่า the app works only sometimes"}
+  explain: "==actually== มักบอกว่า ผิดจากที่คาดไว้"
+  status: draft
+- id: cefr-c2-w10-011
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "\"Another 'temporary' road closure began today, the third this year.\" The writer feels ____."
+  choices:
+    - {t: frustrated and doubtful, why: "temporary ในเครื่องหมายคำพูด + the third ++แสดงความเบื่อหน่าย++"}
+    - {t: pleased about the repairs, why: "น้ำเสียงไม่ใช่ความยินดี"}
+    - {t: neutral about the news, why: "มีน้ำเสียงชัด จึงใช้ไม่ได้"}
+    - {t: surprised by the closure, why: "ครั้งที่สาม ไม่ได้แปลกใจ"}
+  explain: "ทัศนคติ ==ดูคำที่ผู้เขียนเลือกและข้อมูลที่ใส่เพิ่ม=="
+  status: draft
+- id: cefr-c2-w10-012
+  kind: type
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  stem: "The so-c_____ \"expert\" had no qualifications at all. (ที่เรียกกันว่า · ประชด)"
+  answer: called
+  accept: [called]
+  why: "so-called = ที่เรียกกันว่า (มักแฝงความไม่เชื่อ)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การชม ติ และน้ำเสียง ----------
+- id: cefr-c2-w10-013
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 1
+  stem: "It's unfair to ____ her work just because she is young."
+  choices:
+    - {t: disparage, why: "ดูถูกให้ด้อยค่า ใช้ ++disparage++"}
+    - {t: extol, why: "extol แปลว่ายกย่อง"}
+    - {t: laud, why: "laud แปลว่าชมเชย"}
+    - {t: lament, why: "lament แปลว่าเสียใจคร่ำครวญ"}
+  explain: "disparage = ==ดูถูก ทำให้ด้อยค่า=="
+  status: draft
+- id: cefr-c2-w10-014
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 1
+  stem: "The book ____ the benefits of walking for both body and mind."
+  choices:
+    - {t: extols, why: "ยกย่องอย่างมาก ใช้ ++extol++"}
+    - {t: derides, why: "deride แปลว่าเยาะเย้ย"}
+    - {t: disparages, why: "disparage แปลว่าดูถูก"}
+    - {t: begrudges, why: "begrudge แปลว่าไม่เต็มใจ อิจฉา"}
+  explain: "extol = ==ยกย่องสรรเสริญอย่างมาก=="
+  status: draft
+- id: cefr-c2-w10-015
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "At first, critics ____ the idea as impossible; now everyone uses it."
+  choices:
+    - {t: derided, why: "เยาะเย้ยดูแคลน ใช้ ++deride as++"}
+    - {t: lauded, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: extolled, why: "บทไม่ได้พูดว่า extolled"}
+    - {t: lamented, why: "lament ไม่ได้แปลว่าเยาะเย้ย"}
+  explain: "==deride ... as== = เยาะเย้ยว่าเป็น..."
+  status: draft
+- id: cefr-c2-w10-016
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "The firefighters were widely ____ for their bravery."
+  choices:
+    - {t: lauded, why: "ได้รับคำชมเชย ใช้ ++lauded++"}
+    - {t: derided, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: disparaged, why: "บทไม่ได้พูดว่า disparaged"}
+    - {t: begrudged, why: "ไม่เข้ากับบริบท"}
+  explain: "laud = ==ชมเชย ยกย่อง (ทางการ)=="
+  status: draft
+- id: cefr-c2-w10-017
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "Many older residents ____ the loss of the traditional market."
+  choices:
+    - {t: lament, why: "เสียดายคร่ำครวญ ใช้ ++lament++"}
+    - {t: laud, why: "ตรงข้ามกับความรู้สึกสูญเสีย"}
+    - {t: extol, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: deride, why: "ไม่เข้ากับบริบท"}
+  explain: "lament = ==เสียดาย เศร้าโศกต่อการสูญเสีย=="
+  status: draft
+- id: cefr-c2-w10-018
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "I don't ____ her success; she worked incredibly hard for it."
+  choices:
+    - {t: begrudge, why: "ไม่อิจฉาไม่ขุ่นเคือง ใช้ ++don't begrudge++"}
+    - {t: lament, why: "ไม่เข้ากับบริบท"}
+    - {t: laud, why: "don't laud ขัดกับประโยคหลัง"}
+    - {t: extol, why: "บทไม่ได้พูดว่า extol"}
+  explain: "==not begrudge someone something== = ไม่อิจฉา เต็มใจให้เขาได้"
+  status: draft
+- id: cefr-c2-w10-019
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "His ____ smile made it clear he thought the whole idea was ridiculous."
+  choices:
+    - {t: sardonic, why: "ยิ้มเยาะเย้ยถากถาง ใช้ ++sardonic++"}
+    - {t: lauded, why: "ไม่ใช้กับรอยยิ้ม"}
+    - {t: veiled, why: "veiled smile ไม่เป็นธรรมชาติ"}
+    - {t: facetious, why: "facetious ใช้กับคำพูดตลกไม่ถูกกาลเทศะ"}
+  explain: "sardonic = ==เยาะเย้ยถากถาง (เย็นชา)=="
+  status: draft
+- id: cefr-c2-w10-020
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "Please be serious; this is not the time for ____ remarks."
+  choices:
+    - {t: facetious, why: "ตลกไม่ถูกเวลา ใช้ ++facetious++"}
+    - {t: scathing, why: "scathing แปลว่าวิจารณ์รุนแรง ไม่ใช่ตลก"}
+    - {t: lauded, why: "ไม่เข้ากับบริบท"}
+    - {t: veiled, why: "บทไม่ได้พูดว่า veiled"}
+  explain: "facetious = ==พูดตลกในเรื่องที่ควรจริงจัง=="
+  status: draft
+- id: cefr-c2-w10-021
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "She told the story with a ____ sense of humour, smiling at her own mistakes."
+  choices:
+    - {t: wry, why: "ขำแบบแห้ง ๆ ขื่น ๆ ใช้ ++wry++"}
+    - {t: scathing, why: "scathing แปลว่ารุนแรง ไม่ใช่ขำ"}
+    - {t: disingenuous, why: "disingenuous แปลว่าไม่จริงใจ"}
+    - {t: lauded, why: "ไม่เข้ากับบริบท"}
+  explain: "wry = ==ขำแบบแห้ง ๆ รู้ทันตัวเอง=="
+  status: draft
+- id: cefr-c2-w10-022
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "The review was ____: it called the film \"two hours of my life I will never get back\"."
+  choices:
+    - {t: scathing, why: "วิจารณ์รุนแรงเผ็ดร้อน ใช้ ++scathing++"}
+    - {t: wry, why: "wry เบากว่ามาก จึงใช้ไม่ได้"}
+    - {t: lauded, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: veiled, why: "ไม่ได้อ้อม ตรงมาก"}
+  explain: "scathing = ==วิจารณ์อย่างรุนแรงเผ็ดร้อน=="
+  status: draft
+- id: cefr-c2-w10-023
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 3
+  stem: "It is ____ of the company to claim it 'had no idea', since staff had warned it repeatedly."
+  choices:
+    - {t: disingenuous, why: "แสร้งไม่รู้ ไม่จริงใจ ใช้ ++disingenuous++"}
+    - {t: wry, why: "ไม่เข้ากับบริบท"}
+    - {t: facetious, why: "ไม่ใช่เรื่องตลก"}
+    - {t: lauded, why: "บทไม่ได้พูดว่า lauded"}
+  explain: "disingenuous = ==แสร้งทำเป็นไม่รู้ ไม่จริงใจ=="
+  status: draft
+- id: cefr-c2-w10-024
+  kind: type
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  stem: "His comment about 'certain people' was a thinly v_____ attack on his boss. (แฝง อำพราง)"
+  answer: veiled
+  accept: [veiled]
+  why: "a thinly veiled attack = การโจมตีที่แฝงไว้บาง ๆ"
+  status: draft
+# ---------- วันที่ 3 · ประเมินข้อโต้แย้ง ----------
+- id: cefr-c2-w10-025
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 1
+  stem: "\"My grandfather smoked every day and lived to 95, so smoking can't be that harmful.\" What is wrong?"
+  choices:
+    - {t: it uses one example to make a general claim, why: "ใช้ตัวอย่างเดียว ++สรุปเหมารวม++"}
+    - {t: it uses too many statistics, why: "ไม่มีสถิติเลย จึงใช้ไม่ได้"}
+    - {t: it attacks the opponent personally instead of the idea, why: "ไม่ได้โจมตีใคร จึงใช้ไม่ได้"}
+    - {t: it is completely logical, why: "เป็นเหตุผลวิบัติ"}
+  explain: "เหตุผลวิบัติ ==ตัวอย่างเดียว== (anecdote) ไม่ใช่หลักฐานทั่วไป"
+  status: draft
+- id: cefr-c2-w10-026
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 1
+  stem: "\"You can't trust his views on the economy; he failed maths at school.\" This is an example of ____."
+  choices:
+    - {t: attacking the person instead of the argument, why: "ad hominem ++โจมตีตัวบุคคล++"}
+    - {t: using strong statistical evidence from several countries, why: "ไม่มีหลักฐาน จึงใช้ไม่ได้"}
+    - {t: a fair counter-argument, why: "ไม่ได้แย้งข้อโต้แย้งจริง"}
+    - {t: an appeal to expert opinion, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  explain: "ad hominem = ==โจมตีคน แทนที่จะแย้งเหตุผล=="
+  status: draft
+- id: cefr-c2-w10-027
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  stem: "\"Either we ban all cars from the centre or the city will choke to death.\" What is the flaw?"
+  choices:
+    - {t: it presents only two extreme options, why: "false dilemma ++มีทางเลือกอื่นแต่ไม่พูดถึง++"}
+    - {t: it uses too much evidence from different sources, why: "ไม่มีหลักฐาน จึงใช้ไม่ได้"}
+    - {t: it attacks a person, why: "ไม่ได้โจมตีบุคคล"}
+    - {t: it has no conclusion, why: "มีข้อสรุป จึงใช้ไม่ได้"}
+  explain: "false dilemma = ==บีบให้เหลือสองทางทั้งที่มีมากกว่า=="
+  status: draft
+- id: cefr-c2-w10-028
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  stem: "\"Ice cream sales and drowning both rise in summer, so ice cream causes drowning.\" What is the flaw?"
+  choices:
+    - {t: it confuses correlation with causation, why: "เกิดพร้อมกัน ++ไม่ได้แปลว่าเป็นเหตุ++ (ทั้งคู่เกิดจากอากาศร้อน)"}
+    - {t: it uses an expert wrongly to support a weak conclusion, why: "ไม่มีผู้เชี่ยวชาญ"}
+    - {t: it is a personal attack, why: "ไม่ได้โจมตีบุคคล"}
+    - {t: it has too few options, why: "ไม่ใช่ปัญหาหลัก"}
+  explain: "correlation ≠ causation ==เกิดพร้อมกันไม่ได้แปลว่าเป็นเหตุผลกัน=="
+  status: draft
+- id: cefr-c2-w10-029
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  stem: "\"If we allow phones in class, students will text all day, then fail their exams, then drop out.\" This is ____."
+  choices:
+    - {t: a slippery slope argument, why: "ลากผลไปไกลเกินจริง ++ทีละขั้นโดยไม่มีหลักฐาน++"}
+    - {t: a balanced conclusion, why: "ไม่สมดุล จึงใช้ไม่ได้"}
+    - {t: a statistical argument, why: "ไม่มีตัวเลข จึงใช้ไม่ได้"}
+    - {t: an appeal to tradition, why: "ไม่ได้อ้างประเพณี"}
+  explain: "slippery slope = ==ลากผลร้ายต่อเนื่องเกินหลักฐาน=="
+  status: draft
+- id: cefr-c2-w10-030
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  stem: "Which is a CLAIM rather than EVIDENCE?"
+  choices:
+    - {t: "Online learning is clearly the future of education.", why: "ข้อความแสดงความเห็น ++ยังไม่มีหลักฐานรองรับ++"}
+    - {t: "In 2025, 42% of adult learners took at least one online course.", why: "เป็นข้อมูลตัวเลข (หลักฐาน)"}
+    - {t: "A survey of 3,000 students found that 60% preferred online classes.", why: "เป็นผลสำรวจ (หลักฐาน)"}
+    - {t: "Enrolment in the online programme rose from 200 to 900 in two years.", why: "เป็นข้อมูลที่วัดได้ (หลักฐาน)"}
+  explain: "claim = ==ข้อกล่าวอ้าง== · evidence = ข้อมูลที่ตรวจสอบได้"
+  status: draft
+- id: cefr-c2-w10-031
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  stem: "\"Nine out of ten dentists recommend our toothpaste.\" What question best tests this claim?"
+  choices:
+    - {t: "How many dentists were asked and how were they chosen?", why: "ถามขนาดและวิธีเลือก ++กลุ่มตัวอย่าง++"}
+    - {t: "What colour is the toothpaste?", why: "ไม่เกี่ยวกับความน่าเชื่อของข้ออ้าง"}
+    - {t: "Do dentists like their jobs?", why: "ไม่เกี่ยวข้อง จึงใช้ไม่ได้"}
+    - {t: "Is the advertisement attractive enough to persuade younger customers?", why: "ไม่เกี่ยวกับความน่าเชื่อ"}
+  explain: "ประเมินสถิติ ==ถามว่าใครถูกถาม กี่คน เลือกอย่างไร=="
+  status: draft
+- id: cefr-c2-w10-032
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  stem: "\"My opponent wants to cut the defence budget, so clearly she wants the country to be undefended.\" This is ____."
+  choices:
+    - {t: a straw man, why: "บิดข้อเสนอของอีกฝ่าย ++ให้ดูสุดโต่งแล้วโจมตี++"}
+    - {t: a fair summary, why: "ลดงบไม่เท่ากับไม่ป้องกันประเทศ"}
+    - {t: an appeal to evidence, why: "ไม่มีหลักฐาน จึงใช้ไม่ได้"}
+    - {t: an admission of error, why: "ไม่ได้ยอมรับความผิด"}
+  explain: "straw man = ==บิดข้อโต้แย้งของอีกฝ่ายให้อ่อนแล้วโจมตี=="
+  status: draft
+- id: cefr-c2-w10-033
+  kind: type
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  stem: "A strong argument supports each claim with e_______. (หลักฐาน)"
+  answer: evidence
+  accept: [evidence]
+  why: "evidence = หลักฐาน (นับไม่ได้)"
+  status: draft
+- id: cefr-c2-w10-034
+  kind: cloze
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  text: |
+    The author claims that homework is useless, but her only (1) ____ is a single story about her own son. Moreover, she (2) ____ the opposing view, suggesting that anyone who supports homework simply wants children to suffer. Such (3) ____ of the other side does little to strengthen her case.
+  questions:
+    - choices:
+        - {t: evidence, why: "หลักฐานคือเรื่องเล่าเรื่องเดียว"}
+        - {t: lament, why: "lament ไม่ใช่คำนามที่เข้ากับบริบท"}
+        - {t: veil, why: "veil ไม่เข้ากับบริบท"}
+        - {t: laud, why: "laud เป็นกริยา จึงใช้ไม่ได้"}
+    - choices:
+        - {t: misrepresents, why: "บิดความเห็นอีกฝ่าย (straw man)"}
+        - {t: extols, why: "ตรงข้าม จึงใช้ไม่ได้"}
+        - {t: lauds, why: "บทไม่ได้พูดว่า lauds"}
+        - {t: begrudges, why: "ไม่เข้ากับบริบท"}
+    - choices:
+        - {t: caricature, why: "การวาดภาพเกินจริงให้ดูแย่"}
+        - {t: praise, why: "ตรงข้าม จึงใช้ไม่ได้"}
+        - {t: evidence, why: "ไม่ใช่หลักฐาน จึงใช้ไม่ได้"}
+        - {t: analysis, why: "ไม่ได้วิเคราะห์อย่างยุติธรรม"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความโต้แย้งที่มีน้ำเสียงประชดและฟังโต้วาที ----------
+- id: cefr-c2-w10-035
+  kind: read
+  skill: rd
+  topic: ironic-argument
+  level: 3
+  title: "In Praise of the Eight-Hour Meeting"
+  passage: |
+    It has become fashionable to complain about meetings. Productivity experts deride them, management books disparage them, and office workers lament the hours they lose to them. I would like to offer a humble defence.
+
+    Consider the alternative. Without meetings, employees might be forced to make decisions on their own, using nothing more than information, experience and judgement. They might finish projects early, leaving them with the alarming prospect of free time. Worse still, they might discover that much of their work could be done by email in a fraction of the time, a realisation that would surely undermine morale.
+
+    Meetings also serve an important social function. Where else can twelve people gather to watch one person share their screen? Where else can a manager demonstrate leadership by asking whether everyone can see the slides? The three-hour budget meeting, in particular, should be lauded as a triumph of human endurance, a modern ritual in which colleagues bond over their shared inability to remember why they came.
+
+    Critics will point to research suggesting that most meetings could be shorter, smaller or cancelled altogether. Such studies are, of course, easy to dismiss: they were conducted by people who clearly had time to do research, which suggests they were not attending enough meetings.
+
+    In the end, the case for meetings is simple. They allow organisations to feel busy without the inconvenience of being productive. And if that is not worth an eight-hour session with a short break for lunch, I do not know what is.
+  questions:
+    - stem: What is the writer's real opinion of meetings?
+      choices:
+        - {t: most meetings waste time, why: "ทั้งบทประชด ++ชมการประชุมเพื่อชี้ว่ามันเสียเวลา++"}
+        - {t: meetings should be longer, why: "เป็นสิ่งที่พูดแบบประชด ไม่ใช่ความเห็นจริง"}
+        - {t: meetings help people work faster, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: the writer has no clear opinion, why: "จุดยืนชัดเจนผ่านการประชด"}
+    - stem: "\"the alarming prospect of free time\" is ironic because ____."
+      choices:
+        - {t: free time is normally seen as a good thing, why: "เวลาว่างเป็นสิ่งดี ++การเรียกว่าน่ากลัวจึงเป็นการประชด++"}
+        - {t: employees fear their managers more than they fear unemployment, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: the writer dislikes holidays, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: free time is illegal at work, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - stem: How does the writer respond to research on meetings?
+      choices:
+        - {t: with a deliberately absurd argument, why: "ปัดตกงานวิจัยด้วยเหตุผลไร้สาระ ++เพื่อประชด++"}
+        - {t: by providing better research from a large international study, why: "ไม่มีงานวิจัยใหม่"}
+        - {t: by agreeing seriously, why: "ไม่ได้เห็นด้วยตรง ๆ"}
+        - {t: by ignoring it completely, why: "พูดถึงในย่อหน้า 4"}
+    - stem: Which logical fallacy does the writer deliberately use in paragraph 4?
+      choices:
+        - {t: attacking the researchers instead of their findings, why: "ad hominem ++โจมตีนักวิจัยแทนผลวิจัย++"}
+        - {t: confusing correlation with causation when discussing meeting length, why: "ไม่ใช่เหตุผลวิบัตินี้"}
+        - {t: presenting a false choice, why: "บทไม่ได้พูดว่า presenting a false choice"}
+        - {t: relying on a single anecdote, why: "บทไม่ได้พูดว่า relying on a single anecdote"}
+  status: draft
+- id: cefr-c2-w10-036
+  kind: listen
+  skill: li
+  topic: policy-debate
+  level: 3
+  script:
+    - {who: Woman, en: "My opponent says the tax will destroy small businesses. Yet in the three cities that introduced it, the number of small businesses actually rose."}
+  questions:
+    - stem: How does the woman respond to her opponent?
+      choices:
+        - {t: she uses evidence to challenge the claim, why: "ยกข้อมูลสามเมืองมาแย้ง"}
+        - {t: she attacks her opponent personally for changing his mind, why: "ไม่ได้โจมตีบุคคล"}
+        - {t: she agrees with her opponent, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: she changes the subject, why: "ตอบตรงประเด็น จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w10-037
+  kind: listen
+  skill: li
+  topic: policy-debate
+  level: 3
+  script:
+    - {who: Man, en: "So you're saying we should just let anyone build anything anywhere?"}
+    - {who: Woman, en: "That's not what I said. I said the approval process should take weeks, not years."}
+  questions:
+    - stem: What is the woman pointing out?
+      choices:
+        - {t: the man has misrepresented her position, why: "That's not what I said ++ชี้ว่าเป็น straw man++"}
+        - {t: she wants no rules at all, why: "เธอปฏิเสธข้อนี้"}
+        - {t: the process should take years so that every plan is checked, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: she agrees with the man, why: "ไม่เห็นด้วย จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w10-038
+  kind: listen
+  skill: li
+  topic: policy-debate
+  level: 3
+  script:
+    - {who: Man, en: "I'm sure the committee's decision had nothing whatsoever to do with the fact that the chairman's brother owns the land."}
+  questions:
+    - stem: What is the speaker implying?
+      choices:
+        - {t: the decision was influenced by family interest, why: "ประชด ++นัยว่ามีผลประโยชน์ทับซ้อน++"}
+        - {t: the decision was completely fair and based only on the evidence, why: "เป็นการพูดประชด"}
+        - {t: the chairman has no brother, why: "ขัดกับข้อมูล จึงใช้ไม่ได้"}
+        - {t: the land is worthless, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w10-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The argument, relies on, a single example, rather than solid evidence]
+  sentence: The argument relies on a single example rather than solid evidence.
+  th: ข้อโต้แย้งนี้อาศัยตัวอย่างเดียว แทนที่จะเป็นหลักฐานที่หนักแน่น
+  why: "rely on + นาม · rather than เทียบสองอย่าง"
+  status: draft
+- id: cefr-c2-w10-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [It is disingenuous, to claim, that nobody, was warned]
+  sentence: It is disingenuous to claim that nobody was warned.
+  th: การอ้างว่าไม่มีใครถูกเตือนนั้นไม่จริงใจ
+  why: "It is + adj + to + กริยา + that-clause"
+  status: draft
+- id: cefr-c2-w10-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Rather than, addressing the evidence, the author, attacks the researchers]
+  sentence: Rather than addressing the evidence, the author attacks the researchers.
+  th: แทนที่จะพูดถึงหลักฐาน ผู้เขียนกลับโจมตีนักวิจัย
+  why: "Rather than + -ing ขึ้นต้น ประธานเดียวกัน"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c2-w10-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While the writer's concern, is understandable, the argument, rests on, a false choice between two extremes]
+  sentence: While the writer's concern is understandable, the argument rests on a false choice between two extremes.
+  th: แม้ความกังวลของผู้เขียนจะเข้าใจได้ แต่ข้อโต้แย้งตั้งอยู่บนทางเลือกเท็จระหว่างสองขั้ว
+  why: "While + ยอมรับ แล้วชี้จุดอ่อน rest on"
+  status: draft
