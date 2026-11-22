@@ -30,6 +30,11 @@ for d, _, fs in os.walk(os.path.join(ROOT, 'dist')):
     for f in fs:
         if f.endswith(('.json', '.js', '.html')):
             s = open(os.path.join(d, f), encoding='utf-8', errors='ignore').read()
+            if f == 'dict.json':                  # พจนานุกรมกดค้าง: มีคำว่า "choices" เป็นคำศัพท์ได้ จึงตรวจโครงสร้างแทน (คำ → [ชนิดคำ, ไทย, ตัวอย่าง] เท่านั้น)
+                d_ = json.loads(s)
+                if set(d_) != {'v', 'w'} or not all(isinstance(v, list) and len(v) == 3 and all(isinstance(x, str) for x in v) for v in d_['w'].values()) \
+                        or re.search(r'cefr-[a-z0-9]+-(w\d{2}|cp[abc]|pl)-\d{3}', s): leak.append(f)
+                continue
             if re.search(r'cefr-[a-z0-9]+-(w\d{2}|cp[abc]|pl)-\d{3}', s) or 'DEMO_DATA=' in s or f == 'demo_data.js' or '"choices"' in s: leak.append(f)
 ok(not leak, f'dist/ ไม่มีเฉลยหรือเหตุผลรั่ว {leak}')
 # หน้าโพสต์ใน dist/p/: เฉพาะโพสต์ที่อนุมัติแล้ว และไม่มีข้อจากคลังที่ขาย

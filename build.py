@@ -9,6 +9,11 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 WEB, ENG = os.path.join(ROOT, 'web'), os.path.join(ROOT, 'engine')
 ENGINE_FILES = ('engine.mjs', 'assemble.mjs', 'grade.mjs', 'pricing.mjs')
 
+def dict_json():
+    """พจนานุกรมกดค้างที่คำ (tools/make_dict.py) · ไม่มีเฉลย ส่งขึ้นเว็บจริงได้"""
+    sys.path.insert(0, os.path.join(ROOT, 'tools')); import make_dict
+    return json.dumps(make_dict.main(), ensure_ascii=False, separators=(',', ':'))
+
 def demo_data():
     items = json.load(open(os.path.join(ROOT, 'build', 'items.json'), encoding='utf-8'))
     courses = {c: json.load(open(os.path.join(ROOT, 'build', f'course_cefr_{c}.json'), encoding='utf-8')) for c in ('b1', 'b2', 'c1') if os.path.exists(os.path.join(ROOT, 'build', f'course_cefr_{c}.json'))}
@@ -58,6 +63,8 @@ def site(out, demo):
     shutil.copytree(WEB, out)
     os.makedirs(os.path.join(out, 'js', 'engine'), exist_ok=True)
     for f in ENGINE_FILES: shutil.copyfile(os.path.join(ENG, f), os.path.join(out, 'js', 'engine', f))
+    os.makedirs(os.path.join(out, 'data'), exist_ok=True)
+    open(os.path.join(out, 'data', 'dict.json'), 'w', encoding='utf-8').write(dict_json())
     if demo: open(os.path.join(out, 'js', 'demo_data.js'), 'w', encoding='utf-8').write(demo_data())
     for page in ('app.html', 'placement.html', 'admin.html'):
         p = os.path.join(out, page); html = open(p, encoding='utf-8').read()
@@ -97,7 +104,7 @@ def bundle():
     css = open(os.path.join(WEB, 'css', 'app.css'), encoding='utf-8').read()
     html = ('<title>CEFR for You ทดลองเรียน</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
             '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap">\n'
-            '<style>\n' + css + '\n</style>\n<div class="wrap" id="app"></div>\n<script>' + demo_data().replace('</', '<\\/') + '</script>\n<script type="module">\n' + bundle_js().replace('</script', '<\\/script') + '\n</script>\n')
+            '<style>\n' + css + '\n</style>\n<div class="wrap" id="app"></div>\n<script>' + demo_data().replace('</', '<\\/') + 'globalThis.DICT_DATA=' + dict_json().replace('</', '<\\/') + ';</script>\n<script type="module">\n' + bundle_js().replace('</script', '<\\/script') + '\n</script>\n')
     os.makedirs(os.path.join(ROOT, 'build'), exist_ok=True)
     p = os.path.join(ROOT, 'build', 'demo_bundle.html'); open(p, 'w', encoding='utf-8').write(html)
     print(f'build/demo_bundle.html {len(html)//1024} KB (มีเฉลย เผยแพร่ได้เฉพาะแบบส่วนตัว)')

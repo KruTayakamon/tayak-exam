@@ -3,6 +3,7 @@
 import { api } from './api.js';
 import { getSession, putSession, clearSession, getQueue, pushEvent, dropEvents, newId, getStars, putStars } from './store.js';
 import { renderItem, el, esc, mark, rich, notesHtml, say, canSay, spk, spkThai, keepBox } from './items.js';
+import { lookupTip } from './lookup.js';
 
 // ---------- คำชม ดาว และตราพิเศษ (มติบอส 17 พ.ย. รอบ 17) ----------
 const PRAISE = ['เก่งมาก!', 'ถูกเป๊ะ!', 'เยี่ยมเลย!', 'แม่นมาก!', 'สุดยอด!', 'ใช่เลย!', 'ปังมาก!', 'คล่องขึ้นเรื่อย ๆ!'];
@@ -127,6 +128,7 @@ export async function openSession(root, kind, onExit) {
       // หน้าสมุดโน้ต: โทนสีเปลี่ยนตามวัน (d1–d6) · แถบเทปบอกวันและหัวข้อ · กติกาเขียนบนกระดาษเส้น
       const page = el(`<div class="nb d${Math.min(6, Math.max(1, card.day || 1))}" id="nbPage"><div class="nb-tape">วันที่ ${card.day || 1}${card.title ? ' · ' + esc(card.title) : ''}</div></div>`);
       body.appendChild(page);
+      const tip = lookupTip(); if (tip) body.insertBefore(el(tip), page);
       const outer = body; { const body = page;
       body.appendChild(el(`<h2 class="rule">${rich(L.rule_th)}</h2>`));
       const th = spkThai([L.rule_th, L.thai_trap ? L.thai_trap.intro_th : '', ...(L.notes || []).map((n) => n.th)].join(' . '));

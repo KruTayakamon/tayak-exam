@@ -68,6 +68,7 @@ export async function viewCheckpoint(root, go, n) {
 
 function run(root, go, n, items, s, ms) {
   root.innerHTML = '';
+  root.dataset.nolookup = '1';                        // ระหว่างทำชุดวัดผลไม่มีพจนานุกรม
   const total = items.reduce((a, it) => a + ptsOf(it), 0);
   const bar = el(`<div class="cpbar" id="cpBar"><span id="cpTime"></span><span id="cpDone"></span></div>`);
   root.appendChild(bar);
@@ -139,7 +140,7 @@ function run(root, go, n, items, s, ms) {
 
 function result(root, go, n, items, answers, r) {
   const sc = r.score, full = r.items || {};
-  root.innerHTML = '';
+  root.innerHTML = ''; delete root.dataset.nolookup;
   window.scrollTo(0, 0);
   const pct = sc.pct, msg = pct >= 80 ? '🌟 เยี่ยมมาก' : pct >= 60 ? '👍 ดีเลย' : n === 1 ? '🌱 จุดเริ่มต้นที่ดี' : '💪 สู้ต่อ';
   root.appendChild(el(`<div><h1>ผลชุดวัดผลครั้งที่ ${n}</h1>

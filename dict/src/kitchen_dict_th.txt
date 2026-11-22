@@ -1,0 +1,1759 @@
+# พจนานุกรมสั้นสำหรับ "กดค้างที่คำเพื่อดูความหมาย" ในครัว (TAYAK เขียนเอง · draft 28 ต.ค. 2026 รอบอสตรวจ)
+# คำ | ความหมายไทยสั้น ๆ · คำที่มีใน content/bank/src/vocab.txt และ kitchen_src/gloss_th.txt ไม่ต้องใส่ซ้ำ (build.py รวมให้)
+# คำอธิบายไวยากรณ์ (เช่น passive) อธิบายเป็นภาษาง่าย ๆ · ชื่อคน/ชื่อเมืองบอกว่าเป็นชื่อ
+the | คำนำหน้านามชี้เฉพาะ (ตัวนั้น สิ่งนั้น)
+to | ไปยัง · ถึง · (นำหน้ากริยา = จะ/เพื่อ)
+is | เป็น อยู่ คือ (ประธานเอกพจน์)
+in | ใน
+it | มัน สิ่งนั้น
+of | ของ · แห่ง
+you | คุณ เธอ พวกคุณ
+that | นั่น · ที่ว่า · ซึ่ง
+have | มี · ได้ (ทำแล้ว)
+for | สำหรับ · เพื่อ · เป็นเวลา
+and | และ
+at | ที่ · เวลา
+was | เป็น/อยู่ (อดีต เอกพจน์)
+on | บน · ในวันที่
+we | พวกเรา
+she | เธอ หล่อน
+what | อะไร
+be | เป็น อยู่ คือ
+are | เป็น อยู่ คือ (พหูพจน์/you)
+will | จะ
+not | ไม่
+my | ของฉัน
+would | จะ (สุภาพ/สมมติ)
+with | กับ · ด้วย
+school | โรงเรียน
+as | เหมือน · ในฐานะ · ขณะที่
+so | ดังนั้น · มาก
+has | มี (he/she/it)
+by | โดย · ข้าง ๆ · ภายใน (เวลา)
+had | มี (อดีต)
+he | เขา (ผู้ชาย)
+do | ทำ
+were | เป็น/อยู่ (อดีต พหูพจน์)
+your | ของคุณ
+this | นี่ นี้
+from | จาก
+who | ใคร · ผู้ซึ่ง
+than | กว่า (ใช้เปรียบเทียบ)
+very | มาก
+but | แต่
+more | มากกว่า · เพิ่ม
+can | สามารถ
+if | ถ้า
+no | ไม่ · ไม่มี
+an | หนึ่ง (นำหน้าคำที่ขึ้นต้นด้วยเสียงสระ)
+time | เวลา · ครั้ง
+her | ของเธอ · เธอ
+one | หนึ่ง · อันหนึ่ง
+should | ควร
+year | ปี
+about | เกี่ยวกับ · ประมาณ
+did | ทำ (อดีต)
+which | อันไหน · ซึ่ง
+me | ฉัน (กรรม)
+they | พวกเขา
+day | วัน
+like | ชอบ · เหมือน
+am | เป็น อยู่ (I)
+make | ทำ สร้าง
+does | ทำ (he/she/it)
+when | เมื่อไหร่ · เมื่อ
+must | ต้อง
+need | ต้องการ จำเป็น
+report | รายงาน
+been | เป็น/อยู่ (รูปที่ 3 ของ be)
+how | อย่างไร
+now | ตอนนี้
+some | บ้าง บางส่วน
+up | ขึ้น
+present | ปัจจุบัน · นำเสนอ · ของขวัญ
+i'm | ฉันเป็น/อยู่ (I am)
+because | เพราะว่า
+could | สามารถ (อดีต/สุภาพ)
+first | แรก อันดับหนึ่ง
+class | ชั้นเรียน · ห้องเรียน
+every | ทุก ๆ
+speak | พูด
+there | ที่นั่น · มี (there is)
+last | สุดท้าย · ที่แล้ว
+where | ที่ไหน
+yes | ใช่
+after | หลังจาก
+learn | เรียน เรียนรู้
+only | เท่านั้น
+please | กรุณา โปรด
+too | ด้วย · เกินไป
+go | ไป
+english | ภาษาอังกฤษ
+good | ดี
+get | ได้รับ · ไปถึง · กลายเป็น
+teach | สอน
+used | เคย (used to) · ใช้แล้ว · มือสอง
+verb | คำกริยา
+before | ก่อน
+all | ทั้งหมด
+book | หนังสือ · จอง
+don't | ไม่ (do not)
+many | มาก (นับได้)
+our | ของพวกเรา
+perfect | สมบูรณ์แบบ · (ไวยากรณ์) รูป have + กริยาช่อง 3
+them | พวกเขา (กรรม)
+two | สอง
+night | กลางคืน
+any | ใด ๆ · บ้างไหม
+ask | ถาม · ขอ
+live | อาศัยอยู่ · สด
+next | ถัดไป หน้า
+better | ดีกว่า
+clause | อนุประโยค (ส่วนของประโยคที่มีประธานและกริยา)
+their | ของพวกเขา
+look | มอง ดู
+mark | ตรวจให้คะแนน · เครื่องหมาย
+out | ออก ข้างนอก
+tell | บอก
+why | ทำไม
+call | เรียก · โทร
+didn't | ไม่ได้ (did not)
+left | ซ้าย · ออกไป/ทิ้งไว้ (อดีตของ leave)
+month | เดือน
+such | เช่นนั้น · อย่างนั้น
+know | รู้ รู้จัก
+article | บทความ · คำนำหน้านาม (a, an, the)
+give | ให้
+linkers | คำเชื่อมประโยค (however, therefore ฯลฯ)
+minute | นาที
+off | ออก ปิด · หยุดงาน
+past | อดีต · ผ่าน
+rather | ค่อนข้าง · มากกว่า (would rather = อยากจะ…มากกว่า)
+see | เห็น · พบ · เข้าใจ
+think | คิด
+baht | บาท
+grade | ชั้นปี · เกรด คะแนน
+passive | ประโยคถูกกระทำ (be + กริยาช่อง 3 เช่น was built)
+test | ทดสอบ · ข้อสอบ
+then | แล้ว · ตอนนั้น
+being | การเป็น · (รูป -ing ของ be)
+can't | ไม่สามารถ (cannot)
+home | บ้าน
+may | อาจจะ · ขออนุญาต
+put | วาง ใส่
+say | พูด บอก
+study | เรียน · ศึกษา
+three | สาม
+us | พวกเรา (กรรม)
+enough | พอ เพียงพอ
+room | ห้อง · ที่ว่าง
+said | พูด (อดีต)
+same | เหมือนกัน
+stay | พัก อยู่ต่อ
+told | บอก (อดีต)
+whether | ว่า…หรือไม่
+food | อาหาร
+going | กำลังไป · (be going to = จะ)
+job | งาน อาชีพ
+number | จำนวน · หมายเลข
+other | อื่น ๆ
+prepositions | คำบุพบท (in, on, at, by ฯลฯ)
+run | วิ่ง · ดำเนินการ
+stop | หยุด
+well | ดี · สบายดี · เอ่อ
+car | รถยนต์
+children | เด็ก ๆ ลูก ๆ
+i'll | ฉันจะ (I will)
+name | ชื่อ
+use | ใช้
+while | ขณะที่ · แม้ว่า
+without | โดยไม่มี
+conditional | ประโยคเงื่อนไข (if …)
+move | ย้าย เคลื่อน
+over | เหนือ · เกิน · จบแล้ว
+staff | พนักงาน บุคลากร
+thai | ไทย ภาษาไทย
+unless | เว้นแต่ ถ้าไม่
+best | ดีที่สุด
+dear | ที่รัก · เรียน (ขึ้นต้นจดหมาย)
+his | ของเขา
+or | หรือ
+relative | ญาติ · (relative clause = อนุประโยคขยายคำนาม ใช้ who/which/that)
+second | ที่สอง · วินาที
+since | ตั้งแต่ · เพราะว่า
+ten | สิบ
+until | จนกระทั่ง
+whose | ของใคร · ซึ่ง…ของ
+continuous | ต่อเนื่อง · (ไวยากรณ์) รูป be + -ing
+down | ลง
+during | ระหว่าง (ช่วงเวลา)
+far | ไกล · มาก (far better)
+find | หา พบ
+happen | เกิดขึ้น
+high | สูง
+interest | ความสนใจ · ดอกเบี้ย
+its | ของมัน
+library | ห้องสมุด
+listen | ฟัง
+nok | นก (ชื่อคน)
+between | ระหว่าง (สองสิ่ง)
+bring | นำมา
+hedging | การพูดอ้อม ๆ ไม่ฟันธง (perhaps, it seems)
+instead | แทนที่
+inversion | การสลับที่กริยาไว้หน้าประธาน (Never have I…)
+mother | แม่
+old | แก่ เก่า · อายุ
+pass | ผ่าน สอบผ่าน · ส่ง
+play | เล่น
+right | ถูกต้อง · ขวา · สิทธิ์
+scores | คะแนน
+sentence | ประโยค
+sit | นั่ง · เข้าสอบ (sit an exam)
+thirty | สามสิบ
+those | เหล่านั้น
+today | วันนี้
+tuesday | วันอังคาร
+wish | ปรารถนา อยากให้
+adult | ผู้ใหญ่
+afternoon | ตอนบ่าย
+again | อีกครั้ง
+argue | โต้เถียง · ให้เหตุผล
+bag | กระเป๋า ถุง
+both | ทั้งสอง
+candidate | ผู้สมัคร · ผู้เข้าสอบ
+drive | ขับรถ
+each | แต่ละ
+earlier | ก่อนหน้านี้
+found | พบ (อดีต) · ก่อตั้ง
+here | ที่นี่
+learner | ผู้เรียน
+less | น้อยกว่า
+might | อาจจะ
+modal | กริยาช่วยบอกความเป็นไปได้/หน้าที่ (can, must, should)
+notice | สังเกตเห็น · ประกาศ
+online | ออนไลน์
+pattern | รูปแบบ แบบแผน
+phrasal | (phrasal verb) กริยาวลี เช่น give up
+postpone | เลื่อนออกไป
+project | โครงการ
+restaurant | ร้านอาหาร
+send | ส่ง
+talk | พูดคุย
+turn | หมุน เลี้ยว · ตา (ถึงตาใคร)
+young | หนุ่มสาว อายุน้อย
+another | อีกอันหนึ่ง
+came | มา (อดีต)
+course | หลักสูตร คอร์ส · แน่นอน (of course)
+data | ข้อมูล
+dependent | ขึ้นอยู่กับ · พึ่งพา
+even | แม้แต่ · ยิ่งกว่านั้น
+form | แบบฟอร์ม · รูปแบบ · สร้าง
+hear | ได้ยิน
+matter | เรื่อง · สำคัญ (it doesn't matter)
+people | ผู้คน
+place | สถานที่ · วาง
+seen | เห็น (ช่อง 3)
+sister | พี่สาว น้องสาว
+soon | เร็ว ๆ นี้
+sorry | ขอโทษ เสียใจ
+suppose | คิดว่า สมมติว่า
+system | ระบบ
+under | ใต้ · ต่ำกว่า
+word | คำ
+afraid | กลัว · เกรงว่า
+brother | พี่ชาย น้องชาย
+child | เด็ก ลูก
+cost | ราคา ค่าใช้จ่าย
+decision | การตัดสินใจ
+essay | เรียงความ
+feel | รู้สึก
+hi | สวัสดี
+i'd | ฉันจะ/ฉันอยาก (I would)
+into | เข้าไปใน
+language | ภาษา
+list | รายการ
+lock | ล็อก ปิดกุญแจ
+lot | มาก (a lot)
+love | รัก ชอบมาก
+mind | จิตใจ · รังเกียจไหม (do you mind)
+mustn't | ห้าม (must not)
+point | จุด · ประเด็น · ชี้
+position | ตำแหน่ง
+prefer | ชอบมากกว่า
+review | ทบทวน · รีวิว
+saturday | วันเสาร์
+shall | จะ (เสนอ/ชวน: Shall we…?)
+six | หก
+something | บางสิ่ง
+still | ยังคง
+submit | ส่ง (งาน/เอกสาร)
+term | ภาคเรียน · คำศัพท์เฉพาะ
+these | เหล่านี้
+abroad | ต่างประเทศ
+alone | คนเดียว
+assessment | การประเมิน
+attendance | การเข้าเรียน/เข้าร่วม
+back | กลับ · หลัง
+bad | แย่ ไม่ดี
+bangkok | กรุงเทพฯ
+built | สร้าง (อดีต/ช่อง 3)
+cancel | ยกเลิก
+coffee | กาแฟ
+department | แผนก ฝ่าย
+doesn't | ไม่ (does not)
+email | อีเมล
+everyone | ทุกคน
+evidence | หลักฐาน
+examine | ตรวจสอบ
+final | สุดท้าย · รอบชิง
+isn't | ไม่ใช่ (is not)
+key | กุญแจ · สำคัญ
+nothing | ไม่มีอะไร
+often | บ่อย ๆ
+own | ของตัวเอง · เป็นเจ้าของ
+ploy | พลอย (ชื่อคน)
+prove | พิสูจน์
+red | สีแดง
+seem | ดูเหมือน
+sick | ป่วย
+side | ด้าน ข้าง
+sports | กีฬา
+stress | ความเครียด · เน้นเสียง
+taxi | แท็กซี่
+tonight | คืนนี้
+usual | ตามปกติ
+walk | เดิน
+whom | ใคร (รูปกรรม)
+yet | ยัง (ยังไม่) · แต่
+attention | ความสนใจ ความใส่ใจ
+author | ผู้เขียน
+bed | เตียง
+club | ชมรม
+comment | ความคิดเห็น
+comparatives | รูปเปรียบเทียบขั้นกว่า (bigger, more …)
+full | เต็ม
+future | อนาคต
+garden | สวน
+handwriting | ลายมือ
+inform | แจ้ง บอกให้ทราบ
+nobody | ไม่มีใคร
+noodle | ก๋วยเตี๋ยว เส้น
+park | สวนสาธารณะ · จอดรถ
+part | ส่วน
+participle | กริยารูป -ing หรือช่อง 3 (ใช้ประกอบกริยาช่วย)
+river | แม่น้ำ
+silent | เงียบ · ไม่ออกเสียง
+single | เดี่ยว · โสด
+son | ลูกชาย
+success | ความสำเร็จ
+thought | คิด (อดีต) · ความคิด
+traffic | การจราจร รถติด
+trip | การเดินทาง ทริป
+try | พยายาม ลอง
+twice | สองครั้ง
+wednesday | วันพุธ
+abandon | ละทิ้ง
+also | ด้วย เช่นกัน
+anyone | ใครก็ตาม
+august | เดือนสิงหาคม
+beautiful | สวยงาม
+begin | เริ่ม
+believe | เชื่อ
+breakfast | อาหารเช้า
+cannot | ไม่สามารถ
+case | กรณี · คดี · กล่อง
+committee | คณะกรรมการ
+consider | พิจารณา
+difference | ความแตกต่าง
+doing | กำลังทำ
+door | ประตู
+draw | วาด · เสมอ
+ever | เคย (ในคำถาม) · ตลอดไป
+failure | ความล้มเหลว
+fifteen | สิบห้า
+gave | ให้ (อดีต)
+given | ให้ (ช่อง 3) · เมื่อพิจารณาว่า
+goes | ไป (he/she/it)
+grammar | ไวยากรณ์
+great | ยอดเยี่ยม · ยิ่งใหญ่
+group | กลุ่ม
+head | หัว · หัวหน้า · มุ่งหน้า
+him | เขา (กรรม)
+hold | ถือ · จัด (งาน)
+hotel | โรงแรม
+lack | ขาด ไม่มี
+meet | พบ
+mine | ของฉัน
+ms | คุณ (ผู้หญิง ไม่ระบุสถานะสมรส)
+neither | ไม่ทั้งสอง · ก็ไม่เหมือนกัน
+nevertheless | อย่างไรก็ตาม
+paper | กระดาษ · ข้อสอบ · บทความ
+pen | ปากกา
+perhaps | บางที
+pilot | นักบิน · ทดลองนำร่อง
+print | พิมพ์
+quantifiers | คำบอกปริมาณ (some, many, a few)
+quite | ค่อนข้าง · ทีเดียว
+raise | ยก เพิ่ม · เลี้ยงดู
+routine | กิจวัตร
+scheme | โครงการ แผน
+sea | ทะเล
+sent | ส่ง (อดีต)
+shouldn't | ไม่ควร
+spent | ใช้ (เวลา/เงิน อดีต)
+station | สถานี
+studied | เรียน (อดีต)
+task | งาน ภารกิจ
+themselves | ตัวพวกเขาเอง
+thursday | วันพฤหัสบดี
+toilet | ห้องน้ำ
+vocabulary | คำศัพท์
+way | ทาง · วิธี
+win | ชนะ
+according | ตามที่ (according to)
+across | ข้าม · ทั่ว
+activity | กิจกรรม
+addition | การเพิ่ม · นอกจากนี้ (in addition)
+among | ท่ามกลาง (หลายสิ่ง)
+argument | ข้อโต้แย้ง · การทะเลาะ
+away | ห่างออกไป
+ban | ห้าม
+bore | ทำให้เบื่อ
+box | กล่อง
+bread | ขนมปัง
+circumstances | สถานการณ์ สภาพแวดล้อม
+cleft | (cleft sentence) ประโยคเน้น It was … that …
+complaint | คำร้องเรียน
+customer | ลูกค้า
+deal | ข้อตกลง · จัดการ (deal with)
+desk | โต๊ะทำงาน
+detailed | ละเอียด
+dinner | อาหารเย็น
+discourage | ทำให้ท้อ · ห้ามปราม
+dish | จานอาหาร
+done | ทำ (ช่อง 3) · เสร็จ
+eaten | กิน (ช่อง 3)
+egg | ไข่
+eight | แปด
+end | จบ ปลาย
+fact | ข้อเท็จจริง
+five | ห้า
+focus | มุ่งเน้น
+follow | ตาม ปฏิบัติตาม
+forgot | ลืม (อดีต)
+forward | ไปข้างหน้า · ส่งต่อ
+front | ด้านหน้า
+fund | เงินทุน · ให้ทุน
+goal | เป้าหมาย
+got | ได้ (อดีต)
+grown | เติบโต (ช่อง 3)
+heard | ได้ยิน (อดีต)
+inside | ข้างใน
+just | เพิ่ง · แค่ · ยุติธรรม
+kilo | กิโลกรัม
+known | รู้จัก (ช่อง 3) · เป็นที่รู้จัก
+life | ชีวิต
+lost | หาย แพ้ (อดีต)
+mai | ใหม่ (ชื่อคน)
+math | คณิตศาสตร์
+merge | รวมเข้าด้วยกัน
+met | พบ (อดีต)
+motorbike | รถจักรยานยนต์
+music | ดนตรี
+native | เจ้าของภาษา · พื้นเมือง
+observe | สังเกต
+obsolete | ล้าสมัย เลิกใช้แล้ว
+once | ครั้งหนึ่ง · เมื่อ (ทันทีที่)
+otherwise | มิฉะนั้น
+per | ต่อ (per day = ต่อวัน)
+piece | ชิ้น
+pim | พิม (ชื่อคน)
+practice | การฝึก · ฝึก
+pronoun | คำสรรพนาม (he, she, it)
+remain | ยังคง เหลืออยู่
+ring | แหวน · โทรหา · เสียงดัง
+seven | เจ็ด
+several | หลาย
+shirt | เสื้อเชิ้ต
+site | สถานที่ · เว็บไซต์
+spite | ทั้งที่ (in spite of = แม้ว่า)
+swim | ว่ายน้ำ
+taken | เอา (ช่อง 3)
+tend | มักจะ
+thailand | ประเทศไทย
+therefore | ดังนั้น
+thing | สิ่งของ เรื่อง
+third | ที่สาม
+though | แม้ว่า · แต่ก็
+tire | ทำให้เหนื่อย · ยางรถ
+tourists | นักท่องเที่ยว
+town | เมือง
+true | จริง
+type | ประเภท · พิมพ์
+university | มหาวิทยาลัย
+value | คุณค่า · มูลค่า
+wasn't | ไม่ได้เป็น (was not)
+whatever | อะไรก็ตาม
+window | หน้าต่าง
+within | ภายใน
+won't | จะไม่ (will not)
+you're | คุณเป็น/อยู่ (you are)
+abolish | ยกเลิก (กฎ/ระบบ)
+address | ที่อยู่ · กล่าวถึง/จัดการ (ปัญหา)
+ago | ที่แล้ว (เวลาผ่านมา)
+ahead | ข้างหน้า ล่วงหน้า
+aim | เป้าหมาย · มุ่ง
+almost | เกือบ
+announced | ประกาศ (อดีต)
+anywhere | ที่ไหนก็ได้
+apply | สมัคร · นำไปใช้
+area | พื้นที่ · ด้าน
+become | กลายเป็น
+began | เริ่ม (อดีต)
+birthday | วันเกิด
+black | สีดำ
+brief | สั้น กระชับ · สรุปให้ฟัง
+cake | เค้ก
+cautious | ระมัดระวัง
+chair | เก้าอี้ · ประธาน (ที่ประชุม)
+chapter | บท
+chiang | เชียง (ชื่อเมือง เช่น Chiang Mai)
+coding | การเขียนโปรแกรม
+contact | ติดต่อ
+conversation | บทสนทนา
+coordinator | ผู้ประสานงาน
+criticise | วิจารณ์
+curry | แกง
+dao | ดาว (ชื่อคน)
+decade | ทศวรรษ (สิบปี)
+different | แตกต่าง
+director | ผู้อำนวยการ
+district | อำเภอ เขต
+dog | สุนัข
+either | อย่างใดอย่างหนึ่ง · ก็ไม่เช่นกัน
+embarrassed | อาย ขายหน้า
+error | ข้อผิดพลาด
+examination | การสอบ
+excellent | ยอดเยี่ยม
+expert | ผู้เชี่ยวชาญ
+extent | ขอบเขต ระดับ (to some extent)
+fall | ตก ล้ม · ฤดูใบไม้ร่วง
+father | พ่อ
+favourite | ที่ชอบที่สุด
+figure | ตัวเลข · รูป · คิดออก (figure out)
+film | ภาพยนตร์
+football | ฟุตบอล
+further | ไกลกว่า · เพิ่มเติม
+gap | ช่องว่าง
+government | รัฐบาล
+grandmother | ยาย ย่า
+green | สีเขียว
+hire | จ้าง · เช่า
+i've | ฉันได้ (I have)
+international | นานาชาติ
+introduced | แนะนำ · นำมาใช้ (อดีต)
+kaen | แก่น (Khon Kaen = ขอนแก่น)
+khon | ขอน (Khon Kaen = ขอนแก่น)
+knew | รู้ (อดีต)
+large | ใหญ่
+least | น้อยที่สุด · อย่างน้อย (at least)
+level | ระดับ
+main | หลัก สำคัญ
+manifesto | แถลงการณ์นโยบาย
+march | เดือนมีนาคม · เดินขบวน
+means | หมายถึง · วิธี
+mr | คุณ (ผู้ชาย)
+nine | เก้า
+particular | โดยเฉพาะ
+photo | รูปถ่าย
+ran | วิ่ง (อดีต)
+record | บันทึก · สถิติ
+reply | ตอบกลับ
+revise | ทบทวน · แก้ไข
+round | กลม · รอบ
+scarce | หายาก ขาดแคลน
+scenario | สถานการณ์สมมติ
+secondary | มัธยม · รอง
+set | ชุด · ตั้ง กำหนด
+sharp | คม · ตรงเวลา (six sharp)
+shoes | รองเท้า
+som | ส้ม (ชื่อคน)
+sound | เสียง · ฟังดู
+speech | สุนทรพจน์ · การพูด
+struggle | ดิ้นรน ลำบาก
+tag | ป้าย · (question tag) คำถามท้ายประโยค isn't it?
+through | ผ่าน ทะลุ
+together | ด้วยกัน
+treated | ปฏิบัติต่อ · รักษา (อดีต)
+twenty | ยี่สิบ
+view | มุมมอง · ชม
+volunteer | อาสาสมัคร
+watching | กำลังดู
+whereby | ซึ่งโดยวิธีนั้น
+willingness | ความเต็มใจ
+workshop | การอบรมเชิงปฏิบัติการ
+worth | คุ้มค่า · มีมูลค่า
+wouldn't | จะไม่ (would not)
+written | เขียน (ช่อง 3) · เป็นลายลักษณ์อักษร
+able | สามารถ
+additional | เพิ่มเติม
+advance | ล่วงหน้า · ก้าวหน้า
+advantage | ข้อดี ข้อได้เปรียบ
+adverbs | คำกริยาวิเศษณ์ (quickly, often)
+advertise | โฆษณา
+aggravate | ทำให้แย่ลง
+alarm | สัญญาณเตือน · นาฬิกาปลุก
+analogy | การเปรียบเทียบ
+analysis | การวิเคราะห์
+anyway | อย่างไรก็ตาม
+appeal | ดึงดูดใจ · ร้องขอ · อุทธรณ์
+aree | อารี (ชื่อคน)
+around | รอบ ๆ · ประมาณ
+assumed | สันนิษฐาน (อดีต)
+assumes | สันนิษฐาน คิดเอาเอง
+ate | กิน (อดีต)
+award | รางวัล · มอบ
+became | กลายเป็น (อดีต)
+bicycle | จักรยาน
+bigger | ใหญ่กว่า
+blue | สีน้ำเงิน
+board | กระดาน · คณะกรรมการ · ขึ้น (รถ/เครื่อง)
+breakdown | รายละเอียดแยกส่วน · การเสีย/พัง
+bridge | สะพาน
+canteen | โรงอาหาร
+carrot | แครอท
+cent | เซนต์ · เปอร์เซ็นต์ (per cent)
+century | ศตวรรษ
+circle | วงกลม · วงล้อม
+city | เมืองใหญ่
+commitment | ความมุ่งมั่น · พันธะ
+comparison | การเปรียบเทียบ
+competition | การแข่งขัน
+conclude | สรุป
+conclusion | บทสรุป
+concrete | ชัดเจนจับต้องได้ · คอนกรีต
+condition | เงื่อนไข · สภาพ
+considerable | มากพอสมควร
+continue | ดำเนินต่อ
+contrast | ความต่าง · ในทางตรงข้าม (in contrast)
+control | ควบคุม
+count | นับ
+cried | ร้องไห้ (อดีต)
+date | วันที่ · นัด
+dean | คณบดี
+december | เดือนธันวาคม
+decrease | ลดลง
+definitely | แน่นอน
+degree | ปริญญา · องศา · ระดับ
+demands | ความต้องการ · เรียกร้อง
+difficulty | ความยากลำบาก
+dirty | สกปรก
+disaster | หายนะ ภัยพิบัติ
+discomfort | ความไม่สบาย อึดอัด
+doubt | สงสัย ไม่แน่ใจ
+drove | ขับรถ (อดีต)
+due | ถึงกำหนด · เนื่องจาก (due to)
+effect | ผลกระทบ
+everything | ทุกสิ่ง
+except | ยกเว้น
+excuse | ข้อแก้ตัว · ขอโทษ (excuse me)
+exhausted | เหนื่อยมาก
+eye | ตา
+fear | ความกลัว
+fell | ตก ล้ม (อดีต)
+felt | รู้สึก (อดีต)
+flat | แบน · แฟลต/ห้องชุด
+flatter | ประจบ ยอ
+foreign | ต่างชาติ
+forty | สี่สิบ
+four | สี่
+fresh | สด ใหม่
+fried | ทอด ผัด
+gerund | กริยารูป -ing ที่ใช้เป็นคำนาม (swimming is fun)
+gift | ของขวัญ
+glad | ดีใจ
+gone | ไป (ช่อง 3)
+grateful | ขอบคุณ ซาบซึ้ง
+grew | เติบโต (อดีต)
+handle | จัดการ · ด้ามจับ
+hat | หมวก
+haven't | ยังไม่ได้ (have not)
+hello | สวัสดี
+higher-performing | ที่ทำผลงานได้ดีกว่า
+himself | ตัวเขาเอง
+ill | ป่วย
+immersion | การเรียนแบบแช่ตัวในภาษา (ใช้ภาษานั้นตลอด)
+impressed | ประทับใจ
+inefficient | ไม่มีประสิทธิภาพ
+infinitive | กริยารูป to + กริยาเดิม (to go)
+instruction | คำสั่ง · การสอน
+japan | ประเทศญี่ปุ่น
+japanese | ภาษา/คนญี่ปุ่น
+july | เดือนกรกฎาคม
+june | เดือนมิถุนายน
+kai | ไก่ (ชื่อคน)
+khun | คุณ (คำนำหน้าชื่อแบบไทย)
+krit | กฤษณ์ (ชื่อคน)
+letter | จดหมาย · ตัวอักษร
+lie | นอนลง · โกหก
+lose | สูญเสีย · แพ้
+luck | โชค
+lying | กำลังนอน · กำลังโกหก
+majority | ส่วนใหญ่
+management | การบริหารจัดการ · ฝ่ายบริหาร
+maybe | บางที
+memorise | ท่องจำ
+menu | เมนู
+ministry | กระทรวง
+mix | ผสม
+module | หน่วยการเรียน
+needn't | ไม่จำเป็นต้อง
+none | ไม่มีเลย
+north | ทิศเหนือ
+note | โน้ต บันทึก · สังเกต
+noun | คำนาม
+objection | ข้อคัดค้าน
+opposite | ตรงข้าม
+optimise | ทำให้ดีที่สุด ปรับให้เหมาะ
+orange | ส้ม · สีส้ม
+original | ต้นฉบับ · ดั้งเดิม
+ought | ควร (ought to)
+outstanding | โดดเด่น · ค้างอยู่ (งาน/หนี้)
+page | หน้า (หนังสือ)
+pang | แป้ง (ชื่อคน)
+pat | แพท (ชื่อคน)
+phrase | วลี
+phuket | ภูเก็ต
+physiotherapist | นักกายภาพบำบัด
+pick | เลือก · หยิบ · ไปรับ (pick up)
+pool | สระว่ายน้ำ · กลุ่มรวม
+possessive | รูปแสดงความเป็นเจ้าของ (my, 's)
+power | พลัง อำนาจ · ไฟฟ้า
+produced | ผลิต (อดีต)
+programme | โปรแกรม รายการ หลักสูตร
+proposal | ข้อเสนอ
+purchase | ซื้อ
+rang | โทร/ดัง (อดีตของ ring)
+regardless | โดยไม่คำนึงถึง
+remarkably | อย่างน่าทึ่ง
+renew | ต่ออายุ
+repeatedly | ซ้ำ ๆ
+residents | ผู้อยู่อาศัย
+risk | ความเสี่ยง
+rude | หยาบคาย
+select | เลือก
+shower | อาบน้ำฝักบัว · ฝนตกปรอย
+shrink | หดตัว เล็กลง
+simply | เพียงแค่ · ง่าย ๆ
+slightly | เล็กน้อย
+someone | ใครบางคน
+sometimes | บางครั้ง
+specific | เฉพาะเจาะจง
+spoken | พูด (ช่อง 3) · ภาษาพูด
+spoon | ช้อน
+stall | แผงขายของ
+stand | ยืน · ทน
+standards | มาตรฐาน
+subjunctive | รูปกริยาแสดงข้อเสนอ/ความปรารถนา (suggest that he be…)
+succeed | สำเร็จ
+suffer | ทุกข์ทรมาน · ประสบ (ปัญหา)
+sugar | น้ำตาล
+summer | ฤดูร้อน
+sun | ดวงอาทิตย์
+survey | การสำรวจ แบบสอบถาม
+suspect | สงสัย · ผู้ต้องสงสัย
+sweet | หวาน
+team | ทีม
+terrible | แย่มาก
+tom | ต้อม (ชื่อคน)
+tomatoes | มะเขือเทศ
+tree | ต้นไม้
+twelve | สิบสอง
+understand | เข้าใจ
+update | อัปเดต ปรับปรุงข้อมูล
+vegetable | ผัก
+we'll | พวกเราจะ (we will)
+we've | พวกเราได้ (we have)
+wealthy | ร่ำรวย
+website | เว็บไซต์
+whole | ทั้งหมด
+woman | ผู้หญิง
+worry | กังวล
+wrote | เขียน (อดีต)
+zero | ศูนย์
+absolute | โดยสิ้นเชิง สมบูรณ์
+abundant | มีมากมาย
+accuse | กล่าวหา
+adaptable | ปรับตัวได้
+adjectives | คำคุณศัพท์ (big, happy)
+advise | แนะนำ
+age | อายุ
+airport | สนามบิน
+altogether | ทั้งหมด · โดยสิ้นเชิง
+amount | จำนวน ปริมาณ
+analysed | วิเคราะห์ (อดีต)
+ancient | โบราณ
+anything | อะไรก็ได้ · สิ่งใด
+appears | ปรากฏ · ดูเหมือน
+applied | สมัคร · นำไปใช้ (อดีต)
+appraisal | การประเมินผลงาน
+appreciated | ซาบซึ้ง ขอบคุณ (อดีต)
+approve | อนุมัติ เห็นชอบ
+aren't | ไม่ (are not)
+arrange | จัดการ จัดเตรียม
+arrogant | หยิ่ง
+asleep | หลับ
+assistant | ผู้ช่วย
+astonished | ประหลาดใจมาก
+barely | แทบจะไม่
+beginners | ผู้เริ่มต้น
+begun | เริ่ม (ช่อง 3)
+bell | กระดิ่ง ระฆัง
+beyond | เกินกว่า เลยไป
+blamed | ตำหนิ โทษ (อดีต)
+blanket | ผ้าห่ม
+boiling | เดือด · ร้อนมาก
+bonuses | โบนัส
+bookseller | คนขายหนังสือ
+bottles | ขวด
+brain | สมอง
+brilliant | ยอดเยี่ยม ฉลาดมาก
+cafe | ร้านกาแฟ
+camp | ค่าย
+capacity | ความจุ · ความสามารถ
+cat | แมว
+catch | จับ · ทัน (รถ)
+causative | โครงสร้างให้คนอื่นทำ (have/get something done)
+certificates | ใบประกาศ ใบรับรอง
+chat | คุยเล่น · แชต
+cheat | โกง
+chicken | ไก่
+chief | หัวหน้า · หลัก
+childcare | การดูแลเด็ก
+chillies | พริก
+choices | ตัวเลือก
+chop | สับ หั่น
+circulate | เวียน (เอกสาร) · หมุนเวียน
+claim | อ้าง · เรียกร้อง
+collaboration | ความร่วมมือ
+collocations | คำที่มักใช้คู่กัน (make a decision)
+column | คอลัมน์ · เสา
+commit | มุ่งมั่น · กระทำ (ความผิด)
+complacent | พอใจในตัวเองจนประมาท
+compromise | ประนีประนอม
+computers | คอมพิวเตอร์
+concentration | สมาธิ · ความเข้มข้น
+concern | ความกังวล · เกี่ยวข้อง
+concession | การยอมรับบางส่วน (แม้ว่า…)
+congratulations | ยินดีด้วย
+contrary | ตรงกันข้าม (on the contrary)
+convinced | มั่นใจ เชื่อแล้ว
+convincing | น่าเชื่อถือ
+cope | รับมือ
+copy | สำเนา · คัดลอก
+couldn't | ไม่สามารถ (could not)
+council | สภา คณะกรรมการ
+create | สร้าง
+criticism | คำวิจารณ์
+crossed-out | ที่ขีดฆ่าออก
+crossing | ทางข้าม · การข้าม
+daughter | ลูกสาว
+decorate | ตกแต่ง
+deduction | การอนุมาน · การหักออก
+definition | คำจำกัดความ
+delighted | ยินดีมาก
+design | ออกแบบ
+devices | อุปกรณ์
+disappearance | การหายไป
+discover | ค้นพบ
+distinguishes | แยกแยะ
+doctor | หมอ
+double | สองเท่า คู่
+dr | ดร. · นายแพทย์
+drift | ลอยไป · ค่อย ๆ เปลี่ยน
+dry | แห้ง
+easier | ง่ายกว่า
+easily | อย่างง่ายดาย
+editor | บรรณาธิการ
+educated | มีการศึกษา
+else | อื่น ๆ (someone else)
+elsewhere | ที่อื่น
+engage | มีส่วนร่วม · ดึงความสนใจ
+england | ประเทศอังกฤษ
+enormous | ใหญ่โตมหาศาล
+entirely | ทั้งหมด โดยสิ้นเชิง
+evaluators | ผู้ประเมิน
+evasive | เลี่ยงไม่ตอบตรง
+event | เหตุการณ์ · งาน (อีเวนต์)
+evident | เห็นได้ชัด
+examiner | ผู้คุมสอบ กรรมการสอบ
+example | ตัวอย่าง
+exclude | กีดกัน ไม่รวม
+exclusive | เฉพาะ · ผูกขาด
+expedite | เร่งให้เร็วขึ้น
+express | แสดงออก · ด่วน
+extrinsic | จากภายนอก (แรงจูงใจจากรางวัล)
+faces | เผชิญ · ใบหน้า
+factory | โรงงาน
+faculty | คณะ (ในมหาวิทยาลัย) · คณาจารย์
+fascinating | น่าหลงใหล น่าสนใจมาก
+feature | ลักษณะเด่น · นำเสนอ
+fern | เฟิร์น (ชื่อคน)
+file | แฟ้ม ไฟล์ · ยื่น (เรื่อง)
+fill | เติม กรอก
+filthy | สกปรกมาก
+fish | ปลา · ตกปลา
+fix | ซ่อม แก้ไข
+flour | แป้ง (ทำขนม)
+flowers | ดอกไม้
+fluency | ความคล่องแคล่ว (ในการพูด)
+foot | เท้า · ฟุต
+forbid | ห้าม
+four-day | สี่วัน
+frequency | ความถี่
+frequently | บ่อย ๆ
+fruit | ผลไม้
+furious | โกรธจัด
+futile | ไร้ผล เปล่าประโยชน์
+gain | ได้รับ เพิ่มขึ้น
+gather | รวบรวม · ชุมนุม
+gently | อย่างอ่อนโยน
+glass | แก้ว กระจก
+grandfather | ปู่ ตา
+grilled | ย่าง
+ground | พื้นดิน · เหตุผล (grounds)
+guidance | คำแนะนำ การชี้แนะ
+guitar | กีตาร์
+half | ครึ่ง
+high-performing | ที่ทำผลงานได้ดี
+high-stakes | ที่มีผลได้ผลเสียสูง
+hilarious | ตลกมาก
+hindsight | การมองย้อนหลังแล้วเข้าใจ
+hisself | (รูปผิด ที่ถูกคือ himself)
+historical | ทางประวัติศาสตร์
+holders | ผู้ถือ (ตั๋ว/บัตร)
+hotter | ร้อนกว่า
+hottest | ร้อนที่สุด
+humble | ถ่อมตัว
+hurt | เจ็บ ทำร้าย
+husband | สามี
+immediate | ทันที
+implementation | การนำไปปฏิบัติ
+inconsistency | ความไม่สม่ำเสมอ ขัดแย้งกันเอง
+inconvenience | ความไม่สะดวก
+initial | เริ่มแรก
+inspection | การตรวจสอบ
+institutions | สถาบัน
+insufficient | ไม่เพียงพอ
+intent | ความตั้งใจ · มุ่งมั่น
+internet | อินเทอร์เน็ต
+investigate | สืบสวน ตรวจสอบ
+isolation | การแยกตัว · โดดเดี่ยว
+italian | ภาษา/คนอิตาลี
+itself | ตัวมันเอง
+join | เข้าร่วม · เชื่อม
+judge | ตัดสิน · ผู้พิพากษา
+jump | กระโดด
+kilometre | กิโลเมตร
+lab | ห้องปฏิบัติการ
+led | นำ (อดีตของ lead)
+legs | ขา
+lin | หลิน (ชื่อคน)
+link | เชื่อม · ลิงก์
+ll | จะ ('ll = will)
+long-term | ระยะยาว
+loosely | อย่างหลวม ๆ
+machine | เครื่องจักร
+maha | มหา (Maha Sarakham = มหาสารคาม)
+mali | มะลิ (ชื่อคน)
+man | ผู้ชาย
+mandatory | บังคับ
+master | เชี่ยวชาญ · ปริญญาโท · นาย
+mathematics | คณิตศาสตร์
+maximum | สูงสุด
+meant | หมายถึง · ตั้งใจ (อดีต)
+measurable | วัดได้
+measurement | การวัด
+mechanism | กลไก
+medical | ทางการแพทย์
+members | สมาชิก
+membership | การเป็นสมาชิก
+memo | บันทึกข้อความ (ในองค์กร)
+mental | ทางจิตใจ
+mentoring | การเป็นพี่เลี้ยง
+metaphor | อุปมาอุปไมย
+midnight | เที่ยงคืน
+minimum | ต่ำสุด
+minority | ส่วนน้อย
+misleading | ชวนให้เข้าใจผิด
+mobile | มือถือ · เคลื่อนที่
+moral | ศีลธรรม · คติสอนใจ
+motivation | แรงจูงใจ
+mourn | ไว้อาลัย
+movie | ภาพยนตร์
+museum | พิพิธภัณฑ์
+national | ระดับชาติ
+negligible | น้อยจนไม่มีนัยสำคัญ
+networks | เครือข่าย
+numerous | จำนวนมาก
+nun | นุ่น (ชื่อคน)
+o'clock | นาฬิกา (บอกเวลาเต็มชั่วโมง)
+occasional | เป็นครั้งคราว
+occupation | อาชีพ
+offer | เสนอ · ข้อเสนอ
+opaque | ทึบ · เข้าใจยาก
+opinion | ความคิดเห็น
+optimistic | มองโลกในแง่ดี
+oven | เตาอบ
+owners | เจ้าของ
+packed | แน่นขนัด · จัดกระเป๋าแล้ว
+painstaking | พิถีพิถัน ละเอียดมาก
+paragraphs | ย่อหน้า
+participants | ผู้เข้าร่วม
+patience | ความอดทน
+peer | เพื่อนร่วมงาน/ร่วมชั้น
+perform | ทำ (งาน) · แสดง
+person | คน บุคคล
+pipe | ท่อ
+pity | น่าเสียดาย · สงสาร
+pleasure | ความยินดี ความสุข
+positive | เชิงบวก · แน่ใจ
+praise | ชม
+praiseworthy | น่าชื่นชม
+predict | ทำนาย
+predictor | ตัวทำนาย
+pressure | ความกดดัน
+primary | ประถม · หลัก
+productive | มีผลผลิตดี ได้งาน
+profound | ลึกซึ้ง
+promise | สัญญา
+published | ตีพิมพ์ เผยแพร่ (อดีต)
+pull | ดึง
+punished | ลงโทษ (อดีต)
+race | การแข่ง · เชื้อชาติ
+rank | อันดับ ยศ
+reform | ปฏิรูป
+registration | การลงทะเบียน
+relax | พักผ่อน ผ่อนคลาย
+relieve | บรรเทา
+remedy | วิธีแก้ · เยียวยา
+removes | เอาออก ลบ
+replacement | สิ่งทดแทน · ตัวแทน
+requirements | ข้อกำหนด สิ่งที่ต้องมี
+research | การวิจัย
+researchers | นักวิจัย
+resentment | ความขุ่นเคือง
+response | การตอบสนอง คำตอบ
+rest | พัก · ที่เหลือ
+restructuring | การปรับโครงสร้าง
+rise | เพิ่มขึ้น · ขึ้น (พระอาทิตย์)
+rose | เพิ่มขึ้น (อดีต) · ดอกกุหลาบ
+safe | ปลอดภัย
+sarakham | สารคาม (Maha Sarakham = มหาสารคาม)
+semester | ภาคเรียน
+september | เดือนกันยายน
+sessions | ช่วงเวลา (ประชุม/เรียน) คาบ
+severe | รุนแรง
+shows | แสดง · รายการ
+shut | ปิด
+shuttle | รถรับส่ง
+silence | ความเงียบ
+singapore | สิงคโปร์
+situation | สถานการณ์
+smartphone | สมาร์ตโฟน
+smoothly | อย่างราบรื่น
+somewhere | ที่ไหนสักแห่ง
+soup | ซุป
+span | ช่วง (เวลา/ความยาว)
+speaker | ผู้พูด · ลำโพง
+speculation | การคาดเดา
+spliced | (comma splice) เอาสองประโยคมาต่อกันด้วยจุลภาคอย่างผิด ๆ
+spoke | พูด (อดีต)
+stage | เวที · ขั้นตอน
+stealing | การขโมย
+steps | ขั้นตอน · บันได
+stifle | กดทับ ขัดขวาง (ความคิด)
+stolen | ถูกขโมย (ช่อง 3)
+strengthen | ทำให้แข็งแรงขึ้น
+striking | โดดเด่น สะดุดตา
+structure | โครงสร้าง
+stunning | สวยตะลึง น่าทึ่ง
+substitution | การแทนที่
+sudden | กะทันหัน
+summary | บทสรุป
+superficial | ผิวเผิน
+superlatives | รูปเปรียบเทียบขั้นสูงสุด (biggest, most …)
+supporters | ผู้สนับสนุน
+surprise | ความประหลาดใจ · ทำให้แปลกใจ
+switched | เปลี่ยน สลับ (อดีต)
+switching | การเปลี่ยน สลับ
+tablets | แท็บเล็ต · เม็ดยา
+tan | แทน (ชื่อคน)
+taxes | ภาษี
+techniques | เทคนิค วิธีการ
+technology | เทคโนโลยี
+terrified | กลัวมาก
+th | (ลงท้ายลำดับที่ เช่น 5th = ที่ 5)
+thereby | ด้วยเหตุนั้น
+thousands | หลายพัน
+thrilled | ตื่นเต้นดีใจมาก
+tiredness | ความเหนื่อยล้า
+tones | น้ำเสียง · โทน
+topic | หัวข้อ
+transfer | โอน ย้าย
+transparent | โปร่งใส
+travellers | นักเดินทาง
+trial | การทดลอง · การพิจารณาคดี
+trivial | เล็กน้อย ไม่สำคัญ
+udon | อุดร (Udon Thani = อุดรธานี)
+un | (คำนำหน้าแปลว่า ไม่ เช่น unhappy)
+unavoidable | หลีกเลี่ยงไม่ได้
+uncomfortable | ไม่สบาย อึดอัด
+understood | เข้าใจ (อดีต/ช่อง 3)
+unedited | ยังไม่ได้แก้ไข
+unenough | (รูปผิด ที่ถูกคือ not enough)
+unlike | ไม่เหมือน · ต่างจาก
+unsure | ไม่แน่ใจ
+upward | ขึ้นข้างบน
+videos | วิดีโอ
+wary | ระแวง ระวังตัว
+wear | สวมใส่
+welcome | ยินดีต้อนรับ
+wet | เปียก
+wherever | ที่ไหนก็ตาม
+whisper | กระซิบ
+wifi | ไวไฟ
+withdraw | ถอน (เงิน/ตัว)
+wonder | สงสัย · สิ่งมหัศจรรย์
+workers | คนงาน พนักงาน
+world | โลก
+yoga | โยคะ
+absence | การขาด ไม่อยู่
+absorb | ดูดซับ
+academic | ทางวิชาการ
+acceptable | ยอมรับได้
+access | การเข้าถึง
+accidents | อุบัติเหตุ
+acclimatise | ปรับตัวให้ชิน
+accommodate | รองรับ · จัดที่พักให้
+accompanied | ไปด้วย ตามไปด้วย (อดีต)
+accuracy | ความถูกต้องแม่นยำ
+action | การกระทำ
+administration | การบริหาร · ฝ่ายธุรการ
+administrative | เกี่ยวกับงานธุรการ/บริหาร
+adolescents | วัยรุ่น
+adopted | นำมาใช้ · รับเลี้ยง (อดีต)
+advert | โฆษณา
+after-school | หลังเลิกเรียน
+afterthought | ความคิดที่นึกได้ทีหลัง
+against | ต่อต้าน · ตรงข้าม · พิง
+agenda | วาระการประชุม
+air | อากาศ
+allen | อัลเลน (ชื่อคน)
+allergy | อาการแพ้
+alternative | ทางเลือก
+ann | แอน (ชื่อคน)
+annotated | ที่มีคำอธิบายประกอบ
+annoying | น่ารำคาญ
+annul | ยกเลิก ทำให้เป็นโมฆะ
+apart | แยกออก ห่างกัน
+apology | คำขอโทษ
+apostrophe | เครื่องหมาย ' (เช่น don't, Tom's)
+appetite | ความอยากอาหาร
+apple | แอปเปิล
+applicants | ผู้สมัคร
+apps | แอป
+april | เดือนเมษายน
+argumentative | เชิงโต้แย้ง (essay)
+arithmetic | เลขคณิต
+asia | ทวีปเอเชีย
+asymmetric | ไม่สมมาตร
+asymmetry | ความไม่สมมาตร
+attached | แนบมา · ติดกัน
+attempt | ความพยายาม · พยายาม
+automatically | โดยอัตโนมัติ
+baked | อบ
+baking | การอบ
+balcony | ระเบียง
+bamboo | ไม้ไผ่
+basketball | บาสเกตบอล
+beam | ลำแสง · คาน · ยิ้มกว้าง
+bearable | พอทนได้
+belated | ล่าช้า (คำอวยพรที่มาช้า)
+belongs | เป็นของ (belong to)
+ben | เบน (ชื่อคน)
+bias | อคติ
+biggest | ใหญ่ที่สุด
+bike | จักรยาน มอเตอร์ไซค์
+bilingual | สองภาษา
+bird | นก
+bit | นิดหน่อย (a bit)
+blog | บล็อก
+bookshop | ร้านหนังสือ
+boredom | ความเบื่อ
+broken | พัง เสีย (ช่อง 3)
+budgetary | เกี่ยวกับงบประมาณ
+bullying | การกลั่นแกล้งรังแก
+busier | ยุ่งกว่า
+business | ธุรกิจ · ธุระ
+cabbage | กะหล่ำปลี
+calculator | เครื่องคิดเลข
+calmer | สงบกว่า
+cancellation | การยกเลิก
+caricature | ภาพล้อเลียน
+caution | ความระมัดระวัง
+celebrate | ฉลอง
+centre | ศูนย์ · ใจกลาง
+champion | แชมป์
+charge | ค่าธรรมเนียม · คิดเงิน · ชาร์จ · รับผิดชอบ (in charge)
+cheers | ขอบคุณ/ลาก่อน (กันเอง) · ชนแก้ว
+chocolates | ช็อกโกแลต
+clarity | ความชัดเจน
+clouds | เมฆ
+cogent | มีเหตุผลหนักแน่น
+combining | การรวม
+comic | ตลก · หนังสือการ์ตูน
+communicative | เน้นการสื่อสาร
+comparable | เทียบเคียงได้
+competencies | สมรรถนะ ความสามารถ
+compliance | การปฏิบัติตามกฎ
+concede | ยอมรับ (ว่าอีกฝ่ายถูก)
+concert | คอนเสิร์ต
+conclusive | เด็ดขาด สรุปได้
+condo | คอนโด
+consecutive | ติดต่อกัน
+consensus | ความเห็นพ้อง
+constant | คงที่ · ตลอดเวลา
+content | เนื้อหา · พอใจ
+contract | สัญญา
+cool | เย็น · เจ๋ง
+cooperate | ร่วมมือ
+coordinate | ประสานงาน
+copied | คัดลอก (อดีต)
+correspondent | ผู้สื่อข่าว
+correspondingly | ในทำนองเดียวกัน
+corridor | ทางเดิน (ในอาคาร)
+corrosive | กัดกร่อน · บั่นทอน
+cough | ไอ
+countersignature | ลายเซ็นกำกับ (ลงชื่อรับรองอีกคน)
+countersigns | ลงชื่อกำกับ
+countryside | ชนบท
+crab | ปู
+criterion | เกณฑ์ (เอกพจน์ของ criteria)
+critical | สำคัญยิ่ง · วิจารณ์ · วิกฤต
+crying | ร้องไห้
+cucumber | แตงกวา
+cultures | วัฒนธรรม
+curiosity | ความอยากรู้
+cv | ประวัติย่อ (สมัครงาน)
+cycle | วงจร · ปั่นจักรยาน
+dad | พ่อ
+dark | มืด
+dead | ตาย
+debate | การโต้วาที อภิปราย
+decisive | เด็ดขาด · ชี้ขาด
+dedication | ความทุ่มเท
+deep | ลึก
+defend | ปกป้อง · แก้ต่าง
+define | นิยาม กำหนด
+delegated | มอบหมาย (อดีต)
+deliberate | โดยตั้งใจ · ไตร่ตรอง
+delivery | การส่งของ
+demanded | เรียกร้อง (อดีต)
+demonstration | การสาธิต · การชุมนุม
+demonstratives | คำชี้เฉพาะ (this, that, these, those)
+depart | ออกเดินทาง
+deposit | เงินมัดจำ · ฝาก
+deserve | สมควรได้รับ
+desserts | ของหวาน
+deterring | ยับยั้ง ทำให้ไม่กล้า
+devastated | เสียใจอย่างหนัก · ถูกทำลาย
+devote | อุทิศ
+diagnosis | การวินิจฉัย
+die | ตาย
+dis | (คำนำหน้าแปลว่า ไม่/ตรงข้าม เช่น dislike)
+disappointed | ผิดหวัง
+disappointing | น่าผิดหวัง
+discount | ส่วนลด
+discredited | ถูกทำให้เสื่อมความน่าเชื่อถือ
+discussion | การอภิปราย พูดคุย
+dishonest | ไม่ซื่อสัตย์
+disliked | ไม่ชอบ (อดีต)
+dismiss | ปัดตก · ไล่ออก
+disparity | ความเหลื่อมล้ำ
+disputes | ข้อพิพาท
+disregarded | เพิกเฉย (อดีต)
+disruption | การรบกวน ขัดจังหวะ
+dissect | ชำแหละ วิเคราะห์ละเอียด
+distract | ทำให้เสียสมาธิ
+distraction | สิ่งรบกวนสมาธิ
+dominate | ครอบงำ
+double-check | ตรวจซ้ำ
+download | ดาวน์โหลด
+draft | ฉบับร่าง
+drama | ละคร
+drawn | วาด (ช่อง 3)
+durian | ทุเรียน
+duty | หน้าที่
+earliest | เร็วที่สุด แรกสุด
+editorial | บทบรรณาธิการ
+eleven | สิบเอ็ด
+emission | การปล่อย (ก๊าซ)
+emphasis | การเน้น
+employers | นายจ้าง
+employing | การจ้าง · ใช้
+employs | จ้าง · ใช้
+encounter | พบเจอ
+end-of-year | ปลายปี
+endorse | รับรอง สนับสนุน
+energy | พลังงาน
+envelope | ซองจดหมาย
+equipment | อุปกรณ์
+equivocal | กำกวม คลุมเครือ
+er | (คำลงท้ายขั้นกว่า เช่น bigger) · เอ่อ
+es | (คำลงท้ายพหูพจน์/กริยา เช่น goes)
+escalate | ลุกลาม · ส่งต่อให้ระดับสูงขึ้น
+est | (คำลงท้ายขั้นสูงสุด เช่น biggest)
+et | (et al. = และคณะ)
+euphemism | คำพูดอ้อม ๆ ให้ฟังดูนุ่มนวล
+everybody | ทุกคน
+exceeded | เกิน (อดีต)
+exception | ข้อยกเว้น
+exceptional | ยอดเยี่ยมเป็นพิเศษ
+excesses | ส่วนเกิน · ความเกินพอดี
+exchange | แลกเปลี่ยน
+exciting | น่าตื่นเต้น
+exhaustion | ความเหนื่อยล้าสุดขีด
+exhaustive | ครบถ้วนทุกแง่มุม
+exhortations | คำกระตุ้นเร่งเร้า
+expectations | ความคาดหวัง
+experiment | การทดลอง
+extension | การขยายเวลา · ส่วนต่อ
+external | ภายนอก
+factor | ปัจจัย
+fallen | ตก (ช่อง 3)
+fashionable | ทันสมัย
+fever | ไข้
+field | สาขา · สนาม ทุ่ง
+fifteen-page | สิบห้าหน้า
+fifty | ห้าสิบ
+filter | กรอง
+fit | พอดี · แข็งแรง
+five-day | ห้าวัน
+flight | เที่ยวบิน
+floating | ลอยน้ำ
+floor | พื้น · ชั้น (อาคาร)
+flying | การบิน
+folder | แฟ้ม โฟลเดอร์
+fon | ฝน (ชื่อคน)
+forced | ถูกบังคับ
+forces | บังคับ · กำลัง (ทหาร)
+fragments | เศษ · ประโยคไม่สมบูรณ์
+framing | การวางกรอบ (เรื่อง)
+french | ภาษา/คนฝรั่งเศส
+fridge | ตู้เย็น
+functions | หน้าที่ · ทำงาน
+games | เกม
+gate | ประตู (รั้ว/สนามบิน)
+generalisable | นำไปใช้ทั่วไปได้
+goodbye | ลาก่อน
+governors | กรรมการสถานศึกษา · ผู้ว่า
+grandparents | ปู่ย่าตายาย
+growth | การเติบโต
+guess | เดา
+guests | แขก
+guidelines | แนวทาง
+gym | โรงยิม ฟิตเนส
+hadn't | ไม่ได้ (had not)
+hair | ผม
+half-time | ครึ่งเวลา · พักครึ่ง
+halfway | ครึ่งทาง
+hamper | ขัดขวาง
+hanoi | ฮานอย
+happily | อย่างมีความสุข
+hasn't | ยังไม่ได้ (has not)
+headache | ปวดหัว
+health | สุขภาพ
+healthier | สุขภาพดีกว่า
+heat | ความร้อน · ให้ความร้อน
+hedged | พูดอ้อม ไม่ฟันธง (อดีต)
+hence | ดังนั้น
+herbs | สมุนไพร
+hesitate | ลังเล
+highest-scoring | ที่ได้คะแนนสูงสุด
+hill | เนินเขา
+hin | หิน (Hua Hin = หัวหิน)
+hint | คำใบ้
+hitherto | จนถึงขณะนี้
+host | เจ้าภาพ · จัด (งาน)
+hua | หัว (Hua Hin = หัวหิน)
+hundred | ร้อย
+ice | น้ำแข็ง
+iced | ใส่น้ำแข็ง เย็น
+identical | เหมือนกันทุกประการ
+illegible | อ่านไม่ออก (ลายมือ)
+imbalance | ความไม่สมดุล
+inaccurate | ไม่แม่นยำ
+incoherent | ไม่ปะติดปะต่อ
+inconsistent | ไม่สม่ำเสมอ ขัดแย้งกัน
+indeed | จริง ๆ แล้ว · แน่นอน
+indifference | ความไม่ใส่ใจ
+indirect | ทางอ้อม
+indispensable | ขาดไม่ได้
+inequality | ความไม่เท่าเทียม
+infer | อนุมาน
+inflation | เงินเฟ้อ
+innuendo | คำพูดกระทบกระเทียบ
+install | ติดตั้ง
+instant | ทันที · สำเร็จรูป
+instructor | ผู้สอน ครูฝึก
+intangible | จับต้องไม่ได้
+interesting | น่าสนใจ
+introduces | แนะนำ · นำเสนอ
+introducing | การแนะนำ
+investment | การลงทุน
+ir | (คำนำหน้าแปลว่า ไม่ เช่น irregular)
+iron | เหล็ก · รีดผ้า
+irrelevant | ไม่เกี่ยวข้อง
+isan | อีสาน
+item-level | ระดับรายข้อ
+jacket | เสื้อแจ็กเก็ต
+judgement | การตัดสิน ดุลยพินิจ
+justified | มีเหตุผลสมควร
+keen | กระตือรือร้น · อยากมาก
+keyboard | แป้นพิมพ์ คีย์บอร์ด
+kids | เด็ก ๆ
+kindness | ความเมตตา
+king | พระราชา
+knowledgeable | มีความรู้มาก
+krabi | กระบี่
+kraisorn | ไกรสร (ชื่อคน)
+kyoto | เกียวโต
+lain | นอน (ช่อง 3 ของ lie)
+landlord | เจ้าของบ้านเช่า
+laptop | โน้ตบุ๊ก แล็ปท็อป
+lawyer | ทนายความ
+lay | วาง · นอน (อดีตของ lie)
+laziness | ความขี้เกียจ
+lead | นำ · เป็นผู้นำ
+lean | เอน · ผอม
+lee | ลี (ชื่อคน)
+legibility | ความอ่านง่าย (ลายมือ)
+lemon | มะนาวเหลือง
+length | ความยาว
+lenient | ผ่อนปรน ใจดี
+lifelong | ตลอดชีวิต
+lights | ไฟ แสง
+limitation | ข้อจำกัด
+linguistics | ภาษาศาสตร์
+lisbon | ลิสบอน
+literacy | การรู้หนังสือ
+litres | ลิตร
+load | โหลด · ภาระ
+loan | เงินกู้
+loaves | ขนมปังก้อน (พหูพจน์ของ loaf)
+locate | หาตำแหน่ง · ตั้งอยู่
+logic | ตรรกะ
+luckily | โชคดีที่
+mall | ห้างสรรพสินค้า
+manuals | คู่มือ
+masterclass | ชั้นเรียนพิเศษโดยผู้เชี่ยวชาญ
+match | จับคู่ · ตรงกัน · การแข่ง
+material | วัสดุ · สื่อการสอน
+meanwhile | ในขณะเดียวกัน
+media | สื่อ
+memorable | น่าจดจำ
+merit | คุณความดี ข้อดี
+midday | เที่ยงวัน
+minister | รัฐมนตรี
+mint | สะระแหน่ มินต์
+mirrors | กระจกเงา · สะท้อน
+misconception | ความเข้าใจผิด
+mismatch | ความไม่ตรงกัน
+mocha | มอคค่า
+model | แบบจำลอง · ต้นแบบ
+monolingual | ภาษาเดียว
+moon | ดวงจันทร์
+movement | การเคลื่อนไหว
+much-publicised | ที่เป็นข่าวมาก
+mum | แม่
+mumble | พูดพึมพำ
+mushroom | เห็ด
+nan | น่าน (จังหวัด) · ชื่อคน
+nat | นัท (ชื่อคน)
+nebulous | คลุมเครือ
+necessarily | จำเป็น (not necessarily = ไม่เสมอไป)
+negotiate | เจรจาต่อรอง
+ninety-second | เก้าสิบวินาที
+nominalisation | การเปลี่ยนกริยาเป็นคำนาม (decide → decision)
+noon | เที่ยง
+nor | และไม่ (neither … nor)
+notebook | สมุดโน้ต
+object | สิ่งของ · กรรม (ของประโยค) · คัดค้าน
+observation | การสังเกต
+officially | อย่างเป็นทางการ
+oh | โอ้
+ok | โอเค ตกลง
+onion | หัวหอม
+onto | ขึ้นไปบน
+opponents | ฝ่ายตรงข้าม
+opposed | คัดค้าน (as opposed to = ตรงข้ามกับ)
+options | ตัวเลือก
+outside | ข้างนอก
+outspoken | พูดตรงไปตรงมา
+overall | โดยรวม
+overstating | พูดเกินจริง
+overused | ใช้มากเกินไป
+paid | จ่าย (อดีต) · ที่ได้ค่าจ้าง
+paperwork | งานเอกสาร
+paradigms | กระบวนทัศน์ แบบแผนความคิด
+parsed | แยกวิเคราะห์โครงสร้าง (อดีต)
+part-time | นอกเวลา
+passages | บทอ่าน
+passport | หนังสือเดินทาง
+pending | รอดำเนินการ
+perfection | ความสมบูรณ์แบบ
+performance | ผลงาน · การแสดง
+persist | ยืนหยัด ไม่เลิก
+persistence | ความพากเพียร
+persuasive | โน้มน้าวใจ
+phenomenon | ปรากฏการณ์
+photocopies | สำเนาถ่ายเอกสาร
+pickled | ดอง
+picture | รูปภาพ
+plane | เครื่องบิน
+planted | ปลูก (อดีต)
+plants | ต้นไม้ พืช
+plateau | ที่ราบสูง · ระยะที่ไม่ก้าวหน้า
+platform | ชานชาลา · แพลตฟอร์ม
+plausible | ฟังดูเป็นไปได้
+playground | สนามเด็กเล่น
+podcasts | พอดแคสต์
+poetry | บทกวี
+portfolio | แฟ้มสะสมผลงาน
+post | โพสต์ · ไปรษณีย์ · ตำแหน่ง
+pour | เท ริน
+practical | ใช้ได้จริง เชิงปฏิบัติ
+prasert | ประเสริฐ (ชื่อคน)
+precede | มาก่อน นำหน้า
+predictable | คาดเดาได้
+predictably | อย่างคาดเดาได้
+preference | ความชอบมากกว่า
+preparation | การเตรียม
+presence | การอยู่ตรงนั้น · ท่าทาง
+preserve | รักษาไว้
+presumably | คงจะ น่าจะ
+principle | หลักการ
+probe | สืบค้น ซักไซ้
+produces | ผลิต
+product | ผลิตภัณฑ์
+profession | วิชาชีพ
+professor | ศาสตราจารย์
+program | โปรแกรม
+projector | เครื่องฉาย
+proliferate | เพิ่มจำนวนอย่างรวดเร็ว
+promotion | การเลื่อนตำแหน่ง · โปรโมชัน
+prone | มีแนวโน้ม (prone to)
+proper | เหมาะสม ถูกต้อง
+qualified | มีคุณวุฒิ
+quality | คุณภาพ
+quantity | ปริมาณ
+rai | ไร่
+rationalise | หาเหตุผลเข้าข้าง · จัดให้เป็นระบบ
+rattana | รัตนา (ชื่อคน)
+reaction | ปฏิกิริยา
+readers | ผู้อ่าน
+real-world | ในโลกจริง
+reasonable | สมเหตุสมผล
+reasonably | พอสมควร
+reassuring | ทำให้อุ่นใจ
+recipes | สูตรอาหาร
+recognise | จำได้ · ยอมรับ
+reduction | การลดลง
+reflexive | สรรพนามสะท้อน (myself, himself)
+regards | ด้วยความนับถือ (ท้ายอีเมล)
+regional | ระดับภูมิภาค
+reinterpreted | ตีความใหม่ (อดีต)
+relevance | ความเกี่ยวข้อง
+remarkable | น่าทึ่ง
+renewable | หมุนเวียนได้ · ต่ออายุได้
+rent | เช่า · ค่าเช่า
+repeal | ยกเลิก (กฎหมาย)
+represent | เป็นตัวแทน
+reputation | ชื่อเสียง
+rescind | เพิกถอน
+reserving | การจอง · สงวน
+resign | ลาออก
+respected | เป็นที่นับถือ
+retiring | เกษียณ · ขี้อาย
+revoke | เพิกถอน
+rewrite | เขียนใหม่
+ride | ขี่ นั่ง (รถ)
+risky | เสี่ยง
+roi | ร้อย (Roi Et = ร้อยเอ็ด)
+role | บทบาท
+roll | กลิ้ง · ม้วน · รายชื่อ
+routinise | ทำให้เป็นกิจวัตร
+row | แถว · ทะเลาะ
+rubric | เกณฑ์ให้คะแนน
+rumour | ข่าวลือ
+rung | โทร (ช่อง 3 ของ ring) · ขั้นบันได
+safety | ความปลอดภัย
+salesmanship | ฝีมือการขาย
+salt | เกลือ
+salty | เค็ม
+sand | ทราย
+scaled | ปรับขนาด · (scaled up = ขยาย)
+scared | กลัว
+scream | กรีดร้อง
+scripts | บท · กระดาษคำตอบ
+seafood | อาหารทะเล
+season | ฤดู · ปรุงรส
+secret | ความลับ
+seductive | ยั่วยวน น่าดึงดูด
+seek | แสวงหา
+seldom | นาน ๆ ครั้ง
+sense | ความรู้สึก · เหตุผล (make sense)
+sensible | มีเหตุผล รอบคอบ
+separate | แยก
+serve | เสิร์ฟ · รับใช้
+service | บริการ
+shifts | กะ (การทำงาน) · เปลี่ยน
+shocked | ตกใจ
+shortage | ความขาดแคลน
+shout | ตะโกน
+showing | แสดง
+sings | ร้องเพลง
+sixth | ที่หก
+size | ขนาด
+skirt | กระโปรง
+skyrocket | พุ่งสูงขึ้นอย่างรวดเร็ว
+slack | หย่อนยาน · เฉื่อย
+slice | หั่นเป็นแผ่น · ชิ้น
+smell | กลิ่น · ได้กลิ่น
+smile | ยิ้ม
+smoke | ควัน · สูบบุหรี่
+soar | พุ่งสูง
+social | ทางสังคม
+somchai | สมชาย (ชื่อคน)
+songs | เพลง
+southeast | ตะวันออกเฉียงใต้
+spaces | ที่ว่าง · ช่องว่าง
+speed | ความเร็ว
+spirit | จิตวิญญาณ · กำลังใจ
+staffroom | ห้องพักครู
+standardised | ที่เป็นมาตรฐานเดียวกัน
+state | รัฐ · สภาพ · กล่าว
+statement | คำแถลง ข้อความ
+status | สถานะ
+steering | การบังคับทิศทาง
+stick | ติด · ไม้
+sticky | เหนียว
+stomach | ท้อง
+stood | ยืน (อดีต)
+storm | พายุ
+story | เรื่องราว
+strange | แปลก
+strength | จุดแข็ง ความแข็งแรง
+stubborn | ดื้อ
+styles | สไตล์ รูปแบบ
+suffice | เพียงพอ
+suggestion | ข้อเสนอแนะ
+suggestive | ชวนให้คิดถึง · ส่อ
+sunset | พระอาทิตย์ตก
+superb | ยอดเยี่ยม
+supermarket | ซูเปอร์มาร์เก็ต
+supervised | ภายใต้การดูแล
+supplier | ผู้จัดส่งสินค้า
+surge | พุ่งขึ้น
+suwan | สุวรรณ (ชื่อคน)
+swam | ว่ายน้ำ (อดีต)
+swimmers | นักว่ายน้ำ
+syllabus | ประมวลรายวิชา
+table | โต๊ะ · ตาราง
+talent | พรสวรรค์
+tam | แทม (ชื่อคน)
+target | เป้าหมาย
+tayak | ทายัก (ชื่อ)
+technician | ช่างเทคนิค
+technological | ทางเทคโนโลยี
+teenagers | วัยรุ่น
+temperatures | อุณหภูมิ
+tempting | น่าดึงดูด ล่อใจ
+tenant | ผู้เช่า
+tennis | เทนนิส
+text | ข้อความ · ส่งข้อความ
+thani | ธานี (Udon Thani = อุดรธานี)
+that-clause | อนุประโยคที่ขึ้นต้นด้วย that
+they're | พวกเขาเป็น/อยู่ (they are)
+timeline | กรอบเวลา
+titles | ชื่อเรื่อง · ตำแหน่ง
+toast | ขนมปังปิ้ง · ดื่มอวยพร
+tolerate | อดทนต่อ ยอมรับได้
+torn | ขาด (ช่อง 3 ของ tear) · ลังเลใจ
+towards | ไปทาง · ต่อ
+tracked | ติดตาม (อดีต)
+translate | แปล
+transparency | ความโปร่งใส
+treating | ปฏิบัติต่อ · เลี้ยง
+treats | ปฏิบัติต่อ · ของกินพิเศษ
+trend | แนวโน้ม
+tried | พยายาม (อดีต)
+trouble | ปัญหา ความยุ่งยาก
+truce | การพักรบ
+trusted | ไว้ใจ (อดีต) · ที่เชื่อถือได้
+truth | ความจริง
+turnover | อัตราการลาออก · ยอดขาย
+tutors | ติวเตอร์ ครูพิเศษ
+tv | โทรทัศน์
+twelve-hour | สิบสองชั่วโมง
+twentieth | ที่ยี่สิบ
+twenty-minute | ยี่สิบนาที
+twenty-nine | ยี่สิบเก้า
+unable | ไม่สามารถ
+unanswerable | ตอบไม่ได้
+underline | ขีดเส้นใต้ · เน้นย้ำ
+understandable | เข้าใจได้
+understatement | การพูดน้อยกว่าความจริง
+undervalued | ถูกประเมินค่าต่ำไป
+undoubtedly | อย่างไม่ต้องสงสัย
+unexpectedly | อย่างไม่คาดคิด
+unfamiliar | ไม่คุ้นเคย
+unfriendly | ไม่เป็นมิตร
+unintended | ไม่ได้ตั้งใจ
+unofficially | อย่างไม่เป็นทางการ
+unpopular | ไม่เป็นที่นิยม
+unsuccessful | ไม่สำเร็จ
+uphold | ยืนยัน ธำรงไว้
+upload | อัปโหลด
+upper-secondary | มัธยมปลาย
+uptake | การตอบรับเข้าร่วม
+valuable | มีค่า
+verbally | ด้วยคำพูด
+verdicts | คำตัดสิน
+version | เวอร์ชัน ฉบับ
+vietnam | เวียดนาม
+voice | เสียง · (ไวยากรณ์) active/passive voice
+wallet | กระเป๋าสตางค์
+wan | หวาน (ชื่อคน)
+wash | ล้าง ซัก
+watches | นาฬิกาข้อมือ · ดู
+we'd | พวกเราจะ/ได้ (we would/had)
+we're | พวกเราเป็น/อยู่ (we are)
+weakness | จุดอ่อน
+weekdays | วันธรรมดา (จันทร์–ศุกร์)
+well-sourced | มีแหล่งอ้างอิงดี
+weren't | ไม่ได้เป็น (were not)
+whenever | เมื่อใดก็ตาม
+whereupon | หลังจากนั้นทันที
+whoever | ใครก็ตาม
+width | ความกว้าง
+wildly | อย่างมาก · อย่างบ้าคลั่ง
+winners | ผู้ชนะ
+woke | ตื่น (อดีต)
+won | ชนะ (อดีต)
+worse | แย่กว่า
+worst | แย่ที่สุด
+worthwhile | คุ้มค่า
+you'd | คุณจะ/ควร (you would/had)
+you've | คุณได้ (you have)

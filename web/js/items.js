@@ -116,8 +116,10 @@ function contextOf(it) {
 export function renderItem(host, it, done, opts = {}) {
   host.innerHTML = '';
   host.dataset.item = it.id;                       // ใช้โดยเทสต์และการรายงานข้อ (รหัสข้อไม่ใช่ความลับ)
+  // ข้อคำศัพท์: ห้ามกดค้างดูคำแปลก่อนตอบ (ไม่งั้นพจนานุกรมตอบแทน) · ตอบแล้วปลดล็อก
+  if (it.skill === 'vo') host.dataset.nolookup = '1'; else delete host.dataset.nolookup;
   const answers = [];
-  const finish = () => done({ id: it.id, answers });
+  const finish = () => { delete host.dataset.nolookup; done({ id: it.id, answers }); };
   if (it.kind === 'mcq') {
     host.appendChild(el(`<p class="en">${esc(it.stem)}</p>`));
     host.appendChild(mcqBlock(it, (a, ok) => { answers.push({ q: 0, answer: a, correct: ok }); if (it.explain) host.appendChild(el(keepBox(it.explain))); addSayRight(host, filled(it.stem, it.choices[it.answer].t)); finish(); }));

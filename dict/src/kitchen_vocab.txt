@@ -1,0 +1,1022 @@
+# word | pos | ความหมายไทย | example | collocation tip (ไทย) | synonym | antonym   ("-" = ไม่มี)
+@A1
+
+teacher | noun | ครู | Our new teacher is from Udon Thani. | homeroom teacher = ครูประจำชั้น | - | student
+student | noun | นักเรียน นักศึกษา | There are 25 students in my class. | a Grade 6 student = นักเรียนชั้น ป.6 | learner | teacher
+classroom | noun | ห้องเรียน | Please keep the classroom clean. | in the classroom (ใช้ in) | - | -
+homework | noun | การบ้าน | Did you do your homework? | do homework (ไม่ใช้ make) · นับไม่ได้ ไม่เติม s | - | -
+market | noun | ตลาด | My mother goes to the market every morning. | at the market · morning market = ตลาดเช้า | - | -
+rice | noun | ข้าว | Thai people eat rice every day. | sticky rice = ข้าวเหนียว · นับไม่ได้ | - | -
+water | noun | น้ำ | Can I have a glass of water? | a bottle of water · นับไม่ได้ | - | -
+family | noun | ครอบครัว | I live with my family in a small village. | big family · family member = สมาชิกในครอบครัว | - | -
+friend | noun | เพื่อน | Nok is my best friend. | make friends = ผูกมิตร · best friend | - | enemy
+house | noun | บ้าน (ตัวอาคาร) | Their house is next to the temple. | at my house · build a house | home | -
+morning | noun | ตอนเช้า | I drink coffee in the morning. | in the morning · this morning (ไม่มี in) | - | evening
+evening | noun | ตอนเย็น | We walk in the park in the evening. | in the evening · this evening | - | morning
+tomorrow | adverb | พรุ่งนี้ | We have a test tomorrow. | tomorrow morning · see you tomorrow | - | yesterday
+yesterday | adverb | เมื่อวาน | I was very busy yesterday. | yesterday afternoon (ไม่ใช้ last yesterday) | - | tomorrow
+eat | verb | กิน | We eat lunch at twelve. | eat out = ไปกินข้าวนอกบ้าน | have | -
+drink | verb | ดื่ม | I drink a lot of water when it's hot. | drink coffee · something to drink | - | -
+sleep | verb | นอนหลับ | Children need to sleep nine hours a night. | sleep well · go to sleep | - | wake
+read | verb | อ่าน | I read a story to my son every night. | read a book · read aloud = อ่านออกเสียง | - | -
+write | verb | เขียน | Please write your name on the paper. | write a letter · write down = จดไว้ | - | -
+open | verb | เปิด | Can you open the window, please? | open a door · open a bank account | - | close
+close | verb | ปิด | The shop closes at 8 p.m. | close the door · close your eyes | shut | open
+buy | verb | ซื้อ | I want to buy a new bag. | buy something for someone | - | sell
+sell | verb | ขาย | She sells fruit at the night market. | sell something to someone | - | buy
+cook | verb | ทำอาหาร | My father cooks on Sundays. | cook dinner · cook rice = หุงข้าว | - | -
+help | verb | ช่วย | Can you help me with this box? | help someone with something | - | -
+big | adjective | ใหญ่ | We live in a big house. | a big problem · big city | large | small
+small | adjective | เล็ก | This shirt is too small for me. | a small town · small talk = คุยเล่น | little | big
+hot | adjective | ร้อน (อากาศ/อุณหภูมิ) | It's very hot in April. | hot weather · hot water | - | cold
+cold | adjective | เย็น หนาว | I want a cold drink. | a cold day · catch a cold = เป็นหวัด | - | hot
+happy | adjective | มีความสุข ดีใจ | The children are happy today. | happy birthday · happy with something | glad | sad
+tired | adjective | เหนื่อย | I'm tired after work. | tired of = เบื่อ · very tired | - | -
+hungry | adjective | หิว | Are you hungry? Let's eat. | feel hungry | - | full
+cheap | adjective | ถูก (ราคา) | Food at this market is cheap. | cheap price · really cheap | - | expensive
+expensive | adjective | แพง | This phone is too expensive. | very expensive (ไม่ใช้ high กับของ) | - | cheap
+new | adjective | ใหม่ | I have a new student this term. | brand new = ใหม่เอี่ยม | - | old
+near | preposition | ใกล้ | The school is near my house. | near here · very near | close to | far from
+early | adjective/adverb | เช้า ก่อนเวลา | I get up early on weekdays. | early morning · arrive early | - | late
+late | adjective/adverb | สาย ช้า | Sorry, I'm late. | be late for class · stay up late | - | early
+phone | noun | โทรศัพท์ | Please turn off your phone in class. | on the phone · phone number | mobile | -
+bus | noun | รถเมล์ รถโดยสาร | I take the bus to the city. | by bus · bus stop = ป้ายรถเมล์ | - | -
+money | noun | เงิน | I don't have much money with me. | save money · spend money · นับไม่ได้ | cash | -
+lunch | noun | อาหารกลางวัน | We have lunch in the school canteen. | have lunch (ไม่ใช้ eat a lunch) | - | -
+work | verb | ทำงาน | My sister works at a hospital. | work at/for · work hard | - | rest
+weekend | noun | สุดสัปดาห์ | What do you do at the weekend? | at the weekend (UK) / on the weekend (US) | - | weekday
+clean | adjective | สะอาด | The toilets are very clean. | keep something clean | - | dirty
+busy | adjective | ยุ่ง ไม่ว่าง | Teachers are very busy in March. | busy with something · a busy road | - | free
+easy | adjective | ง่าย | This test is easy. | easy to use · take it easy = ใจเย็น ๆ | simple | difficult
+difficult | adjective | ยาก | Math is difficult for some students. | difficult to understand | hard | easy
+week | noun | สัปดาห์ | I go swimming twice a week. | next week · last week (ไม่มี the) | - | -
+shop | noun | ร้านค้า | There's a small shop near the school. | go to the shop · shop owner | store | -
+mother | noun | แม่ | My mother cooks very well. | my mother = แม่ของฉัน | mum | father
+father | noun | พ่อ | His father drives a taxi. | my father = พ่อของฉัน | dad | mother
+brother | noun | พี่ชายหรือน้องชาย | I have one brother. | older brother = พี่ชาย | - | sister
+sister | noun | พี่สาวหรือน้องสาว | My sister is ten years old. | little sister = น้องสาว | - | brother
+child | noun | เด็ก | The child is playing outside. | พหูพจน์ = children | kid | adult
+dog | noun | สุนัข | The dog is sleeping under the table. | a pet dog = สุนัขเลี้ยง | - | cat
+cat | noun | แมว | The cat likes fish. | a black cat = แมวสีดำ | - | dog
+bird | noun | นก | A bird is singing in the tree. | a small bird = นกตัวเล็ก | - | -
+egg | noun | ไข่ | I eat an egg for breakfast. | a boiled egg = ไข่ต้ม | - | -
+fish | noun | ปลา | We have fish for dinner. | fish and rice = ปลากับข้าว | - | -
+milk | noun | นมวัว | She drinks milk every morning. | a glass of milk = นมหนึ่งแก้ว | - | -
+tea | noun | ชา | Would you like some tea? | a cup of tea = ชาหนึ่งถ้วย | - | coffee
+coffee | noun | กาแฟ | My father drinks coffee at six. | iced coffee = กาแฟเย็น | - | tea
+bread | noun | ขนมปัง | I buy bread at the shop. | a slice of bread = ขนมปังหนึ่งแผ่น | - | -
+fruit | noun | ผลไม้ | Fruit is good for you. | fresh fruit = ผลไม้สด | - | -
+vegetable | noun | ผัก | We grow vegetables behind the house. | fresh vegetables = ผักสด | - | meat
+kitchen | noun | ห้องครัว | My mother is in the kitchen. | in the kitchen (ใช้ in) | - | -
+bedroom | noun | ห้องนอน | My bedroom is upstairs. | share a bedroom = ใช้ห้องนอนร่วมกัน | - | -
+door | noun | ประตู | Please close the door. | open the door = เปิดประตู | - | window
+window | noun | หน้าต่าง | The window is open. | look out of the window = มองออกไปนอกหน้าต่าง | - | door
+table | noun | โต๊ะ | The food is on the table. | on the table (ใช้ on) | - | -
+chair | noun | เก้าอี้ | Sit on this chair. | a wooden chair = เก้าอี้ไม้ | seat | -
+book | noun | หนังสือ | This book is very interesting. | read a book = อ่านหนังสือ | - | -
+pen | noun | ปากกา | Can I borrow your pen? | a blue pen = ปากกาสีน้ำเงิน | - | pencil
+bag | noun | กระเป๋า | Her bag is very heavy. | a school bag = กระเป๋านักเรียน | - | -
+car | noun | รถยนต์ | They have a small car. | drive a car = ขับรถยนต์ | - | -
+road | noun | ถนน | The road is wide. | cross the road = ข้ามถนน | street | -
+school | noun | โรงเรียน | I go to school by bus. | go to school (ไม่ใส่ the) | - | -
+walk | verb | เดิน | I walk to the market every day. | walk to school = เดินไปโรงเรียน | - | run
+run | verb | วิ่ง | Children run in the park. | run fast = วิ่งเร็ว | - | walk
+sit | verb | นั่ง | Please sit here. | sit down = นั่งลง | - | stand
+stand | verb | ยืน | Everyone stand up, please. | stand up = ลุกขึ้นยืน | - | sit
+come | verb | มา | Come to my house on Sunday. | come back = กลับมา | - | go
+go | verb | ไป | We go to the temple on Sundays. | go home = กลับบ้าน | - | come
+see | verb | เห็น | I can see a big tree. | see you later = แล้วเจอกัน | - | -
+listen | verb | ฟัง | Listen to the teacher. | listen to + สิ่งที่ฟัง | - | -
+speak | verb | พูด | She can speak English. | speak English = พูดภาษาอังกฤษ | - | -
+like | verb | ชอบ | I like mangoes. | like + V-ing = ชอบทำ... | enjoy | dislike
+love | verb | รัก | They love their grandmother. | love + คนหรือสิ่งของ | - | hate
+want | verb | ต้องการ | I want some water. | want to + V = อยากทำ... | - | -
+have | verb | มี | We have two cats. | have breakfast = กินอาหารเช้า | - | -
+long | adj | ยาว | The river is very long. | a long road = ถนนยาว | - | short
+short | adj | สั้นหรือเตี้ย | My hair is short. | a short story = เรื่องสั้น | - | long
+tall | adj | สูง | My brother is very tall. | ใช้กับคน ต้นไม้ ตึก | - | short
+good | adj | ดี | This is a good idea. | good morning = อรุณสวัสดิ์ | - | bad
+bad | adj | แย่ ไม่ดี | The weather is bad today. | bad news = ข่าวร้าย | - | good
+old | adj | แก่ เก่า | My grandfather is old. | an old house = บ้านเก่า | - | new
+young | adj | อ่อนวัย | She is young. | a young man = ชายหนุ่ม | - | old
+nice | adj | น่ารัก น่าคบ | You have a nice smile. | nice to meet you = ยินดีที่ได้รู้จัก | - | -
+sunny | adj | แดดจัด | It is sunny today. | a sunny day = วันที่แดดดี | - | rainy
+grandmother | noun | ยาย หรือย่า | My grandmother makes the best curry. | visit my grandmother = ไปเยี่ยมยาย | grandma | grandfather
+grandfather | noun | ตา หรือปู่ | My grandfather grows chilies. | a kind grandfather = ปู่ใจดี | grandpa | grandmother
+uncle | noun | ลุง น้า หรืออา | My uncle works at a bank. | uncle and aunt = ลุงกับป้า | - | aunt
+aunt | noun | ป้า น้า หรืออา | My aunt lives in Chiang Rai. | visit my aunt = ไปเยี่ยมป้า | - | uncle
+baby | noun | ทารก | The baby is sleeping. | a baby girl = ทารกหญิง | infant | adult
+boy | noun | เด็กชาย | The boy is riding a bike. | a little boy = เด็กชายตัวน้อย | - | girl
+girl | noun | เด็กหญิง | The girl has a red hat. | a tall girl = เด็กหญิงตัวสูง | - | boy
+man | noun | ผู้ชาย | The man is selling fruit. | an old man = ชายชรา | - | woman
+woman | noun | ผู้หญิง | The woman is reading a newspaper. | a young woman = หญิงสาว | - | man
+doctor | noun | หมอ แพทย์ | The doctor is very kind. | see a doctor = ไปหาหมอ | physician | patient
+nurse | noun | พยาบาล | The nurse helps the patients. | a night nurse = พยาบาลกะดึก | - | patient
+farmer | noun | ชาวนา เกษตรกร | The farmer plants rice in June. | a rice farmer = ชาวนา | - | -
+driver | noun | คนขับรถ | The bus driver is friendly. | a taxi driver = คนขับแท็กซี่ | - | passenger
+shirt | noun | เสื้อเชิ้ต | He wears a white shirt. | a clean shirt = เสื้อสะอาด | - | -
+shoes | noun | รองเท้า | I put on my shoes. | a pair of shoes = รองเท้าหนึ่งคู่ | - | -
+hat | noun | หมวก | She wears a straw hat. | wear a hat = สวมหมวก | cap | -
+umbrella | noun | ร่ม | Take an umbrella. It may rain. | open an umbrella = กางร่ม | - | -
+clock | noun | นาฬิกาตั้งโต๊ะหรือแขวน | The clock on the wall is slow. | look at the clock = ดูนาฬิกา | - | -
+bed | noun | เตียง | My bed is next to the window. | go to bed = เข้านอน | - | -
+lamp | noun | โคมไฟ | Turn on the lamp, please. | a desk lamp = โคมไฟตั้งโต๊ะ | light | -
+bicycle | noun | จักรยาน | I ride a bicycle to the market. | ride a bicycle = ขี่จักรยาน | bike | -
+boat | noun | เรือ | We take a boat across the river. | by boat = โดยเรือ | ship | -
+train | noun | รถไฟ | The train leaves at nine. | take the train = นั่งรถไฟ | - | -
+flower | noun | ดอกไม้ | She gave me a red flower. | pick a flower = เด็ดดอกไม้ | - | -
+tree | noun | ต้นไม้ | A bird sits in the tree. | a tall tree = ต้นไม้สูง | - | -
+river | noun | แม่น้ำ | We swim in the river. | cross the river = ข้ามแม่น้ำ | - | sea
+mountain | noun | ภูเขา | The mountain is very high. | climb a mountain = ปีนเขา | hill | valley
+sun | noun | ดวงอาทิตย์ | The sun is hot at noon. | in the sun = กลางแดด | - | moon
+moon | noun | ดวงจันทร์ | The moon is bright tonight. | a full moon = พระจันทร์เต็มดวง | - | sun
+wind | noun | ลม | The wind is strong today. | a cold wind = ลมเย็น | breeze | -
+chicken | noun | ไก่ เนื้อไก่ | We had fried chicken for dinner last night. | fried chicken = ไก่ทอด · นับไม่ได้เมื่อหมายถึงเนื้อ | - | -
+noodle | noun | เส้นก๋วยเตี๋ยว | I eat a bowl of noodle soup every Friday. | a bowl of noodles = ก๋วยเตี๋ยวหนึ่งชาม (มักเติม s) | - | -
+soup | noun | ซุป น้ำแกง | My grandmother makes hot soup when I am sick. | a bowl of soup = ซุปหนึ่งถ้วย · นับไม่ได้ | - | -
+salt | noun | เกลือ | Could you pass me the salt, please? | a pinch of salt = เกลือหยิบมือ · นับไม่ได้ | - | -
+sugar | noun | น้ำตาล | I don't put sugar in my coffee. | a spoon of sugar = น้ำตาลหนึ่งช้อน · นับไม่ได้ | - | -
+cup | noun | ถ้วย แก้วมีหู | Put the cup on the table, please. | a cup of coffee = กาแฟหนึ่งถ้วย | - | -
+spoon | noun | ช้อน | Thai people eat rice with a spoon and fork. | a spoon and fork = ช้อนส้อม | - | -
+bottle | noun | ขวด | Bring a bottle of water to the field trip. | a bottle of water = น้ำหนึ่งขวด | - | -
+desk | noun | โต๊ะเรียน โต๊ะทำงาน | Put your books on the desk, please. | at my desk = ที่โต๊ะทำงาน (ใช้ at) | table | -
+pencil | noun | ดินสอ | Write your name with a pencil first. | pencil case = กล่องดินสอ | - | -
+paper | noun | กระดาษ | We need more paper for the printer. | a piece of paper = กระดาษหนึ่งแผ่น · นับไม่ได้ | - | -
+garden | noun | สวน | My father grows chillies in the garden. | in the garden (ใช้ in) · a vegetable garden = สวนผัก | yard | -
+street | noun | ถนน (ในเมือง) | There is a noodle shop on our street. | on the street · street food = อาหารริมทาง | road | -
+city | noun | เมืองใหญ่ | Chiang Mai is a beautiful city in the north. | in the city · city centre = ใจกลางเมือง | town | village
+night | noun | กลางคืน | I read a book before bed every night. | at night (ใช้ at) · last night = เมื่อคืน | - | day
+afternoon | noun | ตอนบ่าย | We have English class in the afternoon. | in the afternoon · this afternoon (ไม่มี in) | - | morning
+motorbike | noun | รถจักรยานยนต์ | Many teachers ride a motorbike to school. | ride a motorbike = ขี่มอเตอร์ไซค์ · by motorbike | motorcycle | -
+banana | noun | กล้วย | I eat a banana after lunch every day. | a bunch of bananas = กล้วยหนึ่งหวี | - | -
+key | noun | กุญแจ | I left my key on the kitchen table. | car key = กุญแจรถ · the key to the door | - | -
+wallet | noun | กระเป๋าสตางค์ | My wallet is in my school bag. | leave my wallet at home = ลืมกระเป๋าสตางค์ไว้ที่บ้าน | purse | -
+play | verb | เล่น | The children play football after school. | play football (ไม่มี the) · play the guitar (มี the) | - | work
+swim | verb | ว่ายน้ำ | We swim in the river on hot days. | go swimming = ไปว่ายน้ำ · swim in the sea | - | -
+sing | verb | ร้องเพลง | My students sing an English song every Monday. | sing a song = ร้องเพลง · sing along = ร้องตาม | - | -
+dance | verb | เต้นรำ | We dance at the school festival every year. | dance to music = เต้นตามเพลง | - | -
+call | verb | โทรหา เรียก | Please call me when you get home. | call someone (ไม่ใช้ call to) · give me a call = โทรหาฉัน | phone | -
+wear | verb | สวมใส่ | Thai students wear a uniform to school. | wear a uniform · wear glasses = ใส่แว่น | - | -
+study | verb | เรียน อ่านหนังสือ | I study English for an hour every evening. | study hard = ขยันเรียน · study for a test | learn | -
+watch | verb | ดู (สิ่งที่เคลื่อนไหว) | We watch Thai dramas after dinner. | watch TV (ไม่ใช้ see TV) · watch a film = ดูหนัง | - | -
+draw | verb | วาด | The children draw pictures of their families. | draw a picture = วาดรูป | - | -
+count | verb | นับ | Please count the chairs in the room. | count to ten = นับถึงสิบ | - | -
+beautiful | adjective | สวยงาม | The beach in Krabi is very beautiful. | a beautiful view = วิวสวย | pretty | ugly
+slow | adjective | ช้า | The bus is slow in the morning traffic. | slow down = ช้าลง | - | fast
+fast | adjective | เร็ว | Her new car is very fast. | fast food = อาหารจานด่วน · a fast train = รถไฟด่วน | quick | slow
+dirty | adjective | สกปรก | My shoes are dirty after the rain. | get dirty = เลอะ | - | clean
+thirsty | adjective | กระหายน้ำ | I am thirsty after playing football. | be thirsty (ใช้ be ไม่ใช้ have) | - | -
+warm | adjective | อบอุ่น อุ่น | It is warm in Thailand all year. | warm water = น้ำอุ่น · keep warm = ทำให้อุ่น | - | cool
+today | adverb | วันนี้ | We don't have any homework today. | today's lesson = บทเรียนวันนี้ | - | -
+always | adverb | เสมอ | She always arrives at school before seven. | always + กริยา (วางหน้ากริยาหลัก) | - | never
+often | adverb | บ่อย ๆ | We often eat som tam for lunch. | how often = บ่อยแค่ไหน | frequently | rarely
+under | preposition | ใต้ | The cat is sleeping under the table. | under the bed = ใต้เตียง | below | over
+
+@A2
+
+borrow | verb | ยืม | Can I borrow your ruler? | borrow something from someone | - | lend
+lend | verb | ให้ยืม | Could you lend me 100 baht? | lend someone something | loan | borrow
+arrive | verb | มาถึง | The bus arrives at 7:30. | arrive in + เมือง · arrive at + สถานที่ | reach | leave
+leave | verb | ออกจาก ออกไป | I leave home at 6:45 every day. | leave for + ปลายทาง · leave school | depart | arrive
+forget | verb | ลืม | Don't forget your umbrella. | forget to do = ลืมทำ | - | remember
+remember | verb | จำได้ | Do you remember my name? | remember to do = อย่าลืมทำ | recall | forget
+explain | verb | อธิบาย | Can you explain this word to me? | explain something to someone (ไม่ใช้ explain me) | - | -
+practise | verb | ฝึกฝน | I practise speaking English every day. | practise + -ing · practise a lot | - | -
+prepare | verb | เตรียม | I need to prepare for the meeting. | prepare for an exam · prepare food | get ready | -
+invite | verb | เชิญ | They invited us to their wedding. | invite someone to something | - | -
+decide | verb | ตัดสินใจ | We decided to go to Khon Kaen. | decide to do · decide on something | - | -
+plan | verb | วางแผน | I'm planning to visit my parents. | plan to do · plan a trip | - | -
+travel | verb | เดินทาง ท่องเที่ยว | I love to travel by train. | travel abroad = ไปต่างประเทศ | - | -
+visit | verb | ไปเยี่ยม ไปเที่ยว | We visited the old temple in the city. | visit someone (ไม่ใช้ visit to someone) | - | -
+check | verb | ตรวจ เช็ก | Please check your answers before you finish. | check homework · check in (โรงแรม) | - | -
+choose | verb | เลือก | Choose one color for your poster. | choose between A and B | pick | -
+spend | verb | ใช้ (เงิน/เวลา) | I spend too much money on snacks. | spend time with family | - | save
+save | verb | เก็บ ประหยัด | I save 500 baht every month. | save money · save time | - | spend
+pay | verb | จ่าย | Can I pay by QR code? | pay for something · pay the bill | - | -
+order | verb | สั่ง (อาหาร/สินค้า) | I ordered pad thai and a mango shake. | order food online | - | -
+delicious | adjective | อร่อย | Your green curry is delicious! | really delicious (ไม่ใช้ very delicious จะฟังแปลก) | tasty | -
+spicy | adjective | เผ็ด | Is this soup very spicy? | too spicy · not spicy, please | hot | mild
+healthy | adjective | ดีต่อสุขภาพ สุขภาพดี | Fruit is a healthy snack. | healthy food · stay healthy | - | unhealthy
+noisy | adjective | เสียงดัง | The canteen is very noisy at lunch. | a noisy street | loud | quiet
+quiet | adjective | เงียบ | The library is a quiet place. | be quiet · keep quiet | - | noisy
+crowded | adjective | คนแน่น แออัด | The market is crowded on Saturday. | crowded with people | packed | empty
+comfortable | adjective | สบาย | These shoes are very comfortable. | feel comfortable · a comfortable chair | - | uncomfortable
+dangerous | adjective | อันตราย | It's dangerous to ride without a helmet. | dangerous for children | - | safe
+popular | adjective | เป็นที่นิยม | This song is popular with students. | popular with/among | - | unpopular
+famous | adjective | มีชื่อเสียง | Maha Sarakham is famous for its university. | famous for something | well-known | unknown
+friendly | adjective | เป็นมิตร | The people in my village are very friendly. | friendly to/with someone | kind | unfriendly
+polite | adjective | สุภาพ | Please be polite to visitors. | polite to someone | - | rude
+careful | adjective | ระมัดระวัง | Be careful! The floor is wet. | be careful with/of | - | careless
+angry | adjective | โกรธ | My father was angry about the broken window. | angry with someone · angry about something | upset | calm
+worried | adjective | กังวล | I'm worried about my exam. | worried about something | anxious | relaxed
+excited | adjective | ตื่นเต้น (ดีใจ) | The children are excited about the school trip. | excited about something | - | bored
+bored | adjective | เบื่อ | I'm bored. Let's go out. | get bored · bored with something | - | interested
+nervous | adjective | ประหม่า ตื่นเต้น (กังวล) | I always feel nervous before a speech. | nervous about something | anxious | calm
+lesson | noun | บทเรียน คาบเรียน | Our English lesson starts at nine. | have a lesson · take lessons | class | -
+exam | noun | การสอบ ข้อสอบ | The final exam is next Friday. | take/sit an exam · pass/fail an exam | test | -
+subject | noun | วิชา | Science is my favourite subject. | school subject · core subject = วิชาหลัก | - | -
+timetable | noun | ตารางเรียน ตารางเวลา | Check the timetable on the wall. | class timetable · bus timetable | schedule | -
+uniform | noun | ชุดนักเรียน เครื่องแบบ | Students wear uniforms from Monday to Thursday. | school uniform · in uniform | - | -
+holiday | noun | วันหยุด การพักร้อน | We have a long holiday in April. | on holiday · public holiday | vacation | -
+ticket | noun | ตั๋ว | I bought two train tickets online. | a ticket to Bangkok · return ticket | - | -
+luggage | noun | กระเป๋าเดินทาง สัมภาระ | Don't leave your luggage here. | นับไม่ได้: a piece of luggage | baggage | -
+temple | noun | วัด | We make merit at the temple on Buddhist holy days. | go to the temple · temple fair = งานวัด | - | -
+hospital | noun | โรงพยาบาล | My aunt works at the district hospital. | go to hospital · in hospital (UK) | - | -
+medicine | noun | ยา | Take this medicine after meals. | take medicine (ไม่ใช้ eat medicine) | - | -
+weather | noun | สภาพอากาศ | The weather is nice today. | good/bad weather · นับไม่ได้ | - | -
+rain | noun | ฝน | There was heavy rain last night. | heavy rain = ฝนตกหนัก | - | -
+flood | noun | น้ำท่วม | The flood closed many roads. | flash flood = น้ำป่า/น้ำท่วมฉับพลัน | - | drought
+festival | noun | เทศกาล | Songkran is my favourite festival. | celebrate a festival · food festival | - | -
+neighbour | noun | เพื่อนบ้าน | Our neighbour gave us some mangoes. | next-door neighbour | - | -
+village | noun | หมู่บ้าน | I grew up in a small village. | village head = ผู้ใหญ่บ้าน | - | city
+price | noun | ราคา | The price of eggs went up. | high/low price (ไม่ใช้ expensive price) | cost | -
+bill | noun | บิล ใบแจ้งหนี้ | Can we have the bill, please? | pay the bill · electricity bill | check | -
+receipt | noun | ใบเสร็จ | Keep the receipt in case you need to return it. | ask for a receipt | - | -
+message | noun | ข้อความ | I'll send you a message on LINE. | send/get a message · leave a message | text | -
+appointment | noun | การนัดหมาย (เป็นทางการ) | I have a doctor's appointment at three. | make an appointment · cancel an appointment | - | -
+meeting | noun | การประชุม | The staff meeting is after school. | have/attend a meeting | - | -
+problem | noun | ปัญหา | No problem, I can help. | solve a problem · have a problem with | issue | solution
+idea | noun | ความคิด ไอเดีย | That's a great idea! | have an idea · good idea | - | -
+advice | noun | คำแนะนำ | Can you give me some advice? | give advice · นับไม่ได้: a piece of advice | tip | -
+answer | noun | คำตอบ | Write your answer on the board. | the right answer · answer to a question | reply | question
+question | noun | คำถาม | Do you have any questions? | ask a question (ไม่ใช้ ask a question to... ซ้อน) | - | answer
+mistake | noun | ข้อผิดพลาด | Everyone makes mistakes. | make a mistake (ไม่ใช้ do a mistake) | error | -
+hobby | noun | งานอดิเรก | My hobby is growing vegetables. | have a hobby | pastime | -
+exercise | noun | การออกกำลังกาย แบบฝึกหัด | I do exercise every evening. | do exercise · get some exercise | workout | -
+journey | noun | การเดินทาง (ช่วงหนึ่ง) | The journey to Bangkok takes six hours. | a long journey · on a journey | trip | -
+beach | noun | ชายหาด | We had a picnic on the beach. | on the beach · go to the beach | - | -
+country | noun | ประเทศ ชนบท | Thailand is a beautiful country. | in the country = ในชนบท | nation | -
+rule | noun | กฎ | We must follow the school rules. | follow/break a rule | - | -
+habit | noun | นิสัย ความเคยชิน | Reading every night is a good habit. | good/bad habit · break a habit = เลิกนิสัย | - | -
+kind | adjective | ใจดี | It's very kind of you to help me. | kind to someone · It's kind of you | nice | unkind
+patient | adjective | อดทน ใจเย็น | Teachers need to be patient with young children. | patient with someone | - | impatient
+hurry | verb | รีบ | Hurry up! The bus is coming. | hurry up · in a hurry = กำลังรีบ | rush | -
+wait | verb | รอ | Please wait here for a minute. | wait for someone (ต้องมี for) | - | -
+share | verb | แบ่งปัน | Let's share this papaya salad. | share something with someone | - | -
+laugh | verb | หัวเราะ | The children laughed at the funny story. | laugh at something · make someone laugh | - | cry
+breakfast | noun | อาหารเช้า | I have breakfast at seven. | have breakfast (ไม่ใส่ a) | - | dinner
+dinner | noun | อาหารเย็น | We have dinner together. | have dinner = กินอาหารเย็น | supper | breakfast
+snack | noun | ขนมกินเล่น | I eat a snack after school. | a healthy snack = ขนมที่ดีต่อสุขภาพ | - | meal
+recipe | noun | สูตรอาหาร | This recipe is from my grandmother. | follow a recipe = ทำตามสูตร | - | -
+ingredient | noun | ส่วนผสม วัตถุดิบ | Rice is the main ingredient. | main ingredient = ส่วนผสมหลัก | - | -
+customer | noun | ลูกค้า | The customer wants a cold drink. | a regular customer = ลูกค้าประจำ | client | seller
+waiter | noun | พนักงานเสิร์ฟ | The waiter brings the menu. | ask the waiter = เรียกพนักงานเสิร์ฟ | server | customer
+menu | noun | รายการอาหาร | Can I see the menu, please? | on the menu = ในรายการอาหาร | - | -
+bakery | noun | ร้านขนมปังเบเกอรี่ | The bakery opens at six. | a small bakery = ร้านเบเกอรี่เล็ก ๆ | - | -
+supermarket | noun | ซูเปอร์มาร์เก็ต | We shop at the supermarket on Sunday. | go to the supermarket = ไปซูเปอร์มาร์เก็ต | - | -
+station | noun | สถานี | The station is near my school. | a bus station = สถานีขนส่ง | - | -
+airport | noun | สนามบิน | We arrive at the airport at noon. | at the airport (ใช้ at) | - | -
+passport | noun | หนังสือเดินทาง | Don't forget your passport. | show your passport = แสดงพาสปอร์ต | - | -
+map | noun | แผนที่ | Look at the map. | read a map = อ่านแผนที่ | - | -
+invitation | noun | บัตรเชิญ คำเชิญ | I got an invitation to her party. | accept an invitation = รับคำเชิญ | - | -
+birthday | noun | วันเกิด | Her birthday is in May. | Happy birthday! = สุขสันต์วันเกิด | - | -
+present | noun | ของขวัญ | He gave me a present. | a birthday present = ของขวัญวันเกิด | gift | -
+photo | noun | รูปถ่าย | She took a photo of the temple. | take a photo = ถ่ายรูป | picture | -
+dictionary | noun | พจนานุกรม | Look it up in the dictionary. | look up a word = เปิดหาคำ | - | -
+library | noun | ห้องสมุด | I borrow books from the library. | at the library (ใช้ at) | - | -
+catch | verb | ขึ้นให้ทัน จับ | I catch the bus at seven. | catch a bus = ขึ้นรถให้ทัน | - | miss
+miss | verb | พลาด ตกหล่น | She missed the last bus. | miss the bus = ตกรถ | - | catch
+carry | verb | ถือ แบก | He carries a heavy bag. | carry a bag = ถือกระเป๋า | - | -
+push | verb | ผลัก | Push the door to open it. | push the door = ผลักประตู | - | pull
+pull | verb | ดึง | Pull the rope. | pull the door = ดึงประตู | - | push
+wash | verb | ล้าง ซัก | I wash the dishes after dinner. | wash the dishes = ล้างจาน | clean | -
+cut | verb | ตัด หั่น | Cut the onion into small pieces. | cut ... into pieces = หั่นเป็นชิ้น | - | -
+shout | verb | ตะโกน | Don't shout in the library. | shout at someone = ตะโกนใส่ | yell | whisper
+smile | verb | ยิ้ม | She smiles at everyone. | smile at = ยิ้มให้ | - | frown
+fresh | adj | สดใหม่ | The fish is fresh. | fresh air = อากาศบริสุทธิ์ | - | stale
+sweet | adj | หวาน | This mango is very sweet. | sweet tea = ชาหวาน | - | sour
+sour | adj | เปรี้ยว | The lime is sour. | a sour taste = รสเปรี้ยว | - | sweet
+salty | adj | เค็ม | The soup is too salty. | too salty = เค็มเกินไป | - | sweet
+narrow | adj | แคบ | The street is narrow. | a narrow road = ถนนแคบ | - | wide
+wide | adj | กว้าง | The river is wide here. | a wide road = ถนนกว้าง | broad | narrow
+heavy | adj | หนัก | This box is heavy. | heavy rain = ฝนตกหนัก | - | light
+light | adj | เบา | The bag is light. | light as a feather = เบาหวิว | - | heavy
+empty | adj | ว่างเปล่า | The glass is empty. | an empty seat = ที่นั่งว่าง | - | full
+full | adj | เต็ม อิ่ม | The bus is full. | full of = เต็มไปด้วย | - | empty
+safe | adj | ปลอดภัย | This street is safe at night. | feel safe = รู้สึกปลอดภัย | secure | dangerous
+engineer | noun | วิศวกร | My uncle is an engineer. | a computer engineer = วิศวกรคอมพิวเตอร์ | - | -
+mechanic | noun | ช่างซ่อมเครื่องยนต์ | The mechanic fixed our car. | a car mechanic = ช่างซ่อมรถ | - | -
+dentist | noun | หมอฟัน | I see the dentist twice a year. | go to the dentist = ไปหาหมอฟัน | - | -
+pilot | noun | นักบิน | The pilot welcomed the passengers. | an airline pilot = นักบินสายการบิน | - | -
+passenger | noun | ผู้โดยสาร | The passengers waited at the gate. | a bus passenger = ผู้โดยสารรถบัส | traveller | driver
+guide | noun | ไกด์ มัคคุเทศก์ | Our guide spoke three languages. | a tour guide = ไกด์นำเที่ยว | - | -
+hotel | noun | โรงแรม | We stayed at a small hotel. | book a hotel = จองโรงแรม | - | -
+reservation | noun | การจอง | I made a reservation for four people. | make a reservation = จองที่ | booking | cancellation
+crowd | noun | ฝูงชน | A big crowd came to the festival. | a large crowd = ฝูงชนจำนวนมาก | - | -
+traffic | noun | การจราจร | The traffic is terrible in the morning. | heavy traffic = รถติดหนัก | - | -
+bridge | noun | สะพาน | We walked across the old bridge. | cross a bridge = ข้ามสะพาน | - | -
+corner | noun | มุม หัวมุม | The shop is on the corner. | turn the corner = เลี้ยวตรงหัวมุม | - | -
+floor | noun | พื้น ชั้น | My room is on the second floor. | on the floor = บนพื้น | - | ceiling
+roof | noun | หลังคา | The roof of the house is red. | on the roof = บนหลังคา | - | -
+wall | noun | ผนัง กำแพง | There is a map on the wall. | a high wall = กำแพงสูง | - | -
+stairs | noun | บันได | Take the stairs to the third floor. | go up the stairs = ขึ้นบันได | - | -
+garage | noun | โรงรถ | He parked the car in the garage. | in the garage = ในโรงรถ | - | -
+pharmacy | noun | ร้านขายยา | The pharmacy closes at nine. | go to the pharmacy = ไปร้านขายยา | - | -
+bank | noun | ธนาคาร | I need to go to the bank. | a bank account = บัญชีธนาคาร | - | -
+parcel | noun | พัสดุ | I sent a parcel to my sister. | send a parcel = ส่งพัสดุ | package | -
+address | noun | ที่อยู่ | Write your address here. | email address = อีเมลแอดเดรส | - | -
+password | noun | รหัสผ่าน | Do not share your password. | forget a password = ลืมรหัสผ่าน | - | -
+screen | noun | หน้าจอ | The screen of my phone is broken. | a touch screen = หน้าจอสัมผัส | - | -
+battery | noun | แบตเตอรี่ | The battery is almost empty. | a low battery = แบตเหลือน้อย | - | -
+website | noun | เว็บไซต์ | The shop has a new website. | visit a website = เข้าเว็บไซต์ | - | -
+email | noun | อีเมล | I will send you an email tonight. | check email = เช็กอีเมล | - | -
+laptop | noun | โน้ตบุ๊ก | She works on her laptop. | a laptop bag = กระเป๋าโน้ตบุ๊ก | - | -
+towel | noun | ผ้าเช็ดตัว | Please bring a clean towel. | a bath towel = ผ้าขนหนูเช็ดตัว | - | -
+soap | noun | สบู่ | Wash your hands with soap. | a bar of soap = สบู่หนึ่งก้อน | - | -
+cousin | noun | ลูกพี่ลูกน้อง | My cousin is a nurse in Khon Kaen. | a close cousin = ญาติสนิท | - | -
+boss | noun | เจ้านาย หัวหน้า | My boss wants the report by Friday. | my boss = หัวหน้าของฉัน | manager | -
+office | noun | สำนักงาน ที่ทำงาน | The school office opens at eight. | at the office = ที่ทำงาน · office hours = เวลาทำการ | - | -
+factory | noun | โรงงาน | Her brother works in a factory near Rayong. | work in a factory = ทำงานในโรงงาน | plant | -
+canteen | noun | โรงอาหาร | The students eat lunch in the canteen. | school canteen = โรงอาหารโรงเรียน | cafeteria | -
+flight | noun | เที่ยวบิน | Our flight to Phuket leaves at nine. | book a flight = จองตั๋วเครื่องบิน · a direct flight = บินตรง | - | -
+suitcase | noun | กระเป๋าเดินทาง | I packed my suitcase the night before the trip. | pack a suitcase = จัดกระเป๋า | - | -
+cough | noun | อาการไอ | I have a bad cough and a sore throat. | have a cough = มีอาการไอ · a dry cough = ไอแห้ง | - | -
+discount | noun | ส่วนลด | Students get a discount at this bookshop. | a 20% discount = ส่วนลด 20% · get a discount | - | -
+promise | noun | คำสัญญา | He made a promise to study harder this term. | make a promise = ให้สัญญา · keep a promise = รักษาสัญญา | - | -
+surprise | noun | เรื่องเซอร์ไพรส์ ความประหลาดใจ | The students planned a surprise for their teacher. | a big surprise = เซอร์ไพรส์ใหญ่ · to my surprise = น่าแปลกใจ | - | -
+fever | noun | ไข้ | Nong stayed home because she had a fever. | have a fever = มีไข้ · a high fever = ไข้สูง | temperature | -
+headache | noun | อาการปวดหัว | I have a headache after the long meeting. | have a headache = ปวดหัว (ไม่ใช้ my head is pain) | - | -
+rent | noun | ค่าเช่า | The rent for this room is 3,000 baht a month. | pay the rent = จ่ายค่าเช่า | - | -
+prize | noun | รางวัล | Our team won first prize in the science fair. | win a prize = ได้รางวัล · first prize = รางวัลที่หนึ่ง | award | -
+picnic | noun | ปิกนิก | We had a picnic by the river on Sunday. | have a picnic = ไปปิกนิก · a picnic basket = ตะกร้าปิกนิก | - | -
+pocket | noun | กระเป๋า (บนเสื้อผ้า) | He keeps his phone in his back pocket. | in my pocket = ในกระเป๋ากางเกง · pocket money = เงินติดกระเป๋า | - | -
+trip | noun | การเดินทาง (สั้น ๆ) | The school trip to Ayutthaya was a lot of fun. | go on a trip = ไปเที่ยว · a business trip = ไปทำงานต่างถิ่น | journey | -
+return | verb | กลับ คืน | Please return the books by next Monday. | return something to someone = คืนของให้ · return home = กลับบ้าน | - | -
+enjoy | verb | เพลิดเพลิน ชอบ | The students enjoy singing in English. | enjoy + -ing (ไม่ใช้ enjoy to) · enjoy yourself = สนุกกับตัวเอง | like | dislike
+finish | verb | ทำเสร็จ จบ | I usually finish work at five. | finish + -ing · finish school = เรียนจบ | complete | start
+follow | verb | ตาม ปฏิบัติตาม | Please follow the instructions on the board. | follow the rules = ทำตามกฎ | - | lead
+hope | verb | หวัง | I hope the weather is good for sports day. | hope to do · hope that + ประโยค | wish | -
+join | verb | เข้าร่วม | Would you like to join our English club? | join a club (ไม่มี in) · join us for lunch = มากินข้าวด้วยกัน | - | leave
+marry | verb | แต่งงาน | They will marry in a small temple ceremony. | marry someone (ไม่ใช้ marry with) · get married = แต่งงาน | - | divorce
+relax | verb | พักผ่อน ผ่อนคลาย | I relax at the beach every long weekend. | relax at home = พักผ่อนที่บ้าน · sit back and relax | rest | -
+wake | verb | ตื่น ปลุก | I wake at five to catch the first bus. | wake up = ตื่นนอน · wake someone up = ปลุก | - | sleep
+hate | verb | เกลียด | I hate waiting in traffic every morning. | hate + -ing · hate it when … = เกลียดเวลาที่… | dislike | love
+lazy | adjective | ขี้เกียจ | I feel lazy on rainy Sunday mornings. | a lazy afternoon = บ่ายสบาย ๆ · feel lazy | idle | hardworking
+lucky | adjective | โชคดี | We were lucky to get the last two tickets. | be lucky to do · a lucky day = วันโชคดี | fortunate | unlucky
+strange | adjective | แปลก | There is a strange noise coming from the kitchen. | a strange noise = เสียงแปลก ๆ · feel strange = รู้สึกแปลก ๆ | odd | normal
+rude | adjective | หยาบคาย ไม่สุภาพ | It is rude to talk while the teacher is speaking. | rude to someone = ไม่สุภาพกับ | impolite | polite
+quick | adjective | เร็ว รวดเร็ว | Let's have a quick lunch before the meeting. | a quick look = ดูแวบเดียว · a quick question = ถามสั้น ๆ | fast | slow
+sick | adjective | ป่วย | Three students are sick with the flu this week. | be sick = ป่วย · feel sick = คลื่นไส้ | ill | well
+lonely | adjective | เหงา | She felt lonely in her first week in Bangkok. | feel lonely = รู้สึกเหงา (ต่างจาก alone = อยู่คนเดียว) | - | -
+scared | adjective | กลัว | My daughter is scared of big dogs. | scared of + สิ่งที่กลัว · scared to do = กลัวที่จะทำ | afraid | brave
+usually | adverb | โดยปกติ | I usually take the bus to work. | usually + กริยา (วางหน้ากริยาหลัก) | normally | rarely
+sometimes | adverb | บางครั้ง | We sometimes eat at the night market after work. | sometimes วางต้นประโยคหรือหน้ากริยาได้ | occasionally | always
+carefully | adverb | อย่างระมัดระวัง | Read the question carefully before you answer. | listen carefully = ตั้งใจฟัง · drive carefully = ขับระวัง | - | carelessly
+inside | preposition | ข้างใน | The keys are inside the top drawer. | inside the house = ในบ้าน | in | outside
+
+@B1
+
+achieve | verb | บรรลุ ทำได้สำเร็จ | She achieved her goal of reading 20 books this year. | achieve a goal · achieve success | accomplish | fail
+improve | verb | พัฒนา ทำให้ดีขึ้น | My English improved after I joined the club. | improve skills · improve quickly | - | worsen
+encourage | verb | ส่งเสริม ให้กำลังใจ | We encourage students to ask questions. | encourage someone to do something | motivate | discourage
+recommend | verb | แนะนำ (สิ่งที่ดี) | Can you recommend a good restaurant near here? | recommend + -ing · highly recommend | suggest | -
+suggest | verb | เสนอแนะ | I suggest we start the meeting at nine. | suggest + -ing · suggest that... (ไม่ใช้ suggest someone to) | propose | -
+complain | verb | บ่น ร้องเรียน | The parents complained about the dirty toilets. | complain about something · complain to someone | - | praise
+apologise | verb | ขอโทษ | I apologise for the late reply. | apologise to someone for something | say sorry | -
+admit | verb | ยอมรับ (ความผิด/ความจริง) | He admitted that he had made a mistake. | admit + -ing · admit to something | confess | deny
+avoid | verb | หลีกเลี่ยง | Try to avoid sugary drinks. | avoid + -ing (ไม่ใช้ to) | - | -
+manage | verb | จัดการ ทำได้สำเร็จ (แม้ยาก) | How do you manage a class of 40 students? | manage to do · manage time | handle | -
+organise | verb | จัด จัดระเบียบ | Our school organised a science fair. | organise an event · well organised | arrange | -
+attend | verb | เข้าร่วม | All teachers must attend the training. | attend a meeting/class (ไม่ใช้ attend to ในความหมายนี้) | join | miss
+require | verb | ต้องการ กำหนดให้ต้องมี | This job requires good computer skills. | be required to do · require attention | need | -
+provide | verb | จัดหาให้ | The school provides free lunch for all students. | provide someone with something · provide something for someone | supply | -
+include | verb | รวมถึง รวมอยู่ด้วย | The price includes breakfast. | including + คำนาม | contain | exclude
+increase | verb | เพิ่มขึ้น | The number of students increased this year. | increase by 10% · increase sharply | rise | decrease
+reduce | verb | ลด | We need to reduce plastic waste. | reduce costs · reduce stress | cut | increase
+compare | verb | เปรียบเทียบ | Compare your answers with your partner. | compare A with/to B | contrast | -
+describe | verb | บรรยาย อธิบายลักษณะ | Describe your hometown in five sentences. | describe something to someone (ไม่ใช้ describe about) | - | -
+discuss | verb | อภิปราย หารือ | We discussed the new timetable. | discuss something (ไม่ใช้ discuss about) | talk about | -
+respond | verb | ตอบ ตอบสนอง | Please respond to the email by Friday. | respond to something · respond quickly | reply | ignore
+support | verb | สนับสนุน | My family always supports my decisions. | support someone in something | back | oppose
+solve | verb | แก้ (ปัญหา) | Can you solve this puzzle? | solve a problem · solve a mystery | fix | -
+mention | verb | กล่าวถึง | She mentioned that the meeting was cancelled. | mention something to someone (ไม่ใช้ mention about) | refer to | -
+realise | verb | ตระหนัก รู้ตัว | I didn't realise it was so late. | suddenly realise · realise that... | notice | -
+expect | verb | คาดหวัง คาดว่า | I expect the results next week. | expect someone to do · as expected | - | -
+involve | verb | เกี่ยวข้อง ให้มีส่วนร่วม | The project involves parents and students. | be involved in something | include | exclude
+earn | verb | หาเงินได้ ได้รับ | She earns extra money by selling snacks online. | earn money · earn a living = หาเลี้ยงชีพ | make | -
+afford | verb | มีเงินพอจ่าย | I can't afford a new car right now. | can't afford to do · afford something | - | -
+deliver | verb | ส่ง (ของ) | The parcel was delivered this morning. | deliver food · deliver a speech = กล่าวสุนทรพจน์ | - | -
+replace | verb | แทนที่ เปลี่ยนใหม่ | We need to replace the broken fan. | replace A with B | change | -
+repair | verb | ซ่อม | My uncle repairs motorbikes. | get something repaired | fix | break
+damage | verb | ทำให้เสียหาย | The storm damaged the school roof. | badly damaged | harm | repair
+protect | verb | ปกป้อง | Wear a hat to protect yourself from the sun. | protect someone from something | defend | -
+prevent | verb | ป้องกัน | Washing your hands can prevent illness. | prevent someone from doing something | stop | allow
+develop | verb | พัฒนา | The workshop helped us develop new teaching ideas. | develop skills · develop a plan | grow | -
+depend | verb | ขึ้นอยู่กับ พึ่งพา | Our plans depend on the weather. | depend on something/someone | rely | -
+behave | verb | ประพฤติ ปฏิบัติตัว | The students behaved very well on the trip. | behave well/badly · behave yourself | act | misbehave
+effort | noun | ความพยายาม | Thank you for all your effort. | make an effort · put effort into something | attempt | -
+experience | noun | ประสบการณ์ | She has ten years of teaching experience. | gain experience · work experience | - | -
+skill | noun | ทักษะ | Listening is an important skill. | develop skills · language skills | ability | -
+knowledge | noun | ความรู้ | He has a lot of knowledge about local plants. | knowledge of/about · นับไม่ได้ | understanding | ignorance
+ability | noun | ความสามารถ | Every child has different abilities. | the ability to do something | skill | inability
+opportunity | noun | โอกาส | This trip is a great opportunity to practise English. | have/take an opportunity | chance | -
+benefit | noun | ประโยชน์ | Regular exercise has many benefits. | the benefits of something · for the benefit of | advantage | drawback
+disadvantage | noun | ข้อเสีย | One disadvantage of living here is the traffic. | a big disadvantage | drawback | advantage
+environment | noun | สิ่งแวดล้อม | We should protect the environment. | the natural environment · learning environment | nature | -
+pollution | noun | มลพิษ | Air pollution is bad in the dry season. | air/water pollution · reduce pollution | - | -
+rubbish | noun | ขยะ | Please put your rubbish in the bin. | throw away rubbish · นับไม่ได้ | trash | -
+community | noun | ชุมชน | The school works closely with the local community. | local community · community leader | - | -
+colleague | noun | เพื่อนร่วมงาน | I asked a colleague to check my lesson plan. | a close colleague · work colleague | co-worker | -
+principal | noun | ผู้อำนวยการโรงเรียน | The principal opened the meeting. | school principal (UK ใช้ head teacher ด้วย) | head teacher | -
+parent | noun | ผู้ปกครอง พ่อหรือแม่ | We sent a letter to all parents. | parents' meeting = ประชุมผู้ปกครอง | guardian | -
+attitude | noun | ทัศนคติ | She has a positive attitude to learning. | attitude to/towards something | outlook | -
+behaviour | noun | พฤติกรรม | His behaviour has improved a lot this term. | good/bad behaviour · นับไม่ได้ | conduct | -
+confidence | noun | ความมั่นใจ | Speaking in class builds confidence. | gain/lose confidence · self-confidence | - | doubt
+responsibility | noun | ความรับผิดชอบ | Taking care of the garden is our responsibility. | take responsibility for something | duty | -
+education | noun | การศึกษา | Education is important for every child. | primary education · higher education | schooling | -
+deadline | noun | กำหนดส่ง เส้นตาย | The deadline for the report is Friday. | meet a deadline · miss a deadline | due date | -
+schedule | noun | ตารางงาน กำหนดการ | My schedule is very full this week. | on schedule = ตรงเวลา · behind schedule = ล่าช้า | timetable | -
+budget | noun | งบประมาณ | The school has a small budget for books. | on a budget · within budget | - | -
+salary | noun | เงินเดือน | Teachers' salaries are paid monthly. | earn a salary · a monthly salary | pay | -
+career | noun | อาชีพ เส้นทางอาชีพ | She started her teaching career in 2014. | career path · a career in education | profession | -
+interview | noun | การสัมภาษณ์ | I have a job interview tomorrow. | job interview · have an interview | - | -
+application | noun | ใบสมัคร การสมัคร | Send your application before the end of May. | application form · submit an application | - | -
+document | noun | เอกสาร | Please sign the document and send it back. | official document · prepare documents | paper | -
+announcement | noun | ประกาศ | The principal made an announcement in the morning assembly. | make an announcement | notice | -
+permission | noun | การอนุญาต | You need permission to leave school early. | ask for permission · give permission · นับไม่ได้ | approval | -
+request | noun | คำขอ คำร้อง | We received a request for more desks. | make a request · on request | - | -
+reliable | adjective | เชื่อถือได้ ไว้ใจได้ | Our school van is old but reliable. | a reliable source · reliable information | dependable | unreliable
+convenient | adjective | สะดวก | Is Tuesday convenient for you? | convenient for someone · convenient location | handy | inconvenient
+available | adjective | ว่าง มีให้ใช้ | Is the meeting room available this afternoon? | available for/to someone | free | unavailable
+suitable | adjective | เหมาะสม | This book is suitable for young learners. | suitable for someone/something | appropriate | unsuitable
+necessary | adjective | จำเป็น | Is it necessary to bring a laptop? | It is necessary to... · if necessary | needed | unnecessary
+possible | adjective | เป็นไปได้ | Is it possible to change the date? | as soon as possible · if possible | - | impossible
+serious | adjective | จริงจัง ร้ายแรง | Bullying is a serious problem. | a serious mistake · take something seriously | - | minor
+typical | adjective | ทั่วไป ตามแบบฉบับ | A typical school day starts at 8 a.m. | typical of someone/something | usual | unusual
+recent | adjective | ล่าสุด เมื่อเร็ว ๆ นี้ | Our recent test results were good. | in recent years · a recent study | latest | -
+local | adjective | ในท้องถิ่น | We buy vegetables from local farmers. | local people · local food | - | foreign
+traditional | adjective | ดั้งเดิม ตามประเพณี | We wore traditional clothes for the festival. | traditional food · traditional dance | - | modern
+modern | adjective | ทันสมัย | The new library is very modern. | modern technology · modern life | up-to-date | old-fashioned
+public | adjective | สาธารณะ | You can't smoke in public places. | public transport · in public | - | private
+private | adjective | ส่วนตัว เอกชน | She teaches at a private school. | private life · in private | personal | public
+confident | adjective | มั่นใจ | She feels more confident speaking English now. | confident about/in something | sure | unsure
+generous | adjective | ใจกว้าง ใจบุญ | The village head was generous with his time. | generous to someone | kind | mean
+honest | adjective | ซื่อสัตย์ | Please give me your honest opinion. | to be honest = พูดตามตรง | truthful | dishonest
+responsible | adjective | มีความรับผิดชอบ รับผิดชอบ | She's responsible for the school garden. | responsible for something | - | irresponsible
+independent | adjective | เป็นอิสระ พึ่งตนเองได้ | We want students to become independent learners. | independent of someone | self-reliant | dependent
+creative | adjective | สร้างสรรค์ | The students made very creative posters. | creative ideas · creative thinking | imaginative | -
+flexible | adjective | ยืดหยุ่น | My working hours are quite flexible. | flexible schedule · flexible approach | adaptable | rigid
+useful | adjective | มีประโยชน์ | This app is useful for learning new words. | useful for someone · useful information | helpful | useless
+successful | adjective | ประสบความสำเร็จ | The book fair was very successful. | successful in doing something | - | unsuccessful
+probably | adverb | อาจจะ น่าจะ | It will probably rain this afternoon. | วางหลัง will: will probably... | likely | -
+actually | adverb | ที่จริงแล้ว | I thought it was easy, but it was actually quite difficult. | ใช้แก้ความเข้าใจ ไม่ได้แปลว่า "ปัจจุบัน" | in fact | -
+especially | adverb | โดยเฉพาะอย่างยิ่ง | I love Isan food, especially larb. | especially for someone | particularly | -
+recently | adverb | เมื่อเร็ว ๆ นี้ | I have recently started a new course. | มักใช้กับ Present Perfect | lately | -
+immediately | adverb | ทันที | Please call me immediately if there's a problem. | immediately after something | at once | later
+persuade | verb | โน้มน้าว ชักจูง | I persuaded my friend to join the English club. | persuade someone to do something | convince | discourage
+fluent | adjective | คล่อง (ภาษา) | She is fluent in English and Lao. | fluent in a language · fluent English | - | -
+rely | verb | พึ่งพา ไว้วางใจ | Many families rely on rice farming for income. | rely on someone/something (ต้องมี on) | depend | -
+accept | verb | ยอมรับ รับไว้ | She accepted the job offer. | accept an offer = รับข้อเสนอ | agree to | refuse
+refuse | verb | ปฏิเสธ | He refused to pay. | refuse to + V = ไม่ยอมทำ... | decline | accept
+agree | verb | เห็นด้วย | I agree with you. | agree with + คน = เห็นด้วยกับ... | - | disagree
+argue | verb | โต้เถียง | They argue about money. | argue with someone about... = เถียงกับ... เรื่อง... | quarrel | agree
+advise | verb | แนะนำ ให้คำปรึกษา | The doctor advised him to rest. | advise someone to + V | recommend | -
+warn | verb | เตือน | I warned him about the traffic. | warn someone about... = เตือนใครเรื่อง... | - | -
+invent | verb | ประดิษฐ์ | Who invented the telephone? | invent a machine = ประดิษฐ์เครื่องจักร | create | -
+discover | verb | ค้นพบ | They discovered a new beach. | discover a secret = ค้นพบความลับ | find out | -
+predict | verb | ทำนาย คาดการณ์ | No one can predict the weather. | predict the future = ทำนายอนาคต | forecast | -
+influence | noun | อิทธิพล | Friends have a big influence on teenagers. | have an influence on = มีอิทธิพลต่อ | effect | -
+tradition | noun | ประเพณี | Songkran is a Thai tradition. | follow a tradition = ทำตามประเพณี | custom | -
+culture | noun | วัฒนธรรม | I love learning about other cultures. | Thai culture = วัฒนธรรมไทย | - | -
+society | noun | สังคม | Society is changing fast. | in modern society = ในสังคมสมัยใหม่ | - | -
+government | noun | รัฐบาล | The government built a new road. | local government = การปกครองท้องถิ่น | - | -
+economy | noun | เศรษฐกิจ | The economy is growing. | a strong economy = เศรษฐกิจเข้มแข็ง | - | -
+industry | noun | อุตสาหกรรม | Tourism is an important industry. | the food industry = อุตสาหกรรมอาหาร | - | -
+population | noun | ประชากร | The population of the city is rising. | a large population = ประชากรจำนวนมาก | - | -
+tourist | noun | นักท่องเที่ยว | Many tourists visit Chiang Mai. | tourist attraction = สถานที่ท่องเที่ยว | traveller | local
+accident | noun | อุบัติเหตุ | There was an accident on the road. | have an accident = เกิดอุบัติเหตุ | - | -
+emergency | noun | เหตุฉุกเฉิน | Call 1669 in an emergency. | in an emergency = ในยามฉุกเฉิน | - | -
+injury | noun | บาดแผล การบาดเจ็บ | He had a serious injury. | suffer an injury = ได้รับบาดเจ็บ | - | -
+disease | noun | โรคภัย | Exercise helps prevent disease. | a serious disease = โรคร้ายแรง | illness | health
+diet | noun | อาหารที่กินเป็นประจำ การคุมอาหาร | A balanced diet is important. | go on a diet = ลดน้ำหนักด้วยการคุมอาหาร | - | -
+stress | noun | ความเครียด | Too much work causes stress. | reduce stress = ลดความเครียด | pressure | relaxation
+routine | noun | กิจวัตร | My morning routine is simple. | daily routine = กิจวัตรประจำวัน | - | -
+purpose | noun | จุดประสงค์ | What is the purpose of your visit? | on purpose = ตั้งใจ | aim | -
+reason | noun | เหตุผล | Give me one reason. | the reason for = เหตุผลของ | cause | result
+result | noun | ผลลัพธ์ | The test result is good. | as a result = ผลก็คือ | outcome | cause
+cause | noun | สาเหตุ | Smoking is a cause of cancer. | cause and effect = เหตุและผล | reason | result
+situation | noun | สถานการณ์ | It is a difficult situation. | in this situation = ในสถานการณ์นี้ | - | -
+difference | noun | ความแตกต่าง | What is the difference between them? | make a difference = สร้างความแตกต่าง | - | similarity
+similar | adj | คล้ายกัน | Our phones are similar. | similar to = คล้ายกับ | alike | different
+different | adj | แตกต่าง | My view is different. | different from = ต่างจาก | - | same
+enormous | adj | มหึมา | An enormous tree stood there. | enormous cost = ค่าใช้จ่ายมหาศาล | huge | tiny
+tiny | adj | เล็กจิ๋ว | A tiny insect sat on my hand. | a tiny house = บ้านหลังจิ๋ว | - | enormous
+amazing | adj | น่าทึ่ง | The view was amazing. | an amazing story = เรื่องราวน่าทึ่ง | wonderful | ordinary
+embarrassed | adj | อายหน้าแดง | I felt embarrassed. | feel embarrassed = รู้สึกอาย | ashamed | proud
+proud | adj | ภูมิใจ | I am proud of my son. | proud of = ภูมิใจใน | - | ashamed
+humble | adj | ถ่อมตัว | He is famous but very humble. | a humble person = คนถ่อมตัว | modest | arrogant
+stay | verb | พักอยู่ ค้างคืน | We stayed at a small hotel. | stay at a hotel = พักที่โรงแรม | remain | leave
+abroad | adv | ในต่างประเทศ | She studied abroad for two years. | go abroad = ไปต่างประเทศ | overseas | at home
+accommodation | noun | ที่พัก | The price includes accommodation. | find accommodation = หาที่พัก | lodging | -
+adventure | noun | การผจญภัย | The trip was a great adventure. | go on an adventure = ออกผจญภัย | - | routine
+advertisement | noun | โฆษณา | I saw an advertisement for a new phone. | an advertisement for... = โฆษณาของ... | advert | -
+ambition | noun | ความทะเยอทะยาน | Her ambition is to become a chef. | have an ambition = มีความมุ่งมั่น | goal | -
+atmosphere | noun | บรรยากาศ | The cafe has a relaxed atmosphere. | a friendly atmosphere = บรรยากาศเป็นกันเอง | mood | -
+attractive | adj | ดึงดูดใจ น่ามอง | The hotel has an attractive garden. | an attractive offer = ข้อเสนอที่น่าสนใจ | appealing | unattractive
+audience | noun | ผู้ชม | The audience clapped loudly. | a large audience = ผู้ชมจำนวนมาก | spectators | -
+brilliant | adj | ยอดเยี่ยม เฉลียวฉลาด | That is a brilliant idea! | a brilliant student = นักเรียนหัวกะทิ | excellent | terrible
+cancel | verb | ยกเลิก | They cancelled the meeting. | cancel a flight = ยกเลิกเที่ยวบิน | call off | confirm
+capable | adj | มีความสามารถ | She is capable of leading a team. | capable of + V-ing | able | incapable
+celebrate | verb | ฉลอง | We celebrate Songkran every April. | celebrate a birthday = ฉลองวันเกิด | - | -
+certificate | noun | ใบประกาศนียบัตร | She received a certificate of completion. | get a certificate = ได้รับใบรับรอง | - | -
+charity | noun | องค์กรการกุศล | He gave money to a charity. | raise money for charity = ระดมทุนเพื่อการกุศล | - | -
+climate | noun | ภูมิอากาศ | Thailand has a tropical climate. | climate change = การเปลี่ยนแปลงสภาพอากาศ | - | -
+communicate | verb | สื่อสาร | We communicate by email. | communicate with = สื่อสารกับ | - | -
+competition | noun | การแข่งขัน | She won the singing competition. | enter a competition = เข้าร่วมแข่ง | contest | -
+concentrate | verb | ตั้งใจ จดจ่อ | I cannot concentrate with loud music. | concentrate on = จดจ่อกับ | focus | -
+conclusion | noun | บทสรุป | What is your conclusion? | in conclusion = สรุปแล้ว | ending | introduction
+confused | adj | สับสน | I felt confused by the instructions. | feel confused = รู้สึกสับสน | puzzled | clear
+connect | verb | เชื่อมต่อ | The bridge connects two villages. | connect to the internet = เชื่อมอินเทอร์เน็ต | link | disconnect
+courage | noun | ความกล้าหาญ | It takes courage to speak English. | have the courage to + V | bravery | fear
+curious | adj | อยากรู้อยากเห็น | The children were curious about the box. | curious about = อยากรู้เกี่ยวกับ | interested | uninterested
+decision | noun | การตัดสินใจ | It was a difficult decision. | make a decision = ตัดสินใจ | choice | -
+delay | noun | ความล่าช้า | There was a delay at the airport. | a long delay = ล่าช้านาน | - | -
+destination | noun | จุดหมายปลายทาง | Our final destination is Phuket. | reach your destination = ถึงจุดหมาย | - | origin
+determined | adj | มุ่งมั่นแน่วแน่ | She is determined to pass the test. | determined to + V | resolute | hesitant
+disappointed | adj | ผิดหวัง | I was disappointed with the result. | disappointed with = ผิดหวังกับ | upset | pleased
+donate | verb | บริจาค | They donated books to the school. | donate money = บริจาคเงิน | give | -
+emotion | noun | อารมณ์ ความรู้สึก | She could not hide her emotion. | show emotion = แสดงความรู้สึก | feeling | -
+entertain | verb | ให้ความบันเทิง | The clown entertained the children. | entertain guests = รับรองแขก | amuse | bore
+exhibition | noun | นิทรรศการ | We visited an art exhibition. | hold an exhibition = จัดนิทรรศการ | show | -
+fascinating | adj | น่าหลงใหล | The museum was fascinating. | a fascinating story = เรื่องที่น่าสนใจมาก | captivating | boring
+feature | noun | ลักษณะเด่น | The phone has a new camera feature. | main features = คุณสมบัติหลัก | characteristic | -
+gather | verb | รวบรวม ชุมนุม | People gathered in the square. | gather information = รวบรวมข้อมูล | collect | scatter
+harvest | noun | การเก็บเกี่ยว | The rice harvest begins in November. | a good harvest = ผลผลิตดี | crop | -
+identity | noun | ตัวตน เอกลักษณ์ | Show your identity card at the door. | identity card = บัตรประจำตัว | - | -
+candidate | noun | ผู้สมัคร | Each candidate has ten minutes for the interview. | a strong candidate = ผู้สมัครที่โดดเด่น | applicant | -
+employee | noun | ลูกจ้าง พนักงาน | Every employee receives training in the first week. | a full-time employee = พนักงานประจำ | worker | employer
+employer | noun | นายจ้าง | My employer pays for our health insurance. | a good employer = นายจ้างที่ดี | - | employee
+invoice | noun | ใบแจ้งหนี้ | Please send the invoice to the finance office. | issue an invoice = ออกใบแจ้งหนี้ · pay an invoice | bill | -
+landlord | noun | เจ้าของบ้านเช่า | Our landlord fixed the water heater yesterday. | pay the landlord = จ่ายค่าเช่าให้เจ้าของบ้าน | - | tenant
+promotion | noun | การเลื่อนตำแหน่ง โปรโมชัน | She got a promotion after three years of hard work. | get a promotion = ได้เลื่อนตำแหน่ง | advancement | demotion
+qualification | noun | คุณวุฒิ | A teaching qualification is required for this job. | have the right qualifications = มีคุณวุฒิตรง | - | -
+retirement | noun | การเกษียณ | My father plans to travel after his retirement. | retirement age = อายุเกษียณ · save for retirement | - | -
+scholarship | noun | ทุนการศึกษา | He won a scholarship to study in Japan. | win a scholarship = ได้ทุน · apply for a scholarship = สมัครทุน | grant | -
+semester | noun | ภาคเรียน | The first semester starts in May. | this semester = ภาคเรียนนี้ · end of the semester | term | -
+supervisor | noun | หัวหน้างาน ผู้ดูแล | My supervisor checks the lesson plans every Friday. | report to a supervisor = รายงานต่อหัวหน้า | manager | -
+tutor | noun | ติวเตอร์ ครูสอนพิเศษ | Her tutor comes to the house twice a week. | a private tutor = ครูสอนพิเศษส่วนตัว | - | -
+warranty | noun | การรับประกัน | The laptop comes with a two-year warranty. | under warranty = อยู่ในประกัน | guarantee | -
+workshop | noun | การอบรมเชิงปฏิบัติการ | The teachers attended a workshop on classroom games. | attend a workshop = เข้าอบรม · run a workshop = จัดอบรม | - | -
+loan | noun | เงินกู้ | She took out a loan to buy a small car. | take out a loan = กู้เงิน · pay off a loan = ชำระหนี้หมด | - | -
+income | noun | รายได้ | Many farmers have a low income in the dry season. | a steady income = รายได้ประจำ · low income = รายได้น้อย | earnings | -
+complaint | noun | คำร้องเรียน | The hotel received a complaint about the noise. | make a complaint = ร้องเรียน · a complaint about | - | compliment
+apply | verb | สมัคร ใช้ (กฎ) | You can apply for the position online. | apply for a job = สมัครงาน · apply to a school = สมัครเข้าโรงเรียน | - | -
+attach | verb | แนบ ติด | Please attach your CV to the email. | attach a file = แนบไฟล์ · attached to = ติดกับ | - | detach
+confirm | verb | ยืนยัน | Please confirm your booking by Thursday. | confirm a booking = ยืนยันการจอง · confirm that … | verify | deny
+hire | verb | จ้าง เช่า | The school will hire two new English teachers. | hire staff = จ้างพนักงาน · hire a car = เช่ารถ | employ | fire
+resign | verb | ลาออก | He decided to resign after ten years at the company. | resign from a job = ลาออกจากงาน | quit | -
+submit | verb | ส่ง (งาน/เอกสาร) | Students must submit their essays before Friday. | submit an application = ยื่นใบสมัคร · submit online | - | -
+give up | phrasal verb | เลิก ยอมแพ้ | Don't give up when English feels difficult. | give up + -ing = เลิกทำ · never give up = อย่ายอมแพ้ | quit | continue
+look after | phrasal verb | ดูแล | I look after my grandmother at the weekend. | look after children = ดูแลเด็ก ๆ | - | neglect
+set up | phrasal verb | จัดตั้ง ติดตั้ง | We set up a reading corner in the classroom. | set up a business = ตั้งธุรกิจ · set up a projector = ติดตั้งโปรเจกเตอร์ | establish | -
+put off | phrasal verb | เลื่อนออกไป | They put off the meeting until next week. | put off + -ing · put something off = เลื่อน | postpone | -
+talented | adjective | มีพรสวรรค์ | She is a talented singer and plays the guitar well. | a talented student = นักเรียนที่มีพรสวรรค์ | gifted | -
+optimistic | adjective | มองโลกในแง่ดี | I am optimistic about my students' progress this year. | optimistic about = มองในแง่ดีเกี่ยวกับ | hopeful | pessimistic
+practical | adjective | ใช้ได้จริง เน้นปฏิบัติ | The course gives practical tips for teaching speaking. | practical advice = คำแนะนำที่ใช้ได้จริง | useful | theoretical
+stressful | adjective | เครียด ทำให้เครียด | The exam week is stressful for everyone. | a stressful job = งานที่เครียด | - | relaxing
+urgent | adjective | เร่งด่วน | The principal sent an urgent message to all teachers. | an urgent matter = เรื่องเร่งด่วน | pressing | -
+valuable | adjective | มีค่า มีประโยชน์ | The feedback from parents was very valuable. | valuable experience = ประสบการณ์ที่มีค่า | useful | worthless
+essential | adjective | จำเป็นอย่างยิ่ง | Clean water is essential for good health. | essential for = จำเป็นสำหรับ | vital | unnecessary
+impressive | adjective | น่าประทับใจ | Her speech at the ceremony was really impressive. | an impressive result = ผลงานน่าประทับใจ | remarkable | -
+although | conjunction | แม้ว่า | Although it was raining, we played outside. | although + ประโยคย่อย (ไม่ใช้ but คู่กัน) | though | -
+unless | conjunction | เว้นแต่ | You cannot enter the exam room unless you have your ID. | unless = if not (ไม่ใช้ not ซ้ำ) | - | -
+regularly | adverb | เป็นประจำ | Our teachers meet regularly to share ideas. | exercise regularly = ออกกำลังกายสม่ำเสมอ | routinely | rarely
+fortunately | adverb | โชคดีที่ | Fortunately, the rain stopped before the sports day. | fortunately วางต้นประโยค + จุลภาค | luckily | unfortunately
+unfortunately | adverb | น่าเสียดายที่ | Unfortunately, the library is closed on Sundays. | unfortunately วางต้นประโยค + จุลภาค | sadly | fortunately
+
+@B2
+
+assess | verb | ประเมิน | We assess students' speaking with a simple rubric. | assess progress · assess the situation | evaluate | -
+evaluate | verb | ประเมินผล | The team will evaluate the new reading programme. | evaluate the results · evaluate carefully | assess | -
+implement | verb | นำไปปฏิบัติ | The school implemented the new policy in May. | implement a plan · fully implemented | carry out | -
+enhance | verb | เสริม ยกระดับ | Pictures can enhance students' understanding. | enhance learning · enhance quality | improve | weaken
+collaborate | verb | ร่วมมือ ทำงานร่วมกัน | Teachers collaborate to design the lessons. | collaborate with someone on something | cooperate | -
+emphasise | verb | เน้นย้ำ | The principal emphasised the importance of reading. | emphasise something (ไม่ใช้ emphasise on) | stress | downplay
+acknowledge | verb | ยอมรับ แสดงความขอบคุณ | We acknowledge the support of the parents' network. | acknowledge a mistake · acknowledge receipt | recognise | deny
+allocate | verb | จัดสรร | We allocated 20 minutes for group work. | allocate time/money to something | assign | -
+anticipate | verb | คาดการณ์ล่วงหน้า | We didn't anticipate so many visitors. | anticipate problems · as anticipated | expect | -
+clarify | verb | ชี้แจง ทำให้ชัดเจน | Could you clarify what you mean? | clarify a point · clarify the rules | explain | confuse
+contribute | verb | มีส่วนช่วย ร่วมสมทบ | Every member contributed ideas to the project. | contribute to something | add | -
+demonstrate | verb | สาธิต แสดงให้เห็น | The teacher demonstrated how to use the microscope. | demonstrate how to... · clearly demonstrate | show | -
+determine | verb | กำหนด ตัดสิน หาคำตอบ | Test scores alone don't determine a child's future. | determine the cause · be determined to do = ตั้งใจแน่วแน่ | decide | -
+ensure | verb | ทำให้แน่ใจ รับรองว่า | Please ensure that all windows are closed. | ensure that... · ensure safety | make sure | -
+establish | verb | ก่อตั้ง สร้าง (ความสัมพันธ์/กฎ) | It's important to establish clear rules on the first day. | establish a relationship · well-established | set up | abolish
+highlight | verb | เน้น ชี้ให้เห็น | The report highlights the need for more teachers. | highlight a problem · highlight key words | emphasise | -
+identify | verb | ระบุ ชี้ตัว | Can you identify the main idea of the text? | identify a problem · identify with someone | recognise | -
+indicate | verb | บ่งชี้ แสดงว่า | The results indicate that students need more practice. | indicate that... · clearly indicate | suggest | -
+maintain | verb | รักษา (ให้คงอยู่) บำรุง | We need to maintain high standards. | maintain quality · maintain contact | keep | neglect
+monitor | verb | ติดตาม เฝ้าดู | Teachers monitor students' reading progress every month. | monitor closely · monitor progress | track | -
+motivate | verb | จูงใจ สร้างแรงจูงใจ | Games can motivate shy students to speak. | motivate someone to do something | inspire | discourage
+obtain | verb | ได้มา (ทางการ) | You must obtain permission from the office. | obtain information · obtain a licence | get | lose
+overcome | verb | เอาชนะ ก้าวข้าม | She overcame her fear of public speaking. | overcome a problem · overcome difficulties | conquer | -
+participate | verb | มีส่วนร่วม | All students participated in the clean-up day. | participate in something | take part | -
+prioritise | verb | จัดลำดับความสำคัญ | Teachers have to prioritise their tasks during exam week. | prioritise something over something | rank | -
+promote | verb | ส่งเสริม เลื่อนตำแหน่ง | The campaign promotes healthy eating. | promote reading · be promoted to... | encourage | -
+pursue | verb | ติดตาม ไล่ตาม (เป้าหมาย) ศึกษาต่อ | She is pursuing a PhD in education. | pursue a career · pursue a dream | follow | abandon
+reflect | verb | สะท้อน ไตร่ตรอง | After each lesson, I reflect on what worked. | reflect on something · reflect the views of | consider | -
+reinforce | verb | ตอกย้ำ เสริมให้แข็งแรง | Short quizzes reinforce new vocabulary. | reinforce learning · reinforce a message | strengthen | weaken
+retain | verb | เก็บรักษา จำไว้ได้ | Students retain more when they teach each other. | retain information · retain staff | keep | lose
+adapt | verb | ปรับตัว ดัดแปลง | We adapted the lesson for students with low vision. | adapt to something · adapt something for someone | adjust | -
+adjust | verb | ปรับ (เล็กน้อย) | I adjusted the timetable to fit the sports day. | adjust to a new situation · adjust slightly | modify | -
+approach | noun | แนวทาง วิธีการ | We tried a new approach to teaching phonics. | approach to something (ใช้ to) · a practical approach | method | -
+aspect | noun | แง่มุม ด้าน | Pronunciation is one aspect of speaking. | every aspect of · an important aspect | feature | -
+assumption | noun | ข้อสันนิษฐาน การคาดเอาเอง | Don't make assumptions about students from their test scores. | make an assumption · based on the assumption that... | presumption | -
+challenge | noun | ความท้าทาย | Teaching mixed-ability classes is a real challenge. | face a challenge · rise to the challenge | difficulty | -
+concept | noun | แนวคิด มโนทัศน์ | The concept of fractions is hard for some children. | basic concept · understand a concept | idea | -
+consequence | noun | ผลที่ตามมา | Every choice has consequences. | as a consequence · face the consequences | result | cause
+criteria | noun | เกณฑ์ (พหูพจน์ของ criterion) | What are the criteria for the best project? | meet the criteria · selection criteria | standards | -
+curriculum | noun | หลักสูตร | The new curriculum focuses on competencies. | national curriculum · in the curriculum | syllabus | -
+feedback | noun | ข้อมูลป้อนกลับ คำติชม | Specific feedback helps students improve faster. | give feedback on something · นับไม่ได้ | comments | -
+framework | noun | กรอบ (แนวคิด/การทำงาน) | We used a simple framework to plan the unit. | a framework for something · within the framework | structure | -
+impact | noun | ผลกระทบ | The new canteen had a positive impact on attendance. | have an impact on something | effect | -
+initiative | noun | ความริเริ่ม โครงการริเริ่ม | The reading corner was a teacher's initiative. | take the initiative · a new initiative | - | -
+insight | noun | ความเข้าใจลึกซึ้ง | The survey gave us useful insights into parents' needs. | insight into something · gain insight | understanding | -
+issue | noun | ประเด็น ปัญหา | Safety is a big issue on this road. | raise an issue · deal with an issue | matter | -
+objective | noun | วัตถุประสงค์ | Write the lesson objective on the board. | learning objective · achieve an objective | aim | -
+outcome | noun | ผลลัพธ์ | The outcome of the meeting was positive. | learning outcomes · the final outcome | result | -
+perspective | noun | มุมมอง | Try to see the problem from the student's perspective. | from someone's perspective · put things in perspective | viewpoint | -
+policy | noun | นโยบาย | The school has a no-phone policy in class. | school policy · introduce a policy | rule | -
+priority | noun | สิ่งสำคัญอันดับต้น | Student safety is our top priority. | top priority · give priority to something | - | -
+procedure | noun | ขั้นตอน (ที่เป็นทางการ) | Please follow the fire safety procedure. | standard procedure · follow a procedure | process | -
+progress | noun | ความก้าวหน้า | She has made great progress in reading. | make progress (นับไม่ได้ ไม่ใช้ a progress) | improvement | decline
+resource | noun | ทรัพยากร สื่อ/แหล่งข้อมูล | We share teaching resources in our LINE group. | learning resources · limited resources | material | -
+strategy | noun | กลยุทธ์ วิธีการ | Guessing from context is a useful reading strategy. | develop a strategy · learning strategy | plan | -
+workload | noun | ปริมาณงาน ภาระงาน | Teachers' workload is heavy at the end of term. | heavy workload · reduce the workload | - | -
+burnout | noun | ภาวะหมดไฟ | Too much paperwork can lead to burnout. | suffer from burnout · prevent burnout | exhaustion | -
+accurate | adjective | แม่นยำ ถูกต้อง | Please make sure the student records are accurate. | accurate information · highly accurate | precise | inaccurate
+adequate | adjective | เพียงพอ (พอใช้ได้) | The classroom doesn't have adequate light. | adequate for something · adequate time | sufficient | inadequate
+appropriate | adjective | เหมาะสม (กับสถานการณ์) | Is this video appropriate for children? | appropriate for/to something | suitable | inappropriate
+beneficial | adjective | เป็นประโยชน์ | Pair work is beneficial for shy learners. | beneficial to/for someone | helpful | harmful
+consistent | adjective | สม่ำเสมอ คงเส้นคงวา | Be consistent with your classroom rules. | consistent with something · consistent results | steady | inconsistent
+diverse | adjective | หลากหลาย | Our students come from diverse backgrounds. | a diverse group · culturally diverse | varied | uniform
+effective | adjective | ได้ผล มีประสิทธิผล | Short daily practice is more effective than long weekly lessons. | highly effective · effective way to... | successful | ineffective
+efficient | adjective | มีประสิทธิภาพ (ไม่เปลืองเวลา/ทรัพยากร) | Online forms are more efficient than paper ones. | energy-efficient · efficient use of time | productive | inefficient
+inevitable | adjective | หลีกเลี่ยงไม่ได้ | Some mistakes are inevitable when you learn a language. | It is inevitable that... | unavoidable | avoidable
+relevant | adjective | เกี่ยวข้อง ตรงประเด็น | Use examples that are relevant to students' lives. | relevant to something · highly relevant | related | irrelevant
+significant | adjective | สำคัญ มีนัยสำคัญ | There was a significant improvement in reading scores. | significant difference · significant change | considerable | minor
+sufficient | adjective | เพียงพอ | We don't have sufficient time to finish the unit. | sufficient for something · sufficient evidence | enough | insufficient
+sustainable | adjective | ยั่งยืน | The school garden is a sustainable project. | sustainable development · environmentally sustainable | - | unsustainable
+vulnerable | adjective | เปราะบาง เสี่ยงได้รับอันตราย | Young children are vulnerable to online risks. | vulnerable to something · vulnerable groups | at risk | protected
+reluctant | adjective | ลังเล ไม่เต็มใจ | Some students are reluctant to speak in front of the class. | reluctant to do something | unwilling | willing
+overwhelmed | adjective | ท่วมท้น รับมือไม่ไหว | I felt overwhelmed by all the paperwork. | overwhelmed by/with something | swamped | -
+frustrated | adjective | หงุดหงิด คับข้องใจ | He gets frustrated when the internet is slow. | frustrated with/by something | annoyed | satisfied
+enthusiastic | adjective | กระตือรือร้น | The new teacher is very enthusiastic. | enthusiastic about something | eager | unenthusiastic
+considerate | adjective | มีน้ำใจ คำนึงถึงผู้อื่น | It was considerate of you to call first. | considerate of/towards others | thoughtful | inconsiderate
+thorough | adjective | ละเอียดถี่ถ้วน | She did a thorough check of the exam papers. | a thorough investigation · thorough knowledge | careful | careless
+punctual | adjective | ตรงต่อเวลา | Please be punctual for the morning assembly. | always punctual | on time | late
+mature | adjective | เป็นผู้ใหญ่ มีวุฒิภาวะ | She's very mature for a 12-year-old. | emotionally mature | grown-up | immature
+rural | adjective | ชนบท | Many rural schools have fewer than 100 students. | rural area · rural community | - | urban
+urban | adjective | ในเมือง | Urban schools are often crowded. | urban area · urban life | - | rural
+affordable | adjective | ราคาย่อมเยา จ่ายไหว | We need affordable books for every child. | affordable price · affordable housing | reasonable | unaffordable
+controversial | adjective | เป็นที่ถกเถียง | Homework is a controversial topic among parents. | highly controversial · a controversial decision | debatable | -
+compulsory | adjective | บังคับ (ต้องทำ) | English is a compulsory subject in Thai schools. | compulsory for someone | mandatory | optional
+optional | adjective | ไม่บังคับ เลือกได้ | The evening tutoring class is optional. | optional activity | voluntary | compulsory
+temporary | adjective | ชั่วคราว | We moved to a temporary classroom during the repairs. | temporary job · temporary solution | short-term | permanent
+permanent | adjective | ถาวร | She got a permanent teaching position. | permanent job · permanent damage | lasting | temporary
+widespread | adjective | แพร่หลาย | Smartphone use is widespread among teenagers. | widespread use · widespread support | common | rare
+gradual | adjective | ทีละน้อย ค่อยเป็นค่อยไป | There has been a gradual increase in reading time. | gradual change · gradual improvement | slow | sudden
+considerably | adverb | อย่างมาก (พอสมควร) | Prices have risen considerably this year. | considerably more/less · มักขยายขั้นกว่า | significantly | slightly
+gradually | adverb | อย่างค่อยเป็นค่อยไป | Her confidence gradually grew. | gradually increase · gradually improve | slowly | suddenly
+moreover | adverb | ยิ่งไปกว่านั้น | The plan is cheap. Moreover, it is easy to start. | ขึ้นต้นประโยค ตามด้วยจุลภาค | furthermore | -
+consequently | adverb | ผลที่ตามมาคือ ดังนั้น | It rained heavily. Consequently, the trip was cancelled. | ขึ้นต้นประโยค ตามด้วยจุลภาค | therefore | -
+approximately | adverb | ประมาณ | The trip takes approximately three hours. | approximately + ตัวเลข | about | exactly
+merely | adverb | เพียงแค่ | It was merely a suggestion, not a rule. | merely a... · not merely... but also | only | -
+apparently | adverb | ดูเหมือนว่า ได้ยินมาว่า | Apparently, the meeting has been moved to Friday. | ใช้เล่าสิ่งที่ได้ยินมาแต่ยังไม่ยืนยัน | seemingly | -
+eventually | adverb | ในที่สุด | After many attempts, he eventually passed the test. | ไม่ได้แปลว่า "อาจจะ" | finally | -
+initially | adverb | ในตอนแรก | Initially, the students were shy, but they soon relaxed. | ใช้คู่กับ but/later เพื่อแสดงการเปลี่ยนแปลง | at first | finally
+whereas | conjunction | ในขณะที่ (เปรียบเทียบความต่าง) | Grade 1 students learn through play, whereas Grade 6 students do more projects. | เชื่อมสองประโยคที่ต่างกัน | while | -
+justify | verb | ให้เหตุผลสนับสนุน แก้ต่าง | You need to justify your answer with evidence from the text. | justify a decision · hard to justify | defend | -
+interpret | verb | ตีความ แปล (พูด) | Students interpreted the poem in different ways. | interpret data · interpret for someone | explain | misinterpret
+perceive | verb | รับรู้ มองว่า | Many students perceive grammar as boring. | perceive something as... | see | -
+simplify | verb | ทำให้ง่ายขึ้น | Can you simplify the instructions for Grade 3? | simplify a text · simplify a process | - | complicate
+constraint | noun | ข้อจำกัด | Time is our biggest constraint this term. | budget constraints · time constraints | limitation | -
+dilemma | noun | ทางเลือกที่ลำบากใจ | Teachers often face the dilemma of covering content or going deeper. | face a dilemma · a moral dilemma | predicament | -
+prominent | adjective | โดดเด่น มีชื่อเสียง | Put the school rules in a prominent place. | a prominent position · prominent figure | noticeable | inconspicuous
+persistent | adjective | ยืนหยัด ไม่ลดละ ต่อเนื่อง | Persistent effort is the key to learning a language. | persistent problem · persistent cough | determined | -
+ambitious | adjective | ทะเยอทะยาน มีเป้าหมายสูง | We have an ambitious plan to make every child a reader. | an ambitious goal · ambitious project | - | unambitious
+crucial | adjective | สำคัญมาก ชี้ขาด | The first week is crucial for setting classroom routines. | crucial for/to something · crucial role | vital | unimportant
+decline | verb | ลดลง ปฏิเสธ (อย่างสุภาพ) | The number of students in rural schools has declined. | decline sharply · decline an invitation | decrease | increase
+analyse | verb | วิเคราะห์ | We analyse the results every month. | analyse data = วิเคราะห์ข้อมูล | examine | -
+convince | verb | ทำให้เชื่อ | I convinced him to join us. | convince someone to + V | persuade | -
+distinguish | verb | แยกแยะ | It is hard to distinguish the twins. | distinguish A from B = แยก A ออกจาก B | differentiate | confuse
+estimate | verb | ประมาณการ | They estimated the cost at 5,000 baht. | a rough estimate = การประมาณคร่าว ๆ | calculate | -
+exceed | verb | เกินกว่า | Sales exceeded our target. | exceed expectations = เกินความคาดหมาย | surpass | -
+generate | verb | ก่อให้เกิด | The project generated new jobs. | generate income = ก่อรายได้ | produce | -
+inspire | verb | สร้างแรงบันดาลใจ | Her story inspired me. | inspire someone to + V | motivate | discourage
+neglect | verb | ละเลย | Don't neglect your health. | neglect your duty = ละเลยหน้าที่ | ignore | care for
+oppose | verb | คัดค้าน | Many villagers oppose the plan. | oppose a plan = คัดค้านแผน | resist | support
+postpone | verb | เลื่อนออกไป | The match was postponed because of rain. | postpone a meeting = เลื่อนการประชุม | delay | -
+restrict | verb | จำกัด | The school restricts phone use. | restrict access = จำกัดการเข้าถึง | limit | allow
+sacrifice | verb | เสียสละ | Parents sacrifice a lot for their children. | sacrifice time = เสียสละเวลา | give up | -
+undergo | verb | ต้องผ่านกระบวนการ | He underwent a long treatment. | undergo surgery = เข้ารับการผ่าตัด | experience | -
+negotiate | verb | เจรจาต่อรอง | They negotiated a lower price. | negotiate a deal = เจรจาข้อตกลง | bargain | -
+reveal | verb | เปิดเผย | The report revealed a problem. | reveal the truth = เปิดเผยความจริง | disclose | hide
+advantage | noun | ข้อได้เปรียบ | Speaking two languages is an advantage. | have an advantage over = ได้เปรียบเหนือ | benefit | disadvantage
+background | noun | ภูมิหลัง | She has a strong science background. | family background = ภูมิหลังครอบครัว | - | -
+capacity | noun | ความจุ | The hall has a capacity of 500. | at full capacity = เต็มความจุ | - | -
+commitment | noun | ความมุ่งมั่นผูกพัน | His commitment to the team is clear. | make a commitment = ให้คำมั่น | dedication | -
+compromise | noun | การประนีประนอม | We reached a compromise. | reach a compromise = หาข้อตกลงร่วมกัน | - | -
+evidence | noun | หลักฐาน | There is no evidence yet. | evidence of/for = หลักฐานของ | proof | -
+expertise | noun | ความเชี่ยวชาญ | We need her expertise in marketing. | technical expertise = ความเชี่ยวชาญด้านเทคนิค | skill | -
+phenomenon | noun | ปรากฏการณ์ | Rainbows are a natural phenomenon. | a natural phenomenon = ปรากฏการณ์ธรรมชาติ | - | -
+reputation | noun | ชื่อเสียง | The shop has a good reputation. | build a reputation = สร้างชื่อเสียง | - | -
+tension | noun | ความตึงเครียด | There was tension in the room. | ease the tension = คลายความตึงเครียด | stress | -
+trend | noun | แนวโน้ม กระแส | A new trend in food is growing. | a growing trend = แนวโน้มที่เติบโต | fashion | -
+innovative | adj | สร้างสรรค์ล้ำสมัย | They sell innovative products. | an innovative idea = ไอเดียล้ำสมัย | creative | traditional
+genuine | adj | ของแท้ จริงใจ | She gave a genuine smile. | genuine leather = หนังแท้ | real | fake
+obvious | adj | เห็นได้ชัด | The answer is obvious. | an obvious mistake = ข้อผิดพลาดที่เห็นชัด | clear | hidden
+reasonable | adj | สมเหตุสมผล | The price is reasonable. | a reasonable price = ราคาสมเหตุสมผล | fair | unreasonable
+abandon | verb | ละทิ้ง | They abandoned the plan after the storm. | abandon a project = ยกเลิกโครงการ | give up | keep
+absorb | verb | ดูดซับ | Plants absorb water through their roots. | absorb information = ซึมซับข้อมูล | soak up | -
+accumulate | verb | สะสมเพิ่มพูน | Dust accumulates on the shelves. | accumulate wealth = สะสมความมั่งคั่ง | gather | disperse
+adjacent | adj | ที่อยู่ติดกัน | The school is adjacent to the park. | adjacent to = ติดกับ | neighbouring | distant
+arise | verb | เกิดขึ้น | Problems may arise during the trip. | a problem arises = เกิดปัญหา | emerge | disappear
+attribute | verb | ถือว่าเป็นผลจาก | He attributes his success to hard work. | attribute A to B = โยง A ว่ามาจาก B | credit | -
+bias | noun | อคติ | The report shows a clear bias. | without bias = โดยไม่ลำเอียง | prejudice | fairness
+boost | verb | กระตุ้น เพิ่ม | Good news boosted the team's spirits. | boost confidence = เพิ่มความมั่นใจ | increase | reduce
+breakthrough | noun | ความก้าวหน้าครั้งสำคัญ | Scientists made a breakthrough in medicine. | a major breakthrough = ความก้าวหน้าครั้งใหญ่ | advance | setback
+circumstance | noun | สถานการณ์แวดล้อม | Under the circumstances, we must wait. | under no circumstances = ไม่ว่ากรณีใด | situation | -
+coincide | verb | ตรงกัน เกิดพร้อมกัน | Her holiday coincides with the festival. | coincide with = ตรงกับ | overlap | differ
+conduct | verb | ดำเนินการ | The team conducted a survey. | conduct research = ทำวิจัย | carry out | -
+conflict | noun | ความขัดแย้ง | There was a conflict between the two groups. | resolve a conflict = แก้ไขความขัดแย้ง | dispute | harmony
+consent | noun | ความยินยอม | You need your parents' consent. | give consent = ให้ความยินยอม | permission | refusal
+constitute | verb | ประกอบขึ้นเป็น | Women constitute half of the staff. | constitute a majority = เป็นเสียงส่วนใหญ่ | form | -
+contradict | verb | ขัดแย้ง | His words contradict his actions. | contradict yourself = พูดขัดกันเอง | conflict with | support
+convention | noun | ธรรมเนียมปฏิบัติ | It is a social convention to greet people. | break a convention = ฝ่าฝืนธรรมเนียม | custom | -
+cope | verb | รับมือไหว | She copes well with stress. | cope with = รับมือกับ | manage | struggle
+deficit | noun | การขาดดุล ส่วนที่ขาด | The company has a budget deficit. | a trade deficit = ขาดดุลการค้า | shortfall | surplus
+deliberate | adj | จงใจ | It was a deliberate mistake. | a deliberate act = การกระทำที่จงใจ | intentional | accidental
+derive | verb | ได้มาจาก | The word derives from Latin. | derive from = มาจาก | originate | -
+detect | verb | ตรวจพบ | The machine can detect smoke. | detect a problem = ตรวจพบปัญหา | notice | overlook
+devote | verb | อุทิศ | She devoted her life to teaching. | devote time to = ทุ่มเวลาให้ | dedicate | neglect
+dispute | noun | ข้อพิพาท | They settled the dispute peacefully. | a land dispute = ข้อพิพาทที่ดิน | argument | agreement
+distort | verb | บิดเบือน | The news distorted the truth. | distort the facts = บิดเบือนข้อเท็จจริง | twist | clarify
+dominate | verb | ครอบงำ มีอิทธิพลเหนือ | One company dominates the market. | dominate the market = ครองตลาด | control | -
+drastic | adj | รุนแรงมาก | The city took drastic action. | drastic changes = การเปลี่ยนแปลงอย่างรุนแรง | extreme | mild
+elaborate | adj | ซับซ้อนประณีต | They planned an elaborate party. | an elaborate plan = แผนละเอียดซับซ้อน | detailed | simple
+eliminate | verb | กำจัดให้หมด | We must eliminate waste. | eliminate errors = ขจัดข้อผิดพลาด | remove | add
+embrace | verb | โอบรับ ยอมรับ | The school embraced new technology. | embrace change = ยอมรับการเปลี่ยนแปลง | welcome | reject
+emerge | verb | ปรากฏออกมา | A new leader emerged from the group. | emerge from = โผล่ออกจาก | appear | vanish
+enrich | verb | ทำให้อุดมสมบูรณ์ | Reading enriches your vocabulary. | enrich your life = ทำให้ชีวิตมีคุณค่า | improve | impoverish
+enforce | verb | บังคับใช้ | The police enforce the law. | enforce a rule = บังคับใช้กฎ | impose | ignore
+exclude | verb | ไม่รวม กีดกัน | The price excludes tax. | exclude someone from = กันใครออกจาก | leave out | include
+extract | verb | สกัด ดึงออก | They extract oil from coconuts. | extract information = ดึงข้อมูลออกมา | remove | insert
+fundamental | adj | พื้นฐานสำคัญ | Honesty is fundamental to trust. | a fundamental right = สิทธิขั้นพื้นฐาน | essential | minor
+hazard | noun | อันตราย ภัย | Broken glass is a safety hazard. | a health hazard = อันตรายต่อสุขภาพ | danger | safety
+hypothesis | noun | สมมติฐาน | The test supports our hypothesis. | test a hypothesis = ทดสอบสมมติฐาน | theory | fact
+illustrate | verb | อธิบายให้เห็นภาพ | The chart illustrates the changes. | illustrate a point = ยกตัวอย่างให้เห็น | show | -
+imply | verb | บ่งบอกโดยนัย | His silence implied agreement. | imply that = บ่งบอกว่า | suggest | state
+impose | verb | บังคับให้ยอมรับ | The school imposed a new rule. | impose a limit = กำหนดข้อจำกัด | enforce | -
+incorporate | verb | รวมเข้าไว้ | They incorporated feedback into the design. | incorporate A into B = รวม A เข้าใน B | include | exclude
+infrastructure | noun | โครงสร้างพื้นฐาน | The region needs better infrastructure. | public infrastructure = โครงสร้างพื้นฐานสาธารณะ | - | -
+integrate | verb | ผสมผสานเข้าด้วยกัน | The app integrates with your calendar. | integrate into = ผสมผสานเข้ากับ | combine | separate
+interfere | verb | เข้าไปยุ่ง รบกวน | Please do not interfere in my work. | interfere with = ขัดขวาง | meddle | help
+intervene | verb | เข้าแทรกแซง | The teacher intervened in the argument. | intervene in = เข้าแทรกแซงใน | step in | -
+mandatory | adj | ที่เป็นข้อบังคับ | Helmets are mandatory on motorbikes. | mandatory training = การอบรมภาคบังคับ | compulsory | optional
+ongoing | adj | ที่ดำเนินอยู่ต่อเนื่อง | The investigation is ongoing. | an ongoing project = โครงการที่ยังดำเนินอยู่ | continuing | finished
+prospect | noun | โอกาสในอนาคต | The prospect of a promotion excited him. | job prospects = โอกาสในการทำงาน | outlook | -
+substitute | noun | ตัวแทน ของใช้แทน | Honey is a substitute for sugar. | a substitute for = ตัวแทนของ | replacement | -
+autonomy | noun | ความเป็นอิสระ (ในการตัดสินใจ) | Teachers want more autonomy in designing their lessons. | give someone autonomy = ให้อิสระ | independence | dependence
+credibility | noun | ความน่าเชื่อถือ | The report lost credibility because the data were old. | lose credibility = เสียความน่าเชื่อถือ | trustworthiness | -
+dimension | noun | มิติ ด้าน | Online learning adds a new dimension to teaching. | a new dimension = มิติใหม่ · a social dimension = มิติทางสังคม | aspect | -
+emphasis | noun | การเน้นย้ำ | The new curriculum places more emphasis on speaking. | place emphasis on = เน้น | stress | -
+legislation | noun | กฎหมาย (ที่ออกโดยสภา) | New legislation on data privacy affects every school. | introduce legislation = ออกกฎหมาย | law | -
+methodology | noun | ระเบียบวิธี | The study describes its methodology in chapter three. | research methodology = ระเบียบวิธีวิจัย | approach | -
+momentum | noun | แรงส่ง ความต่อเนื่อง | The reading project gained momentum after the first month. | gain momentum = ได้แรงส่ง · lose momentum = แผ่วลง | impetus | inertia
+paradigm | noun | กระบวนทัศน์ | Student-centred learning is a different teaching paradigm. | a paradigm shift = การเปลี่ยนกระบวนทัศน์ | model | -
+premise | noun | ข้อตั้ง ข้อสมมติเบื้องต้น | The plan rests on the premise that budgets will grow. | on the premise that = บนข้อสมมติว่า | assumption | -
+proportion | noun | สัดส่วน | A large proportion of students commute by motorbike. | a high proportion of = สัดส่วนสูงของ · in proportion to = ตามสัดส่วน | share | -
+rationale | noun | เหตุผลรองรับ | Please explain the rationale behind the new timetable. | the rationale behind = เหตุผลเบื้องหลัง | reasoning | -
+revenue | noun | รายได้ (องค์กร/รัฐ) | The school canteen generates extra revenue each term. | generate revenue = สร้างรายได้ · annual revenue = รายได้ต่อปี | income | expenditure
+scope | noun | ขอบเขต | The scope of the project is limited to Grade 6. | within the scope of = อยู่ในขอบเขต · beyond the scope = เกินขอบเขต | range | -
+stakeholder | noun | ผู้มีส่วนได้ส่วนเสีย | Every stakeholder was invited to the planning meeting. | key stakeholders = ผู้มีส่วนได้ส่วนเสียหลัก | - | -
+threshold | noun | เกณฑ์ขั้นต่ำ ธรณีประตู | Students must reach a threshold of sixty percent to pass. | reach the threshold = ถึงเกณฑ์ · a pain threshold = ระดับทนความเจ็บ | limit | -
+transition | noun | การเปลี่ยนผ่าน | The transition from primary to secondary school can be hard. | a smooth transition = การเปลี่ยนผ่านราบรื่น · transition to | shift | -
+variable | noun | ตัวแปร | Class size is one variable that affects test results. | an independent variable = ตัวแปรต้น | factor | constant
+integrity | noun | ความซื่อตรง | Teachers must act with integrity when marking exams. | act with integrity = ทำอย่างซื่อตรง · academic integrity = ความซื่อสัตย์ทางวิชาการ | honesty | dishonesty
+allege | verb | กล่าวหา (ยังไม่พิสูจน์) | Some parents allege that the test was too difficult. | allege that = กล่าวอ้างว่า · be alleged to = ถูกกล่าวหาว่า | claim | -
+compensate | verb | ชดเชย | The company will compensate workers for the delay. | compensate for = ชดเชยสำหรับ | reimburse | -
+comprise | verb | ประกอบด้วย | The exam will comprise four short listening tasks. | comprise + สิ่งที่เป็นส่วนประกอบ (ไม่ใช้ comprise of) | include | -
+differentiate | verb | แยกความแตกต่าง | Good teachers differentiate tasks for weaker and stronger students. | differentiate between A and B = แยกแยะ A กับ B | distinguish | -
+infer | verb | อนุมาน | Readers can infer the writer's opinion from the last paragraph. | infer from = อนุมานจาก | deduce | -
+manipulate | verb | บงการ จัดการ (อย่างแยบยล) | Advertisers often manipulate images to attract buyers. | manipulate data = ปรับแต่งข้อมูล | control | -
+quantify | verb | วัดเป็นตัวเลข | It is hard to quantify the benefits of reading for pleasure. | quantify the impact = วัดผลกระทบเป็นตัวเลข | measure | -
+refine | verb | ขัดเกลา ปรับให้ดีขึ้น | We refine the lesson plan after each class. | refine a method = ปรับปรุงวิธีการ | polish | -
+speculate | verb | คาดเดา | Teachers can only speculate about next year's budget. | speculate about = คาดเดาเกี่ยวกับ | guess | -
+undertake | verb | รับทำ ดำเนินการ | The team will undertake a survey of parents in June. | undertake research = ทำวิจัย · undertake a task = รับงาน | perform | -
+marginal | adjective | เล็กน้อย ริมขอบ | There was only a marginal improvement in the scores. | a marginal difference = ความต่างเล็กน้อย | slight | significant
+notable | adjective | โดดเด่น น่าสังเกต | The school made notable progress in reading this year. | a notable exception = ข้อยกเว้นที่น่าสังเกต | remarkable | ordinary
+predominant | adjective | ที่มีมากที่สุด เด่นที่สุด | Rice is the predominant crop in this province. | the predominant view = มุมมองหลัก | main | minor
+provisional | adjective | ชั่วคราว (รอยืนยัน) | The exam dates are provisional until the board approves them. | a provisional timetable = ตารางชั่วคราว | temporary | final
+rigid | adjective | เข้มงวดไม่ยืดหยุ่น แข็ง | The old timetable was too rigid for project work. | rigid rules = กฎที่ตายตัว | inflexible | flexible
+subtle | adjective | ละเอียดอ่อน สังเกตยาก | There is a subtle difference between these two words. | a subtle change = การเปลี่ยนแปลงที่สังเกตยาก | slight | obvious
+tentative | adjective | ยังไม่แน่นอน ลังเล | We have a tentative plan to visit the museum in August. | a tentative agreement = ข้อตกลงเบื้องต้น | provisional | definite
+versatile | adjective | ใช้ได้หลากหลาย | Rice flour is a versatile ingredient in Thai desserts. | a versatile tool = เครื่องมืออเนกประสงค์ | adaptable | limited
+nevertheless | adverb | อย่างไรก็ตาม | The task was hard; nevertheless, most students finished it. | nevertheless ขึ้นต้นประโยคใหม่ + จุลภาค | nonetheless | -
+arguably | adverb | อาจกล่าวได้ว่า | Vocabulary is arguably the most important part of learning. | arguably the best = อาจกล่าวได้ว่าดีที่สุด | possibly | -
+thereby | adverb | ด้วยเหตุนั้น | She recorded the lesson, thereby helping absent students. | thereby + -ing = ซึ่งส่งผลให้ | thus | -
+albeit | conjunction | แม้ว่า (จะ) | The scores improved, albeit slowly, over the year. | albeit + คำคุณศัพท์/วลี ไม่ใช้กับประโยคเต็ม | though | -
+
+@C1
+
+advocate | verb | สนับสนุน (อย่างเปิดเผย) | Many educators advocate learning through play. | advocate + -ing · advocate for someone | champion | oppose
+alleviate | verb | บรรเทา ทำให้เบาลง | Clear guidelines can alleviate teachers' stress. | alleviate poverty · alleviate pain | ease | worsen
+ambiguous | adjective | กำกวม ตีความได้หลายทาง | The instructions were ambiguous, so students gave different answers. | ambiguous wording · deliberately ambiguous | unclear | clear
+articulate | adjective | พูดเก่ง สื่อสารได้ชัดเจน | She is an articulate speaker who explains ideas clearly. | highly articulate · an articulate student | eloquent | inarticulate
+coherent | adjective | มีเหตุผลต่อเนื่อง สอดคล้อง | Your essay needs a more coherent structure. | a coherent argument · coherent plan | logical | incoherent
+compelling | adjective | น่าเชื่อถือ น่าสนใจมาก โน้มน้าวได้ | The team presented compelling evidence for the change. | compelling reason · compelling argument | convincing | unconvincing
+comprehensive | adjective | ครอบคลุม ครบถ้วน | The handbook gives a comprehensive guide to school procedures. | comprehensive review · comprehensive coverage | thorough | limited
+conducive | adjective | เอื้ออำนวย | A quiet room is conducive to concentration. | conducive to something (ใช้ to) | favourable | -
+contentious | adjective | ก่อให้เกิดข้อโต้แย้ง | School uniforms remain a contentious issue. | contentious issue · highly contentious | controversial | uncontroversial
+convey | verb | สื่อ ถ่ายทอด | The poem conveys a feeling of loss. | convey a message · convey meaning | communicate | -
+cultivate | verb | ปลูกฝัง บ่มเพาะ | We try to cultivate a love of reading. | cultivate a habit · cultivate relationships | nurture | -
+deteriorate | verb | เสื่อมลง แย่ลง | The old building has deteriorated badly. | deteriorate rapidly · health deteriorates | worsen | improve
+discrepancy | noun | ความไม่ตรงกัน ความคลาดเคลื่อน | There's a discrepancy between the two attendance lists. | discrepancy between A and B | inconsistency | agreement
+diligent | adjective | ขยันหมั่นเพียร | She is a diligent student who never misses homework. | diligent work · diligent in doing something | hard-working | lazy
+elicit | verb | ดึง (คำตอบ/ข้อมูล) ออกมา | Good questions elicit longer answers from students. | elicit a response · elicit information | draw out | -
+empower | verb | เสริมพลัง ให้อำนาจ | We want to empower students to make their own choices. | empower someone to do something | enable | disempower
+endeavour | noun | ความพยายาม (อย่างจริงจัง) | Learning a language is a lifelong endeavour. | a worthwhile endeavour · in every endeavour | effort | -
+explicit | adjective | ชัดแจ้ง ตรงไปตรงมา | Give explicit instructions for each step. | explicit teaching · make something explicit | clear | implicit
+implicit | adjective | โดยนัย ไม่ได้พูดตรง ๆ | There was an implicit message in her comment. | implicit criticism · implicit in something | implied | explicit
+feasible | adjective | เป็นไปได้ (ทำได้จริง) | Is it feasible to finish the project by May? | technically feasible · a feasible plan | viable | unfeasible
+foster | verb | ส่งเสริม บ่มเพาะ | Group projects foster teamwork. | foster creativity · foster a sense of belonging | encourage | hinder
+hinder | verb | ขัดขวาง | Poor internet hinders online learning. | hinder progress · hinder someone from doing | obstruct | help
+holistic | adjective | แบบองค์รวม | We take a holistic approach to student well-being. | holistic approach · holistic development | integrated | -
+imperative | adjective | จำเป็นอย่างยิ่ง | It is imperative that we act now. | It is imperative that/to... | essential | unimportant
+incentive | noun | สิ่งจูงใจ | Stickers are a simple incentive for young learners. | provide an incentive · financial incentive | motivation | deterrent
+inclusive | adjective | ครอบคลุม ไม่กีดกัน (เปิดรับทุกคน) | We want an inclusive classroom where every child belongs. | inclusive education · inclusive language | - | exclusive
+inherent | adjective | มีอยู่ในตัว | There are risks inherent in any new project. | inherent in something · inherent problem | built-in | -
+intrinsic | adjective | ที่มาจากภายใน แท้จริง | Intrinsic motivation lasts longer than rewards. | intrinsic value · intrinsic motivation | internal | extrinsic
+meticulous | adjective | พิถีพิถัน ละเอียดมาก | She keeps meticulous records of every student. | meticulous attention to detail | thorough | careless
+mitigate | verb | ลดความรุนแรง บรรเทา | Planting trees can mitigate the heat around the school. | mitigate risks · mitigate the effects | reduce | aggravate
+nuance | noun | ความแตกต่างเล็กน้อย ความหมายแฝงละเอียด | Advanced learners notice the nuances between similar words. | subtle nuance · nuances of meaning | subtlety | -
+paramount | adjective | สำคัญสูงสุด | Children's safety is paramount. | of paramount importance | supreme | minor
+pragmatic | adjective | ยึดความเป็นจริง เน้นปฏิบัติได้ | We need a pragmatic solution, not a perfect one. | a pragmatic approach | practical | idealistic
+prevalent | adjective | แพร่หลาย ชุกชุม | Short-sightedness is increasingly prevalent among children. | prevalent among/in | widespread | rare
+proficient | adjective | เชี่ยวชาญ ชำนาญ | She is proficient in three languages. | proficient in/at something | skilled | incompetent
+rigorous | adjective | เข้มงวด รัดกุม | The study used a rigorous method. | rigorous testing · rigorous standards | strict | lax
+scrutinise | verb | พิจารณาอย่างละเอียด | The committee will scrutinise every budget request. | scrutinise closely · scrutinise a document | examine | -
+substantial | adjective | มากพอสมควร สำคัญ | The school received a substantial donation. | substantial amount · substantial evidence | considerable | negligible
+tangible | adjective | จับต้องได้ เห็นผลเป็นรูปธรรม | The project produced tangible results within a term. | tangible benefits · tangible evidence | concrete | intangible
+undermine | verb | บ่อนทำลาย ทำให้อ่อนแอลง | Constant criticism can undermine a child's confidence. | undermine confidence · undermine authority | weaken | strengthen
+unprecedented | adjective | ไม่เคยเกิดขึ้นมาก่อน | The school faced an unprecedented number of applications. | unprecedented level · on an unprecedented scale | unparalleled | -
+viable | adjective | ใช้การได้ เป็นไปได้ในทางปฏิบัติ | Online tutoring is a viable option for rural students. | a viable alternative · financially viable | feasible | unworkable
+accountable | adjective | ต้องรับผิดชอบ (ตรวจสอบได้) | School leaders are accountable to the community. | accountable for something · accountable to someone | responsible | -
+adept | adjective | ชำนาญ คล่องแคล่ว | She is adept at managing difficult conversations with parents. | adept at/in something | skilful | inept
+discern | verb | แยกแยะ มองออก | Students must learn to discern reliable news from rumours. | discern a difference · hard to discern | distinguish | -
+encompass | verb | ครอบคลุม | The project encompasses reading, writing and speaking. | encompass a wide range of | include | exclude
+exacerbate | verb | ทำให้แย่ลง | Skipping breakfast can exacerbate tiredness in class. | exacerbate a problem · exacerbate tensions | worsen | alleviate
+facilitate | verb | อำนวยความสะดวก ช่วยให้เกิดขึ้นง่าย | The teacher's role is to facilitate discussion, not dominate it. | facilitate learning · facilitate a workshop | enable | hinder
+formidable | adjective | น่าเกรงขาม ยากมาก | Finishing a PhD while teaching full-time is a formidable task. | a formidable challenge · formidable opponent | daunting | -
+inquisitive | adjective | ช่างสงสัย ใฝ่รู้ | Inquisitive children ask a lot of "why" questions. | an inquisitive mind | curious | indifferent
+insightful | adjective | มีวิสัยทัศน์ ลึกซึ้ง | Thank you for your insightful comments on my lesson. | insightful analysis · insightful feedback | perceptive | superficial
+consolidate | verb | รวบรวม ทำให้มั่นคงขึ้น | We use review games to consolidate new grammar. | consolidate knowledge · consolidate a position | strengthen | weaken
+resilient | adjective | ล้มแล้วลุกเร็ว ฟื้นตัวเก่ง | Resilient learners keep trying after mistakes. | emotionally resilient · resilient to something | tough | fragile
+scaffold | verb | ให้การช่วยเหลือแบบเป็นขั้นบันได | We scaffold reading tasks with pictures and key words. | scaffold learning · scaffold a task | support | -
+streamline | verb | ปรับให้คล่องตัว ลดขั้นตอน | The new online form streamlines the leave request process. | streamline a process · streamline operations | simplify | complicate
+outweigh | verb | มีน้ำหนักมากกว่า | The benefits of the project outweigh the costs. | far outweigh · outweigh the risks | exceed | -
+pervasive | adjective | แผ่ซ่านไปทั่ว | Social media has a pervasive influence on teenagers. | pervasive influence · pervasive problem | widespread | limited
+overarching | adjective | ครอบคลุมทั้งหมด หลักใหญ่ | The overarching goal is to help every child read fluently. | overarching aim · overarching theme | overall | -
+equitable | adjective | เป็นธรรม เท่าเทียม (ตามความจำเป็น) | We need an equitable way to share the budget between schools. | equitable access · equitable distribution | fair | unfair
+commendable | adjective | น่ายกย่อง | The students showed commendable effort during the project. | highly commendable · commendable effort | praiseworthy | -
+abstract | adj | เป็นนามธรรม | Justice is an abstract idea. | an abstract concept = แนวคิดนามธรรม | theoretical | concrete
+acute | adj | รุนแรงเฉียบพลัน | There is an acute shortage of water. | acute pain = ความเจ็บปวดเฉียบพลัน | severe | mild
+arbitrary | adj | ตามอำเภอใจ | The rule seems arbitrary. | an arbitrary decision = การตัดสินใจตามอำเภอใจ | random | reasoned
+authentic | adj | ดั้งเดิมแท้จริง | We serve authentic Thai food. | an authentic experience = ประสบการณ์แท้จริง | genuine | fake
+benevolent | adj | ใจบุญเมตตา | A benevolent teacher helped him. | a benevolent donor = ผู้บริจาคใจบุญ | kind | malicious
+candid | adj | ตรงไปตรงมา | He gave a candid answer. | a candid opinion = ความเห็นตรงไปตรงมา | frank | evasive
+complacent | adj | พอใจจนประมาท | Do not become complacent after one win. | become complacent = เริ่มประมาทเพราะพอใจ | self-satisfied | alert
+concise | adj | กระชับ | Please write a concise summary. | concise and clear = กระชับและชัดเจน | brief | lengthy
+contemplate | verb | ครุ่นคิด | She contemplated moving abroad. | contemplate + V-ing = ครุ่นคิดจะทำ... | consider | -
+credible | adj | น่าเชื่อถือ | The witness seems credible. | a credible source = แหล่งข้อมูลน่าเชื่อถือ | believable | doubtful
+curtail | verb | ลดทอนให้สั้นลง | The storm curtailed our trip. | curtail spending = ลดการใช้จ่าย | reduce | extend
+detrimental | adj | เป็นผลเสีย | Lack of sleep is detrimental to health. | detrimental to = เป็นผลเสียต่อ | harmful | beneficial
+discreet | adj | รอบคอบสุขุม | Be discreet about the news. | a discreet manner = ท่าทีรอบคอบ | careful | indiscreet
+dismiss | verb | ปัดตกไม่ใส่ใจ | She dismissed the idea at once. | dismiss a claim = ปัดตกข้อกล่าวอ้าง | reject | accept
+disseminate | verb | เผยแพร่ | We disseminate information online. | disseminate knowledge = เผยแพร่ความรู้ | spread | withhold
+eloquent | adj | พูดคล่องจับใจ | An eloquent speaker moved the crowd. | an eloquent speech = สุนทรพจน์ที่จับใจ | persuasive | inarticulate
+ephemeral | adj | ชั่วครู่ชั่วคราว | Fame can be ephemeral. | ephemeral beauty = ความงามที่ไม่ยั่งยืน | fleeting | lasting
+exemplify | verb | เป็นตัวอย่างที่ชัดเจน | Her work exemplifies good teaching. | exemplify a trend = เป็นตัวอย่างของแนวโน้ม | illustrate | -
+exploit | verb | ฉวยใช้ประโยชน์ | Some firms exploit cheap labour. | exploit resources = ใช้ประโยชน์จากทรัพยากร | take advantage of | -
+fluctuate | verb | ผันผวนขึ้นลง | Prices fluctuate during the year. | fluctuate between A and B = ผันผวนระหว่าง A กับ B | vary | stabilise
+formulate | verb | วางรูปแบบ กำหนดขึ้น | The team formulated a new plan. | formulate a strategy = วางกลยุทธ์ | devise | -
+frugal | adj | ประหยัดมัธยัสถ์ | She lives a frugal life. | a frugal meal = มื้ออาหารเรียบง่าย | thrifty | lavish
+impartial | adj | เป็นกลางไม่ลำเอียง | A judge must be impartial. | an impartial view = มุมมองที่เป็นกลาง | neutral | biased
+intricate | adj | ซับซ้อนละเอียดลออ | The temple has intricate carvings. | an intricate design = ลวดลายประณีตซับซ้อน | complex | simple
+lucid | adj | กระจ่างเข้าใจง่าย | She gave a lucid explanation. | a lucid argument = เหตุผลที่กระจ่าง | clear | confusing
+negligible | adj | เล็กน้อยจนแทบไม่มีผล | The cost is negligible. | a negligible effect = ผลกระทบที่น้อยมาก | insignificant | significant
+notion | noun | แนวคิดความเชื่อ | I reject the notion that talent is enough. | a vague notion = แนวคิดที่คลุมเครือ | idea | -
+obsolete | adj | ล้าสมัยใช้ไม่ได้แล้ว | Paper maps are almost obsolete. | become obsolete = กลายเป็นของล้าสมัย | outdated | current
+perpetuate | verb | ทำให้คงอยู่ต่อไป | Stories can perpetuate myths. | perpetuate a problem = ทำให้ปัญหายืดเยื้อ | continue | end
+plausible | adj | ฟังขึ้นน่าเชื่อ | That is a plausible explanation. | a plausible excuse = ข้ออ้างที่ฟังขึ้น | believable | implausible
+precarious | adj | ไม่มั่นคงเสี่ยงล้ม | His job is precarious. | a precarious position = สถานะที่เสี่ยง | unstable | secure
+profound | adj | ลึกซึ้งส่งผลมาก | The book had a profound effect on me. | a profound change = การเปลี่ยนแปลงลึกซึ้ง | deep | superficial
+reconcile | verb | ทำให้ลงรอยกัน | They tried to reconcile their views. | reconcile A with B = ทำให้ A ลงรอยกับ B | harmonise | -
+rudimentary | adj | พื้นฐานขั้นต้น | He has rudimentary skills. | rudimentary knowledge = ความรู้ขั้นพื้นฐาน | basic | advanced
+sceptical | adj | ไม่เชื่อง่าย | I am sceptical about the claim. | sceptical about = สงสัยใน | doubtful | convinced
+stipulate | verb | กำหนดเป็นเงื่อนไข | The contract stipulates a deadline. | stipulate conditions = กำหนดเงื่อนไข | specify | -
+subsequent | adj | ที่ตามมาภายหลัง | Subsequent events proved him right. | subsequent to = ภายหลังจาก | following | previous
+trivial | adj | ไม่สำคัญเล็กน้อย | Don't worry about trivial matters. | a trivial detail = รายละเอียดจุกจิก | minor | significant
+ubiquitous | adj | มีอยู่ทุกหนทุกแห่ง | Smartphones are ubiquitous now. | ubiquitous presence = การมีอยู่ทั่วไป | omnipresent | rare
+volatile | adj | ผันผวนไม่แน่นอน | The market is volatile. | a volatile situation = สถานการณ์ผันผวน | unstable | stable
+abate | verb | ลดลง บรรเทาลง | The storm began to abate by midnight. | the storm abates = พายุสงบลง | subside | intensify
+adamant | adj | ยืนกรานไม่เปลี่ยนใจ | She was adamant that she would not sign. | adamant that = ยืนกรานว่า | firm | flexible
+admonish | verb | ตักเตือนอย่างจริงจัง | The teacher admonished him for being late. | admonish someone for = ตักเตือนใครเรื่อง | reprimand | praise
+aesthetic | adj | เกี่ยวกับความงาม | The design has great aesthetic appeal. | aesthetic value = คุณค่าทางสุนทรียะ | artistic | functional
+altruistic | adj | เห็นแก่ผู้อื่น | He had an altruistic motive for helping. | altruistic behaviour = พฤติกรรมเสียสละ | selfless | selfish
+ameliorate | verb | ทำให้ดีขึ้น | The new law will ameliorate living conditions. | ameliorate a situation = ปรับสถานการณ์ให้ดีขึ้น | improve | worsen
+anomaly | noun | สิ่งผิดปกติ | The results show a strange anomaly. | a statistical anomaly = ความผิดปกติทางสถิติ | irregularity | norm
+apathy | noun | ความเฉยชา | Voter apathy is a serious problem. | public apathy = ความเมินเฉยของประชาชน | indifference | enthusiasm
+arduous | adj | ยากลำบากและเหนื่อย | It was an arduous climb to the summit. | an arduous task = งานหนักหนา | strenuous | easy
+astute | adj | เฉียบแหลมรู้ทัน | An astute manager saw the risk early. | an astute observer = ผู้สังเกตการณ์ที่เฉียบแหลม | shrewd | naive
+audacious | adj | กล้าหาญบ้าบิ่น | They made an audacious plan to cross the desert. | an audacious move = ก้าวที่กล้าหาญ | bold | timid
+austere | adj | เคร่งขรึมเรียบง่าย | He lived an austere life in the mountains. | an austere room = ห้องเรียบง่ายสุด | strict | luxurious
+belittle | verb | ดูหมิ่นให้ดูด้อย | Never belittle another person's efforts. | belittle someone's work = ลดค่าผลงานคนอื่น | disparage | praise
+bolster | verb | เสริมกำลัง | New data bolstered her argument. | bolster confidence = เสริมความมั่นใจ | strengthen | weaken
+brevity | noun | ความสั้นกระชับ | The brevity of the speech surprised us. | brevity is the soul of wit = ยิ่งสั้นยิ่งคม | conciseness | length
+bureaucracy | noun | ระบบราชการที่ซับซ้อน | The bureaucracy slowed down the project. | cut through the bureaucracy = ตัดผ่านขั้นตอนราชการ | red tape | -
+cajole | verb | หว่านล้อม | He cajoled her into joining the trip. | cajole someone into = พูดล่อให้ทำ | coax | force
+capitulate | verb | ยอมแพ้ | The company capitulated to the demands. | capitulate to = ยอมแพ้ต่อ | surrender | resist
+circumvent | verb | หลบเลี่ยง | They tried to circumvent the rules. | circumvent a rule = หลบเลี่ยงกฎ | bypass | obey
+clandestine | adj | ลับ ๆ ปกปิด | They held a clandestine meeting at night. | a clandestine operation = ปฏิบัติการลับ | secret | open
+cognitive | adj | เกี่ยวกับการรู้คิด | Reading improves cognitive skills. | cognitive development = พัฒนาการทางความคิด | mental | -
+compliance | noun | การปฏิบัติตามกฎ | The factory is in full compliance with the law. | in compliance with = เป็นไปตาม | obedience | defiance
+condescending | adj | วางท่าเหนือกว่า | I disliked his condescending tone. | a condescending attitude = ท่าทีวางตัวเหนือกว่า | patronising | respectful
+conjecture | noun | การคาดเดา | The cause of the fire is pure conjecture. | pure conjecture = การเดาล้วน ๆ | speculation | fact
+connotation | noun | ความหมายแฝง | The word has a negative connotation. | a positive connotation = ความหมายแฝงเชิงบวก | implication | denotation
+consensus | noun | ฉันทามติ | The group reached a consensus. | reach a consensus = ได้ข้อสรุปร่วมกัน | agreement | disagreement
+corroborate | verb | ยืนยันสนับสนุน | Two witnesses corroborated her story. | corroborate evidence = ยืนยันหลักฐาน | confirm | contradict
+culminate | verb | ถึงจุดสูงสุด | The festival culminates in a firework show. | culminate in = จบลงที่จุดสูงสุดคือ | peak | begin
+cumbersome | adj | เทอะทะยุ่งยาก | The old software is slow and cumbersome. | a cumbersome process = ขั้นตอนยุ่งยาก | unwieldy | convenient
+cynical | adj | มองโลกในแง่ร้ายระแวง | He is cynical about politics. | cynical about = มองในแง่ร้ายเรื่อง | sceptical | trusting
+debilitating | adj | ที่ทำให้อ่อนแอ | She suffers from a debilitating illness. | a debilitating disease = โรคที่ทำให้อ่อนแรง | weakening | strengthening
+delineate | verb | ระบุอย่างชัดเจน | The report delineates each person's duties. | delineate a boundary = ขีดเส้นแบ่งชัดเจน | outline | blur
+denounce | verb | ประณาม | Leaders denounced the attack. | denounce violence = ประณามความรุนแรง | condemn | praise
+deter | verb | ยับยั้งให้ไม่ทำ | High prices deter many customers. | deter someone from = ป้องกันไม่ให้ใคร... | discourage | encourage
+dichotomy | noun | การแบ่งขั้วตรงข้าม | There is a dichotomy between theory and practice. | a false dichotomy = ความแตกต่างสองขั้วที่ไม่จริง | split | unity
+digress | verb | พูดออกนอกเรื่อง | Sorry, I digressed from the topic. | digress from = ออกนอกเรื่อง | wander | focus
+disparity | noun | ความเหลื่อมล้ำ | There is a disparity in income. | a wide disparity = ช่องว่างกว้าง | gap | equality
+dispel | verb | ขจัดให้หมดไป | The facts dispelled our doubts. | dispel a myth = ขจัดความเชื่อผิด ๆ | banish | create
+dogmatic | adj | ยึดมั่นในความเชื่อตายตัว | His dogmatic views upset many people. | a dogmatic approach = แนวทางที่ตายตัว | rigid | open-minded
+eccentric | adj | แปลกประหลาดไม่เหมือนใคร | Their eccentric uncle collects clocks. | an eccentric habit = นิสัยแปลกประหลาด | unconventional | ordinary
+eclectic | adj | ผสมผสานหลากหลาย | She has an eclectic taste in music. | an eclectic mix = ส่วนผสมหลากหลาย | diverse | narrow
+elusive | adj | จับตัวยาก เลี่ยงได้ | Success proved elusive for years. | an elusive goal = เป้าหมายที่คว้าไม่ถึง | evasive | obvious
+emulate | verb | เอาเป็นแบบอย่าง | Many students emulate their teacher. | emulate a role model = เลียนแบบผู้เป็นแบบอย่าง | imitate | -
+endorse | verb | รับรองสนับสนุน | Several experts endorsed the product. | endorse a plan = สนับสนุนแผน | support | oppose
+enigmatic | adj | เป็นปริศนา | She gave an enigmatic smile. | an enigmatic figure = บุคคลลึกลับ | mysterious | clear
+epitome | noun | แบบอย่างที่ชัดเจนที่สุด | She is the epitome of kindness. | the epitome of = ตัวอย่างชัดของ | embodiment | -
+erratic | adj | ไม่สม่ำเสมอ เดาไม่ได้ | The bus service is erratic. | erratic behaviour = พฤติกรรมไม่แน่นอน | irregular | steady
+eschew | verb | หลีกเลี่ยงเด็ดขาด | He eschews fast food completely. | eschew violence = หลีกเลี่ยงความรุนแรง | avoid | embrace
+esoteric | adj | เข้าใจได้เฉพาะกลุ่ม | The book is full of esoteric terms. | esoteric knowledge = ความรู้เฉพาะกลุ่ม | obscure | popular
+exacting | adj | เข้มงวดต้องการสูง | She is an exacting teacher. | exacting standards = มาตรฐานที่เข้มงวด | demanding | lenient
+fastidious | adj | พิถีพิถันจุกจิก | He is fastidious about hygiene. | fastidious about = พิถีพิถันเรื่อง | particular | careless
+flourish | verb | เจริญงอกงาม | Small businesses flourish in the town. | flourish in = เจริญงอกงามใน | thrive | decline
+foresight | noun | การมองการณ์ไกล | Her foresight saved the company. | have the foresight to = มองการณ์ไกลพอจะ | vision | hindsight
+gregarious | adj | ชอบเข้าสังคม | He is a gregarious and friendly man. | a gregarious person = คนชอบสังสรรค์ | sociable | reserved
+hamper | verb | ขัดขวางทำให้ช้า | Bad weather hampered the search. | hamper progress = ขัดขวางความก้าวหน้า | hinder | help
+hierarchy | noun | ลำดับขั้น | There is a strict hierarchy in the army. | a social hierarchy = ลำดับชั้นทางสังคม | ranking | -
+impede | verb | ขัดขวาง | Fallen trees impeded the traffic. | impede progress = ขัดขวางความก้าวหน้า | obstruct | facilitate
+imminent | adj | ใกล้จะเกิดขึ้น | A storm is imminent. | imminent danger = อันตรายที่ใกล้เข้ามา | impending | distant
+indifferent | adj | เฉยเมย ไม่แยแส | He seemed indifferent to the news. | indifferent to = ไม่ใส่ใจกับ | apathetic | concerned
+inertia | noun | ความเฉื่อย ความเนือย | Inertia kept him from changing jobs. | overcome inertia = เอาชนะความเฉื่อย | inactivity | momentum
+acumen | noun | ความเฉียบแหลม (ในงาน) | Her business acumen helped the school shop grow quickly. | business acumen = ความเฉียบแหลมทางธุรกิจ | shrewdness | -
+affinity | noun | ความชอบ ความผูกพัน | Many rural students feel a strong affinity with nature. | an affinity with = ความผูกพันกับ | attraction | aversion
+caveat | noun | ข้อควรระวัง ข้อแม้ | The results look promising, with one important caveat. | add a caveat = เพิ่มข้อแม้ | warning | -
+conundrum | noun | ปัญหาที่แก้ยาก | Balancing exams and creativity is a conundrum for teachers. | face a conundrum = เผชิญปัญหายาก | puzzle | -
+demeanour | noun | ท่าทาง กิริยา | His calm demeanour reassured the nervous students. | a calm demeanour = ท่าทางสงบ | manner | -
+discretion | noun | ดุลยพินิจ ความรอบคอบ | Teachers may use their discretion when marking essays. | at your discretion = ตามดุลยพินิจของคุณ | judgement | -
+impetus | noun | แรงผลักดัน | The new principal gave fresh impetus to the reading scheme. | give impetus to = ให้แรงผลักดันแก่ | stimulus | -
+juxtaposition | noun | การวางเทียบเคียง | The juxtaposition of old and new buildings defines Bangkok. | in juxtaposition with = วางเคียงกับ | contrast | -
+lethargy | noun | ความเฉื่อยชา | The hot afternoon filled the classroom with lethargy. | overcome lethargy = เอาชนะความเฉื่อยชา | sluggishness | energy
+onus | noun | ภาระหน้าที่ (ที่ต้องรับผิดชอบ) | The onus is on students to check their own work. | the onus is on someone to = เป็นหน้าที่ของ…ที่จะ | burden | -
+paucity | noun | ความขาดแคลน | There is a paucity of English books in rural libraries. | a paucity of = ความขาดแคลนของ | shortage | abundance
+plethora | noun | จำนวนมากมาย (เกินไป) | Teachers now face a plethora of online tools. | a plethora of = มากมายจนล้น | abundance | shortage
+pretext | noun | ข้ออ้าง | He left early on the pretext of a dental appointment. | on the pretext of = โดยอ้างว่า | excuse | -
+propensity | noun | แนวโน้ม (นิสัย) | Children have a natural propensity to copy adults. | a propensity to = มีแนวโน้มที่จะ | tendency | -
+quandary | noun | สภาวะกลืนไม่เข้าคายไม่ออก | The principal was in a quandary over the budget cuts. | be in a quandary = ตกอยู่ในภาวะลำบากใจ | dilemma | -
+rapport | noun | ความสัมพันธ์ที่ดี (เข้าใจกัน) | Good teachers build rapport with students in the first week. | build rapport with = สร้างความสัมพันธ์ที่ดีกับ | bond | -
+repercussion | noun | ผลกระทบตามมา | Cancelling the exam had an unexpected repercussion on the schedule. | serious repercussions = ผลกระทบร้ายแรง (มักใช้พหูพจน์) | consequence | -
+stigma | noun | ตราบาป มลทิน | There is still a stigma attached to repeating a year. | a stigma attached to = ตราบาปที่ติดมากับ | shame | -
+allude | verb | พาดพิง กล่าวถึงอ้อม ๆ | She chose to allude to the problem only briefly. | allude to = พูดถึงอ้อม ๆ | hint | -
+assuage | verb | บรรเทา (ความกังวล) | A kind word can assuage a student's fears before an exam. | assuage fears = บรรเทาความกลัว | relieve | intensify
+coerce | verb | บีบบังคับ | Teachers should never coerce students into joining activities. | coerce someone into + -ing = บีบให้ทำ | force | persuade
+concede | verb | ยอมรับ (อย่างไม่เต็มใจ) | He had to concede that the new method worked better. | concede that = ยอมรับว่า · concede defeat = ยอมแพ้ | admit | deny
+entail | verb | เกี่ยวข้องกับ (อย่างจำเป็น) | The new role will entail travelling to rural schools. | entail + -ing = ต้องมีการ | involve | -
+expedite | verb | เร่งให้เร็วขึ้น | The office promised to expedite the visa application. | expedite the process = เร่งกระบวนการ | hasten | delay
+placate | verb | ปลอบให้หายโกรธ | The manager tried to placate the angry customers with vouchers. | placate someone with = ปลอบด้วย | appease | provoke
+relinquish | verb | สละ ปล่อยมือ | She agreed to relinquish control of the project to her deputy. | relinquish control = สละอำนาจควบคุม | surrender | retain
+thwart | verb | ขัดขวางจนไม่สำเร็จ | Heavy rain may thwart our plans for the outdoor fair. | thwart a plan = ทำให้แผนล้มเหลว | foil | assist
+underpin | verb | รองรับ เป็นรากฐาน | Strong reading skills underpin success in every subject. | underpin + หลักการ/ความสำเร็จ = เป็นรากฐานของ | support | undermine
+ambivalent | adjective | รู้สึกสองจิตสองใจ | Many parents feel ambivalent about tablets in the classroom. | ambivalent about = สองจิตสองใจเกี่ยวกับ | uncertain | certain
+cogent | adjective | มีเหตุผลหนักแน่น | She gave a cogent argument for smaller classes. | a cogent argument = ข้อโต้แย้งที่หนักแน่น | convincing | weak
+fallible | adjective | ผิดพลาดได้ | Even experienced teachers are fallible when marking quickly. | fallible human = มนุษย์ที่ผิดพลาดได้ | imperfect | infallible
+incessant | adjective | ไม่หยุดหย่อน | The incessant noise from the road made teaching difficult. | incessant rain = ฝนที่ตกไม่หยุด | constant | occasional
+innocuous | adjective | ไม่มีพิษภัย | The question seemed innocuous, but it upset several students. | seemingly innocuous = ดูเหมือนไม่มีพิษภัย | harmless | harmful
+pertinent | adjective | ตรงประเด็น | Please keep your questions pertinent to today's topic. | pertinent to = เกี่ยวข้องกับ | relevant | irrelevant
+scrupulous | adjective | ละเอียดถี่ถ้วน เคร่งครัด | She is scrupulous about recording every student's attendance. | scrupulous about = เคร่งครัดเรื่อง | careful | careless
+tenuous | adjective | เปราะบาง ไม่หนักแน่น | The link between homework and test scores is tenuous here. | a tenuous link = ความเชื่อมโยงที่อ่อน | weak | strong
+inadvertently | adverb | โดยไม่ตั้งใจ | I inadvertently deleted the students' scores from the file. | inadvertently + กริยา = เผลอทำ | accidentally | deliberately
+invariably | adverb | เสมอ ไม่มีข้อยกเว้น | Late buses invariably mean a late start to the first lesson. | invariably + กริยา = …เสมอ | always | occasionally
+ostensibly | adverb | ดูเผิน ๆ ว่า | The meeting was ostensibly about timetables, but mostly about money. | ostensibly + เหตุผลที่อ้าง | apparently | genuinely
+notwithstanding | preposition | ทั้งที่ แม้จะมี | Notwithstanding the heavy rain, the sports day went ahead. | notwithstanding + นาม (วางหน้าหรือหลังนามก็ได้) | despite | -
+

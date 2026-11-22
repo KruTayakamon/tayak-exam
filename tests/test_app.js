@@ -8,7 +8,7 @@ let fails = 0;
 const ok = (c, name) => { console.log((c ? 'PASS ' : 'FAIL ') + name); if (!c) fails++; };
 
 /** ตอบการ์ดปัจจุบันแล้วไปต่อ · wrong = จงใจตอบผิด (เฉพาะข้อเลือกตอบ) · คืนชนิดของการ์ด */
-const NB = new Set(), USE = {}, CHEER = { ok: 0, try: 0 };   // โทนสีหน้าสมุดโน้ตที่เจอ (d1–d6 ตามวัน) · ผลตรวจข้อเขียน · คำชม/คำปลอบที่เจอ
+const NB = new Set(), USE = {}, CHEER = { ok: 0, try: 0 }, VO_LOCK = [];   // โทนสีหน้าสมุดโน้ตที่เจอ (d1–d6 ตามวัน) · ผลตรวจข้อเขียน · คำชม/คำปลอบที่เจอ
 async function step(p, wrong = false) {
   const nb = await p.$('#nbPage'); if (nb) NB.add(await nb.getAttribute('class'));
   if (await p.$('#useIn') && !USE.done) {                     // ข้อเขียน: ตรวจแล้วต้องมีคำติชม จุดตรวจ และตัวอย่าง
@@ -17,6 +17,8 @@ async function step(p, wrong = false) {
     await p.fill('#useIn', 'I usually start work at eight. This week I am preparing a sales report.'); await p.click('#checkUse');
     USE.full = (await p.locator('#useFb .ck-bad').count()) === 0 && (await p.textContent('#useFb')).includes('ครบทุกจุด'); USE.done = 1;
   }
+  const lk = await p.evaluate(() => { const h = document.querySelector('[data-item]'); const it = h && window.DEMO_DATA.items[h.dataset.item]; return it && it.skill === 'vo' && !h.querySelector('.opt.ok,.fb') ? h.dataset.nolookup === '1' : null; });
+  if (lk !== null) VO_LOCK.push(lk);
   const kind = await p.evaluate((wrong) => {
     const host = document.querySelector('[data-item]');
     if (document.querySelector('#finishBtn')) return 'close';
@@ -73,10 +75,35 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok(await p.$$eval('.sticky', (x) => x.length) === 2 && await p.$$eval('h2.rule mark.hl.y', (x) => x.length) === 2, 'บทเรียนมีโน้ตแปะ 2 ใบ และไฮไลต์เหลืองในกติกา');
   ok(await p.$$eval('.ex .spk', (x) => x.length) === 4 && await p.$('.spkth') !== null, 'บทเรียนมีปุ่มฟังประโยคตัวอย่างครบ 4 ประโยค และปุ่มฟังคำอธิบาย');
   ok(await p.evaluate(() => { const b = document.querySelector('.ex .spk'); const r = b.getBoundingClientRect(); return r.width >= 44 && r.height >= 44; }), 'ปุ่มลำโพงใหญ่พอสำหรับนิ้ว (44px)');
+  // กดค้างที่คำ → คำแปล + ชนิดคำ (บอสขอ 22 พ.ย.)
+  const DICTW = JSON.parse(fs.readFileSync(path.join(ROOT, 'dist-demo', 'data', 'dict.json'), 'utf8')).w;
+  ok(await p.$('.lp-tip') !== null, 'บทเรียนแรกมีป้ายบอกว่ากดค้างที่คำได้');
+  const spots = await p.evaluate(() => {               // ตำแหน่งกลางคำภาษาอังกฤษในตัวอย่างบทเรียน
+    const out = [], tw = document.createTreeWalker(document.querySelector('#nbPage .lined'), NodeFilter.SHOW_TEXT);
+    for (let n = tw.nextNode(); n; n = tw.nextNode()) for (const m of n.textContent.matchAll(/[A-Za-z]{3,}/g)) {
+      const r = document.createRange(); r.setStart(n, m.index); r.setEnd(n, m.index + m[0].length); const b = r.getBoundingClientRect();
+      if (b.width) out.push({ w: m[0].toLowerCase(), x: b.left + b.width / 2, y: b.top + b.height / 2 });
+    }
+    return out;
+  });
+  const sp = spots.find((s) => DICTW[s.w] && DICTW[s.w][0]);
+  ok(!!sp, 'ตัวอย่างบทเรียนมีคำที่อยู่ในพจนานุกรม');
+  if (sp) {
+    await p.mouse.move(sp.x, sp.y); await p.mouse.down(); await p.waitForTimeout(650); await p.mouse.up();
+    await p.waitForSelector('#wordPop .wp-th');
+    ok((await p.textContent('#wordPop .wp-w')).toLowerCase().includes(sp.w) && (await p.textContent('#wordPop .wp-th')) === DICTW[sp.w][1], `กดค้างที่ "${sp.w}" เห็นคำแปลไทย`);
+    ok(await p.$$eval('#wordPop .wp-pos b', (x) => x.map((b) => b.textContent).join(' ')) !== '' && /n\.|v\.|adj\.|adv\.|prep\.|conj\.|pron\.|det\.|aux\.|modal|num\.|phr/.test(await p.textContent('#wordPop .wp-tags')), 'ป๊อปอัปบอกชนิดคำ (n. v. adj. ...) พร้อมชื่อไทย');
+    ok(await noOverflow(p), 'ป๊อปอัปคำแปลไม่ล้นจอ 390'); await p.screenshot({ path: path.join(SHOTS, 'app_lookup.png') });
+    await p.click('#wordPop .wp-x'); ok(await p.$('#wordPop') === null, 'กดปิดป๊อปอัปได้');
+  }
   await step(p);                                                      // บทเรียน
   await step(p); await step(p);                                       // ข้อเช็ก 2 ข้อ
   await step(p, true);                                                // ข้อฝึกข้อแรก: ตอบผิด
   ok((await p.textContent('#stepLabel')).includes('ฝึก'), 'อยู่ในขั้นฝึก');
+  { const b = await p.evaluate(() => { const r = document.querySelector('[data-item] .opt .ct').getBoundingClientRect(); return { x: r.left + 6, y: r.top + r.height / 2 }; });
+    await p.mouse.move(b.x, b.y); await p.mouse.down(); await p.waitForTimeout(650); await p.mouse.up(); await p.waitForSelector('#wordPop');
+    ok(await p.$('[data-item] .opt.ok, [data-item] .opt.bad') === null, 'กดค้างที่ตัวเลือกเพื่อดูคำแปล ไม่นับเป็นการตอบ');
+    await p.click('#wordPop .wp-x'); }
   await p.evaluate(() => document.querySelector('[data-item] .opt[data-choice="0"]').click());
   ok(await p.$$eval('[data-item] .why', (w) => w.length === 4), 'ตอบแล้วเห็นเหตุผลของทั้ง 4 ตัวเลือก');
   ok(await p.$$eval('[data-item] .why mark.hl', (x) => x.length) >= 1 && !(await p.textContent('[data-item]')).includes('++'), 'เหตุผลมีไฮไลต์ และไม่มีเครื่องหมายดิบหลุดออกมา');
@@ -203,6 +230,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   await p2.goto(base + '/build/bundle_test.html'); await p2.evaluate(() => localStorage.clear()); await p2.reload();
   await p2.waitForSelector('#usePlan'); await p2.click('#usePlan'); await p2.waitForSelector('#startBtn'); await p2.click('#startBtn'); await p2.waitForSelector('#stepLabel');
   await step(p2); await step(p2);
+  ok(VO_LOCK.length > 0 && VO_LOCK.every(Boolean), `ข้อคำศัพท์ที่ยังไม่ตอบกดดูคำแปลไม่ได้ (${VO_LOCK.length} ข้อ)`);
   ok(await p2.$('[data-item]') !== null, 'รุ่นไฟล์เดียวเล่นเซสชันได้');
   // เบราว์เซอร์ที่ไม่ให้ใช้ที่เก็บในเครื่อง: แอปต้องยังเรียนได้ด้วยที่เก็บสำรองในหน่วยความจำ
   const p4 = await ctx.newPage(); p4.on('pageerror', (e) => errs.push('nostore: ' + e));

@@ -7,6 +7,7 @@ import { api } from './api.js';
 import { SITE, setCourse } from './config.js';
 import { authInit, signIn } from './auth.js';
 import { viewCheckpoint } from './checkpoint.js';
+import { installLookup } from './lookup.js';
 
 const TABS = [['today', 'วันนี้'], ['course', 'คอร์ส'], ['extra', 'ฝึกเพิ่ม'], ['results', 'ผล']];
 const VIEWS = { today: viewToday, course: viewCourse, extra: viewExtra, results: viewResults, buy: viewBuy, account: viewAccount };
@@ -58,6 +59,7 @@ async function render() {
   app.appendChild(Object.assign(el('<button class="link" id="accountLink">บัญชีและการตั้งค่า</button>'), { onclick: () => go('account') }));
 }
 window.addEventListener('hashchange', render);
+installLookup(document.body);                                   // กดค้างที่คำ → คำแปล + ชนิดคำ
 window.addEventListener('online', () => flush());
 // กลับจากหน้าจ่ายของ Beam: /app?order=<รหัส>#buy → ถามเซิร์ฟเวอร์ให้ตรวจกับ Beam แล้วแสดงผล (ไม่เชื่อค่าในลิงก์)
 const QS = new URLSearchParams(location.search);
