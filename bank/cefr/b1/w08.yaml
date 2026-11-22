@@ -468,7 +468,7 @@
       choices:
         - {t: with small amounts, why: "began with very small amounts"}
         - {t: with a bank loan, why: "ไม่ได้บอกว่าเริ่มจากเงินกู้"}
-        - {t: with 1,500 baht a day, why: "1,500 บาทเป็นยอดต่อเดือนของนก"}
+        - {t: "with 1,500 baht a day", why: "1,500 บาทเป็นยอดต่อเดือนของนก"}
         - {t: with help from their family, why: "ไม่มีการพูดถึงครอบครัว"}
     - stem: What does Nok do now?
       choices:

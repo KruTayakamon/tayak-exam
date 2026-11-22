@@ -486,7 +486,7 @@
         - {t: those who studied full-time, why: "ไม่ได้พูดถึงการเรียนเต็มเวลา"}
     - stem: What does the writer imply in the final sentence?
       choices:
-        - {t: the main obstacle is society's willingness, not adults' ability, why: "The question is no longer whether adults can learn, but whether we are willing"}
+        - {t: "the main obstacle is society's willingness, not adults' ability", why: "The question is no longer whether adults can learn, but whether we are willing"}
         - {t: adults are unable to learn after fifty, why: "ตรงข้ามกับที่บทบอก"}
         - {t: governments have already solved the problem, why: "ไม่มีข้อมูลที่สนับสนุน"}
         - {t: teachers should refuse to teach older learners, why: "ไม่มีข้อเสนอนี้"}

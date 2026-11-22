@@ -484,8 +484,8 @@
         - {t: asked only shop owners, why: "ตำหนิว่าถามแต่เจ้าของร้าน"}
     - stem: Does the writer believe the council was dishonest?
       choices:
-        - {t: "no", he says it wasn't, why: "I am not suggesting that the council acted dishonestly"}
-        - {t: "yes", strongly, why: "เขาบอกชัดว่าไม่ได้กล่าวหา"}
+        - {t: "no, he says it wasn't", why: "I am not suggesting that the council acted dishonestly"}
+        - {t: "yes, strongly", why: "เขาบอกชัดว่าไม่ได้กล่าวหา"}
         - {t: he is not sure, why: "บอกชัดเจน จึงใช้ไม่ได้"}
         - {t: the letter does not say, why: "มีพูดถึงในย่อหน้าที่ 3"}
     - stem: What is the tone of the letter?

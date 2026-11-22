@@ -58,6 +58,8 @@ def check_choices(where, choices, stats):
             err(where, f'ตัวเลือกที่ {i+1} อ่านเป็น {c.get("t")!r} (yes/no/on/off ต้องครอบเครื่องหมายคำพูด)')
         if not isinstance(c, dict) or not c.get('t') or not c.get('why'):
             err(where, f'ตัวเลือกที่ {i+1} ต้องมี t และ why'); return
+        if set(c) - {'t', 'why'}:   # 22 พ.ย. 2569: {t: a, b, why: ...} ที่ไม่ครอบคำพูด YAML ตัดข้อความหลังจุลภาคทิ้งเงียบ ๆ (เคยหลุดไป 12 ข้อ)
+            err(where, f'ตัวเลือกที่ {i+1} มีคีย์เกิน {sorted(set(c) - {"t", "why"})} (ข้อความที่มีจุลภาคต้องครอบเครื่องหมายคำพูด)')
         texts.append(str(c['t']).strip()); whys.append(str(c['why']).strip())
         check_voice(f'{where} ตัวเลือก {i+1} why', c['why'], max_hl=1); check_voice(f'{where} ตัวเลือก {i+1}', str(c['t']), allow_hl=False)
         if len(whys[-1]) < MIN_WHY: err(where, f'why ของตัวเลือกที่ {i+1} สั้นเกินไป (<{MIN_WHY})')

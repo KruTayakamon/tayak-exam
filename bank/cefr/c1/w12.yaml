@@ -488,7 +488,7 @@
         - {t: the roads are empty, why: "บทบอกว่าถนนแออัด"}
     - stem: What can be inferred about the writer's view of the future?
       choices:
-        - {t: without change, a few platforms may dominate the city's food, why: "a city with fewer independent restaurants and a handful of dominant platforms"}
+        - {t: "without change, a few platforms may dominate the city's food", why: "a city with fewer independent restaurants and a handful of dominant platforms"}
         - {t: independent restaurants will grow quickly, why: "ตรงข้ามกับความเสี่ยงที่ผู้เขียนกังวล"}
         - {t: delivery apps will disappear, why: "ไม่มีข้อมูลที่สนับสนุน"}
         - {t: riders will soon become employees, why: "ผู้เขียนไม่ได้คาดการณ์เรื่องนี้"}

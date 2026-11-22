@@ -415,7 +415,7 @@
         - {t: about one in eight, why: "around one in eight has moved back"}
         - {t: about half, why: "ครึ่งหนึ่งพูดถึงค่าเช่า ไม่ใช่จำนวนคน"}
         - {t: all 800 people who took part in the survey, why: "800 คือจำนวนผู้ตอบแบบสำรวจ"}
-        - {t: very few, almost none, why: "หนึ่งในแปดถือว่าน่าสังเกต"}
+        - {t: "very few, almost none", why: "หนึ่งในแปดถือว่าน่าสังเกต"}
     - stem: How has faster internet helped?
       choices:
         - {t: some can keep city jobs and work remotely, why: "keep their city jobs while working from home"}

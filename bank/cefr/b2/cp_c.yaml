@@ -432,7 +432,7 @@
       choices:
         - {t: online customers also visit the shop more, why: "online customers tend to visit the physical shop more often too"}
         - {t: delivery costs are falling, why: "ค่าใช้จ่ายยังเป็นปัญหา"}
-        - {t: the government pays for the drivers, packaging and fuel, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: "the government pays for the drivers, packaging and fuel", why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: it is required by law, why: "บทไม่ได้พูดว่า it is required by law"}
   status: approved
 # ---------- ฟัง 4 ข้อ ----------
@@ -478,7 +478,7 @@
     - stem: What annoyed the woman most?
       choices:
         - {t: the lack of information, why: "it was that nobody told us what was happening"}
-        - {t: the delay, which was much longer than expected, why: "wasn't the delay"}
+        - {t: "the delay, which was much longer than expected", why: "wasn't the delay"}
         - {t: the noise, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: the price, why: "บทไม่ได้พูดว่า the price"}
   status: approved

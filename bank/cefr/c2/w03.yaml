@@ -505,7 +505,7 @@
         - {t: a two-year commitment, why: "on condition that you commit to a two-year contract"}
         - {t: an immediate payment, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: a larger order, why: "บทไม่ได้พูดว่า a larger order"}
-        - {t: nothing, he agrees anyway, why: "มีเงื่อนไขชัดเจน"}
+        - {t: "nothing, he agrees anyway", why: "มีเงื่อนไขชัดเจน"}
   status: draft
 - id: cefr-c2-w03-037
   kind: listen

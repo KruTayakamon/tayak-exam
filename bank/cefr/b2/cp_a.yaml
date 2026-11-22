@@ -423,7 +423,7 @@
         - {t: they closed one day a week to save money, why: "บทไม่ได้พูดว่า they closed one day a week to save money"}
     - stem: Why might the system be difficult for hospitals?
       choices:
-        - {t: they need staff every day, so would need to hire more, why: "need people at work every day ... require hiring extra staff"}
+        - {t: "they need staff every day, so would need to hire more", why: "need people at work every day ... require hiring extra staff"}
         - {t: doctors do not want a day off, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: hospitals are too small, why: "บทไม่ได้พูดว่า hospitals are too small"}
         - {t: patients would complain, why: "บทไม่ได้พูดว่า patients would complain"}

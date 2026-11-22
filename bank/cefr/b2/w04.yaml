@@ -467,7 +467,7 @@
   questions:
     - stem: How did the number of trips compare with the estimate?
       choices:
-        - {t: it was 15,000 higher, why: "45,000 compared with an estimate of 30,000"}
+        - {t: "it was 15,000 higher", why: "45,000 compared with an estimate of 30,000"}
         - {t: it was lower, why: "จำนวนจริงสูงกว่าที่คาด"}
         - {t: it was exactly the same, why: "ต่างกัน 15,000 เที่ยว"}
         - {t: it was not recorded, why: "มีตัวเลขบันทึกไว้"}

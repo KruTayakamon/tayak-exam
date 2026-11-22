@@ -397,7 +397,7 @@
   questions:
     - stem: What is the main point of the article?
       choices:
-        - {t: cities now value trees mainly for practical benefits, which must be managed well, why: "the reasons are less aesthetic than practical และต้องดูแลให้รอด"}
+        - {t: "cities now value trees mainly for practical benefits, which must be managed well", why: "the reasons are less aesthetic than practical และต้องดูแลให้รอด"}
         - {t: trees are mostly decoration and should make way for roads and buildings, why: "เป็นมุมมองเก่าที่บทบอกว่ากำลังเปลี่ยน"}
         - {t: air conditioning is the best way to cool cities, why: "บทไม่ได้เสนอแบบนี้"}
         - {t: Asian cities have stopped building roads, why: "ไม่มีข้อมูลที่สนับสนุน"}
@@ -405,12 +405,12 @@
       choices:
         - {t: by giving shade and cooling the air through their leaves, why: "providing shade and by releasing water through their leaves"}
         - {t: by absorbing sunlight and releasing it at night, why: "นั่นคือสิ่งที่พื้นผิวลาดยางทำ ไม่ใช่ต้นไม้"}
-        - {t: by blocking the wind, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: by blocking the wind and stopping dust from reaching the streets, why: "ไม่มีข้อมูลนี้ในบท"}
         - {t: by reducing the number of cars, why: "บทไม่ได้พูดว่า by reducing the number of cars"}
     - stem: What problem does the word "disparity" describe in paragraph 3?
       choices:
         - {t: poorer areas tend to have fewer trees, why: "Wealthier neighbourhoods typically have far more trees than poorer ones"}
-        - {t: rich people dislike trees, why: "ไม่มีข้อมูลนี้ในบท"}
+        - {t: wealthy residents dislike trees and often ask for them to be removed, why: "ไม่มีข้อมูลนี้ในบท"}
         - {t: trees grow faster in poor areas, why: "บทไม่ได้พูดว่า trees grow faster in poor areas"}
         - {t: some streets flood more than others, why: "เรื่องน้ำท่วมเป็นประโยชน์อีกข้อ ไม่ใช่ความเหลื่อมล้ำที่พูดถึง"}
     - stem: What does the final paragraph suggest about official tree-planting figures?
