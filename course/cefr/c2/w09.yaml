@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 9 · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 9
+phase: 3
+theme_th: ระดับภาษาและแบบแผนของงานเขียน
+focus_th: เขียนใหม่ข้ามระดับภาษา (พูด ↔ ทางการ) · ความสม่ำเสมอของระดับภาษา · แบบแผนของรายงาน ข้อเสนอ บทวิจารณ์ เรียงความ บทความ
+can_do_th:
+  - ปรับระดับภาษาให้เหมาะกับผู้อ่านและประเภทงานเขียนได้
+  - วิจารณ์งานเขียนอย่างเป็นระบบ ทั้งเนื้อหาและสำนวน
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เปลี่ยนระดับภาษา
+    lesson:
+      rule_th: "ทางการกับไม่ทางการต่างกันที่ ==คำ (get → obtain== · look into → investigate) โครงสร้าง (passive · คำนาม) และน้ำเสียง ++ระดับ C2 ต้องสม่ำเสมอ++ อย่าปนคำพูดเข้าไปในจดหมายทางการ และอย่าทางการเกินกับเพื่อนสนิท"
+      examples:
+        - {en: "We got loads of complaints. → <k>A considerable number of complaints were received.</k>", th: "พูด → ทางการ"}
+        - {en: "Attendance is mandatory. → <k>You have to come.</k>", th: "==ทางการ → พูด=="}
+        - {en: "a bit worried → <k>somewhat concerned</k>", th: "คำขยายทางการ"}
+        - {en: "Sales got better. → Sales <k>improved</k>.", th: "get + adj → กริยาเดี่ยว"}
+      signals:
+        - {label_th: "คำภาษาพูดที่ต้องเปลี่ยนในงานเขียนทางการ", words: ["stuff / things", "a lot of / loads of", "get", "really / pretty", "kind of / like"]}
+      thai_trap:
+        intro_th: "คนไทยเรียนภาษาทางการจากตำรา จึงมักใช้ ~~ภาษาทางการกับเพื่อน~~ หรือปนคำพูดเข้าไปตอนท้ายจดหมายทางการ"
+        wrong: ["Hi Nok! I am writing to enquire whether you would like to have lunch.", "We regret to inform you that you didn't get the job, sorry!"]
+        right: ["Hi Nok! Fancy lunch today?", "We regret to inform you that your application has been unsuccessful."]
+      notes:
+        - {kind: tip, th: "ก่อนเขียน ==ถามว่าใครอ่าน สนิทแค่ไหน== แล้วเลือกระดับเดียวใช้ตลอด"}
+        - {kind: use, th: "อีเมลทางการ I am writing to enquire about ..."}
+    check: [cefr-c2-w09-001, cefr-c2-w09-002]
+    practice: [cefr-c2-w09-003, cefr-c2-w09-004, cefr-c2-w09-005, cefr-c2-w09-006, cefr-c2-w09-007, cefr-c2-w09-008, cefr-c2-w09-009, cefr-c2-w09-010, cefr-c2-w09-011, cefr-c2-w09-012]
+    use:
+      prompt_th: เขียนข้อความเดียวกัน 2 แบบ ข้อความ LINE ถึงเพื่อน และอีเมลถึงผู้จัดการ เรื่องขอเลื่อนประชุม
+      frame: "LINE: ____. Email: Dear ____, I am writing to ____."
+      model: "LINE: Hey, can we push our meeting to Friday? Something's come up. Email: Dear Khun Somchai, I am writing to ask whether it would be possible to postpone our meeting until Friday, as an urgent matter has arisen."
+    classroom: {en: "Could you put that more formally?", th: "ช่วยพูดให้ทางการกว่านี้ได้ไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เกี่ยวกับภาษาและงานเขียน 12 คำ
+    lesson:
+      rule_th: "คำบรรยายสำนวนการเขียนแบ่งเป็น ==ยาวเกิน (verbose== · florid) กับ สั้น (terse · laconic · pithy) ++pithy ความหมายบวก terse มักความหมายลบ++ และคำนามประเภทของภาษา colloquial · vernacular · jargon"
+      examples:
+        - {en: "a <k>pithy</k> summary", th: "สั้นคมคาย (ชม)"}
+        - {en: "a <k>terse</k> reply", th: "==ห้วน (ติ)=="}
+        - {en: "technical <k>jargon</k>", th: "ศัพท์เฉพาะวงการ"}
+        - {en: "a sharp <k>critique</k> of policy", th: "บทวิจารณ์"}
+      words:
+        - {w: colloquial, pos: adj., th: ภาษาพูด, ex: "colloquial expressions"}
+        - {w: vernacular, pos: n., th: ภาษาถิ่นที่พูดจริง, ex: "written in the local vernacular"}
+        - {w: jargon, pos: n., th: ศัพท์เฉพาะวงการ, ex: "medical jargon"}
+        - {w: verbose, pos: adj., th: เยิ่นเย้อ, ex: "a verbose report"}
+        - {w: terse, pos: adj., th: ห้วนสั้น, ex: "a terse email"}
+        - {w: florid, pos: adj., th: หรูหราเกินไป, ex: "florid language"}
+        - {w: laconic, pos: adj., th: พูดน้อย, ex: "his laconic style"}
+        - {w: pithy, pos: adj., th: สั้นคมคาย, ex: "a pithy comment"}
+        - {w: prose, pos: n., th: ร้อยแก้ว, ex: "clear, elegant prose"}
+        - {w: discourse, pos: n., th: วาทกรรม การถกเถียง, ex: "public discourse"}
+        - {w: treatise, pos: n., th: ตำราวิชาการเชิงลึก, ex: "a treatise on economics"}
+        - {w: critique, pos: n., th: บทวิจารณ์, ex: "a detailed critique"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~critic~~ (คนวิจารณ์) แทน critique (บทวิจารณ์) และ ~~criticise~~ ในความหมายวิจารณ์เป็นกลาง"
+        wrong: ["She wrote a critic of the book.", "Please criticise my essay. (อยากได้คำแนะนำทั่วไป)"]
+        right: ["She wrote a critique of the book.", "Please give me feedback on my essay."]
+      notes:
+        - {kind: pin, th: "==critic = คน== · critique = บทวิจารณ์ · criticism = การติ"}
+        - {kind: use, th: "ชมงานเขียน The prose is clear and pithy."}
+    check: [cefr-c2-w09-013, cefr-c2-w09-014]
+    practice: [cefr-c2-w09-015, cefr-c2-w09-016, cefr-c2-w09-017, cefr-c2-w09-018, cefr-c2-w09-019, cefr-c2-w09-020, cefr-c2-w09-021, cefr-c2-w09-022, cefr-c2-w09-023, cefr-c2-w09-024]
+    use:
+      prompt_th: เขียน 2 ประโยควิจารณ์สำนวนการเขียนของหนังสือหรือบทความที่คุณเคยอ่าน
+      frame: "The ____ is ____, but at times it becomes rather ____."
+      model: "The prose in the first chapters is clear and pithy, but at times it becomes rather florid, especially when the author describes his childhood."
+    classroom: {en: "Let's avoid jargon here.", th: "ตรงนี้เลี่ยงศัพท์เฉพาะกันเถอะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: แบบแผนของงานเขียนแต่ละประเภท
+    lesson:
+      rule_th: "แต่ละประเภทมีแบบแผน ==report (หัวข้อ ข้อเท็จจริง ข้อเสนอแนะ)== · proposal (แผน ค่าใช้จ่าย ประโยชน์) · review (บรรยาย ประเมิน แนะนำ) ++essay (จุดยืนมีเหตุผล ไม่มีหัวข้อ)++ · article (เปิดดึงความสนใจ เป็นกันเองกว่า)"
+      examples:
+        - {en: "<k>Findings</k> · <k>Recommendations</k>", th: "หัวข้อรายงาน"}
+        - {en: "The total cost is <k>estimated at</k> ...", th: "==ข้อเสนอแสดงความคุ้มค่า=="}
+        - {en: "<k>While</k> the first half drags, ...", th: "บทวิจารณ์ประเมินสองด้าน"}
+        - {en: "<k>Have you ever wondered</k> ...?", th: "บทความเปิดด้วยคำถาม"}
+      signals:
+        - {label_th: "ประโยคเปิดที่บอกประเภท", words: ["This report aims to ...", "I propose that ...", "This essay will examine ...", "Have you ever ...?"]}
+      thai_trap:
+        intro_th: "คนไทยเขียน ~~ทุกประเภทด้วยโครงเดียวกัน~~ เช่น ใส่หัวข้อในเรียงความ หรือเปิดรายงานด้วยเรื่องเล่าส่วนตัว"
+        wrong: ["Essay title: Findings: 1. Phones are bad.", "Report: When I was a child, I loved libraries ..."]
+        right: ["Essay: This essay will examine whether ...", "Report: This report evaluates library use in ..."]
+      notes:
+        - {kind: tip, th: "อ่านโจทย์ ==ขีดเส้นใต้ประเภทงานเขียน== ก่อนวางโครง"}
+        - {kind: warn, th: "งานวิชาการ ห้ามใช้อัศเจรีย์และคำฟันธงไม่มีหลักฐาน"}
+    check: [cefr-c2-w09-025, cefr-c2-w09-026]
+    practice: [cefr-c2-w09-027, cefr-c2-w09-028, cefr-c2-w09-029, cefr-c2-w09-030, cefr-c2-w09-031, cefr-c2-w09-032, cefr-c2-w09-033, cefr-c2-w09-034]
+    use:
+      prompt_th: เขียนประโยคเปิด 2 ประโยคในเรื่องเดียวกัน แบบรายงานและแบบบทความนิตยสาร
+      frame: "Report: This report aims to ____. Article: ____?"
+      model: "Report: This report aims to evaluate the impact of the new night market on local traffic. Article: Have you ever spent forty minutes driving one kilometre on a Saturday night?"
+    classroom: {en: "Is this a report or an essay?", th: "นี่เป็นรายงานหรือเรียงความ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทวิจารณ์หนังสือและฟังรายการสนทนาเชิงวิชาการ
+    lesson:
+      rule_th: "บทวิจารณ์ที่ดีมีทั้งชมและติ ==ประโยคสรุปท้ายมักบอกความเห็นรวม== ++คำเชื่อม It is a pity, then++ · Had he ... he might have บอกจุดที่ผู้วิจารณ์ผิดหวัง"
+      examples:
+        - {en: "by turns <k>illuminating and frustrating</k>", th: "บอกล่วงหน้าว่ามีทั้งดีและไม่ดี"}
+        - {en: "<k>It is a pity, then,</k> that the second half loses its way.", th: "==เปลี่ยนเป็นติ=="}
+        - {en: "<k>a very good book with a less good one attached</k>", th: "สรุปความเห็นรวม"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นคำชมยาวช่วงแรกแล้ว ~~ตอบว่าผู้วิจารณ์ชอบทั้งเล่ม~~ ทั้งที่ครึ่งหลังถูกติชัดเจน"
+        wrong: ["ตอบว่าผู้วิจารณ์ชมหนังสือทั้งเล่ม"]
+        right: ["ชมครึ่งแรกเรื่องการจัดการชั้นเรียน ติครึ่งหลังว่าหลักฐานน้อยและภาษาหรูเกิน"]
+      notes:
+        - {kind: tip, th: "หาประโยคแรกและประโยคท้าย ==มักสรุปความเห็นทั้งหมด=="}
+        - {kind: use, th: "ฟังรายการสนทนา จับคำว่า provided that ซึ่งบอกเงื่อนไขของความเห็น"}
+    check: [cefr-c2-w09-036, cefr-c2-w09-037]
+    practice: [cefr-c2-w09-035, cefr-c2-w09-038, cefr-c2-w09-039, cefr-c2-w09-040, cefr-c2-w09-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปความเห็นของผู้วิจารณ์ที่มีต่อหนังสือ
+      frame: "The reviewer praises ____ but criticises ____."
+      model: "The reviewer praises the practical, jargon-free advice in the first half but criticises the florid style and weak evidence in the second."
+    classroom: {en: "On the whole, I'd recommend it.", th: "โดยรวมแล้วแนะนำนะ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด วิจารณ์งานเขียนชิ้นหนึ่งอย่างเป็นระบบ 3 นาที
+    lab:
+      mode: speak
+      prompt_th: "พูด 3 นาทีวิจารณ์งานเขียนชิ้นหนึ่งที่คุณอ่าน (หนังสือ บทความ รายงานในที่ทำงาน หรือโพสต์ยาว ๆ) บอกว่าคืออะไร ใจความหลัก จุดแข็งด้านเนื้อหาและสำนวน จุดอ่อน และจะแนะนำให้ใครอ่าน"
+      frame:
+        - "The piece I'd like to discuss is ____, which ____."
+        - "Its central argument is that ____."
+        - "Its main strength is ____; the prose is ____."
+        - "It is a pity, however, that ____."
+        - "On balance, I'd recommend it to ____, though ____."
+      model_pass: "The piece I'd like to discuss is a long article about working from home that I read in an online magazine last month. Its central argument is that working from home makes people more productive but lonelier. Its main strength is the research: the writer interviewed over fifty workers, and the examples are very clear. The prose is simple and pithy, with no jargon. It is a pity, however, that the writer does not offer many solutions. The final section just repeats the problems. On balance, I'd recommend it to managers who are planning new policies, though they will need to look elsewhere for practical advice."
+      model_good: "The piece I'd like to discuss is a long-form magazine article on remote working, which caused quite a stir among my colleagues when it was published last month. Its central argument is that working from home has quietly traded loneliness for productivity, and that most companies have yet to notice the cost. Its main strength lies in the reporting: the writer interviewed over fifty employees across several industries, and the case studies are vivid without being sentimental. The prose, too, is admirably pithy; there isn't a sentence of management jargon in it. It is a pity, however, that the argument runs out of steam in the final third. Having diagnosed the problem so convincingly, the writer offers little more than a list of familiar suggestions, which feels rather like a doctor describing your symptoms in detail and then recommending plenty of rest. On balance, I'd recommend it to anyone responsible for workplace policy, though they should treat it as a starting point for discussion rather than a source of answers."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกงานเขียนแล้วจดใจความหลัก จุดแข็ง จุดอ่อน และกลุ่มผู้อ่านที่เหมาะ
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - วิจารณ์ทั้งเนื้อหาและสำนวนการเขียน
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ (pithy · jargon · prose · florid)
+        - มีทั้งจุดแข็งและจุดอ่อน พร้อมตัวอย่าง
+        - ระดับภาษาสม่ำเสมอ และพูดได้ประมาณ 3 นาที
+    practice: [cefr-c2-w09-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 9
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [7, 8, 9], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

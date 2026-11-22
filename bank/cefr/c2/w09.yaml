@@ -1,0 +1,577 @@
+# คอร์ส c2 · สัปดาห์ 9 · ระดับภาษาและแบบแผนของงานเขียน · เขียนใหม่ข้ามระดับภาษา · ความสม่ำเสมอของระดับภาษา · รายงาน ข้อเสนอ บทวิจารณ์ เรียงความ บทความ
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · เปลี่ยนระดับภาษา ----------
+- id: cefr-c2-w09-001
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 1
+  stem: "Which is the most formal version of \"We got loads of complaints\"?"
+  choices:
+    - {t: "A considerable number of complaints were received.", why: "passive + คำทางการ ++considerable number / received++"}
+    - {t: "We got tons of complaints.", why: "tons of เป็นภาษาพูด"}
+    - {t: "Lots of people moaned.", why: "moan เป็นภาษาพูด"}
+    - {t: "Complaints, we got loads.", why: "ภาษาพูดและลำดับไม่เป็นทางการ"}
+  explain: "ทางการ ==คำนามทางการ + passive + ไม่ใช้คำพูด=="
+  status: draft
+- id: cefr-c2-w09-002
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 1
+  stem: "Which is the most natural informal version of \"Attendance is mandatory\"?"
+  choices:
+    - {t: "You have to come.", why: "ภาษาพูดเป็นธรรมชาติ ++have to++"}
+    - {t: "Your attendance is required forthwith.", why: "ทางการยิ่งกว่าเดิม"}
+    - {t: "It is incumbent upon you to attend.", why: "ทางการมาก จึงใช้ไม่ได้"}
+    - {t: "Attendance shall be obligatory.", why: "ภาษากฎหมาย จึงใช้ไม่ได้"}
+  explain: "ไม่ทางการ ==ใช้ you + กริยาง่าย ๆ== แทนคำนามทางการ"
+  status: draft
+- id: cefr-c2-w09-003
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "In a formal report, which phrase should replace \"a bit worried\"?"
+  choices:
+    - {t: somewhat concerned, why: "ทางการ ++somewhat concerned++"}
+    - {t: kind of stressed, why: "kind of เป็นภาษาพูด"}
+    - {t: a tad freaked out, why: "ภาษาพูดมาก จึงใช้ไม่ได้"}
+    - {t: pretty nervy, why: "ภาษาพูด จึงใช้ไม่ได้"}
+  explain: "ทางการ ==a bit → somewhat / slightly== · worried → concerned"
+  status: draft
+- id: cefr-c2-w09-004
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Which sentence keeps a CONSISTENT formal register?"
+  choices:
+    - {t: "We regret to inform you that your application has been unsuccessful.", why: "ทางการทั้งประโยค ++สม่ำเสมอ++"}
+    - {t: "We regret to inform you that you didn't get the job, sorry!", why: "ปนภาษาพูดตอนท้าย"}
+    - {t: "Unfortunately, your application was a no-go.", why: "no-go เป็นภาษาพูด"}
+    - {t: "Hey, we regret to inform you of the outcome.", why: "Hey ไม่ทางการ ปนกับ regret to inform"}
+  explain: "ระดับ C2 ==ระดับภาษาต้องสม่ำเสมอตลอดข้อความ=="
+  status: draft
+- id: cefr-c2-w09-005
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Which word is TOO informal for an academic essay?"
+  choices:
+    - {t: stuff, why: "stuff ++ภาษาพูด++ ควรใช้คำนามเฉพาะ"}
+    - {t: factors, why: "factors เหมาะกับงานวิชาการ"}
+    - {t: furthermore, why: "furthermore เหมาะกับงานวิชาการ"}
+    - {t: consequently, why: "consequently เหมาะกับงานวิชาการ"}
+  explain: "งานวิชาการ ==หลีกเลี่ยง stuff== · things · a lot of · get"
+  status: draft
+- id: cefr-c2-w09-006
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Rewrite formally: \"They put off the meeting because loads of people couldn't make it.\""
+  choices:
+    - {t: "The meeting was postponed owing to the unavailability of many participants.", why: "postponed · owing to · nominalisation ++ทางการครบ++"}
+    - {t: "The meeting got put off since lots couldn't come.", why: "ยังเป็นภาษาพูด จึงใช้ไม่ได้"}
+    - {t: "They postponed the meeting cos people were busy.", why: "cos เป็นภาษาพูด"}
+    - {t: "Because many people could not make it, the meeting got cancelled.", why: "make it และ got ยังไม่ทางการ และเปลี่ยนความหมายเป็นยกเลิก"}
+  explain: "ทางการ ==กริยาวลี → คำเดี่ยว== · because → owing to · ใช้คำนาม"
+  status: draft
+- id: cefr-c2-w09-007
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Which opening is appropriate for an email to a close colleague?"
+  choices:
+    - {t: "Hi Nok, quick question about tomorrow:", why: "เป็นกันเองเหมาะกับเพื่อนร่วมงานสนิท ++Hi + ชื่อ++"}
+    - {t: "Dear Madam, I am writing to enquire about tomorrow.", why: "ทางการเกินไปสำหรับเพื่อนสนิท"}
+    - {t: "To whom it may concern,", why: "ใช้เมื่อไม่รู้จักผู้รับ"}
+    - {t: "Esteemed colleague, I humbly request ...", why: "ทางการเกินจนฟังแปลก"}
+  explain: "ระดับภาษา ==ต้องเหมาะกับความสัมพันธ์== ไม่ใช่ยิ่งทางการยิ่งดี"
+  status: draft
+- id: cefr-c2-w09-008
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 3
+  stem: "\"The findings are, like, really important for teachers.\" Which revision is best for a journal article?"
+  choices:
+    - {t: "The findings have significant implications for teachers.", why: "ตัดคำพูด like / really ++ใช้คู่คำวิชาการ significant implications++"}
+    - {t: "The findings are, really, important for teachers.", why: "ยังมีคำพูด really"}
+    - {t: "The findings are super important for teachers.", why: "super เป็นภาษาพูด"}
+    - {t: "The findings are like important for teachers.", why: "like เป็นคำเติมของภาษาพูด"}
+  explain: "งานวิชาการ ==เลี่ยงคำเติมและคำขยายภาษาพูด== (like · really · super)"
+  status: draft
+- id: cefr-c2-w09-009
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 3
+  stem: "Which sentence is natural in SPOKEN English but too informal for writing?"
+  choices:
+    - {t: "Thing is, nobody really knows.", why: "ละ The ++เป็นลักษณะภาษาพูด++"}
+    - {t: "The difficulty is that nobody knows for certain.", why: "เหมาะกับงานเขียน"}
+    - {t: "It remains unclear what the answer is.", why: "เหมาะกับงานเขียนทางการ"}
+    - {t: "The answer has yet to be established.", why: "บทไม่ได้พูดว่า The answer has yet to be established."}
+  explain: "ภาษาพูด ==ละคำต้นประโยคได้== (Thing is · Sounds good · Want some?)"
+  status: draft
+- id: cefr-c2-w09-010
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Which is the best formal equivalent of \"get better\" in \"Sales got better in May\"?"
+  choices:
+    - {t: improved, why: "คำเดี่ยวทางการ ++improved++"}
+    - {t: picked up a lot, why: "ภาษาพูด จึงใช้ไม่ได้"}
+    - {t: went up loads, why: "บทไม่ได้พูดว่า went up loads"}
+    - {t: became more good, why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
+  explain: "ทางการ ==get + adj → คำกริยาเดี่ยว== (get better → improve · get bigger → increase)"
+  status: draft
+- id: cefr-c2-w09-011
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Which closing is too informal for a complaint letter to a company?"
+  choices:
+    - {t: "Cheers, see ya!", why: "ภาษาพูดเกินไปสำหรับจดหมายร้องเรียน"}
+    - {t: "I look forward to your reply.", why: "เหมาะสม จึงใช้ไม่ได้"}
+    - {t: "Yours faithfully,", why: "เหมาะสม เมื่อไม่รู้ชื่อผู้รับ"}
+    - {t: "I trust this matter will be resolved promptly.", why: "บทไม่ได้พูดว่า I trust this matter will be resolved promptly."}
+  explain: "ปิดจดหมายทางการ ==I look forward to ...== / Yours faithfully / sincerely"
+  status: draft
+- id: cefr-c2-w09-012
+  kind: type
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "Formal: \"We need to look into the problem\" → \"We need to i__________ the problem.\" (ตรวจสอบ)"
+  answer: investigate
+  accept: [investigate]
+  why: "look into (พูด) = investigate (ทางการ)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์เกี่ยวกับภาษาและงานเขียน ----------
+- id: cefr-c2-w09-013
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 1
+  stem: "\"Gonna\" and \"wanna\" are ____ forms that are fine in speech but not in essays."
+  choices:
+    - {t: colloquial, why: "ภาษาพูดไม่เป็นทางการ ใช้ ++colloquial++"}
+    - {t: florid, why: "florid แปลว่าใช้คำหรูหราเกินไป"}
+    - {t: pithy, why: "pithy แปลว่ากระชับคมคาย"}
+    - {t: verbose, why: "verbose แปลว่าเยิ่นเย้อ"}
+  explain: "colloquial = ==ภาษาพูด ไม่เป็นทางการ=="
+  status: draft
+- id: cefr-c2-w09-014
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 1
+  stem: "The novel is written in the local ____, so some readers may need a glossary."
+  choices:
+    - {t: vernacular, why: "ภาษาถิ่นที่คนพูดกันจริง ใช้ ++vernacular++"}
+    - {t: jargon, why: "jargon คือศัพท์เฉพาะวงการ ไม่ใช่ภาษาถิ่น"}
+    - {t: treatise, why: "treatise คือตำราวิชาการ"}
+    - {t: critique, why: "critique คือบทวิจารณ์"}
+  explain: "vernacular = ==ภาษาที่คนในท้องถิ่นพูดจริง=="
+  status: draft
+- id: cefr-c2-w09-015
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "The report was full of technical ____ that ordinary readers couldn't understand."
+  choices:
+    - {t: jargon, why: "ศัพท์เฉพาะวงการ ใช้ ++jargon++"}
+    - {t: vernacular, why: "vernacular คือภาษาถิ่น"}
+    - {t: prose, why: "prose คือร้อยแก้ว"}
+    - {t: discourse, why: "discourse คือวาทกรรม หรือการสื่อสาร"}
+  explain: "jargon = ==ศัพท์เฉพาะวงการ== (มักใช้ในความหมายลบ)"
+  status: draft
+- id: cefr-c2-w09-016
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "His emails are so ____ that it takes ten minutes to find the actual request."
+  choices:
+    - {t: verbose, why: "เยิ่นเย้อ ใช้คำมากเกิน ใช้ ++verbose++"}
+    - {t: terse, why: "terse แปลว่าห้วนสั้น ตรงข้าม"}
+    - {t: pithy, why: "pithy แปลว่ากระชับ ตรงข้าม"}
+    - {t: laconic, why: "laconic แปลว่าพูดน้อย ตรงข้าม"}
+  explain: "verbose = ==เยิ่นเย้อ ใช้คำมากเกินจำเป็น=="
+  status: draft
+- id: cefr-c2-w09-017
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "Her reply was ____ and unfriendly: just \"No. Busy.\""
+  choices:
+    - {t: terse, why: "ห้วนสั้นจนดูไม่เป็นมิตร ใช้ ++terse++"}
+    - {t: verbose, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: florid, why: "บทไม่ได้พูดว่า florid"}
+    - {t: pithy, why: "pithy เป็นความหมายบวก ไม่ได้แปลว่าไม่เป็นมิตร"}
+  explain: "terse = ==สั้นห้วน (มักฟังไม่เป็นมิตร)=="
+  status: draft
+- id: cefr-c2-w09-018
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "The speech was too ____, full of grand words and long, decorative descriptions."
+  choices:
+    - {t: florid, why: "หรูหราประดับประดาเกินไป ใช้ ++florid++"}
+    - {t: terse, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: laconic, why: "บทไม่ได้พูดว่า laconic"}
+    - {t: colloquial, why: "colloquial ไม่ได้หมายถึงหรูหรา"}
+  explain: "florid = ==ใช้ภาษาหรูหราประดับเกินไป=="
+  status: draft
+- id: cefr-c2-w09-019
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "The old farmer was famously ____; he rarely said more than a few words."
+  choices:
+    - {t: laconic, why: "พูดน้อยแต่ไม่ได้หยาบ ใช้ ++laconic++"}
+    - {t: verbose, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: florid, why: "บทไม่ได้พูดว่า florid"}
+    - {t: colloquial, why: "ไม่เกี่ยวกับปริมาณคำ"}
+  explain: "laconic = ==พูดน้อย ใช้คำน้อย== (มักเป็นนิสัย ไม่ได้ดูหยาบ)"
+  status: draft
+- id: cefr-c2-w09-020
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "She summed up the whole debate in one ____ sentence that everyone remembered."
+  choices:
+    - {t: pithy, why: "สั้นกระชับคมคาย ใช้ ++pithy++"}
+    - {t: verbose, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: terse, why: "terse มักฟังไม่เป็นมิตร ไม่ใช่คำชม"}
+    - {t: florid, why: "บทไม่ได้พูดว่า florid"}
+  explain: "pithy = ==สั้นกระชับและคมคาย== (ความหมายบวก)"
+  status: draft
+- id: cefr-c2-w09-021
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "She writes poetry, but her ____ is even more admired."
+  choices:
+    - {t: prose, why: "ร้อยแก้ว ใช้ ++prose++"}
+    - {t: jargon, why: "ไม่เข้ากับบริบท"}
+    - {t: discourse, why: "บทไม่ได้พูดว่า discourse"}
+    - {t: critique, why: "critique คือบทวิจารณ์ชิ้นเดียว"}
+  explain: "prose = ==ร้อยแก้ว== ตรงข้าม poetry"
+  status: draft
+- id: cefr-c2-w09-022
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "Social media has changed the nature of political ____."
+  choices:
+    - {t: discourse, why: "วาทกรรม การถกเถียงในสังคม ใช้ ++discourse++"}
+    - {t: prose, why: "ไม่เข้ากับบริบท"}
+    - {t: treatise, why: "treatise คือหนังสือชิ้นหนึ่ง"}
+    - {t: vernacular, why: "บทไม่ได้พูดว่า vernacular"}
+  explain: "discourse = ==การสื่อสารและการถกเถียงในสังคม=="
+  status: draft
+- id: cefr-c2-w09-023
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 3
+  stem: "He spent ten years writing a 600-page ____ on the history of Thai education."
+  choices:
+    - {t: treatise, why: "ตำราวิชาการยาวและละเอียด ใช้ ++treatise++"}
+    - {t: critique, why: "critique คือบทวิจารณ์"}
+    - {t: discourse, why: "discourse ไม่ใช่หนังสือ"}
+    - {t: jargon, why: "ไม่เข้ากับบริบท"}
+  explain: "treatise = ==ตำราวิชาการเชิงลึก=="
+  status: draft
+- id: cefr-c2-w09-024
+  kind: type
+  skill: vo
+  topic: language-style
+  level: 2
+  stem: "The article offers a sharp c_______ of current testing policy. (บทวิจารณ์)"
+  answer: critique
+  accept: [critique]
+  why: "critique = บทวิจารณ์เชิงวิเคราะห์"
+  status: draft
+# ---------- วันที่ 3 · แบบแผนของงานเขียนแต่ละประเภท ----------
+- id: cefr-c2-w09-025
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 1
+  stem: "Which feature is MOST typical of a report?"
+  choices:
+    - {t: headings and clear recommendations, why: "รายงาน ++มีหัวข้อและข้อเสนอแนะ++"}
+    - {t: a dramatic personal story, why: "เหมาะกับบทความหรือเรื่องเล่า"}
+    - {t: rhetorical questions in every paragraph, why: "ไม่ใช่ลักษณะรายงาน"}
+    - {t: rhyming lines, why: "ลักษณะของกวี จึงใช้ไม่ได้"}
+  explain: "report = ==หัวข้อ ข้อเท็จจริง ข้อเสนอแนะ== น้ำเสียงเป็นกลาง"
+  status: draft
+- id: cefr-c2-w09-026
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 1
+  stem: "What is the main purpose of a proposal?"
+  choices:
+    - {t: to persuade someone to approve a plan, why: "proposal = ++เสนอแผนให้อนุมัติ++"}
+    - {t: to tell a story, why: "ไม่ใช่จุดประสงค์"}
+    - {t: to summarise a book, why: "เป็นจุดประสงค์ของบทสรุปหรือบทวิจารณ์"}
+    - {t: to complain about a product that arrived broken, why: "เป็นจุดประสงค์ของจดหมายร้องเรียน"}
+  explain: "proposal = ==เสนอแผน ประโยชน์ ค่าใช้จ่าย ขอการอนุมัติ=="
+  status: draft
+- id: cefr-c2-w09-027
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  stem: "Which sentence is most typical of a REVIEW?"
+  choices:
+    - {t: "While the first half drags, the final chapters are genuinely gripping.", why: "บทวิจารณ์ ++ประเมินทั้งข้อดีข้อเสีย++"}
+    - {t: "It is recommended that the budget be increased by 10%.", why: "ลักษณะรายงานหรือข้อเสนอ"}
+    - {t: "Dear Sir or Madam, I am writing to complain.", why: "ลักษณะจดหมาย จึงใช้ไม่ได้"}
+    - {t: "The aim of this report is to evaluate the scheme.", why: "ลักษณะรายงาน จึงใช้ไม่ได้"}
+  explain: "review = ==บรรยายสั้น + ประเมิน + แนะนำผู้อ่าน=="
+  status: draft
+- id: cefr-c2-w09-028
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  stem: "Which opening is best for a magazine ARTICLE aimed at general readers?"
+  choices:
+    - {t: "Have you ever wondered why queues always seem slower on your side?", why: "บทความ ++เปิดด้วยคำถามดึงความสนใจ++"}
+    - {t: "This report aims to evaluate queuing behaviour.", why: "ลักษณะรายงาน จึงใช้ไม่ได้"}
+    - {t: "Dear Editor, I wish to comment on queues.", why: "ลักษณะจดหมายถึงบรรณาธิการ"}
+    - {t: "In conclusion, queues are slow.", why: "เป็นการสรุป ไม่ใช่เปิด"}
+  explain: "article = ==เปิดดึงความสนใจ== น้ำเสียงเป็นกันเองกว่ารายงาน"
+  status: draft
+- id: cefr-c2-w09-029
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  stem: "In a formal essay, which conclusion is most appropriate?"
+  choices:
+    - {t: "On balance, the benefits appear to outweigh the drawbacks, provided that ...", why: "เรียงความ ++สรุปจุดยืนอย่างมีเหตุผล++"}
+    - {t: "So yeah, that's what I think.", why: "ภาษาพูด จึงใช้ไม่ได้"}
+    - {t: "Recommendations: 1. Increase funding.", why: "ลักษณะรายงาน จึงใช้ไม่ได้"}
+    - {t: "I hope you enjoyed reading this!", why: "ไม่เหมาะกับเรียงความทางการ"}
+  explain: "essay = ==สรุปจุดยืนพร้อมเงื่อนไข== ไม่มีหัวข้อย่อยแบบรายงาน"
+  status: draft
+- id: cefr-c2-w09-030
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  stem: "Which heading fits a REPORT rather than an essay?"
+  choices:
+    - {t: "Findings", why: "รายงานใช้ ++หัวข้อ เช่น Findings · Recommendations++"}
+    - {t: "Once upon a time", why: "ลักษณะนิทาน จึงใช้ไม่ได้"}
+    - {t: "Why I love my city", why: "ลักษณะบทความหรือเรียงความส่วนตัว"}
+    - {t: "Dear Sir", why: "ลักษณะจดหมาย จึงใช้ไม่ได้"}
+  explain: "report ==มีหัวข้อ== · essay ไม่มีหัวข้อย่อย"
+  status: draft
+- id: cefr-c2-w09-031
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  stem: "A proposal includes: \"The total cost is estimated at 120,000 baht, which would be recovered within two years.\" Why?"
+  choices:
+    - {t: to show the plan is financially worthwhile, why: "ข้อเสนอ ++ต้องแสดงความคุ้มค่า++"}
+    - {t: to tell a personal story, why: "ไม่ใช่จุดประสงค์"}
+    - {t: to criticise the reader for not reading the earlier reports, why: "บทไม่ได้พูดว่า to criticise the reader"}
+    - {t: to summarise a novel, why: "บทไม่ได้พูดว่า to summarise a novel"}
+  explain: "proposal ==ต้องมีค่าใช้จ่ายและผลตอบแทน=="
+  status: draft
+- id: cefr-c2-w09-032
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  stem: "Which sentence breaks the conventions of an ACADEMIC essay?"
+  choices:
+    - {t: "Everyone knows this is obviously true!!", why: "ฟันธงไม่มีหลักฐาน และใช้อัศเจรีย์ ++ผิดแบบแผนวิชาการ++"}
+    - {t: "Several studies suggest that this may be the case.", why: "ถูกแบบแผน จึงใช้ไม่ได้"}
+    - {t: "It could be argued, however, that other factors are involved.", why: "บทไม่ได้พูดว่า It could be argued, however, that other factors are involved."}
+    - {t: "This essay will examine three main arguments.", why: "บทไม่ได้พูดว่า This essay will examine three main arguments."}
+  explain: "งานวิชาการ ==อ้างหลักฐาน ระวังข้อสรุป ไม่ใช้อัศเจรีย์=="
+  status: draft
+- id: cefr-c2-w09-033
+  kind: type
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  stem: "A report usually ends with a section called R_______________. (ข้อเสนอแนะ)"
+  answer: recommendations
+  accept: [recommendations, Recommendations]
+  why: "Recommendations = หัวข้อข้อเสนอแนะท้ายรายงาน"
+  status: draft
+- id: cefr-c2-w09-034
+  kind: cloze
+  skill: gm
+  topic: register-shifting
+  level: 2
+  text: |
+    Dear Ms Lee, I am writing to (1) ____ about the delay to my order. I was informed that the item would arrive within three days; however, it has (2) ____ to arrive after two weeks. I would be grateful if you could (3) ____ the matter and let me know when I can expect delivery.
+  questions:
+    - choices:
+        - {t: enquire, why: "ทางการ enquire = สอบถาม"}
+        - {t: ask a bit, why: "ภาษาพูด จึงใช้ไม่ได้"}
+        - {t: check up, why: "บทไม่ได้พูดว่า check up"}
+        - {t: chat, why: "บทไม่ได้พูดว่า chat"}
+    - choices:
+        - {t: yet, why: "has yet to = ยังไม่ (ทางการ)"}
+        - {t: still not, why: "has still not to ผิดรูป"}
+        - {t: never, why: "has never to ผิดความหมาย"}
+        - {t: already, why: "has already to ผิดรูป"}
+    - choices:
+        - {t: investigate, why: "ทางการ investigate = ตรวจสอบ"}
+        - {t: look into it, why: "ซ้ำ the matter และเป็นภาษาพูด"}
+        - {t: sort out, why: "ภาษาพูด จึงใช้ไม่ได้"}
+        - {t: check out, why: "บทไม่ได้พูดว่า check out"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทวิจารณ์หนังสือและฟังรายการสนทนา ----------
+- id: cefr-c2-w09-035
+  kind: read
+  skill: rd
+  topic: book-review
+  level: 3
+  title: "Review · 'The Quiet Classroom' by Dr Anan Sriwong"
+  passage: |
+    Few topics in education generate as much heat and as little light as classroom discipline. Into this crowded field steps Dr Anan Sriwong, a former secondary school teacher turned researcher, with a book that is by turns illuminating and frustrating.
+
+    The book's central argument is both simple and persuasive: most behaviour problems, Sriwong contends, are not caused by "difficult" students but by unclear expectations. Drawing on observations from forty classrooms across Thailand, he shows how teachers who explain their rules once, clearly and calmly, spend far less time dealing with disruption than those who repeat them constantly. These chapters are the book's great strength. The case studies are vivid, the analysis is careful, and the practical advice is refreshingly free of jargon.
+
+    It is a pity, then, that the second half loses its way. Having made his case convincingly, Sriwong attempts to extend it into a broader treatise on national education policy, and the prose becomes noticeably more florid. Sentences grow longer, claims grow larger, and the evidence grows thinner. A chapter on teacher training, in particular, relies heavily on anecdote and offers recommendations that, however well intentioned, are unlikely to survive contact with an actual school budget.
+
+    Readers looking for a pithy, practical guide to managing a classroom will find much to admire in the first 150 pages. Those hoping for a rigorous critique of the education system may be disappointed. Had Sriwong resisted the temptation to say everything, he might have written a genuinely important book. As it stands, it is a very good book with a less good one attached.
+  questions:
+    - stem: What is the reviewer's overall opinion?
+      choices:
+        - {t: the first half is excellent but the second half is weaker, why: "a very good book with a less good one attached"}
+        - {t: the whole book is excellent, why: "ผู้วิจารณ์ติครึ่งหลัง"}
+        - {t: the whole book is poor, why: "ชมครึ่งแรกมาก จึงใช้ไม่ได้"}
+        - {t: the reviewer did not finish it and will not recommend it, why: "วิจารณ์ทั้งเล่ม"}
+    - stem: What is Sriwong's main argument?
+      choices:
+        - {t: unclear expectations cause most behaviour problems, why: "most behaviour problems ... are caused ... by unclear expectations"}
+        - {t: difficult students are the main problem, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: teachers should repeat rules often, why: "ตรงกันข้าม อธิบายครั้งเดียวชัด ๆ ดีกว่า"}
+        - {t: classrooms should be completely silent during every lesson, why: "ไม่ใช่ข้อโต้แย้งหลัก"}
+    - stem: What happens to the writing style in the second half?
+      choices:
+        - {t: it becomes more decorative and less evidence-based, why: "prose becomes noticeably more florid ... evidence grows thinner"}
+        - {t: it becomes shorter and clearer, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: it uses more case studies, why: "ใช้เรื่องเล่ามากกว่าหลักฐาน"}
+        - {t: it becomes more humorous and easier to read than the first half, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: Why does the reviewer doubt the teacher-training recommendations?
+      choices:
+        - {t: they are probably too expensive to implement, why: "unlikely to survive contact with an actual school budget"}
+        - {t: they are too short, why: "ไม่ใช่เหตุผล จึงใช้ไม่ได้"}
+        - {t: they copy other books, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: they ignore what students say about their own teachers, why: "บทไม่ได้พูดว่า they ignore students"}
+  status: draft
+- id: cefr-c2-w09-036
+  kind: listen
+  skill: li
+  topic: academic-talk-show
+  level: 3
+  script:
+    - {who: Woman, en: "The problem with a lot of academic writing isn't that it's difficult; it's that it's needlessly difficult. Jargon is used to impress, not to inform."}
+  questions:
+    - stem: What does the speaker criticise?
+      choices:
+        - {t: unnecessary complexity in academic writing, why: "needlessly difficult ... Jargon is used to impress"}
+        - {t: all difficult ideas, why: "isn't that it's difficult"}
+        - {t: writing that is too simple, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: "students who don't read enough academic books", why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w09-037
+  kind: listen
+  skill: li
+  topic: academic-talk-show
+  level: 3
+  script:
+    - {who: Man, en: "Is it ever acceptable to use 'I' in an academic essay?"}
+    - {who: Woman, en: "Increasingly, yes, particularly in the humanities, provided it's used to clarify your position rather than to tell a personal story."}
+  questions:
+    - stem: When does the woman think 'I' is acceptable?
+      choices:
+        - {t: when it clarifies the writer's position, why: "provided it's used to clarify your position"}
+        - {t: never, why: "Increasingly, yes"}
+        - {t: always, why: "มีเงื่อนไข จึงใช้ไม่ได้"}
+        - {t: only in science, why: "particularly in the humanities"}
+  status: draft
+- id: cefr-c2-w09-038
+  kind: listen
+  skill: li
+  topic: academic-talk-show
+  level: 3
+  script:
+    - {who: Man, en: "Her reviews are famously laconic. Three sentences, sometimes two, and you know exactly what she thinks."}
+  questions:
+    - stem: How are her reviews described?
+      choices:
+        - {t: very short but clear, why: "laconic ... you know exactly what she thinks"}
+        - {t: long and detailed, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: confusing, why: "บทไม่ได้พูดว่า confusing"}
+        - {t: always negative about the books she has chosen to read, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w09-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I am writing, to enquire about, the delay, to my order]
+  sentence: I am writing to enquire about the delay to my order.
+  th: ขอเรียนสอบถามเรื่องความล่าช้าของคำสั่งซื้อ
+  why: "เปิดจดหมายทางการ I am writing to + กริยา"
+  status: draft
+- id: cefr-c2-w09-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [This report aims, to evaluate, the effectiveness of, the new scheme]
+  sentence: This report aims to evaluate the effectiveness of the new scheme.
+  th: รายงานนี้มุ่งประเมินประสิทธิผลของโครงการใหม่
+  why: "ประโยคเปิดรายงาน aim to + กริยา + นามวลี"
+  status: draft
+- id: cefr-c2-w09-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The item, has yet, to arrive, despite repeated requests]
+  sentence: The item has yet to arrive, despite repeated requests.
+  th: สินค้ายังไม่มาถึง แม้จะติดตามหลายครั้ง
+  why: "has yet to + กริยา (ทางการ) · despite + คำนาม"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c2-w09-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [While the argument, is persuasive, the evidence, offered in the second half, is considerably weaker]
+  sentence: While the argument is persuasive, the evidence offered in the second half is considerably weaker.
+  th: แม้ข้อโต้แย้งจะน่าเชื่อ แต่หลักฐานในครึ่งหลังอ่อนกว่ามาก
+  why: "While + จุดแข็ง แล้วจุดอ่อน · offered ย่อจาก which is offered"
+  status: draft
