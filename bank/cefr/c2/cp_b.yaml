@@ -1,0 +1,500 @@
+# คอร์ส c2 · ชุดวัดผล ชุด b · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: สัปดาห์ 4–10 (d1 + d3) · cloze: synthesis-paraphrase · ศัพท์: สัปดาห์ 2–11
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-c2-cpb-001
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 1
+  stem: The ____ of a new ring road around the city has divided local opinion.
+  choices:
+    - {t: construction, why: "หลัง The ... of ต้องเป็น ++คำนาม construction++"}
+    - {t: constructing, why: "the constructing of ไม่ใช่รูปมาตรฐาน"}
+    - {t: construct, why: "construct เป็นกริยา"}
+    - {t: constructive, why: "constructive เป็นคุณศัพท์ แปลว่าสร้างสรรค์"}
+  explain: "นามวลี ==the + คำนาม + of=="
+  status: draft
+- id: cefr-c2-cpb-002
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 1
+  stem: ____ the email, he realised that he had attached the wrong file.
+  choices:
+    - {t: Having sent, why: "ทำเสร็จก่อนอีกเหตุการณ์ ++Having + ช่อง 3++"}
+    - {t: Sent, why: "Sent ขึ้นต้นแปลว่าเขาถูกส่ง ไม่ตรงความหมาย"}
+    - {t: Having sending, why: "หลัง having ต้องใช้ช่อง 3"}
+    - {t: To sending, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "เหตุการณ์ก่อน ==Having + ช่อง 3 ขึ้นต้น=="
+  status: draft
+- id: cefr-c2-cpb-003
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  stem: I haven't finished the translation yet, but I fully intend ____ by Friday.
+  choices:
+    - {t: to, why: "ละกริยาที่ซ้ำ เหลือ ++to++ (to finish it)"}
+    - {t: so, why: "intend so ไม่ใช่รูปที่ใช้"}
+    - {t: it, why: "intend it ผิดรูป"}
+    - {t: to it, why: "to it แปลว่าไปยังมัน ไม่ใช่การละกริยา"}
+  explain: "ละกริยาหลัง want / intend / hope ==เหลือ to=="
+  status: draft
+- id: cefr-c2-cpb-004
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 1
+  stem: Ticket prices rose sharply in March. ____, attendance fell by almost a fifth.
+  choices:
+    - {t: As a result, why: "บอกผลที่ตามมา ++As a result++"}
+    - {t: In contrast, why: "in contrast ใช้เทียบความต่าง"}
+    - {t: Even so, why: "even so ใช้กับผลที่ขัดความคาดหมาย"}
+    - {t: Likewise, why: "likewise แปลว่าเช่นเดียวกัน"}
+  explain: "คำเชื่อมผล ==As a result / Consequently=="
+  status: draft
+- id: cefr-c2-cpb-005
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  stem: The new timetable is, ____, the least bad option the school has been offered.
+  choices:
+    - {t: arguably, why: "แทรกท่าทีระวัง ++arguably++ = พอจะพูดได้ว่า"}
+    - {t: arguable, why: "คุณศัพท์แทรกแบบนี้ไม่ได้"}
+    - {t: argue, why: "กริยาแทรกแบบนี้ไม่ได้"}
+    - {t: argument, why: "คำนามแทรกแบบนี้ไม่ได้"}
+  explain: "stance adverb แทรกกลางประโยค ==arguably / admittedly=="
+  status: draft
+- id: cefr-c2-cpb-006
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 1
+  stem: A colleague invites you to a party you cannot attend. Which reply declines most tactfully?
+  choices:
+    - {t: "I'm afraid I can't make it, but thank you so much for asking.", why: "ปฏิเสธนุ่ม ++I'm afraid + ขอบคุณ++"}
+    - {t: "No, I'm busy that night.", why: "ห้วนเกินไป จึงใช้ไม่ได้"}
+    - {t: "I don't want to come to your party.", why: "ตรงเกินไปจนเสียมารยาท"}
+    - {t: "Parties are not really my thing, so I think I'll give it a miss.", why: "บอกว่าไม่ชอบ ไม่สุภาพนัก"}
+  explain: "ปฏิเสธสุภาพ ==I'm afraid + เหตุผล/ขอบคุณ=="
+  status: draft
+- id: cefr-c2-cpb-007
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 1
+  stem: Let's not ____ around the bush any longer; the budget has been cut by half.
+  choices:
+    - {t: beat, why: "สำนวน ++beat around the bush++ = พูดอ้อม"}
+    - {t: hit, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: walk, why: "บทไม่ได้พูดว่า walk"}
+    - {t: shake, why: "บทไม่ได้พูดว่า shake"}
+  explain: "beat around the bush = ==พูดอ้อมไม่เข้าเรื่อง=="
+  status: draft
+- id: cefr-c2-cpb-008
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 2
+  stem: After three hours of dull reports, her short, funny talk was a breath of ____ air.
+  choices:
+    - {t: fresh, why: "สำนวน ++a breath of fresh air++ = สิ่งใหม่ที่สดชื่น"}
+    - {t: clean, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: cool, why: "บทไม่ได้พูดว่า cool"}
+    - {t: open, why: "บทไม่ได้พูดว่า open"}
+  explain: "a breath of fresh air = ==ความสดใหม่ท่ามกลางความน่าเบื่อ=="
+  status: draft
+- id: cefr-c2-cpb-009
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 1
+  stem: The newly discovered letters ____ serious doubt on the official version of events.
+  choices:
+    - {t: cast, why: "คู่คำ ++cast doubt on++"}
+    - {t: make, why: "make doubt ไม่ใช่คู่คำ"}
+    - {t: give, why: "give doubt ไม่ใช่คู่คำ"}
+    - {t: do, why: "do doubt ไม่ใช่คู่คำ"}
+  explain: "==cast doubt on / cast light on=="
+  status: draft
+- id: cefr-c2-cpb-010
+  kind: mcq
+  skill: gm
+  topic: phrasal-prepositional-idioms
+  level: 2
+  stem: The talks finally ____ after neither side was willing to compromise on wages.
+  choices:
+    - {t: broke down, why: "การเจรจาล้มเหลว ++break down++"}
+    - {t: broke out, why: "break out ใช้กับสงคราม ไฟไหม้ โรคระบาด"}
+    - {t: broke in, why: "break in คือบุกรุก"}
+    - {t: broke through, why: "break through คือฝ่าไปได้ ความหมายตรงข้าม"}
+  explain: "talks / negotiations ==break down== = ล้มเหลว"
+  status: draft
+- id: cefr-c2-cpb-011
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: Which version best suits a formal annual report?
+  choices:
+    - {t: Revenue increased substantially during the second quarter., why: "ศัพท์ทางการและเป็นกลาง ++เหมาะกับรายงาน++"}
+    - {t: We made loads more money from April to June!, why: "ภาษาพูดและมีอารมณ์"}
+    - {t: "Sales went through the roof in Q2, basically, which was brilliant.", why: "สำนวนภาษาพูด จึงใช้ไม่ได้"}
+    - {t: "Money-wise, Q2 was pretty awesome for us.", why: "ภาษาพูดมาก จึงใช้ไม่ได้"}
+  explain: "รายงานทางการ ==คำนามทางการ + ไม่ใช้อารมณ์=="
+  status: draft
+- id: cefr-c2-cpb-012
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  stem: What would readers normally expect to find in a research abstract?
+  choices:
+    - {t: "a brief statement of aim, method, findings and conclusion", why: "abstract ++สรุปทั้งงานสั้น ๆ++"}
+    - {t: a long personal story about how the author became interested, why: "ไม่ใช่ขนบของ abstract"}
+    - {t: a complete list of every source the author has consulted, why: "รายการอ้างอิงอยู่ท้ายบทความ"}
+    - {t: a set of jokes to keep the reader entertained, why: "ไม่ใช่ขนบของงานวิชาการ"}
+  explain: "ขนบ abstract ==จุดประสงค์ วิธี ผล ข้อสรุป=="
+  status: draft
+- id: cefr-c2-cpb-013
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  stem: "Looking at the mess in the kitchen, she said: \"Well, that's certainly one way of doing it.\" What does she mean?"
+  choices:
+    - {t: she disapproves of how it was done, why: "ประชดเบา ๆ ++one way of doing it = ไม่ใช่วิธีที่ดี++"}
+    - {t: she admires the creative method, why: "อ่านตามตัวอักษร พลาดน้ำเสียงประชด"}
+    - {t: she wants to learn the method too, why: "ไม่มีนัยนี้ จึงใช้ไม่ได้"}
+    - {t: she has no opinion about it at all, why: "เธอมีความเห็นชัด"}
+  explain: "understatement ประชด ==ฟังสุภาพแต่ไม่เห็นด้วย=="
+  status: draft
+- id: cefr-c2-cpb-014
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  stem: "\"Ice-cream sales and drownings both rise in summer, so ice cream must cause drowning.\" What is wrong with this argument?"
+  choices:
+    - {t: it mistakes correlation for causation, why: "ทั้งสองเพิ่มเพราะอากาศร้อน ++ไม่ใช่เหตุและผลกัน++"}
+    - {t: it attacks the person rather than the claim, why: "ไม่ได้โจมตีบุคคล"}
+    - {t: it relies only on old traditions, why: "ไม่ได้อ้างประเพณี"}
+    - {t: it gives just two possible options, why: "ไม่ใช่ false dilemma"}
+  explain: "เกิดพร้อมกัน ==ไม่ได้แปลว่าเป็นเหตุและผล=="
+  status: draft
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-c2-cpb-015
+  kind: cloze
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  text: |
+    Both reports address the shortage of rural doctors, (1) ____ they disagree on the cause. The first attributes it to low pay, (2) ____ the second points to poor housing and schools for doctors' families. (3) ____, the two reports suggest that money alone is unlikely to solve the problem.
+  questions:
+    - choices:
+        - {t: although, why: "เชื่อมความขัดแย้ง ทั้งสองพูดเรื่องเดียวกันแต่เห็นต่าง"}
+        - {t: because, why: "ไม่ได้บอกเหตุผล"}
+        - {t: so that, why: "so that บอกจุดประสงค์"}
+        - {t: in case, why: "in case บอกการเผื่อไว้"}
+    - choices:
+        - {t: whereas, why: "เทียบความต่างของสองฝ่าย"}
+        - {t: therefore, why: "therefore บอกผล ไม่ได้เทียบ"}
+        - {t: unless, why: "unless บอกเงื่อนไข"}
+        - {t: as if, why: "as if แปลว่าราวกับว่า"}
+    - choices:
+        - {t: Taken together, why: "สังเคราะห์สองแหล่งเข้าด้วยกัน"}
+        - {t: Taking together, why: "ต้องใช้ช่อง 3 เพราะรายงานถูกนำมารวม"}
+        - {t: To take together, why: "ผิดรูป จึงใช้ไม่ได้"}
+        - {t: Took together, why: "บทไม่ได้พูดว่า Took together"}
+  status: draft
+# ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 2–11) ----------
+- id: cefr-c2-cpb-016
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 1
+  stem: The decision to move the factory abroad proved ____ in the history of the town.
+  choices:
+    - {t: pivotal, why: "เป็นจุดเปลี่ยนสำคัญ ++pivotal++ (สัปดาห์ 2)"}
+    - {t: salient, why: "salient ใช้กับประเด็นที่เด่น"}
+    - {t: emphatic, why: "emphatic ใช้กับท่าทีหนักแน่น"}
+    - {t: seminal, why: "seminal ใช้กับงานที่มีอิทธิพลต่อสาขาวิชา"}
+  explain: "pivotal = ==เป็นจุดหักเห สำคัญยิ่ง=="
+  status: draft
+- id: cefr-c2-cpb-017
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 1
+  stem: A single late payment does not ____ the cancellation of the whole contract.
+  choices:
+    - {t: warrant, why: "สมควรที่จะ ++warrant++ (สัปดาห์ 3)"}
+    - {t: preclude, why: "preclude คือขัดขวาง"}
+    - {t: abide, why: "abide ต้องใช้ abide by"}
+    - {t: remit, why: "remit คือส่งเงิน/ขอบเขตงาน"}
+  explain: "warrant = ==สมควร มีเหตุผลพอที่จะ=="
+  status: draft
+- id: cefr-c2-cpb-018
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: The rapid ____ of delivery apps has changed how many small restaurants operate.
+  choices:
+    - {t: proliferation, why: "การแพร่ขยายอย่างรวดเร็ว ++proliferation++ (สัปดาห์ 4)"}
+    - {t: cessation, why: "cessation คือการยุติ"}
+    - {t: attrition, why: "attrition คือการลดลงทีละน้อย"}
+    - {t: erosion, why: "erosion คือการกัดกร่อน"}
+  explain: "proliferation = ==เพิ่มจำนวนอย่างรวดเร็ว=="
+  status: draft
+- id: cefr-c2-cpb-019
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 1
+  stem: Please return the ____ forms to the office by Friday; late forms cannot be accepted.
+  choices:
+    - {t: aforementioned, why: "ที่กล่าวไว้ข้างต้น ++aforementioned++ (สัปดาห์ 5)"}
+    - {t: erstwhile, why: "erstwhile คือในอดีต เคยเป็น"}
+    - {t: ensuing, why: "ensuing คือที่ตามมา"}
+    - {t: respective, why: "respective คือของแต่ละคน"}
+  explain: "aforementioned = ==ที่กล่าวถึงแล้ว== (ภาษาทางการ)"
+  status: draft
+- id: cefr-c2-cpb-020
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 1
+  stem: The manager ____ that no one would lose their job as a result of the merger.
+  choices:
+    - {t: reiterated, why: "ย้ำอีกครั้ง ++reiterate++ (สัปดาห์ 6)"}
+    - {t: acquiesced, why: "acquiesce คือยอมตามโดยไม่เต็มใจ"}
+    - {t: demurred, why: "demur คือแย้งอย่างสุภาพ"}
+    - {t: downplayed, why: "downplay ต้องมีกรรม ไม่ตามด้วย that"}
+  explain: "reiterate = ==พูดย้ำ=="
+  status: draft
+- id: cefr-c2-cpb-021
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: The film ends with a ____ scene in which the old man reads his late wife's letters.
+  choices:
+    - {t: poignant, why: "สะเทือนใจ ++poignant++ (สัปดาห์ 7)"}
+    - {t: hackneyed, why: "hackneyed คือซ้ำซาก"}
+    - {t: proverbial, why: "proverbial คือที่พูดกันเป็นสุภาษิต"}
+    - {t: facetious, why: "facetious คือพูดเล่นไม่ถูกที่"}
+  explain: "poignant = ==ซึ้งจนเศร้า=="
+  status: draft
+- id: cefr-c2-cpb-022
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 1
+  stem: She has long ____ ambitions to open a small bookshop in her hometown.
+  choices:
+    - {t: harboured, why: "เก็บความหวังไว้ในใจ ++harbour ambitions++ (สัปดาห์ 8)"}
+    - {t: wielded, why: "wield ใช้กับอำนาจ"}
+    - {t: levied, why: "levy ใช้กับภาษี"}
+    - {t: conferred, why: "confer ใช้กับการมอบตำแหน่ง/ปริญญา"}
+  explain: "harbour = ==เก็บไว้ในใจ (ความหวัง ความสงสัย)=="
+  status: draft
+- id: cefr-c2-cpb-023
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 1
+  stem: The leaflet was full of medical ____ that most patients could not understand.
+  choices:
+    - {t: jargon, why: "ศัพท์เฉพาะวงการ ++jargon++ (สัปดาห์ 9)"}
+    - {t: vernacular, why: "vernacular คือภาษาถิ่น"}
+    - {t: prose, why: "prose คือร้อยแก้ว"}
+    - {t: treatise, why: "treatise คือตำราวิชาการ"}
+  explain: "jargon = ==ศัพท์เฉพาะที่คนนอกไม่เข้าใจ=="
+  status: draft
+- id: cefr-c2-cpb-024
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 1
+  stem: Local newspapers ____ the volunteers who cleaned the beach after the storm.
+  choices:
+    - {t: extolled, why: "ยกย่องอย่างสูง ++extol++ (สัปดาห์ 10)"}
+    - {t: derided, why: "deride คือเยาะเย้ย"}
+    - {t: begrudged, why: "begrudge คือไม่เต็มใจให้"}
+    - {t: disparaged, why: "disparage คือดูแคลน"}
+  explain: "extol = ==ยกย่องสรรเสริญ=="
+  status: draft
+- id: cefr-c2-cpb-025
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: The company has so far failed to ____ its claim that the product is completely safe.
+  choices:
+    - {t: substantiate, why: "ยืนยันด้วยหลักฐาน ++substantiate++ (สัปดาห์ 11)"}
+    - {t: extrapolate, why: "extrapolate คือคาดการณ์จากข้อมูลที่มี"}
+    - {t: conflate, why: "conflate คือนำสองอย่างมาปนกัน"}
+    - {t: surmise, why: "surmise คือเดาเอา"}
+  explain: "substantiate = ==พิสูจน์ด้วยหลักฐาน=="
+  status: draft
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-c2-cpb-026
+  kind: read
+  skill: rd
+  topic: editorial
+  level: 1
+  title: "Editorial · Let Our Libraries Stay Open Late (fictional)"
+  passage: |
+    The city council's decision to close all public libraries at five o'clock, rather than eight, has been presented as a modest saving. It is nothing of the sort. It is a decision that falls hardest on precisely those people libraries exist to serve.
+
+    Consider who uses a library after five. Not, for the most part, retired readers, who can visit during the day. Rather, it is students who need a quiet place to work, adults taking evening courses, and people whose homes are too crowded or too noisy for study. For many of them, the library is not a luxury but the only space available.
+
+    The council argues that evening visitor numbers are low. This is true, but it is also misleading. Visitors in the evening tend to stay far longer than those who drop in during the day, so the number of hours of actual use is considerably higher than the headline figures suggest.
+
+    Nor is the saving as large as claimed. The buildings will still need heating, lighting and security; only staff costs will fall, and even these by less than ten per cent.
+
+    We do not dispute that the council faces difficult choices. But a city that wants to encourage learning should be looking for ways to keep its libraries open longer, not finding reasons to close them early.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: the earlier closing time should be reversed, why: "should be looking for ways to keep its libraries open longer"}
+        - {t: the council should close more libraries, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: retired readers will suffer the most from the change, why: "ผู้เขียนบอกว่าผู้เกษียณมาได้ตอนกลางวัน"}
+        - {t: the council has no money problems, why: "We do not dispute that the council faces difficult choices"}
+    - stem: Why does the writer call the visitor figures "misleading"?
+      choices:
+        - {t: evening visitors use the library for longer periods, why: "stay far longer ... hours of actual use is considerably higher"}
+        - {t: the council invented the numbers, why: "ผู้เขียนยอมรับว่าเป็นความจริง"}
+        - {t: more people visit in the evening than by day, why: "จำนวนคนตอนเย็นน้อยจริง"}
+        - {t: the figures were collected years ago, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: According to the editorial, which costs will continue?
+      choices:
+        - {t: "heating, lighting and security", why: "will still need heating, lighting and security"}
+        - {t: all staff costs, why: "ค่าพนักงานจะลดลง"}
+        - {t: the cost of new books, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: evening course fees, why: "บทไม่ได้พูดว่า evening course fees"}
+    - stem: What is the tone of the final paragraph?
+      choices:
+        - {t: firm but fair-minded, why: "ยอมรับความยากของสภา แต่ยังยืนยันจุดยืน"}
+        - {t: angry and insulting, why: "ไม่ได้ใช้คำดูถูก"}
+        - {t: humorous and light-hearted, why: "ไม่ได้ใช้มุกตลก"}
+        - {t: uncertain and confused, why: "จุดยืนชัดเจน จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-cpb-027
+  kind: read
+  skill: rd
+  topic: ironic-argument
+  level: 3
+  title: "A Modest Plea for More Meetings (fictional column)"
+  passage: |
+    It has become fashionable to complain about meetings. Critics claim that they waste time, interrupt real work and rarely produce decisions. I wish to defend this noble institution.
+
+    Where else, after all, can ten highly paid professionals spend an hour discovering that none of them has read the document under discussion? Where else can a decision that could have been made by one person in five minutes be postponed, with great dignity, to a further meeting? A meeting, properly run, is not merely a waste of time; it is a factory for producing more meetings.
+
+    Meetings also serve an important social function. They allow colleagues who never speak to one another to sit in silence together. They give the most talkative member of every team a guaranteed audience. And they provide the rest of us with a valuable opportunity to answer our emails while appearing to listen.
+
+    Some reformers propose that every meeting should have a clear purpose, a written agenda and a fixed end time. Such ideas are dangerous. A meeting with a purpose might achieve it, and then where would we be? We might be forced to go back to our desks and do the work itself.
+
+    I therefore propose that, from next month, all decisions be taken only after three meetings, at least one of which shall be held to discuss the agenda for the others.
+  questions:
+    - stem: What is the writer's real view of meetings?
+      choices:
+        - {t: most meetings are badly run and wasteful, why: "ทั้งบทเป็นการประชด ++defend เพื่อวิจารณ์++"}
+        - {t: meetings are the best use of working time, why: "อ่านตามตัวอักษร พลาดการประชด"}
+        - {t: meetings should be banned completely, why: "ไม่ได้เสนอให้ห้าม"}
+        - {t: only managers should attend meetings, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: What does the writer mean by "a factory for producing more meetings"?
+      choices:
+        - {t: meetings often lead to further meetings instead of decisions, why: "postponed ... to a further meeting"}
+        - {t: meetings are most useful in factories, why: "อ่านตามตัวอักษร"}
+        - {t: meetings help companies produce more goods, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: meetings should be held in factory buildings, why: "ไม่เกี่ยวข้อง จึงใช้ไม่ได้"}
+    - stem: Why does the writer call the reformers' ideas "dangerous"?
+      choices:
+        - {t: to mock the view that meetings should achieve something, why: "A meeting with a purpose might achieve it = ประชด"}
+        - {t: because agendas are against company rules, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: because the reformers want to cut jobs, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: because fixed end times cause stress, why: "บทไม่ได้พูดว่า because fixed end times cause stress"}
+    - stem: Which technique does the writer mainly rely on?
+      choices:
+        - {t: "irony, saying the opposite of what is meant", why: "ทั้งบทชมสิ่งที่ต้องการวิจารณ์"}
+        - {t: detailed statistics from research, why: "ไม่มีตัวเลขงานวิจัย"}
+        - {t: interviews with office workers, why: "ไม่มีการสัมภาษณ์"}
+        - {t: a step-by-step technical guide, why: "ไม่ใช่คู่มือ จึงใช้ไม่ได้"}
+  status: draft
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-c2-cpb-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "How was the new restaurant?"}
+    - {who: Woman, en: "Let's just say I won't be rushing back. The service was friendly enough, I suppose."}
+  questions:
+    - stem: What does the woman think of the restaurant?
+      choices:
+        - {t: she was disappointed with it, why: "won't be rushing back + friendly enough, I suppose = ไม่ประทับใจ"}
+        - {t: she wants to go back very soon, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: the service was the worst part, why: "บริการคือส่วนเดียวที่พอใช้ได้"}
+        - {t: she has not been there yet, why: "เธอไปมาแล้ว จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-cpb-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Presenter, en: "The survey found that over half of the respondents read on their phones. That said, most still preferred paper for anything longer than a short article."}
+  questions:
+    - stem: What did the survey find?
+      choices:
+        - {t: "phones are popular, but paper is preferred for longer texts", why: "That said = แต่ ... preferred paper for anything longer"}
+        - {t: most people no longer read anything at all on paper, why: "ยังชอบกระดาษสำหรับงานยาว"}
+        - {t: fewer than half read on their phones, why: "over half จึงใช้ไม่ได้"}
+        - {t: short articles are read only on paper, why: "ไม่ได้พูดแบบนั้น"}
+  status: draft
+- id: cefr-c2-cpb-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "I'd hardly call it a promotion. Same desk, same work, just a longer job title."}
+  questions:
+    - stem: What does the woman mean?
+      choices:
+        - {t: her job has not really changed, why: "Same desk, same work = ไม่ได้เปลี่ยนจริง"}
+        - {t: she has been given a lot more work and responsibility, why: "same work จึงใช้ไม่ได้"}
+        - {t: she has moved to a new office, why: "same desk จึงใช้ไม่ได้"}
+        - {t: she is very excited about the change, why: "น้ำเสียงไม่ตื่นเต้น"}
+  status: draft
+- id: cefr-c2-cpb-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Were it not for the grant from the foundation, the clinic would have closed years ago. It still depends on that money every single year."}
+  questions:
+    - stem: What do we learn about the clinic?
+      choices:
+        - {t: it relies on money from the foundation, why: "Were it not for the grant ... still depends on that money"}
+        - {t: it closed several years ago, why: "would have closed = ยังไม่ปิด"}
+        - {t: it no longer needs any grants, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: it is run by the government, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+# ---------- เรียงประโยค ----------
+- id: cefr-c2-cpb-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What surprised us, was not the cost, but how quickly, the work was done]
+  sentence: What surprised us was not the cost but how quickly the work was done.
+  th: สิ่งที่ทำให้เราแปลกใจไม่ใช่ค่าใช้จ่าย แต่เป็นความเร็วที่งานเสร็จ
+  why: "What ... was not A but B (pseudo-cleft เน้นสิ่งที่แปลกใจ)"
+  status: draft

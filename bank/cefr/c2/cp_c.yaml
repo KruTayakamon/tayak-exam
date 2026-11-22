@@ -1,0 +1,498 @@
+# คอร์ส c2 · ชุดวัดผล ชุด c · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: สัปดาห์ 1–3 และ 8–11 (d1 + d3) · cloze: collocation-precision · ศัพท์: สัปดาห์ 1 3 4 5 6 7 8 9 11 12
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-c2-cpc-001
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 1
+  stem: You ____ bring anything to the dinner on Saturday; it's only a small family meal.
+  choices:
+    - {t: needn't, why: "ไม่จำเป็นต้อง ++needn't++"}
+    - {t: mustn't, why: "mustn't คือห้าม ความหมายแรงเกิน"}
+    - {t: can't, why: "can't คือทำไม่ได้"}
+    - {t: shouldn't have, why: "shouldn't have พูดถึงอดีต แต่มื้อนี้ยังไม่เกิด"}
+  explain: "ไม่จำเป็น ==needn't / don't have to== ต่างจากห้าม mustn't"
+  status: draft
+- id: cefr-c2-cpc-002
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  stem: I ____ you might be able to help me with a small problem, if you have a moment.
+  choices:
+    - {t: was hoping, why: "อดีตต่อเนื่อง ++ทำให้คำขอฟังนุ่มลง++ แม้หมายถึงตอนนี้"}
+    - {t: am hope, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: hoped being, why: "บทไม่ได้พูดว่า hoped being"}
+    - {t: will hope, why: "ไม่ใช้ will กับคำขอแบบนี้"}
+  explain: "ใช้อดีตเพื่อสุภาพ ==I was hoping / I was wondering=="
+  status: draft
+- id: cefr-c2-cpc-003
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 1
+  stem: Only after the third attempt ____ the correct password.
+  choices:
+    - {t: did she remember, why: "Only after ... ขึ้นต้น ++กลับลำดับ did + ประธาน++"}
+    - {t: she remembered, why: "ไม่ได้กลับลำดับหลัง Only after"}
+    - {t: remembered she, why: "กลับลำดับต้องใช้กริยาช่วย did"}
+    - {t: she did remember, why: "ไม่ได้กลับลำดับ"}
+  explain: "==Only after== / Only when + กริยาช่วย + ประธาน"
+  status: draft
+- id: cefr-c2-cpc-004
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 1
+  stem: What the team really needs at this stage ____ a clearer timetable.
+  choices:
+    - {t: is, why: "อนุประโยค What ... เป็นประธานเอกพจน์ ใช้ ++is++"}
+    - {t: are, why: "ประธาน What-clause ใช้กริยาเอกพจน์"}
+    - {t: be, why: "ต้องผันกริยา จึงใช้ไม่ได้"}
+    - {t: being, why: "ต้องเป็นกริยาแท้"}
+  explain: "pseudo-cleft ==What ... + is + สิ่งที่เน้น=="
+  status: draft
+- id: cefr-c2-cpc-005
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  stem: Come what ____, we are determined to open the shop before the new year.
+  choices:
+    - {t: may, why: "สำนวนตายตัว ++Come what may++ = ไม่ว่าอะไรจะเกิด"}
+    - {t: might, why: "สำนวนนี้ใช้ may"}
+    - {t: will, why: "ไม่ใช่สำนวนนี้ จึงใช้ไม่ได้"}
+    - {t: can, why: "บทไม่ได้พูดว่า can"}
+  explain: "Come what may = ==ไม่ว่าจะเกิดอะไรขึ้น=="
+  status: draft
+- id: cefr-c2-cpc-006
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 1
+  stem: ____ the parcel arrive damaged, please keep the box and contact us within seven days.
+  choices:
+    - {t: Should, why: "เงื่อนไขทางการ ++Should + ประธาน + กริยารูปเดิม++ = If"}
+    - {t: Would, why: "Would ไม่ใช้กลับลำดับแทน If"}
+    - {t: Had, why: "Had ใช้กับเงื่อนไขอดีต"}
+    - {t: Were, why: "Were the parcel arrive ผิดรูป"}
+  explain: "จดหมายทางการ ==Should + ประธาน + กริยารูปเดิม== = If"
+  status: draft
+- id: cefr-c2-cpc-007
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 1
+  stem: The proposal to close the night market ____ a fierce public debate.
+  choices:
+    - {t: sparked, why: "คู่คำ ++spark a debate++ = จุดชนวน"}
+    - {t: made, why: "make a debate ไม่ใช่คู่คำ"}
+    - {t: did, why: "do a debate ไม่ใช่คู่คำ"}
+    - {t: gave, why: "give a debate ไม่ใช่คู่คำ"}
+  explain: "==spark / trigger a debate=="
+  status: draft
+- id: cefr-c2-cpc-008
+  kind: mcq
+  skill: gm
+  topic: phrasal-prepositional-idioms
+  level: 2
+  stem: We need to ____ the hidden costs carefully before we sign the contract.
+  choices:
+    - {t: look into, why: "ตรวจสอบ ++look into++"}
+    - {t: look up to, why: "look up to คือนับถือ"}
+    - {t: look out, why: "look out คือระวัง ไม่มีกรรมตามแบบนี้"}
+    - {t: look after, why: "look after คือดูแล"}
+  explain: "look into = ==สืบดู ตรวจสอบ=="
+  status: draft
+- id: cefr-c2-cpc-009
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  stem: "In a formal report, which word best replaces \"find out\" in \"We need to find out the cause\"?"
+  choices:
+    - {t: determine, why: "คำทางการ ++determine the cause++"}
+    - {t: figure, why: "figure ต้องใช้ figure out และเป็นภาษาพูด"}
+    - {t: sort, why: "sort ไม่ได้แปลว่าหาสาเหตุ"}
+    - {t: dig up, why: "dig up เป็นภาษาพูด"}
+  explain: "phrasal verb → ==คำกริยาคำเดียวทางการ=="
+  status: draft
+- id: cefr-c2-cpc-010
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  stem: Which of these is written in the style of a newspaper headline?
+  choices:
+    - {t: Council Axes Night Bus Service, why: "พาดหัวข่าว ++ตัดคำ ใช้ปัจจุบัน คำสั้นแรง++"}
+    - {t: "The council has, sadly, decided that it will stop running the night buses.", why: "เป็นประโยคเต็มแบบเนื้อข่าว"}
+    - {t: "Dear residents, we regret to inform you of changes.", why: "เป็นจดหมาย จึงใช้ไม่ได้"}
+    - {t: "OMG no more night buses lol", why: "เป็นข้อความโซเชียล"}
+  explain: "พาดหัวข่าว ==ตัด a/the ใช้ปัจจุบัน คำกริยาสั้น=="
+  status: draft
+- id: cefr-c2-cpc-011
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  stem: "Talking about a colleague's failed plan, a manager says: \"I'm sure he meant well.\" What does this imply?"
+  choices:
+    - {t: the result was poor despite good intentions, why: "meant well ++ยอมรับเจตนาดีแต่ผลไม่ดี++"}
+    - {t: the plan was a complete success, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: the colleague acted out of bad intentions and wanted it to fail, why: "meant well = เจตนาดี"}
+    - {t: the manager has not heard about it, why: "เขารู้เรื่องแล้ว"}
+  explain: "meant well = ==ตั้งใจดี (แต่ไม่สำเร็จ)=="
+  status: draft
+- id: cefr-c2-cpc-012
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  stem: "\"Everyone I've talked to loves the new policy, so the public clearly supports it.\" What is the main weakness?"
+  choices:
+    - {t: the sample is small and probably not representative, why: "ถามแค่คนรอบตัว ++สรุปทั้งสังคมไม่ได้++"}
+    - {t: the speaker attacks people who disagree, why: "ไม่ได้โจมตีใคร จึงใช้ไม่ได้"}
+    - {t: the speaker relies on tradition, why: "ไม่ได้อ้างประเพณี"}
+    - {t: it confuses two different policies, why: "ไม่ได้พูดถึงสองนโยบาย"}
+  explain: "hasty generalisation ==กลุ่มตัวอย่างไม่เป็นตัวแทน=="
+  status: draft
+- id: cefr-c2-cpc-013
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 1
+  stem: "Which best paraphrases \"The proposal met with little enthusiasm\"?"
+  choices:
+    - {t: Few people were keen on the proposal., why: "little enthusiasm = ++คนสนใจน้อย++"}
+    - {t: The proposal was met at a small meeting., why: "อ่าน meet ตามตัวอักษร"}
+    - {t: Everyone was very excited by the proposal., why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: The proposal was a little too enthusiastic., why: "ผิดความหมาย จึงใช้ไม่ได้"}
+  explain: "meet with + คำนาม = ==ได้รับ (ปฏิกิริยา)=="
+  status: draft
+- id: cefr-c2-cpc-014
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  stem: "\"He didn't apologise until the very end of the meeting.\" = It was not until the very end of the meeting ____."
+  choices:
+    - {t: that he apologised, why: "It was not until ... ++that + ประโยคปกติ++"}
+    - {t: did he apologise, why: "กลับลำดับใช้กับ Not until ขึ้นต้น ไม่ใช่ใน It was ... that"}
+    - {t: when he apologised, why: "โครงสร้างนี้ใช้ that"}
+    - {t: he apologised, why: "ขาด that จึงใช้ไม่ได้"}
+  explain: "==It was not until X that + ประธาน + กริยา=="
+  status: draft
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-c2-cpc-015
+  kind: cloze
+  skill: gm
+  topic: collocation-precision
+  level: 2
+  text: |
+    The new director has (1) ____ a number of changes since her arrival. Some staff were reluctant at first, but most now (2) ____ that the changes were necessary. She has also (3) ____ a great deal of respect for her honesty about the difficulties ahead.
+  questions:
+    - choices:
+        - {t: implemented, why: "คู่คำ implement changes"}
+        - {t: executed, why: "execute ใช้กับแผนหรือคำสั่ง ไม่ใช่คู่คำกับ changes"}
+        - {t: performed, why: "perform changes ไม่ใช่คู่คำ"}
+        - {t: did, why: "do changes ไม่ใช่คู่คำ"}
+    - choices:
+        - {t: acknowledge, why: "ยอมรับว่า acknowledge that"}
+        - {t: confess, why: "confess ใช้กับการสารภาพความผิด"}
+        - {t: assent, why: "assent ต้องใช้ assent to ไม่ตามด้วย that"}
+        - {t: agree to, why: "agree to ไม่ตามด้วย that"}
+    - choices:
+        - {t: earned, why: "คู่คำ earn respect"}
+        - {t: won over, why: "win over ใช้กับคน ไม่ใช้กับ respect"}
+        - {t: made, why: "make respect ไม่ใช่คู่คำ"}
+        - {t: reaped, why: "reap ใช้กับผลประโยชน์ ไม่ใช่ respect"}
+  status: draft
+# ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 1 3 4 5 6 7 8 9 11 12) ----------
+- id: cefr-c2-cpc-016
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  stem: The minister's answer remained frustratingly ____; nobody knew what she would actually do.
+  choices:
+    - {t: nebulous, why: "คลุมเครือไม่ชัด ++nebulous++ (สัปดาห์ 1)"}
+    - {t: verbatim, why: "verbatim คือคำต่อคำ"}
+    - {t: pedantic, why: "pedantic คือจู้จี้เรื่องรายละเอียด"}
+    - {t: unequivocal, why: "unequivocal คือชัดเจน ตรงกันข้าม"}
+  explain: "nebulous = ==เลือนราง ไม่ชัด=="
+  status: draft
+- id: cefr-c2-cpc-017
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 1
+  stem: The job offer is ____ on your passing a medical examination.
+  choices:
+    - {t: contingent, why: "ขึ้นอยู่กับเงื่อนไข ++contingent on++ (สัปดาห์ 3)"}
+    - {t: statutory, why: "statutory คือตามกฎหมาย"}
+    - {t: hitherto, why: "hitherto คือจนบัดนี้ เป็นคำวิเศษณ์"}
+    - {t: forthwith, why: "forthwith คือทันที เป็นคำวิเศษณ์"}
+  explain: "contingent on = ==ขึ้นอยู่กับ=="
+  status: draft
+- id: cefr-c2-cpc-018
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  stem: Since its ____ in 2015, the charity has helped more than two thousand families.
+  choices:
+    - {t: inception, why: "การก่อตั้ง จุดเริ่มต้น ++inception++ (สัปดาห์ 4)"}
+    - {t: cessation, why: "cessation คือการยุติ"}
+    - {t: upheaval, why: "upheaval คือความวุ่นวายครั้งใหญ่"}
+    - {t: corollary, why: "corollary คือผลที่ตามมาโดยธรรมชาติ"}
+  explain: "inception = ==จุดเริ่มต้น=="
+  status: draft
+- id: cefr-c2-cpc-019
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 1
+  stem: Only one problem remains, ____ the lack of parking near the new hall.
+  choices:
+    - {t: namely, why: "ระบุให้ชัด ++namely++ = ได้แก่ คือ (สัปดาห์ 5)"}
+    - {t: conversely, why: "conversely คือในทางกลับกัน"}
+    - {t: thereafter, why: "thereafter คือหลังจากนั้น"}
+    - {t: chiefly, why: "chiefly คือส่วนใหญ่ ไม่ได้ใช้ระบุ"}
+  explain: "namely = ==ได้แก่ (ระบุสิ่งที่พูดถึง)=="
+  status: draft
+- id: cefr-c2-cpc-020
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  stem: Out of ____ to the older members, the meeting was held in Thai rather than English.
+  choices:
+    - {t: deference, why: "ความเคารพเกรงใจ ++out of deference to++ (สัปดาห์ 6)"}
+    - {t: euphemism, why: "euphemism คือคำสุภาพที่ใช้แทน"}
+    - {t: tact, why: "out of tact to ไม่ใช่สำนวน"}
+    - {t: dissent, why: "dissent คือความไม่เห็นด้วย"}
+  explain: "out of deference to = ==ด้วยความเคารพต่อ=="
+  status: draft
+- id: cefr-c2-cpc-021
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 1
+  stem: The teacher used the ____ of a busy kitchen to explain how the heart works.
+  choices:
+    - {t: analogy, why: "การเปรียบเทียบเพื่ออธิบาย ++analogy++ (สัปดาห์ 7)"}
+    - {t: irony, why: "irony คือการประชด"}
+    - {t: hyperbole, why: "hyperbole คือการพูดเกินจริง"}
+    - {t: cliche, why: "cliche คือสำนวนซ้ำซาก"}
+  explain: "analogy = ==การเปรียบเทียบเพื่อให้เข้าใจ=="
+  status: draft
+- id: cefr-c2-cpc-022
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 1
+  stem: Throughout her career, she has ____ the idea that education should be free for everyone.
+  choices:
+    - {t: espoused, why: "ยึดถือสนับสนุนแนวคิด ++espouse++ (สัปดาห์ 8)"}
+    - {t: incurred, why: "incur ใช้กับค่าใช้จ่าย"}
+    - {t: bestowed, why: "bestow คือมอบให้"}
+    - {t: redressed, why: "redress คือแก้ไขความไม่เป็นธรรม"}
+  explain: "espouse = ==ยึดถือและสนับสนุน (ความคิด ความเชื่อ)=="
+  status: draft
+- id: cefr-c2-cpc-023
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 1
+  stem: The report is far too ____; its forty pages could easily be cut to ten.
+  choices:
+    - {t: verbose, why: "ยืดยาวเกินจำเป็น ++verbose++ (สัปดาห์ 9)"}
+    - {t: pithy, why: "pithy คือกระชับคม ตรงกันข้าม"}
+    - {t: laconic, why: "laconic คือพูดน้อย ตรงกันข้าม"}
+    - {t: terse, why: "terse คือสั้นห้วน ตรงกันข้าม"}
+  explain: "verbose = ==เยิ่นเย้อ ใช้คำมากเกิน=="
+  status: draft
+- id: cefr-c2-cpc-024
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: The link between the two events turned out to be ____; they were simply unrelated.
+  choices:
+    - {t: spurious, why: "เทียม ไม่จริง ++spurious++ (สัปดาห์ 11)"}
+    - {t: substantiated, why: "substantiated คือมีหลักฐานยืนยัน ตรงกันข้าม"}
+    - {t: vindicated, why: "vindicated คือได้รับการพิสูจน์ว่าถูก"}
+    - {t: postulated, why: "ประโยคบอกว่าไม่เกี่ยวกันเลย ไม่ใช่แค่ถูกตั้งสมมติฐาน"}
+  explain: "spurious = ==ปลอม ดูเหมือนจริงแต่ไม่ใช่=="
+  status: draft
+- id: cefr-c2-cpc-025
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 1
+  stem: The test is designed to measure a candidate's ____ for learning foreign languages.
+  choices:
+    - {t: aptitude, why: "ความถนัด ++aptitude for++ (สัปดาห์ 12)"}
+    - {t: tenure, why: "tenure คือช่วงดำรงตำแหน่ง"}
+    - {t: remuneration, why: "remuneration คือค่าตอบแทน"}
+    - {t: stewardship, why: "stewardship คือการดูแลรับผิดชอบ"}
+  explain: "aptitude for = ==ความถนัดด้าน=="
+  status: draft
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-c2-cpc-026
+  kind: read
+  skill: rd
+  topic: research-abstract
+  level: 1
+  title: "Abstract · Short Breaks and Afternoon Concentration (fictional study)"
+  passage: |
+    This study investigated whether short breaks during the afternoon improve concentration among office workers. Previous research has focused largely on students, and relatively little is known about adults in full-time employment.
+
+    One hundred and twenty office workers in Bangkok took part over four weeks. Half were asked to take a five-minute break away from their screens every hour between one and five p.m.; the other half worked as usual. At the end of each day, all participants completed a short attention task and reported how tired they felt.
+
+    Participants who took regular breaks made, on average, 18 per cent fewer errors on the attention task and reported feeling noticeably less tired. Interestingly, their total amount of completed work did not fall, despite the time spent on breaks.
+
+    These findings suggest that short, regular breaks may help adults maintain concentration in the afternoon without reducing output. However, as all participants worked for the same two companies, further research is needed before the results can be generalised to other workplaces.
+  questions:
+    - stem: What was the aim of the study?
+      choices:
+        - {t: to test whether short breaks help afternoon concentration, why: "investigated whether short breaks ... improve concentration"}
+        - {t: to compare how students and office workers concentrate, why: "ไม่ได้ศึกษานักเรียน"}
+        - {t: to measure how much work companies lose, why: "ไม่ใช่จุดประสงค์"}
+        - {t: to find the best time to start work, why: "บทไม่ได้พูดว่า to find the best time to start work"}
+    - stem: What did the researchers find about the amount of work done?
+      choices:
+        - {t: it stayed about the same, why: "total amount of completed work did not fall"}
+        - {t: it fell by 18 per cent, why: "18% คือความผิดพลาดที่ลดลง"}
+        - {t: it doubled for the break group, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: it was not measured, why: "มีการวัด จึงใช้ไม่ได้"}
+    - stem: Why is the word "Interestingly" used in the third paragraph?
+      choices:
+        - {t: the result about output was unexpected, why: "พักแต่ผลงานไม่ลด เป็นผลที่ไม่คาดคิด"}
+        - {t: the writer found the study boring, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: the result proves the study was wrong, why: "ไม่ได้บอกว่าผิด"}
+        - {t: it introduces a new research question, why: "ไม่ได้ตั้งคำถามใหม่"}
+    - stem: What limitation do the authors mention?
+      choices:
+        - {t: everyone came from only two companies, why: "all participants worked for the same two companies"}
+        - {t: the study lasted for only a single working day, why: "ศึกษา 4 สัปดาห์"}
+        - {t: too few people took breaks, why: "ครึ่งหนึ่งพัก จึงใช้ไม่ได้"}
+        - {t: the attention task was far too difficult for most participants, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-cpc-027
+  kind: read
+  skill: rd
+  topic: annual-report
+  level: 3
+  title: "From the Chair · Green Valley Cooperative Annual Report (fictional)"
+  passage: |
+    It would be disingenuous to describe the past year as anything other than challenging. Unusually heavy rain in the second quarter damaged a significant proportion of our members' crops, and the resulting fall in supply inevitably affected sales.
+
+    Even so, there is cause for cautious optimism. Revenue, while lower than last year, fell by considerably less than we had feared, largely thanks to the new online shop, which now accounts for almost a quarter of all sales. Membership also grew modestly, suggesting that the cooperative remains attractive to local farmers despite a difficult season.
+
+    Not everything went to plan. The packaging centre, which was due to open in March, is still not operational, owing to delays in obtaining the necessary permits. The board accepts that it was overly optimistic in its original timetable and has since put in place more realistic planning procedures.
+
+    Looking ahead, our priority must be resilience. A cooperative that depends heavily on a single season's weather is, by definition, vulnerable. We will therefore be exploring crop insurance for members and investing in covered growing areas. These measures will not eliminate risk, but they should go some way towards reducing it.
+
+    I should like to thank all members and staff for their patience and commitment in what has been, by any measure, a demanding year.
+  questions:
+    - stem: How does the chair describe the year overall?
+      choices:
+        - {t: difficult but not without positive signs, why: "challenging ... Even so, there is cause for cautious optimism"}
+        - {t: the most successful year in its history, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: a complete disaster with no hope of recovery, why: "มีความหวังอย่างระมัดระวัง"}
+        - {t: very similar to the year before, why: "รายได้ลดลง จึงใช้ไม่ได้"}
+    - stem: Why did revenue fall less than expected?
+      choices:
+        - {t: online sales helped to make up the gap, why: "largely thanks to the new online shop"}
+        - {t: the heavy rain actually improved the quality of the crops, why: "ฝนทำให้พืชเสียหาย"}
+        - {t: the packaging centre opened early, why: "ศูนย์บรรจุยังไม่เปิด"}
+        - {t: many members left the cooperative, why: "สมาชิกเพิ่มขึ้น"}
+    - stem: What does the chair admit about the packaging centre?
+      choices:
+        - {t: the board's original timetable was unrealistic, why: "it was overly optimistic in its original timetable"}
+        - {t: it was cancelled because of poor sales, why: "ยังไม่ได้ยกเลิก"}
+        - {t: the permits were never applied for, why: "ล่าช้าในการได้ใบอนุญาต ไม่ใช่ไม่ได้ยื่น"}
+        - {t: it is now fully open and working well, why: "is still not operational"}
+    - stem: What does the chair suggest by "These measures will not eliminate risk"?
+      choices:
+        - {t: the plans are realistic about what they can achieve, why: "hedging ++ยอมรับข้อจำกัดของแผน++"}
+        - {t: the measures are not worth trying at all, why: "ยังจะทำ จึงใช้ไม่ได้"}
+        - {t: the risks will disappear completely, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: members must pay for all the changes, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-c2-cpc-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Are you coming to Somchai's leaving party?"}
+    - {who: Man, en: "I'd love to, but I've got a deadline the next morning. I'll try to drop in for half an hour."}
+  questions:
+    - stem: What will the man probably do?
+      choices:
+        - {t: go to the party for a short time, why: "drop in for half an hour"}
+        - {t: stay at the party all evening, why: "จะอยู่แค่ครึ่งชั่วโมง"}
+        - {t: miss the party completely, why: "จะพยายามแวะไป จึงใช้ไม่ได้"}
+        - {t: ask for his deadline to be moved, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-cpc-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Lecturer, en: "It's tempting to blame social media for falling attention spans. But the evidence is far less clear-cut than the headlines would have us believe."}
+  questions:
+    - stem: What is the lecturer's position?
+      choices:
+        - {t: the link is not as certain as people think, why: "evidence is far less clear-cut"}
+        - {t: social media is clearly the main cause of the problem, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: attention spans have actually increased, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: headlines are always completely accurate, why: "บทไม่ได้พูดว่า headlines are always completely accurate"}
+  status: draft
+- id: cefr-c2-cpc-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "No sooner had we sat down to eat than the fire alarm went off."}
+  questions:
+    - stem: What happened?
+      choices:
+        - {t: the alarm rang just after they sat down, why: "No sooner ... than = ทันทีที่"}
+        - {t: they had already finished their whole meal first, why: "เพิ่งนั่งลง จึงใช้ไม่ได้"}
+        - {t: the alarm rang before they arrived, why: "ลำดับผิด จึงใช้ไม่ได้"}
+        - {t: they started a fire while cooking, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-cpc-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Your essay is well researched. I just wonder whether the conclusion goes slightly further than the evidence allows."}
+  questions:
+    - stem: What is the woman's criticism?
+      choices:
+        - {t: the conclusion is too strong for the evidence, why: "goes slightly further than the evidence allows"}
+        - {t: the essay contains no research at all, why: "well researched"}
+        - {t: the essay is much too short, why: "ไม่ได้พูดถึงความยาว"}
+        - {t: the conclusion is missing completely, why: "มีข้อสรุปแต่แรงเกิน"}
+  status: draft
+# ---------- เรียงประโยค ----------
+- id: cefr-c2-cpc-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Were the council, to approve the plan, work could begin, as early as May]
+  sentence: Were the council to approve the plan, work could begin as early as May.
+  th: หากสภาอนุมัติแผน งานอาจเริ่มได้เร็วสุดในเดือนพฤษภาคม
+  why: "Were + ประธาน + to ขึ้นต้น = เงื่อนไขทางการ (If the council were to)"
+  status: draft
