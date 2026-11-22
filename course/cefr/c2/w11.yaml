@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 11 · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 11
+phase: 3
+theme_th: สังเคราะห์และสรุป
+focus_th: ถอดความโดยคงความหมายและระดับความมั่นใจ · สรุปกับถอดความต่างกัน · สังเคราะห์สองแหล่ง · เรียบเรียงใหม่ด้วยคำที่กำหนด · การสร้างคำที่พบน้อย
+can_do_th:
+  - สรุปและสังเคราะห์ข้อมูลจากสองแหล่งที่เห็นต่างได้
+  - เรียบเรียงประโยคใหม่โดยความหมายไม่เปลี่ยนได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ถอดความและสังเคราะห์
+    lesson:
+      rule_th: "ถอดความ เปลี่ยนคำและโครงสร้าง ==แต่ความหมายครบเท่าเดิม== (รวมถึงระดับความมั่นใจ) · ++สังเคราะห์ = บอกความสัมพันธ์ระหว่างแหล่ง++ (เห็นตรงกัน ต่าง เสริม) ไม่ใช่สรุปทีละแหล่ง"
+      examples:
+        - {en: "Few attended. → <k>Attendance was low.</k>", th: "ถอดความ"}
+        - {en: "<k>Whereas</k> A highlights flexibility, B focuses on completion.", th: "==สังเคราะห์=="}
+        - {en: "The report <k>does not entirely rule out</k> a link.", th: "คงความระวัง"}
+        - {en: "B <k>challenges</k> A's claim.", th: "กริยาบอกทิศทาง"}
+      signals:
+        - {label_th: "เครื่องมือถอดความ", words: ["เปลี่ยนคำพ้อง", "กริยา ↔ คำนาม", "active ↔ passive", "วลี ↔ ประโยค (despite ↔ although)"]}
+      thai_trap:
+        intro_th: "คนไทยถอดความโดย ~~เปลี่ยนแค่บางคำ~~ หรือทำให้ข้ออ้างแรงขึ้นโดยไม่รู้ตัว (may → is)"
+        wrong: ["Original: The drug may reduce pain. → Paraphrase: The drug reduces pain."]
+        right: ["Original: The drug may reduce pain. → Paraphrase: The drug appears to have some pain-relieving effect."]
+      notes:
+        - {kind: tip, th: "ถอดความเสร็จ ==เทียบกลับทีละส่วน== ว่าไม่มีอะไรหายหรือเกิน"}
+        - {kind: use, th: "เริ่มสังเคราะห์ด้วย Taken together, ..."}
+    check: [cefr-c2-w11-001, cefr-c2-w11-002]
+    practice: [cefr-c2-w11-003, cefr-c2-w11-004, cefr-c2-w11-005, cefr-c2-w11-006, cefr-c2-w11-007, cefr-c2-w11-008, cefr-c2-w11-009, cefr-c2-w11-010, cefr-c2-w11-011, cefr-c2-w11-012]
+    use:
+      prompt_th: เขียน 2 ประโยคสังเคราะห์ความเห็นสองแบบเรื่องการทำงานจากบ้าน (A ว่าทำงานได้มากขึ้น · B ว่าเหงาและทำงานเป็นทีมยาก)
+      frame: "Both views agree that ____. Whereas A ____, B ____."
+      model: "Both views agree that working from home has changed how people work. Whereas A emphasises higher productivity, B points out the cost to teamwork and well-being."
+    classroom: {en: "Taken together, these suggest ...", th: "เมื่อดูรวมกัน สิ่งเหล่านี้บ่งชี้ว่า..."}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การให้เหตุผลและการโต้แย้ง 12 คำ
+    lesson:
+      rule_th: "แยกคู่ที่สับสน ==refute== (พิสูจน์ว่าผิด) กับ rebut (โต้กลับ) ++substantiate++ (ยืนยันด้วยหลักฐาน) กับ vindicate (พิสูจน์ว่าถูกหลังถูกสงสัย) และ spurious (เทียม) กับ specious (ดูดีแต่ผิด)"
+      examples:
+        - {en: "The data <k>refuted</k> the claim.", th: "พิสูจน์ว่าผิด"}
+        - {en: "She had ten minutes to <k>rebut</k> them.", th: "==โต้กลับ=="}
+        - {en: "a <k>spurious</k> correlation", th: "ความสัมพันธ์เทียม"}
+        - {en: "Don't <k>conflate</k> A with B.", th: "อย่าเอามาปนกัน"}
+      words:
+        - {w: extrapolate, pos: v., th: ขยายผลจากข้อมูลที่มี, ex: "Don't extrapolate from one case."}
+        - {w: postulate, pos: v., th: ตั้งสมมติฐาน, ex: "Researchers postulate a link."}
+        - {w: surmise, pos: v., th: คาดเดาจากหลักฐานน้อย, ex: "I surmised that she was upset."}
+        - {w: refute, pos: v., th: พิสูจน์ว่าผิด, ex: "The theory has been refuted."}
+        - {w: rebut, pos: v., th: โต้แย้งกลับ, ex: "He rebutted every criticism."}
+        - {w: substantiate, pos: v., th: ยืนยันด้วยหลักฐาน, ex: "Can you substantiate that claim?"}
+        - {w: vindicate, pos: v., th: พิสูจน์ว่าถูก, ex: "The results vindicated her decision."}
+        - {w: conflate, pos: v., th: รวมสองเรื่องเป็นเรื่องเดียวผิด ๆ, ex: "He conflates price with quality."}
+        - {w: posit, pos: v., th: เสนอเป็นข้อตั้ง, ex: "The book posits a new theory."}
+        - {w: fallacy, pos: n., th: ความเชื่อผิด เหตุผลวิบัติ, ex: "That's a common fallacy."}
+        - {w: spurious, pos: adj., th: เทียม ไม่จริง, ex: "a spurious connection"}
+        - {w: specious, pos: adj., th: ดูดีแต่ผิด, ex: "a specious argument"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~refute ในความหมายปฏิเสธเฉย ๆ~~ ทั้งที่ refute แปลว่าพิสูจน์ได้ว่าผิด"
+        wrong: ["He refuted the accusation but had no evidence."]
+        right: ["He denied the accusation but had no evidence. / He rebutted the accusation."]
+      notes:
+        - {kind: pin, th: "==refute ต้องมีหลักฐาน== · deny / rebut แค่ปฏิเสธหรือโต้กลับ"}
+        - {kind: use, th: "ถามหาหลักฐานอย่างสุภาพ Could you substantiate that?"}
+    check: [cefr-c2-w11-013, cefr-c2-w11-014]
+    practice: [cefr-c2-w11-015, cefr-c2-w11-016, cefr-c2-w11-017, cefr-c2-w11-018, cefr-c2-w11-019, cefr-c2-w11-020, cefr-c2-w11-021, cefr-c2-w11-022, cefr-c2-w11-023, cefr-c2-w11-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับความเชื่อผิดที่แพร่หลายในสังคมไทย และหลักฐานที่หักล้าง
+      frame: "It is a common fallacy that ____. However, ____ has largely refuted this."
+      model: "It is a common fallacy that adults cannot learn a new language well. However, research on adult learners has largely refuted this, showing that motivation matters more than age."
+    classroom: {en: "Can you substantiate that?", th: "มีหลักฐานยืนยันไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เรียบเรียงใหม่และการสร้างคำ
+    lesson:
+      rule_th: "เรียบเรียงใหม่ด้วยคำที่กำหนด ==หาโครงสร้างที่คำนั้นบังคับ (wish== · no sooner · said · needn't) แล้วตรวจว่าความหมายและเวลาไม่เปลี่ยน · ++การสร้างคำที่พบน้อย++ ต้องเลือก prefix ให้ถูก (impracticable · indecision)"
+      examples:
+        - {en: "I regret not studying. → I <k>wish I had</k> studied.", th: "wish ย้อนอดีต"}
+        - {en: "<k>No sooner had</k> she arrived <k>than</k> it started.", th: "==คู่ no sooner ... than=="}
+        - {en: "People say ... → It <k>is said to</k> be ...", th: "passive รายงาน"}
+        - {en: "It wasn't necessary. → You <k>needn't have</k> ...", th: "ไม่จำเป็นแต่ทำแล้ว"}
+      signals:
+        - {label_th: "คำบังคับโครงสร้าง", words: ["wish → had + ช่อง 3", "no sooner → had ... than", "only when → กลับลำดับ", "said / thought → to + กริยา"]}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~no sooner ... when~~ เพราะจำปนกับ hardly ... when"
+        wrong: ["No sooner had I sat down when the phone rang."]
+        right: ["No sooner had I sat down than the phone rang. / Hardly had I sat down when the phone rang."]
+      notes:
+        - {kind: tip, th: "==no sooner ... than== · hardly / scarcely ... when จำเป็นคู่"}
+        - {kind: warn, th: "ตรวจเวลาเสมอ อดีตต้องเป็นอดีต (may have · needn't have)"}
+    check: [cefr-c2-w11-025, cefr-c2-w11-026]
+    practice: [cefr-c2-w11-027, cefr-c2-w11-028, cefr-c2-w11-029, cefr-c2-w11-030, cefr-c2-w11-031, cefr-c2-w11-032, cefr-c2-w11-033, cefr-c2-w11-034]
+    use:
+      prompt_th: เรียบเรียง 2 ประโยคนี้ใหม่ด้วยคำที่กำหนด "As soon as the shop opened, it was full. (NO SOONER)" และ "People believe the temple is 800 years old. (BELIEVED)"
+      frame: "No sooner ____ than ____. The temple ____."
+      model: "No sooner had the shop opened than it was full. The temple is believed to be 800 years old."
+    classroom: {en: "Let me put that another way.", th: "ขอพูดอีกแบบหนึ่ง"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านสองบทที่เห็นต่างและฟังบรรยายสองช่วง
+    lesson:
+      rule_th: "อ่านสองบท ==หาจุดที่ทั้งสองยอมรับร่วมกันก่อน== แล้วดูว่าตีความต่างกันอย่างไร ++คำถามมักถามจุดที่เห็นตรงกัน++ ซึ่งซ่อนอยู่ใต้ความเห็นต่าง"
+      examples:
+        - {en: "A: test scores <k>remained stable</k>.", th: "ข้อเท็จจริง"}
+        - {en: "B: <k>Stable test scores are not the same as stable learning.</k>", th: "==ยอมรับข้อเท็จจริง แต่ตีความต่าง=="}
+        - {en: "<k>it would be premature to extrapolate</k>", th: "ผู้เขียนระวังข้อสรุป"}
+      thai_trap:
+        intro_th: "ผู้อ่านคิดว่าสองบทที่เห็นต่าง ~~ไม่มีจุดร่วมเลย~~ จึงตอบผิดในคำถามจุดที่เห็นตรงกัน"
+        wrong: ["ตอบว่าบท B ปฏิเสธว่าคะแนนคงที่"]
+        right: ["บท B ยอมรับว่าคะแนนคงที่ แต่ชี้ว่าคะแนนต่ำอยู่แล้วจึงตกได้ไม่มาก"]
+      notes:
+        - {kind: tip, th: "ทำตารางสามช่อง ==A คิด / B คิด / ตรงกัน=="}
+        - {kind: use, th: "ฟังบรรยายสองช่วง จดว่าช่วงที่สองแก้หรือเสริมช่วงแรก"}
+    check: [cefr-c2-w11-036, cefr-c2-w11-037]
+    practice: [cefr-c2-w11-035, cefr-c2-w11-038, cefr-c2-w11-039, cefr-c2-w11-040, cefr-c2-w11-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสังเคราะห์สองบทเรื่องโรงเรียนสี่วัน
+      frame: "Both texts accept that ____. However, whereas A ____, B ____."
+      model: "Both texts accept that test scores stayed stable during the trial. However, whereas A sees this as evidence of success, B argues that it hides real costs for poorer families."
+    classroom: {en: "Where do the two views overlap?", th: "สองความเห็นนี้ทับซ้อนกันตรงไหน"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด สรุปและประเมินบทอ่านสองชิ้น 3 นาที
+    lab:
+      mode: speak
+      prompt_th: "พูด 3 นาทีสรุปและประเมินบทอ่านสองชิ้นเรื่องโรงเรียนสี่วัน (หรือสองบทความที่คุณอ่านในเรื่องเดียวกัน) บอกใจความของแต่ละบท จุดที่ตรงกัน จุดที่ต่าง บทไหนมีหลักฐานหนักแน่นกว่า และข้อสรุปของคุณ"
+      frame:
+        - "The two texts both deal with ____."
+        - "Text A argues that ____, pointing to ____."
+        - "Text B, by contrast, ____, and suggests that ____."
+        - "Where they agree is ____; where they differ is ____."
+        - "Taken together, I'd conclude that ____, although ____."
+      model_pass: "The two texts both deal with the four-day school week trialled in northern Thailand. Text A argues that the scheme has been a success, pointing to lower teacher absence, savings on transport and stable test scores. Text B, by contrast, says the praise is based on weak reasoning. It argues that scores were already low, and that the extra day creates childcare problems for poor families. Where they agree is that test scores did not fall; where they differ is in what that means. In my view, Text B makes a stronger point, because it considers children and parents, not just teachers. Taken together, I'd conclude that the scheme has some benefits, although more research is needed before it is expanded."
+      model_good: "Both texts address the four-day school week recently trialled in three northern districts, yet they reach strikingly different conclusions from much the same evidence. Text A presents the trial as a clear success, pointing to a one-third fall in teacher absence, transport savings and stable test scores, while carefully cautioning against extrapolating too far. Text B accepts that scores remained stable but argues that this tells us little, since results were already low and had little room to fall. Its more serious charge is that supporters conflate what benefits teachers with what benefits children, overlooking the childcare burden on poorer families. Where the texts agree, then, is on the basic facts; where they diverge is on whose interests count. Of the two, Text B strikes me as the more rigorous, not because its conclusion is necessarily right, but because it asks the harder question. Taken together, I'd conclude that the scheme deserves further study, although neither text has yet substantiated its central claim with long-term data."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - ทำตารางสามช่อง A คิด / B คิด / ตรงกัน แล้วจดคำสำคัญ
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - สรุปทั้งสองบทอย่างเที่ยงตรง ไม่ทำให้ข้ออ้างแรงหรืออ่อนกว่าต้นฉบับ
+        - ระบุจุดที่ตรงกันและต่างกันอย่างน้อยอย่างละ 1 จุด
+        - ใช้คำศัพท์ของสัปดาห์อย่างน้อย 3 คำ (conflate · substantiate · extrapolate · refute)
+        - มีข้อสรุปของตัวเองพร้อมเหตุผล และพูดได้ประมาณ 3 นาที
+    practice: [cefr-c2-w11-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 11
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [9, 10, 11], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

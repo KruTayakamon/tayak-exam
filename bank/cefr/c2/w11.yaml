@@ -1,0 +1,577 @@
+# คอร์ส c2 · สัปดาห์ 11 · สังเคราะห์และสรุป · สรุปและสังเคราะห์จากสองบทอ่าน · เครื่องมือถอดความ · เรียบเรียงใหม่ด้วยคำที่กำหนด · การสร้างคำที่พบน้อย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · ถอดความและสังเคราะห์ ----------
+- id: cefr-c2-w11-001
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 1
+  stem: "Original: \"Few people attended the meeting.\" Which paraphrase keeps the meaning?"
+  choices:
+    - {t: Attendance at the meeting was low., why: "เปลี่ยนเป็นคำนาม ++ความหมายเท่าเดิม++"}
+    - {t: A few people attended the meeting., why: "a few ฟังเป็นบวก ความหมายเปลี่ยน"}
+    - {t: Nobody attended the meeting at all., why: "เกินจากต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: Many people missed the long meeting., why: "เพิ่มข้อมูลว่าประชุมยาว"}
+  explain: "ถอดความ เปลี่ยนคำและโครงสร้าง ==แต่ความหมายเท่าเดิม=="
+  status: draft
+- id: cefr-c2-w11-002
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 1
+  stem: "Text A: \"Homework improves results.\" Text B: \"Homework has little effect.\" Which sentence synthesises both?"
+  choices:
+    - {t: The two writers disagree about the value of homework., why: "สังเคราะห์ ++ระบุว่าทั้งสองเห็นต่างในเรื่องเดียวกัน++"}
+    - {t: Both writers believe homework improves results., why: "ไม่ตรงกับ B จึงใช้ไม่ได้"}
+    - {t: "Neither writer mentions homework, results or any related research.", why: "ขัดกับต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: Writer B believes homework always ruins results., why: "เกินจากต้นฉบับ little effect"}
+  explain: "สังเคราะห์ ==บอกความสัมพันธ์ระหว่างสองแหล่ง== (เห็นด้วย ต่าง เสริม)"
+  status: draft
+- id: cefr-c2-w11-003
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Original: \"The plan was abandoned because it cost too much.\" Best paraphrase?"
+  choices:
+    - {t: The plan was dropped on account of its cost., why: "drop = abandon · on account of = because of ++ความหมายครบ++"}
+    - {t: "The plan was cheap, but nobody at the meeting liked it.", why: "ขัดกับต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: The plan was delayed until costs fall., why: "เปลี่ยนจากยกเลิกเป็นเลื่อน"}
+    - {t: The plan cost too much but it went ahead., why: "ขัดกับ abandoned"}
+  explain: "ถอดความ ==ตรวจว่าทุกส่วนของความหมายยังอยู่ครบ=="
+  status: draft
+- id: cefr-c2-w11-004
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Which reporting verb shows that Writer B DISAGREES with Writer A?"
+  choices:
+    - {t: B challenges A's claim, why: "challenge ++แสดงการคัดค้าน++"}
+    - {t: B echoes A's claim, why: "echo แปลว่าพูดซ้ำเห็นด้วย"}
+    - {t: B supports A's claim, why: "support แปลว่าสนับสนุน"}
+    - {t: B builds on A's claim, why: "build on แปลว่าต่อยอด"}
+  explain: "กริยารายงาน ==บอกทิศทางของความสัมพันธ์== (echo · build on · challenge · refute)"
+  status: draft
+- id: cefr-c2-w11-005
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Original: \"It is widely believed that exercise reduces stress.\" Which paraphrase is closest?"
+  choices:
+    - {t: Exercise is widely thought to reduce stress., why: "is thought to ++โครงสร้างต่างแต่ความหมายเท่ากัน++"}
+    - {t: Exercise always removes all stress., why: "เกินจากต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: "Few people think exercise helps with stress or anything else.", why: "ขัดกับต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: Stress makes people exercise more., why: "กลับเหตุผล จึงใช้ไม่ได้"}
+  explain: "It is believed that ... = ==X is believed / thought to ...=="
+  status: draft
+- id: cefr-c2-w11-006
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Which sentence is a good SUMMARY rather than a paraphrase of a long article on urban trees?"
+  choices:
+    - {t: The article argues that city trees save money and lives., why: "summary ++ย่อใจความหลักทั้งบท++"}
+    - {t: In paragraph 3 the writer says trees are green., why: "ข้อมูลย่อยไม่ใช่ใจความหลัก"}
+    - {t: The article contains exactly 642 words in total., why: "ไม่ใช่การสรุปเนื้อหา"}
+    - {t: "The writer was born in a small city near Hue and moved to Bangkok.", why: "ไม่ใช่ใจความของบทความ"}
+  explain: "summary = ==ย่อใจความหลักทั้งบท== · paraphrase = เขียนใหม่ทีละส่วน"
+  status: draft
+- id: cefr-c2-w11-007
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Text A praises online courses for flexibility; Text B warns of high drop-out rates. Which linking phrase fits a synthesis?"
+  choices:
+    - {t: "Whereas A highlights flexibility, B focuses on completion.", why: "whereas ++เทียบสองแหล่งในประโยคเดียว++"}
+    - {t: "A and B say the same thing in different ways.", why: "ไม่ตรงกับเนื้อหา"}
+    - {t: "B was written before A, so it is less important.", why: "ไม่ใช่การสังเคราะห์และไม่มีข้อมูล"}
+    - {t: "A is correct and B is clearly mistaken.", why: "ตัดสินโดยไม่สังเคราะห์"}
+  explain: "สังเคราะห์ ==ใช้ whereas / while / both ... yet== เชื่อมสองแหล่ง"
+  status: draft
+- id: cefr-c2-w11-008
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 3
+  stem: "Original: \"The report does not entirely rule out a link.\" Which paraphrase is most accurate?"
+  choices:
+    - {t: The report leaves open the possibility of a link., why: "ไม่ตัดออกทั้งหมด = ++ยังเปิดความเป็นไปได้++"}
+    - {t: The report proves there is a clear link., why: "เกินจากต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: The report shows there is no link at all., why: "ขัดกับต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: "The report ignores the question of a link and discusses other topics.", why: "ไม่ได้เพิกเฉย จึงใช้ไม่ได้"}
+  explain: "ถอดความคำปฏิเสธซ้อน ==not entirely rule out = ยังเป็นไปได้=="
+  status: draft
+- id: cefr-c2-w11-009
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 3
+  stem: "What is the main danger when paraphrasing a cautious academic claim?"
+  choices:
+    - {t: making the claim sound more certain than it was, why: "ตัดคำระวัง ++ทำให้ข้ออ้างแรงเกินต้นฉบับ++"}
+    - {t: "using too many unusual words taken from a large dictionary", why: "ไม่ใช่อันตรายหลัก"}
+    - {t: writing the paraphrase in the past tense, why: "บทไม่ได้พูดว่า writing the paraphrase in the past tense"}
+    - {t: forgetting to mention the paper's title, why: "เป็นเรื่องการอ้างอิง ไม่ใช่ความหมาย"}
+  explain: "ถอดความ ==ต้องคงระดับความมั่นใจของต้นฉบับ== (may · suggests)"
+  status: draft
+- id: cefr-c2-w11-010
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Original: \"Despite heavy rain, the festival went ahead.\" Which paraphrase uses a clause instead?"
+  choices:
+    - {t: "Although it rained heavily, the festival went ahead.", why: "despite + นาม → ++although + ประโยค++"}
+    - {t: "Because it rained heavily, the festival went ahead.", why: "เปลี่ยนเป็นเหตุผล"}
+    - {t: The festival was cancelled because of rain., why: "ขัดกับต้นฉบับ จึงใช้ไม่ได้"}
+    - {t: "Despite the festival, it rained heavily.", why: "สลับความหมาย จึงใช้ไม่ได้"}
+  explain: "เครื่องมือถอดความ ==สลับวลีเป็นประโยค== (despite → although)"
+  status: draft
+- id: cefr-c2-w11-011
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "Which phrase signals that both sources AGREE?"
+  choices:
+    - {t: Both writers concur that, why: "concur ++แสดงความเห็นตรงกัน++"}
+    - {t: Writer A disputes that, why: "dispute แปลว่าโต้แย้ง"}
+    - {t: "In contrast to A, B", why: "แสดงความต่าง จึงใช้ไม่ได้"}
+    - {t: B takes issue with A, why: "take issue แปลว่าไม่เห็นด้วย"}
+  explain: "เห็นตรงกัน ==both concur · echo · reinforce=="
+  status: draft
+- id: cefr-c2-w11-012
+  kind: type
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  stem: "To p_________ is to express the same meaning in different words. (ถอดความ)"
+  answer: paraphrase
+  accept: [paraphrase]
+  why: "paraphrase = เขียนความหมายเดิมด้วยคำใหม่"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์การให้เหตุผลและการโต้แย้ง ----------
+- id: cefr-c2-w11-013
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 1
+  stem: "It is risky to ____ from such a small sample to the whole population."
+  choices:
+    - {t: extrapolate, why: "อนุมานจากข้อมูลที่มีไปสู่ส่วนที่ไม่มีข้อมูล ++extrapolate++"}
+    - {t: refute, why: "refute แปลว่าพิสูจน์ว่าผิด"}
+    - {t: vindicate, why: "vindicate แปลว่าพิสูจน์ว่าถูก"}
+    - {t: conflate, why: "conflate แปลว่ารวมสองสิ่งเข้าด้วยกันผิด ๆ"}
+  explain: "extrapolate = ==ขยายผลจากข้อมูลที่มีไปกว้างกว่า=="
+  status: draft
+- id: cefr-c2-w11-014
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 1
+  stem: "Scientists ____ that the planet may once have had liquid water."
+  choices:
+    - {t: postulate, why: "ตั้งสมมติฐานเชิงวิชาการ ใช้ ++postulate++"}
+    - {t: rebut, why: "rebut แปลว่าโต้แย้งกลับ"}
+    - {t: conflate, why: "conflate ไม่เข้ากับบริบท"}
+    - {t: vindicate, why: "vindicate ไม่เข้ากับบริบท"}
+  explain: "postulate = ==ตั้งสมมติฐาน== (ทางวิชาการ)"
+  status: draft
+- id: cefr-c2-w11-015
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "From the empty plates, I ____ that the meal had been a success."
+  choices:
+    - {t: surmised, why: "เดาจากหลักฐานที่มี ใช้ ++surmise++"}
+    - {t: refuted, why: "refute ไม่ใช่การเดา"}
+    - {t: rebutted, why: "rebut ไม่เข้ากับบริบท"}
+    - {t: conflated, why: "conflate ไม่เข้ากับบริบท"}
+  explain: "surmise = ==คาดเดาจากหลักฐานเล็กน้อย=="
+  status: draft
+- id: cefr-c2-w11-016
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "New data have ____ the claim that the drug causes memory loss."
+  choices:
+    - {t: refuted, why: "พิสูจน์ว่าข้ออ้างผิด ใช้ ++refute++"}
+    - {t: surmised, why: "surmise ไม่ใช่การพิสูจน์"}
+    - {t: postulated, why: "postulate คือการตั้งสมมติฐาน"}
+    - {t: extrapolated, why: "ไม่เข้ากับบริบท"}
+  explain: "refute = ==พิสูจน์ว่าผิด== (แรงกว่า deny)"
+  status: draft
+- id: cefr-c2-w11-017
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "The minister was given ten minutes to ____ the accusations made by the opposition."
+  choices:
+    - {t: rebut, why: "โต้แย้งกลับ ใช้ ++rebut++"}
+    - {t: postulate, why: "ไม่เข้ากับบริบท"}
+    - {t: extrapolate, why: "บทไม่ได้พูดว่า extrapolate"}
+    - {t: surmise, why: "บทไม่ได้พูดว่า surmise"}
+  explain: "rebut = ==โต้แย้งกลับ== (ไม่จำเป็นต้องพิสูจน์ได้เหมือน refute)"
+  status: draft
+- id: cefr-c2-w11-018
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "The journalist could not ____ her story, so the newspaper refused to publish it."
+  choices:
+    - {t: substantiate, why: "หาหลักฐานยืนยัน ใช้ ++substantiate++"}
+    - {t: conflate, why: "ไม่เข้ากับบริบท"}
+    - {t: refute, why: "refute her story แปลว่าพิสูจน์ว่าผิด ขัดกับบริบท"}
+    - {t: posit, why: "posit ไม่ใช่การยืนยันด้วยหลักฐาน"}
+  explain: "substantiate = ==ยืนยันด้วยหลักฐาน=="
+  status: draft
+- id: cefr-c2-w11-019
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "The final results ____ her decision to keep the project going when others wanted to stop."
+  choices:
+    - {t: vindicated, why: "พิสูจน์ว่าการตัดสินใจถูก ใช้ ++vindicate++"}
+    - {t: refuted, why: "ตรงข้าม จึงใช้ไม่ได้"}
+    - {t: conflated, why: "ไม่เข้ากับบริบท"}
+    - {t: surmised, why: "บทไม่ได้พูดว่า surmised"}
+  explain: "vindicate = ==พิสูจน์ว่าถูกต้อง (หลังถูกสงสัย)=="
+  status: draft
+- id: cefr-c2-w11-020
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "The article ____ immigration with crime, as if the two were the same issue."
+  choices:
+    - {t: conflates, why: "รวมสองเรื่องเป็นเรื่องเดียวอย่างผิด ๆ ใช้ ++conflate with++"}
+    - {t: vindicates, why: "ไม่เข้ากับบริบท"}
+    - {t: refutes, why: "บทไม่ได้พูดว่า refutes"}
+    - {t: substantiates, why: "บทไม่ได้พูดว่า substantiates"}
+  explain: "conflate A with B = ==เอามาปนเป็นเรื่องเดียวกันผิด ๆ=="
+  status: draft
+- id: cefr-c2-w11-021
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "The theory ____ that language developed from early forms of music."
+  choices:
+    - {t: posits, why: "เสนอเป็นหลักการตั้งต้น ใช้ ++posit++"}
+    - {t: rebuts, why: "ไม่เข้ากับบริบท"}
+    - {t: vindicates, why: "บทไม่ได้พูดว่า vindicates"}
+    - {t: conflates, why: "บทไม่ได้พูดว่า conflates"}
+  explain: "posit = ==เสนอเป็นข้อตั้ง== (ใกล้ postulate)"
+  status: draft
+- id: cefr-c2-w11-022
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "It is a common ____ that we only use ten per cent of our brains."
+  choices:
+    - {t: fallacy, why: "ความเชื่อผิดที่แพร่หลาย ใช้ ++fallacy++"}
+    - {t: rebuttal, why: "ไม่เข้ากับบริบท"}
+    - {t: postulate, why: "บทไม่ได้พูดว่า postulate"}
+    - {t: vindication, why: "บทไม่ได้พูดว่า vindication"}
+  explain: "fallacy = ==ความเชื่อผิด หรือเหตุผลวิบัติ=="
+  status: draft
+- id: cefr-c2-w11-023
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 3
+  stem: "The study found a ____ link between shoe size and reading ability; both simply increase with age."
+  choices:
+    - {t: spurious, why: "ความสัมพันธ์เทียม ไม่จริง ใช้ ++spurious++"}
+    - {t: substantiated, why: "ขัดกับบริบท จึงใช้ไม่ได้"}
+    - {t: vindicated, why: "ไม่เข้ากับบริบท"}
+    - {t: postulated, why: "ไม่ได้บอกว่าไม่จริง"}
+  explain: "spurious = ==เทียม ปลอม ไม่ใช่ความสัมพันธ์จริง=="
+  status: draft
+- id: cefr-c2-w11-024
+  kind: type
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  stem: "The argument sounds convincing at first, but it is s_______; it falls apart on closer inspection. (ดูดีแต่ผิด)"
+  answer: specious
+  accept: [specious]
+  why: "specious = ดูมีเหตุผลแต่จริง ๆ ผิด"
+  status: draft
+# ---------- วันที่ 3 · เรียบเรียงใหม่และการสร้างคำ ----------
+- id: cefr-c2-w11-025
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 1
+  stem: "\"I regret not studying harder.\" Rewrite using WISH."
+  choices:
+    - {t: I wish I had studied harder., why: "wish + had + ช่อง 3 ++เสียดายอดีต++"}
+    - {t: I wish I studied harder., why: "studied ใช้กับปัจจุบัน"}
+    - {t: I wish I would study harder., why: "wish + would ไม่ใช้กับตัวเอง"}
+    - {t: I wish to study harder., why: "ความหมายเปลี่ยนเป็นอยากทำในอนาคต"}
+  explain: "regret + not -ing = ==wish + had + ช่อง 3=="
+  status: draft
+- id: cefr-c2-w11-026
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 1
+  stem: "\"It's possible that he forgot.\" Rewrite using MAY."
+  choices:
+    - {t: He may have forgotten., why: "may have + ช่อง 3 ++อาจเกิดในอดีต++"}
+    - {t: He may forget., why: "เปลี่ยนเป็นอนาคต"}
+    - {t: He must have forgotten., why: "must แรงกว่า possible"}
+    - {t: He may forgot., why: "หลัง may ใช้กริยารูปเดิม"}
+  explain: "It's possible that + อดีต = ==may / might have + ช่อง 3=="
+  status: draft
+- id: cefr-c2-w11-027
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  stem: "\"As soon as she arrived, the meeting started.\" Rewrite using NO SOONER."
+  choices:
+    - {t: No sooner had she arrived than the meeting started., why: "No sooner + had + ประธาน + ช่อง 3 ++than++"}
+    - {t: No sooner she had arrived than the meeting started., why: "ต้องกลับลำดับ had she"}
+    - {t: No sooner had she arrived when the meeting started., why: "No sooner คู่กับ than ไม่ใช่ when"}
+    - {t: No sooner did she arrived than the meeting started., why: "หลัง did ใช้กริยารูปเดิม และควรใช้ had"}
+  explain: "==No sooner had ... than ...== (Hardly / Scarcely ... when)"
+  status: draft
+- id: cefr-c2-w11-028
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  stem: "\"People say the castle is haunted.\" Rewrite using SAID."
+  choices:
+    - {t: The castle is said to be haunted., why: "passive reporting ++is said to be++"}
+    - {t: The castle said to be haunted., why: "ขาด is จึงใช้ไม่ได้"}
+    - {t: It is said the castle to be haunted., why: "It is said ต้องตามด้วย that + ประโยค"}
+    - {t: The castle is said being haunted., why: "หลัง is said ต้องใช้ to"}
+  explain: "People say ... = ==X is said to + กริยา=="
+  status: draft
+- id: cefr-c2-w11-029
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  stem: "\"It wasn't necessary for you to bring food.\" Rewrite using NEEDN'T."
+  choices:
+    - {t: You needn't have brought food., why: "needn't have + ช่อง 3 ++ทำไปแล้วแต่ไม่จำเป็น++"}
+    - {t: You needn't bring food., why: "เปลี่ยนเป็นปัจจุบันหรืออนาคต"}
+    - {t: You didn't need bring food., why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: You needn't brought food., why: "ต้องมี have จึงใช้ไม่ได้"}
+  explain: "ทำไปแล้วแต่ไม่จำเป็น ==needn't have + ช่อง 3=="
+  status: draft
+- id: cefr-c2-w11-030
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  stem: "Which word correctly completes: \"The proposal was rejected as ____ (PRACTICE).\""
+  choices:
+    - {t: impracticable, why: "ทำไม่ได้จริง ++im + practic + able++"}
+    - {t: unpractical, why: "รูปมาตรฐานคือ impractical"}
+    - {t: practiceless, why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+    - {t: dispractical, why: "บทไม่ได้พูดว่า dispractical"}
+  explain: "การสร้างคำที่พบน้อย ==impracticable== (ทำไม่ได้) ต่างจาก impractical (ไม่สะดวกใช้)"
+  status: draft
+- id: cefr-c2-w11-031
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 3
+  stem: "Which word correctly completes: \"Her ____ (DECIDE) cost the team the match.\""
+  choices:
+    - {t: indecision, why: "คำนามปฏิเสธ ++in + decision++ = ความลังเล"}
+    - {t: undecision, why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+    - {t: misdecision, why: "ไม่ใช่คำมาตรฐาน"}
+    - {t: decisiveness, why: "ความเด็ดขาด ขัดกับการทำให้แพ้"}
+  explain: "สร้างคำ ==เลือก prefix ให้ถูกคำ== (indecision · inability · dissatisfaction)"
+  status: draft
+- id: cefr-c2-w11-032
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 3
+  stem: "\"I only realised the truth when I read the letter.\" Rewrite using ONLY WHEN."
+  choices:
+    - {t: Only when I read the letter did I realise the truth., why: "Only when + ประโยค ++กลับลำดับในประโยคหลัก++"}
+    - {t: Only when did I read the letter I realised the truth., why: "กลับลำดับผิดส่วน"}
+    - {t: Only when I read the letter I realised the truth., why: "ไม่ได้กลับลำดับ"}
+    - {t: Only when I read the letter had I realise the truth., why: "หลัง had ใช้ช่อง 3 และควรใช้ did"}
+  explain: "==Only when + ประโยค==, กริยาช่วย + ประธาน + กริยา"
+  status: draft
+- id: cefr-c2-w11-033
+  kind: type
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  stem: "\"Without her help, we would have failed.\" → \"If it h___ not been for her help, we would have failed.\""
+  answer: had
+  accept: [had]
+  why: "If it had not been for = ถ้าไม่ใช่เพราะ (อดีต)"
+  status: draft
+- id: cefr-c2-w11-034
+  kind: cloze
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  text: |
+    Both articles (1) ____ that city parks improve mental health. However, (2) ____ the first writer argues for building new parks, the second suggests that improving existing ones would be more effective. Neither, it should be noted, (3) ____ its claims with long-term data.
+  questions:
+    - choices:
+        - {t: agree, why: "both + agree = เห็นตรงกัน"}
+        - {t: dispute, why: "ขัดกับการเห็นตรงกัน"}
+        - {t: refute, why: "ขัดกับบริบท จึงใช้ไม่ได้"}
+        - {t: deny, why: "บทไม่ได้พูดว่า deny"}
+    - choices:
+        - {t: whereas, why: "whereas ใช้เทียบสองแหล่งที่ต่างกัน"}
+        - {t: because, why: "ไม่ใช่เหตุผล จึงใช้ไม่ได้"}
+        - {t: therefore, why: "ไม่ใช่ผล จึงใช้ไม่ได้"}
+        - {t: unless, why: "ไม่ใช่เงื่อนไข จึงใช้ไม่ได้"}
+    - choices:
+        - {t: substantiates, why: "ยืนยันด้วยหลักฐาน (Neither ใช้กริยาเอกพจน์)"}
+        - {t: substantiate, why: "Neither ใช้กริยาเอกพจน์"}
+        - {t: refutes, why: "ความหมายผิด จึงใช้ไม่ได้"}
+        - {t: conflates, why: "บทไม่ได้พูดว่า conflates"}
+  status: draft
+# ---------- วันที่ 4 · อ่านสองบทที่เห็นต่างและฟังบรรยายสองช่วง ----------
+- id: cefr-c2-w11-035
+  kind: read
+  skill: rd
+  topic: two-texts
+  level: 3
+  title: "Two Views on the Four-Day School Week"
+  passage: |
+    Text A · "A Week That Works"
+
+    When three rural districts in northern Thailand moved to a four-day school week two years ago, sceptics predicted chaos. They were wrong. Teacher absence fell by a third, and the districts saved around 8% of their transport budgets. Most importantly, test scores remained stable. Teachers report using the fifth day for planning and professional training, and many say they feel less exhausted. While it would be premature to extrapolate these results to every school, the evidence so far suggests that the shorter week is not only affordable but also popular with staff.
+
+    Text B · "The Hidden Cost of Shorter Weeks"
+
+    The four-day school week has been widely praised, but much of the enthusiasm rests on specious reasoning. Stable test scores are not the same as stable learning; scores in the trial districts were already low and had little room to fall. More seriously, supporters tend to conflate the interests of teachers with those of children. For working parents, the fifth day means finding and paying for childcare, and the burden falls hardest on the poorest families. One survey found that a quarter of younger pupils spent the extra day at home alone. Until these concerns are substantiated or refuted by proper research, policymakers should be cautious about expanding the scheme.
+  questions:
+    - stem: On which point do both texts appear to agree?
+      choices:
+        - {t: test scores did not fall during the trial, why: "A: scores remained stable · B ยอมรับว่าคะแนนคงที่แต่ตีความต่าง"}
+        - {t: the scheme should be expanded nationwide immediately, why: "ทั้งสองไม่ได้เสนอแบบนั้น"}
+        - {t: parents are delighted with the extra day at home, why: "B แย้งข้อนี้ จึงใช้ไม่ได้"}
+        - {t: teachers dislike the shorter school week, why: "A บอกว่าครูชอบ จึงใช้ไม่ได้"}
+    - stem: Why does Text B say stable test scores may be misleading?
+      choices:
+        - {t: scores were already low and had little room to fall, why: "scores ... were already low and had little room to fall"}
+        - {t: the tests were made easier during the trial, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: teachers helped students cheat in the tests, why: "บทไม่ได้พูดว่า teachers helped students cheat in the tests"}
+        - {t: "only a few students in each district took the final tests", why: "บทไม่ได้พูดว่า only a few students took the final tests"}
+    - stem: What does Text B mean by "conflate the interests of teachers with those of children"?
+      choices:
+        - {t: assume that what helps teachers also helps children, why: "conflate ++เอามาปนว่าเป็นเรื่องเดียวกัน++"}
+        - {t: argue that teachers and children dislike each other, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+        - {t: ignore teachers completely in the whole discussion, why: "บทไม่ได้พูดว่า ignore teachers completely in the whole discussion"}
+        - {t: claim that children should teach themselves at home, why: "บทไม่ได้พูดว่า claim that children should teach themselves at home"}
+    - stem: How does Text A treat its own conclusions?
+      choices:
+        - {t: "cautiously, warning against generalising too far", why: "it would be premature to extrapolate these results to every school"}
+        - {t: as final proof that the scheme works everywhere, why: "ผู้เขียนเตือนไม่ให้ขยายผล"}
+        - {t: with strong doubt about whether teachers benefit, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: by admitting that all of the data are spurious, why: "ไม่ได้ยอมรับแบบนั้น"}
+  status: draft
+- id: cefr-c2-w11-036
+  kind: listen
+  skill: li
+  topic: two-part-lecture
+  level: 3
+  script:
+    - {who: Woman, en: "In the first part, we saw that early studies linked coffee to heart disease. In this second part, I want to show why later research largely refuted that link: most early participants were also heavy smokers."}
+  questions:
+    - stem: Why did later research reject the early findings?
+      choices:
+        - {t: smoking explained the link with heart disease, why: "most early participants were also heavy smokers"}
+        - {t: coffee was found to cure heart disease, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: "the early studies used far too much coffee in their experiments", why: "ไม่ใช่เหตุผล จึงใช้ไม่ได้"}
+        - {t: heart disease had become far less common, why: "บทไม่ได้พูดว่า heart disease had become far less common"}
+  status: draft
+- id: cefr-c2-w11-037
+  kind: listen
+  skill: li
+  topic: two-part-lecture
+  level: 3
+  script:
+    - {who: Man, en: "So how do the two theories compare?"}
+    - {who: Woman, en: "The first posits a single cause; the second, several interacting ones. Neither, frankly, has been fully substantiated yet."}
+  questions:
+    - stem: What does the woman say about both theories?
+      choices:
+        - {t: neither is yet supported by enough evidence, why: "Neither ... has been fully substantiated yet"}
+        - {t: both have been completely proven true, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: the second has been entirely refuted, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: "they both propose one single cause for the same problem", why: "ทฤษฎีที่สองเสนอหลายสาเหตุ"}
+  status: draft
+- id: cefr-c2-w11-038
+  kind: listen
+  skill: li
+  topic: two-part-lecture
+  level: 3
+  script:
+    - {who: Woman, en: "It's tempting to surmise from one good year that the policy works. But one year is a data point, not a trend."}
+  questions:
+    - stem: What is the speaker warning against?
+      choices:
+        - {t: drawing conclusions from too little data, why: "one year is a data point, not a trend"}
+        - {t: ignoring the policy completely, why: "ไม่ใช่สิ่งที่เตือน"}
+        - {t: "collecting far too much data each year and analysing it badly", why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: criticising the policy unfairly, why: "บทไม่ได้พูดว่า criticising the policy unfairly"}
+  status: draft
+- id: cefr-c2-w11-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Both writers agree, that the problem is serious, but they disagree, about the solution]
+  sentence: Both writers agree that the problem is serious, but they disagree about the solution.
+  th: ผู้เขียนทั้งสองเห็นตรงกันว่าปัญหาร้ายแรง แต่เห็นต่างเรื่องทางแก้
+  why: "Both agree that ... but disagree about ... ประโยคสังเคราะห์"
+  status: draft
+- id: cefr-c2-w11-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [No sooner had, the results been published, than, critics began to question them]
+  sentence: No sooner had the results been published than critics began to question them.
+  th: ผลเพิ่งตีพิมพ์ นักวิจารณ์ก็เริ่มตั้งคำถามทันที
+  why: "No sooner had + ประธาน + ช่อง 3 ... than"
+  status: draft
+- id: cefr-c2-w11-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Whereas the first text, focuses on cost, the second, is concerned with fairness]
+  sentence: Whereas the first text focuses on cost, the second is concerned with fairness.
+  th: ขณะที่บทแรกเน้นเรื่องค่าใช้จ่าย บทที่สองให้ความสำคัญกับความยุติธรรม
+  why: "Whereas เทียบสองแหล่ง · the second ละคำว่า text"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c2-w11-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Taken together, the two texts suggest that, the policy has benefits, but that, its costs have been underestimated]
+  sentence: Taken together, the two texts suggest that the policy has benefits but that its costs have been underestimated.
+  th: เมื่อพิจารณาสองบทรวมกัน ชี้ว่านโยบายมีประโยชน์ แต่ต้นทุนถูกประเมินต่ำไป
+  why: "Taken together ขึ้นต้นการสังเคราะห์ · suggest that ... but that ..."
+  status: draft
