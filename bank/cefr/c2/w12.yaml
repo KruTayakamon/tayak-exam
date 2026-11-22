@@ -1,0 +1,579 @@
+# คอร์ส c2 · สัปดาห์ 12 · ซ้อมใหญ่ · ทบทวน ก (โครงสร้างเน้น เงื่อนไข ภาษาทางการ การย่อความ) · ทบทวน ข (คำที่ใช้คู่กัน ระดับภาษา อ่านระหว่างบรรทัด) + กลยุทธ์บริหารเวลา
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · ทบทวน ก ----------
+- id: cefr-c2-w12-001
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 1
+  stem: "Not until the final whistle ____ that they had won the league."
+  choices:
+    - {t: did the players realise, why: "Not until ขึ้นต้น ++กลับลำดับในประโยคหลัก++ (สัปดาห์ 2)"}
+    - {t: the players realised, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
+    - {t: realised the players, why: "ต้องใช้ did จึงใช้ไม่ได้"}
+    - {t: had the players realise, why: "หลัง had ต้องใช้ช่อง 3"}
+  explain: "ทบทวนสัปดาห์ 2 ==Not until + เวลา, did + ประธาน + กริยา=="
+  status: draft
+- id: cefr-c2-w12-002
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 1
+  stem: "____ it not been for the volunteers, the festival would have been cancelled."
+  choices:
+    - {t: Had, why: "เงื่อนไขทางการ ++Had it not been for++ (สัปดาห์ 3)"}
+    - {t: Were, why: "Were it not for ใช้กับปัจจุบัน และไม่มี been"}
+    - {t: If, why: "If it not been ผิดรูป ต้องมี had"}
+    - {t: Should, why: "Should it not been ผิดรูป"}
+  explain: "ทบทวนสัปดาห์ 3 ==Had it not been for== = If it hadn't been for"
+  status: draft
+- id: cefr-c2-w12-003
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "The committee insisted that the report ____ before the board meeting."
+  choices:
+    - {t: be completed, why: "insist that + ++subjunctive be + ช่อง 3++ (สัปดาห์ 3)"}
+    - {t: is completed, why: "ภาษาทางการหลัง insist that ใช้ be"}
+    - {t: was completing, why: "ไม่ใช่ subjunctive และผิดความหมาย"}
+    - {t: will be completed, why: "will ไม่ใช้หลัง insist that ในรูปนี้"}
+  explain: "ทบทวนสัปดาห์ 3 ==insist / recommend that + be + ช่อง 3=="
+  status: draft
+- id: cefr-c2-w12-004
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "____ the work finished, the team went out to celebrate."
+  choices:
+    - {t: With, why: "with + นาม + ช่อง 3 ++บอกสภาพ++ (สัปดาห์ 4)"}
+    - {t: Despite, why: "despite ไม่ใช่ความหมายนี้"}
+    - {t: Because, why: "because ต้องตามด้วยประโยคเต็ม"}
+    - {t: Although, why: "although ต้องตามด้วยประโยคเต็ม"}
+  explain: "ทบทวนสัปดาห์ 4 ==with + คำนาม + participle=="
+  status: draft
+- id: cefr-c2-w12-005
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "____ we to lose this contract, we would have to cut jobs."
+  choices:
+    - {t: Were, why: "Were + ประธาน + to ++เงื่อนไขทางการ++ (สัปดาห์ 3)"}
+    - {t: Had, why: "Had we to lose ผิดรูป"}
+    - {t: Should, why: "Should we to lose มี to เกิน"}
+    - {t: If, why: "If we to lose ขาด were"}
+  explain: "==Were + ประธาน + to + กริยา== = ถ้าเผื่อว่า"
+  status: draft
+- id: cefr-c2-w12-006
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "Which sentence shows the best end-weight?"
+  choices:
+    - {t: "It worried everyone that nobody had checked the figures.", why: "ส่วนยาวไปไว้ท้าย ++ใช้ It ... that++ (สัปดาห์ 2)"}
+    - {t: "That nobody had checked the figures worried everyone.", why: "ถูกไวยากรณ์แต่หนักต้นประโยค"}
+    - {t: "Worried everyone it did that nobody checked.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
+    - {t: "Everyone it worried that nobody had checked.", why: "บทไม่ได้พูดว่า Everyone it worried that nobody had checked."}
+  explain: "ทบทวนสัปดาห์ 2 ==end-weight ส่วนยาวไว้ท้าย=="
+  status: draft
+- id: cefr-c2-w12-007
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "Which is the best nominalised version of \"Prices rose quickly, which worried shoppers\"?"
+  choices:
+    - {t: The rapid rise in prices worried shoppers., why: "nominalisation ++rise in++ (สัปดาห์ 4)"}
+    - {t: The prices rising quick worried shoppers., why: "ใช้ adverb ผิด และไม่ใช่นามวลีมาตรฐาน"}
+    - {t: The rise rapid of prices worried shoppers., why: "คุณศัพท์ต้องอยู่หน้าคำนาม"}
+    - {t: Prices' quick rising was worrying shoppers., why: "ไม่เป็นธรรมชาติ"}
+  explain: "ทบทวนสัปดาห์ 4 ==กริยา → คำนาม + in/of=="
+  status: draft
+- id: cefr-c2-w12-008
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "I asked him to send the file, and he ____ within minutes."
+  choices:
+    - {t: did so, why: "แทนการกระทำที่พูดแล้ว ++do so++ (สัปดาห์ 5)"}
+    - {t: made so, why: "make ไม่ใช้แทนการกระทำ"}
+    - {t: did it so, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - {t: so did, why: "so did ใช้เมื่อคนอื่นทำเหมือนกัน"}
+  explain: "ทบทวนสัปดาห์ 5 ==do so แทน กริยา + ส่วนที่ตามมา=="
+  status: draft
+- id: cefr-c2-w12-009
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 3
+  stem: "So ____ the demand that a second performance was added."
+  choices:
+    - {t: great was, why: "So + adj + be + ประธาน ++กลับลำดับ++ (สัปดาห์ 2)"}
+    - {t: was great, why: "ลำดับผิด จึงใช้ไม่ได้"}
+    - {t: such was, why: "ซ้อน so กับ such"}
+    - {t: great did, why: "ไม่ใช้ did กับ be"}
+  explain: "ทบทวนสัปดาห์ 2 ==So + adj + be + ประธาน + that=="
+  status: draft
+- id: cefr-c2-w12-010
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 3
+  stem: "\"The meeting was to have taken place yesterday.\" What happened?"
+  choices:
+    - {t: it was planned but did not take place, why: "was to have + ช่อง 3 ++แผนที่ไม่เกิด++ (สัปดาห์ 1)"}
+    - {t: it took place as planned, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: it will take place tomorrow, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - {t: it was much longer than expected, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  explain: "ทบทวนสัปดาห์ 1 ==was to have + ช่อง 3== = กำหนดไว้แต่ไม่ได้เกิด"
+  status: draft
+- id: cefr-c2-w12-011
+  kind: mcq
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "The rent ____ be paid no later than the fifth of each month. (สัญญาเช่า)"
+  choices:
+    - {t: shall, why: "ภาษาสัญญา ++shall = หน้าที่++ (สัปดาห์ 1)"}
+    - {t: might, why: "might บอกความเป็นไปได้"}
+    - {t: would, why: "would ไม่ใช้บอกหน้าที่ในสัญญา"}
+    - {t: may well, why: "may well เป็นการคาดการณ์"}
+  explain: "ทบทวนสัปดาห์ 1 ==shall ในเอกสารทางกฎหมาย=="
+  status: draft
+- id: cefr-c2-w12-012
+  kind: type
+  skill: gm
+  topic: review-c2-a
+  level: 2
+  stem: "L_____ did we know that the company was about to close. (ไม่รู้เลยว่า)"
+  answer: little
+  accept: [little, Little]
+  why: "Little did + ประธาน + กริยารูปเดิม (สัปดาห์ 1–2)"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์งานวิชาชีพและการศึกษา ----------
+- id: cefr-c2-w12-013
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 1
+  stem: "Under her ____ of the museum, visitor numbers doubled."
+  choices:
+    - {t: stewardship, why: "การดูแลรับผิดชอบ ใช้ ++stewardship++"}
+    - {t: remuneration, why: "remuneration คือค่าตอบแทน"}
+    - {t: aptitude, why: "aptitude คือความถนัด"}
+    - {t: accreditation, why: "accreditation คือการรับรองมาตรฐาน"}
+  explain: "stewardship = ==การดูแลรับผิดชอบสิ่งที่ได้รับมอบหมาย=="
+  status: draft
+- id: cefr-c2-w12-014
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 1
+  stem: "During his ____ as principal, the school opened a new science centre."
+  choices:
+    - {t: tenure, why: "ช่วงดำรงตำแหน่ง ใช้ ++tenure++"}
+    - {t: calibre, why: "calibre คือคุณภาพความสามารถ"}
+    - {t: attainment, why: "attainment คือผลสัมฤทธิ์"}
+    - {t: pedagogy, why: "pedagogy คือศาสตร์การสอน"}
+  explain: "tenure = ==ช่วงเวลาดำรงตำแหน่ง=="
+  status: draft
+- id: cefr-c2-w12-015
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "The course combines subject knowledge with modern ____, such as project-based learning."
+  choices:
+    - {t: pedagogy, why: "ศาสตร์และวิธีการสอน ใช้ ++pedagogy++"}
+    - {t: tenure, why: "tenure ไม่เกี่ยวกับวิธีสอน"}
+    - {t: remuneration, why: "ไม่เข้ากับบริบท"}
+    - {t: stewardship, why: "บทไม่ได้พูดว่า stewardship"}
+  explain: "pedagogy = ==ศาสตร์การสอน วิธีสอน=="
+  status: draft
+- id: cefr-c2-w12-016
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "The college lost its ____ after failing two inspections."
+  choices:
+    - {t: accreditation, why: "การรับรองมาตรฐาน ใช้ ++accreditation++"}
+    - {t: aptitude, why: "aptitude คือความถนัดของคน"}
+    - {t: tenacity, why: "tenacity คือความมุ่งมั่น"}
+    - {t: pedagogy, why: "ไม่เข้ากับบริบท"}
+  explain: "accreditation = ==การรับรองมาตรฐานอย่างเป็นทางการ=="
+  status: draft
+- id: cefr-c2-w12-017
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "The job offers generous ____, including a housing allowance."
+  choices:
+    - {t: remuneration, why: "ค่าตอบแทน (ทางการ) ใช้ ++remuneration++"}
+    - {t: attainment, why: "attainment คือผลสัมฤทธิ์"}
+    - {t: calibre, why: "calibre คือคุณภาพ"}
+    - {t: tenure, why: "tenure คือช่วงดำรงตำแหน่ง"}
+  explain: "remuneration = ==ค่าตอบแทน เงินเดือนและสวัสดิการ=="
+  status: draft
+- id: cefr-c2-w12-018
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "The programme aims to raise reading ____ among children in rural schools."
+  choices:
+    - {t: attainment, why: "ผลสัมฤทธิ์ทางการเรียน ใช้ ++attainment++"}
+    - {t: remuneration, why: "ไม่เข้ากับบริบท"}
+    - {t: tenure, why: "บทไม่ได้พูดว่า tenure"}
+    - {t: stewardship, why: "บทไม่ได้พูดว่า stewardship"}
+  explain: "attainment = ==ผลสัมฤทธิ์ ระดับที่ทำได้=="
+  status: draft
+- id: cefr-c2-w12-019
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "She showed a natural ____ for languages from an early age."
+  choices:
+    - {t: aptitude, why: "ความถนัดโดยธรรมชาติ ใช้ ++aptitude for++"}
+    - {t: accreditation, why: "ไม่เข้ากับบริบท"}
+    - {t: tenure, why: "บทไม่ได้พูดว่า tenure"}
+    - {t: remuneration, why: "บทไม่ได้พูดว่า remuneration"}
+  explain: "aptitude for = ==ความถนัด พรสวรรค์ด้าน=="
+  status: draft
+- id: cefr-c2-w12-020
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "The school attracts teachers of the highest ____."
+  choices:
+    - {t: calibre, why: "คุณภาพความสามารถ ใช้ ++of the highest calibre++"}
+    - {t: tenure, why: "ไม่เข้ากับบริบท"}
+    - {t: pedagogy, why: "บทไม่ได้พูดว่า pedagogy"}
+    - {t: attainment, why: "บทไม่ได้พูดว่า attainment"}
+  explain: "calibre = ==คุณภาพ ระดับความสามารถ== (อเมริกัน caliber)"
+  status: draft
+- id: cefr-c2-w12-021
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "The professor was so ____ that he could quote Thai and Latin poetry from memory."
+  choices:
+    - {t: erudite, why: "คงแก่เรียน ใช้ ++erudite++"}
+    - {t: magnanimous, why: "magnanimous แปลว่าใจกว้าง"}
+    - {t: exemplary, why: "exemplary แปลว่าเป็นแบบอย่าง"}
+    - {t: tenacious, why: "tenacious แปลว่าไม่ลดละ"}
+  explain: "erudite = ==คงแก่เรียน รู้กว้างขวาง=="
+  status: draft
+- id: cefr-c2-w12-022
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "Her behaviour during the crisis was ____; every manager should learn from it."
+  choices:
+    - {t: exemplary, why: "เป็นแบบอย่างที่ดี ใช้ ++exemplary++"}
+    - {t: erudite, why: "erudite ใช้กับความรู้"}
+    - {t: magnanimous, why: "ไม่ตรงกับเป็นแบบอย่าง"}
+    - {t: tenacious, why: "บทไม่ได้พูดว่า tenacious"}
+  explain: "exemplary = ==เป็นแบบอย่างที่ดีเยี่ยม=="
+  status: draft
+- id: cefr-c2-w12-023
+  kind: mcq
+  skill: vo
+  topic: profession-education
+  level: 3
+  stem: "It was ____ of her to congratulate the rival who had beaten her."
+  choices:
+    - {t: magnanimous, why: "ใจกว้างโดยเฉพาะต่อคู่แข่ง ใช้ ++magnanimous++"}
+    - {t: erudite, why: "erudite ใช้กับความรู้"}
+    - {t: exemplary, why: "ใกล้เคียง แต่ magnanimous ตรงกับความใจกว้างต่อคู่แข่ง"}
+    - {t: tenacious, why: "ไม่ตรงกับความใจกว้าง"}
+  explain: "magnanimous = ==ใจกว้าง ไม่ถือโทษ== (โดยเฉพาะต่อผู้แพ้หรือคู่แข่ง)"
+  status: draft
+- id: cefr-c2-w12-024
+  kind: type
+  skill: vo
+  topic: profession-education
+  level: 2
+  stem: "With great t_______, she applied to twenty universities until one accepted her. (ความมุ่งมั่นไม่ลดละ)"
+  answer: tenacity
+  accept: [tenacity]
+  why: "tenacity = ความมุ่งมั่นไม่ยอมแพ้"
+  status: draft
+# ---------- วันที่ 3 · ทบทวน ข ----------
+- id: cefr-c2-w12-025
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 1
+  stem: "The government plans to ____ a tax on sugary drinks."
+  choices:
+    - {t: levy, why: "คู่คำ ++levy a tax++ (สัปดาห์ 8)"}
+    - {t: incur, why: "incur ใช้กับผู้จ่าย"}
+    - {t: reap, why: "reap ใช้กับผลดี"}
+    - {t: garner, why: "garner ใช้กับการสนับสนุน"}
+  explain: "ทบทวนสัปดาห์ 8 ==levy (ผู้เก็บ) · incur (ผู้จ่าย)=="
+  status: draft
+- id: cefr-c2-w12-026
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 1
+  stem: "Which is most appropriate for a formal complaint?"
+  choices:
+    - {t: I would be grateful if this matter could be resolved promptly., why: "ทางการและสุภาพ ++ระดับภาษาเหมาะสม++ (สัปดาห์ 9)"}
+    - {t: Sort this out ASAP or I'm going elsewhere., why: "ภาษาพูดและก้าวร้าว"}
+    - {t: Please fix this mess as soon as you can mate., why: "ภาษาพูด จึงใช้ไม่ได้"}
+    - {t: "Hey, can someone deal with this soon or not?", why: "บทไม่ได้พูดว่า Hey, can someone deal with this soon or not?"}
+  explain: "ทบทวนสัปดาห์ 9 ==ระดับภาษาต้องเหมาะกับผู้อ่าน=="
+  status: draft
+- id: cefr-c2-w12-027
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 2
+  stem: "\"With the greatest respect, I'm not entirely convinced.\" The speaker ____."
+  choices:
+    - {t: disagrees politely but firmly, why: "สุภาพมากก่อนแย้ง ++แย้งหนักแน่น++ (สัปดาห์ 6)"}
+    - {t: agrees completely with the idea, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: is confused by the question, why: "ไม่ได้สับสน จึงใช้ไม่ได้"}
+    - {t: is offering high praise, why: "ไม่ใช่คำชม จึงใช้ไม่ได้"}
+  explain: "ทบทวนสัปดาห์ 6 ==With respect + not entirely = แย้งสุภาพ=="
+  status: draft
+- id: cefr-c2-w12-028
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 2
+  stem: "\"The so-called 'improvements' have doubled our waiting times.\" The writer's attitude is ____."
+  choices:
+    - {t: sceptical and critical, why: "so-called และ scare quotes ++ไม่เชื่อว่าดีขึ้น++ (สัปดาห์ 10)"}
+    - {t: enthusiastic and grateful, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: neutral and factual, why: "มีน้ำเสียงชัด จึงใช้ไม่ได้"}
+    - {t: uncertain and confused, why: "มั่นใจในการวิจารณ์"}
+  explain: "ทบทวนสัปดาห์ 10 ==so-called + scare quotes = ไม่เชื่อ=="
+  status: draft
+- id: cefr-c2-w12-029
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 2
+  stem: "Which collocation is correct?"
+  choices:
+    - {t: draw a conclusion, why: "คู่คำ ++draw a conclusion++ (สัปดาห์ 8)"}
+    - {t: make a conclusion, why: "ไม่ใช่คู่คำมาตรฐาน"}
+    - {t: do a conclusion, why: "ไม่ใช่คู่คำ จึงใช้ไม่ได้"}
+    - {t: pull a conclusion, why: "บทไม่ได้พูดว่า pull a conclusion"}
+  explain: "ทบทวนสัปดาห์ 8 ==draw a conclusion / distinction=="
+  status: draft
+- id: cefr-c2-w12-030
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 2
+  stem: "\"Either we cut salaries or the company collapses.\" Which flaw is this?"
+  choices:
+    - {t: a false dilemma, why: "บีบให้เหลือสองทาง ++(สัปดาห์ 10)++"}
+    - {t: a personal attack, why: "ไม่ได้โจมตีบุคคล"}
+    - {t: a spurious correlation, why: "ไม่ใช่ความสัมพันธ์เทียม"}
+    - {t: an appeal to tradition, why: "ไม่ได้อ้างประเพณี"}
+  explain: "ทบทวนสัปดาห์ 10 ==false dilemma=="
+  status: draft
+- id: cefr-c2-w12-031
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 3
+  stem: "In a timed reading test, what is the most efficient first step?"
+  choices:
+    - {t: read the questions before reading the text in detail, why: "รู้ว่าต้องหาอะไร ++ประหยัดเวลา++"}
+    - {t: translate every sentence of the text into Thai, why: "เสียเวลามาก จึงใช้ไม่ได้"}
+    - {t: look up every unknown word in a dictionary, why: "ทำไม่ได้ในข้อสอบและเสียเวลา"}
+    - {t: answer the last question first without reading, why: "ไม่มีเหตุผลสนับสนุน"}
+  explain: "กลยุทธ์ ==อ่านคำถามก่อน แล้วอ่านบทเพื่อหาคำตอบ=="
+  status: draft
+- id: cefr-c2-w12-032
+  kind: mcq
+  skill: gm
+  topic: review-c2-b
+  level: 3
+  stem: "You are stuck between two options with no time left. What is the best strategy?"
+  choices:
+    - {t: eliminate the clearly wrong ones and choose, why: "ตัดตัวเลือกผิดก่อน ++แล้วเลือกจากที่เหลือ++"}
+    - {t: leave the question blank and move on, why: "เสียคะแนนแน่นอน ถ้าไม่มีการหักคะแนน"}
+    - {t: always choose the longest option, why: "ไม่มีหลักฐานว่าได้ผล"}
+    - {t: go back and reread the whole text, why: "ไม่มีเวลาแล้ว จึงใช้ไม่ได้"}
+  explain: "เดาอย่างมีหลัก ==ตัดตัวเลือกที่ผิดชัดก่อน=="
+  status: draft
+- id: cefr-c2-w12-033
+  kind: type
+  skill: gm
+  topic: review-c2-b
+  level: 2
+  stem: "The report m___ with considerable success. (ประสบ · คู่คำ meet with)"
+  answer: met
+  accept: [met]
+  why: "meet with success (ช่อง 2 met) สัปดาห์ 8"
+  status: draft
+- id: cefr-c2-w12-034
+  kind: cloze
+  skill: gm
+  topic: review-c2-b
+  level: 2
+  text: |
+    (1) ____, the new policy has had mixed results. While it has (2) ____ considerable support from parents, critics argue that its benefits have been (3) ____, and that the evidence offered so far is far from conclusive.
+  questions:
+    - choices:
+        - {t: Broadly speaking, why: "stance phrase ขึ้นต้น โดยรวม (สัปดาห์ 6)"}
+        - {t: Broad speaking, why: "ต้องใช้คำวิเศษณ์ broadly"}
+        - {t: Speaking broad, why: "ลำดับผิด จึงใช้ไม่ได้"}
+        - {t: In broadly, why: "ผิดรูป จึงใช้ไม่ได้"}
+    - choices:
+        - {t: garnered, why: "garner support (สัปดาห์ 8)"}
+        - {t: incurred, why: "incur ใช้กับสิ่งไม่ดี"}
+        - {t: levied, why: "levy ใช้กับภาษี"}
+        - {t: wielded, why: "wield ใช้กับอำนาจ"}
+    - choices:
+        - {t: overstated, why: "พูดเกินจริง (สัปดาห์ 6)"}
+        - {t: downplayed, why: "ขัดกับบริบทที่นักวิจารณ์ว่าประโยชน์ไม่ชัด"}
+        - {t: concurred, why: "concur ไม่ใช้รูปถูกกระทำแบบนี้"}
+        - {t: acquiesced, why: "acquiesce ไม่ใช้รูปถูกกระทำ"}
+  status: draft
+# ---------- วันที่ 4 · อ่านบทความวิชาการยาวและฟังปนกัน ----------
+- id: cefr-c2-w12-035
+  kind: read
+  skill: rd
+  topic: long-academic
+  level: 3
+  title: "The Calibre Question: What Really Makes a Good Teacher?"
+  passage: |
+    Few questions in education are asked as often, or answered as confidently, as what makes a good teacher. Politicians point to qualifications, parents to warmth, and inspectors to measurable attainment. Each answer captures something; none, on its own, is sufficient.
+
+    The case for qualifications seems obvious. A teacher who does not understand algebra can hardly teach it well. Yet research consistently suggests that, beyond a basic threshold, subject knowledge predicts surprisingly little about classroom success. A teacher with a doctorate is not, by virtue of that alone, more effective than one with a bachelor's degree. What appears to matter more is pedagogical knowledge: knowing how pupils typically misunderstand an idea, and how to address that misunderstanding before it hardens.
+
+    Warmth, too, is frequently cited, and with good reason. Pupils who feel respected are more likely to take intellectual risks. But warmth without high expectations can quietly become low expectations. Some of the most effective teachers in recent studies were described by their pupils not as "nice" but as "fair" and "demanding", a combination that is harder to achieve than either quality alone.
+
+    Perhaps the least discussed factor is tenacity. Good teachers, it seems, are not those who never fail, but those who keep adjusting when a lesson does not work. They treat a confused class not as evidence of weak pupils but as information about their own teaching. This disposition is difficult to measure, which may explain why it rarely appears in hiring criteria or accreditation standards.
+
+    None of this means that qualifications, warmth or results are irrelevant. The point is rather that teaching quality emerges from the interaction of several qualities, and that any system which rewards only one of them is likely to produce teachers of a narrower calibre than it intends.
+  questions:
+    - stem: What is the writer's main argument?
+      choices:
+        - {t: good teaching depends on several qualities working together, why: "teaching quality emerges from the interaction of several qualities"}
+        - {t: qualifications are the single most important factor, why: "ผู้เขียนแย้งข้อนี้"}
+        - {t: warmth matters more than every other quality, why: "ผู้เขียนเตือนเรื่อง warmth ที่ไม่มีความคาดหวัง"}
+        - {t: teaching quality simply cannot be discussed, why: "ไม่ใช่ข้อโต้แย้งของผู้เขียน"}
+    - stem: According to the passage, what matters more than advanced subject knowledge?
+      choices:
+        - {t: knowing how pupils typically misunderstand ideas, why: "pedagogical knowledge: knowing how pupils typically misunderstand an idea"}
+        - {t: having a doctorate in the subject being taught, why: "ไม่ได้ทำให้มีประสิทธิภาพมากขึ้นโดยอัตโนมัติ"}
+        - {t: being described by pupils as very nice, why: "นักเรียนบรรยายว่า fair และ demanding"}
+        - {t: receiving high remuneration from the school, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: What danger does the writer associate with warmth?
+      choices:
+        - {t: it can turn into low expectations, why: "warmth without high expectations can quietly become low expectations"}
+        - {t: it makes pupils less respectful of teachers, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: it prevents pupils from taking any risks, why: "บทไม่ได้พูดว่า it prevents pupils from taking any risks"}
+        - {t: it is impossible to combine with knowledge, why: "ไม่ได้พูดแบบนั้น"}
+    - stem: Why might tenacity rarely appear in hiring criteria?
+      choices:
+        - {t: it is difficult to measure, why: "This disposition is difficult to measure"}
+        - {t: it is not linked to good teaching at all, why: "ผู้เขียนบอกว่าสำคัญ"}
+        - {t: most teachers already have far too much of it, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: inspectors believe it is harmful to pupils, why: "บทไม่ได้พูดว่า inspectors believe it is harmful to pupils"}
+  status: draft
+- id: cefr-c2-w12-036
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 3
+  script:
+    - {who: Woman, en: "Had we known how popular the course would be, we'd have booked a bigger room. As it was, people were sitting on the floor."}
+  questions:
+    - stem: What happened?
+      choices:
+        - {t: the room was too small for the number of people, why: "people were sitting on the floor"}
+        - {t: very few people attended the course, why: "ตรงกันข้าม คนเยอะ"}
+        - {t: they booked a bigger room in advance, why: "Had we known ... = ไม่ได้จองห้องใหญ่"}
+        - {t: the course was cancelled at the last minute, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w12-037
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 3
+  script:
+    - {who: Man, en: "How did the inspection go?"}
+    - {who: Woman, en: "Well, they didn't close us down, so I suppose that counts as a triumph."}
+  questions:
+    - stem: How does the woman feel about the inspection?
+      choices:
+        - {t: it went poorly but she is joking about it, why: "understatement และประชด ++ผลไม่ดีนัก++"}
+        - {t: it was an outstanding success, why: "เป็นการประชด ไม่ใช่ความสำเร็จจริง"}
+        - {t: the school has been closed down, why: "they didn't close us down"}
+        - {t: she has not heard the results, why: "รู้ผลแล้ว จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w12-038
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 3
+  script:
+    - {who: Man, en: "Not only did she redesign the curriculum, but she also secured accreditation for the whole department, which nobody thought possible."}
+  questions:
+    - stem: What is the speaker emphasising?
+      choices:
+        - {t: she achieved two significant things, why: "Not only ... but also ++เน้นความสำเร็จสองอย่าง++"}
+        - {t: the curriculum was poorly designed, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: accreditation was easy to obtain, why: "nobody thought possible"}
+        - {t: she failed to finish the redesign, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w12-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Only by, working together, can we, solve this problem]
+  sentence: Only by working together can we solve this problem.
+  th: เราจะแก้ปัญหานี้ได้ก็ต่อเมื่อร่วมมือกันเท่านั้น
+  why: "Only by + -ing ขึ้นต้น กลับลำดับ can we"
+  status: draft
+- id: cefr-c2-w12-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [What matters most, is not qualifications, but the ability, to adapt to each class]
+  sentence: What matters most is not qualifications but the ability to adapt to each class.
+  th: สิ่งที่สำคัญที่สุดไม่ใช่วุฒิ แต่คือความสามารถในการปรับตัวให้เข้ากับแต่ละห้อง
+  why: "What ... is not A but B (pseudo-cleft + not ... but)"
+  status: draft
+- id: cefr-c2-w12-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The findings, would seem to suggest, that tenacity, is a key factor]
+  sentence: The findings would seem to suggest that tenacity is a key factor.
+  th: ผลการศึกษาดูเหมือนจะบ่งชี้ว่าความมุ่งมั่นเป็นปัจจัยสำคัญ
+  why: "would seem to suggest = hedging ระวังข้อสรุป"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-c2-w12-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Taken together, the two texts, suggest that, neither qualifications nor warmth, is sufficient on its own]
+  sentence: Taken together, the two texts suggest that neither qualifications nor warmth is sufficient on its own.
+  th: เมื่อดูสองบทรวมกัน ชี้ว่าทั้งวุฒิและความอบอุ่นไม่เพียงพอหากมีอย่างเดียว
+  why: "Taken together สังเคราะห์ · neither ... nor + กริยาเอกพจน์"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 12 · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 12
+phase: 3
+theme_th: ซ้อมใหญ่
+focus_th: ทบทวน ก (inversion · subjunctive · เงื่อนไขทางการ · end-weight · nominalisation · do so) · ทบทวน ข (คู่คำ · ระดับภาษา · ความสุภาพ · ประชด · เหตุผลวิบัติ) · กลยุทธ์บริหารเวลาและการเดาอย่างมีหลัก
+can_do_th:
+  - ใช้โครงสร้างและคำศัพท์ระดับ C2 ปนกันได้แม่นยำ
+  - ทำชุดจับเวลาได้ทันด้วยกลยุทธ์ที่ได้ผล
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวน ก · โครงสร้าง เงื่อนไข ภาษาทางการ การย่อความ
+    lesson:
+      rule_th: "ข้อสอบระดับนี้ปนทุกเรื่อง ==หาคำสัญญาณต้นประโยคก่อนดูตัวเลือก== (Not until · Had · So + adj · Were we to) ++สัญญาณบอกโครงสร้างที่ตามมา++"
+      examples:
+        - {en: "<k>Not until</k> the final whistle <k>did</k> they realise ...", th: "กลับลำดับ"}
+        - {en: "<k>Had it not been for</k> the volunteers, ...", th: "==เงื่อนไขทางการ=="}
+        - {en: "They insisted that the report <k>be completed</k>.", th: "subjunctive"}
+        - {en: "<k>With</k> the work <k>finished</k>, ...", th: "with + นาม + participle"}
+      signals:
+        - {label_th: "สัญญาณ → โครงสร้าง", words: ["Not until / Only when → did + ประธาน", "Had it not been for → would have", "insist that → be + ช่อง 3", "So + adj → be + ประธาน"]}
+      thai_trap:
+        intro_th: "ตอนจับเวลาคนมักเลือก ~~ตัวเลือกที่ฟังคุ้นหู~~ แทนตัวที่ถูกโครงสร้าง เพราะไม่ได้ดูคำสัญญาณต้นประโยค"
+        wrong: ["Not until the final whistle the players realised ... (เลือกเพราะฟังคุ้น)"]
+        right: ["Not until the final whistle did the players realise ... (เห็น Not until ต้องกลับลำดับ)"]
+      notes:
+        - {kind: tip, th: "วงคำสัญญาณ ==ก่อนอ่านตัวเลือก== จะตัดตัวเลือกผิดได้ครึ่งหนึ่งทันที"}
+        - {kind: use, th: "ทบทวนสั้น ๆ ทุกวัน ดีกว่าอ่านรวดเดียวก่อนสอบ"}
+    check: [cefr-c2-w12-001, cefr-c2-w12-002]
+    practice: [cefr-c2-w12-003, cefr-c2-w12-004, cefr-c2-w12-005, cefr-c2-w12-006, cefr-c2-w12-007, cefr-c2-w12-008, cefr-c2-w12-009, cefr-c2-w12-010, cefr-c2-w12-011, cefr-c2-w12-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับการเรียนคอร์สนี้ ใช้ inversion 1 แบบ และเงื่อนไขทางการ 1 แบบ
+      frame: "Never had I ____. Had it not been for ____, I ____."
+      model: "Never had I written such long, formal sentences in English. Had it not been for the daily practice, I would not have felt confident enough to try."
+    classroom: {en: "Little did I know how useful it would be.", th: "ไม่รู้เลยว่าจะมีประโยชน์ขนาดนี้"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์งานวิชาชีพและการศึกษา 12 คำ
+    lesson:
+      rule_th: "คำศัพท์ชุดสุดท้ายใช้พูดถึงงานและการศึกษาอย่างเป็นทางการ ==คำนามบุคลากร tenure== · remuneration · calibre · stewardship และ ++คำนามการศึกษา pedagogy++ · accreditation · attainment · aptitude คุณศัพท์บรรยายคน erudite · exemplary · magnanimous"
+      examples:
+        - {en: "during her <k>tenure</k> as principal", th: "ช่วงดำรงตำแหน่ง"}
+        - {en: "teachers of the highest <k>calibre</k>", th: "==คุณภาพสูงสุด=="}
+        - {en: "modern <k>pedagogy</k>", th: "ศาสตร์การสอน"}
+        - {en: "a natural <k>aptitude</k> for languages", th: "ความถนัด"}
+      words:
+        - {w: stewardship, pos: n., th: การดูแลรับผิดชอบ, ex: "under her stewardship"}
+        - {w: tenure, pos: n., th: ช่วงดำรงตำแหน่ง, ex: "during his tenure as director"}
+        - {w: pedagogy, pos: n., th: ศาสตร์การสอน, ex: "modern pedagogy"}
+        - {w: accreditation, pos: n., th: การรับรองมาตรฐาน, ex: "The school gained accreditation."}
+        - {w: remuneration, pos: n., th: ค่าตอบแทน, ex: "competitive remuneration"}
+        - {w: attainment, pos: n., th: ผลสัมฤทธิ์, ex: "pupil attainment"}
+        - {w: aptitude, pos: n., th: ความถนัด, ex: "an aptitude for maths"}
+        - {w: calibre, pos: n., th: คุณภาพ ความสามารถ, ex: "staff of high calibre"}
+        - {w: erudite, pos: adj., th: คงแก่เรียน, ex: "an erudite lecture"}
+        - {w: exemplary, pos: adj., th: เป็นแบบอย่าง, ex: "exemplary conduct"}
+        - {w: magnanimous, pos: adj., th: ใจกว้าง, ex: "magnanimous in victory"}
+        - {w: tenacity, pos: n., th: ความมุ่งมั่นไม่ลดละ, ex: "She showed great tenacity."}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~remuneration ในบทสนทนาทั่วไป~~ ซึ่งฟังทางการเกินไป ภาษาพูดใช้ pay หรือ salary"
+        wrong: ["\"What's your remuneration like at the café?\" (ถามเพื่อนเล่น ๆ)"]
+        right: ["\"How's the pay at the café?\""]
+      notes:
+        - {kind: pin, th: "==magnanimous in victory== = ชนะแล้วใจกว้าง"}
+        - {kind: use, th: "เขียนจดหมายรับรอง She is a teacher of exemplary character and high calibre."}
+    check: [cefr-c2-w12-013, cefr-c2-w12-014]
+    practice: [cefr-c2-w12-015, cefr-c2-w12-016, cefr-c2-w12-017, cefr-c2-w12-018, cefr-c2-w12-019, cefr-c2-w12-020, cefr-c2-w12-021, cefr-c2-w12-022, cefr-c2-w12-023, cefr-c2-w12-024]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบจดหมายรับรองให้เพื่อนร่วมงานหรือครูที่คุณชื่นชม
+      frame: "During her tenure as ____, ____. She is a ____ of the highest calibre, with ____."
+      model: "During her tenure as head of department, pupil attainment rose steadily. She is a teacher of the highest calibre, with an exemplary commitment to every student."
+    classroom: {en: "She has a real aptitude for this.", th: "เธอมีพรสวรรค์ด้านนี้จริง ๆ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวน ข · คำคู่ ระดับภาษา อ่านระหว่างบรรทัด และกลยุทธ์
+    lesson:
+      rule_th: "ครึ่งหลังของคอร์สเน้นการเลือก ==คำคู่ ระดับภาษา และน้ำเสียง== ซึ่งต้องใช้ความไวต่อบริบท ++กลยุทธ์จับเวลา++ อ่านคำถามก่อน · ตัดตัวเลือกผิดชัด · อย่าค้างข้อเดียวนาน"
+      examples:
+        - {en: "<k>levy</k> a tax · <k>draw</k> a conclusion", th: "คู่คำ"}
+        - {en: "I would be grateful if this could be <k>resolved promptly</k>.", th: "==ระดับภาษาทางการ=="}
+        - {en: "The <k>so-called</k> 'improvements' ...", th: "จับน้ำเสียงประชด"}
+        - {en: "Either we cut salaries or ...", th: "false dilemma"}
+      signals:
+        - {label_th: "กลยุทธ์บริหารเวลา", words: ["อ่านคำถามก่อนบท", "ตัดตัวเลือกผิดชัด", "ทำข้อที่มั่นใจก่อน", "เหลือ 5 นาทีทวนข้อที่ข้าม"]}
+      thai_trap:
+        intro_th: "คนไทยใช้เวลามากกับ ~~การแปลทุกประโยคเป็นไทย~~ ในข้อสอบอ่าน ทำให้ไม่ทันเวลา"
+        wrong: ["แปลบทอ่านทั้งบทเป็นภาษาไทยก่อนอ่านคำถาม"]
+        right: ["อ่านคำถาม ขีดคำสำคัญ แล้วสแกนหาย่อหน้าที่เกี่ยวข้อง"]
+      notes:
+        - {kind: tip, th: "ถ้าไม่มีการหักคะแนน ==อย่าเว้นว่างเด็ดขาด== เดาอย่างมีหลักดีกว่า"}
+        - {kind: warn, th: "อย่าเลือกตัวเลือกที่ยาวที่สุดเพราะคิดว่าถูก ไม่มีหลักฐานว่าได้ผล"}
+    check: [cefr-c2-w12-025, cefr-c2-w12-026]
+    practice: [cefr-c2-w12-027, cefr-c2-w12-028, cefr-c2-w12-029, cefr-c2-w12-030, cefr-c2-w12-031, cefr-c2-w12-032, cefr-c2-w12-033, cefr-c2-w12-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกกลยุทธ์ทำข้อสอบที่คุณจะใช้ และเหตุผล
+      frame: "In a timed test, I will ____, because ____. If I am unsure, I will ____."
+      model: "In a timed test, I will read the questions before the text, because it tells me exactly what to look for. If I am unsure, I will eliminate the clearly wrong options and move on."
+    classroom: {en: "Let's eliminate the obvious ones first.", th: "ตัดตัวที่ผิดชัด ๆ ออกก่อน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบทความวิชาการยาวและฟังปนกันทุกแบบ
+    lesson:
+      rule_th: "บทความวิชาการยาว ==ย่อหน้าแรกตั้งคำถาม ย่อหน้าสุดท้ายตอบ== ++ย่อหน้ากลางไล่ดูทีละคำตอบ++ คำถามหลักมักอยู่ที่ The point is rather that ..."
+      examples:
+        - {en: "<k>Each answer captures something; none, on its own, is sufficient.</k>", th: "บอกโครงทั้งบท"}
+        - {en: "<k>Yet research consistently suggests</k> ...", th: "==แย้งความเชื่อทั่วไป=="}
+        - {en: "<k>The point is rather that</k> ...", th: "ข้อสรุปจริง"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นย่อหน้าเรื่องวุฒิการศึกษาก่อน แล้ว ~~ตอบว่าวุฒิสำคัญที่สุด~~"
+        wrong: ["ผู้เขียนเห็นว่าวุฒิสำคัญที่สุด"]
+        right: ["ผู้เขียนเห็นว่าคุณภาพการสอนเกิดจากหลายคุณสมบัติร่วมกัน"]
+      notes:
+        - {kind: tip, th: "อ่าน ==ย่อหน้าแรกและท้ายก่อน== จะรู้จุดยืนทั้งบท"}
+        - {kind: use, th: "ฟังปนกัน ระวัง understatement เช่น I suppose that counts as a triumph"}
+    check: [cefr-c2-w12-036, cefr-c2-w12-037]
+    practice: [cefr-c2-w12-035, cefr-c2-w12-038, cefr-c2-w12-039, cefr-c2-w12-040, cefr-c2-w12-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปข้อโต้แย้งหลักของบทความเรื่องครูที่ดี
+      frame: "The writer argues that ____. In particular, ____ is often overlooked because ____."
+      model: "The writer argues that good teaching comes from several qualities working together rather than any single one. In particular, tenacity is often overlooked because it is so difficult to measure."
+    classroom: {en: "The point, rather, is this.", th: "ประเด็นจริง ๆ คือแบบนี้"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 40
+    title_th: ห้องฝึกเขียน เรียงความสังเคราะห์จากสองบทอ่าน 300 คำ
+    lab:
+      mode: write
+      prompt_th: "อ่านสองข้อความนี้ แล้วเขียนเรียงความสังเคราะห์ประมาณ 300 คำ สรุปจุดยืนของแต่ละฝ่าย ชี้จุดที่ตรงกันและต่างกัน ประเมินว่าฝ่ายไหนมีเหตุผลหนักแน่นกว่า และเสนอความเห็นของคุณ — ข้อความ A: \"บริษัทควรจ่ายโบนัสตามผลงานรายบุคคล เพราะคนทำงานหนักควรได้มากกว่า และเป็นแรงจูงใจที่ชัดเจน บริษัทที่ใช้ระบบนี้มียอดขายสูงขึ้นเฉลี่ย 12%\" · ข้อความ B: \"โบนัสรายบุคคลทำลายการทำงานเป็นทีม คนจะแข่งกันแทนที่จะช่วยกัน และงานที่วัดยากเช่นการสอนน้องใหม่จะถูกละเลย โบนัสตามผลงานของทีมจึงยุติธรรมกว่า\""
+      frame:
+        - "Introduction: Both texts address ____, but reach different conclusions."
+        - "Text A argues that ____, citing ____."
+        - "Text B, by contrast, contends that ____."
+        - "Evaluation: Where they agree is ____. However, A's evidence ____, whereas B ____."
+        - "Conclusion: Taken together, ____, provided that ____."
+      model_pass: "Both texts address the question of how companies should pay bonuses, but they reach very different conclusions. Text A argues that bonuses should be based on individual performance, because people who work harder deserve more and need a clear reason to try. It supports this with a figure showing that companies using this system increased sales by 12% on average. Text B, by contrast, claims that individual bonuses damage teamwork. It argues that staff will compete instead of helping each other, and that important but hard-to-measure work, such as training new colleagues, will be ignored. It therefore recommends team-based bonuses. Where the two texts agree is that bonuses affect behaviour; they simply disagree about which behaviour matters most. In my view, Text A's evidence is weaker than it first appears. A 12% rise in sales does not prove that individual bonuses caused it, and it tells us nothing about other kinds of work. Text B makes a more convincing point, although it gives no evidence at all. Taken together, the best solution may be a mixed system, with part of the bonus based on the individual and part on the team, provided that the company also recognises work that is difficult to measure."
+      model_good: "Both texts address how companies should reward performance, yet they arrive at opposing conclusions from what is, at heart, a shared assumption: that bonuses shape behaviour. Text A contends that bonuses should reflect individual effort, arguing that those who contribute more deserve more and that clear incentives motivate staff. In support, it cites an average 12% rise in sales among firms that have adopted the approach. Text B, by contrast, maintains that individual rewards erode collaboration, encouraging colleagues to compete rather than cooperate and, more subtly, devaluing work that resists measurement, such as mentoring new staff. It therefore favours team-based bonuses. On closer inspection, Text A's evidence is less persuasive than it first appears. Sales figures capture only one dimension of performance, and the text offers no grounds for assuming that the bonuses, rather than other factors, produced the increase; correlation, in other words, is presented as causation. Text B's argument is more nuanced, but it, too, rests on assertion rather than data. Neither text, then, fully substantiates its central claim. Taken together, they suggest that the choice between individual and collective rewards may be a false one. A hybrid scheme, combining individual and team components, would seem to preserve the motivational benefits Text A describes while protecting the cooperative work Text B rightly values, provided that organisations make a deliberate effort to recognise contributions that do not appear in the sales figures."
+      steps_th:
+        - อ่านสองข้อความแล้วทำตาราง A คิด / B คิด / ตรงกัน / จุดอ่อนของแต่ละฝ่าย
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 270–330 คำ ภายใน 40 นาที
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อ่านทวนหนึ่งรอบดูความสม่ำเสมอของระดับภาษาและคู่คำ
+      checklist_th:
+        - สรุปทั้งสองฝ่ายอย่างเที่ยงตรง และชี้จุดที่ตรงกันอย่างน้อย 1 จุด
+        - ประเมินหลักฐานของแต่ละฝ่าย (ใช้คำเช่น substantiate · correlation · nuanced)
+        - ใช้โครงสร้าง C2 อย่างน้อย 3 แบบ (inversion · cleft · hedging · participle)
+        - มีข้อสรุปของตัวเองพร้อมเงื่อนไข ระดับภาษาสม่ำเสมอ และยาวประมาณ 300 คำ
+    practice: [cefr-c2-w12-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 12 (ทบทวนทั้งคอร์ส)
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
