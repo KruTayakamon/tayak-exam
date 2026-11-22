@@ -1,0 +1,578 @@
+# คอร์ส c2 · สัปดาห์ 7 · สำนวนและความหมายเชิงเปรียบ · สำนวนและคู่คำตายตัว · เมื่อใดไม่ควรใช้ · อุปลักษณ์ การเปรียบเทียบ การเสียดสี
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · สำนวนและคู่คำตายตัว ----------
+- id: cefr-c2-w07-001
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 1
+  stem: "After months of arguing, the two sides finally decided to bury the ____ and work together."
+  choices:
+    - {t: hatchet, why: "สำนวน ++bury the hatchet++ = เลิกบาดหมาง"}
+    - {t: sword, why: "สำนวนใช้ hatchet ไม่ใช่ sword"}
+    - {t: argument, why: "bury the argument ไม่ใช่สำนวน"}
+    - {t: past, why: "bury the past ใช้ได้บ้าง แต่สำนวนเลิกบาดหมางคือ hatchet"}
+  explain: "==bury the hatchet== = คืนดี เลิกบาดหมาง"
+  status: draft
+- id: cefr-c2-w07-002
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 1
+  stem: "We'll have to cut ____ on travel this year; the budget has been reduced."
+  choices:
+    - {t: back, why: "cut back on = ++ลดการใช้++"}
+    - {t: down to, why: "cut down to ต้องตามด้วยจำนวน"}
+    - {t: "off", why: "cut off on ไม่ใช่สำนวน"}
+    - {t: out, why: "cut out on ไม่ใช่สำนวนนี้"}
+  explain: "==cut back on / cut down on== = ลดปริมาณ"
+  status: draft
+- id: cefr-c2-w07-003
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "The fixed pair is \"by and ____\": by and large, the meeting went well."
+  choices:
+    - {t: large, why: "คู่คำตายตัว ++by and large++ = โดยรวม"}
+    - {t: wide, why: "far and wide เป็นอีกสำนวน ไม่ใช่ by and wide"}
+    - {t: big, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: far, why: "บทไม่ได้พูดว่า far"}
+  explain: "คู่คำตายตัว ==สลับลำดับหรือเปลี่ยนคำไม่ได้== (by and large · odds and ends)"
+  status: draft
+- id: cefr-c2-w07-004
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "Which order of the fixed pair is correct?"
+  choices:
+    - {t: pros and cons, why: "ลำดับตายตัว ++pros and cons++"}
+    - {t: cons and pros, why: "สลับลำดับไม่ได้ ต้องเป็น pros and cons"}
+    - {t: pro and cons, why: "ต้องเป็นพหูพจน์ทั้งสองคำ pros"}
+    - {t: pros or cons, why: "คู่คำนี้ใช้ and ไม่ใช่ or"}
+  explain: "คู่คำตายตัว ==ใช้ลำดับเดิมเสมอ== (pros and cons · safe and sound · sooner or later)"
+  status: draft
+- id: cefr-c2-w07-005
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "In a formal report to the board, which phrase is LEAST appropriate?"
+  choices:
+    - {t: "The project went belly up.", why: "สำนวนภาษาพูดมาก ++ไม่เหมาะกับรายงานทางการ++"}
+    - {t: "The project was unsuccessful.", why: "เป็นทางการ เหมาะสม"}
+    - {t: "The project did not achieve its objectives.", why: "บทไม่ได้พูดว่า The project did not achieve its objectives."}
+    - {t: "The project was discontinued.", why: "บทไม่ได้พูดว่า The project was discontinued."}
+  explain: "C2 ต้องรู้ ==ว่าเมื่อไรไม่ควรใช้สำนวน== (งานเขียนทางการ)"
+  status: draft
+- id: cefr-c2-w07-006
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "I know you're nervous, but you just have to take the ____ by the horns and ask for a raise."
+  choices:
+    - {t: bull, why: "สำนวน ++take the bull by the horns++ = กล้าเผชิญปัญหาตรง ๆ"}
+    - {t: cow, why: "สำนวนใช้ bull จึงใช้ไม่ได้"}
+    - {t: goat, why: "บทไม่ได้พูดว่า goat"}
+    - {t: problem, why: "take the problem by the horns ไม่ใช่สำนวน"}
+  explain: "==take the bull by the horns== = กล้าลงมือแก้ปัญหาตรง ๆ"
+  status: draft
+- id: cefr-c2-w07-007
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "\"It's not rocket science.\" What does the speaker mean?"
+  choices:
+    - {t: it is not difficult, why: "สำนวน ++ไม่ได้ยากขนาดนั้น++"}
+    - {t: it is about space travel, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+    - {t: it is very complicated, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: it is not scientific enough, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  explain: "==not rocket science== = ไม่ได้ยากอะไร"
+  status: draft
+- id: cefr-c2-w07-008
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "The new manager has really ____ the boat; everyone is complaining about the changes."
+  choices:
+    - {t: rocked, why: "สำนวน ++rock the boat++ = ทำให้วุ่นวาย"}
+    - {t: shaken, why: "shake the boat ไม่ใช่สำนวน"}
+    - {t: sunk, why: "sink the boat ไม่ใช่สำนวนนี้"}
+    - {t: moved, why: "move the boat ไม่ใช่สำนวน"}
+  explain: "==rock the boat== = ทำให้สถานการณ์ที่สงบวุ่นวาย"
+  status: draft
+- id: cefr-c2-w07-009
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 3
+  stem: "Which sentence uses the idiom correctly?"
+  choices:
+    - {t: "Booking early would kill two birds with one stone: cheaper tickets and better seats.", why: "kill two birds with one stone = ++ได้สองอย่างจากการกระทำเดียว++"}
+    - {t: "Booking early would kill two stones with one bird.", why: "สลับคำในสำนวน จึงใช้ไม่ได้"}
+    - {t: "Booking early would kill one bird with two stones.", why: "เปลี่ยนความหมายของสำนวน"}
+    - {t: "Booking early would kill birds with stones.", why: "สำนวนไม่ครบ จึงใช้ไม่ได้"}
+  explain: "สำนวน ==เปลี่ยนคำหรือสลับคำไม่ได้=="
+  status: draft
+- id: cefr-c2-w07-010
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 3
+  stem: "\"Let's not count our chickens.\" When would someone say this?"
+  choices:
+    - {t: before a result is certain, why: "don't count your chickens = ++อย่าเพิ่งดีใจก่อนเห็นผล++"}
+    - {t: when a farm is too big, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+    - {t: after a failure, why: "ใช้ก่อนรู้ผล ไม่ใช่หลังล้มเหลว"}
+    - {t: when someone is careless with money, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  explain: "==Don't count your chickens== (before they hatch) = อย่าดีใจล่วงหน้า"
+  status: draft
+- id: cefr-c2-w07-011
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "Choosing between the two jobs is a real ____ situation; both have serious drawbacks."
+  choices:
+    - {t: catch-22, why: "สถานการณ์ทางตันที่เลือกทางไหนก็ติด ++catch-22++"}
+    - {t: piece-of-cake, why: "piece of cake แปลว่าง่ายมาก ขัดกับบริบท"}
+    - {t: win-win, why: "win-win แปลว่าได้ทั้งสองฝ่าย ขัดกับ drawbacks"}
+    - {t: hands-on, why: "hands-on แปลว่าลงมือเอง"}
+  explain: "==catch-22== = สถานการณ์ทางตัน"
+  status: draft
+- id: cefr-c2-w07-012
+  kind: type
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  stem: "Don't put all your eggs in one b_____; invest in several things. (ตะกร้า)"
+  answer: basket
+  accept: [basket]
+  why: "put all your eggs in one basket = เสี่ยงทุกอย่างไว้ที่เดียว"
+  status: draft
+# ---------- วันที่ 2 · คำศัพท์ภาษาเชิงวรรณศิลป์ ----------
+- id: cefr-c2-w07-013
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 1
+  stem: "With its red phone boxes and black taxis, the street looked like the ____ London scene."
+  choices:
+    - {t: quintessential, why: "ต้นแบบที่สมบูรณ์ที่สุด ใช้ ++quintessential++"}
+    - {t: hackneyed, why: "hackneyed แปลว่าซ้ำซากจำเจ"}
+    - {t: figurative, why: "figurative แปลว่าเชิงเปรียบ"}
+    - {t: poignant, why: "poignant แปลว่าสะเทือนใจ"}
+  explain: "quintessential = ==เป็นตัวอย่างที่สมบูรณ์แบบของ=="
+  status: draft
+- id: cefr-c2-w07-014
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 1
+  stem: "He was the ____ last person to leave the office, as always."
+  choices:
+    - {t: proverbial, why: "ตามสำนวนที่คนรู้จัก ใช้ ++the proverbial++"}
+    - {t: poignant, why: "ไม่เข้ากับบริบท"}
+    - {t: evocative, why: "บทไม่ได้พูดว่า evocative"}
+    - {t: figurative, why: "ไม่ใช้วางหน้าคำในความหมายนี้"}
+  explain: "the proverbial ... = ==ตามที่สำนวนว่าไว้=="
+  status: draft
+- id: cefr-c2-w07-015
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "When she said her heart was broken, she was speaking in a ____ sense."
+  choices:
+    - {t: figurative, why: "เชิงเปรียบ ไม่ใช่ตามตัวอักษร ใช้ ++figurative++"}
+    - {t: literal, why: "literal แปลว่าตามตัวอักษร ขัดกับบริบท"}
+    - {t: proverbial, why: "ไม่ใช่การอ้างสำนวน"}
+    - {t: quintessential, why: "ไม่เข้ากับบริบท"}
+  explain: "figurative = ==เชิงเปรียบ== ตรงข้าม literal"
+  status: draft
+- id: cefr-c2-w07-016
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "The speech was full of ____ phrases like \"at the end of the day\" and \"think outside the box\"."
+  choices:
+    - {t: hackneyed, why: "ซ้ำซากจนจืด ใช้ ++hackneyed++"}
+    - {t: evocative, why: "evocative แปลว่าชวนให้นึกภาพ (ความหมายบวก)"}
+    - {t: poignant, why: "poignant แปลว่าสะเทือนใจ"}
+    - {t: quintessential, why: "ไม่เข้ากับบริบท"}
+  explain: "hackneyed = ==ซ้ำซากจำเจ ใช้จนเฝือ=="
+  status: draft
+- id: cefr-c2-w07-017
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "\"Time is money\" has become something of a ____."
+  choices:
+    - {t: cliche, why: "สำนวนที่ใช้จนเฝือ ใช้ ++cliche++"}
+    - {t: paradox, why: "paradox คือข้อขัดแย้งในตัว"}
+    - {t: allegory, why: "allegory คือนิทานเปรียบเทียบ"}
+    - {t: analogy, why: "analogy คือการเปรียบเทียบเพื่ออธิบาย"}
+  explain: "cliche = ==คำพูดที่ใช้จนเฝือ== (เขียนว่า cliché ก็ได้)"
+  status: draft
+- id: cefr-c2-w07-018
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "The teacher used the ____ of a water pipe to explain how electricity flows."
+  choices:
+    - {t: analogy, why: "การเปรียบเทียบเพื่ออธิบาย ใช้ ++analogy++"}
+    - {t: irony, why: "irony คือการประชดหรือความย้อนแย้ง"}
+    - {t: cliche, why: "cliche ไม่ใช้อธิบาย"}
+    - {t: hyperbole, why: "hyperbole คือการพูดเกินจริง"}
+  explain: "analogy = ==การเปรียบเทียบเพื่อให้เข้าใจ=="
+  status: draft
+- id: cefr-c2-w07-019
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "On the surface it's a story about farm animals, but it's really an ____ of political power."
+  choices:
+    - {t: allegory, why: "เรื่องที่สื่อความหมายแฝง ใช้ ++allegory++"}
+    - {t: analogy, why: "analogy คือการเปรียบสั้น ๆ ไม่ใช่ทั้งเรื่อง"}
+    - {t: hyperbole, why: "ไม่เข้ากับบริบท"}
+    - {t: cliche, why: "บทไม่ได้พูดว่า cliche"}
+  explain: "allegory = ==เรื่องที่มีความหมายแฝงทั้งเรื่อง=="
+  status: draft
+- id: cefr-c2-w07-020
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "It's a ____ that the more choices we have, the harder it is to feel satisfied."
+  choices:
+    - {t: paradox, why: "ข้อความที่ขัดกันเองแต่จริง ใช้ ++paradox++"}
+    - {t: analogy, why: "ไม่ใช่การเปรียบ"}
+    - {t: allegory, why: "ไม่ใช่เรื่องเล่า"}
+    - {t: cliche, why: "ไม่ใช่สำนวนเฝือ"}
+  explain: "paradox = ==ความย้อนแย้งที่เป็นจริง=="
+  status: draft
+- id: cefr-c2-w07-021
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "The ____ is that the fire station itself burned down."
+  choices:
+    - {t: irony, why: "ผลตรงข้ามกับที่ควรเป็น ใช้ ++irony++"}
+    - {t: analogy, why: "ไม่ใช่การเปรียบ"}
+    - {t: hyperbole, why: "ไม่ใช่การพูดเกิน"}
+    - {t: allegory, why: "ไม่ใช่เรื่องแฝงความหมาย"}
+  explain: "irony = ==ความย้อนแย้ง ผลตรงข้ามกับที่คาด=="
+  status: draft
+- id: cefr-c2-w07-022
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "\"I've told you a million times\" is an example of ____."
+  choices:
+    - {t: hyperbole, why: "พูดเกินจริงเพื่อเน้น ใช้ ++hyperbole++"}
+    - {t: irony, why: "ไม่ใช่ความย้อนแย้ง"}
+    - {t: allegory, why: "ไม่ใช่เรื่องเล่า"}
+    - {t: paradox, why: "ไม่ใช่ข้อขัดแย้ง"}
+  explain: "hyperbole = ==การพูดเกินจริงเพื่อเน้น== (ออกเสียง ไฮ-เปอร์-โบ-ลี)"
+  status: draft
+- id: cefr-c2-w07-023
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 3
+  stem: "The smell of rain on hot streets is wonderfully ____ of childhood summers in Bangkok."
+  choices:
+    - {t: evocative, why: "ชวนให้นึกถึง ใช้ ++evocative of++"}
+    - {t: hackneyed, why: "hackneyed เป็นความหมายลบ"}
+    - {t: proverbial, why: "proverbial of ไม่ใช่สำนวน"}
+    - {t: figurative, why: "figurative of ไม่ใช่สำนวน"}
+  explain: "evocative of = ==ชวนให้นึกภาพหรือความรู้สึก=="
+  status: draft
+- id: cefr-c2-w07-024
+  kind: type
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  stem: "The film's final scene, where the old man waves goodbye, is deeply p________. (สะเทือนใจ)"
+  answer: poignant
+  accept: [poignant]
+  why: "poignant = สะเทือนใจ (ไม่ออกเสียง g)"
+  status: draft
+# ---------- วันที่ 3 · อุปลักษณ์ การเปรียบ การเสียดสี ----------
+- id: cefr-c2-w07-025
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 1
+  stem: "\"The office was a zoo this morning.\" What kind of language is this?"
+  choices:
+    - {t: a metaphor, why: "บอกว่าเป็นสิ่งหนึ่งโดยตรง ++ไม่ใช้ like/as++"}
+    - {t: a simile, why: "simile ต้องมี like หรือ as"}
+    - {t: a literal statement, why: "ออฟฟิศไม่ใช่สวนสัตว์จริง"}
+    - {t: an idiom about animals, why: "เป็นการเปรียบ ไม่ใช่สำนวนตายตัว"}
+  explain: "==metaphor = A คือ B== · simile = A เหมือน B (like / as)"
+  status: draft
+- id: cefr-c2-w07-026
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 1
+  stem: "\"Her voice was as smooth as silk.\" What does the comparison suggest?"
+  choices:
+    - {t: her voice was soft and pleasant, why: "simile เปรียบ ++เสียงนุ่มเหมือนผ้าไหม++"}
+    - {t: her voice was loud and quite hard to listen to, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: she sold silk, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+    - {t: her voice was weak, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  explain: "simile ==ดูว่าลักษณะไหนของสิ่งที่เปรียบถูกยืมมา=="
+  status: draft
+- id: cefr-c2-w07-027
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 2
+  stem: "\"Oh great, another meeting. Just what I needed.\" The speaker is being ____."
+  choices:
+    - {t: sarcastic, why: "พูดตรงข้ามกับที่รู้สึก ++ประชด++"}
+    - {t: enthusiastic, why: "ไม่ได้ดีใจจริง จึงใช้ไม่ได้"}
+    - {t: literal, why: "ไม่ได้หมายตามคำพูด"}
+    - {t: polite, why: "ไม่ใช่ความสุภาพ"}
+  explain: "sarcasm = ==พูดตรงข้ามเพื่อแสดงความไม่พอใจ=="
+  status: draft
+- id: cefr-c2-w07-028
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 2
+  stem: "\"The company is a ship without a captain.\" What is the writer suggesting?"
+  choices:
+    - {t: the company lacks leadership, why: "อุปลักษณ์ ++เรือไม่มีกัปตัน = ขาดผู้นำ++"}
+    - {t: the company sells boats, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+    - {t: the company is growing fast, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+    - {t: the company is moving overseas, why: "บทไม่ได้พูดว่า the company is moving overseas"}
+  explain: "อ่านอุปลักษณ์ ==หาลักษณะที่ทั้งสองสิ่งมีร่วมกัน=="
+  status: draft
+- id: cefr-c2-w07-029
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 2
+  stem: "Which sentence contains a mixed metaphor?"
+  choices:
+    - {t: "We'll burn that bridge when we come to it.", why: "ผสม cross that bridge กับ burn bridges ++อุปลักษณ์ผสมกันผิด++"}
+    - {t: "We'll cross that bridge when we come to it.", why: "สำนวนถูกต้อง จึงใช้ไม่ได้"}
+    - {t: "Don't burn your bridges with your old company.", why: "บทไม่ได้พูดว่า Don't burn your bridges with your old company."}
+    - {t: "The new road is a bridge between two communities.", why: "อุปลักษณ์ถูกต้อง"}
+  explain: "mixed metaphor = ==ผสมสองสำนวนจนความหมายขัดกัน=="
+  status: draft
+- id: cefr-c2-w07-030
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 2
+  stem: "\"Time crawled by during the long meeting.\" What figure of speech is \"crawled\"?"
+  choices:
+    - {t: personification, why: "ให้เวลาทำกริยาแบบสิ่งมีชีวิต ++บุคคลวัต++"}
+    - {t: simile, why: "ไม่มี like หรือ as"}
+    - {t: hyperbole, why: "ไม่ได้พูดเกินจริงเป็นหลัก"}
+    - {t: irony, why: "ไม่มีความย้อนแย้ง"}
+  explain: "personification = ==ให้สิ่งไม่มีชีวิตทำกริยาของสิ่งมีชีวิต=="
+  status: draft
+- id: cefr-c2-w07-031
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 3
+  stem: "A review says: \"The plot is about as thrilling as watching paint dry.\" The reviewer thinks the plot is ____."
+  choices:
+    - {t: extremely boring, why: "เปรียบกับการดูสีแห้ง ++ประชดว่าน่าเบื่อมาก++"}
+    - {t: very exciting and full of surprises, why: "thrilling ถูกใช้แบบประชด"}
+    - {t: about painting, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+    - {t: hard to follow, why: "ไม่ได้บอกว่ายาก"}
+  explain: "==as thrilling as watching paint dry== = ประชดว่าน่าเบื่อสุด ๆ"
+  status: draft
+- id: cefr-c2-w07-032
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 3
+  stem: "\"He has a heart of gold.\" Which is the closest literal meaning?"
+  choices:
+    - {t: he is very kind, why: "อุปลักษณ์ ++ใจทองคำ = ใจดีมาก++"}
+    - {t: he is very rich, why: "gold ในที่นี้ไม่ได้หมายถึงเงิน"}
+    - {t: he has a heart problem, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+    - {t: he is very strong, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  explain: "a heart of gold = ==ใจดี มีน้ำใจ=="
+  status: draft
+- id: cefr-c2-w07-033
+  kind: type
+  skill: gm
+  topic: figurative-language
+  level: 2
+  stem: "\"She runs like the wind\" is a s_____, because it uses \"like\". (การเปรียบด้วย like/as)"
+  answer: simile
+  accept: [simile]
+  why: "simile = การเปรียบเทียบที่ใช้ like หรือ as"
+  status: draft
+- id: cefr-c2-w07-034
+  kind: cloze
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  text: |
+    Starting a business is (1) ____ rocket science, but it isn't a walk in the park either. You need to do your homework, and you shouldn't put all your eggs in one (2) ____. Most importantly, don't count your (3) ____ before the first customers arrive.
+  questions:
+    - choices:
+        - {t: not exactly, why: "not exactly rocket science = ไม่ได้ยากขนาดนั้น"}
+        - {t: totally, why: "totally rocket science ขัดกับ but it isn't a walk in the park"}
+        - {t: "no", why: "is no rocket science ไม่ใช่สำนวนมาตรฐาน"}
+        - {t: never, why: "is never rocket science ไม่ใช่สำนวนมาตรฐาน"}
+    - choices:
+        - {t: basket, why: "put all your eggs in one basket"}
+        - {t: box, why: "สำนวนใช้ basket"}
+        - {t: bag, why: "บทไม่ได้พูดว่า bag"}
+        - {t: place, why: "บทไม่ได้พูดว่า place"}
+    - choices:
+        - {t: chickens, why: "don't count your chickens"}
+        - {t: eggs, why: "สำนวนใช้ chickens"}
+        - {t: money, why: "ไม่ใช่สำนวนนี้ จึงใช้ไม่ได้"}
+        - {t: profits, why: "บทไม่ได้พูดว่า profits"}
+  status: draft
+# ---------- วันที่ 4 · อ่านความเรียงเชิงวรรณศิลป์และฟังเรื่องเล่า ----------
+- id: cefr-c2-w07-035
+  kind: read
+  skill: rd
+  topic: literary-essay
+  level: 3
+  title: "The Inbox and the Garden"
+  passage: |
+    My grandmother kept a vegetable garden for sixty years. She never once described it as a project, a goal or a challenge. It was simply there, like the weather, demanding a little attention every morning and offering, in return, a basket of beans or a single, slightly lopsided pumpkin. I think of her garden often these days, usually while staring at my inbox.
+
+    The inbox, unlike the garden, never produces anything. It is a field in which every weed you pull is instantly replaced by two more, a place where the harvest is always next week. We speak of "clearing" it, as if it were a forest, and of "drowning" in it, as if it were the sea. These are not idle metaphors. They reveal how we feel about work: something to be fought, survived, escaped.
+
+    My grandmother would have found this baffling. Her work had a shape. It began when the sun came up and ended when the light failed. It had seasons, and in winter the garden rested, and so did she. The great paradox of modern work is that we have more tools for saving time than any generation in history, and less time than almost any of them.
+
+    I am not suggesting that we should all abandon our desks and take up farming; the romantic image of rural life has always been more hackneyed than accurate, and my grandmother's back ached for most of her adult life. But there is something worth noticing in the language we choose. A garden is tended. An inbox is managed. One word suggests care, the other control.
+
+    Perhaps the answer is not fewer emails but a different relationship with them: to accept that, like weeds, they will always return, and to measure a day not by how much we have cleared but by what we have grown.
+  questions:
+    - stem: How does the writer contrast the garden and the inbox?
+      choices:
+        - {t: the garden produced results while the inbox never ends, why: "The inbox, unlike the garden, never produces anything ... harvest is always next week"}
+        - {t: both are equally rewarding ways of spending your time, why: "ผู้เขียนเปรียบให้เห็นความต่าง"}
+        - {t: the inbox is easier to manage, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the garden caused more stress, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+    - stem: Why does the writer mention words like "clearing" and "drowning"?
+      choices:
+        - {t: to show they reveal negative attitudes to work, why: "They reveal how we feel about work: something to be fought, survived, escaped"}
+        - {t: to describe a real forest and sea near the writer's home, why: "เป็นอุปลักษณ์ จึงใช้ไม่ได้"}
+        - {t: to criticise grammar mistakes, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
+        - {t: to praise modern technology, why: "บทไม่ได้พูดว่า to praise modern technology"}
+    - stem: Does the writer believe rural life was ideal?
+      choices:
+        - {t: "No; the writer admits it was romanticised and hard.", why: "more hackneyed than accurate, and my grandmother's back ached"}
+        - {t: "Yes; it was a perfect and peaceful way of life.", why: "ผู้เขียนยอมรับว่าชีวิตชนบทลำบาก"}
+        - {t: "The writer never mentions rural life at all.", why: "พูดถึงในย่อหน้า 4"}
+        - {t: "Yes; everyone should leave the city and become a farmer.", why: "I am not suggesting that we should all abandon our desks"}
+    - stem: What does the final paragraph suggest?
+      choices:
+        - {t: we should change how we judge a productive day, why: "measure a day not by how much we have cleared but by what we have grown"}
+        - {t: we should stop using email, why: "Perhaps the answer is not fewer emails"}
+        - {t: we should plant vegetables at work, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+        - {t: we should work longer hours to keep up with our email, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w07-036
+  kind: listen
+  skill: li
+  topic: humorous-story
+  level: 3
+  script:
+    - {who: Man, en: "My first day at the new job was, shall we say, a learning experience. I spilled coffee on the CEO, locked myself out of the building and called my boss by the wrong name. Twice."}
+  questions:
+    - stem: How does the speaker describe his first day?
+      choices:
+        - {t: with ironic understatement, why: "a learning experience = ++พูดเบาแบบขำ ๆ ทั้งที่แย่มาก++"}
+        - {t: as a complete success, why: "มีเรื่องผิดพลาดหลายอย่าง"}
+        - {t: with real anger at his boss and his new colleagues, why: "ไม่ได้โกรธ จึงใช้ไม่ได้"}
+        - {t: as boring, why: "ไม่ได้บอกว่าน่าเบื่อ"}
+  status: draft
+- id: cefr-c2-w07-037
+  kind: listen
+  skill: li
+  topic: humorous-story
+  level: 3
+  script:
+    - {who: Woman, en: "The train was so crowded you couldn't have fitted a sheet of paper between the passengers. I arrived at work flatter than a pancake."}
+  questions:
+    - stem: What is the speaker emphasising?
+      choices:
+        - {t: how crowded the train was, why: "ใช้ hyperbole และ simile ++เน้นว่าแน่นมาก++"}
+        - {t: that she ate pancakes, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+        - {t: that she lost some paper, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
+        - {t: that the train was late and she missed an important meeting, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w07-038
+  kind: listen
+  skill: li
+  topic: humorous-story
+  level: 3
+  script:
+    - {who: Man, en: "Of course, the one day I leave my umbrella at home, the heavens open. Typical."}
+  questions:
+    - stem: What happened?
+      choices:
+        - {t: it rained heavily when he had no umbrella, why: "the heavens open = ++ฝนตกหนัก++"}
+        - {t: the weather was perfect for a long walk without an umbrella, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: he went to church, why: "ไม่ใช่ความหมายตามตัวอักษร"}
+        - {t: he found his umbrella, why: "ลืมไว้ที่บ้าน จึงใช้ไม่ได้"}
+  status: draft
+- id: cefr-c2-w07-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [By and large, the trip went well, despite, a few delays]
+  sentence: By and large, the trip went well, despite a few delays.
+  th: โดยรวมการเดินทางไปได้ดี แม้จะล่าช้าบ้าง
+  why: "by and large ขึ้นต้น แล้ว despite + คำนาม"
+  status: draft
+- id: cefr-c2-w07-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Learning a language, is like, tending a garden, it needs daily care]
+  sentence: Learning a language is like tending a garden; it needs daily care.
+  th: การเรียนภาษาก็เหมือนดูแลสวน ต้องใส่ใจทุกวัน
+  why: "simile is like + -ing แล้วอธิบายจุดที่เหมือน"
+  status: draft
+- id: cefr-c2-w07-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We decided, to bury the hatchet, and start, working together again]
+  sentence: We decided to bury the hatchet and start working together again.
+  th: เราตัดสินใจคืนดีกันและเริ่มทำงานด้วยกันอีกครั้ง
+  why: "decide to + สำนวน bury the hatchet + and start + -ing"
+  status: draft
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-c2-w07-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [That first week, felt like, learning to swim, in the middle, of a stormy sea]
+  sentence: That first week felt like learning to swim in the middle of a stormy sea.
+  th: สัปดาห์แรกนั้นรู้สึกเหมือนหัดว่ายน้ำกลางทะเลที่มีพายุ
+  why: "felt like + -ing (simile) ใช้เล่าประสบการณ์ให้เห็นภาพ"
+  status: draft

@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 7 · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 7
+phase: 2
+theme_th: สำนวนและความหมายเชิงเปรียบ
+focus_th: สำนวนและคู่คำตายตัว · รู้ว่าเมื่อใดไม่ควรใช้ · อุปลักษณ์ การเปรียบ บุคคลวัต การประชด การพูดเกินจริง
+can_do_th:
+  - ใช้สำนวนได้เหมาะกับระดับภาษาและสถานการณ์
+  - ตีความภาษาเชิงเปรียบและน้ำเสียงประชดในบทอ่านได้
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: สำนวนและคู่คำตายตัว
+    lesson:
+      rule_th: "สำนวนเป็นก้อนตายตัว ==เปลี่ยนคำหรือสลับลำดับไม่ได้== (bury the hatchet ไม่ใช่ bury the sword) · ++ระดับ C2 ต้องรู้ว่าเมื่อไรไม่ควรใช้++ สำนวนภาษาพูดไม่เหมาะกับรายงานทางการ"
+      examples:
+        - {en: "They decided to <k>bury the hatchet</k>.", th: "คืนดีกัน"}
+        - {en: "<k>By and large</k>, it went well.", th: "==คู่คำตายตัว โดยรวม=="}
+        - {en: "It's <k>not rocket science</k>.", th: "ไม่ได้ยาก"}
+        - {en: "The project <k>went belly up</k>.", th: "ภาษาพูด ไม่ใส่รายงาน"}
+      signals:
+        - {label_th: "คู่คำตายตัว", words: ["pros and cons", "by and large", "safe and sound", "sooner or later", "odds and ends"]}
+      thai_trap:
+        intro_th: "คนไทยท่องสำนวนแล้ว ~~ใช้ทุกที่~~ แม้ในอีเมลทางการ หรือแปลสำนวนไทยตรงตัวเป็นอังกฤษ"
+        wrong: ["Dear Sir, our project went belly up.", "He is like a frog in a well. (แปลตรงจากกบในกะลา)"]
+        right: ["Dear Sir, our project did not achieve its objectives.", "He has a very narrow view of the world."]
+      notes:
+        - {kind: tip, th: "สำนวนใหม่ ==ค้นดูว่าใช้ในบริบทไหน== ก่อนเอาไปใช้"}
+        - {kind: warn, th: "สำนวนไทยแปลตรงตัวมักไม่มีความหมายในภาษาอังกฤษ"}
+    check: [cefr-c2-w07-001, cefr-c2-w07-002]
+    practice: [cefr-c2-w07-003, cefr-c2-w07-004, cefr-c2-w07-005, cefr-c2-w07-006, cefr-c2-w07-007, cefr-c2-w07-008, cefr-c2-w07-009, cefr-c2-w07-010, cefr-c2-w07-011, cefr-c2-w07-012]
+    use:
+      prompt_th: เขียน 2 ประโยคให้เพื่อนแบบไม่ทางการ ใช้สำนวน 2 สำนวน แล้วเขียนประโยคเดียวกันแบบทางการ
+      frame: "Informal: ____. Formal: ____."
+      model: "Informal: Don't put all your eggs in one basket; sooner or later one investment will fail. Formal: It would be wise to diversify your investments, as some are likely to underperform."
+    classroom: {en: "By and large, it went well.", th: "โดยรวมก็ไปได้ดี"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ภาษาเชิงวรรณศิลป์ 12 คำ
+    lesson:
+      rule_th: "คำศัพท์ชุดนี้ใช้พูดถึงภาษาและวรรณกรรม ==ชนิดของการเปรียบ analogy== · allegory · paradox · irony · hyperbole และ ++คุณศัพท์ประเมินงานเขียน evocative++ (บวก) กับ hackneyed (ลบ)"
+      examples:
+        - {en: "the <k>quintessential</k> London scene", th: "ต้นแบบสมบูรณ์"}
+        - {en: "<k>hackneyed</k> phrases", th: "==ซ้ำซากจนจืด=="}
+        - {en: "The <k>irony</k> is that the fire station burned down.", th: "ความย้อนแย้ง"}
+        - {en: "<k>evocative of</k> childhood summers", th: "ชวนให้นึกถึง"}
+      words:
+        - {w: quintessential, pos: adj., th: เป็นต้นแบบสมบูรณ์, ex: "a quintessential Thai market"}
+        - {w: proverbial, pos: adj., th: ตามสำนวนว่าไว้, ex: "the proverbial needle in a haystack"}
+        - {w: figurative, pos: adj., th: เชิงเปรียบ, ex: "in a figurative sense"}
+        - {w: hackneyed, pos: adj., th: ซ้ำซากจำเจ, ex: "a hackneyed plot"}
+        - {w: cliche, pos: n., th: คำพูดที่ใช้จนเฝือ, ex: "Avoid cliches in your essay."}
+        - {w: analogy, pos: n., th: การเปรียบเทียบเพื่ออธิบาย, ex: "She drew an analogy with sport."}
+        - {w: allegory, pos: n., th: เรื่องที่มีความหมายแฝง, ex: "The novel is an allegory of war."}
+        - {w: paradox, pos: n., th: ความย้อนแย้งที่เป็นจริง, ex: "It's a paradox that silence can be loud."}
+        - {w: irony, pos: n., th: ความย้อนแย้ง การประชด, ex: "The irony was not lost on anyone."}
+        - {w: hyperbole, pos: n., th: การพูดเกินจริง, ex: "That's pure hyperbole."}
+        - {w: evocative, pos: adj., th: ชวนให้นึกภาพ, ex: "an evocative photograph"}
+        - {w: poignant, pos: adj., th: สะเทือนใจ, ex: "a poignant reminder"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~ironic กับเรื่องบังเอิญหรือโชคร้ายทั่วไป~~ ทั้งที่ irony ต้องเป็นผลที่ตรงข้ามกับที่คาด"
+        wrong: ["It's ironic that it rained on my day off. (แค่โชคร้าย)"]
+        right: ["It's ironic that the weather forecaster got soaked because he trusted his own forecast."]
+      notes:
+        - {kind: pin, th: "==hyperbole ออกเสียง ไฮ-เปอร์-โบ-ลี== ไม่ใช่ ไฮเปอร์โบล"}
+        - {kind: use, th: "วิจารณ์งานเขียน The imagery is evocative, but the ending feels hackneyed."}
+    check: [cefr-c2-w07-013, cefr-c2-w07-014]
+    practice: [cefr-c2-w07-015, cefr-c2-w07-016, cefr-c2-w07-017, cefr-c2-w07-018, cefr-c2-w07-019, cefr-c2-w07-020, cefr-c2-w07-021, cefr-c2-w07-022, cefr-c2-w07-023, cefr-c2-w07-024]
+    use:
+      prompt_th: เขียน 2 ประโยคพูดถึงหนังหรือหนังสือที่คุณชอบ ใช้คำศัพท์ประเมินงานอย่างน้อย 2 คำ
+      frame: "The ____ is wonderfully evocative of ____, although ____ felt a little hackneyed."
+      model: "The opening scene is wonderfully evocative of life in a small southern town, although the love story felt a little hackneyed."
+    classroom: {en: "That's a bit of a cliche, isn't it?", th: "นั่นออกจะเป็นคำพูดเฝือ ๆ นะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: อุปลักษณ์ การเปรียบ และการเสียดสี
+    lesson:
+      rule_th: "ตีความภาษาเชิงเปรียบด้วยคำถามเดียว ==สองสิ่งนี้มีอะไรร่วมกัน== · ++metaphor (A คือ B)++ · simile (A เหมือน B) · personification (ให้สิ่งของทำกริยาของคน) · ประชด = คำพูดตรงข้ามกับสถานการณ์"
+      examples:
+        - {en: "The office was <k>a zoo</k>.", th: "metaphor วุ่นวาย"}
+        - {en: "Her voice was <k>as smooth as silk</k>.", th: "==simile=="}
+        - {en: "Time <k>crawled</k> by.", th: "personification"}
+        - {en: "<k>Oh great</k>, another meeting.", th: "ประชด"}
+      signals:
+        - {label_th: "สัญญาณการประชด", words: ["Oh great / Just what I needed", "Of course ... Typical.", "as thrilling as watching paint dry", "น้ำเสียงขัดกับสถานการณ์"]}
+      thai_trap:
+        intro_th: "ผู้อ่านไทยตีความ ~~ตามตัวอักษร~~ เมื่อเจออุปลักษณ์หรือประชดในบทอ่าน และเลือกคำตอบที่ตรงกับคำพูดแทนความหมาย"
+        wrong: ["'as thrilling as watching paint dry' → ตอบว่าเรื่องน่าตื่นเต้น"]
+        right: ["'as thrilling as watching paint dry' → ประชดว่าน่าเบื่อมาก"]
+      notes:
+        - {kind: tip, th: "ระวัง ==mixed metaphor== ใช้สำนวนเดียวต่อหนึ่งภาพ"}
+        - {kind: use, th: "เล่าเรื่องให้มีชีวิต It felt like ... / It was like ..."}
+    check: [cefr-c2-w07-025, cefr-c2-w07-026]
+    practice: [cefr-c2-w07-027, cefr-c2-w07-028, cefr-c2-w07-029, cefr-c2-w07-030, cefr-c2-w07-031, cefr-c2-w07-032, cefr-c2-w07-033, cefr-c2-w07-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายวันทำงานที่วุ่นวายที่สุด ใช้ simile และ metaphor อย่างละครั้ง
+      frame: "My desk was ____. I felt like ____."
+      model: "My desk was a battlefield of paper and empty coffee cups. I felt like a juggler who had been handed one ball too many."
+    classroom: {en: "It was like herding cats.", th: "วุ่นวายจัดการยากสุด ๆ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านความเรียงเชิงวรรณศิลป์และฟังเรื่องเล่าที่มีอารมณ์ขัน
+    lesson:
+      rule_th: "ความเรียงเชิงวรรณศิลป์ ==ใช้ภาพเปรียบหลักภาพเดียวตลอดเรื่อง== (สวนกับกล่องอีเมล) ++คำถามมักถามว่าภาพเปรียบสื่ออะไร++ ไม่ใช่ข้อเท็จจริงตามตัวอักษร"
+      examples:
+        - {en: "a field in which every <k>weed</k> you pull is replaced", th: "อีเมล = วัชพืช"}
+        - {en: "<k>These are not idle metaphors.</k>", th: "==ผู้เขียนบอกให้ตีความ=="}
+        - {en: "A garden is <k>tended</k>. An inbox is <k>managed</k>.", th: "ความต่างของคำเลือก"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นภาพเปรียบสวนแล้ว ~~ตอบว่าผู้เขียนอยากให้ทุกคนไปปลูกผัก~~ ทั้งที่มีประโยคปฏิเสธชัดเจน"
+        wrong: ["ผู้เขียนเสนอให้เลิกทำงานออฟฟิศแล้วไปทำสวน"]
+        right: ["ผู้เขียนเสนอให้เปลี่ยนวิธีมองงาน วัดวันด้วยสิ่งที่สร้าง ไม่ใช่สิ่งที่เคลียร์"]
+      notes:
+        - {kind: tip, th: "หาประโยค ==I am not suggesting== / Perhaps the answer is เพื่อจับข้อเสนอจริง"}
+        - {kind: use, th: "ฟังเรื่องขำ ๆ จับ understatement เช่น a learning experience = แย่มาก"}
+    check: [cefr-c2-w07-036, cefr-c2-w07-037]
+    practice: [cefr-c2-w07-035, cefr-c2-w07-038, cefr-c2-w07-039, cefr-c2-w07-040, cefr-c2-w07-041]
+    use:
+      prompt_th: เขียน 2 ประโยคอธิบายภาพเปรียบหลักในความเรียงและสิ่งที่มันสื่อ
+      frame: "The writer compares ____ to ____. This suggests that ____."
+      model: "The writer compares the inbox to a field of weeds that never stops growing. This suggests that modern work feels endless and unrewarding."
+    classroom: {en: "That's not an idle metaphor.", th: "นั่นไม่ใช่แค่การเปรียบลอย ๆ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 25
+    title_th: ห้องฝึกพูด เล่าประสบการณ์โดยใช้การเปรียบให้เห็นภาพ 3 นาที
+    lab:
+      mode: speak
+      prompt_th: "พูด 3 นาทีเล่าประสบการณ์หนึ่งที่จำได้ชัด (วันแรกที่ทำงาน · เดินทางคนเดียวครั้งแรก · การย้ายบ้าน · ครั้งแรกที่ต้องพูดต่อหน้าคนมาก) ใช้การเปรียบ สำนวน และอารมณ์ขันเล็กน้อยให้ผู้ฟังเห็นภาพ"
+      frame:
+        - "I'll never forget ____. It was, shall we say, ____."
+        - "At first, I felt like ____."
+        - "The ____ was as ____ as ____."
+        - "Looking back, it was a classic case of ____."
+        - "If that experience taught me anything, it's that ____."
+      model_pass: "I'll never forget my first day as a waiter in a busy restaurant in Phuket. It was, shall we say, a learning experience. At first, I felt like a fish out of water. Everyone else knew exactly where to go, and I just stood in the middle of the room holding three plates. The kitchen was as hot as an oven, and the chef shouted at me like a football coach. Then I dropped a whole plate of noodles on a customer's shoes. Looking back, it was a classic case of trying to run before I could walk. If that experience taught me anything, it's that everyone starts somewhere, and the second day is always easier than the first."
+      model_good: "I'll never forget my first evening as a waiter in a seafood restaurant in Phuket. It was, to put it mildly, a learning experience. Within ten minutes I felt like a fish out of water, which, given the restaurant, was rather appropriate. The other staff moved around the tables like dancers who had rehearsed for years, while I stood in the middle of the room clutching three plates and wondering which of the forty identical tables was number twelve. The kitchen was as hot as the inside of a volcano, and the head chef barked orders at me like a drill sergeant who had lost his patience in about 1985. The climax, inevitably, came when I tipped an entire plate of chilli crab onto a tourist's brand-new white trainers. Looking back, it was a classic case of trying to run before I could walk. If that evening taught me anything, it's that dignity is overrated, and that the second night, however bad, is never quite as bad as the first."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกประสบการณ์จริงแล้วจดเหตุการณ์ 3 ช่วง และภาพเปรียบที่ใช้ได้
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ simile หรือ metaphor อย่างน้อย 3 จุดที่เห็นภาพชัด
+        - ใช้สำนวนตายตัวอย่างน้อย 2 สำนวนอย่างถูกต้อง (ไม่ผสมกัน)
+        - มีอารมณ์ขันหรือ understatement อย่างน้อย 1 จุด
+        - มีข้อคิดตอนท้าย และพูดได้ประมาณ 3 นาทีอย่างลื่นไหล
+    practice: [cefr-c2-w07-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 7
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [5, 6, 7], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
