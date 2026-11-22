@@ -1,0 +1,170 @@
+# คอร์ส c2 · สัปดาห์ 8 · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/c2
+week: 8
+phase: 2
+theme_th: คำที่ใช้คู่กันระดับเจ้าของภาษา
+focus_th: collocation กริยา+นาม และคุณศัพท์+นาม · คำพ้องที่แทนกันไม่ได้ · กริยาวลีหลายความหมาย · วลีบุพบทตายตัว · คู่ทางการกับไม่ทางการ
+can_do_th:
+  - เลือกคำที่ใช้คู่กันได้แม่นและเป็นธรรมชาติ
+  - เขียนรายงานผลการดำเนินงานด้วยภาษาทางการที่ถูกระดับ
+status: draft
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: คำที่ใช้คู่กันอย่างแม่นยำ
+    lesson:
+      rule_th: "ระดับ C2 แยกกันที่ ==คู่คำ (collocation)== ไม่ใช่ไวยากรณ์ คำพ้องหลายคำแทนกันได้ไม่ทุกคู่ (a big / serious / grave mistake แต่ไม่ใช่ a tall mistake) ++จำคำเป็นก้อน++ กริยา + นาม และคุณศัพท์ + นาม"
+      examples:
+        - {en: "<k>issue</k> an apology", th: "ทางการ"}
+        - {en: "<k>exercise</k> caution", th: "==ใช้ความระมัดระวัง=="}
+        - {en: "<k>draw</k> a conclusion", th: "สรุป"}
+        - {en: "a <k>distinct</k> possibility", th: "เป็นไปได้จริง"}
+      signals:
+        - {label_th: "กริยาที่ใช้กับนามหลายตัว", words: ["draw: a conclusion / a distinction", "exercise: caution / restraint", "meet with: success / opposition", "strike: a balance / a deal"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ ทำ / ให้ / มี กับคำนามแทบทุกคำ คนจึงใช้ ~~do / make / give~~ แทนกริยาเฉพาะของคู่คำ"
+        wrong: ["We need to make a balance.", "They did a conclusion from the data."]
+        right: ["We need to strike a balance.", "They drew a conclusion from the data."]
+      notes:
+        - {kind: tip, th: "เจอคำนามใหม่ ==จดกริยาและคุณศัพท์ที่ใช้คู่กัน== ไปพร้อมกัน"}
+        - {kind: use, th: "รายงาน The scheme has met with considerable success."}
+    check: [cefr-c2-w08-001, cefr-c2-w08-002]
+    practice: [cefr-c2-w08-003, cefr-c2-w08-004, cefr-c2-w08-005, cefr-c2-w08-006, cefr-c2-w08-007, cefr-c2-w08-008, cefr-c2-w08-009, cefr-c2-w08-010, cefr-c2-w08-011, cefr-c2-w08-012]
+    use:
+      prompt_th: เขียน 2 ประโยครายงานผลโครงการหนึ่ง ใช้คู่คำของวันนี้อย่างน้อย 3 คู่
+      frame: "The project has met with ____. However, we must exercise ____ and strike ____."
+      model: "The project has met with considerable success in its first year. However, we must exercise caution before expanding, and strike a balance between growth and quality."
+    classroom: {en: "Let's not draw any conclusions yet.", th: "อย่าเพิ่งสรุปอะไรตอนนี้"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์กริยาทางการ 12 คำ
+    lesson:
+      rule_th: "กริยาทางการชุดนี้มีคู่คำตายตัว ==ผลดี reap / garner · ผลเสีย incur== · ++มอบให้ confer / bestow on · เก็บ levy on++ · ความคิด harbour (เก็บไว้ในใจ) espouse (ยึดถือ) instil (ปลูกฝัง)"
+      examples:
+        - {en: "<k>reap</k> the benefits", th: "ได้ผลดี"}
+        - {en: "<k>incur</k> a fee", th: "==ต้องเสียค่าใช้จ่าย=="}
+        - {en: "<k>levy</k> a charge on tourists", th: "ผู้เก็บเป็นประธาน"}
+        - {en: "<k>instil</k> a love of reading in students", th: "ปลูกฝัง"}
+      words:
+        - {w: exert, pos: v., th: ใช้ (แรง อิทธิพล), ex: "exert pressure on the government"}
+        - {w: wield, pos: v., th: ถือและใช้ (อำนาจ), ex: "She wields enormous influence."}
+        - {w: incur, pos: v., th: ต้องรับภาระ, ex: "incur extra costs"}
+        - {w: garner, pos: v., th: รวบรวมได้มา, ex: "garner public support"}
+        - {w: reap, pos: v., th: เก็บเกี่ยวผล, ex: "reap the rewards"}
+        - {w: levy, pos: v., th: เก็บ (ภาษี ค่าธรรมเนียม), ex: "levy a tax on sugar"}
+        - {w: confer, pos: v., th: มอบ (ปริญญา สิทธิ์), ex: "confer a degree on someone"}
+        - {w: bestow, pos: v., th: มอบ (เกียรติ), ex: "bestow an honour on her"}
+        - {w: harbour, pos: v., th: เก็บไว้ในใจ, ex: "harbour doubts"}
+        - {w: espouse, pos: v., th: ยึดถือสนับสนุน, ex: "espouse a cause"}
+        - {w: instil, pos: v., th: ปลูกฝัง, ex: "instil confidence in children"}
+        - {w: redress, pos: v./n., th: แก้ไขความไม่เป็นธรรม, ex: "redress the balance"}
+      thai_trap:
+        intro_th: "คนไทยใช้ ~~incur กับผู้เก็บเงิน~~ และ ~~levy กับผู้จ่าย~~ สลับกัน เพราะภาษาไทยใช้ เก็บ/เสีย ปนกัน"
+        wrong: ["The city will incur a tax on tourists.", "Tourists will levy a small fee."]
+        right: ["The city will levy a tax on tourists.", "Tourists will incur a small fee."]
+      notes:
+        - {kind: pin, th: "==levy = ผู้เก็บ · incur = ผู้จ่าย=="}
+        - {kind: warn, th: "สะกดแบบบริติช instil / harbour · อเมริกัน instill / harbor"}
+    check: [cefr-c2-w08-013, cefr-c2-w08-014]
+    practice: [cefr-c2-w08-015, cefr-c2-w08-016, cefr-c2-w08-017, cefr-c2-w08-018, cefr-c2-w08-019, cefr-c2-w08-020, cefr-c2-w08-021, cefr-c2-w08-022, cefr-c2-w08-023, cefr-c2-w08-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเกี่ยวกับนโยบายหรือโครงการในเมืองของคุณ ใช้กริยาทางการอย่างน้อย 3 คำ
+      frame: "The ____ has garnered ____, but it has also incurred ____. Some residents still harbour ____."
+      model: "The new bike-sharing scheme has garnered strong support from students, but it has also incurred higher maintenance costs than expected. Some residents still harbour doubts about road safety."
+    classroom: {en: "You'll reap the benefits later.", th: "เดี๋ยวก็ได้ผลดีตามมาเอง"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กริยาวลีหลายความหมายและวลีบุพบทตายตัว
+    lesson:
+      rule_th: "กริยาวลีหนึ่งคำมีหลายความหมาย ==ดูประธานและบริบท== (pick up = ไปรับ · เก็บ · ซึมซับ · ดีขึ้น) · ++งานเขียนทางการมักใช้คำเดี่ยวแทนกริยาวลี++ (find out → ascertain · put off → postpone) · วลีบุพบทตายตัวต้องจำ (at risk of · in accordance with)"
+      examples:
+        - {en: "Sales usually <k>pick up</k> in December.", th: "ดีขึ้น"}
+        - {en: "The plan didn't <k>come off</k>.", th: "==สำเร็จ=="}
+        - {en: "She <k>took to</k> the job immediately.", th: "ชอบทันที"}
+        - {en: "<k>In accordance with</k> the rules, ...", th: "ตาม (ทางการ)"}
+      signals:
+        - {label_th: "กริยาวลี → คำทางการ", words: ["find out → ascertain", "put off → postpone", "set up → establish", "carry out → conduct", "look into → investigate"]}
+      thai_trap:
+        intro_th: "คนไทยใช้บุพบทตามภาษาไทย เขียน ~~in risk of~~ หรือ ~~according with~~"
+        wrong: ["The species is in risk of extinction.", "According with the rules, ..."]
+        right: ["The species is at risk of extinction.", "In accordance with the rules, ..."]
+      notes:
+        - {kind: tip, th: "อีเมลทางการ ==เปลี่ยนกริยาวลีเป็นคำเดี่ยว== ฟังเป็นมืออาชีพขึ้น"}
+        - {kind: warn, th: "ภาษาพูดใช้กริยาวลีเป็นธรรมชาติกว่า อย่าใช้คำทางการเกินไปกับเพื่อน"}
+    check: [cefr-c2-w08-025, cefr-c2-w08-026]
+    practice: [cefr-c2-w08-027, cefr-c2-w08-028, cefr-c2-w08-029, cefr-c2-w08-030, cefr-c2-w08-031, cefr-c2-w08-032, cefr-c2-w08-033, cefr-c2-w08-034]
+    use:
+      prompt_th: เขียนประโยคเดียวกัน 2 แบบ แบบพูดกับเพื่อนด้วยกริยาวลี และแบบอีเมลทางการ
+      frame: "Informal: We need to find out ____ and put off ____. Formal: We need to ascertain ____ and postpone ____."
+      model: "Informal: We need to find out why the system crashed and put off the launch for a week. Formal: We need to ascertain the cause of the system failure and postpone the launch by one week."
+    classroom: {en: "Things should pick up next month.", th: "เดือนหน้าน่าจะดีขึ้น"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านรายงานประจำปีและฟังสัมภาษณ์เชิงลึก
+    lesson:
+      rule_th: "รายงานประจำปีขององค์กรเรียง ==ความสำเร็จ → ปัญหา → การแก้ไข → แผนต่อไป== และ ++ใช้ภาษาที่ลดความรุนแรงของปัญหา++ (tempered by challenges · not without cost) คำถามมักถามข้อเท็จจริงที่ซ่อนในภาษาสุภาพ"
+      examples:
+        - {en: "a year of achievement, <k>tempered by</k> real challenges", th: "ยอมรับปัญหาอย่างนุ่ม"}
+        - {en: "<k>has not come without cost</k>", th: "==มีค่าใช้จ่ายตามมา=="}
+        - {en: "a problem we had <k>hitherto underestimated</k>", th: "ยอมรับความผิดพลาด"}
+      thai_trap:
+        intro_th: "ผู้อ่านเห็นคำชมยาวแล้ว ~~ข้ามส่วนปัญหา~~ ทั้งที่คำถามมักอยู่ที่ปัญหาและการตัดสินใจ"
+        wrong: ["ตอบว่ามูลนิธิจะขยายไปจังหวัดใหม่ เพราะความต้องการสูง"]
+        right: ["มูลนิธิตัดสินใจไม่ขยาย เพราะเงินทุนและอาสาสมัครยังไม่พอ"]
+      notes:
+        - {kind: tip, th: "หาคำ ==however== · at the same time · while we recognise ที่นำไปสู่ปัญหาหรือการตัดสินใจ"}
+        - {kind: use, th: "ฟังสัมภาษณ์ จับคำว่า what turned things around was ..."}
+    check: [cefr-c2-w08-036, cefr-c2-w08-037]
+    practice: [cefr-c2-w08-035, cefr-c2-w08-038, cefr-c2-w08-039, cefr-c2-w08-040, cefr-c2-w08-041]
+    use:
+      prompt_th: เขียน 2 ประโยคสรุปความสำเร็จและปัญหาหลักของมูลนิธิ ใช้คู่คำทางการ
+      frame: "The foundation has met with ____, but it has also incurred ____ and faced ____."
+      model: "The foundation has met with considerable success in reaching young readers, but it has also incurred transport costs well above budget and faced difficulty keeping volunteers."
+    classroom: {en: "What turned things around was ...", th: "สิ่งที่ทำให้สถานการณ์พลิกกลับคือ..."}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 35
+    title_th: ห้องฝึกเขียน รายงานสรุปผลการดำเนินงาน 280 คำ
+    lab:
+      mode: write
+      prompt_th: "เขียนรายงานสรุปผลการดำเนินงานประมาณ 280 คำของทีม ชมรม หรือโครงการหนึ่ง (จริงหรือสมมติ) ในรอบปี บอกความสำเร็จที่วัดได้ ปัญหาหรือค่าใช้จ่ายที่เกินคาด สิ่งที่ทำเพื่อแก้ และแผนปีหน้า ใช้คู่คำและกริยาทางการของสัปดาห์นี้"
+      frame:
+        - "Overview: This year has been ____, tempered by ____."
+        - "Achievements: The ____ has met with ____ and garnered ____."
+        - "Challenges: However, we incurred ____ and had to acknowledge ____."
+        - "Response: In response, we adopted ____, which ____."
+        - "Next year: Our priority will be to ____ rather than ____."
+      model_pass: "This has been a successful year for the Riverside Running Club, although it has not been without problems. Membership rose from 80 to 140, and our Sunday beginners' group has met with considerable success, with most new runners completing their first five-kilometre race. The club also garnered support from local businesses, which sponsored our charity run and helped us raise 85,000 baht for the children's hospital. However, we incurred higher costs than expected for insurance and equipment, and we had to acknowledge that many new members stopped coming after two or three months. In response, we adopted a buddy system in which each new runner trains with an experienced member. Early results suggest that this has helped people stay. Next year, our priority will be to keep our current members rather than grow quickly. We also plan to strike a better balance between competitive training and social events, so that the club remains welcoming for runners of every level."
+      model_good: "This has been a year of considerable achievement for the Riverside Running Club, tempered by some genuine challenges. Membership grew from 80 to 140, and the Sunday beginners' programme has met with remarkable success: over 70% of participants completed their first five-kilometre race within three months. The club also garnered substantial support from local businesses, whose sponsorship of our annual charity run enabled us to raise 85,000 baht for the children's hospital. Growth, however, has not come without cost. We incurred insurance and equipment expenses almost 40% above budget, and we were forced to acknowledge a problem we had hitherto underestimated: nearly half of new members stopped attending within three months. In response, we adopted a buddy scheme, pairing each newcomer with an experienced runner, and early indications suggest that it is beginning to bear fruit. Looking ahead, the committee has decided against an active recruitment campaign. Our priority will instead be to consolidate the membership we have, strike a better balance between competitive training and social activities, and instil in every member the sense that the club belongs to them. We believe that, in the long run, this approach will allow us to reap far greater rewards than rapid expansion."
+      steps_th:
+        - จดผลงานที่วัดได้ 2 ข้อ ปัญหา 1–2 ข้อ การแก้ไข และแผนปีหน้า
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ส่วนแล้วเขียนให้ได้ประมาณ 250–300 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+        - ขีดเส้นใต้คู่คำทุกคู่ แล้วตรวจว่าใช้ถูกคู่
+      checklist_th:
+        - ใช้คู่คำและกริยาทางการอย่างน้อย 6 จุด ถูกคู่ทุกจุด
+        - มีตัวเลขหรือผลที่วัดได้อย่างน้อย 2 จุด
+        - พูดถึงปัญหาอย่างตรงไปตรงมาแต่ใช้ภาษาทางการ
+        - ไม่มีกริยาวลีภาษาพูด และยาวประมาณ 280 คำ
+    practice: [cefr-c2-w08-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 8
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/c2, weeks: [6, 7, 8], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
