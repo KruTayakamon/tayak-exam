@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 8 · คำที่ใช้คู่กันระดับเจ้าของภาษา · collocation กริยา+นาม คุณศัพท์+นาม · คำพ้องที่แทนกันไม่ได้ · กริยาวลีหลายความหมาย · วลีบุพบทตายตัว
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · คำที่ใช้คู่กันอย่างแม่นยำ ----------
 - id: cefr-c2-w08-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: say, why: "say an apology ไม่เป็นธรรมชาติ ใช้ say sorry"}
     - {t: give out, why: "give out an apology ไม่ใช่คู่คำ"}
   explain: "ทางการ ==issue an apology== / a statement / a warning"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: different, why: "a different possibility เปลี่ยนความหมาย"}
     - {t: clear-cut, why: "clear-cut ไม่ใช้กับ possibility"}
   explain: "==a distinct possibility== = มีโอกาสจริง ๆ"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: hold, why: "hold caution ไม่ใช่คู่คำ"}
     - {t: perform, why: "perform caution ไม่ใช่คู่คำ"}
   explain: "==exercise caution / restraint / judgement=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: take out, why: "take out a conclusion ไม่ใช่คู่คำ"}
     - {t: do, why: "do a conclusion ไม่ใช่คู่คำ"}
   explain: "==draw a conclusion== / a distinction / a comparison"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: grave, why: "a grave mistake เป็นธรรมชาติ (ทางการ)"}
     - {t: costly, why: "a costly mistake เป็นธรรมชาติ"}
   explain: "คำพ้อง ==ใช้แทนกันได้ไม่ทุกคู่== ต้องจำคู่คำ"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: hard-working, why: "hard-working ใช้กับคน"}
     - {t: tall, why: "tall ไม่ใช้กับ criticism"}
   explain: "==fierce / harsh / scathing criticism=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: adjusted, why: "adjust แปลว่าปรับเล็กน้อย"}
     - {t: acquired, why: "acquire a policy ไม่ใช่คู่คำ"}
   explain: "==adopt a policy / an approach== · adapt = ดัดแปลง"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: humble, why: "humble ใช้กับคนหรือฐานะ"}
     - {t: thin, why: "thin ไม่ใช้กับตัวเลขในความหมายนี้"}
   explain: "ตัวเลขเพิ่มน้อย ==a modest / slight / marginal rise=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "The scheme has done considerable success.", why: "do success ไม่ใช่คู่คำ"}
     - {t: "The scheme has made with considerable success.", why: "ไม่ใช่คู่คำ จึงใช้ไม่ได้"}
   explain: "==meet with success== / opposition / approval"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: heavy-handed, why: "heavy-handed แปลว่าใช้อำนาจเกินเหตุ"}
     - {t: high, why: "a high blow ไม่ใช่คู่คำ"}
   explain: "==a devastating / severe / crushing blow=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: thick, why: "thick interest ไม่ใช่คู่คำ"}
     - {t: tall, why: "tall interest ไม่ใช่คู่คำ"}
   explain: "==a keen / deep / strong interest in=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: strike
   accept: [strike]
   why: "strike a balance = หาจุดสมดุล"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์กริยาทางการ ----------
 - id: cefr-c2-w08-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: garner, why: "garner แปลว่ารวบรวม"}
     - {t: levy, why: "levy ใช้กับภาษี"}
   explain: "==exert pressure / influence / effort=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: incurs, why: "incur ใช้กับค่าใช้จ่ายหรือความเสียหาย"}
     - {t: confers, why: "confer power ใช้กับการมอบให้คนอื่น"}
   explain: "==wield power / influence / authority=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: levy, why: "levy ใช้กับผู้เก็บ ไม่ใช่ผู้จ่าย"}
     - {t: reap, why: "reap ใช้กับผลดี"}
   explain: "==incur costs / a fine / debts / losses== (ผู้จ่ายเป็นประธาน)"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: levied, why: "levy ใช้กับภาษี"}
     - {t: wielded, why: "wield support ไม่ใช่คู่คำ"}
   explain: "==garner support / attention / votes=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: levy, why: "levy ใช้กับภาษี"}
     - {t: exert, why: "exert the benefits ไม่ใช่คู่คำ"}
   explain: "==reap the benefits / rewards== = ได้รับผลดี"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: reap, why: "reap ใช้กับผลดี"}
     - {t: bestow, why: "bestow ใช้กับการมอบเกียรติ"}
   explain: "==levy a tax / charge on== (ผู้เก็บเป็นประธาน)"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: incurred, why: "ไม่เข้ากับบริบท"}
     - {t: harboured, why: "harbour ใช้กับความรู้สึกที่เก็บไว้"}
   explain: "==confer a degree / an honour on someone=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: incurred, why: "incur ใช้กับค่าใช้จ่าย"}
     - {t: espoused, why: "espouse ใช้กับแนวคิด"}
   explain: "==bestow an award / honour on== (ทางการมาก)"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: bestow, why: "bestow ใช้กับการมอบ"}
     - {t: wield, why: "wield doubts ไม่ใช่คู่คำ"}
   explain: "==harbour doubts / a grudge / suspicions== (เก็บไว้ในใจ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: levies, why: "levy ใช้กับภาษี"}
     - {t: incurs, why: "incur ใช้กับค่าใช้จ่าย"}
   explain: "==espouse a view / cause / approach== = ยึดถือสนับสนุน"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: levy, why: "levy ใช้กับภาษี"}
     - {t: wield, why: "wield ใช้กับอำนาจ"}
   explain: "==instil confidence== / values / a love of ... in someone"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: redress
   accept: [redress]
   why: "redress = แก้ไขความไม่ยุติธรรม (redress the balance / an injustice)"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · กริยาวลีหลายความหมายและวลีบุพบทตายตัว ----------
 - id: cefr-c2-w08-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: be removed, why: "เป็นอีกความหมาย (คราบหลุด) ไม่ใช่ในบริบทนี้"}
     - {t: be cancelled in advance, why: "ไม่ใช่ความหมายของ come off"}
   explain: "กริยาวลีหลายความหมาย ==ดูความหมายจากประธานและบริบท=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: "On", why: "on the circumstances ไม่ใช่วลี"}
     - {t: At, why: "at the circumstances ไม่ใช่วลี"}
   explain: "==under the circumstances== / under pressure / under review"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: "She picked up some Thai while living in Chiang Mai.", why: "pick up = ซึมซับภาษา"}
     - {t: "Please pick up your rubbish.", why: "pick up = เก็บขึ้น"}
   explain: "pick up มีหลายความหมาย ==ไปรับ · เก็บ · ซึมซับ · ดีขึ้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: dig up, why: "dig up เป็นภาษาพูด"}
     - {t: work out, why: "work out ไม่ทางการ และความหมายต่าง"}
   explain: "กริยาวลี → คำทางการ ==find out → ascertain== · put off → postpone"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: put up, why: "put up แปลว่าติดตั้ง หรือให้พัก"}
     - {t: set off, why: "set off แปลว่าออกเดินทาง"}
   explain: "==put off (พูด) = postpone (ทางการ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w08-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: "on", why: "on risk ไม่ใช่วลี"}
     - {t: under, why: "under risk ไม่ใช่วลี"}
   explain: "==at risk of== · in danger of · on the verge of"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: travelled to it, why: "บทไม่ได้พูดว่า travelled to it"}
     - {t: refused it, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
   explain: "==take to someone / something== = ชอบ ถูกใจทันที"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: According with, why: "ผิดรูป จึงใช้ไม่ได้"}
     - {t: In accord of, why: "บทไม่ได้พูดว่า In accord of"}
   explain: "==in accordance with== · in line with · with regard to"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: laid
   accept: [laid]
   why: "lay off (ช่อง 3 laid off) = เลิกจ้าง"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: espoused, why: "espouse doubts ไม่ใช่คู่คำ"}
         - {t: bestowed, why: "bestow doubts ไม่ใช่คู่คำ"}
         - {t: wielded, why: "wield doubts ไม่ใช่คู่คำ"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านรายงานประจำปีและฟังสัมภาษณ์ ----------
 - id: cefr-c2-w08-035
   kind: read
@@ -487,7 +487,7 @@
         - {t: there is no demand in other provinces, why: "demand far exceeds our current capacity"}
         - {t: the government has banned it, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: the mentor scheme has failed, why: "early signs suggest that this approach is bearing fruit"}
-  status: draft
+  status: approved
 - id: cefr-c2-w08-036
   kind: listen
   skill: li
@@ -502,7 +502,7 @@
         - {t: extra funding, why: "wasn't money จึงใช้ไม่ได้"}
         - {t: closing some classes, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: hiring new staff, why: "บทไม่ได้พูดว่า hiring new staff"}
-  status: draft
+  status: approved
 - id: cefr-c2-w08-037
   kind: listen
   skill: li
@@ -518,7 +518,7 @@
         - {t: a complete failure, why: "Broadly, yes จึงใช้ไม่ได้"}
         - {t: perfect in every way, why: "มีปัญหาบางอย่าง"}
         - {t: not yet started, why: "ดำเนินการแล้ว จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w08-038
   kind: listen
   skill: li
@@ -533,7 +533,7 @@
         - {t: teachers need more rules, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: responsibility makes people lazy, why: "บทไม่ได้พูดว่า responsibility makes people lazy"}
         - {t: she has recently changed her mind, why: "I've always espoused"}
-  status: draft
+  status: approved
 - id: cefr-c2-w08-039
   kind: order
   skill: gm
@@ -543,7 +543,7 @@
   sentence: We need to strike a balance between cost and quality.
   th: เราต้องหาจุดพอดีระหว่างต้นทุนกับคุณภาพ
   why: "strike a balance between A and B"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-040
   kind: order
   skill: gm
@@ -553,7 +553,7 @@
   sentence: In accordance with the new rules, all staff must complete the training by June.
   th: ตามกฎใหม่ พนักงานทุกคนต้องอบรมให้เสร็จภายในเดือนมิถุนายน
   why: "In accordance with + คำนาม ขึ้นต้นประโยคทางการ"
-  status: draft
+  status: approved
 - id: cefr-c2-w08-041
   kind: order
   skill: gm
@@ -563,7 +563,7 @@
   sentence: The programme has met with considerable success in rural areas.
   th: โครงการประสบความสำเร็จอย่างมากในพื้นที่ชนบท
   why: "meet with success + ส่วนขยายสถานที่"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c2-w08-042
   kind: order
@@ -574,4 +574,4 @@
   sentence: While the project has garnered strong public support, it has also incurred costs well above budget.
   th: แม้โครงการได้รับการสนับสนุนจากประชาชนมาก แต่ก็มีค่าใช้จ่ายเกินงบไปมาก
   why: "garner support และ incur costs คู่คำทางการในรายงาน"
-  status: draft
+  status: approved

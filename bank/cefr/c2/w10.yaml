@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 10 · อ่านระหว่างบรรทัด · ความหมายโดยนัย ข้อสมมติล่วงหน้า การประชด ทัศนคติของผู้เขียน · โครงสร้างข้อโต้แย้ง เหตุผลวิบัติ หลักฐานกับข้ออ้าง
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · ความหมายโดยนัยและทัศนคติ ----------
 - id: cefr-c2-w10-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: the manager designed a perfect plan, why: "ขัดกับ had problems"}
     - {t: nobody else noticed any problems, why: "even ไม่ได้บอกว่าคนอื่นไม่เห็น"}
   explain: "==even== แฝงความหมายว่า ไม่น่าเป็นไปได้ แต่ก็เป็น"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: the speaker sells lottery tickets and wants more customers, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
     - {t: lottery tickets are good value, why: "ขัดกับ wasting money"}
   explain: "ข้อสมมติล่วงหน้า (presupposition) ==สิ่งที่คำถามถือว่าจริงอยู่แล้ว=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: neutral and factual, why: "มีน้ำเสียงชัดเจน"}
     - {t: uncertain and confused, why: "ผู้เขียนมั่นใจในการวิจารณ์"}
   explain: "ประชด ==ชมก่อนแล้วพลิกความหมาย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: the speaker has no facts, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
     - {t: feelings and facts are always equally important in any debate, why: "ไม่ใช่สิ่งที่สื่อ"}
   explain: "ความหมายโดยนัย ==ถามว่าทำไมผู้พูดเลือกพูดประโยคนี้ตอนนี้=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: the writer supports the reform, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
     - {t: the name is new, why: "ไม่ใช่ความหมายหลัก"}
   explain: "==so-called / เครื่องหมายคำพูดรอบคำ== = ไม่เชื่อว่าสมชื่อ"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: angry and direct, why: "พูดอ้อม ไม่ใช่ตรง"}
     - {t: confused, why: "ไม่ได้สับสน จึงใช้ไม่ได้"}
   explain: "ประชดแบบสุภาพ ==I'm sure ... had excellent reasons== = ไม่เชื่อเลย"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: to show it is a title, why: "ไม่ใช่ชื่อเรื่อง"}
     - {t: to show strong agreement with the workshop organisers, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
   explain: "scare quotes ==เครื่องหมายคำพูด== รอบคำเพื่อแสดงความไม่เชื่อ"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: the project was about coffee, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
     - {t: the writer is being fair and balanced about a mixed result, why: "เป็นการประชด ไม่ใช่ความสมดุลจริง"}
   explain: "ชมสิ่งเล็กน้อยอย่างจริงจัง ==คือการประชดว่าส่วนอื่นแย่=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: the critics are experts, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
     - {t: the writer agrees with the critics, why: "บทไม่ได้พูดว่า the writer agrees with the critics"}
   explain: "==it should be noted== มักนำข้อมูลที่ทำให้อีกฝ่ายอ่อนลง"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: the writer designed the app and is proud of its success, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
     - {t: the app works only sometimes, why: "บทไม่ได้พูดว่า the app works only sometimes"}
   explain: "==actually== มักบอกว่า ผิดจากที่คาดไว้"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: neutral about the news, why: "มีน้ำเสียงชัด จึงใช้ไม่ได้"}
     - {t: surprised by the closure, why: "ครั้งที่สาม ไม่ได้แปลกใจ"}
   explain: "ทัศนคติ ==ดูคำที่ผู้เขียนเลือกและข้อมูลที่ใส่เพิ่ม=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: called
   accept: [called]
   why: "so-called = ที่เรียกกันว่า (มักแฝงความไม่เชื่อ)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การชม ติ และน้ำเสียง ----------
 - id: cefr-c2-w10-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: laud, why: "laud แปลว่าชมเชย"}
     - {t: lament, why: "lament แปลว่าเสียใจคร่ำครวญ"}
   explain: "disparage = ==ดูถูก ทำให้ด้อยค่า=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: disparages, why: "disparage แปลว่าดูถูก"}
     - {t: begrudges, why: "begrudge แปลว่าไม่เต็มใจ อิจฉา"}
   explain: "extol = ==ยกย่องสรรเสริญอย่างมาก=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: extolled, why: "บทไม่ได้พูดว่า extolled"}
     - {t: lamented, why: "lament ไม่ได้แปลว่าเยาะเย้ย"}
   explain: "==deride ... as== = เยาะเย้ยว่าเป็น..."
-  status: draft
+  status: approved
 - id: cefr-c2-w10-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: disparaged, why: "บทไม่ได้พูดว่า disparaged"}
     - {t: begrudged, why: "ไม่เข้ากับบริบท"}
   explain: "laud = ==ชมเชย ยกย่อง (ทางการ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: extol, why: "ตรงข้าม จึงใช้ไม่ได้"}
     - {t: deride, why: "ไม่เข้ากับบริบท"}
   explain: "lament = ==เสียดาย เศร้าโศกต่อการสูญเสีย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: laud, why: "don't laud ขัดกับประโยคหลัง"}
     - {t: extol, why: "บทไม่ได้พูดว่า extol"}
   explain: "==not begrudge someone something== = ไม่อิจฉา เต็มใจให้เขาได้"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: veiled, why: "veiled smile ไม่เป็นธรรมชาติ"}
     - {t: facetious, why: "facetious ใช้กับคำพูดตลกไม่ถูกกาลเทศะ"}
   explain: "sardonic = ==เยาะเย้ยถากถาง (เย็นชา)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: lauded, why: "ไม่เข้ากับบริบท"}
     - {t: veiled, why: "บทไม่ได้พูดว่า veiled"}
   explain: "facetious = ==พูดตลกในเรื่องที่ควรจริงจัง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: disingenuous, why: "disingenuous แปลว่าไม่จริงใจ"}
     - {t: lauded, why: "ไม่เข้ากับบริบท"}
   explain: "wry = ==ขำแบบแห้ง ๆ รู้ทันตัวเอง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: lauded, why: "ตรงข้าม จึงใช้ไม่ได้"}
     - {t: veiled, why: "ไม่ได้อ้อม ตรงมาก"}
   explain: "scathing = ==วิจารณ์อย่างรุนแรงเผ็ดร้อน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: facetious, why: "ไม่ใช่เรื่องตลก"}
     - {t: lauded, why: "บทไม่ได้พูดว่า lauded"}
   explain: "disingenuous = ==แสร้งทำเป็นไม่รู้ ไม่จริงใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: veiled
   accept: [veiled]
   why: "a thinly veiled attack = การโจมตีที่แฝงไว้บาง ๆ"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ประเมินข้อโต้แย้ง ----------
 - id: cefr-c2-w10-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: it attacks the opponent personally instead of the idea, why: "ไม่ได้โจมตีใคร จึงใช้ไม่ได้"}
     - {t: it is completely logical, why: "เป็นเหตุผลวิบัติ"}
   explain: "เหตุผลวิบัติ ==ตัวอย่างเดียว== (anecdote) ไม่ใช่หลักฐานทั่วไป"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: a fair counter-argument, why: "ไม่ได้แย้งข้อโต้แย้งจริง"}
     - {t: an appeal to expert opinion, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
   explain: "ad hominem = ==โจมตีคน แทนที่จะแย้งเหตุผล=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: it attacks a person, why: "ไม่ได้โจมตีบุคคล"}
     - {t: it has no conclusion, why: "มีข้อสรุป จึงใช้ไม่ได้"}
   explain: "false dilemma = ==บีบให้เหลือสองทางทั้งที่มีมากกว่า=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: it is a personal attack, why: "ไม่ได้โจมตีบุคคล"}
     - {t: it has too few options, why: "ไม่ใช่ปัญหาหลัก"}
   explain: "correlation ≠ causation ==เกิดพร้อมกันไม่ได้แปลว่าเป็นเหตุผลกัน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: a statistical argument, why: "ไม่มีตัวเลข จึงใช้ไม่ได้"}
     - {t: an appeal to tradition, why: "ไม่ได้อ้างประเพณี"}
   explain: "slippery slope = ==ลากผลร้ายต่อเนื่องเกินหลักฐาน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: "A survey of 3,000 students found that 60% preferred online classes.", why: "เป็นผลสำรวจ (หลักฐาน)"}
     - {t: "Enrolment in the online programme rose from 200 to 900 in two years.", why: "เป็นข้อมูลที่วัดได้ (หลักฐาน)"}
   explain: "claim = ==ข้อกล่าวอ้าง== · evidence = ข้อมูลที่ตรวจสอบได้"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: "Do dentists like their jobs?", why: "ไม่เกี่ยวข้อง จึงใช้ไม่ได้"}
     - {t: "Is the advertisement attractive enough to persuade younger customers?", why: "ไม่เกี่ยวกับความน่าเชื่อ"}
   explain: "ประเมินสถิติ ==ถามว่าใครถูกถาม กี่คน เลือกอย่างไร=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: an appeal to evidence, why: "ไม่มีหลักฐาน จึงใช้ไม่ได้"}
     - {t: an admission of error, why: "ไม่ได้ยอมรับความผิด"}
   explain: "straw man = ==บิดข้อโต้แย้งของอีกฝ่ายให้อ่อนแล้วโจมตี=="
-  status: draft
+  status: approved
 - id: cefr-c2-w10-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: evidence
   accept: [evidence]
   why: "evidence = หลักฐาน (นับไม่ได้)"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: praise, why: "ตรงข้าม จึงใช้ไม่ได้"}
         - {t: evidence, why: "ไม่ใช่หลักฐาน จึงใช้ไม่ได้"}
         - {t: analysis, why: "ไม่ได้วิเคราะห์อย่างยุติธรรม"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความโต้แย้งที่มีน้ำเสียงประชดและฟังโต้วาที ----------
 - id: cefr-c2-w10-035
   kind: read
@@ -489,7 +489,7 @@
         - {t: confusing correlation with causation when discussing meeting length, why: "ไม่ใช่เหตุผลวิบัตินี้"}
         - {t: presenting a false choice, why: "บทไม่ได้พูดว่า presenting a false choice"}
         - {t: relying on a single anecdote, why: "บทไม่ได้พูดว่า relying on a single anecdote"}
-  status: draft
+  status: approved
 - id: cefr-c2-w10-036
   kind: listen
   skill: li
@@ -504,7 +504,7 @@
         - {t: she attacks her opponent personally for changing his mind, why: "ไม่ได้โจมตีบุคคล"}
         - {t: she agrees with her opponent, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: she changes the subject, why: "ตอบตรงประเด็น จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w10-037
   kind: listen
   skill: li
@@ -520,7 +520,7 @@
         - {t: she wants no rules at all, why: "เธอปฏิเสธข้อนี้"}
         - {t: the process should take years so that every plan is checked, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: she agrees with the man, why: "ไม่เห็นด้วย จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w10-038
   kind: listen
   skill: li
@@ -535,7 +535,7 @@
         - {t: the decision was completely fair and based only on the evidence, why: "เป็นการพูดประชด"}
         - {t: the chairman has no brother, why: "ขัดกับข้อมูล จึงใช้ไม่ได้"}
         - {t: the land is worthless, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w10-039
   kind: order
   skill: gm
@@ -545,7 +545,7 @@
   sentence: The argument relies on a single example rather than solid evidence.
   th: ข้อโต้แย้งนี้อาศัยตัวอย่างเดียว แทนที่จะเป็นหลักฐานที่หนักแน่น
   why: "rely on + นาม · rather than เทียบสองอย่าง"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-040
   kind: order
   skill: gm
@@ -555,7 +555,7 @@
   sentence: It is disingenuous to claim that nobody was warned.
   th: การอ้างว่าไม่มีใครถูกเตือนนั้นไม่จริงใจ
   why: "It is + adj + to + กริยา + that-clause"
-  status: draft
+  status: approved
 - id: cefr-c2-w10-041
   kind: order
   skill: gm
@@ -565,7 +565,7 @@
   sentence: Rather than addressing the evidence, the author attacks the researchers.
   th: แทนที่จะพูดถึงหลักฐาน ผู้เขียนกลับโจมตีนักวิจัย
   why: "Rather than + -ing ขึ้นต้น ประธานเดียวกัน"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c2-w10-042
   kind: order
@@ -576,4 +576,4 @@
   sentence: While the writer's concern is understandable, the argument rests on a false choice between two extremes.
   th: แม้ความกังวลของผู้เขียนจะเข้าใจได้ แต่ข้อโต้แย้งตั้งอยู่บนทางเลือกเท็จระหว่างสองขั้ว
   why: "While + ยอมรับ แล้วชี้จุดอ่อน rest on"
-  status: draft
+  status: approved

@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 1 · ความแม่นยำของความหมาย · will/would พฤติกรรมประจำ · may well · might as well · shall ทางการ · tense ในประโยคซ้อน
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย (แอปยังไม่มีปุ่มสลับภาษา เหมือน C1)
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย (แอปยังไม่มีปุ่มสลับภาษา เหมือน C1)
 # ---------- วันที่ 1 · ความต่างเล็กน้อยของ modal ----------
 - id: cefr-c2-w01-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: shall, why: "shall ไม่ใช้บอกนิสัย"}
     - {t: used to, why: "used to บอกว่าเคยทำแต่ตอนนี้เลิกแล้ว"}
   explain: "นิสัยประจำตอนนี้ ==will + กริยา== · อดีต would"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: had better, why: "had better ใช้เตือนว่าถ้าไม่ทำจะเกิดผลเสีย ไม่ใช่ความหมายช่างมันเถอะ"}
     - {t: would rather, why: "would rather บอกความชอบ ขัดกับไม่มีทางเลือก"}
   explain: "==might as well== = ไม่มีอะไรดีกว่านี้ ก็ทำไปเลย"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: will have, why: "will have ต้องตามด้วยช่อง 3"}
     - {t: shall, why: "shall ไม่ใช้คาดการณ์เศรษฐกิจในความหมายนี้"}
   explain: "==may well / could well== = มีโอกาสสูงที่จะ"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: a future plan, why: "ไม่ได้พูดถึงแผนอนาคต"}
     - {t: a hypothetical situation, why: "เป็นสิ่งที่เกิดจริงซ้ำ ๆ ไม่ใช่สมมติ"}
   explain: "would / will ลงเสียงหนัก = ==รำคาญนิสัยที่ทำเป็นประจำ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: would, why: "would ไม่ใช้บอกหน้าที่ในสัญญา"}
     - {t: may well, why: "may well บอกการคาดการณ์"}
   explain: "เอกสารทางกฎหมาย ==shall = ต้อง (หน้าที่)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: Would, why: "Would I open ...? ไม่ใช่รูปเสนอทำให้"}
     - {t: May well, why: "may well ไม่ใช้ในคำถาม"}
   explain: "เสนอหรือชวน ==Shall I / Shall we ...?=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: agreeing completely, why: "มี but และความเห็นต่าง"}
     - {t: predicting the future, why: "ไม่ได้คาดการณ์อนาคต"}
   explain: "==may well ... but== = ยอมรับบางส่วนก่อนแย้ง"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: might as well, why: "might as well ไม่เข้ากับความจริงทั่วไป"}
     - {t: would rather, why: "would rather บอกความชอบ"}
   explain: "นิสัยหรือธรรมชาติของสิ่งต่าง ๆ ==will== (Boys will be boys)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "We've missed the start, so we shall well have a coffee first.", why: "shall well ไม่มีในภาษาอังกฤษ"}
     - {t: "We've missed the start, so we would as well have a coffee first.", why: "would as well ไม่ใช่สำนวนมาตรฐาน"}
   explain: "แยกให้ขาด ==might as well (ตัดสินใจ)== · may well (คาดการณ์)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: something she has been ordered to do, why: "ไม่มีการสั่ง จึงใช้ไม่ได้"}
     - {t: unlikely to happen, why: "ตรงกันข้าม เกิดเป็นประจำ"}
   explain: "will + insist on = ==ชอบทำแบบนี้เป็นประจำ (มักแฝงความรำคาญ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: will, why: "will pick up ฟังเป็นคำทำนาย ไม่ใช่คำแนะนำแบบไหน ๆ ก็"}
     - {t: shall, why: "you shall ฟังเป็นคำสั่งทางการเกินไป"}
   explain: "ไหน ๆ ก็... ==might as well=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: may
   accept: [may]
   why: "may well = มีโอกาสสูงที่จะ"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ความหมายและการตีความ ----------
 - id: cefr-c2-w01-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: purport, why: "purport แปลว่าอ้างว่า"}
     - {t: denote, why: "denote แปลว่าหมายถึง"}
   explain: "ascertain = ==สืบหาให้แน่ชัด== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: denoted, why: "denoted as ไม่ใช้กับการตีความท่าที"}
     - {t: elucidated, why: "elucidate แปลว่าอธิบายให้กระจ่าง"}
   explain: "==construe ... as== = ตีความว่า"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: construed, why: "construe ไม่ตามด้วย to come"}
     - {t: ascertained, why: "ascertain ไม่ใช้ในความหมายนี้"}
   explain: "==purport to be / to come from== = อ้างว่า (มักไม่จริง)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: elucidates, why: "elucidate แปลว่าอธิบาย"}
     - {t: ascertains, why: "ascertain แปลว่าหาความจริง"}
   explain: "denote = ==เป็นสัญลักษณ์ของ หมายถึง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: purport, why: "purport on ไม่ใช่สำนวน"}
     - {t: construe, why: "construe on ไม่ใช่สำนวน"}
   explain: "elucidate = ==อธิบายให้กระจ่าง== (ทางการกว่า explain)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: verbatim, why: "verbatim แปลว่าคำต่อคำ"}
     - {t: pedantic, why: "pedantic แปลว่าจู้จี้เรื่องรายละเอียด"}
   explain: "equivocal = ==กำกวม ตีความได้หลายทาง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: nebulous, why: "nebulous แปลว่าคลุมเครือ"}
     - {t: tacit, why: "tacit แปลว่าโดยปริยาย ไม่ได้พูดออกมา"}
   explain: "unequivocal = ==ชัดเจน ไม่มีข้อสงสัย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: unequivocal, why: "ข้อตกลงที่ไม่ได้เขียนไว้ไม่ใช่ unequivocal"}
     - {t: pedantic, why: "pedantic ไม่ใช้กับข้อตกลง"}
   explain: "tacit = ==โดยปริยาย เข้าใจกันเองไม่ต้องพูด=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: verbatim, why: "verbatim ไม่ใช้กับแผน"}
     - {t: tacit, why: "tacit ไม่ได้แปลว่ายังไม่ชัด"}
   explain: "nebulous = ==คลุมเครือ ยังไม่ชัดเจน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: pedantically, why: "pedantically ไม่ได้แปลว่าคำต่อคำ"}
     - {t: equivocally, why: "equivocally แปลว่าอย่างกำกวม"}
   explain: "verbatim = ==คำต่อคำ ตรงทุกคำ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: nebulous, why: "nebulous ไม่บรรยายพฤติกรรมนี้"}
     - {t: verbatim, why: "verbatim ไม่บรรยายพฤติกรรม"}
   explain: "pedantic = ==จู้จี้เรื่องกฎหรือรายละเอียดเกินเหตุ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: semantics
   accept: [semantics]
   why: "semantics = ความหมายของถ้อยคำ อรรถศาสตร์"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · เวลาในประโยคซ้อน ----------
 - id: cefr-c2-w01-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: had gone, why: "past perfect บอกว่าจบแล้ว ขัดกับความจริงถาวร"}
     - {t: was going to go, why: "ไม่ใช่แผนในอดีต"}
   explain: "ความจริงทั่วไป ==ไม่เลื่อน tense ใน reported speech== (went ก็ใช้ได้ แต่ goes ชัดกว่า)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: had got, why: "had got ใช้กับสมมติในอดีต"}
     - {t: will get, why: "will ไม่ใช้ในโครงสร้างนี้"}
   explain: "==It's (high) time + อดีต== = ควรทำตั้งนานแล้ว"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: had become, why: "past perfect บอกว่าเกิดก่อน 2015"}
     - {t: became, why: "อดีตธรรมดาไม่บอกว่าเป็นอนาคตของตอนนั้น"}
   explain: "future in the past ==would / was going to / was to=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: has designed, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
     - {t: would design, why: "ไม่ใช้ would หลัง as if ในความหมายนี้"}
   explain: "==as if / as though + had + ช่อง 3== = ราวกับว่า (ไม่จริงในอดีต)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: took, why: "ผิดรูป จึงใช้ไม่ได้"}
     - {t: be taken, why: "รูปถูกกระทำ ผิดความหมาย"}
   explain: "แผนที่ล้ม ==was to have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: has moved, why: "ขัดกับ next year"}
     - {t: moved, why: "อดีตธรรมดาบอกว่าเกิดแล้ว"}
   explain: "เรื่องที่ยังเป็นจริง ==คง tense เดิมได้== (was moving ก็ถูก)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: the job will be offered soon, why: "พูดถึงอดีต จึงใช้ไม่ได้"}
     - {t: the listener took the job, why: "ไม่ได้รับข้อเสนอ จึงไม่ได้รับงาน"}
   explain: "==Suppose / Supposing + had + ช่อง 3== = สมมติย้อนอดีต"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: "Little they knew that the company would close within a year.", why: "Little ขึ้นต้นต้องกลับลำดับ did they know"}
     - {t: "Little did they knew that the company would close within a year.", why: "หลัง did ใช้กริยารูปเดิม know"}
   explain: "Little did ... know + ==would + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w01-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: didn't
   accept: ["didn't", did not]
   why: "would rather + คนอื่น + อดีต (didn't) แม้ความหมายคือตอนนี้"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: would be, why: "ไม่ใช่อนาคตในอดีต"}
         - {t: had been, why: "past perfect ไม่เข้ากับ Today"}
         - {t: be, why: "ขาดการผันกริยา จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านความเรียงเรื่องความกำกวมและฟังบรรยาย ----------
 - id: cefr-c2-w01-035
   kind: read
@@ -489,7 +489,7 @@
         - {t: they are always unreasonable, why: "suits some situations far better than others = บางครั้งเหมาะ"}
         - {t: they are required by law, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: they protect employees, why: "ผู้เขียนยกตัวอย่างคำสัญญาคลุมเครือของนายจ้างแยกต่างหาก"}
-  status: draft
+  status: approved
 - id: cefr-c2-w01-036
   kind: listen
   skill: li
@@ -504,7 +504,7 @@
         - {t: because he gave the wrong number, why: "ไม่ได้พูดถึงตัวเลข"}
         - {t: because the study was cancelled, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: to make the claim stronger, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w01-037
   kind: listen
   skill: li
@@ -519,7 +519,7 @@
         - {t: a judge who is bored, why: "นั่นคือความหมายที่คนใช้ผิด"}
         - {t: a judge who is unqualified, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: a judge who refuses the case, why: "บทไม่ได้พูดว่า a judge who refuses the case"}
-  status: draft
+  status: approved
 - id: cefr-c2-w01-038
   kind: listen
   skill: li
@@ -534,7 +534,7 @@
         - {t: grateful for the tax, why: "ไม่ได้แสดงความขอบคุณ"}
         - {t: unsure when the tax started, why: "บอกปีชัดเจน จึงใช้ไม่ได้"}
         - {t: confident the tax will end soon, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w01-039
   kind: order
   skill: gm
@@ -544,7 +544,7 @@
   sentence: She will talk for hours about her garden if you let her.
   th: เธอคุยเรื่องสวนได้เป็นชั่วโมงถ้าปล่อยให้คุย (นิสัยประจำ)
   why: "will + กริยา บอกนิสัยประจำ"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-040
   kind: order
   skill: gm
@@ -554,7 +554,7 @@
   sentence: Little did I realise that this meeting would change my career.
   th: ฉันไม่รู้เลยว่าการพบครั้งนั้นจะเปลี่ยนเส้นทางอาชีพของฉัน
   why: "Little did + ประธาน + กริยารูปเดิม แล้ว would (อนาคตจากอดีต)"
-  status: draft
+  status: approved
 - id: cefr-c2-w01-041
   kind: order
   skill: gm
@@ -564,7 +564,7 @@
   sentence: The term purports to describe a single idea, but it is used in several ways.
   th: คำนี้อ้างว่าหมายถึงแนวคิดเดียว แต่ถูกใช้หลายแบบ
   why: "purport to + กริยา แล้วแย้งด้วย but"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c2-w01-042
   kind: order
@@ -575,4 +575,4 @@
   sentence: Although the two terms are often used interchangeably, they denote quite different ideas, as I shall explain.
   th: แม้สองคำนี้มักใช้แทนกัน แต่หมายถึงแนวคิดที่ต่างกันมาก ดังที่จะอธิบายต่อไป
   why: "Although + ประโยค · denote · as I shall explain (shall ทางการ)"
-  status: draft
+  status: approved

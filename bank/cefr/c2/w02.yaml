@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 2 · โครงสร้างเน้นขั้นสูง · inversion (so/such · as/than · สถานที่ขึ้นต้น · only after/by · little did) · information structure
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · กลับลำดับเพื่อเน้น ----------
 - id: cefr-c2-w02-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: did the wind, why: "มี be อยู่แล้ว ไม่ต้องใช้ did"}
     - {t: the wind blew, why: "ไม่ได้กลับลำดับและผิดโครงสร้าง"}
   explain: "==So + adj + be + ประธาน + that ...=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: had I realised, why: "had ไม่เข้ากับลำดับเวลา (รู้ทีหลังประชุมจบ)"}
     - {t: realised I, why: "กลับกริยาหลักไม่ได้ ต้องใช้ did"}
   explain: "==Only after== / Only when ... + กริยาช่วย + ประธาน (ในประโยคหลัก)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: Such did, why: "ไม่ใช้ did กับ be"}
     - {t: So great, why: "So great ต้องตามด้วย was the demand"}
   explain: "==Such + be + ประธาน + that ...== = มากถึงขนาดที่"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: an old temple did stand, why: "ไม่ใช่การกลับลำดับแบบนี้"}
     - {t: was standing it an old temple, why: "มีประธานซ้ำ จึงใช้ไม่ได้"}
   explain: "สถานที่ขึ้นต้น ==กริยา (stand, lie, come) + ประธาน== ไม่ต้องมีกริยาช่วย"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: do we can, why: "ซ้อนกริยาช่วย จึงใช้ไม่ได้"}
     - {t: we do, why: "ไม่ได้กลับลำดับ"}
   explain: "==Only by + -ing + กริยาช่วย + ประธาน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: had, why: "had ไม่ใช่กริยาที่ละไว้"}
     - {t: it was, why: "มีประธานซ้ำ จึงใช้ไม่ได้"}
   explain: "ทางการ ==than / as + กริยาช่วย + ประธาน== (than was its predecessor)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: were, why: "everyone else เป็นเอกพจน์"}
     - {t: had, why: "had ไม่ตรงกับกริยาของประโยคแรก"}
   explain: "==, as + be/do + ประธาน== = เหมือนกับ... (กริยาช่วยตรงกับประโยคแรก)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: had he suspect, why: "หลัง had ต้องใช้ช่อง 3"}
     - {t: suspected he, why: "ต้องใช้ did จึงใช้ไม่ได้"}
   explain: "==Little did + ประธาน + กริยารูปเดิม== = ไม่ได้รู้เลยว่า"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "Here does the bus come.", why: "ไม่ใช้ does กับ Here"}
     - {t: "Here the bus does come.", why: "ไม่ใช่รูปมาตรฐาน"}
   explain: "สรรพนาม ==ไม่กลับลำดับ== (Here it comes · Off they went)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: did our team be, why: "ไม่ใช้ did กับ be"}
     - {t: our team wasn't, why: "ปฏิเสธซ้อนกับ no และไม่กลับลำดับ"}
   explain: "วลีปฏิเสธขึ้นต้น ==In no way== / Under no circumstances + กลับลำดับ"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: had anyone appreciate, why: "หลัง had ต้องใช้ช่อง 3"}
     - {t: anyone did appreciate, why: "ลำดับยังไม่ได้กลับ"}
   explain: "Not until + เวลา ==did + ประธาน + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: so
   accept: [so, So]
   why: "So + adj + be + ประธาน + that"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การเน้นและความสำคัญ ----------
 - id: cefr-c2-w02-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: encapsulated, why: "encapsulate แปลว่าสรุปรวบยอด"}
     - {t: underscored, why: "underscore แปลว่าเน้นย้ำ ไม่ใช่กระตุ้นคน"}
   explain: "galvanise = ==กระตุ้นให้ลงมือทำ== (galvanise someone into action)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: resonated, why: "resonate เป็นกริยาไม่มีกรรมในความหมายนี้"}
     - {t: crystallised, why: "crystallise the need ไม่เป็นธรรมชาติ"}
   explain: "underscore = ==เน้นย้ำ ทำให้เห็นชัด== ≈ highlight"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: resonated, why: "resonate ไม่มีกรรม ต้องเป็น resonate with"}
     - {t: underscored, why: "underscore เน้นจุดเดียว ไม่ใช่สรุปทั้งหมด"}
   explain: "encapsulate = ==สรุปแก่นได้อย่างกระชับ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: underscore, why: "underscore ต้องมีกรรม"}
     - {t: galvanise, why: "galvanise ต้องมีกรรม"}
   explain: "crystallise = ==(ความคิด แผน) ชัดเจนเป็นรูปร่าง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: encapsulated, why: "encapsulate with ไม่ใช่สำนวน"}
     - {t: galvanised, why: "galvanise with ไม่ใช่สำนวน"}
   explain: "==resonate with== = จับใจ ตรงกับความรู้สึกของ"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: sweeping, why: "sweeping แปลว่ากว้างครอบคลุมเกินไป"}
     - {t: emphatic, why: "emphatic ใช้กับน้ำเสียงหรือคำตอบ"}
   explain: "salient = ==สำคัญและเด่นที่สุด== (salient features / points)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: seminal, why: "seminal ใช้กับงานที่มีอิทธิพล"}
     - {t: pivotal, why: "pivotal picture ไม่ใช่สำนวน"}
   explain: "stark = ==ชัดเจนอย่างโหดร้าย== (stark contrast / reality)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: seminal, why: "seminal ไม่ใช้กับคำตอบ"}
     - {t: sweeping, why: "sweeping no ไม่ใช่สำนวน"}
   explain: "emphatic = ==หนักแน่น เด็ดขาด=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: salient, why: "salient generalisations ไม่ใช่สำนวน"}
     - {t: pivotal, why: "pivotal generalisations ไม่ใช่สำนวน"}
   explain: "sweeping = ==กว้างครอบคลุมเกินไป เหมารวม== (sweeping changes / statements)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: sweeping, why: "sweeping work ไม่เป็นธรรมชาติ"}
     - {t: emphatic, why: "emphatic ไม่ใช้กับหนังสือ"}
   explain: "seminal = ==เป็นต้นแบบ มีอิทธิพลต่อสิ่งที่ตามมา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: seminal, why: "seminal ใช้กับงานหรือความคิด ไม่ใช่ช่วงเวลา"}
     - {t: emphatic, why: "emphatic moment ไม่ใช่สำนวน"}
   explain: "pivotal = ==เป็นจุดเปลี่ยนสำคัญ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: hallmark
   accept: [hallmark]
   why: "hallmark = ลักษณะเด่นที่บ่งบอกตัวตน"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · จัดข้อมูลในประโยค ----------
 - id: cefr-c2-w02-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: "By our biggest client the new designer was recommended.", why: "ลำดับไม่เป็นธรรมชาติ"}
     - {t: "Recommended was the new designer by our biggest client.", why: "การกลับลำดับแบบนี้ไม่เป็นธรรมชาติ"}
   explain: "==ข้อมูลเดิมไว้ต้น ข้อมูลใหม่ไว้ท้าย== passive ช่วยจัดลำดับนี้"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: "Everyone surprised it that the director resigned.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
     - {t: "Surprised everyone it did that the director resigned.", why: "บทไม่ได้พูดว่า Surprised everyone it did that the director resigned."}
   explain: "end-weight = ==ส่วนยาวหนักไว้ท้ายประโยค== ใช้ It ... that"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: what was his assistant, why: "ผิดรูป จึงใช้ไม่ได้"}
     - {t: it was his assistant which, why: "which ใช้กับสิ่งของ"}
   explain: "แก้ความเข้าใจผิด ==It was X who/that ...== เน้นส่วนที่แก้"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: Which, why: "Which ต้องมีคำนามข้างหน้า"}
     - {t: It, why: "It I find hard ... is ผิดรูป"}
   explain: "เน้นท้ายประโยค ==What ... is + สิ่งที่เน้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: to make it a question, why: "ไม่ใช่คำถาม จึงใช้ไม่ได้"}
     - {t: to make it passive, why: "ยังเป็นรูปกระทำ"}
   explain: "fronting = ==ย้ายส่วนที่เน้นขึ้นต้น== (กรรม คำวิเศษณ์)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: "Mainly caused this fall rising energy costs.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
     - {t: "Caused mainly this fall was by rising energy costs.", why: "บทไม่ได้พูดว่า Caused mainly this fall was by rising energy costs."}
   explain: "ใช้ ==This / These + คำนามสรุป== ขึ้นต้น เพื่อผูกกับประโยคก่อน"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: "What was made at midnight was the decision.", why: "เน้นสิ่งที่ตัดสิน ไม่ใช่เวลา"}
     - {t: "Finally the decision was made, at midnight.", why: "ไม่มีโครงสร้างเน้นเวลาโดยตรง"}
   explain: "เน้นเวลา ==It was not until X that ...=="
-  status: draft
+  status: approved
 - id: cefr-c2-w02-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: that comments are always careful, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
     - {t: that everyone takes comments seriously, why: "บทไม่ได้พูดว่า that everyone takes comments seriously"}
   explain: "==All (that) ... is / All it takes is== = เพียงแค่"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: what
   accept: [what, What]
   why: "What + ประโยค + is ... = pseudo-cleft"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: they agreed, why: "ต้องกลับลำดับ จึงใช้ไม่ได้"}
         - {t: agreed they, why: "ต้องใช้ did จึงใช้ไม่ได้"}
         - {t: had they agree, why: "หลัง had ต้องใช้ช่อง 3"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทบรรณาธิการและฟังสุนทรพจน์ ----------
 - id: cefr-c2-w02-035
   kind: read
@@ -489,7 +489,7 @@
         - {t: rarely saves any money at first, why: "ไม่ได้พูดถึงช่วงแรก"}
         - {t: is always reversed within a year, why: "within a decade ไม่ใช่หนึ่งปี"}
         - {t: is popular with most residents, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w02-036
   kind: listen
   skill: li
@@ -504,7 +504,7 @@
         - {t: leaders are responsible for change, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: the conference was too long, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
         - {t: rooms should be bigger, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w02-037
   kind: listen
   skill: li
@@ -519,7 +519,7 @@
         - {t: complaining about the team, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: comparing two companies, why: "พูดถึงทีมเดียว จึงใช้ไม่ได้"}
         - {t: announcing his retirement, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w02-038
   kind: listen
   skill: li
@@ -534,7 +534,7 @@
         - {t: this year was a failure, why: "remarkable จึงใช้ไม่ได้"}
         - {t: nothing needs to change, why: "เน้นสิ่งที่จะทำต่อ"}
         - {t: the team should rest, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w02-039
   kind: order
   skill: gm
@@ -544,7 +544,7 @@
   sentence: Never before had the village seen so many visitors.
   th: หมู่บ้านไม่เคยมีนักท่องเที่ยวมากขนาดนี้มาก่อน
   why: "Never before ขึ้นต้น กลับลำดับ had + ประธาน"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-040
   kind: order
   skill: gm
@@ -554,7 +554,7 @@
   sentence: It was the lack of communication rather than the cost that caused the failure.
   th: สิ่งที่ทำให้ล้มเหลวคือการขาดการสื่อสาร ไม่ใช่ค่าใช้จ่าย
   why: "It was + ส่วนที่เน้น + that (cleft)"
-  status: draft
+  status: approved
 - id: cefr-c2-w02-041
   kind: order
   skill: gm
@@ -564,7 +564,7 @@
   sentence: So successful was the campaign that it was repeated the following year.
   th: แคมเปญประสบความสำเร็จมากจนถูกจัดซ้ำในปีต่อมา
   why: "So + adj + be + ประธาน + that"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c2-w02-042
   kind: order
@@ -575,4 +575,4 @@
   sentence: What is at stake is not simply money but the trust on which every community depends.
   th: สิ่งที่เดิมพันอยู่ไม่ใช่แค่เงิน แต่คือความไว้ใจที่ทุกชุมชนพึ่งพา
   why: "What ... is (pseudo-cleft) · not simply ... but · on which (บุพบท + which)"
-  status: draft
+  status: approved

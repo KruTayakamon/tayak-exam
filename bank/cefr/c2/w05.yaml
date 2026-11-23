@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 5 · การอ้างอิงและการผูกเรื่องในข้อความยาว · gapping · pro-forms · do so/it/that · การละในการเปรียบเทียบ · lexical cohesion
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · การละและคำแทน ----------
 - id: cefr-c2-w05-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: so did, why: "so did ใช้เมื่อทำสิ่งเดียวกัน"}
     - {t: does, why: "ผิด tense และผิดรูป"}
   explain: "gapping = ==ละกริยาที่ซ้ำในประโยคที่สอง== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: made so, why: "make ไม่ใช้แทนการกระทำ"}
     - {t: so, why: "we have so ขาดกริยา"}
   explain: "==do so== แทน กริยา + ส่วนที่ตามมา (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: that, why: "I expect that ต้องตามด้วยประโยค"}
     - {t: "yes", why: "I expect yes ไม่ใช่ภาษาอังกฤษมาตรฐาน"}
   explain: "==I think / expect / hope so== · ปฏิเสธ I hope not / I don't think so"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: it, why: "I hope it ผิดรูป"}
     - {t: that, why: "I hope that ต้องตามด้วยประโยค"}
   explain: "หวังว่าใช่ ==I hope so== · หวังว่าไม่ I hope not"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: had, why: "had ไม่ตรงกับกริยาหลัก"}
     - {t: was, why: "they ใช้ were จึงใช้ไม่ได้"}
   explain: "เทียบแล้วละ ==กริยาช่วยต้องตรงกับประโยคหลัก=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: to do, why: "to do ฟังแปลก ใช้ to ก็พอ"}
     - {t: it, why: "able it ผิดรูป จึงใช้ไม่ได้"}
   explain: "==ละกริยาหลัง to ได้ แต่ต้องคง to ไว้== (I'd like to · I'm not able to)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: has, why: "the very next morning ต้องใช้อดีตธรรมดา"}
     - {t: was, why: "apologise ใช้ did ไม่ใช่ was"}
   explain: "ละกริยาหลัก ==เหลือกริยาช่วย (did / will / has)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: that, why: "a new that ผิดรูป"}
     - {t: some, why: "some ใช้กับนามนับไม่ได้หรือพหูพจน์"}
   explain: "==one / ones== แทนคำนามนับได้ที่พูดถึงแล้ว · it แทนสิ่งเดิม"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: one, why: "one แทนคำนาม ไม่ใช่การกระทำ"}
     - {t: such, why: "do such ไม่ใช่รูปมาตรฐาน"}
   explain: "==do that / do it== พูดทั่วไป · do so ทางการ"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: "Some staff prefer to work from home; others do in the office.", why: "do แทน prefer to work แบบนี้ไม่ได้"}
     - {t: "Some staff prefer to work from home; others so in the office.", why: "ผิดรูป จึงใช้ไม่ได้"}
   explain: "gapping ทางการ ==ใช้จุลภาคแทนกริยาที่ละ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: "no", why: "I'm afraid no ไม่ใช่รูปมาตรฐาน"}
     - {t: it, why: "ผิดรูป จึงใช้ไม่ได้"}
   explain: "==I'm afraid so / not== ตอบแบบเสียดาย"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: ones
   accept: [ones]
   why: "ones แทนคำนามพหูพจน์ (shoes)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การอ้างอิงและการเชื่อมโยง ----------
 - id: cefr-c2-w05-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: erstwhile, why: "erstwhile แปลว่าในอดีต"}
     - {t: respective, why: "respective แปลว่าของแต่ละคน"}
   explain: "aforementioned = ==ที่กล่าวถึงข้างต้น== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: ensuing, why: "ensuing ไม่เข้ากับบริบท"}
     - {t: erstwhile, why: "erstwhile แปลว่าในอดีต"}
   explain: "respective = ==ของแต่ละคน/แต่ละสิ่ง== (respectively = ตามลำดับ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: aforementioned, why: "ยังไม่ได้กล่าวถึงการประท้วง"}
     - {t: respective, why: "ไม่เข้ากับบริบท"}
   explain: "ensuing = ==ที่เกิดตามมา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: respective, why: "respective rivals ไม่มีความหมายนี้"}
     - {t: aforementioned, why: "ไม่ได้กล่าวถึงมาก่อน"}
   explain: "erstwhile = ==ที่เคยเป็น== ≈ former"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: namely, why: "namely แปลว่าก็คือ"}
     - {t: thereafter, why: "thereafter บอกเวลา"}
   explain: "conversely = ==ในทางกลับกัน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: namely, why: "namely แปลว่าก็คือ"}
     - {t: per se, why: "per se แปลว่าโดยตัวมันเอง"}
   explain: "thereafter = ==หลังจากนั้น== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: namely, why: "namely ไม่บอกผล"}
     - {t: whereupon, why: "whereupon บอกเหตุการณ์ที่เกิดทันทีหลังจากนั้น"}
   explain: "hence = ==ก็เลย== (ตามด้วยคำนามได้: hence the need)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: conversely, why: "ไม่บอกลำดับเหตุการณ์"}
     - {t: namely, why: "บทไม่ได้พูดว่า namely"}
   explain: "whereupon = ==ซึ่งทันทีหลังจากนั้น== (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: conversely, why: "ไม่เข้ากับบริบท"}
     - {t: chiefly, why: "chiefly แปลว่าส่วนใหญ่"}
   explain: "namely = ==ก็คือ ได้แก่== (ระบุเฉพาะ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: per se, why: "ไม่เข้ากับบริบท"}
     - {t: whereupon, why: "บทไม่ได้พูดว่า whereupon"}
   explain: "chiefly = ==ส่วนใหญ่ เป็นหลัก== ≈ mainly"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: namely, why: "ไม่เข้ากับบริบท"}
     - {t: hence, why: "บทไม่ได้พูดว่า hence"}
   explain: "per se = ==โดยตัวมันเอง== (มักวางหลังคำนาม)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: lieu
   accept: [lieu]
   why: "in lieu of = แทน (ทางการ)"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ผูกเรื่องในข้อความยาว ----------
 - id: cefr-c2-w05-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: Which, why: "Which ขึ้นประโยคใหม่ไม่ได้"}
     - {t: Such, why: "Such has ไม่ถูกรูป"}
   explain: "==This / These + คำนามสรุป== ผูกประโยคใหม่กับเนื้อหาเดิม"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: results, why: "ไม่ใช่ผล จึงใช้ไม่ได้"}
     - {t: problems, why: "ไม่ใช่ปัญหา จึงใช้ไม่ได้"}
   explain: "lexical cohesion ==ใช้คำนามที่บอกความสัมพันธ์== (examples · reason · result)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: last, why: "the last ไม่ใช่คู่กับ the former"}
     - {t: other, why: "the other ไม่ใช้คู่กับ the former"}
   explain: "==the former = ตัวแรก== · the latter = ตัวหลัง"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: Such, why: "Such surprised ผิดรูป"}
     - {t: Itself, why: "itself ขึ้นต้นประโยคไม่ได้"}
   explain: "คำนามสรุป ==ไม่ใช่แค่แทนคำเดิม แต่ตีความด้วย== (this haste · this success)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: "Flexible people often do yoga.", why: "เปลี่ยนความหมายของ flexible"}
     - {t: "However, it rained a lot last year.", why: "ไม่เกี่ยวข้อง จึงใช้ไม่ได้"}
   explain: "ย่อหน้าที่ลื่น ==ประโยคต่อไปหยิบคำจากประโยคก่อน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: a conclusion, why: "however แสดงว่าจะแย้งสิ่งก่อนหน้า"}
     - {t: a question to the reader, why: "ไม่จำเป็น จึงใช้ไม่ได้"}
   explain: "ใช้ ==this / these + คำนาม== เดาเนื้อหาย่อหน้าก่อนได้"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: the policy, why: "policy ไม่ใช่สถานที่"}
     - {t: both cities and rural areas, why: "ประโยคบอกว่าเห็นว่าไม่ยุติธรรมเฉพาะชนบท"}
   explain: "สายการอ้างอิง ==ตามไปหาคำที่ pronoun ชี้ทุกครั้ง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w05-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: "To sum up, the trend is clear.", why: "ใช้สรุป จึงใช้ไม่ได้"}
     - {t: "In addition, costs fell.", why: "เพิ่มเติมทิศทางเดียวกัน"}
   explain: "ประโยคแรกของย่อหน้า ==บอกหน้าที่ของย่อหน้า== (exception · result · summary)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: latter
   accept: [latter]
   why: "the latter = ตัวหลัง (tea)"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: whereupon, why: "whereupon บอกเหตุการณ์ที่ตามมาทันที"}
         - {t: per se, why: "ไม่ใช่คำเชื่อม จึงใช้ไม่ได้"}
         - {t: respective, why: "บทไม่ได้พูดว่า respective"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความยาวที่ย่อหน้าถูกสลับและฟังการอภิปราย ----------
 - id: cefr-c2-w05-035
   kind: read
@@ -489,7 +489,7 @@
         - {t: it introduces a new example, why: "เคยพูดถึงแล้ว จึงใช้ไม่ได้"}
         - {t: it shows the article is incomplete, why: "ไม่ใช่ จึงใช้ไม่ได้"}
         - {t: "it refers to a bus stop in [C]", why: "[C] พูดถึงที่นั่งบนรถ ไม่ใช่ป้ายรถเมล์"}
-  status: draft
+  status: approved
 - id: cefr-c2-w05-036
   kind: listen
   skill: li
@@ -504,7 +504,7 @@
         - {t: she agrees with it, why: "เธอเห็นด้วยกับสมชาย ไม่ใช่มะลิ"}
         - {t: she has not heard it, why: "เธออ้างถึงมัน จึงใช้ไม่ได้"}
         - {t: she thinks it is about cost, why: "ประเด็นราคาเป็นของสมชาย"}
-  status: draft
+  status: approved
 - id: cefr-c2-w05-037
   kind: listen
   skill: li
@@ -519,7 +519,7 @@
         - {t: they forgot to apply, why: "we did apply จึงใช้ไม่ได้"}
         - {t: the question was unclear, why: "ไม่ใช่สาเหตุ จึงใช้ไม่ได้"}
         - {t: the meeting started late, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w05-038
   kind: listen
   skill: li
@@ -534,7 +534,7 @@
         - {t: the cheaper one, why: "นั่นคือข้อเสนอแรก"}
         - {t: neither, why: "เธอเลือก the latter"}
         - {t: both equally, why: "เธอเลือกข้อเดียว"}
-  status: draft
+  status: approved
 - id: cefr-c2-w05-039
   kind: order
   skill: gm
@@ -544,7 +544,7 @@
   sentence: I asked him to check the figures, and he did so immediately.
   th: ฉันขอให้เขาตรวจตัวเลข และเขาก็ทำทันที
   why: "do so แทนการกระทำที่พูดถึงแล้ว"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-040
   kind: order
   skill: gm
@@ -554,7 +554,7 @@
   sentence: The first option is cheaper; the second, more reliable.
   th: ทางเลือกแรกถูกกว่า ส่วนทางที่สองน่าเชื่อถือกว่า
   why: "gapping ละ is ในส่วนหลัง ใช้จุลภาคแทน"
-  status: draft
+  status: approved
 - id: cefr-c2-w05-041
   kind: order
   skill: gm
@@ -564,7 +564,7 @@
   sentence: This decline was caused chiefly by rising costs.
   th: การลดลงนี้เกิดจากต้นทุนที่สูงขึ้นเป็นหลัก
   why: "This + คำนามสรุป ขึ้นต้น · chiefly by"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c2-w05-042
   kind: order
@@ -575,4 +575,4 @@
   sentence: While the first two speakers focused on cost, the third raised a different concern, namely fairness.
   th: ขณะที่ผู้พูดสองคนแรกเน้นเรื่องค่าใช้จ่าย คนที่สามยกประเด็นอื่น ก็คือความยุติธรรม
   why: "While + ประโยค · the third (ละ speaker) · namely"
-  status: draft
+  status: approved

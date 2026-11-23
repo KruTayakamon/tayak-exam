@@ -1,5 +1,5 @@
 # คอร์ส c2 · ชุดวัดผล ชุด b · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
 # หัวข้อไวยากรณ์: สัปดาห์ 4–10 (d1 + d3) · cloze: synthesis-paraphrase · ศัพท์: สัปดาห์ 2–11
 # ---------- ไวยากรณ์ 14 ข้อ ----------
 - id: cefr-c2-cpb-001
@@ -14,7 +14,7 @@
     - {t: construct, why: "construct เป็นกริยา"}
     - {t: constructive, why: "constructive เป็นคุณศัพท์ แปลว่าสร้างสรรค์"}
   explain: "นามวลี ==the + คำนาม + of=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-002
   kind: mcq
   skill: gm
@@ -27,7 +27,7 @@
     - {t: Having sending, why: "หลัง having ต้องใช้ช่อง 3"}
     - {t: To sending, why: "ผิดรูป จึงใช้ไม่ได้"}
   explain: "เหตุการณ์ก่อน ==Having + ช่อง 3 ขึ้นต้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-003
   kind: mcq
   skill: gm
@@ -40,7 +40,7 @@
     - {t: it, why: "intend it ผิดรูป"}
     - {t: to it, why: "to it แปลว่าไปยังมัน ไม่ใช่การละกริยา"}
   explain: "ละกริยาหลัง want / intend / hope ==เหลือ to=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-004
   kind: mcq
   skill: gm
@@ -53,7 +53,7 @@
     - {t: Even so, why: "even so ใช้กับผลที่ขัดความคาดหมาย"}
     - {t: Likewise, why: "likewise แปลว่าเช่นเดียวกัน"}
   explain: "คำเชื่อมผล ==As a result / Consequently=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-005
   kind: mcq
   skill: gm
@@ -66,7 +66,7 @@
     - {t: argue, why: "กริยาแทรกแบบนี้ไม่ได้"}
     - {t: argument, why: "คำนามแทรกแบบนี้ไม่ได้"}
   explain: "stance adverb แทรกกลางประโยค ==arguably / admittedly=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-006
   kind: mcq
   skill: gm
@@ -79,7 +79,7 @@
     - {t: "I don't want to come to your party.", why: "ตรงเกินไปจนเสียมารยาท"}
     - {t: "Parties are not really my thing, so I think I'll give it a miss.", why: "บอกว่าไม่ชอบ ไม่สุภาพนัก"}
   explain: "ปฏิเสธสุภาพ ==I'm afraid + เหตุผล/ขอบคุณ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-007
   kind: mcq
   skill: gm
@@ -92,7 +92,7 @@
     - {t: walk, why: "บทไม่ได้พูดว่า walk"}
     - {t: shake, why: "บทไม่ได้พูดว่า shake"}
   explain: "beat around the bush = ==พูดอ้อมไม่เข้าเรื่อง=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-008
   kind: mcq
   skill: gm
@@ -105,7 +105,7 @@
     - {t: cool, why: "บทไม่ได้พูดว่า cool"}
     - {t: open, why: "บทไม่ได้พูดว่า open"}
   explain: "a breath of fresh air = ==ความสดใหม่ท่ามกลางความน่าเบื่อ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-009
   kind: mcq
   skill: gm
@@ -118,7 +118,7 @@
     - {t: give, why: "give doubt ไม่ใช่คู่คำ"}
     - {t: do, why: "do doubt ไม่ใช่คู่คำ"}
   explain: "==cast doubt on / cast light on=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-010
   kind: mcq
   skill: gm
@@ -131,7 +131,7 @@
     - {t: broke in, why: "break in คือบุกรุก"}
     - {t: broke through, why: "break through คือฝ่าไปได้ ความหมายตรงข้าม"}
   explain: "talks / negotiations ==break down== = ล้มเหลว"
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-011
   kind: mcq
   skill: gm
@@ -144,7 +144,7 @@
     - {t: "Sales went through the roof in Q2, basically, which was brilliant.", why: "สำนวนภาษาพูด จึงใช้ไม่ได้"}
     - {t: "Money-wise, Q2 was pretty awesome for us.", why: "ภาษาพูดมาก จึงใช้ไม่ได้"}
   explain: "รายงานทางการ ==คำนามทางการ + ไม่ใช้อารมณ์=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-012
   kind: mcq
   skill: gm
@@ -157,7 +157,7 @@
     - {t: a complete list of every source the author has consulted, why: "รายการอ้างอิงอยู่ท้ายบทความ"}
     - {t: a set of jokes to keep the reader entertained, why: "ไม่ใช่ขนบของงานวิชาการ"}
   explain: "ขนบ abstract ==จุดประสงค์ วิธี ผล ข้อสรุป=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-013
   kind: mcq
   skill: gm
@@ -170,7 +170,7 @@
     - {t: she wants to learn the method too, why: "ไม่มีนัยนี้ จึงใช้ไม่ได้"}
     - {t: she has no opinion about it at all, why: "เธอมีความเห็นชัด"}
   explain: "understatement ประชด ==ฟังสุภาพแต่ไม่เห็นด้วย=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-014
   kind: mcq
   skill: gm
@@ -183,7 +183,7 @@
     - {t: it relies only on old traditions, why: "ไม่ได้อ้างประเพณี"}
     - {t: it gives just two possible options, why: "ไม่ใช่ false dilemma"}
   explain: "เกิดพร้อมกัน ==ไม่ได้แปลว่าเป็นเหตุและผล=="
-  status: draft
+  status: approved
 # ---------- ช่องว่าง 3 ช่อง ----------
 - id: cefr-c2-cpb-015
   kind: cloze
@@ -208,7 +208,7 @@
         - {t: Taking together, why: "ต้องใช้ช่อง 3 เพราะรายงานถูกนำมารวม"}
         - {t: To take together, why: "ผิดรูป จึงใช้ไม่ได้"}
         - {t: Took together, why: "บทไม่ได้พูดว่า Took together"}
-  status: draft
+  status: approved
 # ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 2–11) ----------
 - id: cefr-c2-cpb-016
   kind: mcq
@@ -222,7 +222,7 @@
     - {t: emphatic, why: "emphatic ใช้กับท่าทีหนักแน่น"}
     - {t: seminal, why: "seminal ใช้กับงานที่มีอิทธิพลต่อสาขาวิชา"}
   explain: "pivotal = ==เป็นจุดหักเห สำคัญยิ่ง=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-017
   kind: mcq
   skill: vo
@@ -235,7 +235,7 @@
     - {t: abide, why: "abide ต้องใช้ abide by"}
     - {t: remit, why: "remit คือส่งเงิน/ขอบเขตงาน"}
   explain: "warrant = ==สมควร มีเหตุผลพอที่จะ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-018
   kind: mcq
   skill: vo
@@ -248,7 +248,7 @@
     - {t: attrition, why: "attrition คือการลดลงทีละน้อย"}
     - {t: erosion, why: "erosion คือการกัดกร่อน"}
   explain: "proliferation = ==เพิ่มจำนวนอย่างรวดเร็ว=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-019
   kind: mcq
   skill: vo
@@ -261,7 +261,7 @@
     - {t: ensuing, why: "ensuing คือที่ตามมา"}
     - {t: respective, why: "respective คือของแต่ละคน"}
   explain: "aforementioned = ==ที่กล่าวถึงแล้ว== (ภาษาทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-020
   kind: mcq
   skill: vo
@@ -274,7 +274,7 @@
     - {t: demurred, why: "demur คือแย้งอย่างสุภาพ"}
     - {t: downplayed, why: "downplay ต้องมีกรรม ไม่ตามด้วย that"}
   explain: "reiterate = ==พูดย้ำ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-021
   kind: mcq
   skill: vo
@@ -287,7 +287,7 @@
     - {t: proverbial, why: "proverbial คือที่พูดกันเป็นสุภาษิต"}
     - {t: facetious, why: "facetious คือพูดเล่นไม่ถูกที่"}
   explain: "poignant = ==ซึ้งจนเศร้า=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-022
   kind: mcq
   skill: vo
@@ -300,7 +300,7 @@
     - {t: levied, why: "levy ใช้กับภาษี"}
     - {t: conferred, why: "confer ใช้กับการมอบตำแหน่ง/ปริญญา"}
   explain: "harbour = ==เก็บไว้ในใจ (ความหวัง ความสงสัย)=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-023
   kind: mcq
   skill: vo
@@ -313,7 +313,7 @@
     - {t: prose, why: "prose คือร้อยแก้ว"}
     - {t: treatise, why: "treatise คือตำราวิชาการ"}
   explain: "jargon = ==ศัพท์เฉพาะที่คนนอกไม่เข้าใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-024
   kind: mcq
   skill: vo
@@ -326,7 +326,7 @@
     - {t: begrudged, why: "begrudge คือไม่เต็มใจให้"}
     - {t: disparaged, why: "disparage คือดูแคลน"}
   explain: "extol = ==ยกย่องสรรเสริญ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-025
   kind: mcq
   skill: vo
@@ -339,7 +339,7 @@
     - {t: conflate, why: "conflate คือนำสองอย่างมาปนกัน"}
     - {t: surmise, why: "surmise คือเดาเอา"}
   explain: "substantiate = ==พิสูจน์ด้วยหลักฐาน=="
-  status: draft
+  status: approved
 # ---------- การอ่าน 2 บท ----------
 - id: cefr-c2-cpb-026
   kind: read
@@ -382,7 +382,7 @@
         - {t: angry and insulting, why: "ไม่ได้ใช้คำดูถูก"}
         - {t: humorous and light-hearted, why: "ไม่ได้ใช้มุกตลก"}
         - {t: uncertain and confused, why: "จุดยืนชัดเจน จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-027
   kind: read
   skill: rd
@@ -424,7 +424,7 @@
         - {t: detailed statistics from research, why: "ไม่มีตัวเลขงานวิจัย"}
         - {t: interviews with office workers, why: "ไม่มีการสัมภาษณ์"}
         - {t: a step-by-step technical guide, why: "ไม่ใช่คู่มือ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 # ---------- การฟัง 4 ข้อ ----------
 - id: cefr-c2-cpb-028
   kind: listen
@@ -441,7 +441,7 @@
         - {t: she wants to go back very soon, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: the service was the worst part, why: "บริการคือส่วนเดียวที่พอใช้ได้"}
         - {t: she has not been there yet, why: "เธอไปมาแล้ว จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-029
   kind: listen
   skill: li
@@ -456,7 +456,7 @@
         - {t: most people no longer read anything at all on paper, why: "ยังชอบกระดาษสำหรับงานยาว"}
         - {t: fewer than half read on their phones, why: "over half จึงใช้ไม่ได้"}
         - {t: short articles are read only on paper, why: "ไม่ได้พูดแบบนั้น"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-030
   kind: listen
   skill: li
@@ -471,7 +471,7 @@
         - {t: she has been given a lot more work and responsibility, why: "same work จึงใช้ไม่ได้"}
         - {t: she has moved to a new office, why: "same desk จึงใช้ไม่ได้"}
         - {t: she is very excited about the change, why: "น้ำเสียงไม่ตื่นเต้น"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpb-031
   kind: listen
   skill: li
@@ -486,7 +486,7 @@
         - {t: it closed several years ago, why: "would have closed = ยังไม่ปิด"}
         - {t: it no longer needs any grants, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: it is run by the government, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 # ---------- เรียงประโยค ----------
 - id: cefr-c2-cpb-032
   kind: order
@@ -497,4 +497,4 @@
   sentence: What surprised us was not the cost but how quickly the work was done.
   th: สิ่งที่ทำให้เราแปลกใจไม่ใช่ค่าใช้จ่าย แต่เป็นความเร็วที่งานเสร็จ
   why: "What ... was not A but B (pseudo-cleft เน้นสิ่งที่แปลกใจ)"
-  status: draft
+  status: approved

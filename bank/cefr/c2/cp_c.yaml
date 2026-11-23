@@ -1,5 +1,5 @@
 # คอร์ส c2 · ชุดวัดผล ชุด c · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
 # หัวข้อไวยากรณ์: สัปดาห์ 1–3 และ 8–11 (d1 + d3) · cloze: collocation-precision · ศัพท์: สัปดาห์ 1 3 4 5 6 7 8 9 11 12
 # ---------- ไวยากรณ์ 14 ข้อ ----------
 - id: cefr-c2-cpc-001
@@ -14,7 +14,7 @@
     - {t: can't, why: "can't คือทำไม่ได้"}
     - {t: shouldn't have, why: "shouldn't have พูดถึงอดีต แต่มื้อนี้ยังไม่เกิด"}
   explain: "ไม่จำเป็น ==needn't / don't have to== ต่างจากห้าม mustn't"
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-002
   kind: mcq
   skill: gm
@@ -27,7 +27,7 @@
     - {t: hoped being, why: "บทไม่ได้พูดว่า hoped being"}
     - {t: will hope, why: "ไม่ใช้ will กับคำขอแบบนี้"}
   explain: "ใช้อดีตเพื่อสุภาพ ==I was hoping / I was wondering=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-003
   kind: mcq
   skill: gm
@@ -40,7 +40,7 @@
     - {t: remembered she, why: "กลับลำดับต้องใช้กริยาช่วย did"}
     - {t: she did remember, why: "ไม่ได้กลับลำดับ"}
   explain: "==Only after== / Only when + กริยาช่วย + ประธาน"
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-004
   kind: mcq
   skill: gm
@@ -53,7 +53,7 @@
     - {t: be, why: "ต้องผันกริยา จึงใช้ไม่ได้"}
     - {t: being, why: "ต้องเป็นกริยาแท้"}
   explain: "pseudo-cleft ==What ... + is + สิ่งที่เน้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-005
   kind: mcq
   skill: gm
@@ -66,7 +66,7 @@
     - {t: will, why: "ไม่ใช่สำนวนนี้ จึงใช้ไม่ได้"}
     - {t: can, why: "บทไม่ได้พูดว่า can"}
   explain: "Come what may = ==ไม่ว่าจะเกิดอะไรขึ้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-006
   kind: mcq
   skill: gm
@@ -79,7 +79,7 @@
     - {t: Had, why: "Had ใช้กับเงื่อนไขอดีต"}
     - {t: Were, why: "Were the parcel arrive ผิดรูป"}
   explain: "จดหมายทางการ ==Should + ประธาน + กริยารูปเดิม== = If"
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-007
   kind: mcq
   skill: gm
@@ -92,7 +92,7 @@
     - {t: did, why: "do a debate ไม่ใช่คู่คำ"}
     - {t: gave, why: "give a debate ไม่ใช่คู่คำ"}
   explain: "==spark / trigger a debate=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-008
   kind: mcq
   skill: gm
@@ -105,7 +105,7 @@
     - {t: look out, why: "look out คือระวัง ไม่มีกรรมตามแบบนี้"}
     - {t: look after, why: "look after คือดูแล"}
   explain: "look into = ==สืบดู ตรวจสอบ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-009
   kind: mcq
   skill: gm
@@ -118,7 +118,7 @@
     - {t: sort, why: "sort ไม่ได้แปลว่าหาสาเหตุ"}
     - {t: dig up, why: "dig up เป็นภาษาพูด"}
   explain: "phrasal verb → ==คำกริยาคำเดียวทางการ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-010
   kind: mcq
   skill: gm
@@ -131,7 +131,7 @@
     - {t: "Dear residents, we regret to inform you of changes.", why: "เป็นจดหมาย จึงใช้ไม่ได้"}
     - {t: "OMG no more night buses lol", why: "เป็นข้อความโซเชียล"}
   explain: "พาดหัวข่าว ==ตัด a/the ใช้ปัจจุบัน คำกริยาสั้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-011
   kind: mcq
   skill: gm
@@ -144,7 +144,7 @@
     - {t: the colleague acted out of bad intentions and wanted it to fail, why: "meant well = เจตนาดี"}
     - {t: the manager has not heard about it, why: "เขารู้เรื่องแล้ว"}
   explain: "meant well = ==ตั้งใจดี (แต่ไม่สำเร็จ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-012
   kind: mcq
   skill: gm
@@ -157,7 +157,7 @@
     - {t: the speaker relies on tradition, why: "ไม่ได้อ้างประเพณี"}
     - {t: it confuses two different policies, why: "ไม่ได้พูดถึงสองนโยบาย"}
   explain: "hasty generalisation ==กลุ่มตัวอย่างไม่เป็นตัวแทน=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-013
   kind: mcq
   skill: gm
@@ -170,7 +170,7 @@
     - {t: Everyone was very excited by the proposal., why: "ตรงกันข้าม จึงใช้ไม่ได้"}
     - {t: The proposal was a little too enthusiastic., why: "ผิดความหมาย จึงใช้ไม่ได้"}
   explain: "meet with + คำนาม = ==ได้รับ (ปฏิกิริยา)=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-014
   kind: mcq
   skill: gm
@@ -183,7 +183,7 @@
     - {t: when he apologised, why: "โครงสร้างนี้ใช้ that"}
     - {t: he apologised, why: "ขาด that จึงใช้ไม่ได้"}
   explain: "==It was not until X that + ประธาน + กริยา=="
-  status: draft
+  status: approved
 # ---------- ช่องว่าง 3 ช่อง ----------
 - id: cefr-c2-cpc-015
   kind: cloze
@@ -208,7 +208,7 @@
         - {t: won over, why: "win over ใช้กับคน ไม่ใช้กับ respect"}
         - {t: made, why: "make respect ไม่ใช่คู่คำ"}
         - {t: reaped, why: "reap ใช้กับผลประโยชน์ ไม่ใช่ respect"}
-  status: draft
+  status: approved
 # ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 1 3 4 5 6 7 8 9 11 12) ----------
 - id: cefr-c2-cpc-016
   kind: mcq
@@ -222,7 +222,7 @@
     - {t: pedantic, why: "pedantic คือจู้จี้เรื่องรายละเอียด"}
     - {t: unequivocal, why: "unequivocal คือชัดเจน ตรงกันข้าม"}
   explain: "nebulous = ==เลือนราง ไม่ชัด=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-017
   kind: mcq
   skill: vo
@@ -235,7 +235,7 @@
     - {t: hitherto, why: "hitherto คือจนบัดนี้ เป็นคำวิเศษณ์"}
     - {t: forthwith, why: "forthwith คือทันที เป็นคำวิเศษณ์"}
   explain: "contingent on = ==ขึ้นอยู่กับ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-018
   kind: mcq
   skill: vo
@@ -248,7 +248,7 @@
     - {t: upheaval, why: "upheaval คือความวุ่นวายครั้งใหญ่"}
     - {t: corollary, why: "corollary คือผลที่ตามมาโดยธรรมชาติ"}
   explain: "inception = ==จุดเริ่มต้น=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-019
   kind: mcq
   skill: vo
@@ -261,7 +261,7 @@
     - {t: thereafter, why: "thereafter คือหลังจากนั้น"}
     - {t: chiefly, why: "chiefly คือส่วนใหญ่ ไม่ได้ใช้ระบุ"}
   explain: "namely = ==ได้แก่ (ระบุสิ่งที่พูดถึง)=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-020
   kind: mcq
   skill: vo
@@ -274,7 +274,7 @@
     - {t: tact, why: "out of tact to ไม่ใช่สำนวน"}
     - {t: dissent, why: "dissent คือความไม่เห็นด้วย"}
   explain: "out of deference to = ==ด้วยความเคารพต่อ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-021
   kind: mcq
   skill: vo
@@ -287,7 +287,7 @@
     - {t: hyperbole, why: "hyperbole คือการพูดเกินจริง"}
     - {t: cliche, why: "cliche คือสำนวนซ้ำซาก"}
   explain: "analogy = ==การเปรียบเทียบเพื่อให้เข้าใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-022
   kind: mcq
   skill: vo
@@ -300,7 +300,7 @@
     - {t: bestowed, why: "bestow คือมอบให้"}
     - {t: redressed, why: "redress คือแก้ไขความไม่เป็นธรรม"}
   explain: "espouse = ==ยึดถือและสนับสนุน (ความคิด ความเชื่อ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-023
   kind: mcq
   skill: vo
@@ -313,7 +313,7 @@
     - {t: laconic, why: "laconic คือพูดน้อย ตรงกันข้าม"}
     - {t: terse, why: "terse คือสั้นห้วน ตรงกันข้าม"}
   explain: "verbose = ==เยิ่นเย้อ ใช้คำมากเกิน=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-024
   kind: mcq
   skill: vo
@@ -326,7 +326,7 @@
     - {t: vindicated, why: "vindicated คือได้รับการพิสูจน์ว่าถูก"}
     - {t: postulated, why: "ประโยคบอกว่าไม่เกี่ยวกันเลย ไม่ใช่แค่ถูกตั้งสมมติฐาน"}
   explain: "spurious = ==ปลอม ดูเหมือนจริงแต่ไม่ใช่=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-025
   kind: mcq
   skill: vo
@@ -339,7 +339,7 @@
     - {t: remuneration, why: "remuneration คือค่าตอบแทน"}
     - {t: stewardship, why: "stewardship คือการดูแลรับผิดชอบ"}
   explain: "aptitude for = ==ความถนัดด้าน=="
-  status: draft
+  status: approved
 # ---------- การอ่าน 2 บท ----------
 - id: cefr-c2-cpc-026
   kind: read
@@ -380,7 +380,7 @@
         - {t: the study lasted for only a single working day, why: "ศึกษา 4 สัปดาห์"}
         - {t: too few people took breaks, why: "ครึ่งหนึ่งพัก จึงใช้ไม่ได้"}
         - {t: the attention task was far too difficult for most participants, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-027
   kind: read
   skill: rd
@@ -422,7 +422,7 @@
         - {t: the measures are not worth trying at all, why: "ยังจะทำ จึงใช้ไม่ได้"}
         - {t: the risks will disappear completely, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: members must pay for all the changes, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 # ---------- การฟัง 4 ข้อ ----------
 - id: cefr-c2-cpc-028
   kind: listen
@@ -439,7 +439,7 @@
         - {t: stay at the party all evening, why: "จะอยู่แค่ครึ่งชั่วโมง"}
         - {t: miss the party completely, why: "จะพยายามแวะไป จึงใช้ไม่ได้"}
         - {t: ask for his deadline to be moved, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-029
   kind: listen
   skill: li
@@ -454,7 +454,7 @@
         - {t: social media is clearly the main cause of the problem, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: attention spans have actually increased, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
         - {t: headlines are always completely accurate, why: "บทไม่ได้พูดว่า headlines are always completely accurate"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-030
   kind: listen
   skill: li
@@ -469,7 +469,7 @@
         - {t: they had already finished their whole meal first, why: "เพิ่งนั่งลง จึงใช้ไม่ได้"}
         - {t: the alarm rang before they arrived, why: "ลำดับผิด จึงใช้ไม่ได้"}
         - {t: they started a fire while cooking, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpc-031
   kind: listen
   skill: li
@@ -484,7 +484,7 @@
         - {t: the essay contains no research at all, why: "well researched"}
         - {t: the essay is much too short, why: "ไม่ได้พูดถึงความยาว"}
         - {t: the conclusion is missing completely, why: "มีข้อสรุปแต่แรงเกิน"}
-  status: draft
+  status: approved
 # ---------- เรียงประโยค ----------
 - id: cefr-c2-cpc-032
   kind: order
@@ -495,4 +495,4 @@
   sentence: Were the council to approve the plan, work could begin as early as May.
   th: หากสภาอนุมัติแผน งานอาจเริ่มได้เร็วสุดในเดือนพฤษภาคม
   why: "Were + ประธาน + to ขึ้นต้น = เงื่อนไขทางการ (If the council were to)"
-  status: draft
+  status: approved

@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 6 · จุดยืน ระยะห่าง และความสุภาพ · stance adverbials · boosting กับ hedging · understatement · litotes · คำถามเชิงโวหาร · ปฏิเสธอย่างสุภาพ
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · คำบอกจุดยืน ----------
 - id: cefr-c2-w06-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: Admittedly, why: "admittedly ใช้ยอมรับข้อเสียก่อนแย้ง"}
     - {t: Allegedly, why: "allegedly ใช้กับข้อกล่าวหาที่ยังไม่พิสูจน์"}
   explain: "stance adverb ==บอกความรู้สึกหรือท่าทีของผู้พูด== ต่อทั้งประโยค"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: Undoubtedly, why: "undoubtedly ฟันธง ไม่เข้ากับการยอมรับแล้วแย้ง"}
     - {t: Fortunately, why: "จุดอ่อนไม่ใช่เรื่องโชคดี"}
   explain: "==Admittedly, ... but ...== = ยอมรับว่า... แต่"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: admittedly, why: "admittedly ใช้กับสิ่งที่ผู้พูดยอมรับเอง"}
     - {t: thankfully, why: "ไม่เข้ากับบริบท"}
   explain: "ข่าวที่ยังไม่พิสูจน์ ==allegedly / reportedly=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: "This might be a cause.", why: "ลดน้ำหนักอย่างเดียว"}
     - {t: "This is definitely and absolutely the only cause.", why: "เน้นอย่างเดียว เกินจริง"}
   explain: "ระดับ C2 ==ผสมความมั่นใจกับความระวัง== ในประโยคเดียว"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: Broad, why: "ต้องใช้คำวิเศษณ์ broadly"}
     - {t: Overly, why: "overly speaking ไม่ใช่สำนวน"}
   explain: "==Broadly / Generally / Strictly speaking== บอกมุมมองการพูด"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: unquestionably, why: "ขัดกับการระวังข้อสรุป"}
     - {t: fortunately, why: "กลุ่มเล็กไม่ใช่เรื่องโชคดี"}
   explain: "stance adverb ==วางกลางประโยคระหว่างจุลภาค== ได้"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: Admittedly, why: "ไม่ใช่การยอมรับก่อนแย้ง"}
     - {t: Predictably, why: "ไม่มีข้อมูลว่าคาดไว้"}
   explain: "stance adverb ==ตัดสินคุณค่าของข้อเท็จจริง== (fortunately · sadly · ironically)"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: the software was cheap, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
     - {t: the delay was expected, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
   explain: "ironically = ==ผลออกมาตรงข้ามกับที่ตั้งใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: apparently, why: "ได้ยินมา ไม่ใช่ความเห็นตัวเอง"}
     - {t: seemingly, why: "ดูเหมือน ยังไม่แน่ใจ"}
   explain: "ไล่ระดับ ไล่จาก seemingly ถึง ==undeniably (มั่นใจสุด)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: the speaker is quoting someone, why: "เป็นความเห็นของตัวเอง"}
     - {t: the speaker agrees, why: "ไม่เห็นด้วย จึงใช้ไม่ได้"}
   explain: "==Frankly / To be honest / Quite frankly== = เตือนว่าจะพูดตรง"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: frankly, why: "frankly ไม่วางตำแหน่งนี้ในความหมายนี้"}
     - {t: fortunately, why: "การไม่รู้ปัญหาไม่ใช่เรื่องโชคดี"}
   explain: "ข่าวที่ผู้เขียนไม่ยืนยันเอง ==reportedly · allegedly · apparently=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: admittedly
   accept: [admittedly, Admittedly]
   why: "admittedly = ยอมรับว่า (ก่อนแย้ง)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ความเห็นต่างและความสุภาพ ----------
 - id: cefr-c2-w06-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: acquiesced, why: "acquiesce แปลว่ายอมตาม ขัดกับบริบท"}
     - {t: reiterated, why: "reiterate แปลว่าย้ำซ้ำ"}
   explain: "demur = ==ไม่เห็นด้วยหรือลังเลอย่างสุภาพ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: dissent, why: "dissent แปลว่าเห็นต่าง"}
     - {t: insinuate, why: "insinuate แปลว่าพูดเป็นนัยในทางลบ"}
   explain: "concur = ==เห็นด้วย (ทางการ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: acquiesced, why: "acquiesce แปลว่ายอมตาม ขัดกับ but"}
     - {t: intimated, why: "intimate แปลว่าบอกเป็นนัย"}
   explain: "dissent = ==เห็นแย้ง ไม่ลงมติด้วย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: demurred, why: "ขัดกับการยอมตาม"}
     - {t: reiterated, why: "reiterate ไม่ตามด้วย to"}
   explain: "acquiesce = ==ยอมตาม (มักไม่เต็มใจ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: downplay, why: "downplay แปลว่าลดความสำคัญ"}
     - {t: acquiesce, why: "acquiesce ไม่ตามด้วย that แบบนี้"}
   explain: "reiterate = ==ย้ำซ้ำ (สิ่งที่เคยพูดแล้ว)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: concurring, why: "concur แปลว่าเห็นด้วย"}
     - {t: overstating, why: "overstate แปลว่าพูดเกินจริง"}
   explain: "insinuate = ==พูดเป็นนัยในทางไม่ดี=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: reiterated, why: "reiterate ใช้กับสิ่งที่พูดชัดแล้ว"}
     - {t: dissented, why: "dissent ไม่ตามด้วย that แบบนี้"}
   explain: "intimate (v.) = ==บอกเป็นนัย== (ไม่ใช่ความหมายลบเหมือน insinuate)"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: reiterate, why: "ไม่เข้ากับบริบท"}
     - {t: concur, why: "บทไม่ได้พูดว่า concur"}
   explain: "downplay = ==ลดความสำคัญให้ดูเล็กลง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: acquiesce, why: "ไม่เข้ากับบริบท"}
     - {t: intimate, why: "บทไม่ได้พูดว่า intimate"}
   explain: "overstate = ==พูดเกินจริง== ตรงข้าม downplay / understate"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: tact, why: "tact คือความรู้กาลเทศะ"}
     - {t: dissent, why: "dissent คือความเห็นแย้ง"}
   explain: "euphemism = ==คำพูดอ้อมให้นุ่มนวล=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: euphemism, why: "euphemism นับได้ ไม่ใช้กับ a great deal of"}
     - {t: dissent, why: "ไม่เข้ากับบริบท"}
   explain: "tact = ==ความรู้กาลเทศะ พูดไม่ให้เสียน้ำใจ== (tactful)"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: deference
   accept: [deference]
   why: "out of deference to = ด้วยความเคารพเกรงใจ"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · พูดอ้อมและปฏิเสธอย่างสุภาพ ----------
 - id: cefr-c2-w06-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: it was the best ever, why: "เกินไปจากความหมาย"}
     - {t: there was no food, why: "บทไม่ได้พูดว่า there was no food"}
   explain: "litotes = ==ปฏิเสธสิ่งตรงข้ามเพื่อพูดอ้อม== (not bad = good)"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: "I won't come.", why: "ฟังห้วน จึงใช้ไม่ได้"}
     - {t: "Not interested.", why: "ไม่สุภาพ จึงใช้ไม่ได้"}
   explain: "ปฏิเสธสุภาพ ==บอกความอยาก + I'm afraid + เหตุผล=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: they need more information, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
     - {t: it is exactly right, why: "บทไม่ได้พูดว่า it is exactly right"}
   explain: "understatement = ==พูดเบากว่าความจริงเพื่อความสุภาพ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: the speaker wants a list of names, why: "ไม่ได้ถามจริง จึงใช้ไม่ได้"}
     - {t: the speaker doesn't know, why: "ไม่ใช่คำถามจริง"}
   explain: "rhetorical question = ==คำถามที่ไม่ต้องการคำตอบ ใช้เน้นความเห็น=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: "You don't understand the problem.", why: "ตำหนิผู้ฟัง จึงใช้ไม่ได้"}
     - {t: "That will never work.", why: "ฟันธงและแรง จึงใช้ไม่ได้"}
   explain: "ไม่เห็นด้วยอย่างสุภาพ ==I wonder whether / might / a little=="
-  status: draft
+  status: approved
 - id: cefr-c2-w06-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: I'm very tired, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
     - {t: I haven't heard the idea, why: "บทไม่ได้พูดว่า I haven't heard the idea"}
   explain: "==not entirely== / not quite / not altogether = อ้อมของ ไม่"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: an apology, why: "ไม่ใช่คำขอโทษ จึงใช้ไม่ได้"}
     - {t: complete agreement, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
   explain: "==With (the greatest) respect, ...== = สุภาพแต่กำลังจะแย้งแรง"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: afraid of the risks, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
     - {t: causing the risks, why: "บทไม่ได้พูดว่า causing the risks"}
   explain: "==not + un-/in- = บวกแบบระวัง== (not uncommon = ค่อนข้างพบบ่อย)"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: afraid
   accept: [afraid]
   why: "I'm afraid ... = เกรงว่า ใช้นำข่าวไม่ดีอย่างสุภาพ"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: that, why: "wonder that ไม่ใช่การถาม"}
         - {t: what, why: "what we might discuss it ผิดรูป"}
         - {t: which, why: "ผิดรูป จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านจดหมายโต้ตอบและฟังการประชุมที่เห็นต่าง ----------
 - id: cefr-c2-w06-035
   kind: read
@@ -503,7 +503,7 @@
         - {t: angry and rude, why: "ไม่มีถ้อยคำหยาบ"}
         - {t: completely supportive, why: "แย้งข้อเสนอสำคัญ"}
         - {t: uncertain and confused, why: "จุดยืนชัดเจน จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w06-036
   kind: listen
   skill: li
@@ -518,7 +518,7 @@
         - {t: agreeing completely, why: "มี but และแย้ง จึงใช้ไม่ได้"}
         - {t: presenting new figures, why: "ไม่ได้เสนอตัวเลขใหม่"}
         - {t: apologising for a mistake, why: "ไม่ได้ขอโทษ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w06-037
   kind: listen
   skill: li
@@ -534,7 +534,7 @@
         - {t: he completely disagrees, why: "Broadly, yes จึงใช้ไม่ได้"}
         - {t: he has no concerns, why: "ยังกังวลเรื่องเวลา"}
         - {t: he wants an earlier date, why: "เขาคิดว่ามีนาคมเร็วเกินไป"}
-  status: draft
+  status: approved
 - id: cefr-c2-w06-038
   kind: listen
   skill: li
@@ -549,7 +549,7 @@
         - {t: the idea itself, why: "It's not that I'm against the idea"}
         - {t: the cost, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
         - {t: the people involved, why: "บทไม่ได้พูดว่า the people involved"}
-  status: draft
+  status: approved
 - id: cefr-c2-w06-039
   kind: order
   skill: gm
@@ -559,7 +559,7 @@
   sentence: I'm afraid I'm not entirely convinced that this is the best solution.
   th: เกรงว่าฉันยังไม่ค่อยมั่นใจว่านี่คือทางออกที่ดีที่สุด
   why: "I'm afraid + not entirely convinced = แย้งอย่างสุภาพ"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-040
   kind: order
   skill: gm
@@ -569,7 +569,7 @@
   sentence: Admittedly, the plan is expensive, but it is undoubtedly the safest option.
   th: ยอมรับว่าแผนนี้แพง แต่เป็นทางที่ปลอดภัยที่สุดแน่นอน
   why: "Admittedly ยอมรับ แล้ว but + undoubtedly ยืนยัน"
-  status: draft
+  status: approved
 - id: cefr-c2-w06-041
   kind: order
   skill: gm
@@ -579,7 +579,7 @@
   sentence: With the greatest respect, I think you may have underestimated the cost.
   th: ด้วยความเคารพ ฉันคิดว่าคุณอาจประเมินค่าใช้จ่ายต่ำไป
   why: "With the greatest respect + may have + ช่อง 3 = แย้งสุภาพ"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c2-w06-042
   kind: order
@@ -590,4 +590,4 @@
   sentence: While we fully appreciate the pressures you face, we would urge you to consider the alternatives outlined below.
   th: แม้เราเข้าใจแรงกดดันที่ท่านเผชิญ แต่ขอให้พิจารณาทางเลือกด้านล่าง
   why: "While + ยอมรับ แล้ว would urge + คน + to"
-  status: draft
+  status: approved

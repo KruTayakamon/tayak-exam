@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 7 · สำนวนและความหมายเชิงเปรียบ · สำนวนและคู่คำตายตัว · เมื่อใดไม่ควรใช้ · อุปลักษณ์ การเปรียบเทียบ การเสียดสี
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · สำนวนและคู่คำตายตัว ----------
 - id: cefr-c2-w07-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: argument, why: "bury the argument ไม่ใช่สำนวน"}
     - {t: past, why: "bury the past ใช้ได้บ้าง แต่สำนวนเลิกบาดหมางคือ hatchet"}
   explain: "==bury the hatchet== = คืนดี เลิกบาดหมาง"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: "off", why: "cut off on ไม่ใช่สำนวน"}
     - {t: out, why: "cut out on ไม่ใช่สำนวนนี้"}
   explain: "==cut back on / cut down on== = ลดปริมาณ"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: big, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
     - {t: far, why: "บทไม่ได้พูดว่า far"}
   explain: "คู่คำตายตัว ==สลับลำดับหรือเปลี่ยนคำไม่ได้== (by and large · odds and ends)"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: pro and cons, why: "ต้องเป็นพหูพจน์ทั้งสองคำ pros"}
     - {t: pros or cons, why: "คู่คำนี้ใช้ and ไม่ใช่ or"}
   explain: "คู่คำตายตัว ==ใช้ลำดับเดิมเสมอ== (pros and cons · safe and sound · sooner or later)"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: "The project did not achieve its objectives.", why: "บทไม่ได้พูดว่า The project did not achieve its objectives."}
     - {t: "The project was discontinued.", why: "บทไม่ได้พูดว่า The project was discontinued."}
   explain: "C2 ต้องรู้ ==ว่าเมื่อไรไม่ควรใช้สำนวน== (งานเขียนทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: goat, why: "บทไม่ได้พูดว่า goat"}
     - {t: problem, why: "take the problem by the horns ไม่ใช่สำนวน"}
   explain: "==take the bull by the horns== = กล้าลงมือแก้ปัญหาตรง ๆ"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: it is very complicated, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
     - {t: it is not scientific enough, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
   explain: "==not rocket science== = ไม่ได้ยากอะไร"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: sunk, why: "sink the boat ไม่ใช่สำนวนนี้"}
     - {t: moved, why: "move the boat ไม่ใช่สำนวน"}
   explain: "==rock the boat== = ทำให้สถานการณ์ที่สงบวุ่นวาย"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "Booking early would kill one bird with two stones.", why: "เปลี่ยนความหมายของสำนวน"}
     - {t: "Booking early would kill birds with stones.", why: "สำนวนไม่ครบ จึงใช้ไม่ได้"}
   explain: "สำนวน ==เปลี่ยนคำหรือสลับคำไม่ได้=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: after a failure, why: "ใช้ก่อนรู้ผล ไม่ใช่หลังล้มเหลว"}
     - {t: when someone is careless with money, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
   explain: "==Don't count your chickens== (before they hatch) = อย่าดีใจล่วงหน้า"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: win-win, why: "win-win แปลว่าได้ทั้งสองฝ่าย ขัดกับ drawbacks"}
     - {t: hands-on, why: "hands-on แปลว่าลงมือเอง"}
   explain: "==catch-22== = สถานการณ์ทางตัน"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: basket
   accept: [basket]
   why: "put all your eggs in one basket = เสี่ยงทุกอย่างไว้ที่เดียว"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ภาษาเชิงวรรณศิลป์ ----------
 - id: cefr-c2-w07-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: figurative, why: "figurative แปลว่าเชิงเปรียบ"}
     - {t: poignant, why: "poignant แปลว่าสะเทือนใจ"}
   explain: "quintessential = ==เป็นตัวอย่างที่สมบูรณ์แบบของ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: evocative, why: "บทไม่ได้พูดว่า evocative"}
     - {t: figurative, why: "ไม่ใช้วางหน้าคำในความหมายนี้"}
   explain: "the proverbial ... = ==ตามที่สำนวนว่าไว้=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: proverbial, why: "ไม่ใช่การอ้างสำนวน"}
     - {t: quintessential, why: "ไม่เข้ากับบริบท"}
   explain: "figurative = ==เชิงเปรียบ== ตรงข้าม literal"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: poignant, why: "poignant แปลว่าสะเทือนใจ"}
     - {t: quintessential, why: "ไม่เข้ากับบริบท"}
   explain: "hackneyed = ==ซ้ำซากจำเจ ใช้จนเฝือ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: allegory, why: "allegory คือนิทานเปรียบเทียบ"}
     - {t: analogy, why: "analogy คือการเปรียบเทียบเพื่ออธิบาย"}
   explain: "cliche = ==คำพูดที่ใช้จนเฝือ== (เขียนว่า cliché ก็ได้)"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: cliche, why: "cliche ไม่ใช้อธิบาย"}
     - {t: hyperbole, why: "hyperbole คือการพูดเกินจริง"}
   explain: "analogy = ==การเปรียบเทียบเพื่อให้เข้าใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: hyperbole, why: "ไม่เข้ากับบริบท"}
     - {t: cliche, why: "บทไม่ได้พูดว่า cliche"}
   explain: "allegory = ==เรื่องที่มีความหมายแฝงทั้งเรื่อง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: allegory, why: "ไม่ใช่เรื่องเล่า"}
     - {t: cliche, why: "ไม่ใช่สำนวนเฝือ"}
   explain: "paradox = ==ความย้อนแย้งที่เป็นจริง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: hyperbole, why: "ไม่ใช่การพูดเกิน"}
     - {t: allegory, why: "ไม่ใช่เรื่องแฝงความหมาย"}
   explain: "irony = ==ความย้อนแย้ง ผลตรงข้ามกับที่คาด=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: allegory, why: "ไม่ใช่เรื่องเล่า"}
     - {t: paradox, why: "ไม่ใช่ข้อขัดแย้ง"}
   explain: "hyperbole = ==การพูดเกินจริงเพื่อเน้น== (ออกเสียง ไฮ-เปอร์-โบ-ลี)"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: proverbial, why: "proverbial of ไม่ใช่สำนวน"}
     - {t: figurative, why: "figurative of ไม่ใช่สำนวน"}
   explain: "evocative of = ==ชวนให้นึกภาพหรือความรู้สึก=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: poignant
   accept: [poignant]
   why: "poignant = สะเทือนใจ (ไม่ออกเสียง g)"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · อุปลักษณ์ การเปรียบ การเสียดสี ----------
 - id: cefr-c2-w07-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: a literal statement, why: "ออฟฟิศไม่ใช่สวนสัตว์จริง"}
     - {t: an idiom about animals, why: "เป็นการเปรียบ ไม่ใช่สำนวนตายตัว"}
   explain: "==metaphor = A คือ B== · simile = A เหมือน B (like / as)"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: she sold silk, why: "ไม่ใช่ความหมายตามตัวอักษร"}
     - {t: her voice was weak, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
   explain: "simile ==ดูว่าลักษณะไหนของสิ่งที่เปรียบถูกยืมมา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: literal, why: "ไม่ได้หมายตามคำพูด"}
     - {t: polite, why: "ไม่ใช่ความสุภาพ"}
   explain: "sarcasm = ==พูดตรงข้ามเพื่อแสดงความไม่พอใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: the company is growing fast, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
     - {t: the company is moving overseas, why: "บทไม่ได้พูดว่า the company is moving overseas"}
   explain: "อ่านอุปลักษณ์ ==หาลักษณะที่ทั้งสองสิ่งมีร่วมกัน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: "Don't burn your bridges with your old company.", why: "บทไม่ได้พูดว่า Don't burn your bridges with your old company."}
     - {t: "The new road is a bridge between two communities.", why: "อุปลักษณ์ถูกต้อง"}
   explain: "mixed metaphor = ==ผสมสองสำนวนจนความหมายขัดกัน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: hyperbole, why: "ไม่ได้พูดเกินจริงเป็นหลัก"}
     - {t: irony, why: "ไม่มีความย้อนแย้ง"}
   explain: "personification = ==ให้สิ่งไม่มีชีวิตทำกริยาของสิ่งมีชีวิต=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: about painting, why: "ไม่ใช่ความหมายตามตัวอักษร"}
     - {t: hard to follow, why: "ไม่ได้บอกว่ายาก"}
   explain: "==as thrilling as watching paint dry== = ประชดว่าน่าเบื่อสุด ๆ"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: he has a heart problem, why: "ไม่ใช่ความหมายตามตัวอักษร"}
     - {t: he is very strong, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
   explain: "a heart of gold = ==ใจดี มีน้ำใจ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w07-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: simile
   accept: [simile]
   why: "simile = การเปรียบเทียบที่ใช้ like หรือ as"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: eggs, why: "สำนวนใช้ chickens"}
         - {t: money, why: "ไม่ใช่สำนวนนี้ จึงใช้ไม่ได้"}
         - {t: profits, why: "บทไม่ได้พูดว่า profits"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านความเรียงเชิงวรรณศิลป์และฟังเรื่องเล่า ----------
 - id: cefr-c2-w07-035
   kind: read
@@ -489,7 +489,7 @@
         - {t: we should stop using email, why: "Perhaps the answer is not fewer emails"}
         - {t: we should plant vegetables at work, why: "ไม่ใช่ความหมายตามตัวอักษร"}
         - {t: we should work longer hours to keep up with our email, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w07-036
   kind: listen
   skill: li
@@ -504,7 +504,7 @@
         - {t: as a complete success, why: "มีเรื่องผิดพลาดหลายอย่าง"}
         - {t: with real anger at his boss and his new colleagues, why: "ไม่ได้โกรธ จึงใช้ไม่ได้"}
         - {t: as boring, why: "ไม่ได้บอกว่าน่าเบื่อ"}
-  status: draft
+  status: approved
 - id: cefr-c2-w07-037
   kind: listen
   skill: li
@@ -519,7 +519,7 @@
         - {t: that she ate pancakes, why: "ไม่ใช่ความหมายตามตัวอักษร"}
         - {t: that she lost some paper, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
         - {t: that the train was late and she missed an important meeting, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w07-038
   kind: listen
   skill: li
@@ -534,7 +534,7 @@
         - {t: the weather was perfect for a long walk without an umbrella, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: he went to church, why: "ไม่ใช่ความหมายตามตัวอักษร"}
         - {t: he found his umbrella, why: "ลืมไว้ที่บ้าน จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w07-039
   kind: order
   skill: gm
@@ -544,7 +544,7 @@
   sentence: By and large, the trip went well, despite a few delays.
   th: โดยรวมการเดินทางไปได้ดี แม้จะล่าช้าบ้าง
   why: "by and large ขึ้นต้น แล้ว despite + คำนาม"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-040
   kind: order
   skill: gm
@@ -554,7 +554,7 @@
   sentence: Learning a language is like tending a garden; it needs daily care.
   th: การเรียนภาษาก็เหมือนดูแลสวน ต้องใส่ใจทุกวัน
   why: "simile is like + -ing แล้วอธิบายจุดที่เหมือน"
-  status: draft
+  status: approved
 - id: cefr-c2-w07-041
   kind: order
   skill: gm
@@ -564,7 +564,7 @@
   sentence: We decided to bury the hatchet and start working together again.
   th: เราตัดสินใจคืนดีกันและเริ่มทำงานด้วยกันอีกครั้ง
   why: "decide to + สำนวน bury the hatchet + and start + -ing"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c2-w07-042
   kind: order
@@ -575,4 +575,4 @@
   sentence: That first week felt like learning to swim in the middle of a stormy sea.
   th: สัปดาห์แรกนั้นรู้สึกเหมือนหัดว่ายน้ำกลางทะเลที่มีพายุ
   why: "felt like + -ing (simile) ใช้เล่าประสบการณ์ให้เห็นภาพ"
-  status: draft
+  status: approved

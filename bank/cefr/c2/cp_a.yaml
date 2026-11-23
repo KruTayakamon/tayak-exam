@@ -1,5 +1,5 @@
 # คอร์ส c2 · ชุดวัดผล ชุด a · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
 # หัวข้อไวยากรณ์: สัปดาห์ 1–7 (d1 + d3) · cloze: transformations-c2 · ศัพท์: สัปดาห์ 1–10
 # ---------- ไวยากรณ์ 14 ข้อ ----------
 - id: cefr-c2-cpa-001
@@ -14,7 +14,7 @@
     - {t: shouldn't, why: "shouldn't have แปลว่าไม่ควรทำแต่ทำไปแล้ว"}
     - {t: needn't, why: "needn't have แปลว่าทำไปโดยไม่จำเป็น"}
   explain: "มั่นใจว่าไม่ได้เกิด ==can't have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-002
   kind: mcq
   skill: gm
@@ -27,7 +27,7 @@
     - {t: am working, why: "ปัจจุบันต่อเนื่องไม่ตรงกับ This time next year"}
     - {t: have worked, why: "present perfect นับถึงตอนนี้ ไม่ใช่ปีหน้า"}
   explain: "นับย้อนจากจุดในอนาคต ==will have + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-003
   kind: mcq
   skill: gm
@@ -40,7 +40,7 @@
     - {t: I heard, why: "บทไม่ได้พูดว่า I heard"}
     - {t: did I heard, why: "หลัง did ต้องใช้กริยารูปเดิม"}
   explain: "คำปฏิเสธขึ้นต้น ==Rarely + กริยาช่วย + ประธาน=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-004
   kind: mcq
   skill: gm
@@ -53,7 +53,7 @@
     - {t: which, why: "which ไม่ใช้ปิดโครงสร้าง cleft ที่เน้นเวลา"}
     - {t: then, why: "then ไม่ใช่คำเชื่อมของโครงสร้างนี้"}
   explain: "==It was only when ... that== เน้นเวลา"
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-005
   kind: mcq
   skill: gm
@@ -66,7 +66,7 @@
     - {t: was, why: "สำนวนนี้ไม่ใช้รูปอดีต"}
     - {t: being, why: "ต้องเป็นกริยาแท้ในรูป be"}
   explain: "==Far be it from me to== = ไม่ได้อยากจะ...แต่"
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-006
   kind: mcq
   skill: gm
@@ -79,7 +79,7 @@
     - {t: Provided, why: "provided แปลว่าถ้า ไม่ใช่ถ้าไม่มี และต้องตามด้วยประโยค"}
     - {t: As long as, why: "as long as ต้องตามด้วยประโยค และความหมายไม่ตรง"}
   explain: "==But for + คำนาม== = If it hadn't been for"
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-007
   kind: mcq
   skill: gm
@@ -92,7 +92,7 @@
     - {t: increased, why: "increased เป็นกริยาหรือคุณศัพท์"}
     - {t: increasingly, why: "increasingly เป็นคำวิเศษณ์"}
   explain: "นามวลี ==a + adj + คำนาม + in=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-008
   kind: mcq
   skill: gm
@@ -105,7 +105,7 @@
     - {t: Having building, why: "หลัง having ต้องใช้ช่อง 3"}
     - {t: To build, why: "to build บอกจุดประสงค์ ไม่ตรงความหมาย"}
   explain: "ประธานถูกกระทำ ==ช่อง 3 ขึ้นต้นประโยค=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-009
   kind: mcq
   skill: gm
@@ -118,7 +118,7 @@
     - {t: wasn't, why: "ต้องใช้ do ให้ตรงกับ ring back"}
     - {t: didn't so, why: "so ไม่ใช้ต่อท้าย didn't แบบนี้"}
   explain: "ละส่วนที่ซ้ำ ==เหลือกริยาช่วยตัวเดียว=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-010
   kind: mcq
   skill: gm
@@ -131,7 +131,7 @@
     - {t: the later, why: "later แปลว่าทีหลัง ไม่ใช่คำอ้างอิง"}
     - {t: the last one of, why: "มี of เกิน และไม่เป็นธรรมชาติ"}
   explain: "==the former / the latter== อ้างถึงสิ่งแรก / สิ่งหลัง"
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-011
   kind: mcq
   skill: gm
@@ -144,7 +144,7 @@
     - {t: To surprise, why: "to surprise บอกจุดประสงค์"}
     - {t: Surprised, why: "ผลลัพธ์ไม่ได้รู้สึกประหลาดใจเอง"}
   explain: "stance adverb ==ขึ้นต้นประโยคบอกความเห็นผู้พูด=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-012
   kind: mcq
   skill: gm
@@ -157,7 +157,7 @@
     - {t: praising how accurate the figures are, why: "ถ้าชมจะไม่ขอตรวจซ้ำ"}
     - {t: refusing to look at the figures herself, why: "เธอเสนอให้ตรวจ ไม่ได้ปฏิเสธ"}
   explain: "ภาษาอ้อม ==ยิ่งอ้อมมาก ยิ่งกังวลจริง=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-013
   kind: mcq
   skill: gm
@@ -170,7 +170,7 @@
     - {t: over the ground, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
     - {t: under the ground, why: "บทไม่ได้พูดว่า under the ground"}
   explain: "get off the ground = ==โครงการเริ่มเดินได้=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-014
   kind: mcq
   skill: gm
@@ -183,7 +183,7 @@
     - {t: a team that always finished on time, why: "ไม่เกี่ยวกับความตรงเวลา"}
     - {t: a well-paid job with a fixed contract, why: "ไม่เกี่ยวข้อง จึงใช้ไม่ได้"}
   explain: "metaphor ==ticking time bomb = ปัญหาที่รอวันระเบิด=="
-  status: draft
+  status: approved
 # ---------- ช่องว่าง 3 ช่อง ----------
 - id: cefr-c2-cpa-015
   kind: cloze
@@ -208,7 +208,7 @@
         - {t: was, why: "subjunctive ไม่ผันเป็นอดีต"}
         - {t: is, why: "subjunctive ใช้ be ไม่ผัน"}
         - {t: being, why: "ต้องเป็นกริยาแท้"}
-  status: draft
+  status: approved
 # ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 1–10) ----------
 - id: cefr-c2-cpa-016
   kind: mcq
@@ -222,7 +222,7 @@
     - {t: purport, why: "purport คืออ้างว่า"}
     - {t: denote, why: "denote คือหมายถึง"}
   explain: "ascertain = ==สืบให้รู้แน่=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-017
   kind: mcq
   skill: vo
@@ -235,7 +235,7 @@
     - {t: sweeping, why: "sweeping ใช้กับการเปลี่ยนแปลงกว้างขวาง"}
     - {t: stark, why: "stark ใช้กับความต่างที่ชัดเจน"}
   explain: "salient = ==สำคัญเด่นชัด=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-018
   kind: mcq
   skill: vo
@@ -248,7 +248,7 @@
     - {t: abide, why: "abide by คือปฏิบัติตาม"}
     - {t: necessitate, why: "necessitate ไม่ใช้กับ from"}
   explain: "preclude sb from = ==ทำให้ทำไม่ได้=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-019
   kind: mcq
   skill: vo
@@ -261,7 +261,7 @@
     - {t: precedents, why: "precedent คือแบบอย่างในอดีต"}
     - {t: prerequisites, why: "prerequisite คือสิ่งที่ต้องมีก่อน"}
   explain: "ramifications = ==ผลกระทบที่ตามมาหลายทาง=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-020
   kind: mcq
   skill: vo
@@ -274,7 +274,7 @@
     - {t: hence, why: "hence บอกผล จึงใช้ไม่ได้"}
     - {t: thereafter, why: "thereafter บอกเวลาหลังจากนั้น"}
   explain: "conversely = ==ในทางตรงกันข้าม=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-021
   kind: mcq
   skill: vo
@@ -287,7 +287,7 @@
     - {t: dissented, why: "dissent คือไม่เห็นด้วย"}
     - {t: insinuated, why: "insinuate คือพูดเป็นนัย ไม่ใช้กับ with"}
   explain: "concur with = ==เห็นพ้องกับ=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-022
   kind: mcq
   skill: vo
@@ -300,7 +300,7 @@
     - {t: poignant, why: "poignant คือสะเทือนใจ"}
     - {t: quintessential, why: "quintessential คือเป็นแบบฉบับ"}
   explain: "hackneyed = ==เก่าเฝือ ใช้จนจืด=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-023
   kind: mcq
   skill: vo
@@ -313,7 +313,7 @@
     - {t: garner, why: "garner ใช้กับการได้รับการสนับสนุน"}
     - {t: reap, why: "reap ใช้กับผลดี"}
   explain: "incur = ==ต้องรับภาระ (ค่าใช้จ่าย ความเสียหาย)=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-024
   kind: mcq
   skill: vo
@@ -326,7 +326,7 @@
     - {t: florid, why: "florid คือเยิ่นเย้อประดับประดา"}
     - {t: colloquial, why: "colloquial คือภาษาพูด ไม่ได้บอกความสั้น"}
   explain: "terse = ==สั้นห้วนจนดูไม่เป็นมิตร=="
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-025
   kind: mcq
   skill: vo
@@ -339,7 +339,7 @@
     - {t: laud, why: "laud คือสรรเสริญ ตรงกันข้าม"}
     - {t: lament, why: "lament คือคร่ำครวญ ไม่ตรงบริบท"}
   explain: "disparage = ==ดูถูก ลดค่า=="
-  status: draft
+  status: approved
 # ---------- การอ่าน 2 บท ----------
 - id: cefr-c2-cpa-026
   kind: read
@@ -385,7 +385,7 @@
         - {t: some residents caused the leaks themselves, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: the problem was discovered by the management, why: "ผู้อยู่อาศัยเป็นคนแจ้ง"}
         - {t: the damage is already beyond repair, why: "ขัดกับการซ่อม จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-027
   kind: read
   skill: rd
@@ -427,7 +427,7 @@
         - {t: the reviewer wanted more chapters, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: the book should be read twice, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: the author writes far too quickly, why: "ไม่ได้พูดถึงความเร็วในการเขียน"}
-  status: draft
+  status: approved
 # ---------- การฟัง 4 ข้อ ----------
 - id: cefr-c2-cpa-028
   kind: listen
@@ -444,7 +444,7 @@
         - {t: he is fully in favour of it, why: "มีข้อกังวล จึงใช้ไม่ได้"}
         - {t: he has not read it yet, why: "I did = อ่านแล้ว"}
         - {t: he thinks it is far too simple, why: "ambitious แปลว่าทะเยอทะยาน"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-029
   kind: listen
   skill: li
@@ -459,7 +459,7 @@
         - {t: it has been proved beyond any doubt, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: it was based on very large samples, why: "งานใหม่ต่างหากที่ใช้กลุ่มใหญ่"}
         - {t: it only applies to adult learners, why: "ไม่ได้พูดถึงผู้ใหญ่"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-030
   kind: listen
   skill: li
@@ -474,7 +474,7 @@
         - {t: it was a great success overall, why: "เป็นการประชด จึงใช้ไม่ได้"}
         - {t: it was cancelled because of the rain, why: "งานยังจัดต่อ จึงใช้ไม่ได้"}
         - {t: he did not attend the event himself, why: "เขาเล่าจากประสบการณ์"}
-  status: draft
+  status: approved
 - id: cefr-c2-cpa-031
   kind: listen
   skill: li
@@ -489,7 +489,7 @@
         - {t: she chose the bus and arrived early, why: "เธอนั่งรถไฟ จึงใช้ไม่ได้"}
         - {t: she will give the opening speech, why: "เธอจะพลาดการฟังสุนทรพจน์"}
         - {t: she knew the train would be late, why: "Had I known = ไม่รู้มาก่อน"}
-  status: draft
+  status: approved
 # ---------- เรียงประโยค ----------
 - id: cefr-c2-cpa-032
   kind: order
@@ -500,4 +500,4 @@
   sentence: Not only did the scheme cut costs but it also improved morale.
   th: โครงการนี้ไม่เพียงลดค่าใช้จ่าย แต่ยังทำให้ขวัญกำลังใจดีขึ้นด้วย
   why: "Not only ขึ้นต้น กลับลำดับ did the scheme แล้วตามด้วย but ... also"
-  status: draft
+  status: approved

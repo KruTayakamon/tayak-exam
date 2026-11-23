@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 4 · การย่อความคิดให้แน่น · นามวลียาว / nominalisation · absolute constructions · verbless clauses · with/without + นาม + participle
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · นามวลียาว ----------
 - id: cefr-c2-w04-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: "The rise sharp of prices worried consumers.", why: "คุณศัพท์ต้องอยู่หน้าคำนาม"}
     - {t: "Prices' sharp rising was worrying consumers.", why: "ไม่ใช่นามวลีมาตรฐาน"}
   explain: "nominalisation ==กริยา → คำนาม + of/in== (rise in · increase in · loss of)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: "on", why: "increase on ใช้เทียบกับช่วงก่อน ไม่ใช่ในที่นี้"}
     - {t: at, why: "increase at ไม่ใช่สำนวน"}
   explain: "==an increase in + สิ่ง== · an increase of + จำนวน"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: crisis, why: "crisis อยู่ท้ายสุด แต่ไม่ใช่คำหลัก"}
     - {t: response, why: "ไม่มีคำนี้ในนามวลี"}
   explain: "หา ==คำนามหลัก== ก่อน แล้วอ่านส่วนขยายทีละชั้น"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: are, why: "ประธานเป็นเอกพจน์"}
     - {t: were, why: "บทไม่ได้พูดว่า were"}
   explain: "กริยาตาม ==คำนามหลัก== ไม่ใช่คำนามที่อยู่ใกล้สุด"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: "The non-repair of the bridge by the council causes delays of drivers.", why: "ถูกไวยากรณ์ แต่แข็งและไม่เป็นธรรมชาติ"}
     - {t: "Delays of drivers are the council's bridge non-repair result.", why: "อ่านยากและไม่เป็นธรรมชาติ"}
   explain: "ผู้อ่านทั่วไป ==แตกนามวลีกลับเป็นประโยค== งานวิชาการค่อยใช้นามวลี"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: implement, why: "implement เป็นกริยา (หรือคำนามที่แปลว่าเครื่องมือ)"}
     - {t: implemented, why: "เป็นกริยาช่อง 3"}
   explain: "เขียนทางการ ใช้ ==คำนาม -tion / -ment== แทน -ing"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: the people risk perception, why: "นามซ้อนไม่ถูกต้อง"}
     - {t: risk's perception by people, why: "ไม่เป็นธรรมชาติ"}
   explain: "ประธานของการกระทำ ==ใช้ 's== กรรมใช้ of (people's perception of risk)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: the factory has already been demolished, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
     - {t: the factory is near a decision, why: "ความหมายผิด จึงใช้ไม่ได้"}
   explain: "==noun + to-infinitive== (decision / attempt / plan to ...)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "The staff training report published in May widely praised has been.", why: "ผิดลำดับ จึงใช้ไม่ได้"}
     - {t: "Published in May, staff training has been widely praised in the report.", why: "ความหมายเปลี่ยน"}
   explain: "นามวลียาวอาจ ==กำกวมว่าส่วนขยายเกาะคำไหน== ใช้ , which ช่วยให้ชัด"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: refusement, why: "ไม่มีคำนี้ คำนามของ refuse คือ refusal"}
     - {t: refused, why: "เป็นกริยาช่อง 2/3"}
   explain: "==refuse → refusal== · fail → failure · arrive → arrival"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: "The unemployment fall was mainly due to tourism's recovering.", why: "นามซ้อนไม่เป็นธรรมชาติ"}
     - {t: "Mainly due to recovery tourism, unemployment fell.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
   explain: "เหตุและผลทางวิชาการ ==คำนาม + be due to + คำนาม=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: adoption
   accept: [adoption]
   why: "adopt (v) → adoption (n)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์การเปลี่ยนแปลงและผลตามมา ----------
 - id: cefr-c2-w04-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: inception, why: "inception แปลว่าจุดเริ่มต้น"}
     - {t: attrition, why: "attrition แปลว่าการลดลงทีละน้อย"}
   explain: "proliferation = ==การเพิ่มจำนวนอย่างรวดเร็ว=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: precedent, why: "precedent แปลว่าแบบอย่างที่มีมาก่อน"}
     - {t: trajectory, why: "trajectory แปลว่าเส้นทาง"}
   explain: "inception = ==การเริ่มต้นก่อตั้ง== (since its inception)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: inception, why: "inception ไม่ใช้กับชายฝั่ง"}
     - {t: corollary, why: "corollary แปลว่าผลที่ตามมาโดยธรรมชาติ"}
   explain: "erosion = ==การกัดกร่อน== (ใช้เชิงเปรียบได้ erosion of trust)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: upheaval, why: "upheaval แปลว่าการเปลี่ยนแปลงรุนแรงกะทันหัน"}
     - {t: cessation, why: "cessation แปลว่าการหยุด"}
   explain: "attrition = ==การลดลงทีละน้อยจากการลาออกเอง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: proliferation, why: "ขัดกับบริบท จึงใช้ไม่ได้"}
     - {t: manifestation, why: "manifestation แปลว่าการแสดงออก"}
   explain: "cessation = ==การยุติ หยุด (ทางการ)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: cessations, why: "ขัดกับบริบท จึงใช้ไม่ได้"}
     - {t: prerequisites, why: "prerequisite คือสิ่งที่ต้องมีก่อน"}
   explain: "ramifications = ==ผลกระทบที่ตามมา (มักไม่คาดคิด)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: trajectory, why: "trajectory ไม่ใช่อาการ"}
     - {t: cessation, why: "cessation ไม่ใช่อาการ"}
   explain: "manifestation = ==สิ่งที่แสดงให้เห็นว่ามีบางอย่างอยู่=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: corollary, why: "corollary คือผลที่ตามมา ไม่ใช่สิ่งที่ต้องมีก่อน"}
     - {t: manifestation, why: "ไม่เข้ากับบริบท"}
   explain: "prerequisite = ==เงื่อนไขที่ต้องมีก่อน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: trajectory, why: "set a trajectory ไม่เข้ากับบริบท"}
     - {t: manifestation, why: "set a manifestation ไม่ใช่สำนวน"}
   explain: "==set a precedent== = สร้างแบบอย่างที่คนอื่นอ้างได้"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: inception, why: "inception คือจุดเริ่ม"}
     - {t: cessation, why: "cessation คือการหยุด"}
   explain: "corollary = ==ผลที่ตามมาโดยธรรมชาติ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: inception, why: "inception ไม่เข้ากับบริบท"}
     - {t: precedent, why: "precedent ไม่เข้ากับบริบท"}
   explain: "upheaval = ==การเปลี่ยนแปลงรุนแรง วุ่นวาย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: trajectory
   accept: [trajectory]
   why: "trajectory = เส้นทาง ทิศทางการพัฒนา"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ประโยคย่อไม่มีกริยาแท้ ----------
 - id: cefr-c2-w04-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: The work was, why: "ทำให้มีสองประโยคติดกันโดยไม่มีคำเชื่อม"}
     - {t: Being the work, why: "บทไม่ได้พูดว่า Being the work"}
   explain: "==คำนาม + participle, ประโยคหลัก== (ประธานต่างกัน)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: However, why: "however ไม่ใช้แบบนี้"}
     - {t: Nevertheless, why: "nevertheless ไม่ตามด้วยคุณศัพท์"}
   explain: "==Though== / Although / If / When + คุณศัพท์ หรือวลี ละ ประธาน + be"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: as, why: "as her phone still ringing ขาดกริยาแท้"}
     - {t: while, why: "while ต้องมีกริยาแท้ (was ringing)"}
   explain: "==with + คำนาม + -ing / ช่อง 3== = โดยที่..."
-  status: draft
+  status: approved
 - id: cefr-c2-w04-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: With, why: "With weather permitting ใช้ไม่ได้ในสำนวนนี้"}
     - {t: Being, why: "Being weather permitting ผิดรูป"}
   explain: "สำนวน ==Weather permitting== · All things considered · Time permitting"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: Having built, why: "รูปกระทำ ความหมายผิด"}
     - {t: To build, why: "ความหมายผิด จึงใช้ไม่ได้"}
   explain: "ส่วนย่อต้น ==ประธานเดียวกับประโยคหลัก== และเลือก -ing / ช่อง 3 ตามความหมาย"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: "The accident having blocked the road, I was late.", why: "absolute construction ถูกต้อง"}
     - {t: "Though delayed, I reached work by nine.", why: "verbless clause ถูกต้อง"}
   explain: "dangling modifier = ==ส่วนย่อไม่มีประธานที่ถูกต้องในประโยคหลัก=="
-  status: draft
+  status: approved
 - id: cefr-c2-w04-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: although nothing was planned, why: "บทไม่ได้พูดว่า although nothing was planned"}
     - {t: after all the things were sold, why: "บทไม่ได้พูดว่า after all the things were sold"}
   explain: "==All things considered== = เมื่อพิจารณาทุกด้านแล้ว"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: Being there, why: "ความหมายผิด จึงใช้ไม่ได้"}
     - {t: Having there, why: "ผิดรูป จึงใช้ไม่ได้"}
   explain: "==There being + คำนาม== = เนื่องจากไม่มี/มี... (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: without
   accept: [without, Without]
   why: "without + คำนาม = โดยไม่มี"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: limit accessing, why: "ผิดรูป จึงใช้ไม่ได้"}
         - {t: limitedly access, why: "บทไม่ได้พูดว่า limitedly access"}
         - {t: limiting accessed, why: "บทไม่ได้พูดว่า limiting accessed"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทคัดย่องานวิจัยและฟังการนำเสนอ ----------
 - id: cefr-c2-w04-035
   kind: read
@@ -483,7 +483,7 @@
         - {t: to count how many books people own, why: "ไม่ใช่จุดประสงค์"}
         - {t: to design a new reading app, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: to compare men and women, why: "บทไม่ได้พูดว่า to compare men and women"}
-  status: draft
+  status: approved
 - id: cefr-c2-w04-036
   kind: listen
   skill: li
@@ -498,7 +498,7 @@
         - {t: the results were negative, why: "ไม่ได้พูดว่าผลเป็นลบ"}
         - {t: the data were lost, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: the study took too long, why: "บทไม่ได้พูดว่า the study took too long"}
-  status: draft
+  status: approved
 - id: cefr-c2-w04-037
   kind: listen
   skill: li
@@ -514,7 +514,7 @@
         - {t: people are less interested, why: "Not necessarily"}
         - {t: the classes were too expensive, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: the teachers left, why: "บทไม่ได้พูดว่า the teachers left"}
-  status: draft
+  status: approved
 - id: cefr-c2-w04-038
   kind: listen
   skill: li
@@ -529,7 +529,7 @@
         - {t: steadily declining, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: completely unchanged, why: "มีแนวโน้มขึ้น จึงใช้ไม่ได้"}
         - {t: stopped after the floods, why: "เป็นแค่ปีที่ยกเว้น"}
-  status: draft
+  status: approved
 - id: cefr-c2-w04-039
   kind: order
   skill: gm
@@ -539,7 +539,7 @@
   sentence: The meeting over, everyone went back to their desks.
   th: พอประชุมเสร็จ ทุกคนก็กลับไปที่โต๊ะ
   why: "absolute construction คำนาม + over แล้วประโยคหลัก"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-040
   kind: order
   skill: gm
@@ -549,7 +549,7 @@
   sentence: The steady growth of food delivery apps has led to a decline in restaurant visits.
   th: การเติบโตต่อเนื่องของแอปส่งอาหารทำให้คนไปนั่งกินที่ร้านน้อยลง
   why: "นามวลี growth of ... · lead to · decline in"
-  status: draft
+  status: approved
 - id: cefr-c2-w04-041
   kind: order
   skill: gm
@@ -559,7 +559,7 @@
   sentence: With prices rising every month, many families are cutting back on travel.
   th: เมื่อราคาขึ้นทุกเดือน หลายครอบครัวจึงลดการเดินทาง
   why: "with + คำนาม + -ing บอกสภาพแวดล้อม"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c2-w04-042
   kind: order
@@ -570,4 +570,4 @@
   sentence: This project examines the impact of community gardens on the well-being of older residents.
   th: โครงการนี้ศึกษาผลกระทบของสวนชุมชนต่อสุขภาวะของผู้สูงอายุ
   why: "examine + นามวลี impact of ... on ..."
-  status: draft
+  status: approved

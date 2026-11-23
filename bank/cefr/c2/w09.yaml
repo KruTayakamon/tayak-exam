@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 9 · ระดับภาษาและแบบแผนของงานเขียน · เขียนใหม่ข้ามระดับภาษา · ความสม่ำเสมอของระดับภาษา · รายงาน ข้อเสนอ บทวิจารณ์ เรียงความ บทความ
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · เปลี่ยนระดับภาษา ----------
 - id: cefr-c2-w09-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: "Lots of people moaned.", why: "moan เป็นภาษาพูด"}
     - {t: "Complaints, we got loads.", why: "ภาษาพูดและลำดับไม่เป็นทางการ"}
   explain: "ทางการ ==คำนามทางการ + passive + ไม่ใช้คำพูด=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: "It is incumbent upon you to attend.", why: "ทางการมาก จึงใช้ไม่ได้"}
     - {t: "Attendance shall be obligatory.", why: "ภาษากฎหมาย จึงใช้ไม่ได้"}
   explain: "ไม่ทางการ ==ใช้ you + กริยาง่าย ๆ== แทนคำนามทางการ"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: a tad freaked out, why: "ภาษาพูดมาก จึงใช้ไม่ได้"}
     - {t: pretty nervy, why: "ภาษาพูด จึงใช้ไม่ได้"}
   explain: "ทางการ ==a bit → somewhat / slightly== · worried → concerned"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: "Unfortunately, your application was a no-go.", why: "no-go เป็นภาษาพูด"}
     - {t: "Hey, we regret to inform you of the outcome.", why: "Hey ไม่ทางการ ปนกับ regret to inform"}
   explain: "ระดับ C2 ==ระดับภาษาต้องสม่ำเสมอตลอดข้อความ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: furthermore, why: "furthermore เหมาะกับงานวิชาการ"}
     - {t: consequently, why: "consequently เหมาะกับงานวิชาการ"}
   explain: "งานวิชาการ ==หลีกเลี่ยง stuff== · things · a lot of · get"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: "They postponed the meeting cos people were busy.", why: "cos เป็นภาษาพูด"}
     - {t: "Because many people could not make it, the meeting got cancelled.", why: "make it และ got ยังไม่ทางการ และเปลี่ยนความหมายเป็นยกเลิก"}
   explain: "ทางการ ==กริยาวลี → คำเดี่ยว== · because → owing to · ใช้คำนาม"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: "To whom it may concern,", why: "ใช้เมื่อไม่รู้จักผู้รับ"}
     - {t: "Esteemed colleague, I humbly request ...", why: "ทางการเกินจนฟังแปลก"}
   explain: "ระดับภาษา ==ต้องเหมาะกับความสัมพันธ์== ไม่ใช่ยิ่งทางการยิ่งดี"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: "The findings are super important for teachers.", why: "super เป็นภาษาพูด"}
     - {t: "The findings are like important for teachers.", why: "like เป็นคำเติมของภาษาพูด"}
   explain: "งานวิชาการ ==เลี่ยงคำเติมและคำขยายภาษาพูด== (like · really · super)"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: "It remains unclear what the answer is.", why: "เหมาะกับงานเขียนทางการ"}
     - {t: "The answer has yet to be established.", why: "บทไม่ได้พูดว่า The answer has yet to be established."}
   explain: "ภาษาพูด ==ละคำต้นประโยคได้== (Thing is · Sounds good · Want some?)"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: went up loads, why: "บทไม่ได้พูดว่า went up loads"}
     - {t: became more good, why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
   explain: "ทางการ ==get + adj → คำกริยาเดี่ยว== (get better → improve · get bigger → increase)"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: "Yours faithfully,", why: "เหมาะสม เมื่อไม่รู้ชื่อผู้รับ"}
     - {t: "I trust this matter will be resolved promptly.", why: "บทไม่ได้พูดว่า I trust this matter will be resolved promptly."}
   explain: "ปิดจดหมายทางการ ==I look forward to ...== / Yours faithfully / sincerely"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: investigate
   accept: [investigate]
   why: "look into (พูด) = investigate (ทางการ)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์เกี่ยวกับภาษาและงานเขียน ----------
 - id: cefr-c2-w09-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: pithy, why: "pithy แปลว่ากระชับคมคาย"}
     - {t: verbose, why: "verbose แปลว่าเยิ่นเย้อ"}
   explain: "colloquial = ==ภาษาพูด ไม่เป็นทางการ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: treatise, why: "treatise คือตำราวิชาการ"}
     - {t: critique, why: "critique คือบทวิจารณ์"}
   explain: "vernacular = ==ภาษาที่คนในท้องถิ่นพูดจริง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: prose, why: "prose คือร้อยแก้ว"}
     - {t: discourse, why: "discourse คือวาทกรรม หรือการสื่อสาร"}
   explain: "jargon = ==ศัพท์เฉพาะวงการ== (มักใช้ในความหมายลบ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: pithy, why: "pithy แปลว่ากระชับ ตรงข้าม"}
     - {t: laconic, why: "laconic แปลว่าพูดน้อย ตรงข้าม"}
   explain: "verbose = ==เยิ่นเย้อ ใช้คำมากเกินจำเป็น=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: florid, why: "บทไม่ได้พูดว่า florid"}
     - {t: pithy, why: "pithy เป็นความหมายบวก ไม่ได้แปลว่าไม่เป็นมิตร"}
   explain: "terse = ==สั้นห้วน (มักฟังไม่เป็นมิตร)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: laconic, why: "บทไม่ได้พูดว่า laconic"}
     - {t: colloquial, why: "colloquial ไม่ได้หมายถึงหรูหรา"}
   explain: "florid = ==ใช้ภาษาหรูหราประดับเกินไป=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: florid, why: "บทไม่ได้พูดว่า florid"}
     - {t: colloquial, why: "ไม่เกี่ยวกับปริมาณคำ"}
   explain: "laconic = ==พูดน้อย ใช้คำน้อย== (มักเป็นนิสัย ไม่ได้ดูหยาบ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: terse, why: "terse มักฟังไม่เป็นมิตร ไม่ใช่คำชม"}
     - {t: florid, why: "บทไม่ได้พูดว่า florid"}
   explain: "pithy = ==สั้นกระชับและคมคาย== (ความหมายบวก)"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: discourse, why: "บทไม่ได้พูดว่า discourse"}
     - {t: critique, why: "critique คือบทวิจารณ์ชิ้นเดียว"}
   explain: "prose = ==ร้อยแก้ว== ตรงข้าม poetry"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: treatise, why: "treatise คือหนังสือชิ้นหนึ่ง"}
     - {t: vernacular, why: "บทไม่ได้พูดว่า vernacular"}
   explain: "discourse = ==การสื่อสารและการถกเถียงในสังคม=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: discourse, why: "discourse ไม่ใช่หนังสือ"}
     - {t: jargon, why: "ไม่เข้ากับบริบท"}
   explain: "treatise = ==ตำราวิชาการเชิงลึก=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: critique
   accept: [critique]
   why: "critique = บทวิจารณ์เชิงวิเคราะห์"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · แบบแผนของงานเขียนแต่ละประเภท ----------
 - id: cefr-c2-w09-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: rhetorical questions in every paragraph, why: "ไม่ใช่ลักษณะรายงาน"}
     - {t: rhyming lines, why: "ลักษณะของกวี จึงใช้ไม่ได้"}
   explain: "report = ==หัวข้อ ข้อเท็จจริง ข้อเสนอแนะ== น้ำเสียงเป็นกลาง"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: to summarise a book, why: "เป็นจุดประสงค์ของบทสรุปหรือบทวิจารณ์"}
     - {t: to complain about a product that arrived broken, why: "เป็นจุดประสงค์ของจดหมายร้องเรียน"}
   explain: "proposal = ==เสนอแผน ประโยชน์ ค่าใช้จ่าย ขอการอนุมัติ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: "Dear Sir or Madam, I am writing to complain.", why: "ลักษณะจดหมาย จึงใช้ไม่ได้"}
     - {t: "The aim of this report is to evaluate the scheme.", why: "ลักษณะรายงาน จึงใช้ไม่ได้"}
   explain: "review = ==บรรยายสั้น + ประเมิน + แนะนำผู้อ่าน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: "Dear Editor, I wish to comment on queues.", why: "ลักษณะจดหมายถึงบรรณาธิการ"}
     - {t: "In conclusion, queues are slow.", why: "เป็นการสรุป ไม่ใช่เปิด"}
   explain: "article = ==เปิดดึงความสนใจ== น้ำเสียงเป็นกันเองกว่ารายงาน"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: "Recommendations: 1. Increase funding.", why: "ลักษณะรายงาน จึงใช้ไม่ได้"}
     - {t: "I hope you enjoyed reading this!", why: "ไม่เหมาะกับเรียงความทางการ"}
   explain: "essay = ==สรุปจุดยืนพร้อมเงื่อนไข== ไม่มีหัวข้อย่อยแบบรายงาน"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: "Why I love my city", why: "ลักษณะบทความหรือเรียงความส่วนตัว"}
     - {t: "Dear Sir", why: "ลักษณะจดหมาย จึงใช้ไม่ได้"}
   explain: "report ==มีหัวข้อ== · essay ไม่มีหัวข้อย่อย"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: to criticise the reader for not reading the earlier reports, why: "บทไม่ได้พูดว่า to criticise the reader"}
     - {t: to summarise a novel, why: "บทไม่ได้พูดว่า to summarise a novel"}
   explain: "proposal ==ต้องมีค่าใช้จ่ายและผลตอบแทน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: "It could be argued, however, that other factors are involved.", why: "บทไม่ได้พูดว่า It could be argued, however, that other factors are involved."}
     - {t: "This essay will examine three main arguments.", why: "บทไม่ได้พูดว่า This essay will examine three main arguments."}
   explain: "งานวิชาการ ==อ้างหลักฐาน ระวังข้อสรุป ไม่ใช้อัศเจรีย์=="
-  status: draft
+  status: approved
 - id: cefr-c2-w09-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: recommendations
   accept: [recommendations, Recommendations]
   why: "Recommendations = หัวข้อข้อเสนอแนะท้ายรายงาน"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: look into it, why: "ซ้ำ the matter และเป็นภาษาพูด"}
         - {t: sort out, why: "ภาษาพูด จึงใช้ไม่ได้"}
         - {t: check out, why: "บทไม่ได้พูดว่า check out"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทวิจารณ์หนังสือและฟังรายการสนทนา ----------
 - id: cefr-c2-w09-035
   kind: read
@@ -487,7 +487,7 @@
         - {t: they are too short, why: "ไม่ใช่เหตุผล จึงใช้ไม่ได้"}
         - {t: they copy other books, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: they ignore what students say about their own teachers, why: "บทไม่ได้พูดว่า they ignore students"}
-  status: draft
+  status: approved
 - id: cefr-c2-w09-036
   kind: listen
   skill: li
@@ -502,7 +502,7 @@
         - {t: all difficult ideas, why: "isn't that it's difficult"}
         - {t: writing that is too simple, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: "students who don't read enough academic books", why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w09-037
   kind: listen
   skill: li
@@ -518,7 +518,7 @@
         - {t: never, why: "Increasingly, yes"}
         - {t: always, why: "มีเงื่อนไข จึงใช้ไม่ได้"}
         - {t: only in science, why: "particularly in the humanities"}
-  status: draft
+  status: approved
 - id: cefr-c2-w09-038
   kind: listen
   skill: li
@@ -533,7 +533,7 @@
         - {t: long and detailed, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
         - {t: confusing, why: "บทไม่ได้พูดว่า confusing"}
         - {t: always negative about the books she has chosen to read, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w09-039
   kind: order
   skill: gm
@@ -543,7 +543,7 @@
   sentence: I am writing to enquire about the delay to my order.
   th: ขอเรียนสอบถามเรื่องความล่าช้าของคำสั่งซื้อ
   why: "เปิดจดหมายทางการ I am writing to + กริยา"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-040
   kind: order
   skill: gm
@@ -553,7 +553,7 @@
   sentence: This report aims to evaluate the effectiveness of the new scheme.
   th: รายงานนี้มุ่งประเมินประสิทธิผลของโครงการใหม่
   why: "ประโยคเปิดรายงาน aim to + กริยา + นามวลี"
-  status: draft
+  status: approved
 - id: cefr-c2-w09-041
   kind: order
   skill: gm
@@ -563,7 +563,7 @@
   sentence: The item has yet to arrive, despite repeated requests.
   th: สินค้ายังไม่มาถึง แม้จะติดตามหลายครั้ง
   why: "has yet to + กริยา (ทางการ) · despite + คำนาม"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c2-w09-042
   kind: order
@@ -574,4 +574,4 @@
   sentence: While the argument is persuasive, the evidence offered in the second half is considerably weaker.
   th: แม้ข้อโต้แย้งจะน่าเชื่อ แต่หลักฐานในครึ่งหลังอ่อนกว่ามาก
   why: "While + จุดแข็ง แล้วจุดอ่อน · offered ย่อจาก which is offered"
-  status: draft
+  status: approved

@@ -16,7 +16,7 @@ def dict_json():
 
 def demo_data():
     items = json.load(open(os.path.join(ROOT, 'build', 'items.json'), encoding='utf-8'))
-    courses = {c: json.load(open(os.path.join(ROOT, 'build', f'course_cefr_{c}.json'), encoding='utf-8')) for c in ('b1', 'b2', 'c1') if os.path.exists(os.path.join(ROOT, 'build', f'course_cefr_{c}.json'))}
+    courses = {c: json.load(open(os.path.join(ROOT, 'build', f'course_cefr_{c}.json'), encoding='utf-8')) for c in ('b1', 'b2', 'c1', 'c2') if os.path.exists(os.path.join(ROOT, 'build', f'course_cefr_{c}.json'))}
     cfg = json.load(open(os.path.join(ENG, 'config.json'), encoding='utf-8'))
     return 'globalThis.DEMO_DATA=' + json.dumps({'config': cfg, 'course': courses['b1'], 'courses': courses, 'items': {i['id']: i for i in items}}, ensure_ascii=False) + ';'
 

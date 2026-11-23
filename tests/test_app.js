@@ -186,7 +186,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok((await p.textContent('#courseTag')) === 'B1' && (await p.textContent('#view')).includes('สัปดาห์ 4'), 'กลับ B1 แล้วความคืบหน้าเดิม (สัปดาห์ 4) ยังอยู่');
   // B2 เปิดเมื่อครบ 12 สัปดาห์ (18 พ.ย.): สลับไป B2 → ตั้งแผน → บทเรียนวันที่ 1 · แล้วกลับ B1
   await p.goto(base + '/dist-demo/app.html#course'); await p.waitForSelector('#switchCourse');
-  ok((await p.$$eval('#switchCourse .cpick', (b) => b.map((x) => x.dataset.course).join(','))) === 'b1,b2,c1', 'หน้าคอร์สมีให้เลือก B1 B2 C1');
+  ok((await p.$$eval('#switchCourse .cpick', (b) => b.map((x) => x.dataset.course).join(','))) === 'b1,b2,c1,c2', 'หน้าคอร์สมีให้เลือก B1 B2 C1 C2');
   await p.click('#switchCourse [data-course="b2"]'); await p.waitForSelector('#coursePick'); await p.click('#usePlan'); await p.waitForSelector('#todayTitle');
   ok((await p.textContent('#courseTag')) === 'B2', 'เรียน B2 สัปดาห์ 1 ได้');
   await p.click('#startBtn'); await p.waitForSelector('.nb'); ok(await noOverflow(p), 'บทเรียน B2 เปิดได้และไม่ล้นจอ'); await p.screenshot({ path: path.join(SHOTS, 'app_b2_lesson.png'), fullPage: true });
@@ -214,7 +214,7 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   ok(screens === 23 && !sawWhy, 'แบบวัดระดับมี 23 หน้าจอ (25 คะแนน) และไม่แสดงเหตุผลระหว่างทำ');
   const lv = await pl.getAttribute('#view', 'data-level'), pn = await pl.textContent('#plan'), sc = await pl.getAttribute('#view', 'data-scores');
   ok(lv === 'c1' && pn === 'C2', 'ตอบถูกทุกข้อ ได้ผล C1 และแนะนำคอร์ส C2 ' + JSON.stringify([lv, pn, sc]));
-  ok((await pl.getAttribute('#startCourse', 'href')) === 'app.html?course=c1', 'ผล C2 (คอร์สยังไม่เปิด) พาไปคอร์ส C1 ที่ใกล้ที่สุด');
+  ok((await pl.getAttribute('#startCourse', 'href')) === 'app.html?course=c2', 'ผลแนะนำ C2 พาไปคอร์ส C2');
   ok(await noOverflow(pl), 'หน้าผลวัดระดับไม่ล้นจอ'); await pl.screenshot({ path: path.join(SHOTS, 'placement_result.png'), fullPage: true });
   // หน้าโพสต์ที่อนุมัติแล้วอยู่ในเว็บจริง และปุ่มวัดระดับพาไปหน้าวัดระดับ
   await pl.goto(base + '/dist/p/mk-quiz-0002/index.html'); await pl.waitForSelector('#q0 .opt'); await pl.click('#q0 .opt'); await pl.click('#moreBtn');

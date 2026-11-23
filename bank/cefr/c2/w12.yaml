@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 12 · ซ้อมใหญ่ · ทบทวน ก (โครงสร้างเน้น เงื่อนไข ภาษาทางการ การย่อความ) · ทบทวน ข (คำที่ใช้คู่กัน ระดับภาษา อ่านระหว่างบรรทัด) + กลยุทธ์บริหารเวลา
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 22 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · ทบทวน ก ----------
 - id: cefr-c2-w12-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: realised the players, why: "ต้องใช้ did จึงใช้ไม่ได้"}
     - {t: had the players realise, why: "หลัง had ต้องใช้ช่อง 3"}
   explain: "ทบทวนสัปดาห์ 2 ==Not until + เวลา, did + ประธาน + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: If, why: "If it not been ผิดรูป ต้องมี had"}
     - {t: Should, why: "Should it not been ผิดรูป"}
   explain: "ทบทวนสัปดาห์ 3 ==Had it not been for== = If it hadn't been for"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: was completing, why: "ไม่ใช่ subjunctive และผิดความหมาย"}
     - {t: will be completed, why: "will ไม่ใช้หลัง insist that ในรูปนี้"}
   explain: "ทบทวนสัปดาห์ 3 ==insist / recommend that + be + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: Because, why: "because ต้องตามด้วยประโยคเต็ม"}
     - {t: Although, why: "although ต้องตามด้วยประโยคเต็ม"}
   explain: "ทบทวนสัปดาห์ 4 ==with + คำนาม + participle=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: Should, why: "Should we to lose มี to เกิน"}
     - {t: If, why: "If we to lose ขาด were"}
   explain: "==Were + ประธาน + to + กริยา== = ถ้าเผื่อว่า"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: "Worried everyone it did that nobody checked.", why: "ผิดไวยากรณ์ จึงใช้ไม่ได้"}
     - {t: "Everyone it worried that nobody had checked.", why: "บทไม่ได้พูดว่า Everyone it worried that nobody had checked."}
   explain: "ทบทวนสัปดาห์ 2 ==end-weight ส่วนยาวไว้ท้าย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: The rise rapid of prices worried shoppers., why: "คุณศัพท์ต้องอยู่หน้าคำนาม"}
     - {t: Prices' quick rising was worrying shoppers., why: "ไม่เป็นธรรมชาติ"}
   explain: "ทบทวนสัปดาห์ 4 ==กริยา → คำนาม + in/of=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: did it so, why: "ผิดรูป จึงใช้ไม่ได้"}
     - {t: so did, why: "so did ใช้เมื่อคนอื่นทำเหมือนกัน"}
   explain: "ทบทวนสัปดาห์ 5 ==do so แทน กริยา + ส่วนที่ตามมา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: such was, why: "ซ้อน so กับ such"}
     - {t: great did, why: "ไม่ใช้ did กับ be"}
   explain: "ทบทวนสัปดาห์ 2 ==So + adj + be + ประธาน + that=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: it will take place tomorrow, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
     - {t: it was much longer than expected, why: "ไม่ใช่ความหมาย จึงใช้ไม่ได้"}
   explain: "ทบทวนสัปดาห์ 1 ==was to have + ช่อง 3== = กำหนดไว้แต่ไม่ได้เกิด"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: would, why: "would ไม่ใช้บอกหน้าที่ในสัญญา"}
     - {t: may well, why: "may well เป็นการคาดการณ์"}
   explain: "ทบทวนสัปดาห์ 1 ==shall ในเอกสารทางกฎหมาย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: little
   accept: [little, Little]
   why: "Little did + ประธาน + กริยารูปเดิม (สัปดาห์ 1–2)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์งานวิชาชีพและการศึกษา ----------
 - id: cefr-c2-w12-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: aptitude, why: "aptitude คือความถนัด"}
     - {t: accreditation, why: "accreditation คือการรับรองมาตรฐาน"}
   explain: "stewardship = ==การดูแลรับผิดชอบสิ่งที่ได้รับมอบหมาย=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: attainment, why: "attainment คือผลสัมฤทธิ์"}
     - {t: pedagogy, why: "pedagogy คือศาสตร์การสอน"}
   explain: "tenure = ==ช่วงเวลาดำรงตำแหน่ง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: remuneration, why: "ไม่เข้ากับบริบท"}
     - {t: stewardship, why: "บทไม่ได้พูดว่า stewardship"}
   explain: "pedagogy = ==ศาสตร์การสอน วิธีสอน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: tenacity, why: "tenacity คือความมุ่งมั่น"}
     - {t: pedagogy, why: "ไม่เข้ากับบริบท"}
   explain: "accreditation = ==การรับรองมาตรฐานอย่างเป็นทางการ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: calibre, why: "calibre คือคุณภาพ"}
     - {t: tenure, why: "tenure คือช่วงดำรงตำแหน่ง"}
   explain: "remuneration = ==ค่าตอบแทน เงินเดือนและสวัสดิการ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: tenure, why: "บทไม่ได้พูดว่า tenure"}
     - {t: stewardship, why: "บทไม่ได้พูดว่า stewardship"}
   explain: "attainment = ==ผลสัมฤทธิ์ ระดับที่ทำได้=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: tenure, why: "บทไม่ได้พูดว่า tenure"}
     - {t: remuneration, why: "บทไม่ได้พูดว่า remuneration"}
   explain: "aptitude for = ==ความถนัด พรสวรรค์ด้าน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: pedagogy, why: "บทไม่ได้พูดว่า pedagogy"}
     - {t: attainment, why: "บทไม่ได้พูดว่า attainment"}
   explain: "calibre = ==คุณภาพ ระดับความสามารถ== (อเมริกัน caliber)"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: exemplary, why: "exemplary แปลว่าเป็นแบบอย่าง"}
     - {t: tenacious, why: "tenacious แปลว่าไม่ลดละ"}
   explain: "erudite = ==คงแก่เรียน รู้กว้างขวาง=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: magnanimous, why: "ไม่ตรงกับเป็นแบบอย่าง"}
     - {t: tenacious, why: "บทไม่ได้พูดว่า tenacious"}
   explain: "exemplary = ==เป็นแบบอย่างที่ดีเยี่ยม=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: exemplary, why: "ใกล้เคียง แต่ magnanimous ตรงกับความใจกว้างต่อคู่แข่ง"}
     - {t: tenacious, why: "ไม่ตรงกับความใจกว้าง"}
   explain: "magnanimous = ==ใจกว้าง ไม่ถือโทษ== (โดยเฉพาะต่อผู้แพ้หรือคู่แข่ง)"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: tenacity
   accept: [tenacity]
   why: "tenacity = ความมุ่งมั่นไม่ยอมแพ้"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · ทบทวน ข ----------
 - id: cefr-c2-w12-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: reap, why: "reap ใช้กับผลดี"}
     - {t: garner, why: "garner ใช้กับการสนับสนุน"}
   explain: "ทบทวนสัปดาห์ 8 ==levy (ผู้เก็บ) · incur (ผู้จ่าย)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: Please fix this mess as soon as you can mate., why: "ภาษาพูด จึงใช้ไม่ได้"}
     - {t: "Hey, can someone deal with this soon or not?", why: "บทไม่ได้พูดว่า Hey, can someone deal with this soon or not?"}
   explain: "ทบทวนสัปดาห์ 9 ==ระดับภาษาต้องเหมาะกับผู้อ่าน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: is confused by the question, why: "ไม่ได้สับสน จึงใช้ไม่ได้"}
     - {t: is offering high praise, why: "ไม่ใช่คำชม จึงใช้ไม่ได้"}
   explain: "ทบทวนสัปดาห์ 6 ==With respect + not entirely = แย้งสุภาพ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: neutral and factual, why: "มีน้ำเสียงชัด จึงใช้ไม่ได้"}
     - {t: uncertain and confused, why: "มั่นใจในการวิจารณ์"}
   explain: "ทบทวนสัปดาห์ 10 ==so-called + scare quotes = ไม่เชื่อ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: do a conclusion, why: "ไม่ใช่คู่คำ จึงใช้ไม่ได้"}
     - {t: pull a conclusion, why: "บทไม่ได้พูดว่า pull a conclusion"}
   explain: "ทบทวนสัปดาห์ 8 ==draw a conclusion / distinction=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: a spurious correlation, why: "ไม่ใช่ความสัมพันธ์เทียม"}
     - {t: an appeal to tradition, why: "ไม่ได้อ้างประเพณี"}
   explain: "ทบทวนสัปดาห์ 10 ==false dilemma=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: look up every unknown word in a dictionary, why: "ทำไม่ได้ในข้อสอบและเสียเวลา"}
     - {t: answer the last question first without reading, why: "ไม่มีเหตุผลสนับสนุน"}
   explain: "กลยุทธ์ ==อ่านคำถามก่อน แล้วอ่านบทเพื่อหาคำตอบ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: always choose the longest option, why: "ไม่มีหลักฐานว่าได้ผล"}
     - {t: go back and reread the whole text, why: "ไม่มีเวลาแล้ว จึงใช้ไม่ได้"}
   explain: "เดาอย่างมีหลัก ==ตัดตัวเลือกที่ผิดชัดก่อน=="
-  status: draft
+  status: approved
 - id: cefr-c2-w12-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: met
   accept: [met]
   why: "meet with success (ช่อง 2 met) สัปดาห์ 8"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: downplayed, why: "ขัดกับบริบทที่นักวิจารณ์ว่าประโยชน์ไม่ชัด"}
         - {t: concurred, why: "concur ไม่ใช้รูปถูกกระทำแบบนี้"}
         - {t: acquiesced, why: "acquiesce ไม่ใช้รูปถูกกระทำ"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านบทความวิชาการยาวและฟังปนกัน ----------
 - id: cefr-c2-w12-035
   kind: read
@@ -489,7 +489,7 @@
         - {t: it is not linked to good teaching at all, why: "ผู้เขียนบอกว่าสำคัญ"}
         - {t: most teachers already have far too much of it, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: inspectors believe it is harmful to pupils, why: "บทไม่ได้พูดว่า inspectors believe it is harmful to pupils"}
-  status: draft
+  status: approved
 - id: cefr-c2-w12-036
   kind: listen
   skill: li
@@ -504,7 +504,7 @@
         - {t: very few people attended the course, why: "ตรงกันข้าม คนเยอะ"}
         - {t: they booked a bigger room in advance, why: "Had we known ... = ไม่ได้จองห้องใหญ่"}
         - {t: the course was cancelled at the last minute, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w12-037
   kind: listen
   skill: li
@@ -520,7 +520,7 @@
         - {t: it was an outstanding success, why: "เป็นการประชด ไม่ใช่ความสำเร็จจริง"}
         - {t: the school has been closed down, why: "they didn't close us down"}
         - {t: she has not heard the results, why: "รู้ผลแล้ว จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w12-038
   kind: listen
   skill: li
@@ -535,7 +535,7 @@
         - {t: the curriculum was poorly designed, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
         - {t: accreditation was easy to obtain, why: "nobody thought possible"}
         - {t: she failed to finish the redesign, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w12-039
   kind: order
   skill: gm
@@ -545,7 +545,7 @@
   sentence: Only by working together can we solve this problem.
   th: เราจะแก้ปัญหานี้ได้ก็ต่อเมื่อร่วมมือกันเท่านั้น
   why: "Only by + -ing ขึ้นต้น กลับลำดับ can we"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-040
   kind: order
   skill: gm
@@ -555,7 +555,7 @@
   sentence: What matters most is not qualifications but the ability to adapt to each class.
   th: สิ่งที่สำคัญที่สุดไม่ใช่วุฒิ แต่คือความสามารถในการปรับตัวให้เข้ากับแต่ละห้อง
   why: "What ... is not A but B (pseudo-cleft + not ... but)"
-  status: draft
+  status: approved
 - id: cefr-c2-w12-041
   kind: order
   skill: gm
@@ -565,7 +565,7 @@
   sentence: The findings would seem to suggest that tenacity is a key factor.
   th: ผลการศึกษาดูเหมือนจะบ่งชี้ว่าความมุ่งมั่นเป็นปัจจัยสำคัญ
   why: "would seem to suggest = hedging ระวังข้อสรุป"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
 - id: cefr-c2-w12-042
   kind: order
@@ -576,4 +576,4 @@
   sentence: Taken together, the two texts suggest that neither qualifications nor warmth is sufficient on its own.
   th: เมื่อดูสองบทรวมกัน ชี้ว่าทั้งวุฒิและความอบอุ่นไม่เพียงพอหากมีอย่างเดียว
   why: "Taken together สังเคราะห์ · neither ... nor + กริยาเอกพจน์"
-  status: draft
+  status: approved

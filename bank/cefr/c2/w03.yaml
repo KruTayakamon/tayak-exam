@@ -1,5 +1,5 @@
 # คอร์ส c2 · สัปดาห์ 3 · ภาษาสมมติและภาษาทางการสูง · subjunctive ตายตัว (be it · suffice it to say · come what may · if need be · so be it) · เงื่อนไขแฝง
-# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · draft รอบอสตรวจ · คำอธิบายภาษาไทย
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 18 พ.ย. 2569 · บอสอนุมัติ 23 พ.ย. 2569 ("c2 เอาขึ้นได้ทั้งหมดและเปิดขาย 290") · คำอธิบายภาษาไทย
 # ---------- วันที่ 1 · subjunctive ตายตัว ----------
 - id: cefr-c2-w03-001
   kind: mcq
@@ -13,7 +13,7 @@
     - {t: was, why: "was ใช้กับอดีตธรรมดา ไม่ใช่ subjunctive"}
     - {t: being, why: "หลัง that ต้องมีกริยาแท้"}
   explain: "==recommend== / insist / demand that + ประธาน + กริยารูปเดิม"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-002
   kind: mcq
   skill: gm
@@ -26,7 +26,7 @@
     - {t: Suffices, why: "subjunctive ไม่เติม s"}
     - {t: To suffice, why: "สำนวนไม่มี to ข้างหน้า"}
   explain: "==Suffice it to say (that) ...== = ขอพูดแค่ว่า"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-003
   kind: mcq
   skill: gm
@@ -39,7 +39,7 @@
     - {t: whatever, why: "สำนวนตายตัวใช้ what"}
     - {t: it, why: "come it may ไม่ใช่สำนวน"}
   explain: "==come what may== = ไม่ว่าจะเกิดอะไรขึ้น"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-004
   kind: mcq
   skill: gm
@@ -52,7 +52,7 @@
     - {t: being, why: "สำนวนใช้ be it จึงใช้ไม่ได้"}
     - {t: was, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
   explain: "==be it A or B== = whether it is A or B (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-005
   kind: mcq
   skill: gm
@@ -65,7 +65,7 @@
     - {t: necessary, why: "if necessary ใช้ได้ แต่ไม่มี be ตาม"}
     - {t: needs, why: "subjunctive ไม่เติม s"}
   explain: "==if need be== = if necessary"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-006
   kind: mcq
   skill: gm
@@ -78,7 +78,7 @@
     - {t: does, why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
     - {t: let, why: "so let it ไม่ใช่สำนวน"}
   explain: "==so be it== = ก็เอาตามนั้น (ยอมรับแม้ไม่ชอบ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-007
   kind: mcq
   skill: gm
@@ -91,7 +91,7 @@
     - {t: not eats, why: "subjunctive ไม่เติม s"}
     - {t: won't eat, why: "will ไม่ใช้ในโครงสร้างนี้"}
   explain: "ปฏิเสธ subjunctive ==that + ประธาน + not + กริยา=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-008
   kind: mcq
   skill: gm
@@ -104,7 +104,7 @@
     - {t: Had, why: "Had we to ไม่ใช่รูปเงื่อนไขที่ถูก"}
     - {t: Did, why: "Did we to ไม่ใช่รูปที่ถูก"}
   explain: "==Were + ประธาน + to + กริยา== = ถ้าเผื่อว่า (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-009
   kind: mcq
   skill: gm
@@ -117,7 +117,7 @@
     - {t: describing a long distance, why: "ไม่ได้พูดถึงระยะทาง"}
     - {t: giving an order, why: "เป็นการพูดอ้อมอย่างสุภาพ"}
   explain: "==Far be it from me to ...== = ไม่ใช่หน้าที่ฉันหรอก แต่..."
-  status: draft
+  status: approved
 - id: cefr-c2-w03-010
   kind: mcq
   skill: gm
@@ -130,7 +130,7 @@
     - {t: has been, why: "ไม่ใช่ subjunctive"}
     - {t: to be, why: "หลัง that ต้องมีประธานและกริยาแท้"}
   explain: "subjunctive passive ==that + ประธาน + be + ช่อง 3=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-011
   kind: mcq
   skill: gm
@@ -143,7 +143,7 @@
     - {t: required, why: "หลัง should ใช้กริยารูปเดิม"}
     - {t: to require, why: "หลัง should ไม่มี to"}
   explain: "จดหมายทางการ ==Should you + กริยา ...== = If you ..."
-  status: draft
+  status: approved
 - id: cefr-c2-w03-012
   kind: type
   skill: gm
@@ -153,7 +153,7 @@
   answer: attend
   accept: [attend]
   why: "insist that + ประธาน + กริยารูปเดิม (ไม่เติม s และไม่ใช้อดีต)"
-  status: draft
+  status: approved
 # ---------- วันที่ 2 · คำศัพท์ภาษาทางการและข้อตกลง ----------
 - id: cefr-c2-w03-013
   kind: mcq
@@ -167,7 +167,7 @@
     - {t: forthwith, why: "forthwith แปลว่าทันที"}
     - {t: thereof, why: "thereof แปลว่าของสิ่งนั้น"}
   explain: "hitherto = ==จนถึงบัดนี้== ≈ until now"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-014
   kind: mcq
   skill: vo
@@ -180,7 +180,7 @@
     - {t: Thereof, why: "thereof ไม่ขึ้นต้นประโยคแบบนี้"}
     - {t: Forthwith, why: "forthwith แปลว่าทันที ไม่ใช่ตลอดไปจากนี้"}
   explain: "henceforth = ==นับจากนี้ไป== ≈ from now on"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-015
   kind: mcq
   skill: vo
@@ -193,7 +193,7 @@
     - {t: thereof, why: "thereof ไม่ใช้ในความหมายนี้"}
     - {t: henceforth, why: "henceforth หมายถึงกฎตั้งแต่นี้ไป ไม่ใช่ทันที"}
   explain: "forthwith = ==ทันที (ภาษากฎหมาย)=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-016
   kind: mcq
   skill: vo
@@ -206,7 +206,7 @@
     - {t: forthwith, why: "forthwith แปลว่าทันที"}
     - {t: henceforth, why: "henceforth ไม่ใช้ในตำแหน่งนี้"}
   explain: "thereof = ==ของสิ่งนั้น== (ภาษากฎหมาย)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-017
   kind: mcq
   skill: vo
@@ -219,7 +219,7 @@
     - {t: statutory, why: "statutory เป็นคุณศัพท์"}
     - {t: warrant, why: "warrant ในความหมายนี้เป็นกริยา"}
   explain: "proviso = ==เงื่อนไข ข้อแม้== (with the proviso that ...)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-018
   kind: mcq
   skill: vo
@@ -232,7 +232,7 @@
     - {t: precluded, why: "precluded on ไม่ใช่สำนวน"}
     - {t: abided, why: "abide ต้องตามด้วย by"}
   explain: "==be contingent on / upon== = ขึ้นอยู่กับ (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-019
   kind: mcq
   skill: vo
@@ -245,7 +245,7 @@
     - {t: warranted, why: "warrant แปลว่าสมควร ขัดกับบริบท"}
     - {t: abided, why: "abide ไม่ใช้ในความหมายนี้"}
   explain: "preclude = ==ทำให้เป็นไปไม่ได้ ตัดโอกาส=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-020
   kind: mcq
   skill: vo
@@ -258,7 +258,7 @@
     - {t: abide, why: "abide ไม่ใช้ในความหมายนี้"}
     - {t: remit, why: "remit ไม่ใช่กริยาในความหมายนี้"}
   explain: "necessitate = ==ทำให้จำเป็น=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-021
   kind: mcq
   skill: vo
@@ -271,7 +271,7 @@
     - {t: abide, why: "abide ไม่มีกรรมแบบนี้"}
     - {t: remit, why: "remit ในความหมายนี้เป็นคำนาม ไม่ใช่กริยา"}
   explain: "warrant = ==สมควรได้รับ เป็นเหตุผลพอสำหรับ=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-022
   kind: mcq
   skill: vo
@@ -284,7 +284,7 @@
     - {t: preclude, why: "preclude by ไม่ใช่สำนวน"}
     - {t: necessitate, why: "necessitate by ไม่ใช่สำนวน"}
   explain: "==abide by== = ปฏิบัติตาม (กฎ คำตัดสิน)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-023
   kind: mcq
   skill: vo
@@ -297,7 +297,7 @@
     - {t: hitherto, why: "hitherto เป็นคำวิเศษณ์"}
     - {t: precluded, why: "precluded duty ไม่มีความหมาย"}
   explain: "statutory = ==ที่กฎหมายกำหนด=="
-  status: draft
+  status: approved
 - id: cefr-c2-w03-024
   kind: type
   skill: vo
@@ -307,7 +307,7 @@
   answer: remit
   accept: [remit]
   why: "remit = ขอบเขตอำนาจหน้าที่"
-  status: draft
+  status: approved
 # ---------- วันที่ 3 · เงื่อนไขแฝง ----------
 - id: cefr-c2-w03-025
   kind: mcq
@@ -321,7 +321,7 @@
     - {t: Provided, why: "provided that แปลว่าถ้า (เงื่อนไขจำเป็น) ไม่เข้ากับเหตุร้าย"}
     - {t: Unless, why: "unless that ไม่ใช่รูปที่ถูก"}
   explain: "==In the event that== / In the event of + คำนาม = ในกรณีที่"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-026
   kind: mcq
   skill: gm
@@ -334,7 +334,7 @@
     - {t: Despite, why: "despite ไม่ใช่เงื่อนไข"}
     - {t: Otherwise, why: "otherwise ไม่ตามด้วยคำนามแบบนี้"}
   explain: "==Without== / But for + คำนาม, would (have) ... = ถ้าไม่มี"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-027
   kind: mcq
   skill: gm
@@ -347,7 +347,7 @@
     - {t: wouldn't have been, why: "ไม่ใช้ would ในส่วน if"}
     - {t: isn't, why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
   explain: "==If it hadn't been for== / Had it not been for + คำนาม"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-028
   kind: mcq
   skill: gm
@@ -360,7 +360,7 @@
     - {t: under, why: "under condition ไม่ใช่สำนวนนี้"}
     - {t: with, why: "with condition ไม่ใช่สำนวนนี้"}
   explain: "==on condition that== = โดยมีเงื่อนไขว่า"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-029
   kind: mcq
   skill: gm
@@ -373,7 +373,7 @@
     - {t: in case, why: "in case แปลว่าเผื่อ"}
     - {t: provided, why: "provided ไม่เข้ากับความหมาย"}
   explain: "otherwise = ==ถ้าไม่ใช่อย่างนั้น== (มีเงื่อนไขซ่อนอยู่)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-030
   kind: mcq
   skill: gm
@@ -386,7 +386,7 @@
     - {t: Were, why: "Were it not for ใช้กับปัจจุบัน และไม่มี been"}
     - {t: Should, why: "Should it not been ผิดรูป"}
   explain: "ทางการ ==Had it not been for== = If it hadn't been for"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-031
   kind: mcq
   skill: gm
@@ -399,7 +399,7 @@
     - {t: She supported it but it failed, why: "ประโยคบอกว่าไม่ล้มเหลว"}
     - {t: Her support was not needed, why: "ตรงกันข้าม จำเป็นมาก"}
   explain: "==But for X== = ถ้าไม่มี X (ความจริงคือมี)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-032
   kind: mcq
   skill: gm
@@ -412,7 +412,7 @@
     - {t: there is no language barrier, why: "ความจริงคือมีอุปสรรค"}
     - {t: the speaker applied in the past, why: "พูดถึงปัจจุบัน จึงใช้ไม่ได้"}
   explain: "==Were it not for== = ถ้าไม่ใช่เพราะ (ตอนนี้)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-033
   kind: type
   skill: gm
@@ -422,7 +422,7 @@
   answer: with
   accept: [with]
   why: "take something with you · otherwise = ถ้าไม่ทำอย่างนั้น"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-034
   kind: cloze
   skill: gm
@@ -446,7 +446,7 @@
         - {t: Unless, why: "unless ต้องตามด้วยประโยค"}
         - {t: Provided, why: "provided ไม่ตามด้วยคำนามแบบนี้"}
         - {t: Despite, why: "despite ไม่ใช่เงื่อนไข"}
-  status: draft
+  status: approved
 # ---------- วันที่ 4 · อ่านข้อตกลงความร่วมมือและฟังการเจรจา ----------
 - id: cefr-c2-w03-035
   kind: read
@@ -491,7 +491,7 @@
         - {t: immediately, why: "ต้องผ่านคณะกรรมการก่อน"}
         - {t: when either party wishes, why: "มีขั้นตอนก่อน จึงใช้ไม่ได้"}
         - {t: never, why: "มีขั้นตอนไกล่เกลี่ย"}
-  status: draft
+  status: approved
 - id: cefr-c2-w03-036
   kind: listen
   skill: li
@@ -506,7 +506,7 @@
         - {t: an immediate payment, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
         - {t: a larger order, why: "บทไม่ได้พูดว่า a larger order"}
         - {t: "nothing, he agrees anyway", why: "มีเงื่อนไขชัดเจน"}
-  status: draft
+  status: approved
 - id: cefr-c2-w03-037
   kind: listen
   skill: li
@@ -522,7 +522,7 @@
         - {t: completely impossible, why: "ตอบว่าทำได้ถ้าจำเป็น"}
         - {t: free of extra charge, why: "มีค่าใช้จ่ายเพิ่ม"}
         - {t: already arranged, why: "ยังไม่ได้ตกลง จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w03-038
   kind: listen
   skill: li
@@ -537,7 +537,7 @@
         - {t: she rejects the whole deal, why: "ยอมรับเงื่อนไข จึงใช้ไม่ได้"}
         - {t: she wants a longer notice period, why: "ไม่ใช่ประเด็น จึงใช้ไม่ได้"}
         - {t: she will ask her own board first, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
-  status: draft
+  status: approved
 - id: cefr-c2-w03-039
   kind: order
   skill: gm
@@ -547,7 +547,7 @@
   sentence: Should you need any further information, please contact our office.
   th: หากต้องการข้อมูลเพิ่มเติม โปรดติดต่อสำนักงาน
   why: "Should + ประธาน + กริยารูปเดิม = If (ทางการ)"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-040
   kind: order
   skill: gm
@@ -557,7 +557,7 @@
   sentence: Had it not been for the warning, many people would have been injured.
   th: ถ้าไม่มีคำเตือน คงมีคนบาดเจ็บมาก
   why: "Had it not been for + คำนาม · would have been + ช่อง 3"
-  status: draft
+  status: approved
 - id: cefr-c2-w03-041
   kind: order
   skill: gm
@@ -567,7 +567,7 @@
   sentence: The committee recommended that the policy be reviewed every year.
   th: คณะกรรมการแนะนำให้ทบทวนนโยบายทุกปี
   why: "recommend that + ประธาน + be + ช่อง 3 (subjunctive)"
-  status: draft
+  status: approved
 # ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
 - id: cefr-c2-w03-042
   kind: order
@@ -578,4 +578,4 @@
   sentence: We would be willing to share the costs on condition that any income be divided equally.
   th: เรายินดีแบ่งค่าใช้จ่าย โดยมีเงื่อนไขว่ารายได้ต้องแบ่งเท่ากัน
   why: "on condition that + subjunctive be + ช่อง 3"
-  status: draft
+  status: approved
