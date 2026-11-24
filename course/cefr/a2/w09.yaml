@@ -1,0 +1,169 @@
+# คอร์ส a2 · สัปดาห์ 9 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 9
+phase: 3
+theme_th: แผนและการนัดหมาย
+focus_th: be going to แผนและความตั้งใจ · will เสนอ สัญญา คาดการณ์ · present continuous กับนัดที่แน่นอน · ศัพท์นัดหมายและเดินทาง
+can_do_th:
+  - นัดหมายและตอบรับหรือปฏิเสธได้
+  - บอกแผนของตัวเองในสัปดาห์หน้าได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ตั้งใจจะทำ
+    lesson:
+      rule_th: "แผนที่คิดไว้แล้ว ==am / is / are + going to + กริยารูปเดิม== ++เห็นหลักฐานตรงหน้าก็ใช้ทำนายได้++"
+      examples:
+        - {en: "I'<k>m going to</k> visit my parents.", th: "ฉันจะไปเยี่ยมพ่อแม่ (คิดไว้แล้ว)"}
+        - {en: "She'<k>s going to</k> start a new job.", th: "==เธอกำลังจะเริ่มงานใหม่=="}
+        - {en: "Look at the clouds! It'<k>s going to</k> rain.", th: "ดูเมฆสิ ฝนกำลังจะตก"}
+        - {en: "What <k>are</k> you <k>going to</k> do?", th: "คุณจะทำอะไร"}
+      signals:
+        - {label_th: "ใช้ going to เมื่อ", words: ["วางแผนไว้แล้ว", "ซื้อตั๋ว/เตรียมของแล้ว", "เห็นหลักฐานตรงหน้า"]}
+      thai_trap:
+        intro_th: "คนไทยพูด \"จะ\" คำเดียว เลย ~~ลืม am/is/are~~ หรือใส่ -ing หลัง to"
+        wrong: ["I going to travel.", "She is going to visiting Japan."]
+        right: ["I'm going to travel.", "She is going to visit Japan."]
+      notes:
+        - {kind: pin, th: "ต้องมีครบ ==be + going to + กริยารูปเดิม=="}
+        - {kind: tip, th: "พูดเร็ว going to ฟังเหมือน gonna (ใช้ในภาษาพูดเท่านั้น)"}
+    check: [cefr-a2-w09-001, cefr-a2-w09-002]
+    practice: [cefr-a2-w09-003, cefr-a2-w09-004, cefr-a2-w09-005, cefr-a2-w09-006, cefr-a2-w09-007, cefr-a2-w09-008, cefr-a2-w09-009, cefr-a2-w09-010, cefr-a2-w09-011, cefr-a2-w09-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกแผนสุดสัปดาห์หน้าของคุณ
+      frame: "Next weekend I'm going to ____. I'm not going to ____."
+      model: "Next weekend I'm going to clean my car. I'm not going to work."
+    classroom: {en: "What are you going to do this weekend?", th: "สุดสัปดาห์นี้คุณจะทำอะไร"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์นัดหมายและเดินทาง 12 คำ
+    lesson:
+      rule_th: "นัดหมอหรือนัดธุระใช้ ==appointment== ส่วนประชุมงานใช้ meeting ++invite ใช้ชวนคนอื่น join ใช้ตอนเราไปร่วม++"
+      examples:
+        - {en: "I have a dentist <k>appointment</k>.", th: "ฉันมีนัดหมอฟัน"}
+        - {en: "Can you <k>join</k> us?", th: "==มาร่วมกับเราได้ไหม=="}
+        - {en: "I <k>hope</k> you can come.", th: "หวังว่าคุณจะมาได้"}
+      words:
+        - {w: plan, pos: n./v., th: แผน วางแผน, ex: "What's your plan?"}
+        - {w: decide, pos: v., th: ตัดสินใจ, ex: "I can't decide."}
+        - {w: invite, pos: v., th: เชิญ ชวน, ex: "They invited me to the party."}
+        - {w: join, pos: v., th: เข้าร่วม, ex: "Join us for lunch!"}
+        - {w: meeting, pos: n., th: การประชุม, ex: "The meeting starts at ten."}
+        - {w: appointment, pos: n., th: นัดหมาย, ex: "I have an appointment at three."}
+        - {w: message, pos: n., th: ข้อความ, ex: "Can I leave a message?"}
+        - {w: birthday, pos: n., th: วันเกิด, ex: "Happy birthday!"}
+        - {w: travel, pos: v./n., th: เดินทาง ท่องเที่ยว, ex: "I love to travel."}
+        - {w: ticket, pos: n., th: ตั๋ว, ex: "I bought two tickets."}
+        - {w: station, pos: n., th: สถานี, ex: "Meet me at the station."}
+        - {w: hope, pos: v./n., th: หวัง, ex: "I hope you're well."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~join with us~~ ตามคำว่า \"ร่วมกับ\""
+        wrong: ["Do you want to join with us?"]
+        right: ["Do you want to join us?"]
+      notes:
+        - {kind: pin, th: "join + คน/กลุ่ม ==ไม่ต้องมี with=="}
+        - {kind: use, th: "ฝากข้อความ Can I leave a message?"}
+    check: [cefr-a2-w09-013, cefr-a2-w09-014]
+    practice: [cefr-a2-w09-015, cefr-a2-w09-016, cefr-a2-w09-017, cefr-a2-w09-018, cefr-a2-w09-019, cefr-a2-w09-020, cefr-a2-w09-021, cefr-a2-w09-022, cefr-a2-w09-023, cefr-a2-w09-024]
+    use:
+      prompt_th: เขียน 2 ประโยคชวนเพื่อนไปงานหรือกิจกรรม
+      frame: "I'd like to invite you to ____. I hope you can ____."
+      model: "I'd like to invite you to my birthday dinner on Friday. I hope you can join us."
+    classroom: {en: "Can I leave a message for Mr Somchai?", th: "ขอฝากข้อความถึงคุณสมชายได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: จะ และนัดไว้แล้ว
+    lesson:
+      rule_th: "ตัดสินใจตอนพูด เสนอช่วย สัญญา ใช้ ==will (I'll)== ++นัดที่ลงวันเวลาแล้วใช้ am/is/are + -ing++"
+      examples:
+        - {en: "I'<k>ll</k> carry it for you.", th: "เดี๋ยวฉันถือให้ (อาสาตอนนั้น)"}
+        - {en: "I promise I <k>will</k> call you.", th: "==สัญญาว่าจะโทรหา=="}
+        - {en: "I'<k>m seeing</k> the dentist on Friday.", th: "วันศุกร์ฉันมีนัดหมอฟัน"}
+        - {en: "I <k>won't</k> be late.", th: "ฉันจะไม่สาย"}
+      signals:
+        - {label_th: "เลือกรูปอนาคต", words: ["ตัดสินใจตอนนี้ / เสนอ / สัญญา → will", "วางแผนไว้แล้ว → going to", "นัดลงวันเวลาแล้ว → -ing", "คาดการณ์ I think → will"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ \"จะ\" ทุกแบบ คนไทยเลยพูด ~~I will see the dentist~~ ทั้งที่นัดไว้แล้ว"
+        wrong: ["\"The phone is ringing.\" \"I'm going to answer it.\""]
+        right: ["\"The phone is ringing.\" \"I'll answer it.\""]
+      notes:
+        - {kind: pin, th: "will not = ==won't== (อ่านว่า โวนท์)"}
+        - {kind: tip, th: "สั่งอาหารตอนตัดสินใจ I'll have the noodles."}
+    check: [cefr-a2-w09-025, cefr-a2-w09-026]
+    practice: [cefr-a2-w09-027, cefr-a2-w09-028, cefr-a2-w09-029, cefr-a2-w09-030, cefr-a2-w09-031, cefr-a2-w09-032, cefr-a2-w09-033, cefr-a2-w09-034]
+    use:
+      prompt_th: เขียน 2 ประโยค บอกนัดที่แน่นอนแล้ว 1 อย่าง และสัญญาอะไรบางอย่าง 1 อย่าง
+      frame: "On ____, I'm ____. I promise I'll ____."
+      model: "On Monday, I'm meeting my new boss. I promise I'll be on time."
+    classroom: {en: "Don't worry, I'll help you.", th: "ไม่ต้องห่วง เดี๋ยวฉันช่วย"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านข้อความนัดหมายและบัตรเชิญ และฟังการนัดเวลา
+    lesson:
+      rule_th: "ข้อความนัดหมายมักมี ==วัน เวลา สถานที่ และสิ่งที่ขอให้ทำ== ++หาคำว่า Please ... เพื่อดูว่าต้องทำอะไร++"
+      examples:
+        - {en: "We're having a dinner <k>at 7 p.m.</k>", th: "เรามีนัดทานข้าวหนึ่งทุ่ม"}
+        - {en: "<k>Please reply</k> by Wednesday.", th: "==กรุณาตอบภายในวันพุธ=="}
+        - {en: "I'<k>ll</k> be there.", th: "ฉันจะไป"}
+      thai_trap:
+        intro_th: "คำว่า by Wednesday คนไทยมักแปลว่า ~~ทางวันพุธ~~"
+        wrong: ["reply by Wednesday = ตอบวันพุธเท่านั้น"]
+        right: ["reply by Wednesday = ตอบภายใน (ไม่เกิน) วันพุธ"]
+      notes:
+        - {kind: pin, th: "by + วัน/เวลา = ==ไม่เกิน ภายใน=="}
+        - {kind: use, th: "เสนอวันใหม่ How about Friday?"}
+    check: [cefr-a2-w09-036, cefr-a2-w09-037]
+    practice: [cefr-a2-w09-035, cefr-a2-w09-038, cefr-a2-w09-039, cefr-a2-w09-040, cefr-a2-w09-041]
+    use:
+      prompt_th: เขียนข้อความตอบรับคำเชิญ 2 ประโยค
+      frame: "Thanks for inviting me! I'll ____. I'm going to ____."
+      model: "Thanks for inviting me! I'll be there at seven. I'm going to bring some fruit."
+    classroom: {en: "How about Friday afternoon?", th: "บ่ายวันศุกร์ดีไหม"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 20
+    title_th: ห้องฝึกพูด นัดเพื่อนไปทานข้าว
+    lab:
+      mode: speak
+      prompt_th: พูดฝากข้อความเสียงถึงเพื่อน ชวนไปทานข้าว บอกวัน เวลา สถานที่ เสนอทางเลือกถ้าเพื่อนไม่ว่าง และสัญญาว่าจะทำอะไร (30 วินาที)
+      frame:
+        - "Hi ____, it's ____."
+        - "Are you free for dinner on ____?"
+        - "I'm going to book a table at ____ at ____."
+        - "If you're busy, how about ____?"
+        - "I'll ____. See you!"
+      model_pass: "Hi Bee, it's Nok. Are you free for dinner on Saturday? I'm going to book a table at Baan Suan at seven. If you're busy, how about Sunday? I'll send you the address. See you!"
+      model_good: "Hi Bee, it's Nok. I hope you're well! Are you free for dinner on Saturday evening? I'm going to book a table at Baan Suan — it's a lovely garden restaurant near the river — for seven o'clock. If you're busy on Saturday, how about Sunday lunch? Let me know by Thursday, and I'll send you the address and a map. See you soon!"
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกร้าน วัน และเวลาจริงที่คุณอยากไป
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ going to กับแผนที่คิดไว้ (จองโต๊ะ)
+        - ใช้ I'll กับสิ่งที่สัญญาหรืออาสา
+        - บอกวัน เวลา สถานที่ครบ
+        - เสนอทางเลือกด้วย How about...?
+    practice: [cefr-a2-w09-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 9
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
