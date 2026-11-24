@@ -1,0 +1,495 @@
+# คอร์ส a2 · ชุดวัดผล ชุด b · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: สัปดาห์ 4–10 (d1 + d3) · cloze: linkers-basic · ศัพท์: สัปดาห์ 2–11
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-a2-cpb-001
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  stem: My grandfather was born ____ 1955.
+  choices:
+    - {t: in, why: "ปี ค.ศ. ใช้ ++in++ นำหน้า"}
+    - {t: "on", why: "on ใช้กับวัน จึงใช้ไม่ได้"}
+    - {t: at, why: "at ใช้กับเวลา จึงใช้ไม่ได้"}
+    - {t: to, why: "to ไม่ใช้บอกปี จึงใช้ไม่ได้"}
+  explain: "ปี เดือน ==in== (in 1955, in May)"
+  status: approved
+- id: cefr-a2-cpb-002
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 1
+  stem: My father ____ use a smartphone, so I always help him.
+  choices:
+    - {t: "can't", why: "ทำไม่เป็น ++can't++"}
+    - {t: "doesn't can", why: "ไม่ใช้ doesn't กับ can"}
+    - {t: "can", why: "ขัดกับ so I always help him"}
+    - {t: "cans", why: "can ไม่เติม s จึงใช้ไม่ได้"}
+  explain: "ทำไม่ได้ ==can't + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-cpb-003
+  kind: mcq
+  skill: gm
+  topic: countable-some-any
+  level: 1
+  stem: I'd like ____ information about your English classes.
+  choices:
+    - {t: some, why: "information นับไม่ได้ บอกเล่าใช้ ++some++"}
+    - {t: an, why: "information นับไม่ได้"}
+    - {t: many, why: "many ใช้กับนามนับได้"}
+    - {t: a few, why: "a few ใช้กับนามนับได้"}
+  explain: "information ==นับไม่ได้== ใช้ some"
+  status: approved
+- id: cefr-a2-cpb-004
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 1
+  stem: "\"____ brothers and sisters do you have?\" \"Two sisters.\""
+  choices:
+    - {t: How many, why: "นับคนได้ ++How many++"}
+    - {t: How much, why: "how much ใช้กับนับไม่ได้"}
+    - {t: How old, why: "how old ถามอายุ"}
+    - {t: How often, why: "how often ถามความถี่"}
+  explain: "How many + ==พหูพจน์=="
+  status: approved
+- id: cefr-a2-cpb-005
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 1
+  stem: Turn off the TV, please. Nobody ____ it.
+  choices:
+    - {t: is watching, why: "ตอนนี้ไม่มีใครดู ++is + -ing++"}
+    - {t: watches, why: "บอกสิ่งที่เกิดตอนนี้ใช้ -ing"}
+    - {t: are watching, why: "nobody ใช้กริยาเอกพจน์"}
+    - {t: watching, why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "nobody / somebody ใช้ ==is== (เอกพจน์)"
+  status: approved
+- id: cefr-a2-cpb-006
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 1
+  stem: "\"What do you do?\" \"I ____ in a hotel. I'm a receptionist.\""
+  choices:
+    - {t: work, why: "อาชีพประจำ ++รูปปกติ++"}
+    - {t: am working, why: "What do you do? ถามอาชีพ ใช้รูปปกติ"}
+    - {t: works, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+    - {t: working, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "What do you do? = ==ทำงานอะไร== ตอบด้วยรูปปกติ"
+  status: approved
+- id: cefr-a2-cpb-007
+  kind: mcq
+  skill: gm
+  topic: was-were
+  level: 2
+  stem: ____ a lot of traffic on the way to work this morning.
+  choices:
+    - {t: There was, why: "traffic นับไม่ได้ อดีต ++There was++"}
+    - {t: There were, why: "traffic นับไม่ได้ ใช้ was"}
+    - {t: It had, why: "บอกว่ามีใช้ there was"}
+    - {t: There is, why: "this morning ผ่านไปแล้ว"}
+  explain: "นามนับไม่ได้ในอดีต ==There was=="
+  status: approved
+- id: cefr-a2-cpb-008
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 2
+  stem: The train ____ at every small station, so the trip took five hours.
+  choices:
+    - {t: stopped, why: "stop เพิ่ม p แล้ว ++เติม -ed++"}
+    - {t: stoped, why: "ต้องเพิ่ม p จึงใช้ไม่ได้"}
+    - {t: stops, why: "took บอกว่าเป็นอดีต"}
+    - {t: was stop, why: "ไม่ใช้ was กับกริยารูปเดิม"}
+  explain: "stop → ==stopped=="
+  status: approved
+- id: cefr-a2-cpb-009
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: I ____ my keys on the table this morning, and now I can't find them.
+  choices:
+    - {t: left, why: "อดีตของ leave ++left++"}
+    - {t: leaved, why: "leave เป็นกริยาไม่ปกติ"}
+    - {t: leave, why: "this morning ผ่านไปแล้ว"}
+    - {t: lefted, why: "ไม่มีรูปนี้ จึงใช้ไม่ได้"}
+  explain: "leave → ==left== → left"
+  status: approved
+- id: cefr-a2-cpb-010
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  stem: "\"____ you see Nok at the party?\" \"No, she didn't come.\""
+  choices:
+    - {t: Did, why: "คำถามอดีต ++Did + ประธาน + กริยารูปเดิม++"}
+    - {t: Were, why: "ไม่ใช้ were กับ see"}
+    - {t: Do, why: "เป็นเรื่องอดีต จึงใช้ไม่ได้"}
+    - {t: Saw, why: "คำถามต้องมี Did"}
+  explain: "ถามอดีต ==Did you + กริยารูปเดิม==?"
+  status: approved
+- id: cefr-a2-cpb-011
+  kind: mcq
+  skill: gm
+  topic: going-to
+  level: 2
+  stem: We ____ paint the living room green next weekend.
+  choices:
+    - {t: are going to, why: "แผนที่ตั้งใจ ++are going to++"}
+    - {t: going to, why: "ขาด are จึงใช้ไม่ได้"}
+    - {t: are going, why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: is going to, why: "we ใช้ are จึงใช้ไม่ได้"}
+  explain: "แผน ==are + going to + กริยา=="
+  status: approved
+- id: cefr-a2-cpb-012
+  kind: mcq
+  skill: gm
+  topic: will-future-arrangements
+  level: 2
+  stem: "\"I don't have a pen.\" \"No problem. I ____ lend you mine.\""
+  choices:
+    - {t: "'ll", why: "อาสาทันที ++I'll++"}
+    - {t: "'m lending", why: "ไม่ใช่นัดที่วางไว้"}
+    - {t: "lend", why: "ต้องมี will เพื่อบอกการอาสา"}
+    - {t: "'m lend", why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "อาสาตอนพูด ==I'll=="
+  status: approved
+- id: cefr-a2-cpb-013
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 3
+  stem: "Which sentence comparing two jobs is correct?"
+  choices:
+    - {t: My new job is easier and better paid than my old one., why: "easy → easier · ++than++ ถูกต้อง"}
+    - {t: My new job is more easy and better paid than my old one., why: "easy ใช้ easier"}
+    - {t: My new job is easier and better paid then my old one., why: "ต้องเป็น than จึงใช้ไม่ได้"}
+    - {t: My new job is easyer and better paid than my old one., why: "y ต้องเปลี่ยนเป็น i"}
+  explain: "ขั้นกว่า ==-er / more + than=="
+  status: approved
+- id: cefr-a2-cpb-014
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 3
+  stem: "Which sentence about Bangkok is correct?"
+  choices:
+    - {t: "It's the biggest city in Thailand, but it isn't as clean as Chiang Mai.", why: "ขั้นสุดมี the · ++as ... as++ ถูก"}
+    - {t: "It's biggest city in Thailand, but it isn't as clean as Chiang Mai.", why: "ขาด the จึงใช้ไม่ได้"}
+    - {t: "It's the biggest city in Thailand, but it isn't as cleaner as Chiang Mai.", why: "as ... as ใช้รูปเดิม"}
+    - {t: "It's the most big city in Thailand, but it isn't as clean as Chiang Mai.", why: "big ใช้ biggest"}
+  explain: "==the -est · as + รูปเดิม + as=="
+  status: approved
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-a2-cpb-015
+  kind: cloze
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  text: |
+    I wanted to buy a new phone, (1) ____ it was too expensive. I decided to wait for the sale, (2) ____ I saved some money every week. (3) ____, I bought it in December, and it was 3,000 baht cheaper!
+  questions:
+    - choices:
+        - {t: but, why: "อยากซื้อ แต่แพง เป็นความขัดแย้ง"}
+        - {t: so, why: "แพงไม่ใช่ผลของการอยากซื้อ"}
+        - {t: because, why: "ไม่ได้บอกเหตุผล"}
+        - {t: or, why: "ไม่ได้ให้เลือก จึงใช้ไม่ได้"}
+    - choices:
+        - {t: so, why: "ตัดสินใจรอ (เหตุ) จึงเก็บเงิน (ผล)"}
+        - {t: but, why: "ไม่ได้ขัดแย้งกัน"}
+        - {t: because, why: "because ต้องตามด้วยเหตุ"}
+        - {t: or, why: "ไม่ได้ให้เลือก จึงใช้ไม่ได้"}
+    - choices:
+        - {t: In the end, why: "ผลสุดท้าย ใช้ In the end"}
+        - {t: First, why: "เป็นตอนจบเรื่อง ไม่ใช่ขั้นแรก"}
+        - {t: Because, why: "ไม่ได้บอกเหตุผล"}
+        - {t: Or, why: "ไม่ได้ให้เลือก จึงใช้ไม่ได้"}
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 2–11) ----------
+- id: cefr-a2-cpb-016
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: Please take a ____. The doctor will see you in ten minutes.
+  choices:
+    - {t: chair, why: "เชิญนั่ง = ++take a chair++ (สัปดาห์ 2)"}
+    - {t: door, why: "take a door ไม่เข้ากับบริบท"}
+    - {t: window, why: "take a window ไม่เข้ากับบริบท"}
+    - {t: clock, why: "take a clock ไม่เข้ากับบริบท"}
+  explain: "chair = ==เก้าอี้== · take a seat / take a chair = เชิญนั่ง"
+  status: approved
+- id: cefr-a2-cpb-017
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: I stayed up very ____ last night, so I'm sleepy now.
+  choices:
+    - {t: late, why: "นอนดึก = ++stay up late++ (สัปดาห์ 3)"}
+    - {t: early, why: "early ขัดกับง่วง"}
+    - {t: often, why: "often ไม่ใช้กับ stay up แบบนี้"}
+    - {t: morning, why: "morning เป็นคำนาม"}
+  explain: "late = ==ดึก สาย=="
+  status: approved
+- id: cefr-a2-cpb-018
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: Please ____ to the instructions carefully before you start.
+  choices:
+    - {t: listen, why: "ฟังคำแนะนำ = ++listen to++ (สัปดาห์ 4)"}
+    - {t: speak, why: "speak to the instructions ไม่ตรงความหมาย"}
+    - {t: open, why: "ไม่ใช้ to แบบนี้"}
+    - {t: help, why: "help to the instructions ไม่ตรงความหมาย"}
+  explain: "listen ==to== + สิ่งที่ฟัง"
+  status: approved
+- id: cefr-a2-cpb-019
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 1
+  stem: Carrots, cabbage and onions are all ____.
+  choices:
+    - {t: vegetables, why: "แครอท กะหล่ำ หอม = ++vegetables++ (สัปดาห์ 5)"}
+    - {t: fruit, why: "ไม่ใช่ผลไม้ จึงใช้ไม่ได้"}
+    - {t: bread, why: "ไม่ใช่ขนมปัง จึงใช้ไม่ได้"}
+    - {t: eggs, why: "ไม่ใช่ไข่ จึงใช้ไม่ได้"}
+  explain: "vegetable = ==ผัก=="
+  status: approved
+- id: cefr-a2-cpb-020
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: My husband loves to ____. He makes Italian food every Saturday.
+  choices:
+    - {t: cook, why: "ทำอาหาร = ++cook++ (สัปดาห์ 6)"}
+    - {t: clean, why: "ไม่เข้ากับทำอาหาร"}
+    - {t: sing, why: "บทไม่ได้พูดว่า sing"}
+    - {t: draw, why: "บทไม่ได้พูดว่า draw"}
+  explain: "cook = ==ทำอาหาร=="
+  status: approved
+- id: cefr-a2-cpb-021
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 1
+  stem: "\"What's the ____ like in Chiang Mai in December?\" \"Cool and dry.\""
+  choices:
+    - {t: weather, why: "อากาศเป็นอย่างไร = ++weather++ (สัปดาห์ 7)"}
+    - {t: trip, why: "ตอบเรื่องอากาศ ไม่ใช่ทริป"}
+    - {t: festival, why: "ตอบเรื่องอากาศ ไม่ใช่เทศกาล"}
+    - {t: rain, why: "the rain like ไม่ตรงคำตอบ cool and dry"}
+  explain: "What's the weather like? = ==อากาศเป็นอย่างไร=="
+  status: approved
+- id: cefr-a2-cpb-022
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: How much did you ____ for your new laptop?
+  choices:
+    - {t: pay, why: "จ่ายเท่าไร = ++pay for++ (สัปดาห์ 8)"}
+    - {t: spend, why: "spend ... on ไม่ใช่ for"}
+    - {t: catch, why: "ไม่เข้ากับเงิน จึงใช้ไม่ได้"}
+    - {t: miss, why: "บทไม่ได้พูดว่า miss"}
+  explain: "pay ==for== + ของ"
+  status: approved
+- id: cefr-a2-cpb-023
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 2
+  stem: They didn't ____ me to the wedding, so I didn't go.
+  choices:
+    - {t: invite, why: "เชิญไปงาน = ++invite to++ (สัปดาห์ 9)"}
+    - {t: join, why: "join me to ไม่ใช่วลีที่ใช้"}
+    - {t: decide, why: "decide me ไม่ใช่วลีที่ใช้"}
+    - {t: hope, why: "hope me ไม่ใช่วลีที่ใช้"}
+  explain: "invite + คน + ==to + งาน=="
+  status: approved
+- id: cefr-a2-cpb-024
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: K-pop is very ____ with teenagers in Thailand.
+  choices:
+    - {t: popular, why: "เป็นที่นิยม = ++popular with++ (สัปดาห์ 10)"}
+    - {t: crowded, why: "crowded ใช้กับสถานที่"}
+    - {t: comfortable, why: "ไม่เข้ากับเพลง จึงใช้ไม่ได้"}
+    - {t: quiet, why: "ไม่เข้ากับเพลงที่คนชอบ"}
+  explain: "popular ==with== + กลุ่มคน"
+  status: approved
+- id: cefr-a2-cpb-025
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: It isn't ____ to talk loudly on your phone on the bus.
+  choices:
+    - {t: polite, why: "ไม่สุภาพ = ++not polite++ (สัปดาห์ 11)"}
+    - {t: safe, why: "ไม่เกี่ยวกับความปลอดภัย"}
+    - {t: healthy, why: "ไม่เกี่ยวกับสุขภาพ"}
+    - {t: careful, why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "polite = ==สุภาพ== · rude = หยาบคาย"
+  status: approved
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-a2-cpb-026
+  kind: read
+  skill: rd
+  topic: cafe-menu
+  level: 1
+  title: "Green Leaf Café: Menu and Information"
+  passage: |
+    Drinks: Iced coffee 55 baht · Thai tea 45 baht · Fresh orange juice 60 baht
+    Food: Chicken sandwich 89 baht · Fruit salad 70 baht · Banana cake 50 baht
+
+    We are open every day from 7 a.m. to 7 p.m., but we are closed on Wednesdays.
+    Free wifi for customers. The password is on your receipt.
+    Do you bring your own cup? You get 10 baht off any drink!
+    Sorry, we don't take cards. Cash or QR payment only.
+  questions:
+    - stem: What is the cheapest drink?
+      choices:
+        - {t: Thai tea, why: "Thai tea 45 baht ถูกที่สุด"}
+        - {t: iced coffee, why: "55 บาท แพงกว่าชาไทย"}
+        - {t: orange juice, why: "60 บาท แพงที่สุด"}
+        - {t: banana cake, why: "เป็นอาหาร ไม่ใช่เครื่องดื่ม"}
+    - stem: When is the café closed?
+      choices:
+        - {t: on Wednesdays, why: "we are closed on Wednesdays"}
+        - {t: on weekends, why: "เปิดทุกวันยกเว้นวันพุธ"}
+        - {t: in the morning, why: "เปิดเจ็ดโมงเช้า"}
+        - {t: never, why: "ปิดวันพุธ จึงใช้ไม่ได้"}
+    - stem: How can you get 10 baht off?
+      choices:
+        - {t: bring your own cup, why: "bring your own cup ... 10 baht off"}
+        - {t: pay by card, why: "ร้านไม่รับบัตร จึงใช้ไม่ได้"}
+        - {t: use the wifi, why: "wifi ฟรี ไม่ได้ลดราคา"}
+        - {t: come on Wednesday, why: "วันพุธร้านปิด จึงใช้ไม่ได้"}
+    - stem: Where can you find the wifi password?
+      choices:
+        - {t: on your receipt, why: "The password is on your receipt"}
+        - {t: on the menu, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: on the wall, why: "บทไม่ได้พูดว่า on the wall"}
+        - {t: from the website, why: "บทไม่ได้พูดว่า from the website"}
+  status: approved
+- id: cefr-a2-cpb-027
+  kind: read
+  skill: rd
+  topic: diary-problem
+  level: 3
+  title: "Mai's Diary: The Job Interview"
+  passage: |
+    Today was the most stressful day of the year! My job interview was at ten, so I left home at eight. But there was an accident on the expressway, and the traffic didn't move for forty minutes.
+
+    I called the company and explained the problem. The manager was very kind and said, "Don't worry. We'll wait for you."
+
+    I arrived at ten thirty. The interview was easier than I expected, and the people were friendly. They're going to call me on Friday. I hope I get the job, because the office is closer to my home than my old one.
+  questions:
+    - stem: Why was Mai late for the interview?
+      choices:
+        - {t: there was an accident on the road, why: "there was an accident on the expressway"}
+        - {t: she left home too late, why: "เธอออกจากบ้านแปดโมง เผื่อเวลาแล้ว"}
+        - {t: she forgot the address, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the manager changed the time, why: "ผู้จัดการบอกว่าจะรอ"}
+    - stem: How late was Mai?
+      choices:
+        - {t: thirty minutes, why: "นัดสิบโมง ถึงสิบโมงครึ่ง"}
+        - {t: forty minutes, why: "สี่สิบนาทีคือเวลาที่รถไม่ขยับ"}
+        - {t: two hours, why: "สองชั่วโมงคือเวลาตั้งแต่ออกจากบ้าน"}
+        - {t: she wasn't late, why: "เธอถึงหลังเวลานัด"}
+    - stem: What did Mai think of the interview?
+      choices:
+        - {t: it was easier than she expected, why: "The interview was easier than I expected"}
+        - {t: it was very difficult, why: "ตรงกันข้าม จึงใช้ไม่ได้"}
+        - {t: the people were unfriendly, why: "the people were friendly"}
+        - {t: it was too short, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: Why does Mai want the job?
+      choices:
+        - {t: the office is nearer her home, why: "closer to my home than my old one"}
+        - {t: the salary is higher, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the manager is her friend, why: "บทไม่ได้พูดว่า the manager is her friend"}
+        - {t: the interview was easy, why: "สัมภาษณ์ง่ายไม่ใช่เหตุผลที่อยากได้งาน"}
+  status: approved
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-a2-cpb-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "Are you coming to the gym tonight?"}
+    - {who: Woman, en: "I can't. I have to finish a report. Maybe tomorrow."}
+  questions:
+    - stem: Why can't the woman go to the gym?
+      choices:
+        - {t: she has to finish a report, why: "I have to finish a report"}
+        - {t: she is sick, why: "ไม่ได้พูดว่าป่วย"}
+        - {t: the gym is closed, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: she doesn't like the gym, why: "เธอบอกว่าอาจไปพรุ่งนี้"}
+  status: approved
+- id: cefr-a2-cpb-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Excuse me, how much are these shoes?"}
+    - {who: Man, en: "They're nine hundred and ninety baht, but today there's twenty percent off."}
+  questions:
+    - stem: What is true about the shoes?
+      choices:
+        - {t: they are cheaper today, why: "today there's twenty percent off = ลดราคาวันนี้"}
+        - {t: they cost 90 baht, why: "nine hundred and ninety = 990"}
+        - {t: they are sold out, why: "ไม่ได้พูดว่าหมด"}
+        - {t: they cost 20 baht, why: "20 คือเปอร์เซ็นต์ที่ลด"}
+  status: approved
+- id: cefr-a2-cpb-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "I'm going to Japan next month. I booked the hotel yesterday, and I'm buying the flight tickets tonight."}
+  questions:
+    - stem: What has the man NOT done yet?
+      choices:
+        - {t: bought the flight tickets, why: "I'm buying the flight tickets tonight = ยังไม่ได้ซื้อ"}
+        - {t: booked the hotel, why: "booked the hotel yesterday = จองแล้ว"}
+        - {t: decided where to go, why: "เขาตัดสินใจแล้วว่าไปญี่ปุ่น"}
+        - {t: chosen the month, why: "เขาบอกว่าเดือนหน้า"}
+  status: approved
+- id: cefr-a2-cpb-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "You shouldn't eat so much fried food. It isn't healthy. Why don't you try a salad?"}
+  questions:
+    - stem: What is the woman doing?
+      choices:
+        - {t: giving advice about food, why: "You shouldn't ... Why don't you try = ให้คำแนะนำ"}
+        - {t: ordering a salad, why: "เธอแนะนำให้อีกคนลอง"}
+        - {t: cooking fried food, why: "ไม่ได้พูดถึงการทำอาหาร"}
+        - {t: complaining about a restaurant, why: "ไม่ได้พูดถึงร้าน"}
+  status: approved
+# ---------- เรียงประโยค ----------
+- id: cefr-a2-cpb-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I'm going to, visit my aunt, next weekend, because it's her birthday]
+  sentence: I'm going to visit my aunt next weekend because it's her birthday.
+  th: สุดสัปดาห์หน้าฉันจะไปเยี่ยมป้าเพราะเป็นวันเกิดของป้า
+  why: "going to + กริยารูปเดิม + เวลา + because + เหตุผล"
+  status: approved

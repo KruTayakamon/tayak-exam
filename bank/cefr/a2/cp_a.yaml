@@ -1,0 +1,493 @@
+# คอร์ส a2 · ชุดวัดผล ชุด a · 40 คะแนน 40 นาที · ตาราง course/cefr/_assessment.yaml checkpoint
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · ครอบคลุมทั้ง 12 สัปดาห์ · ห้ามซ้ำกับข้อในเซสชัน
+# หัวข้อไวยากรณ์: สัปดาห์ 1–7 (d1 + d3) · cloze: must-have-to · ศัพท์: สัปดาห์ 1–10
+# ---------- ไวยากรณ์ 14 ข้อ ----------
+- id: cefr-a2-cpa-001
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: My children ____ at school until three o'clock.
+  choices:
+    - {t: are, why: "my children พหูพจน์ ใช้ ++are++"}
+    - {t: is, why: "is ใช้กับเอกพจน์"}
+    - {t: am, why: "am ใช้กับ I จึงใช้ไม่ได้"}
+    - {t: be, why: "ต้องผันเป็น are"}
+  explain: "พหูพจน์ ==are=="
+  status: approved
+- id: cefr-a2-cpa-002
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 1
+  stem: Mr and Mrs Lee love ____ garden. They work in it every weekend.
+  choices:
+    - {t: their, why: "ของพวกเขา ++their++"}
+    - {t: they're, why: "they're = they are"}
+    - {t: there, why: "there แปลว่าที่นั่น"}
+    - {t: them, why: "them ใช้หลังกริยา ไม่ใช่หน้าคำนาม"}
+  explain: "ของพวกเขา ==their + คำนาม=="
+  status: approved
+- id: cefr-a2-cpa-003
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  stem: We need ____ umbrella. It's raining outside.
+  choices:
+    - {t: an, why: "umbrella ขึ้นต้นเสียงสระ ++an++"}
+    - {t: a, why: "a ใช้กับเสียงพยัญชนะ"}
+    - {t: some, why: "umbrella นับได้ เอกพจน์"}
+    - {t: two, why: "ต้องการร่มเดียวพอ และ umbrella ไม่มี s"}
+  explain: "เสียงสระ ==an== (an umbrella, an egg)"
+  status: approved
+- id: cefr-a2-cpa-004
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 1
+  stem: ____ two banks on this street.
+  choices:
+    - {t: There are, why: "สองแห่ง พหูพจน์ ++There are++"}
+    - {t: There is, why: "two banks เป็นพหูพจน์"}
+    - {t: It has, why: "บอกว่ามีในสถานที่ใช้ there are"}
+    - {t: They are, why: "They are แปลว่าพวกมันเป็น"}
+  explain: "มี (หลายอย่าง) ==There are=="
+  status: approved
+- id: cefr-a2-cpa-005
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: My wife ____ English at a language school.
+  choices:
+    - {t: teaches, why: "she + teach ลงท้าย ch ++เติม -es++"}
+    - {t: teach, why: "she ต้องเติม es"}
+    - {t: teachs, why: "ลงท้าย ch ต้องเติม es"}
+    - {t: is teach, why: "ไม่ใช้ is กับกริยารูปเดิม"}
+  explain: "ch sh s x o ==เติม -es=="
+  status: approved
+- id: cefr-a2-cpa-006
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 1
+  stem: "\"How often ____ your husband cook?\" \"Every weekend.\""
+  choices:
+    - {t: does, why: "your husband = he ใช้ ++does++"}
+    - {t: do, why: "he ใช้ does จึงใช้ไม่ได้"}
+    - {t: is, why: "ไม่ใช้ is กับกริยา cook"}
+    - {t: cooks, why: "ต้องมี does และใช้ cook รูปเดิม"}
+  explain: "How often ==does + he + กริยารูปเดิม==?"
+  status: approved
+- id: cefr-a2-cpa-007
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: The shop opens ____ 8 a.m. ____ weekdays.
+  choices:
+    - {t: at / on, why: "เวลา ++at++ · วัน on"}
+    - {t: on / at, why: "สลับกัน จึงใช้ไม่ได้"}
+    - {t: in / on, why: "เวลาตามนาฬิกาใช้ at"}
+    - {t: at / in, why: "weekdays ใช้ on"}
+  explain: "==at + เวลา · on + วัน=="
+  status: approved
+- id: cefr-a2-cpa-008
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  stem: ____ the windows, please. It's going to rain.
+  choices:
+    - {t: Close, why: "ประโยคคำสั่ง ++กริยารูปเดิม++ ขึ้นต้น"}
+    - {t: Closing, why: "คำสั่งไม่ใช้ -ing"}
+    - {t: To close, why: "คำสั่งไม่มี to จึงใช้ไม่ได้"}
+    - {t: You closing, why: "ไม่ใช่รูปคำสั่ง"}
+  explain: "คำสั่ง ==กริยารูปเดิมขึ้นต้น + please=="
+  status: approved
+- id: cefr-a2-cpa-009
+  kind: mcq
+  skill: gm
+  topic: countable-some-any
+  level: 2
+  stem: There isn't ____ bread left. Can you buy some?
+  choices:
+    - {t: any, why: "ปฏิเสธใช้ ++any++"}
+    - {t: some, why: "some ใช้ในประโยคบอกเล่า"}
+    - {t: a, why: "bread นับไม่ได้"}
+    - {t: many, why: "บทไม่ได้พูดว่า many"}
+  explain: "ปฏิเสธ ==not any=="
+  status: approved
+- id: cefr-a2-cpa-010
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 2
+  stem: "\"____ would you like to drink?\" \"Orange juice, please.\""
+  choices:
+    - {t: What, why: "ถามว่าอะไร ++What would you like...?++"}
+    - {t: How much, why: "how much ถามปริมาณหรือราคา"}
+    - {t: Which much, why: "ไม่มีรูปนี้ จึงใช้ไม่ได้"}
+    - {t: Who, why: "who ถามคน จึงใช้ไม่ได้"}
+  explain: "เสนอ ==What would you like?=="
+  status: approved
+- id: cefr-a2-cpa-011
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: "\"Where's your dad?\" \"He ____ his motorbike in front of the house.\""
+  choices:
+    - {t: is washing, why: "ตอนนี้กำลังทำ ++is + -ing++"}
+    - {t: washes, why: "ถามว่าอยู่ไหนตอนนี้ ใช้ -ing"}
+    - {t: washing, why: "ขาด is จึงใช้ไม่ได้"}
+    - {t: is wash, why: "หลัง is ต้องเติม ing"}
+  explain: "ตอนนี้ ==is + -ing=="
+  status: approved
+- id: cefr-a2-cpa-012
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  stem: She usually ____ jeans, but today she's wearing a dress.
+  choices:
+    - {t: wears, why: "usually ใช้ ++รูปปกติ++ + s"}
+    - {t: is wearing, why: "usually ใช้รูปปกติ"}
+    - {t: wear, why: "she ต้องเติม s จึงใช้ไม่ได้"}
+    - {t: wearing, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "usually → ==present simple=="
+  status: approved
+- id: cefr-a2-cpa-013
+  kind: mcq
+  skill: gm
+  topic: was-were
+  level: 3
+  stem: "\"Where ____ you and your sister last night?\" \"We ____ at a concert.\""
+  choices:
+    - {t: were / were, why: "you and your sister / we ++ใช้ were ทั้งคู่++"}
+    - {t: was / were, why: "you and your sister เป็นพหูพจน์"}
+    - {t: were / was, why: "we ใช้ were จึงใช้ไม่ได้"}
+    - {t: did / were, why: "ถามสถานที่ใช้ be ไม่ใช่ did"}
+  explain: "พหูพจน์ในอดีต ==were=="
+  status: approved
+- id: cefr-a2-cpa-014
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 3
+  stem: "Which sentence about Sunday afternoon is correct?"
+  choices:
+    - {t: We stayed at home and watched a film., why: "อดีตกริยาปกติ ++ทั้งสองตัว++"}
+    - {t: We stay at home and watched a film., why: "stay ต้องเป็น stayed"}
+    - {t: We stayed at home and watch a film., why: "watch ต้องเป็น watched"}
+    - {t: We was stayed at home and watched a film., why: "ไม่ใช้ was กับ stayed"}
+  explain: "เล่าอดีต ==กริยาทุกตัวเป็นอดีต=="
+  status: approved
+# ---------- ช่องว่าง 3 ช่อง ----------
+- id: cefr-a2-cpa-015
+  kind: cloze
+  skill: gm
+  topic: must-have-to
+  level: 2
+  text: |
+    Swimming pool rules: You (1) ____ take a shower before you swim. Children under eight (2) ____ swim without an adult. You (3) ____ bring a towel — we have free towels for everyone.
+  questions:
+    - choices:
+        - {t: must, why: "กฎที่ต้องทำ ใช้ must"}
+        - {t: mustn't, why: "ความหมายกลับเป็นห้ามอาบน้ำ"}
+        - {t: don't have to, why: "การอาบน้ำก่อนว่ายเป็นกฎที่ต้องทำ"}
+        - {t: must to, why: "หลัง must ไม่มี to"}
+    - choices:
+        - {t: mustn't, why: "ห้ามเด็กว่ายคนเดียว ใช้ mustn't"}
+        - {t: don't have to, why: "ไม่ใช่ไม่จำเป็น แต่เป็นข้อห้าม"}
+        - {t: must, why: "ความหมายกลับ จึงใช้ไม่ได้"}
+        - {t: doesn't have to, why: "children เป็นพหูพจน์ และความหมายผิด"}
+    - choices:
+        - {t: don't have to, why: "มีผ้าให้ฟรี จึงไม่จำเป็นต้องเอามา"}
+        - {t: mustn't, why: "ห้ามเอามาไม่สมเหตุสมผล"}
+        - {t: must, why: "ขัดกับ free towels"}
+        - {t: have to, why: "บทไม่ได้พูดว่า have to"}
+  status: approved
+# ---------- คำศัพท์ 10 ข้อ (สัปดาห์ 1–10) ----------
+- id: cefr-a2-cpa-016
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: I'm meeting an old ____ from school for coffee this afternoon.
+  choices:
+    - {t: friend, why: "เพื่อนสมัยเรียน = ++friend++ (สัปดาห์ 1)"}
+    - {t: family, why: "family คือทั้งครอบครัว"}
+    - {t: mother, why: "แม่ไม่ได้มาจากโรงเรียน"}
+    - {t: father, why: "ไม่ได้นัดพ่อที่มาจากโรงเรียน"}
+  explain: "friend = ==เพื่อน=="
+  status: approved
+- id: cefr-a2-cpa-017
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: I can see the sea from my bedroom ____.
+  choices:
+    - {t: window, why: "มองเห็นทะเลผ่าน ++window++ (สัปดาห์ 2)"}
+    - {t: desk, why: "มองผ่านโต๊ะไม่ได้"}
+    - {t: clock, why: "มองผ่านนาฬิกาไม่ได้"}
+    - {t: bag, why: "มองผ่านกระเป๋าไม่ได้"}
+  explain: "window = ==หน้าต่าง=="
+  status: approved
+- id: cefr-a2-cpa-018
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: I ____ have rice for breakfast, but sometimes I have toast.
+  choices:
+    - {t: usually, why: "ปกติ (แต่บางครั้งไม่) = ++usually++ (สัปดาห์ 3)"}
+    - {t: always, why: "always ขัดกับ sometimes I have toast"}
+    - {t: late, why: "late ไม่ใช่คำบอกความถี่"}
+    - {t: night, why: "night เป็นคำนาม"}
+  explain: "usually = ==ปกติ มักจะ=="
+  status: approved
+- id: cefr-a2-cpa-019
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: Today is Friday, and ____ is Saturday. No work!
+  choices:
+    - {t: tomorrow, why: "วันถัดไป = ++tomorrow++ (สัปดาห์ 4)"}
+    - {t: today, why: "today คือวันศุกร์"}
+    - {t: yesterday, why: "yesterday คือวันพฤหัส"}
+    - {t: week, why: "week ไม่ใช่วันเดียว"}
+  explain: "tomorrow = ==พรุ่งนี้=="
+  status: approved
+- id: cefr-a2-cpa-020
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 1
+  stem: Hotels in the city centre are very ____. A room is 5,000 baht a night.
+  choices:
+    - {t: expensive, why: "ราคาสูง = ++expensive++ (สัปดาห์ 5)"}
+    - {t: cheap, why: "5,000 บาทไม่ถูก"}
+    - {t: hungry, why: "โรงแรมหิวไม่ได้"}
+    - {t: busy, why: "ไม่เกี่ยวกับราคา"}
+  explain: "expensive = ==แพง=="
+  status: approved
+- id: cefr-a2-cpa-021
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: You have to ____ a helmet when you ride a motorbike.
+  choices:
+    - {t: wear, why: "สวมหมวกกันน็อก = ++wear++ (สัปดาห์ 6)"}
+    - {t: watch, why: "ดูหมวกไม่เข้ากับบริบท"}
+    - {t: draw, why: "วาดหมวกไม่เข้ากับบริบท"}
+    - {t: clean, why: "ไม่ใช่สิ่งที่ต้องทำตอนขี่"}
+  explain: "wear = ==สวม ใส่=="
+  status: approved
+- id: cefr-a2-cpa-022
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 2
+  stem: What time does the bus ____ in Hat Yai?
+  choices:
+    - {t: arrive, why: "ถึงปลายทาง = ++arrive in++ (สัปดาห์ 7)"}
+    - {t: visit, why: "รถเมล์ไม่ได้ไปเยี่ยม"}
+    - {t: enjoy, why: "ไม่เข้ากับรถเมล์"}
+    - {t: wait, why: "wait in Hat Yai ไม่ตรงกับคำถามเวลาถึง"}
+  explain: "arrive in + เมือง = ==ถึง=="
+  status: approved
+- id: cefr-a2-cpa-023
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: Do you ____ the name of that restaurant? I want to go there again.
+  choices:
+    - {t: remember, why: "จำได้ไหม = ++remember++ (สัปดาห์ 8)"}
+    - {t: forget, why: "ถามว่าลืมไหมไม่เข้ากับอยากไปอีก"}
+    - {t: miss, why: "miss ไม่ใช้กับชื่อ"}
+    - {t: pay, why: "ไม่เข้ากับบริบท"}
+  explain: "remember = ==จำได้=="
+  status: approved
+- id: cefr-a2-cpa-024
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 2
+  stem: I lost my ____, so I had to buy another one at the station.
+  choices:
+    - {t: ticket, why: "ซื้อใหม่ที่สถานี = ++ticket++ (สัปดาห์ 9)"}
+    - {t: message, why: "ซื้อข้อความที่สถานีไม่ได้"}
+    - {t: plan, why: "ซื้อแผนไม่ได้ จึงใช้ไม่ได้"}
+    - {t: meeting, why: "ซื้อการประชุมไม่ได้"}
+  explain: "ticket = ==ตั๋ว=="
+  status: approved
+- id: cefr-a2-cpa-025
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: The beach was very ____ on the holiday. We couldn't find a place to sit.
+  choices:
+    - {t: crowded, why: "คนแน่น หาที่นั่งไม่ได้ = ++crowded++ (สัปดาห์ 10)"}
+    - {t: quiet, why: "ขัดกับหาที่นั่งไม่ได้"}
+    - {t: comfortable, why: "บทไม่ได้พูดว่า comfortable"}
+    - {t: short, why: "ไม่เกี่ยวกับที่นั่ง"}
+  explain: "crowded = ==แออัด คนแน่น=="
+  status: approved
+# ---------- การอ่าน 2 บท ----------
+- id: cefr-a2-cpa-026
+  kind: read
+  skill: rd
+  topic: new-neighbour
+  level: 1
+  title: "A Note from a New Neighbour"
+  passage: |
+    Hello! My name is Sara, and I'm your new neighbour in Room 305. I'm from Chiang Rai, and I'm a nurse at the city hospital.
+
+    I live with my husband, Tom, and our cat, Mochi. Tom is a chef at a hotel, so he often works at night.
+
+    We're having a small party on Saturday at six. Please come! There's food and music, and you don't have to bring anything. If you have questions, I'm usually at home in the mornings.
+  questions:
+    - stem: What is Sara's job?
+      choices:
+        - {t: a nurse, why: "I'm a nurse at the city hospital"}
+        - {t: a chef, why: "สามีเป็นเชฟ จึงใช้ไม่ได้"}
+        - {t: a hotel manager, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: a teacher, why: "บทไม่ได้พูดว่า a teacher"}
+    - stem: Why does Tom often work at night?
+      choices:
+        - {t: he is a chef at a hotel, why: "Tom is a chef at a hotel, so he often works at night"}
+        - {t: he is a nurse, why: "ซาร่าเป็นพยาบาล"}
+        - {t: he likes the night, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: the cat sleeps in the day, why: "บทไม่ได้พูดว่า the cat sleeps in the day"}
+    - stem: What should guests bring to the party?
+      choices:
+        - {t: nothing, why: "you don't have to bring anything"}
+        - {t: some food, why: "เจ้าภาพมีอาหารแล้ว"}
+        - {t: music, why: "เจ้าภาพมีเพลงแล้ว"}
+        - {t: a present for the cat, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: When is Sara usually at home?
+      choices:
+        - {t: in the mornings, why: "I'm usually at home in the mornings"}
+        - {t: at night, why: "กลางคืนคือเวลาทำงานของทอม"}
+        - {t: only on Saturday, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: never, why: "เธอบอกว่าอยู่บ้านตอนเช้า"}
+  status: approved
+- id: cefr-a2-cpa-027
+  kind: read
+  skill: rd
+  topic: trip-review
+  level: 3
+  title: "Review: A Day Trip to Ayutthaya"
+  passage: |
+    Last Sunday I joined a day trip to Ayutthaya. The bus left Bangkok at seven and arrived at nine. Our guide, Kai, was friendly and explained everything clearly.
+
+    We visited three temples. The first one was the biggest, but the third one was the most beautiful. Lunch was at a river restaurant. The food was good, but it was more expensive than I expected.
+
+    In the afternoon it was very hot, so we didn't walk much. We took a boat instead, which was a great idea. I'm going to recommend this trip to my friends, but they should bring a hat and lots of water.
+  questions:
+    - stem: How long was the bus journey to Ayutthaya?
+      choices:
+        - {t: two hours, why: "left at seven and arrived at nine"}
+        - {t: seven hours, why: "7 คือเวลาออก จึงใช้ไม่ได้"}
+        - {t: nine hours, why: "9 คือเวลาถึง จึงใช้ไม่ได้"}
+        - {t: one hour, why: "คำนวณผิด จึงใช้ไม่ได้"}
+    - stem: Which temple did the writer like most?
+      choices:
+        - {t: the third one, why: "the third one was the most beautiful"}
+        - {t: the first one, why: "อันแรกใหญ่ที่สุด แต่ไม่ได้บอกว่าชอบที่สุด"}
+        - {t: the second one, why: "ไม่ได้พูดถึงวัดที่สอง"}
+        - {t: none of them, why: "ผู้เขียนชมวัดที่สาม"}
+    - stem: What was the problem with lunch?
+      choices:
+        - {t: it cost more than expected, why: "more expensive than I expected"}
+        - {t: the food was bad, why: "The food was good"}
+        - {t: it was too far from the temples, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: there was no river view, why: "ร้านอยู่ริมแม่น้ำ"}
+    - stem: What advice does the writer give?
+      choices:
+        - {t: bring a hat and water, why: "they should bring a hat and lots of water"}
+        - {t: don't take the boat, why: "ผู้เขียนบอกว่านั่งเรือเป็นไอเดียที่ดี"}
+        - {t: go in the afternoon, why: "บ่ายร้อนมาก จึงใช้ไม่ได้"}
+        - {t: eat lunch in Bangkok, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+  status: approved
+# ---------- การฟัง 4 ข้อ ----------
+- id: cefr-a2-cpa-028
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Can I help you?"}
+    - {who: Man, en: "Yes, I'd like two kilos of mangoes and some limes, please."}
+  questions:
+    - stem: Where are the speakers?
+      choices:
+        - {t: at a market or fruit shop, why: "ซื้อมะม่วงและมะนาว = ร้านผลไม้"}
+        - {t: at a bank, why: "ไม่เข้ากับการซื้อผลไม้"}
+        - {t: at a hospital, why: "บทไม่ได้พูดว่า at a hospital"}
+        - {t: at a train station, why: "บทไม่ได้พูดว่า at a train station"}
+  status: approved
+- id: cefr-a2-cpa-029
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Man, en: "I usually drive to work, but this week I'm taking the train because my car is at the garage."}
+  questions:
+    - stem: Why is the man taking the train this week?
+      choices:
+        - {t: his car is being repaired, why: "my car is at the garage = รถอยู่อู่"}
+        - {t: he always takes the train, why: "ปกติเขาขับรถ จึงใช้ไม่ได้"}
+        - {t: the train is cheaper, why: "ไม่ได้พูดถึงราคา"}
+        - {t: he moved house, why: "ไม่ได้พูดถึงการย้ายบ้าน"}
+  status: approved
+- id: cefr-a2-cpa-030
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "Did you enjoy the film?"}
+    - {who: Man, en: "Not really. It was too long, and the ending was sad."}
+  questions:
+    - stem: What did the man think of the film?
+      choices:
+        - {t: he didn't like it much, why: "Not really = ไม่ค่อยชอบ"}
+        - {t: he loved it, why: "เขาตอบว่า Not really"}
+        - {t: it was too short, why: "เขาบอกว่ายาวไป จึงใช้ไม่ได้"}
+        - {t: it was very funny, why: "เขาบอกว่าตอนจบเศร้า"}
+  status: approved
+- id: cefr-a2-cpa-031
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  script:
+    - {who: Woman, en: "The meeting is on Thursday, not Wednesday. It starts at two thirty in Room 6."}
+  questions:
+    - stem: When is the meeting?
+      choices:
+        - {t: Thursday at 2.30, why: "on Thursday, not Wednesday ... at two thirty"}
+        - {t: Wednesday at 2.30, why: "not Wednesday = ไม่ใช่วันพุธ"}
+        - {t: Thursday at 6, why: "6 คือเลขห้อง จึงใช้ไม่ได้"}
+        - {t: Wednesday at 6, why: "ผิดทั้งวันและเวลา"}
+  status: approved
+# ---------- เรียงประโยค ----------
+- id: cefr-a2-cpa-032
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [My brother, doesn't eat, meat, because he is a vegetarian]
+  sentence: My brother doesn't eat meat because he is a vegetarian.
+  th: พี่ชายฉันไม่กินเนื้อสัตว์เพราะเขาเป็นมังสวิรัติ
+  why: "doesn't + กริยารูปเดิม แล้วบอกเหตุผลด้วย because"
+  status: approved
