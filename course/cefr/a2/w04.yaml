@@ -1,0 +1,168 @@
+# คอร์ส a2 · สัปดาห์ 4 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 4
+phase: 1
+theme_th: เวลาและตารางนัด
+focus_th: in on at กับเวลา · คำถาม what when where who how what time · can/can't · ประโยคคำสั่ง · ศัพท์วันเวลาและบทเรียน
+can_do_th:
+  - อ่านตารางเวลาและบอกวันเวลาได้
+  - ใช้คำขอและคำสั่งง่าย ๆ ได้อย่างสุภาพ
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เมื่อไร กี่โมง
+    lesson:
+      rule_th: "บอกเวลาใช้ 3 คำนี้ ==at + เวลา · on + วัน · in + เดือน== ++ถามใช้ what when where who how++"
+      examples:
+        - {en: "The class starts <k>at</k> nine.", th: "คลาสเริ่มเก้าโมง"}
+        - {en: "I'm free <k>on</k> Friday.", th: "==ฉันว่างวันศุกร์=="}
+        - {en: "We go on holiday <k>in</k> April.", th: "เราไปเที่ยวเดือนเมษายน"}
+        - {en: "<k>What time</k> does the bank open?", th: "ธนาคารเปิดกี่โมง"}
+      signals:
+        - {label_th: "คำถาม", words: ["What = อะไร", "When = เมื่อไร", "Where = ที่ไหน", "Who = ใคร", "How = อย่างไร"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มีคำบุพบทหน้าวัน คนไทยเลย ~~ไม่ใส่ on~~ หรือใช้ in กับวัน"
+        wrong: ["I see you Monday at.", "The party is in Saturday."]
+        right: ["See you on Monday.", "The party is on Saturday."]
+      notes:
+        - {kind: pin, th: "เวลาเล็กสุด at → วัน on → ==เดือน ปี in=="}
+        - {kind: tip, th: "today / tomorrow / next week ไม่ต้องมี in on at"}
+    check: [cefr-a2-w04-001, cefr-a2-w04-002]
+    practice: [cefr-a2-w04-003, cefr-a2-w04-004, cefr-a2-w04-005, cefr-a2-w04-006, cefr-a2-w04-007, cefr-a2-w04-008, cefr-a2-w04-009, cefr-a2-w04-010, cefr-a2-w04-011, cefr-a2-w04-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณมีนัดอะไร วันไหน กี่โมง
+      frame: "I have a ____ on ____ at ____."
+      model: "I have a dentist appointment on Thursday at four."
+    classroom: {en: "What time does the meeting start?", th: "ประชุมเริ่มกี่โมง"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์วันเวลาและบทเรียน 12 คำ
+    lesson:
+      rule_th: "today tomorrow ==ใช้ได้เลยไม่ต้องมีคำบุพบท== ++ส่วน weekend ใช้ at the weekend++"
+      examples:
+        - {en: "I'm busy <k>today</k>, but I'm free <k>tomorrow</k>.", th: "วันนี้ยุ่ง แต่พรุ่งนี้ว่าง"}
+        - {en: "The <k>timetable</k> is on the wall.", th: "==ตารางเวลาอยู่บนผนัง=="}
+        - {en: "Can you <k>help</k> me?", th: "ช่วยฉันหน่อยได้ไหม"}
+      words:
+        - {w: week, pos: n., th: สัปดาห์, ex: "I work five days a week."}
+        - {w: weekend, pos: n., th: สุดสัปดาห์, ex: "What do you do at the weekend?"}
+        - {w: today, pos: n./adv., th: วันนี้, ex: "It's hot today."}
+        - {w: tomorrow, pos: n./adv., th: พรุ่งนี้, ex: "See you tomorrow."}
+        - {w: lesson, pos: n., th: บทเรียน คาบเรียน, ex: "My lesson starts at six."}
+        - {w: timetable, pos: n., th: ตารางเวลา, ex: "Check the train timetable."}
+        - {w: subject, pos: n., th: วิชา, ex: "English is my favourite subject."}
+        - {w: open, pos: v., th: เปิด, ex: "The shop opens at nine."}
+        - {w: close, pos: v., th: ปิด, ex: "Please close the door."}
+        - {w: listen, pos: v., th: ฟัง, ex: "Listen to the teacher."}
+        - {w: speak, pos: v., th: พูด, ex: "Can you speak Thai?"}
+        - {w: help, pos: v./n., th: ช่วย ความช่วยเหลือ, ex: "Can I help you?"}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~listen music~~ ตามภาษาไทย \"ฟังเพลง\" โดยไม่มี to"
+        wrong: ["I listen music every day."]
+        right: ["I listen to music every day."]
+      notes:
+        - {kind: warn, th: "listen ต้องมี ==to== เมื่อมีสิ่งที่ฟังตามมา"}
+        - {kind: use, th: "ร้านค้ามักถาม Can I help you? ตอบ Just looking, thanks."}
+    check: [cefr-a2-w04-013, cefr-a2-w04-014]
+    practice: [cefr-a2-w04-015, cefr-a2-w04-016, cefr-a2-w04-017, cefr-a2-w04-018, cefr-a2-w04-019, cefr-a2-w04-020, cefr-a2-w04-021, cefr-a2-w04-022, cefr-a2-w04-023, cefr-a2-w04-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าวันนี้และพรุ่งนี้คุณทำอะไร
+      frame: "Today I ____. Tomorrow I ____."
+      model: "Today I have an English lesson. Tomorrow I help my parents at their shop."
+    classroom: {en: "Can you speak more slowly, please?", th: "ช่วยพูดช้าลงหน่อยได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทำได้ ทำไม่ได้ และคำสั่ง
+    lesson:
+      rule_th: "can ใช้บอกความสามารถและขออนุญาต ==can + กริยารูปเดิม ไม่เติม s== ++คำสั่งใช้กริยาขึ้นต้น ห้ามใช้ Don't++"
+      examples:
+        - {en: "She <k>can</k> swim.", th: "เธอว่ายน้ำได้"}
+        - {en: "<k>Can</k> I sit here?", th: "==ขอนั่งตรงนี้ได้ไหม=="}
+        - {en: "<k>Open</k> your books.", th: "เปิดหนังสือ"}
+        - {en: "<k>Don't</k> park here.", th: "ห้ามจอดตรงนี้"}
+      signals:
+        - {label_th: "รูปที่ใช้", words: ["can / can't + กริยา", "Can I...? = ขออนุญาต", "Could you...? = ขอสุภาพ", "Don't + กริยา = ห้าม"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูด \"ได้\" ไว้ท้าย คนไทยเลยเขียน ~~I swim can~~ หรือใส่ to หลัง can"
+        wrong: ["She can to drive.", "He cans speak Thai."]
+        right: ["She can drive.", "He can speak Thai."]
+      notes:
+        - {kind: pin, th: "can ไม่ผันตามประธาน ==ไม่เติม s ไม่มี to=="}
+        - {kind: tip, th: "เติม please ท้ายคำสั่งให้นุ่มขึ้น Sit down, please."}
+    check: [cefr-a2-w04-025, cefr-a2-w04-026]
+    practice: [cefr-a2-w04-027, cefr-a2-w04-028, cefr-a2-w04-029, cefr-a2-w04-030, cefr-a2-w04-031, cefr-a2-w04-032, cefr-a2-w04-033, cefr-a2-w04-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกสิ่งที่คุณทำได้และทำไม่ได้
+      frame: "I can ____, but I can't ____."
+      model: "I can cook Thai food, but I can't make cakes."
+    classroom: {en: "Could you help me, please?", th: "ช่วยฉันหน่อยได้ไหมคะ/ครับ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านตารางเวลาประจำสัปดาห์ และฟังประกาศ
+    lesson:
+      rule_th: "อ่านตาราง ==ไม่ต้องอ่านทุกบรรทัด== หาวันหรือกิจกรรมที่คำถามถาม แล้ว ++อ่านแค่แถวนั้น++"
+      examples:
+        - {en: "THURSDAY — Cooking class, <k>6.30–8.30 p.m.</k>", th: "พฤหัสบดี ทำอาหาร หกโมงครึ่งถึงสองทุ่มครึ่ง"}
+        - {en: "WEDNESDAY — <k>Closed</k>", th: "==วันพุธปิด=="}
+        - {en: "<k>a.m.</k> = morning · <k>p.m.</k> = afternoon/evening", th: "ก่อนเที่ยง / หลังเที่ยง"}
+      thai_trap:
+        intro_th: "คนไทยใช้เวลาแบบ 24 ชั่วโมง เลย ~~สับสน a.m. กับ p.m.~~"
+        wrong: ["6.00 p.m. = หกโมงเช้า"]
+        right: ["6.00 p.m. = หกโมงเย็น (18.00)"]
+      notes:
+        - {kind: pin, th: "a.m. ก่อนเที่ยง · ==p.m. หลังเที่ยง=="}
+        - {kind: tip, th: "ฟังประกาศ จับคำว่า not ให้ดี Room 4, not Room 2"}
+    check: [cefr-a2-w04-036, cefr-a2-w04-037]
+    practice: [cefr-a2-w04-035, cefr-a2-w04-038, cefr-a2-w04-039, cefr-a2-w04-040, cefr-a2-w04-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกตารางของกิจกรรมที่คุณทำประจำ
+      frame: "My ____ class is on ____ from ____ to ____."
+      model: "My yoga class is on Monday from six to seven p.m."
+    classroom: {en: "Is the centre open on Sunday?", th: "ศูนย์เปิดวันอาทิตย์ไหม"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 20
+    title_th: ห้องฝึกเขียน ข้อความสั้นบอกเพื่อนว่าพรุ่งนี้ทำอะไร
+    lab:
+      mode: write
+      prompt_th: เขียนข้อความ LINE สั้น ๆ ถึงเพื่อน บอกว่าพรุ่งนี้คุณทำอะไรบ้าง กี่โมง และถามว่าเพื่อนว่างเมื่อไร
+      frame:
+        - "Hi ____!"
+        - "Tomorrow I have ____ at ____."
+        - "After that, I ____ in the afternoon."
+        - "I'm free at ____."
+        - "Can you meet me ____?"
+      model_pass: "Hi Bee! Tomorrow I have a meeting at nine. After that, I go to the bank in the afternoon. I'm free at five. Can you meet me at the café?"
+      model_good: "Hi Bee! Tomorrow is a busy day. I have a meeting at nine, and after that I need to go to the bank in the afternoon. I'm free from five o'clock. Can you meet me at the café near the station? Let me know!"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - จดสิ่งที่คุณจะทำพรุ่งนี้ 2–3 อย่างพร้อมเวลา
+        - เติมโครง 5 บรรทัดเป็นข้อความถึงเพื่อน
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+      checklist_th:
+        - ใช้ at กับเวลา และ in the afternoon / evening ถูกต้อง
+        - บอกกิจกรรมอย่างน้อย 2 อย่าง
+        - มีคำถามท้ายข้อความ 1 ประโยค
+        - ขึ้นต้นด้วยคำทักและลงท้ายเป็นมิตร
+    practice: [cefr-a2-w04-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 4
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

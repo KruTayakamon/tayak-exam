@@ -1,0 +1,578 @@
+# คอร์ส a2 · สัปดาห์ 4 · เวลาและตารางนัด · เมื่อไร กี่โมง · ทำได้ ทำไม่ได้ และคำสั่ง
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · in on at และคำถาม wh- ----------
+- id: cefr-a2-w04-001
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  stem: The staff meeting is ____ Monday morning.
+  choices:
+    - {t: "on", why: "วันในสัปดาห์ใช้ ++on++ (on Monday)"}
+    - {t: in, why: "in ใช้กับเดือน ปี ช่วงของวัน"}
+    - {t: at, why: "at ใช้กับเวลาแบบนาฬิกา"}
+    - {t: to, why: "to ไม่ใช้บอกวัน"}
+  explain: "วัน / วันที่ ใช้ ==on== (on Friday, on 5 May)"
+  status: approved
+- id: cefr-a2-w04-002
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  stem: My train leaves ____ 7.15, so I need to hurry.
+  choices:
+    - {t: at, why: "เวลาตามนาฬิกาใช้ ++at++"}
+    - {t: "on", why: "on ใช้กับวัน จึงใช้ไม่ได้"}
+    - {t: in, why: "in ใช้กับเดือน ปี ช่วงของวัน"}
+    - {t: by, why: "by แปลว่าภายใน ไม่ใช่เวลาออกที่แน่นอน"}
+  explain: "นาฬิกา ใช้ ==at== (at 7.15, at noon, at night)"
+  status: approved
+- id: cefr-a2-w04-003
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  stem: My birthday is ____ March.
+  choices:
+    - {t: in, why: "เดือนใช้ ++in++"}
+    - {t: "on", why: "on ใช้กับวันที่ ไม่ใช่เดือนอย่างเดียว"}
+    - {t: at, why: "at ใช้กับเวลา จึงใช้ไม่ได้"}
+    - {t: of, why: "of ไม่ใช้บอกเดือนแบบนี้"}
+  explain: "เดือน ปี ฤดู ใช้ ==in== (in March, in 2027)"
+  status: approved
+- id: cefr-a2-w04-004
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  stem: "\"____ is your new office?\" \"On Sukhumvit Road.\""
+  choices:
+    - {t: Where, why: "ถามสถานที่ใช้ ++Where++"}
+    - {t: When, why: "when ถามเวลา จึงใช้ไม่ได้"}
+    - {t: Who, why: "who ถามคน จึงใช้ไม่ได้"}
+    - {t: What time, why: "what time ถามเวลา"}
+  explain: "Where = ==ที่ไหน=="
+  status: approved
+- id: cefr-a2-w04-005
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  stem: "\"____ is the new manager?\" \"That's Mr Pong, the man in the blue shirt.\""
+  choices:
+    - {t: Who, why: "ถามว่าใคร ใช้ ++Who++"}
+    - {t: What, why: "what ถามสิ่งของ"}
+    - {t: Where, why: "where ถามสถานที่"}
+    - {t: How, why: "how ถามวิธีหรือสภาพ"}
+  explain: "Who = ==ใคร=="
+  status: approved
+- id: cefr-a2-w04-006
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: We go to the beach ____ the weekend.
+  choices:
+    - {t: at, why: "บริติชใช้ ++at the weekend++ (อเมริกันใช้ on)"}
+    - {t: in, why: "in the weekend ไม่ใช่รูปมาตรฐาน"}
+    - {t: to, why: "to ไม่ใช้บอกเวลา"}
+    - {t: by, why: "by the weekend แปลว่าภายในสุดสัปดาห์"}
+  explain: "==at the weekend== (บริติช) · on the weekend (อเมริกัน)"
+  status: approved
+- id: cefr-a2-w04-007
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: I usually read the news ____ the morning, before work.
+  choices:
+    - {t: in, why: "ช่วงของวันใช้ ++in the morning++"}
+    - {t: "on", why: "on the morning ใช้กับเช้าวันที่เจาะจงเท่านั้น"}
+    - {t: at, why: "at the morning ไม่ใช่รูปที่ใช้"}
+    - {t: during at, why: "ซ้อนคำบุพบทสองตัวไม่ได้"}
+  explain: "==in the morning / afternoon / evening=="
+  status: approved
+- id: cefr-a2-w04-008
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: "\"____ do you get to work?\" \"By bus, usually.\""
+  choices:
+    - {t: How, why: "ถามวิธีเดินทาง ใช้ ++How++"}
+    - {t: Where, why: "where ถามสถานที่"}
+    - {t: When, why: "when ถามเวลา จึงใช้ไม่ได้"}
+    - {t: Who, why: "who ถามคน จึงใช้ไม่ได้"}
+  explain: "How = ==อย่างไร (วิธี)=="
+  status: approved
+- id: cefr-a2-w04-009
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: "\"____ does the training finish?\" \"At half past four.\""
+  choices:
+    - {t: What time, why: "คำตอบเป็นเวลาตามนาฬิกา ++What time++"}
+    - {t: How long, why: "how long ถามระยะเวลา"}
+    - {t: How often, why: "how often ถามความถี่"}
+    - {t: Which, why: "which ต้องตามด้วยคำนาม"}
+  explain: "What time = ==กี่โมง=="
+  status: approved
+- id: cefr-a2-w04-010
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: The office is closed ____ 1 January.
+  choices:
+    - {t: "on", why: "วันที่ใช้ ++on++"}
+    - {t: in, why: "in ใช้กับเดือนอย่างเดียว"}
+    - {t: at, why: "at ใช้กับเวลา จึงใช้ไม่ได้"}
+    - {t: from, why: "from ต้องมี to ตามมา"}
+  explain: "วันที่ (1 January) ใช้ ==on=="
+  status: approved
+- id: cefr-a2-w04-011
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 3
+  stem: "Which sentence about a timetable is correct?"
+  choices:
+    - {t: The class starts at nine on Tuesday., why: "at + เวลา · ++on + วัน++"}
+    - {t: The class starts in nine on Tuesday., why: "เวลาตามนาฬิกาใช้ at"}
+    - {t: The class starts at nine in Tuesday., why: "วันใช้ on จึงใช้ไม่ได้"}
+    - {t: The class starts on nine at Tuesday., why: "สลับ on กับ at จึงใช้ไม่ได้"}
+  explain: "จำเป็นคู่ ==at + เวลา · on + วัน · in + เดือน=="
+  status: approved
+- id: cefr-a2-w04-012
+  kind: type
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  stem: "\"____ is your birthday?\" \"In October.\" (เมื่อไร)"
+  answer: When
+  accept: [When, when]
+  why: "ถามเวลาแบบกว้าง ๆ ใช้ When"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์เวลาและบทเรียน ----------
+- id: cefr-a2-w04-013
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: I work five days a ____, from Monday to Friday.
+  choices:
+    - {t: week, why: "เจ็ดวัน = ++week++"}
+    - {t: weekend, why: "weekend คือเสาร์อาทิตย์"}
+    - {t: lesson, why: "lesson คือบทเรียน"}
+    - {t: subject, why: "subject คือวิชา"}
+  explain: "week = ==สัปดาห์=="
+  status: approved
+- id: cefr-a2-w04-014
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: I don't work on Saturday or Sunday. I relax at the ____.
+  choices:
+    - {t: weekend, why: "เสาร์อาทิตย์ = ++weekend++"}
+    - {t: week, why: "week คือทั้งสัปดาห์"}
+    - {t: tomorrow, why: "at the tomorrow ไม่ใช่รูปที่ใช้"}
+    - {t: timetable, why: "timetable คือตารางเวลา"}
+  explain: "weekend = ==สุดสัปดาห์ (เสาร์–อาทิตย์)=="
+  status: approved
+- id: cefr-a2-w04-015
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: I'm very busy ____. I have three meetings this afternoon.
+  choices:
+    - {t: today, why: "วันนี้ (this afternoon) = ++today++"}
+    - {t: tomorrow, why: "tomorrow ขัดกับ this afternoon"}
+    - {t: weekend, why: "weekend เป็นคำนาม ต้องมี the"}
+    - {t: lesson, why: "lesson ไม่ได้บอกเวลา"}
+  explain: "today = ==วันนี้=="
+  status: approved
+- id: cefr-a2-w04-016
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: Today is Monday, so ____ is Tuesday.
+  choices:
+    - {t: tomorrow, why: "วันถัดไป = ++tomorrow++"}
+    - {t: today, why: "today คือ Monday"}
+    - {t: weekend, why: "Tuesday ไม่ใช่วันหยุดสุดสัปดาห์"}
+    - {t: week, why: "week ไม่ใช่วันเดียว"}
+  explain: "tomorrow = ==พรุ่งนี้=="
+  status: approved
+- id: cefr-a2-w04-017
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  stem: My cooking ____ is on Thursday evening. We learn to make a new dish every week.
+  choices:
+    - {t: lesson, why: "คาบเรียน = ++lesson++"}
+    - {t: subject, why: "subject คือวิชา ไม่ใช่คาบที่มีวันเวลา"}
+    - {t: timetable, why: "timetable คือตาราง"}
+    - {t: weekend, why: "Thursday ไม่ใช่สุดสัปดาห์"}
+  explain: "lesson = ==บทเรียน คาบเรียน=="
+  status: approved
+- id: cefr-a2-w04-018
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: Check the bus ____ to see what time the last bus leaves.
+  choices:
+    - {t: timetable, why: "ตารางเวลาเดินรถ = ++timetable++"}
+    - {t: lesson, why: "lesson ไม่บอกเวลารถ"}
+    - {t: subject, why: "subject ไม่บอกเวลารถ"}
+    - {t: week, why: "week ไม่บอกเวลารถ"}
+  explain: "timetable = ==ตารางเวลา=="
+  status: approved
+- id: cefr-a2-w04-019
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: Maths was my favourite ____ at school. I loved numbers.
+  choices:
+    - {t: subject, why: "วิชา = ++subject++"}
+    - {t: lesson, why: "lesson คือคาบ ไม่ใช่ชื่อวิชาโปรด"}
+    - {t: timetable, why: "timetable คือตาราง"}
+    - {t: weekend, why: "ไม่เข้ากับบริบท"}
+  explain: "subject = ==วิชา=="
+  status: approved
+- id: cefr-a2-w04-020
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: The shop doesn't ____ until ten, so let's have coffee first.
+  choices:
+    - {t: open, why: "ร้านเปิด = ++open++"}
+    - {t: close, why: "ร้านปิดตอนสิบโมงไม่เข้ากับไปกาแฟก่อน"}
+    - {t: listen, why: "ร้านฟังไม่ได้ จึงใช้ไม่ได้"}
+    - {t: help, why: "ไม่เข้ากับบริบท"}
+  explain: "open = ==เปิด== · ตรงข้าม close"
+  status: approved
+- id: cefr-a2-w04-021
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: Please ____ the door when you leave. The air conditioner is on.
+  choices:
+    - {t: close, why: "ปิดประตู = ++close the door++"}
+    - {t: open, why: "เปิดประตูขัดกับแอร์ที่เปิดอยู่"}
+    - {t: speak, why: "ไม่เข้ากับประตู"}
+    - {t: listen, why: "บทไม่ได้พูดว่า listen"}
+  explain: "close = ==ปิด=="
+  status: approved
+- id: cefr-a2-w04-022
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: ____ carefully. The announcement is about your flight.
+  choices:
+    - {t: Listen, why: "ประกาศต้องฟัง ++Listen++"}
+    - {t: Speak, why: "speak คือพูด ไม่ใช่ฟังประกาศ"}
+    - {t: Open, why: "ไม่เข้ากับประกาศ"}
+    - {t: Help, why: "บทไม่ได้พูดว่า Help"}
+  explain: "listen (to) = ==ฟัง=="
+  status: approved
+- id: cefr-a2-w04-023
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: Can you ____ more slowly, please? I don't understand.
+  choices:
+    - {t: speak, why: "พูดช้าลง = ++speak more slowly++"}
+    - {t: listen, why: "ขอให้อีกฝ่ายพูด ไม่ใช่ฟัง"}
+    - {t: close, why: "ไม่เข้ากับบริบท"}
+    - {t: open, why: "บทไม่ได้พูดว่า open"}
+  explain: "speak = ==พูด=="
+  status: approved
+- id: cefr-a2-w04-024
+  kind: type
+  skill: vo
+  topic: time-lessons
+  level: 2
+  stem: This box is very heavy. Can you h____ me, please? (ช่วย)
+  answer: help
+  accept: [help]
+  why: "help = ช่วย · Can you help me? = ช่วยหน่อยได้ไหม"
+  status: approved
+# ---------- วันที่ 3 · can และคำสั่ง ----------
+- id: cefr-a2-w04-025
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 1
+  stem: My sister ____ speak three languages.
+  choices:
+    - {t: can, why: "can ไม่ผัน ใช้ ++can++ กับทุกประธาน"}
+    - {t: cans, why: "can ไม่เติม s จึงใช้ไม่ได้"}
+    - {t: can to, why: "หลัง can ไม่มี to"}
+    - {t: is can, why: "ไม่ใช้ is กับ can"}
+  explain: "can + ==กริยารูปเดิม== (ไม่เติม s ไม่มี to)"
+  status: approved
+- id: cefr-a2-w04-026
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 1
+  stem: I'm sorry, I ____ come to the party. I have to work.
+  choices:
+    - {t: can't, why: "ทำไม่ได้ = ++can't++"}
+    - {t: don't can, why: "ไม่ใช้ don't กับ can"}
+    - {t: not can, why: "ลำดับผิด ต้องเป็น cannot"}
+    - {t: can, why: "ขัดกับ I have to work"}
+  explain: "ทำไม่ได้ ==can't / cannot=="
+  status: approved
+- id: cefr-a2-w04-027
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 1
+  stem: "\"____ I use your phone charger?\" \"Sure, here you are.\""
+  choices:
+    - {t: Can, why: "ขออนุญาตใช้ ++Can I...?++"}
+    - {t: Do, why: "Do I use ไม่ใช่การขออนุญาต"}
+    - {t: Am, why: "ไม่ใช้ am กับกริยา use"}
+    - {t: Must, why: "must I ถามว่าต้องไหม ไม่ใช่ขออนุญาต"}
+  explain: "ขออนุญาต ==Can I...?=="
+  status: approved
+- id: cefr-a2-w04-028
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  stem: "____ your phone in the cinema, please."
+  choices:
+    - {t: Turn off, why: "ประโยคคำสั่งขึ้นต้นด้วย ++กริยารูปเดิม++"}
+    - {t: To turn off, why: "ประโยคคำสั่งไม่มี to"}
+    - {t: You turning off, why: "ไม่ใช่รูปประโยคคำสั่ง"}
+    - {t: Turning off, why: "ประโยคคำสั่งใช้กริยารูปเดิม"}
+  explain: "ประโยคคำสั่ง = ==กริยารูปเดิมขึ้นต้น== (Sit down. Open...)"
+  status: approved
+- id: cefr-a2-w04-029
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  stem: "____ late tomorrow. The bus leaves at seven sharp."
+  choices:
+    - {t: "Don't be", why: "ห้าม + be ++Don't be late++"}
+    - {t: "Not be", why: "ประโยคห้ามต้องขึ้นต้นด้วย Don't"}
+    - {t: "Don't", why: "ขาด be เพราะ late ไม่ใช่กริยา"}
+    - {t: "No be", why: "ไม่ใช้ No กับ be"}
+  explain: "ห้าม ==Don't + กริยารูปเดิม== (Don't be late.)"
+  status: approved
+- id: cefr-a2-w04-030
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  stem: "\"Can you swim?\" \"No, I ____. I want to learn.\""
+  choices:
+    - {t: can't, why: "ตอบสั้นด้วย ++can't++"}
+    - {t: don't, why: "ถามด้วย can ตอบด้วย can"}
+    - {t: am not, why: "ไม่ใช้ be ตอบคำถาม can"}
+    - {t: not, why: "ต้องมี can ก่อน"}
+  explain: "ตอบสั้น ==Yes, I can. / No, I can't.=="
+  status: approved
+- id: cefr-a2-w04-031
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  stem: "You need help with a heavy box. Which request is the most polite?"
+  choices:
+    - {t: "Could you help me with this box?", why: "could ++สุภาพกว่า can++ เหมาะกับขอความช่วยเหลือ"}
+    - {t: Help me with this box., why: "ประโยคคำสั่งห้วนเกินไป"}
+    - {t: You help me with this box., why: "ไม่ใช่รูปคำขอ จึงใช้ไม่ได้"}
+    - {t: "Must you help me with this box?", why: "must ไม่ใช้ขอความช่วยเหลือ"}
+  explain: "ขอสุภาพ ==Could you...? / Can you...?== ดีกว่าคำสั่งห้วน ๆ"
+  status: approved
+- id: cefr-a2-w04-032
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 3
+  stem: "Which sentence about ability is correct?"
+  choices:
+    - {t: He can't drive a car., why: "can't + ++กริยารูปเดิม++ ถูกต้อง"}
+    - {t: He can't drives a car., why: "หลัง can't ไม่เติม s"}
+    - {t: He doesn't can drive a car., why: "ไม่ใช้ doesn't กับ can"}
+    - {t: He can't to drive a car., why: "หลัง can't ไม่มี to"}
+  explain: "can / can't ==ไม่ต้องใช้ do ไม่เติม s ไม่มี to=="
+  status: approved
+- id: cefr-a2-w04-033
+  kind: type
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  stem: "____ touch that! It's very hot. (ห้ามจับ)"
+  answer: "Don't"
+  accept: ["Don't", "don't", "Do not", "do not"]
+  why: "ห้ามทำ = Don't + กริยารูปเดิม"
+  status: approved
+- id: cefr-a2-w04-034
+  kind: cloze
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  text: |
+    Welcome to the library. You (1) ____ borrow five books at a time. Please (2) ____ quietly, and (3) ____ eat or drink near the computers.
+  questions:
+    - choices:
+        - {t: can, why: "ได้รับอนุญาต ใช้ can + กริยารูปเดิม"}
+        - {t: can to, why: "หลัง can ไม่มี to"}
+        - {t: are can, why: "ไม่ใช้ are กับ can"}
+        - {t: cans, why: "can ไม่เติม s จึงใช้ไม่ได้"}
+    - choices:
+        - {t: speak, why: "Please + กริยารูปเดิม"}
+        - {t: to speak, why: "Please ไม่ตามด้วย to"}
+        - {t: speaking, why: "Please ตามด้วยกริยารูปเดิม"}
+        - {t: speaks, why: "ประโยคคำสั่งไม่เติม s"}
+    - choices:
+        - {t: "don't", why: "ห้าม ใช้ don't + กริยารูปเดิม"}
+        - {t: "not", why: "ต้องมี do ก่อน not"}
+        - {t: "can", why: "ความหมายกลับเป็นอนุญาตให้กิน"}
+        - {t: "doesn't", why: "ประโยคคำสั่งใช้ don't"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w04-035
+  kind: read
+  skill: rd
+  topic: weekly-timetable
+  level: 1
+  title: "Riverside Community Centre: This Week"
+  passage: |
+    MONDAY — Yoga, 6.00–7.00 p.m. (Room 2)
+    TUESDAY — English for beginners, 7.00–8.30 p.m. (Room 5)
+    WEDNESDAY — Closed
+    THURSDAY — Cooking class, 6.30–8.30 p.m. (Kitchen). Please bring an apron.
+    FRIDAY — Free computer help, 2.00–4.00 p.m. (Library)
+    SATURDAY — Children's art class, 9.00–11.00 a.m. (Room 2)
+
+    All classes are free, but places are limited, so please book early. You can book at the front desk or call 053 123 456. The centre is open from 9 a.m. to 9 p.m.
+  questions:
+    - stem: When is the centre closed?
+      choices:
+        - {t: on Wednesday, why: "WEDNESDAY — Closed"}
+        - {t: on Saturday, why: "วันเสาร์มีคลาสศิลปะเด็ก"}
+        - {t: on Friday, why: "วันศุกร์มีช่วยเรื่องคอมพิวเตอร์"}
+        - {t: on Monday, why: "วันจันทร์มีโยคะ"}
+    - stem: What do you need for the cooking class?
+      choices:
+        - {t: an apron, why: "Please bring an apron"}
+        - {t: some money, why: "ทุกคลาสฟรี จึงใช้ไม่ได้"}
+        - {t: a computer, why: "คอมพิวเตอร์เป็นของวันศุกร์"}
+        - {t: a book, why: "ไม่ได้พูดถึงหนังสือ"}
+    - stem: Which activity is in the morning?
+      choices:
+        - {t: the children's art class, why: "9.00–11.00 a.m."}
+        - {t: yoga, why: "โยคะตอนหกโมงเย็น"}
+        - {t: free computer help, why: "ช่วงบ่าย 2–4 จึงใช้ไม่ได้"}
+        - {t: English for beginners, why: "ตอนเย็น จึงใช้ไม่ได้"}
+    - stem: How can you book a class?
+      choices:
+        - {t: at the front desk or by phone, why: "book at the front desk or call"}
+        - {t: only online, why: "ไม่ได้พูดถึงออนไลน์"}
+        - {t: in Room 5, why: "ห้อง 5 คือห้องเรียนอังกฤษ"}
+        - {t: you can't book, why: "จองได้ที่เคาน์เตอร์"}
+  status: approved
+- id: cefr-a2-w04-036
+  kind: listen
+  skill: li
+  topic: announcements
+  level: 1
+  script:
+    - {who: Announcer, en: "The museum closes in fifteen minutes. Please go to the exit."}
+  questions:
+    - stem: What does the announcement say?
+      choices:
+        - {t: the museum closes soon, why: "closes in fifteen minutes = อีก 15 นาทีปิด"}
+        - {t: the museum opens soon, why: "ประกาศพูดว่าปิด ไม่ใช่เปิด"}
+        - {t: there is a new exhibition, why: "ไม่ได้พูดถึงนิทรรศการ"}
+        - {t: the exit is closed, why: "ให้ไปที่ทางออก จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w04-037
+  kind: listen
+  skill: li
+  topic: announcements
+  level: 1
+  script:
+    - {who: Woman, en: "Can you come to my office at three tomorrow?"}
+    - {who: Man, en: "Sorry, I can't at three. Is four OK?"}
+  questions:
+    - stem: What time can the man come?
+      choices:
+        - {t: at four, why: "Is four OK? = ขอเป็นสี่โมง"}
+        - {t: at three, why: "เขาบอกว่า I can't at three"}
+        - {t: now, why: "นัดพรุ่งนี้ จึงใช้ไม่ได้"}
+        - {t: he can't come, why: "เขาเสนอเวลาใหม่"}
+  status: approved
+- id: cefr-a2-w04-038
+  kind: listen
+  skill: li
+  topic: announcements
+  level: 2
+  script:
+    - {who: Announcer, en: "Good morning, everyone. Today's English lesson is in Room 4, not Room 2. It starts at nine thirty."}
+  questions:
+    - stem: Where is the lesson today?
+      choices:
+        - {t: in Room 4, why: "in Room 4, not Room 2"}
+        - {t: in Room 2, why: "not Room 2 = ไม่ใช่ห้อง 2"}
+        - {t: in Room 9, why: "9 มาจากเวลา 9.30"}
+        - {t: in Room 30, why: "30 มาจากเวลา 9.30"}
+  status: approved
+- id: cefr-a2-w04-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [The meeting, starts, at ten, on Monday]
+  sentence: The meeting starts at ten on Monday.
+  th: การประชุมเริ่มสิบโมงวันจันทร์
+  why: "at + เวลา ตามด้วย on + วัน"
+  status: approved
+- id: cefr-a2-w04-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Can you, close, the window, please]
+  sentence: Can you close the window, please?
+  th: ช่วยปิดหน้าต่างหน่อยได้ไหม
+  why: "Can you + กริยารูปเดิม + please"
+  status: approved
+- id: cefr-a2-w04-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Please don't, use, your phone, during the lesson]
+  sentence: Please don't use your phone during the lesson.
+  th: กรุณาอย่าใช้โทรศัพท์ระหว่างเรียน
+  why: "Please don't + กริยารูปเดิม"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-a2-w04-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Tomorrow I, have a meeting, at nine, in the morning]
+  sentence: Tomorrow I have a meeting at nine in the morning.
+  th: พรุ่งนี้ฉันมีประชุมเก้าโมงเช้า
+  why: "Tomorrow ขึ้นต้น · at + เวลา + in the morning"
+  status: approved
