@@ -1,0 +1,576 @@
+# คอร์ส a2 · สัปดาห์ 3 · กิจวัตรประจำวัน · ทำเป็นประจำ · ถามกิจวัตร และบ่อยแค่ไหน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · present simple ----------
+- id: cefr-a2-w03-001
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: My husband ____ at a car factory in Ayutthaya.
+  choices:
+    - {t: works, why: "ประธานเอกพจน์ (he) เติม ++-s++"}
+    - {t: work, why: "my husband = he ต้องเติม s"}
+    - {t: working, why: "ขาด is และไม่ใช่กิจวัตร"}
+    - {t: is work, why: "ไม่ใช้ is กับกริยารูปเดิม"}
+  explain: "he / she / it + กริยา ==เติม -s=="
+  status: approved
+- id: cefr-a2-w03-002
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: I ____ coffee in the morning, but I drink tea in the afternoon.
+  choices:
+    - {t: drink, why: "ประธาน I ใช้ ++กริยารูปเดิม++"}
+    - {t: drinks, why: "ไม่เติม s กับ I"}
+    - {t: am drink, why: "ไม่ใช้ am กับกริยารูปเดิม"}
+    - {t: drinking, why: "ขาด am และไม่ใช่กิจวัตร"}
+  explain: "I / you / we / they + ==กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w03-003
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: My daughter ____ to school by bus every day.
+  choices:
+    - {t: goes, why: "go ลงท้าย o เติม ++-es++"}
+    - {t: gos, why: "go ต้องเติม es ไม่ใช่ s"}
+    - {t: go, why: "she ต้องเติม es"}
+    - {t: going, why: "ขาด is และไม่ใช่กิจวัตร"}
+  explain: "ลงท้าย o ch sh s x เติม ==-es== (goes, watches)"
+  status: approved
+- id: cefr-a2-w03-004
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: We ____ work on Sundays, so we often visit our parents.
+  choices:
+    - {t: don't, why: "ปฏิเสธกับ we ใช้ ++don't++"}
+    - {t: doesn't, why: "doesn't ใช้กับ he she it"}
+    - {t: aren't, why: "ไม่ใช้ be กับกริยา work"}
+    - {t: not, why: "ต้องมี do ก่อน not"}
+  explain: "ปฏิเสธ ==I / you / we / they + don't + กริยา=="
+  status: approved
+- id: cefr-a2-w03-005
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 1
+  stem: My boss ____ meat. She only eats vegetables and fish.
+  choices:
+    - {t: doesn't eat, why: "she ใช้ ++doesn't + กริยารูปเดิม++"}
+    - {t: don't eat, why: "don't ใช้กับ I you we they"}
+    - {t: doesn't eats, why: "หลัง doesn't ไม่เติม s"}
+    - {t: isn't eat, why: "ไม่ใช้ is กับกริยา eat"}
+  explain: "he / she ==doesn't + กริยารูปเดิม== (ห้ามเติม s ซ้ำ)"
+  status: approved
+- id: cefr-a2-w03-006
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 2
+  stem: The bank ____ at 8.30 and closes at 3.30.
+  choices:
+    - {t: opens, why: "ประธานเอกพจน์ (it) เติม ++-s++"}
+    - {t: open, why: "the bank = it ต้องเติม s"}
+    - {t: is open at, why: "ใช้ได้แต่ไม่เข้ากับ closes ที่ตามมา"}
+    - {t: opening, why: "ขาด is และไม่ใช่เวลาประจำ"}
+  explain: "ตารางเวลาประจำของสถานที่ ใช้ ==present simple=="
+  status: approved
+- id: cefr-a2-w03-007
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 2
+  stem: My son ____ his homework after dinner.
+  choices:
+    - {t: does, why: "do + he เป็น ++does++"}
+    - {t: dos, why: "do ต้องเติม es จึงใช้ไม่ได้"}
+    - {t: do, why: "he ต้องเติม es จึงใช้ไม่ได้"}
+    - {t: make, why: "การบ้านใช้ do ไม่ใช่ make"}
+  explain: "do → ==does== · do homework (ไม่ใช้ make)"
+  status: approved
+- id: cefr-a2-w03-008
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 2
+  stem: She ____ her phone a lot because she works online.
+  choices:
+    - {t: uses, why: "she เติม ++-s++ (uses)"}
+    - {t: use, why: "she ต้องเติม s จึงใช้ไม่ได้"}
+    - {t: useses, why: "use ลงท้าย e เติมแค่ s"}
+    - {t: using, why: "ขาด is และไม่ใช่รูปกิจวัตร"}
+  explain: "กริยาลงท้าย e ==เติมแค่ -s== (uses, makes)"
+  status: approved
+- id: cefr-a2-w03-009
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 2
+  stem: My brother ____ in Bangkok. He lives in Hat Yai.
+  choices:
+    - {t: doesn't live, why: "ปฏิเสธกับ he ++doesn't live++"}
+    - {t: don't live, why: "don't ใช้กับ I you we they"}
+    - {t: not lives, why: "ต้องมี does ก่อน not"}
+    - {t: isn't live, why: "ไม่ใช้ is กับกริยา live"}
+  explain: "ปฏิเสธ he / she ==doesn't + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w03-010
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 2
+  stem: My grandmother ____ a lot of TV in the evening.
+  choices:
+    - {t: watches, why: "watch ลงท้าย ch เติม ++-es++"}
+    - {t: watchs, why: "ลงท้าย ch ต้องเติม es"}
+    - {t: watch, why: "she ต้องเติม es"}
+    - {t: watching, why: "ขาด is และไม่ใช่รูปกิจวัตร"}
+  explain: "ch sh s x o ==เติม -es=="
+  status: approved
+- id: cefr-a2-w03-011
+  kind: mcq
+  skill: gm
+  topic: present-simple
+  level: 3
+  stem: "Which sentence about a daily routine is correct?"
+  choices:
+    - {t: She studies English every evening., why: "study พยัญชนะ + y ++เปลี่ยนเป็น ies++"}
+    - {t: She studys English every evening., why: "พยัญชนะ + y ต้องเป็น ies"}
+    - {t: She study English every evening., why: "she ต้องเติม -ies"}
+    - {t: She is study English every evening., why: "ไม่ใช้ is กับกริยารูปเดิม"}
+  explain: "พยัญชนะ + y → ==ies== (studies, carries) · สระ + y เติม s (plays)"
+  status: approved
+- id: cefr-a2-w03-012
+  kind: type
+  skill: gm
+  topic: present-simple
+  level: 2
+  stem: My father ____ a newspaper every morning. (read · พ่ออ่าน)
+  answer: reads
+  accept: [reads]
+  why: "father = he เติม s → reads"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์เวลาและความถี่ ----------
+- id: cefr-a2-w03-013
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: I get up at six in the ____ and go jogging.
+  choices:
+    - {t: morning, why: "หกโมงเช้า = ++in the morning++"}
+    - {t: evening, why: "evening คือตอนเย็น"}
+    - {t: night, why: "at night ไม่ใช่ in the night"}
+    - {t: afternoon, why: "afternoon คือตอนบ่าย"}
+  explain: "morning = ==ตอนเช้า=="
+  status: approved
+- id: cefr-a2-w03-014
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: We have lunch at noon, and the meeting starts at two in the ____.
+  choices:
+    - {t: afternoon, why: "บ่ายสองโมง = ++in the afternoon++"}
+    - {t: morning, why: "สองโมงหลังเที่ยงไม่ใช่ตอนเช้า"}
+    - {t: night, why: "at night ใช้กับกลางคืน"}
+    - {t: week, why: "in the week ไม่บอกช่วงของวัน"}
+  explain: "afternoon = ==ตอนบ่าย (หลังเที่ยงถึงเย็น)=="
+  status: approved
+- id: cefr-a2-w03-015
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: I finish work at five and cook dinner in the ____.
+  choices:
+    - {t: evening, why: "หลังเลิกงาน = ++evening++"}
+    - {t: morning, why: "ทำอาหารเย็นไม่ใช่ตอนเช้า"}
+    - {t: afternoon, why: "หลังห้าโมงเย็นแล้ว"}
+    - {t: early, why: "in the early ไม่ครบ ต้องมีคำนามตาม"}
+  explain: "evening = ==ตอนเย็น ค่ำ=="
+  status: approved
+- id: cefr-a2-w03-016
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: I can't sleep well at ____ because my neighbours are noisy.
+  choices:
+    - {t: night, why: "กลางคืน ใช้ ++at night++"}
+    - {t: morning, why: "at morning ไม่ใช่รูปที่ใช้"}
+    - {t: evening, why: "at evening ไม่ใช่รูปที่ใช้"}
+    - {t: afternoon, why: "at afternoon ไม่ใช่รูปที่ใช้"}
+  explain: "==at night== แต่ in the morning / afternoon / evening"
+  status: approved
+- id: cefr-a2-w03-017
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 1
+  stem: She ____ wears a uniform at work. Every single day, no exceptions.
+  choices:
+    - {t: always, why: "ทุกวันไม่มีข้อยกเว้น = ++always++"}
+    - {t: sometimes, why: "sometimes คือบางครั้ง"}
+    - {t: often, why: "often คือบ่อย แต่ไม่ใช่ทุกครั้ง"}
+    - {t: late, why: "late คือสาย ไม่ใช่คำบอกความถี่"}
+  explain: "always = ==เสมอ ทุกครั้ง (100%)=="
+  status: approved
+- id: cefr-a2-w03-018
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: I ____ cook at home, maybe once or twice a month. I usually eat out.
+  choices:
+    - {t: sometimes, why: "เดือนละครั้งสองครั้ง = ++sometimes++"}
+    - {t: always, why: "always คือทุกครั้ง"}
+    - {t: usually, why: "usually คือแทบทุกครั้ง"}
+    - {t: often, why: "often คือบ่อย ไม่ใช่เดือนละครั้ง"}
+  explain: "sometimes = ==บางครั้ง=="
+  status: approved
+- id: cefr-a2-w03-019
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: I ____ take the train to work, but on rainy days I take a taxi.
+  choices:
+    - {t: usually, why: "แทบทุกวันยกเว้นวันฝนตก = ++usually++"}
+    - {t: always, why: "always ขัดกับวันฝนตกที่นั่งแท็กซี่"}
+    - {t: sometimes, why: "sometimes น้อยไปสำหรับเรื่องปกติ"}
+    - {t: early, why: "early บอกเวลา ไม่ใช่ความถี่"}
+  explain: "usually = ==ปกติ แทบทุกครั้ง (ประมาณ 80–90%)=="
+  status: approved
+- id: cefr-a2-w03-020
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: We ____ go to the beach on weekends — three or four times a month.
+  choices:
+    - {t: often, why: "เดือนละ 3–4 ครั้ง = ++often++"}
+    - {t: always, why: "always คือทุกครั้ง"}
+    - {t: late, why: "late ไม่ได้บอกความถี่"}
+    - {t: night, why: "night เป็นคำนาม ไม่บอกความถี่"}
+  explain: "often = ==บ่อย=="
+  status: approved
+- id: cefr-a2-w03-021
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: The traffic is bad after seven, so I leave home ____, at six.
+  choices:
+    - {t: early, why: "ออกก่อนเวลาที่รถติด = ++early++"}
+    - {t: late, why: "late คือสาย ขัดกับหกโมง"}
+    - {t: always, why: "always ไม่ได้บอกว่าเช้า"}
+    - {t: evening, why: "evening เป็นคำนาม และไม่ใช่หกโมงเช้า"}
+  explain: "early = ==เช้า แต่เนิ่น ๆ== · ตรงข้าม late"
+  status: approved
+- id: cefr-a2-w03-022
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: Sorry I'm ____. The bus didn't come for thirty minutes.
+  choices:
+    - {t: late, why: "มาสาย = ++I'm late++"}
+    - {t: early, why: "early ขัดกับรถเมล์ไม่มา"}
+    - {t: often, why: "often ไม่ใช้ตาม I'm แบบนี้"}
+    - {t: usually, why: "usually ไม่ใช้ตาม I'm แบบนี้"}
+  explain: "late = ==สาย ช้า=="
+  status: approved
+- id: cefr-a2-w03-023
+  kind: mcq
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: My sister doesn't ____ on Saturdays, so she has a long weekend.
+  choices:
+    - {t: work, why: "ไม่ต้องทำงาน = ++doesn't work++"}
+    - {t: works, why: "หลัง doesn't ไม่เติม s"}
+    - {t: study, why: "study ไม่ทำให้วันหยุดยาวในบริบทนี้"}
+    - {t: early, why: "early ไม่ใช่กริยา"}
+  explain: "work = ==ทำงาน== (กริยา) · งาน (คำนาม)"
+  status: approved
+- id: cefr-a2-w03-024
+  kind: type
+  skill: vo
+  topic: time-frequency
+  level: 2
+  stem: I want a better job, so I s____ English online every evening. (เรียน)
+  answer: study
+  accept: [study]
+  why: "study = เรียน · I study (ไม่เติม s)"
+  status: approved
+# ---------- วันที่ 3 · ถามกิจวัตร และบ่อยแค่ไหน ----------
+- id: cefr-a2-w03-025
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 1
+  stem: "\"____ you work on Saturdays?\" \"No, I don't.\""
+  choices:
+    - {t: Do, why: "ถามกับ you ใช้ ++Do++"}
+    - {t: Does, why: "does ใช้กับ he she it"}
+    - {t: Are, why: "ไม่ใช้ be กับกริยา work"}
+    - {t: Is, why: "is ใช้กับเอกพจน์และไม่ใช้กับ work"}
+  explain: "ถาม ==Do you...? / Does she...?=="
+  status: approved
+- id: cefr-a2-w03-026
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 1
+  stem: "\"Does your wife drive to work?\" \"Yes, she ____.\""
+  choices:
+    - {t: does, why: "ตอบสั้นให้ตรงกับ Does ++she does++"}
+    - {t: do, why: "she ใช้ does จึงใช้ไม่ได้"}
+    - {t: is, why: "ถามด้วย does ตอบด้วย does"}
+    - {t: drives, why: "ตอบสั้นใช้ does ไม่ใช้กริยาหลัก"}
+  explain: "ตอบสั้น ==Yes, she does. / No, she doesn't.=="
+  status: approved
+- id: cefr-a2-w03-027
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 1
+  stem: I ____ late for work. I leave home at six every day.
+  choices:
+    - {t: am never, why: "คำบอกความถี่อยู่ ++หลัง be++"}
+    - {t: never am, why: "กับ be คำบอกความถี่อยู่หลัง am"}
+    - {t: never do, why: "late เป็นคุณศัพท์ ต้องใช้ be"}
+    - {t: do never, why: "ไม่ใช้ do และลำดับผิด"}
+  explain: "be + ==always / never== · แต่ always + กริยาอื่น"
+  status: approved
+- id: cefr-a2-w03-028
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 2
+  stem: "Choose the correct position: \"She ____ breakfast at home.\""
+  choices:
+    - {t: usually has, why: "คำบอกความถี่อยู่ ++หน้ากริยาหลัก++"}
+    - {t: has usually, why: "กับกริยาทั่วไป คำบอกความถี่อยู่ข้างหน้า"}
+    - {t: usually have, why: "she ต้องใช้ has"}
+    - {t: is usually have, why: "ไม่ใช้ is กับ have"}
+  explain: "ประธาน + ==usually / often / never== + กริยา"
+  status: approved
+- id: cefr-a2-w03-029
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 2
+  stem: "\"Where ____ your parents live?\" \"In Nakhon Phanom.\""
+  choices:
+    - {t: do, why: "your parents = they ใช้ ++do++"}
+    - {t: does, why: "parents เป็นพหูพจน์"}
+    - {t: are, why: "ไม่ใช้ be กับกริยา live"}
+    - {t: is, why: "ไม่ใช้ is กับกริยา live"}
+  explain: "Wh- + ==do/does + ประธาน + กริยา=="
+  status: approved
+- id: cefr-a2-w03-030
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 2
+  stem: "\"What time ____ the shop close?\" \"At nine.\""
+  choices:
+    - {t: does, why: "the shop = it ใช้ ++does++"}
+    - {t: do, why: "shop เป็นเอกพจน์"}
+    - {t: is, why: "ไม่ใช้ is กับกริยา close"}
+    - {t: closes, why: "ต้องมี does และใช้ close รูปเดิม"}
+  explain: "What time ==does it + กริยารูปเดิม==?"
+  status: approved
+- id: cefr-a2-w03-031
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 2
+  stem: "\"____ do you go to the gym?\" \"About three times a week.\""
+  choices:
+    - {t: How often, why: "ถามความถี่ใช้ ++How often++"}
+    - {t: How much, why: "how much ถามปริมาณหรือราคา"}
+    - {t: How long, why: "how long ถามระยะเวลา"}
+    - {t: What time, why: "what time ถามเวลา"}
+  explain: "How often...? = ==บ่อยแค่ไหน=="
+  status: approved
+- id: cefr-a2-w03-032
+  kind: mcq
+  skill: gm
+  topic: present-simple-questions
+  level: 3
+  stem: "Which question about a colleague is correct?"
+  choices:
+    - {t: "What does he do in his free time?", why: "does + กริยารูปเดิม ++do++"}
+    - {t: "What does he does in his free time?", why: "หลัง does ไม่เติม s"}
+    - {t: "What he does in his free time?", why: "คำถามต้องมี does หน้าประธาน"}
+    - {t: "What do he do in his free time?", why: "he ต้องใช้ does"}
+  explain: "Wh- + does + he + ==กริยารูปเดิม==?"
+  status: approved
+- id: cefr-a2-w03-033
+  kind: type
+  skill: gm
+  topic: present-simple-questions
+  level: 2
+  stem: "\"____ your brother play football?\" \"Yes, every Sunday.\" (ถามว่า...ไหม)"
+  answer: Does
+  accept: [Does, does]
+  why: "your brother = he ถามด้วย Does"
+  status: approved
+- id: cefr-a2-w03-034
+  kind: cloze
+  skill: gm
+  topic: present-simple-questions
+  level: 2
+  text: |
+    My colleague Ben (1) ____ from Wales. He (2) ____ walks to work, even when it rains. "(3) ____ you like walking?" I asked. "Yes, I love it," he said.
+  questions:
+    - choices:
+        - {t: is, why: "บอกบ้านเกิดใช้ be (is from)"}
+        - {t: does, why: "from ไม่ใช่กริยา ต้องใช้ is"}
+        - {t: come, why: "come from ต้องเติม s กับ Ben (comes)"}
+        - {t: are, why: "Ben เป็นเอกพจน์"}
+    - choices:
+        - {t: always, why: "คำบอกความถี่อยู่หน้ากริยา walks"}
+        - {t: is always, why: "ไม่ใช้ is กับ walks"}
+        - {t: does always, why: "ไม่ใช้ does ในประโยคบอกเล่า"}
+        - {t: always is, why: "ลำดับผิด และไม่ใช้ is กับ walks"}
+    - choices:
+        - {t: Do, why: "ถามกับ you ใช้ Do"}
+        - {t: Does, why: "does ใช้กับ he she it"}
+        - {t: Are, why: "ไม่ใช้ be กับกริยา like"}
+        - {t: Is, why: "ไม่ใช้ is กับ you"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w03-035
+  kind: read
+  skill: rd
+  topic: daily-schedule
+  level: 1
+  title: "A Day in the Life of Wan, a Bus Driver"
+  passage: |
+    Wan is a bus driver in Chiang Mai. She gets up very early, at four thirty. She has breakfast at home and starts work at five thirty.
+
+    She drives the number 3 bus from the airport to the old city. She usually has lunch at eleven, in a small noodle shop near the bus station.
+
+    Wan finishes work at two in the afternoon. In the evening, she sometimes goes to a yoga class. She never goes to bed late — she is always in bed by nine.
+  questions:
+    - stem: What time does Wan start work?
+      choices:
+        - {t: at five thirty, why: "starts work at five thirty"}
+        - {t: at four thirty, why: "ตีสี่ครึ่งคือเวลาตื่น"}
+        - {t: at eleven, why: "สิบเอ็ดโมงคือเวลากินข้าวเที่ยง"}
+        - {t: at two, why: "บ่ายสองคือเวลาเลิกงาน"}
+    - stem: Where does Wan usually have lunch?
+      choices:
+        - {t: near the bus station, why: "a small noodle shop near the bus station"}
+        - {t: at home, why: "เธอกินอาหารเช้าที่บ้าน"}
+        - {t: at the airport, why: "สนามบินคือต้นทางของรถเมล์"}
+        - {t: in the old city, why: "เมืองเก่าคือปลายทาง"}
+    - stem: How often does Wan go to yoga?
+      choices:
+        - {t: sometimes, why: "she sometimes goes to a yoga class"}
+        - {t: always, why: "always ใช้กับเวลาเข้านอน"}
+        - {t: never, why: "never ใช้กับการนอนดึก"}
+        - {t: every morning, why: "เธอไปตอนเย็น จึงใช้ไม่ได้"}
+    - stem: Which sentence is true about Wan?
+      choices:
+        - {t: She goes to bed before ten., why: "always in bed by nine"}
+        - {t: She works in the evening., why: "เลิกงานบ่ายสอง จึงใช้ไม่ได้"}
+        - {t: She drives a taxi., why: "เธอขับรถเมล์ จึงใช้ไม่ได้"}
+        - {t: She gets up at five thirty., why: "ตื่นตีสี่ครึ่ง จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w03-036
+  kind: listen
+  skill: li
+  topic: routines
+  level: 1
+  script:
+    - {who: Man, en: "What time do you usually have dinner?"}
+    - {who: Woman, en: "At about seven. My husband cooks."}
+  questions:
+    - stem: Who cooks dinner?
+      choices:
+        - {t: the woman's husband, why: "My husband cooks = สามีทำอาหาร"}
+        - {t: the woman, why: "เธอบอกว่าสามีเป็นคนทำ"}
+        - {t: the man, why: "ผู้ชายเป็นคนถาม"}
+        - {t: nobody, why: "สามีของเธอทำอาหาร"}
+  status: approved
+- id: cefr-a2-w03-037
+  kind: listen
+  skill: li
+  topic: routines
+  level: 1
+  script:
+    - {who: Woman, en: "Do you take the train to work?"}
+    - {who: Man, en: "No, I don't. I ride my motorbike."}
+  questions:
+    - stem: How does the man go to work?
+      choices:
+        - {t: by motorbike, why: "I ride my motorbike = ขี่มอเตอร์ไซค์"}
+        - {t: by train, why: "เขาตอบว่า No, I don't"}
+        - {t: on foot, why: "ไม่ได้พูดถึงการเดิน"}
+        - {t: by car, why: "ไม่ได้พูดถึงรถยนต์"}
+  status: approved
+- id: cefr-a2-w03-038
+  kind: listen
+  skill: li
+  topic: routines
+  level: 2
+  script:
+    - {who: Man, en: "I go to the market on Saturday mornings, and I clean the house on Sunday. I never work on weekends."}
+  questions:
+    - stem: What does the man do on Sunday?
+      choices:
+        - {t: he cleans the house, why: "I clean the house on Sunday"}
+        - {t: he goes to the market, why: "ไปตลาดวันเสาร์ จึงใช้ไม่ได้"}
+        - {t: he works, why: "never work on weekends"}
+        - {t: he visits friends, why: "ไม่ได้พูดถึงการไปหาเพื่อน"}
+  status: approved
+- id: cefr-a2-w03-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [She, usually gets up, at six, on weekdays]
+  sentence: She usually gets up at six on weekdays.
+  th: ปกติวันธรรมดาเธอตื่นหกโมง
+  why: "ประธาน + usually + กริยาเติม s + เวลา"
+  status: approved
+- id: cefr-a2-w03-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Do you, have lunch, at your desk, every day]
+  sentence: Do you have lunch at your desk every day?
+  th: คุณกินข้าวเที่ยงที่โต๊ะทำงานทุกวันไหม
+  why: "Do + you + กริยารูปเดิม + ส่วนที่เหลือ"
+  status: approved
+- id: cefr-a2-w03-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [My manager, doesn't drink, coffee, after lunch]
+  sentence: My manager doesn't drink coffee after lunch.
+  th: ผู้จัดการของฉันไม่ดื่มกาแฟหลังมื้อเที่ยง
+  why: "ประธานเอกพจน์ + doesn't + กริยารูปเดิม"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-a2-w03-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I always, check my email, before I, start work]
+  sentence: I always check my email before I start work.
+  th: ฉันเช็กอีเมลก่อนเริ่มงานเสมอ
+  why: "I + always + กริยา · before + ประโยค"
+  status: approved

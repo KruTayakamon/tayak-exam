@@ -1,0 +1,169 @@
+# คอร์ส a2 · สัปดาห์ 3 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 3
+phase: 1
+theme_th: กิจวัตรประจำวัน
+focus_th: present simple บอกเล่า ปฏิเสธ คำถาม · เติม -s/-es/-ies · คำบอกความถี่และตำแหน่งในประโยค · ศัพท์ช่วงเวลาของวัน
+can_do_th:
+  - เล่ากิจวัตรประจำวันและบอกความถี่ได้
+  - ถามและตอบเรื่องกิจวัตรของคนอื่นได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทำเป็นประจำ
+    lesson:
+      rule_th: "เรื่องที่ทำเป็นประจำใช้กริยารูปเดิม ==แต่ he she it ต้องเติม -s== ++ปฏิเสธใช้ don't++ / doesn't แล้วกริยากลับเป็นรูปเดิม"
+      examples:
+        - {en: "I <k>work</k> in a bank.", th: "ฉันทำงานที่ธนาคาร"}
+        - {en: "She <k>works</k> in a hospital.", th: "==เธอทำงานที่โรงพยาบาล (เติม s)=="}
+        - {en: "He <k>doesn't drive</k> to work.", th: "เขาไม่ได้ขับรถไปทำงาน"}
+        - {en: "My son <k>studies</k> every night.", th: "ลูกชายอ่านหนังสือทุกคืน"}
+      signals:
+        - {label_th: "วิธีเติมท้าย", words: ["ทั่วไป +s (works)", "o ch sh s x +es (goes)", "พยัญชนะ+y → ies (studies)", "have → has"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่ผันกริยา คนไทยเลย ~~ลืมเติม s~~ หรือเติม s ซ้ำหลัง doesn't"
+        wrong: ["She work in a bank.", "He doesn't works here."]
+        right: ["She works in a bank.", "He doesn't work here."]
+      notes:
+        - {kind: pin, th: "s มีที่เดียว ==works หรือ does== ไม่ใส่สองที่"}
+        - {kind: tip, th: "ท่องสั้น ๆ he she it ต้องมี s"}
+    check: [cefr-a2-w03-001, cefr-a2-w03-002]
+    practice: [cefr-a2-w03-003, cefr-a2-w03-004, cefr-a2-w03-005, cefr-a2-w03-006, cefr-a2-w03-007, cefr-a2-w03-008, cefr-a2-w03-009, cefr-a2-w03-010, cefr-a2-w03-011, cefr-a2-w03-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่ากิจวัตรของคุณและของคนในบ้านหนึ่งคน
+      frame: "I ____ every morning. My ____ ____ every evening."
+      model: "I drink coffee every morning. My husband walks the dog every evening."
+    classroom: {en: "I work from nine to five.", th: "ฉันทำงานเก้าโมงถึงห้าโมง"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ช่วงเวลาและความถี่ 12 คำ
+    lesson:
+      rule_th: "ช่วงเวลาของวันใช้ ==in the morning / afternoon / evening== แต่กลางคืนใช้ ++at night++ คำบอกความถี่เรียงจากมากไปน้อย always usually often sometimes"
+      examples:
+        - {en: "I jog <k>in the morning</k>.", th: "ฉันวิ่งตอนเช้า"}
+        - {en: "She <k>always</k> starts work <k>early</k>.", th: "==เธอเริ่มงานแต่เช้าเสมอ=="}
+        - {en: "We <k>sometimes</k> work <k>late</k>.", th: "บางครั้งเราทำงานดึก"}
+      words:
+        - {w: morning, pos: n., th: ตอนเช้า, ex: "I run in the morning."}
+        - {w: afternoon, pos: n., th: ตอนบ่าย, ex: "The meeting is in the afternoon."}
+        - {w: evening, pos: n., th: ตอนเย็น ค่ำ, ex: "We eat dinner in the evening."}
+        - {w: night, pos: n., th: กลางคืน, ex: "I read at night."}
+        - {w: always, pos: adv., th: เสมอ, ex: "She is always on time."}
+        - {w: often, pos: adv., th: บ่อย, ex: "I often eat out."}
+        - {w: usually, pos: adv., th: ปกติ มักจะ, ex: "I usually take the bus."}
+        - {w: sometimes, pos: adv., th: บางครั้ง, ex: "We sometimes go to the beach."}
+        - {w: early, pos: adj./adv., th: เช้า แต่เนิ่น ๆ, ex: "I get up early."}
+        - {w: late, pos: adj./adv., th: สาย ดึก, ex: "Sorry I'm late."}
+        - {w: work, pos: v./n., th: ทำงาน งาน, ex: "I work in an office."}
+        - {w: study, pos: v., th: เรียน ศึกษา, ex: "He studies at night."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~in the night~~ ตามคำว่า \"ในตอนกลางคืน\""
+        wrong: ["I can't sleep in the night."]
+        right: ["I can't sleep at night."]
+      notes:
+        - {kind: pin, th: "100% always → usually → often → sometimes → ==never 0%=="}
+        - {kind: use, th: "ถามความถี่ How often do you...?"}
+    check: [cefr-a2-w03-013, cefr-a2-w03-014]
+    practice: [cefr-a2-w03-015, cefr-a2-w03-016, cefr-a2-w03-017, cefr-a2-w03-018, cefr-a2-w03-019, cefr-a2-w03-020, cefr-a2-w03-021, cefr-a2-w03-022, cefr-a2-w03-023, cefr-a2-w03-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณทำอะไรตอนเช้าและตอนเย็น ใช้คำบอกความถี่
+      frame: "I usually ____ in the morning. I sometimes ____ in the evening."
+      model: "I usually walk to the market in the morning. I sometimes study English in the evening."
+    classroom: {en: "I usually start work early.", th: "ปกติฉันเริ่มงานเช้า"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ถามกิจวัตร และบ่อยแค่ไหน
+    lesson:
+      rule_th: "ถามกิจวัตรใช้ ==Do you...? / Does she...?== แล้วกริยาเป็นรูปเดิม คำบอกความถี่ ++วางหน้ากริยาหลัก++ แต่วางหลัง am is are"
+      examples:
+        - {en: "<k>Do</k> you work on Saturdays?", th: "คุณทำงานวันเสาร์ไหม"}
+        - {en: "Where <k>does</k> she live?", th: "==เธออยู่ที่ไหน=="}
+        - {en: "I <k>usually</k> walk to work.", th: "ปกติฉันเดินไปทำงาน"}
+        - {en: "He is <k>never</k> late.", th: "เขาไม่เคยสาย"}
+      signals:
+        - {label_th: "คำถามที่ใช้บ่อย", words: ["Do you...?", "Does he...?", "What time do you...?", "How often do you...?"]}
+      thai_trap:
+        intro_th: "ภาษาไทยถามโดยเติม \"ไหม\" ท้ายประโยค คนไทยเลยลืม ~~do / does~~ ข้างหน้า"
+        wrong: ["You work on Saturdays?", "Where she lives?"]
+        right: ["Do you work on Saturdays?", "Where does she live?"]
+      notes:
+        - {kind: warn, th: "หลัง does กริยาเป็น ==รูปเดิม== Does she work?"}
+        - {kind: tip, th: "ตอบสั้น Yes, I do. / No, she doesn't."}
+    check: [cefr-a2-w03-025, cefr-a2-w03-026]
+    practice: [cefr-a2-w03-027, cefr-a2-w03-028, cefr-a2-w03-029, cefr-a2-w03-030, cefr-a2-w03-031, cefr-a2-w03-032, cefr-a2-w03-033, cefr-a2-w03-034]
+    use:
+      prompt_th: เขียนคำถาม 2 ข้อถามกิจวัตรของเพื่อนร่วมงาน
+      frame: "What time do you ____? How often do you ____?"
+      model: "What time do you have lunch? How often do you work from home?"
+    classroom: {en: "How often do you exercise?", th: "คุณออกกำลังกายบ่อยแค่ไหน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านตารางกิจวัตรของคนทำงาน และฟังการเล่ากิจวัตร
+    lesson:
+      rule_th: "บทเล่ากิจวัตรเรียงตามเวลา ==หาคำบอกเวลา at five, in the evening== ++เพื่อจับว่าแต่ละกิจกรรมเกิดตอนไหน++"
+      examples:
+        - {en: "She gets up <k>at four thirty</k>.", th: "เธอตื่นตีสี่ครึ่ง"}
+        - {en: "She <k>usually</k> has lunch at eleven.", th: "==ปกติเธอกินข้าวเที่ยงตอนสิบเอ็ดโมง=="}
+        - {en: "She <k>never</k> goes to bed late.", th: "เธอไม่เคยนอนดึก"}
+      thai_trap:
+        intro_th: "บทมีหลายเวลา คนอ่านเร็วมัก ~~จับเวลาผิดกิจกรรม~~"
+        wrong: ["gets up at 4.30 · starts work at 5.30 → เริ่มงาน 4.30"]
+        right: ["อ่านคำกริยาหน้าเวลาให้ดี starts work = 5.30"]
+      notes:
+        - {kind: tip, th: "ขีดเส้นใต้ ==กริยา + เวลา== เป็นคู่ ๆ ระหว่างอ่าน"}
+        - {kind: use, th: "ฟังเรื่องกิจวัตร จดวันและเวลาไว้ข้างกิจกรรม"}
+    check: [cefr-a2-w03-036, cefr-a2-w03-037]
+    practice: [cefr-a2-w03-035, cefr-a2-w03-038, cefr-a2-w03-039, cefr-a2-w03-040, cefr-a2-w03-041]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าว่าเพื่อนหรือคนในครอบครัวทำอะไรตอนกี่โมง
+      frame: "My ____ gets up at ____. He/She ____ at ____."
+      model: "My mother gets up at five. She opens her shop at seven."
+    classroom: {en: "What time do you finish work?", th: "คุณเลิกงานกี่โมง"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 20
+    title_th: ห้องฝึกพูด เล่ากิจวัตรวันทำงาน 30 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูดเล่ากิจวัตรวันทำงานของคุณ 30 วินาที ตั้งแต่ตื่นจนเข้านอน ใช้คำบอกเวลาและความถี่
+      frame:
+        - "On weekdays, I get up at ____."
+        - "I usually ____ before work."
+        - "I start work at ____ and finish at ____."
+        - "In the evening, I sometimes ____."
+        - "I always go to bed at ____."
+      model_pass: "On weekdays, I get up at six. I usually have rice soup before work. I start work at eight and finish at five. In the evening, I sometimes go to the gym. I always go to bed at ten."
+      model_good: "On weekdays, I get up at six, so I'm never late for work. I usually have rice soup at a small shop near my house. I start work at eight and finish at five, but on Fridays I often stay late. In the evening, I sometimes go to the gym or watch a Korean drama. I always go to bed at about ten."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ประโยคด้วยกิจวัตรของตัวเอง
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - พูดเรียงตามเวลา ตั้งแต่เช้าถึงกลางคืน
+        - ใช้คำบอกความถี่อย่างน้อย 3 คำ
+        - ใช้ at กับเวลา และ in the morning / evening ถูกต้อง
+        - พูดได้ประมาณ 30 วินาทีโดยไม่หยุดนาน
+    practice: [cefr-a2-w03-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 3
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
