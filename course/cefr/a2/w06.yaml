@@ -1,0 +1,167 @@
+# คอร์ส a2 · สัปดาห์ 6 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 6
+phase: 2
+theme_th: ตอนนี้กำลังทำอะไร
+focus_th: am/is/are + -ing บอกเล่า ปฏิเสธ คำถาม · การสะกด -ing · เลือก present simple หรือ continuous · ศัพท์กิจกรรม
+can_do_th:
+  - บรรยายสิ่งที่กำลังเกิดขึ้นตรงหน้าได้
+  - แยกสิ่งที่ทำประจำกับสิ่งที่ทำตอนนี้ได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กำลังทำ
+    lesson:
+      rule_th: "สิ่งที่กำลังเกิดตอนนี้ ==am / is / are + กริยาเติม -ing== ++ห้ามลืม am is are ข้างหน้า++"
+      examples:
+        - {en: "I <k>am cooking</k> dinner.", th: "ฉันกำลังทำอาหารเย็น"}
+        - {en: "She <k>is talking</k> on the phone.", th: "==เธอกำลังคุยโทรศัพท์=="}
+        - {en: "They <k>aren't working</k> today.", th: "วันนี้พวกเขาไม่ได้ทำงาน"}
+        - {en: "What <k>are</k> you <k>doing</k>?", th: "คุณกำลังทำอะไร"}
+      signals:
+        - {label_th: "สะกด -ing", words: ["ทั่วไป +ing (playing)", "ตัด e (making)", "เพิ่มตัวสะกด (running, sitting)", "ie → ying (lying)"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ \"กำลัง\" คำเดียว คนไทยเลย ~~ลืม is~~ หรือเขียน I am work"
+        wrong: ["She talking now.", "I am work now."]
+        right: ["She is talking now.", "I am working now."]
+      notes:
+        - {kind: pin, th: "ต้องมีครบ 2 ส่วน ==is + -ing== ขาดอย่างใดอย่างหนึ่งไม่ได้"}
+        - {kind: tip, th: "คำที่บอกว่าต้องใช้ -ing now · right now · Look! · Listen!"}
+    check: [cefr-a2-w06-001, cefr-a2-w06-002]
+    practice: [cefr-a2-w06-003, cefr-a2-w06-004, cefr-a2-w06-005, cefr-a2-w06-006, cefr-a2-w06-007, cefr-a2-w06-008, cefr-a2-w06-009, cefr-a2-w06-010, cefr-a2-w06-011, cefr-a2-w06-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าตอนนี้คุณและคนรอบตัวกำลังทำอะไร
+      frame: "Right now I am ____. My ____ is ____."
+      model: "Right now I am studying English. My sister is watching TV."
+    classroom: {en: "Sorry, I'm driving. Can I call you back?", th: "ขอโทษ กำลังขับรถอยู่ เดี๋ยวโทรกลับได้ไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์กิจกรรม 12 คำ
+    lesson:
+      rule_th: "กริยากิจกรรมใช้ได้ทั้งรูปปกติและ -ing ==ระวังการสะกดตอนเติม ing== ++write → writing · sit → sitting++"
+      examples:
+        - {en: "He is <k>reading</k> a book.", th: "เขากำลังอ่านหนังสือ"}
+        - {en: "I'm <k>wearing</k> a jacket.", th: "==ฉันใส่แจ็กเก็ตอยู่=="}
+        - {en: "She <k>watches</k> TV every night.", th: "เธอดูทีวีทุกคืน"}
+      words:
+        - {w: read, pos: v., th: อ่าน, ex: "I read before bed."}
+        - {w: write, pos: v., th: เขียน, ex: "Write your name here."}
+        - {w: draw, pos: v., th: วาด, ex: "She draws very well."}
+        - {w: play, pos: v., th: เล่น, ex: "We play football on Fridays."}
+        - {w: sing, pos: v., th: ร้องเพลง, ex: "He sings karaoke."}
+        - {w: cook, pos: v., th: ทำอาหาร, ex: "I cook dinner every day."}
+        - {w: clean, pos: v./adj., th: ทำความสะอาด สะอาด, ex: "Please clean the table."}
+        - {w: wear, pos: v., th: สวม ใส่, ex: "I wear glasses."}
+        - {w: sit, pos: v., th: นั่ง, ex: "Please sit down."}
+        - {w: stand, pos: v., th: ยืน, ex: "Stand in line, please."}
+        - {w: watch, pos: v., th: ดู, ex: "Let's watch a film."}
+        - {w: busy, pos: adj., th: ยุ่ง, ex: "I'm busy now."}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ \"ใส่\" ทั้งเสื้อและการกระทำ คนไทยเลยพูด ~~put on~~ ในความหมายใส่อยู่"
+        wrong: ["She is putting on a red dress at the party. (หมายถึงใส่อยู่)"]
+        right: ["She is wearing a red dress at the party."]
+      notes:
+        - {kind: pin, th: "put on = ==สวม (ตอนกำลังแต่งตัว)== · wear = ใส่อยู่"}
+        - {kind: use, th: "watch TV แต่ see a film / look at a picture"}
+    check: [cefr-a2-w06-013, cefr-a2-w06-014]
+    practice: [cefr-a2-w06-015, cefr-a2-w06-016, cefr-a2-w06-017, cefr-a2-w06-018, cefr-a2-w06-019, cefr-a2-w06-020, cefr-a2-w06-021, cefr-a2-w06-022, cefr-a2-w06-023, cefr-a2-w06-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าวันนี้คุณใส่อะไร และกำลังทำอะไร
+      frame: "Today I'm wearing ____. Right now I'm ____."
+      model: "Today I'm wearing a white shirt and jeans. Right now I'm sitting in a café."
+    classroom: {en: "I'm busy right now. Can we talk later?", th: "ตอนนี้ยุ่งอยู่ คุยกันทีหลังได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ประจำ หรือ ตอนนี้
+    lesson:
+      rule_th: "ทำเป็นประจำใช้รูปปกติ (I work) ==กำลังทำตอนนี้ใช้ -ing (I'm working)== ++ดูคำบอกเวลาในประโยคแล้วเลือก++"
+      examples:
+        - {en: "I <k>usually walk</k> to work.", th: "ปกติฉันเดินไปทำงาน"}
+        - {en: "Today I'<k>m taking</k> a taxi.", th: "==วันนี้ฉันนั่งแท็กซี่=="}
+        - {en: "He <k>works</k> in a bank.", th: "เขาทำงานที่ธนาคาร (งานประจำ)"}
+        - {en: "I <k>like</k> coffee.", th: "ฉันชอบกาแฟ (like ไม่ใช้ -ing)"}
+      signals:
+        - {label_th: "ดูคำบอกเวลา", words: ["every day / usually → work", "now / today / at the moment → am working", "like / want / know → ไม่ใช้ -ing"]}
+      thai_trap:
+        intro_th: "คนไทยใช้ -ing กับทุกอย่างที่ ~~กำลังรู้สึก~~ เช่น I am liking it"
+        wrong: ["I am liking this song.", "She is knowing the answer."]
+        right: ["I like this song.", "She knows the answer."]
+      notes:
+        - {kind: warn, th: "like want know need ==ไม่ใช้ -ing== ในระดับนี้"}
+        - {kind: tip, th: "usually กับ today ในประโยคเดียว ใช้รูปต่างกันได้"}
+    check: [cefr-a2-w06-025, cefr-a2-w06-026]
+    practice: [cefr-a2-w06-027, cefr-a2-w06-028, cefr-a2-w06-029, cefr-a2-w06-030, cefr-a2-w06-031, cefr-a2-w06-032, cefr-a2-w06-033, cefr-a2-w06-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเทียบสิ่งที่คุณทำประจำกับสิ่งที่ทำวันนี้
+      frame: "I usually ____, but today I'm ____."
+      model: "I usually have lunch at my desk, but today I'm eating with my team."
+    classroom: {en: "I usually start at nine, but today I'm starting early.", th: "ปกติเริ่มเก้าโมง แต่วันนี้เริ่มเช้า"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านคำบรรยายภาพในสวนสาธารณะ และฟังสิ่งที่กำลังเกิด
+    lesson:
+      rule_th: "คำบรรยายภาพบอก ==ใคร · กำลังทำอะไร · อยู่ตรงไหน== ++จับคู่สามอย่างนี้ระหว่างอ่าน++"
+      examples:
+        - {en: "<k>A father</k> is playing football <k>on the grass</k>.", th: "ใคร + ทำอะไร + ที่ไหน"}
+        - {en: "A young woman is sitting <k>under a tree</k>.", th: "==หญิงสาวนั่งใต้ต้นไม้=="}
+        - {en: "They come here <k>every Sunday</k>.", th: "ทำเป็นประจำ (รูปปกติ)"}
+      thai_trap:
+        intro_th: "บทบรรยายภาพมีหลายคน คนอ่านมัก ~~จับคนสลับกับกิจกรรม~~"
+        wrong: ["young woman → playing football"]
+        right: ["young woman → reading under a tree"]
+      notes:
+        - {kind: tip, th: "จดเป็นตาราง ==คน · กิจกรรม · ที่== จะไม่สับสน"}
+        - {kind: use, th: "ฟังโทรศัพท์ คำว่า I'm + -ing บอกว่าเขาทำอะไรอยู่"}
+    check: [cefr-a2-w06-036, cefr-a2-w06-037]
+    practice: [cefr-a2-w06-035, cefr-a2-w06-038, cefr-a2-w06-039, cefr-a2-w06-040, cefr-a2-w06-041]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายสิ่งที่เห็นจากหน้าต่างตอนนี้
+      frame: "Outside my window, a ____ is ____. Some people are ____."
+      model: "Outside my window, a man is washing his car. Some children are riding bikes."
+    classroom: {en: "Look! What are they doing?", th: "ดูสิ พวกเขากำลังทำอะไร"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 20
+    title_th: ห้องฝึกเขียน บรรยายสิ่งที่คนในภาพกำลังทำ 4 ประโยค
+    lab:
+      mode: write
+      prompt_th: "นึกภาพตลาดนัดเย็นวันศุกร์ (หรือดูรูปถ่ายของคุณเอง) แล้วเขียน 4 ประโยคบรรยายว่าคนในภาพกำลังทำอะไร อยู่ตรงไหน"
+      frame:
+        - "In the picture, a ____ is ____."
+        - "Next to the ____, two ____ are ____."
+        - "A ____ is wearing ____."
+        - "Some people are ____ and ____."
+      model_pass: "In the picture, a woman is selling grilled chicken. Next to the stall, two boys are eating ice cream. A man is wearing a big hat. Some people are walking and taking photos."
+      model_good: "In the picture, it's Friday evening and the market is busy. An old woman is selling grilled chicken, and the smoke is going up into the sky. Next to her stall, two boys are sitting on a bench and eating ice cream. A tourist is wearing a big straw hat, and some young people are walking around and taking photos."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - จดคน 4 คนในภาพ และสิ่งที่แต่ละคนกำลังทำ
+        - เติมโครง 4 ประโยค
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+      checklist_th:
+        - ทุกประโยคมี is / are + -ing
+        - สะกด -ing ถูก (sitting, taking)
+        - บอกตำแหน่งอย่างน้อย 1 ครั้ง
+        - ใช้ is กับคนเดียว และ are กับหลายคน
+    practice: [cefr-a2-w06-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 6
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

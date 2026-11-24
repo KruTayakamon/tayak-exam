@@ -1,0 +1,576 @@
+# คอร์ส a2 · สัปดาห์ 6 · ตอนนี้กำลังทำอะไร · กำลังทำ · ประจำ หรือ ตอนนี้
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · present continuous ----------
+- id: cefr-a2-w06-001
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 1
+  stem: Shh! The baby ____ in the next room.
+  choices:
+    - {t: is sleeping, why: "กำลังเกิดตอนนี้ ++is + -ing++"}
+    - {t: sleeps, why: "sleeps บอกกิจวัตร ไม่ใช่ตอนนี้"}
+    - {t: sleeping, why: "ขาด is จึงใช้ไม่ได้"}
+    - {t: are sleeping, why: "the baby เป็นเอกพจน์ ใช้ is"}
+  explain: "กำลังทำ ==am / is / are + กริยา -ing=="
+  status: approved
+- id: cefr-a2-w06-002
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 1
+  stem: I can't talk now. I ____ dinner.
+  choices:
+    - {t: am cooking, why: "I + ++am + -ing++"}
+    - {t: is cooking, why: "is ใช้กับ he she it"}
+    - {t: cook, why: "cook บอกกิจวัตร ไม่ใช่ตอนนี้"}
+    - {t: cooking, why: "ขาด am จึงใช้ไม่ได้"}
+  explain: "==I am + -ing== (I'm cooking)"
+  status: approved
+- id: cefr-a2-w06-003
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 1
+  stem: Look! The children ____ in the rain.
+  choices:
+    - {t: are playing, why: "children พหูพจน์ ++are + -ing++"}
+    - {t: is playing, why: "children เป็นพหูพจน์"}
+    - {t: play, why: "Look! บอกว่ากำลังเกิดตอนนี้"}
+    - {t: playing, why: "ขาด are จึงใช้ไม่ได้"}
+  explain: "Look! / Listen! = ==กำลังเกิดตรงหน้า=="
+  status: approved
+- id: cefr-a2-w06-004
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 1
+  stem: "Choose the correct -ing form of \"swim\"."
+  choices:
+    - {t: swimming, why: "สระเสียงสั้น + พยัญชนะตัวเดียว ++เพิ่มตัวสะกด++"}
+    - {t: swiming, why: "ต้องเพิ่ม m อีกตัว"}
+    - {t: swimeing, why: "swim ไม่มี e ท้าย"}
+    - {t: swimmming, why: "เพิ่ม m เกินมาหนึ่งตัว"}
+  explain: "swim → ==swimming== · run → running · sit → sitting"
+  status: approved
+- id: cefr-a2-w06-005
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 1
+  stem: "Choose the correct -ing form of \"write\"."
+  choices:
+    - {t: writing, why: "ลงท้าย e ++ตัด e แล้วเติม -ing++"}
+    - {t: writeing, why: "ต้องตัด e ก่อนเติม ing"}
+    - {t: writting, why: "write ไม่เพิ่ม t"}
+    - {t: writng, why: "สะกดขาด i จึงใช้ไม่ได้"}
+  explain: "ลงท้าย e ==ตัด e + ing== (make → making)"
+  status: approved
+- id: cefr-a2-w06-006
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: My colleagues ____ today. They're at a conference in Pattaya.
+  choices:
+    - {t: aren't working, why: "ปฏิเสธพหูพจน์ ++aren't + -ing++"}
+    - {t: isn't working, why: "colleagues เป็นพหูพจน์"}
+    - {t: don't working, why: "ไม่ใช้ don't กับ -ing"}
+    - {t: not working, why: "ขาด are จึงใช้ไม่ได้"}
+  explain: "ปฏิเสธ ==am not / isn't / aren't + -ing=="
+  status: approved
+- id: cefr-a2-w06-007
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: "\"What ____ you doing?\" \"I'm looking for my keys.\""
+  choices:
+    - {t: are, why: "คำถามกำลังทำ ++What are you doing?++"}
+    - {t: do, why: "do ไม่ใช้กับ doing ในคำถามนี้"}
+    - {t: is, why: "you ใช้ are จึงใช้ไม่ได้"}
+    - {t: does, why: "does ไม่ใช้กับ -ing"}
+  explain: "ถาม ==What are you doing?== = กำลังทำอะไรอยู่"
+  status: approved
+- id: cefr-a2-w06-008
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: "\"Is it raining?\" \"No, it ____. It's sunny now.\""
+  choices:
+    - {t: isn't, why: "ตอบสั้นปฏิเสธ ++it isn't++"}
+    - {t: doesn't, why: "ถามด้วย is ตอบด้วย is"}
+    - {t: not raining, why: "ตอบสั้นไม่ต้องมี raining และต้องมี is"}
+    - {t: aren't, why: "it ใช้ is จึงใช้ไม่ได้"}
+  explain: "ตอบสั้น ==Yes, it is. / No, it isn't.=="
+  status: approved
+- id: cefr-a2-w06-009
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: My husband ____ on the phone with his boss right now.
+  choices:
+    - {t: is talking, why: "right now + ++is + -ing++"}
+    - {t: talks, why: "right now ต้องใช้รูปกำลังทำ"}
+    - {t: are talking, why: "my husband เป็นเอกพจน์"}
+    - {t: is talk, why: "หลัง is ต้องเติม ing"}
+  explain: "now / right now / at the moment → ==กำลังทำ=="
+  status: approved
+- id: cefr-a2-w06-010
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: "Choose the correct -ing form of \"lie\" (นอนเอนตัว)."
+  choices:
+    - {t: lying, why: "ie เปลี่ยนเป็น ++y + ing++"}
+    - {t: lieing, why: "ie ต้องเปลี่ยนเป็น y"}
+    - {t: liing, why: "ไม่มีรูปนี้ จึงใช้ไม่ได้"}
+    - {t: lyeing, why: "บทไม่ได้พูดว่า lyeing"}
+  explain: "ลงท้าย ie → ==ying== (die → dying)"
+  status: approved
+- id: cefr-a2-w06-011
+  kind: mcq
+  skill: gm
+  topic: present-continuous
+  level: 3
+  stem: "Which question about the people in the photo is correct?"
+  choices:
+    - {t: "Why are they laughing?", why: "Wh- + ++are + they + -ing++"}
+    - {t: "Why they are laughing?", why: "คำถามต้องสลับ are ไปหน้า they"}
+    - {t: "Why do they laughing?", why: "ไม่ใช้ do กับ -ing"}
+    - {t: "Why are they laugh?", why: "หลัง are ต้องเติม ing"}
+  explain: "Wh- + ==am/is/are + ประธาน + -ing==?"
+  status: approved
+- id: cefr-a2-w06-012
+  kind: type
+  skill: gm
+  topic: present-continuous
+  level: 2
+  stem: Please be quiet. I ____ studying for my exam. (กำลัง)
+  answer: am
+  accept: [am, "'m"]
+  why: "I + am + -ing = กำลังอ่านหนังสือ"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์กิจกรรม ----------
+- id: cefr-a2-w06-013
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: My father ____ the newspaper every morning with his coffee.
+  choices:
+    - {t: reads, why: "หนังสือพิมพ์ใช้ ++read++"}
+    - {t: writes, why: "เขียนหนังสือพิมพ์ไม่เข้ากับบริบท"}
+    - {t: sings, why: "ร้องหนังสือพิมพ์ไม่ได้"}
+    - {t: wears, why: "สวมหนังสือพิมพ์ไม่ได้"}
+  explain: "read = ==อ่าน== (อดีต read ออกเสียงว่า เร็ด)"
+  status: approved
+- id: cefr-a2-w06-014
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: Please ____ your name and phone number on this form.
+  choices:
+    - {t: write, why: "กรอกชื่อในแบบฟอร์ม = ++write++"}
+    - {t: read, why: "อ่านชื่อตัวเองในแบบฟอร์มไม่เข้ากับบริบท"}
+    - {t: draw, why: "draw คือวาดรูป จึงใช้ไม่ได้"}
+    - {t: watch, why: "watch คือดู จึงใช้ไม่ได้"}
+  explain: "write = ==เขียน=="
+  status: approved
+- id: cefr-a2-w06-015
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: My daughter loves art. She ____ pictures of animals every day.
+  choices:
+    - {t: draws, why: "วาดรูป = ++draw++"}
+    - {t: cooks, why: "ทำอาหารไม่ใช่รูปภาพ"}
+    - {t: cleans, why: "ทำความสะอาดไม่ใช่รูปภาพ"}
+    - {t: sings, why: "ร้องเพลงไม่ใช่รูปภาพ"}
+  explain: "draw = ==วาด (ด้วยดินสอ/ปากกา)=="
+  status: approved
+- id: cefr-a2-w06-016
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: We ____ badminton in the park after work on Tuesdays.
+  choices:
+    - {t: play, why: "เล่นกีฬา = ++play++"}
+    - {t: watch, why: "watch คือดู ไม่ได้เล่นเอง"}
+    - {t: sing, why: "ร้องแบดมินตันไม่ได้"}
+    - {t: wear, why: "สวมแบดมินตันไม่ได้"}
+  explain: "play + กีฬา/เกม/ดนตรี = ==เล่น=="
+  status: approved
+- id: cefr-a2-w06-017
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 1
+  stem: She has a beautiful voice. She ____ at weddings on weekends.
+  choices:
+    - {t: sings, why: "เสียงเพราะ ร้องในงานแต่ง = ++sing++"}
+    - {t: draws, why: "draw ไม่เกี่ยวกับเสียง"}
+    - {t: cleans, why: "ไม่เกี่ยวกับเสียงเพราะ"}
+    - {t: sits, why: "บทไม่ได้พูดว่า sits"}
+  explain: "sing = ==ร้องเพลง=="
+  status: approved
+- id: cefr-a2-w06-018
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 2
+  stem: I ____ dinner for my family every evening. Tonight it's pad krapow.
+  choices:
+    - {t: cook, why: "ทำอาหาร = ++cook++"}
+    - {t: clean, why: "clean ไม่ใช้กับ dinner แบบนี้"}
+    - {t: draw, why: "วาดอาหารเย็นไม่เข้ากับบริบท"}
+    - {t: wear, why: "สวมอาหารไม่ได้ จึงใช้ไม่ได้"}
+  explain: "cook = ==ทำอาหาร== · cook ยังแปลว่า พ่อครัว ได้ด้วย"
+  status: approved
+- id: cefr-a2-w06-019
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 2
+  stem: The kitchen is dirty. Can you help me ____ it?
+  choices:
+    - {t: clean, why: "สกปรก ต้อง ++clean++"}
+    - {t: cook, why: "cook ไม่ทำให้ครัวสะอาด"}
+    - {t: sing, why: "ร้องเพลงไม่ทำให้สะอาด"}
+    - {t: read, why: "อ่านไม่ทำให้สะอาด"}
+  explain: "clean = ==ทำความสะอาด สะอาด=="
+  status: approved
+- id: cefr-a2-w06-020
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 2
+  stem: It's cold, so I'm ____ a jacket and a scarf.
+  choices:
+    - {t: wearing, why: "สวมเสื้อผ้า = ++wear++"}
+    - {t: watching, why: "watch คือดู จึงใช้ไม่ได้"}
+    - {t: playing, why: "play ไม่ใช้กับเสื้อผ้า"}
+    - {t: cleaning, why: "ไม่เข้ากับอากาศหนาว"}
+  explain: "wear = ==สวม ใส่ (เสื้อผ้า แว่น นาฬิกา)=="
+  status: approved
+- id: cefr-a2-w06-021
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 2
+  stem: The train is full, so I can't ____ down. I have to stand.
+  choices:
+    - {t: sit, why: "นั่ง = ++sit down++"}
+    - {t: stand, why: "ขัดกับ I have to stand"}
+    - {t: wear, why: "wear ไม่ใช้กับ down"}
+    - {t: play, why: "ไม่เข้ากับบริบท"}
+  explain: "sit (down) = ==นั่ง=="
+  status: approved
+- id: cefr-a2-w06-022
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 2
+  stem: There are no chairs, so everyone is ____ at the back of the room.
+  choices:
+    - {t: standing, why: "ไม่มีเก้าอี้ = ++stand++"}
+    - {t: sitting, why: "ไม่มีเก้าอี้จึงนั่งไม่ได้"}
+    - {t: wearing, why: "ไม่เข้ากับบริบท"}
+    - {t: drawing, why: "บทไม่ได้พูดว่า drawing"}
+  explain: "stand (up) = ==ยืน=="
+  status: approved
+- id: cefr-a2-w06-023
+  kind: mcq
+  skill: vo
+  topic: activities
+  level: 2
+  stem: I'm ____ a Thai drama on TV. It's really exciting!
+  choices:
+    - {t: watching, why: "ดูทีวี = ++watch++"}
+    - {t: reading, why: "ละครทีวีไม่ได้อ่าน"}
+    - {t: wearing, why: "สวมละครไม่ได้ จึงใช้ไม่ได้"}
+    - {t: sitting, why: "sitting ไม่มีกรรมตาม"}
+  explain: "watch = ==ดู (สิ่งที่เคลื่อนไหว)== · watch TV"
+  status: approved
+- id: cefr-a2-w06-024
+  kind: type
+  skill: vo
+  topic: activities
+  level: 2
+  stem: Sorry, I can't help you now. I'm very b____ with a report. (ยุ่ง)
+  answer: busy
+  accept: [busy]
+  why: "busy = ยุ่ง ไม่ว่าง · I'm busy."
+  status: approved
+# ---------- วันที่ 3 · ประจำ หรือ ตอนนี้ ----------
+- id: cefr-a2-w06-025
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 1
+  stem: I usually ____ to work, but today I'm taking a taxi.
+  choices:
+    - {t: walk, why: "usually = กิจวัตร ใช้ ++present simple++"}
+    - {t: am walking, why: "usually ใช้รูปปกติ ไม่ใช่กำลังทำ"}
+    - {t: walking, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+    - {t: walks, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+  explain: "usually / every day → ==present simple=="
+  status: approved
+- id: cefr-a2-w06-026
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 1
+  stem: Listen! Someone ____ the piano upstairs.
+  choices:
+    - {t: is playing, why: "Listen! = ++กำลังเกิดตอนนี้++"}
+    - {t: plays, why: "Listen! บอกว่ากำลังเล่นตอนนี้"}
+    - {t: play, why: "someone เป็นเอกพจน์ และต้องเป็นรูปกำลังทำ"}
+    - {t: playing, why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "Listen! / Look! / now → ==am/is/are + -ing=="
+  status: approved
+- id: cefr-a2-w06-027
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 1
+  stem: My brother ____ in a bank. He's a cashier.
+  choices:
+    - {t: works, why: "งานประจำ ใช้ ++present simple++"}
+    - {t: is working, why: "อาชีพประจำใช้รูปปกติ"}
+    - {t: work, why: "he ต้องเติม s จึงใช้ไม่ได้"}
+    - {t: working, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "งาน อาชีพ ที่อยู่ประจำ → ==present simple=="
+  status: approved
+- id: cefr-a2-w06-028
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  stem: "\"Where's Noi?\" \"She ____ a shower. She'll be down in five minutes.\""
+  choices:
+    - {t: is having, why: "ตอนนี้กำลังอาบน้ำ ++is having++"}
+    - {t: has, why: "has a shower บอกกิจวัตร ไม่ใช่ตอนนี้"}
+    - {t: have, why: "she ไม่ใช้ have"}
+    - {t: having, why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "have ในความหมายกิน/อาบ/ทำ ==ใช้รูป -ing ได้== (having lunch)"
+  status: approved
+- id: cefr-a2-w06-029
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  stem: We ____ to the gym every Saturday morning.
+  choices:
+    - {t: go, why: "every Saturday = ++กิจวัตร++"}
+    - {t: are going, why: "every Saturday ใช้รูปปกติ"}
+    - {t: goes, why: "we ไม่เติม es จึงใช้ไม่ได้"}
+    - {t: going, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "every + เวลา → ==present simple=="
+  status: approved
+- id: cefr-a2-w06-030
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  stem: "\"Do you like spicy food?\" \"Yes, I ____ it.\""
+  choices:
+    - {t: love, why: "ความรู้สึก (like love) ++ไม่ใช้ -ing++"}
+    - {t: am loving, why: "love ไม่ใช้รูปกำลังทำในระดับนี้"}
+    - {t: loving, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+    - {t: loves, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+  explain: "like love want know ==ไม่ใช้ -ing=="
+  status: approved
+- id: cefr-a2-w06-031
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  stem: I can't come to the phone. I ____ a bath at the moment.
+  choices:
+    - {t: am taking, why: "at the moment = ++กำลังทำ++"}
+    - {t: take, why: "at the moment ต้องใช้รูป -ing"}
+    - {t: takes, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+    - {t: taking, why: "ขาด am จึงใช้ไม่ได้"}
+  explain: "at the moment / right now → ==-ing=="
+  status: approved
+- id: cefr-a2-w06-032
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 3
+  stem: "Which sentence about Mr Somsak is correct?"
+  choices:
+    - {t: "He usually wears a suit, but today he is wearing jeans.", why: "usually ใช้ปกติ · today ++ใช้ -ing++"}
+    - {t: "He is usually wearing a suit, but today he wears jeans.", why: "สลับรูปกัน usually ใช้ปกติ today ใช้ -ing"}
+    - {t: "He usually wear a suit, but today he is wearing jeans.", why: "he ต้องเติม s (wears)"}
+    - {t: "He usually wears a suit, but today he wearing jeans.", why: "ขาด is หน้า wearing"}
+  explain: "ประจำ (usually) กับ ==ตอนนี้ (today/now)== ใช้รูปต่างกัน"
+  status: approved
+- id: cefr-a2-w06-033
+  kind: type
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  stem: Water ____ at 100 degrees. (boil · ความจริงทั่วไป)
+  answer: boils
+  accept: [boils]
+  why: "ความจริงทั่วไปใช้ present simple · water เติม s"
+  status: approved
+- id: cefr-a2-w06-034
+  kind: cloze
+  skill: gm
+  topic: present-simple-vs-continuous-basic
+  level: 2
+  text: |
+    Hi Mum! I'm in Hua Hin. I (1) ____ on the beach right now, and the sun is shining. Every day I (2) ____ breakfast at the hotel. At the moment, Ton (3) ____ in the sea.
+  questions:
+    - choices:
+        - {t: am sitting, why: "right now ใช้รูปกำลังทำ"}
+        - {t: sit, why: "right now ต้องใช้ -ing"}
+        - {t: sits, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+        - {t: is sitting, why: "I ใช้ am จึงใช้ไม่ได้"}
+    - choices:
+        - {t: have, why: "every day เป็นกิจวัตร ใช้รูปปกติ"}
+        - {t: am having, why: "every day ไม่ใช้ -ing"}
+        - {t: has, why: "I ไม่ใช้ has จึงใช้ไม่ได้"}
+        - {t: having, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+    - choices:
+        - {t: is swimming, why: "at the moment ใช้รูปกำลังทำ"}
+        - {t: swims, why: "at the moment ต้องใช้ -ing"}
+        - {t: are swimming, why: "Ton เป็นเอกพจน์"}
+        - {t: is swiming, why: "swim ต้องเพิ่ม m เป็น swimming"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w06-035
+  kind: read
+  skill: rd
+  topic: picture-description
+  level: 1
+  title: "Sunday Morning in Benjakitti Park"
+  passage: |
+    It's eight o'clock on Sunday morning, and the park is busy. Near the lake, a group of older women are doing tai chi. They come here every Sunday.
+
+    On the grass, a father is playing football with his two sons. A young woman is sitting under a tree. She is reading a book and drinking coffee.
+
+    Next to the café, a man is selling fresh orange juice. Some runners are standing in the line. A dog is sleeping under the table. Everyone looks happy.
+  questions:
+    - stem: Who is doing tai chi?
+      choices:
+        - {t: a group of older women, why: "a group of older women are doing tai chi"}
+        - {t: a father and his sons, why: "พ่อลูกกำลังเตะฟุตบอล"}
+        - {t: some runners, why: "นักวิ่งต่อคิวซื้อน้ำส้ม"}
+        - {t: a young woman, why: "หญิงสาวกำลังอ่านหนังสือ"}
+    - stem: What is the young woman doing?
+      choices:
+        - {t: reading and drinking coffee, why: "She is reading a book and drinking coffee"}
+        - {t: selling orange juice, why: "ผู้ชายขายน้ำส้ม"}
+        - {t: playing football, why: "พ่อลูกเตะฟุตบอล"}
+        - {t: running near the lake, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: Where is the dog?
+      choices:
+        - {t: under the table, why: "A dog is sleeping under the table"}
+        - {t: under a tree, why: "ใต้ต้นไม้คือหญิงสาว"}
+        - {t: near the lake, why: "ริมทะเลสาบคือกลุ่มไทเก๊ก"}
+        - {t: on the grass, why: "บนสนามหญ้าคือคนเตะฟุตบอล"}
+    - stem: Which activity happens every Sunday?
+      choices:
+        - {t: the women's tai chi, why: "They come here every Sunday"}
+        - {t: the man selling juice, why: "ไม่ได้บอกว่าทุกวันอาทิตย์"}
+        - {t: the football game, why: "บทไม่ได้พูดว่า the football game"}
+        - {t: the dog's sleep, why: "บทไม่ได้พูดว่า the dog's sleep"}
+  status: approved
+- id: cefr-a2-w06-036
+  kind: listen
+  skill: li
+  topic: describing-now
+  level: 1
+  script:
+    - {who: Woman, en: "Hello? Where are you? The meeting is starting."}
+    - {who: Man, en: "Sorry! I'm parking the car. I'll be there in two minutes."}
+  questions:
+    - stem: What is the man doing?
+      choices:
+        - {t: parking his car, why: "I'm parking the car = กำลังจอดรถ"}
+        - {t: driving home, why: "เขากำลังจะเข้าประชุม"}
+        - {t: starting the meeting, why: "ผู้หญิงบอกว่าประชุมกำลังเริ่ม"}
+        - {t: waiting for a taxi, why: "ไม่ได้พูดถึงแท็กซี่"}
+  status: approved
+- id: cefr-a2-w06-037
+  kind: listen
+  skill: li
+  topic: describing-now
+  level: 1
+  script:
+    - {who: Man, en: "Is Dao at home?"}
+    - {who: Woman, en: "No, she isn't. She's swimming at the sports club."}
+  questions:
+    - stem: Where is Dao now?
+      choices:
+        - {t: at the sports club, why: "She's swimming at the sports club"}
+        - {t: at home, why: "No, she isn't = ไม่อยู่บ้าน"}
+        - {t: at the beach, why: "ไม่ได้พูดถึงชายหาด"}
+        - {t: at work, why: "ไม่ได้พูดถึงที่ทำงาน"}
+  status: approved
+- id: cefr-a2-w06-038
+  kind: listen
+  skill: li
+  topic: describing-now
+  level: 2
+  script:
+    - {who: Woman, en: "I usually work in the office, but this week I'm working from home because the office is being painted."}
+  questions:
+    - stem: Why is the woman working from home this week?
+      choices:
+        - {t: the office is being painted, why: "because the office is being painted"}
+        - {t: she is sick, why: "ไม่ได้พูดว่าป่วย"}
+        - {t: she always works from home, why: "ปกติเธอทำงานที่ออฟฟิศ"}
+        - {t: she is on holiday, why: "เธอยังทำงานอยู่"}
+  status: approved
+- id: cefr-a2-w06-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [My son, is playing, games, on his phone]
+  sentence: My son is playing games on his phone.
+  th: ลูกชายกำลังเล่นเกมในโทรศัพท์
+  why: "ประธาน + is + กริยา -ing + กรรม"
+  status: approved
+- id: cefr-a2-w06-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Are you, waiting, for the bus, too]
+  sentence: Are you waiting for the bus too?
+  th: คุณก็กำลังรอรถเมล์อยู่เหมือนกันเหรอ
+  why: "คำถาม Are + you + -ing"
+  status: approved
+- id: cefr-a2-w06-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [She usually, drinks tea, but today, she is drinking coffee]
+  sentence: She usually drinks tea but today she is drinking coffee.
+  th: ปกติเธอดื่มชา แต่วันนี้เธอดื่มกาแฟ
+  why: "usually + ปกติ · today + -ing"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-a2-w06-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [In the picture, two men, are sitting, on a bench]
+  sentence: In the picture two men are sitting on a bench.
+  th: ในภาพมีผู้ชายสองคนกำลังนั่งอยู่บนม้านั่ง
+  why: "In the picture ขึ้นต้น แล้วตามด้วยประโยคกำลังทำ"
+  status: approved
