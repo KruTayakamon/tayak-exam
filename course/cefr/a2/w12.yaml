@@ -1,0 +1,168 @@
+# คอร์ส a2 · สัปดาห์ 12 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 12
+phase: 3
+theme_th: ซ้อมใหญ่
+focus_th: and but or because so · first then after that · ทบทวนทุกเรื่อง + สรรพนามกรรม me him her us them · ศัพท์การเรียนและออนไลน์
+can_do_th:
+  - เขียนข้อความหรืออีเมลสั้นเรื่องงานประจำวันได้
+  - เชื่อมประโยคสั้นให้เป็นเรื่องเดียวกันได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เชื่อมประโยค
+    lesson:
+      rule_th: "เลือกคำเชื่อมตามความหมาย ==and เพิ่ม== · but ขัดแย้ง · or เลือก · because เหตุ · so ผล ++เล่าลำดับใช้ first then after that++"
+      examples:
+        - {en: "It rained, <k>so</k> we stayed home.", th: "ฝนตก เราเลยอยู่บ้าน"}
+        - {en: "I took a taxi <k>because</k> I was late.", th: "==ฉันนั่งแท็กซี่เพราะสาย=="}
+        - {en: "I like tea, <k>but</k> he likes coffee.", th: "ฉันชอบชา แต่เขาชอบกาแฟ"}
+        - {en: "<k>First</k> wash the rice. <k>Then</k> cook it.", th: "ล้างข้าวก่อน แล้วค่อยหุง"}
+      signals:
+        - {label_th: "คำเชื่อม", words: ["and = และ", "but = แต่", "or = หรือ", "because = เพราะ", "so = ก็เลย", "first → then → after that"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูด \"เพราะ...ก็เลย...\" คู่กัน คนไทยเลยเขียน ~~because ... so ...~~ ในประโยคเดียว"
+        wrong: ["Because I was tired, so I went to bed."]
+        right: ["Because I was tired, I went to bed. / I was tired, so I went to bed."]
+      notes:
+        - {kind: warn, th: "because กับ so ==ใช้อย่างใดอย่างหนึ่ง== ไม่ใช้คู่กัน"}
+        - {kind: tip, th: "เล่าขั้นตอน First, ... Then, ... After that, ... ฟังเป็นระบบ"}
+    check: [cefr-a2-w12-001, cefr-a2-w12-002]
+    practice: [cefr-a2-w12-003, cefr-a2-w12-004, cefr-a2-w12-005, cefr-a2-w12-006, cefr-a2-w12-007, cefr-a2-w12-008, cefr-a2-w12-009, cefr-a2-w12-010, cefr-a2-w12-011, cefr-a2-w12-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าเมื่อวาน ใช้ because 1 ครั้ง และ so 1 ครั้ง
+      frame: "Yesterday I ____ because ____. I was ____, so I ____."
+      model: "Yesterday I stayed home because it rained. I was bored, so I cleaned my room."
+    classroom: {en: "First, let's check the list. Then we can start.", th: "เช็กรายการก่อน แล้วค่อยเริ่ม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์การเรียนและออนไลน์ 12 คำ
+    lesson:
+      rule_th: "ระวังคู่ที่คนไทยสับสน ==borrow (ยืมมา) · lend (ให้ยืม)== ++Can I borrow your pen?++ / Can you lend me your pen?"
+      examples:
+        - {en: "Can I <k>borrow</k> your dictionary?", th: "ขอยืมพจนานุกรมได้ไหม"}
+        - {en: "Can you <k>lend</k> me 100 baht?", th: "==ให้ฉันยืมร้อยบาทได้ไหม=="}
+        - {en: "That's a good <k>idea</k>!", th: "ความคิดดีนะ"}
+      words:
+        - {w: explain, pos: v., th: อธิบาย, ex: "Can you explain this?"}
+        - {w: practise, pos: v., th: ฝึก, ex: "I practise English every day."}
+        - {w: check, pos: v., th: ตรวจ เช็ก, ex: "Please check your email."}
+        - {w: choose, pos: v., th: เลือก, ex: "You can choose a seat."}
+        - {w: borrow, pos: v., th: ยืม (มา), ex: "Can I borrow your pen?"}
+        - {w: lend, pos: v., th: ให้ยืม, ex: "I lent him my car."}
+        - {w: library, pos: n., th: ห้องสมุด, ex: "I study at the library."}
+        - {w: dictionary, pos: n., th: พจนานุกรม, ex: "Use a dictionary."}
+        - {w: email, pos: n./v., th: อีเมล ส่งอีเมล, ex: "I'll email you."}
+        - {w: website, pos: n., th: เว็บไซต์, ex: "Check our website."}
+        - {w: idea, pos: n., th: ความคิด ไอเดีย, ex: "Good idea!"}
+        - {w: exercise, pos: n./v., th: แบบฝึกหัด ออกกำลังกาย, ex: "Do exercise 2."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~Can you borrow me~~ ตามคำว่า \"ให้ยืม\" และ ~~explain me~~"
+        wrong: ["Can you borrow me your pen?", "Can you explain me this word?"]
+        right: ["Can you lend me your pen?", "Can you explain this word to me?"]
+      notes:
+        - {kind: pin, th: "explain ==something to someone== ไม่ใช่ explain me"}
+        - {kind: use, th: "library = ห้องสมุด ไม่ใช่ร้านหนังสือ (bookshop)"}
+    check: [cefr-a2-w12-013, cefr-a2-w12-014]
+    practice: [cefr-a2-w12-015, cefr-a2-w12-016, cefr-a2-w12-017, cefr-a2-w12-018, cefr-a2-w12-019, cefr-a2-w12-020, cefr-a2-w12-021, cefr-a2-w12-022, cefr-a2-w12-023, cefr-a2-w12-024]
+    use:
+      prompt_th: เขียน 2 ประโยคขอยืมของจากเพื่อนร่วมงาน และบอกว่าจะคืนเมื่อไร
+      frame: "Can I borrow your ____? I'll give it back ____."
+      model: "Can I borrow your umbrella? I'll give it back tomorrow morning."
+    classroom: {en: "Can you explain that again, please?", th: "ช่วยอธิบายอีกครั้งได้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ทบทวนปนกัน
+    lesson:
+      rule_th: "หลังกริยาและคำบุพบท ==ใช้สรรพนามกรรม me him her us them== ++ทบทวนเวลา now++ · usually · yesterday · next week ใช้รูปกริยาต่างกัน"
+      examples:
+        - {en: "I called <k>her</k> yesterday.", th: "เมื่อวานฉันโทรหาเธอ"}
+        - {en: "Can you help <k>me</k>?", th: "==ช่วยฉันหน่อยได้ไหม=="}
+        - {en: "I'm going to meet <k>them</k> at the airport.", th: "ฉันจะไปรับพวกเขาที่สนามบิน"}
+        - {en: "She <k>usually works</k>, but now she <k>is resting</k>.", th: "ปกติทำงาน แต่ตอนนี้พัก"}
+      signals:
+        - {label_th: "ประธาน → กรรม", words: ["I → me", "he → him", "she → her", "we → us", "they → them", "you · it ไม่เปลี่ยน"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ \"เขา\" \"ฉัน\" เหมือนเดิมทุกตำแหน่ง คนไทยเลยเขียน ~~help I · call she~~"
+        wrong: ["Can you help I?", "I called she last night."]
+        right: ["Can you help me?", "I called her last night."]
+      notes:
+        - {kind: pin, th: "หลังกริยา ==me him her us them== เสมอ"}
+        - {kind: tip, th: "ดูคำบอกเวลาก่อนเลือกรูปกริยา"}
+    check: [cefr-a2-w12-025, cefr-a2-w12-026]
+    practice: [cefr-a2-w12-027, cefr-a2-w12-028, cefr-a2-w12-029, cefr-a2-w12-030, cefr-a2-w12-031, cefr-a2-w12-032, cefr-a2-w12-033, cefr-a2-w12-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าว่าเมื่อวานคุณทำอะไรกับใคร ใช้สรรพนามกรรม
+      frame: "Yesterday I met ____ and helped ____ with ____."
+      model: "Yesterday I met my neighbours and helped them with their garden."
+    classroom: {en: "Can you send it to me, please?", th: "ช่วยส่งให้ฉันหน่อยได้ไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านอีเมลสั้นถึงเพื่อน และฟังปนกันทุกแบบ
+    lesson:
+      rule_th: "อีเมลถึงเพื่อนมักบอก ==เหตุผลที่เขียนในย่อหน้าแรก== (++I'm writing because...++) แล้วตามด้วยเรื่องอื่น"
+      examples:
+        - {en: "<k>I'm writing because</k> I need your help.", th: "ฉันเขียนมาเพราะอยากขอความช่วยเหลือ"}
+        - {en: "<k>By the way</k>, are you free on Saturday?", th: "==อ้อ วันเสาร์ว่างไหม=="}
+        - {en: "<k>Love</k>, Kate", th: "คำลงท้ายอีเมลถึงเพื่อนสนิท"}
+      thai_trap:
+        intro_th: "คำว่า by the way ทำให้คนอ่าน ~~คิดว่าพูดถึงทาง~~"
+        wrong: ["By the way = ระหว่างทาง"]
+        right: ["By the way = อ้อ / เกือบลืม (เปลี่ยนเรื่อง)"]
+      notes:
+        - {kind: pin, th: "By the way = ==เปลี่ยนเรื่อง== ไม่ได้แปลว่าระหว่างทาง"}
+        - {kind: tip, th: "ฟังขั้นตอน จับ First · Then · After that"}
+    check: [cefr-a2-w12-036, cefr-a2-w12-037]
+    practice: [cefr-a2-w12-035, cefr-a2-w12-038, cefr-a2-w12-039, cefr-a2-w12-040, cefr-a2-w12-041]
+    use:
+      prompt_th: เขียนประโยคเปิดและประโยคปิดของอีเมลถึงเพื่อน
+      frame: "Hi ____, I'm writing because ____. ... See you soon, ____"
+      model: "Hi Joy, I'm writing because I want to invite you to my birthday dinner. ... See you soon, Nok"
+    classroom: {en: "By the way, did you get my email?", th: "อ้อ ได้อีเมลของฉันไหม"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 25
+    title_th: ห้องฝึกเขียน อีเมลสั้นขอยืมของจากเพื่อน 40 คำ
+    lab:
+      mode: write
+      prompt_th: เขียนอีเมลสั้นประมาณ 40 คำถึงเพื่อน ขอยืมของ 1 อย่าง บอกเหตุผล บอกว่าจะคืนเมื่อไร และขอบคุณ
+      frame:
+        - "Hi ____,"
+        - "I'm writing because ____."
+        - "Can I borrow your ____? I need it because ____."
+        - "I'll give it back to you on ____."
+        - "Thanks a lot! ____"
+      model_pass: "Hi Bee, I'm writing because I need your help. Can I borrow your camera? I need it because my sister is getting married on Saturday. I'll give it back to you on Monday. Thanks a lot! Nok"
+      model_good: "Hi Bee, I hope you're well. I'm writing because I need a big favour. Could I borrow your camera this weekend? My sister is getting married on Saturday, and my phone camera isn't very good. I'll be careful with it, and I'll give it back to you on Monday morning. Thanks a lot! Love, Nok"
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกของที่จะยืมและเหตุผลจริง
+        - เติมโครง 5 บรรทัด ให้ได้ประมาณ 40 คำ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+      checklist_th:
+        - ใช้ borrow (เรายืม) ไม่ใช่ lend
+        - มีเหตุผลด้วย because
+        - บอกวันคืนด้วย I'll + กริยารูปเดิม
+        - มีคำทักทายและคำขอบคุณ ยาวประมาณ 40 คำ
+    practice: [cefr-a2-w12-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 12 (ทบทวนทั้งคอร์ส)
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

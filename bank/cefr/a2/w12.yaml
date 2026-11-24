@@ -1,0 +1,580 @@
+# คอร์ส a2 · สัปดาห์ 12 · ซ้อมใหญ่ · เชื่อมประโยค · ทบทวนปนกัน + สรรพนามกรรม
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · and but or because so · first then after that ----------
+- id: cefr-a2-w12-001
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 1
+  stem: I wanted to go to the beach, ____ it rained all day.
+  choices:
+    - {t: but, why: "ขัดแย้งกัน ใช้ ++but++"}
+    - {t: and, why: "and ใช้เพิ่มเรื่องที่ไปทางเดียวกัน"}
+    - {t: so, why: "so บอกผล ไม่ใช่ความขัดแย้ง"}
+    - {t: because, why: "because บอกเหตุผล"}
+  explain: "but = ==แต่ (ขัดแย้ง)=="
+  status: approved
+- id: cefr-a2-w12-002
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 1
+  stem: I'm taking a taxi ____ I'm late for my meeting.
+  choices:
+    - {t: because, why: "บอกเหตุผล ++because++"}
+    - {t: so, why: "so ตามด้วยผล ไม่ใช่เหตุ"}
+    - {t: but, why: "ไม่ได้ขัดแย้งกัน"}
+    - {t: or, why: "or ใช้ให้เลือก จึงใช้ไม่ได้"}
+  explain: "because + ==เหตุผล=="
+  status: approved
+- id: cefr-a2-w12-003
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 1
+  stem: It was very hot, ____ we stayed inside with the air conditioner on.
+  choices:
+    - {t: so, why: "ร้อน (เหตุ) จึงอยู่ในบ้าน = ++so++"}
+    - {t: because, why: "because ตามด้วยเหตุ ไม่ใช่ผล"}
+    - {t: but, why: "ไม่ได้ขัดแย้งกัน"}
+    - {t: or, why: "or ใช้ให้เลือก จึงใช้ไม่ได้"}
+  explain: "เหตุ, ==so + ผล=="
+  status: approved
+- id: cefr-a2-w12-004
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 1
+  stem: Would you like tea ____ coffee?
+  choices:
+    - {t: or, why: "ให้เลือก ++or++"}
+    - {t: and, why: "and คือเอาทั้งสองอย่าง ไม่ใช่ถามให้เลือก"}
+    - {t: but, why: "ไม่ได้ขัดแย้ง จึงใช้ไม่ได้"}
+    - {t: so, why: "ไม่ได้บอกผล จึงใช้ไม่ได้"}
+  explain: "or = ==หรือ (ให้เลือก)=="
+  status: approved
+- id: cefr-a2-w12-005
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: ____, wash the rice. Then put it in the rice cooker.
+  choices:
+    - {t: First, why: "ขั้นแรก ++First++"}
+    - {t: Then, why: "then ตามมาทีหลัง ประโยคถัดไปใช้แล้ว"}
+    - {t: After, why: "after ต้องตามด้วยคำนามหรือประโยค"}
+    - {t: So, why: "so บอกผล ไม่ใช่ลำดับ"}
+  explain: "ลำดับ ==First → Then → After that=="
+  status: approved
+- id: cefr-a2-w12-006
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: We had dinner at a seafood place. ____ that, we walked on the beach.
+  choices:
+    - {t: After, why: "หลังจากนั้น ++After that++"}
+    - {t: First, why: "First that ไม่ใช่วลีที่ใช้"}
+    - {t: Because, why: "ไม่ได้บอกเหตุผล"}
+    - {t: But, why: "But that ไม่บอกลำดับ"}
+  explain: "After that = ==หลังจากนั้น=="
+  status: approved
+- id: cefr-a2-w12-007
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: My phone was dead, ____ I couldn't call you.
+  choices:
+    - {t: so, why: "โทรศัพท์ดับ (เหตุ) → ++so++ โทรไม่ได้ (ผล)"}
+    - {t: because, why: "because ต้องตามด้วยเหตุ"}
+    - {t: or, why: "ไม่ได้ให้เลือก จึงใช้ไม่ได้"}
+    - {t: but, why: "ไม่ได้ขัดแย้ง จึงใช้ไม่ได้"}
+  explain: "so = ==ก็เลย เลย=="
+  status: approved
+- id: cefr-a2-w12-008
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: I like Korean food, ____ my husband prefers Japanese food.
+  choices:
+    - {t: but, why: "ความชอบต่างกัน ++but++"}
+    - {t: so, why: "ไม่ได้บอกผล จึงใช้ไม่ได้"}
+    - {t: because, why: "ไม่ได้บอกเหตุ จึงใช้ไม่ได้"}
+    - {t: or, why: "ไม่ได้ให้เลือก จึงใช้ไม่ได้"}
+  explain: "สองคนชอบต่างกัน เชื่อมด้วย ==but=="
+  status: approved
+- id: cefr-a2-w12-009
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: I went to the pharmacy ____ I needed some medicine for my cold.
+  choices:
+    - {t: because, why: "เหตุผลที่ไปร้านยา ++because++"}
+    - {t: so, why: "so ต้องตามด้วยผล"}
+    - {t: and, why: "and ไม่บอกเหตุผล"}
+    - {t: then, why: "then บอกลำดับ ไม่ใช่เหตุผล"}
+  explain: "ทำไม? ตอบด้วย ==because=="
+  status: approved
+- id: cefr-a2-w12-010
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: I finished work early ____ went to the gym.
+  choices:
+    - {t: and, why: "สองการกระทำต่อกัน ++and++"}
+    - {t: but, why: "ไม่ได้ขัดแย้ง จึงใช้ไม่ได้"}
+    - {t: because, why: "ไม่ได้บอกเหตุผล"}
+    - {t: or, why: "ไม่ได้ให้เลือก จึงใช้ไม่ได้"}
+  explain: "and = ==และ (เพิ่มเรื่อง)=="
+  status: approved
+- id: cefr-a2-w12-011
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 3
+  stem: "Which sentence about the weekend uses linkers correctly?"
+  choices:
+    - {t: "It rained, so we stayed home and watched films.", why: "so บอกผล ++and++ เพิ่มเรื่อง"}
+    - {t: "It rained, because we stayed home and watched films.", why: "because ต้องตามด้วยเหตุ"}
+    - {t: "It rained, but we stayed home or watched films.", why: "but และ or ไม่เข้ากับความหมาย"}
+    - {t: "It rained, so we stayed home but watched films.", why: "but ไม่เข้ากับสองกิจกรรมที่ไปทางเดียวกัน"}
+  explain: "เลือกคำเชื่อมตาม ==ความหมาย== เหตุ ผล ขัดแย้ง เพิ่ม"
+  status: approved
+- id: cefr-a2-w12-012
+  kind: type
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  stem: I was hungry, ____ I made a sandwich. (ก็เลย)
+  answer: so
+  accept: [so]
+  why: "หิว (เหตุ) ก็เลยทำแซนด์วิช (ผล) ใช้ so"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์การเรียนและอินเทอร์เน็ต ----------
+- id: cefr-a2-w12-013
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  stem: I don't understand this rule. Can you ____ it again, please?
+  choices:
+    - {t: explain, why: "อธิบาย = ++explain++"}
+    - {t: borrow, why: "ยืมกฎไม่ได้ จึงใช้ไม่ได้"}
+    - {t: lend, why: "lend ต้องมีคนรับ"}
+    - {t: choose, why: "ไม่เข้ากับไม่เข้าใจ"}
+  explain: "explain = ==อธิบาย== (explain it to me ไม่ใช่ explain me)"
+  status: approved
+- id: cefr-a2-w12-014
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  stem: If you want to speak English well, you have to ____ every day.
+  choices:
+    - {t: practise, why: "ฝึก = ++practise++"}
+    - {t: borrow, why: "ยืมไม่ช่วยให้พูดเก่ง"}
+    - {t: lend, why: "ไม่เข้ากับบริบท"}
+    - {t: check, why: "ตรวจไม่ใช่การฝึกพูด"}
+  explain: "practise (ก.) = ==ฝึก== · practice (น.) = การฝึก"
+  status: approved
+- id: cefr-a2-w12-015
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  stem: Please ____ your answers before you send the form.
+  choices:
+    - {t: check, why: "ตรวจดู = ++check++"}
+    - {t: lend, why: "ให้ยืมคำตอบไม่เข้ากับบริบท"}
+    - {t: explain, why: "ไม่เข้ากับก่อนส่งแบบฟอร์ม"}
+    - {t: borrow, why: "ยืมคำตอบไม่เข้ากับบริบท"}
+  explain: "check = ==ตรวจสอบ เช็ก=="
+  status: approved
+- id: cefr-a2-w12-016
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  stem: There are three colours. You can ____ one.
+  choices:
+    - {t: choose, why: "เลือก = ++choose++"}
+    - {t: explain, why: "ไม่เข้ากับการเลือกสี"}
+    - {t: check, why: "บทไม่ได้พูดว่า check"}
+    - {t: practise, why: "บทไม่ได้พูดว่า practise"}
+  explain: "choose = ==เลือก== (อดีต chose)"
+  status: approved
+- id: cefr-a2-w12-017
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  stem: Can I ____ your pen for a minute? I'll give it back.
+  choices:
+    - {t: borrow, why: "ขอยืม (เรารับมา) = ++borrow++"}
+    - {t: lend, why: "lend คือให้คนอื่นยืม"}
+    - {t: share, why: "ไม่ใช่คำศัพท์ของสัปดาห์นี้และไม่ตรงกับ give it back"}
+    - {t: choose, why: "ไม่เข้ากับบริบท"}
+  explain: "borrow = ==ยืม (มาจากคนอื่น)=="
+  status: approved
+- id: cefr-a2-w12-018
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: Could you ____ me 100 baht? I left my wallet at home.
+  choices:
+    - {t: lend, why: "ให้ยืม (คนอื่นให้เรา) = ++lend me++"}
+    - {t: borrow, why: "borrow me ผิด ใช้ borrow from"}
+    - {t: explain, why: "ไม่เข้ากับเงิน จึงใช้ไม่ได้"}
+    - {t: check, why: "บทไม่ได้พูดว่า check"}
+  explain: "lend + คน + ของ = ==ให้ยืม== · borrow ของ from คน = ยืม"
+  status: approved
+- id: cefr-a2-w12-019
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: You can borrow books for free at the city ____.
+  choices:
+    - {t: library, why: "ยืมหนังสือฟรี = ++library++"}
+    - {t: dictionary, why: "dictionary คือพจนานุกรม ไม่ใช่สถานที่"}
+    - {t: website, why: "ไม่ใช่สถานที่ยืมหนังสือ"}
+    - {t: exercise, why: "ไม่ใช่สถานที่ จึงใช้ไม่ได้"}
+  explain: "library = ==ห้องสมุด== (ร้านหนังสือ = bookshop)"
+  status: approved
+- id: cefr-a2-w12-020
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: I don't know this word. Let me look it up in a ____.
+  choices:
+    - {t: dictionary, why: "หาความหมายคำ = ++dictionary++"}
+    - {t: library, why: "look it up in a library ไม่ตรงความหมาย"}
+    - {t: email, why: "ไม่เข้ากับการหาคำ"}
+    - {t: idea, why: "บทไม่ได้พูดว่า idea"}
+  explain: "dictionary = ==พจนานุกรม=="
+  status: approved
+- id: cefr-a2-w12-021
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: I'll send you the details by ____ this afternoon.
+  choices:
+    - {t: email, why: "ส่งรายละเอียด = ++by email++"}
+    - {t: website, why: "by website ไม่ใช่วลีที่ใช้"}
+    - {t: library, why: "ไม่เข้ากับการส่ง"}
+    - {t: idea, why: "บทไม่ได้พูดว่า idea"}
+  explain: "email = ==อีเมล== · send an email / by email"
+  status: approved
+- id: cefr-a2-w12-022
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: You can book tickets on the cinema's ____.
+  choices:
+    - {t: website, why: "จองออนไลน์ = ++website++"}
+    - {t: dictionary, why: "ไม่เข้ากับการจองตั๋ว"}
+    - {t: exercise, why: "บทไม่ได้พูดว่า exercise"}
+    - {t: idea, why: "บทไม่ได้พูดว่า idea"}
+  explain: "website = ==เว็บไซต์=="
+  status: approved
+- id: cefr-a2-w12-023
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: "\"Let's have a picnic in the park!\" \"That's a great ____!\""
+  choices:
+    - {t: idea, why: "ความคิดดี = ++great idea++"}
+    - {t: exercise, why: "great exercise ไม่ใช่คำตอบรับข้อเสนอ"}
+    - {t: website, why: "ไม่เข้ากับบริบท"}
+    - {t: email, why: "บทไม่ได้พูดว่า email"}
+  explain: "idea = ==ความคิด ไอเดีย== · Good idea!"
+  status: approved
+- id: cefr-a2-w12-024
+  kind: type
+  skill: vo
+  topic: study-online
+  level: 2
+  stem: Please do e____ 3 on page 20 for homework. (แบบฝึกหัด)
+  answer: exercise
+  accept: [exercise, Exercise]
+  why: "exercise = แบบฝึกหัด · ยังแปลว่าออกกำลังกาย"
+  status: approved
+# ---------- วันที่ 3 · ทบทวนปนกัน + สรรพนามกรรม ----------
+- id: cefr-a2-w12-025
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 1
+  stem: I called my sister and told ____ the good news.
+  choices:
+    - {t: her, why: "กรรมของ she ++her++"}
+    - {t: she, why: "she ใช้เป็นประธาน"}
+    - {t: hers, why: "hers แปลว่าของเธอ"}
+    - {t: him, why: "him ใช้กับผู้ชาย"}
+  explain: "หลังกริยาใช้ ==me him her us them== (สรรพนามกรรม)"
+  status: approved
+- id: cefr-a2-w12-026
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 1
+  stem: "My parents are coming to visit. I'm going to meet ____ at the airport."
+  choices:
+    - {t: them, why: "กรรมของ they ++them++"}
+    - {t: they, why: "they ใช้เป็นประธาน"}
+    - {t: their, why: "their ต้องตามด้วยคำนาม"}
+    - {t: us, why: "us คือพวกเรา จึงใช้ไม่ได้"}
+  explain: "they → ==them== (หลังกริยา)"
+  status: approved
+- id: cefr-a2-w12-027
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 1
+  stem: Can you help ____? I can't open this bottle.
+  choices:
+    - {t: me, why: "กรรมของ I ++me++"}
+    - {t: I, why: "I ใช้เป็นประธาน"}
+    - {t: my, why: "my ต้องตามด้วยคำนาม"}
+    - {t: mine, why: "mine แปลว่าของฉัน"}
+  explain: "help ==me== (ไม่ใช่ help I)"
+  status: approved
+- id: cefr-a2-w12-028
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  stem: Our teacher gave ____ a lot of homework yesterday.
+  choices:
+    - {t: us, why: "กรรมของ we ++us++"}
+    - {t: we, why: "we ใช้เป็นประธาน"}
+    - {t: our, why: "our ต้องตามด้วยคำนาม"}
+    - {t: ours, why: "ours แปลว่าของพวกเรา"}
+  explain: "we → ==us=="
+  status: approved
+- id: cefr-a2-w12-029
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  stem: Right now my brother ____ in Japan, but he usually ____ in Thailand.
+  choices:
+    - {t: is working / works, why: "ตอนนี้ใช้ -ing · usually ++ใช้รูปปกติ++"}
+    - {t: works / is working, why: "สลับกัน จึงใช้ไม่ได้"}
+    - {t: is working / is working, why: "usually ใช้รูปปกติ"}
+    - {t: work / works, why: "he ต้องเติม s และ right now ต้องใช้ -ing"}
+  explain: "ทบทวน ==now → -ing · usually → รูปปกติ=="
+  status: approved
+- id: cefr-a2-w12-030
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  stem: Last year we ____ to Vietnam, and next year we're going to visit Laos.
+  choices:
+    - {t: went, why: "last year อดีต ++went++"}
+    - {t: go, why: "last year ต้องใช้อดีต"}
+    - {t: are going, why: "last year ไม่ใช่อนาคต"}
+    - {t: goed, why: "go เป็นกริยาไม่ปกติ"}
+  explain: "ทบทวน ==อดีต went · อนาคต going to=="
+  status: approved
+- id: cefr-a2-w12-031
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  stem: This is ____ café in the area, and it's cheaper than the others.
+  choices:
+    - {t: the nicest, why: "ขั้นสุด ++the + -est++"}
+    - {t: nicer, why: "in the area ต้องใช้ขั้นสุด"}
+    - {t: the most nice, why: "nice ใช้ -est จึงใช้ไม่ได้"}
+    - {t: nicest, why: "ขาด the จึงใช้ไม่ได้"}
+  explain: "ทบทวน ==the -est in + สถานที่=="
+  status: approved
+- id: cefr-a2-w12-032
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 3
+  stem: "Which reply to \"Did you finish the report?\" is correct?"
+  choices:
+    - {t: "Not yet. I didn't have time, but I'll finish it tonight.", why: "didn't + have · ++I'll + finish++ ถูกทั้งคู่"}
+    - {t: "Not yet. I didn't had time, but I'll finish it tonight.", why: "หลัง didn't ใช้ have"}
+    - {t: "Not yet. I didn't have time, but I'll finished it tonight.", why: "หลัง will ใช้รูปเดิม"}
+    - {t: "Not yet. I don't have time yesterday, but I'll finish it tonight.", why: "yesterday ต้องใช้อดีต"}
+  explain: "ทบทวน ==did/will + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w12-033
+  kind: type
+  skill: gm
+  topic: review-a2
+  level: 2
+  stem: I love this song. I listen to ____ every day. (มัน · กรรม)
+  answer: it
+  accept: [it]
+  why: "สรรพนามกรรมของสิ่งของคือ it"
+  status: approved
+- id: cefr-a2-w12-034
+  kind: cloze
+  skill: gm
+  topic: review-a2
+  level: 2
+  text: |
+    Hi Joy! Thanks for the book. I (1) ____ it on the train yesterday, and I loved it. Can I lend it to my sister? She (2) ____ reading too. I'll give it back to (3) ____ next week.
+  questions:
+    - choices:
+        - {t: read, why: "อดีตของ read ก็คือ read (อ่านว่า เร็ด)"}
+        - {t: readed, why: "read เป็นกริยาไม่ปกติ"}
+        - {t: am reading, why: "yesterday ต้องใช้อดีต"}
+        - {t: reads, why: "บทไม่ได้พูดว่า reads"}
+    - choices:
+        - {t: loves, why: "she + love เติม s (ความชอบใช้รูปปกติ)"}
+        - {t: is loving, why: "love ไม่ใช้ -ing ในระดับนี้"}
+        - {t: love, why: "she ต้องเติม s จึงใช้ไม่ได้"}
+        - {t: loved, why: "ความชอบที่ยังเป็นอยู่ใช้ปัจจุบัน"}
+    - choices:
+        - {t: you, why: "กรรมของ you ก็คือ you"}
+        - {t: your, why: "your ต้องตามด้วยคำนาม"}
+        - {t: yours, why: "yours แปลว่าของคุณ"}
+        - {t: her, why: "จะคืนให้ Joy ไม่ใช่พี่น้อง"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w12-035
+  kind: read
+  skill: rd
+  topic: email-to-friend
+  level: 1
+  title: "An Email from Kate"
+  passage: |
+    Hi Pim,
+
+    How are you? I'm writing because I need your help. I'm going to start an English class next Monday, and I need a good dictionary. Can I borrow yours? I'll give it back at the end of the month.
+
+    Also, the teacher gave us a list of websites for practice. I'll send it to you — I think you'll like them.
+
+    By the way, are you free on Saturday? We could study together at the library and then have lunch.
+
+    Love,
+    Kate
+  questions:
+    - stem: Why is Kate writing to Pim?
+      choices:
+        - {t: she wants to borrow a dictionary, why: "I need a good dictionary. Can I borrow yours?"}
+        - {t: she wants Pim to teach her, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: she wants to lend Pim a book, why: "Kate เป็นคนขอยืม"}
+        - {t: she is inviting Pim to a party, why: "ชวนไปห้องสมุด ไม่ใช่งานเลี้ยง"}
+    - stem: When will Kate return the dictionary?
+      choices:
+        - {t: at the end of the month, why: "I'll give it back at the end of the month"}
+        - {t: next Monday, why: "วันจันทร์คือวันเริ่มเรียน"}
+        - {t: on Saturday, why: "วันเสาร์คือวันชวนไปห้องสมุด"}
+        - {t: she won't return it, why: "เธอบอกว่าจะคืน จึงใช้ไม่ได้"}
+    - stem: What is Kate going to send Pim?
+      choices:
+        - {t: a list of websites, why: "a list of websites ... I'll send it to you"}
+        - {t: a dictionary, why: "Kate ขอยืมพจนานุกรม"}
+        - {t: her homework, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: a lunch invitation card, why: "บทไม่ได้พูดว่า a lunch invitation card"}
+    - stem: What does Kate suggest for Saturday?
+      choices:
+        - {t: studying at the library and having lunch, why: "study together at the library and then have lunch"}
+        - {t: going to an English class, why: "เรียนเริ่มวันจันทร์"}
+        - {t: shopping for a dictionary, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: staying at home, why: "เธอชวนออกไปข้างนอก"}
+  status: approved
+- id: cefr-a2-w12-036
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 1
+  script:
+    - {who: Woman, en: "Can you lend me your charger? My phone is almost dead."}
+    - {who: Man, en: "Sure, here you are. Just give it back after lunch."}
+  questions:
+    - stem: What does the woman want to borrow?
+      choices:
+        - {t: a phone charger, why: "lend me your charger = ขอยืมที่ชาร์จ"}
+        - {t: a phone, why: "เธอมีโทรศัพท์แล้ว"}
+        - {t: some money, why: "ไม่ได้พูดถึงเงิน"}
+        - {t: his lunch, why: "lunch คือเวลาที่ต้องคืน"}
+  status: approved
+- id: cefr-a2-w12-037
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 1
+  script:
+    - {who: Man, en: "First, open the website. Then click on 'Sign up'. After that, check your email."}
+  questions:
+    - stem: What should you do after you click 'Sign up'?
+      choices:
+        - {t: check your email, why: "After that, check your email"}
+        - {t: open the website, why: "เป็นขั้นแรก จึงใช้ไม่ได้"}
+        - {t: call the office, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: click 'Sign up' again, why: "บทไม่ได้พูดว่า click 'Sign up' again"}
+  status: approved
+- id: cefr-a2-w12-038
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 2
+  script:
+    - {who: Woman, en: "I didn't go to the meeting yesterday because I was sick, so my boss sent me the notes. I'm going to read them tonight."}
+  questions:
+    - stem: Why didn't the woman go to the meeting?
+      choices:
+        - {t: she was sick, why: "because I was sick"}
+        - {t: she was reading notes, why: "เธอจะอ่านคืนนี้"}
+        - {t: her boss told her not to come, why: "ไม่ได้พูดแบบนั้น"}
+        - {t: she forgot about it, why: "ไม่ได้พูดว่าลืม"}
+  status: approved
+- id: cefr-a2-w12-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I was tired, so I, went to bed, early last night]
+  sentence: I was tired so I went to bed early last night.
+  th: เมื่อคืนฉันเหนื่อย เลยเข้านอนเร็ว
+  why: "เหนื่อย (เหตุ) + so + เข้านอนเร็ว (ผล)"
+  status: approved
+- id: cefr-a2-w12-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Can you, lend me, your dictionary, until Friday]
+  sentence: Can you lend me your dictionary until Friday?
+  th: ให้ฉันยืมพจนานุกรมถึงวันศุกร์ได้ไหม
+  why: "lend + คน + ของ"
+  status: approved
+- id: cefr-a2-w12-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [First we, had lunch, and after that, we visited the museum]
+  sentence: First we had lunch and after that we visited the museum.
+  th: อย่างแรกเรากินข้าวเที่ยง และหลังจากนั้นเราไปพิพิธภัณฑ์
+  why: "First ... and after that ... เล่าตามลำดับ"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-a2-w12-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Could I, borrow your laptop, because mine is broken, and I have to work]
+  sentence: Could I borrow your laptop because mine is broken and I have to work?
+  th: ขอยืมแล็ปท็อปได้ไหม เพราะของฉันเสีย และฉันต้องทำงาน
+  why: "ขอยืมสุภาพ + because + เหตุผล"
+  status: approved
