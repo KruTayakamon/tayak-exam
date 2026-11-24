@@ -68,3 +68,20 @@ export function pickMock(pool, blueprint, seen, rng) {
   }
   return { ids: out, short };
 }
+
+/**
+ * ชุดย่อยจับเวลาวันที่ 6 (course/cefr/_assessment.yaml weekly_mock) · pool = [{id, skill, points, week}] ข้อสำรองของสัปดาห์ ≤ week
+ * สัปดาห์ 1 ใช้ข้อของสัปดาห์นี้ทั้งหมด · ตั้งแต่ mix_from_week: ราว 30% ของแต่ละทักษะมาจากสัปดาห์ก่อน ๆ (บทอ่านคงเป็นของสัปดาห์นี้)
+ * ส่วนที่ขาดฝั่งใดเติมจากอีกฝั่ง · คืน { ids, short }
+ */
+export function mockPlan({ pool, week, blueprint, seen = new Set(), rng = Math.random, mixFrom = 2 }) {
+  const now = pool.filter((p) => p.week === week), old = pool.filter((p) => p.week < week);
+  const oldBp = {}, nowBp = {};
+  for (const [k, n] of Object.entries(blueprint)) { const o = week >= mixFrom && k !== 'rd' ? Math.round(n * 0.3) : 0; oldBp[k] = o; nowBp[k] = n - o; }
+  const a = pickMock(old, oldBp, seen, rng);
+  for (const [k, n] of Object.entries(a.short)) nowBp[k] += n;                 // สัปดาห์ก่อนมีไม่พอ → เอาจากสัปดาห์นี้
+  const b = pickMock(now.filter((p) => !a.ids.includes(p.id)), nowBp, seen, rng);
+  const used = new Set([...a.ids, ...b.ids]);
+  const c = pickMock(pool.filter((p) => !used.has(p.id)), b.short, seen, rng);  // ยังขาด → เติมจากข้อที่เหลือทั้งหมด
+  return { ids: [...a.ids, ...b.ids, ...c.ids], short: c.short };
+}

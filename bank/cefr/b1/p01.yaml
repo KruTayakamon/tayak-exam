@@ -1,0 +1,278 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 1 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w01-043
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  pool: true
+  stem: Our office usually ____ at 8.30, but this month it's opening at 9 because of the roadworks.
+  choices:
+    - {t: opens, why: "usually = กิจวัตร ใช้ ++present simple++"}
+    - {t: is opening, why: "usually บอกเรื่องปกติ ไม่ใช่ช่วงนี้"}
+    - {t: open, why: "our office เป็นเอกพจน์ ต้องเติม s"}
+    - {t: opening, why: "ขาดกริยาแท้ is จึงใช้ไม่ได้"}
+  explain: "ปกติ ==usually + รูปปกติ== · ช่วงนี้ this month + -ing"
+  status: approved
+- id: cefr-b1-w01-044
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 1
+  pool: true
+  stem: Sorry, Khun Wit can't come to the phone. He ____ a client at the moment.
+  choices:
+    - {t: is meeting, why: "at the moment = ++กำลังทำอยู่++"}
+    - {t: meets, why: "รูปปกติใช้กับกิจวัตร ไม่ใช่ตอนนี้"}
+    - {t: meet, why: "he ต้องใช้ is meeting"}
+    - {t: has meet, why: "ผิดรูป และไม่ตรงความหมาย"}
+  explain: "at the moment / right now → ==am/is/are + -ing=="
+  status: approved
+- id: cefr-b1-w01-045
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  pool: true
+  stem: I ____ from home this week because my car is at the garage.
+  choices:
+    - {t: am working, why: "ช่วงนี้ชั่วคราว ++this week + -ing++"}
+    - {t: work, why: "รูปปกติใช้กับเรื่องถาวร"}
+    - {t: works, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+    - {t: was work, why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "ชั่วคราวช่วงนี้ ==-ing== · ถาวร/ประจำ รูปปกติ"
+  status: approved
+- id: cefr-b1-w01-046
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  pool: true
+  stem: More and more people in my town ____ electric motorbikes these days.
+  choices:
+    - {t: are buying, why: "แนวโน้มที่กำลังเปลี่ยน ++are + -ing++"}
+    - {t: buys, why: "people เป็นพหูพจน์ ไม่เติม s"}
+    - {t: is buying, why: "people เป็นพหูพจน์"}
+    - {t: buying, why: "ขาด are จึงใช้ไม่ได้"}
+  explain: "แนวโน้มที่กำลังเปลี่ยน ==more and more ... -ing=="
+  status: approved
+- id: cefr-b1-w01-047
+  kind: mcq
+  skill: gm
+  topic: present-simple-vs-continuous
+  level: 2
+  pool: true
+  stem: "\"What does your sister do?\" \"She ____ for an airline. She's a pilot.\""
+  choices:
+    - {t: works, why: "ถามอาชีพ ตอบด้วย ++รูปปกติ++"}
+    - {t: is working, why: "อาชีพประจำใช้รูปปกติ"}
+    - {t: work, why: "she ต้องเติม s จึงใช้ไม่ได้"}
+    - {t: does work, why: "ไม่ใช่รูปบอกเล่าปกติ"}
+  explain: "What does she do? = ==ทำงานอะไร== ตอบด้วยรูปปกติ"
+  status: approved
+- id: cefr-b1-w01-048
+  kind: mcq
+  skill: gm
+  topic: stative-verbs-questions
+  level: 1
+  pool: true
+  stem: I ____ what you mean, but I don't agree with you.
+  choices:
+    - {t: understand, why: "กริยาความคิด ++ไม่ใช้ -ing++"}
+    - {t: am understanding, why: "understand ไม่ใช้รูป -ing"}
+    - {t: understands, why: "I ไม่เติม s จึงใช้ไม่ได้"}
+    - {t: understanding, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "know understand believe want ==ไม่ใช้ -ing=="
+  status: approved
+- id: cefr-b1-w01-049
+  kind: mcq
+  skill: gm
+  topic: stative-verbs-questions
+  level: 2
+  pool: true
+  stem: "\"How often ____ the team meet?\" \"Every Monday morning.\""
+  choices:
+    - {t: does, why: "the team เอกพจน์ ++does++"}
+    - {t: is, why: "ไม่ใช้ is กับกริยา meet"}
+    - {t: do, why: "the team ถือเป็นหน่วยเดียว ใช้ does"}
+    - {t: has, why: "has ไม่ใช้ตั้งคำถามแบบนี้"}
+  explain: "Wh- + ==does + ประธานเอกพจน์ + กริยารูปเดิม=="
+  status: approved
+- id: cefr-b1-w01-050
+  kind: mcq
+  skill: gm
+  topic: stative-verbs-questions
+  level: 2
+  pool: true
+  stem: This soup ____ delicious. Can I have the recipe?
+  choices:
+    - {t: tastes, why: "รสชาติ (สภาพ) ++ใช้รูปปกติ++"}
+    - {t: is tasting, why: "taste ในความหมายมีรสชาติไม่ใช้ -ing"}
+    - {t: taste, why: "soup เอกพจน์ต้องเติม s"}
+    - {t: tasting, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "taste smell look (ดูเหมือน) ==บอกสภาพ ใช้รูปปกติ=="
+  status: approved
+- id: cefr-b1-w01-051
+  kind: mcq
+  skill: gm
+  topic: stative-verbs-questions
+  level: 3
+  pool: true
+  stem: "Which question to a new colleague is correct?"
+  choices:
+    - {t: "Which department do you belong to?", why: "belong ไม่ใช้ -ing ++คำถามใช้ do++"}
+    - {t: "Which department are you belonging to?", why: "belong ไม่ใช้รูป -ing"}
+    - {t: "Which department you belong to?", why: "คำถามต้องมี do หน้า you"}
+    - {t: "Which department does you belong to?", why: "you ใช้ do จึงใช้ไม่ได้"}
+  explain: "belong own need ==ไม่ใช้ -ing== · คำถามใช้ do/does"
+  status: approved
+- id: cefr-b1-w01-052
+  kind: mcq
+  skill: vo
+  topic: work-self
+  level: 1
+  pool: true
+  stem: All ____ must wear their ID cards inside the building.
+  choices:
+    - {t: staff, why: "พนักงานทั้งหมด = ++staff++"}
+    - {t: subject, why: "subject คือวิชาหรือหัวข้อ"}
+    - {t: deadline, why: "deadline คือกำหนดส่ง"}
+    - {t: timetable, why: "timetable คือตารางเวลา"}
+  explain: "staff = ==พนักงาน บุคลากร (ทั้งกลุ่ม)=="
+  status: approved
+- id: cefr-b1-w01-053
+  kind: mcq
+  skill: vo
+  topic: work-self
+  level: 1
+  pool: true
+  stem: The ____ for the report is Friday at noon. Please don't be late.
+  choices:
+    - {t: deadline, why: "กำหนดส่ง = ++deadline++"}
+    - {t: experience, why: "ไม่ใช่วันเวลาส่งงาน"}
+    - {t: colleague, why: "colleague คือเพื่อนร่วมงาน"}
+    - {t: staff, why: "บทไม่ได้พูดว่า staff"}
+  explain: "deadline = ==วันกำหนดส่ง=="
+  status: approved
+- id: cefr-b1-w01-054
+  kind: mcq
+  skill: vo
+  topic: work-self
+  level: 1
+  pool: true
+  stem: About forty people will ____ the training on Saturday.
+  choices:
+    - {t: attend, why: "เข้าร่วม = ++attend++ (ไม่ต้องมี to)"}
+    - {t: prepare, why: "prepare คือเตรียม ไม่ใช่เข้าร่วม"}
+    - {t: improve, why: "improve คือพัฒนา"}
+    - {t: responsible, why: "responsible เป็นคุณศัพท์"}
+  explain: "attend + กิจกรรม = ==เข้าร่วม== (attend a meeting)"
+  status: approved
+- id: cefr-b1-w01-055
+  kind: mcq
+  skill: vo
+  topic: work-self
+  level: 2
+  pool: true
+  stem: Who is ____ for ordering paper and ink in your office?
+  choices:
+    - {t: responsible, why: "รับผิดชอบ = ++responsible for++"}
+    - {t: currently, why: "currently เป็นคำวิเศษณ์"}
+    - {t: experience, why: "experience เป็นคำนาม"}
+    - {t: attend, why: "attend เป็นกริยา"}
+  explain: "be responsible ==for== + สิ่งที่ดูแล"
+  status: approved
+- id: cefr-b1-w01-056
+  kind: mcq
+  skill: vo
+  topic: work-self
+  level: 2
+  pool: true
+  stem: I want to ____ my spoken English, so I practise with a friend every week.
+  choices:
+    - {t: improve, why: "ทำให้ดีขึ้น = ++improve++"}
+    - {t: attend, why: "attend ใช้กับกิจกรรม"}
+    - {t: prepare, why: "เตรียมภาษาพูดไม่ตรงความหมาย"}
+    - {t: responsible, why: "เป็นคุณศัพท์ จึงใช้ไม่ได้"}
+  explain: "improve = ==ทำให้ดีขึ้น พัฒนา=="
+  status: approved
+- id: cefr-b1-w01-057
+  kind: mcq
+  skill: vo
+  topic: work-self
+  level: 2
+  pool: true
+  stem: She has ten years of ____ in hotel management.
+  choices:
+    - {t: experience, why: "ประสบการณ์ = ++experience++ (นับไม่ได้)"}
+    - {t: assignment, why: "assignment คืองานที่มอบหมาย"}
+    - {t: deadline, why: "ไม่เข้ากับสิบปี"}
+    - {t: timetable, why: "บทไม่ได้พูดว่า timetable"}
+  explain: "years of experience = ==ประสบการณ์ ... ปี=="
+  status: approved
+- id: cefr-b1-w01-058
+  kind: read
+  skill: rd
+  topic: news-short
+  level: 2
+  pool: true
+  title: "Staff News: A New Face in Customer Service"
+  passage: |
+    This month we are welcoming Mr Pornchai Saetang to the customer service team. Pornchai has eight years of experience in hotels and speaks Thai, English and Chinese.
+
+    He is currently working on our new online help system, which will open in January. Until then, he is answering customer emails in the mornings and attending training in the afternoons.
+
+    Pornchai says he enjoys solving problems and meeting new people. Outside work, he runs a small cooking club for his neighbours. Please say hello if you see him on the third floor.
+  questions:
+    - stem: What is Pornchai doing in the afternoons this month?
+      choices:
+        - {t: attending training, why: "attending training in the afternoons"}
+        - {t: answering customer emails, why: "ตอบอีเมลตอนเช้า"}
+        - {t: working in a hotel, why: "เป็นงานเก่าของเขา"}
+        - {t: running a cooking club, why: "ชมรมทำอาหารเป็นงานนอกเวลา"}
+    - stem: When will the new online help system open?
+      choices:
+        - {t: in January, why: "which will open in January"}
+        - {t: this month, why: "เดือนนี้คือเดือนที่เขาเริ่มงาน"}
+        - {t: in eight years, why: "8 ปีคือประสบการณ์"}
+        - {t: it is already open, why: "ระบบยังไม่เปิด จึงใช้ไม่ได้"}
+    - stem: Where can staff find Pornchai?
+      choices:
+        - {t: on the third floor, why: "if you see him on the third floor"}
+        - {t: in the hotel, why: "เขาไม่ได้ทำงานโรงแรมแล้ว"}
+        - {t: at the cooking club only, why: "ชมรมอยู่นอกเวลางาน"}
+        - {t: in the training room all day, why: "อบรมเฉพาะช่วงบ่าย"}
+  status: approved
+- id: cefr-b1-w01-059
+  kind: listen
+  skill: li
+  topic: work-talk
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Are you still working on the sales report?"}
+    - {who: Man, en: "No, I finished it this morning. Now I'm preparing the slides for tomorrow's meeting."}
+  questions:
+    - stem: What is the man doing now?
+      choices:
+        - {t: preparing slides for a meeting, why: "Now I'm preparing the slides"}
+        - {t: writing the sales report, why: "เขาเขียนรายงานเสร็จแล้ว"}
+        - {t: attending a meeting, why: "ประชุมคือพรุ่งนี้"}
+        - {t: having a break, why: "ไม่ได้พูดถึงการพัก"}
+  status: approved
+- id: cefr-b1-w01-060
+  kind: listen
+  skill: li
+  topic: work-talk
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I usually cycle to work, but this week I'm taking the bus because I hurt my knee."}
+  questions:
+    - stem: Why is the man taking the bus this week?
+      choices:
+        - {t: he hurt his knee, why: "because I hurt my knee"}
+        - {t: his bicycle is broken, why: "ไม่ได้พูดว่าจักรยานเสีย"}
+        - {t: he always takes the bus, why: "ปกติเขาปั่นจักรยาน"}
+        - {t: the weather is bad, why: "ไม่ได้พูดถึงอากาศ"}
+  status: approved

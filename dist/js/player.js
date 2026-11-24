@@ -4,6 +4,8 @@ import { api } from './api.js';
 import { getSession, putSession, clearSession, getQueue, pushEvent, dropEvents, newId, getStars, putStars } from './store.js';
 import { renderItem, el, esc, mark, rich, notesHtml, say, canSay, spk, spkThai, keepBox } from './items.js';
 import { lookupTip } from './lookup.js';
+import { timedSet } from './checkpoint.js';
+import { grade } from './engine/grade.mjs';
 
 // ---------- คำชม ดาว และตราพิเศษ (มติบอส 17 พ.ย. รอบ 17) ----------
 const PRAISE = ['เก่งมาก!', 'ถูกเป๊ะ!', 'เยี่ยมเลย!', 'แม่นมาก!', 'สุดยอด!', 'ใช่เลย!', 'ปังมาก!', 'คล่องขึ้นเรื่อย ๆ!'];
@@ -54,7 +56,7 @@ export function flatten(plan) {
     else if (s.step === 'use') cards.push({ type: 'use', step: 'use', use: s.use });
     else if (s.step === 'close') cards.push({ type: 'close', step: 'close', classroom: s.classroom });
     else if (s.step === 'lab_prepare' || s.step === 'lab_do') cards.push({ type: s.step, step: s.step, lab: s.lab });
-    else if (s.step === 'mock') cards.push({ type: 'mock', step: 'mock', mock: s.mock });
+    else if (s.step === 'mock') cards.push({ type: 'mock', step: 'mock', mock: s.mock, ids: s.ids || [] });
   }
   if (!cards.length || cards[cards.length - 1].type !== 'close') cards.push({ type: 'close', step: 'close' });
   return cards;
@@ -199,9 +201,46 @@ export async function openSession(root, kind, onExit) {
         body.append(cl, nextBtn('ไปต่อ'));
       }
     } else if (card.type === 'mock') {
-      body.appendChild(el(`<h2>ชุดย่อยจับเวลา ${card.mock.items} ข้อ ${card.mock.time_min} นาที</h2>`));
-      body.appendChild(el(`<div class="note">${esc(card.mock.note_th || 'ชุดย่อยของสัปดาห์นี้ยังไม่มีข้อในคลัง')}</div>`));
-      body.appendChild(nextBtn('ข้ามไปสรุป'));
+      const its = (card.ids || []).map((id) => s.items[id]).filter(Boolean);
+      const mins = card.mock.time_min || 15, pts = its.reduce((a, it) => a + (it.questions ? it.questions.length : 1), 0);
+      if (!its.length) {                                                  // ยังไม่มีข้อสำรองในคลัง
+        body.appendChild(el(`<h2>ชุดย่อยจับเวลา ${card.mock.items} ข้อ ${mins} นาที</h2>`));
+        body.appendChild(el('<div class="note">ชุดย่อยของสัปดาห์นี้ยังไม่พร้อม ข้ามไปสรุปได้เลย</div>'));
+        body.appendChild(nextBtn('ข้ามไปสรุป'));
+      } else if (s.mockScore) {                                           // ทำแล้ว (โหลดหน้าใหม่หลังส่ง)
+        body.appendChild(el(`<div class="card" id="mockDone"><h2>ชุดย่อยจับเวลา</h2><p class="price">${s.mockScore.total}/${s.mockScore.max} <small>คะแนน</small></p></div>`));
+        body.appendChild(nextBtn('ไปต่อ'));
+      } else {
+        body.appendChild(el(`<div id="mockIntro"><h2>ชุดย่อยจับเวลา ${pts} ข้อ ${mins} นาที</h2><div class="card"><ul class="list">
+          <li><span class="tick">✓</span><span>ทบทวนเรื่องของสัปดาห์นี้ และบางข้อจากสัปดาห์ก่อน</span></li>
+          <li><span class="tick">✓</span><span>ระหว่างทำยังไม่เห็นเฉลย ส่งแล้วเห็นคะแนน เฉลย และเหตุผลทุกข้อ</span></li>
+          <li><span class="tick">✓</span><span>หัวข้อที่ได้ต่ำ ระบบจะพาทบทวนให้ในวันต่อ ๆ ไป</span></li></ul></div></div>`));
+        const go2 = el('<button class="btn" id="mockStart">เริ่มทำ</button>');
+        go2.onclick = () => {
+          body.innerHTML = '';
+          timedSet(body, its, mins * 60000, {
+            key: 'cfk-mock-' + card.ids.join('').length + card.ids[0], title: 'ผลชุดย่อยจับเวลา', backLabel: 'ไปต่อ',
+            grade: (answers) => {                                         // ตรวจในเครื่อง (ข้อในเซสชันมีเฉลยอยู่แล้ว) แล้วส่งคำตอบเข้าคิวเหมือนข้ออื่น
+              const by = {}; let total = 0, max = 0;
+              for (const it of its) {
+                const qs = it.questions || [it];
+                qs.forEach((q, qi) => {
+                  const k = it.questions && it.questions.length > 1 ? `${it.id}:${qi}` : it.id, a = answers[k];
+                  const ok = a !== undefined && grade(it, qi, a);
+                  max++; if (ok) total++;
+                  by[it.skill] = by[it.skill] || { correct: 0, n: 0 }; by[it.skill].n++; if (ok) by[it.skill].correct++;
+                  if (a !== undefined) pushEvent({ eid: newId(), item: it.id, q: qi, answer: a, mode: 'mock', ts: Date.now() });
+                  s.total++; if (ok) s.right++; else if (!s.wrong.includes(it.id)) s.wrong.push(it.id);
+                });
+              }
+              s.mockScore = { total, max }; putSession(s); flush();
+              return { score: { total, max, pct: Math.round(100 * total / max), by_skill: by }, items: Object.fromEntries(its.map((it) => [it.id, it])) };
+            },
+            onBack: () => go(s.idx + 1),
+          });
+        };
+        body.appendChild(go2);
+      }
     } else {                                                                  // close
       const mins = Math.max(1, Math.round((Date.now() - s.startedAt) / 60000));
       const hasMock = cards.some((c) => c.type === 'mock'), kindDone = s.kind === 'short' ? 'short' : hasMock ? 'mock' : 'full';

@@ -141,6 +141,19 @@ const noOverflow = (p) => p.evaluate(() => document.documentElement.scrollWidth 
   for (let d = 2; d <= 6; d++) {
     await p.click('#startBtn'); await p.waitForSelector('#stepLabel');
     if (d === 4) { await p.waitForSelector('[data-item], #nextBtn'); }
+    if (d === 6) {                                                    // ชุดย่อยจับเวลาวันที่ 6: ข้อจากคลังสำรอง ตอบถูกทุกข้อ → เห็นคะแนนและเฉลย
+      await p.waitForSelector('#mockStart'); ok((await p.textContent('#mockIntro')).includes('20 ข้อ 15 นาที'), 'ชุดย่อยวันที่ 6 มี 20 คะแนน 15 นาที');
+      await p.click('#mockStart'); await p.waitForSelector('#cpSubmit');
+      ok(await p.$('#cpTime') !== null && await p.$('.why') === null, 'ชุดย่อยจับเวลาและยังไม่เห็นเฉลยระหว่างทำ');
+      await p.evaluate(() => { for (const card of document.querySelectorAll('.cpitem')) { const it = window.DEMO_DATA.items[card.dataset.id];
+        if (it.kind === 'order') { for (const c of it.chunks) [...card.querySelectorAll('.chunks:not(.cpout) .chunk')].find((b) => b.textContent === c).click(); }
+        else { const qs = it.questions || [it]; card.querySelectorAll('.cpq').forEach((box, qi) => box.querySelectorAll('.opt')[qs[qi].answer].click()); } } });
+      await p.screenshot({ path: path.join(SHOTS, 'app_mock.png'), fullPage: true });
+      await p.click('#cpSubmit'); await p.waitForSelector('#cpTotal');
+      ok((await p.textContent('#cpTotal')).startsWith('20/20') && (await p.$$('.cpans')).length > 0, 'ส่งชุดย่อยแล้วได้ 20/20 และเห็นเฉลยทีละข้อ');
+      ok(await noOverflow(p), 'หน้าผลชุดย่อยไม่ล้นจอ 390'); await p.screenshot({ path: path.join(SHOTS, 'app_mock_result.png'), fullPage: true });
+      await p.click('#cpBack');
+    }
     const k = await runSession(p); Object.assign(kinds, k);
     if (d === 5) await p.screenshot({ path: path.join(SHOTS, 'app_lab_close.png'), fullPage: true });
     await finish(p);

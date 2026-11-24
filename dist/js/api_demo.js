@@ -2,7 +2,7 @@
 // ใช้ทดสอบและให้บอสลองเล่นโดยไม่ต้องมีฐานข้อมูล · ข้อมูลเนื้อหา (มีเฉลย) มาจาก DEMO_DATA ที่ build ใส่ให้เฉพาะ dist-demo/ ห้าม deploy
 // พฤติกรรมต้องตรงกับ supabase/functions/exam-api (สัญญาเดียวกัน) เพื่อให้หน้าเว็บสลับไปของจริงได้โดยไม่แก้
 import { dayNo, srsUpdate, weekProgress, weekStart, projectFinish, readiness, placementEstimate } from './engine/engine.mjs';
-import { buildSession, advancePointer, remainingSessions, startPointer } from './engine/assemble.mjs';
+import { buildSession, advancePointer, remainingSessions, startPointer, mockPlan } from './engine/assemble.mjs';
 import { grade, strip } from './engine/grade.mjs';
 import { quote, PRODUCTS } from './engine/pricing.mjs';
 import { load, save, drop } from './store.js';
@@ -79,6 +79,13 @@ export const demoApi = {
     const wk = weekOf(pointer.week);
     if (!wk) return { error: 'content_missing' };
     const plan = buildSession({ kind, pointer, week: wk, states: s.states, day: d, lastDay: en.last_day, pace: en.pace, oldPool: [], cfg: cfgOf() });
+    const mockStep = plan.steps.find((x) => x.step === 'mock');
+    if (mockStep) {                                          // เหมือนเซิร์ฟเวอร์จริง: เลือกจากข้อสำรอง (pool: true) ของสัปดาห์ ≤ สัปดาห์นี้
+      const re = new RegExp(`^cefr-${SITE.course}-w(\\d{2})-\\d{3}$`);
+      const pool = Object.values(globalThis.DEMO_DATA.items).filter((i) => i.pool && re.test(i.id)).map((i) => ({ id: i.id, skill: i.skill, week: Number(i.id.match(re)[1]), points: i.questions ? i.questions.length : 1 })).filter((p) => p.week <= pointer.week);
+      const seen = new Set(s.events.filter((e) => e.mode === 'mock').map((e) => e.item));
+      mockStep.ids = mockPlan({ pool, week: pointer.week, blueprint: mockStep.mock.blueprint || { gm: 9, vo: 6, rd: 3, li: 2 }, seen, rng: () => 0.5 }).ids;
+    }
     const need = new Set();
     for (const x of plan.steps) { for (const id of x.ids || []) need.add(id); for (const id of x.check || []) need.add(id); }
     return { plan, items: Object.fromEntries([...need].map((id) => [id, itemOf(id)])), day: d, pointer };

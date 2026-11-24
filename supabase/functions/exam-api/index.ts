@@ -14,7 +14,7 @@ import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient, type SupabaseClient } from "jsr:@supabase/supabase-js@2";
 import cfg from "../_shared/config.mjs";
 import { dayNo, placementEstimate, projectFinish, readiness, srsUpdate, weekProgress, weekStart, guaranteeEligible } from "../_shared/engine.mjs";
-import { advancePointer, buildSession, remainingSessions } from "../_shared/assemble.mjs";
+import { advancePointer, buildSession, mockPlan, remainingSessions } from "../_shared/assemble.mjs";
 import { applyGuarantee, catalog, COURSES, studyAccess } from "../_shared/pricing.mjs";
 import { grade, strip } from "../_shared/grade.mjs";   // ตัวตรวจคำตอบตัวเดียวกับหน้าเว็บ
 
@@ -169,6 +169,17 @@ Deno.serve(async (req) => {
       const states = await statesOf(admin, uid, course);
       const { data: old } = pointer.week >= 2 ? await admin.from("exam_items").select("id").eq("exam", EXAM).eq("course", course).eq("role", "pool").eq("status", "approved").lt("week", pointer.week).limit(200) : { data: [] as Any[] };
       const plan = buildSession({ kind, pointer, week: wk.body, states, day: today, lastDay: en.last_day, pace: en.pace, oldPool: (old ?? []).map((x: Any) => x.id), cfg });
+      // ชุดย่อยวันที่ 6: เลือกข้อจากข้อสำรองสัปดาห์นี้และสัปดาห์ก่อน (ข้อที่ยังไม่เคยเจอก่อน) · สุ่มคงที่ต่อผู้ใช้+สัปดาห์
+      const mockStep = (plan.steps as Any[]).find((x) => x.step === "mock");
+      if (mockStep) {
+        const { data: pool } = await admin.from("exam_items").select("id,skill,points,week").eq("exam", EXAM).eq("course", course).eq("role", "pool").eq("status", "approved").lte("week", pointer.week);
+        const { data: seenRows } = await admin.from("exam_events").select("item_id").eq("user_id", uid).eq("course", course).eq("mode", "mock");
+        let seed = [...`${uid}:${course}:${pointer.week}`].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+        const rng = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
+        const bp = mockStep.mock?.blueprint ?? { gm: 9, vo: 6, rd: 3, li: 2 };
+        const pick = mockPlan({ pool: pool ?? [], week: pointer.week, blueprint: bp, seen: new Set((seenRows ?? []).map((x: Any) => x.item_id)), rng, mixFrom: 2 });
+        mockStep.ids = pick.ids;
+      }
       const need = new Set<string>();
       for (const s of plan.steps as Any[]) { for (const id of s.ids ?? []) need.add(id); for (const id of s.check ?? []) need.add(id); }
       const { data: items } = need.size ? await admin.from("exam_items").select("id,body").in("id", [...need]).eq("status", "approved") : { data: [] as Any[] };

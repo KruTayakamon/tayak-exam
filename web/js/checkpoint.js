@@ -66,13 +66,21 @@ export async function viewCheckpoint(root, go, n) {
   root.appendChild(b);
 }
 
-function run(root, go, n, items, s, ms) {
+/** ชุดจับเวลาแบบไม่มีเฉลยระหว่างทำ ใช้ร่วมกับชุดย่อยวันที่ 6 · opts = {key, title, grade(answers)→r, onBack, backLabel} */
+export function timedSet(root, items, ms, opts) {
+  const s = load(opts.key, null) || { answers: {}, started: Date.now() };
+  save(opts.key, s);
+  run(root, null, 0, items, s, ms, opts);
+}
+
+function run(root, go, n, items, s, ms, opts = {}) {
   root.innerHTML = '';
   root.dataset.nolookup = '1';                        // ระหว่างทำชุดวัดผลไม่มีพจนานุกรม
   const total = items.reduce((a, it) => a + ptsOf(it), 0);
   const bar = el(`<div class="cpbar" id="cpBar"><span id="cpTime"></span><span id="cpDone"></span></div>`);
   root.appendChild(bar);
-  const persist = () => save(KEY(n), s);
+  const K = opts.key || KEY(n);
+  const persist = () => save(K, s);
   const count = () => { bar.querySelector('#cpDone').textContent = `ตอบแล้ว ${Object.keys(s.answers).length}/${total}`; };
   let no = 0, last = '';
   for (const it of items) {
@@ -125,9 +133,9 @@ function run(root, go, n, items, s, ms) {
     const left = total - Object.keys(s.answers).length;
     if (!auto && left > 0 && !confirm(`ยังไม่ได้ตอบ ${left} ข้อ ส่งเลยไหม`)) return;
     sent = true; clearInterval(timer); send.disabled = true; send.textContent = 'กำลังตรวจ…';
-    const r = await api.checkpointSubmit(n, s.answers).catch(() => null);
+    const r = opts.grade ? opts.grade(s.answers) : await api.checkpointSubmit(n, s.answers).catch(() => null);
     if (!r || !r.score) { sent = false; send.disabled = false; send.textContent = 'ส่งอีกครั้ง'; root.appendChild(el(`<div class="note">ส่งไม่สำเร็จ (${esc((r && r.error) || 'error')}) คำตอบยังอยู่ในเครื่อง ลองส่งอีกครั้ง</div>`)); return; }
-    drop(KEY(n)); result(root, go, n, items, s.answers, r);
+    drop(K); result(root, go, n, items, s.answers, r, opts);
   };
   send.onclick = () => submit(false);
   const tick = () => {
@@ -138,13 +146,14 @@ function run(root, go, n, items, s, ms) {
   count(); tick(); timer = setInterval(tick, 1000);
 }
 
-function result(root, go, n, items, answers, r) {
+function result(root, go, n, items, answers, r, opts = {}) {
   const sc = r.score, full = r.items || {};
   root.innerHTML = ''; delete root.dataset.nolookup;
   window.scrollTo(0, 0);
   const pct = sc.pct, msg = pct >= 80 ? '🌟 เยี่ยมมาก' : pct >= 60 ? '👍 ดีเลย' : n === 1 ? '🌱 จุดเริ่มต้นที่ดี' : '💪 สู้ต่อ';
-  root.appendChild(el(`<div><h1>ผลชุดวัดผลครั้งที่ ${n}</h1>
-    <div class="card"><p class="price" id="cpTotal">${sc.total}/${sc.max} <small>คะแนน (${pct}%)</small></p><p>${msg}${n === 1 ? ' · ครั้งแรกมีเรื่องที่ยังไม่ได้เรียน ครั้งต่อไปจะเห็นคะแนนเพิ่มขึ้น' : ''}</p>
+  const first = n === 1 && !opts.title;
+  root.appendChild(el(`<div><h1>${esc(opts.title || `ผลชุดวัดผลครั้งที่ ${n}`)}</h1>
+    <div class="card"><p class="price" id="cpTotal">${sc.total}/${sc.max} <small>คะแนน (${pct}%)</small></p><p>${msg}${first ? ' · ครั้งแรกมีเรื่องที่ยังไม่ได้เรียน ครั้งต่อไปจะเห็นคะแนนเพิ่มขึ้น' : ''}</p>
     ${Object.entries(sc.by_skill || {}).map(([k, v]) => `<div class="skill"><span>${SKILL_TH[k] || k}</span><div class="bar"><span style="width:${Math.round(100 * v.correct / v.n)}%"></span></div><small>${v.correct}/${v.n}</small></div>`).join('')}
     ${r.extended ? '<p class="note">คุณเรียนครบตามแผนแล้ว ระบบต่อเวลาเรียนให้ฟรี 3 เดือนตามข้อรับรองความคุ้มค่า</p>' : ''}</div>
     <h2>เฉลยทีละข้อ</h2></div>`));
@@ -168,5 +177,5 @@ function result(root, go, n, items, answers, r) {
     if (it.explain) c.appendChild(el(keepBox(it.explain)));
     root.appendChild(c);
   }
-  root.appendChild(Object.assign(el('<button class="btn" id="cpBack">กลับหน้าผล</button>'), { onclick: () => go('results') }));
+  root.appendChild(Object.assign(el(`<button class="btn" id="cpBack">${esc(opts.backLabel || 'กลับหน้าผล')}</button>`), { onclick: () => (opts.onBack ? opts.onBack() : go('results')) }));
 }

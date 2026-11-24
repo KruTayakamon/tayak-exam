@@ -39,4 +39,16 @@ let m = A.pickMock(pool, { gm: 2, rd: 2 }, new Set(['g1']), () => 0.5);
 eq([m.ids, m.short], [['g2', 'g3', 'r2'], {}], 'ชุดย่อยเลือกข้อที่ยังไม่เคยเจอก่อน และไม่เกินคะแนนของทักษะ');
 m = A.pickMock(pool, { gm: 4 }, new Set(), () => 0.5);
 eq(m.short, { gm: 1 }, 'ข้อสำรองไม่พอ ต้องรายงานจำนวนที่ขาด');
+// ชุดย่อยวันที่ 6: สัปดาห์ 1 ใช้ของสัปดาห์นี้ · สัปดาห์ 2+ ราว 30% มาจากสัปดาห์ก่อน · ขาดฝั่งไหนเติมจากอีกฝั่ง
+const mk = (w, sk, n, pts = 1) => Array.from({ length: n }, (_, i) => ({ id: `w${w}${sk}${i}`, skill: sk, points: pts, week: w }));
+const bp = { gm: 9, vo: 6, rd: 3, li: 2 };
+const poolW = [...mk(1, 'gm', 9), ...mk(1, 'vo', 6), ...mk(1, 'rd', 1, 3), ...mk(1, 'li', 2), ...mk(2, 'gm', 9), ...mk(2, 'vo', 6), ...mk(2, 'rd', 1, 3), ...mk(2, 'li', 2)];
+const pts = (ids) => ids.reduce((a, id) => a + poolW.find((p) => p.id === id).points, 0);
+let mp = A.mockPlan({ pool: poolW.filter((p) => p.week === 1), week: 1, blueprint: bp, rng: () => 0.5 });
+eq([pts(mp.ids), mp.short], [20, {}], 'ชุดย่อยสัปดาห์ 1 ได้ครบ 20 คะแนนจากข้อสำรองสัปดาห์ 1');
+mp = A.mockPlan({ pool: poolW, week: 2, blueprint: bp, rng: () => 0.5 });
+const oldPts = pts(mp.ids.filter((id) => id.startsWith('w1')));
+eq([pts(mp.ids), oldPts, mp.ids.filter((id) => id.startsWith('w2rd')).length], [20, 6, 1], 'สัปดาห์ 2: 20 คะแนน 6 คะแนนจากสัปดาห์ก่อน บทอ่านเป็นของสัปดาห์นี้');
+mp = A.mockPlan({ pool: [...poolW.filter((p) => p.week === 2)], week: 2, blueprint: bp, rng: () => 0.5 });
+eq([pts(mp.ids), mp.short], [20, {}], 'ไม่มีข้อสำรองสัปดาห์ก่อน → เติมจากสัปดาห์นี้จนครบ');
 console.log(fails ? `${fails} FAILED` : 'ALL PASS'); process.exit(fails ? 1 : 0);
