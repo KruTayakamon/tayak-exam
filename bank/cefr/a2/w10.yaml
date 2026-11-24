@@ -1,0 +1,576 @@
+# คอร์ส a2 · สัปดาห์ 10 · เปรียบเทียบ · มากกว่า · ที่สุด และเท่ากัน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · comparatives ----------
+- id: cefr-a2-w10-001
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  stem: Bangkok is ____ than Chiang Mai.
+  choices:
+    - {t: bigger, why: "คำสั้นพยางค์เดียว ++เติม -er++ (เพิ่ม g)"}
+    - {t: more big, why: "คำสั้นใช้ -er ไม่ใช้ more"}
+    - {t: biger, why: "big ต้องเพิ่ม g ก่อนเติม er"}
+    - {t: big, why: "มี than ต้องใช้ขั้นกว่า"}
+  explain: "คำสั้น ==+ -er + than== (bigger than)"
+  status: approved
+- id: cefr-a2-w10-002
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  stem: This hotel is ____ than the one we stayed in last year.
+  choices:
+    - {t: more comfortable, why: "คำยาวหลายพยางค์ ++more + คุณศัพท์++"}
+    - {t: comfortabler, why: "คำยาวไม่เติม -er"}
+    - {t: most comfortable, why: "most ใช้กับขั้นสุด"}
+    - {t: more comfortabler, why: "ใช้ more กับ -er ซ้อนกันไม่ได้"}
+  explain: "คำยาว ==more + คุณศัพท์ + than=="
+  status: approved
+- id: cefr-a2-w10-003
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  stem: My new phone is ____ than my old one. The battery lasts two days.
+  choices:
+    - {t: better, why: "good → ++better++ (ไม่ปกติ)"}
+    - {t: gooder, why: "good เป็นรูปไม่ปกติ"}
+    - {t: more good, why: "good ใช้ better"}
+    - {t: best, why: "best คือขั้นสุด"}
+  explain: "good → ==better== → best"
+  status: approved
+- id: cefr-a2-w10-004
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  stem: The traffic today is ____ than yesterday. It took me two hours to get home.
+  choices:
+    - {t: worse, why: "bad → ++worse++ (ไม่ปกติ)"}
+    - {t: badder, why: "bad เป็นรูปไม่ปกติ"}
+    - {t: more bad, why: "bad ใช้ worse จึงใช้ไม่ได้"}
+    - {t: worst, why: "worst คือขั้นสุด"}
+  explain: "bad → ==worse== → worst"
+  status: approved
+- id: cefr-a2-w10-005
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: It's ____ today than yesterday, so I don't need a jacket.
+  choices:
+    - {t: hotter, why: "hot เพิ่ม t แล้ว ++เติม -er++"}
+    - {t: hoter, why: "สระสั้น + พยัญชนะ ต้องเพิ่มตัวสะกด"}
+    - {t: more hot, why: "คำสั้นใช้ -er จึงใช้ไม่ได้"}
+    - {t: hot, why: "มี than ต้องใช้ขั้นกว่า"}
+  explain: "hot → ==hotter== · big → bigger"
+  status: approved
+- id: cefr-a2-w10-006
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: The second test was ____ than the first. I finished it in ten minutes.
+  choices:
+    - {t: easier, why: "พยัญชนะ + y ++เปลี่ยนเป็น ier++"}
+    - {t: easyer, why: "y ต้องเปลี่ยนเป็น i"}
+    - {t: more easy, why: "easy ใช้ easier"}
+    - {t: easiest, why: "easiest คือขั้นสุด"}
+  explain: "easy → ==easier== · busy → busier"
+  status: approved
+- id: cefr-a2-w10-007
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: My brother is two years older ____ me.
+  choices:
+    - {t: than, why: "เปรียบเทียบใช้ ++than++"}
+    - {t: that, why: "that ไม่ใช้เปรียบเทียบ"}
+    - {t: then, why: "then แปลว่าจากนั้น"}
+    - {t: from, why: "from ไม่ใช้กับขั้นกว่า"}
+  explain: "ขั้นกว่า + ==than== (ระวังสะกดผิดเป็น then)"
+  status: approved
+- id: cefr-a2-w10-008
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: Online shopping is ____ than going to the mall. You don't need to drive.
+  choices:
+    - {t: more convenient, why: "คำยาว ++more convenient++"}
+    - {t: convenienter, why: "คำยาวไม่เติม -er"}
+    - {t: more convenienter, why: "ซ้อน more กับ -er ไม่ได้"}
+    - {t: the most convenient, why: "มี than ต้องใช้ขั้นกว่า"}
+  explain: "3 พยางค์ขึ้นไป ==more + คุณศัพท์=="
+  status: approved
+- id: cefr-a2-w10-009
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: "Choose the correct comparative of \"far\"."
+  choices:
+    - {t: farther, why: "far → ++farther / further++ (ไม่ปกติ)"}
+    - {t: farer, why: "far เป็นรูปไม่ปกติ"}
+    - {t: more far, why: "far ไม่ใช้ more"}
+    - {t: fartest, why: "ไม่มีรูปนี้ จึงใช้ไม่ได้"}
+  explain: "far → ==farther / further== → farthest"
+  status: approved
+- id: cefr-a2-w10-010
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: The red dress is nice, but the blue one is ____ cheaper.
+  choices:
+    - {t: much, why: "เน้นขั้นกว่า ++much cheaper++ = ถูกกว่ามาก"}
+    - {t: very, why: "very ไม่ใช้กับขั้นกว่า"}
+    - {t: more, why: "more cheaper ซ้อนกัน"}
+    - {t: most, why: "most cheaper ผิดรูป"}
+  explain: "เน้นขั้นกว่า ==much / a lot + -er== (ไม่ใช้ very)"
+  status: approved
+- id: cefr-a2-w10-011
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 3
+  stem: "Which sentence comparing two cafés is correct?"
+  choices:
+    - {t: Café A is quieter and more relaxing than Café B., why: "quiet + er · ++more relaxing++ ถูกทั้งคู่"}
+    - {t: Café A is more quiet and relaxinger than Café B., why: "relaxing ยาว ใช้ more"}
+    - {t: Café A is quieter and more relaxing that Café B., why: "ต้องเป็น than จึงใช้ไม่ได้"}
+    - {t: Café A is quieter and most relaxing than Café B., why: "most ใช้กับขั้นสุด"}
+  explain: "คำสั้น -er · คำยาว more · ==ปิดท้ายด้วย than=="
+  status: approved
+- id: cefr-a2-w10-012
+  kind: type
+  skill: gm
+  topic: comparatives
+  level: 2
+  stem: The bus is slow. The train is much ____. (fast · ขั้นกว่า)
+  answer: faster
+  accept: [faster]
+  why: "fast + er = faster (เร็วกว่า)"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์คุณศัพท์บรรยาย ----------
+- id: cefr-a2-w10-013
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  stem: Our new apartment is very ____. It has four bedrooms and a big garden.
+  choices:
+    - {t: big, why: "สี่ห้องนอนและสวนใหญ่ = ++big++"}
+    - {t: small, why: "ขัดกับสี่ห้องนอน"}
+    - {t: short, why: "short ใช้กับความยาว/ความสูง"}
+    - {t: slow, why: "slow ใช้กับความเร็ว"}
+  explain: "big = ==ใหญ่== · ตรงข้าม small"
+  status: approved
+- id: cefr-a2-w10-014
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  stem: The room was too ____ for six people. We couldn't all sit down.
+  choices:
+    - {t: small, why: "คนนั่งไม่พอ = ++small++"}
+    - {t: big, why: "ห้องใหญ่ต้องนั่งได้"}
+    - {t: long, why: "long ใช้กับความยาว"}
+    - {t: famous, why: "ไม่เข้ากับบริบท"}
+  explain: "small = ==เล็ก=="
+  status: approved
+- id: cefr-a2-w10-015
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  stem: It was a ____ flight — fourteen hours from Bangkok to London.
+  choices:
+    - {t: long, why: "สิบสี่ชั่วโมง = ++long++"}
+    - {t: short, why: "ขัดกับสิบสี่ชั่วโมง"}
+    - {t: quiet, why: "quiet ไม่บอกระยะเวลา"}
+    - {t: small, why: "small ไม่บอกระยะเวลา"}
+  explain: "long = ==ยาว นาน=="
+  status: approved
+- id: cefr-a2-w10-016
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  stem: The meeting was very ____ — only fifteen minutes.
+  choices:
+    - {t: short, why: "สิบห้านาที = ++short++"}
+    - {t: long, why: "ขัดกับ only fifteen minutes"}
+    - {t: crowded, why: "ไม่บอกระยะเวลา จึงใช้ไม่ได้"}
+    - {t: famous, why: "ไม่เข้ากับบริบท"}
+  explain: "short = ==สั้น เตี้ย=="
+  status: approved
+- id: cefr-a2-w10-017
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  stem: The new train is very ____. It goes 250 kilometres an hour.
+  choices:
+    - {t: fast, why: "250 กม./ชม. = ++fast++"}
+    - {t: slow, why: "ขัดกับความเร็วสูง"}
+    - {t: quiet, why: "ไม่บอกความเร็ว จึงใช้ไม่ได้"}
+    - {t: popular, why: "บทไม่ได้พูดว่า popular"}
+  explain: "fast = ==เร็ว== · ตรงข้าม slow"
+  status: approved
+- id: cefr-a2-w10-018
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: The internet is so ____ today. This page is still loading.
+  choices:
+    - {t: slow, why: "โหลดไม่เสร็จ = ++slow++"}
+    - {t: fast, why: "ขัดกับยังโหลดอยู่"}
+    - {t: crowded, why: "ไม่ใช้กับอินเทอร์เน็ต"}
+    - {t: famous, why: "บทไม่ได้พูดว่า famous"}
+  explain: "slow = ==ช้า=="
+  status: approved
+- id: cefr-a2-w10-019
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: I can't sleep here. The street outside is too ____.
+  choices:
+    - {t: noisy, why: "เสียงดังนอนไม่หลับ = ++noisy++"}
+    - {t: quiet, why: "เงียบต้องนอนหลับได้"}
+    - {t: comfortable, why: "สบายต้องนอนหลับได้"}
+    - {t: short, why: "ไม่เข้ากับบริบท"}
+  explain: "noisy = ==เสียงดัง== · ตรงข้าม quiet"
+  status: approved
+- id: cefr-a2-w10-020
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: The library is a good place to work. It's always ____.
+  choices:
+    - {t: quiet, why: "ห้องสมุดเงียบ = ++quiet++"}
+    - {t: noisy, why: "เสียงดังไม่เหมาะกับทำงาน"}
+    - {t: crowded, why: "คนแน่นไม่เหมาะกับทำงาน"}
+    - {t: fast, why: "ไม่เข้ากับสถานที่"}
+  explain: "quiet = ==เงียบ=="
+  status: approved
+- id: cefr-a2-w10-021
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: The BTS is always ____ at 8 a.m. There's no space to stand.
+  choices:
+    - {t: crowded, why: "คนแน่น = ++crowded++"}
+    - {t: quiet, why: "ขัดกับไม่มีที่ยืน"}
+    - {t: comfortable, why: "บทไม่ได้พูดว่า comfortable"}
+    - {t: slow, why: "ไม่เกี่ยวกับที่ยืน"}
+  explain: "crowded = ==แออัด คนแน่น=="
+  status: approved
+- id: cefr-a2-w10-022
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: This sofa is very ____. I often fall asleep on it.
+  choices:
+    - {t: comfortable, why: "นั่งสบายจนหลับ = ++comfortable++"}
+    - {t: noisy, why: "โซฟาไม่ส่งเสียง"}
+    - {t: crowded, why: "ไม่ใช้กับโซฟา จึงใช้ไม่ได้"}
+    - {t: fast, why: "บทไม่ได้พูดว่า fast"}
+  explain: "comfortable = ==สบาย นั่ง/นอนสบาย=="
+  status: approved
+- id: cefr-a2-w10-023
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: This noodle shop is very ____. There's always a long line at lunch.
+  choices:
+    - {t: popular, why: "คนชอบมาก ต่อคิวยาว = ++popular++"}
+    - {t: quiet, why: "ขัดกับคิวยาว จึงใช้ไม่ได้"}
+    - {t: slow, why: "คิวยาวไม่ได้แปลว่าช้า"}
+    - {t: short, why: "ไม่เข้ากับบริบท"}
+  explain: "popular = ==เป็นที่นิยม คนชอบเยอะ=="
+  status: approved
+- id: cefr-a2-w10-024
+  kind: type
+  skill: vo
+  topic: describing-places
+  level: 2
+  stem: Wat Arun is f____ all over the world. Millions of tourists visit it. (มีชื่อเสียง)
+  answer: famous
+  accept: [famous]
+  why: "famous = มีชื่อเสียง · famous for = มีชื่อเรื่อง"
+  status: approved
+# ---------- วันที่ 3 · ที่สุด และเท่ากัน ----------
+- id: cefr-a2-w10-025
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 1
+  stem: Mount Everest is ____ mountain in the world.
+  choices:
+    - {t: the highest, why: "ขั้นสุด ++the + -est++"}
+    - {t: higher, why: "higher เป็นขั้นกว่า"}
+    - {t: the most high, why: "คำสั้นใช้ -est จึงใช้ไม่ได้"}
+    - {t: highest, why: "ขั้นสุดต้องมี the"}
+  explain: "ขั้นสุด ==the + คุณศัพท์ -est=="
+  status: approved
+- id: cefr-a2-w10-026
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 1
+  stem: This is ____ restaurant in our town. A dinner costs 3,000 baht.
+  choices:
+    - {t: the most expensive, why: "คำยาว ++the most + คุณศัพท์++"}
+    - {t: the expensivest, why: "คำยาวไม่เติม -est"}
+    - {t: most expensive, why: "ขาด the จึงใช้ไม่ได้"}
+    - {t: more expensive, why: "ขั้นกว่า ไม่ใช่ที่สุด"}
+  explain: "คำยาว ==the most + คุณศัพท์=="
+  status: approved
+- id: cefr-a2-w10-027
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 1
+  stem: That was ____ film I have ever seen. I loved every minute.
+  choices:
+    - {t: the best, why: "good → ++the best++"}
+    - {t: the goodest, why: "good เป็นรูปไม่ปกติ"}
+    - {t: the better, why: "better เป็นขั้นกว่า"}
+    - {t: the most good, why: "good ใช้ best จึงใช้ไม่ได้"}
+  explain: "good → better → ==the best=="
+  status: approved
+- id: cefr-a2-w10-028
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  stem: My bag is as heavy ____ yours.
+  choices:
+    - {t: as, why: "เท่ากัน ++as + คุณศัพท์ + as++"}
+    - {t: than, why: "than ใช้กับขั้นกว่า"}
+    - {t: like, why: "like ไม่ใช้ในโครงสร้างนี้"}
+    - {t: so, why: "so ไม่ใช้ปิดโครงสร้างนี้"}
+  explain: "เท่ากัน ==as + คุณศัพท์รูปเดิม + as=="
+  status: approved
+- id: cefr-a2-w10-029
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  stem: The train isn't as ____ as the plane, but it's cheaper.
+  choices:
+    - {t: fast, why: "as ... as ใช้ ++คุณศัพท์รูปเดิม++"}
+    - {t: faster, why: "as ... as ไม่ใช้ขั้นกว่า"}
+    - {t: fastest, why: "as ... as ไม่ใช้ขั้นสุด"}
+    - {t: more fast, why: "ไม่ใช้ more ในโครงสร้างนี้"}
+  explain: "not as + คุณศัพท์ + as = ==ไม่เท่ากับ (น้อยกว่า)=="
+  status: approved
+- id: cefr-a2-w10-030
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  stem: Monday is always ____ day of the week at work.
+  choices:
+    - {t: the busiest, why: "busy → ++the busiest++"}
+    - {t: the busyest, why: "y ต้องเปลี่ยนเป็น i"}
+    - {t: the most busy, why: "busy ใช้ -iest จึงใช้ไม่ได้"}
+    - {t: busier, why: "of the week ต้องใช้ขั้นสุด"}
+  explain: "y → ==iest== (busiest, easiest)"
+  status: approved
+- id: cefr-a2-w10-031
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  stem: Somchai is the tallest person ____ our office.
+  choices:
+    - {t: in, why: "ขั้นสุด + ++in + สถานที่/กลุ่ม++"}
+    - {t: of, why: "of ใช้กับจำนวน (of all of us)"}
+    - {t: than, why: "than ใช้กับขั้นกว่า"}
+    - {t: at, why: "ไม่ใช้ at ในโครงสร้างนี้"}
+  explain: "the -est ==in + สถานที่== (in Thailand, in my family)"
+  status: approved
+- id: cefr-a2-w10-032
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 3
+  stem: "Which sentence about the three hotels is correct?"
+  choices:
+    - {t: "Hotel C is the cheapest, but it isn't as clean as Hotel A.", why: "ขั้นสุด + ++not as ... as++ ถูกทั้งคู่"}
+    - {t: "Hotel C is the cheaper, but it isn't as clean as Hotel A.", why: "สามโรงแรมใช้ขั้นสุด"}
+    - {t: "Hotel C is cheapest, but it isn't as cleaner as Hotel A.", why: "ขาด the และ as ... as ใช้รูปเดิม"}
+    - {t: "Hotel C is the cheapest, but it isn't as clean than Hotel A.", why: "ต้องเป็น as ... as"}
+  explain: "สองอย่างใช้ขั้นกว่า · ==สามอย่างขึ้นไปใช้ขั้นสุด=="
+  status: approved
+- id: cefr-a2-w10-033
+  kind: type
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  stem: December is the ____ month in Chiang Mai. (cold · ที่สุด)
+  answer: coldest
+  accept: [coldest]
+  why: "cold + est = coldest (หนาวที่สุด)"
+  status: approved
+- id: cefr-a2-w10-034
+  kind: cloze
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  text: |
+    There are three markets near my house. Talad Mai is (1) ____ biggest, but it's (2) ____ crowded than the others. Talad Kao is small, but it's as cheap (3) ____ Talad Mai.
+  questions:
+    - choices:
+        - {t: the, why: "ขั้นสุดต้องมี the"}
+        - {t: a, why: "ขั้นสุดไม่ใช้ a"}
+        - {t: more, why: "biggest เป็นขั้นสุดแล้ว"}
+        - {t: most, why: "biggest มี -est แล้ว ไม่ใช้ most ซ้อน"}
+    - choices:
+        - {t: more, why: "crowded ยาว ใช้ more ... than"}
+        - {t: most, why: "มี than ต้องใช้ขั้นกว่า"}
+        - {t: as, why: "as ต้องปิดด้วย as ไม่ใช่ than"}
+        - {t: the, why: "the crowded than ผิดรูป"}
+    - choices:
+        - {t: as, why: "as cheap as = ถูกเท่ากัน"}
+        - {t: than, why: "as ... as ไม่ใช้ than"}
+        - {t: like, why: "ไม่ใช้ like ในโครงสร้างนี้"}
+        - {t: so, why: "ไม่ใช้ so ปิดโครงสร้างนี้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w10-035
+  kind: read
+  skill: rd
+  topic: comparing-restaurants
+  level: 1
+  title: "Two Restaurants on Nimman Road"
+  passage: |
+    Last week I tried two restaurants on Nimman Road. Baan Khao is bigger and more popular. There is a long line at lunch, and it's quite noisy. The food is delicious, but it's more expensive than Krua Mae.
+
+    Krua Mae is a small family restaurant. It's quieter and more comfortable, and the owner is very friendly. The food isn't as famous as Baan Khao's, but I think the green curry is the best on the street. It's also cheaper.
+
+    For a business lunch, I'll choose Krua Mae next time.
+  questions:
+    - stem: Which restaurant is more popular?
+      choices:
+        - {t: Baan Khao, why: "Baan Khao is bigger and more popular"}
+        - {t: Krua Mae, why: "Krua Mae เล็กและเงียบกว่า"}
+        - {t: they are the same, why: "บทบอกว่าต่างกัน"}
+        - {t: the text doesn't say, why: "บทบอกชัดว่า Baan Khao"}
+    - stem: What is Krua Mae like?
+      choices:
+        - {t: small and quiet, why: "a small family restaurant ... quieter"}
+        - {t: big and noisy, why: "นั่นคือ Baan Khao"}
+        - {t: expensive and crowded, why: "Krua Mae ถูกกว่า"}
+        - {t: new and famous, why: "อาหารไม่ดังเท่า Baan Khao"}
+    - stem: What does the writer think about Krua Mae's green curry?
+      choices:
+        - {t: it is the best on the street, why: "the green curry is the best on the street"}
+        - {t: it is too expensive, why: "ร้านนี้ถูกกว่า จึงใช้ไม่ได้"}
+        - {t: it is as famous as Baan Khao's, why: "isn't as famous as Baan Khao's"}
+        - {t: it is not very good, why: "ผู้เขียนชมว่าดีที่สุด"}
+    - stem: Why will the writer choose Krua Mae for a business lunch?
+      choices:
+        - {t: it is quieter and more comfortable, why: "เงียบและสบายกว่า เหมาะกับคุยงาน"}
+        - {t: it is bigger, why: "Baan Khao ใหญ่กว่า"}
+        - {t: it is more popular, why: "Baan Khao ดังกว่า"}
+        - {t: it is on a different street, why: "ทั้งสองร้านอยู่ถนนเดียวกัน"}
+  status: approved
+- id: cefr-a2-w10-036
+  kind: listen
+  skill: li
+  topic: comparing
+  level: 1
+  script:
+    - {who: Man, en: "Which phone do you want, the black one or the white one?"}
+    - {who: Woman, en: "The black one. It's cheaper and the camera is better."}
+  questions:
+    - stem: Why does the woman want the black phone?
+      choices:
+        - {t: it's cheaper and has a better camera, why: "cheaper and the camera is better"}
+        - {t: it's bigger, why: "ไม่ได้พูดถึงขนาด"}
+        - {t: it's the newest model, why: "ไม่ได้พูดถึงรุ่นใหม่"}
+        - {t: she likes the colour white, why: "เธอเลือกสีดำ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w10-037
+  kind: listen
+  skill: li
+  topic: comparing
+  level: 1
+  script:
+    - {who: Woman, en: "Is the new office far from here?"}
+    - {who: Man, en: "No, it's nearer than the old one. Only five minutes on foot."}
+  questions:
+    - stem: Where is the new office?
+      choices:
+        - {t: closer than the old office, why: "nearer than the old one = ใกล้กว่าเดิม"}
+        - {t: farther than the old office, why: "ได้ยิน nearer ไม่ใช่ farther"}
+        - {t: in the same building, why: "ไม่ได้พูดแบบนั้น"}
+        - {t: five kilometres away, why: "five minutes on foot ไม่ใช่ 5 กม."}
+  status: approved
+- id: cefr-a2-w10-038
+  kind: listen
+  skill: li
+  topic: comparing
+  level: 2
+  script:
+    - {who: Man, en: "Of the three apartments, the one on Rama Nine is the biggest, but the one near the BTS is the most convenient, so I'm going to take that one."}
+  questions:
+    - stem: Which apartment is the man going to take?
+      choices:
+        - {t: the one near the BTS, why: "the most convenient, so I'm going to take that one"}
+        - {t: the one on Rama Nine, why: "อันนั้นใหญ่ที่สุด แต่เขาไม่เลือก"}
+        - {t: the cheapest one, why: "ไม่ได้พูดถึงราคา"}
+        - {t: none of them, why: "เขาเลือกห้องใกล้ BTS"}
+  status: approved
+- id: cefr-a2-w10-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [My new job, is, more interesting, than my old one]
+  sentence: My new job is more interesting than my old one.
+  th: งานใหม่ของฉันน่าสนใจกว่างานเก่า
+  why: "ประธาน + is + more + คุณศัพท์ + than"
+  status: approved
+- id: cefr-a2-w10-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [This is, the best, coffee shop, in town]
+  sentence: This is the best coffee shop in town.
+  th: นี่คือร้านกาแฟที่ดีที่สุดในเมือง
+  why: "the + ขั้นสุด + คำนาม + in + สถานที่"
+  status: approved
+- id: cefr-a2-w10-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Phuket, isn't as quiet, as Koh Lanta, in high season]
+  sentence: Phuket isn't as quiet as Koh Lanta in high season.
+  th: ช่วงไฮซีซันภูเก็ตไม่เงียบเท่าเกาะลันตา
+  why: "isn't as + คุณศัพท์ + as"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-a2-w10-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [My hometown, is smaller, and quieter, than Bangkok]
+  sentence: My hometown is smaller and quieter than Bangkok.
+  th: บ้านเกิดของฉันเล็กกว่าและเงียบกว่ากรุงเทพฯ
+  why: "ขั้นกว่าสองคำเชื่อมด้วย and แล้วปิดด้วย than"
+  status: approved

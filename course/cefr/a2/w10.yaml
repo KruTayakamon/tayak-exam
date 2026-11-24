@@ -1,0 +1,168 @@
+# คอร์ส a2 · สัปดาห์ 10 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 10
+phase: 3
+theme_th: เปรียบเทียบ
+focus_th: -er / more ... than · good better · bad worse · the -est / the most · as ... as · ศัพท์คุณศัพท์บรรยายสถานที่
+can_do_th:
+  - เปรียบเทียบคน สิ่งของ สถานที่ได้
+  - บอกได้ว่าอะไรดีที่สุดเพราะอะไร
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: มากกว่า
+    lesson:
+      rule_th: "เทียบสองอย่าง ==คำสั้นเติม -er · คำยาวใช้ more== แล้วตามด้วย ++than++"
+      examples:
+        - {en: "Bangkok is <k>bigger than</k> Chiang Mai.", th: "กรุงเทพฯ ใหญ่กว่าเชียงใหม่"}
+        - {en: "This hotel is <k>more comfortable</k>.", th: "==โรงแรมนี้สบายกว่า=="}
+        - {en: "My phone is <k>better</k> than yours.", th: "โทรศัพท์ฉันดีกว่าของคุณ"}
+        - {en: "The traffic is <k>worse</k> today.", th: "วันนี้รถติดกว่าเดิม"}
+      signals:
+        - {label_th: "วิธีเปลี่ยนรูป", words: ["ทั่วไป +er (tall → taller)", "สระสั้น เพิ่มตัวสะกด (big → bigger)", "y → ier (easy → easier)", "คำยาว more (more expensive)", "good → better · bad → worse"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ \"กว่า\" คำเดียว คนไทยเลยเขียน ~~more bigger~~ หรือใช้ than ผิดเป็น then"
+        wrong: ["Bangkok is more bigger than Chiang Mai.", "She is taller then me."]
+        right: ["Bangkok is bigger than Chiang Mai.", "She is taller than me."]
+      notes:
+        - {kind: pin, th: "-er กับ more ==ใช้อย่างใดอย่างหนึ่ง== ห้ามซ้อน"}
+        - {kind: tip, th: "เน้นว่ากว่ามาก ใช้ much / a lot ไม่ใช้ very"}
+    check: [cefr-a2-w10-001, cefr-a2-w10-002]
+    practice: [cefr-a2-w10-003, cefr-a2-w10-004, cefr-a2-w10-005, cefr-a2-w10-006, cefr-a2-w10-007, cefr-a2-w10-008, cefr-a2-w10-009, cefr-a2-w10-010, cefr-a2-w10-011, cefr-a2-w10-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเปรียบเทียบตัวคุณกับคนในครอบครัว
+      frame: "I am ____er than my ____. My ____ is more ____ than me."
+      model: "I am taller than my sister. My sister is more patient than me."
+    classroom: {en: "Which one is cheaper?", th: "อันไหนถูกกว่า"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์บรรยายสถานที่ 12 คำ
+    lesson:
+      rule_th: "คุณศัพท์ชุดนี้ส่วนใหญ่ ==มาเป็นคู่ตรงข้าม== big–small · long–short · fast–slow · noisy–quiet ++จำเป็นคู่จะง่ายกว่า++"
+      examples:
+        - {en: "The BTS is <k>crowded</k> in the morning.", th: "รถไฟฟ้าแน่นตอนเช้า"}
+        - {en: "This café is <k>quiet</k> and <k>comfortable</k>.", th: "==ร้านนี้เงียบและนั่งสบาย=="}
+        - {en: "Wat Arun is <k>famous</k>.", th: "วัดอรุณมีชื่อเสียง"}
+      words:
+        - {w: big, pos: adj., th: ใหญ่, ex: "It's a big city."}
+        - {w: small, pos: adj., th: เล็ก, ex: "I live in a small town."}
+        - {w: long, pos: adj., th: ยาว นาน, ex: "It was a long day."}
+        - {w: short, pos: adj., th: สั้น เตี้ย, ex: "The film is short."}
+        - {w: fast, pos: adj./adv., th: เร็ว, ex: "He drives fast."}
+        - {w: slow, pos: adj., th: ช้า, ex: "The bus is slow."}
+        - {w: noisy, pos: adj., th: เสียงดัง, ex: "The bar was noisy."}
+        - {w: quiet, pos: adj., th: เงียบ, ex: "Please be quiet."}
+        - {w: crowded, pos: adj., th: แออัด คนแน่น, ex: "The market is crowded."}
+        - {w: comfortable, pos: adj., th: สบาย, ex: "These shoes are comfortable."}
+        - {w: popular, pos: adj., th: เป็นที่นิยม, ex: "This song is very popular."}
+        - {w: famous, pos: adj., th: มีชื่อเสียง, ex: "She is a famous singer."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~the street is very many people~~ ตามคำว่า \"ถนนคนเยอะ\""
+        wrong: ["The market is very many people."]
+        right: ["The market is very crowded."]
+      notes:
+        - {kind: pin, th: "คนเยอะ = ==crowded== · ใช้กับสถานที่"}
+        - {kind: use, th: "famous for + สิ่งที่ดัง Chiang Mai is famous for its temples."}
+    check: [cefr-a2-w10-013, cefr-a2-w10-014]
+    practice: [cefr-a2-w10-015, cefr-a2-w10-016, cefr-a2-w10-017, cefr-a2-w10-018, cefr-a2-w10-019, cefr-a2-w10-020, cefr-a2-w10-021, cefr-a2-w10-022, cefr-a2-w10-023, cefr-a2-w10-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบรรยายร้านหรือสถานที่ที่คุณชอบไป
+      frame: "____ is a ____ place. It's always ____ and ____."
+      model: "Lumpini Park is a big place. It's always quiet and green in the early morning."
+    classroom: {en: "It's too crowded here. Let's go somewhere quieter.", th: "ที่นี่คนแน่นไป ไปที่เงียบกว่านี้กันเถอะ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ที่สุด และเท่ากัน
+    lesson:
+      rule_th: "เทียบสามอย่างขึ้นไปใช้ ==the -est / the most== ++เท่ากันใช้ as + คุณศัพท์รูปเดิม + as++"
+      examples:
+        - {en: "It's <k>the highest</k> mountain.", th: "เป็นภูเขาที่สูงที่สุด"}
+        - {en: "That's <k>the most expensive</k> hotel.", th: "==นั่นเป็นโรงแรมที่แพงที่สุด=="}
+        - {en: "My bag is <k>as heavy as</k> yours.", th: "กระเป๋าฉันหนักเท่าของคุณ"}
+        - {en: "The bus <k>isn't as fast as</k> the train.", th: "รถเมล์ไม่เร็วเท่ารถไฟ"}
+      signals:
+        - {label_th: "รูปขั้นสุด", words: ["the + -est (the tallest)", "the most + คำยาว", "good → the best", "bad → the worst", "as ... as = เท่ากัน"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มีคำนำหน้า คนไทยเลย ~~ลืม the~~ ในขั้นสุด"
+        wrong: ["She is tallest in my family.", "It's most famous temple."]
+        right: ["She is the tallest in my family.", "It's the most famous temple."]
+      notes:
+        - {kind: pin, th: "ขั้นสุด ==ต้องมี the== เสมอ"}
+        - {kind: tip, th: "as ... as ใช้คุณศัพท์รูปเดิม ไม่เติม -er"}
+    check: [cefr-a2-w10-025, cefr-a2-w10-026]
+    practice: [cefr-a2-w10-027, cefr-a2-w10-028, cefr-a2-w10-029, cefr-a2-w10-030, cefr-a2-w10-031, cefr-a2-w10-032, cefr-a2-w10-033, cefr-a2-w10-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าอะไรดีที่สุดในเมืองของคุณ และเพราะอะไร
+      frame: "The best ____ in my town is ____. It's the most ____."
+      model: "The best noodle shop in my town is Jay Fai. It's the most popular place for lunch."
+    classroom: {en: "This is the best mango I've ever had!", th: "นี่คือมะม่วงที่อร่อยที่สุดที่เคยกิน"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านข้อความเปรียบเทียบร้านอาหาร และฟังการเปรียบเทียบ
+    lesson:
+      rule_th: "บทเปรียบเทียบมักเล่าทีละร้าน ==จดข้อดีข้อเสียของแต่ละร้านแยกกัน== ++แล้วดูว่าผู้เขียนเลือกอะไรตอนท้าย++"
+      examples:
+        - {en: "Baan Khao is <k>bigger and more popular</k>.", th: "ร้านบ้านข้าวใหญ่และดังกว่า"}
+        - {en: "It <k>isn't as famous as</k> Baan Khao.", th: "==ไม่ดังเท่าร้านบ้านข้าว=="}
+        - {en: "<k>I'll choose</k> Krua Mae next time.", th: "ครั้งหน้าฉันจะเลือกครัวแม่"}
+      thai_trap:
+        intro_th: "ประโยค not as ... as ทำให้คนอ่าน ~~เข้าใจกลับกัน~~"
+        wrong: ["isn't as famous as Baan Khao → ดังกว่า"]
+        right: ["isn't as famous as Baan Khao → ดังน้อยกว่า"]
+      notes:
+        - {kind: warn, th: "not as ... as = ==น้อยกว่า== ไม่ใช่เท่ากัน"}
+        - {kind: tip, th: "ฟังการเลือก จับคำว่า so ... that one"}
+    check: [cefr-a2-w10-036, cefr-a2-w10-037]
+    practice: [cefr-a2-w10-035, cefr-a2-w10-038, cefr-a2-w10-039, cefr-a2-w10-040, cefr-a2-w10-041]
+    use:
+      prompt_th: เขียน 2 ประโยคเปรียบเทียบร้านกาแฟหรือร้านอาหารสองร้านที่คุณรู้จัก
+      frame: "____ is ____er than ____, but it isn't as ____ as ____."
+      model: "Café A is cheaper than Café B, but it isn't as comfortable as Café B."
+    classroom: {en: "Which one would you recommend?", th: "คุณแนะนำร้านไหน"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 20
+    title_th: ห้องฝึกเขียน เปรียบเทียบสถานที่สองแห่ง 5 ประโยค
+    lab:
+      mode: write
+      prompt_th: เขียนเปรียบเทียบสถานที่สองแห่งที่คุณรู้จัก (เมือง ห้าง ตลาด ชายหาด ฯลฯ) 5 ประโยค บอกว่าต่างกันอย่างไร และคุณชอบที่ไหนมากกว่าเพราะอะไร
+      frame:
+        - "____ and ____ are two ____ I know well."
+        - "____ is ____er than ____."
+        - "____ is more ____ than ____."
+        - "But ____ isn't as ____ as ____."
+        - "I like ____ better because ____."
+      model_pass: "Hua Hin and Pattaya are two beaches I know well. Pattaya is bigger than Hua Hin. Pattaya is more crowded than Hua Hin. But Hua Hin isn't as noisy as Pattaya. I like Hua Hin better because it is quiet."
+      model_good: "Hua Hin and Pattaya are two seaside towns I know well. Pattaya is much bigger than Hua Hin, and it's more popular with foreign tourists. The nightlife in Pattaya is more exciting, but the beach isn't as clean as Hua Hin's. I like Hua Hin better because it's quieter and more comfortable for a family weekend."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกสองสถานที่ แล้วจดความต่าง 3 ข้อ
+        - เติมโครง 5 ประโยค
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+      checklist_th:
+        - ใช้ -er กับคำสั้น และ more กับคำยาวอย่างละ 1 ครั้ง
+        - ใช้ than ทุกครั้งที่มีขั้นกว่า
+        - ใช้ not as ... as 1 ครั้ง
+        - บอกเหตุผลด้วย because
+    practice: [cefr-a2-w10-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 10
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
