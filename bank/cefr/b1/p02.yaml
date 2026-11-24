@@ -1,0 +1,279 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 2 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w02-043
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  pool: true
+  stem: "The cleaning team comes ____ a week, on Tuesdays and Fridays."
+  choices:
+    - {t: "twice", why: "สองครั้งต่อสัปดาห์ = ++twice a week++"}
+    - {t: "two", why: "ต้องใช้ two times หรือ twice"}
+    - {t: "second", why: "second แปลว่าที่สอง ไม่ใช่จำนวนครั้ง"}
+    - {t: "double", why: "double ไม่ใช้บอกความถี่แบบนี้"}
+  explain: "ครั้งเดียว once · สองครั้ง ==twice== · สามครั้งขึ้นไป three times"
+  status: approved
+- id: cefr-b1-w02-044
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 1
+  pool: true
+  stem: "My neighbour ____ forgets to close his gate, so his dog often gets out."
+  choices:
+    - {t: "often", why: "ความถี่ ++วางหน้ากริยาแท้++"}
+    - {t: "is often", why: "forgets เป็นกริยาแท้อยู่แล้ว ไม่ต้องมี is"}
+    - {t: "oftens", why: "often ไม่ผันตามประธานเลย"}
+    - {t: "in often", why: "ไม่มีสำนวน in often ในภาษาอังกฤษ"}
+  explain: "คำบอกความถี่ ==วางหน้ากริยาทั่วไป== แต่วางหลัง is/am/are"
+  status: approved
+- id: cefr-b1-w02-045
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 2
+  pool: true
+  stem: "The library is closed ____ public holidays, so check the calendar first."
+  choices:
+    - {t: "on", why: "วันหยุดที่ระบุวัน ใช้ ++on++"}
+    - {t: "in", why: "in ใช้กับเดือน ปี หรือช่วงยาว"}
+    - {t: "at", why: "at ใช้กับเวลาเป็นจุด เช่น at 9"}
+    - {t: "by", why: "by แปลว่าภายใน ไม่ใช่ในวัน"}
+  explain: "วันและวันหยุด ==on== · เดือน/ปี in · เวลา at"
+  status: approved
+- id: cefr-b1-w02-046
+  kind: mcq
+  skill: gm
+  topic: frequency-time-expressions
+  level: 2
+  pool: true
+  stem: "I've been to that dentist ____ times, and she is always very gentle."
+  choices:
+    - {t: "several", why: "หลายครั้ง = ++several times++"}
+    - {t: "much", why: "much ใช้กับคำนามนับไม่ได้"}
+    - {t: "a lot", why: "a lot ต้องมี of ก่อนคำนาม"}
+    - {t: "every", why: "every times ผิด ต้องเป็นเอกพจน์"}
+  explain: "several / many / a few + ==คำนามพหูพจน์=="
+  status: approved
+- id: cefr-b1-w02-047
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 1
+  pool: true
+  stem: "There isn't ____ milk left. Can you buy some on your way home?"
+  choices:
+    - {t: "much", why: "นับไม่ได้ในประโยคปฏิเสธ ใช้ ++much++"}
+    - {t: "many", why: "many ใช้กับนามนับได้พหูพจน์"}
+    - {t: "few", why: "few ใช้กับนามนับได้"}
+    - {t: "a few", why: "a few ใช้กับนามนับได้"}
+  explain: "นับไม่ได้ ==much / a little== · นับได้ many / a few"
+  status: approved
+- id: cefr-b1-w02-048
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 1
+  pool: true
+  stem: "Hurry up! We only have ____ minutes before the train leaves."
+  choices:
+    - {t: "a few", why: "ไม่กี่นาที (นับได้) = ++a few minutes++"}
+    - {t: "a little", why: "a little ใช้กับนามนับไม่ได้"}
+    - {t: "much", why: "much ใช้กับนามนับไม่ได้"}
+    - {t: "less", why: "less ใช้กับนามนับไม่ได้"}
+  explain: "นาทีนับได้ ==a few minutes== · a little time"
+  status: approved
+- id: cefr-b1-w02-049
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  pool: true
+  stem: "The room was too small. There wasn't ____ space for everyone to sit down."
+  choices:
+    - {t: "enough", why: "พอ = ++enough + คำนาม++"}
+    - {t: "too", why: "too ต้องตามด้วยคุณศัพท์ เช่น too small"}
+    - {t: "very", why: "very ไม่ใช้นำหน้าคำนามแบบนี้"}
+    - {t: "plenty", why: "plenty ต้องมี of ก่อนคำนาม"}
+  explain: "enough ==วางหน้าคำนาม== แต่วางหลังคุณศัพท์ (big enough)"
+  status: approved
+- id: cefr-b1-w02-050
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  pool: true
+  stem: "____ of my colleagues live near the office; most of them drive for an hour."
+  choices:
+    - {t: "Few", why: "มีน้อยมาก (แทบไม่มี) = ++Few++"}
+    - {t: "Little", why: "little ใช้กับนามนับไม่ได้"}
+    - {t: "Much", why: "much ใช้กับนามนับไม่ได้"}
+    - {t: "Every", why: "every ไม่ตามด้วย of แบบนี้"}
+  explain: "few = ==น้อยจนแทบไม่มี== · a few = มีบ้าง"
+  status: approved
+- id: cefr-b1-w02-051
+  kind: mcq
+  skill: gm
+  topic: quantifiers
+  level: 2
+  pool: true
+  stem: "I've got ____ homework this weekend, so I can't go to the beach."
+  choices:
+    - {t: "a lot of", why: "นับไม่ได้ ใช้ ++a lot of++ ได้"}
+    - {t: "many", why: "homework นับไม่ได้ ใช้ many ไม่ได้"}
+    - {t: "a few", why: "a few ใช้กับนามนับได้"}
+    - {t: "several", why: "several ใช้กับนามนับได้"}
+  explain: "homework, advice, information ==นับไม่ได้=="
+  status: approved
+- id: cefr-b1-w02-052
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  pool: true
+  stem: "Is Thursday afternoon ____ for you, or would Friday be better?"
+  choices:
+    - {t: "convenient", why: "สะดวก = ++convenient for you++"}
+    - {t: "typical", why: "typical แปลว่าทั่วไปตามแบบ"}
+    - {t: "necessary", why: "necessary แปลว่าจำเป็น"}
+    - {t: "private", why: "private แปลว่าส่วนตัว"}
+  explain: "convenient = ==สะดวก== (เวลา สถานที่)"
+  status: approved
+- id: cefr-b1-w02-053
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 1
+  pool: true
+  stem: "Dr Somchai isn't ____ today, but you can see him tomorrow at ten."
+  choices:
+    - {t: "available", why: "ว่างพบได้ = ++available++"}
+    - {t: "regularly", why: "regularly เป็นคำวิเศษณ์"}
+    - {t: "local", why: "local แปลว่าในท้องถิ่น"}
+    - {t: "public", why: "public แปลว่าสาธารณะ"}
+  explain: "available = ==ว่าง พร้อมให้พบ หรือมีให้ใช้=="
+  status: approved
+- id: cefr-b1-w02-054
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  pool: true
+  stem: "My morning ____ never changes: coffee, a short walk, then emails."
+  choices:
+    - {t: "routine", why: "กิจวัตรประจำ = ++routine++"}
+    - {t: "schedule", why: "schedule คือตารางนัด ไม่ใช่นิสัย"}
+    - {t: "budget", why: "budget คืองบประมาณ"}
+    - {t: "society", why: "society คือสังคม"}
+  explain: "routine = ==สิ่งที่ทำเป็นประจำ== · schedule = ตารางเวลา"
+  status: approved
+- id: cefr-b1-w02-055
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  pool: true
+  stem: "Who is going to ____ the transport for the school trip?"
+  choices:
+    - {t: "organise", why: "จัดการเตรียม = ++organise++"}
+    - {t: "manage", why: "manage ใช้กับทีม เวลา หรือธุรกิจ"}
+    - {t: "convenient", why: "convenient เป็นคุณศัพท์"}
+    - {t: "regularly", why: "regularly เป็นคำวิเศษณ์"}
+  explain: "organise an event / transport = ==จัด เตรียมให้เรียบร้อย=="
+  status: approved
+- id: cefr-b1-w02-056
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  pool: true
+  stem: "A ____ working day for me starts at seven and ends at four."
+  choices:
+    - {t: "typical", why: "ตามแบบทั่วไป = ++typical++"}
+    - {t: "available", why: "available แปลว่าว่าง"}
+    - {t: "necessary", why: "necessary แปลว่าจำเป็น"}
+    - {t: "private", why: "private แปลว่าส่วนตัว"}
+  explain: "a typical day = ==วันปกติตามแบบ=="
+  status: approved
+- id: cefr-b1-w02-057
+  kind: mcq
+  skill: vo
+  topic: schedule-routine
+  level: 2
+  pool: true
+  stem: "You don't need a car here. The ____ transport is cheap and fast."
+  choices:
+    - {t: "public", why: "ขนส่งสาธารณะ = ++public transport++"}
+    - {t: "private", why: "private transport คือรถส่วนตัว"}
+    - {t: "local", why: "local transport ไม่ใช่คำที่ใช้กัน"}
+    - {t: "typical", why: "typical ไม่เข้ากับ transport"}
+  explain: "public transport = ==รถเมล์ รถไฟ ฯลฯ=="
+  status: approved
+- id: cefr-b1-w02-058
+  kind: read
+  skill: rd
+  topic: activity-schedule
+  level: 2
+  pool: true
+  title: "Riverside Community Centre: December Activities"
+  passage: |
+    Here is our programme for December. All activities are free for local residents, but you need to book a place at the front desk.
+
+    Yoga classes take place every Monday and Wednesday at 6 pm. Please bring your own mat. The English conversation club meets twice a month, on the first and third Saturday, from 10 to 11.30 am.
+
+    The centre will be closed from 24 to 26 December. On 31 December, there is a New Year party in the garden from 7 pm. Families are welcome, and there will be music and food from local shops.
+  questions:
+    - stem: "How often does the English club meet?"
+      choices:
+        - {t: "twice a month", why: "on the first and third Saturday"}
+        - {t: "every Saturday", why: "เฉพาะเสาร์แรกกับเสาร์ที่สาม"}
+        - {t: "every Monday and Wednesday", why: "วันจันทร์และพุธเป็นโยคะ"}
+        - {t: "once a month", why: "มีสองครั้งต่อเดือน ไม่ใช่ครั้งเดียว"}
+    - stem: "What must people do before joining an activity?"
+      choices:
+        - {t: "book a place at the desk", why: "you need to book a place at the front desk"}
+        - {t: "pay a small fee", why: "ฟรีสำหรับคนในชุมชน"}
+        - {t: "buy a mat at the centre", why: "ให้นำเสื่อมาเอง ไม่ใช่ซื้อ"}
+        - {t: "call the centre on Monday", why: "ไม่ได้บอกให้โทรมาวันจันทร์"}
+    - stem: "When is the centre closed?"
+      choices:
+        - {t: "from 24 to 26 December", why: "will be closed from 24 to 26 December"}
+        - {t: "on 31 December", why: "31 ธันวาคมมีงานปาร์ตี้"}
+        - {t: "every Saturday", why: "วันเสาร์มีชมรมภาษาอังกฤษ"}
+        - {t: "on Monday evenings", why: "จันทร์เย็นมีโยคะ"}
+  status: approved
+- id: cefr-b1-w02-059
+  kind: listen
+  skill: li
+  topic: asking-availability
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Could we meet on Wednesday to talk about the budget?"}
+    - {who: Man, en: "I'm afraid I'm busy all day Wednesday. How about Thursday morning?"}
+    - {who: Woman, en: "Thursday at nine is fine."}
+  questions:
+    - stem: "When will they meet?"
+      choices:
+        - {t: "on Thursday morning", why: "Thursday at nine is fine"}
+        - {t: "on Wednesday", why: "ฝ่ายชายไม่ว่างวันพุธ"}
+        - {t: "on Thursday afternoon", why: "ตกลงกันตอนเช้า เก้าโมง"}
+        - {t: "they will not meet", why: "ทั้งสองตกลงวันเวลากันได้"}
+  status: approved
+- id: cefr-b1-w02-060
+  kind: listen
+  skill: li
+  topic: schedule-routine
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I try to go swimming three times a week, but this month I've only been once because of work."}
+  questions:
+    - stem: "How often has the man been swimming this month?"
+      choices:
+        - {t: "only once", why: "I've only been once"}
+        - {t: "three times a week", why: "เป็นสิ่งที่เขาพยายามทำตามปกติ"}
+        - {t: "every day", why: "ไม่ได้พูดว่าทุกวัน"}
+        - {t: "twice", why: "ไม่ได้พูดว่าสองครั้ง"}
+  status: approved

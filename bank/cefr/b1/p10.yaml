@@ -1,0 +1,278 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 10 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w10-043
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 1
+  pool: true
+  stem: "The mechanic ____ fixed my motorbike is my cousin."
+  choices:
+    - {t: "who", why: "แทนคน ใช้ ++who++"}
+    - {t: "which", why: "which ใช้กับสิ่งของ"}
+    - {t: "where", why: "where ใช้กับสถานที่"}
+    - {t: "whose", why: "whose ต้องตามด้วยคำนาม"}
+  explain: "คน ==who== · สิ่งของ which · สถานที่ where"
+  status: approved
+- id: cefr-b1-w10-044
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 1
+  pool: true
+  stem: "This is the café ____ we first met."
+  choices:
+    - {t: "where", why: "สถานที่ ใช้ ++where++ (= at which)"}
+    - {t: "which", why: "which ต้องมี at หรือ in"}
+    - {t: "who", why: "who ใช้กับคน จึงใช้ไม่ได้"}
+    - {t: "whose", why: "whose บอกความเป็นเจ้าของ"}
+  explain: "สถานที่ + ประโยคครบ → ==where=="
+  status: approved
+- id: cefr-b1-w10-045
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  pool: true
+  stem: "I've lost the umbrella ____ you lent me last week."
+  choices:
+    - {t: "that", why: "แทนสิ่งของ ใช้ ++that / which++"}
+    - {t: "who", why: "who ใช้กับคน จึงใช้ไม่ได้"}
+    - {t: "where", why: "where ใช้กับสถานที่"}
+    - {t: "what", why: "what ไม่ใช้ตามหลังคำนาม"}
+  explain: "สิ่งของ ==that / which== (ละได้ถ้าเป็นกรรม)"
+  status: approved
+- id: cefr-b1-w10-046
+  kind: mcq
+  skill: gm
+  topic: relative-clauses
+  level: 2
+  pool: true
+  stem: "That's the man ____ car was stolen from the market."
+  choices:
+    - {t: "whose", why: "เป็นเจ้าของ ++whose + คำนาม++"}
+    - {t: "who", why: "ต้องการคำบอกความเป็นเจ้าของ"}
+    - {t: "who's", why: "who's = who is ไม่ตรงความหมาย"}
+    - {t: "which", why: "which ใช้กับสิ่งของ"}
+  explain: "==whose + คำนาม== = ซึ่ง...ของเขา"
+  status: approved
+- id: cefr-b1-w10-047
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 1
+  pool: true
+  stem: "I went to bed early ____ I was very tired."
+  choices:
+    - {t: "because", why: "เหตุผล + ประโยค ใช้ ++because++"}
+    - {t: "because of", why: "because of ตามด้วยคำนาม"}
+    - {t: "so", why: "so บอกผล ไม่ใช่เหตุ"}
+    - {t: "although", why: "although บอกความขัดแย้ง"}
+  explain: "because + ==ประโยค== · because of + คำนาม"
+  status: approved
+- id: cefr-b1-w10-048
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 1
+  pool: true
+  stem: "____ it was raining, we still went for a walk."
+  choices:
+    - {t: "Although", why: "ขัดแย้ง + ประโยค ใช้ ++although++"}
+    - {t: "Despite", why: "despite ตามด้วยคำนามหรือ -ing"}
+    - {t: "Because", why: "ไม่ใช่เหตุผล แต่ขัดแย้ง"}
+    - {t: "However", why: "however ไม่เชื่อมสองประโยคแบบนี้"}
+  explain: "==although + ประโยค== · despite + คำนาม/-ing"
+  status: approved
+- id: cefr-b1-w10-049
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  pool: true
+  stem: "The flight was cancelled ____ the storm."
+  choices:
+    - {t: "because of", why: "ตามด้วยคำนาม ใช้ ++because of++"}
+    - {t: "because", why: "because ต้องตามด้วยประโยค"}
+    - {t: "although", why: "ความหมายไม่ใช่ขัดแย้ง"}
+    - {t: "so that", why: "so that บอกจุดประสงค์"}
+  explain: "because of / due to + ==คำนาม=="
+  status: approved
+- id: cefr-b1-w10-050
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  pool: true
+  stem: "I'm saving money ____ I can visit my sister in Australia."
+  choices:
+    - {t: "so that", why: "จุดประสงค์ + ประโยค ใช้ ++so that++"}
+    - {t: "because of", why: "because of ตามด้วยคำนาม"}
+    - {t: "although", why: "although บอกความขัดแย้ง"}
+    - {t: "in order", why: "in order ต้องมี to ตามมา"}
+  explain: "==so that + ประโยค== · in order to + V1"
+  status: approved
+- id: cefr-b1-w10-051
+  kind: mcq
+  skill: gm
+  topic: linkers-contrast-reason-purpose
+  level: 2
+  pool: true
+  stem: "____ the high price, the concert tickets sold out in an hour."
+  choices:
+    - {t: "Despite", why: "ตามด้วยคำนาม ใช้ ++despite++"}
+    - {t: "Although", why: "although ต้องตามด้วยประโยค"}
+    - {t: "Because of", why: "ราคาแพงไม่ใช่เหตุผลที่ขายหมด"}
+    - {t: "So", why: "so บอกผล จึงใช้ไม่ได้"}
+  explain: "despite + ==คำนาม / -ing== = แม้ว่า"
+  status: approved
+- id: cefr-b1-w10-052
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 1
+  pool: true
+  stem: "In my ____, people should use public transport more."
+  choices:
+    - {t: "opinion", why: "ความเห็น = ++in my opinion++"}
+    - {t: "reason", why: "reason คือเหตุผล"}
+    - {t: "purpose", why: "purpose คือจุดประสงค์"}
+    - {t: "tradition", why: "tradition คือประเพณี"}
+  explain: "In my opinion, ... = ==ในความเห็นของฉัน=="
+  status: approved
+- id: cefr-b1-w10-053
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 1
+  pool: true
+  stem: "Plastic bags are bad for the ____ because they take years to break down."
+  choices:
+    - {t: "environment", why: "สิ่งแวดล้อม = ++environment++"}
+    - {t: "tradition", why: "tradition คือประเพณี"}
+    - {t: "culture", why: "culture คือวัฒนธรรม"}
+    - {t: "opinion", why: "opinion คือความเห็น"}
+  explain: "the environment = ==สิ่งแวดล้อม=="
+  status: approved
+- id: cefr-b1-w10-054
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  pool: true
+  stem: "The air ____ in the city is very bad in the dry season."
+  choices:
+    - {t: "pollution", why: "มลพิษ = ++air pollution++"}
+    - {t: "community", why: "community คือชุมชน"}
+    - {t: "influence", why: "influence คืออิทธิพล"}
+    - {t: "society", why: "society คือสังคม"}
+  explain: "air pollution = ==มลพิษทางอากาศ=="
+  status: approved
+- id: cefr-b1-w10-055
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  pool: true
+  stem: "Giving rice to monks in the morning is an old Thai ____."
+  choices:
+    - {t: "tradition", why: "ประเพณี = ++tradition++"}
+    - {t: "pollution", why: "pollution คือมลพิษ"}
+    - {t: "environment", why: "environment คือสิ่งแวดล้อม"}
+    - {t: "purpose", why: "purpose คือจุดประสงค์"}
+  explain: "tradition = ==ประเพณีที่ทำสืบกันมา=="
+  status: approved
+- id: cefr-b1-w10-056
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  pool: true
+  stem: "Social media has a big ____ on how young people dress."
+  choices:
+    - {t: "influence", why: "อิทธิพล = ++influence on++"}
+    - {t: "reason", why: "reason ใช้ reason for"}
+    - {t: "tradition", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "community", why: "community คือชุมชน"}
+  explain: "have an influence ==on== = มีอิทธิพลต่อ"
+  status: approved
+- id: cefr-b1-w10-057
+  kind: mcq
+  skill: vo
+  topic: opinion-society
+  level: 2
+  pool: true
+  stem: "I love all fruit, ____ mangoes."
+  choices:
+    - {t: "especially", why: "โดยเฉพาะ = ++especially++"}
+    - {t: "although", why: "although ต้องตามด้วยประโยค"}
+    - {t: "purpose", why: "purpose เป็นคำนาม"}
+    - {t: "opinion", why: "opinion เป็นคำนาม"}
+  explain: "especially = ==โดยเฉพาะอย่างยิ่ง=="
+  status: approved
+- id: cefr-b1-w10-058
+  kind: read
+  skill: rd
+  topic: three-opinions
+  level: 2
+  pool: true
+  title: "Should Shops Charge for Plastic Bags?"
+  passage: |
+    Malee, 34: I think it's a good idea. Since my local supermarket started charging one baht per bag, I always bring my own cloth bag. If it costs money, people remember.
+
+    Tom, 52: I don't agree. One baht is too little to change anything. The government should ban plastic bags completely, especially in markets, where most of them are used.
+
+    Arisa, 21: I understand both sides. Charging is a start, but shops should also give people cheap reusable bags. Many older people don't know where to buy them.
+  questions:
+    - stem: "What does Malee do now?"
+      choices:
+        - {t: "she brings a cloth bag", why: "I always bring my own cloth bag"}
+        - {t: "she pays for plastic bags", why: "เธอบอกว่าตอนนี้พาถุงผ้าไปเอง"}
+        - {t: "she shops at the market", why: "ไม่ได้พูดถึงตลาด"}
+        - {t: "she sells cloth bags", why: "ไม่ได้พูดว่าขายถุง"}
+    - stem: "What is Tom's opinion?"
+      choices:
+        - {t: "plastic bags should be banned", why: "should ban plastic bags completely"}
+        - {t: "one baht is a fair price", why: "เขาบอกว่าหนึ่งบาทน้อยเกินไป"}
+        - {t: "markets should charge more", why: "เขาอยากให้ห้าม ไม่ใช่ขึ้นราคา"}
+        - {t: "the idea is good", why: "เขาไม่เห็นด้วย จึงใช้ไม่ได้"}
+    - stem: "What does Arisa suggest?"
+      choices:
+        - {t: "selling cheap reusable bags", why: "shops should also give people cheap reusable bags"}
+        - {t: "stopping the charge", why: "เธอว่าการเก็บเงินเป็นจุดเริ่ม"}
+        - {t: "teaching young people", why: "เธอพูดถึงผู้สูงอายุ"}
+        - {t: "closing some markets", why: "ไม่ได้พูดถึงการปิดตลาด"}
+  status: approved
+- id: cefr-b1-w10-059
+  kind: listen
+  skill: li
+  topic: agree-disagree
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "I think we should have the office party at a restaurant this year."}
+    - {who: Man, en: "I'm not sure. Restaurants are expensive. Why don't we have it in the garden?"}
+  questions:
+    - stem: "What does the man think?"
+      choices:
+        - {t: "a restaurant costs too much", why: "Restaurants are expensive"}
+        - {t: "the garden is too small", why: "ไม่ได้พูดว่าสวนเล็ก"}
+        - {t: "they shouldn't have a party", why: "เขาเสนอที่อื่น ไม่ได้บอกให้ยกเลิก"}
+        - {t: "the restaurant is a good idea", why: "เขาไม่แน่ใจ และเสนอสวนแทน"}
+  status: approved
+- id: cefr-b1-w10-060
+  kind: listen
+  skill: li
+  topic: giving-opinions
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Although working from home saves time, I miss talking to my colleagues."}
+  questions:
+    - stem: "What is the disadvantage of working from home for the man?"
+      choices:
+        - {t: "he misses his colleagues", why: "I miss talking to my colleagues"}
+        - {t: "it takes more time", why: "เขาบอกว่าประหยัดเวลา"}
+        - {t: "his home is noisy", why: "ไม่ได้พูดว่าบ้านเสียงดัง"}
+        - {t: "the internet is slow", why: "ไม่ได้พูดถึงอินเทอร์เน็ต"}
+  status: approved

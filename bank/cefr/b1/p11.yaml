@@ -1,0 +1,282 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 11 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w11-043
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 1
+  pool: true
+  stem: "I enjoy ____ in the garden on Sunday mornings."
+  choices:
+    - {t: "working", why: "enjoy + ++-ing++"}
+    - {t: "to work", why: "enjoy ไม่ตามด้วย to + V"}
+    - {t: "work", why: "enjoy ไม่ตามด้วย V1"}
+    - {t: "worked", why: "ไม่ใช้รูปอดีตหลัง enjoy"}
+  explain: "enjoy, finish, mind, avoid ==+ -ing=="
+  status: approved
+- id: cefr-b1-w11-044
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 1
+  pool: true
+  stem: "We've decided ____ a new printer for the office."
+  choices:
+    - {t: "to buy", why: "decide + ++to + V1++"}
+    - {t: "buying", why: "decide ไม่ตามด้วย -ing"}
+    - {t: "buy", why: "ต้องมี to หลัง decide"}
+    - {t: "bought", why: "ไม่ใช้อดีตหลัง decide"}
+  explain: "decide, want, hope, plan ==+ to + V1=="
+  status: approved
+- id: cefr-b1-w11-045
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  pool: true
+  stem: "Would you mind ____ the window? It's cold in here."
+  choices:
+    - {t: "closing", why: "mind + ++-ing++"}
+    - {t: "to close", why: "mind ไม่ตามด้วย to + V"}
+    - {t: "close", why: "mind ไม่ตามด้วย V1"}
+    - {t: "closed", why: "ไม่ใช้อดีตหลัง mind"}
+  explain: "Would you mind + ==-ing==? = ช่วย...ได้ไหม"
+  status: approved
+- id: cefr-b1-w11-046
+  kind: mcq
+  skill: gm
+  topic: gerund-infinitive
+  level: 2
+  pool: true
+  stem: "I'm looking forward to ____ you at the conference."
+  choices:
+    - {t: "meeting", why: "look forward to + ++-ing++ (to เป็นบุพบท)"}
+    - {t: "meet", why: "to ในวลีนี้ตามด้วย -ing"}
+    - {t: "met", why: "ไม่ใช้อดีต จึงใช้ไม่ได้"}
+    - {t: "be meeting", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "look forward ==to + -ing=="
+  status: approved
+- id: cefr-b1-w11-047
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 1
+  pool: true
+  stem: "Could you ____ my cat while I'm on holiday?"
+  choices:
+    - {t: "look after", why: "ดูแล = ++look after++"}
+    - {t: "look for", why: "look for คือค้นหา"}
+    - {t: "give up", why: "give up คือเลิก"}
+    - {t: "put off", why: "put off คือเลื่อน"}
+  explain: "look after = ==ดูแล=="
+  status: approved
+- id: cefr-b1-w11-048
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 1
+  pool: true
+  stem: "We had to ____ the meeting until next week because the manager is ill."
+  choices:
+    - {t: "put off", why: "เลื่อนออกไป = ++put off++"}
+    - {t: "set up", why: "set up คือจัดตั้ง"}
+    - {t: "look after", why: "look after คือดูแล"}
+    - {t: "give up", why: "give up คือเลิก ล้มเลิก"}
+  explain: "put off = ==เลื่อนออกไป== (= postpone)"
+  status: approved
+- id: cefr-b1-w11-049
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  pool: true
+  stem: "My father ____ smoking ten years ago, and he feels much healthier now."
+  choices:
+    - {t: "gave up", why: "เลิก = ++give up + -ing++"}
+    - {t: "put off", why: "put off คือเลื่อน"}
+    - {t: "set up", why: "set up คือจัดตั้ง"}
+    - {t: "looked after", why: "look after คือดูแล"}
+  explain: "give up ==+ -ing== = เลิกทำ"
+  status: approved
+- id: cefr-b1-w11-050
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  pool: true
+  stem: "I was wondering if you ____ send me the price list."
+  choices:
+    - {t: "could", why: "ขออย่างสุภาพ ++I was wondering if you could++"}
+    - {t: "can to", why: "หลัง can ไม่มี to"}
+    - {t: "will", why: "ใช้ could ในรูปสุภาพนี้"}
+    - {t: "should", why: "should คือควร ไม่ใช่ขอ"}
+  explain: "I was wondering if you ==could== ... = สุภาพมาก"
+  status: approved
+- id: cefr-b1-w11-051
+  kind: mcq
+  skill: gm
+  topic: phrasal-verbs-polite-requests
+  level: 2
+  pool: true
+  stem: "Would it be possible ____ the delivery to Thursday?"
+  choices:
+    - {t: "to change", why: "it be possible + ++to + V1++"}
+    - {t: "changing", why: "หลัง possible ใช้ to + V1"}
+    - {t: "change", why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: "for change", why: "ต้องเป็น for me to change"}
+  explain: "Would it be possible ==to + V1==?"
+  status: approved
+- id: cefr-b1-w11-052
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 1
+  pool: true
+  stem: "Please find the invoice ____ to this email."
+  choices:
+    - {t: "attached", why: "แนบมา = ++attached++"}
+    - {t: "involved", why: "involved คือเกี่ยวข้อง"}
+    - {t: "supported", why: "supported คือสนับสนุน"}
+    - {t: "avoided", why: "avoided คือหลีกเลี่ยง"}
+  explain: "Please find ... ==attached== = ตามไฟล์แนบ"
+  status: approved
+- id: cefr-b1-w11-053
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 1
+  pool: true
+  stem: "Try to ____ the main road in the morning. The traffic is terrible."
+  choices:
+    - {t: "avoid", why: "หลีกเลี่ยง = ++avoid++"}
+    - {t: "attach", why: "attach คือแนบ จึงใช้ไม่ได้"}
+    - {t: "solve", why: "solve คือแก้ปัญหา"}
+    - {t: "involve", why: "involve คือเกี่ยวข้อง"}
+  explain: "avoid + ==คำนาม / -ing=="
+  status: approved
+- id: cefr-b1-w11-054
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  pool: true
+  stem: "The new project will ____ working with three other companies."
+  choices:
+    - {t: "involve", why: "เกี่ยวข้อง มีส่วน = ++involve + -ing++"}
+    - {t: "attach", why: "attach คือแนบไฟล์"}
+    - {t: "avoid", why: "avoid ทำให้ความหมายกลับกัน"}
+    - {t: "support", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "involve = ==ต้องทำ เกี่ยวข้องกับ=="
+  status: approved
+- id: cefr-b1-w11-055
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  pool: true
+  stem: "Thank you for your ____. We couldn't finish the project without your help."
+  choices:
+    - {t: "support", why: "การสนับสนุน = ++support++"}
+    - {t: "effort", why: "effort คือความพยายามของตัวเอง"}
+    - {t: "solve", why: "solve เป็นกริยา"}
+    - {t: "avoid", why: "avoid เป็นกริยา"}
+  explain: "Thank you for your ==support== = ขอบคุณที่สนับสนุน"
+  status: approved
+- id: cefr-b1-w11-056
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  pool: true
+  stem: "We are working hard to ____ the problem with your account."
+  choices:
+    - {t: "solve", why: "แก้ปัญหา = ++solve a problem++"}
+    - {t: "attach", why: "attach คือแนบ จึงใช้ไม่ได้"}
+    - {t: "involve", why: "involve คือเกี่ยวข้อง"}
+    - {t: "avoid", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "solve a problem = ==แก้ปัญหา=="
+  status: approved
+- id: cefr-b1-w11-057
+  kind: mcq
+  skill: vo
+  topic: email-work
+  level: 2
+  pool: true
+  stem: "____, the item you ordered is out of stock. It will arrive next month."
+  choices:
+    - {t: "Unfortunately", why: "น่าเสียดาย = ++unfortunately++"}
+    - {t: "Fortunately", why: "fortunately คือโชคดี ไม่เข้ากับข่าวร้าย"}
+    - {t: "Especially", why: "especially คือโดยเฉพาะ"}
+    - {t: "Effort", why: "effort เป็นคำนาม"}
+  explain: "==Unfortunately== = น่าเสียดายที่ (ข่าวร้าย)"
+  status: approved
+- id: cefr-b1-w11-058
+  kind: read
+  skill: rd
+  topic: formal-email
+  level: 2
+  pool: true
+  title: "Email from Sunshine Travel"
+  passage: |
+    Dear Ms Wanida,
+
+    Thank you for booking your trip to Krabi with us. Unfortunately, the hotel you chose is now fully booked on 12 and 13 April because of a large wedding.
+
+    We would like to offer you two choices. You can stay at the Sea View Hotel, which is next door and has the same price, or you can put off your trip by one week and stay at your original hotel. If you choose the Sea View, we will give you a free dinner on your first night.
+
+    Please reply by 5 March so that we can confirm your booking. We apologise for any problems this may cause.
+
+    Best regards,
+    Napa Somboon, Customer Service
+  questions:
+    - stem: "Why can't Ms Wanida stay at her hotel on 12–13 April?"
+      choices:
+        - {t: "it is full because of a wedding", why: "fully booked ... because of a large wedding"}
+        - {t: "it is closed for repairs", why: "ไม่ได้พูดว่าปิดซ่อม"}
+        - {t: "she booked the wrong dates", why: "ไม่ได้บอกว่าเธอจองผิด"}
+        - {t: "the price has increased", why: "ไม่ได้พูดว่าราคาขึ้น"}
+    - stem: "What will she get if she chooses the Sea View Hotel?"
+      choices:
+        - {t: "a free dinner", why: "we will give you a free dinner on your first night"}
+        - {t: "a cheaper room", why: "ราคาเท่ากัน จึงใช้ไม่ได้"}
+        - {t: "an extra night", why: "ไม่ได้ให้คืนเพิ่ม"}
+        - {t: "a free trip next year", why: "ไม่ได้พูดถึงทริปฟรี"}
+    - stem: "What must she do by 5 March?"
+      choices:
+        - {t: "reply to the email", why: "Please reply by 5 March"}
+        - {t: "pay for the trip", why: "ไม่ได้พูดถึงการจ่ายเงิน"}
+        - {t: "call the hotel", why: "ให้ตอบอีเมล ไม่ใช่โทรหาโรงแรม"}
+        - {t: "go to the travel office", why: "ไม่ได้บอกให้ไปที่สำนักงาน"}
+  status: approved
+- id: cefr-b1-w11-059
+  kind: listen
+  skill: li
+  topic: formal-voicemail
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Hello, this is Siri from City Bank. We need one more document for your loan application. Could you send us a copy of your ID card by Friday?"}
+  questions:
+    - stem: "What does the man need to do?"
+      choices:
+        - {t: "send a copy of his ID card", why: "Could you send us a copy of your ID card"}
+        - {t: "visit the bank on Friday", why: "ขอให้ส่งเอกสาร ไม่ใช่ไปธนาคาร"}
+        - {t: "call Siri back today", why: "ไม่ได้ขอให้โทรกลับ"}
+        - {t: "pay back his loan", why: "ยังเป็นขั้นสมัครกู้"}
+  status: approved
+- id: cefr-b1-w11-060
+  kind: listen
+  skill: li
+  topic: asking-for-help
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Excuse me, would you mind helping me with this box? It's too heavy for me to carry up the stairs."}
+  questions:
+    - stem: "What does the man want?"
+      choices:
+        - {t: "help carrying a box", why: "would you mind helping me with this box"}
+        - {t: "directions to the stairs", why: "ไม่ได้ถามทาง จึงใช้ไม่ได้"}
+        - {t: "someone to open the box", why: "ไม่ได้ขอให้เปิดกล่อง"}
+        - {t: "a smaller box", why: "ไม่ได้ขอกล่องเล็กลง"}
+  status: approved

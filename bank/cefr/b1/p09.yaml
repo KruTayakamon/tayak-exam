@@ -1,0 +1,277 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 9 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w09-043
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 1
+  pool: true
+  stem: "\"I'm hungry,\" said Nok. → Nok said that she ____ hungry."
+  choices:
+    - {t: "was", why: "เล่าต่อ ถอยกาล ++am → was++"}
+    - {t: "is", why: "เมื่อ said เป็นอดีต มักถอย is เป็น was"}
+    - {t: "were", why: "she ใช้ was ไม่ใช่ were"}
+    - {t: "has been", why: "ไม่ตรงกับ I'm hungry"}
+  explain: "said (อดีต) → ==ถอยกาลหนึ่งขั้น=="
+  status: approved
+- id: cefr-b1-w09-044
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 1
+  pool: true
+  stem: "\"We will finish the road next month.\" → They said they ____ finish the road the following month."
+  choices:
+    - {t: "would", why: "เล่าต่อ ถอย ++will → would++"}
+    - {t: "will", why: "said เป็นอดีต ต้องถอยเป็น would"}
+    - {t: "are", why: "are finish ผิดรูป"}
+    - {t: "did", why: "ยังไม่ได้ทำ จึงใช้ did ไม่ได้"}
+  explain: "will → ==would== · next month → the following month"
+  status: approved
+- id: cefr-b1-w09-045
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  pool: true
+  stem: "My boss ____ me that the meeting was cancelled."
+  choices:
+    - {t: "told", why: "tell + ++คน++ (told me)"}
+    - {t: "said", why: "said ไม่มีกรรมตามหลังตรง ๆ"}
+    - {t: "spoke", why: "spoke ใช้ speak to someone"}
+    - {t: "talked", why: "talked ใช้ talk to someone"}
+  explain: "==tell + คน== · say (to someone) + สิ่งที่พูด"
+  status: approved
+- id: cefr-b1-w09-046
+  kind: mcq
+  skill: gm
+  topic: reported-statements
+  level: 2
+  pool: true
+  stem: "\"I lost my keys yesterday.\" → He said he had lost his keys ____."
+  choices:
+    - {t: "the day before", why: "เล่าต่อ ++yesterday → the day before++"}
+    - {t: "tomorrow", why: "tomorrow ไม่ตรงความหมาย"}
+    - {t: "yesterday's", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "the next day", why: "แปลว่าวันถัดไป ความหมายกลับกัน"}
+  explain: "yesterday → ==the day before / the previous day=="
+  status: approved
+- id: cefr-b1-w09-047
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 1
+  pool: true
+  stem: "She asked me where I ____."
+  choices:
+    - {t: "lived", why: "คำถามทางอ้อม ++เรียงแบบบอกเล่า++"}
+    - {t: "did I live", why: "คำถามทางอ้อมไม่สลับที่และไม่มี did"}
+    - {t: "do I live", why: "ไม่สลับประธานกับกริยาช่วย"}
+    - {t: "I lived", why: "I ซ้ำกับคำก่อนหน้า"}
+  explain: "asked + wh- + ==ประธาน + กริยา== (ไม่สลับ)"
+  status: approved
+- id: cefr-b1-w09-048
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 1
+  pool: true
+  stem: "Could you tell me what time the bank ____?"
+  choices:
+    - {t: "opens", why: "ถามอย่างสุภาพ ++ประธาน + กริยา++"}
+    - {t: "does open", why: "ไม่ใช้ does ในคำถามทางอ้อม"}
+    - {t: "does it open", why: "ซ้ำประธาน และสลับที่"}
+    - {t: "open", why: "the bank เป็นเอกพจน์ ต้องเติม s"}
+  explain: "Could you tell me + wh- + ==ประโยคบอกเล่า==?"
+  status: approved
+- id: cefr-b1-w09-049
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  pool: true
+  stem: "The receptionist asked ____ I had a reservation."
+  choices:
+    - {t: "if", why: "คำถาม yes/no ทางอ้อมใช้ ++if / whether++"}
+    - {t: "that", why: "that ใช้กับประโยคบอกเล่า"}
+    - {t: "what", why: "what ต้องการข้อมูล ไม่ใช่ใช่หรือไม่"}
+    - {t: "did", why: "did ไม่ใช้ในคำถามทางอ้อม"}
+  explain: "คำถาม yes/no → ==asked if / whether=="
+  status: approved
+- id: cefr-b1-w09-050
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  pool: true
+  stem: "Do you know ____ the train to Hat Yai leaves?"
+  choices:
+    - {t: "when", why: "ถามเวลา ใช้ ++when + ประโยคบอกเล่า++"}
+    - {t: "when does", why: "ไม่ใช้ does ในคำถามทางอ้อม"}
+    - {t: "that", why: "that ไม่ใช้ถามข้อมูล"}
+    - {t: "what", why: "what ไม่ใช้ถามเวลาแบบนี้"}
+  explain: "Do you know + ==when / where / what== + ประธาน + กริยา?"
+  status: approved
+- id: cefr-b1-w09-051
+  kind: mcq
+  skill: gm
+  topic: reported-questions-indirect
+  level: 2
+  pool: true
+  stem: "\"Can you help me?\" → My neighbour asked me ____ help him."
+  choices:
+    - {t: "if I could", why: "yes/no ทางอ้อม ++if + I could++"}
+    - {t: "could I", why: "ไม่สลับประธานกับกริยาช่วย"}
+    - {t: "that I can", why: "that ไม่ใช้กับคำถาม"}
+    - {t: "can I", why: "ไม่สลับ และต้องถอยกาล"}
+  explain: "can → ==could== และไม่สลับที่ในคำถามทางอ้อม"
+  status: approved
+- id: cefr-b1-w09-052
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 1
+  pool: true
+  stem: "The food was cold, so we ____ to the manager."
+  choices:
+    - {t: "complained", why: "ร้องเรียน = ++complain to++"}
+    - {t: "apologised", why: "apologise คือขอโทษ"}
+    - {t: "admitted", why: "admit คือยอมรับ"}
+    - {t: "agreed", why: "agree คือเห็นด้วย"}
+  explain: "complain to someone ==about== something"
+  status: approved
+- id: cefr-b1-w09-053
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 1
+  pool: true
+  stem: "The waiter ____ for bringing the wrong dish and took it back to the kitchen."
+  choices:
+    - {t: "apologised", why: "ขอโทษ = ++apologise for++"}
+    - {t: "complained", why: "complain คือร้องเรียน"}
+    - {t: "refused", why: "refuse คือปฏิเสธ"}
+    - {t: "warned", why: "warn คือเตือน จึงใช้ไม่ได้"}
+  explain: "apologise ==for== + -ing / สิ่งที่ทำผิด"
+  status: approved
+- id: cefr-b1-w09-054
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  pool: true
+  stem: "She ____ to lend me her car because I don't have a licence."
+  choices:
+    - {t: "refused", why: "ปฏิเสธไม่ทำ = ++refuse to++"}
+    - {t: "admitted", why: "admit ไม่ตามด้วย to + V"}
+    - {t: "apologised", why: "apologise ไม่ตามด้วย to + V"}
+    - {t: "discussed", why: "discuss ไม่ตามด้วย to + V"}
+  explain: "refuse ==to + V1== = ไม่ยอมทำ"
+  status: approved
+- id: cefr-b1-w09-055
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  pool: true
+  stem: "The guide ____ us not to swim there because of the strong current."
+  choices:
+    - {t: "warned", why: "เตือน = ++warn someone not to++"}
+    - {t: "admitted", why: "admit คือยอมรับ"}
+    - {t: "complained", why: "complain ไม่ตามด้วยคน + not to"}
+    - {t: "argued", why: "argue คือเถียง จึงใช้ไม่ได้"}
+  explain: "warn someone (not) ==to + V1=="
+  status: approved
+- id: cefr-b1-w09-056
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  pool: true
+  stem: "Finally, he ____ that he had broken the window."
+  choices:
+    - {t: "admitted", why: "ยอมรับว่าทำผิด = ++admit++"}
+    - {t: "persuaded", why: "persuade ต้องมีคนตามหลัง"}
+    - {t: "refused", why: "refuse ไม่ตามด้วย that"}
+    - {t: "responded", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "admit (that) ... = ==ยอมรับ (ว่าทำ)=="
+  status: approved
+- id: cefr-b1-w09-057
+  kind: mcq
+  skill: vo
+  topic: communication-verbs
+  level: 2
+  pool: true
+  stem: "I tried to ____ my dad to buy an electric car, but he wasn't interested."
+  choices:
+    - {t: "persuade", why: "โน้มน้าว = ++persuade someone to++"}
+    - {t: "discuss", why: "discuss ไม่ตามด้วยคน + to"}
+    - {t: "agree", why: "agree ไม่ตามด้วยคน + to"}
+    - {t: "complain", why: "complain ไม่ตามด้วยคน + to"}
+  explain: "persuade someone ==to + V1== = โน้มน้าวให้"
+  status: approved
+- id: cefr-b1-w09-058
+  kind: read
+  skill: rd
+  topic: meeting-notes
+  level: 2
+  pool: true
+  title: "Notes from the Staff Meeting, 3 March"
+  passage: |
+    Present: Somsak (manager), Lek, Ploy, Arun
+    1. Customer complaints: Lek said that complaints about late deliveries had increased in February. Somsak asked why this was happening. Arun explained that one of the vans had been broken for two weeks.
+    2. New van: Somsak said the company would rent a van until the old one was repaired. Ploy asked whether the rental would be expensive. Somsak said it would cost less than losing customers.
+    3. Next steps: Arun agreed to call the garage on Monday. Lek will send a short apology email to customers who complained.
+    Next meeting: 17 March
+  questions:
+    - stem: "Why were deliveries late in February?"
+      choices:
+        - {t: "a van was broken", why: "one of the vans had been broken for two weeks"}
+        - {t: "there were not enough staff", why: "ไม่ได้พูดถึงพนักงานไม่พอ"}
+        - {t: "the garage was closed", why: "ไม่ได้บอกว่าอู่ปิด"}
+        - {t: "customers changed their orders", why: "ไม่ได้พูดถึงการเปลี่ยนคำสั่งซื้อ"}
+    - stem: "What did Ploy want to know?"
+      choices:
+        - {t: "if renting a van would cost a lot", why: "asked whether the rental would be expensive"}
+        - {t: "when the next meeting was", why: "ไม่ได้บอกว่าเธอถามเรื่องนี้"}
+        - {t: "who would call the garage", why: "อรุณรับเรื่องนี้ ไม่ใช่คำถามของพลอย"}
+        - {t: "why customers were angry", why: "สมศักดิ์เป็นคนถามเรื่องสาเหตุ"}
+    - stem: "Who will contact the customers?"
+      choices:
+        - {t: "Lek", why: "Lek will send a short apology email"}
+        - {t: "Arun", why: "อรุณจะโทรหาอู่ จึงใช้ไม่ได้"}
+        - {t: "Ploy", why: "พลอยถามเรื่องค่าเช่า"}
+        - {t: "Somsak", why: "สมศักดิ์เป็นผู้จัดการ ไม่ได้รับงานนี้"}
+  status: approved
+- id: cefr-b1-w09-059
+  kind: listen
+  skill: li
+  topic: passing-on-message
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Jim called while you were out. He said he couldn't come to the party on Saturday because he had to work."}
+  questions:
+    - stem: "Why can't Jim come to the party?"
+      choices:
+        - {t: "he has to work", why: "he had to work = ต้องทำงาน"}
+        - {t: "he is ill", why: "ไม่ได้พูดว่าป่วย"}
+        - {t: "he is going away", why: "ไม่ได้พูดว่าไปต่างจังหวัด"}
+        - {t: "he wasn't invited", why: "เขาได้รับเชิญแต่มาไม่ได้"}
+  status: approved
+- id: cefr-b1-w09-060
+  kind: listen
+  skill: li
+  topic: passing-on-message
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The hotel asked if we wanted breakfast in our room. I told them we'd go to the restaurant."}
+  questions:
+    - stem: "Where will they have breakfast?"
+      choices:
+        - {t: "in the restaurant", why: "I told them we'd go to the restaurant"}
+        - {t: "in their room", why: "โรงแรมถามแต่เขาเลือกร้านอาหาร"}
+        - {t: "at a café outside", why: "ไม่ได้พูดถึงร้านข้างนอก"}
+        - {t: "they won't have breakfast", why: "เขาบอกว่าจะไปกินที่ร้านอาหาร"}
+  status: approved

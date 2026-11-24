@@ -1,0 +1,278 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 6 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w06-043
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  pool: true
+  stem: "This sofa is ____ than the one in the window, but it's much more comfortable."
+  choices:
+    - {t: "cheaper", why: "คำสั้น เติม ++-er + than++"}
+    - {t: "more cheap", why: "cheap พยางค์เดียว ไม่ใช้ more"}
+    - {t: "cheapest", why: "มี than ต้องเป็นขั้นกว่า"}
+    - {t: "as cheap", why: "as ต้องคู่กับ as ไม่ใช่ than"}
+  explain: "คำพยางค์เดียว ==-er than== · คำยาว more ... than"
+  status: approved
+- id: cefr-b1-w06-044
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 1
+  pool: true
+  stem: "Of all the phones in the shop, this one has the ____ battery."
+  choices:
+    - {t: "longest-lasting", why: "ขั้นสุด the + ++-est++ ในกลุ่มทั้งหมด"}
+    - {t: "longer-lasting", why: "ขั้นกว่าใช้เปรียบสองสิ่ง"}
+    - {t: "long-lasting than", why: "มี the และ of all ต้องใช้ขั้นสุด"}
+    - {t: "most long", why: "long ใช้ longest ไม่ใช้ most"}
+  explain: "of all / in the shop → ==the + ขั้นสุด=="
+  status: approved
+- id: cefr-b1-w06-045
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  pool: true
+  stem: "The new bus route is ____ as the old one. It still takes an hour."
+  choices:
+    - {t: "just as slow", why: "เท่ากัน = ++as + คำปกติ + as++"}
+    - {t: "slower", why: "ประโยคบอกว่ายังใช้เวลาเท่าเดิม"}
+    - {t: "as slower", why: "หลัง as ใช้คำปกติ ไม่ใช่ขั้นกว่า"}
+    - {t: "the slowest", why: "ไม่ได้เปรียบกับหลายสิ่ง"}
+  explain: "==as ... as== = เท่ากับ · just as = เท่ากันเป๊ะ"
+  status: approved
+- id: cefr-b1-w06-046
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  pool: true
+  stem: "My English is getting ____ because I practise every day."
+  choices:
+    - {t: "better and better", why: "ดีขึ้นเรื่อย ๆ = ++better and better++"}
+    - {t: "good and good", why: "ต้องใช้ขั้นกว่า better"}
+    - {t: "more good", why: "good ขั้นกว่าคือ better"}
+    - {t: "best and best", why: "ต้องใช้ขั้นกว่า ไม่ใช่ขั้นสุด"}
+  explain: "ขั้นกว่า + and + ขั้นกว่า = ==ยิ่ง...ขึ้นเรื่อย ๆ=="
+  status: approved
+- id: cefr-b1-w06-047
+  kind: mcq
+  skill: gm
+  topic: comparison
+  level: 2
+  pool: true
+  stem: "This laptop is ____ more expensive than mine. It costs almost double."
+  choices:
+    - {t: "much", why: "ต่างกันมาก ใช้ ++much + ขั้นกว่า++"}
+    - {t: "very", why: "very ไม่ใช้นำหน้าขั้นกว่า"}
+    - {t: "many", why: "many ใช้กับนามนับได้"}
+    - {t: "most", why: "most ใช้กับขั้นสุด"}
+  explain: "==much / far / a lot== + ขั้นกว่า = มากกว่ากันเยอะ"
+  status: approved
+- id: cefr-b1-w06-048
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 1
+  pool: true
+  stem: "Your tooth still hurts? You ____ see a dentist this week."
+  choices:
+    - {t: "should", why: "ให้คำแนะนำ = ++should + V1++"}
+    - {t: "should to", why: "หลัง should ไม่มี to"}
+    - {t: "must to", why: "หลัง must ไม่มี to"}
+    - {t: "ought", why: "ought ต้องมี to ตามมา"}
+  explain: "should + ==กริยาช่อง 1== (ไม่มี to)"
+  status: approved
+- id: cefr-b1-w06-049
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 1
+  pool: true
+  stem: "Why don't we ____ the stairs? The lift is very slow today."
+  choices:
+    - {t: "take", why: "Why don't we + ++V1++"}
+    - {t: "taking", why: "หลัง why don't we ใช้ V1"}
+    - {t: "to take", why: "ไม่มี to หลัง why don't we"}
+    - {t: "took", why: "ไม่ใช้อดีตในการเสนอแนะ"}
+  explain: "Why don't we / you + ==V1== ? = เสนอแนะ"
+  status: approved
+- id: cefr-b1-w06-050
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  pool: true
+  stem: "My doctor suggested ____ less sugar and walking more."
+  choices:
+    - {t: "eating", why: "suggest + ++-ing++"}
+    - {t: "to eat", why: "suggest ไม่ตามด้วย to + V"}
+    - {t: "eat", why: "suggest ไม่ตามด้วย V1 ตรง ๆ"}
+    - {t: "ate", why: "ไม่ใช้อดีตหลัง suggest"}
+  explain: "suggest ==+ -ing== หรือ suggest (that) + ประโยค"
+  status: approved
+- id: cefr-b1-w06-051
+  kind: mcq
+  skill: gm
+  topic: advice-suggestions
+  level: 2
+  pool: true
+  stem: "If I were you, I ____ the cheaper flight and save the money."
+  choices:
+    - {t: "'d book", why: "If I were you ตามด้วย ++would + V1++"}
+    - {t: "will book", why: "ใช้ would กับสถานการณ์สมมติ"}
+    - {t: "booked", why: "ประโยคผลต้องมี would"}
+    - {t: "book", why: "บทไม่ได้พูดว่า book"}
+  explain: "If I were you, ==I'd ...== = ถ้าฉันเป็นคุณ"
+  status: approved
+- id: cefr-b1-w06-052
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 1
+  pool: true
+  stem: "Could you ____ a good hotel near the beach in Hua Hin?"
+  choices:
+    - {t: "recommend", why: "แนะนำสิ่งที่ดี = ++recommend++"}
+    - {t: "compare", why: "compare คือเปรียบเทียบ"}
+    - {t: "advise", why: "advise ใช้กับคน เช่น advise me"}
+    - {t: "provide", why: "ไม่ตรงความหมาย ไม่ได้ขอให้จัดหา"}
+  explain: "recommend + ==สิ่ง/สถานที่== = แนะนำ"
+  status: approved
+- id: cefr-b1-w06-053
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 1
+  pool: true
+  stem: "This small car isn't ____ for a family of six."
+  choices:
+    - {t: "suitable", why: "เหมาะ = ++suitable for++"}
+    - {t: "flexible", why: "flexible คือยืดหยุ่น"}
+    - {t: "valuable", why: "valuable คือมีค่า"}
+    - {t: "difference", why: "difference เป็นคำนาม"}
+  explain: "suitable ==for== = เหมาะกับ"
+  status: approved
+- id: cefr-b1-w06-054
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  pool: true
+  stem: "My old car was very ____. It never broke down in ten years."
+  choices:
+    - {t: "reliable", why: "ไว้ใจได้ = ++reliable++"}
+    - {t: "practical", why: "practical คือใช้งานได้จริง"}
+    - {t: "flexible", why: "flexible คือยืดหยุ่น"}
+    - {t: "suitable", why: "ไม่ตรงกับไม่เคยเสีย"}
+  explain: "reliable = ==เชื่อถือได้ ไม่เสียง่าย=="
+  status: approved
+- id: cefr-b1-w06-055
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  pool: true
+  stem: "One ____ of living in the city is the heavy traffic."
+  choices:
+    - {t: "disadvantage", why: "ข้อเสีย = ++disadvantage++"}
+    - {t: "benefit", why: "benefit คือข้อดี"}
+    - {t: "difference", why: "difference คือความแตกต่าง"}
+    - {t: "disappointing", why: "เป็นคุณศัพท์ ไม่ใช่คำนาม"}
+  explain: "disadvantage = ==ข้อเสีย== · benefit = ข้อดี"
+  status: approved
+- id: cefr-b1-w06-056
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  pool: true
+  stem: "My job has ____ hours, so I can pick up my son from school."
+  choices:
+    - {t: "flexible", why: "ยืดหยุ่น = ++flexible hours++"}
+    - {t: "reliable", why: "ไม่ตรงความหมายกับเวลาทำงาน"}
+    - {t: "valuable", why: "valuable คือมีค่า"}
+    - {t: "benefit", why: "benefit เป็นคำนาม"}
+  explain: "flexible hours = ==เวลาทำงานยืดหยุ่น=="
+  status: approved
+- id: cefr-b1-w06-057
+  kind: mcq
+  skill: vo
+  topic: compare-advise
+  level: 2
+  pool: true
+  stem: "Can you see any ____ between these two photos?"
+  choices:
+    - {t: "difference", why: "ความแตกต่าง = ++difference between++"}
+    - {t: "different", why: "different เป็นคุณศัพท์"}
+    - {t: "compare", why: "compare เป็นกริยา"}
+    - {t: "benefit", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "difference ==between== A and B"
+  status: approved
+- id: cefr-b1-w06-058
+  kind: read
+  skill: rd
+  topic: product-reviews
+  level: 2
+  pool: true
+  title: "Two Rice Cookers: Customer Reviews"
+  passage: |
+    Review 1 – SmartCook 300 (2,900 baht)
+    I bought this for my family of five. It cooks rice perfectly and keeps it warm for hours. It has a timer, so I can set it at night and have rice ready in the morning. The only disadvantage is the size: it takes up a lot of space in my small kitchen.
+
+    Review 2 – MiniRice (1,200 baht)
+    This is perfect for one or two people. It's light and easy to clean, and it cooks rice in just 20 minutes. However, it doesn't keep rice warm for long, and there's no timer. For the price, it's very good value.
+  questions:
+    - stem: "What does the first writer NOT like about the SmartCook 300?"
+      choices:
+        - {t: "it is too big", why: "it takes up a lot of space in my small kitchen"}
+        - {t: "it has no timer", why: "SmartCook มีตัวตั้งเวลา"}
+        - {t: "it is hard to clean", why: "ไม่ได้พูดว่าทำความสะอาดยาก"}
+        - {t: "it cooks slowly", why: "ไม่ได้พูดว่าหุงช้า"}
+    - stem: "Who is the MiniRice most suitable for?"
+      choices:
+        - {t: "one or two people", why: "perfect for one or two people"}
+        - {t: "large families", why: "ครอบครัวใหญ่เหมาะกับเครื่องแรก"}
+        - {t: "people who want a timer", why: "MiniRice ไม่มีตัวตั้งเวลา"}
+        - {t: "restaurants", why: "ไม่ได้พูดถึงร้านอาหาร"}
+    - stem: "Which is true about both rice cookers?"
+      choices:
+        - {t: "they both get good reviews", why: "ทั้งสองรีวิวชมสินค้า มีข้อเสียเล็กน้อย"}
+        - {t: "both keep rice warm for hours", why: "MiniRice อุ่นได้ไม่นาน"}
+        - {t: "both cost the same", why: "ราคาต่างกัน 2,900 กับ 1,200"}
+        - {t: "both cook rice in 20 minutes", why: "บอกเวลาไว้เฉพาะ MiniRice"}
+  status: approved
+- id: cefr-b1-w06-059
+  kind: listen
+  skill: li
+  topic: asking-advice
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "I want to learn to swim, but I'm a bit scared of deep water."}
+    - {who: Man, en: "Why don't you start with a private teacher in the small pool? That's what I did."}
+  questions:
+    - stem: "What does the man suggest?"
+      choices:
+        - {t: "a private teacher", why: "Why don't you start with a private teacher"}
+        - {t: "swimming in the sea", why: "ไม่ได้แนะนำทะเล"}
+        - {t: "watching videos online", why: "ไม่ได้พูดถึงวิดีโอ"}
+        - {t: "joining a big class", why: "เขาแนะนำครูส่วนตัว"}
+  status: approved
+- id: cefr-b1-w06-060
+  kind: listen
+  skill: li
+  topic: comparing-options
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The train is more expensive than the bus, but it's much faster and more comfortable, so I'll take it."}
+  questions:
+    - stem: "Why does the man choose the train?"
+      choices:
+        - {t: "it is faster", why: "much faster and more comfortable"}
+        - {t: "it is cheaper", why: "รถไฟแพงกว่า จึงใช้ไม่ได้"}
+        - {t: "the bus is full", why: "ไม่ได้พูดว่ารถเมล์เต็ม"}
+        - {t: "he has a free ticket", why: "ไม่ได้พูดถึงตั๋วฟรี"}
+  status: approved

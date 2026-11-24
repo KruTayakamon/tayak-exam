@@ -1,0 +1,278 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 7 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w07-043
+  kind: mcq
+  skill: gm
+  topic: obligation-permission
+  level: 1
+  pool: true
+  stem: "Visitors ____ wear a helmet on the building site. It's the law."
+  choices:
+    - {t: "must", why: "กฎบังคับ = ++must + V1++"}
+    - {t: "mustn't", why: "mustn't แปลว่าห้าม ความหมายกลับกัน"}
+    - {t: "can", why: "can คืออนุญาต ไม่ใช่บังคับ"}
+    - {t: "don't have to", why: "แปลว่าไม่จำเป็น"}
+  explain: "==must / have to== = ต้อง"
+  status: approved
+- id: cefr-b1-w07-044
+  kind: mcq
+  skill: gm
+  topic: obligation-permission
+  level: 1
+  pool: true
+  stem: "You ____ bring your own towel. The hotel gives you one."
+  choices:
+    - {t: "don't have to", why: "ไม่จำเป็นต้อง = ++don't have to++"}
+    - {t: "mustn't", why: "mustn't แปลว่าห้าม ไม่ใช่ไม่จำเป็น"}
+    - {t: "have to", why: "โรงแรมให้ผ้าแล้ว จึงไม่ต้องเอามา"}
+    - {t: "must", why: "ความหมายตรงข้ามกับบริบท"}
+  explain: "don't have to = ==ไม่ต้อง (ทำก็ได้ไม่ทำก็ได้)=="
+  status: approved
+- id: cefr-b1-w07-045
+  kind: mcq
+  skill: gm
+  topic: obligation-permission
+  level: 2
+  pool: true
+  stem: "Passengers ____ smoke anywhere on the train. It is not allowed."
+  choices:
+    - {t: "mustn't", why: "ห้ามเด็ดขาด = ++mustn't++"}
+    - {t: "don't have to", why: "แปลว่าไม่จำเป็น ไม่ใช่ห้าม"}
+    - {t: "needn't to", why: "รูปผิด ไม่มี to หลัง needn't"}
+    - {t: "may", why: "may คืออนุญาต จึงใช้ไม่ได้"}
+  explain: "mustn't = ==ห้าม== · don't have to = ไม่จำเป็น"
+  status: approved
+- id: cefr-b1-w07-046
+  kind: mcq
+  skill: gm
+  topic: obligation-permission
+  level: 2
+  pool: true
+  stem: "Are we ____ to use our phones during the test?"
+  choices:
+    - {t: "allowed", why: "be allowed to = ++ได้รับอนุญาต++"}
+    - {t: "allow", why: "ต้องใช้รูป allowed หลัง are"}
+    - {t: "can", why: "are can ผิดรูป จึงใช้ไม่ได้"}
+    - {t: "let", why: "are let to ไม่ใช่รูปที่ใช้"}
+  explain: "be ==allowed to== + V1 = ได้รับอนุญาตให้"
+  status: approved
+- id: cefr-b1-w07-047
+  kind: mcq
+  skill: gm
+  topic: obligation-permission
+  level: 2
+  pool: true
+  stem: "Last year we ____ wear a uniform at work, but now we can wear what we like."
+  choices:
+    - {t: "had to", why: "อดีตของ must ใช้ ++had to++"}
+    - {t: "must", why: "must ไม่มีรูปอดีต"}
+    - {t: "have to", why: "last year เป็นอดีต"}
+    - {t: "musted", why: "ไม่มีรูปนี้ในภาษาอังกฤษ"}
+  explain: "อดีตของ must / have to = ==had to=="
+  status: approved
+- id: cefr-b1-w07-048
+  kind: mcq
+  skill: gm
+  topic: passive-present-past
+  level: 1
+  pool: true
+  stem: "English ____ in many countries around the world."
+  choices:
+    - {t: "is spoken", why: "ภาษาถูกพูด ใช้ ++is + V3++"}
+    - {t: "speaks", why: "ภาษาพูดเองไม่ได้"}
+    - {t: "is speaking", why: "ไม่ใช่การกระทำที่กำลังเกิด"}
+    - {t: "spoken", why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "passive ==is/are + V3=="
+  status: approved
+- id: cefr-b1-w07-049
+  kind: mcq
+  skill: gm
+  topic: passive-present-past
+  level: 1
+  pool: true
+  stem: "The bridge ____ in 1965 and it is still in use today."
+  choices:
+    - {t: "was built", why: "สร้างในอดีต ใช้ ++was + V3++"}
+    - {t: "built", why: "สะพานสร้างตัวเองไม่ได้"}
+    - {t: "is built", why: "มี 1965 ต้องเป็นอดีต"}
+    - {t: "was building", why: "ต้องใช้ V3 ไม่ใช่ -ing"}
+  explain: "อดีต passive ==was/were + V3=="
+  status: approved
+- id: cefr-b1-w07-050
+  kind: mcq
+  skill: gm
+  topic: passive-present-past
+  level: 2
+  pool: true
+  stem: "All the documents ____ to the office yesterday afternoon."
+  choices:
+    - {t: "were sent", why: "พหูพจน์ อดีต ++were + V3++"}
+    - {t: "was sent", why: "documents เป็นพหูพจน์"}
+    - {t: "are sent", why: "yesterday เป็นอดีต"}
+    - {t: "sent", why: "ต้องมี were จึงเป็น passive"}
+  explain: "documents (พหูพจน์) + yesterday → ==were + V3=="
+  status: approved
+- id: cefr-b1-w07-051
+  kind: mcq
+  skill: gm
+  topic: passive-present-past
+  level: 2
+  pool: true
+  stem: "The rooms ____ every morning by the hotel staff."
+  choices:
+    - {t: "are cleaned", why: "ทำเป็นประจำ passive ++are + V3++"}
+    - {t: "clean", why: "ห้องทำความสะอาดตัวเองไม่ได้"}
+    - {t: "is cleaned", why: "rooms เป็นพหูพจน์"}
+    - {t: "were clean", why: "ความหมายต่าง และไม่ใช่กิจวัตร"}
+  explain: "by + ผู้ทำ บอกว่า ==ใครทำ== ใน passive"
+  status: approved
+- id: cefr-b1-w07-052
+  kind: mcq
+  skill: vo
+  topic: rules-documents
+  level: 1
+  pool: true
+  stem: "Please ____ your report by Friday. Late reports will not be accepted."
+  choices:
+    - {t: "submit", why: "ส่งงานอย่างเป็นทางการ = ++submit++"}
+    - {t: "require", why: "require คือต้องการ"}
+    - {t: "include", why: "include คือรวมอยู่ด้วย"}
+    - {t: "provide", why: "ไม่ตรงความหมาย ไม่ใช่ส่งงาน"}
+  explain: "submit = ==ส่ง (เอกสาร งาน)=="
+  status: approved
+- id: cefr-b1-w07-053
+  kind: mcq
+  skill: vo
+  topic: rules-documents
+  level: 1
+  pool: true
+  stem: "The price ____ breakfast and free Wi-Fi."
+  choices:
+    - {t: "includes", why: "รวมอยู่ด้วย = ++include++"}
+    - {t: "provides", why: "provide ใช้ provide something for"}
+    - {t: "submits", why: "submit คือส่งงาน"}
+    - {t: "requires", why: "require คือต้องการ"}
+  explain: "include = ==รวมอยู่ด้วย=="
+  status: approved
+- id: cefr-b1-w07-054
+  kind: mcq
+  skill: vo
+  topic: rules-documents
+  level: 2
+  pool: true
+  stem: "You need written ____ from your manager to take more than five days off."
+  choices:
+    - {t: "permission", why: "การอนุญาต = ++permission++"}
+    - {t: "request", why: "request คือคำขอ ไม่ใช่การอนุญาต"}
+    - {t: "document", why: "ไม่ตรงกับ from your manager"}
+    - {t: "responsibility", why: "responsibility คือความรับผิดชอบ"}
+  explain: "permission = ==การอนุญาต=="
+  status: approved
+- id: cefr-b1-w07-055
+  kind: mcq
+  skill: vo
+  topic: rules-documents
+  level: 2
+  pool: true
+  stem: "I'd like to ____ for the job I saw on your website."
+  choices:
+    - {t: "apply", why: "สมัคร = ++apply for++"}
+    - {t: "application", why: "application เป็นคำนาม"}
+    - {t: "submit", why: "submit ไม่ใช้กับ for a job"}
+    - {t: "require", why: "require คือต้องการ"}
+  explain: "apply ==for== a job = สมัครงาน"
+  status: approved
+- id: cefr-b1-w07-056
+  kind: mcq
+  skill: vo
+  topic: rules-documents
+  level: 2
+  pool: true
+  stem: "Please call me back. It's ____. The water pipe is broken!"
+  choices:
+    - {t: "urgent", why: "เร่งด่วน = ++urgent++"}
+    - {t: "essential", why: "essential คือจำเป็น ไม่ใช่ด่วน"}
+    - {t: "responsibility", why: "เป็นคำนาม แปลว่าความรับผิดชอบ"}
+    - {t: "permission", why: "เป็นคำนาม แปลว่าการอนุญาต"}
+  explain: "urgent = ==ด่วน=="
+  status: approved
+- id: cefr-b1-w07-057
+  kind: mcq
+  skill: vo
+  topic: rules-documents
+  level: 2
+  pool: true
+  stem: "A good night's sleep is ____ before a long drive."
+  choices:
+    - {t: "essential", why: "จำเป็นมาก = ++essential++"}
+    - {t: "urgent", why: "urgent คือเร่งด่วน"}
+    - {t: "application", why: "application เป็นคำนาม แปลว่าใบสมัคร"}
+    - {t: "include", why: "include เป็นกริยา แปลว่ารวมอยู่ด้วย"}
+  explain: "essential = ==จำเป็นอย่างยิ่ง=="
+  status: approved
+- id: cefr-b1-w07-058
+  kind: read
+  skill: rd
+  topic: room-rules
+  level: 2
+  pool: true
+  title: "Greenhill Fitness Centre: Rules for Members"
+  passage: |
+    Members must show their card at the front desk every time they visit. Children under 16 are not allowed in the gym, but they can use the swimming pool with an adult.
+
+    Please wipe the machines after use. Towels are provided at the entrance, so you don't have to bring your own. Lockers can be used during your visit, but you must empty them before you leave. Anything left in a locker overnight will be removed.
+
+    Guests are welcome on weekdays. Each member can bring one guest per month, and the guest must pay 100 baht at the desk.
+  questions:
+    - stem: "Where can a 12-year-old go?"
+      choices:
+        - {t: "the pool, with an adult", why: "they can use the swimming pool with an adult"}
+        - {t: "the gym, with a member", why: "เด็กอายุต่ำกว่า 16 เข้ายิมไม่ได้"}
+        - {t: "anywhere at the weekend", why: "ไม่ได้บอกว่าวันหยุดเข้าได้ทุกที่"}
+        - {t: "nowhere in the centre", why: "เด็กใช้สระได้ถ้ามีผู้ใหญ่"}
+    - stem: "What happens to things left in a locker overnight?"
+      choices:
+        - {t: "they will be removed", why: "will be removed"}
+        - {t: "they will be sent home", why: "ไม่ได้พูดถึงการส่งคืนบ้าน"}
+        - {t: "the member must pay", why: "ไม่ได้พูดถึงค่าปรับ"}
+        - {t: "they will be kept for a month", why: "ไม่ได้บอกว่าเก็บไว้หนึ่งเดือน"}
+    - stem: "What is true about guests?"
+      choices:
+        - {t: "they pay 100 baht", why: "the guest must pay 100 baht at the desk"}
+        - {t: "they come free at weekends", why: "ผู้มาเยือนมาได้เฉพาะวันธรรมดา"}
+        - {t: "members can bring two each month", why: "ได้เดือนละหนึ่งคน"}
+        - {t: "they need a member's card", why: "ไม่ได้บอกว่าต้องใช้บัตรสมาชิก"}
+  status: approved
+- id: cefr-b1-w07-059
+  kind: listen
+  skill: li
+  topic: asking-permission
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Excuse me, am I allowed to take photos inside the museum?"}
+    - {who: Woman, en: "Yes, you can, but you mustn't use a flash."}
+  questions:
+    - stem: "What is not allowed in the museum?"
+      choices:
+        - {t: "using a flash", why: "you mustn't use a flash"}
+        - {t: "taking photos", why: "ถ่ายรูปได้ จึงใช้ไม่ได้"}
+        - {t: "going inside", why: "ไม่ได้ห้ามเข้า จึงใช้ไม่ได้"}
+        - {t: "using a phone", why: "ไม่ได้ห้ามใช้โทรศัพท์"}
+  status: approved
+- id: cefr-b1-w07-060
+  kind: listen
+  skill: li
+  topic: rules-announcement
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Attention, please. The car park will be closed tomorrow for cleaning. Staff are asked to park on Station Road."}
+  questions:
+    - stem: "Where should staff park tomorrow?"
+      choices:
+        - {t: "on Station Road", why: "park on Station Road"}
+        - {t: "in the car park", why: "ที่จอดรถปิดพรุ่งนี้"}
+        - {t: "at home", why: "ไม่ได้บอกให้อยู่บ้าน"}
+        - {t: "at the station car park", why: "ไม่ได้พูดถึงที่จอดของสถานี"}
+  status: approved

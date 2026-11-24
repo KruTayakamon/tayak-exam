@@ -1,0 +1,280 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 8 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w08-043
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 1
+  pool: true
+  stem: "If I ____ more free time, I would learn to play the guitar."
+  choices:
+    - {t: "had", why: "สมมติไม่จริงตอนนี้ ใช้ ++if + อดีต++"}
+    - {t: "have", why: "ประโยคผลมี would จึงต้องใช้อดีต"}
+    - {t: "would have", why: "หลัง if ไม่ใช้ would"}
+    - {t: "will have", why: "เป็นเงื่อนไขสมมติ ไม่ใช่ will"}
+  explain: "If + ==อดีต==, would + V1 = สมมติ"
+  status: approved
+- id: cefr-b1-w08-044
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 1
+  pool: true
+  stem: "If she lived closer to the office, she ____ to work."
+  choices:
+    - {t: "would walk", why: "ประโยคผลของเงื่อนไขสมมติ ++would + V1++"}
+    - {t: "walks", why: "ต้องมี would ในประโยคผล"}
+    - {t: "will walk", why: "ใช้ will กับเรื่องที่เป็นไปได้จริง"}
+    - {t: "walked", why: "ประโยคผลต้องมี would"}
+  explain: "If + past, ==would + V1=="
+  status: approved
+- id: cefr-b1-w08-045
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  pool: true
+  stem: "What would you do if you ____ a wallet in the street?"
+  choices:
+    - {t: "found", why: "สมมติ ใช้ ++if + อดีต++"}
+    - {t: "find", why: "ประโยคหลักมี would ต้องใช้อดีต"}
+    - {t: "would find", why: "หลัง if ไม่ใช้ would"}
+    - {t: "will find", why: "หลัง if ไม่ใช้ will"}
+  explain: "What would you do if you + ==อดีต==?"
+  status: approved
+- id: cefr-b1-w08-046
+  kind: mcq
+  skill: gm
+  topic: second-conditional
+  level: 2
+  pool: true
+  stem: "If I ____ you, I'd ask the bank for advice."
+  choices:
+    - {t: "were", why: "If I were you = ++ใช้ were++"}
+    - {t: "am", why: "สมมติ ไม่ใช้ am"}
+    - {t: "be", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "will be", why: "หลัง if ไม่ใช้ will"}
+  explain: "==If I were you== = ถ้าฉันเป็นคุณ"
+  status: approved
+- id: cefr-b1-w08-047
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 1
+  pool: true
+  stem: "I wish I ____ how to cook. I always eat instant noodles!"
+  choices:
+    - {t: "knew", why: "wish + ++อดีต++ = อยากให้ต่างจากตอนนี้"}
+    - {t: "know", why: "หลัง wish ใช้อดีต"}
+    - {t: "will know", why: "หลัง wish ไม่ใช้ will"}
+    - {t: "am knowing", why: "know ไม่ใช้รูป -ing"}
+  explain: "I wish + ==อดีต== = อยากให้เป็นแบบนั้น (แต่ไม่เป็น)"
+  status: approved
+- id: cefr-b1-w08-048
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 1
+  pool: true
+  stem: "If you heat ice, it ____."
+  choices:
+    - {t: "melts", why: "ความจริงทั่วไป ใช้ ++present simple++"}
+    - {t: "would melt", why: "เป็นความจริง ไม่ใช่สมมติ"}
+    - {t: "melted", why: "ความจริงทั่วไปใช้ปัจจุบัน"}
+    - {t: "will melting", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "ความจริงทั่วไป ==If + present, present=="
+  status: approved
+- id: cefr-b1-w08-049
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  pool: true
+  stem: "If it ____ sunny tomorrow, we'll go to the beach."
+  choices:
+    - {t: "is", why: "เป็นไปได้จริงในอนาคต ++if + present++"}
+    - {t: "were", why: "were ใช้กับสมมติที่ไม่จริง"}
+    - {t: "will be", why: "หลัง if ไม่ใช้ will"}
+    - {t: "would be", why: "หลัง if ไม่ใช้ would"}
+  explain: "เป็นไปได้จริง ==If + present, will=="
+  status: approved
+- id: cefr-b1-w08-050
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  pool: true
+  stem: "I wish my neighbours ____ so much noise at night."
+  choices:
+    - {t: "didn't make", why: "อยากให้ไม่ทำ ++wish + อดีตปฏิเสธ++"}
+    - {t: "don't make", why: "หลัง wish ใช้อดีต"}
+    - {t: "won't make", why: "หลัง wish ไม่ใช้ will"}
+    - {t: "not make", why: "ขาดกริยาช่วย จึงใช้ไม่ได้"}
+  explain: "wish + ==didn't + V1== = อยากให้ไม่..."
+  status: approved
+- id: cefr-b1-w08-051
+  kind: mcq
+  skill: gm
+  topic: conditionals-review-wish
+  level: 2
+  pool: true
+  stem: "If I won a lot of money, I ____ stop working. I love my job."
+  choices:
+    - {t: "wouldn't", why: "สมมติปฏิเสธ ++wouldn't + V1++"}
+    - {t: "won't", why: "เงื่อนไขสมมติใช้ would"}
+    - {t: "don't", why: "ประโยคผลต้องมี would"}
+    - {t: "didn't", why: "บทไม่ได้พูดว่า didn't"}
+  explain: "If + past, ==wouldn't + V1=="
+  status: approved
+- id: cefr-b1-w08-052
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 1
+  pool: true
+  stem: "We can't ____ a holiday abroad this year, so we're staying at home."
+  choices:
+    - {t: "afford", why: "มีเงินพอซื้อ = ++can afford++"}
+    - {t: "earn", why: "earn คือหาเงิน จึงใช้ไม่ได้"}
+    - {t: "reduce", why: "reduce คือลด จึงใช้ไม่ได้"}
+    - {t: "depend", why: "depend ต้องมี on"}
+  explain: "can't afford = ==ไม่มีเงินพอซื้อ=="
+  status: approved
+- id: cefr-b1-w08-053
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 1
+  pool: true
+  stem: "My brother ____ extra money by teaching guitar at weekends."
+  choices:
+    - {t: "earns", why: "ได้เงินจากงาน = ++earn++"}
+    - {t: "affords", why: "afford คือมีเงินพอซื้อ ไม่ใช่หาเงิน"}
+    - {t: "protects", why: "protect คือปกป้อง"}
+    - {t: "increases", why: "increase คือเพิ่ม"}
+  explain: "earn money = ==หาเงิน ได้รับเงิน=="
+  status: approved
+- id: cefr-b1-w08-054
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  pool: true
+  stem: "We borrowed money from the bank. We'll pay back the ____ in five years."
+  choices:
+    - {t: "loan", why: "เงินกู้ = ++loan++"}
+    - {t: "salary", why: "salary คือเงินเดือน"}
+    - {t: "income", why: "income คือรายได้"}
+    - {t: "result", why: "result คือผลลัพธ์"}
+  explain: "take out a loan = ==กู้เงิน=="
+  status: approved
+- id: cefr-b1-w08-055
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  pool: true
+  stem: "Turning off the air conditioner at night can ____ your electricity bill."
+  choices:
+    - {t: "reduce", why: "ลด = ++reduce++"}
+    - {t: "increase", why: "increase คือเพิ่ม ตรงข้ามกับบริบท"}
+    - {t: "prevent", why: "prevent คือป้องกัน"}
+    - {t: "afford", why: "afford คือมีเงินพอซื้อ"}
+  explain: "reduce = ==ลดลง=="
+  status: approved
+- id: cefr-b1-w08-056
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  pool: true
+  stem: "Wearing a seat belt can ____ serious injuries in an accident."
+  choices:
+    - {t: "prevent", why: "ป้องกันไม่ให้เกิด = ++prevent++"}
+    - {t: "cause", why: "cause คือทำให้เกิด ตรงข้าม"}
+    - {t: "reduce", why: "ลดการบาดเจ็บได้ แต่ป้องกันชัดกว่า"}
+    - {t: "earn", why: "earn คือหาเงิน จึงใช้ไม่ได้"}
+  explain: "prevent = ==ป้องกันไม่ให้เกิด=="
+  status: approved
+- id: cefr-b1-w08-057
+  kind: mcq
+  skill: vo
+  topic: money-results
+  level: 2
+  pool: true
+  stem: "\"Are you going camping this weekend?\" \"It ____ on the weather.\""
+  choices:
+    - {t: "depends", why: "ขึ้นอยู่กับ = ++depend on++"}
+    - {t: "results", why: "result ใช้ result in"}
+    - {t: "causes", why: "cause ไม่ตามด้วย on"}
+    - {t: "protects", why: "protect ไม่ตามด้วย on"}
+  explain: "It depends ==on== ... = ขึ้นอยู่กับ"
+  status: approved
+- id: cefr-b1-w08-058
+  kind: read
+  skill: rd
+  topic: saving-money
+  level: 2
+  pool: true
+  title: "Small Steps to Save Money"
+  passage: |
+    Many people think saving money is only possible with a high salary. In fact, small changes can make a big difference.
+
+    First, write down everything you spend for one month. Most people are surprised by how much they spend on snacks and coffee. If you made coffee at home instead of buying it, you could save more than 1,000 baht a month.
+
+    Second, try the "48-hour rule". If you want to buy something that isn't essential, wait two days. Often you will realise that you don't really need it.
+
+    Finally, put some money into a savings account as soon as you get paid, not at the end of the month. This way, you won't spend it by mistake.
+  questions:
+    - stem: "What is the main idea of the article?"
+      choices:
+        - {t: "small changes can help you save", why: "small changes can make a big difference"}
+        - {t: "you need a high salary to save", why: "บทความบอกว่าไม่จริง"}
+        - {t: "coffee is bad for your health", why: "ไม่ได้พูดเรื่องสุขภาพ"}
+        - {t: "banks give the best advice", why: "ไม่ได้พูดถึงคำแนะนำจากธนาคาร"}
+    - stem: "What is the \"48-hour rule\"?"
+      choices:
+        - {t: "wait two days before buying", why: "ให้รอสองวันก่อนตัดสินใจซื้อ"}
+        - {t: "save money for 48 hours", why: "ไม่ได้หมายความว่าออมสองวัน"}
+        - {t: "spend only 48 baht a day", why: "ไม่ได้พูดถึงตัวเลขนี้"}
+        - {t: "shop only twice a week", why: "ไม่ได้พูดถึงความถี่การซื้อ"}
+    - stem: "When does the writer suggest saving money?"
+      choices:
+        - {t: "on payday", why: "as soon as you get paid"}
+        - {t: "at the end of the month", why: "ผู้เขียนบอกว่าไม่ควรรอถึงสิ้นเดือน"}
+        - {t: "after buying coffee", why: "ไม่เกี่ยวกับกาแฟ"}
+        - {t: "every 48 hours", why: "48 ชั่วโมงเป็นกฎการซื้อ"}
+  status: approved
+- id: cefr-b1-w08-059
+  kind: listen
+  skill: li
+  topic: giving-reasons
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Would you move to Bangkok if they offered you a job there?"}
+    - {who: Man, en: "I don't think so. The salary would be higher, but rent is so expensive."}
+  questions:
+    - stem: "Why wouldn't the man move to Bangkok?"
+      choices:
+        - {t: "rent is very expensive", why: "rent is so expensive"}
+        - {t: "the salary is lower", why: "เงินเดือนจะสูงกว่า"}
+        - {t: "he doesn't like the city", why: "ไม่ได้พูดว่าไม่ชอบเมือง"}
+        - {t: "he has no job offer yet", why: "เป็นคำถามสมมติ ไม่ใช่เหตุผลของเขา"}
+  status: approved
+- id: cefr-b1-w08-060
+  kind: listen
+  skill: li
+  topic: imaginary-situations
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "If I had a bigger kitchen, I'd cook for my friends every weekend."}
+  questions:
+    - stem: "What is true about the man?"
+      choices:
+        - {t: "his kitchen is small", why: "If I had a bigger kitchen = ตอนนี้ครัวเล็ก"}
+        - {t: "he cooks every weekend", why: "เป็นสิ่งที่อยากทำ ไม่ใช่ทำจริง"}
+        - {t: "he is buying a new house", why: "ไม่ได้พูดถึงบ้านใหม่"}
+        - {t: "his friends don't like his food", why: "ไม่ได้พูดถึงความชอบของเพื่อน"}
+  status: approved

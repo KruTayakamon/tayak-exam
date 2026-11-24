@@ -1,0 +1,278 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 12 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w12-043
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 1
+  pool: true
+  stem: "The lights are off and nobody is answering. They ____ be at home."
+  choices:
+    - {t: "can't", why: "แน่ใจว่าไม่ใช่ = ++can't++"}
+    - {t: "mustn't", why: "mustn't แปลว่าห้าม"}
+    - {t: "don't have to", why: "แปลว่าไม่จำเป็น"}
+    - {t: "must", why: "หลักฐานบอกว่าไม่อยู่ ไม่ใช่อยู่"}
+  explain: "แน่ใจว่าไม่ ==can't== · แน่ใจว่าใช่ must"
+  status: approved
+- id: cefr-b1-w12-044
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 1
+  pool: true
+  stem: "She's been running for an hour. She ____ be very tired."
+  choices:
+    - {t: "must", why: "แน่ใจว่าใช่ = ++must++"}
+    - {t: "can't", why: "ความหมายกลับกัน"}
+    - {t: "should to", why: "หลัง should ไม่มี to"}
+    - {t: "has", why: "has be ผิดรูป จึงใช้ไม่ได้"}
+  explain: "หลักฐานชัด แน่ใจ ==must + V1=="
+  status: approved
+- id: cefr-b1-w12-045
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  pool: true
+  stem: "I'm not sure where Lek is. She ____ be in the meeting room."
+  choices:
+    - {t: "might", why: "อาจจะ ไม่แน่ใจ = ++might++"}
+    - {t: "must", why: "must แปลว่าแน่ใจ"}
+    - {t: "can't", why: "can't แปลว่าไม่น่าใช่แน่ ๆ"}
+    - {t: "has to", why: "has to แปลว่าต้อง"}
+  explain: "ไม่แน่ใจ ==might / may / could=="
+  status: approved
+- id: cefr-b1-w12-046
+  kind: mcq
+  skill: gm
+  topic: modals-deduction
+  level: 2
+  pool: true
+  stem: "That ____ be Ploy's car. Hers is red, and this one is blue."
+  choices:
+    - {t: "can't", why: "แน่ใจว่าไม่ใช่ ++can't++"}
+    - {t: "mustn't", why: "mustn't คือห้าม ไม่ใช่การเดา"}
+    - {t: "might", why: "มีหลักฐานชัด จึงไม่ใช่อาจจะ"}
+    - {t: "must", why: "สีไม่ตรง จึงไม่ใช่รถเธอ"}
+  explain: "หลักฐานขัดแย้ง → ==can't be=="
+  status: approved
+- id: cefr-b1-w12-047
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 1
+  pool: true
+  stem: "I ____ in this company since 2015."
+  choices:
+    - {t: "have worked", why: "ตั้งแต่ปีหนึ่งถึงตอนนี้ ++have + V3++"}
+    - {t: "work", why: "since ใช้กับ present perfect"}
+    - {t: "worked", why: "ยังทำอยู่ ใช้อดีตไม่ได้"}
+    - {t: "am working", why: "since ไม่ใช้กับรูปนี้"}
+  explain: "since + จุดเริ่ม → ==have/has + V3=="
+  status: approved
+- id: cefr-b1-w12-048
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  pool: true
+  stem: "If I ____ you, I would take the job in Phuket."
+  choices:
+    - {t: "were", why: "สมมติ ++If I were you++"}
+    - {t: "am", why: "ประโยคสมมติไม่ใช้ am"}
+    - {t: "will be", why: "หลัง if ไม่ใช้ will"}
+    - {t: "had been", why: "ไม่ใช่เรื่องในอดีต"}
+  explain: "If I were you, I'd ... = ==ถ้าเป็นฉันจะ...=="
+  status: approved
+- id: cefr-b1-w12-049
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  pool: true
+  stem: "The report ____ by the manager last Friday."
+  choices:
+    - {t: "was checked", why: "passive อดีต ++was + V3++"}
+    - {t: "checked", why: "รายงานตรวจเองไม่ได้"}
+    - {t: "is checked", why: "last Friday เป็นอดีต"}
+    - {t: "was checking", why: "ต้องใช้ V3 ไม่ใช่ -ing"}
+  explain: "ถูกกระทำในอดีต ==was/were + V3=="
+  status: approved
+- id: cefr-b1-w12-050
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  pool: true
+  stem: "She asked me ____ I had finished the report."
+  choices:
+    - {t: "whether", why: "คำถาม yes/no ทางอ้อม ++whether / if++"}
+    - {t: "that", why: "that ไม่ใช้กับคำถาม"}
+    - {t: "what", why: "ไม่ได้ถามข้อมูล"}
+    - {t: "did", why: "ไม่ใช้ did ในคำถามทางอ้อม"}
+  explain: "asked ==whether / if== + ประธาน + กริยา"
+  status: approved
+- id: cefr-b1-w12-051
+  kind: mcq
+  skill: gm
+  topic: review-b1
+  level: 2
+  pool: true
+  stem: "I stopped ____ coffee after lunch because I couldn't sleep at night."
+  choices:
+    - {t: "drinking", why: "เลิกทำ ++stop + -ing++"}
+    - {t: "to drink", why: "stop to drink แปลว่าหยุดเพื่อดื่ม"}
+    - {t: "drink", why: "หลัง stop ใช้ -ing"}
+    - {t: "drank", why: "ไม่ใช้อดีตหลัง stopped"}
+  explain: "stop ==+ -ing== = เลิก · stop to + V = หยุดเพื่อ"
+  status: approved
+- id: cefr-b1-w12-052
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 1
+  pool: true
+  stem: "There were twenty ____ for the job, but only three were invited to an interview."
+  choices:
+    - {t: "candidates", why: "ผู้สมัคร = ++candidates++"}
+    - {t: "supervisors", why: "supervisor คือหัวหน้างาน"}
+    - {t: "employees", why: "employee คือพนักงานที่ทำงานอยู่แล้ว"}
+    - {t: "ambitions", why: "ambition คือความทะเยอทะยาน"}
+  explain: "candidate = ==ผู้สมัคร ผู้เข้าชิง=="
+  status: approved
+- id: cefr-b1-w12-053
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 1
+  pool: true
+  stem: "After five years, she got a ____ to team leader."
+  choices:
+    - {t: "promotion", why: "เลื่อนตำแหน่ง = ++promotion to++"}
+    - {t: "qualification", why: "qualification คือคุณวุฒิ"}
+    - {t: "decision", why: "decision คือการตัดสินใจ"}
+    - {t: "conclusion", why: "conclusion คือข้อสรุป"}
+  explain: "get a promotion = ==ได้เลื่อนตำแหน่ง=="
+  status: approved
+- id: cefr-b1-w12-054
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  pool: true
+  stem: "A nursing degree is the main ____ for this job."
+  choices:
+    - {t: "qualification", why: "คุณวุฒิ = ++qualification++"}
+    - {t: "promotion", why: "promotion คือการเลื่อนตำแหน่ง"}
+    - {t: "candidate", why: "candidate คือผู้สมัคร"}
+    - {t: "ambition", why: "ambition คือความทะเยอทะยาน"}
+  explain: "qualification = ==คุณวุฒิ ใบรับรองความสามารถ=="
+  status: approved
+- id: cefr-b1-w12-055
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  pool: true
+  stem: "My ____ checks my work every week and gives me feedback."
+  choices:
+    - {t: "supervisor", why: "หัวหน้างาน = ++supervisor++"}
+    - {t: "candidate", why: "candidate คือผู้สมัคร"}
+    - {t: "employee", why: "employee คือพนักงาน"}
+    - {t: "career", why: "career คืออาชีพการงาน"}
+  explain: "supervisor = ==หัวหน้า ผู้ควบคุมงาน=="
+  status: approved
+- id: cefr-b1-w12-056
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  pool: true
+  stem: "He was ____ to pass the driving test, so he practised every evening."
+  choices:
+    - {t: "determined", why: "มุ่งมั่น = ++determined to++"}
+    - {t: "capable", why: "capable ใช้ capable of + -ing"}
+    - {t: "ambition", why: "ambition เป็นคำนาม"}
+    - {t: "qualification", why: "เป็นคำนาม จึงใช้ไม่ได้"}
+  explain: "be determined ==to + V1== = ตั้งใจแน่วแน่"
+  status: approved
+- id: cefr-b1-w12-057
+  kind: mcq
+  skill: vo
+  topic: career-words
+  level: 2
+  pool: true
+  stem: "Leaving my job to study was a difficult ____, but I'm glad I did it."
+  choices:
+    - {t: "decision", why: "การตัดสินใจ = ++decision++"}
+    - {t: "conclusion", why: "conclusion คือข้อสรุป"}
+    - {t: "promotion", why: "promotion คือการเลื่อนตำแหน่ง"}
+    - {t: "interview", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "make a decision = ==ตัดสินใจ=="
+  status: approved
+- id: cefr-b1-w12-058
+  kind: read
+  skill: rd
+  topic: career-change
+  level: 2
+  pool: true
+  title: "From Bank Clerk to Baker"
+  passage: |
+    Pim worked at a bank for nine years. The salary was good, but she felt bored. "I used to look at the clock all day," she says.
+
+    In 2021, she took a six-month baking course at weekends. Her teacher said she was very capable, and Pim started selling cakes to her colleagues. Soon, people from other offices were ordering too.
+
+    Last year, she made the decision to leave the bank. She now runs a small bakery near the train station. "I earn less money than before, and I work longer hours," she says. "But I'm much happier. I wish I had done this earlier."
+  questions:
+    - stem: "How did Pim first sell her cakes?"
+      choices:
+        - {t: "to people she worked with", why: "selling cakes to her colleagues"}
+        - {t: "at a train station", why: "ร้านอยู่ใกล้สถานีเป็นเรื่องตอนหลัง"}
+        - {t: "online", why: "ไม่ได้พูดถึงการขายออนไลน์"}
+        - {t: "at weekend markets", why: "เรียนทำขนมช่วงสุดสัปดาห์ ไม่ใช่ขาย"}
+    - stem: "What is true about Pim's new job?"
+      choices:
+        - {t: "she works more hours", why: "I work longer hours"}
+        - {t: "she earns more money", why: "เธอได้เงินน้อยกว่าเดิม"}
+        - {t: "she feels bored", why: "เธอบอกว่ามีความสุขกว่ามาก"}
+        - {t: "it is in a bank", why: "เธอลาออกจากธนาคารแล้ว"}
+    - stem: "What does Pim regret?"
+      choices:
+        - {t: "not changing jobs sooner", why: "I wish I had done this earlier"}
+        - {t: "taking the baking course", why: "ไม่ได้เสียใจเรื่องคอร์ส"}
+        - {t: "leaving the bank", why: "เธอดีใจที่ออก จึงใช้ไม่ได้"}
+        - {t: "opening near the station", why: "ไม่ได้พูดถึงเรื่องนี้"}
+  status: approved
+- id: cefr-b1-w12-059
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "How was your job interview?"}
+    - {who: Man, en: "I think it went well. They said they'd let me know by Friday."}
+  questions:
+    - stem: "When will the man hear about the job?"
+      choices:
+        - {t: "by Friday", why: "They said they'd let me know by Friday"}
+        - {t: "today", why: "ไม่ได้บอกว่าวันนี้"}
+        - {t: "next month", why: "ไม่ได้พูดถึงเดือนหน้า"}
+        - {t: "he already knows", why: "เขายังรอคำตอบอยู่"}
+  status: approved
+- id: cefr-b1-w12-060
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Somchai isn't answering his phone. He must be on the plane. His flight left at ten."}
+  questions:
+    - stem: "Why does the man think Somchai isn't answering?"
+      choices:
+        - {t: "he is flying", why: "He must be on the plane"}
+        - {t: "his phone is broken", why: "ไม่ได้พูดว่าโทรศัพท์เสีย"}
+        - {t: "he is in a meeting", why: "ไม่ได้พูดถึงการประชุม"}
+        - {t: "he is asleep", why: "ไม่ได้พูดว่าหลับ"}
+  status: approved

@@ -1,0 +1,278 @@
+# คอร์ส b1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 4 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b1-w04-043
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  pool: true
+  stem: "I ____ my passport last week, so I can travel now."
+  choices:
+    - {t: "got", why: "มีเวลาชัด last week ใช้ ++past simple++"}
+    - {t: "have got", why: "มี last week ใช้ have ไม่ได้"}
+    - {t: "have get", why: "รูปผิด และมีเวลาชัดแล้ว"}
+    - {t: "was got", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "มีเวลาชัดในอดีต (yesterday, last week) ==past simple=="
+  status: approved
+- id: cefr-b1-w04-044
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 1
+  pool: true
+  stem: "____ you ever been to a cooking class?"
+  choices:
+    - {t: "Have", why: "ประสบการณ์ ever ใช้ ++have + V3++"}
+    - {t: "Did", why: "did ใช้เมื่อถามเวลาที่ชัดในอดีต"}
+    - {t: "Do", why: "do + tried ผิดรูป"}
+    - {t: "Were", why: "were + tried ไม่ใช่รูปคำถามนี้"}
+  explain: "เคย...ไหม ==Have you ever + V3?=="
+  status: approved
+- id: cefr-b1-w04-045
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  pool: true
+  stem: "\"When ____ your new job?\" \"In September.\""
+  choices:
+    - {t: "did you start", why: "ถามเวลาชัด when ใช้ ++did++"}
+    - {t: "have you started", why: "when ไม่ใช้กับ present perfect"}
+    - {t: "do you start", why: "คำตอบเป็นอดีตแล้ว"}
+    - {t: "are you starting", why: "คำตอบบอกว่าเริ่มไปแล้ว"}
+  explain: "When ...? ==ใช้ past simple== เพราะถามเวลาชัด"
+  status: approved
+- id: cefr-b1-w04-046
+  kind: mcq
+  skill: gm
+  topic: present-perfect-vs-past-simple
+  level: 2
+  pool: true
+  stem: "Our team ____ three new members since the beginning of the year."
+  choices:
+    - {t: "has welcomed", why: "ช่วงตั้งแต่ต้นปีถึงตอนนี้ ++has + V3++"}
+    - {t: "welcomed", why: "since ต้องคู่กับ present perfect"}
+    - {t: "have welcomed", why: "team เป็นเอกพจน์ ใช้ has"}
+    - {t: "welcomes", why: "รูปปัจจุบันไม่เข้ากับ since"}
+  explain: "since + จุดเริ่มต้น → ==has/have + V3=="
+  status: approved
+- id: cefr-b1-w04-047
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 1
+  pool: true
+  stem: "I've lived in this flat ____ 2019."
+  choices:
+    - {t: "since", why: "จุดเริ่มต้นที่เป็นปี ใช้ ++since++"}
+    - {t: "for", why: "for ตามด้วยระยะเวลา เช่น five years"}
+    - {t: "from", why: "from ต้องมี to หรือ until"}
+    - {t: "ago", why: "ago ใช้กับ past simple"}
+  explain: "since ==+ จุดเริ่ม== · for + ระยะเวลา"
+  status: approved
+- id: cefr-b1-w04-048
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 1
+  pool: true
+  stem: "Have you finished the report ____?"
+  choices:
+    - {t: "yet", why: "คำถาม ทำหรือยัง ใช้ ++yet++ ท้ายประโยค"}
+    - {t: "already", why: "already มักใช้ในบอกเล่า"}
+    - {t: "still", why: "still ไม่ใช้ท้ายคำถามแบบนี้"}
+    - {t: "since", why: "since ต้องมีจุดเริ่มตามมา"}
+  explain: "...yet? = ==หรือยัง== · already = แล้ว (เร็วกว่าคาด)"
+  status: approved
+- id: cefr-b1-w04-049
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  pool: true
+  stem: "Don't worry about the tickets. I've ____ booked them online."
+  choices:
+    - {t: "already", why: "ทำไปแล้ว ++already วางหลัง have++"}
+    - {t: "yet", why: "yet ใช้ในคำถามหรือปฏิเสธ"}
+    - {t: "ever", why: "ever ใช้ถามประสบการณ์"}
+    - {t: "since", why: "since ต้องมีจุดเริ่มตามมา"}
+  explain: "have ==already== + V3 = ทำไปแล้ว"
+  status: approved
+- id: cefr-b1-w04-050
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  pool: true
+  stem: "We haven't seen each other ____ ages. Let's have lunch soon."
+  choices:
+    - {t: "for", why: "ระยะเวลานาน ใช้ ++for ages++"}
+    - {t: "since", why: "since ต้องตามด้วยจุดเริ่ม"}
+    - {t: "during", why: "during ไม่ใช้กับ present perfect แบบนี้"}
+    - {t: "ago", why: "ago ใช้กับ past simple"}
+  explain: "for ages = ==นานมากแล้ว=="
+  status: approved
+- id: cefr-b1-w04-051
+  kind: mcq
+  skill: gm
+  topic: for-since-already-yet
+  level: 2
+  pool: true
+  stem: "The new manager hasn't replied to my email ____."
+  choices:
+    - {t: "yet", why: "ปฏิเสธ ยังไม่ ใช้ ++yet++ ท้ายประโยค"}
+    - {t: "already", why: "already ไม่ใช้ในปฏิเสธแบบนี้"}
+    - {t: "just", why: "just ไม่วางท้ายประโยคปฏิเสธ"}
+    - {t: "ever", why: "ever ไม่ใช้ในประโยคนี้"}
+  explain: "haven't/hasn't ... ==yet== = ยังไม่"
+  status: approved
+- id: cefr-b1-w04-052
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 1
+  pool: true
+  stem: "After the course, everyone received a ____ with their name on it."
+  choices:
+    - {t: "certificate", why: "ใบประกาศ = ++certificate++"}
+    - {t: "workshop", why: "workshop คือการอบรมเชิงปฏิบัติการ"}
+    - {t: "knowledge", why: "knowledge คือความรู้"}
+    - {t: "ability", why: "ability คือความสามารถ"}
+  explain: "certificate = ==ใบประกาศ ใบรับรอง=="
+  status: approved
+- id: cefr-b1-w04-053
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 1
+  pool: true
+  stem: "Speaking in front of people is a ____ you can learn with practice."
+  choices:
+    - {t: "skill", why: "ทักษะ = ++skill++"}
+    - {t: "certificate", why: "certificate คือใบประกาศ"}
+    - {t: "opportunity", why: "opportunity คือโอกาส"}
+    - {t: "knowledge", why: "ความรู้ไม่ใช่สิ่งที่ฝึกพูดแบบนี้"}
+  explain: "a skill = ==ทักษะ== ฝึกได้"
+  status: approved
+- id: cefr-b1-w04-054
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  pool: true
+  stem: "This job is a great ____ to work with people from other countries."
+  choices:
+    - {t: "opportunity", why: "โอกาส = ++opportunity to++"}
+    - {t: "ability", why: "ability คือความสามารถ"}
+    - {t: "workshop", why: "workshop คือการอบรม"}
+    - {t: "skill", why: "ไม่ตรงความหมาย ทักษะไม่ใช่โอกาส"}
+  explain: "opportunity to + V = ==โอกาสที่จะ=="
+  status: approved
+- id: cefr-b1-w04-055
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  pool: true
+  stem: "After three months of practice, I feel more ____ when I speak English on the phone."
+  choices:
+    - {t: "confident", why: "มั่นใจ = ++confident++"}
+    - {t: "successful", why: "successful คือประสบความสำเร็จ"}
+    - {t: "useful", why: "useful คือมีประโยชน์"}
+    - {t: "recently", why: "recently เป็นคำวิเศษณ์"}
+  explain: "feel confident = ==รู้สึกมั่นใจ=="
+  status: approved
+- id: cefr-b1-w04-056
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  pool: true
+  stem: "She worked hard and ____ her goal of running a full marathon."
+  choices:
+    - {t: "achieved", why: "บรรลุเป้าหมาย = ++achieve a goal++"}
+    - {t: "developed", why: "develop ใช้กับทักษะ ไม่ใช่เป้าหมาย"}
+    - {t: "confident", why: "confident เป็นคุณศัพท์"}
+    - {t: "recently", why: "recently เป็นคำวิเศษณ์"}
+  explain: "achieve a goal = ==ทำได้สำเร็จตามเป้า=="
+  status: approved
+- id: cefr-b1-w04-057
+  kind: mcq
+  skill: vo
+  topic: training-development
+  level: 2
+  pool: true
+  stem: "I've ____ started a cooking class on Saturday mornings."
+  choices:
+    - {t: "recently", why: "เมื่อไม่นานมานี้ = ++recently++"}
+    - {t: "useful", why: "useful เป็นคุณศัพท์"}
+    - {t: "successful", why: "successful เป็นคุณศัพท์"}
+    - {t: "confident", why: "confident เป็นคุณศัพท์"}
+  explain: "have ==recently== + V3 = เพิ่ง...เมื่อไม่นานนี้"
+  status: approved
+- id: cefr-b1-w04-058
+  kind: read
+  skill: rd
+  topic: speaker-profile
+  level: 2
+  pool: true
+  title: "About Our Speaker: Ms Kanya Thongdee"
+  passage: |
+    Kanya Thongdee is a first-aid trainer with twelve years of experience. She started her career as a nurse in a small hospital in Lampang, where she worked for five years.
+
+    Since 2018, she has run first-aid workshops for companies, schools and sports clubs. She has trained more than 4,000 people, and last year she received an award for her work in rural areas.
+
+    In today's session, Kanya will show you how to help someone who is choking. You will also practise basic skills in small groups, so please wear comfortable clothes. Everyone who completes the session will receive a certificate.
+  questions:
+    - stem: "What was Kanya's first job?"
+      choices:
+        - {t: "a nurse", why: "She started her career as a nurse"}
+        - {t: "a first-aid trainer", why: "เป็นงานปัจจุบัน"}
+        - {t: "a sports coach", why: "ไม่ได้พูดถึงโค้ชกีฬา"}
+        - {t: "a school teacher", why: "ไม่ได้บอกว่าเป็นครู"}
+    - stem: "When did Kanya start running workshops?"
+      choices:
+        - {t: "in 2018", why: "Since 2018, she has run first-aid workshops"}
+        - {t: "twelve years ago", why: "12 ปีคือประสบการณ์ทั้งหมด"}
+        - {t: "last year", why: "ปีที่แล้วเธอได้รางวัล"}
+        - {t: "five years ago", why: "5 ปีคือเวลาที่เป็นพยาบาล"}
+    - stem: "Why should people wear comfortable clothes?"
+      choices:
+        - {t: "they will practise in groups", why: "You will also practise basic skills in small groups"}
+        - {t: "the room is hot", why: "ไม่ได้พูดถึงห้องร้อน"}
+        - {t: "they will go outside", why: "ไม่ได้บอกว่าจะออกไปข้างนอก"}
+        - {t: "it is a sports club", why: "สโมสรกีฬาเป็นลูกค้าของเธอ"}
+  status: approved
+- id: cefr-b1-w04-059
+  kind: listen
+  skill: li
+  topic: experience-chat
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Have you ever been to Japan?"}
+    - {who: Man, en: "Yes, twice. I went for work in 2019 and for a holiday last April."}
+  questions:
+    - stem: "When did the man last go to Japan?"
+      choices:
+        - {t: "last April", why: "for a holiday last April"}
+        - {t: "in 2019", why: "เป็นครั้งแรก ไปทำงาน"}
+        - {t: "he has never been", why: "เขาเคยไปสองครั้ง"}
+        - {t: "twice last year", why: "ไปสองครั้งคนละปี"}
+  status: approved
+- id: cefr-b1-w04-060
+  kind: listen
+  skill: li
+  topic: experience-chat
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I've already finished the online course, but I haven't got my certificate yet."}
+  questions:
+    - stem: "What hasn't the man received?"
+      choices:
+        - {t: "his certificate", why: "I haven't got my certificate yet"}
+        - {t: "the online course", why: "เขาเรียนจบคอร์สแล้ว"}
+        - {t: "his exam results", why: "ไม่ได้พูดถึงผลสอบ"}
+        - {t: "an email from the teacher", why: "ไม่ได้พูดถึงอีเมล"}
+  status: approved
