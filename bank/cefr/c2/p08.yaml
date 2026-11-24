@@ -1,0 +1,277 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 8 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w08-043
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 2
+  pool: true
+  stem: "The new law has ____ fierce opposition from small businesses."
+  choices:
+    - {t: "met with", why: "คำคู่ ++meet with opposition++"}
+    - {t: "got with", why: "ไม่ใช่คำคู่ จึงใช้ไม่ได้"}
+    - {t: "faced to", why: "face ไม่ตามด้วย to"}
+    - {t: "come with", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==meet with opposition / criticism== = เจอการคัดค้าน"
+  status: approved
+- id: cefr-c2-w08-044
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 2
+  pool: true
+  stem: "The minister ____ responsibility for the failure and resigned."
+  choices:
+    - {t: "accepted", why: "คำคู่ ++accept responsibility++"}
+    - {t: "received", why: "receive responsibility ไม่ใช่คำคู่"}
+    - {t: "admitted to", why: "ความหมายใกล้แต่คำคู่ไม่ตรง"}
+    - {t: "got", why: "get responsibility ไม่ค่อยใช้"}
+  explain: "==accept / take / assume responsibility=="
+  status: approved
+- id: cefr-c2-w08-045
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 3
+  pool: true
+  stem: "Her research has ____ new light on the causes of the disease."
+  choices:
+    - {t: "shed", why: "คำคู่ ++shed light on++"}
+    - {t: "thrown on", why: "มี on ซ้ำ จึงใช้ไม่ได้"}
+    - {t: "made", why: "make light ความหมายต่าง"}
+    - {t: "given", why: "ไม่ใช่คำคู่ จึงใช้ไม่ได้"}
+  explain: "==shed / throw light on== = ช่วยให้เข้าใจ"
+  status: approved
+- id: cefr-c2-w08-046
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 3
+  pool: true
+  stem: "The company has ____ a heavy price for ignoring its customers."
+  choices:
+    - {t: "paid", why: "คำคู่ ++pay a heavy price++"}
+    - {t: "given", why: "ไม่ใช่คำคู่ จึงใช้ไม่ได้"}
+    - {t: "spent", why: "spend ไม่ใช้กับ price แบบนี้"}
+    - {t: "cost", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==pay a heavy price for== = ได้รับผลเสียหนัก"
+  status: approved
+- id: cefr-c2-w08-047
+  kind: mcq
+  skill: gm
+  topic: collocation-precision
+  level: 3
+  pool: true
+  stem: "The proposal ____ broad support among members."
+  choices:
+    - {t: "commanded", why: "คำคู่ ++command support++"}
+    - {t: "ordered", why: "ไม่ใช่คำคู่ จึงใช้ไม่ได้"}
+    - {t: "demanded", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "took", why: "ไม่ใช่คำคู่ จึงใช้ไม่ได้ (took)"}
+  explain: "==command support / respect== = ได้รับการสนับสนุน"
+  status: approved
+- id: cefr-c2-w08-048
+  kind: mcq
+  skill: gm
+  topic: phrasal-prepositional-idioms
+  level: 2
+  pool: true
+  stem: "We need to ____ for lost time if we want to finish by June."
+  choices:
+    - {t: "make up", why: "ชดเชย ++make up for++"}
+    - {t: "catch up", why: "catch up ไม่ตามด้วย for แบบนี้"}
+    - {t: "take up", why: "take up คือเริ่มทำ"}
+    - {t: "put up", why: "put up for ความหมายต่าง"}
+  explain: "==make up for== = ชดเชย"
+  status: approved
+- id: cefr-c2-w08-049
+  kind: mcq
+  skill: gm
+  topic: phrasal-prepositional-idioms
+  level: 3
+  pool: true
+  stem: "The success of the project ____ on the support of local leaders."
+  choices:
+    - {t: "hinges", why: "ขึ้นอยู่กับ ++hinge on++"}
+    - {t: "leans", why: "lean on ความหมายต่าง"}
+    - {t: "counts", why: "count on ประธานต้องเป็นคน"}
+    - {t: "falls", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+  explain: "==hinge on / upon== = ขึ้นอยู่กับโดยตรง"
+  status: approved
+- id: cefr-c2-w08-050
+  kind: mcq
+  skill: gm
+  topic: phrasal-prepositional-idioms
+  level: 3
+  pool: true
+  stem: "The two departments are ____ odds over the new budget."
+  choices:
+    - {t: "at", why: "สำนวน ++at odds over++"}
+    - {t: "in", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "on", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (on)"}
+    - {t: "by", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (by)"}
+  explain: "==be at odds (with/over)== = ขัดแย้งกัน"
+  status: approved
+- id: cefr-c2-w08-051
+  kind: mcq
+  skill: gm
+  topic: phrasal-prepositional-idioms
+  level: 3
+  pool: true
+  stem: "The new evidence ____ to the theory that the fire was deliberate."
+  choices:
+    - {t: "lends weight", why: "ช่วยเสริมให้หนักแน่น ++lend weight to++"}
+    - {t: "gives a weight", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "puts weight", why: "put weight on ความหมายต่าง"}
+    - {t: "carries weight", why: "carry weight ไม่ตามด้วย to"}
+  explain: "==lend weight to== = ทำให้น่าเชื่อขึ้น"
+  status: approved
+- id: cefr-c2-w08-052
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 2
+  pool: true
+  stem: "Parents ____ a strong influence on children's reading habits."
+  choices:
+    - {t: "exert", why: "ใช้แรง/อิทธิพล = ++exert influence++"}
+    - {t: "wield", why: "wield ใช้กับอำนาจ"}
+    - {t: "incur", why: "incur ใช้กับค่าใช้จ่าย"}
+    - {t: "reap", why: "reap ใช้กับผลตอบแทน"}
+  explain: "exert influence / pressure = ==ใช้อิทธิพล=="
+  status: approved
+- id: cefr-c2-w08-053
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 2
+  pool: true
+  stem: "Late payments will ____ a fee of 200 baht."
+  choices:
+    - {t: "incur", why: "ทำให้เกิด (ค่าใช้จ่าย) = ++incur a fee++"}
+    - {t: "levy", why: "ประธานต้องเป็นผู้เก็บ"}
+    - {t: "garner", why: "garner คือรวบรวม (การสนับสนุน)"}
+    - {t: "confer", why: "confer คือมอบ จึงใช้ไม่ได้"}
+  explain: "incur a cost / fee = ==ทำให้ต้องเสียค่า=="
+  status: approved
+- id: cefr-c2-w08-054
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 3
+  pool: true
+  stem: "The campaign ____ thousands of signatures in a single week."
+  choices:
+    - {t: "garnered", why: "รวบรวมได้ = ++garner support++"}
+    - {t: "incurred", why: "incur ใช้กับค่าใช้จ่าย"}
+    - {t: "levied", why: "levy ใช้กับภาษี"}
+    - {t: "bestowed", why: "bestow คือมอบให้"}
+  explain: "garner = ==รวบรวมได้ (การสนับสนุน)=="
+  status: approved
+- id: cefr-c2-w08-055
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 3
+  pool: true
+  stem: "Farmers who invested in irrigation are now ____ the benefits."
+  choices:
+    - {t: "reaping", why: "ได้รับผล = ++reap the benefits++"}
+    - {t: "harbouring", why: "harbour คือเก็บไว้ในใจ"}
+    - {t: "wielding", why: "wield ใช้กับอำนาจ"}
+    - {t: "levying", why: "levy ใช้กับภาษี"}
+  explain: "reap the benefits = ==เก็บเกี่ยวผลประโยชน์=="
+  status: approved
+- id: cefr-c2-w08-056
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 3
+  pool: true
+  stem: "The university ____ an honorary degree on the retired teacher."
+  choices:
+    - {t: "conferred", why: "มอบให้ (ทางการ) = ++confer ... on++"}
+    - {t: "exerted", why: "exert ใช้กับแรง"}
+    - {t: "incurred", why: "incur ใช้กับค่าใช้จ่าย"}
+    - {t: "espoused", why: "espouse คือยึดถือแนวคิด"}
+  explain: "confer a degree ==on== someone = มอบปริญญา"
+  status: approved
+- id: cefr-c2-w08-057
+  kind: mcq
+  skill: vo
+  topic: formal-verbs
+  level: 3
+  pool: true
+  stem: "The new programme aims to ____ a love of reading in young children."
+  choices:
+    - {t: "instil", why: "ปลูกฝัง = ++instil ... in++"}
+    - {t: "incur", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "redress", why: "redress คือแก้ไขความไม่เป็นธรรม"}
+    - {t: "levy", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (levy)"}
+  explain: "instil = ==ปลูกฝังทีละน้อย=="
+  status: approved
+- id: cefr-c2-w08-058
+  kind: read
+  skill: rd
+  topic: annual-report
+  level: 2
+  pool: true
+  title: "Annual Report Summary (Fictional): Bright Futures Reading Foundation"
+  passage: |
+    This year, the Foundation garnered support from over 300 new donors, allowing us to open twelve community libraries in the north-east. Each library is run by trained local volunteers, who are now reaping the benefits of the reading workshops we began two years ago.
+
+    We also faced challenges. Rising transport costs meant that we incurred higher expenses than planned, chiefly in delivering books to remote villages. To redress this, we have begun working with local schools to share delivery routes.
+
+    Looking ahead, our priority is to instil reading habits early. We will therefore focus on children aged three to six, who, research suggests, benefit most from regular story time.
+  questions:
+    - stem: "What allowed the Foundation to open new libraries?"
+      choices:
+        - {t: "support from new donors", why: "garnered support from over 300 new donors"}
+        - {t: "a government grant for rural education programmes", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "selling books", why: "ในบทไม่ได้พูดถึง (selling books)"}
+        - {t: "closing older libraries", why: "ในบทไม่ได้พูดถึง (closing older libraries)"}
+    - stem: "Why were expenses higher than planned?"
+      choices:
+        - {t: "transport costs rose", why: "Rising transport costs"}
+        - {t: "more volunteers were paid", why: "อาสาสมัครไม่ได้รับเงิน"}
+        - {t: "books became more expensive to print and to buy", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "libraries needed repairs", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What is the Foundation's next focus?"
+      choices:
+        - {t: "very young children", why: "children aged three to six"}
+        - {t: "teenagers", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "adult literacy classes in the evenings", why: "ในบทไม่ได้พูดถึง (adult literacy classes in the evenings)"}
+        - {t: "school teachers", why: "โรงเรียนเป็นพันธมิตรด้านการขนส่ง"}
+  status: approved
+- id: cefr-c2-w08-059
+  kind: listen
+  skill: li
+  topic: in-depth-interview
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "I've always espoused the view that teachers learn as much from students as students do from teachers."}
+  questions:
+    - stem: "What view does the woman hold?"
+      choices:
+        - {t: "learning goes both ways", why: "teachers learn as much from students as students do from teachers"}
+        - {t: "students should teach classes", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "teachers know everything", why: "ความหมายกลับกัน"}
+        - {t: "students learn best when they are completely alone", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w08-060
+  kind: listen
+  skill: li
+  topic: formal-verbs
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The new tax was levied on luxury cars only, so most families won't notice any difference."}
+  questions:
+    - stem: "Who will pay the new tax?"
+      choices:
+        - {t: "buyers of luxury cars", why: "levied on luxury cars only"}
+        - {t: "all families", why: "ส่วนใหญ่จะไม่รู้สึกถึงความต่าง"}
+        - {t: "car factories", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "people who use public transport every day", why: "ในบทไม่ได้พูดถึง (people who use public transport every day)"}
+  status: approved

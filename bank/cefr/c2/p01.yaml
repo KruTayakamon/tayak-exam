@@ -1,0 +1,277 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 1 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w01-043
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 2
+  pool: true
+  stem: "You ____ have warned me the exam room would be freezing; I'd have brought a jumper."
+  choices:
+    - {t: "could at least", why: "ตำหนิเบา ๆ ++could at least have + V3++"}
+    - {t: "must at least", why: "must have = สรุปว่าทำแล้ว"}
+    - {t: "would at least", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "shall at least", why: "shall ไม่ใช้กับ have + V3 แบบนี้"}
+  explain: "==could (at least) have + V3== = น่าจะ...บ้าง (ตำหนิ)"
+  status: approved
+- id: cefr-c2-w01-044
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 3
+  pool: true
+  stem: "\"Shall I post the letters?\" \"No, you ____; I've already done it.\""
+  choices:
+    - {t: "needn't bother", why: "ไม่จำเป็น ++needn't bother++"}
+    - {t: "mustn't bother", why: "mustn't = ห้าม แรงเกินไป"}
+    - {t: "can't bother", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "shouldn't to", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==needn't bother== = ไม่ต้องลำบาก"
+  status: approved
+- id: cefr-c2-w01-045
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 3
+  pool: true
+  stem: "Try as he ____, he couldn't open the jar."
+  choices:
+    - {t: "might", why: "สำนวน ++Try as + ประธาน + might++"}
+    - {t: "may", why: "ในอดีตใช้ might"}
+    - {t: "could", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "would", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (would)"}
+  explain: "==Try as I might== = พยายามเท่าไรก็..."
+  status: approved
+- id: cefr-c2-w01-046
+  kind: mcq
+  skill: gm
+  topic: modality-nuance
+  level: 3
+  pool: true
+  stem: "I ____ as well tell you now; you'll find out tomorrow anyway."
+  choices:
+    - {t: "may", why: "ทำเลยก็ไม่เสียหาย ++may/might as well++"}
+    - {t: "should", why: "should as well ไม่ใช่สำนวน"}
+    - {t: "had", why: "had as well ไม่ใช่สำนวน"}
+    - {t: "can", why: "can as well ไม่ใช่สำนวน"}
+  explain: "==may / might as well + V1== = ทำไปเลยก็ดี"
+  status: approved
+- id: cefr-c2-w01-047
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 2
+  pool: true
+  stem: "By the time the report is published, the data ____ out of date."
+  choices:
+    - {t: "will have become", why: "เสร็จก่อนจุดในอนาคต ++will have + V3++"}
+    - {t: "will become", why: "ไม่เน้นว่าเกิดก่อน"}
+    - {t: "has become", why: "อนาคต ใช้ has ไม่ได้"}
+    - {t: "becomes", why: "ต้องบอกว่าเกิดก่อนจุดนั้น"}
+  explain: "by the time + present → ==will have + V3=="
+  status: approved
+- id: cefr-c2-w01-048
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 3
+  pool: true
+  stem: "She was to ____ the company twenty years later."
+  choices:
+    - {t: "go on to lead", why: "อนาคตในอดีต ++was to + V1++ (= would later)"}
+    - {t: "have led", why: "was to have led = ควรจะได้ (แต่ไม่ได้)"}
+    - {t: "leading", why: "ไม่ใช่รูปนี้ จึงใช้ไม่ได้"}
+    - {t: "led", why: "ไม่ใช่รูปนี้ จึงใช้ไม่ได้ (led)"}
+  explain: "==was to + V1== = (ภายหลัง) จะได้... (เล่าเรื่อง)"
+  status: approved
+- id: cefr-c2-w01-049
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 3
+  pool: true
+  stem: "The ceremony was to ____ place in March, but it was cancelled."
+  choices:
+    - {t: "have taken", why: "ควรจะเกิดแต่ไม่เกิด ++was to have + V3++"}
+    - {t: "take", why: "ไม่ได้บอกว่าไม่เกิด"}
+    - {t: "taking", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "be taken", why: "รูปผิดความหมาย จึงใช้ไม่ได้"}
+  explain: "==was to have + V3== = กำหนดไว้ว่าจะ...แต่ไม่ได้เกิด"
+  status: approved
+- id: cefr-c2-w01-050
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 3
+  pool: true
+  stem: "Had she been told earlier, she ____ the offer."
+  choices:
+    - {t: "would have accepted", why: "เงื่อนไขสลับ ผลในอดีต ++would have + V3++"}
+    - {t: "would accept", why: "ผลต้องเป็นอดีต จึงใช้ไม่ได้"}
+    - {t: "had accepted", why: "ประโยคผลต้องมี would"}
+    - {t: "will have accepted", why: "ไม่ใช้ will จึงใช้ไม่ได้"}
+  explain: "==Had + ประธาน + V3==, would have + V3"
+  status: approved
+- id: cefr-c2-w01-051
+  kind: mcq
+  skill: gm
+  topic: time-reference-advanced
+  level: 3
+  pool: true
+  stem: "Scarcely had the guests arrived ____ the power went off."
+  choices:
+    - {t: "when", why: "คู่สำนวน ++Scarcely ... when++"}
+    - {t: "than", why: "than คู่กับ no sooner"}
+    - {t: "that", why: "that ไม่ใช่คู่สำนวน"}
+    - {t: "then", why: "then ไม่ใช่คู่สำนวน"}
+  explain: "==Scarcely / Hardly ... when== · No sooner ... than"
+  status: approved
+- id: cefr-c2-w01-052
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  pool: true
+  stem: "The police are trying to ____ the exact time of the accident."
+  choices:
+    - {t: "ascertain", why: "ตรวจสอบหาให้แน่ = ++ascertain++"}
+    - {t: "construe", why: "construe คือตีความ"}
+    - {t: "purport", why: "purport คืออ้างว่า"}
+    - {t: "denote", why: "denote คือหมายถึง"}
+  explain: "ascertain = ==หาข้อเท็จจริงให้แน่ชัด=="
+  status: approved
+- id: cefr-c2-w01-053
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 2
+  pool: true
+  stem: "His silence was ____ as agreement, but in fact he hadn't understood."
+  choices:
+    - {t: "construed", why: "ตีความ = ++construe as++"}
+    - {t: "elucidated", why: "elucidate คืออธิบายให้กระจ่าง"}
+    - {t: "ascertained", why: "ascertain คือหาข้อเท็จจริง"}
+    - {t: "denoted", why: "ไม่ใช้กับ as แบบนี้"}
+  explain: "be construed ==as== = ถูกตีความว่า"
+  status: approved
+- id: cefr-c2-w01-054
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 3
+  pool: true
+  stem: "The minister gave an ____ answer that satisfied nobody."
+  choices:
+    - {t: "equivocal", why: "คลุมเครือเลี่ยง = ++equivocal++"}
+    - {t: "unequivocal", why: "ความหมายกลับกัน"}
+    - {t: "verbatim", why: "verbatim คือคำต่อคำ"}
+    - {t: "pedantic", why: "pedantic คือจู้จี้เรื่องเล็ก"}
+  explain: "equivocal = ==กำกวมโดยตั้งใจ=="
+  status: approved
+- id: cefr-c2-w01-055
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 3
+  pool: true
+  stem: "There was a ____ agreement that nobody would mention the incident."
+  choices:
+    - {t: "tacit", why: "โดยนัย ไม่ได้พูด = ++tacit++"}
+    - {t: "verbatim", why: "verbatim คือคำต่อคำ"}
+    - {t: "nebulous", why: "nebulous คือเลือนราง"}
+    - {t: "equivocal", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "tacit = ==รู้กันโดยไม่ต้องพูด=="
+  status: approved
+- id: cefr-c2-w01-056
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 3
+  pool: true
+  stem: "The court requires the witness's words to be recorded ____."
+  choices:
+    - {t: "verbatim", why: "คำต่อคำ = ++verbatim++"}
+    - {t: "tacit", why: "tacit คือโดยนัย"}
+    - {t: "nebulous", why: "nebulous คือเลือนราง"}
+    - {t: "pedantic", why: "pedantic คือจู้จี้"}
+  explain: "verbatim = ==คำต่อคำ=="
+  status: approved
+- id: cefr-c2-w01-057
+  kind: mcq
+  skill: vo
+  topic: meaning-precision
+  level: 3
+  pool: true
+  stem: "The plan is still rather ____; nobody knows exactly what it involves."
+  choices:
+    - {t: "nebulous", why: "เลือนราง ไม่ชัด = ++nebulous++"}
+    - {t: "unequivocal", why: "ความหมายกลับกัน"}
+    - {t: "verbatim", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "pedantic", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (pedantic)"}
+  explain: "nebulous = ==คลุมเครือ ไม่เป็นรูปร่าง=="
+  status: approved
+- id: cefr-c2-w01-058
+  kind: read
+  skill: rd
+  topic: philosophy-of-language
+  level: 2
+  pool: true
+  title: "When Words Mean More Than They Say"
+  passage: |
+    Philosophers have long noted that much of what we communicate is not stated at all. If a colleague asks whether you enjoyed a lecture and you reply, "The chairs were comfortable," you have said nothing false, yet your meaning is unmistakable.
+
+    This gap between what is said and what is meant can be useful. It allows us to criticise politely, to decline without offence and to share understanding with people who know us well. But it also creates risk. In international workplaces, implicit messages are easily construed in ways the speaker never intended.
+
+    Some linguists argue that clarity should always win. Others reply that a language stripped of implication would be not only less polite but also poorer. The truth, as so often, probably lies in knowing one's audience.
+  questions:
+    - stem: "What does the example about the chairs show?"
+      choices:
+        - {t: "a reply can imply criticism without stating it", why: "you have said nothing false, yet your meaning is unmistakable"}
+        - {t: "the chairs were the best part of the room", why: "เป็นการพูดอ้อม ไม่ใช่ชมเก้าอี้จริง"}
+        - {t: "the speaker was lying about the lecture's quality", why: "ผู้พูดไม่ได้พูดเท็จ"}
+        - {t: "lectures are usually comfortable", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What risk is mentioned?"
+      choices:
+        - {t: "hidden meanings may be misread", why: "implicit messages are easily construed in ways the speaker never intended"}
+        - {t: "people become too polite", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "language becomes poorer", why: "เป็นความเห็นของอีกฝ่าย ไม่ใช่ความเสี่ยงที่กล่าว"}
+        - {t: "colleagues stop talking", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What is the writer's conclusion?"
+      choices:
+        - {t: "it depends on who you are talking to", why: "knowing one's audience"}
+        - {t: "clarity is always best", why: "เป็นความเห็นของนักภาษาศาสตร์บางคน"}
+        - {t: "implication should be avoided", why: "ผู้เขียนไม่ได้สรุปเช่นนั้น"}
+        - {t: "philosophers are usually wrong about language", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w01-059
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "The term \"literacy\" is often construed narrowly as reading and writing, but I'd like to use it in a broader sense today."}
+  questions:
+    - stem: "What does the speaker intend to do?"
+      choices:
+        - {t: "use a wider definition of a term", why: "use it in a broader sense today"}
+        - {t: "teach reading and writing", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "avoid the term completely", why: "เธอจะใช้คำนี้ จึงใช้ไม่ได้"}
+        - {t: "criticise other speakers", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w01-060
+  kind: listen
+  skill: li
+  topic: meaning-precision
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Let me be unequivocal: the deadline will not be extended under any circumstances."}
+  questions:
+    - stem: "What is the man's message?"
+      choices:
+        - {t: "the deadline is fixed", why: "the deadline will not be extended under any circumstances"}
+        - {t: "the deadline may change", why: "ความหมายกลับกัน"}
+        - {t: "he hasn't decided yet", why: "เขาพูดชัดเจน จึงใช้ไม่ได้"}
+        - {t: "the deadline was extended", why: "ความหมายกลับกัน (the deadline was extended)"}
+  status: approved

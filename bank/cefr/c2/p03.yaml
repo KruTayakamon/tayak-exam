@@ -1,0 +1,276 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 3 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w03-043
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  pool: true
+  stem: "____ it may, the decision has been made and we must respect it."
+  choices:
+    - {t: "Be that as", why: "สำนวนตายตัว ++Be that as it may++"}
+    - {t: "Being that as", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "Be as that", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "As it be", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (As it be)"}
+  explain: "==Be that as it may== = ถึงอย่างนั้นก็ตาม"
+  status: approved
+- id: cefr-c2-w03-044
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 2
+  pool: true
+  stem: "Far ____ it from me to criticise, but the report has several errors."
+  choices:
+    - {t: "be", why: "สำนวน ++Far be it from me to...++"}
+    - {t: "is", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "been", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (been)"}
+    - {t: "being", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (being)"}
+  explain: "==Far be it from me to + V1== = ฉันไม่ได้ตั้งใจจะ...แต่"
+  status: approved
+- id: cefr-c2-w03-045
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 3
+  pool: true
+  stem: "The law requires that every vehicle ____ inspected annually."
+  choices:
+    - {t: "be", why: "subjunctive passive ++be + V3++"}
+    - {t: "is", why: "ทางการหลัง require that ใช้ be"}
+    - {t: "to be", why: "ไม่มี to จึงใช้ไม่ได้"}
+    - {t: "will be", why: "ไม่ใช้ will จึงใช้ไม่ได้"}
+  explain: "require that + ประธาน + ==be + V3=="
+  status: approved
+- id: cefr-c2-w03-046
+  kind: mcq
+  skill: gm
+  topic: subjunctive-fixed
+  level: 3
+  pool: true
+  stem: "____ the truth be told, I never liked the original design."
+  choices:
+    - {t: "If", why: "สำนวน ++If (the) truth be told++"}
+    - {t: "When", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "As", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (As)"}
+    - {t: "Should", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (Should)"}
+  explain: "==If truth be told== = พูดตามตรง"
+  status: approved
+- id: cefr-c2-w03-047
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 2
+  pool: true
+  stem: "Without your support, the festival ____ happened."
+  choices:
+    - {t: "would never have", why: "เงื่อนไขแฝงใน without ++would never have + V3++"}
+    - {t: "will never have", why: "ไม่ใช้ will กับอดีตสมมติ"}
+    - {t: "had never", why: "ประโยคผลต้องมี would"}
+    - {t: "never would", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "==Without + คำนาม== = เงื่อนไขแฝง (If it hadn't been for)"
+  status: approved
+- id: cefr-c2-w03-048
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 3
+  pool: true
+  stem: "A more careful driver ____ the accident."
+  choices:
+    - {t: "would have avoided", why: "เงื่อนไขแฝงในคำนาม ++would have + V3++"}
+    - {t: "avoided", why: "ไม่ได้บอกว่าเป็นสมมติ"}
+    - {t: "will avoid", why: "ไม่ใช่อนาคต จึงใช้ไม่ได้"}
+    - {t: "had avoided", why: "ประโยคผลต้องมี would"}
+  explain: "==คำนามที่สมมติ + would have + V3== = ถ้าเป็นคนที่...ก็คง"
+  status: approved
+- id: cefr-c2-w03-049
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 3
+  pool: true
+  stem: "I'd have called you, ____ I didn't have your number."
+  choices:
+    - {t: "but", why: "เงื่อนไขแฝง ++but + เหตุที่ไม่ได้ทำ++"}
+    - {t: "if", why: "if ทำให้ความหมายไม่ตรง"}
+    - {t: "unless", why: "unless ไม่ตรงความหมาย"}
+    - {t: "otherwise", why: "otherwise ไม่ใช้ตรงนี้"}
+  explain: "would have + V3, ==but + เหตุผลจริง=="
+  status: approved
+- id: cefr-c2-w03-050
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 3
+  pool: true
+  stem: "Leave now; ____, you'll miss the last ferry."
+  choices:
+    - {t: "otherwise", why: "ไม่อย่างนั้น ++otherwise++"}
+    - {t: "unless", why: "unless ต้องตามด้วยประโยค"}
+    - {t: "if not so", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "or else not", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (or else not)"}
+  explain: "==otherwise / or else== = ไม่อย่างนั้น"
+  status: approved
+- id: cefr-c2-w03-051
+  kind: mcq
+  skill: gm
+  topic: conditionals-implied
+  level: 3
+  pool: true
+  stem: "Given more time, we ____ the project properly."
+  choices:
+    - {t: "could have finished", why: "เงื่อนไขแฝงใน given ++could have + V3++"}
+    - {t: "can finish", why: "ไม่ใช่สมมติ จึงใช้ไม่ได้"}
+    - {t: "had finished", why: "ประโยคผลต้องมี could/would"}
+    - {t: "will finish", why: "ไม่ใช่สมมติ จึงใช้ไม่ได้ (will finish)"}
+  explain: "==Given + คำนาม== = ถ้ามี... (เงื่อนไขแฝง)"
+  status: approved
+- id: cefr-c2-w03-052
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  pool: true
+  stem: "The parties agree that this contract shall terminate ____."
+  choices:
+    - {t: "forthwith", why: "ทันที (ทางการ) = ++forthwith++"}
+    - {t: "hitherto", why: "hitherto คือจนถึงบัดนี้"}
+    - {t: "thereof", why: "thereof คือของสิ่งนั้น"}
+    - {t: "statutory", why: "statutory เป็นคุณศัพท์"}
+  explain: "forthwith = ==ทันที (ภาษากฎหมาย)=="
+  status: approved
+- id: cefr-c2-w03-053
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 2
+  pool: true
+  stem: "____, all applications must be submitted online."
+  choices:
+    - {t: "Henceforth", why: "นับแต่นี้ไป = ++henceforth++"}
+    - {t: "Hitherto", why: "hitherto คือจนถึงบัดนี้ ตรงข้าม"}
+    - {t: "Thereof", why: "thereof ไม่ขึ้นต้นประโยค"}
+    - {t: "Forthwith", why: "ไม่ค่อยขึ้นต้นประโยคแบบนี้"}
+  explain: "henceforth = ==นับจากนี้ไป=="
+  status: approved
+- id: cefr-c2-w03-054
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 3
+  pool: true
+  stem: "The offer is ____ on the results of a medical check."
+  choices:
+    - {t: "contingent", why: "ขึ้นอยู่กับเงื่อนไข = ++contingent on++"}
+    - {t: "statutory", why: "statutory คือตามกฎหมาย"}
+    - {t: "hitherto", why: "hitherto คือจนถึงบัดนี้"}
+    - {t: "proviso", why: "proviso เป็นคำนาม"}
+  explain: "contingent ==on/upon== = ขึ้นอยู่กับ"
+  status: approved
+- id: cefr-c2-w03-055
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 3
+  pool: true
+  stem: "The new evidence ____ any further delay in the investigation."
+  choices:
+    - {t: "precludes", why: "ทำให้ไม่อาจเกิด = ++preclude++"}
+    - {t: "necessitates", why: "ความหมายกลับกัน"}
+    - {t: "abides", why: "abide ต้องมี by"}
+    - {t: "warrants", why: "warrant คือสมควรให้"}
+  explain: "preclude = ==กันไว้ไม่ให้เกิด=="
+  status: approved
+- id: cefr-c2-w03-056
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 3
+  pool: true
+  stem: "The situation does not ____ such an extreme response."
+  choices:
+    - {t: "warrant", why: "สมควร = ++warrant++"}
+    - {t: "preclude", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "abide", why: "abide ต้องมี by"}
+    - {t: "remit", why: "remit เป็นคำนาม (ในที่นี้)"}
+  explain: "warrant = ==สมควรที่จะได้ เป็นเหตุให้=="
+  status: approved
+- id: cefr-c2-w03-057
+  kind: mcq
+  skill: vo
+  topic: formal-legal
+  level: 3
+  pool: true
+  stem: "Any changes require the signature of both parties and the dates ____."
+  choices:
+    - {t: "thereof", why: "ของสิ่งนั้น = ++thereof++"}
+    - {t: "forthwith", why: "forthwith คือทันที"}
+    - {t: "henceforth", why: "henceforth คือนับแต่นี้"}
+    - {t: "hitherto", why: "hitherto คือจนบัดนี้"}
+  explain: "thereof = ==ของสิ่งนั้น (ภาษากฎหมาย)=="
+  status: approved
+- id: cefr-c2-w03-058
+  kind: read
+  skill: rd
+  topic: agreement-text
+  level: 2
+  pool: true
+  title: "Memorandum of Understanding (Fictional): Lakeview College and Hilltop University"
+  passage: |
+    1. Purpose. The two institutions agree to cooperate in teacher training for a period of three years, commencing 1 June.
+    2. Exchange. Each year, Hilltop University shall host up to ten trainee teachers from Lakeview College, provided that accommodation costs are covered by Lakeview.
+    3. Termination. Either party may terminate this agreement with six months' written notice. Notwithstanding the foregoing, the agreement shall terminate forthwith should either party lose its accreditation.
+    4. Review. The agreement shall be reviewed at the end of the second year, and any amendments thereof shall be agreed in writing.
+  questions:
+    - stem: "Who pays for trainees' accommodation?"
+      choices:
+        - {t: "Lakeview College", why: "provided that accommodation costs are covered by Lakeview"}
+        - {t: "Hilltop University", why: "Hilltop เป็นผู้รับ ไม่ได้จ่าย"}
+        - {t: "the trainees themselves", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "the government", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "When could the agreement end immediately?"
+      choices:
+        - {t: "if a party loses accreditation", why: "terminate forthwith should either party lose its accreditation"}
+        - {t: "after six months' notice", why: "ต้องแจ้งล่วงหน้าหกเดือน ไม่ใช่ทันที"}
+        - {t: "at the end of the second year", why: "เป็นเวลาทบทวน ไม่ใช่สิ้นสุด"}
+        - {t: "if ten trainees attend", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "How must changes to the agreement be made?"
+      choices:
+        - {t: "in writing", why: "any amendments thereof shall be agreed in writing"}
+        - {t: "by phone", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "by the trainees", why: "ในบทไม่ได้พูดถึง (by the trainees)"}
+        - {t: "without discussion", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-c2-w03-059
+  kind: listen
+  skill: li
+  topic: negotiation
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "We're willing to accept the price, with one proviso: delivery must be completed by the end of March."}
+  questions:
+    - stem: "What is the man's condition?"
+      choices:
+        - {t: "delivery by the end of March", why: "with one proviso: delivery must be completed by the end of March"}
+        - {t: "a lower price", why: "เขายอมรับราคาแล้ว"}
+        - {t: "free delivery", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "payment in March", why: "เงื่อนไขคือส่งของ ไม่ใช่จ่ายเงิน"}
+  status: approved
+- id: cefr-c2-w03-060
+  kind: listen
+  skill: li
+  topic: negotiation
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Had we known the costs hitherto, we would never have signed. Henceforth, every invoice must be approved in advance."}
+  questions:
+    - stem: "What will change from now on?"
+      choices:
+        - {t: "invoices will need prior approval", why: "Henceforth, every invoice must be approved in advance"}
+        - {t: "they will cancel the contract", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "costs will be shared", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "nothing will change after the signing", why: "ความหมายกลับกัน"}
+  status: approved

@@ -1,0 +1,277 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 4 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w04-043
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 2
+  pool: true
+  stem: "The ____ to reduce plastic use has been widely welcomed."
+  choices:
+    - {t: "government's decision", why: "นามวลี ++คำนามแสดงเจ้าของ + decision++"}
+    - {t: "government decides", why: "ไม่ใช่นามวลี จึงใช้ไม่ได้"}
+    - {t: "decision of government's", why: "ซ้ำความเป็นเจ้าของ"}
+    - {t: "government deciding", why: "ไม่ใช่นามวลีที่เป็นธรรมชาติ"}
+  explain: "==the + เจ้าของ's + คำนาม + to...== = นามวลีกระชับ"
+  status: approved
+- id: cefr-c2-w04-044
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 3
+  pool: true
+  stem: "A sharp rise in the ____ of patients waiting for surgery has alarmed doctors."
+  choices:
+    - {t: "number", why: "นามวลี ++the number of + พหูพจน์++"}
+    - {t: "amount", why: "amount ใช้กับนามนับไม่ได้"}
+    - {t: "quantity", why: "ไม่เป็นธรรมชาติกับผู้ป่วย"}
+    - {t: "numerous", why: "numerous เป็นคุณศัพท์"}
+  explain: "==the number of + พหูพจน์== · the amount of + นับไม่ได้"
+  status: approved
+- id: cefr-c2-w04-045
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 3
+  pool: true
+  stem: "The ____ report on rural schools was released yesterday."
+  choices:
+    - {t: "long-awaited", why: "คำคุณศัพท์ประสม ++long-awaited++"}
+    - {t: "long-awaiting", why: "รายงานไม่ได้เป็นผู้รอ"}
+    - {t: "awaited-long", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "long awaits", why: "ไม่ใช่คุณศัพท์ จึงใช้ไม่ได้"}
+  explain: "==long-awaited== = ที่รอคอยมานาน"
+  status: approved
+- id: cefr-c2-w04-046
+  kind: mcq
+  skill: gm
+  topic: noun-phrase-complex
+  level: 3
+  pool: true
+  stem: "We need a ____ plan that covers the next decade."
+  choices:
+    - {t: "ten-year", why: "คำคุณศัพท์ประสมจากตัวเลข ++ten-year++ (ไม่เติม s)"}
+    - {t: "ten-years", why: "คุณศัพท์ประสมไม่เติม s"}
+    - {t: "ten years'", why: "ความหมายไม่ตรงในตำแหน่งนี้"}
+    - {t: "tens-year", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "ตัวเลข + คำนาม ==เอกพจน์== เป็นคุณศัพท์ (a ten-year plan)"
+  status: approved
+- id: cefr-c2-w04-047
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 2
+  pool: true
+  stem: "____ by the scale of the damage, the inspectors called for urgent repairs."
+  choices:
+    - {t: "Shocked", why: "ย่อ passive ขึ้นต้น ++V3++"}
+    - {t: "Shocking", why: "ผู้ตรวจไม่ได้เป็นผู้ทำให้ตกใจ"}
+    - {t: "Having shocked", why: "ความหมายเป็น active"}
+    - {t: "To shock", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==V3 + by...== = เพราะถูก..."
+  status: approved
+- id: cefr-c2-w04-048
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 3
+  pool: true
+  stem: "____ unsure of the answer, she asked the teacher."
+  choices:
+    - {t: "Though", why: "ไม่มีกริยาแท้ ++Though + คุณศัพท์++"}
+    - {t: "Despite", why: "despite ไม่ตามด้วยคุณศัพท์"}
+    - {t: "In spite", why: "ต้องมี of จึงใช้ไม่ได้"}
+    - {t: "Nevertheless", why: "ไม่เชื่อมแบบนี้"}
+  explain: "==Though / Although + adj== (ไม่มีกริยา)"
+  status: approved
+- id: cefr-c2-w04-049
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 3
+  pool: true
+  stem: "Once ____, the form cannot be changed."
+  choices:
+    - {t: "submitted", why: "ไม่มีกริยาแท้ ++Once + V3++"}
+    - {t: "submitting", why: "ฟอร์มไม่ได้เป็นผู้ส่ง"}
+    - {t: "submit", why: "ไม่ใช่รูปนี้ จึงใช้ไม่ได้"}
+    - {t: "been submitted", why: "ขาด having จึงใช้ไม่ได้"}
+  explain: "==Once + V3== = เมื่อ...แล้ว"
+  status: approved
+- id: cefr-c2-w04-050
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 3
+  pool: true
+  stem: "Her bags ____, she waited by the door for the taxi."
+  choices:
+    - {t: "packed", why: "absolute clause ++คำนาม + V3++"}
+    - {t: "packing", why: "กระเป๋าไม่ได้เป็นผู้จัด"}
+    - {t: "were packed", why: "ทำให้เป็นสองประโยคเชื่อมผิด"}
+    - {t: "to pack", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==คำนาม + V3, ประโยคหลัก== = เมื่อ...เสร็จแล้ว"
+  status: approved
+- id: cefr-c2-w04-051
+  kind: mcq
+  skill: gm
+  topic: non-finite-verbless
+  level: 3
+  pool: true
+  stem: "The building, ____ in 1890, is the oldest in the town."
+  choices:
+    - {t: "completed", why: "ขยายแบบย่อ ++V3++ (= which was completed)"}
+    - {t: "completing", why: "อาคารไม่ได้เป็นผู้สร้าง"}
+    - {t: "was completed", why: "ไม่ใช่กริยาแท้ของประโยค"}
+    - {t: "having completed", why: "ความหมายเป็น active"}
+  explain: "==คำนาม, V3 ...,== = ซึ่งถูก..."
+  status: approved
+- id: cefr-c2-w04-052
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  pool: true
+  stem: "The ____ of fake news online has made people distrust the media."
+  choices:
+    - {t: "proliferation", why: "การแพร่กระจาย = ++proliferation of++"}
+    - {t: "cessation", why: "cessation คือการหยุด"}
+    - {t: "inception", why: "inception คือการเริ่มต้น"}
+    - {t: "trajectory", why: "trajectory คือทิศทาง"}
+  explain: "proliferation = ==การเพิ่มจำนวนอย่างรวดเร็ว=="
+  status: approved
+- id: cefr-c2-w04-053
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 2
+  pool: true
+  stem: "Since its ____ in 2010, the charity has helped 50,000 families."
+  choices:
+    - {t: "inception", why: "การก่อตั้งเริ่มต้น = ++since its inception++"}
+    - {t: "cessation", why: "ความหมายกลับกัน"}
+    - {t: "attrition", why: "attrition คือการลดลงเรื่อย ๆ"}
+    - {t: "corollary", why: "corollary คือผลที่ตามมา"}
+  explain: "inception = ==จุดเริ่มต้น=="
+  status: approved
+- id: cefr-c2-w04-054
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 3
+  pool: true
+  stem: "High staff ____ means we are always training new people."
+  choices:
+    - {t: "attrition", why: "การลาออกลดลงเรื่อย ๆ = ++staff attrition++"}
+    - {t: "proliferation", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "inception", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (inception)"}
+    - {t: "precedent", why: "precedent คือแบบอย่างก่อนหน้า"}
+  explain: "attrition = ==การสูญเสีย (พนักงาน) ทีละน้อย=="
+  status: approved
+- id: cefr-c2-w04-055
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 3
+  pool: true
+  stem: "Fluent English is a ____ for this job."
+  choices:
+    - {t: "prerequisite", why: "สิ่งที่ต้องมีก่อน = ++prerequisite for++"}
+    - {t: "precedent", why: "precedent คือแบบอย่าง"}
+    - {t: "ramification", why: "ramification คือผลกระทบ"}
+    - {t: "upheaval", why: "upheaval คือความวุ่นวาย"}
+  explain: "prerequisite = ==คุณสมบัติที่จำเป็นต้องมี=="
+  status: approved
+- id: cefr-c2-w04-056
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 3
+  pool: true
+  stem: "The court's decision sets an important ____ for similar cases."
+  choices:
+    - {t: "precedent", why: "บรรทัดฐาน = ++set a precedent++"}
+    - {t: "prerequisite", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "cessation", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (cessation)"}
+    - {t: "manifestation", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (manifestation)"}
+  explain: "set a precedent = ==สร้างบรรทัดฐาน=="
+  status: approved
+- id: cefr-c2-w04-057
+  kind: mcq
+  skill: vo
+  topic: change-consequence
+  level: 3
+  pool: true
+  stem: "The company's growth ____ suggests it will double in size by 2030."
+  choices:
+    - {t: "trajectory", why: "ทิศทางแนวโน้ม = ++growth trajectory++"}
+    - {t: "upheaval", why: "upheaval คือความวุ่นวาย"}
+    - {t: "erosion", why: "erosion คือการกัดกร่อน"}
+    - {t: "attrition", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "trajectory = ==เส้นทาง ทิศทางการเปลี่ยนแปลง=="
+  status: approved
+- id: cefr-c2-w04-058
+  kind: read
+  skill: rd
+  topic: research-abstract
+  level: 2
+  pool: true
+  title: "Abstract (Fictional): Teacher Attrition in Rural Thailand"
+  passage: |
+    This study examines the causes of teacher attrition in 42 rural schools between 2018 and 2023. Data were drawn from employment records and interviews with 120 current and former teachers.
+
+    The findings indicate that attrition was highest in the first three years of service, with nearly one in four new teachers leaving their post. Isolation and limited professional development emerged as more significant factors than salary. Teachers who had a mentor during their first year were considerably less likely to leave.
+
+    The study concludes that mentoring should be treated not as an optional extra but as a prerequisite for sustainable staffing. Further research is needed to establish whether online mentoring can achieve similar results in very remote areas.
+  questions:
+    - stem: "When were teachers most likely to leave?"
+      choices:
+        - {t: "in their first three years", why: "attrition was highest in the first three years of service"}
+        - {t: "after ten years", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "just before retirement", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "in 2023 only", why: "ปี 2023 คือจุดสิ้นสุดของการศึกษา"}
+    - stem: "Which factor mattered more than salary?"
+      choices:
+        - {t: "isolation and lack of training", why: "Isolation and limited professional development"}
+        - {t: "the size of the school", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "the length of the holidays", why: "ในบทไม่ได้พูดถึง (the length of the holidays)"}
+        - {t: "the number of students per class", why: "ในบทไม่ได้พูดถึง (the number of students per class)"}
+    - stem: "What remains unknown?"
+      choices:
+        - {t: "whether online mentoring works as well", why: "Further research is needed ... online mentoring"}
+        - {t: "whether mentoring helps at all", why: "การศึกษาพบว่าช่วยได้"}
+        - {t: "why salary is important", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "how many schools took part", why: "ระบุแล้ว 42 โรงเรียน"}
+  status: approved
+- id: cefr-c2-w04-059
+  kind: listen
+  skill: li
+  topic: research-presentation
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "The data, collected over five years, point to a steady erosion of public trust, though the decline appears to have slowed since 2022."}
+  questions:
+    - stem: "What does the speaker say about recent trends?"
+      choices:
+        - {t: "trust is still falling but more slowly", why: "the decline appears to have slowed since 2022"}
+        - {t: "trust has risen sharply", why: "ความหมายกลับกัน"}
+        - {t: "trust stopped falling in 2018", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "there is no data after 2022", why: "ในบทไม่ได้พูดเช่นนั้น (there is no data after 2022)"}
+  status: approved
+- id: cefr-c2-w04-060
+  kind: listen
+  skill: li
+  topic: change-consequence
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The ramifications of the new tax won't be clear for at least a year."}
+  questions:
+    - stem: "What does the man mean?"
+      choices:
+        - {t: "it is too early to know the effects", why: "won't be clear for at least a year"}
+        - {t: "the tax has been cancelled", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "the effects are already obvious", why: "ความหมายกลับกัน"}
+        - {t: "the tax will last only a year", why: "ในบทไม่ได้พูดเช่นนั้น (the tax will last only a year)"}
+  status: approved

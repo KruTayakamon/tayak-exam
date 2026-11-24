@@ -1,0 +1,282 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 6 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w06-043
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 2
+  pool: true
+  stem: "____, the plan was a success, despite the delays."
+  choices:
+    - {t: "On balance", why: "ชั่งน้ำหนักแล้ว ++On balance++"}
+    - {t: "At balance", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "In balance", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "By balance", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (By balance)"}
+  explain: "==On balance== = เมื่อชั่งน้ำหนักทุกด้าน"
+  status: approved
+- id: cefr-c2-w06-044
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 3
+  pool: true
+  stem: "____ the critics may say, the book has sold over a million copies."
+  choices:
+    - {t: "Whatever", why: "ไม่ว่าจะ ++Whatever + ประธาน + may say++"}
+    - {t: "However", why: "however ไม่ตามด้วย the critics may say"}
+    - {t: "Although", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "Whether", why: "whether ต้องมี or"}
+  explain: "==Whatever + ประธาน + may + V1== = ไม่ว่า...จะ...อย่างไร"
+  status: approved
+- id: cefr-c2-w06-045
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 3
+  pool: true
+  stem: "I'm ____ to agree with you, but I need to see the evidence first."
+  choices:
+    - {t: "inclined", why: "โน้มเอียง ++be inclined to++"}
+    - {t: "include", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "incline", why: "ต้องเป็นรูป -ed หลัง I'm"}
+    - {t: "inclining", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+  explain: "be ==inclined to + V1== = ค่อนข้างจะ"
+  status: approved
+- id: cefr-c2-w06-046
+  kind: mcq
+  skill: gm
+  topic: stance
+  level: 3
+  pool: true
+  stem: "____ speaking, the results are disappointing."
+  choices:
+    - {t: "Frankly", why: "บอกจุดยืนตรง ๆ ++Frankly speaking++"}
+    - {t: "Frank", why: "ต้องเป็นคำวิเศษณ์"}
+    - {t: "Frankness", why: "ต้องเป็นคำวิเศษณ์ (Frankness)"}
+    - {t: "Franked", why: "ไม่ใช่คำที่ใช้ จึงใช้ไม่ได้"}
+  explain: "==Frankly / Honestly speaking== = พูดตามตรง"
+  status: approved
+- id: cefr-c2-w06-047
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 2
+  pool: true
+  stem: "\"Your proposal is interesting, but perhaps we could revisit the budget.\" The speaker probably ____."
+  choices:
+    - {t: "has doubts about the cost", why: "พูดอ้อมว่าไม่ค่อยพอใจ ++perhaps we could revisit++"}
+    - {t: "loves the proposal completely", why: "ไม่ได้ชมเต็มที่"}
+    - {t: "wants to approve it now", why: "ขอทบทวนงบก่อน จึงใช้ไม่ได้"}
+    - {t: "has not read it", why: "ในบทไม่ได้บ่งเช่นนั้น"}
+  explain: "==perhaps we could revisit...== = (สุภาพ) ไม่ค่อยพอใจเรื่อง..."
+  status: approved
+- id: cefr-c2-w06-048
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 3
+  pool: true
+  stem: "I don't suppose you ____ lend me your notes?"
+  choices:
+    - {t: "could", why: "ขออ้อมมาก ++I don't suppose you could...++"}
+    - {t: "can't", why: "ปฏิเสธซ้อน ฟังแปลก"}
+    - {t: "would to", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "should", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==I don't suppose you could...?== = ขอแบบเกรงใจมาก"
+  status: approved
+- id: cefr-c2-w06-049
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 3
+  pool: true
+  stem: "It might be worth ____ the figures before we send the report."
+  choices:
+    - {t: "double-checking", why: "เสนออ้อม ๆ ++It might be worth + -ing++"}
+    - {t: "to double-check", why: "หลัง worth ใช้ -ing"}
+    - {t: "double-check", why: "หลัง worth ใช้ -ing (double-check)"}
+    - {t: "double-checked", why: "ไม่ใช่รูปหลัง worth"}
+  explain: "==It might be worth + -ing== = อาจจะดีถ้า..."
+  status: approved
+- id: cefr-c2-w06-050
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 3
+  pool: true
+  stem: "I wonder ____ it would be possible to move the meeting."
+  choices:
+    - {t: "whether", why: "ขออย่างอ้อม ++I wonder whether...++"}
+    - {t: "what", why: "what ไม่ใช้กับคำถามใช่/ไม่ใช่"}
+    - {t: "that", why: "that ไม่ใช้กับคำถาม"}
+    - {t: "why", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "I wonder whether ==it would be possible...=="
+  status: approved
+- id: cefr-c2-w06-051
+  kind: mcq
+  skill: gm
+  topic: indirectness
+  level: 3
+  pool: true
+  stem: "I'm not entirely ____ that this is the best approach."
+  choices:
+    - {t: "convinced", why: "ลดน้ำหนักการแย้ง ++not entirely convinced++"}
+    - {t: "convincing", why: "ใช้กับสิ่งที่ทำให้เชื่อ"}
+    - {t: "convince", why: "ต้องเป็นรูป -ed"}
+    - {t: "convincingly", why: "เป็นคำวิเศษณ์ จึงใช้ไม่ได้"}
+  explain: "==I'm not entirely convinced...== = (สุภาพ) ไม่ค่อยเห็นด้วย"
+  status: approved
+- id: cefr-c2-w06-052
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  pool: true
+  stem: "I ____ with Dr Somchai: the data clearly support the proposal."
+  choices:
+    - {t: "concur", why: "เห็นด้วย = ++concur with++"}
+    - {t: "demur", why: "demur คือคัดค้านเบา ๆ"}
+    - {t: "dissent", why: "dissent คือเห็นต่าง"}
+    - {t: "insinuate", why: "insinuate คือพูดเป็นนัย (ลบ)"}
+  explain: "concur ==with== = เห็นด้วยกับ (ทางการ)"
+  status: approved
+- id: cefr-c2-w06-053
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 2
+  pool: true
+  stem: "When asked to work on Sunday, she ____, saying she had family plans."
+  choices:
+    - {t: "demurred", why: "ปฏิเสธเบา ๆ = ++demur++"}
+    - {t: "concurred", why: "ความหมายกลับกัน"}
+    - {t: "acquiesced", why: "acquiesce คือยอมตาม"}
+    - {t: "reiterated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "demur = ==แย้งหรือปฏิเสธอย่างสุภาพ=="
+  status: approved
+- id: cefr-c2-w06-054
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 3
+  pool: true
+  stem: "After weeks of pressure, the residents finally ____ to the new parking fees."
+  choices:
+    - {t: "acquiesced", why: "ยอมตาม (ไม่เต็มใจ) = ++acquiesce in/to++"}
+    - {t: "demurred", why: "demur คือคัดค้าน"}
+    - {t: "dissented", why: "dissent คือเห็นต่าง"}
+    - {t: "insinuated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "acquiesce = ==ยอมตามโดยไม่โต้แย้ง=="
+  status: approved
+- id: cefr-c2-w06-055
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 3
+  pool: true
+  stem: "Are you ____ that I took the money? That's a serious accusation."
+  choices:
+    - {t: "insinuating", why: "พูดเป็นนัยแบบกล่าวหา = ++insinuate++"}
+    - {t: "reiterating", why: "reiterate คือพูดย้ำ"}
+    - {t: "concurring", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "acquiescing", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (acquiescing)"}
+  explain: "insinuate = ==พูดเป็นนัยในทางลบ=="
+  status: approved
+- id: cefr-c2-w06-056
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 3
+  pool: true
+  stem: "\"Passed away\" is a ____ for \"died\"."
+  choices:
+    - {t: "euphemism", why: "คำพูดอ้อมให้นุ่มนวล = ++euphemism++"}
+    - {t: "deference", why: "deference คือความนอบน้อม"}
+    - {t: "tact", why: "tact คือความรู้จักกาลเทศะ"}
+    - {t: "dissent", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "euphemism = ==คำสุภาพที่ใช้แทนคำตรง ๆ=="
+  status: approved
+- id: cefr-c2-w06-057
+  kind: mcq
+  skill: vo
+  topic: disagreement-politeness
+  level: 3
+  pool: true
+  stem: "The minister tried to ____ the problem, calling it \"a minor issue\"."
+  choices:
+    - {t: "downplay", why: "ลดความสำคัญ = ++downplay++"}
+    - {t: "overstate", why: "ความหมายกลับกัน"}
+    - {t: "reiterate", why: "reiterate คือพูดย้ำ"}
+    - {t: "concur", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "downplay = ==ทำให้ดูไม่สำคัญ=="
+  status: approved
+- id: cefr-c2-w06-058
+  kind: read
+  skill: rd
+  topic: formal-correspondence
+  level: 2
+  pool: true
+  title: "Letter: Response to the Proposed Merger"
+  passage: |
+    Dear Dr Wanchai,
+
+    Thank you for your letter of 3 May outlining the proposed merger of our two departments. I concur that closer cooperation would benefit our students, and I appreciate the care with which the plan has been prepared.
+
+    I must, however, respectfully demur on one point. The proposal suggests that the combined department would be led from your campus. With deference to your experience, I am not entirely convinced that this arrangement would serve students on our campus, who would lose access to senior staff.
+
+    Might I suggest that leadership be shared for an initial period of two years? I would be glad to discuss this further at your convenience.
+
+    Yours sincerely,
+    Dr Rattana Phuong
+  questions:
+    - stem: "What does Dr Rattana agree with?"
+      choices:
+        - {t: "that cooperation would help students", why: "I concur that closer cooperation would benefit our students"}
+        - {t: "that leadership should be on one campus", why: "เธอแย้งข้อนี้ จึงใช้ไม่ได้"}
+        - {t: "that the merger should be cancelled immediately", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "that the plan was badly prepared", why: "เธอชมการเตรียมแผน"}
+    - stem: "What is her main concern?"
+      choices:
+        - {t: "students on her campus losing access to senior staff", why: "who would lose access to senior staff"}
+        - {t: "the cost of the merger", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "Dr Wanchai's experience", why: "เธอให้ความเคารพประสบการณ์"}
+        - {t: "the date of the letter", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What does she propose?"
+      choices:
+        - {t: "shared leadership for two years", why: "leadership be shared for an initial period of two years"}
+        - {t: "ending the discussion", why: "เธอยินดีคุยต่อ จึงใช้ไม่ได้"}
+        - {t: "moving all staff to her campus", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "delaying the merger by ten years or more", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w06-059
+  kind: listen
+  skill: li
+  topic: polite-disagreement
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "With respect, I'd have to take issue with that figure. Our records show something rather different."}
+  questions:
+    - stem: "What is the woman doing?"
+      choices:
+        - {t: "disagreeing politely", why: "With respect, I'd have to take issue with that figure"}
+        - {t: "agreeing with the figure", why: "ความหมายกลับกัน"}
+        - {t: "asking for her records back", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "apologising for a mistake in her own records", why: "ในบทไม่ได้พูดถึง (apologising for a mistake in her own records)"}
+  status: approved
+- id: cefr-c2-w06-060
+  kind: listen
+  skill: li
+  topic: disagreement-politeness
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I don't want to overstate the problem, but if we ignore it, it will get worse."}
+  questions:
+    - stem: "How does the man describe the problem?"
+      choices:
+        - {t: "carefully, without exaggerating", why: "I don't want to overstate the problem"}
+        - {t: "as a disaster", why: "เขาระวังไม่พูดเกินจริง"}
+        - {t: "as already solved", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "as somebody else's responsibility entirely", why: "ในบทไม่ได้พูดถึง"}
+  status: approved

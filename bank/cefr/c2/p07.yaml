@@ -1,0 +1,277 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 7 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w07-043
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  pool: true
+  stem: "After months of arguing, the two sides finally agreed to ____ the hatchet."
+  choices:
+    - {t: "bury", why: "สำนวน ++bury the hatchet++ = คืนดีกัน"}
+    - {t: "hide", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "drop", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (drop)"}
+    - {t: "break", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (break)"}
+  explain: "==bury the hatchet== = เลิกทะเลาะ คืนดี"
+  status: approved
+- id: cefr-c2-w07-044
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 2
+  pool: true
+  stem: "The new manager has been thrown in at the ____ end, with three projects to run."
+  choices:
+    - {t: "deep", why: "สำนวน ++thrown in at the deep end++"}
+    - {t: "far", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "hard", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (hard)"}
+    - {t: "high", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (high)"}
+  explain: "==thrown in at the deep end== = ถูกโยนให้ทำเรื่องยากทันที"
+  status: approved
+- id: cefr-c2-w07-045
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 3
+  pool: true
+  stem: "We've been ____ around the bush for an hour. Let's discuss the real issue."
+  choices:
+    - {t: "beating", why: "สำนวน ++beat around the bush++"}
+    - {t: "hitting", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "walking", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (walking)"}
+    - {t: "shaking", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (shaking)"}
+  explain: "==beat around the bush== = พูดอ้อมค้อม"
+  status: approved
+- id: cefr-c2-w07-046
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 3
+  pool: true
+  stem: "The final decision is in the ____ of the committee now."
+  choices:
+    - {t: "hands", why: "สำนวน ++in the hands of++"}
+    - {t: "arms", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "fingers", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (fingers)"}
+    - {t: "palms", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (palms)"}
+  explain: "==in the hands of== = อยู่ในความรับผิดชอบของ"
+  status: approved
+- id: cefr-c2-w07-047
+  kind: mcq
+  skill: gm
+  topic: idioms-fixed
+  level: 3
+  pool: true
+  stem: "The idea was dismissed out of ____ without any discussion."
+  choices:
+    - {t: "hand", why: "สำนวน ++dismiss out of hand++"}
+    - {t: "mind", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "sight", why: "out of sight มีความหมายอื่น"}
+    - {t: "place", why: "out of place มีความหมายอื่น"}
+  explain: "==dismiss out of hand== = ปัดตกทันทีโดยไม่พิจารณา"
+  status: approved
+- id: cefr-c2-w07-048
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 2
+  pool: true
+  stem: "\"The office was a beehive of activity\" means the office was ____."
+  choices:
+    - {t: "very busy", why: "ภาษาเปรียบ ++beehive = คึกคัก++"}
+    - {t: "full of insects", why: "ตีความตามตัวอักษร ไม่ใช่ความหมายเปรียบ"}
+    - {t: "very quiet", why: "ความหมายกลับกัน"}
+    - {t: "dangerous", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "อุปมา ==beehive of activity== = วุ่นวายคึกคัก"
+  status: approved
+- id: cefr-c2-w07-049
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 3
+  pool: true
+  stem: "\"Her words cut deeper than any knife.\" This is an example of ____."
+  choices:
+    - {t: "metaphorical comparison", why: "เปรียบเทียบเชิงภาพ ++คำพูดทำให้เจ็บ++"}
+    - {t: "literal description", why: "ไม่ใช่ความหมายตามตัว"}
+    - {t: "a scientific fact", why: "ไม่ใช่ข้อเท็จจริง"}
+    - {t: "a polite request", why: "ไม่ใช่คำขอ จึงใช้ไม่ได้"}
+  explain: "คำพูด \"ตัด\" ได้ = ==ภาษาเปรียบ=="
+  status: approved
+- id: cefr-c2-w07-050
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 3
+  pool: true
+  stem: "\"I've told you a million times!\" uses ____ for emphasis."
+  choices:
+    - {t: "exaggeration", why: "พูดเกินจริง ++hyperbole++"}
+    - {t: "understatement", why: "understatement คือพูดน้อยกว่าจริง"}
+    - {t: "a euphemism", why: "ไม่ได้ทำให้นุ่มนวล"}
+    - {t: "an allegory", why: "allegory คือเรื่องเชิงสัญลักษณ์"}
+  explain: "==a million times== = พูดเกินจริงเพื่อเน้น"
+  status: approved
+- id: cefr-c2-w07-051
+  kind: mcq
+  skill: gm
+  topic: figurative-language
+  level: 3
+  pool: true
+  stem: "\"The climb to the top was a bit tiring,\" said the man who had just climbed Everest. This is ____."
+  choices:
+    - {t: "understatement", why: "พูดน้อยกว่าจริง ++understatement++"}
+    - {t: "hyperbole", why: "hyperbole คือพูดเกินจริง"}
+    - {t: "a cliché", why: "ไม่ใช่สำนวนซ้ำซาก"}
+    - {t: "a paradox", why: "ไม่ใช่ความขัดแย้งในตัว"}
+  explain: "ปีนเอเวอเรสต์ = \"a bit tiring\" → ==understatement=="
+  status: approved
+- id: cefr-c2-w07-052
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  pool: true
+  stem: "\"Time flies\" is such a ____ phrase that most writers avoid it."
+  choices:
+    - {t: "hackneyed", why: "ใช้จนเฝือ = ++hackneyed++"}
+    - {t: "poignant", why: "poignant คือสะเทือนใจ"}
+    - {t: "evocative", why: "evocative คือชวนให้นึกภาพ"}
+    - {t: "quintessential", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "hackneyed = ==ซ้ำซากจำเจ จนจืด=="
+  status: approved
+- id: cefr-c2-w07-053
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 2
+  pool: true
+  stem: "The film ends with a ____ scene in which the old man waves goodbye to his granddaughter."
+  choices:
+    - {t: "poignant", why: "สะเทือนใจ = ++poignant++"}
+    - {t: "hackneyed", why: "hackneyed คือจำเจ"}
+    - {t: "proverbial", why: "proverbial คือตามสุภาษิต"}
+    - {t: "figurative", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "poignant = ==ซึ้งกินใจ สะเทือนใจ=="
+  status: approved
+- id: cefr-c2-w07-054
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 3
+  pool: true
+  stem: "With his straw hat and buffalo, he is the ____ Thai farmer of old postcards."
+  choices:
+    - {t: "quintessential", why: "เป็นแบบฉบับ = ++quintessential++"}
+    - {t: "hackneyed", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "figurative", why: "figurative คือเชิงเปรียบ"}
+    - {t: "poignant", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (poignant)"}
+  explain: "quintessential = ==เป็นตัวอย่างสมบูรณ์แบบ=="
+  status: approved
+- id: cefr-c2-w07-055
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 3
+  pool: true
+  stem: "It's a ____: the more choices people have, the less satisfied they often feel."
+  choices:
+    - {t: "paradox", why: "ความขัดแย้งในตัว = ++paradox++"}
+    - {t: "cliché", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "hyperbole", why: "hyperbole คือพูดเกินจริง"}
+    - {t: "allegory", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (allegory)"}
+  explain: "paradox = ==ความย้อนแย้ง=="
+  status: approved
+- id: cefr-c2-w07-056
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 3
+  pool: true
+  stem: "The smell of jasmine is ____ of my grandmother's garden."
+  choices:
+    - {t: "evocative", why: "ชวนให้นึกถึง = ++evocative of++"}
+    - {t: "poignant", why: "poignant ไม่ใช้กับ of แบบนี้"}
+    - {t: "proverbial", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "figurative", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (figurative)"}
+  explain: "evocative ==of== = ทำให้นึกถึงภาพ"
+  status: approved
+- id: cefr-c2-w07-057
+  kind: mcq
+  skill: vo
+  topic: figurative-vocab
+  level: 3
+  pool: true
+  stem: "He explained the internet using an ____ with a postal system."
+  choices:
+    - {t: "analogy", why: "การเปรียบเทียบเพื่ออธิบาย = ++analogy with/to++"}
+    - {t: "irony", why: "irony คือการพูดประชด"}
+    - {t: "allegory", why: "allegory คือเรื่องเชิงสัญลักษณ์"}
+    - {t: "paradox", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "draw an analogy ==with== = เปรียบเทียบเพื่ออธิบาย"
+  status: approved
+- id: cefr-c2-w07-058
+  kind: read
+  skill: rd
+  topic: literary-essay
+  level: 2
+  pool: true
+  title: "The Long Commute"
+  passage: |
+    Every morning at six, the bus to the city is a river of tired faces. We sit in silence, each of us a small island, earphones in, eyes half closed. Nobody speaks, yet we know one another as well as old neighbours: the woman who always eats sticky rice from a banana leaf, the student who sleeps against the window, the old man who waves to the driver as if they were brothers.
+
+    There is a quiet irony in this. We spend two hours a day beside strangers we will never really know, while our own families see us only when we are too tired to talk.
+
+    And yet, on the rare day when the old man is missing, the whole bus seems to notice. Someone asks the driver. Someone else looks at the empty seat. We are not friends, exactly. But we are not nothing to each other, either.
+  questions:
+    - stem: "What does \"a river of tired faces\" suggest?"
+      choices:
+        - {t: "a steady flow of weary passengers", why: "ภาษาเปรียบ ผู้โดยสารเหนื่อยไหลมาต่อเนื่อง"}
+        - {t: "the bus drives beside a river", why: "ตีความตามตัวอักษร"}
+        - {t: "the passengers are crying", why: "ในบทไม่ได้บ่งเช่นนั้น"}
+        - {t: "the bus is very clean and comfortable inside", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What is the \"quiet irony\" the writer mentions?"
+      choices:
+        - {t: "they spend more time with strangers than family", why: "two hours a day beside strangers ... families see us only when we are too tired"}
+        - {t: "the bus is always late", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "the old man is the driver's brother", why: "เป็นเพียงการเปรียบ as if"}
+        - {t: "nobody uses earphones", why: "ความหมายกลับกัน"}
+    - stem: "What does the final paragraph show?"
+      choices:
+        - {t: "the passengers care about each other a little", why: "the whole bus seems to notice"}
+        - {t: "the passengers dislike the old man", why: "ความหมายกลับกัน"}
+        - {t: "the old man has moved to another city", why: "ในบทไม่ได้บอกเหตุผล"}
+        - {t: "the driver stops the bus to look for the missing man", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-c2-w07-059
+  kind: listen
+  skill: li
+  topic: humorous-story
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "My cooking is so good that even the smoke alarm cheers every time I make dinner."}
+  questions:
+    - stem: "What does the man really mean?"
+      choices:
+        - {t: "his cooking often burns", why: "เป็นมุกประชด สัญญาณควันดังเพราะไหม้"}
+        - {t: "he is an excellent cook", why: "เป็นการพูดประชดตัวเอง"}
+        - {t: "his alarm is broken", why: "ในบทไม่ได้บ่งเช่นนั้น"}
+        - {t: "his family loves the smell of the food he makes", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w07-060
+  kind: listen
+  skill: li
+  topic: figurative-vocab
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Calling the new policy a \"breath of fresh air\" is a bit of a cliché, but in this case it's true."}
+  questions:
+    - stem: "What does the woman think of the policy?"
+      choices:
+        - {t: "it's a welcome change", why: "it's true that it is a breath of fresh air"}
+        - {t: "it is old-fashioned", why: "ความหมายกลับกัน"}
+        - {t: "it is dangerous", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it is about pollution and air quality in the city", why: "ตีความตามตัวอักษร ไม่ใช่ความหมายเปรียบ"}
+  status: approved

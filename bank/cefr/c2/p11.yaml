@@ -1,0 +1,277 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 11 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w11-043
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 2
+  pool: true
+  stem: "Source A: \"Prices rose 8%.\" Source B: \"Wages rose 3%.\" Which summary combines them accurately?"
+  choices:
+    - {t: "Wages rose more slowly than prices.", why: "รวมสองแหล่งถูกต้อง ++wages < prices++"}
+    - {t: "Wages rose faster than prices.", why: "ผิดข้อเท็จจริง จึงใช้ไม่ได้"}
+    - {t: "Prices and wages rose equally.", why: "ผิดข้อเท็จจริง จึงใช้ไม่ได้ (Prices and wages rose equally.)"}
+    - {t: "Prices fell while wages rose.", why: "ผิดข้อเท็จจริง จึงใช้ไม่ได้ (Prices fell while wages rose.)"}
+  explain: "สังเคราะห์ ==เทียบตัวเลขให้ถูก=="
+  status: approved
+- id: cefr-c2-w11-044
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 3
+  pool: true
+  stem: "Which is the best paraphrase of \"The plan was abandoned owing to a lack of funds\"?"
+  choices:
+    - {t: "The plan was dropped because there wasn't enough money.", why: "ความหมายเดิม คำใหม่ ++owing to = because++"}
+    - {t: "The plan was finished using extra money.", why: "ความหมายผิด จึงใช้ไม่ได้"}
+    - {t: "The money was lost because of the plan.", why: "กลับเหตุผล จึงใช้ไม่ได้"}
+    - {t: "The plan raised a lot of funds.", why: "ความหมายผิด จึงใช้ไม่ได้ (The plan raised a lot of funds.)"}
+  explain: "ถอดความ ==คงความหมาย เปลี่ยนคำ=="
+  status: approved
+- id: cefr-c2-w11-045
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 3
+  pool: true
+  stem: "Writer A says homework helps; Writer B says it causes stress. A fair synthesis is: ____."
+  choices:
+    - {t: "Homework may help learning but can also cause stress.", why: "รวมสองฝ่ายอย่างเป็นธรรม ++may ... but can also++"}
+    - {t: "Homework is useless.", why: "ตัดความเห็น A ทิ้ง"}
+    - {t: "Everyone agrees homework is good.", why: "ผิด ไม่ได้เห็นพ้อง"}
+    - {t: "Writer B is wrong.", why: "ไม่ใช่การสังเคราะห์"}
+  explain: "สังเคราะห์ ==ให้น้ำหนักทั้งสองฝ่าย=="
+  status: approved
+- id: cefr-c2-w11-046
+  kind: mcq
+  skill: gm
+  topic: synthesis-paraphrase
+  level: 3
+  pool: true
+  stem: "Which phrase best introduces agreement between two sources?"
+  choices:
+    - {t: "Both writers concur that...", why: "บอกว่าสองแหล่งเห็นตรงกัน ++Both ... concur++"}
+    - {t: "Writer A disputes that...", why: "เป็นการแย้ง จึงใช้ไม่ได้"}
+    - {t: "Unlike Writer B...", why: "เป็นการเทียบต่าง"}
+    - {t: "In contrast to A...", why: "เป็นการเทียบต่าง (In contrast to A...)"}
+  explain: "เห็นพ้อง ==Both ... concur / agree that...=="
+  status: approved
+- id: cefr-c2-w11-047
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 2
+  pool: true
+  stem: "\"I'm sure he didn't steal it.\" = He ____ it."
+  choices:
+    - {t: "can't have stolen", why: "แน่ใจว่าไม่ได้ทำ ++can't have + V3++"}
+    - {t: "mustn't steal", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "shouldn't have stolen", why: "ความหมายว่าไม่ควร"}
+    - {t: "needn't steal", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (needn't steal)"}
+  explain: "I'm sure he didn't = ==can't have + V3=="
+  status: approved
+- id: cefr-c2-w11-048
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 3
+  pool: true
+  stem: "\"The moment I arrived, the phone rang.\" = No sooner ____ than the phone rang."
+  choices:
+    - {t: "had I arrived", why: "No sooner + ++had + ประธาน + V3++"}
+    - {t: "I had arrived", why: "ต้องสลับ จึงใช้ไม่ได้"}
+    - {t: "did I arrive", why: "ใช้ had กับ no sooner"}
+    - {t: "I arrived", why: "ต้องสลับและใช้ had"}
+  explain: "==No sooner had + ประธาน + V3 + than=="
+  status: approved
+- id: cefr-c2-w11-049
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 3
+  pool: true
+  stem: "\"It's possible that she missed the train.\" = She ____ the train."
+  choices:
+    - {t: "may have missed", why: "อาจจะเกิดไปแล้ว ++may have + V3++"}
+    - {t: "must have missed", why: "แรงเกินไป จึงใช้ไม่ได้"}
+    - {t: "should miss", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "can miss", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (can miss)"}
+  explain: "It's possible that + อดีต = ==may / might have + V3=="
+  status: approved
+- id: cefr-c2-w11-050
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 3
+  pool: true
+  stem: "\"People believe the temple was built in the 12th century.\" = The temple ____ in the 12th century."
+  choices:
+    - {t: "is believed to have been built", why: "passive รายงานอดีต ++is believed to have been + V3++"}
+    - {t: "believes to have built", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "is believed being built", why: "รูปผิด จึงใช้ไม่ได้ (is believed being built)"}
+    - {t: "was believed building", why: "รูปผิด จึงใช้ไม่ได้ (was believed building)"}
+  explain: "==is believed to have been + V3=="
+  status: approved
+- id: cefr-c2-w11-051
+  kind: mcq
+  skill: gm
+  topic: transformations-c2
+  level: 3
+  pool: true
+  stem: "\"Although he tried hard, he failed.\" = ____, he failed."
+  choices:
+    - {t: "Hard as he tried", why: "ยอมรับแล้วแย้ง ++adj/adv + as + ประธาน + กริยา++"}
+    - {t: "As hard he tried", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "Hard though trying", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "Trying as hard", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==Hard as he tried== = แม้จะพยายามอย่างหนัก"
+  status: approved
+- id: cefr-c2-w11-052
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  pool: true
+  stem: "From the results of 200 villages, the researchers ____ to the whole province."
+  choices:
+    - {t: "extrapolated", why: "ขยายผลคาดการณ์ = ++extrapolate to++"}
+    - {t: "refuted", why: "refute คือหักล้าง"}
+    - {t: "vindicated", why: "vindicate คือพิสูจน์ว่าถูก"}
+    - {t: "conflated", why: "conflate คือรวมผิด ๆ"}
+  explain: "extrapolate = ==ขยายผลจากข้อมูลที่มี=="
+  status: approved
+- id: cefr-c2-w11-053
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 2
+  pool: true
+  stem: "New evidence completely ____ the theory that the fire was an accident."
+  choices:
+    - {t: "refuted", why: "หักล้าง = ++refute++"}
+    - {t: "substantiated", why: "ความหมายกลับกัน"}
+    - {t: "posited", why: "posit คือตั้งสมมติฐาน"}
+    - {t: "surmised", why: "surmise คือคาดเดา"}
+  explain: "refute = ==พิสูจน์ว่าผิด หักล้าง=="
+  status: approved
+- id: cefr-c2-w11-054
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 3
+  pool: true
+  stem: "The court's ruling ____ the teacher who had been wrongly accused."
+  choices:
+    - {t: "vindicated", why: "พิสูจน์ว่าบริสุทธิ์/ถูก = ++vindicate++"}
+    - {t: "refuted", why: "refute ใช้กับข้ออ้าง ไม่ใช่คน"}
+    - {t: "extrapolated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "conflated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (conflated)"}
+  explain: "vindicate = ==พิสูจน์ว่าถูกหรือบริสุทธิ์=="
+  status: approved
+- id: cefr-c2-w11-055
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 3
+  pool: true
+  stem: "Many people ____ weather and climate, but they are not the same thing."
+  choices:
+    - {t: "conflate", why: "รวมสองอย่างเป็นอันเดียวผิด ๆ = ++conflate++"}
+    - {t: "substantiate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "vindicate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (vindicate)"}
+    - {t: "postulate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (postulate)"}
+  explain: "conflate = ==เอามาปนกันว่าเป็นอย่างเดียว=="
+  status: approved
+- id: cefr-c2-w11-056
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 3
+  pool: true
+  stem: "Can you ____ your claim with data, or is it just an opinion?"
+  choices:
+    - {t: "substantiate", why: "ยืนยันด้วยหลักฐาน = ++substantiate++"}
+    - {t: "refute", why: "ความหมายกลับกัน"}
+    - {t: "surmise", why: "surmise คือคาดเดา"}
+    - {t: "conflate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "substantiate = ==ยืนยันด้วยหลักฐาน=="
+  status: approved
+- id: cefr-c2-w11-057
+  kind: mcq
+  skill: vo
+  topic: reasoning-vocab
+  level: 3
+  pool: true
+  stem: "The argument sounds logical, but it is ____: it rests on a false assumption."
+  choices:
+    - {t: "specious", why: "ดูมีเหตุผลแต่ผิด = ++specious++"}
+    - {t: "vindicated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "substantiated", why: "ความหมายกลับกัน"}
+    - {t: "extrapolated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (extrapolated)"}
+  explain: "specious = ==ฟังดูดีแต่ผิด=="
+  status: approved
+- id: cefr-c2-w11-058
+  kind: read
+  skill: rd
+  topic: two-texts
+  level: 2
+  pool: true
+  title: "Two Views on Four-Day Working Weeks"
+  passage: |
+    Text A (a business owner): "When we moved to a four-day week, I expected productivity to fall. Instead, staff finished the same work in less time, and sick days dropped by a third. Our customers noticed no difference."
+
+    Text B (an economist): "Small trials are encouraging, but we should not extrapolate too quickly. Most trials have involved office-based companies that chose to take part. Hospitals, factories and schools face very different constraints. A nurse cannot simply see patients faster."
+
+    Both writers accept that the four-day week can work in some settings. Where they differ is in how widely they think it can be applied.
+  questions:
+    - stem: "What happened in the business owner's company?"
+      choices:
+        - {t: "productivity stayed the same with fewer days", why: "staff finished the same work in less time"}
+        - {t: "customers complained", why: "ลูกค้าไม่เห็นความต่าง"}
+        - {t: "sick days increased", why: "ลดลงหนึ่งในสาม จึงใช้ไม่ได้"}
+        - {t: "staff had to work longer hours each day than before", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What is the economist's main caution?"
+      choices:
+        - {t: "results may not apply to all jobs", why: "Hospitals, factories and schools face very different constraints"}
+        - {t: "the trials were too long", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "office workers are lazy", why: "ในบทไม่ได้พูดเช่นนั้น (office workers are lazy)"}
+        - {t: "nurses already work four-day weeks in most hospitals", why: "ในบทไม่ได้พูดเช่นนั้น (nurses already work four-day weeks in most hospitals)"}
+    - stem: "On what do the two writers agree?"
+      choices:
+        - {t: "it can work in some workplaces", why: "Both writers accept that the four-day week can work in some settings"}
+        - {t: "it should be compulsory everywhere", why: "ไม่ได้เห็นพ้องเช่นนั้น"}
+        - {t: "it reduces customer satisfaction", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it is suitable for hospitals, factories and schools", why: "นักเศรษฐศาสตร์บอกว่าอาจไม่เหมาะ"}
+  status: approved
+- id: cefr-c2-w11-059
+  kind: listen
+  skill: li
+  topic: two-part-lecture
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "In the first half, we looked at why the theory became popular. Now, I'll turn to the evidence that refutes it."}
+  questions:
+    - stem: "What will the second half cover?"
+      choices:
+        - {t: "evidence against the theory", why: "the evidence that refutes it"}
+        - {t: "why the theory became popular", why: "เป็นครึ่งแรก จึงใช้ไม่ได้"}
+        - {t: "evidence that supports the theory", why: "ความหมายกลับกัน"}
+        - {t: "the life of the scientist who first proposed it", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w11-060
+  kind: listen
+  skill: li
+  topic: reasoning-vocab
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I can only surmise that the delay was caused by the weather. Nobody has told us anything."}
+  questions:
+    - stem: "How certain is the man about the cause?"
+      choices:
+        - {t: "not certain; he is guessing", why: "I can only surmise"}
+        - {t: "completely certain", why: "ความหมายกลับกัน"}
+        - {t: "he was told officially", why: "ไม่มีใครบอก จึงใช้ไม่ได้"}
+        - {t: "he knows it was a strike by the airport staff", why: "ในบทไม่ได้พูดถึง"}
+  status: approved

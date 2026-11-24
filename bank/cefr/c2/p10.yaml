@@ -1,0 +1,279 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 10 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w10-043
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 2
+  pool: true
+  stem: "\"Well, it's certainly an original idea.\" The speaker most likely thinks the idea is ____."
+  choices:
+    - {t: "strange or impractical", why: "ชมแบบเลี่ยง แฝงว่าไม่ค่อยดี ++certainly original++"}
+    - {t: "excellent", why: "ไม่ได้ชมจริง จึงใช้ไม่ได้"}
+    - {t: "boring", why: "original ไม่ได้แปลว่าน่าเบื่อ"}
+    - {t: "already very common everywhere", why: "ความหมายกลับกัน"}
+  explain: "\"certainly ...\" ที่ชมกว้าง ๆ มัก ==แฝงความไม่เห็นด้วย=="
+  status: approved
+- id: cefr-c2-w10-044
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  pool: true
+  stem: "\"I'm sure the new manager means well.\" The speaker is probably ____."
+  choices:
+    - {t: "doubtful about the manager's ability", why: "means well = ตั้งใจดีแต่อาจทำไม่ได้"}
+    - {t: "full of praise for the manager", why: "ไม่ได้ชมเต็มที่"}
+    - {t: "angry with the manager", why: "ไม่ได้แสดงความโกรธตรง ๆ"}
+    - {t: "unaware of the manager", why: "ผู้พูดพูดถึงผู้จัดการอยู่"}
+  explain: "==means well== = ตั้งใจดี (แต่ผลอาจไม่ดี)"
+  status: approved
+- id: cefr-c2-w10-045
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  pool: true
+  stem: "\"Thanks for finally replying to my email.\" The word \"finally\" shows ____."
+  choices:
+    - {t: "irritation at the delay", why: "finally = ช้ามาก"}
+    - {t: "real gratitude", why: "คำว่า finally แฝงความไม่พอใจ"}
+    - {t: "surprise at the content", why: "ไม่ได้พูดถึงเนื้อหา"}
+    - {t: "confusion", why: "ไม่ได้แสดงความสับสน"}
+  explain: "==finally== ในคำขอบคุณ = ประชดว่าช้า"
+  status: approved
+- id: cefr-c2-w10-046
+  kind: mcq
+  skill: gm
+  topic: implication-attitude
+  level: 3
+  pool: true
+  stem: "\"Not bad for a first attempt.\" The speaker means the work is ____."
+  choices:
+    - {t: "acceptable but could improve", why: "ชมแบบมีเงื่อนไข ++not bad for...++"}
+    - {t: "perfect", why: "ไม่ได้ชมเต็มที่"}
+    - {t: "terrible", why: "ไม่ได้ติแรง จึงใช้ไม่ได้"}
+    - {t: "copied", why: "ในบทไม่ได้บ่งเช่นนั้น"}
+  explain: "==not bad for...== = พอใช้ได้ (สำหรับ...)"
+  status: approved
+- id: cefr-c2-w10-047
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 2
+  pool: true
+  stem: "\"Everyone I know loves the new app, so it must be the best.\" This argument is weak because ____."
+  choices:
+    - {t: "it relies on a small, biased sample", why: "อ้างจากคนรอบตัว ++ตัวอย่างน้อยและลำเอียง++"}
+    - {t: "it uses too many numbers and statistics", why: "ไม่มีตัวเลข จึงใช้ไม่ได้"}
+    - {t: "it is too long", why: "ไม่ใช่จุดอ่อน จึงใช้ไม่ได้"}
+    - {t: "it mentions an app", why: "ไม่ใช่จุดอ่อน จึงใช้ไม่ได้ (it mentions an app)"}
+  explain: "ข้อสรุปจาก ==กลุ่มตัวอย่างเล็ก/ลำเอียง== = อ่อน"
+  status: approved
+- id: cefr-c2-w10-048
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  pool: true
+  stem: "\"Ice cream sales and drowning both rise in summer, so ice cream causes drowning.\" The flaw is ____."
+  choices:
+    - {t: "confusing correlation with causation", why: "เกิดพร้อมกันไม่ได้แปลว่าเป็นเหตุ ++correlation ≠ causation++"}
+    - {t: "using the wrong season", why: "ไม่ใช่จุดอ่อน จึงใช้ไม่ได้"}
+    - {t: "not enough adjectives", why: "ไม่เกี่ยว จึงใช้ไม่ได้"}
+    - {t: "mentioning swimming in a discussion about food", why: "ไม่ใช่จุดอ่อน จึงใช้ไม่ได้ (mentioning swimming in a discussion about food)"}
+  explain: "เกิดพร้อมกัน ==ไม่ได้แปลว่าเป็นเหตุ=="
+  status: approved
+- id: cefr-c2-w10-049
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  pool: true
+  stem: "\"Either we ban all cars or the city will die.\" This is an example of ____."
+  choices:
+    - {t: "a false choice", why: "ให้เลือกแค่สองทาง ++false dilemma++"}
+    - {t: "a balanced argument", why: "ไม่สมดุล จึงใช้ไม่ได้"}
+    - {t: "an expert opinion", why: "ไม่ได้อ้างผู้เชี่ยวชาญ"}
+    - {t: "a statistic", why: "ไม่มีตัวเลข จึงใช้ไม่ได้"}
+  explain: "ตัดทางเลือกอื่นทิ้ง = ==false dilemma=="
+  status: approved
+- id: cefr-c2-w10-050
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  pool: true
+  stem: "\"He can't be right about climate change; he failed science at school.\" This argument ____."
+  choices:
+    - {t: "attacks the person, not the claim", why: "โจมตีตัวบุคคล ++ad hominem++"}
+    - {t: "provides strong evidence", why: "ไม่มีหลักฐานเกี่ยวกับข้ออ้าง"}
+    - {t: "agrees with him about climate change", why: "ความหมายกลับกัน"}
+    - {t: "uses a fair comparison", why: "ไม่ได้เปรียบเทียบ"}
+  explain: "โจมตีตัวคน = ==ad hominem=="
+  status: approved
+- id: cefr-c2-w10-051
+  kind: mcq
+  skill: gm
+  topic: argument-evaluation
+  level: 3
+  pool: true
+  stem: "Which would most strengthen the claim that the new timetable reduced lateness?"
+  choices:
+    - {t: "data showing lateness fell after it began", why: "หลักฐานก่อน-หลัง ++data before and after++"}
+    - {t: "a teacher saying she likes it", why: "ความเห็นส่วนตัว ไม่ใช่หลักฐาน"}
+    - {t: "a large photo of the timetable on the school website", why: "ไม่ได้พิสูจน์ผล"}
+    - {t: "the timetable being colourful", why: "ไม่เกี่ยว จึงใช้ไม่ได้"}
+  explain: "เสริมข้ออ้างด้วย ==ข้อมูลเปรียบเทียบก่อน-หลัง=="
+  status: approved
+- id: cefr-c2-w10-052
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  pool: true
+  stem: "The critics ____ the young director's first film as a masterpiece."
+  choices:
+    - {t: "lauded", why: "ยกย่อง = ++laud as++"}
+    - {t: "derided", why: "deride คือเย้ยหยัน"}
+    - {t: "disparaged", why: "disparage คือดูแคลน"}
+    - {t: "lamented", why: "lament คือคร่ำครวญ"}
+  explain: "laud = ==ยกย่องสรรเสริญ=="
+  status: approved
+- id: cefr-c2-w10-053
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 2
+  pool: true
+  stem: "The review was ____: it called the book \"lazy, dull and badly written\"."
+  choices:
+    - {t: "scathing", why: "วิจารณ์แรง = ++scathing++"}
+    - {t: "wry", why: "wry คือขำแบบแห้ง ๆ"}
+    - {t: "facetious", why: "facetious คือพูดเล่นผิดที่"}
+    - {t: "veiled", why: "veiled คือแฝง จึงใช้ไม่ได้"}
+  explain: "scathing = ==วิจารณ์รุนแรงเจ็บแสบ=="
+  status: approved
+- id: cefr-c2-w10-054
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 3
+  pool: true
+  stem: "Many older residents ____ the loss of the old market."
+  choices:
+    - {t: "lament", why: "เสียดายคร่ำครวญ = ++lament++"}
+    - {t: "extol", why: "extol คือยกย่อง"}
+    - {t: "begrudge", why: "begrudge คืออิจฉา ไม่เต็มใจให้"}
+    - {t: "laud", why: "ความหมายกลับกัน"}
+  explain: "lament = ==เสียดาย โศกเศร้า=="
+  status: approved
+- id: cefr-c2-w10-055
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 3
+  pool: true
+  stem: "I don't ____ him his success; he worked hard for it."
+  choices:
+    - {t: "begrudge", why: "อิจฉาไม่เต็มใจให้ = ++begrudge someone something++"}
+    - {t: "lament", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "deride", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (deride)"}
+    - {t: "extol", why: "ความหมายกลับกัน"}
+  explain: "not begrudge someone something = ==ไม่อิจฉา ยินดีด้วย=="
+  status: approved
+- id: cefr-c2-w10-056
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 3
+  pool: true
+  stem: "His ____ smile suggested he found the whole situation slightly absurd."
+  choices:
+    - {t: "wry", why: "ยิ้มแบบรู้ทัน ขำแห้ง ๆ = ++wry++"}
+    - {t: "scathing", why: "scathing ใช้กับคำวิจารณ์"}
+    - {t: "disingenuous", why: "disingenuous คือไม่จริงใจ"}
+    - {t: "lauded", why: "lauded เป็นกริยา"}
+  explain: "a wry smile = ==ยิ้มแห้ง ๆ ขำในใจ=="
+  status: approved
+- id: cefr-c2-w10-057
+  kind: mcq
+  skill: vo
+  topic: praise-criticism
+  level: 3
+  pool: true
+  stem: "It's ____ to claim you didn't know about the problem; you were sent three emails."
+  choices:
+    - {t: "disingenuous", why: "แกล้งไม่รู้ ไม่จริงใจ = ++disingenuous++"}
+    - {t: "wry", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "facetious", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (facetious)"}
+    - {t: "veiled", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (veiled)"}
+  explain: "disingenuous = ==ไม่จริงใจ แสร้ง=="
+  status: approved
+- id: cefr-c2-w10-058
+  kind: read
+  skill: rd
+  topic: ironic-argument
+  level: 2
+  pool: true
+  title: "In Praise of Endless Meetings"
+  passage: |
+    What would we do without meetings? Without them, we might be forced to make decisions quickly, or, worse, actually do the work we discussed.
+
+    Consider the weekly planning meeting. In two hours, a dozen people can agree to hold another meeting to plan the planning. It is a triumph of efficiency, if efficiency means using as much time as possible.
+
+    Of course, critics will say that most meetings could be replaced by a short email. These people clearly underestimate the joy of watching a colleague share their screen for ten minutes while searching for the right file.
+
+    Perhaps, though, there is a modest solution: before calling a meeting, ask whether anyone would notice if it were cancelled. If the answer is no, we might all get some work done.
+  questions:
+    - stem: "What is the writer's real view of meetings?"
+      choices:
+        - {t: "many are a waste of time", why: "เป็นบทประชด ชมแบบตรงข้าม"}
+        - {t: "they are very efficient", why: "เป็นการประชด จึงใช้ไม่ได้"}
+        - {t: "they should be longer", why: "เป็นการประชด จึงใช้ไม่ได้ (they should be longer)"}
+        - {t: "they are the best way to make every decision quickly", why: "เป็นการประชด จึงใช้ไม่ได้ (they are the best way to make every decision quickly)"}
+    - stem: "Why does the writer mention screen sharing?"
+      choices:
+        - {t: "to mock a common time-wasting habit", why: "the joy of watching a colleague ... searching for the right file"}
+        - {t: "to recommend it", why: "เป็นการประชด จึงใช้ไม่ได้"}
+        - {t: "to explain new software", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "to praise colleagues who are good at technology", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What does the writer actually suggest?"
+      choices:
+        - {t: "cancelling meetings no one would miss", why: "ask whether anyone would notice if it were cancelled"}
+        - {t: "holding more planning meetings", why: "เป็นการประชด จึงใช้ไม่ได้"}
+        - {t: "banning email", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "making every meeting at least two hours long", why: "เป็นการประชด จึงใช้ไม่ได้ (making every meeting at least two hours long)"}
+  status: approved
+- id: cefr-c2-w10-059
+  kind: listen
+  skill: li
+  topic: policy-debate
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "My opponent says the plan will cost too much. Yet he hasn't explained how much doing nothing will cost."}
+  questions:
+    - stem: "What is the woman's argument?"
+      choices:
+        - {t: "inaction also has a cost", why: "he hasn't explained how much doing nothing will cost"}
+        - {t: "the plan is too expensive", why: "เป็นข้ออ้างของอีกฝ่าย"}
+        - {t: "her opponent is dishonest", why: "ไม่ได้พูดตรง ๆ จึงใช้ไม่ได้"}
+        - {t: "the plan should be cancelled immediately and replaced", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w10-060
+  kind: listen
+  skill: li
+  topic: praise-criticism
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Oh, brilliant. The printer's broken again, just before the deadline."}
+  questions:
+    - stem: "How does the man feel?"
+      choices:
+        - {t: "annoyed", why: "brilliant เป็นการประชด"}
+        - {t: "delighted", why: "เป็นการประชด จึงใช้ไม่ได้"}
+        - {t: "relieved", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+        - {t: "confused about how printers work and what to do", why: "ในบทไม่ได้บ่งเช่นนั้น"}
+  status: approved

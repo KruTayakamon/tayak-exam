@@ -1,0 +1,277 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 2 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w02-043
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 2
+  pool: true
+  stem: "Only by working together ____ this crisis."
+  choices:
+    - {t: "can we overcome", why: "Only by ขึ้นต้น ++สลับกริยาช่วย++"}
+    - {t: "we can overcome", why: "ต้องสลับหลัง only by ขึ้นต้น"}
+    - {t: "overcome we can", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "we overcome", why: "ต้องมีกริยาช่วยมาสลับ"}
+  explain: "==Only by + -ing + กริยาช่วย + ประธาน=="
+  status: approved
+- id: cefr-c2-w02-044
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 3
+  pool: true
+  stem: "At no point ____ that the figures were incorrect."
+  choices:
+    - {t: "did anyone suggest", why: "At no point ขึ้นต้น ++สลับด้วย did++"}
+    - {t: "anyone suggested", why: "ต้องสลับ จึงใช้ไม่ได้"}
+    - {t: "had suggested anyone", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "anyone did suggest", why: "ไม่ได้สลับ จึงใช้ไม่ได้"}
+  explain: "==At no point + did + ประธาน + V1=="
+  status: approved
+- id: cefr-c2-w02-045
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 3
+  pool: true
+  stem: "So severe ____ that the road was closed for a week."
+  choices:
+    - {t: "was the damage", why: "So + adj ขึ้นต้น ++be + ประธาน++"}
+    - {t: "the damage was", why: "ต้องสลับ จึงใช้ไม่ได้"}
+    - {t: "did the damage", why: "ไม่ใช้ did กับ be"}
+    - {t: "the damage did", why: "ไม่ได้สลับ จึงใช้ไม่ได้"}
+  explain: "==So + adj + be + ประธาน + that=="
+  status: approved
+- id: cefr-c2-w02-046
+  kind: mcq
+  skill: gm
+  topic: inversion-full
+  level: 3
+  pool: true
+  stem: "Here ____ the bus, at last!"
+  choices:
+    - {t: "comes", why: "Here ขึ้นต้น + คำนาม ++สลับกริยา++"}
+    - {t: "come", why: "the bus เป็นเอกพจน์ ต้องเติม s"}
+    - {t: "does come", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "is coming the bus", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "==Here comes + คำนาม== · Here it comes (สรรพนาม)"
+  status: approved
+- id: cefr-c2-w02-047
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 2
+  pool: true
+  stem: "What the residents object to ____ the noise, not the building itself."
+  choices:
+    - {t: "is", why: "What-clause ++is + ส่วนที่เน้น++"}
+    - {t: "are", why: "what-clause ถือเป็นเอกพจน์"}
+    - {t: "being", why: "ไม่ใช่กริยาแท้ จึงใช้ไม่ได้"}
+    - {t: "to be", why: "ไม่ใช่กริยาแท้ จึงใช้ไม่ได้ (to be)"}
+  explain: "==What + ประโยค + is + X== เน้นข้อมูลใหม่ไว้ท้าย"
+  status: approved
+- id: cefr-c2-w02-048
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 3
+  pool: true
+  stem: "It is the lack of training, rather than the pay, ____ staff complain about most."
+  choices:
+    - {t: "that", why: "ประโยคเน้น ++It is X that...++"}
+    - {t: "what", why: "what ไม่ใช้หลังคำนามที่เน้น"}
+    - {t: "which it", why: "มี it ซ้ำ จึงใช้ไม่ได้"}
+    - {t: "whom", why: "whom ใช้กับคน จึงใช้ไม่ได้"}
+  explain: "==It is + ส่วนที่เน้น + that...=="
+  status: approved
+- id: cefr-c2-w02-049
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 3
+  pool: true
+  stem: "____ is how little the public knows about the scheme."
+  choices:
+    - {t: "What is worrying", why: "หัวเรื่องเป็น what-clause ++What is worrying is...++"}
+    - {t: "It worrying", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "That worrying", why: "รูปผิด จึงใช้ไม่ได้ (That worrying)"}
+    - {t: "Worrying it", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "==What is + adj + is...== = สิ่งที่น่า...คือ"
+  status: approved
+- id: cefr-c2-w02-050
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 3
+  pool: true
+  stem: "Much discussed but rarely understood, ____."
+  choices:
+    - {t: "the policy has confused many voters", why: "ประธานต้องเป็นสิ่งที่ถูก discussed ++the policy++"}
+    - {t: "many voters have been confused by it", why: "ประธานไม่ใช่สิ่งที่ถูกพูดถึง"}
+    - {t: "it confuses many voters, the policy", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "voters discuss the policy rarely", why: "ไม่ต่อกับวลีขึ้นต้น"}
+  explain: "วลีขึ้นต้นต้องขยาย ==ประธานของประโยคหลัก=="
+  status: approved
+- id: cefr-c2-w02-051
+  kind: mcq
+  skill: gm
+  topic: information-structure
+  level: 3
+  pool: true
+  stem: "____ the crisis, the government announced emergency funding."
+  choices:
+    - {t: "In response to", why: "เชื่อมเหตุให้ข้อมูลเก่าขึ้นต้น ++In response to++"}
+    - {t: "Respond to", why: "ไม่ใช่รูปขึ้นต้นแบบนี้"}
+    - {t: "Responded", why: "ความหมายเป็น passive ผิด"}
+    - {t: "As response", why: "ขาด a จึงใช้ไม่ได้"}
+  explain: "ข้อมูลเก่าขึ้นต้น ==In response to + คำนาม=="
+  status: approved
+- id: cefr-c2-w02-052
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  pool: true
+  stem: "The report ____ the need for urgent investment in clean water."
+  choices:
+    - {t: "underscores", why: "เน้นย้ำ = ++underscore++"}
+    - {t: "resonates", why: "resonate ต้องมี with"}
+    - {t: "galvanises", why: "galvanise ต้องมีคนเป็นกรรม"}
+    - {t: "crystallises", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "underscore = ==เน้นย้ำให้เห็นชัด=="
+  status: approved
+- id: cefr-c2-w02-053
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 2
+  pool: true
+  stem: "The flood ____ the community into action; within hours, volunteers were everywhere."
+  choices:
+    - {t: "galvanised", why: "กระตุ้นให้ลุกขึ้นทำ = ++galvanise into action++"}
+    - {t: "underscored", why: "underscore ไม่ตามด้วย into action"}
+    - {t: "encapsulated", why: "encapsulate คือสรุปได้ครบ"}
+    - {t: "resonated", why: "resonate ไม่มีกรรมแบบนี้"}
+  explain: "galvanise someone ==into action=="
+  status: approved
+- id: cefr-c2-w02-054
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 3
+  pool: true
+  stem: "Her speech ____ with young voters, who felt it spoke to their concerns."
+  choices:
+    - {t: "resonated", why: "โดนใจ = ++resonate with++"}
+    - {t: "underscored", why: "underscore ไม่ใช้ with"}
+    - {t: "galvanised", why: "galvanise ต้องมีกรรม"}
+    - {t: "crystallised", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "resonate ==with== = โดนใจ สะท้อนความรู้สึก"
+  status: approved
+- id: cefr-c2-w02-055
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 3
+  pool: true
+  stem: "The photograph ____ the spirit of the festival in a single image."
+  choices:
+    - {t: "encapsulates", why: "สรุปไว้ครบ = ++encapsulate++"}
+    - {t: "resonates", why: "resonate ต้องมี with"}
+    - {t: "galvanises", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "salient", why: "salient เป็นคุณศัพท์"}
+  explain: "encapsulate = ==สรุปแก่นได้ครบ=="
+  status: approved
+- id: cefr-c2-w02-056
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 3
+  pool: true
+  stem: "There is a ____ contrast between the luxury hotels and the slums behind them."
+  choices:
+    - {t: "stark", why: "ชัดเจนแบบแข็ง = ++stark contrast++"}
+    - {t: "sweeping", why: "sweeping ใช้กับการเปลี่ยนแปลง"}
+    - {t: "seminal", why: "seminal คือเป็นต้นแบบ"}
+    - {t: "emphatic", why: "ไม่ใช้กับ contrast"}
+  explain: "a stark contrast = ==ความต่างที่ชัดเจนมาก=="
+  status: approved
+- id: cefr-c2-w02-057
+  kind: mcq
+  skill: vo
+  topic: emphasis-vocab
+  level: 3
+  pool: true
+  stem: "Her 1985 paper was a ____ work that shaped the field for decades."
+  choices:
+    - {t: "seminal", why: "เป็นต้นแบบสำคัญ = ++seminal++"}
+    - {t: "stark", why: "stark ใช้กับความต่าง"}
+    - {t: "sweeping", why: "sweeping ใช้กับการเปลี่ยนแปลง"}
+    - {t: "salient", why: "salient คือเด่น"}
+  explain: "a seminal study = ==งานบุกเบิกที่ทรงอิทธิพล=="
+  status: approved
+- id: cefr-c2-w02-058
+  kind: read
+  skill: rd
+  topic: editorial
+  level: 2
+  pool: true
+  title: "Editorial: A Pivotal Moment for Our Rivers"
+  passage: |
+    Rarely has a single report galvanised public opinion so quickly. Last week's study, showing plastic levels in our three main rivers had doubled in five years, has become the talk of every market and office.
+
+    What the report underscores is not merely the scale of the problem but its speed. Five years is less than the time it takes most children to finish primary school. Should the trend continue, fishing communities downstream could lose their livelihoods within a decade.
+
+    This is a pivotal moment. Sweeping bans on single-use plastics are not the only answer, but they are a necessary start. What is needed now is not another committee but action: deposit schemes for bottles, support for refill shops and, above all, enforcement of the rules we already have.
+  questions:
+    - stem: "What does the editorial say about the report's impact?"
+      choices:
+        - {t: "it quickly changed public opinion", why: "Rarely has a single report galvanised public opinion so quickly"}
+        - {t: "it was largely ignored", why: "ความหมายกลับกัน"}
+        - {t: "it was published five years ago", why: "เป็นช่วงเวลาที่ศึกษา"}
+        - {t: "it was written by fishermen", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What does the writer find most alarming?"
+      choices:
+        - {t: "how fast the problem is growing", why: "not merely the scale of the problem but its speed"}
+        - {t: "the cost of a committee", why: "ในบทไม่ได้พูดถึงค่าใช้จ่าย"}
+        - {t: "children's school results", why: "เป็นเพียงการเปรียบเทียบเวลา"}
+        - {t: "the number of markets", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What does the writer call for?"
+      choices:
+        - {t: "action, including enforcing existing rules", why: "above all, enforcement of the rules we already have"}
+        - {t: "a new committee to study the problem further", why: "ผู้เขียนบอกว่าไม่ต้องการคณะกรรมการใหม่"}
+        - {t: "closing fishing villages", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "more studies before acting", why: "ความหมายกลับกัน"}
+  status: approved
+- id: cefr-c2-w02-059
+  kind: listen
+  skill: li
+  topic: closing-speech
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "If there is one point I'd like you to take away today, it is this: small, consistent changes outlast dramatic ones."}
+  questions:
+    - stem: "What is the speaker's key message?"
+      choices:
+        - {t: "steady small changes last longer", why: "small, consistent changes outlast dramatic ones"}
+        - {t: "dramatic change is best", why: "ความหมายกลับกัน"}
+        - {t: "change is impossible", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "people should leave early", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w02-060
+  kind: listen
+  skill: li
+  topic: emphasis-vocab
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Not once has the council consulted us. Not once."}
+  questions:
+    - stem: "How does the man feel?"
+      choices:
+        - {t: "angry that residents were never asked", why: "Not once has the council consulted us"}
+        - {t: "pleased with the council", why: "ความหมายกลับกัน"}
+        - {t: "unsure about the facts", why: "เขาพูดหนักแน่น จึงใช้ไม่ได้"}
+        - {t: "grateful for one meeting", why: "เขาบอกว่าไม่เคยเลย"}
+  status: approved

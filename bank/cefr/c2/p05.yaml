@@ -1,0 +1,281 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 5 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w05-043
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 2
+  pool: true
+  stem: "He said he would finish the report by Friday, and ____."
+  choices:
+    - {t: "so he did", why: "ยืนยันว่าทำจริง ++so + ประธาน + กริยาช่วย++"}
+    - {t: "so did he", why: "so did he = เขาก็เช่นกัน ความหมายไม่ตรง"}
+    - {t: "he did so it", why: "มี it เกิน จึงใช้ไม่ได้"}
+    - {t: "neither did he", why: "ความหมายกลับกัน"}
+  explain: "==so he did== = แล้วเขาก็ทำจริง · so did he = เขาก็ด้วย"
+  status: approved
+- id: cefr-c2-w05-044
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 3
+  pool: true
+  stem: "Some students found the course easy; others, ____."
+  choices:
+    - {t: "less so", why: "ละกริยา ++less so++ = ไม่ค่อยเป็นแบบนั้น"}
+    - {t: "less it", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "not so it", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (not so it)"}
+    - {t: "less such", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (less such)"}
+  explain: "==others, less so== = คนอื่นไม่ค่อย..."
+  status: approved
+- id: cefr-c2-w05-045
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 3
+  pool: true
+  stem: "\"Is the museum free?\" \"I believe ____.\""
+  choices:
+    - {t: "so", why: "แทนประโยคบอกเล่า ++I believe so++"}
+    - {t: "it", why: "it ไม่แทนประโยคแบบนี้"}
+    - {t: "that", why: "ไม่เป็นธรรมชาติในการตอบ"}
+    - {t: "yes", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+  explain: "==I believe / think / suppose so== = คิดว่าใช่"
+  status: approved
+- id: cefr-c2-w05-046
+  kind: mcq
+  skill: gm
+  topic: ellipsis-advanced
+  level: 3
+  pool: true
+  stem: "I'd love to help, but I'm afraid I ____."
+  choices:
+    - {t: "can't", why: "ละกริยาหลังกริยาช่วย ++I can't (help)++"}
+    - {t: "can't do", why: "ไม่ต้องมี do จึงใช้ไม่ได้"}
+    - {t: "can't it", why: "มี it เกิน จึงใช้ไม่ได้"}
+    - {t: "don't can", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "ละกริยาซ้ำ เหลือ ==กริยาช่วย== (I can't.)"
+  status: approved
+- id: cefr-c2-w05-047
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 2
+  pool: true
+  stem: "The first proposal was cheap; the second, efficient. ____, neither was ideal."
+  choices:
+    - {t: "Ultimately", why: "สรุปท้ายที่สุด ++Ultimately++"}
+    - {t: "Namely", why: "namely ใช้ขยายรายละเอียด"}
+    - {t: "Whereupon", why: "whereupon คือทันใดนั้น"}
+    - {t: "Per se", why: "per se คือโดยตัวมันเอง"}
+  explain: "==Ultimately / In the end== = ท้ายที่สุด"
+  status: approved
+- id: cefr-c2-w05-048
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  pool: true
+  stem: "The two reports reached ____ conclusions: one optimistic, one pessimistic."
+  choices:
+    - {t: "opposing", why: "ขัดแย้งกัน ++opposing conclusions++"}
+    - {t: "respective", why: "respective ต้องแบ่งให้แต่ละฝ่าย"}
+    - {t: "aforementioned", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "erstwhile", why: "erstwhile คือในอดีต"}
+  explain: "==opposing / contrasting== conclusions = ข้อสรุปตรงข้ามกัน"
+  status: approved
+- id: cefr-c2-w05-049
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  pool: true
+  stem: "The manager and her deputy left for ____ offices after the meeting."
+  choices:
+    - {t: "their respective", why: "ของแต่ละคน ++respective++"}
+    - {t: "their aforementioned", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "the respective of", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "each respective", why: "ต้องมี their จึงใช้ไม่ได้"}
+  explain: "==their respective + พหูพจน์== = ของใครของมัน"
+  status: approved
+- id: cefr-c2-w05-050
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  pool: true
+  stem: "Two causes were identified, ____ poor planning and a lack of funding."
+  choices:
+    - {t: "namely", why: "ได้แก่ ++namely++"}
+    - {t: "hence", why: "hence บอกผล จึงใช้ไม่ได้"}
+    - {t: "conversely", why: "conversely คือกลับกัน"}
+    - {t: "thereafter", why: "thereafter คือหลังจากนั้น"}
+  explain: "==namely== = ได้แก่ คือ (ขยายให้ชัด)"
+  status: approved
+- id: cefr-c2-w05-051
+  kind: mcq
+  skill: gm
+  topic: cohesion-long-text
+  level: 3
+  pool: true
+  stem: "Prices rose sharply; ____, demand fell."
+  choices:
+    - {t: "consequently", why: "ผลที่ตามมา ++consequently++"}
+    - {t: "namely", why: "namely ใช้ขยายรายละเอียด"}
+    - {t: "per se", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "in lieu", why: "ต้องมี of จึงใช้ไม่ได้"}
+  explain: "==consequently / hence== = ผลก็คือ"
+  status: approved
+- id: cefr-c2-w05-052
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  pool: true
+  stem: "The ____ report was later withdrawn because of errors in the data."
+  choices:
+    - {t: "aforementioned", why: "ที่กล่าวมาแล้ว = ++aforementioned++"}
+    - {t: "ensuing", why: "ensuing คือที่ตามมา"}
+    - {t: "respective", why: "respective คือของแต่ละคน"}
+    - {t: "namely", why: "namely เป็นคำวิเศษณ์"}
+  explain: "aforementioned = ==ที่กล่าวถึงข้างต้น=="
+  status: approved
+- id: cefr-c2-w05-053
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 2
+  pool: true
+  stem: "The storm caused a power cut, and the ____ chaos lasted for days."
+  choices:
+    - {t: "ensuing", why: "ที่ตามมา = ++ensuing++"}
+    - {t: "aforementioned", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "erstwhile", why: "erstwhile คือในอดีต"}
+    - {t: "chiefly", why: "chiefly เป็นคำวิเศษณ์"}
+  explain: "ensuing = ==ที่เกิดตามมา=="
+  status: approved
+- id: cefr-c2-w05-054
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 3
+  pool: true
+  stem: "Many Western students learn by asking questions; ____, students in some cultures may prefer to listen first."
+  choices:
+    - {t: "conversely", why: "ในทางกลับกัน = ++conversely++"}
+    - {t: "namely", why: "namely คือได้แก่"}
+    - {t: "thereafter", why: "thereafter คือหลังจากนั้น"}
+    - {t: "chiefly", why: "chiefly คือส่วนใหญ่"}
+  explain: "conversely = ==ในทางกลับกัน=="
+  status: approved
+- id: cefr-c2-w05-055
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 3
+  pool: true
+  stem: "The problem is not money ____, but how it is spent."
+  choices:
+    - {t: "per se", why: "โดยตัวมันเอง = ++per se++"}
+    - {t: "namely", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "in lieu of", why: "ต้องมีคำนามตาม จึงใช้ไม่ได้"}
+    - {t: "whereupon", why: "whereupon ต้องตามด้วยประโยค"}
+  explain: "per se = ==โดยตัวมันเอง=="
+  status: approved
+- id: cefr-c2-w05-056
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 3
+  pool: true
+  stem: "Staff may take a day off ____ overtime pay."
+  choices:
+    - {t: "in lieu of", why: "แทน = ++in lieu of++"}
+    - {t: "per se", why: "per se คือโดยตัวมันเอง"}
+    - {t: "namely", why: "namely คือได้แก่"}
+    - {t: "whereupon", why: "whereupon คือทันใดนั้น"}
+  explain: "in lieu of = ==แทนที่== (= instead of)"
+  status: approved
+- id: cefr-c2-w05-057
+  kind: mcq
+  skill: vo
+  topic: reference-linking
+  level: 3
+  pool: true
+  stem: "The guest insulted the host, ____ he was asked to leave."
+  choices:
+    - {t: "whereupon", why: "ทันใดนั้น/หลังจากนั้นทันที = ++whereupon++"}
+    - {t: "namely", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "conversely", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (conversely)"}
+    - {t: "per se", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (per se)"}
+  explain: "whereupon = ==ซึ่งต่อมาทันที=="
+  status: approved
+- id: cefr-c2-w05-058
+  kind: read
+  skill: rd
+  topic: paragraph-order
+  level: 2
+  pool: true
+  title: "How One Village Saved Its Forest"
+  passage: |
+    In 2009, the hills above Ban Pa Daeng were almost bare. Illegal logging had removed most of the large trees, and every rainy season brought landslides into the rice fields below.
+
+    The turning point came when an erstwhile logger, Khun Sombat, persuaded the village council to create a community forest. Families agreed to plant ten trees each year and to take turns guarding the area at night.
+
+    The ensuing years were difficult. Some neighbours objected, chiefly because they relied on selling wood. In lieu of logging income, the council helped them start a mushroom business in the shade of the young trees.
+
+    Today, the forest covers most of the hills, landslides have stopped and the mushroom cooperative employs thirty people. Visitors now come to learn how the aforementioned plan was put into practice.
+  questions:
+    - stem: "Who started the change?"
+      choices:
+        - {t: "a former logger", why: "an erstwhile logger, Khun Sombat"}
+        - {t: "the village council alone", why: "สภาหมู่บ้านถูกโน้มน้าวโดยสมบัติ"}
+        - {t: "visitors from the city", why: "ผู้มาเยือนมาทีหลัง"}
+        - {t: "a government officer", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "Why did some neighbours object?"
+      choices:
+        - {t: "they earned money from wood", why: "chiefly because they relied on selling wood"}
+        - {t: "they disliked mushrooms", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "they had to guard at night", why: "ในบทไม่ได้พูดว่านี่คือเหตุผล"}
+        - {t: "they wanted to move to the city to find better work", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What replaced income from logging?"
+      choices:
+        - {t: "a mushroom business", why: "start a mushroom business in the shade of the young trees"}
+        - {t: "rice farming", why: "ทำนาอยู่แล้ว ไม่ใช่สิ่งทดแทน"}
+        - {t: "tourism only", why: "ผู้มาเยือนมาเรียนรู้ ไม่ใช่รายได้แทน"}
+        - {t: "selling young trees to other villages", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c2-w05-059
+  kind: listen
+  skill: li
+  topic: multi-speaker-discussion
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I think we should delay the launch."}
+    - {who: Woman, en: "I see your point, but delaying would cost us our main customer."}
+    - {who: Man, en: "Fair enough. Let's launch on time, then, but with fewer features."}
+  questions:
+    - stem: "What do they finally agree?"
+      choices:
+        - {t: "launch on schedule with fewer features", why: "Let's launch on time, then, but with fewer features"}
+        - {t: "delay the launch", why: "ฝ่ายหญิงคัดค้าน"}
+        - {t: "cancel the launch", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "find a new main customer before they launch anything", why: "ในบทไม่ได้พูดถึง (find a new main customer before they launch anything)"}
+  status: approved
+- id: cefr-c2-w05-060
+  kind: listen
+  skill: li
+  topic: reference-linking
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Two options were discussed, namely, raising fees or cutting services. The board chose the former."}
+  questions:
+    - stem: "What did the board decide?"
+      choices:
+        - {t: "to raise fees", why: "The board chose the former"}
+        - {t: "to cut services", why: "เป็นตัวเลือกหลัง (the latter)"}
+        - {t: "to do both", why: "เลือกเพียงข้อเดียว"}
+        - {t: "to postpone the decision until next year", why: "ในบทไม่ได้พูดถึง"}
+  status: approved

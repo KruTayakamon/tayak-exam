@@ -1,0 +1,278 @@
+# คอร์ส c2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 9 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c2-w09-043
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  pool: true
+  stem: "Which is the most formal way to say \"We can't come\"?"
+  choices:
+    - {t: "We regret that we are unable to attend.", why: "ทางการที่สุด ++We regret that we are unable to...++"}
+    - {t: "Sorry, we can't make it.", why: "เป็นกันเอง จึงใช้ไม่ได้"}
+    - {t: "We won't be there, I'm afraid, sorry.", why: "เป็นกันเอง จึงใช้ไม่ได้ (We won't be there, I'm afraid, sorry.)"}
+    - {t: "No can do, sorry.", why: "ภาษาพูดมาก จึงใช้ไม่ได้"}
+  explain: "ทางการ ==We regret that we are unable to...=="
+  status: approved
+- id: cefr-c2-w09-044
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 2
+  pool: true
+  stem: "In a casual message to a friend, \"I would be grateful if you could reply\" is best changed to ____."
+  choices:
+    - {t: "Let me know, OK?", why: "เป็นกันเองเหมาะกับเพื่อน ++Let me know++"}
+    - {t: "Kindly reply at your earliest convenience.", why: "ทางการเกินไป จึงใช้ไม่ได้"}
+    - {t: "Your prompt response is requested.", why: "ทางการเกินไป จึงใช้ไม่ได้ (Your prompt response is requested.)"}
+    - {t: "Please be advised that a reply is required.", why: "ทางการเกินไป จึงใช้ไม่ได้ (Please be advised that a reply is required.)"}
+  explain: "ข้อความถึงเพื่อน ==สั้น เป็นกันเอง=="
+  status: approved
+- id: cefr-c2-w09-045
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 3
+  pool: true
+  stem: "Which word is the most formal equivalent of \"find out\"?"
+  choices:
+    - {t: "ascertain", why: "ทางการ ++ascertain++"}
+    - {t: "figure out", why: "เป็นกันเอง จึงใช้ไม่ได้"}
+    - {t: "dig up", why: "เป็นกันเองมาก จึงใช้ไม่ได้"}
+    - {t: "suss out", why: "ภาษาพูด (อังกฤษบริติช)"}
+  explain: "find out → ทางการ ==ascertain / determine=="
+  status: approved
+- id: cefr-c2-w09-046
+  kind: mcq
+  skill: gm
+  topic: register-shifting
+  level: 3
+  pool: true
+  stem: "\"The kids were totally wiped out after the trip.\" The most formal version is: \"The children were ____ after the trip.\""
+  choices:
+    - {t: "exhausted", why: "ทางการของ wiped out ++exhausted++"}
+    - {t: "knackered", why: "ภาษาพูด จึงใช้ไม่ได้"}
+    - {t: "dead beat", why: "ภาษาพูด จึงใช้ไม่ได้ (dead beat)"}
+    - {t: "shattered", why: "ภาษาพูด จึงใช้ไม่ได้ (shattered)"}
+  explain: "wiped out / knackered → ทางการ ==exhausted=="
+  status: approved
+- id: cefr-c2-w09-047
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 2
+  pool: true
+  stem: "Which sentence would most likely begin a research abstract?"
+  choices:
+    - {t: "This study examines the effect of sleep on memory.", why: "บทคัดย่อเริ่มด้วยจุดประสงค์ ++This study examines...++"}
+    - {t: "Have you ever wondered why we forget things?", why: "เหมาะกับบทความทั่วไป"}
+    - {t: "Once upon a time, there was a tired student.", why: "เป็นนิทาน จึงใช้ไม่ได้"}
+    - {t: "Dear readers, thank you for your letters.", why: "เป็นจดหมาย จึงใช้ไม่ได้"}
+  explain: "บทคัดย่อเริ่ม ==This study examines / investigates...=="
+  status: approved
+- id: cefr-c2-w09-048
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  pool: true
+  stem: "In a formal report, recommendations are usually introduced with ____."
+  choices:
+    - {t: "It is recommended that...", why: "รูปทางการไม่ระบุตัว ++It is recommended that++"}
+    - {t: "I reckon we should...", why: "เป็นกันเอง จึงใช้ไม่ได้"}
+    - {t: "You guys should...", why: "ภาษาพูด จึงใช้ไม่ได้"}
+    - {t: "Why not just...?", why: "เป็นกันเอง จึงใช้ไม่ได้ (Why not just...?)"}
+  explain: "รายงาน ==It is recommended that + ประธาน + V1=="
+  status: approved
+- id: cefr-c2-w09-049
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  pool: true
+  stem: "Which feature is typical of a news headline?"
+  choices:
+    - {t: "leaving out articles and auxiliaries", why: "พาดหัวข่าวตัด a/the และ is ++Minister quits++"}
+    - {t: "long complex sentences", why: "ไม่ใช่ลักษณะของพาดหัว"}
+    - {t: "a formal greeting", why: "ไม่ใช่ลักษณะของพาดหัว (a formal greeting)"}
+    - {t: "a signature at the end", why: "ไม่ใช่ลักษณะของพาดหัว (a signature at the end)"}
+  explain: "พาดหัว ==ตัด article และกริยาช่วย=="
+  status: approved
+- id: cefr-c2-w09-050
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  pool: true
+  stem: "A cover letter for a job usually ends with ____."
+  choices:
+    - {t: "I look forward to hearing from you.", why: "ปิดจดหมายสมัครงานแบบแผน ++I look forward to hearing...++"}
+    - {t: "See you later!", why: "เป็นกันเองเกินไป"}
+    - {t: "That's all, folks.", why: "ไม่เหมาะ จึงใช้ไม่ได้"}
+    - {t: "Write back soon, OK?", why: "เป็นกันเองเกินไป (Write back soon, OK?)"}
+  explain: "ปิดจดหมายทางการ ==I look forward to hearing from you.=="
+  status: approved
+- id: cefr-c2-w09-051
+  kind: mcq
+  skill: gm
+  topic: genre-conventions
+  level: 3
+  pool: true
+  stem: "Which sentence best suits the conclusion of an academic essay?"
+  choices:
+    - {t: "In sum, the evidence suggests a clear link.", why: "ปิดเรียงความวิชาการ ++In sum...++"}
+    - {t: "Anyway, that's my two cents.", why: "เป็นกันเอง จึงใช้ไม่ได้"}
+    - {t: "So yeah, it's complicated, I guess.", why: "เป็นกันเอง จึงใช้ไม่ได้ (So yeah, it's complicated, I guess.)"}
+    - {t: "Thanks for reading, and good night!", why: "ไม่ใช่แบบแผนวิชาการ"}
+  explain: "สรุปเรียงความ ==In sum / In conclusion=="
+  status: approved
+- id: cefr-c2-w09-052
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  pool: true
+  stem: "The report was so full of technical ____ that ordinary readers couldn't follow it."
+  choices:
+    - {t: "jargon", why: "ศัพท์เฉพาะทาง = ++jargon++"}
+    - {t: "prose", why: "prose คือร้อยแก้ว"}
+    - {t: "critique", why: "critique คือบทวิจารณ์"}
+    - {t: "discourse", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "jargon = ==ศัพท์เฉพาะวงการ=="
+  status: approved
+- id: cefr-c2-w09-053
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 2
+  pool: true
+  stem: "His emails are ____: three words, no greeting."
+  choices:
+    - {t: "terse", why: "ห้วนสั้น = ++terse++"}
+    - {t: "verbose", why: "verbose คือยืดยาว ตรงข้าม"}
+    - {t: "florid", why: "florid คือฟุ่มเฟือยหรูหรา"}
+    - {t: "colloquial", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "terse = ==ห้วน สั้นจนแทบหยาบ=="
+  status: approved
+- id: cefr-c2-w09-054
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 3
+  pool: true
+  stem: "The essay was ____ and repetitive; it could have been half the length."
+  choices:
+    - {t: "verbose", why: "ยืดยาวเกินจำเป็น = ++verbose++"}
+    - {t: "terse", why: "ความหมายกลับกัน"}
+    - {t: "pithy", why: "pithy คือกระชับคมคาย"}
+    - {t: "laconic", why: "ความหมายกลับกัน (laconic)"}
+  explain: "verbose = ==ใช้คำมากเกินไป=="
+  status: approved
+- id: cefr-c2-w09-055
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 3
+  pool: true
+  stem: "She has a gift for ____ remarks that sum up a problem in one line."
+  choices:
+    - {t: "pithy", why: "กระชับคมคาย = ++pithy++"}
+    - {t: "verbose", why: "ความหมายกลับกัน"}
+    - {t: "florid", why: "florid คือฟุ่มเฟือย"}
+    - {t: "vernacular", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "pithy = ==สั้นแต่ได้ใจความ=="
+  status: approved
+- id: cefr-c2-w09-056
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 3
+  pool: true
+  stem: "The novel is written in the local ____, which gives the dialogue real life."
+  choices:
+    - {t: "vernacular", why: "ภาษาถิ่น/ภาษาพูด = ++vernacular++"}
+    - {t: "treatise", why: "treatise คือตำราวิชาการ"}
+    - {t: "critique", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "jargon", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (jargon)"}
+  explain: "vernacular = ==ภาษาท้องถิ่นที่คนใช้จริง=="
+  status: approved
+- id: cefr-c2-w09-057
+  kind: mcq
+  skill: vo
+  topic: language-style
+  level: 3
+  pool: true
+  stem: "The professor's 600-page ____ on Thai law is still used by students today."
+  choices:
+    - {t: "treatise", why: "ตำราวิชาการเชิงลึก = ++treatise on++"}
+    - {t: "critique", why: "critique คือบทวิจารณ์สั้นกว่า"}
+    - {t: "discourse", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "prose", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (prose)"}
+  explain: "treatise = ==ตำรา/ผลงานวิชาการที่ละเอียด=="
+  status: approved
+- id: cefr-c2-w09-058
+  kind: read
+  skill: rd
+  topic: book-review
+  level: 2
+  pool: true
+  title: "Review: \"Teaching in Plain Words\" by Dr Anan T."
+  passage: |
+    Few books on education manage to be both rigorous and readable. This one comes close. Dr Anan argues that teachers too often hide behind jargon, and he practises what he preaches: his prose is plain, his chapters short and his examples drawn from real classrooms in Thailand and Laos.
+
+    The strongest section deals with feedback. Anan shows that pithy, specific comments ("Your second paragraph needs evidence") help students far more than long, general ones. Teachers will find dozens of usable examples here.
+
+    If the book has a weakness, it is that it occasionally becomes too terse. The chapter on assessment, for instance, raises important questions but answers them in just six pages. A longer treatment would have been welcome. Even so, this is a refreshing and useful critique of how we talk about teaching.
+  questions:
+    - stem: "What does the reviewer praise about the writing?"
+      choices:
+        - {t: "it is clear and simple", why: "his prose is plain, his chapters short"}
+        - {t: "it uses a lot of technical jargon", why: "ผู้เขียนวิจารณ์การใช้ศัพท์เฉพาะ"}
+        - {t: "it is very long", why: "ความหมายกลับกัน"}
+        - {t: "it is written as a novel", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "According to the book, what kind of feedback helps most?"
+      choices:
+        - {t: "short, specific comments", why: "pithy, specific comments"}
+        - {t: "long, general comments", why: "ความหมายกลับกัน"}
+        - {t: "grades without comments", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "feedback from parents and other family members", why: "ในบทไม่ได้พูดถึง (feedback from parents and other family members)"}
+    - stem: "What is the reviewer's criticism?"
+      choices:
+        - {t: "some parts are too brief", why: "too terse ... in just six pages"}
+        - {t: "it is too academic", why: "ผู้วิจารณ์ชมว่าอ่านง่าย"}
+        - {t: "the examples are not real", why: "ตัวอย่างมาจากห้องเรียนจริง"}
+        - {t: "the book is too expensive for most teachers to buy", why: "ในบทไม่ได้พูดถึงราคา"}
+  status: approved
+- id: cefr-c2-w09-059
+  kind: listen
+  skill: li
+  topic: academic-talk-show
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "So, in plain English, what does \"pedagogical scaffolding\" actually mean?"}
+    - {who: Man, en: "Basically, giving students support at first, then gradually taking it away."}
+  questions:
+    - stem: "How does the man explain the term?"
+      choices:
+        - {t: "giving support and slowly removing it", why: "giving students support at first, then gradually taking it away"}
+        - {t: "building new classrooms", why: "ตีความตามตัวอักษร"}
+        - {t: "testing students every week", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "letting students choose their own teachers each term", why: "ในบทไม่ได้พูดถึง (letting students choose their own teachers each term)"}
+  status: approved
+- id: cefr-c2-w09-060
+  kind: listen
+  skill: li
+  topic: language-style
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Her reply was laconic: \"No.\" That was the whole email."}
+  questions:
+    - stem: "What was the reply like?"
+      choices:
+        - {t: "extremely short", why: "That was the whole email"}
+        - {t: "long and detailed", why: "ความหมายกลับกัน"}
+        - {t: "friendly and warm", why: "ในบทไม่ได้บ่งเช่นนั้น"}
+        - {t: "full of technical jargon from her own field of work", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
