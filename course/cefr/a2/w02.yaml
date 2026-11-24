@@ -1,0 +1,167 @@
+# คอร์ส a2 · สัปดาห์ 2 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 2
+phase: 1
+theme_th: บ้านและที่ทำงานของฉัน
+focus_th: a an the และพหูพจน์ · there is / there are · คำบอกตำแหน่ง in on under next to near behind · ศัพท์ของในห้อง
+can_do_th:
+  - บอกได้ว่าในห้องมีอะไร อยู่ตรงไหน
+  - เข้าใจป้ายและคำขอสั้น ๆ ในอาคาร
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: a an the และพหูพจน์
+    lesson:
+      rule_th: "นามนับได้ชิ้นเดียว ==ต้องมี a หรือ an เสมอ== an ใช้เมื่อเสียงแรกเป็นสระ ++พูดถึงชิ้นที่รู้กันแล้วใช้ the++ ถ้ามีหลายชิ้นเติม -s"
+      examples:
+        - {en: "I have <k>a</k> car and <k>an</k> old bike.", th: "ฉันมีรถหนึ่งคันกับจักรยานเก่าหนึ่งคัน"}
+        - {en: "<k>The</k> car is red.", th: "==รถคันนั้นสีแดง (พูดถึงแล้ว)=="}
+        - {en: "two <k>boxes</k> · three <k>children</k>", th: "พหูพจน์ปกติและไม่ปกติ"}
+        - {en: "She is <k>an</k> engineer.", th: "บอกอาชีพต้องมี a/an"}
+      signals:
+        - {label_th: "เติมท้ายพหูพจน์", words: ["ทั่วไป +s (books)", "s x ch sh +es (boxes)", "พยัญชนะ+y → ies (cities)", "man→men · child→children"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มีคำนำหน้านาม คนไทยเลย ~~ไม่ใส่ a/an~~ และลืมเติม s"
+        wrong: ["She is engineer.", "I have two cat."]
+        right: ["She is an engineer.", "I have two cats."]
+      notes:
+        - {kind: pin, th: "an ดูที่ ==เสียง== ไม่ใช่ตัวอักษร an hour · a university"}
+        - {kind: tip, th: "นับได้เกินหนึ่ง อย่าลืม -s ท้ายคำนาม"}
+    check: [cefr-a2-w02-001, cefr-a2-w02-002]
+    practice: [cefr-a2-w02-003, cefr-a2-w02-004, cefr-a2-w02-005, cefr-a2-w02-006, cefr-a2-w02-007, cefr-a2-w02-008, cefr-a2-w02-009, cefr-a2-w02-010, cefr-a2-w02-011, cefr-a2-w02-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณมีอะไรบ้างในบ้าน ใช้ a/an และพหูพจน์
+      frame: "I have a ____ and two ____. The ____ is ____."
+      model: "I have a sofa and two lamps. The sofa is blue."
+    classroom: {en: "Can you pass me the pen, please?", th: "ช่วยส่งปากกาให้หน่อยได้ไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ของในห้องและตำแหน่ง 12 คำ
+    lesson:
+      rule_th: "ของในห้องส่วนใหญ่เป็นนามนับได้ ใช้ a/an และเติม s ได้ ==ยกเว้น paper (กระดาษ) นับไม่ได้== ++อยากนับใช้ a sheet of paper++"
+      examples:
+        - {en: "There is a <k>clock</k> on the wall.", th: "มีนาฬิกาอยู่บนผนัง"}
+        - {en: "My <k>bag</k> is <k>under</k> the <k>desk</k>.", th: "==กระเป๋าอยู่ใต้โต๊ะ=="}
+        - {en: "I live <k>near</k> the station.", th: "ฉันอยู่ใกล้สถานี"}
+      words:
+        - {w: classroom, pos: n., th: ห้องเรียน ห้องอบรม, ex: "The classroom is on the second floor."}
+        - {w: desk, pos: n., th: โต๊ะทำงาน, ex: "My desk is very tidy."}
+        - {w: chair, pos: n., th: เก้าอี้, ex: "Please take a chair."}
+        - {w: door, pos: n., th: ประตู, ex: "Close the door, please."}
+        - {w: window, pos: n., th: หน้าต่าง, ex: "Open the window."}
+        - {w: book, pos: n., th: หนังสือ, ex: "This book is interesting."}
+        - {w: pen, pos: n., th: ปากกา, ex: "Can I borrow your pen?"}
+        - {w: bag, pos: n., th: กระเป๋า, ex: "My bag is heavy."}
+        - {w: paper, pos: n., th: กระดาษ, ex: "We need more paper."}
+        - {w: clock, pos: n., th: นาฬิกา (แขวน/ตั้ง), ex: "The clock is slow."}
+        - {w: under, pos: prep., th: ใต้, ex: "The cat is under the bed."}
+        - {w: near, pos: prep., th: ใกล้, ex: "I live near the market."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~near with~~ หรือ ~~near to~~ ตามคำว่า \"ใกล้กับ\""
+        wrong: ["I live near with the station."]
+        right: ["I live near the station."]
+      notes:
+        - {kind: pin, th: "clock = นาฬิกาแขวน · ==watch== = นาฬิกาข้อมือ"}
+        - {kind: use, th: "ถามหาของ Where is my pen? / Is it under the desk?"}
+    check: [cefr-a2-w02-013, cefr-a2-w02-014]
+    practice: [cefr-a2-w02-015, cefr-a2-w02-016, cefr-a2-w02-017, cefr-a2-w02-018, cefr-a2-w02-019, cefr-a2-w02-020, cefr-a2-w02-021, cefr-a2-w02-022, cefr-a2-w02-023, cefr-a2-w02-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าบนโต๊ะทำงานของคุณมีอะไร
+      frame: "On my desk, there is a ____ and some ____. My bag is ____ the desk."
+      model: "On my desk, there is a laptop and some pens. My bag is under the desk."
+    classroom: {en: "Where is my pen? Is it under the desk?", th: "ปากกาฉันอยู่ไหน อยู่ใต้โต๊ะหรือเปล่า"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: มีอะไร อยู่ตรงไหน
+    lesson:
+      rule_th: "บอกว่ามีอะไรอยู่ที่ไหน ใช้ ==There is (ชิ้นเดียว)== / There are (หลายชิ้น) แล้วตามด้วย ++คำบอกตำแหน่ง in on under next to++ near behind"
+      examples:
+        - {en: "<k>There is</k> a pharmacy <k>next to</k> the bank.", th: "มีร้านขายยาอยู่ข้างธนาคาร"}
+        - {en: "<k>There are</k> two cafés <k>near</k> my office.", th: "==มีร้านกาแฟสองร้านใกล้ที่ทำงาน=="}
+        - {en: "<k>Is there</k> a lift?", th: "มีลิฟต์ไหม"}
+        - {en: "The car park is <k>behind</k> the building.", th: "ที่จอดรถอยู่หลังตึก"}
+      signals:
+        - {label_th: "คำบอกตำแหน่ง", words: ["in = ข้างใน", "on = บน", "under = ใต้", "next to = ข้าง ๆ", "behind = ข้างหลัง", "between A and B"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูดว่า \"ที่นี่มีร้านกาแฟ\" คนไทยเลยเขียน ~~Here has a café~~"
+        wrong: ["Here has a café.", "It has two banks near my house."]
+        right: ["There is a café here.", "There are two banks near my house."]
+      notes:
+        - {kind: pin, th: "มี (อยู่ที่ไหน) ใช้ ==there is/are== ไม่ใช้ have"}
+        - {kind: warn, th: "next ต้องตามด้วย to เสมอ แต่ near ไม่ต้องมี to"}
+    check: [cefr-a2-w02-025, cefr-a2-w02-026]
+    practice: [cefr-a2-w02-027, cefr-a2-w02-028, cefr-a2-w02-029, cefr-a2-w02-030, cefr-a2-w02-031, cefr-a2-w02-032, cefr-a2-w02-033, cefr-a2-w02-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าใกล้บ้านหรือที่ทำงานของคุณมีอะไร อยู่ตรงไหน
+      frame: "There is a ____ near my ____. It is next to the ____."
+      model: "There is a small market near my house. It is next to the temple."
+    classroom: {en: "Is there a toilet on this floor?", th: "ชั้นนี้มีห้องน้ำไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านป้ายในอาคาร และฟังการบอกทาง
+    lesson:
+      rule_th: "ป้ายสั้น ๆ มักมี ==คำสั่ง (Please... / No...) หรือสถานที่== ++อ่านคำถามก่อนแล้วหาป้ายที่ตรง++"
+      examples:
+        - {en: "<k>Please</k> wash your cup.", th: "ช่วยล้างแก้วด้วย"}
+        - {en: "<k>No parking</k> in front of the door.", th: "==ห้ามจอดหน้าประตู=="}
+        - {en: "Second floor, <k>next to</k> the lifts.", th: "ชั้นสอง ข้างลิฟต์"}
+      thai_trap:
+        intro_th: "เห็นคำว่า parking ในป้าย แล้ว ~~คิดว่าจอดได้~~ ทั้งที่มี No อยู่หน้า"
+        wrong: ["NO PARKING → จอดได้"]
+        right: ["NO PARKING → ห้ามจอด"]
+      notes:
+        - {kind: warn, th: "No + คำนาม/-ing บนป้าย = ==ห้าม=="}
+        - {kind: tip, th: "ฟังบอกทาง จดคำบอกตำแหน่งก่อน (next to, behind)"}
+    check: [cefr-a2-w02-036, cefr-a2-w02-037]
+    practice: [cefr-a2-w02-035, cefr-a2-w02-038, cefr-a2-w02-039, cefr-a2-w02-040, cefr-a2-w02-041]
+    use:
+      prompt_th: เขียนป้ายสั้น 2 ป้ายสำหรับห้องทำงานหรือบ้านของคุณ
+      frame: "Please ____. / No ____."
+      model: "Please close the door. / No food in the meeting room."
+    classroom: {en: "Excuse me, where's the lift?", th: "ขอโทษครับ ลิฟต์อยู่ตรงไหน"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 20
+    title_th: ห้องฝึกเขียน บรรยายห้องที่ใช้ทุกวัน 4 ประโยค
+    lab:
+      mode: write
+      prompt_th: เขียนบรรยายห้องที่คุณใช้ทุกวัน (ห้องนอน ห้องทำงาน หรือห้องเรียน) 4 ประโยค บอกว่ามีอะไร และอยู่ตรงไหน
+      frame:
+        - "My ____ is ____ (ใหญ่/เล็ก/สว่าง)."
+        - "There is a ____ next to the ____."
+        - "There are ____ on the ____."
+        - "My ____ is under the ____."
+      model_pass: "My bedroom is small. There is a bed next to the window. There are two books on the desk. My bag is under the chair."
+      model_good: "My office is small but bright. There is a big desk next to the window, so I can see the garden. There are three plants and a clock on the shelf. My bag is always under the desk, near my feet."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - มองไปรอบห้องแล้วจดของ 4 อย่างที่เห็น
+        - เติมโครง 4 ประโยคด้วยของในห้องของคุณ
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+      checklist_th:
+        - ใช้ there is กับของชิ้นเดียว และ there are กับของหลายชิ้น
+        - ใส่ a/an หน้าคำนามเอกพจน์ทุกตัว
+        - ใช้คำบอกตำแหน่งอย่างน้อย 2 คำ
+        - เติม -s ท้ายคำนามที่มีมากกว่าหนึ่ง
+    practice: [cefr-a2-w02-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 2
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

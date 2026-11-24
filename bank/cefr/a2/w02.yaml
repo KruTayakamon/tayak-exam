@@ -1,0 +1,581 @@
+# คอร์ส a2 · สัปดาห์ 2 · บ้านและที่ทำงานของฉัน · a an the และพหูพจน์ · มีอะไร อยู่ตรงไหน
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · a an the และพหูพจน์ ----------
+- id: cefr-a2-w02-001
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  stem: I eat ____ apple every morning before work.
+  choices:
+    - {t: an, why: "apple ขึ้นต้นด้วยเสียงสระ ใช้ ++an++"}
+    - {t: a, why: "a ใช้กับคำที่ขึ้นต้นด้วยเสียงพยัญชนะ"}
+    - {t: the, why: "ไม่ได้เจาะจงผลไหน ใช้ an ดีกว่า"}
+    - {t: some, why: "some ไม่ใช้กับนามนับได้เอกพจน์"}
+  explain: "เสียงสระ (a e i o u) ใช้ ==an== · เสียงพยัญชนะใช้ a"
+  status: approved
+- id: cefr-a2-w02-002
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  stem: My brother works in ____ big hospital in Korat.
+  choices:
+    - {t: a, why: "big ขึ้นต้นด้วยเสียงพยัญชนะ ใช้ ++a++"}
+    - {t: an, why: "an ใช้กับเสียงสระเท่านั้น"}
+    - {t: two, why: "hospital เป็นเอกพจน์ ใช้ two ไม่ได้"}
+    - {t: many, why: "many ใช้กับนามพหูพจน์เท่านั้น"}
+  explain: "ดูเสียงของคำที่ตามมาทันที ==a big hospital · an old hospital=="
+  status: approved
+- id: cefr-a2-w02-003
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  stem: There are three ____ on my desk.
+  choices:
+    - {t: boxes, why: "box ลงท้าย x เติม ++-es++"}
+    - {t: boxs, why: "คำที่ลงท้ายด้วย x ต้องเติม -es"}
+    - {t: box, why: "three ต้องตามด้วยพหูพจน์"}
+    - {t: boxies, why: "ไม่มีรูปนี้ในภาษาอังกฤษ"}
+  explain: "ลงท้าย s x ch sh เติม ==-es== (boxes, watches)"
+  status: approved
+- id: cefr-a2-w02-004
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  stem: Our office has two ____ who clean the building every evening.
+  choices:
+    - {t: women, why: "พหูพจน์ของ woman คือ ++women++ (ไม่ปกติ)"}
+    - {t: womans, why: "woman เป็นพหูพจน์ไม่ปกติ ไม่เติม s"}
+    - {t: woman, why: "two ต้องตามด้วยพหูพจน์"}
+    - {t: womens, why: "women เป็นพหูพจน์แล้ว ไม่เติม s ซ้ำ"}
+  explain: "พหูพจน์ไม่ปกติ ==man → men== · woman → women · child → children"
+  status: approved
+- id: cefr-a2-w02-005
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: I have a dog and a cat. ____ dog is black, and the cat is white.
+  choices:
+    - {t: The, why: "พูดถึงแล้วครั้งหนึ่ง ครั้งที่สองใช้ ++the++"}
+    - {t: A, why: "พูดถึงสุนัขตัวนี้แล้ว ต้องใช้ the"}
+    - {t: An, why: "an ใช้กับเสียงสระ และต้องใช้ the อยู่ดี"}
+    - {t: Some, why: "some ไม่ใช้กับนามนับได้เอกพจน์"}
+  explain: "พูดครั้งแรก ==a== · พูดถึงอีกครั้ง the"
+  status: approved
+- id: cefr-a2-w02-006
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: She is ____ engineer at a car factory in Chonburi.
+  choices:
+    - {t: an, why: "engineer ขึ้นต้นด้วยเสียงสระ ใช้ ++an++"}
+    - {t: a, why: "engineer ขึ้นต้นด้วยเสียง e เป็นสระ"}
+    - {t: the, why: "ไม่ได้เจาะจงคนเดียวในโลก ใช้ the ไม่ได้"}
+    - {t: one, why: "บอกอาชีพใช้ a/an ไม่ใช้ one"}
+  explain: "บอกอาชีพ ต้องมี ==a/an== เสมอ (She is an engineer.)"
+  status: approved
+- id: cefr-a2-w02-007
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: My neighbour has three young ____.
+  choices:
+    - {t: children, why: "พหูพจน์ของ child คือ ++children++"}
+    - {t: childs, why: "child เป็นพหูพจน์ไม่ปกติ ไม่เติม s"}
+    - {t: child, why: "three ต้องตามด้วยพหูพจน์"}
+    - {t: childrens, why: "children เป็นพหูพจน์แล้ว ไม่เติม s ซ้ำ"}
+  explain: "child → ==children== (ไม่เติม s)"
+  status: approved
+- id: cefr-a2-w02-008
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: Can you close ____ window, please? It's cold in here.
+  choices:
+    - {t: the, why: "ทั้งสองคนรู้ว่าหน้าต่างบานไหน ใช้ ++the++"}
+    - {t: a, why: "เจาะจงบานในห้องนี้ ต้องใช้ the"}
+    - {t: an, why: "window ขึ้นต้นด้วยเสียงพยัญชนะ และต้องใช้ the"}
+    - {t: some, why: "window เป็นเอกพจน์ ใช้ some ไม่ได้"}
+  explain: "รู้กันอยู่แล้วว่าชิ้นไหน ใช้ ==the=="
+  status: approved
+- id: cefr-a2-w02-009
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: We need two more ____ for the meeting room.
+  choices:
+    - {t: shelves, why: "shelf ลงท้าย f เปลี่ยนเป็น ++-ves++"}
+    - {t: shelfs, why: "shelf เปลี่ยน f เป็น ves"}
+    - {t: shelf, why: "two ต้องตามด้วยพหูพจน์"}
+    - {t: shelfes, why: "ไม่มีรูปนี้ในภาษาอังกฤษ"}
+  explain: "ลงท้าย f/fe มักเป็น ==-ves== (shelf → shelves, knife → knives)"
+  status: approved
+- id: cefr-a2-w02-010
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: There are many ____ in our city, so it's easy to buy medicine.
+  choices:
+    - {t: pharmacies, why: "y หลังพยัญชนะ เปลี่ยนเป็น ++-ies++"}
+    - {t: pharmacys, why: "y หลังพยัญชนะต้องเปลี่ยนเป็น ies"}
+    - {t: pharmacy, why: "many ต้องตามด้วยพหูพจน์"}
+    - {t: pharmacyes, why: "ไม่มีรูปนี้ในภาษาอังกฤษ"}
+  explain: "พยัญชนะ + y → ==ies== (city → cities)"
+  status: approved
+- id: cefr-a2-w02-011
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 3
+  stem: "Which sentence about the office is correct?"
+  choices:
+    - {t: There are two men and three women in my team., why: "พหูพจน์ไม่ปกติถูกทั้งสองคำ ++men / women++"}
+    - {t: There are two mans and three womans in my team., why: "man / woman เป็นพหูพจน์ไม่ปกติ ไม่เติม s"}
+    - {t: There is two men and three women in my team., why: "พหูพจน์ต้องใช้ There are"}
+    - {t: There are two man and three woman in my team., why: "two / three ต้องตามด้วยพหูพจน์"}
+  explain: "จำพหูพจน์ไม่ปกติ ==men · women · children · people=="
+  status: approved
+- id: cefr-a2-w02-012
+  kind: type
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  stem: I wait for the bus for ____ hour every day. (หนึ่งชั่วโมง · hour ออกเสียงขึ้นต้นด้วยสระ)
+  answer: an
+  accept: [an]
+  why: "hour ไม่ออกเสียง h จึงขึ้นต้นด้วยเสียงสระ ใช้ an"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์ในห้องและสำนักงาน ----------
+- id: cefr-a2-w02-013
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: Please put your laptop on the ____. There is space next to the phone.
+  choices:
+    - {t: desk, why: "โต๊ะทำงาน = ++desk++"}
+    - {t: chair, why: "chair คือเก้าอี้ ใช้นั่ง"}
+    - {t: door, why: "door คือประตู วางของไม่ได้"}
+    - {t: clock, why: "clock คือนาฬิกา วางของบนนั้นไม่ได้"}
+  explain: "desk = ==โต๊ะทำงาน โต๊ะเขียนหนังสือ=="
+  status: approved
+- id: cefr-a2-w02-014
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: There aren't enough ____ in the room, so some people are standing.
+  choices:
+    - {t: chairs, why: "ไม่มีที่นั่ง = เก้าอี้ไม่พอ ++chairs++"}
+    - {t: windows, why: "หน้าต่างไม่เกี่ยวกับการยืน"}
+    - {t: pens, why: "ปากกาไม่เกี่ยวกับการยืน"}
+    - {t: clocks, why: "นาฬิกาไม่เกี่ยวกับการยืน"}
+  explain: "chair = ==เก้าอี้=="
+  status: approved
+- id: cefr-a2-w02-015
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: Somebody is knocking on the ____. Can you open it?
+  choices:
+    - {t: door, why: "เคาะและเปิด = ++door++"}
+    - {t: desk, why: "โต๊ะเปิดและเคาะเรียกไม่ได้"}
+    - {t: book, why: "หนังสือเปิดได้แต่ไม่มีคนเคาะ"}
+    - {t: paper, why: "กระดาษไม่เข้ากับบริบท"}
+  explain: "door = ==ประตู=="
+  status: approved
+- id: cefr-a2-w02-016
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: It's hot in here. Let's open the ____ and get some fresh air.
+  choices:
+    - {t: window, why: "เปิดรับลม = ++window++"}
+    - {t: clock, why: "นาฬิกาเปิดรับลมไม่ได้"}
+    - {t: bag, why: "กระเป๋าไม่ช่วยให้เย็น"}
+    - {t: pen, why: "ปากกาไม่เกี่ยวกับอากาศ"}
+  explain: "window = ==หน้าต่าง=="
+  status: approved
+- id: cefr-a2-w02-017
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  stem: Can I borrow a ____? I need to sign this form.
+  choices:
+    - {t: pen, why: "เซ็นชื่อใช้ ++pen++"}
+    - {t: chair, why: "เก้าอี้ใช้เซ็นไม่ได้"}
+    - {t: window, why: "หน้าต่างใช้เซ็นไม่ได้"}
+    - {t: door, why: "ประตูใช้เซ็นไม่ได้"}
+  explain: "pen = ==ปากกา=="
+  status: approved
+- id: cefr-a2-w02-018
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: The printer is empty. We need more ____.
+  choices:
+    - {t: paper, why: "เครื่องพิมพ์ใช้ ++paper++"}
+    - {t: clocks, why: "นาฬิกาไม่ใช้กับเครื่องพิมพ์"}
+    - {t: doors, why: "ประตูไม่ใช้กับเครื่องพิมพ์"}
+    - {t: chairs, why: "เก้าอี้ไม่ใช้กับเครื่องพิมพ์"}
+  explain: "paper = ==กระดาษ== (นับไม่ได้ · a sheet of paper)"
+  status: approved
+- id: cefr-a2-w02-019
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: I carry my laptop, my wallet and my lunch in this ____.
+  choices:
+    - {t: bag, why: "ใส่ของหลายอย่าง = ++bag++"}
+    - {t: book, why: "หนังสือใส่ของไม่ได้"}
+    - {t: desk, why: "โต๊ะพกพาไม่ได้ จึงใช้ไม่ได้"}
+    - {t: window, why: "หน้าต่างใส่ของไม่ได้"}
+  explain: "bag = ==กระเป๋า ถุง=="
+  status: approved
+- id: cefr-a2-w02-020
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: The ____ on the wall says it's three o'clock.
+  choices:
+    - {t: clock, why: "บอกเวลา = ++clock++"}
+    - {t: book, why: "หนังสือไม่บอกเวลา"}
+    - {t: paper, why: "กระดาษไม่บอกเวลา"}
+    - {t: bag, why: "กระเป๋าไม่บอกเวลา"}
+  explain: "clock = ==นาฬิกาแขวน/ตั้ง== (นาฬิกาข้อมือ = watch)"
+  status: approved
+- id: cefr-a2-w02-021
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: I'm reading a great ____ about Thai history. It has 300 pages.
+  choices:
+    - {t: book, why: "มีหน้าและอ่านได้ = ++book++"}
+    - {t: pen, why: "ปากกาไม่มีหน้า จึงใช้ไม่ได้"}
+    - {t: clock, why: "นาฬิกาอ่านเป็นเรื่องไม่ได้"}
+    - {t: desk, why: "โต๊ะอ่านไม่ได้ จึงใช้ไม่ได้"}
+  explain: "book = ==หนังสือ=="
+  status: approved
+- id: cefr-a2-w02-022
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: The cat is sleeping ____ the table, so I can't see it from here.
+  choices:
+    - {t: under, why: "อยู่ใต้ = ++under++"}
+    - {t: near, why: "near คือใกล้ ไม่ได้ทำให้มองไม่เห็น"}
+    - {t: "on", why: "อยู่บนโต๊ะต้องมองเห็น"}
+    - {t: in, why: "in the table ไม่เป็นธรรมชาติ"}
+  explain: "under = ==ใต้=="
+  status: approved
+- id: cefr-a2-w02-023
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: I live ____ my office, so I walk to work in five minutes.
+  choices:
+    - {t: near, why: "อยู่ใกล้ = ++near++"}
+    - {t: under, why: "under คือใต้ ไม่เข้ากับบริบท"}
+    - {t: "on", why: "on my office ไม่เป็นธรรมชาติ"}
+    - {t: at, why: "live at my office แปลว่าอาศัยในสำนักงาน"}
+  explain: "near = ==ใกล้== (ไม่ต้องมี to)"
+  status: approved
+- id: cefr-a2-w02-024
+  kind: type
+  skill: vo
+  topic: room-objects
+  level: 2
+  stem: The training is in ____ 204 on the second floor. (ห้องเรียน)
+  answer: classroom
+  accept: [classroom, Classroom]
+  why: "classroom = ห้องเรียน ห้องอบรม"
+  status: approved
+# ---------- วันที่ 3 · มีอะไร อยู่ตรงไหน ----------
+- id: cefr-a2-w02-025
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 1
+  stem: ____ a coffee shop on the ground floor of our building.
+  choices:
+    - {t: There is, why: "สิ่งเดียว ใช้ ++There is++"}
+    - {t: There are, why: "There are ใช้กับพหูพจน์"}
+    - {t: It has, why: "บอกว่ามีอะไรในสถานที่ใช้ there is"}
+    - {t: Have, why: "ภาษาอังกฤษไม่ขึ้นต้นประโยคด้วย Have แบบนี้"}
+  explain: "มี (อยู่ที่ไหน) = ==There is + เอกพจน์=="
+  status: approved
+- id: cefr-a2-w02-026
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 1
+  stem: ____ two printers in the office, but one is broken.
+  choices:
+    - {t: There are, why: "สองเครื่อง ใช้ ++There are++"}
+    - {t: There is, why: "two printers เป็นพหูพจน์"}
+    - {t: They are, why: "they are แปลว่าพวกมันเป็น ไม่ใช่มี"}
+    - {t: Have, why: "ไม่ขึ้นต้นประโยคบอกเล่าด้วย Have"}
+  explain: "==There are + พหูพจน์=="
+  status: approved
+- id: cefr-a2-w02-027
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 1
+  stem: The keys are ____ my bag. Look inside.
+  choices:
+    - {t: in, why: "อยู่ข้างใน = ++in++"}
+    - {t: "on", why: "on คือบนพื้นผิว ไม่ใช่ข้างใน"}
+    - {t: under, why: "under คือใต้ จึงใช้ไม่ได้"}
+    - {t: at, why: "at ใช้กับจุดหรือที่อยู่ ไม่ใช่ข้างในกระเป๋า"}
+  explain: "in = ==ข้างใน== (in the box, in my bag)"
+  status: approved
+- id: cefr-a2-w02-028
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  stem: The bank is ____ the post office and the pharmacy.
+  choices:
+    - {t: between, why: "อยู่ระหว่างสองที่ = ++between++"}
+    - {t: next, why: "ต้องเป็น next to และไม่เข้ากับสองที่"}
+    - {t: behind, why: "behind ไม่ใช้กับ and สองที่แบบนี้"}
+    - {t: under, why: "under คือใต้ จึงใช้ไม่ได้"}
+  explain: "between A ==and== B = ระหว่าง A กับ B"
+  status: approved
+- id: cefr-a2-w02-029
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  stem: "\"Is there a car park here?\" \"Yes, there is. It's ____ the building.\""
+  choices:
+    - {t: behind, why: "อยู่ข้างหลัง = ++behind++"}
+    - {t: next, why: "ต้องเป็น next to"}
+    - {t: between, why: "between ต้องมีสองที่"}
+    - {t: near to, why: "ใช้ near เฉย ๆ ไม่ต้องมี to"}
+  explain: "behind = ==ข้างหลัง== · in front of = ข้างหน้า"
+  status: approved
+- id: cefr-a2-w02-030
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  stem: "\"____ any chairs in the meeting room?\" \"No, there aren't.\""
+  choices:
+    - {t: Are there, why: "ถามพหูพจน์ ++Are there any...?++"}
+    - {t: Is there, why: "chairs เป็นพหูพจน์"}
+    - {t: There are, why: "คำถามต้องสลับเป็น Are there"}
+    - {t: Have, why: "ไม่ใช้ Have ถามว่ามีของในห้อง"}
+  explain: "คำถาม ==Is there a...? / Are there any...?=="
+  status: approved
+- id: cefr-a2-w02-031
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  stem: My phone is ____ to my computer, on the left.
+  choices:
+    - {t: next, why: "next to = ++ข้าง ๆ++"}
+    - {t: near, why: "near ไม่ตามด้วย to"}
+    - {t: between, why: "between ไม่ตามด้วย to"}
+    - {t: beside of, why: "beside ไม่ตามด้วย of และไม่มี to"}
+  explain: "==next to== = ข้าง ๆ ติดกัน"
+  status: approved
+- id: cefr-a2-w02-032
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 3
+  stem: "Which sentence about the kitchen is correct?"
+  choices:
+    - {t: There isn't any milk in the fridge., why: "ปฏิเสธนามนับไม่ได้ ++There isn't any++"}
+    - {t: There aren't any milk in the fridge., why: "milk นับไม่ได้ ใช้ isn't"}
+    - {t: It hasn't milk in the fridge., why: "บอกว่าไม่มีในที่ใดใช้ there isn't"}
+    - {t: There is no any milk in the fridge., why: "no กับ any ใช้ซ้อนกันไม่ได้"}
+  explain: "ไม่มี ==There isn't any... / There is no...=="
+  status: approved
+- id: cefr-a2-w02-033
+  kind: type
+  skill: gm
+  topic: there-is-place
+  level: 2
+  stem: Your glasses are ____ the table, next to the newspaper. (บนโต๊ะ)
+  answer: "on"
+  accept: ["on"]
+  why: "บนพื้นผิว ใช้ on"
+  status: approved
+- id: cefr-a2-w02-034
+  kind: cloze
+  skill: gm
+  topic: there-is-place
+  level: 2
+  text: |
+    My office is small. (1) ____ a big window, so it's bright. There is a desk (2) ____ the window, and there (3) ____ two chairs for visitors.
+  questions:
+    - choices:
+        - {t: There is, why: "หน้าต่างบานเดียว ใช้ There is"}
+        - {t: There are, why: "a big window เป็นเอกพจน์"}
+        - {t: It is, why: "It is a big window แปลว่ามันคือหน้าต่าง"}
+        - {t: Have, why: "ไม่ขึ้นต้นประโยคด้วย Have แบบนี้"}
+    - choices:
+        - {t: next to, why: "ข้าง ๆ หน้าต่าง ต้องมี to"}
+        - {t: next, why: "next ต้องตามด้วย to"}
+        - {t: between, why: "between ต้องมีสองสิ่ง"}
+        - {t: in, why: "โต๊ะไม่ได้อยู่ข้างในหน้าต่าง"}
+    - choices:
+        - {t: are, why: "two chairs เป็นพหูพจน์ ใช้ are"}
+        - {t: is, why: "is ใช้กับเอกพจน์"}
+        - {t: has, why: "there has ไม่ใช่รูปที่ใช้"}
+        - {t: have, why: "there have ไม่ใช่รูปที่ใช้"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w02-035
+  kind: read
+  skill: rd
+  topic: building-signs
+  level: 1
+  title: "Signs in the Office Building"
+  passage: |
+    A: MEETING ROOM 3 — Please switch off the lights when you leave.
+
+    B: KITCHEN — There is free tea and coffee. Please wash your cup.
+
+    C: NO PARKING in front of the door. The car park is behind the building.
+
+    D: TOILETS — Second floor, next to the lifts.
+
+    E: QUIET PLEASE — Training in progress. The classroom is open again at 4 p.m.
+  questions:
+    - stem: Where can you park your car?
+      choices:
+        - {t: behind the building, why: "The car park is behind the building"}
+        - {t: in front of the door, why: "NO PARKING in front of the door"}
+        - {t: next to the lifts, why: "ข้างลิฟต์คือห้องน้ำ"}
+        - {t: on the second floor, why: "ชั้นสองคือห้องน้ำ"}
+    - stem: What should you do in the kitchen?
+      choices:
+        - {t: wash your cup, why: "Please wash your cup"}
+        - {t: pay for your coffee, why: "ป้ายบอกว่าชาและกาแฟฟรี"}
+        - {t: switch off the lights, why: "ข้อความนี้อยู่ที่ห้องประชุม"}
+        - {t: be quiet, why: "ข้อความนี้อยู่หน้าห้องอบรม"}
+    - stem: Where are the toilets?
+      choices:
+        - {t: near the lifts on the second floor, why: "Second floor, next to the lifts"}
+        - {t: behind the building, why: "ข้างหลังตึกคือที่จอดรถ"}
+        - {t: in meeting room 3, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: next to the kitchen, why: "บทไม่ได้พูดว่า next to the kitchen"}
+    - stem: What does sign E tell you?
+      choices:
+        - {t: people are studying in the classroom now, why: "Training in progress"}
+        - {t: the classroom is closed all day, why: "เปิดอีกครั้งตอน 4 โมงเย็น"}
+        - {t: the training starts at 4 p.m., why: "4 p.m. คือเวลาห้องว่างอีกครั้ง"}
+        - {t: you can have free tea there, why: "ชาฟรีอยู่ในครัว"}
+  status: approved
+- id: cefr-a2-w02-036
+  kind: listen
+  skill: li
+  topic: locations
+  level: 1
+  script:
+    - {who: Woman, en: "Excuse me, where's the lift?"}
+    - {who: Man, en: "It's over there, next to the stairs."}
+  questions:
+    - stem: Where is the lift?
+      choices:
+        - {t: next to the stairs, why: "next to the stairs = ข้างบันได"}
+        - {t: behind the stairs, why: "ได้ยินคำว่า next to ไม่ใช่ behind"}
+        - {t: on the second floor, why: "ไม่ได้พูดถึงชั้น"}
+        - {t: near the door, why: "ไม่ได้พูดถึงประตู"}
+  status: approved
+- id: cefr-a2-w02-037
+  kind: listen
+  skill: li
+  topic: locations
+  level: 1
+  script:
+    - {who: Man, en: "Could you put these boxes under my desk, please?"}
+    - {who: Woman, en: "Sure, no problem."}
+  questions:
+    - stem: Where does the man want the boxes?
+      choices:
+        - {t: under his desk, why: "put these boxes under my desk"}
+        - {t: on his desk, why: "ได้ยิน under ไม่ใช่ on"}
+        - {t: next to the door, why: "ไม่ได้พูดถึงประตู"}
+        - {t: in the meeting room, why: "ไม่ได้พูดถึงห้องประชุม"}
+  status: approved
+- id: cefr-a2-w02-038
+  kind: listen
+  skill: li
+  topic: locations
+  level: 2
+  script:
+    - {who: Woman, en: "Is there a bank near here?"}
+    - {who: Man, en: "Yes, there are two. One is opposite the hospital, and the other is between the café and the post office."}
+  questions:
+    - stem: How many banks are there near here?
+      choices:
+        - {t: two, why: "there are two = มีสองแห่ง"}
+        - {t: one, why: "มีสองแห่ง จึงใช้ไม่ได้"}
+        - {t: three, why: "นับร้านกาแฟและไปรษณีย์ไม่ได้"}
+        - {t: none, why: "เขาตอบว่า Yes จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w02-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [There is, a big clock, on the wall, in my kitchen]
+  sentence: There is a big clock on the wall in my kitchen.
+  th: มีนาฬิกาเรือนใหญ่อยู่บนผนังในห้องครัวของฉัน
+  why: "There is + สิ่งของ + สถานที่"
+  status: approved
+- id: cefr-a2-w02-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Are there, any chairs, in the classroom, for the visitors]
+  sentence: Are there any chairs in the classroom for the visitors?
+  th: ในห้องเรียนมีเก้าอี้สำหรับแขกไหม
+  why: "คำถาม Are there any + พหูพจน์ + สถานที่"
+  status: approved
+- id: cefr-a2-w02-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [The printer, is, next to, the window]
+  sentence: The printer is next to the window.
+  th: เครื่องพิมพ์อยู่ข้างหน้าต่าง
+  why: "สิ่งของ + is + next to + สถานที่"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-a2-w02-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [In my room, there are, two windows, and a small desk]
+  sentence: In my room there are two windows and a small desk.
+  th: ในห้องของฉันมีหน้าต่างสองบานและโต๊ะเล็กหนึ่งตัว
+  why: "สถานที่ขึ้นต้นได้ แล้วตามด้วย there are"
+  status: approved
