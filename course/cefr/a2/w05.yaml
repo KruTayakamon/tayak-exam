@@ -1,0 +1,169 @@
+# คอร์ส a2 · สัปดาห์ 5 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 5
+phase: 2
+theme_th: อาหารและตลาด
+focus_th: นามนับได้/นับไม่ได้ · some any a lot of · How much / How many · would like · ศัพท์อาหารและการซื้อของ
+can_do_th:
+  - ซื้อของและถามราคาได้
+  - สั่งอาหารและเครื่องดื่มอย่างสุภาพได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: นับได้ นับไม่ได้
+    lesson:
+      rule_th: "นามนับไม่ได้ (water rice milk bread) ==ไม่ใช้ a/an และไม่เติม s== ++บอกเล่าใช้ some ปฏิเสธและคำถามใช้ any++"
+      examples:
+        - {en: "We need <k>some</k> eggs.", th: "เราต้องการไข่หน่อย"}
+        - {en: "There isn't <k>any</k> milk.", th: "==ไม่มีนมเลย=="}
+        - {en: "Do you have <k>any</k> questions?", th: "มีคำถามไหม"}
+        - {en: "There are <k>a lot of</k> people here.", th: "ที่นี่คนเยอะมาก"}
+      signals:
+        - {label_th: "นับไม่ได้ที่เจอบ่อย", words: ["water · milk · coffee", "rice · bread · meat", "money · information", "a glass of / a bottle of"]}
+      thai_trap:
+        intro_th: "ภาษาไทยนับทุกอย่างได้ด้วยลักษณนาม คนไทยเลยพูด ~~a rice / two breads~~"
+        wrong: ["I want a rice.", "Two breads, please."]
+        right: ["I want some rice. / a plate of rice", "Two loaves of bread, please."]
+      notes:
+        - {kind: pin, th: "เสนอหรือขอของ ใช้ ==some== แม้เป็นคำถาม Would you like some tea?"}
+        - {kind: tip, th: "นับของนับไม่ได้ ใช้ภาชนะ a cup of · a bottle of"}
+    check: [cefr-a2-w05-001, cefr-a2-w05-002]
+    practice: [cefr-a2-w05-003, cefr-a2-w05-004, cefr-a2-w05-005, cefr-a2-w05-006, cefr-a2-w05-007, cefr-a2-w05-008, cefr-a2-w05-009, cefr-a2-w05-010, cefr-a2-w05-011, cefr-a2-w05-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าในตู้เย็นของคุณมีอะไร และไม่มีอะไร
+      frame: "There is some ____ in my fridge, but there aren't any ____."
+      model: "There is some milk in my fridge, but there aren't any eggs."
+    classroom: {en: "Is there any coffee left?", th: "มีกาแฟเหลือไหม"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์อาหารและตลาด 12 คำ
+    lesson:
+      rule_th: "คำอาหารหลายคำ ==นับไม่ได้ เช่น rice water milk bread== ++ส่วน egg fruit vegetable ใช้นับได้++"
+      examples:
+        - {en: "I buy <k>vegetables</k> at the <k>market</k>.", th: "ฉันซื้อผักที่ตลาด"}
+        - {en: "This mango is <k>cheap</k>.", th: "==มะม่วงลูกนี้ถูก=="}
+        - {en: "I'm <k>hungry</k>. Let's eat.", th: "หิวแล้ว ไปกินกัน"}
+      words:
+        - {w: market, pos: n., th: ตลาด, ex: "The market opens at five."}
+        - {w: rice, pos: n., th: ข้าว, ex: "I eat rice every day."}
+        - {w: water, pos: n., th: น้ำ, ex: "Drink some water."}
+        - {w: fruit, pos: n., th: ผลไม้, ex: "I love tropical fruit."}
+        - {w: vegetable, pos: n., th: ผัก, ex: "Eat more vegetables."}
+        - {w: egg, pos: n., th: ไข่, ex: "I'd like a fried egg."}
+        - {w: milk, pos: n., th: นม, ex: "Do you take milk in your tea?"}
+        - {w: bread, pos: n., th: ขนมปัง, ex: "We need some bread."}
+        - {w: buy, pos: v., th: ซื้อ, ex: "I want to buy a new bag."}
+        - {w: cheap, pos: adj., th: ราคาถูก, ex: "This shop is cheap."}
+        - {w: expensive, pos: adj., th: ราคาแพง, ex: "Hotels in the city are expensive."}
+        - {w: hungry, pos: adj., th: หิว, ex: "Are you hungry?"}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~I hungry~~ เพราะภาษาไทยไม่ต้องมี \"เป็น\""
+        wrong: ["I hungry.", "This shirt very expensive."]
+        right: ["I'm hungry.", "This shirt is very expensive."]
+      notes:
+        - {kind: warn, th: "hungry cheap expensive เป็นคุณศัพท์ ==ต้องมี am/is/are== นำหน้า"}
+        - {kind: use, th: "ต่อราคา Can you make it cheaper? / Any discount?"}
+    check: [cefr-a2-w05-013, cefr-a2-w05-014]
+    practice: [cefr-a2-w05-015, cefr-a2-w05-016, cefr-a2-w05-017, cefr-a2-w05-018, cefr-a2-w05-019, cefr-a2-w05-020, cefr-a2-w05-021, cefr-a2-w05-022, cefr-a2-w05-023, cefr-a2-w05-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าคุณซื้ออะไรที่ตลาด และราคาเป็นอย่างไร
+      frame: "I usually buy ____ at the market. It is ____."
+      model: "I usually buy fruit and vegetables at the market. It is cheap and fresh."
+    classroom: {en: "This is too expensive. Do you have a cheaper one?", th: "แพงไป มีที่ถูกกว่านี้ไหม"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เท่าไร และขออย่างสุภาพ
+    lesson:
+      rule_th: "ถามราคาใช้ ==How much== ถามจำนวนของนับได้ใช้ How many ++สั่งของสุภาพใช้ I'd like... please++"
+      examples:
+        - {en: "<k>How much</k> is this?", th: "อันนี้ราคาเท่าไร"}
+        - {en: "<k>How many</k> people are there?", th: "==มีกี่คน=="}
+        - {en: "<k>I'd like</k> a coffee, please.", th: "ขอกาแฟหนึ่งแก้ว"}
+        - {en: "<k>Would you like</k> some cake?", th: "รับเค้กไหม"}
+      signals:
+        - {label_th: "ใช้คู่กัน", words: ["How much + นับไม่ได้ / ราคา", "How many + พหูพจน์", "I'd like + คำนาม", "I'd like to + กริยา"]}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~I want~~ เวลาสั่งอาหาร ซึ่งฟังห้วนสำหรับคนฟัง"
+        wrong: ["I want fried rice.", "Give me water."]
+        right: ["I'd like fried rice, please.", "Could I have some water, please?"]
+      notes:
+        - {kind: pin, th: "I like = ชอบ · ==I'd like = ขอ / อยากได้=="}
+        - {kind: tip, th: "ตอบรับข้อเสนอ Yes, please. · ปฏิเสธ No, thank you."}
+    check: [cefr-a2-w05-025, cefr-a2-w05-026]
+    practice: [cefr-a2-w05-027, cefr-a2-w05-028, cefr-a2-w05-029, cefr-a2-w05-030, cefr-a2-w05-031, cefr-a2-w05-032, cefr-a2-w05-033, cefr-a2-w05-034]
+    use:
+      prompt_th: เขียนบทสนทนาสั้น 2 บรรทัด สั่งเครื่องดื่มและถามราคา
+      frame: "I'd like ____, please. How much is it?"
+      model: "I'd like a hot latte, please. How much is it?"
+    classroom: {en: "Could I have the bill, please?", th: "ขอบิลด้วยครับ/ค่ะ"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านรายการซื้อของและป้ายราคา และฟังการสั่งอาหาร
+    lesson:
+      rule_th: "ป้ายราคามักบอกหน่วยด้วย ==a kilo · each · a bottle== ++ต้องคูณจำนวนก่อนตอบ++"
+      examples:
+        - {en: "Eggs — 5 baht <k>each</k>", th: "ไข่ฟองละ 5 บาท"}
+        - {en: "Rice — 40 baht <k>a kilo</k>", th: "==ข้าวกิโลละ 40 บาท=="}
+        - {en: "<k>SOLD OUT</k>", th: "ขายหมดแล้ว"}
+      thai_trap:
+        intro_th: "เห็นตัวเลขบนป้ายแล้ว ~~ตอบเลยไม่คูณ~~ ทั้งที่คำถามถามหลายชิ้น"
+        wrong: ["six eggs → 5 baht"]
+        right: ["5 baht each × 6 = 30 baht"]
+      notes:
+        - {kind: pin, th: "each = ==ต่อชิ้น== · a kilo = ต่อกิโล"}
+        - {kind: tip, th: "ฟังราคาให้ดี fifteen (15) กับ fifty (50) ต่างกันที่เสียงท้าย"}
+    check: [cefr-a2-w05-036, cefr-a2-w05-037]
+    practice: [cefr-a2-w05-035, cefr-a2-w05-038, cefr-a2-w05-039, cefr-a2-w05-040, cefr-a2-w05-041]
+    use:
+      prompt_th: เขียนรายการซื้อของสั้น ๆ 2 บรรทัด พร้อมจำนวน
+      frame: "I need ____ and two ____ of ____."
+      model: "I need a kilo of rice and two bottles of water."
+    classroom: {en: "Is it fifteen or fifty?", th: "สิบห้าหรือห้าสิบ"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 20
+    title_th: ห้องฝึกพูด สั่งอาหารและถามราคาในโรงอาหาร
+    lab:
+      mode: speak
+      prompt_th: พูดสั่งอาหารและเครื่องดื่มในโรงอาหารหรือร้านอาหาร ถามราคา และขอบคุณ (พูดบทของลูกค้า 30 วินาที)
+      frame:
+        - "Hello. I'd like ____, please."
+        - "Could I have ____ too?"
+        - "No ____, please. (ไม่ใส่อะไร)"
+        - "How much is it?"
+        - "Here you are. Thank you!"
+      model_pass: "Hello. I'd like a plate of chicken fried rice, please. Could I have an iced tea too? No chilli, please. How much is it? Here you are. Thank you!"
+      model_good: "Hi there. I'd like a plate of chicken fried rice, please, and could I have an iced lemon tea too? Not too spicy, please — no chilli for me. How much is that altogether? Sixty-five? Here you are. Thanks a lot, and have a nice day!"
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกอาหารและเครื่องดื่มที่คุณชอบ แล้วเติมโครง 5 บรรทัด
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ I'd like หรือ Could I have แทน I want
+        - ใช้ a / some ถูกกับนามนับได้และนับไม่ได้
+        - ถามราคาด้วย How much
+        - มี please และ thank you
+    practice: [cefr-a2-w05-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 5
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
