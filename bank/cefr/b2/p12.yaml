@@ -1,0 +1,277 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 12 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w12-043
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  pool: true
+  stem: "I remember ____ the door, but now it's open. Strange!"
+  choices:
+    - {t: "locking", why: "จำได้ว่าทำไปแล้ว ++remember + -ing++"}
+    - {t: "to lock", why: "remember to = อย่าลืมทำ (ยังไม่ทำ)"}
+    - {t: "lock", why: "ต้องเป็น -ing หรือ to"}
+    - {t: "locked", why: "หลัง remember ไม่ใช้อดีต"}
+  explain: "remember ==+ -ing== = จำได้ว่าทำแล้ว · remember to = อย่าลืม"
+  status: approved
+- id: cefr-b2-w12-044
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 2
+  pool: true
+  stem: "Halfway up the mountain, the hikers stopped ____ a photo of the valley."
+  choices:
+    - {t: "to take", why: "หยุดเพื่อทำ ++stop to + V1++"}
+    - {t: "taking", why: "stop taking = เลิกถ่าย"}
+    - {t: "take", why: "ต้องมี to หรือ -ing"}
+    - {t: "for take", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "stop ==to + V1== = หยุดเพื่อ · stop + -ing = เลิก"
+  status: approved
+- id: cefr-b2-w12-045
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  pool: true
+  stem: "If the printer still doesn't work, try ____ it off and on again."
+  choices:
+    - {t: "turning", why: "ลองทำดู ++try + -ing++"}
+    - {t: "to turn", why: "try to = พยายาม (ยาก) ไม่ตรงความหมาย"}
+    - {t: "turn", why: "ต้องเป็น -ing หรือ to"}
+    - {t: "turned", why: "หลัง try ไม่ใช้อดีต"}
+  explain: "try ==+ -ing== = ลองทำดู · try to = พยายาม"
+  status: approved
+- id: cefr-b2-w12-046
+  kind: mcq
+  skill: gm
+  topic: verb-patterns-advanced
+  level: 3
+  pool: true
+  stem: "After finishing her degree, she went on ____ a successful company."
+  choices:
+    - {t: "to set up", why: "ต่อมาได้ทำอีกเรื่อง ++go on to + V1++"}
+    - {t: "setting up", why: "go on + -ing = ทำเรื่องเดิมต่อ"}
+    - {t: "set up", why: "ต้องมี to จึงใช้ไม่ได้"}
+    - {t: "to setting up", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "go on ==to + V1== = ต่อมาได้... · go on + -ing = ทำต่อไป"
+  status: approved
+- id: cefr-b2-w12-047
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 2
+  pool: true
+  stem: "By the time we got to the cinema, the film ____."
+  choices:
+    - {t: "had already started", why: "เกิดก่อนอีกเรื่องในอดีต ++had + V3++"}
+    - {t: "already started", why: "ไม่ชัดว่าเกิดก่อน"}
+    - {t: "has already started", why: "เล่าอดีต ใช้ has ไม่ได้"}
+    - {t: "was already starting", why: "ไม่ได้บอกว่าเริ่มไปแล้ว"}
+  explain: "by the time + อดีต → ==had + V3=="
+  status: approved
+- id: cefr-b2-w12-048
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 3
+  pool: true
+  stem: "____ I known about the traffic, I would have taken the train."
+  choices:
+    - {t: "Had", why: "เงื่อนไขแบบที่ 3 สลับ ++Had + ประธาน + V3++"}
+    - {t: "If", why: "If ต้องตามด้วย I had known"}
+    - {t: "Should", why: "should ไม่ใช้กับอดีตสมมติ"}
+    - {t: "Were", why: "were ไม่ตามด้วย known"}
+  explain: "==Had I known...== = If I had known (ทางการ)"
+  status: approved
+- id: cefr-b2-w12-049
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 3
+  pool: true
+  stem: "The new policy ____ to reduce waste by half."
+  choices:
+    - {t: "is expected", why: "passive รายงาน ++is expected to++"}
+    - {t: "expects", why: "นโยบายไม่ได้เป็นผู้คาดหวัง"}
+    - {t: "is expecting", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "has expect", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==is expected / believed to== = คาดว่าจะ"
+  status: approved
+- id: cefr-b2-w12-050
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 3
+  pool: true
+  stem: "She ____ the report by now; she started early this morning."
+  choices:
+    - {t: "must have finished", why: "สรุปจากหลักฐาน ++must have + V3++"}
+    - {t: "must finish", why: "ต้องพูดถึงสิ่งที่เกิดแล้ว"}
+    - {t: "can't finish", why: "ความหมายกลับกัน"}
+    - {t: "should finish", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "แน่ใจว่าทำเสร็จแล้ว ==must have + V3=="
+  status: approved
+- id: cefr-b2-w12-051
+  kind: mcq
+  skill: gm
+  topic: review-b2
+  level: 3
+  pool: true
+  stem: "____ the bad weather, the festival went ahead as planned."
+  choices:
+    - {t: "In spite of", why: "ตามด้วยคำนาม ++in spite of++"}
+    - {t: "Although", why: "although ต้องตามด้วยประโยค"}
+    - {t: "Even though", why: "ต้องตามด้วยประโยค"}
+    - {t: "Whereas", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "in spite of / despite + ==คำนาม=="
+  status: approved
+- id: cefr-b2-w12-052
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  pool: true
+  stem: "It took me a few months to ____ to working night shifts."
+  choices:
+    - {t: "adjust", why: "ปรับตัว = ++adjust to + -ing/คำนาม++"}
+    - {t: "pursue", why: "pursue คือไล่ตาม (เป้าหมาย)"}
+    - {t: "establish", why: "establish คือก่อตั้ง"}
+    - {t: "ensure", why: "ensure คือทำให้แน่ใจ"}
+  explain: "adjust ==to== = ปรับตัวให้เข้ากับ"
+  status: approved
+- id: cefr-b2-w12-053
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 2
+  pool: true
+  stem: "She left her office job to ____ a career in photography."
+  choices:
+    - {t: "pursue", why: "มุ่งไล่ตาม = ++pursue a career++"}
+    - {t: "adapt", why: "adapt ไม่ใช้กับ a career แบบนี้"}
+    - {t: "reflect", why: "reflect คือไตร่ตรอง"}
+    - {t: "determine", why: "determine คือกำหนด"}
+  explain: "pursue a career / goal = ==มุ่งไปตามเส้นทาง=="
+  status: approved
+- id: cefr-b2-w12-054
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 3
+  pool: true
+  stem: "Please ____ that all the windows are closed before you leave."
+  choices:
+    - {t: "ensure", why: "ทำให้แน่ใจ = ++ensure that++"}
+    - {t: "insight", why: "insight เป็นคำนาม"}
+    - {t: "impact", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "capacity", why: "capacity เป็นคำนาม"}
+  explain: "ensure (that) = ==ทำให้แน่ใจว่า=="
+  status: approved
+- id: cefr-b2-w12-055
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 3
+  pool: true
+  stem: "The talk gave me a useful ____ into how small businesses use social media."
+  choices:
+    - {t: "insight", why: "ความเข้าใจลึกซึ้ง = ++insight into++"}
+    - {t: "impact", why: "impact ใช้ impact on"}
+    - {t: "approach", why: "approach ใช้ approach to"}
+    - {t: "capacity", why: "capacity คือขีดความสามารถ"}
+  explain: "insight ==into== = ความเข้าใจลึกใน"
+  status: approved
+- id: cefr-b2-w12-056
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 3
+  pool: true
+  stem: "Take some time to ____ on what went well and what you would change."
+  choices:
+    - {t: "reflect", why: "ไตร่ตรอง = ++reflect on++"}
+    - {t: "demonstrate", why: "demonstrate คือสาธิต"}
+    - {t: "establish", why: "establish คือก่อตั้ง"}
+    - {t: "pursue", why: "pursue คือไล่ตาม"}
+  explain: "reflect ==on== = ทบทวนไตร่ตรอง"
+  status: approved
+- id: cefr-b2-w12-057
+  kind: mcq
+  skill: vo
+  topic: professional-growth
+  level: 3
+  pool: true
+  stem: "The company was ____ in 1985 by two brothers from Chiang Mai."
+  choices:
+    - {t: "established", why: "ก่อตั้ง = ++establish a company++"}
+    - {t: "ensured", why: "ensure คือทำให้แน่ใจ"}
+    - {t: "demonstrated", why: "demonstrate คือแสดงให้เห็น"}
+    - {t: "reflected", why: "reflect คือไตร่ตรอง"}
+  explain: "be established = ==ถูกก่อตั้ง=="
+  status: approved
+- id: cefr-b2-w12-058
+  kind: read
+  skill: rd
+  topic: professional-development
+  level: 2
+  pool: true
+  title: "Learning After Forty"
+  passage: |
+    When Khun Arunee turned forty-two, she decided to learn computer programming. She had worked as an accountant for twenty years and wanted a new challenge.
+
+    "At first I felt embarrassed," she says. "Most people in my online class were in their twenties." But she found that her experience helped her. She already knew how businesses worked, so she could understand why certain programs were needed.
+
+    Arunee studied for an hour every morning before work. After eighteen months, she built a simple app that helps small shops keep track of their accounts. She now works part-time for a software company and still does some accounting. "I didn't change my career completely," she explains. "I added a new skill to it."
+  questions:
+    - stem: "Why did Arunee start learning programming?"
+      choices:
+        - {t: "she wanted a new challenge", why: "wanted a new challenge"}
+        - {t: "she lost her job", why: "ในบทไม่ได้พูดถึง she lost her job"}
+        - {t: "her company asked her to", why: "ในบทไม่ได้พูดถึง her company asked her to"}
+        - {t: "she needed more money", why: "ในบทไม่ได้พูดถึง she needed more money"}
+    - stem: "How did her accounting experience help her?"
+      choices:
+        - {t: "she understood business needs", why: "She already knew how businesses worked"}
+        - {t: "she could type faster", why: "ในบทไม่ได้พูดถึง she could type faster"}
+        - {t: "her classmates asked her for help", why: "ในบทไม่ได้พูดถึง her classmates asked her for help"}
+        - {t: "she got a discount on the course", why: "ในบทไม่ได้พูดถึง she got a discount on the course"}
+    - stem: "What is her situation now?"
+      choices:
+        - {t: "she does two kinds of work", why: "works part-time for a software company and still does some accounting"}
+        - {t: "she has stopped accounting", why: "เธอยังทำบัญชีบางส่วน"}
+        - {t: "she teaches programming", why: "ในบทไม่ได้พูดถึง she teaches programming"}
+        - {t: "she has her own software company", why: "เธอทำงานพาร์ตไทม์ให้บริษัทอื่น"}
+  status: approved
+- id: cefr-b2-w12-059
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "I'd been thinking about quitting for months, so when they offered me the job in Phuket, I didn't hesitate."}
+  questions:
+    - stem: "How did the woman react to the job offer?"
+      choices:
+        - {t: "she accepted it quickly", why: "I didn't hesitate"}
+        - {t: "she refused it", why: "เธอไม่ลังเลที่จะรับ"}
+        - {t: "she asked for more time", why: "ไม่ได้ขอเวลาเพิ่ม"}
+        - {t: "she discussed it for months", why: "เธอคิดเรื่องลาออกมาหลายเดือน"}
+  status: approved
+- id: cefr-b2-w12-060
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The workshop was supposed to finish at four, but it ran over by an hour, so I missed my train."}
+  questions:
+    - stem: "Why did the man miss his train?"
+      choices:
+        - {t: "the workshop finished late", why: "it ran over by an hour"}
+        - {t: "he forgot the time", why: "ในบทไม่ได้พูดถึง he forgot the time"}
+        - {t: "the train left early", why: "ในบทไม่ได้พูดถึง the train left early"}
+        - {t: "the workshop started late", why: "บอกว่าเลิกช้า ไม่ใช่เริ่มช้า"}
+  status: approved

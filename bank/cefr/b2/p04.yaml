@@ -1,0 +1,277 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 4 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w04-043
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  pool: true
+  stem: "The road outside our house ____ at the moment, so we have to park on the next street."
+  choices:
+    - {t: "is being repaired", why: "passive กำลังเกิด ++is being + V3++"}
+    - {t: "is repairing", why: "ถนนซ่อมตัวเองไม่ได้"}
+    - {t: "has been repairing", why: "ถนนไม่ได้เป็นผู้ซ่อม"}
+    - {t: "is repaired", why: "at the moment ต้องใช้ being"}
+  explain: "passive กำลังเกิด ==is/are being + V3=="
+  status: approved
+- id: cefr-b2-w04-044
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 2
+  pool: true
+  stem: "All the results ____ by the end of next week."
+  choices:
+    - {t: "will have been checked", why: "passive เสร็จก่อนจุดในอนาคต ++will have been + V3++"}
+    - {t: "will have checked", why: "ผลตรวจตัวเองไม่ได้"}
+    - {t: "are checking", why: "ผลลัพธ์ไม่ได้เป็นผู้ตรวจ"}
+    - {t: "will be check", why: "รูปผิด ต้องเป็น checked"}
+  explain: "by + อนาคต + passive → ==will have been + V3=="
+  status: approved
+- id: cefr-b2-w04-045
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 3
+  pool: true
+  stem: "I hate ____ what to do by people who know less than I do."
+  choices:
+    - {t: "being told", why: "passive หลัง hate ++being + V3++"}
+    - {t: "telling", why: "ความหมายกลับ ฉันไม่ได้เป็นผู้บอก"}
+    - {t: "to tell", why: "ความหมายกลับ และไม่ใช่ passive"}
+    - {t: "being telling", why: "รูปผิด passive ต้องใช้ V3"}
+  explain: "กริยา + -ing แบบ passive → ==being + V3=="
+  status: approved
+- id: cefr-b2-w04-046
+  kind: mcq
+  skill: gm
+  topic: passive-advanced
+  level: 3
+  pool: true
+  stem: "The documents must ____ before the end of the day."
+  choices:
+    - {t: "be signed", why: "passive หลัง modal ++be + V3++"}
+    - {t: "signed", why: "ขาด be หลัง must"}
+    - {t: "be signing", why: "ต้องเป็น V3 ไม่ใช่ -ing"}
+    - {t: "have sign", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "modal + ==be + V3=="
+  status: approved
+- id: cefr-b2-w04-047
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  pool: true
+  stem: "The old temple ____ to be over 400 years old."
+  choices:
+    - {t: "is believed", why: "มีผู้เชื่อว่า ++is believed to++"}
+    - {t: "believes", why: "วัดเชื่อเองไม่ได้"}
+    - {t: "is believing", why: "believe ไม่ใช้ -ing"}
+    - {t: "was believing", why: "รูปผิด และไม่ใช่ passive"}
+  explain: "==is believed / said / thought to== = เชื่อกันว่า"
+  status: approved
+- id: cefr-b2-w04-048
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 2
+  pool: true
+  stem: "I'm going to ____ my hair cut before the wedding."
+  choices:
+    - {t: "have", why: "ให้คนอื่นทำให้ ++have + สิ่งของ + V3++"}
+    - {t: "make", why: "make + สิ่งของ + V3 ไม่ใช้แบบนี้"}
+    - {t: "let", why: "let ใช้ let someone do"}
+    - {t: "take", why: "take ไม่ใช้รูปนี้"}
+  explain: "==have / get + สิ่งของ + V3== = ให้คนอื่นทำให้"
+  status: approved
+- id: cefr-b2-w04-049
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 3
+  pool: true
+  stem: "It ____ that the company will close two of its factories."
+  choices:
+    - {t: "has been reported", why: "มีรายงานว่า ++It has been reported that++"}
+    - {t: "has reported", why: "มัน (it) ไม่ได้เป็นผู้รายงาน"}
+    - {t: "is reporting", why: "ต้องเป็น passive"}
+    - {t: "reports", why: "it ไม่ใช่ผู้รายงาน"}
+  explain: "It is said / ==It has been reported== that ..."
+  status: approved
+- id: cefr-b2-w04-050
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 3
+  pool: true
+  stem: "We got the air conditioner ____ last week, and now it's working perfectly."
+  choices:
+    - {t: "fixed", why: "get + สิ่งของ + ++V3++"}
+    - {t: "fix", why: "ต้องเป็น V3 หลังสิ่งของ"}
+    - {t: "to fix", why: "ไม่ใช้ to ในรูปนี้"}
+    - {t: "fixing", why: "ต้องเป็น V3 ไม่ใช่ -ing"}
+  explain: "get something ==V3== = ให้คนมาทำให้"
+  status: approved
+- id: cefr-b2-w04-051
+  kind: mcq
+  skill: gm
+  topic: passive-reporting-causative
+  level: 3
+  pool: true
+  stem: "The suspect ____ to have left the country last night."
+  choices:
+    - {t: "is thought", why: "มีผู้คิดว่าทำไปแล้ว ++is thought to have + V3++"}
+    - {t: "thinks", why: "ผู้ต้องสงสัยไม่ได้เป็นผู้คิด"}
+    - {t: "is thinking", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "has thought", why: "ต้องเป็น passive"}
+  explain: "is thought ==to have + V3== = เชื่อว่าได้ทำไปแล้ว"
+  status: approved
+- id: cefr-b2-w04-052
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  pool: true
+  stem: "Teachers use clear ____ to mark the essays, so the scores are fair."
+  choices:
+    - {t: "criteria", why: "เกณฑ์ = ++criteria++ (พหูพจน์ของ criterion)"}
+    - {t: "evidence", why: "evidence คือหลักฐาน"}
+    - {t: "outcome", why: "outcome คือผลลัพธ์"}
+    - {t: "feedback", why: "ไม่ได้ใช้ตัดสินคะแนน"}
+  explain: "criteria = ==เกณฑ์ (ในการตัดสิน)=="
+  status: approved
+- id: cefr-b2-w04-053
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  pool: true
+  stem: "There is no ____ that the new drink improves your memory."
+  choices:
+    - {t: "evidence", why: "หลักฐาน = ++evidence++ (นับไม่ได้)"}
+    - {t: "criteria", why: "criteria คือเกณฑ์"}
+    - {t: "estimate", why: "estimate คือการประมาณ"}
+    - {t: "outcome", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "no evidence that ... = ==ไม่มีหลักฐานว่า=="
+  status: approved
+- id: cefr-b2-w04-054
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 2
+  pool: true
+  stem: "We need to ____ the cause of the problem before we can fix it."
+  choices:
+    - {t: "identify", why: "ระบุ หาให้พบ = ++identify++"}
+    - {t: "indicate", why: "indicate คือชี้ให้เห็น"}
+    - {t: "estimate", why: "estimate คือประมาณ"}
+    - {t: "accurate", why: "accurate เป็นคุณศัพท์"}
+  explain: "identify the cause = ==หาสาเหตุให้พบ=="
+  status: approved
+- id: cefr-b2-w04-055
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 3
+  pool: true
+  stem: "The survey results ____ that most customers want longer opening hours."
+  choices:
+    - {t: "indicate", why: "ชี้ให้เห็น = ++indicate that++"}
+    - {t: "identify", why: "identify ไม่ใช้ตามด้วย that แบบนี้"}
+    - {t: "assess", why: "assess คือประเมิน"}
+    - {t: "evaluate", why: "evaluate ไม่ตามด้วย that"}
+  explain: "results ==indicate that== = ผลชี้ว่า"
+  status: approved
+- id: cefr-b2-w04-056
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 3
+  pool: true
+  stem: "We ____ that the repairs will cost around 50,000 baht."
+  choices:
+    - {t: "estimate", why: "ประมาณการ = ++estimate++"}
+    - {t: "identify", why: "identify คือระบุ"}
+    - {t: "analyse", why: "analyse คือวิเคราะห์"}
+    - {t: "significant", why: "significant เป็นคุณศัพท์"}
+  explain: "estimate = ==ประมาณการ (ตัวเลข)=="
+  status: approved
+- id: cefr-b2-w04-057
+  kind: mcq
+  skill: vo
+  topic: evaluation
+  level: 3
+  pool: true
+  stem: "There has been a ____ increase in the number of tourists this year."
+  choices:
+    - {t: "significant", why: "มากอย่างมีนัย = ++significant++"}
+    - {t: "approximately", why: "เป็นคำวิเศษณ์ ไม่ใช้ขยายคำนาม"}
+    - {t: "evidence", why: "evidence เป็นคำนาม"}
+    - {t: "criteria", why: "criteria เป็นคำนาม"}
+  explain: "a significant increase = ==เพิ่มขึ้นอย่างเห็นได้ชัด=="
+  status: approved
+- id: cefr-b2-w04-058
+  kind: read
+  skill: rd
+  topic: evaluation-summary
+  level: 2
+  pool: true
+  title: "Evaluation Summary: Free Lunch Project, Year 1"
+  passage: |
+    The free lunch project was introduced in eight village schools last year. It was evaluated by an independent team using attendance records, health checks and interviews with teachers and parents.
+
+    The results indicate that attendance increased by 9 per cent on average. Children were found to be more active in afternoon lessons, although this was based mainly on teachers' opinions rather than test scores.
+
+    The main weakness identified was cost. Food prices rose during the year, and two schools had to reduce portion sizes in the final term. The team recommends that the budget should be reviewed every six months.
+  questions:
+    - stem: "How was the project evaluated?"
+      choices:
+        - {t: "in several different ways", why: "attendance records, health checks and interviews"}
+        - {t: "only by asking parents", why: "ใช้หลายวิธี ไม่ใช่แค่ถามผู้ปกครอง"}
+        - {t: "using national test scores only", why: "ไม่ได้ใช้คะแนนสอบระดับชาติ"}
+        - {t: "by the schools themselves", why: "ทีมอิสระเป็นผู้ประเมิน"}
+    - stem: "What is said about children's activity in the afternoon?"
+      choices:
+        - {t: "the evidence mostly came from teachers", why: "based mainly on teachers' opinions"}
+        - {t: "it was proved by test scores", why: "ไม่ได้มาจากคะแนนสอบ"}
+        - {t: "it did not change", why: "มีการพบว่าเด็กกระตือรือร้นขึ้น"}
+        - {t: "it increased by 9 per cent", why: "9% คือการมาเรียน"}
+    - stem: "What does the team recommend?"
+      choices:
+        - {t: "checking the budget twice a year", why: "budget should be reviewed every six months"}
+        - {t: "giving smaller portions", why: "เป็นปัญหา ไม่ใช่ข้อแนะนำ"}
+        - {t: "ending the project", why: "ไม่ได้แนะนำให้ยุติ"}
+        - {t: "adding more schools to the project", why: "ไม่ได้พูดถึงการเพิ่มโรงเรียน"}
+  status: approved
+- id: cefr-b2-w04-059
+  kind: listen
+  skill: li
+  topic: data-presentation
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "As you can see from the chart, online sales rose steadily until June, then fell sharply in July, mainly because the website was down for two weeks."}
+  questions:
+    - stem: "Why did online sales fall in July?"
+      choices:
+        - {t: "the website wasn't working", why: "the website was down for two weeks"}
+        - {t: "prices went up", why: "ไม่ได้พูดถึงราคา"}
+        - {t: "it was a holiday month", why: "ไม่ได้พูดถึงวันหยุด"}
+        - {t: "the shop opened a new branch", why: "ไม่ได้พูดถึงสาขาใหม่"}
+  status: approved
+- id: cefr-b2-w04-060
+  kind: listen
+  skill: li
+  topic: data-presentation
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "These figures haven't been checked yet, so please don't share them outside the team until Friday."}
+  questions:
+    - stem: "What does the man ask?"
+      choices:
+        - {t: "not to share the figures yet", why: "please don't share them outside the team"}
+        - {t: "to check the figures today", why: "ไม่ได้ขอให้ตรวจวันนี้"}
+        - {t: "to send them to Friday's meeting", why: "ไม่ได้พูดถึงการประชุม"}
+        - {t: "to delete the figures", why: "ไม่ได้ขอให้ลบ จึงใช้ไม่ได้"}
+  status: approved

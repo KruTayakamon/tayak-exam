@@ -1,0 +1,278 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 9 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w09-043
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  pool: true
+  stem: "____ being the youngest in the team, Nok was chosen to lead the project."
+  choices:
+    - {t: "Despite", why: "ตามด้วย -ing ใช้ ++despite++"}
+    - {t: "Although", why: "although ต้องตามด้วยประโยคเต็ม"}
+    - {t: "Even though", why: "even though ต้องตามด้วยประโยคเต็ม"}
+    - {t: "However", why: "however ไม่เชื่อมแบบนี้"}
+  explain: "==despite / in spite of + -ing / คำนาม=="
+  status: approved
+- id: cefr-b2-w09-044
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 2
+  pool: true
+  stem: "Some staff prefer working from home, ____ others miss the office."
+  choices:
+    - {t: "whereas", why: "เปรียบความต่างสองกลุ่ม ++whereas++"}
+    - {t: "despite", why: "despite ไม่ตามด้วยประโยค"}
+    - {t: "moreover", why: "moreover คือยิ่งไปกว่านั้น"}
+    - {t: "therefore", why: "therefore บอกผล"}
+  explain: "==whereas / while== = ในขณะที่ (เทียบความต่าง)"
+  status: approved
+- id: cefr-b2-w09-045
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 3
+  pool: true
+  stem: "The flat is small and rather noisy. ____, I love living there."
+  choices:
+    - {t: "Nevertheless", why: "ถึงอย่างนั้น ++Nevertheless++"}
+    - {t: "Moreover", why: "moreover เพิ่มข้อมูลในทางเดียวกัน"}
+    - {t: "Consequently", why: "consequently บอกผล"}
+    - {t: "Whereas", why: "whereas ไม่ขึ้นต้นประโยคแบบนี้"}
+  explain: "==Nevertheless / However== + , = อย่างไรก็ตาม"
+  status: approved
+- id: cefr-b2-w09-046
+  kind: mcq
+  skill: gm
+  topic: linkers-concession-contrast
+  level: 3
+  pool: true
+  stem: "____ carefully she checks her work, her boss always finds something to change."
+  choices:
+    - {t: "However", why: "ไม่ว่าจะ...แค่ไหน ++However + คุณศัพท์/คำวิเศษณ์++"}
+    - {t: "Although", why: "although ไม่ตามด้วย carefully she checks"}
+    - {t: "Despite", why: "despite ไม่ตามด้วยประโยค"}
+    - {t: "Even", why: "even ไม่ใช้แบบนี้"}
+  explain: "==However + adj/adv + ประธาน + กริยา== = ไม่ว่าจะ...แค่ไหน"
+  status: approved
+- id: cefr-b2-w09-047
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  pool: true
+  stem: "The new bus route is cheaper. ____, it is much faster."
+  choices:
+    - {t: "Moreover", why: "เพิ่มข้อดีในทางเดียวกัน ++Moreover++"}
+    - {t: "Nevertheless", why: "nevertheless บอกความขัดแย้ง"}
+    - {t: "Whereas", why: "whereas ไม่ขึ้นต้นประโยคแบบนี้"}
+    - {t: "As a consequence of this", why: "ไม่ใช่ผลของการถูกกว่า"}
+  explain: "==Moreover / Furthermore== = ยิ่งไปกว่านั้น"
+  status: approved
+- id: cefr-b2-w09-048
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 2
+  pool: true
+  stem: "The heavy rain flooded the main road. ____, many workers arrived late."
+  choices:
+    - {t: "Consequently", why: "ผลที่ตามมา ++Consequently++"}
+    - {t: "What is more surprising", why: "ไม่ได้บอกผล แต่เพิ่มข้อมูล"}
+    - {t: "Whereas", why: "whereas เปรียบความต่าง"}
+    - {t: "Despite", why: "despite ต้องตามด้วยคำนาม"}
+  explain: "==Consequently / As a result== = ผลก็คือ"
+  status: approved
+- id: cefr-b2-w09-049
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 3
+  pool: true
+  stem: "We left early ____ avoid the traffic."
+  choices:
+    - {t: "so as to", why: "เพื่อ ++so as to + V1++"}
+    - {t: "so that to", why: "so that ต้องตามด้วยประโยค"}
+    - {t: "in order", why: "ต้องมี to ตามมา"}
+    - {t: "for to", why: "ไม่ใช้ for to ในภาษาอังกฤษปัจจุบัน"}
+  explain: "==in order to / so as to + V1== = เพื่อที่จะ"
+  status: approved
+- id: cefr-b2-w09-050
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 3
+  pool: true
+  stem: "The project was poorly planned, ____ it went over budget."
+  choices:
+    - {t: "and as a result", why: "เชื่อมผล ++and as a result++"}
+    - {t: "in addition to the delay", why: "ไม่ได้บอกผล จึงใช้ไม่ได้"}
+    - {t: "whereas", why: "เปรียบความต่าง ไม่ตรง"}
+    - {t: "in order that", why: "บอกจุดประสงค์ ไม่ตรง"}
+  explain: "..., ==and as a result== ... = จึงทำให้"
+  status: approved
+- id: cefr-b2-w09-051
+  kind: mcq
+  skill: gm
+  topic: linkers-addition-result-purpose
+  level: 3
+  pool: true
+  stem: "____ to being cheaper, the new printer uses less ink."
+  choices:
+    - {t: "In addition", why: "เพิ่มเติม ++In addition to + -ing++"}
+    - {t: "As well", why: "ต้องเป็น as well as"}
+    - {t: "Besides of", why: "ไม่มี of หลัง besides"}
+    - {t: "Moreover", why: "moreover ไม่ตามด้วย to"}
+  explain: "==In addition to / Besides + -ing== = นอกจาก...แล้ว"
+  status: approved
+- id: cefr-b2-w09-052
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  pool: true
+  stem: "The decision to close the hospital was very ____, and many people protested."
+  choices:
+    - {t: "controversial", why: "ก่อให้เกิดข้อถกเถียง = ++controversial++"}
+    - {t: "beneficially", why: "beneficially เป็นคำวิเศษณ์"}
+    - {t: "relevant", why: "relevant คือเกี่ยวข้อง"}
+    - {t: "widespread", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "controversial = ==เป็นที่ถกเถียง=="
+  status: approved
+- id: cefr-b2-w09-053
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 2
+  pool: true
+  stem: "From a parent's ____, the new school hours are very inconvenient."
+  choices:
+    - {t: "perspective", why: "มุมมอง = ++from a ... perspective++"}
+    - {t: "aspect", why: "aspect คือแง่มุมของเรื่อง"}
+    - {t: "disadvantages", why: "เป็นคำนามพหูพจน์ ไม่เข้ากับ a"}
+    - {t: "arguably", why: "arguably เป็นคำวิเศษณ์"}
+  explain: "from someone's perspective = ==จากมุมมองของ=="
+  status: approved
+- id: cefr-b2-w09-054
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 3
+  pool: true
+  stem: "Regular exercise is ____ for both your body and your mood."
+  choices:
+    - {t: "beneficial", why: "มีประโยชน์ = ++beneficial for/to++"}
+    - {t: "controversial", why: "controversial คือเป็นที่ถกเถียง"}
+    - {t: "arguably", why: "arguably เป็นคำวิเศษณ์"}
+    - {t: "relevant", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "beneficial = ==เป็นประโยชน์=="
+  status: approved
+- id: cefr-b2-w09-055
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 3
+  pool: true
+  stem: "Is your previous job ____ to the position you are applying for?"
+  choices:
+    - {t: "relevant", why: "เกี่ยวข้อง = ++relevant to++"}
+    - {t: "beneficial", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "widespread", why: "widespread คือแพร่หลาย"}
+    - {t: "controversial", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (controversial)"}
+  explain: "relevant ==to== = เกี่ยวข้องกับ"
+  status: approved
+- id: cefr-b2-w09-056
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 3
+  pool: true
+  stem: "She is ____ the best singer the country has ever produced."
+  choices:
+    - {t: "arguably", why: "อาจกล่าวได้ว่า = ++arguably++"}
+    - {t: "consequently", why: "consequently คือผลที่ตามมา"}
+    - {t: "nevertheless", why: "nevertheless คืออย่างไรก็ตาม"}
+    - {t: "whereas", why: "whereas เป็นคำเชื่อม"}
+  explain: "arguably + ขั้นสุด = ==อาจพูดได้ว่า...ที่สุด=="
+  status: approved
+- id: cefr-b2-w09-057
+  kind: mcq
+  skill: vo
+  topic: argument
+  level: 3
+  pool: true
+  stem: "There is ____ concern about rising food prices across the country."
+  choices:
+    - {t: "widespread", why: "แพร่หลายทั่วไป = ++widespread++"}
+    - {t: "relevant", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "arguably", why: "arguably เป็นคำวิเศษณ์"}
+    - {t: "aspect", why: "aspect เป็นคำนาม"}
+  explain: "widespread = ==แพร่หลาย เป็นวงกว้าง=="
+  status: approved
+- id: cefr-b2-w09-058
+  kind: read
+  skill: rd
+  topic: opinion-article
+  level: 2
+  pool: true
+  title: "Should Homework Be Banned in Primary Schools?"
+  passage: |
+    Some parents argue that homework puts too much pressure on young children. Families are busy, and children need time to play and rest. Moreover, studies suggest that homework has little effect on learning before the age of ten.
+
+    On the other hand, many teachers believe that short tasks help children develop good habits. Reading for fifteen minutes at home, for example, can be beneficial, especially for children who don't have books at school. Banning homework completely might also send the message that learning only happens in the classroom.
+
+    Perhaps the answer is not a ban but a limit. Short, optional activities that families can do together would arguably keep the benefits while reducing stress.
+  questions:
+    - stem: "What do some parents say about homework?"
+      choices:
+        - {t: "it is stressful for them", why: "homework puts too much pressure on young children"}
+        - {t: "it is too easy", why: "ไม่ได้พูดว่าง่ายเกินไป"}
+        - {t: "teachers don't check it", why: "ไม่ได้พูดถึงเรื่องนี้"}
+        - {t: "it gives children more time to rest", why: "ความหมายกลับกัน"}
+    - stem: "Which kind of homework do teachers mention as useful?"
+      choices:
+        - {t: "short reading at home", why: "Reading for fifteen minutes at home"}
+        - {t: "long writing projects", why: "ในบทไม่ได้พูดถึง long writing projects"}
+        - {t: "family trips", why: "ในบทไม่ได้พูดถึง family trips"}
+        - {t: "online tests", why: "ในบทไม่ได้พูดถึง online tests"}
+    - stem: "What does the writer suggest?"
+      choices:
+        - {t: "limiting homework", why: "Perhaps the answer is not a ban but a limit"}
+        - {t: "banning homework", why: "ผู้เขียนบอกว่าไม่ควรห้าม"}
+        - {t: "giving more homework", why: "ไม่ได้เสนอเพิ่ม"}
+        - {t: "letting teachers decide alone", why: "ในบทไม่ได้พูดถึง letting teachers decide alone"}
+  status: approved
+- id: cefr-b2-w09-059
+  kind: listen
+  skill: li
+  topic: debate
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Building the new mall will create jobs."}
+    - {who: Man, en: "That's true. Nevertheless, it'll also mean more traffic, and the small shops in the old market may close."}
+  questions:
+    - stem: "What is the man's view?"
+      choices:
+        - {t: "it has good and bad points", why: "That's true. Nevertheless ..."}
+        - {t: "the mall will not create any jobs", why: "เขายอมรับว่าสร้างงานได้"}
+        - {t: "the old market should close", why: "เขากังวลว่าร้านเล็กจะปิด"}
+        - {t: "traffic will improve", why: "เขาบอกว่ารถจะติดขึ้น"}
+  status: approved
+- id: cefr-b2-w09-060
+  kind: listen
+  skill: li
+  topic: argument
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Online courses are cheaper, whereas classroom courses let you ask questions face to face."}
+  questions:
+    - stem: "What advantage of classroom courses does the man mention?"
+      choices:
+        - {t: "face-to-face questions", why: "let you ask questions face to face"}
+        - {t: "they are cheaper", why: "ราคาถูกเป็นข้อดีของคอร์สออนไลน์"}
+        - {t: "they are shorter", why: "ในบทไม่ได้พูดถึง they are shorter"}
+        - {t: "they have better teachers", why: "ในบทไม่ได้พูดถึง they have better teachers"}
+  status: approved

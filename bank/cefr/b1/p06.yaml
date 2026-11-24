@@ -123,7 +123,7 @@
     - {t: "'d book", why: "If I were you ตามด้วย ++would + V1++"}
     - {t: "will book", why: "ใช้ would กับสถานการณ์สมมติ"}
     - {t: "booked", why: "ประโยคผลต้องมี would"}
-    - {t: "book", why: "บทไม่ได้พูดว่า book"}
+    - {t: "book", why: "ประโยคผลต้องมี would (book)"}
   explain: "If I were you, ==I'd ...== = ถ้าฉันเป็นคุณ"
   status: approved
 - id: cefr-b1-w06-052

@@ -1,0 +1,277 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 11 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w11-043
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  pool: true
+  stem: "The ____ of the new hospital wing took almost three years."
+  choices:
+    - {t: "construction", why: "คำนามจาก construct ++-ion++"}
+    - {t: "construct", why: "construct เป็นกริยา"}
+    - {t: "constructive", why: "constructive เป็นคุณศัพท์"}
+    - {t: "constructing", why: "หลัง the ... of ใช้คำนามจริง"}
+  explain: "หลัง the + ... + of ต้องเป็น ==คำนาม=="
+  status: approved
+- id: cefr-b2-w11-044
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 2
+  pool: true
+  stem: "It's ____ to drive without a licence in Thailand."
+  choices:
+    - {t: "illegal", why: "ปฏิเสธของ legal ใช้ ++il-++"}
+    - {t: "unlegal", why: "legal ใช้ il- ไม่ใช่ un-"}
+    - {t: "inlegal", why: "ไม่มีคำนี้ในภาษาอังกฤษ"}
+    - {t: "dislegal", why: "ไม่มีคำนี้ในภาษาอังกฤษ (dislegal)"}
+  explain: "คำขึ้นต้น l → ==il-== (illegal, illogical)"
+  status: approved
+- id: cefr-b2-w11-045
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 3
+  pool: true
+  stem: "The meeting was very ____; we made decisions on every point."
+  choices:
+    - {t: "productive", why: "คุณศัพท์จาก produce ++-ive++"}
+    - {t: "production", why: "production เป็นคำนาม"}
+    - {t: "productivity", why: "productivity เป็นคำนาม"}
+    - {t: "produce", why: "produce เป็นกริยา/คำนาม"}
+  explain: "หลัง very ต้องเป็น ==คุณศัพท์== (-ive, -ful, -able)"
+  status: approved
+- id: cefr-b2-w11-046
+  kind: mcq
+  skill: gm
+  topic: word-formation
+  level: 3
+  pool: true
+  stem: "We need to ____ the road so that two buses can pass."
+  choices:
+    - {t: "widen", why: "ทำให้กว้างขึ้น ++-en++"}
+    - {t: "width", why: "width เป็นคำนาม"}
+    - {t: "wide", why: "wide เป็นคุณศัพท์"}
+    - {t: "widely", why: "widely เป็นคำวิเศษณ์"}
+  explain: "คุณศัพท์ + ==-en== = ทำให้... (widen, shorten)"
+  status: approved
+- id: cefr-b2-w11-047
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  pool: true
+  stem: "She's very good ____ explaining difficult ideas simply."
+  choices:
+    - {t: "at", why: "เก่งเรื่อง ++good at++"}
+    - {t: "in", why: "good in ไม่ใช่สำนวนที่ใช้"}
+    - {t: "on", why: "good on ไม่ใช่สำนวนที่ใช้"}
+    - {t: "for", why: "good for = ดีต่อ ไม่ใช่เก่ง"}
+  explain: "be good ==at== + -ing / คำนาม"
+  status: approved
+- id: cefr-b2-w11-048
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 2
+  pool: true
+  stem: "The company has decided to ____ the old system and use cloud software."
+  choices:
+    - {t: "do away with", why: "ยกเลิกทิ้ง ++do away with++"}
+    - {t: "do up", why: "do up คือตกแต่งใหม่"}
+    - {t: "take after", why: "take after คือหน้าตาเหมือน"}
+    - {t: "look up to", why: "look up to คือนับถือ"}
+  explain: "do away with = ==ยกเลิก กำจัด=="
+  status: approved
+- id: cefr-b2-w11-049
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 3
+  pool: true
+  stem: "I'm not ____ favour of the plan to raise the parking fees."
+  choices:
+    - {t: "in", why: "เห็นด้วยกับ ++in favour of++"}
+    - {t: "on", why: "on favour ไม่ใช่สำนวน"}
+    - {t: "at", why: "at favour ไม่ใช่สำนวน"}
+    - {t: "for", why: "for favour ไม่ใช่สำนวน"}
+  explain: "be ==in favour of== = เห็นด้วย สนับสนุน"
+  status: approved
+- id: cefr-b2-w11-050
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 3
+  pool: true
+  stem: "The new manager has ____ a lot of criticism for cutting the training budget."
+  choices:
+    - {t: "come in for", why: "ถูกวิจารณ์ ++come in for criticism++"}
+    - {t: "come up with", why: "come up with คือคิดขึ้นมา"}
+    - {t: "come across", why: "come across คือบังเอิญเจอ"}
+    - {t: "come down to", why: "come down to คือสรุปแล้วขึ้นอยู่กับ"}
+  explain: "==come in for criticism== = ถูกวิจารณ์"
+  status: approved
+- id: cefr-b2-w11-051
+  kind: mcq
+  skill: gm
+  topic: collocation-prepositions-phrasal
+  level: 3
+  pool: true
+  stem: "The staff ____ the idea of a four-day week with great excitement."
+  choices:
+    - {t: "welcomed", why: "ต้อนรับแนวคิด ++welcome an idea++"}
+    - {t: "welcomed to", why: "welcome ไม่ตามด้วย to แบบนี้"}
+    - {t: "agreed", why: "agree ต้องมี with / to"}
+    - {t: "looked forward", why: "look forward ต้องมี to"}
+  explain: "==welcome an idea / a decision== = ยินดีรับ"
+  status: approved
+- id: cefr-b2-w11-052
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  pool: true
+  stem: "The training aims to ____ customer service skills across all branches."
+  choices:
+    - {t: "enhance", why: "เพิ่มพูนให้ดีขึ้น = ++enhance++"}
+    - {t: "sufficient", why: "sufficient เป็นคุณศัพท์"}
+    - {t: "expertise", why: "expertise เป็นคำนาม"}
+    - {t: "diverse", why: "diverse เป็นคุณศัพท์"}
+  explain: "enhance = ==ยกระดับ ทำให้ดีขึ้น=="
+  status: approved
+- id: cefr-b2-w11-053
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 2
+  pool: true
+  stem: "A good leader can ____ people to work harder without shouting."
+  choices:
+    - {t: "motivate", why: "จูงใจ = ++motivate someone to++"}
+    - {t: "promote", why: "promote ไม่ตามด้วยคน + to แบบนี้"}
+    - {t: "reinforce", why: "reinforce คือเสริมให้แข็งแรง"}
+    - {t: "adequate", why: "adequate เป็นคุณศัพท์"}
+  explain: "motivate someone ==to + V1== = กระตุ้นให้"
+  status: approved
+- id: cefr-b2-w11-054
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 3
+  pool: true
+  stem: "Our team is very ____, with members from six different countries."
+  choices:
+    - {t: "diverse", why: "หลากหลาย = ++diverse++"}
+    - {t: "sufficient", why: "sufficient คือเพียงพอ"}
+    - {t: "innovative", why: "innovative คือคิดใหม่"}
+    - {t: "sustainable", why: "sustainable คือยั่งยืน"}
+  explain: "diverse = ==หลากหลาย=="
+  status: approved
+- id: cefr-b2-w11-055
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 3
+  pool: true
+  stem: "We need someone with ____ in data analysis to lead this project."
+  choices:
+    - {t: "expertise", why: "ความเชี่ยวชาญ = ++expertise in++"}
+    - {t: "resource", why: "resource คือทรัพยากร"}
+    - {t: "inspire", why: "inspire เป็นกริยา"}
+    - {t: "adequate", why: "adequate เป็นคุณศัพท์"}
+  explain: "expertise ==in== = ความเชี่ยวชาญด้าน"
+  status: approved
+- id: cefr-b2-w11-056
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 3
+  pool: true
+  stem: "Using solar power is a more ____ way to run the factory."
+  choices:
+    - {t: "sustainable", why: "ยั่งยืน = ++sustainable++"}
+    - {t: "diverse", why: "diverse คือหลากหลาย"}
+    - {t: "sufficient", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "expertise", why: "expertise เป็นคำนาม"}
+  explain: "sustainable = ==ยั่งยืน ไม่ทำลายทรัพยากร=="
+  status: approved
+- id: cefr-b2-w11-057
+  kind: mcq
+  skill: vo
+  topic: work-development
+  level: 3
+  pool: true
+  stem: "Two weeks is not ____ time to train a new pilot."
+  choices:
+    - {t: "sufficient", why: "เพียงพอ = ++sufficient++"}
+    - {t: "diverse", why: "diverse คือหลากหลาย"}
+    - {t: "innovative", why: "innovative คือนวัตกรรม"}
+    - {t: "sustainable", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "sufficient = ==เพียงพอ== (= enough)"
+  status: approved
+- id: cefr-b2-w11-058
+  kind: read
+  skill: rd
+  topic: workplace-advice
+  level: 2
+  pool: true
+  title: "Five Ways to Make Meetings Shorter"
+  passage: |
+    Many workers say they spend too much time in meetings that achieve very little. Here are some simple ways to improve them.
+
+    First, send the agenda at least a day before, so everyone can come prepared. Second, invite only the people who really need to be there; others can read the notes later. Third, start on time, even if someone is late, to reinforce the idea that time matters.
+
+    Fourth, end each point with a clear action and the name of the person responsible. Finally, try standing meetings for short updates. People naturally keep them brief when they are not sitting comfortably.
+  questions:
+    - stem: "Why should the agenda be sent early?"
+      choices:
+        - {t: "so people can prepare", why: "so everyone can come prepared"}
+        - {t: "so people can decline", why: "ในบทไม่ได้พูดถึง so people can decline"}
+        - {t: "so the meeting can start late", why: "ควรเริ่มตรงเวลา"}
+        - {t: "so the notes are shorter", why: "ในบทไม่ได้พูดถึง so the notes are shorter"}
+    - stem: "What should people who don't need to attend do?"
+      choices:
+        - {t: "read the notes afterwards", why: "others can read the notes later"}
+        - {t: "join online", why: "ในบทไม่ได้พูดถึง join online"}
+        - {t: "send a replacement", why: "ในบทไม่ได้พูดถึง send a replacement"}
+        - {t: "arrive late", why: "ในบทไม่ได้พูดถึง arrive late"}
+    - stem: "Why are standing meetings suggested?"
+      choices:
+        - {t: "people tend to keep them short", why: "People naturally keep them brief"}
+        - {t: "there are not enough chairs", why: "ในบทไม่ได้พูดถึง there are not enough chairs"}
+        - {t: "they are healthier", why: "ในบทไม่ได้พูดถึง they are healthier"}
+        - {t: "managers prefer them", why: "ในบทไม่ได้พูดถึง managers prefer them"}
+  status: approved
+- id: cefr-b2-w11-059
+  kind: listen
+  skill: li
+  topic: short-lecture
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Today I want to focus on one idea: motivation. Research shows that people are more motivated when they can see the impact of their work on others."}
+  questions:
+    - stem: "According to the speaker, what increases motivation?"
+      choices:
+        - {t: "seeing how work helps others", why: "see the impact of their work on others"}
+        - {t: "higher salaries", why: "ในบทไม่ได้พูดถึง higher salaries"}
+        - {t: "longer holidays", why: "ในบทไม่ได้พูดถึง longer holidays"}
+        - {t: "working alone", why: "ในบทไม่ได้พูดถึง working alone"}
+  status: approved
+- id: cefr-b2-w11-060
+  kind: listen
+  skill: li
+  topic: workplace-advice
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "If you're short of resources, don't try to do everything. Focus on the two or three tasks that matter most."}
+  questions:
+    - stem: "What does the man advise?"
+      choices:
+        - {t: "focusing on the most important tasks", why: "Focus on the two or three tasks that matter most"}
+        - {t: "asking for more money", why: "ในบทไม่ได้พูดถึง asking for more money"}
+        - {t: "doing every task quickly", why: "เขาบอกว่าอย่าพยายามทำทุกอย่าง"}
+        - {t: "hiring more staff", why: "ในบทไม่ได้พูดถึง hiring more staff"}
+  status: approved

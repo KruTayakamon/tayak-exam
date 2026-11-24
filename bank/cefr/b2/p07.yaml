@@ -1,0 +1,278 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 7 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w07-043
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  pool: true
+  stem: "The manager ____ that we should finish the project before the holiday."
+  choices:
+    - {t: "insisted", why: "ยืนกราน ++insist that + ประโยค++"}
+    - {t: "refused", why: "refuse ไม่ตามด้วย that"}
+    - {t: "offered", why: "offer ไม่ตามด้วย that"}
+    - {t: "threatened", why: "threaten ไม่ตามด้วย that + should"}
+  explain: "insist (that) / insist ==on + -ing=="
+  status: approved
+- id: cefr-b2-w07-044
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 2
+  pool: true
+  stem: "She ____ me to apply for the scholarship, so I did."
+  choices:
+    - {t: "encouraged", why: "สนับสนุนให้ทำ ++encourage someone to++"}
+    - {t: "suggested", why: "suggest ไม่ตามด้วยคน + to"}
+    - {t: "insisted", why: "insist ไม่ตามด้วยคน + to"}
+    - {t: "admitted", why: "admit ไม่ตามด้วยคน + to"}
+  explain: "==encourage / advise / warn + คน + to + V1=="
+  status: approved
+- id: cefr-b2-w07-045
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 3
+  pool: true
+  stem: "He ____ having taken the money from the drawer."
+  choices:
+    - {t: "denied", why: "ปฏิเสธว่าไม่ได้ทำ ++deny + -ing++"}
+    - {t: "refused", why: "refuse ตามด้วย to + V1"}
+    - {t: "rejected", why: "reject ไม่ตามด้วย -ing แบบนี้"}
+    - {t: "objected", why: "object ต้องมี to + -ing"}
+  explain: "deny ==+ -ing== = ปฏิเสธว่าไม่ได้ทำ"
+  status: approved
+- id: cefr-b2-w07-046
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 3
+  pool: true
+  stem: "The chef ____ us against ordering the fish because it wasn't fresh."
+  choices:
+    - {t: "advised", why: "เตือนไม่ให้ ++advise someone against + -ing++"}
+    - {t: "recommended", why: "recommend ไม่ใช้กับคน + against"}
+    - {t: "suggested", why: "suggest ไม่ใช้กับคน + against"}
+    - {t: "persuaded", why: "persuade ไม่ตามด้วย against แบบนี้"}
+  explain: "advise someone ==against + -ing== = แนะนำไม่ให้"
+  status: approved
+- id: cefr-b2-w07-047
+  kind: mcq
+  skill: gm
+  topic: reporting-verbs
+  level: 3
+  pool: true
+  stem: "My colleague ____ me of taking credit for her idea."
+  choices:
+    - {t: "accused", why: "กล่าวหา ++accuse someone of + -ing++"}
+    - {t: "blamed", why: "blame ใช้ blame someone for"}
+    - {t: "criticised", why: "criticise ใช้ for"}
+    - {t: "denied", why: "deny ไม่ตามด้วยคน + of"}
+  explain: "accuse someone ==of== + -ing = กล่าวหาว่า"
+  status: approved
+- id: cefr-b2-w07-048
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  pool: true
+  stem: "____ he said surprised everyone in the room."
+  choices:
+    - {t: "What", why: "สิ่งที่ = ++What++ ทำหน้าที่ประธาน"}
+    - {t: "That", why: "that ต้องตามด้วยประโยคครบ"}
+    - {t: "Which", why: "which ไม่ใช้ขึ้นต้นแบบนี้"}
+    - {t: "It", why: "it ทำให้ประโยคมีกริยาซ้อน"}
+  explain: "==What + ประโยค== = สิ่งที่... (ใช้เป็นประธานได้)"
+  status: approved
+- id: cefr-b2-w07-049
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 2
+  pool: true
+  stem: "I can't remember ____ I parked the car."
+  choices:
+    - {t: "where", why: "ประโยคนามบอกสถานที่ ++where + ประธาน + กริยา++"}
+    - {t: "where did", why: "ไม่สลับประธานในประโยคนาม"}
+    - {t: "that", why: "that ไม่ได้บอกสถานที่"}
+    - {t: "what", why: "what ต้องแทนกรรมในประโยค"}
+  explain: "wh- + ==ประธาน + กริยา== (ไม่สลับ)"
+  status: approved
+- id: cefr-b2-w07-050
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 3
+  pool: true
+  stem: "____ the factory will close is still uncertain."
+  choices:
+    - {t: "Whether", why: "ใช่หรือไม่ (เป็นประธาน) ++Whether++"}
+    - {t: "If", why: "if ไม่ขึ้นต้นประโยคนามที่เป็นประธาน"}
+    - {t: "That", why: "that จะไม่เข้ากับ uncertain"}
+    - {t: "What", why: "what ต้องแทนคำนามในประโยค"}
+  explain: "==Whether ...== ขึ้นต้นประโยคเป็นประธานได้ · if ไม่ได้"
+  status: approved
+- id: cefr-b2-w07-051
+  kind: mcq
+  skill: gm
+  topic: noun-clauses
+  level: 3
+  pool: true
+  stem: "The fact ____ nobody complained shows the system works."
+  choices:
+    - {t: "that", why: "the fact ++that++ + ประโยค"}
+    - {t: "which", why: "which จะเป็นประโยคขยาย ไม่ครบความ"}
+    - {t: "what", why: "what ไม่ตามหลัง the fact"}
+    - {t: "whether", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==the fact that== = ข้อเท็จจริงที่ว่า"
+  status: approved
+- id: cefr-b2-w07-052
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  pool: true
+  stem: "Can you ____ what you mean by \"flexible hours\"? Does it include weekends?"
+  choices:
+    - {t: "clarify", why: "อธิบายให้ชัด = ++clarify++"}
+    - {t: "highlight", why: "highlight คือเน้นให้เห็น"}
+    - {t: "oppose", why: "oppose คือคัดค้าน"}
+    - {t: "consent", why: "consent คือยินยอม"}
+  explain: "clarify = ==ทำให้ชัดเจน=="
+  status: approved
+- id: cefr-b2-w07-053
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 2
+  pool: true
+  stem: "Several members ____ the plan to close the library on Sundays."
+  choices:
+    - {t: "opposed", why: "คัดค้าน = ++oppose++"}
+    - {t: "proposed", why: "propose คือเสนอ"}
+    - {t: "acknowledged", why: "acknowledge คือยอมรับ"}
+    - {t: "contributed", why: "contribute ต้องมี to"}
+  explain: "oppose = ==คัดค้าน== · propose = เสนอ"
+  status: approved
+- id: cefr-b2-w07-054
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 3
+  pool: true
+  stem: "The director ____ that the deadline could not be changed."
+  choices:
+    - {t: "emphasised", why: "เน้นย้ำ = ++emphasise++"}
+    - {t: "negotiated", why: "negotiate ไม่ตามด้วย that แบบนี้"}
+    - {t: "participated", why: "participate ต้องมี in"}
+    - {t: "collaborated", why: "collaborate ต้องมี with"}
+  explain: "emphasise = ==เน้นย้ำ=="
+  status: approved
+- id: cefr-b2-w07-055
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 3
+  pool: true
+  stem: "We spent two hours trying to ____ a better price with the supplier."
+  choices:
+    - {t: "negotiate", why: "ต่อรอง = ++negotiate a price++"}
+    - {t: "propose", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "consent", why: "consent ไม่ใช้กับ a price"}
+    - {t: "oppose", why: "oppose คือคัดค้าน"}
+  explain: "negotiate = ==เจรจาต่อรอง=="
+  status: approved
+- id: cefr-b2-w07-056
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 3
+  pool: true
+  stem: "Everyone is expected to ____ to the discussion, not just the managers."
+  choices:
+    - {t: "contribute", why: "มีส่วนร่วมให้ความเห็น = ++contribute to++"}
+    - {t: "participate", why: "participate ต้องมี in"}
+    - {t: "collaborate", why: "collaborate ต้องมี with"}
+    - {t: "acknowledge", why: "acknowledge ไม่ตามด้วย to"}
+  explain: "contribute ==to== = ช่วยเสริม มีส่วนร่วม"
+  status: approved
+- id: cefr-b2-w07-057
+  kind: mcq
+  skill: vo
+  topic: meetings
+  level: 3
+  pool: true
+  stem: "You need your parents' ____ to go on the overnight trip."
+  choices:
+    - {t: "consent", why: "ความยินยอม = ++consent++"}
+    - {t: "commitment", why: "commitment คือความทุ่มเท"}
+    - {t: "highlight", why: "highlight คือจุดเด่น"}
+    - {t: "proposal", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "consent = ==ความยินยอม (อย่างเป็นทางการ)=="
+  status: approved
+- id: cefr-b2-w07-058
+  kind: read
+  skill: rd
+  topic: meeting-minutes
+  level: 2
+  pool: true
+  title: "Minutes: Residents' Committee, 12 May"
+  passage: |
+    Present: 9 members. Chair: Khun Anong
+    1. Parking: Khun Somchai proposed painting numbered spaces in the car park. Khun Mali opposed the idea, arguing that it would cost too much. After discussion, the committee agreed to ask two companies for prices before deciding.
+    2. Swimming pool: The chair acknowledged complaints that the pool had been dirty in April. She explained that the cleaning company had changed staff and emphasised that the problem has now been solved.
+    3. New Year party: Khun Tom offered to organise the event. Members were asked to contribute ideas by 1 June.
+    Next meeting: 9 June
+  questions:
+    - stem: "What was decided about the parking spaces?"
+      choices:
+        - {t: "to get price quotes first", why: "ask two companies for prices before deciding"}
+        - {t: "to paint them next week", why: "ยังไม่ได้ตัดสินใจทาสี"}
+        - {t: "to cancel the idea", why: "ยังไม่ได้ยกเลิก"}
+        - {t: "that Khun Mali would pay", why: "ไม่ได้พูดว่าเธอจ่าย"}
+    - stem: "What did the chair say about the pool?"
+      choices:
+        - {t: "the issue has been fixed", why: "emphasised that the problem has now been solved"}
+        - {t: "it will close in April", why: "เมษายนคือช่วงที่สระสกปรก"}
+        - {t: "it needs a new company", why: "ไม่ได้บอกว่าเปลี่ยนบริษัท"}
+        - {t: "nobody had complained", why: "มีผู้ร้องเรียน จึงใช้ไม่ได้"}
+    - stem: "What must members do by 1 June?"
+      choices:
+        - {t: "send ideas for the party", why: "contribute ideas by 1 June"}
+        - {t: "pay for the party", why: "ไม่ได้พูดถึงเงิน"}
+        - {t: "choose a cleaning company", why: "ในบทไม่ได้พูดถึง choose a cleaning company"}
+        - {t: "attend the next meeting", why: "การประชุมครั้งหน้าคือ 9 มิถุนายน"}
+  status: approved
+- id: cefr-b2-w07-059
+  kind: listen
+  skill: li
+  topic: meeting-discussion
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "I see what you mean, but I'm not sure we can afford a new website this year."}
+    - {who: Man, en: "I understand. What if we just updated the current one and kept the cost under fifty thousand?"}
+  questions:
+    - stem: "What does the man propose?"
+      choices:
+        - {t: "improving the existing website", why: "What if we just updated the current one"}
+        - {t: "building a new website", why: "ฝ่ายหญิงบอกว่างบไม่พอ"}
+        - {t: "waiting until next year", why: "ไม่ได้เสนอให้รอ"}
+        - {t: "spending more than fifty thousand", why: "เขาเสนอให้ต่ำกว่าห้าหมื่น"}
+  status: approved
+- id: cefr-b2-w07-060
+  kind: listen
+  skill: li
+  topic: meetings
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Let me clarify one thing. Overtime will only be paid if your manager agrees in advance."}
+  questions:
+    - stem: "When will staff be paid for overtime?"
+      choices:
+        - {t: "when the manager approves it first", why: "if your manager agrees in advance"}
+        - {t: "always", why: "มีเงื่อนไข จึงใช้ไม่ได้"}
+        - {t: "only at weekends", why: "ไม่ได้พูดถึงวันหยุด"}
+        - {t: "after the project ends", why: "ไม่ได้พูดถึงโครงการ"}
+  status: approved

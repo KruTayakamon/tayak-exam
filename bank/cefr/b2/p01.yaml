@@ -1,0 +1,278 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 1 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w01-043
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  pool: true
+  stem: "By the time the ambulance arrived, a passing nurse ____ first aid to the cyclist."
+  choices:
+    - {t: "had already given", why: "ทำเสร็จก่อนอีกเหตุการณ์ในอดีต ++had + V3++"}
+    - {t: "already gave", why: "ไม่ชัดว่าเกิดก่อนรถพยาบาลมา"}
+    - {t: "was already giving", why: "ไม่ได้บอกว่าทำเสร็จแล้ว"}
+    - {t: "has already given", why: "เล่าอดีต ใช้ has ไม่ได้"}
+  explain: "by the time + อดีต → ==had + V3== (เกิดก่อน)"
+  status: approved
+- id: cefr-b2-w01-044
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  pool: true
+  stem: "I ____ along the beach when I noticed a small turtle stuck in a fishing net."
+  choices:
+    - {t: "was walking", why: "ฉากหลังกำลังดำเนินอยู่ ++was + -ing++"}
+    - {t: "had walked", why: "เดินเสร็จแล้วจะไม่เห็นตอนเดิน"}
+    - {t: "walked", why: "ไม่เน้นว่ากำลังเดินอยู่ตอนนั้น"}
+    - {t: "have been walking", why: "เล่าอดีต ใช้ have ไม่ได้"}
+  explain: "ฉากหลัง ==was/were + -ing== · เหตุการณ์แทรก past simple"
+  status: approved
+- id: cefr-b2-w01-045
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 2
+  pool: true
+  stem: "She was exhausted when she got home because she ____ on her feet all day."
+  choices:
+    - {t: "had been standing", why: "ทำต่อเนื่องก่อนจุดในอดีต ++had been + -ing++"}
+    - {t: "has been standing", why: "เล่าอดีต ใช้ has ไม่ได้"}
+    - {t: "was standing", why: "ไม่ได้อธิบายว่าเหนื่อยเพราะทำมานาน"}
+    - {t: "stood", why: "ไม่เน้นระยะเวลาก่อนกลับบ้าน"}
+  explain: "ต่อเนื่องจนถึงจุดในอดีต → ==had been + -ing=="
+  status: approved
+- id: cefr-b2-w01-046
+  kind: mcq
+  skill: gm
+  topic: narrative-tenses
+  level: 3
+  pool: true
+  stem: "It was only after I had paid that I realised the shop ____ me the wrong size."
+  choices:
+    - {t: "had given", why: "เกิดก่อนการรู้ตัว ++had + V3++"}
+    - {t: "has given", why: "เล่าอดีต ใช้ has ไม่ได้"}
+    - {t: "was giving", why: "ร้านให้ของเสร็จแล้ว ไม่ใช่กำลังให้"}
+    - {t: "would give", why: "ไม่ใช่เหตุการณ์ในอนาคต"}
+  explain: "realised that + ==had + V3== = เรื่องที่เกิดก่อน"
+  status: approved
+- id: cefr-b2-w01-047
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  pool: true
+  stem: "When we were students, we ____ stay up all night before exams, drinking endless cups of coffee."
+  choices:
+    - {t: "would", why: "นิสัยซ้ำในอดีต ++would + V1++"}
+    - {t: "were used to", why: "be used to ต้องตามด้วย -ing"}
+    - {t: "had", why: "had stay ผิดรูป"}
+    - {t: "used", why: "ต้องเป็น used to"}
+  explain: "นิสัยที่ทำซ้ำในอดีต ==would / used to + V1=="
+  status: approved
+- id: cefr-b2-w01-048
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  pool: true
+  stem: "The village ____ be much quieter before the new highway was built."
+  choices:
+    - {t: "used to", why: "สภาพในอดีตที่ไม่เป็นแล้ว ++used to++"}
+    - {t: "would", why: "would ไม่ใช้กับสภาพ เช่น be quiet"}
+    - {t: "was used to", why: "ไม่ได้หมายถึงคุ้นเคย"}
+    - {t: "had been used", why: "รูปผิด และความหมายไม่ตรง"}
+  explain: "สภาพ (be, have, live) ในอดีต ==used to== · would ใช้กับการกระทำ"
+  status: approved
+- id: cefr-b2-w01-049
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 2
+  pool: true
+  stem: "They ____ for over an hour when the waiter finally brought their food."
+  choices:
+    - {t: "had been waiting", why: "รอต่อเนื่องจนถึงจุดในอดีต ++had been + -ing++"}
+    - {t: "were waiting for", why: "ซ้ำ for และไม่บอกระยะเวลาก่อน"}
+    - {t: "have waited", why: "เล่าอดีต ใช้ have ไม่ได้"}
+    - {t: "waited", why: "ไม่เน้นระยะเวลาก่อนอาหารมา"}
+  explain: "for + ระยะเวลา ก่อนจุดในอดีต → ==had been + -ing=="
+  status: approved
+- id: cefr-b2-w01-050
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 3
+  pool: true
+  stem: "I didn't use to like spicy food, but I ____ it after living in Isan for a year."
+  choices:
+    - {t: "got used to", why: "เริ่มชินแล้ว ++get used to + คำนาม/-ing++"}
+    - {t: "used to", why: "ความหมายคือเคยทำ ไม่ใช่เริ่มชิน"}
+    - {t: "would get", why: "would ใช้กับนิสัยซ้ำ"}
+    - {t: "was using to", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==get used to== = ค่อย ๆ ชิน · used to = เคย"
+  status: approved
+- id: cefr-b2-w01-051
+  kind: mcq
+  skill: gm
+  topic: past-perfect-continuous-habits
+  level: 3
+  pool: true
+  stem: "Her eyes were red. It was clear she ____."
+  choices:
+    - {t: "had been crying", why: "ผลที่เห็นจากการทำต่อเนื่องก่อนหน้า ++had been + -ing++"}
+    - {t: "has cried", why: "เล่าอดีต ใช้ has ไม่ได้"}
+    - {t: "would cry", why: "ไม่ใช่นิสัยในอดีต"}
+    - {t: "had been cried", why: "รูปผิด cry ไม่ใช้ passive แบบนี้"}
+  explain: "ร่องรอยที่เห็น → ==had been + -ing=="
+  status: approved
+- id: cefr-b2-w01-052
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  pool: true
+  stem: "She found it hard to ____ with the pressure of looking after her parents and working full-time."
+  choices:
+    - {t: "cope", why: "รับมือ = ++cope with++"}
+    - {t: "overcome", why: "overcome ไม่ตามด้วย with"}
+    - {t: "reluctant", why: "reluctant เป็นคุณศัพท์"}
+    - {t: "eventually", why: "eventually เป็นคำวิเศษณ์"}
+  explain: "cope ==with== = รับมือกับ"
+  status: approved
+- id: cefr-b2-w01-053
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  pool: true
+  stem: "He managed to ____ his fear of flying by doing a short course."
+  choices:
+    - {t: "overcome", why: "เอาชนะ = ++overcome a fear++"}
+    - {t: "cope", why: "cope ต้องมี with"}
+    - {t: "consequence", why: "consequence เป็นคำนาม"}
+    - {t: "gradually", why: "gradually เป็นคำวิเศษณ์"}
+  explain: "overcome a problem / fear = ==เอาชนะ=="
+  status: approved
+- id: cefr-b2-w01-054
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  pool: true
+  stem: "____, I thought the job would be easy, but I soon realised how much there was to learn."
+  choices:
+    - {t: "Initially", why: "ตอนแรก = ++initially++"}
+    - {t: "Eventually", why: "eventually คือในที่สุด ลำดับกลับกัน"}
+    - {t: "Gradually", why: "gradually คือค่อย ๆ"}
+    - {t: "Frustrated", why: "frustrated เป็นคุณศัพท์"}
+  explain: "==Initially== = ตอนแรก · eventually = ในที่สุด"
+  status: approved
+- id: cefr-b2-w01-055
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 2
+  pool: true
+  stem: "After weeks of searching, they ____ found a flat they could afford."
+  choices:
+    - {t: "eventually", why: "ในที่สุด = ++eventually++"}
+    - {t: "initially", why: "ความหมายตรงข้ามกับ after weeks"}
+    - {t: "reluctant", why: "reluctant เป็นคุณศัพท์"}
+    - {t: "overwhelmed", why: "overwhelmed เป็นคุณศัพท์"}
+  explain: "eventually = ==ในที่สุด (หลังใช้เวลานาน)=="
+  status: approved
+- id: cefr-b2-w01-056
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 3
+  pool: true
+  stem: "Many staff were ____ to try the new software because they were happy with the old one."
+  choices:
+    - {t: "reluctant", why: "ไม่เต็มใจ = ++reluctant to++"}
+    - {t: "overwhelmed", why: "overwhelmed ไม่ตามด้วย to + V"}
+    - {t: "frustrated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "challenge", why: "challenge เป็นคำนาม"}
+  explain: "be reluctant ==to + V1== = ไม่ค่อยเต็มใจ"
+  status: approved
+- id: cefr-b2-w01-057
+  kind: mcq
+  skill: vo
+  topic: challenge-coping
+  level: 3
+  pool: true
+  stem: "On my first day, I felt completely ____ by all the new names, systems and rules."
+  choices:
+    - {t: "overwhelmed", why: "ท่วมท้นรับไม่ไหว = ++overwhelmed by++"}
+    - {t: "reluctant", why: "reluctant ไม่ใช้ by"}
+    - {t: "gradually", why: "gradually เป็นคำวิเศษณ์"}
+    - {t: "circumstance", why: "circumstance เป็นคำนาม"}
+  explain: "feel overwhelmed ==by== = รู้สึกรับไม่ไหว"
+  status: approved
+- id: cefr-b2-w01-058
+  kind: read
+  skill: rd
+  topic: first-year-story
+  level: 2
+  pool: true
+  title: "My First Year as a Hospital Pharmacist"
+  passage: |
+    When I started at the hospital, I had just finished university and had never worked night shifts. For the first two months, I was constantly tired, and I would often make small mistakes, such as putting medicine in the wrong drawer.
+
+    My supervisor, Khun Duangjai, noticed that I was struggling. Instead of criticising me, she suggested that I write a checklist for every task. Initially I was reluctant, because I thought checklists were for beginners. But I had to admit that I was a beginner.
+
+    Gradually, things improved. By the end of the year, I had stopped making the same mistakes, and I had started training new staff myself. Looking back, the biggest challenge wasn't the work itself. It was accepting that I needed help.
+  questions:
+    - stem: "What problem did the writer have at the beginning?"
+      choices:
+        - {t: "making small mistakes because of tiredness", why: "constantly tired ... make small mistakes"}
+        - {t: "arguing with the supervisor", why: "หัวหน้าช่วยเหลือ ไม่ได้ทะเลาะกัน"}
+        - {t: "not finishing university", why: "เขาเพิ่งเรียนจบ"}
+        - {t: "being given too few tasks", why: "ไม่ได้พูดว่างานน้อย"}
+    - stem: "Why was the writer reluctant to use a checklist at first?"
+      choices:
+        - {t: "he felt it was for inexperienced staff", why: "I thought checklists were for beginners"}
+        - {t: "it took too much time", why: "ไม่ได้พูดว่าเสียเวลา"}
+        - {t: "his supervisor didn't use one", why: "ไม่ได้พูดถึงหัวหน้าใช้หรือไม่"}
+        - {t: "he had too many tasks to list", why: "ไม่ได้พูดถึงเรื่องนี้"}
+    - stem: "According to the writer, what was hardest?"
+      choices:
+        - {t: "accepting help", why: "It was accepting that I needed help"}
+        - {t: "the night shifts", why: "เป็นปัญหาช่วงแรก แต่ไม่ใช่ที่ยากที่สุด"}
+        - {t: "training new staff", why: "เป็นสิ่งที่ทำได้ภายหลัง"}
+        - {t: "the work itself", why: "เขาบอกว่าไม่ใช่ตัวงาน"}
+  status: approved
+- id: cefr-b2-w01-059
+  kind: listen
+  skill: li
+  topic: long-narrative
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "How did your marathon go?"}
+    - {who: Man, en: "Well, I'd been training for months, but two days before the race I twisted my ankle. I still ran, but I had to walk the last ten kilometres."}
+  questions:
+    - stem: "What happened during the race?"
+      choices:
+        - {t: "he walked the final part", why: "I had to walk the last ten kilometres"}
+        - {t: "he didn't start", why: "เขายังลงวิ่ง จึงใช้ไม่ได้"}
+        - {t: "he won a medal", why: "ไม่ได้พูดถึงเหรียญ"}
+        - {t: "he twisted his ankle", why: "เจ็บข้อเท้าก่อนแข่งสองวัน"}
+  status: approved
+- id: cefr-b2-w01-060
+  kind: listen
+  skill: li
+  topic: long-narrative
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "We used to have dinner together every evening, but since my daughter started university, we only manage it at weekends."}
+  questions:
+    - stem: "What has changed for the man's family?"
+      choices:
+        - {t: "they eat together less often", why: "we only manage it at weekends"}
+        - {t: "they never eat together now", why: "ยังกินด้วยกันวันหยุด"}
+        - {t: "they eat out more often", why: "ไม่ได้พูดถึงการกินนอกบ้าน"}
+        - {t: "his daughter cooks dinner", why: "ไม่ได้พูดว่าลูกทำอาหาร"}
+  status: approved

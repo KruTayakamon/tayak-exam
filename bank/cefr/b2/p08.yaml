@@ -1,0 +1,277 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 8 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w08-043
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  pool: true
+  stem: "The two hotels, ____ were full, recommended a guesthouse nearby."
+  choices:
+    - {t: "both of which", why: "ขยายทั้งสองแห่ง ++both of which++"}
+    - {t: "both of them", why: "ทำให้เป็นสองประโยคเชื่อมด้วยจุลภาคไม่ได้"}
+    - {t: "both which", why: "ต้องมี of จึงใช้ไม่ได้"}
+    - {t: "which both of", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "จำนวน + ==of which / of whom== ในประโยคขยายแบบมีจุลภาค"
+  status: approved
+- id: cefr-b2-w08-044
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 2
+  pool: true
+  stem: "The colleague ____ I share an office has just had a baby."
+  choices:
+    - {t: "with whom", why: "บุพบท + ++whom++ (share with someone)"}
+    - {t: "with who", why: "หลังบุพบทใช้ whom"}
+    - {t: "whom", why: "ขาด with จึงไม่ครบความ"}
+    - {t: "with which", why: "which ใช้กับสิ่งของ"}
+  explain: "บุพบท + ==whom== (คน) / which (สิ่งของ)"
+  status: approved
+- id: cefr-b2-w08-045
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 3
+  pool: true
+  stem: "He failed the exam, ____ surprised everyone."
+  choices:
+    - {t: "which", why: "ขยายทั้งประโยค ++, which++"}
+    - {t: "that", why: "that ไม่ใช้หลังจุลภาค"}
+    - {t: "what", why: "what ไม่ใช้ขยายประโยคก่อนหน้า"}
+    - {t: "it", why: "it ทำให้เป็นสองประโยคเชื่อมผิด"}
+  explain: ", ==which== ขยายทั้งประโยคข้างหน้า"
+  status: approved
+- id: cefr-b2-w08-046
+  kind: mcq
+  skill: gm
+  topic: relative-clauses-advanced
+  level: 3
+  pool: true
+  stem: "This is the town ____ my grandmother grew up."
+  choices:
+    - {t: "in which", why: "บุพบท + which = ++where++"}
+    - {t: "which", why: "ขาด in จึงไม่ครบความ"}
+    - {t: "in where", why: "ไม่ใช้บุพบทหน้า where"}
+    - {t: "that", why: "that ต้องมี in ท้ายประโยค"}
+  explain: "==in which / where== = ที่ซึ่ง (สถานที่)"
+  status: approved
+- id: cefr-b2-w08-047
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  pool: true
+  stem: "____ the whole report, the editor sent it back with only two comments."
+  choices:
+    - {t: "Having read", why: "ทำเสร็จก่อนอีกเรื่อง ++Having + V3++"}
+    - {t: "Read", why: "ไม่ชัดว่าเป็นผู้อ่านหรือถูกอ่าน"}
+    - {t: "Being read", why: "ความหมายเป็น passive"}
+    - {t: "Having been read", why: "บรรณาธิการเป็นผู้อ่าน ไม่ใช่ถูกอ่าน"}
+  explain: "==Having + V3== = หลังจากทำ...แล้ว"
+  status: approved
+- id: cefr-b2-w08-048
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 2
+  pool: true
+  stem: "Most of the rice ____ in this region is sold abroad."
+  choices:
+    - {t: "grown", why: "ย่อ passive ++V3++ (= which is grown)"}
+    - {t: "growing", why: "ข้าวไม่ได้ปลูกเอง"}
+    - {t: "grew", why: "ไม่ใช่กริยาแท้ของประโยค"}
+    - {t: "to grow", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "คำนาม + ==V3== = ที่ถูก... (ย่อ which is + V3)"
+  status: approved
+- id: cefr-b2-w08-049
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 3
+  pool: true
+  stem: "____ near the station, the hotel is popular with business travellers."
+  choices:
+    - {t: "Located", why: "ย่อ passive ++Located++ (= Because it is located)"}
+    - {t: "Locating", why: "โรงแรมไม่ได้เป็นผู้ระบุตำแหน่ง"}
+    - {t: "It located", why: "ทำให้เป็นสองประโยคเชื่อมผิด"}
+    - {t: "To locate", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==Located / Situated== near ... = ตั้งอยู่ใกล้"
+  status: approved
+- id: cefr-b2-w08-050
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 3
+  pool: true
+  stem: "People ____ in the area are advised to keep their windows closed."
+  choices:
+    - {t: "living", why: "ย่อ active ++-ing++ (= who live)"}
+    - {t: "lived", why: "ความหมายเป็น passive"}
+    - {t: "live", why: "ไม่ใช่กริยาแท้ของประโยค"}
+    - {t: "to living", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "คำนาม + ==-ing== = ที่กำลัง/ที่... (ย่อ who + กริยา)"
+  status: approved
+- id: cefr-b2-w08-051
+  kind: mcq
+  skill: gm
+  topic: participle-clauses
+  level: 3
+  pool: true
+  stem: "Not ____ what to say, he just smiled."
+  choices:
+    - {t: "knowing", why: "ย่อเหตุผล ปฏิเสธ ++Not + -ing++"}
+    - {t: "known", why: "ความหมายเป็น passive"}
+    - {t: "to know", why: "ไม่ใช่รูปย่อเหตุผล"}
+    - {t: "knew", why: "ไม่ใช่กริยาแท้ของประโยค"}
+  explain: "==Not + -ing== = เพราะไม่..."
+  status: approved
+- id: cefr-b2-w08-052
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  pool: true
+  stem: "Wearing a seat belt is ____ for all passengers in the car."
+  choices:
+    - {t: "compulsory", why: "บังคับ = ++compulsory++"}
+    - {t: "optional", why: "optional คือเลือกได้"}
+    - {t: "excluded", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "framework", why: "framework เป็นคำนาม"}
+  explain: "compulsory = ==บังคับ== · optional = เลือกได้"
+  status: approved
+- id: cefr-b2-w08-053
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 2
+  pool: true
+  stem: "Joining the evening sports club is ____. You don't have to do it."
+  choices:
+    - {t: "optional", why: "เลือกได้ = ++optional++"}
+    - {t: "mandatory", why: "mandatory คือบังคับ ตรงข้ามกับบริบท"}
+    - {t: "compulsory", why: "compulsory คือบังคับ"}
+    - {t: "restrict", why: "restrict เป็นกริยา"}
+  explain: "optional = ==ไม่บังคับ ทำหรือไม่ก็ได้=="
+  status: approved
+- id: cefr-b2-w08-054
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 3
+  pool: true
+  stem: "Staff must follow a strict ____ when handling cash at the end of the day."
+  choices:
+    - {t: "procedure", why: "ขั้นตอน = ++procedure++"}
+    - {t: "legislation", why: "legislation คือกฎหมาย"}
+    - {t: "curriculum", why: "curriculum คือหลักสูตร"}
+    - {t: "framework", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "procedure = ==ขั้นตอนการปฏิบัติ=="
+  status: approved
+- id: cefr-b2-w08-055
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 3
+  pool: true
+  stem: "The city plans to ____ the number of cars allowed in the old town."
+  choices:
+    - {t: "restrict", why: "จำกัด = ++restrict++"}
+    - {t: "enforce", why: "enforce คือบังคับใช้กฎ"}
+    - {t: "impose", why: "impose ต้องมี on"}
+    - {t: "exclude", why: "exclude คือกันออกไป"}
+  explain: "restrict = ==จำกัด=="
+  status: approved
+- id: cefr-b2-w08-056
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 3
+  pool: true
+  stem: "The police are responsible for ____ the new speed limits."
+  choices:
+    - {t: "enforcing", why: "บังคับใช้ = ++enforce the law++"}
+    - {t: "restricting", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "imposing", why: "impose ใช้ impose ... on"}
+    - {t: "excluding", why: "exclude คือกันออกไป"}
+  explain: "enforce rules = ==บังคับใช้กฎ=="
+  status: approved
+- id: cefr-b2-w08-057
+  kind: mcq
+  skill: vo
+  topic: policies
+  level: 3
+  pool: true
+  stem: "The government has ____ a new tax on sugary drinks."
+  choices:
+    - {t: "imposed", why: "กำหนดบังคับ = ++impose a tax on++"}
+    - {t: "enforced", why: "enforce ใช้กับกฎที่มีอยู่"}
+    - {t: "excluded", why: "exclude คือกันออกไป"}
+    - {t: "restricted", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "impose ... ==on== = กำหนด (ภาษี กฎ) ให้"
+  status: approved
+- id: cefr-b2-w08-058
+  kind: read
+  skill: rd
+  topic: policy-article
+  level: 2
+  pool: true
+  title: "Explaining the (Fictional) Clean Air Policy"
+  passage: |
+    From next year, the city of Riverdale will introduce a new Clean Air Policy. Under the policy, older trucks that produce high levels of smoke will be restricted from entering the city centre between 7 am and 7 pm.
+
+    Public buses will be excluded from the rule until 2028, when the city expects to have replaced them with electric buses. Owners of small businesses can apply for a loan of up to 200,000 baht to update their vehicles.
+
+    Critics argue that the policy will make deliveries more expensive. However, the city says air pollution in the centre has risen by 20 per cent in three years and that action is unavoidable. The rule will be enforced by cameras at twelve entry points.
+  questions:
+    - stem: "When can older trucks enter the city centre?"
+      choices:
+        - {t: "at night", why: "restricted ... between 7 am and 7 pm"}
+        - {t: "only on weekends", why: "ไม่ได้พูดถึงวันหยุด"}
+        - {t: "never", why: "ห้ามเฉพาะช่วงกลางวัน"}
+        - {t: "from 2028", why: "2028 เกี่ยวกับรถเมล์"}
+    - stem: "What is true about public buses?"
+      choices:
+        - {t: "the rule won't apply to them until 2028", why: "excluded from the rule until 2028"}
+        - {t: "they are already electric", why: "เมืองคาดว่าจะเปลี่ยนเป็นไฟฟ้าภายหลัง"}
+        - {t: "they can't enter the centre", why: "ไม่ได้ถูกห้าม จึงใช้ไม่ได้"}
+        - {t: "they need a loan", why: "เงินกู้มีไว้ให้ธุรกิจขนาดเล็ก"}
+    - stem: "How will the rule be enforced?"
+      choices:
+        - {t: "with cameras", why: "enforced by cameras at twelve entry points"}
+        - {t: "by the police", why: "ไม่ได้พูดถึงตำรวจ"}
+        - {t: "by truck owners", why: "ในบทไม่ได้พูดถึง by truck owners"}
+        - {t: "with paper tickets", why: "ในบทไม่ได้พูดถึง with paper tickets"}
+  status: approved
+- id: cefr-b2-w08-059
+  kind: listen
+  skill: li
+  topic: policy-talk
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "The new leave policy means staff must request holidays at least two weeks in advance, except in emergencies."}
+  questions:
+    - stem: "What does the new policy require?"
+      choices:
+        - {t: "asking for holidays two weeks before", why: "request holidays at least two weeks in advance"}
+        - {t: "taking holidays in emergencies only", why: "ข้อยกเว้นคือกรณีฉุกเฉิน"}
+        - {t: "taking two weeks off each year", why: "ไม่ได้พูดถึงจำนวนวันลา"}
+        - {t: "asking permission by phone", why: "ไม่ได้พูดถึงโทรศัพท์"}
+  status: approved
+- id: cefr-b2-w08-060
+  kind: listen
+  skill: li
+  topic: policy-talk
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Having read the new rules, I think they're fair, although restricting the use of phones in meetings might be hard to enforce."}
+  questions:
+    - stem: "What does the man think could be difficult?"
+      choices:
+        - {t: "making people follow the phone rule", why: "might be hard to enforce"}
+        - {t: "understanding the rules", why: "เขาอ่านแล้วว่ายุติธรรม"}
+        - {t: "reading the rules", why: "เขาอ่านแล้ว จึงใช้ไม่ได้"}
+        - {t: "finding a meeting room", why: "ไม่ได้พูดถึงห้องประชุม"}
+  status: approved

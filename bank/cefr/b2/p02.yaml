@@ -1,0 +1,277 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 2 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w02-043
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  pool: true
+  stem: "I ____ three chapters of the report so far, and I hope to finish the rest by Friday."
+  choices:
+    - {t: "have written", why: "นับจำนวนที่ทำเสร็จ ++have + V3++"}
+    - {t: "have been writing", why: "ไม่ใช้เมื่อนับจำนวนชิ้นที่เสร็จ"}
+    - {t: "wrote", why: "so far ต้องเชื่อมกับปัจจุบัน"}
+    - {t: "am writing", why: "ไม่ได้นับผลที่เสร็จแล้ว"}
+  explain: "ผลลัพธ์/จำนวน ==have + V3== · ระยะเวลา have been + -ing"
+  status: approved
+- id: cefr-b2-w02-044
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  pool: true
+  stem: "You look exhausted. ____ you been working late again?"
+  choices:
+    - {t: "Have", why: "ร่องรอยที่เห็นตอนนี้ ++Have you been + -ing?++"}
+    - {t: "Did", why: "did ไม่ตามด้วย been working"}
+    - {t: "Are", why: "are ไม่ตามด้วย been"}
+    - {t: "Had", why: "เป็นเรื่องปัจจุบัน ไม่ใช่อดีต"}
+  explain: "เห็นผลตอนนี้ ถามสาเหตุ → ==Have you been + -ing?=="
+  status: approved
+- id: cefr-b2-w02-045
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 2
+  pool: true
+  stem: "How long ____ this project? It seems to be taking forever."
+  choices:
+    - {t: "have you been managing", why: "ระยะเวลาที่ยังทำอยู่ ++have been + -ing++"}
+    - {t: "did you manage", why: "ยังทำอยู่ ใช้อดีตไม่ได้"}
+    - {t: "are you managing", why: "how long ไม่ใช้กับรูปนี้"}
+    - {t: "had you managed", why: "เป็นเรื่องปัจจุบัน"}
+  explain: "How long + ==have you been + -ing==?"
+  status: approved
+- id: cefr-b2-w02-046
+  kind: mcq
+  skill: gm
+  topic: present-perfect-simple-vs-continuous
+  level: 3
+  pool: true
+  stem: "I ____ this phone for six years and it has never broken down."
+  choices:
+    - {t: "have had", why: "have (มี) ไม่ใช้ -ing ++have had++"}
+    - {t: "have been having", why: "have ในความหมายมี ไม่ใช้ -ing"}
+    - {t: "had", why: "ยังมีอยู่ ใช้อดีตไม่ได้"}
+    - {t: "am having", why: "ไม่ใช้กับ for six years"}
+  explain: "กริยาสภาพ (have=มี, know, own) ==ไม่ใช้ -ing=="
+  status: approved
+- id: cefr-b2-w02-047
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  pool: true
+  stem: "____ honesty is the most important quality in a manager, in my view."
+  choices:
+    - {t: "No article (Honesty)", why: "นามธรรมพูดทั่วไป ++ไม่ใส่ article++"}
+    - {t: "The", why: "ไม่ได้เจาะจงความซื่อสัตย์ของใคร"}
+    - {t: "An", why: "honesty นับไม่ได้"}
+    - {t: "A", why: "honesty นับไม่ได้ และขึ้นต้นด้วยสระเสียง"}
+  explain: "คำนามนามธรรมพูดทั่วไป ==ไม่ใส่ a/the=="
+  status: approved
+- id: cefr-b2-w02-048
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  pool: true
+  stem: "____ of the two candidates had enough experience, so we advertised the job again."
+  choices:
+    - {t: "Neither", why: "ไม่มีใครเลยในสองคน ++neither of++"}
+    - {t: "None", why: "none ใช้กับมากกว่าสอง"}
+    - {t: "Either", why: "either แปลว่าคนใดคนหนึ่ง"}
+    - {t: "Both", why: "ความหมายกลับกับประโยคหลัง"}
+  explain: "สองคน ==neither / either / both== · สามขึ้นไป none / any / all"
+  status: approved
+- id: cefr-b2-w02-049
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 3
+  pool: true
+  stem: "There's ____ chance of rain today, so take an umbrella just in case."
+  choices:
+    - {t: "a slight", why: "มีโอกาสนิดหน่อย ++a slight chance++"}
+    - {t: "slight", why: "chance นับได้ ต้องมี a"}
+    - {t: "the slight", why: "ไม่ได้เจาะจงโอกาสใด"}
+    - {t: "a few", why: "a few ใช้กับนามพหูพจน์"}
+  explain: "a slight / good / strong ==chance== = มีโอกาส..."
+  status: approved
+- id: cefr-b2-w02-050
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 3
+  pool: true
+  stem: "Hardly ____ attended the training, so it was rescheduled."
+  choices:
+    - {t: "anyone", why: "hardly + ++any-++ = แทบไม่มี"}
+    - {t: "no one", why: "hardly เป็นปฏิเสธอยู่แล้ว"}
+    - {t: "someone", why: "hardly ใช้คู่กับ any-"}
+    - {t: "everyone", why: "ความหมายไม่ตรงกับการเลื่อน"}
+  explain: "==hardly any / anyone== = แทบไม่มี"
+  status: approved
+- id: cefr-b2-w02-051
+  kind: mcq
+  skill: gm
+  topic: articles-quantifiers-advanced
+  level: 2
+  pool: true
+  stem: "The museum is closed on ____ Monday of each month for cleaning."
+  choices:
+    - {t: "the first", why: "ลำดับที่เจาะจง ++the + ลำดับที่++"}
+    - {t: "a first", why: "ลำดับที่ใช้ the"}
+    - {t: "first", why: "ต้องมี the หน้าลำดับที่"}
+    - {t: "one first", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==the first / the last / the second== + คำนาม"
+  status: approved
+- id: cefr-b2-w02-052
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  pool: true
+  stem: "The team has made good ____ this month; we're almost halfway."
+  choices:
+    - {t: "progress", why: "ความคืบหน้า = ++make progress++ (นับไม่ได้)"}
+    - {t: "workload", why: "workload คือปริมาณงาน"}
+    - {t: "burnout", why: "burnout คือภาวะหมดไฟ"}
+    - {t: "consistent", why: "consistent เป็นคุณศัพท์"}
+  explain: "make progress = ==มีความคืบหน้า=="
+  status: approved
+- id: cefr-b2-w02-053
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  pool: true
+  stem: "Nurses who work too many night shifts are at risk of ____."
+  choices:
+    - {t: "burnout", why: "หมดไฟ = ++burnout++"}
+    - {t: "progress", why: "progress คือความคืบหน้า"}
+    - {t: "thorough", why: "thorough เป็นคุณศัพท์"}
+    - {t: "punctual", why: "punctual เป็นคุณศัพท์"}
+  explain: "burnout = ==ภาวะหมดไฟจากงาน=="
+  status: approved
+- id: cefr-b2-w02-054
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  pool: true
+  stem: "Our new system helps us ____ energy use in every building."
+  choices:
+    - {t: "monitor", why: "ติดตามเฝ้าดู = ++monitor++"}
+    - {t: "maintain", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "efficient", why: "efficient เป็นคุณศัพท์"}
+    - {t: "ongoing", why: "ongoing เป็นคุณศัพท์"}
+  explain: "monitor = ==ติดตาม ตรวจดูอย่างต่อเนื่อง=="
+  status: approved
+- id: cefr-b2-w02-055
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 2
+  pool: true
+  stem: "Our manager is very ____. She checks every detail before sending a report."
+  choices:
+    - {t: "thorough", why: "ละเอียดถี่ถ้วน = ++thorough++"}
+    - {t: "punctual", why: "punctual คือตรงเวลา"}
+    - {t: "ongoing", why: "ongoing คือที่ยังดำเนินอยู่"}
+    - {t: "considerably", why: "considerably เป็นคำวิเศษณ์"}
+  explain: "thorough = ==ละเอียด รอบคอบ=="
+  status: approved
+- id: cefr-b2-w02-056
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 3
+  pool: true
+  stem: "Sales have increased ____ since we opened the online shop."
+  choices:
+    - {t: "considerably", why: "อย่างมาก = ++considerably++"}
+    - {t: "consistent", why: "consistent เป็นคุณศัพท์"}
+    - {t: "thorough", why: "thorough เป็นคุณศัพท์"}
+    - {t: "efficient", why: "efficient เป็นคุณศัพท์"}
+  explain: "increase considerably = ==เพิ่มขึ้นมาก=="
+  status: approved
+- id: cefr-b2-w02-057
+  kind: mcq
+  skill: vo
+  topic: work-progress
+  level: 3
+  pool: true
+  stem: "The investigation is still ____, so we can't comment on it yet."
+  choices:
+    - {t: "ongoing", why: "ยังดำเนินอยู่ = ++ongoing++"}
+    - {t: "punctual", why: "punctual คือตรงเวลา"}
+    - {t: "efficient", why: "efficient คือมีประสิทธิภาพ"}
+    - {t: "effective", why: "effective คือได้ผล"}
+  explain: "ongoing = ==ยังไม่จบ กำลังดำเนินอยู่=="
+  status: approved
+- id: cefr-b2-w02-058
+  kind: read
+  skill: rd
+  topic: progress-report
+  level: 2
+  pool: true
+  title: "Library Renovation: Progress Report (Month 3)"
+  passage: |
+    Work on the city library has continued steadily over the past month. The new roof has been completed, and the electricians have been installing lighting on the ground floor since early June.
+
+    However, there has been one delay. The furniture supplier has informed us that the new bookshelves will arrive three weeks later than planned. As a result, the children's area will not open in July as originally announced.
+
+    The total cost so far is 4.2 million baht, which is slightly below the budget. We expect the main reading room to reopen on 1 September. Meanwhile, a temporary library service is running from the community hall on Rama Road.
+  questions:
+    - stem: "What has been finished?"
+      choices:
+        - {t: "the roof", why: "The new roof has been completed"}
+        - {t: "the lighting", why: "ช่างไฟยังติดตั้งอยู่"}
+        - {t: "the children's area", why: "ยังไม่เปิด เพราะชั้นหนังสือมาช้า"}
+        - {t: "the main reading room", why: "จะเปิดวันที่ 1 กันยายน"}
+    - stem: "Why will the children's area open late?"
+      choices:
+        - {t: "the shelves will be delivered late", why: "bookshelves will arrive three weeks later"}
+        - {t: "the budget has run out", why: "ค่าใช้จ่ายยังต่ำกว่างบ"}
+        - {t: "the electricians are behind schedule", why: "ไม่ได้บอกว่าช่างไฟล่าช้า"}
+        - {t: "the roof needs more work", why: "หลังคาเสร็จแล้ว"}
+    - stem: "Where can people borrow books now?"
+      choices:
+        - {t: "at the community hall", why: "a temporary library service ... community hall"}
+        - {t: "in the main reading room", why: "จะเปิดเดือนกันยายน"}
+        - {t: "on the ground floor", why: "ชั้นล่างกำลังติดไฟ"}
+        - {t: "online only", why: "ไม่ได้พูดถึงบริการออนไลน์"}
+  status: approved
+- id: cefr-b2-w02-059
+  kind: listen
+  skill: li
+  topic: oral-report
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "So far we've contacted about sixty customers, and most of them have been very positive. We've been focusing on the north this week, and we'll move to the south next."}
+  questions:
+    - stem: "What will the team do next?"
+      choices:
+        - {t: "contact customers in the south", why: "we'll move to the south next"}
+        - {t: "stop contacting customers", why: "ยังทำงานต่อ จึงใช้ไม่ได้"}
+        - {t: "focus on the north", why: "เป็นสิ่งที่ทำสัปดาห์นี้"}
+        - {t: "write a final report", why: "ไม่ได้พูดถึงรายงานสรุป"}
+  status: approved
+- id: cefr-b2-w02-060
+  kind: listen
+  skill: li
+  topic: oral-report
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Our workload has doubled since two people left, so we've been working most weekends. We really need to hire someone soon."}
+  questions:
+    - stem: "Why has the team been working at weekends?"
+      choices:
+        - {t: "two staff members left", why: "since two people left"}
+        - {t: "they started a new project", why: "ไม่ได้พูดถึงโครงการใหม่"}
+        - {t: "they are behind on a deadline", why: "ไม่ได้พูดถึงกำหนดส่ง"}
+        - {t: "they want extra pay", why: "ไม่ได้พูดถึงค่าล่วงเวลา"}
+  status: approved

@@ -1,0 +1,278 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 5 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w05-043
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  pool: true
+  stem: "If we ____ the map more carefully, we wouldn't have got lost."
+  choices:
+    - {t: "had read", why: "เงื่อนไขในอดีตที่ไม่จริง ++If + had + V3++"}
+    - {t: "read", why: "ต้องใช้ had + V3 กับอดีตที่ไม่เกิด"}
+    - {t: "would have read", why: "หลัง if ไม่ใช้ would"}
+    - {t: "have read", why: "ขาด had จึงใช้ไม่ได้"}
+  explain: "If + ==had + V3==, would have + V3"
+  status: approved
+- id: cefr-b2-w05-044
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 2
+  pool: true
+  stem: "She ____ the job if she had arrived on time for the interview."
+  choices:
+    - {t: "might have got", why: "ผลในอดีตที่ไม่เกิด ++might have + V3++"}
+    - {t: "might get", why: "ต้องเป็นอดีตสมมติ"}
+    - {t: "had got", why: "ประโยคผลต้องมี would/might have"}
+    - {t: "will have got", why: "ไม่ใช้ will กับอดีตสมมติ"}
+  explain: "ผลในอดีตที่ไม่เกิดจริง ==would / might / could have + V3=="
+  status: approved
+- id: cefr-b2-w05-045
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 3
+  pool: true
+  stem: "I wouldn't have known about the sale if you ____ me."
+  choices:
+    - {t: "hadn't told", why: "ถ้าไม่ได้บอก (แต่บอกแล้ว) ++hadn't + V3++"}
+    - {t: "didn't tell", why: "ต้องถอยเป็น had + V3"}
+    - {t: "wouldn't tell", why: "หลัง if ไม่ใช้ would"}
+    - {t: "haven't told", why: "ไม่ใช่รูปของเงื่อนไขแบบที่ 3"}
+  explain: "If + ==hadn't + V3== = ถ้าไม่ได้..."
+  status: approved
+- id: cefr-b2-w05-046
+  kind: mcq
+  skill: gm
+  topic: third-conditional
+  level: 3
+  pool: true
+  stem: "If the alarm ____, the fire would have spread to the whole building."
+  choices:
+    - {t: "hadn't gone off", why: "ถ้าสัญญาณไม่ดัง (แต่ดังแล้ว) ++hadn't + V3++"}
+    - {t: "didn't go off", why: "ต้องถอยเป็น had + V3"}
+    - {t: "hasn't gone off", why: "ไม่ใช่รูปเงื่อนไขแบบที่ 3"}
+    - {t: "wouldn't go off", why: "หลัง if ไม่ใช้ would"}
+  explain: "If + had(n't) + V3, ==would have + V3=="
+  status: approved
+- id: cefr-b2-w05-047
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 2
+  pool: true
+  stem: "If I had studied nursing, I ____ in a hospital now."
+  choices:
+    - {t: "would be working", why: "อดีตสมมติ ผลถึงปัจจุบัน ++would + V1/be -ing++"}
+    - {t: "would have worked", why: "มี now ต้องเป็นผลตอนนี้"}
+    - {t: "will be working", why: "เงื่อนไขสมมติไม่ใช้ will"}
+    - {t: "had worked", why: "ประโยคผลต้องมี would"}
+  explain: "เงื่อนไขผสม: If + had V3, ==would + V1 (now)=="
+  status: approved
+- id: cefr-b2-w05-048
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 3
+  pool: true
+  stem: "____ you need any help, please call the front desk."
+  choices:
+    - {t: "Should", why: "แทน If you should ++Should + ประธาน++"}
+    - {t: "Would", why: "ไม่ใช้ would แทน if"}
+    - {t: "Had", why: "had ใช้กับอดีตสมมติ"}
+    - {t: "Were", why: "were ต้องตามด้วย to หรือคุณศัพท์"}
+  explain: "==Should you + V1== = If you need (สุภาพ ทางการ)"
+  status: approved
+- id: cefr-b2-w05-049
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 3
+  pool: true
+  stem: "The landlord says we can keep a cat ____ it stays inside the flat."
+  choices:
+    - {t: "provided", why: "ตราบใดที่ ++provided (that)++"}
+    - {t: "unless", why: "ความหมายกลับกัน"}
+    - {t: "in case", why: "in case แปลว่าเผื่อไว้"}
+    - {t: "otherwise", why: "otherwise ไม่เชื่อมแบบนี้"}
+  explain: "==provided / as long as== = ตราบใดที่ (มีเงื่อนไข)"
+  status: approved
+- id: cefr-b2-w05-050
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 3
+  pool: true
+  stem: "Take a jacket ____ it gets cold in the evening."
+  choices:
+    - {t: "in case", why: "เผื่อไว้ ++in case++"}
+    - {t: "unless", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "provided", why: "provided คือมีเงื่อนไขว่า"}
+    - {t: "if not", why: "ไม่ใช่สำนวนที่ใช้ตรงนี้"}
+  explain: "in case = ==เผื่อว่า== (ทำไว้ก่อน)"
+  status: approved
+- id: cefr-b2-w05-051
+  kind: mcq
+  skill: gm
+  topic: mixed-conditionals-alternatives
+  level: 3
+  pool: true
+  stem: "____ your advice, I would have bought a fake watch."
+  choices:
+    - {t: "But for", why: "ถ้าไม่มี ++But for + คำนาม++"}
+    - {t: "Unless", why: "unless ต้องตามด้วยประโยค"}
+    - {t: "Without of", why: "ไม่มี of หลัง without"}
+    - {t: "Except", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==But for / Without + คำนาม== = ถ้าไม่มี..."
+  status: approved
+- id: cefr-b2-w05-052
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  pool: true
+  stem: "I ____ not taking the job in Singapore. It was a great opportunity."
+  choices:
+    - {t: "regret", why: "เสียใจที่ไม่ได้ทำ = ++regret + -ing++"}
+    - {t: "justify", why: "justify คืออ้างเหตุผล"}
+    - {t: "abandon", why: "abandon คือทิ้ง"}
+    - {t: "decline", why: "decline ไม่ตามด้วย -ing แบบนี้"}
+  explain: "regret + ==-ing== = เสียใจที่ (ได้/ไม่ได้) ทำ"
+  status: approved
+- id: cefr-b2-w05-053
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 2
+  pool: true
+  stem: "After a long discussion, both sides agreed to a ____."
+  choices:
+    - {t: "compromise", why: "การประนีประนอม = ++reach a compromise++"}
+    - {t: "dilemma", why: "dilemma คือทางเลือกที่ลำบาก"}
+    - {t: "sacrifice", why: "sacrifice คือการเสียสละ"}
+    - {t: "reasonable", why: "reasonable เป็นคุณศัพท์"}
+  explain: "compromise = ==ต่างฝ่ายยอมกันคนละนิด=="
+  status: approved
+- id: cefr-b2-w05-054
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 3
+  pool: true
+  stem: "She faced a ____: accept a better salary or stay near her family."
+  choices:
+    - {t: "dilemma", why: "ต้องเลือกระหว่างสองทางที่ยาก = ++dilemma++"}
+    - {t: "compromise", why: "compromise คือการยอมกันคนละนิด"}
+    - {t: "regret", why: "regret คือความเสียใจ"}
+    - {t: "inevitable", why: "inevitable เป็นคุณศัพท์"}
+  explain: "face a dilemma = ==ต้องเลือกในสถานการณ์ยาก=="
+  status: approved
+- id: cefr-b2-w05-055
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 3
+  pool: true
+  stem: "With so many cars on the road, traffic jams are ____ at rush hour."
+  choices:
+    - {t: "inevitable", why: "เลี่ยงไม่ได้ = ++inevitable++"}
+    - {t: "reasonable", why: "reasonable คือสมเหตุสมผล"}
+    - {t: "obvious", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "justify", why: "justify เป็นกริยา"}
+  explain: "inevitable = ==หลีกเลี่ยงไม่ได้=="
+  status: approved
+- id: cefr-b2-w05-056
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 3
+  pool: true
+  stem: "Can you ____ spending so much money on a new logo?"
+  choices:
+    - {t: "justify", why: "ให้เหตุผลรองรับ = ++justify++"}
+    - {t: "convince", why: "convince ต้องมีคนเป็นกรรม"}
+    - {t: "neglect", why: "neglect คือละเลย"}
+    - {t: "decline", why: "decline คือปฏิเสธ/ลดลง"}
+  explain: "justify = ==อธิบายเหตุผลว่าทำไมสมควร=="
+  status: approved
+- id: cefr-b2-w05-057
+  kind: mcq
+  skill: vo
+  topic: decisions
+  level: 3
+  pool: true
+  stem: "Bad weather forced the climbers to ____ their attempt to reach the top."
+  choices:
+    - {t: "abandon", why: "ล้มเลิกกลางทาง = ++abandon++"}
+    - {t: "neglect", why: "neglect คือละเลย ไม่ใส่ใจ"}
+    - {t: "sacrifice", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "compromise", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (compromise)"}
+  explain: "abandon a plan = ==ล้มเลิกแผน=="
+  status: approved
+- id: cefr-b2-w05-058
+  kind: read
+  skill: rd
+  topic: reflection-article
+  level: 2
+  pool: true
+  title: "What Our Failed Market Taught Us"
+  passage: |
+    Two years ago, our community group opened a Sunday night market in the village square. We expected large crowds, but after four months we had to close it.
+
+    Looking back, the problems were obvious. We chose Sunday night because it was convenient for us, but most visitors had to work early on Monday. We also neglected advertising, believing that people would simply hear about it. If we had asked local people what they wanted, we would have chosen a different day.
+
+    We don't regret trying. The experience taught us to listen before planning. This year we reopened the market on Saturday afternoons after a survey of 300 residents, and it has been busy every week.
+  questions:
+    - stem: "Why did the Sunday market fail?"
+      choices:
+        - {t: "it was a bad day for visitors", why: "most visitors had to work early on Monday"}
+        - {t: "the square was too small", why: "ไม่ได้พูดถึงขนาดลาน"}
+        - {t: "the prices were too high", why: "ไม่ได้พูดถึงราคา"}
+        - {t: "it rained most Sundays", why: "ในบทไม่ได้พูดถึง it rained most Sundays"}
+    - stem: "What does the writer say they should have done?"
+      choices:
+        - {t: "asked residents first", why: "If we had asked local people ... different day"}
+        - {t: "opened in a bigger town", why: "ไม่ได้พูดถึงเมืองอื่น"}
+        - {t: "charged less money", why: "ไม่ได้พูดถึงค่าเช่า"}
+        - {t: "closed it sooner", why: "ไม่ได้บอกว่าควรปิดเร็วกว่านี้"}
+    - stem: "How do they feel about the experience now?"
+      choices:
+        - {t: "they think it was useful", why: "We don't regret trying. The experience taught us"}
+        - {t: "they are embarrassed", why: "ไม่ได้พูดว่าอาย"}
+        - {t: "they wish they hadn't tried", why: "ผู้เขียนบอกว่าไม่เสียใจ"}
+        - {t: "they are still disappointed", why: "ไม่ได้พูดว่ายังผิดหวัง"}
+  status: approved
+- id: cefr-b2-w05-059
+  kind: listen
+  skill: li
+  topic: reflection-discussion
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Do you think we should have hired more staff for the festival?"}
+    - {who: Man, en: "Definitely. If we'd had two more people, we wouldn't have run out of time to clean up."}
+  questions:
+    - stem: "What happened at the festival?"
+      choices:
+        - {t: "they didn't have time to clean up", why: "we wouldn't have run out of time to clean up"}
+        - {t: "they hired too many staff", why: "เขาบอกว่าคนไม่พอ"}
+        - {t: "the festival was cancelled", why: "ไม่ได้ยกเลิก จึงใช้ไม่ได้"}
+        - {t: "they finished cleaning early", why: "ความหมายกลับกัน"}
+  status: approved
+- id: cefr-b2-w05-060
+  kind: listen
+  skill: li
+  topic: decisions
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I declined the offer to move to head office. It would have meant a higher salary, but I'd have spent three hours a day travelling."}
+  questions:
+    - stem: "Why did the man say no?"
+      choices:
+        - {t: "the journey would be too long", why: "three hours a day travelling"}
+        - {t: "the salary was too low", why: "เงินเดือนจะสูงขึ้น"}
+        - {t: "he didn't like the manager", why: "ไม่ได้พูดถึงผู้จัดการ"}
+        - {t: "he wants to change jobs", why: "ไม่ได้พูดถึงการเปลี่ยนงาน"}
+  status: approved

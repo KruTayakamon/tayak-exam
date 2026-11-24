@@ -123,7 +123,7 @@
     - {t: "wouldn't", why: "สมมติปฏิเสธ ++wouldn't + V1++"}
     - {t: "won't", why: "เงื่อนไขสมมติใช้ would"}
     - {t: "don't", why: "ประโยคผลต้องมี would"}
-    - {t: "didn't", why: "บทไม่ได้พูดว่า didn't"}
+    - {t: "didn't", why: "ประโยคผลต้องมี would (didn't)"}
   explain: "If + past, ==wouldn't + V1=="
   status: approved
 - id: cefr-b1-w08-052

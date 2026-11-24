@@ -1,0 +1,279 @@
+# คอร์ส b2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 3 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-b2-w03-043
+  kind: mcq
+  skill: gm
+  topic: future-continuous-perfect
+  level: 2
+  pool: true
+  stem: "Don't call me between two and four. I ____ an online exam."
+  choices:
+    - {t: "will be taking", why: "กำลังทำอยู่ ณ ช่วงเวลาในอนาคต ++will be + -ing++"}
+    - {t: "will have taken", why: "จะทำเสร็จแล้ว ไม่ใช่กำลังทำ"}
+    - {t: "take", why: "ต้องบอกอนาคตที่กำลังดำเนิน"}
+    - {t: "am taken", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "ณ เวลาหนึ่งในอนาคต กำลังทำอยู่ ==will be + -ing=="
+  status: approved
+- id: cefr-b2-w03-044
+  kind: mcq
+  skill: gm
+  topic: future-continuous-perfect
+  level: 2
+  pool: true
+  stem: "By the end of this year, we ____ more than 500 trees in the village."
+  choices:
+    - {t: "will have planted", why: "เสร็จก่อนจุดในอนาคต ++will have + V3++"}
+    - {t: "will be planting", why: "by the end ต้องเน้นว่าเสร็จแล้ว"}
+    - {t: "have planted", why: "by the end of this year เป็นอนาคต"}
+    - {t: "will be having planted", why: "รูปผิด ไม่มีรูปนี้ในภาษาอังกฤษ"}
+  explain: "by + เวลาในอนาคต → ==will have + V3=="
+  status: approved
+- id: cefr-b2-w03-045
+  kind: mcq
+  skill: gm
+  topic: future-continuous-perfect
+  level: 3
+  pool: true
+  stem: "At nine tomorrow morning, the team ____ the new office in Chiang Rai."
+  choices:
+    - {t: "will be visiting", why: "กำลังทำอยู่ ณ เวลานั้น ++will be + -ing++"}
+    - {t: "will have visited", why: "ไม่ได้เน้นว่าทำเสร็จก่อนเก้าโมง"}
+    - {t: "visit", why: "ต้องบอกอนาคต จึงใช้ไม่ได้"}
+    - {t: "are visit", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "ณ เวลาหนึ่งในอนาคต (at nine tomorrow) = ==will be + -ing=="
+  status: approved
+- id: cefr-b2-w03-046
+  kind: mcq
+  skill: gm
+  topic: future-continuous-perfect
+  level: 3
+  pool: true
+  stem: "By the time you get this message, the plane ____."
+  choices:
+    - {t: "will have landed", why: "เสร็จก่อนผู้ฟังได้ข้อความ ++will have + V3++"}
+    - {t: "will be landing", why: "ไม่ชัดว่าลงจอดเสร็จแล้ว"}
+    - {t: "has landed", why: "อนาคต ใช้ has ไม่ได้"}
+    - {t: "lands", why: "ต้องบอกว่าเสร็จก่อนจุดนั้น"}
+  explain: "by the time + present → ==will have + V3=="
+  status: approved
+- id: cefr-b2-w03-047
+  kind: mcq
+  skill: gm
+  topic: future-in-past-expressions
+  level: 2
+  pool: true
+  stem: "I ____ call you yesterday, but my phone battery died."
+  choices:
+    - {t: "was going to", why: "ตั้งใจไว้แต่ไม่ได้ทำ ++was going to++"}
+    - {t: "will", why: "เป็นความตั้งใจในอดีต"}
+    - {t: "am going to", why: "yesterday เป็นอดีต"}
+    - {t: "would have to", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==was going to== = ตั้งใจจะ...แต่ (ไม่ได้ทำ)"
+  status: approved
+- id: cefr-b2-w03-048
+  kind: mcq
+  skill: gm
+  topic: future-in-past-expressions
+  level: 2
+  pool: true
+  stem: "The new bridge ____ to open in March, but it is still not finished."
+  choices:
+    - {t: "was supposed", why: "ตามแผนควรจะ ++was supposed to++"}
+    - {t: "is supposing", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "was supposing", why: "ต้องเป็น passive was supposed"}
+    - {t: "supposes", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "be ==supposed to== = ควรจะ (ตามแผน/ตามกำหนด)"
+  status: approved
+- id: cefr-b2-w03-049
+  kind: mcq
+  skill: gm
+  topic: future-in-past-expressions
+  level: 3
+  pool: true
+  stem: "The meeting is ____ to start; please take your seats."
+  choices:
+    - {t: "about", why: "กำลังจะเกิดเดี๋ยวนี้ ++be about to++"}
+    - {t: "going", why: "ไม่ใช้ going to start ในความหมายนี้"}
+    - {t: "supposed", why: "ไม่ได้หมายถึงตามกำหนด"}
+    - {t: "due", why: "due ไม่ตามด้วย to start ในบริบทนี้"}
+  explain: "be ==about to== + V1 = กำลังจะ...อยู่แล้ว"
+  status: approved
+- id: cefr-b2-w03-050
+  kind: mcq
+  skill: gm
+  topic: future-in-past-expressions
+  level: 3
+  pool: true
+  stem: "The director ____ to visit our branch next month, so everything must be ready."
+  choices:
+    - {t: "is due", why: "ตามกำหนดการ ++is due to++"}
+    - {t: "was due", why: "เป็นแผนในอนาคตที่ยังไม่เปลี่ยน"}
+    - {t: "is about", why: "about to ใช้กับเหตุการณ์ที่ใกล้มาก"}
+    - {t: "dues", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "be ==due to== + V1 = มีกำหนดจะ"
+  status: approved
+- id: cefr-b2-w03-051
+  kind: mcq
+  skill: gm
+  topic: future-in-past-expressions
+  level: 3
+  pool: true
+  stem: "Little did they know that the small café ____ become the most popular in town."
+  choices:
+    - {t: "would", why: "อนาคตเมื่อมองจากอดีต ++would++"}
+    - {t: "will", why: "เล่าในอดีต ใช้ will ไม่ได้"}
+    - {t: "was", why: "was become ผิดรูป"}
+    - {t: "had", why: "had become ทำให้ลำดับเวลาผิด"}
+  explain: "อนาคตจากมุมอดีต ==would + V1=="
+  status: approved
+- id: cefr-b2-w03-052
+  kind: mcq
+  skill: vo
+  topic: plans-goals
+  level: 2
+  pool: true
+  stem: "Our main ____ this year is to reduce waste by 30 per cent."
+  choices:
+    - {t: "objective", why: "เป้าหมาย = ++objective++"}
+    - {t: "prospect", why: "prospect คือโอกาสที่อาจเกิด"}
+    - {t: "temporary", why: "temporary เป็นคุณศัพท์"}
+    - {t: "anticipate", why: "anticipate เป็นกริยา"}
+  explain: "objective = ==วัตถุประสงค์ เป้าหมาย=="
+  status: approved
+- id: cefr-b2-w03-053
+  kind: mcq
+  skill: vo
+  topic: plans-goals
+  level: 2
+  pool: true
+  stem: "With so many tasks, you need to ____ the most urgent ones."
+  choices:
+    - {t: "prioritise", why: "จัดลำดับความสำคัญ = ++prioritise++"}
+    - {t: "postpone", why: "postpone คือเลื่อน ตรงข้ามกับ urgent"}
+    - {t: "priority", why: "priority เป็นคำนาม"}
+    - {t: "strategy", why: "strategy เป็นคำนาม"}
+  explain: "prioritise = ==ทำสิ่งสำคัญก่อน== · priority = สิ่งสำคัญอันดับแรก"
+  status: approved
+- id: cefr-b2-w03-054
+  kind: mcq
+  skill: vo
+  topic: plans-goals
+  level: 2
+  pool: true
+  stem: "We ____ a lot of visitors during the festival, so we've hired extra staff."
+  choices:
+    - {t: "anticipate", why: "คาดการณ์ล่วงหน้า = ++anticipate++"}
+    - {t: "implement", why: "implement คือนำไปปฏิบัติ"}
+    - {t: "postpone", why: "postpone คือเลื่อน"}
+    - {t: "prioritise", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "anticipate = ==คาดการณ์ และเตรียมไว้=="
+  status: approved
+- id: cefr-b2-w03-055
+  kind: mcq
+  skill: vo
+  topic: plans-goals
+  level: 3
+  pool: true
+  stem: "The new recycling plan will be ____ in all offices from January."
+  choices:
+    - {t: "implemented", why: "นำไปใช้จริง = ++implement a plan++"}
+    - {t: "anticipated", why: "anticipated คือคาดการณ์ไว้"}
+    - {t: "postponed", why: "ไม่ได้บอกว่าเลื่อน"}
+    - {t: "objective", why: "objective เป็นคำนาม"}
+  explain: "implement = ==นำแผนไปปฏิบัติ=="
+  status: approved
+- id: cefr-b2-w03-056
+  kind: mcq
+  skill: vo
+  topic: plans-goals
+  level: 3
+  pool: true
+  stem: "This is only a ____ office. We'll move to a bigger building next year."
+  choices:
+    - {t: "temporary", why: "ชั่วคราว = ++temporary++"}
+    - {t: "permanent", why: "permanent คือถาวร ตรงข้ามกับบริบท"}
+    - {t: "approximately", why: "เป็นคำวิเศษณ์ จึงใช้ไม่ได้"}
+    - {t: "initiative", why: "initiative เป็นคำนาม"}
+  explain: "temporary = ==ชั่วคราว== · permanent = ถาวร"
+  status: approved
+- id: cefr-b2-w03-057
+  kind: mcq
+  skill: vo
+  topic: plans-goals
+  level: 3
+  pool: true
+  stem: "The trip will take ____ three hours, depending on traffic."
+  choices:
+    - {t: "approximately", why: "ประมาณ = ++approximately++"}
+    - {t: "temporary", why: "temporary เป็นคุณศัพท์"}
+    - {t: "permanent", why: "permanent เป็นคุณศัพท์"}
+    - {t: "prospect", why: "prospect เป็นคำนาม"}
+  explain: "approximately = ==ประมาณ== (= about)"
+  status: approved
+- id: cefr-b2-w03-058
+  kind: read
+  skill: rd
+  topic: business-plan
+  level: 2
+  pool: true
+  title: "Business Plan Summary: Baan Noodle Shop"
+  passage: |
+    Baan Noodle Shop opened two years ago in a small town near Ayutthaya. It serves around 120 customers a day, mostly office workers at lunchtime.
+
+    Our main objective for next year is to increase evening sales, which are currently very low. To do this, we are going to introduce a new dinner menu with rice dishes and extend our opening hours until 9 pm.
+
+    We also plan to start a delivery service through a popular app. This will require one extra member of staff. We anticipate that delivery will cover its own costs within six months.
+
+    We are postponing our plan to open a second shop until the first shop is consistently profitable in the evenings.
+  questions:
+    - stem: "What is the shop's main problem now?"
+      choices:
+        - {t: "few customers come in the evening", why: "evening sales, which are currently very low"}
+        - {t: "it has too many staff", why: "ไม่ได้พูดว่าพนักงานมากเกิน"}
+        - {t: "lunch is too expensive", why: "ไม่ได้พูดถึงราคาอาหารกลางวัน"}
+        - {t: "it is too far from the town", why: "ร้านอยู่ใกล้เมือง"}
+    - stem: "What will the delivery service need?"
+      choices:
+        - {t: "one more employee", why: "This will require one extra member of staff"}
+        - {t: "a second shop", why: "ร้านที่สองถูกเลื่อนไป"}
+        - {t: "a new kitchen", why: "ไม่ได้พูดถึงครัวใหม่"}
+        - {t: "longer lunch hours", why: "ขยายเวลาเปิดถึงสามทุ่ม ไม่ใช่มื้อกลางวัน"}
+    - stem: "When will they open a second shop?"
+      choices:
+        - {t: "after evenings become profitable", why: "until the first shop is consistently profitable in the evenings"}
+        - {t: "next year", why: "เป้าปีหน้าคือยอดขายตอนเย็น"}
+        - {t: "in six months", why: "หกเดือนคือเวลาที่บริการส่งจะคุ้มทุน"}
+        - {t: "after two years", why: "เปิดมาแล้วสองปี"}
+  status: approved
+- id: cefr-b2-w03-059
+  kind: listen
+  skill: li
+  topic: presentation-plan
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "In the first part of my talk, I'll be looking at last year's results. After that, I'll explain our strategy for next year, and finally I'll answer your questions."}
+  questions:
+    - stem: "What will the speaker do second?"
+      choices:
+        - {t: "explain next year's strategy", why: "After that, I'll explain our strategy for next year"}
+        - {t: "review the results of last year", why: "เป็นส่วนแรกของการพูด"}
+        - {t: "answer questions", why: "เป็นส่วนสุดท้าย"}
+        - {t: "introduce new staff", why: "ในบทไม่ได้พูดถึง introduce new staff"}
+  status: approved
+- id: cefr-b2-w03-060
+  kind: listen
+  skill: li
+  topic: plans-goals
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "We were going to launch the app in May, but the testing took longer than expected, so it's now due out in July."}
+  questions:
+    - stem: "When will the app be launched?"
+      choices:
+        - {t: "in July", why: "it's now due out in July"}
+        - {t: "in May", why: "เป็นแผนเดิม จึงใช้ไม่ได้"}
+        - {t: "it has been cancelled", why: "ไม่ได้ยกเลิก แต่เลื่อน"}
+        - {t: "next year", why: "ไม่ได้พูดถึงปีหน้า"}
+  status: approved
