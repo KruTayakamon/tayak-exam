@@ -1,0 +1,578 @@
+# คอร์ส a2 · สัปดาห์ 8 · เรื่องที่เกิดขึ้น · กริยาไม่ปกติ · ไม่ได้ทำ และถามอดีต
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · กริยาไม่ปกติ ----------
+- id: cefr-a2-w08-001
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  stem: Last Sunday we ____ to Khao Yai with our children.
+  choices:
+    - {t: went, why: "อดีตของ go คือ ++went++ (ไม่ปกติ)"}
+    - {t: goed, why: "go เป็นกริยาไม่ปกติ ไม่เติม ed"}
+    - {t: go, why: "last Sunday ต้องใช้อดีต"}
+    - {t: gone, why: "gone เป็นช่อง 3 ใช้กับ have"}
+  explain: "go → ==went== → gone"
+  status: approved
+- id: cefr-a2-w08-002
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  stem: I ____ a really strange dream last night.
+  choices:
+    - {t: had, why: "อดีตของ have คือ ++had++"}
+    - {t: haved, why: "have ไม่เติม ed"}
+    - {t: has, why: "last night ต้องใช้อดีต"}
+    - {t: have, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+  explain: "have / has → ==had=="
+  status: approved
+- id: cefr-a2-w08-003
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  stem: She ____ a new laptop online and it arrived the next day.
+  choices:
+    - {t: bought, why: "อดีตของ buy คือ ++bought++"}
+    - {t: buyed, why: "buy เป็นกริยาไม่ปกติ"}
+    - {t: buys, why: "arrived บอกว่าเป็นอดีต"}
+    - {t: brought, why: "brought เป็นอดีตของ bring (นำมา)"}
+  explain: "buy → ==bought== · bring → brought (ระวังสับสน)"
+  status: approved
+- id: cefr-a2-w08-004
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  stem: We ____ an elephant on the road on our way home!
+  choices:
+    - {t: saw, why: "อดีตของ see คือ ++saw++"}
+    - {t: seed, why: "see เป็นกริยาไม่ปกติ"}
+    - {t: seen, why: "seen เป็นช่อง 3 ใช้กับ have"}
+    - {t: see, why: "on our way home เล่าอดีต"}
+  explain: "see → ==saw== → seen"
+  status: approved
+- id: cefr-a2-w08-005
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: My brother ____ home very late after the party.
+  choices:
+    - {t: came, why: "อดีตของ come คือ ++came++"}
+    - {t: comed, why: "come เป็นกริยาไม่ปกติ"}
+    - {t: come, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+    - {t: coming, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "come → ==came== → come"
+  status: approved
+- id: cefr-a2-w08-006
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: I ____ a taxi to the airport because I was late.
+  choices:
+    - {t: took, why: "อดีตของ take คือ ++took++"}
+    - {t: taked, why: "take เป็นกริยาไม่ปกติ"}
+    - {t: taken, why: "taken เป็นช่อง 3"}
+    - {t: take, why: "was late บอกอดีต"}
+  explain: "take → ==took== → taken"
+  status: approved
+- id: cefr-a2-w08-007
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: The teacher ____ us a lot of homework on Friday.
+  choices:
+    - {t: gave, why: "อดีตของ give คือ ++gave++"}
+    - {t: gived, why: "give เป็นกริยาไม่ปกติ"}
+    - {t: given, why: "given เป็นช่อง 3"}
+    - {t: gives, why: "on Friday ที่ผ่านมาเป็นอดีต"}
+  explain: "give → ==gave== → given"
+  status: approved
+- id: cefr-a2-w08-008
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: I ____ my boss about the problem, and she was very helpful.
+  choices:
+    - {t: told, why: "อดีตของ tell คือ ++told++"}
+    - {t: telled, why: "tell เป็นกริยาไม่ปกติ"}
+    - {t: said, why: "say ไม่ตามด้วยคน (said to my boss)"}
+    - {t: talked, why: "talk ต้องมี to (talked to my boss)"}
+  explain: "tell + คน (told her) · say + สิ่งที่พูด (said hello)"
+  status: approved
+- id: cefr-a2-w08-009
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: We ____ dinner at a seafood restaurant by the river.
+  choices:
+    - {t: ate, why: "อดีตของ eat คือ ++ate++"}
+    - {t: eated, why: "eat เป็นกริยาไม่ปกติ"}
+    - {t: eaten, why: "eaten เป็นช่อง 3"}
+    - {t: eat, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+  explain: "eat → ==ate== → eaten"
+  status: approved
+- id: cefr-a2-w08-010
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: She ____ a long email to the customer and explained everything.
+  choices:
+    - {t: wrote, why: "อดีตของ write คือ ++wrote++"}
+    - {t: writed, why: "write เป็นกริยาไม่ปกติ"}
+    - {t: written, why: "written เป็นช่อง 3"}
+    - {t: writes, why: "explained บอกอดีต"}
+  explain: "write → ==wrote== → written"
+  status: approved
+- id: cefr-a2-w08-011
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 3
+  stem: "Which sentence about the trip to Pai is correct?"
+  choices:
+    - {t: We left early and got there before lunch., why: "leave → left · get → got ++ไม่ปกติทั้งคู่++"}
+    - {t: We leaved early and got there before lunch., why: "leave → left จึงใช้ไม่ได้"}
+    - {t: We left early and getted there before lunch., why: "get → got จึงใช้ไม่ได้"}
+    - {t: We leave early and got there before lunch., why: "ต้องเป็นอดีตทั้งประโยค"}
+  explain: "จำกริยาไม่ปกติเป็นคู่ ==leave–left · get–got=="
+  status: approved
+- id: cefr-a2-w08-012
+  kind: type
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  stem: I ____ my old school friend at the mall yesterday. (meet · อดีต)
+  answer: met
+  accept: [met]
+  why: "meet เป็นกริยาไม่ปกติ อดีตคือ met"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์ปัญหาและความผิดพลาด ----------
+- id: cefr-a2-w08-013
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  stem: Don't ____ your umbrella. It's going to rain this afternoon.
+  choices:
+    - {t: forget, why: "อย่าลืม = ++don't forget++"}
+    - {t: remember, why: "don't remember ความหมายกลับ"}
+    - {t: pay, why: "ไม่จ่ายร่มไม่เข้ากับบริบท"}
+    - {t: answer, why: "ไม่เข้ากับร่ม จึงใช้ไม่ได้"}
+  explain: "forget = ==ลืม== (อดีต forgot)"
+  status: approved
+- id: cefr-a2-w08-014
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  stem: I can't ____ her name. Was it Nok or Noi?
+  choices:
+    - {t: remember, why: "นึกไม่ออก = ++can't remember++"}
+    - {t: forget, why: "can't forget แปลว่าลืมไม่ได้ ขัดกับบริบท"}
+    - {t: miss, why: "miss ไม่ใช้กับชื่อแบบนี้"}
+    - {t: catch, why: "catch ไม่เข้ากับบริบท"}
+  explain: "remember = ==จำได้ นึกออก=="
+  status: approved
+- id: cefr-a2-w08-015
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  stem: What time do you ____ home in the morning?
+  choices:
+    - {t: leave, why: "ออกจากบ้าน = ++leave home++"}
+    - {t: forget, why: "ลืมบ้านไม่เข้ากับบริบท"}
+    - {t: pay, why: "จ่ายบ้านตอนเช้าไม่เข้ากับบริบท"}
+    - {t: spend, why: "spend ต้องตามด้วยเวลาหรือเงิน"}
+  explain: "leave = ==ออกจาก จากไป== (อดีต left)"
+  status: approved
+- id: cefr-a2-w08-016
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  stem: I ran to the station to ____ the last train.
+  choices:
+    - {t: catch, why: "ขึ้นรถทัน = ++catch the train++"}
+    - {t: miss, why: "วิ่งไปเพื่อตกรถ ขัดกับบริบท"}
+    - {t: leave, why: "ไม่เข้ากับวิ่งไปสถานี"}
+    - {t: pay, why: "บทไม่ได้พูดว่า pay"}
+  explain: "catch (a bus/train) = ==ขึ้นทัน== (อดีต caught)"
+  status: approved
+- id: cefr-a2-w08-017
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  stem: I woke up late and ____ the bus, so I was late for work.
+  choices:
+    - {t: missed, why: "ตกรถ = ++miss the bus++"}
+    - {t: caught, why: "caught แปลว่าขึ้นทัน ขัดกับมาสาย"}
+    - {t: remembered, why: "ไม่เข้ากับรถเมล์"}
+    - {t: paid, why: "ไม่เข้ากับมาสาย"}
+  explain: "miss = ==พลาด ตก (รถ) · คิดถึง=="
+  status: approved
+- id: cefr-a2-w08-018
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: We ____ three days in Chiang Mai and two days in Pai.
+  choices:
+    - {t: spent, why: "ใช้เวลา = ++spend + เวลา++"}
+    - {t: paid, why: "pay ใช้กับเงิน จึงใช้ไม่ได้"}
+    - {t: missed, why: "ไม่เข้ากับบริบท"}
+    - {t: left, why: "left three days ไม่เข้ากับบริบท"}
+  explain: "spend + ==เวลา / เงิน== (อดีต spent)"
+  status: approved
+- id: cefr-a2-w08-019
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: Can I ____ by card, or only in cash?
+  choices:
+    - {t: pay, why: "จ่ายเงิน = ++pay by card++"}
+    - {t: spend, why: "spend by card ไม่ใช่วลีที่ใช้"}
+    - {t: leave, why: "leave by card ไม่มีความหมาย"}
+    - {t: catch, why: "ไม่เข้ากับบริบท"}
+  explain: "pay = ==จ่าย== (อดีต paid) · pay by card / in cash"
+  status: approved
+- id: cefr-a2-w08-020
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: Sorry, I made a ____. Your name is Pim, not Pam.
+  choices:
+    - {t: mistake, why: "ทำผิด = ++make a mistake++"}
+    - {t: problem, why: "make a problem ไม่ใช่วลีที่ใช้"}
+    - {t: question, why: "make a question ไม่ใช่วลีที่ใช้"}
+    - {t: answer, why: "ไม่เข้ากับบริบท"}
+  explain: "mistake = ==ความผิดพลาด== · make a mistake"
+  status: approved
+- id: cefr-a2-w08-021
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: "\"Is there a ____?\" \"Yes, my computer doesn't work.\""
+  choices:
+    - {t: problem, why: "มีปัญหา = ++problem++"}
+    - {t: mistake, why: "คอมเสียไม่ใช่การทำผิด"}
+    - {t: exam, why: "ไม่เข้ากับบริบท"}
+    - {t: answer, why: "บทไม่ได้พูดว่า answer"}
+  explain: "problem = ==ปัญหา== · No problem! = ไม่เป็นไร"
+  status: approved
+- id: cefr-a2-w08-022
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: I called you three times, but you didn't ____ the phone.
+  choices:
+    - {t: answer, why: "รับโทรศัพท์ = ++answer the phone++"}
+    - {t: question, why: "question ไม่ใช้กับโทรศัพท์"}
+    - {t: catch, why: "catch the phone แปลว่ารับของที่โยน"}
+    - {t: pay, why: "ไม่เข้ากับบริบท"}
+  explain: "answer = ==ตอบ รับ (โทรศัพท์ ประตู)=="
+  status: approved
+- id: cefr-a2-w08-023
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: If you have a ____, please put up your hand.
+  choices:
+    - {t: question, why: "สงสัยยกมือ = ++question++"}
+    - {t: answer, why: "มีคำตอบไม่จำเป็นต้องยกมือ"}
+    - {t: mistake, why: "ไม่เข้ากับบริบท"}
+    - {t: exam, why: "บทไม่ได้พูดว่า exam"}
+  explain: "question = ==คำถาม== · ask a question"
+  status: approved
+- id: cefr-a2-w08-024
+  kind: type
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  stem: I studied very hard, so I passed my driving e____. (การสอบ)
+  answer: exam
+  accept: [exam, test]
+  why: "exam = การสอบ · pass an exam = สอบผ่าน"
+  status: approved
+# ---------- วันที่ 3 · didn't และ Did...? ----------
+- id: cefr-a2-w08-025
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 1
+  stem: I ____ breakfast this morning. I was in a hurry.
+  choices:
+    - {t: "didn't have", why: "ปฏิเสธอดีต ++didn't + กริยารูปเดิม++"}
+    - {t: "didn't had", why: "หลัง didn't ใช้รูปเดิม"}
+    - {t: "don't have", why: "this morning ที่ผ่านมาเป็นอดีต"}
+    - {t: "wasn't have", why: "ไม่ใช้ was กับกริยา have"}
+  explain: "ปฏิเสธอดีต ==didn't + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w08-026
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 1
+  stem: "\"____ you go to the meeting yesterday?\" \"Yes, I did.\""
+  choices:
+    - {t: Did, why: "คำถามอดีต ++Did + ประธาน + กริยารูปเดิม++"}
+    - {t: Do, why: "yesterday ต้องใช้ Did"}
+    - {t: Were, why: "ไม่ใช้ were กับกริยา go"}
+    - {t: Went, why: "คำถามต้องขึ้นต้นด้วย Did"}
+  explain: "คำถามอดีต ==Did you...?=="
+  status: approved
+- id: cefr-a2-w08-027
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 1
+  stem: She ____ the email. Can you send it again?
+  choices:
+    - {t: "didn't get", why: "ไม่ได้รับ ++didn't get++"}
+    - {t: "didn't got", why: "หลัง didn't ใช้รูปเดิม"}
+    - {t: "doesn't got", why: "ผิดทั้งเวลาและรูป"}
+    - {t: "not got", why: "ต้องมี didn't จึงใช้ไม่ได้"}
+  explain: "==didn't + get== (ไม่ใช่ got)"
+  status: approved
+- id: cefr-a2-w08-028
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  stem: "\"Where ____ you buy that bag?\" \"At the night market.\""
+  choices:
+    - {t: did, why: "Wh- + ++did + ประธาน + กริยารูปเดิม++"}
+    - {t: do, why: "ถามเรื่องที่ซื้อแล้ว ใช้อดีต"}
+    - {t: were, why: "ไม่ใช้ were กับ buy"}
+    - {t: bought, why: "ต้องมี did ก่อนประธาน"}
+  explain: "==Where / When / What + did + you + กริยา==?"
+  status: approved
+- id: cefr-a2-w08-029
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  stem: "\"Did they enjoy the concert?\" \"No, they ____. It was too loud.\""
+  choices:
+    - {t: "didn't", why: "ตอบสั้นปฏิเสธ ++they didn't++"}
+    - {t: "weren't", why: "ถามด้วย did ตอบด้วย did"}
+    - {t: "don't", why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+    - {t: "not", why: "ต้องมี did จึงใช้ไม่ได้"}
+  explain: "ตอบสั้น ==Yes, they did. / No, they didn't.=="
+  status: approved
+- id: cefr-a2-w08-030
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  stem: "\"What time ____ the film start?\" \"At eight.\""
+  choices:
+    - {t: did, why: "ถามเวลาในอดีต ++did++"}
+    - {t: was, why: "ไม่ใช้ was กับกริยา start"}
+    - {t: started, why: "ต้องมี did และใช้ start รูปเดิม"}
+    - {t: were, why: "ไม่ใช้ were กับกริยา start"}
+  explain: "What time ==did + ประธาน + กริยารูปเดิม==?"
+  status: approved
+- id: cefr-a2-w08-031
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  stem: "Which question about yesterday is correct?"
+  choices:
+    - {t: "What did you do yesterday?", why: "did + you + ++do รูปเดิม++"}
+    - {t: "What did you did yesterday?", why: "หลัง did ใช้ do รูปเดิม"}
+    - {t: "What you did yesterday?", why: "คำถามต้องมี did หน้า you"}
+    - {t: "What were you do yesterday?", why: "ไม่ใช้ were กับ do"}
+  explain: "ถามเรื่องเมื่อวาน ==What did you do?=="
+  status: approved
+- id: cefr-a2-w08-032
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 3
+  stem: "Which reply about the lost keys is correct?"
+  choices:
+    - {t: I didn't lose them. They were in my other bag., why: "didn't + lose ++และ were กับ keys++"}
+    - {t: I didn't lost them. They were in my other bag., why: "หลัง didn't ใช้ lose"}
+    - {t: I don't lose them. They was in my other bag., why: "ผิดทั้งเวลาและ was"}
+    - {t: I wasn't lose them. They were in my other bag., why: "ไม่ใช้ wasn't กับ lose"}
+  explain: "ปฏิเสธอดีตกริยาทั่วไป ==didn't== · คุณศัพท์/สถานที่ wasn't / weren't"
+  status: approved
+- id: cefr-a2-w08-033
+  kind: type
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  stem: "\"____ you remember to lock the door?\" \"Yes, I did.\" (ถามอดีต)"
+  answer: Did
+  accept: [Did, did]
+  why: "คำถามอดีตขึ้นต้นด้วย Did + ประธาน + กริยารูปเดิม"
+  status: approved
+- id: cefr-a2-w08-034
+  kind: cloze
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  text: |
+    A: How (1) ____ your job interview yesterday?
+    B: Not great. I (2) ____ the bus, so I arrived late.
+    A: Oh no! (3) ____ they ask many questions?
+  questions:
+    - choices:
+        - {t: was, why: "How was...? ถามว่าเป็นอย่างไร (อดีต)"}
+        - {t: did, why: "How did ต้องมีกริยาตาม"}
+        - {t: is, why: "yesterday ต้องใช้อดีต"}
+        - {t: were, why: "interview เป็นเอกพจน์"}
+    - choices:
+        - {t: missed, why: "ตกรถ อดีตของ miss"}
+        - {t: miss, why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+        - {t: didn't miss, why: "ขัดกับมาสาย จึงใช้ไม่ได้"}
+        - {t: caught, why: "ขึ้นรถทันขัดกับมาสาย"}
+    - choices:
+        - {t: Did, why: "คำถามอดีตกับกริยา ask"}
+        - {t: Were, why: "ไม่ใช้ were กับ ask"}
+        - {t: Do, why: "เป็นเรื่องเมื่อวาน"}
+        - {t: Was, why: "they ไม่ใช้ was"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w08-035
+  kind: read
+  skill: rd
+  topic: diary-entry
+  level: 1
+  title: "Ben's Diary: A Bad Monday"
+  passage: |
+    What a day! I woke up at 7.30 because my phone didn't ring. I left home without breakfast and ran to the bus stop, but I missed the bus.
+
+    I took a motorbike taxi and got to the office at 9.15. My boss wasn't happy. Then I opened my bag and saw the problem: I forgot my laptop at home!
+
+    At lunch, I went home, got my laptop and came back. In the evening I didn't go out. I ate some noodles and went to bed at nine.
+  questions:
+    - stem: Why did Ben wake up late?
+      choices:
+        - {t: his phone didn't ring, why: "my phone didn't ring"}
+        - {t: he went to bed very late, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: he was sick, why: "บทไม่ได้พูดว่า he was sick"}
+        - {t: the bus was late, why: "เขาตกรถ ไม่ใช่รถสาย"}
+    - stem: How did Ben get to the office?
+      choices:
+        - {t: by motorbike taxi, why: "I took a motorbike taxi"}
+        - {t: by bus, why: "เขาตกรถเมล์ จึงใช้ไม่ได้"}
+        - {t: on foot, why: "เขาวิ่งไปป้ายรถเมล์เท่านั้น"}
+        - {t: by car, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: What did Ben forget?
+      choices:
+        - {t: his laptop, why: "I forgot my laptop at home"}
+        - {t: his phone, why: "โทรศัพท์ไม่ดัง แต่ไม่ได้ลืม"}
+        - {t: his bag, why: "เขาเปิดกระเป๋าที่ออฟฟิศ"}
+        - {t: his lunch, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+    - stem: What did Ben do in the evening?
+      choices:
+        - {t: he stayed home and went to bed early, why: "I didn't go out ... went to bed at nine"}
+        - {t: he went out with friends, why: "I didn't go out"}
+        - {t: he worked late at the office, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: he went back to get his laptop, why: "เขากลับไปเอาตอนกลางวัน"}
+  status: approved
+- id: cefr-a2-w08-036
+  kind: listen
+  skill: li
+  topic: past-questions
+  level: 1
+  script:
+    - {who: Woman, en: "Did you see the football match last night?"}
+    - {who: Man, en: "No, I didn't. I was at work until eleven."}
+  questions:
+    - stem: Why didn't the man see the match?
+      choices:
+        - {t: he was at work, why: "I was at work until eleven"}
+        - {t: he was asleep, why: "ไม่ได้พูดว่าหลับ"}
+        - {t: he doesn't like football, why: "ไม่ได้พูดว่าไม่ชอบ"}
+        - {t: his TV was broken, why: "ไม่ได้พูดถึงทีวี"}
+  status: approved
+- id: cefr-a2-w08-037
+  kind: listen
+  skill: li
+  topic: past-questions
+  level: 1
+  script:
+    - {who: Man, en: "How much did you pay for the tickets?"}
+    - {who: Woman, en: "Six hundred baht for two."}
+  questions:
+    - stem: How much was one ticket?
+      choices:
+        - {t: 300 baht, why: "600 baht for two = ใบละ 300"}
+        - {t: 600 baht, why: "600 คือราคาสองใบ"}
+        - {t: 200 baht, why: "คำนวณผิด จึงใช้ไม่ได้"}
+        - {t: "1,200 baht", why: "บทไม่ได้พูดว่า 1,200 baht"}
+  status: approved
+- id: cefr-a2-w08-038
+  kind: listen
+  skill: li
+  topic: past-questions
+  level: 2
+  script:
+    - {who: Woman, en: "I didn't go to the party on Saturday. I had a bad cold, so I stayed in bed and slept all day."}
+  questions:
+    - stem: What did the woman do on Saturday?
+      choices:
+        - {t: she stayed in bed, why: "I stayed in bed and slept all day"}
+        - {t: she went to a party, why: "I didn't go to the party"}
+        - {t: she went to the doctor, why: "ไม่ได้พูดถึงหมอ"}
+        - {t: she worked all day, why: "เธอนอนทั้งวัน จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w08-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [I, forgot my umbrella, and got wet, on the way home]
+  sentence: I forgot my umbrella and got wet on the way home.
+  th: ฉันลืมร่มและเปียกระหว่างทางกลับบ้าน
+  why: "กริยาไม่ปกติ forgot · got เชื่อมด้วย and"
+  status: approved
+- id: cefr-a2-w08-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Did you, pay, the electricity bill, last month]
+  sentence: Did you pay the electricity bill last month?
+  th: เดือนที่แล้วคุณจ่ายค่าไฟหรือยัง
+  why: "Did + you + กริยารูปเดิม + กรรม + เวลา"
+  status: approved
+- id: cefr-a2-w08-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We, didn't catch, the last train, so we took a taxi]
+  sentence: We didn't catch the last train so we took a taxi.
+  th: เราขึ้นรถไฟเที่ยวสุดท้ายไม่ทัน เลยนั่งแท็กซี่
+  why: "didn't + catch (รูปเดิม) · so + took (อดีต)"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกเขียน) ----------
+- id: cefr-a2-w08-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [Last year I, lost my wallet, on the bus, but a kind man found it]
+  sentence: Last year I lost my wallet on the bus but a kind man found it.
+  th: ปีที่แล้วฉันทำกระเป๋าเงินหายบนรถเมล์ แต่มีผู้ชายใจดีเก็บได้
+  why: "เล่าปัญหาในอดีต lost / found เป็นกริยาไม่ปกติ"
+  status: approved

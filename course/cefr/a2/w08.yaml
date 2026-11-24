@@ -1,0 +1,168 @@
+# คอร์ส a2 · สัปดาห์ 8 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 8
+phase: 2
+theme_th: เรื่องที่เกิดขึ้น
+focus_th: กริยาไม่ปกติที่ใช้บ่อย (went had saw came took...) · didn't + กริยารูปเดิม · Did...? · wh- + did · ศัพท์ปัญหาและความผิดพลาด
+can_do_th:
+  - ถามและตอบเรื่องที่เกิดในอดีตได้
+  - เขียนเล่าเหตุการณ์สั้น ๆ ตามลำดับได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: กริยาไม่ปกติ
+    lesson:
+      rule_th: "กริยาที่ใช้บ่อยที่สุดหลายคำ ==ไม่เติม -ed แต่เปลี่ยนรูป== ++ต้องจำเป็นคู่ go–went · have–had++"
+      examples:
+        - {en: "We <k>went</k> to Khao Yai.", th: "เราไปเขาใหญ่"}
+        - {en: "I <k>had</k> a strange dream.", th: "==ฉันฝันแปลก ๆ=="}
+        - {en: "She <k>bought</k> a laptop.", th: "เธอซื้อแล็ปท็อป"}
+        - {en: "They <k>saw</k> an elephant.", th: "พวกเขาเห็นช้าง"}
+      signals:
+        - {label_th: "30 คำที่ใช้บ่อย (บางส่วน)", words: ["go–went · come–came", "have–had · get–got", "see–saw · take–took", "buy–bought · eat–ate", "leave–left · tell–told", "give–gave · write–wrote"]}
+      thai_trap:
+        intro_th: "คนไทยเติม -ed ทุกคำ เลยได้ ~~goed buyed eated~~ ที่ไม่มีในภาษาอังกฤษ"
+        wrong: ["I goed to work.", "She buyed a car."]
+        right: ["I went to work.", "She bought a car."]
+      notes:
+        - {kind: pin, th: "buy–bought (ซื้อ) ≠ ==bring–brought== (นำมา)"}
+        - {kind: tip, th: "จำวันละ 5 คู่ แล้วแต่งประโยคเรื่องเมื่อวาน"}
+    check: [cefr-a2-w08-001, cefr-a2-w08-002]
+    practice: [cefr-a2-w08-003, cefr-a2-w08-004, cefr-a2-w08-005, cefr-a2-w08-006, cefr-a2-w08-007, cefr-a2-w08-008, cefr-a2-w08-009, cefr-a2-w08-010, cefr-a2-w08-011, cefr-a2-w08-012]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าสุดสัปดาห์ที่แล้ว ใช้กริยาไม่ปกติอย่างน้อย 2 คำ
+      frame: "Last weekend I went to ____. I ate ____ and saw ____."
+      model: "Last weekend I went to Bang Saen. I ate grilled squid and saw a beautiful sunset."
+    classroom: {en: "I went to the bank this morning.", th: "เช้านี้ฉันไปธนาคารมา"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ปัญหาและความผิดพลาด 12 คำ
+    lesson:
+      rule_th: "คำศัพท์ชุดนี้หลายคำเป็นกริยาไม่ปกติ ==forget–forgot== · leave–left · catch–caught · spend–spent · pay–paid ++และ make a mistake ไม่ใช้ do++"
+      examples:
+        - {en: "I <k>forgot</k> my keys.", th: "ฉันลืมกุญแจ"}
+        - {en: "We <k>missed</k> the bus.", th: "==เราตกรถเมล์=="}
+        - {en: "I <k>made a mistake</k>.", th: "ฉันทำผิด"}
+      words:
+        - {w: forget, pos: v., th: ลืม, ex: "Don't forget your bag."}
+        - {w: remember, pos: v., th: จำได้, ex: "I remember her face."}
+        - {w: leave, pos: v., th: ออกจาก จากไป, ex: "I leave home at seven."}
+        - {w: catch, pos: v., th: ขึ้น (รถ) ทัน จับ, ex: "I caught the last bus."}
+        - {w: miss, pos: v., th: พลาด ตก (รถ) คิดถึง, ex: "I missed my flight."}
+        - {w: spend, pos: v., th: ใช้ (เวลา เงิน), ex: "I spent 500 baht."}
+        - {w: pay, pos: v., th: จ่าย, ex: "Can I pay by card?"}
+        - {w: mistake, pos: n., th: ความผิดพลาด, ex: "Everyone makes mistakes."}
+        - {w: problem, pos: n., th: ปัญหา, ex: "No problem!"}
+        - {w: answer, pos: n./v., th: คำตอบ ตอบ, ex: "I know the answer."}
+        - {w: question, pos: n., th: คำถาม, ex: "Can I ask a question?"}
+        - {w: exam, pos: n., th: การสอบ, ex: "I passed the exam."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~do a mistake~~ ตามคำว่า \"ทำผิด\""
+        wrong: ["I did a mistake.", "Can I ask you a question about?"]
+        right: ["I made a mistake.", "Can I ask you a question?"]
+      notes:
+        - {kind: pin, th: "==make== a mistake · ask a question · answer the phone"}
+        - {kind: use, th: "ตอบคนขอบคุณหรือขอโทษ No problem!"}
+    check: [cefr-a2-w08-013, cefr-a2-w08-014]
+    practice: [cefr-a2-w08-015, cefr-a2-w08-016, cefr-a2-w08-017, cefr-a2-w08-018, cefr-a2-w08-019, cefr-a2-w08-020, cefr-a2-w08-021, cefr-a2-w08-022, cefr-a2-w08-023, cefr-a2-w08-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าปัญหาเล็ก ๆ ที่เคยเกิดกับคุณ
+      frame: "Once I forgot ____. So I ____."
+      model: "Once I forgot my wallet at a restaurant. So I went back and found it on the table."
+    classroom: {en: "Sorry, I made a mistake.", th: "ขอโทษ ฉันทำผิดไป"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ไม่ได้ทำ และถามอดีต
+    lesson:
+      rule_th: "ปฏิเสธและคำถามในอดีตใช้ did ==แล้วกริยากลับเป็นรูปเดิม== ++didn't go · Did you go? (ไม่ใช่ went)++"
+      examples:
+        - {en: "I <k>didn't have</k> breakfast.", th: "ฉันไม่ได้กินข้าวเช้า"}
+        - {en: "<k>Did</k> you <k>go</k> to the meeting?", th: "==คุณไปประชุมไหม=="}
+        - {en: "Where <k>did</k> you <k>buy</k> it?", th: "คุณซื้อที่ไหน"}
+        - {en: "No, I <k>didn't</k>.", th: "ไม่ได้ (ตอบสั้น)"}
+      signals:
+        - {label_th: "รูปที่ใช้", words: ["didn't + กริยารูปเดิม", "Did + ประธาน + กริยารูปเดิม?", "Wh- + did + ประธาน + กริยา?", "Yes, I did. / No, I didn't."]}
+      thai_trap:
+        intro_th: "คนไทยใส่อดีตสองที่ เลยเขียน ~~didn't went / Did you saw~~"
+        wrong: ["I didn't went to work.", "Did you saw the news?"]
+        right: ["I didn't go to work.", "Did you see the news?"]
+      notes:
+        - {kind: pin, th: "did เป็นอดีตแล้ว ==กริยาหลักต้องรูปเดิม=="}
+        - {kind: warn, th: "คุณศัพท์/สถานที่ใช้ was/were ไม่ใช้ did Were you tired?"}
+    check: [cefr-a2-w08-025, cefr-a2-w08-026]
+    practice: [cefr-a2-w08-027, cefr-a2-w08-028, cefr-a2-w08-029, cefr-a2-w08-030, cefr-a2-w08-031, cefr-a2-w08-032, cefr-a2-w08-033, cefr-a2-w08-034]
+    use:
+      prompt_th: เขียนคำถาม 2 ข้อถามเพื่อนเรื่องเมื่อวาน
+      frame: "Did you ____ yesterday? What did you ____?"
+      model: "Did you go out yesterday? What did you have for dinner?"
+    classroom: {en: "Did you get my message?", th: "ได้รับข้อความของฉันไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบันทึกประจำวันสั้น และฟังถามตอบเรื่องเมื่อวาน
+    lesson:
+      rule_th: "บันทึกประจำวันเล่าเรียงตามเวลา ==ใช้คำว่า then== · at lunch · in the evening ++เป็นจุดเปลี่ยนช่วงเวลา++"
+      examples:
+        - {en: "I <k>missed</k> the bus.", th: "ฉันตกรถเมล์"}
+        - {en: "<k>Then</k> I opened my bag.", th: "==จากนั้นฉันเปิดกระเป๋า=="}
+        - {en: "I <k>didn't go</k> out.", th: "ฉันไม่ได้ออกไปไหน"}
+      thai_trap:
+        intro_th: "เห็น didn't ในบทแล้ว ~~อ่านข้ามคำว่า not~~ จึงตอบกลับความหมาย"
+        wrong: ["I didn't go out → ออกไปข้างนอก"]
+        right: ["I didn't go out → อยู่บ้าน"]
+      notes:
+        - {kind: warn, th: "ระวังคำปฏิเสธ ==didn't · wasn't== กลับความหมายทั้งประโยค"}
+        - {kind: tip, th: "คำนวณราคาตอนฟัง for two = สองใบรวมกัน"}
+    check: [cefr-a2-w08-036, cefr-a2-w08-037]
+    practice: [cefr-a2-w08-035, cefr-a2-w08-038, cefr-a2-w08-039, cefr-a2-w08-040, cefr-a2-w08-041]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบบันทึกประจำวัน เล่าเรื่องเมื่อวานที่ไม่เป็นไปตามแผน
+      frame: "I wanted to ____, but ____. Then I ____."
+      model: "I wanted to go to the gym, but it rained. Then I stayed home and cooked."
+    classroom: {en: "How much did you pay for it?", th: "คุณจ่ายไปเท่าไร"}
+  - day: 5
+    type: lab
+    skill: wr
+    minutes: 20
+    title_th: ห้องฝึกเขียน บันทึกสั้นเล่าปัญหาที่เคยเจอ 5 ประโยค
+    lab:
+      mode: write
+      prompt_th: เขียนบันทึกสั้น 5 ประโยค เล่าปัญหาที่เคยเจอ (ลืมของ ตกรถ ทำของหาย ฯลฯ) เกิดอะไรขึ้น คุณทำอย่างไร และจบอย่างไร
+      frame:
+        - "Last ____, I had a problem."
+        - "I ____ (ปัญหา)."
+        - "I didn't ____."
+        - "So I ____."
+        - "In the end, ____."
+      model_pass: "Last month, I had a problem. I lost my phone on the train. I didn't know what to do. So I went to the station office. In the end, a staff member found it."
+      model_good: "Last month, I had a big problem on my way to work. I left my phone on the train, and I didn't notice until I got to the office. I didn't have my colleagues' numbers, so I borrowed a phone and called the station. In the end, a kind staff member found it and kept it for me. I bought him a coffee to say thank you."
+      steps_th:
+        - อ่านตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกปัญหาที่เคยเจอจริง 1 เรื่อง
+        - เติมโครง 5 ประโยค
+        - เทียบกับตัวอย่างระดับดี แล้วติ๊กรายการตรวจ
+      checklist_th:
+        - กริยาทุกตัวเป็นอดีต รวมถึงกริยาไม่ปกติ (lost, went, found)
+        - มี didn't + กริยารูปเดิม อย่างน้อย 1 ครั้ง
+        - ใช้ so / then / in the end เล่าเรียงลำดับ
+        - เขียนครบ 5 ประโยค
+    practice: [cefr-a2-w08-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 8
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6, 7, 8], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
