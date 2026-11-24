@@ -1,0 +1,159 @@
+G frequency-time-expressions 1
+The cleaning team comes ____ a week, on Tuesdays and Fridays.
+=twice|สองครั้งต่อสัปดาห์ = ++twice a week++
+-two|ต้องใช้ two times หรือ twice
+-second|second แปลว่าที่สอง ไม่ใช่จำนวนครั้ง
+-double|double ไม่ใช้บอกความถี่แบบนี้
+!ครั้งเดียว once · สองครั้ง ==twice== · สามครั้งขึ้นไป three times
+
+G frequency-time-expressions 1
+My neighbour ____ forgets to close his gate, so his dog often gets out.
+=often|ความถี่ ++วางหน้ากริยาแท้++
+-is often|forgets เป็นกริยาแท้อยู่แล้ว ไม่ต้องมี is
+-oftens|often ไม่ผันตามประธานเลย
+-in often|ไม่มีสำนวน in often ในภาษาอังกฤษ
+!คำบอกความถี่ ==วางหน้ากริยาทั่วไป== แต่วางหลัง is/am/are
+
+G frequency-time-expressions 2
+The library is closed ____ public holidays, so check the calendar first.
+=on|วันหยุดที่ระบุวัน ใช้ ++on++
+-in|in ใช้กับเดือน ปี หรือช่วงยาว
+-at|at ใช้กับเวลาเป็นจุด เช่น at 9
+-by|by แปลว่าภายใน ไม่ใช่ในวัน
+!วันและวันหยุด ==on== · เดือน/ปี in · เวลา at
+
+G frequency-time-expressions 2
+I've been to that dentist ____ times, and she is always very gentle.
+=several|หลายครั้ง = ++several times++
+-much|much ใช้กับคำนามนับไม่ได้
+-a lot|a lot ต้องมี of ก่อนคำนาม
+-every|every times ผิด ต้องเป็นเอกพจน์
+!several / many / a few + ==คำนามพหูพจน์==
+
+G quantifiers 1
+There isn't ____ milk left. Can you buy some on your way home?
+=much|นับไม่ได้ในประโยคปฏิเสธ ใช้ ++much++
+-many|many ใช้กับนามนับได้พหูพจน์
+-few|few ใช้กับนามนับได้
+-a few|a few ใช้กับนามนับได้
+!นับไม่ได้ ==much / a little== · นับได้ many / a few
+
+G quantifiers 1
+Hurry up! We only have ____ minutes before the train leaves.
+=a few|ไม่กี่นาที (นับได้) = ++a few minutes++
+-a little|a little ใช้กับนามนับไม่ได้
+-much|much ใช้กับนามนับไม่ได้
+-less|less ใช้กับนามนับไม่ได้
+!นาทีนับได้ ==a few minutes== · a little time
+
+G quantifiers 2
+The room was too small. There wasn't ____ space for everyone to sit down.
+=enough|พอ = ++enough + คำนาม++
+-too|too ต้องตามด้วยคุณศัพท์ เช่น too small
+-very|very ไม่ใช้นำหน้าคำนามแบบนี้
+-plenty|plenty ต้องมี of ก่อนคำนาม
+!enough ==วางหน้าคำนาม== แต่วางหลังคุณศัพท์ (big enough)
+
+G quantifiers 2
+____ of my colleagues live near the office; most of them drive for an hour.
+=Few|มีน้อยมาก (แทบไม่มี) = ++Few++
+-Little|little ใช้กับนามนับไม่ได้
+-Much|much ใช้กับนามนับไม่ได้
+-Every|every ไม่ตามด้วย of แบบนี้
+!few = ==น้อยจนแทบไม่มี== · a few = มีบ้าง
+
+G quantifiers 2
+I've got ____ homework this weekend, so I can't go to the beach.
+=a lot of|นับไม่ได้ ใช้ ++a lot of++ ได้
+-many|homework นับไม่ได้ ใช้ many ไม่ได้
+-a few|a few ใช้กับนามนับได้
+-several|several ใช้กับนามนับได้
+!homework, advice, information ==นับไม่ได้==
+
+V schedule-routine 1
+Is Thursday afternoon ____ for you, or would Friday be better?
+=convenient|สะดวก = ++convenient for you++
+-typical|typical แปลว่าทั่วไปตามแบบ
+-necessary|necessary แปลว่าจำเป็น
+-private|private แปลว่าส่วนตัว
+!convenient = ==สะดวก== (เวลา สถานที่)
+
+V schedule-routine 1
+Dr Somchai isn't ____ today, but you can see him tomorrow at ten.
+=available|ว่างพบได้ = ++available++
+-regularly|regularly เป็นคำวิเศษณ์
+-local|local แปลว่าในท้องถิ่น
+-public|public แปลว่าสาธารณะ
+!available = ==ว่าง พร้อมให้พบ หรือมีให้ใช้==
+
+V schedule-routine 2
+My morning ____ never changes: coffee, a short walk, then emails.
+=routine|กิจวัตรประจำ = ++routine++
+-schedule|schedule คือตารางนัด ไม่ใช่นิสัย
+-budget|budget คืองบประมาณ
+-society|society คือสังคม
+!routine = ==สิ่งที่ทำเป็นประจำ== · schedule = ตารางเวลา
+
+V schedule-routine 2
+Who is going to ____ the transport for the school trip?
+=organise|จัดการเตรียม = ++organise++
+-manage|manage ใช้กับทีม เวลา หรือธุรกิจ
+-convenient|convenient เป็นคุณศัพท์
+-regularly|regularly เป็นคำวิเศษณ์
+!organise an event / transport = ==จัด เตรียมให้เรียบร้อย==
+
+V schedule-routine 2
+A ____ working day for me starts at seven and ends at four.
+=typical|ตามแบบทั่วไป = ++typical++
+-available|available แปลว่าว่าง
+-necessary|necessary แปลว่าจำเป็น
+-private|private แปลว่าส่วนตัว
+!a typical day = ==วันปกติตามแบบ==
+
+V schedule-routine 2
+You don't need a car here. The ____ transport is cheap and fast.
+=public|ขนส่งสาธารณะ = ++public transport++
+-private|private transport คือรถส่วนตัว
+-local|local transport ไม่ใช่คำที่ใช้กัน
+-typical|typical ไม่เข้ากับ transport
+!public transport = ==รถเมล์ รถไฟ ฯลฯ==
+
+R activity-schedule 2|Riverside Community Centre: December Activities
+Here is our programme for December. All activities are free for local residents, but you need to book a place at the front desk.
+
+Yoga classes take place every Monday and Wednesday at 6 pm. Please bring your own mat. The English conversation club meets twice a month, on the first and third Saturday, from 10 to 11.30 am.
+
+The centre will be closed from 24 to 26 December. On 31 December, there is a New Year party in the garden from 7 pm. Families are welcome, and there will be music and food from local shops.
+Q How often does the English club meet?
+=twice a month|on the first and third Saturday
+-every Saturday|เฉพาะเสาร์แรกกับเสาร์ที่สาม
+-every Monday and Wednesday|วันจันทร์และพุธเป็นโยคะ
+-once a month|มีสองครั้งต่อเดือน ไม่ใช่ครั้งเดียว
+Q What must people do before joining an activity?
+=book a place at the desk|you need to book a place at the front desk
+-pay a small fee|ฟรีสำหรับคนในชุมชน
+-buy a mat at the centre|ให้นำเสื่อมาเอง ไม่ใช่ซื้อ
+-call the centre on Monday|ไม่ได้บอกให้โทรมาวันจันทร์
+Q When is the centre closed?
+=from 24 to 26 December|will be closed from 24 to 26 December
+-on 31 December|31 ธันวาคมมีงานปาร์ตี้
+-every Saturday|วันเสาร์มีชมรมภาษาอังกฤษ
+-on Monday evenings|จันทร์เย็นมีโยคะ
+
+L asking-availability 2
+Woman: Could we meet on Wednesday to talk about the budget?
+Man: I'm afraid I'm busy all day Wednesday. How about Thursday morning?
+Woman: Thursday at nine is fine.
+Q When will they meet?
+=on Thursday morning|Thursday at nine is fine
+-on Wednesday|ฝ่ายชายไม่ว่างวันพุธ
+-on Thursday afternoon|ตกลงกันตอนเช้า เก้าโมง
+-they will not meet|ทั้งสองตกลงวันเวลากันได้
+
+L schedule-routine 2
+Man: I try to go swimming three times a week, but this month I've only been once because of work.
+Q How often has the man been swimming this month?
+=only once|I've only been once
+-three times a week|เป็นสิ่งที่เขาพยายามทำตามปกติ
+-every day|ไม่ได้พูดว่าทุกวัน
+-twice|ไม่ได้พูดว่าสองครั้ง

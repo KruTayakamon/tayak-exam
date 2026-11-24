@@ -1,0 +1,157 @@
+G cleft-sentences 2
+It wasn't the price ____ put customers off; it was the long wait.
+=that|ประโยคเน้น ++It wasn't X that...++
+-what|what ไม่ใช้หลังคำนามในโครงสร้างนี้
+-which it|มี it ซ้ำ จึงใช้ไม่ได้
+-who|who ใช้กับคน
+!==It is/was + ส่วนที่เน้น + that...==
+
+G cleft-sentences 2
+What surprised me most ____ how calm everyone stayed.
+=was|What-clause เป็นประธานเอกพจน์ ++was++
+-were|what-clause ถือเป็นเอกพจน์
+-did|did ไม่ใช่กริยาเชื่อมในโครงสร้างนี้
+-had|had ไม่เข้ากับโครงสร้างนี้
+!==What + ประโยค + is/was + ส่วนที่เน้น==
+
+G cleft-sentences 3
+All I want to do this weekend ____ sleep.
+=is|All I want to do is + ++V1++
+-are|all-clause ถือเป็นเอกพจน์
+-be|ขาดการผันกริยา
+-has|ไม่ใช่กริยาเชื่อม
+!==All I want (to do) is + V1== = สิ่งเดียวที่อยากทำคือ
+
+G cleft-sentences 3
+The reason ____ I left the company was the lack of training.
+=why|ประโยคเน้นเหตุผล ++The reason why...++
+-what|what ไม่ตามหลัง the reason
+-because|the reason ... because ซ้ำความหมาย
+-for|for ไม่ใช้เชื่อมแบบนี้
+!==The reason (why) + ประโยค + was...==
+
+G fronting-emphasis 2
+____ the factory closed, the town has never fully recovered.
+=Ever since|ตั้งแต่นั้นมา ++Ever since + ประโยค++
+-Even since|ไม่ใช่สำนวน
+-Ever when|ไม่ใช่สำนวน
+-Already since|ไม่ใช่สำนวน
+!==Ever since + ประโยค== = ตั้งแต่...เป็นต้นมา
+
+G fronting-emphasis 3
+So difficult ____ that only three students passed.
+=was the exam|So + คุณศัพท์ ขึ้นต้น ++สลับกริยา++
+-the exam was|ต้องสลับหลัง so + adj ขึ้นต้น
+-was exam|ขาด the
+-the exam is|เล่าอดีต และไม่ได้สลับ
+!==So + adj + be + ประธาน + that...==
+
+G fronting-emphasis 3
+____ he may be, he still needs to follow the rules.
+=Talented as|ยอมรับแล้วแย้ง ++adj + as + ประธาน + may be++
+-As talented|ลำดับคำผิดสำหรับโครงสร้างนี้
+-Although talented|ไม่ตามด้วย he may be แบบนี้
+-However talented as|มี as เกิน
+!==adj + as + ประธาน + may be== = แม้จะ...ก็ตาม
+
+G fronting-emphasis 3
+Such ____ the demand that the tickets sold out in minutes.
+=was|Such + be + ประธาน ++Such was the...++
+-were|the demand เป็นเอกพจน์
+-had|ไม่ใช่โครงสร้างนี้
+-did|ไม่ใช่โครงสร้างนี้
+!==Such was + คำนาม + that...== = ...มากเสียจนกระทั่ง
+
+G fronting-emphasis 3
+Into the room ____, holding a huge cake.
+=walked my grandfather|ทิศทางขึ้นต้น ++สลับกริยากับประธาน++
+-my grandfather walked|ทางการแบบนี้มักสลับ
+-did my grandfather walk|ไม่ใช้ did ในโครงสร้างนี้
+-walk my grandfather|ต้องเป็นอดีต
+!==Into/Out of/Down + กริยา + ประธาน== (เล่าเรื่อง)
+
+V development-support 2
+Mentoring programmes ____ confidence among new staff.
+=foster|ส่งเสริมให้เติบโต = ++foster++
+-endorse|endorse คือรับรองสนับสนุน
+-streamline|streamline คือทำให้กระชับ
+-advocate|ไม่ตรงความหมาย
+!foster = ==บ่มเพาะ ส่งเสริม==
+
+V development-support 2
+The new software will ____ the ordering process, cutting it from five steps to two.
+=streamline|ทำให้กระชับคล่องตัว = ++streamline++
+-cultivate|cultivate คือปลูกฝัง
+-endeavour|endeavour คือพยายาม
+-scaffold|ไม่ตรงความหมาย
+!streamline = ==ลดขั้นตอนให้คล่องตัว==
+
+V development-support 3
+The training aims to ____ teams to make their own decisions.
+=empower|ให้อำนาจ = ++empower someone to++
+-underpin|underpin ไม่ตามด้วยคน + to
+-consolidate|consolidate ไม่ตามด้วยคน + to
+-foster|foster ไม่ตามด้วยคน + to
+!empower someone ==to + V1== = เสริมพลังให้
+
+V development-support 3
+Careful field studies ____ the new conservation plan for the river.
+=underpins|เป็นรากฐานรองรับ = ++underpin++
+-empowers|empower ต้องเป็นคน
+-advocates|advocate ไม่เข้ากับประธานนี้
+-endeavours|endeavour ต้องมี to
+!underpin = ==เป็นรากฐานรองรับ==
+
+V development-support 3
+The two departments were merged to ____ the company's position in Asia.
+=consolidate|ทำให้มั่นคงขึ้น = ++consolidate++
+-scaffold|ไม่ตรงความหมาย
+-advocate|advocate คือสนับสนุน (ความคิด)
+-endeavour|endeavour คือพยายาม
+!consolidate = ==ผนึกกำลัง ทำให้มั่นคง==
+
+V development-support 3
+Several doctors ____ a ban on sugary drinks in schools.
+=advocate|สนับสนุนเรียกร้อง = ++advocate + คำนาม++
+-empower|empower ต้องมีคนเป็นกรรม
+-foster|ไม่ตรงความหมาย
+-streamline|ไม่ตรงความหมาย
+!advocate something = ==สนับสนุน เรียกร้อง==
+
+R leadership 2|What Makes a Good Team Leader?
+It is not technical skill that most employees value in a leader. According to a study of 2,000 workers in Southeast Asia, what people want most is a manager who listens and explains decisions.
+
+Leaders who empowered their teams to choose how to complete tasks had lower staff turnover. Interestingly, these teams did not work fewer hours, but they reported feeling more in control of their time. The study suggests that trust, rather than freedom alone, underpins this effect.
+
+The researchers also found that praise mattered less than expected. What employees valued was specific feedback: knowing exactly what had gone well and what to improve. General comments such as "good job" were often forgotten within a day.
+Q What do employees value most in a leader?
+=listening and explaining decisions|what people want most is a manager who listens and explains decisions
+-technical expertise|บทบอกว่าไม่ใช่ทักษะทางเทคนิค
+-frequent praise|คำชมสำคัญน้อยกว่าที่คาด
+-shorter working hours|ทีมไม่ได้ทำงานน้อยลง
+Q What happened in teams with more freedom?
+=fewer people left their jobs|had lower staff turnover
+-they worked fewer hours|ทีมไม่ได้ทำงานน้อยลง
+-they made more mistakes|ในบทไม่ได้พูดถึงความผิดพลาด
+-leaders praised them more|ในบทไม่ได้พูดถึงเรื่องนี้
+Q What kind of feedback did employees find useful?
+=detailed comments on what to improve|specific feedback: knowing exactly what had gone well and what to improve
+-short general praise|ลืมภายในหนึ่งวัน
+-feedback once a year|ในบทไม่ได้พูดถึงความถี่
+-feedback from customers|ในบทไม่ได้พูดถึงลูกค้า
+
+L group-discussion 2
+Man: It's not more money we need. What we need is better planning.
+Q According to the man, what is the real problem?
+=poor planning|What we need is better planning
+-a lack of money|เขาบอกว่าไม่ใช่เงิน
+-too many staff|ในบทไม่ได้พูดถึงพนักงาน
+-the wrong manager|ในบทไม่ได้พูดถึงผู้จัดการ
+
+L development-support 2
+Woman: Our aim this year is to cultivate a culture where people feel safe to admit mistakes.
+Q What does the woman want to create?
+=an environment where mistakes can be admitted|feel safe to admit mistakes
+-a strict system of punishments|ความหมายกลับกัน
+-a new training centre|ในบทไม่ได้พูดถึงศูนย์อบรม
+-a culture of competition|ในบทไม่ได้พูดถึงการแข่งขัน

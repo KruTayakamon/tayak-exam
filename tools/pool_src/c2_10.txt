@@ -1,0 +1,159 @@
+G implication-attitude 2
+"Well, it's certainly an original idea." The speaker most likely thinks the idea is ____.
+=strange or impractical|ชมแบบเลี่ยง แฝงว่าไม่ค่อยดี ++certainly original++
+-excellent|ไม่ได้ชมจริง
+-boring|original ไม่ได้แปลว่าน่าเบื่อ
+-already very common everywhere|ความหมายกลับกัน
+!"certainly ..." ที่ชมกว้าง ๆ มัก ==แฝงความไม่เห็นด้วย==
+
+G implication-attitude 3
+"I'm sure the new manager means well." The speaker is probably ____.
+=doubtful about the manager's ability|means well = ตั้งใจดีแต่อาจทำไม่ได้
+-full of praise for the manager|ไม่ได้ชมเต็มที่
+-angry with the manager|ไม่ได้แสดงความโกรธตรง ๆ
+-unaware of the manager|ผู้พูดพูดถึงผู้จัดการอยู่
+!==means well== = ตั้งใจดี (แต่ผลอาจไม่ดี)
+
+G implication-attitude 3
+"Thanks for finally replying to my email." The word "finally" shows ____.
+=irritation at the delay|finally = ช้ามาก
+-real gratitude|คำว่า finally แฝงความไม่พอใจ
+-surprise at the content|ไม่ได้พูดถึงเนื้อหา
+-confusion|ไม่ได้แสดงความสับสน
+!==finally== ในคำขอบคุณ = ประชดว่าช้า
+
+G implication-attitude 3
+"Not bad for a first attempt." The speaker means the work is ____.
+=acceptable but could improve|ชมแบบมีเงื่อนไข ++not bad for...++
+-perfect|ไม่ได้ชมเต็มที่
+-terrible|ไม่ได้ติแรง
+-copied|ในบทไม่ได้บ่งเช่นนั้น
+!==not bad for...== = พอใช้ได้ (สำหรับ...)
+
+G argument-evaluation 2
+"Everyone I know loves the new app, so it must be the best." This argument is weak because ____.
+=it relies on a small, biased sample|อ้างจากคนรอบตัว ++ตัวอย่างน้อยและลำเอียง++
+-it uses too many numbers and statistics|ไม่มีตัวเลข
+-it is too long|ไม่ใช่จุดอ่อน
+-it mentions an app|ไม่ใช่จุดอ่อน
+!ข้อสรุปจาก ==กลุ่มตัวอย่างเล็ก/ลำเอียง== = อ่อน
+
+G argument-evaluation 3
+"Ice cream sales and drowning both rise in summer, so ice cream causes drowning." The flaw is ____.
+=confusing correlation with causation|เกิดพร้อมกันไม่ได้แปลว่าเป็นเหตุ ++correlation ≠ causation++
+-using the wrong season|ไม่ใช่จุดอ่อน
+-not enough adjectives|ไม่เกี่ยว
+-mentioning swimming in a discussion about food|ไม่ใช่จุดอ่อน
+!เกิดพร้อมกัน ==ไม่ได้แปลว่าเป็นเหตุ==
+
+G argument-evaluation 3
+"Either we ban all cars or the city will die." This is an example of ____.
+=a false choice|ให้เลือกแค่สองทาง ++false dilemma++
+-a balanced argument|ไม่สมดุล
+-an expert opinion|ไม่ได้อ้างผู้เชี่ยวชาญ
+-a statistic|ไม่มีตัวเลข
+!ตัดทางเลือกอื่นทิ้ง = ==false dilemma==
+
+G argument-evaluation 3
+"He can't be right about climate change; he failed science at school." This argument ____.
+=attacks the person, not the claim|โจมตีตัวบุคคล ++ad hominem++
+-provides strong evidence|ไม่มีหลักฐานเกี่ยวกับข้ออ้าง
+-agrees with him about climate change|ความหมายกลับกัน
+-uses a fair comparison|ไม่ได้เปรียบเทียบ
+!โจมตีตัวคน = ==ad hominem==
+
+G argument-evaluation 3
+Which would most strengthen the claim that the new timetable reduced lateness?
+=data showing lateness fell after it began|หลักฐานก่อน-หลัง ++data before and after++
+-a teacher saying she likes it|ความเห็นส่วนตัว ไม่ใช่หลักฐาน
+-a large photo of the timetable on the school website|ไม่ได้พิสูจน์ผล
+-the timetable being colourful|ไม่เกี่ยว
+!เสริมข้ออ้างด้วย ==ข้อมูลเปรียบเทียบก่อน-หลัง==
+
+V praise-criticism 2
+The critics ____ the young director's first film as a masterpiece.
+=lauded|ยกย่อง = ++laud as++
+-derided|deride คือเย้ยหยัน
+-disparaged|disparage คือดูแคลน
+-lamented|lament คือคร่ำครวญ
+!laud = ==ยกย่องสรรเสริญ==
+
+V praise-criticism 2
+The review was ____: it called the book "lazy, dull and badly written".
+=scathing|วิจารณ์แรง = ++scathing++
+-wry|wry คือขำแบบแห้ง ๆ
+-facetious|facetious คือพูดเล่นผิดที่
+-veiled|veiled คือแฝง
+!scathing = ==วิจารณ์รุนแรงเจ็บแสบ==
+
+V praise-criticism 3
+Many older residents ____ the loss of the old market.
+=lament|เสียดายคร่ำครวญ = ++lament++
+-extol|extol คือยกย่อง
+-begrudge|begrudge คืออิจฉา ไม่เต็มใจให้
+-laud|ความหมายกลับกัน
+!lament = ==เสียดาย โศกเศร้า==
+
+V praise-criticism 3
+I don't ____ him his success; he worked hard for it.
+=begrudge|อิจฉาไม่เต็มใจให้ = ++begrudge someone something++
+-lament|ไม่ตรงความหมาย
+-deride|ไม่ตรงความหมาย
+-extol|ความหมายกลับกัน
+!not begrudge someone something = ==ไม่อิจฉา ยินดีด้วย==
+
+V praise-criticism 3
+His ____ smile suggested he found the whole situation slightly absurd.
+=wry|ยิ้มแบบรู้ทัน ขำแห้ง ๆ = ++wry++
+-scathing|scathing ใช้กับคำวิจารณ์
+-disingenuous|disingenuous คือไม่จริงใจ
+-lauded|lauded เป็นกริยา
+!a wry smile = ==ยิ้มแห้ง ๆ ขำในใจ==
+
+V praise-criticism 3
+It's ____ to claim you didn't know about the problem; you were sent three emails.
+=disingenuous|แกล้งไม่รู้ ไม่จริงใจ = ++disingenuous++
+-wry|ไม่ตรงความหมาย
+-facetious|ไม่ตรงความหมาย
+-veiled|ไม่ตรงความหมาย
+!disingenuous = ==ไม่จริงใจ แสร้ง==
+
+R ironic-argument 2|In Praise of Endless Meetings
+What would we do without meetings? Without them, we might be forced to make decisions quickly, or, worse, actually do the work we discussed.
+
+Consider the weekly planning meeting. In two hours, a dozen people can agree to hold another meeting to plan the planning. It is a triumph of efficiency, if efficiency means using as much time as possible.
+
+Of course, critics will say that most meetings could be replaced by a short email. These people clearly underestimate the joy of watching a colleague share their screen for ten minutes while searching for the right file.
+
+Perhaps, though, there is a modest solution: before calling a meeting, ask whether anyone would notice if it were cancelled. If the answer is no, we might all get some work done.
+Q What is the writer's real view of meetings?
+=many are a waste of time|เป็นบทประชด ชมแบบตรงข้าม
+-they are very efficient|เป็นการประชด
+-they should be longer|เป็นการประชด
+-they are the best way to make every decision quickly|เป็นการประชด
+Q Why does the writer mention screen sharing?
+=to mock a common time-wasting habit|the joy of watching a colleague ... searching for the right file
+-to recommend it|เป็นการประชด
+-to explain new software|ในบทไม่ได้พูดเช่นนั้น
+-to praise colleagues who are good at technology|ในบทไม่ได้พูดถึง
+Q What does the writer actually suggest?
+=cancelling meetings no one would miss|ask whether anyone would notice if it were cancelled
+-holding more planning meetings|เป็นการประชด
+-banning email|ในบทไม่ได้พูดเช่นนั้น
+-making every meeting at least two hours long|เป็นการประชด
+
+L policy-debate 2
+Woman: My opponent says the plan will cost too much. Yet he hasn't explained how much doing nothing will cost.
+Q What is the woman's argument?
+=inaction also has a cost|he hasn't explained how much doing nothing will cost
+-the plan is too expensive|เป็นข้ออ้างของอีกฝ่าย
+-her opponent is dishonest|ไม่ได้พูดตรง ๆ
+-the plan should be cancelled immediately and replaced|ในบทไม่ได้พูดถึง
+
+L praise-criticism 2
+Man: Oh, brilliant. The printer's broken again, just before the deadline.
+Q How does the man feel?
+=annoyed|brilliant เป็นการประชด
+-delighted|เป็นการประชด
+-relieved|ไม่ตรงความหมาย
+-confused about how printers work and what to do|ในบทไม่ได้บ่งเช่นนั้น

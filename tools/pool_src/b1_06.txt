@@ -1,0 +1,158 @@
+G comparison 1
+This sofa is ____ than the one in the window, but it's much more comfortable.
+=cheaper|คำสั้น เติม ++-er + than++
+-more cheap|cheap พยางค์เดียว ไม่ใช้ more
+-cheapest|มี than ต้องเป็นขั้นกว่า
+-as cheap|as ต้องคู่กับ as ไม่ใช่ than
+!คำพยางค์เดียว ==-er than== · คำยาว more ... than
+
+G comparison 1
+Of all the phones in the shop, this one has the ____ battery.
+=longest-lasting|ขั้นสุด the + ++-est++ ในกลุ่มทั้งหมด
+-longer-lasting|ขั้นกว่าใช้เปรียบสองสิ่ง
+-long-lasting than|มี the และ of all ต้องใช้ขั้นสุด
+-most long|long ใช้ longest ไม่ใช้ most
+!of all / in the shop → ==the + ขั้นสุด==
+
+G comparison 2
+The new bus route is ____ as the old one. It still takes an hour.
+=just as slow|เท่ากัน = ++as + คำปกติ + as++
+-slower|ประโยคบอกว่ายังใช้เวลาเท่าเดิม
+-as slower|หลัง as ใช้คำปกติ ไม่ใช่ขั้นกว่า
+-the slowest|ไม่ได้เปรียบกับหลายสิ่ง
+!==as ... as== = เท่ากับ · just as = เท่ากันเป๊ะ
+
+G comparison 2
+My English is getting ____ because I practise every day.
+=better and better|ดีขึ้นเรื่อย ๆ = ++better and better++
+-good and good|ต้องใช้ขั้นกว่า better
+-more good|good ขั้นกว่าคือ better
+-best and best|ต้องใช้ขั้นกว่า ไม่ใช่ขั้นสุด
+!ขั้นกว่า + and + ขั้นกว่า = ==ยิ่ง...ขึ้นเรื่อย ๆ==
+
+G comparison 2
+This laptop is ____ more expensive than mine. It costs almost double.
+=much|ต่างกันมาก ใช้ ++much + ขั้นกว่า++
+-very|very ไม่ใช้นำหน้าขั้นกว่า
+-many|many ใช้กับนามนับได้
+-most|most ใช้กับขั้นสุด
+!==much / far / a lot== + ขั้นกว่า = มากกว่ากันเยอะ
+
+G advice-suggestions 1
+Your tooth still hurts? You ____ see a dentist this week.
+=should|ให้คำแนะนำ = ++should + V1++
+-should to|หลัง should ไม่มี to
+-must to|หลัง must ไม่มี to
+-ought|ought ต้องมี to ตามมา
+!should + ==กริยาช่อง 1== (ไม่มี to)
+
+G advice-suggestions 1
+Why don't we ____ the stairs? The lift is very slow today.
+=take|Why don't we + ++V1++
+-taking|หลัง why don't we ใช้ V1
+-to take|ไม่มี to หลัง why don't we
+-took|ไม่ใช้อดีตในการเสนอแนะ
+!Why don't we / you + ==V1== ? = เสนอแนะ
+
+G advice-suggestions 2
+My doctor suggested ____ less sugar and walking more.
+=eating|suggest + ++-ing++
+-to eat|suggest ไม่ตามด้วย to + V
+-eat|suggest ไม่ตามด้วย V1 ตรง ๆ
+-ate|ไม่ใช้อดีตหลัง suggest
+!suggest ==+ -ing== หรือ suggest (that) + ประโยค
+
+G advice-suggestions 2
+If I were you, I ____ the cheaper flight and save the money.
+='d book|If I were you ตามด้วย ++would + V1++
+-will book|ใช้ would กับสถานการณ์สมมติ
+-booked|ประโยคผลต้องมี would
+-book|ประโยคผลต้องมี would
+!If I were you, ==I'd ...== = ถ้าฉันเป็นคุณ
+
+V compare-advise 1
+Could you ____ a good hotel near the beach in Hua Hin?
+=recommend|แนะนำสิ่งที่ดี = ++recommend++
+-compare|compare คือเปรียบเทียบ
+-advise|advise ใช้กับคน เช่น advise me
+-provide|ไม่ตรงความหมาย ไม่ได้ขอให้จัดหา
+!recommend + ==สิ่ง/สถานที่== = แนะนำ
+
+V compare-advise 1
+This small car isn't ____ for a family of six.
+=suitable|เหมาะ = ++suitable for++
+-flexible|flexible คือยืดหยุ่น
+-valuable|valuable คือมีค่า
+-difference|difference เป็นคำนาม
+!suitable ==for== = เหมาะกับ
+
+V compare-advise 2
+My old car was very ____. It never broke down in ten years.
+=reliable|ไว้ใจได้ = ++reliable++
+-practical|practical คือใช้งานได้จริง
+-flexible|flexible คือยืดหยุ่น
+-suitable|ไม่ตรงกับไม่เคยเสีย
+!reliable = ==เชื่อถือได้ ไม่เสียง่าย==
+
+V compare-advise 2
+One ____ of living in the city is the heavy traffic.
+=disadvantage|ข้อเสีย = ++disadvantage++
+-benefit|benefit คือข้อดี
+-difference|difference คือความแตกต่าง
+-disappointing|เป็นคุณศัพท์ ไม่ใช่คำนาม
+!disadvantage = ==ข้อเสีย== · benefit = ข้อดี
+
+V compare-advise 2
+My job has ____ hours, so I can pick up my son from school.
+=flexible|ยืดหยุ่น = ++flexible hours++
+-reliable|ไม่ตรงความหมายกับเวลาทำงาน
+-valuable|valuable คือมีค่า
+-benefit|benefit เป็นคำนาม
+!flexible hours = ==เวลาทำงานยืดหยุ่น==
+
+V compare-advise 2
+Can you see any ____ between these two photos?
+=difference|ความแตกต่าง = ++difference between++
+-different|different เป็นคุณศัพท์
+-compare|compare เป็นกริยา
+-benefit|ไม่ตรงความหมาย
+!difference ==between== A and B
+
+R product-reviews 2|Two Rice Cookers: Customer Reviews
+Review 1 – SmartCook 300 (2,900 baht)
+I bought this for my family of five. It cooks rice perfectly and keeps it warm for hours. It has a timer, so I can set it at night and have rice ready in the morning. The only disadvantage is the size: it takes up a lot of space in my small kitchen.
+
+Review 2 – MiniRice (1,200 baht)
+This is perfect for one or two people. It's light and easy to clean, and it cooks rice in just 20 minutes. However, it doesn't keep rice warm for long, and there's no timer. For the price, it's very good value.
+Q What does the first writer NOT like about the SmartCook 300?
+=it is too big|it takes up a lot of space in my small kitchen
+-it has no timer|SmartCook มีตัวตั้งเวลา
+-it is hard to clean|ไม่ได้พูดว่าทำความสะอาดยาก
+-it cooks slowly|ไม่ได้พูดว่าหุงช้า
+Q Who is the MiniRice most suitable for?
+=one or two people|perfect for one or two people
+-large families|ครอบครัวใหญ่เหมาะกับเครื่องแรก
+-people who want a timer|MiniRice ไม่มีตัวตั้งเวลา
+-restaurants|ไม่ได้พูดถึงร้านอาหาร
+Q Which is true about both rice cookers?
+=they both get good reviews|ทั้งสองรีวิวชมสินค้า มีข้อเสียเล็กน้อย
+-both keep rice warm for hours|MiniRice อุ่นได้ไม่นาน
+-both cost the same|ราคาต่างกัน 2,900 กับ 1,200
+-both cook rice in 20 minutes|บอกเวลาไว้เฉพาะ MiniRice
+
+L asking-advice 2
+Woman: I want to learn to swim, but I'm a bit scared of deep water.
+Man: Why don't you start with a private teacher in the small pool? That's what I did.
+Q What does the man suggest?
+=a private teacher|Why don't you start with a private teacher
+-swimming in the sea|ไม่ได้แนะนำทะเล
+-watching videos online|ไม่ได้พูดถึงวิดีโอ
+-joining a big class|เขาแนะนำครูส่วนตัว
+
+L comparing-options 2
+Man: The train is more expensive than the bus, but it's much faster and more comfortable, so I'll take it.
+Q Why does the man choose the train?
+=it is faster|much faster and more comfortable
+-it is cheaper|รถไฟแพงกว่า
+-the bus is full|ไม่ได้พูดว่ารถเมล์เต็ม
+-he has a free ticket|ไม่ได้พูดถึงตั๋วฟรี

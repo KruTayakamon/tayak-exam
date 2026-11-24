@@ -1,0 +1,158 @@
+G present-perfect-vs-past-simple 1
+I ____ my passport last week, so I can travel now.
+=got|มีเวลาชัด last week ใช้ ++past simple++
+-have got|มี last week ใช้ have ไม่ได้
+-have get|รูปผิด และมีเวลาชัดแล้ว
+-was got|รูปผิด จึงใช้ไม่ได้
+!มีเวลาชัดในอดีต (yesterday, last week) ==past simple==
+
+G present-perfect-vs-past-simple 1
+____ you ever been to a cooking class?
+=Have|ประสบการณ์ ever ใช้ ++have + V3++
+-Did|did ใช้เมื่อถามเวลาที่ชัดในอดีต
+-Do|do + tried ผิดรูป
+-Were|were + tried ไม่ใช่รูปคำถามนี้
+!เคย...ไหม ==Have you ever + V3?==
+
+G present-perfect-vs-past-simple 2
+"When ____ your new job?" "In September."
+=did you start|ถามเวลาชัด when ใช้ ++did++
+-have you started|when ไม่ใช้กับ present perfect
+-do you start|คำตอบเป็นอดีตแล้ว
+-are you starting|คำตอบบอกว่าเริ่มไปแล้ว
+!When ...? ==ใช้ past simple== เพราะถามเวลาชัด
+
+G present-perfect-vs-past-simple 2
+Our team ____ three new members since the beginning of the year.
+=has welcomed|ช่วงตั้งแต่ต้นปีถึงตอนนี้ ++has + V3++
+-welcomed|since ต้องคู่กับ present perfect
+-have welcomed|team เป็นเอกพจน์ ใช้ has
+-welcomes|รูปปัจจุบันไม่เข้ากับ since
+!since + จุดเริ่มต้น → ==has/have + V3==
+
+G for-since-already-yet 1
+I've lived in this flat ____ 2019.
+=since|จุดเริ่มต้นที่เป็นปี ใช้ ++since++
+-for|for ตามด้วยระยะเวลา เช่น five years
+-from|from ต้องมี to หรือ until
+-ago|ago ใช้กับ past simple
+!since ==+ จุดเริ่ม== · for + ระยะเวลา
+
+G for-since-already-yet 1
+Have you finished the report ____?
+=yet|คำถาม ทำหรือยัง ใช้ ++yet++ ท้ายประโยค
+-already|already มักใช้ในบอกเล่า
+-still|still ไม่ใช้ท้ายคำถามแบบนี้
+-since|since ต้องมีจุดเริ่มตามมา
+!...yet? = ==หรือยัง== · already = แล้ว (เร็วกว่าคาด)
+
+G for-since-already-yet 2
+Don't worry about the tickets. I've ____ booked them online.
+=already|ทำไปแล้ว ++already วางหลัง have++
+-yet|yet ใช้ในคำถามหรือปฏิเสธ
+-ever|ever ใช้ถามประสบการณ์
+-since|since ต้องมีจุดเริ่มตามมา
+!have ==already== + V3 = ทำไปแล้ว
+
+G for-since-already-yet 2
+We haven't seen each other ____ ages. Let's have lunch soon.
+=for|ระยะเวลานาน ใช้ ++for ages++
+-since|since ต้องตามด้วยจุดเริ่ม
+-during|during ไม่ใช้กับ present perfect แบบนี้
+-ago|ago ใช้กับ past simple
+!for ages = ==นานมากแล้ว==
+
+G for-since-already-yet 2
+The new manager hasn't replied to my email ____.
+=yet|ปฏิเสธ ยังไม่ ใช้ ++yet++ ท้ายประโยค
+-already|already ไม่ใช้ในปฏิเสธแบบนี้
+-just|just ไม่วางท้ายประโยคปฏิเสธ
+-ever|ever ไม่ใช้ในประโยคนี้
+!haven't/hasn't ... ==yet== = ยังไม่
+
+V training-development 1
+After the course, everyone received a ____ with their name on it.
+=certificate|ใบประกาศ = ++certificate++
+-workshop|workshop คือการอบรมเชิงปฏิบัติการ
+-knowledge|knowledge คือความรู้
+-ability|ability คือความสามารถ
+!certificate = ==ใบประกาศ ใบรับรอง==
+
+V training-development 1
+Speaking in front of people is a ____ you can learn with practice.
+=skill|ทักษะ = ++skill++
+-certificate|certificate คือใบประกาศ
+-opportunity|opportunity คือโอกาส
+-knowledge|ความรู้ไม่ใช่สิ่งที่ฝึกพูดแบบนี้
+!a skill = ==ทักษะ== ฝึกได้
+
+V training-development 2
+This job is a great ____ to work with people from other countries.
+=opportunity|โอกาส = ++opportunity to++
+-ability|ability คือความสามารถ
+-workshop|workshop คือการอบรม
+-skill|ไม่ตรงความหมาย ทักษะไม่ใช่โอกาส
+!opportunity to + V = ==โอกาสที่จะ==
+
+V training-development 2
+After three months of practice, I feel more ____ when I speak English on the phone.
+=confident|มั่นใจ = ++confident++
+-successful|successful คือประสบความสำเร็จ
+-useful|useful คือมีประโยชน์
+-recently|recently เป็นคำวิเศษณ์
+!feel confident = ==รู้สึกมั่นใจ==
+
+V training-development 2
+She worked hard and ____ her goal of running a full marathon.
+=achieved|บรรลุเป้าหมาย = ++achieve a goal++
+-developed|develop ใช้กับทักษะ ไม่ใช่เป้าหมาย
+-confident|confident เป็นคุณศัพท์
+-recently|recently เป็นคำวิเศษณ์
+!achieve a goal = ==ทำได้สำเร็จตามเป้า==
+
+V training-development 2
+I've ____ started a cooking class on Saturday mornings.
+=recently|เมื่อไม่นานมานี้ = ++recently++
+-useful|useful เป็นคุณศัพท์
+-successful|successful เป็นคุณศัพท์
+-confident|confident เป็นคุณศัพท์
+!have ==recently== + V3 = เพิ่ง...เมื่อไม่นานนี้
+
+R speaker-profile 2|About Our Speaker: Ms Kanya Thongdee
+Kanya Thongdee is a first-aid trainer with twelve years of experience. She started her career as a nurse in a small hospital in Lampang, where she worked for five years.
+
+Since 2018, she has run first-aid workshops for companies, schools and sports clubs. She has trained more than 4,000 people, and last year she received an award for her work in rural areas.
+
+In today's session, Kanya will show you how to help someone who is choking. You will also practise basic skills in small groups, so please wear comfortable clothes. Everyone who completes the session will receive a certificate.
+Q What was Kanya's first job?
+=a nurse|She started her career as a nurse
+-a first-aid trainer|เป็นงานปัจจุบัน
+-a sports coach|ไม่ได้พูดถึงโค้ชกีฬา
+-a school teacher|ไม่ได้บอกว่าเป็นครู
+Q When did Kanya start running workshops?
+=in 2018|Since 2018, she has run first-aid workshops
+-twelve years ago|12 ปีคือประสบการณ์ทั้งหมด
+-last year|ปีที่แล้วเธอได้รางวัล
+-five years ago|5 ปีคือเวลาที่เป็นพยาบาล
+Q Why should people wear comfortable clothes?
+=they will practise in groups|You will also practise basic skills in small groups
+-the room is hot|ไม่ได้พูดถึงห้องร้อน
+-they will go outside|ไม่ได้บอกว่าจะออกไปข้างนอก
+-it is a sports club|สโมสรกีฬาเป็นลูกค้าของเธอ
+
+L experience-chat 2
+Woman: Have you ever been to Japan?
+Man: Yes, twice. I went for work in 2019 and for a holiday last April.
+Q When did the man last go to Japan?
+=last April|for a holiday last April
+-in 2019|เป็นครั้งแรก ไปทำงาน
+-he has never been|เขาเคยไปสองครั้ง
+-twice last year|ไปสองครั้งคนละปี
+
+L experience-chat 2
+Man: I've already finished the online course, but I haven't got my certificate yet.
+Q What hasn't the man received?
+=his certificate|I haven't got my certificate yet
+-the online course|เขาเรียนจบคอร์สแล้ว
+-his exam results|ไม่ได้พูดถึงผลสอบ
+-an email from the teacher|ไม่ได้พูดถึงอีเมล

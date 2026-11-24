@@ -1,0 +1,279 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 2 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w02-043
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  pool: true
+  stem: "I eat ____ apple every morning."
+  choices:
+    - {t: "an", why: "ก่อนเสียงสระ ใช้ ++an++"}
+    - {t: "a", why: "apple ขึ้นต้นด้วยเสียงสระ ใช้ a ไม่ได้"}
+    - {t: "the", why: "ไม่ได้เจาะจงผลไหน"}
+    - {t: "two", why: "two ต้องตามด้วยพหูพจน์ apples"}
+  explain: "เสียงสระ (a e i o u) → ==an=="
+  status: approved
+- id: cefr-a2-w02-044
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  pool: true
+  stem: "There are three ____ on the table."
+  choices:
+    - {t: "boxes", why: "-x เติม ++-es++"}
+    - {t: "boxs", why: "คำลงท้าย x ต้องเติม es"}
+    - {t: "box", why: "three ต้องใช้พหูพจน์"}
+    - {t: "boxies", why: "ไม่มีคำนี้ในภาษาอังกฤษ"}
+  explain: "ลงท้าย s x ch sh → ==เติม -es=="
+  status: approved
+- id: cefr-a2-w02-045
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 1
+  pool: true
+  stem: "Look at ____ moon! It's very big tonight."
+  choices:
+    - {t: "the", why: "มีอันเดียว ใช้ ++the++"}
+    - {t: "a", why: "ดวงจันทร์มีดวงเดียว ใช้ the"}
+    - {t: "an", why: "moon ไม่ได้ขึ้นต้นด้วยเสียงสระ"}
+    - {t: "some", why: "some ไม่ใช้กับดวงจันทร์"}
+  explain: "สิ่งที่มีอันเดียว (the sun, the moon) → ==the=="
+  status: approved
+- id: cefr-a2-w02-046
+  kind: mcq
+  skill: gm
+  topic: articles-plurals
+  level: 2
+  pool: true
+  stem: "My two ____ go to the same school."
+  choices:
+    - {t: "children", why: "พหูพจน์ไม่ปกติ ++child → children++"}
+    - {t: "childs", why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+    - {t: "child", why: "two ต้องใช้พหูพจน์"}
+    - {t: "childrens", why: "children เป็นพหูพจน์อยู่แล้ว"}
+  explain: "child → ==children== · man → men · person → people"
+  status: approved
+- id: cefr-a2-w02-047
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 1
+  pool: true
+  stem: "____ a supermarket near my house."
+  choices:
+    - {t: "There is", why: "สิ่งเดียว ใช้ ++There is++"}
+    - {t: "There are", why: "supermarket เป็นเอกพจน์"}
+    - {t: "It have", why: "ไม่ใช่รูปที่ใช้บอกว่ามี"}
+    - {t: "Is there", why: "เป็นรูปคำถาม จึงใช้ไม่ได้"}
+  explain: "มี + เอกพจน์ = ==There is=="
+  status: approved
+- id: cefr-a2-w02-048
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 1
+  pool: true
+  stem: "Your keys are ____ the bag. Look inside."
+  choices:
+    - {t: "in", why: "ข้างใน = ++in++"}
+    - {t: "on", why: "on คือบนผิว จึงใช้ไม่ได้"}
+    - {t: "at", why: "at ไม่ใช้กับข้างในกระเป๋า"}
+    - {t: "under", why: "under คือข้างใต้ ไม่ใช่ข้างใน"}
+  explain: "ข้างใน ==in== · ข้างบน on · ข้างใต้ under"
+  status: approved
+- id: cefr-a2-w02-049
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  pool: true
+  stem: "\"____ any chairs in the meeting room?\" \"Yes, there are ten.\""
+  choices:
+    - {t: "Are there", why: "ถามพหูพจน์ ++Are there any...?++"}
+    - {t: "Is there", why: "chairs เป็นพหูพจน์"}
+    - {t: "There are", why: "เป็นรูปบอกเล่า ไม่ใช่คำถาม"}
+    - {t: "Do there", why: "ไม่มีรูปนี้ จึงใช้ไม่ได้"}
+  explain: "คำถาม = ==Are there + พหูพจน์?=="
+  status: approved
+- id: cefr-a2-w02-050
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  pool: true
+  stem: "The cat is sleeping ____ the bed. I can only see its tail."
+  choices:
+    - {t: "under", why: "ข้างใต้ = ++under++"}
+    - {t: "in", why: "in ใช้กับข้างใน"}
+    - {t: "at", why: "at ไม่ใช้กับเตียงแบบนี้"}
+    - {t: "near", why: "near คือใกล้ ไม่ได้บอกว่าข้างใต้"}
+  explain: "under = ==ข้างใต้=="
+  status: approved
+- id: cefr-a2-w02-051
+  kind: mcq
+  skill: gm
+  topic: there-is-place
+  level: 2
+  pool: true
+  stem: "There ____ two windows in my bedroom."
+  choices:
+    - {t: "are", why: "พหูพจน์ ใช้ ++There are++"}
+    - {t: "is", why: "windows เป็นพหูพจน์"}
+    - {t: "am", why: "ไม่มีรูป there am"}
+    - {t: "be", why: "ต้องผันกริยา จึงใช้ไม่ได้"}
+  explain: "There ==are== + พหูพจน์"
+  status: approved
+- id: cefr-a2-w02-052
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  pool: true
+  stem: "Please close the ____. It's cold outside."
+  choices:
+    - {t: "window", why: "หน้าต่าง = ++window++"}
+    - {t: "desk", why: "ปิดโต๊ะไม่ได้ จึงใช้ไม่ได้"}
+    - {t: "pen", why: "ปิดปากกาไม่ใช่เรื่องอากาศเย็น"}
+    - {t: "clock", why: "ปิดนาฬิกาไม่ใช่เรื่องอากาศเย็น"}
+  explain: "close the window = ==ปิดหน้าต่าง=="
+  status: approved
+- id: cefr-a2-w02-053
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  pool: true
+  stem: "I can't write. I don't have a ____."
+  choices:
+    - {t: "pen", why: "ปากกา = ++pen++"}
+    - {t: "chair", why: "chair คือเก้าอี้"}
+    - {t: "door", why: "door คือประตู จึงใช้ไม่ได้"}
+    - {t: "window", why: "window คือหน้าต่าง"}
+  explain: "pen = ==ปากกา=="
+  status: approved
+- id: cefr-a2-w02-054
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 1
+  pool: true
+  stem: "What time is it? There's a ____ on the wall."
+  choices:
+    - {t: "clock", why: "นาฬิกาแขวน = ++clock++"}
+    - {t: "book", why: "ไม่ใช้ดูเวลา จึงใช้ไม่ได้"}
+    - {t: "paper", why: "ไม่ใช้ดูเวลา จึงใช้ไม่ได้ (paper)"}
+    - {t: "bag", why: "ไม่ใช้ดูเวลา จึงใช้ไม่ได้ (bag)"}
+  explain: "clock = ==นาฬิกา (แขวน/ตั้ง)=="
+  status: approved
+- id: cefr-a2-w02-055
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  pool: true
+  stem: "Please sit on this ____. It's very comfortable."
+  choices:
+    - {t: "chair", why: "เก้าอี้ = ++chair++"}
+    - {t: "clock", why: "ไม่ใช่สิ่งที่นั่ง"}
+    - {t: "pen", why: "ไม่ใช่สิ่งที่นั่ง (pen)"}
+    - {t: "window", why: "ไม่ใช่สิ่งที่นั่ง (window)"}
+  explain: "sit on a chair = ==นั่งเก้าอี้=="
+  status: approved
+- id: cefr-a2-w02-056
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  pool: true
+  stem: "The bank is ____ the post office, just two minutes away."
+  choices:
+    - {t: "near", why: "ใกล้ = ++near++"}
+    - {t: "under", why: "ไม่ได้บอกว่าข้างใต้"}
+    - {t: "in", why: "ไม่ได้อยู่ข้างใน"}
+    - {t: "paper", why: "paper เป็นคำนาม"}
+  explain: "near = ==ใกล้=="
+  status: approved
+- id: cefr-a2-w02-057
+  kind: mcq
+  skill: vo
+  topic: room-objects
+  level: 2
+  pool: true
+  stem: "I need some ____ to print my report."
+  choices:
+    - {t: "paper", why: "กระดาษ = ++paper++"}
+    - {t: "door", why: "door คือประตู จึงใช้ไม่ได้"}
+    - {t: "chair", why: "chair คือเก้าอี้"}
+    - {t: "clock", why: "clock คือนาฬิกา"}
+  explain: "paper = ==กระดาษ== (นับไม่ได้)"
+  status: approved
+- id: cefr-a2-w02-058
+  kind: read
+  skill: rd
+  topic: building-signs
+  level: 1
+  pool: true
+  title: "Signs in the Community Centre"
+  passage: |
+    Ground floor: Reception, Café and Toilets.
+    First floor: Computer room (open 9 am to 5 pm) and Meeting rooms 1 and 2.
+    Second floor: Library. Please be quiet.
+    There is a lift near the front door. The stairs are next to the café.
+    No food in the computer room.
+    Car park: behind the building. It is free for visitors, but there are only twenty spaces, so please come early on busy days.
+  questions:
+    - stem: "Where is the library?"
+      choices:
+        - {t: "on the second floor", why: "Second floor: Library"}
+        - {t: "on the ground floor", why: "ชั้นล่างคือแผนกต้อนรับ คาเฟ่ และห้องน้ำ"}
+        - {t: "on the first floor", why: "ชั้นหนึ่งคือห้องคอมพิวเตอร์และห้องประชุม"}
+        - {t: "behind the building", why: "ข้างหลังอาคารคือที่จอดรถ"}
+    - stem: "Where are the stairs?"
+      choices:
+        - {t: "next to the café", why: "The stairs are next to the café"}
+        - {t: "near the front door", why: "ลิฟต์อยู่ใกล้ประตูหน้า"}
+        - {t: "in the library", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "in the car park", why: "ในบทไม่ได้พูดเช่นนั้น (in the car park)"}
+    - stem: "What can't you do in the computer room?"
+      choices:
+        - {t: "eat", why: "No food in the computer room"}
+        - {t: "use a computer", why: "ใช้คอมพิวเตอร์ได้"}
+        - {t: "talk quietly", why: "ในบทไม่ได้ห้ามพูดเบา ๆ"}
+        - {t: "go in at 10 am", why: "เปิด 9 โมงถึง 5 โมงเย็น"}
+  status: approved
+- id: cefr-a2-w02-059
+  kind: listen
+  skill: li
+  topic: locations
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Excuse me, where's the toilet?"}
+    - {who: Man, en: "It's on the first floor, next to the lift."}
+  questions:
+    - stem: "Where is the toilet?"
+      choices:
+        - {t: "on the first floor", why: "It's on the first floor"}
+        - {t: "on the ground floor", why: "ชายบอกว่าชั้นหนึ่ง"}
+        - {t: "in the lift", why: "ห้องน้ำอยู่ข้าง ๆ ลิฟต์"}
+        - {t: "outside the building", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-a2-w02-060
+  kind: listen
+  skill: li
+  topic: room-objects
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "There are two desks in my office, but there's only one chair."}
+  questions:
+    - stem: "How many chairs are there in the man's office?"
+      choices:
+        - {t: "one", why: "there's only one chair"}
+        - {t: "two", why: "สองคือจำนวนโต๊ะ"}
+        - {t: "three", why: "ในบทไม่ได้พูดถึงสาม"}
+        - {t: "none", why: "มีเก้าอี้หนึ่งตัว"}
+  status: approved

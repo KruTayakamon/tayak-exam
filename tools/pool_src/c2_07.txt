@@ -1,0 +1,157 @@
+G idioms-fixed 2
+After months of arguing, the two sides finally agreed to ____ the hatchet.
+=bury|สำนวน ++bury the hatchet++ = คืนดีกัน
+-hide|ไม่ใช่สำนวน
+-drop|ไม่ใช่สำนวน
+-break|ไม่ใช่สำนวน
+!==bury the hatchet== = เลิกทะเลาะ คืนดี
+
+G idioms-fixed 2
+The new manager has been thrown in at the ____ end, with three projects to run.
+=deep|สำนวน ++thrown in at the deep end++
+-far|ไม่ใช่สำนวน
+-hard|ไม่ใช่สำนวน
+-high|ไม่ใช่สำนวน
+!==thrown in at the deep end== = ถูกโยนให้ทำเรื่องยากทันที
+
+G idioms-fixed 3
+We've been ____ around the bush for an hour. Let's discuss the real issue.
+=beating|สำนวน ++beat around the bush++
+-hitting|ไม่ใช่สำนวน
+-walking|ไม่ใช่สำนวน
+-shaking|ไม่ใช่สำนวน
+!==beat around the bush== = พูดอ้อมค้อม
+
+G idioms-fixed 3
+The final decision is in the ____ of the committee now.
+=hands|สำนวน ++in the hands of++
+-arms|ไม่ใช่สำนวน
+-fingers|ไม่ใช่สำนวน
+-palms|ไม่ใช่สำนวน
+!==in the hands of== = อยู่ในความรับผิดชอบของ
+
+G idioms-fixed 3
+The idea was dismissed out of ____ without any discussion.
+=hand|สำนวน ++dismiss out of hand++
+-mind|ไม่ใช่สำนวน
+-sight|out of sight มีความหมายอื่น
+-place|out of place มีความหมายอื่น
+!==dismiss out of hand== = ปัดตกทันทีโดยไม่พิจารณา
+
+G figurative-language 2
+"The office was a beehive of activity" means the office was ____.
+=very busy|ภาษาเปรียบ ++beehive = คึกคัก++
+-full of insects|ตีความตามตัวอักษร ไม่ใช่ความหมายเปรียบ
+-very quiet|ความหมายกลับกัน
+-dangerous|ไม่ตรงความหมาย
+!อุปมา ==beehive of activity== = วุ่นวายคึกคัก
+
+G figurative-language 3
+"Her words cut deeper than any knife." This is an example of ____.
+=metaphorical comparison|เปรียบเทียบเชิงภาพ ++คำพูดทำให้เจ็บ++
+-literal description|ไม่ใช่ความหมายตามตัว
+-a scientific fact|ไม่ใช่ข้อเท็จจริง
+-a polite request|ไม่ใช่คำขอ
+!คำพูด "ตัด" ได้ = ==ภาษาเปรียบ==
+
+G figurative-language 3
+"I've told you a million times!" uses ____ for emphasis.
+=exaggeration|พูดเกินจริง ++hyperbole++
+-understatement|understatement คือพูดน้อยกว่าจริง
+-a euphemism|ไม่ได้ทำให้นุ่มนวล
+-an allegory|allegory คือเรื่องเชิงสัญลักษณ์
+!==a million times== = พูดเกินจริงเพื่อเน้น
+
+G figurative-language 3
+"The climb to the top was a bit tiring," said the man who had just climbed Everest. This is ____.
+=understatement|พูดน้อยกว่าจริง ++understatement++
+-hyperbole|hyperbole คือพูดเกินจริง
+-a cliché|ไม่ใช่สำนวนซ้ำซาก
+-a paradox|ไม่ใช่ความขัดแย้งในตัว
+!ปีนเอเวอเรสต์ = "a bit tiring" → ==understatement==
+
+V figurative-vocab 2
+"Time flies" is such a ____ phrase that most writers avoid it.
+=hackneyed|ใช้จนเฝือ = ++hackneyed++
+-poignant|poignant คือสะเทือนใจ
+-evocative|evocative คือชวนให้นึกภาพ
+-quintessential|ไม่ตรงความหมาย
+!hackneyed = ==ซ้ำซากจำเจ จนจืด==
+
+V figurative-vocab 2
+The film ends with a ____ scene in which the old man waves goodbye to his granddaughter.
+=poignant|สะเทือนใจ = ++poignant++
+-hackneyed|hackneyed คือจำเจ
+-proverbial|proverbial คือตามสุภาษิต
+-figurative|ไม่ตรงความหมาย
+!poignant = ==ซึ้งกินใจ สะเทือนใจ==
+
+V figurative-vocab 3
+With his straw hat and buffalo, he is the ____ Thai farmer of old postcards.
+=quintessential|เป็นแบบฉบับ = ++quintessential++
+-hackneyed|ไม่ตรงความหมาย
+-figurative|figurative คือเชิงเปรียบ
+-poignant|ไม่ตรงความหมาย
+!quintessential = ==เป็นตัวอย่างสมบูรณ์แบบ==
+
+V figurative-vocab 3
+It's a ____: the more choices people have, the less satisfied they often feel.
+=paradox|ความขัดแย้งในตัว = ++paradox++
+-cliché|ไม่ตรงความหมาย
+-hyperbole|hyperbole คือพูดเกินจริง
+-allegory|ไม่ตรงความหมาย
+!paradox = ==ความย้อนแย้ง==
+
+V figurative-vocab 3
+The smell of jasmine is ____ of my grandmother's garden.
+=evocative|ชวนให้นึกถึง = ++evocative of++
+-poignant|poignant ไม่ใช้กับ of แบบนี้
+-proverbial|ไม่ตรงความหมาย
+-figurative|ไม่ตรงความหมาย
+!evocative ==of== = ทำให้นึกถึงภาพ
+
+V figurative-vocab 3
+He explained the internet using an ____ with a postal system.
+=analogy|การเปรียบเทียบเพื่ออธิบาย = ++analogy with/to++
+-irony|irony คือการพูดประชด
+-allegory|allegory คือเรื่องเชิงสัญลักษณ์
+-paradox|ไม่ตรงความหมาย
+!draw an analogy ==with== = เปรียบเทียบเพื่ออธิบาย
+
+R literary-essay 2|The Long Commute
+Every morning at six, the bus to the city is a river of tired faces. We sit in silence, each of us a small island, earphones in, eyes half closed. Nobody speaks, yet we know one another as well as old neighbours: the woman who always eats sticky rice from a banana leaf, the student who sleeps against the window, the old man who waves to the driver as if they were brothers.
+
+There is a quiet irony in this. We spend two hours a day beside strangers we will never really know, while our own families see us only when we are too tired to talk.
+
+And yet, on the rare day when the old man is missing, the whole bus seems to notice. Someone asks the driver. Someone else looks at the empty seat. We are not friends, exactly. But we are not nothing to each other, either.
+Q What does "a river of tired faces" suggest?
+=a steady flow of weary passengers|ภาษาเปรียบ ผู้โดยสารเหนื่อยไหลมาต่อเนื่อง
+-the bus drives beside a river|ตีความตามตัวอักษร
+-the passengers are crying|ในบทไม่ได้บ่งเช่นนั้น
+-the bus is very clean and comfortable inside|ในบทไม่ได้พูดถึง
+Q What is the "quiet irony" the writer mentions?
+=they spend more time with strangers than family|two hours a day beside strangers ... families see us only when we are too tired
+-the bus is always late|ในบทไม่ได้พูดถึง
+-the old man is the driver's brother|เป็นเพียงการเปรียบ as if
+-nobody uses earphones|ความหมายกลับกัน
+Q What does the final paragraph show?
+=the passengers care about each other a little|the whole bus seems to notice
+-the passengers dislike the old man|ความหมายกลับกัน
+-the old man has moved to another city|ในบทไม่ได้บอกเหตุผล
+-the driver stops the bus to look for the missing man|ในบทไม่ได้พูดเช่นนั้น
+
+L humorous-story 2
+Man: My cooking is so good that even the smoke alarm cheers every time I make dinner.
+Q What does the man really mean?
+=his cooking often burns|เป็นมุกประชด สัญญาณควันดังเพราะไหม้
+-he is an excellent cook|เป็นการพูดประชดตัวเอง
+-his alarm is broken|ในบทไม่ได้บ่งเช่นนั้น
+-his family loves the smell of the food he makes|ในบทไม่ได้พูดถึง
+
+L figurative-vocab 2
+Woman: Calling the new policy a "breath of fresh air" is a bit of a cliché, but in this case it's true.
+Q What does the woman think of the policy?
+=it's a welcome change|it's true that it is a breath of fresh air
+-it is old-fashioned|ความหมายกลับกัน
+-it is dangerous|ในบทไม่ได้พูดเช่นนั้น
+-it is about pollution and air quality in the city|ตีความตามตัวอักษร ไม่ใช่ความหมายเปรียบ

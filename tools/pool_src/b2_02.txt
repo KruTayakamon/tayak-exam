@@ -1,0 +1,157 @@
+G present-perfect-simple-vs-continuous 2
+I ____ three chapters of the report so far, and I hope to finish the rest by Friday.
+=have written|นับจำนวนที่ทำเสร็จ ++have + V3++
+-have been writing|ไม่ใช้เมื่อนับจำนวนชิ้นที่เสร็จ
+-wrote|so far ต้องเชื่อมกับปัจจุบัน
+-am writing|ไม่ได้นับผลที่เสร็จแล้ว
+!ผลลัพธ์/จำนวน ==have + V3== · ระยะเวลา have been + -ing
+
+G present-perfect-simple-vs-continuous 2
+You look exhausted. ____ you been working late again?
+=Have|ร่องรอยที่เห็นตอนนี้ ++Have you been + -ing?++
+-Did|did ไม่ตามด้วย been working
+-Are|are ไม่ตามด้วย been
+-Had|เป็นเรื่องปัจจุบัน ไม่ใช่อดีต
+!เห็นผลตอนนี้ ถามสาเหตุ → ==Have you been + -ing?==
+
+G present-perfect-simple-vs-continuous 2
+How long ____ this project? It seems to be taking forever.
+=have you been managing|ระยะเวลาที่ยังทำอยู่ ++have been + -ing++
+-did you manage|ยังทำอยู่ ใช้อดีตไม่ได้
+-are you managing|how long ไม่ใช้กับรูปนี้
+-had you managed|เป็นเรื่องปัจจุบัน
+!How long + ==have you been + -ing==?
+
+G present-perfect-simple-vs-continuous 3
+I ____ this phone for six years and it has never broken down.
+=have had|have (มี) ไม่ใช้ -ing ++have had++
+-have been having|have ในความหมายมี ไม่ใช้ -ing
+-had|ยังมีอยู่ ใช้อดีตไม่ได้
+-am having|ไม่ใช้กับ for six years
+!กริยาสภาพ (have=มี, know, own) ==ไม่ใช้ -ing==
+
+G articles-quantifiers-advanced 2
+____ honesty is the most important quality in a manager, in my view.
+=No article (Honesty)|นามธรรมพูดทั่วไป ++ไม่ใส่ article++
+-The|ไม่ได้เจาะจงความซื่อสัตย์ของใคร
+-An|honesty นับไม่ได้
+-A|honesty นับไม่ได้ และขึ้นต้นด้วยสระเสียง
+!คำนามนามธรรมพูดทั่วไป ==ไม่ใส่ a/the==
+
+G articles-quantifiers-advanced 2
+____ of the two candidates had enough experience, so we advertised the job again.
+=Neither|ไม่มีใครเลยในสองคน ++neither of++
+-None|none ใช้กับมากกว่าสอง
+-Either|either แปลว่าคนใดคนหนึ่ง
+-Both|ความหมายกลับกับประโยคหลัง
+!สองคน ==neither / either / both== · สามขึ้นไป none / any / all
+
+G articles-quantifiers-advanced 3
+There's ____ chance of rain today, so take an umbrella just in case.
+=a slight|มีโอกาสนิดหน่อย ++a slight chance++
+-slight|chance นับได้ ต้องมี a
+-the slight|ไม่ได้เจาะจงโอกาสใด
+-a few|a few ใช้กับนามพหูพจน์
+!a slight / good / strong ==chance== = มีโอกาส...
+
+G articles-quantifiers-advanced 3
+Hardly ____ attended the training, so it was rescheduled.
+=anyone|hardly + ++any-++ = แทบไม่มี
+-no one|hardly เป็นปฏิเสธอยู่แล้ว
+-someone|hardly ใช้คู่กับ any-
+-everyone|ความหมายไม่ตรงกับการเลื่อน
+!==hardly any / anyone== = แทบไม่มี
+
+G articles-quantifiers-advanced 2
+The museum is closed on ____ Monday of each month for cleaning.
+=the first|ลำดับที่เจาะจง ++the + ลำดับที่++
+-a first|ลำดับที่ใช้ the
+-first|ต้องมี the หน้าลำดับที่
+-one first|รูปผิด จึงใช้ไม่ได้
+!==the first / the last / the second== + คำนาม
+
+V work-progress 2
+The team has made good ____ this month; we're almost halfway.
+=progress|ความคืบหน้า = ++make progress++ (นับไม่ได้)
+-workload|workload คือปริมาณงาน
+-burnout|burnout คือภาวะหมดไฟ
+-consistent|consistent เป็นคุณศัพท์
+!make progress = ==มีความคืบหน้า==
+
+V work-progress 2
+Nurses who work too many night shifts are at risk of ____.
+=burnout|หมดไฟ = ++burnout++
+-progress|progress คือความคืบหน้า
+-thorough|thorough เป็นคุณศัพท์
+-punctual|punctual เป็นคุณศัพท์
+!burnout = ==ภาวะหมดไฟจากงาน==
+
+V work-progress 2
+Our new system helps us ____ energy use in every building.
+=monitor|ติดตามเฝ้าดู = ++monitor++
+-maintain|ไม่ตรงความหมาย
+-efficient|efficient เป็นคุณศัพท์
+-ongoing|ongoing เป็นคุณศัพท์
+!monitor = ==ติดตาม ตรวจดูอย่างต่อเนื่อง==
+
+V work-progress 2
+Our manager is very ____. She checks every detail before sending a report.
+=thorough|ละเอียดถี่ถ้วน = ++thorough++
+-punctual|punctual คือตรงเวลา
+-ongoing|ongoing คือที่ยังดำเนินอยู่
+-considerably|considerably เป็นคำวิเศษณ์
+!thorough = ==ละเอียด รอบคอบ==
+
+V work-progress 3
+Sales have increased ____ since we opened the online shop.
+=considerably|อย่างมาก = ++considerably++
+-consistent|consistent เป็นคุณศัพท์
+-thorough|thorough เป็นคุณศัพท์
+-efficient|efficient เป็นคุณศัพท์
+!increase considerably = ==เพิ่มขึ้นมาก==
+
+V work-progress 3
+The investigation is still ____, so we can't comment on it yet.
+=ongoing|ยังดำเนินอยู่ = ++ongoing++
+-punctual|punctual คือตรงเวลา
+-efficient|efficient คือมีประสิทธิภาพ
+-effective|effective คือได้ผล
+!ongoing = ==ยังไม่จบ กำลังดำเนินอยู่==
+
+R progress-report 2|Library Renovation: Progress Report (Month 3)
+Work on the city library has continued steadily over the past month. The new roof has been completed, and the electricians have been installing lighting on the ground floor since early June.
+
+However, there has been one delay. The furniture supplier has informed us that the new bookshelves will arrive three weeks later than planned. As a result, the children's area will not open in July as originally announced.
+
+The total cost so far is 4.2 million baht, which is slightly below the budget. We expect the main reading room to reopen on 1 September. Meanwhile, a temporary library service is running from the community hall on Rama Road.
+Q What has been finished?
+=the roof|The new roof has been completed
+-the lighting|ช่างไฟยังติดตั้งอยู่
+-the children's area|ยังไม่เปิด เพราะชั้นหนังสือมาช้า
+-the main reading room|จะเปิดวันที่ 1 กันยายน
+Q Why will the children's area open late?
+=the shelves will be delivered late|bookshelves will arrive three weeks later
+-the budget has run out|ค่าใช้จ่ายยังต่ำกว่างบ
+-the electricians are behind schedule|ไม่ได้บอกว่าช่างไฟล่าช้า
+-the roof needs more work|หลังคาเสร็จแล้ว
+Q Where can people borrow books now?
+=at the community hall|a temporary library service ... community hall
+-in the main reading room|จะเปิดเดือนกันยายน
+-on the ground floor|ชั้นล่างกำลังติดไฟ
+-online only|ไม่ได้พูดถึงบริการออนไลน์
+
+L oral-report 2
+Woman: So far we've contacted about sixty customers, and most of them have been very positive. We've been focusing on the north this week, and we'll move to the south next.
+Q What will the team do next?
+=contact customers in the south|we'll move to the south next
+-stop contacting customers|ยังทำงานต่อ
+-focus on the north|เป็นสิ่งที่ทำสัปดาห์นี้
+-write a final report|ไม่ได้พูดถึงรายงานสรุป
+
+L oral-report 2
+Man: Our workload has doubled since two people left, so we've been working most weekends. We really need to hire someone soon.
+Q Why has the team been working at weekends?
+=two staff members left|since two people left
+-they started a new project|ไม่ได้พูดถึงโครงการใหม่
+-they are behind on a deadline|ไม่ได้พูดถึงกำหนดส่ง
+-they want extra pay|ไม่ได้พูดถึงค่าล่วงเวลา

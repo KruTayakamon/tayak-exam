@@ -1,0 +1,279 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 7 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w07-043
+  kind: mcq
+  skill: gm
+  topic: was-were
+  level: 1
+  pool: true
+  stem: "I ____ at the dentist yesterday afternoon."
+  choices:
+    - {t: "was", why: "I ในอดีต ใช้ ++was++"}
+    - {t: "were", why: "I ใช้ was จึงใช้ไม่ได้"}
+    - {t: "am", why: "yesterday เป็นอดีต"}
+    - {t: "is", why: "is ไม่ใช้กับ I จึงใช้ไม่ได้"}
+  explain: "I / he / she / it → ==was=="
+  status: approved
+- id: cefr-a2-w07-044
+  kind: mcq
+  skill: gm
+  topic: was-were
+  level: 1
+  pool: true
+  stem: "The shops ____ open on Sunday. Everything was closed."
+  choices:
+    - {t: "weren't", why: "พหูพจน์ปฏิเสธในอดีต ++weren't++"}
+    - {t: "wasn't", why: "shops เป็นพหูพจน์"}
+    - {t: "aren't", why: "เป็นเรื่องในอดีต"}
+    - {t: "didn't", why: "didn't ไม่ใช้กับ open (คุณศัพท์) แบบนี้"}
+  explain: "พหูพจน์อดีตปฏิเสธ ==weren't=="
+  status: approved
+- id: cefr-a2-w07-045
+  kind: mcq
+  skill: gm
+  topic: was-were
+  level: 2
+  pool: true
+  stem: "\"____ the film good?\" \"Yes, it was great.\""
+  choices:
+    - {t: "Was", why: "ถามอดีต เอกพจน์ ++Was...?++"}
+    - {t: "Were", why: "the film เป็นเอกพจน์"}
+    - {t: "Did", why: "did ไม่ตามด้วย the film good"}
+    - {t: "Is", why: "คำตอบเป็นอดีต จึงใช้ไม่ได้"}
+  explain: "==Was + เอกพจน์ + ...?=="
+  status: approved
+- id: cefr-a2-w07-046
+  kind: mcq
+  skill: gm
+  topic: was-were
+  level: 2
+  pool: true
+  stem: "Where ____ you last night? I called you three times."
+  choices:
+    - {t: "were", why: "you ในอดีต ใช้ ++were++"}
+    - {t: "was", why: "you ใช้ were จึงใช้ไม่ได้"}
+    - {t: "are", why: "last night เป็นอดีต"}
+    - {t: "did", why: "did ไม่ตามด้วย you last night แบบนี้"}
+  explain: "you / we / they → ==were=="
+  status: approved
+- id: cefr-a2-w07-047
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 1
+  pool: true
+  stem: "We ____ the temple in Ayutthaya last weekend."
+  choices:
+    - {t: "visited", why: "อดีตปกติ ++-ed++"}
+    - {t: "visit", why: "last weekend เป็นอดีต"}
+    - {t: "visits", why: "เป็นรูปปัจจุบัน"}
+    - {t: "visiting", why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "กริยาปกติ อดีต = ==เติม -ed=="
+  status: approved
+- id: cefr-a2-w07-048
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 1
+  pool: true
+  stem: "The train ____ late, at ten o'clock."
+  choices:
+    - {t: "arrived", why: "อดีต ลงท้าย e เติม ++-d++"}
+    - {t: "arrive", why: "เล่าอดีต ต้องเติม d"}
+    - {t: "arriveed", why: "ลงท้าย e เติมแค่ d"}
+    - {t: "arriving", why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "ลงท้าย e → ==เติม -d=="
+  status: approved
+- id: cefr-a2-w07-049
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 2
+  pool: true
+  stem: "I ____ the party. The music was great!"
+  choices:
+    - {t: "enjoyed", why: "อดีตปกติ ++enjoy → enjoyed++"}
+    - {t: "enjoied", why: "y หลังสระไม่เปลี่ยนเป็น i"}
+    - {t: "enjoy", why: "เล่าอดีต ต้องเติม ed"}
+    - {t: "enjoying", why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "สระ + y → ==เติม -ed ตรง ๆ== (enjoyed, played)"
+  status: approved
+- id: cefr-a2-w07-050
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 2
+  pool: true
+  stem: "My son ____ his homework before dinner."
+  choices:
+    - {t: "finished", why: "อดีตปกติ ++-ed++"}
+    - {t: "finish", why: "เล่าอดีต ต้องเติม ed"}
+    - {t: "finishs", why: "ไม่ใช่รูปอดีต จึงใช้ไม่ได้"}
+    - {t: "finishing", why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "==finish → finished=="
+  status: approved
+- id: cefr-a2-w07-051
+  kind: mcq
+  skill: gm
+  topic: past-simple-regular
+  level: 2
+  pool: true
+  stem: "They ____ for the bus for forty minutes yesterday."
+  choices:
+    - {t: "waited", why: "อดีตปกติ ++-ed++"}
+    - {t: "wait", why: "yesterday เป็นอดีต"}
+    - {t: "waits", why: "เป็นรูปปัจจุบัน"}
+    - {t: "was waited", why: "ไม่ใช่รูปที่ใช้"}
+  explain: "==wait → waited=="
+  status: approved
+- id: cefr-a2-w07-052
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 1
+  pool: true
+  stem: "The ____ was terrible. It rained all day."
+  choices:
+    - {t: "weather", why: "สภาพอากาศ = ++weather++"}
+    - {t: "holiday", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "festival", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (festival)"}
+    - {t: "trip", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (trip)"}
+  explain: "the weather = ==สภาพอากาศ=="
+  status: approved
+- id: cefr-a2-w07-053
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 1
+  pool: true
+  stem: "We went on a school ____ to the zoo."
+  choices:
+    - {t: "trip", why: "ทริป การเดินทาง = ++trip++"}
+    - {t: "weather", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "rain", why: "rain คือฝน จึงใช้ไม่ได้"}
+    - {t: "tired", why: "tired เป็นคุณศัพท์"}
+  explain: "go on a trip = ==ไปเที่ยว=="
+  status: approved
+- id: cefr-a2-w07-054
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 1
+  pool: true
+  stem: "I walked for five hours. I was very ____."
+  choices:
+    - {t: "tired", why: "เหนื่อย = ++tired++"}
+    - {t: "weather", why: "weather เป็นคำนาม"}
+    - {t: "holiday", why: "holiday เป็นคำนาม"}
+    - {t: "visit", why: "visit เป็นกริยา"}
+  explain: "tired = ==เหนื่อย=="
+  status: approved
+- id: cefr-a2-w07-055
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 2
+  pool: true
+  stem: "Loy Krathong is my favourite ____. We float candles on the river."
+  choices:
+    - {t: "festival", why: "เทศกาล = ++festival++"}
+    - {t: "weather", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "trip", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (trip)"}
+    - {t: "rain", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (rain)"}
+  explain: "festival = ==เทศกาล=="
+  status: approved
+- id: cefr-a2-w07-056
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 2
+  pool: true
+  stem: "I didn't go to work ____. I was sick."
+  choices:
+    - {t: "yesterday", why: "เมื่อวาน = ++yesterday++"}
+    - {t: "tomorrow", why: "ใช้กับอดีตไม่ได้"}
+    - {t: "holiday", why: "holiday เป็นคำนาม"}
+    - {t: "festival", why: "festival เป็นคำนาม"}
+  explain: "yesterday = ==เมื่อวาน=="
+  status: approved
+- id: cefr-a2-w07-057
+  kind: mcq
+  skill: vo
+  topic: trips-weather
+  level: 2
+  pool: true
+  stem: "Take an umbrella. There's a lot of ____ today."
+  choices:
+    - {t: "rain", why: "ฝน = ++rain++ จึงใช้ไม่ได้"}
+    - {t: "weather", why: "a lot of weather ไม่ใช่วลีที่ใช้"}
+    - {t: "tired", why: "tired เป็นคุณศัพท์"}
+    - {t: "festival", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "rain = ==ฝน=="
+  status: approved
+- id: cefr-a2-w07-058
+  kind: read
+  skill: rd
+  topic: holiday-postcard
+  level: 1
+  pool: true
+  title: "A Postcard from Phuket"
+  passage: |
+    Dear Joy,
+    We are in Phuket! We arrived on Monday after a long drive. The hotel is near the beach, and our room is very nice.
+    On Tuesday, the weather was beautiful, so we visited three small islands by boat. On Wednesday it rained all day, so we stayed at the hotel and played cards. Yesterday we walked to the old town and tried some delicious food.
+    We go home on Saturday.
+    Love,
+    Nida
+  questions:
+    - stem: "How did Nida travel to Phuket?"
+      choices:
+        - {t: "by car", why: "We arrived on Monday after a long drive"}
+        - {t: "by plane", why: "ในบทไม่ได้พูดถึงเครื่องบิน"}
+        - {t: "by boat", why: "เรือใช้ไปเกาะ จึงใช้ไม่ได้"}
+        - {t: "by train", why: "ในบทไม่ได้พูดถึงรถไฟ"}
+    - stem: "What did they do on Wednesday?"
+      choices:
+        - {t: "played cards at the hotel", why: "On Wednesday it rained ... played cards"}
+        - {t: "visited islands", why: "เป็นวันอังคาร จึงใช้ไม่ได้"}
+        - {t: "walked to the old town", why: "เป็นเมื่อวาน จึงใช้ไม่ได้"}
+        - {t: "went home", why: "จะกลับบ้านวันเสาร์"}
+    - stem: "When will Nida go home?"
+      choices:
+        - {t: "on Saturday", why: "We go home on Saturday"}
+        - {t: "on Monday", why: "มาถึงวันจันทร์ จึงใช้ไม่ได้"}
+        - {t: "on Wednesday", why: "วันพุธฝนตก จึงใช้ไม่ได้"}
+        - {t: "tomorrow", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-a2-w07-059
+  kind: listen
+  skill: li
+  topic: past-weekend
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "How was your weekend?"}
+    - {who: Man, en: "Great, thanks. I visited my parents and we cooked a big dinner together."}
+  questions:
+    - stem: "What did the man do at the weekend?"
+      choices:
+        - {t: "visited his parents", why: "I visited my parents"}
+        - {t: "worked late", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "went to a restaurant", why: "เขาทำอาหารกินที่บ้าน"}
+        - {t: "stayed in bed", why: "ในบทไม่ได้พูดเช่นนั้น (stayed in bed)"}
+  status: approved
+- id: cefr-a2-w07-060
+  kind: listen
+  skill: li
+  topic: trips-weather
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "The festival was great, but it was very hot. We were tired at the end of the day."}
+  questions:
+    - stem: "What was the weather like?"
+      choices:
+        - {t: "very hot", why: "it was very hot"}
+        - {t: "rainy", why: "ในบทไม่ได้พูดถึงฝน"}
+        - {t: "cold", why: "ความหมายกลับกัน"}
+        - {t: "windy", why: "ในบทไม่ได้พูดถึงลม"}
+  status: approved

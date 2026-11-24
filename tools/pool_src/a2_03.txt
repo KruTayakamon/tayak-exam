@@ -1,0 +1,155 @@
+G present-simple 1
+My father ____ coffee every morning.
+=drinks|he/she เติม ++-s++
+-drink|my father เป็นเอกพจน์ ต้องเติม s
+-drinking|ขาดกริยา is และไม่ใช่กิจวัตร
+-is drink|รูปผิด จึงใช้ไม่ได้
+!he / she / it + ==กริยาเติม s==
+
+G present-simple 1
+We ____ TV in the evening. We read books.
+=don't watch|ปฏิเสธกับ we ใช้ ++don't++
+-doesn't watch|we ใช้ don't
+-not watch|ขาด do
+-aren't watch|ไม่ใช้ are กับกริยาทั่วไป
+!I/you/we/they ==don't + V1== · he/she doesn't
+
+G present-simple 2
+The shop ____ at eight o'clock.
+=opens|ร้านเป็นเอกพจน์ ++opens++
+-open|the shop เป็นเอกพจน์ ต้องเติม s
+-opening|ขาดกริยาแท้
+-is open at to|รูปผิด จึงใช้ไม่ได้
+!สิ่งเอกพจน์ + ==กริยาเติม s==
+
+G present-simple 2
+My sister ____ meat. She only eats vegetables.
+=doesn't eat|ปฏิเสธกับ she ใช้ ++doesn't + V1++
+-don't eat|she ใช้ doesn't
+-doesn't eats|หลัง doesn't ไม่เติม s
+-isn't eat|ไม่ใช้ is กับกริยาทั่วไป
+!he/she ==doesn't + V1== (ไม่เติม s)
+
+G present-simple-questions 1
+____ you work on Saturdays?
+=Do|ถามกับ you ใช้ ++Do++
+-Does|you ใช้ do
+-Are|are ไม่ใช้กับกริยา work แบบนี้
+-Is|is ไม่ใช้กับ you
+!==Do + I/you/we/they + V1?==
+
+G present-simple-questions 1
+What time ____ your brother get up?
+=does|he/she ใช้ ++does++
+-do|your brother เป็นเอกพจน์ ใช้ does
+-is|is ไม่ใช้กับกริยา get up แบบนี้
+-are|are ไม่ใช้กับเอกพจน์
+!==Wh- + does + he/she + V1?==
+
+G present-simple-questions 2
+"How often do you go to the gym?" "____ a week."
+=Twice|ตอบความถี่ ++twice a week++
+-Two|ต้องเป็น two times หรือ twice
+-Always|always ไม่ตามด้วย a week
+-Usually|usually ไม่ตามด้วย a week
+!How often? → ==once / twice / three times + a week==
+
+G present-simple-questions 2
+"Does your mother cook dinner?" "Yes, she ____."
+=does|ตอบสั้น ++Yes, she does++
+-do|she ใช้ does
+-is|คำถามใช้ does จึงตอบด้วย does
+-cooks|ตอบสั้นใช้กริยาช่วย
+!ตอบสั้น ==Yes, she does. / No, she doesn't.==
+
+G present-simple-questions 2
+Where ____ they live?
+=do|they ใช้ ++do++
+-does|they ใช้ do
+-are|are ไม่ใช้กับกริยา live แบบนี้
+-is|is ไม่ใช้กับ they
+!==Where + do + they + V1?==
+
+V time-frequency 1
+I ____ get up at six. I am never late.
+=always|ทุกครั้ง = ++always++
+-sometimes|sometimes = บางครั้ง ไม่เข้ากับ never late
+-late|late เป็นคุณศัพท์
+-evening|evening เป็นคำนาม
+!always = ==เสมอ (100%)==
+
+V time-frequency 1
+I have lunch at noon and a short break in the ____, at three.
+=afternoon|ช่วงบ่าย = ++afternoon++
+-morning|บ่ายสามไม่ใช่ตอนเช้า
+-night|บ่ายสามไม่ใช่กลางคืน
+-early|early เป็นคุณศัพท์
+!afternoon = ==ตอนบ่าย==
+
+V time-frequency 1
+The bus is ____ again. We are waiting for thirty minutes!
+=late|มาช้า = ++late++
+-early|ความหมายกลับกัน
+-usually|usually เป็นคำบอกความถี่
+-work|work เป็นกริยา/คำนาม
+!late = ==สาย ช้า== · early = เช้า เร็ว
+
+V time-frequency 2
+I ____ eat breakfast, but today I have no time.
+=usually|ปกติ = ++usually++
+-never|ขัดกับประโยคที่บอกว่าวันนี้ไม่มีเวลา
+-night|night เป็นคำนาม
+-early|early ไม่บอกความถี่
+!usually = ==โดยปกติ (ราว 80%)==
+
+V time-frequency 2
+I go to bed ____, at nine o'clock, because I start work at six.
+=early|เร็ว = ++early++
+-late|ความหมายกลับกัน
+-afternoon|afternoon เป็นคำนาม
+-often|often ไม่ได้บอกว่าเร็ว
+!go to bed early = ==เข้านอนเร็ว==
+
+V time-frequency 2
+My children ____ at a school near our house.
+=study|เรียน = ++study++
+-work|เด็กไปโรงเรียนเพื่อเรียน
+-sometimes|sometimes เป็นคำบอกความถี่
+-evening|evening เป็นคำนาม
+!study = ==เรียน==
+
+R daily-schedule 1|A Day in the Life of a Baker
+Lek works in a bakery in Chiang Mai. She gets up very early, at four o'clock in the morning. She makes bread and cakes from five to eleven. The bakery opens at seven.
+In the afternoon, Lek usually sleeps for two hours. Then she buys flour and sugar for the next day. In the evening, she cooks dinner with her husband. She never goes to bed late. She is always in bed by nine.
+Q What time does Lek get up?
+=at four o'clock|She gets up very early, at four o'clock
+-at five o'clock|ห้าโมงเช้าคือเวลาเริ่มทำขนม
+-at seven o'clock|เจ็ดโมงคือเวลาร้านเปิด
+-at nine o'clock|สามทุ่มคือเวลาเข้านอน
+Q What does Lek usually do in the afternoon?
+=she sleeps|In the afternoon, Lek usually sleeps for two hours
+-she makes cakes|ทำขนมตอนเช้า
+-she cooks dinner|ทำอาหารเย็นตอนเย็น
+-she opens the bakery|ร้านเปิดเจ็ดโมงเช้า
+Q Who does Lek have dinner with?
+=her husband|she cooks dinner with her husband
+-her children|ในบทไม่ได้พูดถึงลูก
+-her friends|ในบทไม่ได้พูดถึงเพื่อน
+-her customers|ในบทไม่ได้พูดเช่นนั้น
+
+L routines 1
+Woman: Do you walk to work?
+Man: No, I don't. I usually take the bus, but sometimes I ride my bike.
+Q How does the man usually go to work?
+=by bus|I usually take the bus
+-on foot|เขาบอกว่าไม่ได้เดิน
+-by bike|ขี่จักรยานเป็นบางครั้ง
+-by car|ในบทไม่ได้พูดถึงรถยนต์
+
+L time-frequency 1
+Man: I study English on Monday and Thursday evenings, after work.
+Q When does the man study English?
+=two evenings a week|on Monday and Thursday evenings
+-every morning|เขาเรียนตอนเย็น
+-at weekends|ในบทไม่ได้พูดถึงวันหยุด
+-before work|เขาเรียนหลังเลิกงาน

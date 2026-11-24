@@ -1,0 +1,157 @@
+G negative-inversion 2
+Rarely ____ such a generous offer from a small company.
+=have we received|ปฏิเสธขึ้นต้น ++สลับกริยาช่วยกับประธาน++
+-we have received|หลัง rarely ขึ้นต้นต้องสลับ
+-we received|ต้องมีกริยาช่วยมาสลับ
+-received we|ต้องใช้กริยาช่วยในการสลับ
+!==Rarely / Seldom + กริยาช่วย + ประธาน==
+
+G negative-inversion 2
+On no account ____ visitors be left alone in the laboratory.
+=should|สลับหลังวลีปฏิเสธ ++should + ประธาน++
+-they should|ไม่ได้สลับ และมี they ซ้ำกับ visitors
+-shouldn't|ปฏิเสธซ้อนทำให้ความหมายกลับ
+-does|does ไม่ตามด้วย be
+!==On no account + กริยาช่วย + ประธาน== = ห้ามเด็ดขาด
+
+G negative-inversion 3
+No sooner ____ the shop than it started to pour with rain.
+=had we left|No sooner + ++had + ประธาน + V3 + than++
+-we had left|ต้องสลับหลัง no sooner
+-did we leave|ใช้คู่กับ had + V3 ในโครงสร้างนี้
+-have we left|เล่าอดีต ใช้ have ไม่ได้
+!==No sooner had ... than== = ทันทีที่...ก็
+
+G negative-inversion 3
+Only after the results were published ____ how serious the problem was.
+=did we realise|Only after + ประโยค แล้ว ++สลับในประโยคหลัก++
+-we realised|ต้องสลับหลัง only after ขึ้นต้น
+-had realised we|ลำดับคำผิด
+-realised we|ต้องใช้ did มาสลับ
+!Only after / Only when + ... + ==กริยาช่วย + ประธาน==
+
+G negative-inversion 3
+Little ____ that the small start-up would one day employ thousands.
+=did they imagine|Little ขึ้นต้น ++สลับด้วย did++
+-they imagined|ต้องสลับหลัง little ขึ้นต้น
+-imagined they|ต้องใช้ did มาสลับ
+-they did imagine|ไม่ได้สลับ จึงใช้ไม่ได้
+!==Little did + ประธาน + V1== = ไม่รู้เลยว่า
+
+G inverted-conditionals 2
+____ you require further information, please contact the front office.
+=Should|เงื่อนไขทางการ ++Should + ประธาน + V1++
+-Would|ไม่ใช้ would ขึ้นต้นแทน if
+-Had|had ใช้กับอดีตสมมติ
+-Were|were ต้องตามด้วย to
+!==Should you + V1== = If you + V1 (ทางการ)
+
+G inverted-conditionals 3
+____ the government to raise taxes, many small shops would close.
+=Were|สมมติทางการ ++Were + ประธาน + to + V1++
+-Should|should ไม่ตามด้วย to
+-Had|had ไม่ตามด้วย to + V1
+-If|if ต้องตามด้วย the government were
+!==Were + ประธาน + to + V1== = If ... were to (ทางการ)
+
+G inverted-conditionals 3
+____ the warning, the villagers would not have left in time.
+=Had it not been for|ถ้าไม่มี (อดีต) ++Had it not been for++
+-Were it not for|ใช้กับปัจจุบัน ไม่ใช่อดีต
+-If it had been for|ความหมายกลับกัน
+-Had not it been for|ลำดับคำผิด
+!==Had it not been for + คำนาม== = ถ้าไม่มี...(ในตอนนั้น)
+
+G inverted-conditionals 3
+____ known about the strike, we would have booked a different flight.
+=Had we|เงื่อนไขแบบที่ 3 สลับ ++Had + ประธาน + V3++
+-If we|ต้องเป็น If we had known
+-Should we|should ไม่ใช้กับอดีตสมมติ
+-Were we|were ไม่ตามด้วย known ในความหมายนี้
+!==Had + ประธาน + V3== = If + had + V3
+
+V urgency-scale 2
+The country is facing an ____ shortage of nurses, and the problem is getting worse.
+=acute|รุนแรงเฉียบพลัน = ++acute shortage++
+-incessant|incessant คือไม่หยุดหย่อน
+-invariably|invariably เป็นคำวิเศษณ์
+-paramount|ไม่ใช้กับ shortage
+!an acute shortage = ==การขาดแคลนอย่างรุนแรง==
+
+V urgency-scale 2
+Safety is ____; everything else comes second.
+=paramount|สำคัญเหนือสิ่งอื่น = ++paramount++
+-imminent|imminent คือใกล้จะเกิด
+-incessant|incessant คือไม่หยุด
+-substantial|ไม่ตรงความหมาย
+!paramount = ==สำคัญที่สุด==
+
+V urgency-scale 3
+Forecasters say a major storm is ____, so people should stay indoors.
+=imminent|ใกล้จะเกิดขึ้น = ++imminent++
+-profound|profound คือลึกซึ้ง
+-substantial|substantial คือมาก
+-acute|ไม่ตรงความหมาย
+!imminent = ==กำลังจะเกิดในไม่ช้า==
+
+V urgency-scale 3
+The ____ noise from the building site made it impossible to concentrate.
+=incessant|ไม่หยุดหย่อน = ++incessant++
+-imminent|imminent คือใกล้จะเกิด
+-paramount|paramount คือสำคัญที่สุด
+-invariably|invariably เป็นคำวิเศษณ์
+!incessant = ==ไม่หยุดเลย ต่อเนื่อง==
+
+V urgency-scale 3
+Cutting the bus service will only ____ the traffic problem.
+=exacerbate|ทำให้แย่ลง = ++exacerbate++
+-deteriorate|deteriorate ไม่มีกรรมตามหลัง
+-substantial|substantial เป็นคุณศัพท์
+-paramount|paramount เป็นคุณศัพท์
+!exacerbate + กรรม = ==ทำให้แย่ลง== · deteriorate = แย่ลงเอง
+
+V urgency-scale 3
+He ____ arrives ten minutes early; I've never seen him late.
+=invariably|เสมอทุกครั้ง = ++invariably++
+-incessant|incessant เป็นคุณศัพท์
+-imminent|imminent เป็นคุณศัพท์
+-profound|profound เป็นคุณศัพท์
+!invariably = ==ทุกครั้งไม่มีข้อยกเว้น==
+
+R editorial 2|Editorial: The Water Crisis Is Not Coming. It Is Here.
+For years, experts have warned that the province's water supply would one day run short. That day has arrived. Reservoir levels are at their lowest in two decades, and three districts now receive tap water only every other day.
+
+Rarely has a problem been so predictable. Farmers have been pumping more groundwater each year, while new housing estates have been approved without any plan for water supply. Leaks in old pipes waste an estimated 30 per cent of treated water.
+
+The provincial authority's response, a campaign asking residents to take shorter showers, is welcome but far from sufficient. Were the authority to repair the pipe network, it would save more water than any campaign. Such repairs are expensive, but the cost of doing nothing will be far greater.
+Q According to the editorial, what is the current situation?
+=some areas get water only on alternate days|three districts now receive tap water only every other day
+-the reservoirs are full|ระดับน้ำต่ำสุดในยี่สิบปี
+-the crisis is expected next year|บทบอกว่าวิกฤตเกิดแล้ว
+-farmers have stopped using groundwater|ชาวนาสูบน้ำบาดาลมากขึ้นทุกปี
+Q What does "Rarely has a problem been so predictable" suggest?
+=the crisis could have been foreseen|experts have warned for years
+-the crisis was a surprise|ความหมายกลับกัน
+-the problem is rare in Thailand|ไม่ได้หมายความเช่นนั้น
+-experts were wrong|ผู้เชี่ยวชาญเตือนถูกต้อง
+Q What does the writer think the authority should do?
+=repair the leaking pipes|Were the authority to repair the pipe network
+-ban new housing|ในบทไม่ได้เสนอให้ห้ามสร้างบ้าน
+-stop the shower campaign|บทบอกว่าแคมเปญดีแต่ไม่พอ
+-raise water prices|ในบทไม่ได้พูดถึงราคาน้ำ
+
+L speech-emphasis 2
+Woman: Not once in the last five years has our team missed a deadline, and I don't intend that to change now.
+Q What is the woman emphasising?
+=her team's consistent reliability|Not once in the last five years has our team missed a deadline
+-her team often misses deadlines|ความหมายกลับกัน
+-she plans to change the team|เธอไม่ต้องการให้เปลี่ยน
+-the deadline has been extended|ในบทไม่ได้พูดถึงการขยายเวลา
+
+L urgency-scale 2
+Man: Should the situation deteriorate overnight, we'll evacuate the lower floors first thing in the morning.
+Q When will the lower floors be evacuated?
+=only if things get worse|Should the situation deteriorate overnight
+-immediately|เป็นเงื่อนไข ไม่ใช่ทันที
+-tonight|จะอพยพตอนเช้า
+-whatever happens|มีเงื่อนไขว่าสถานการณ์แย่ลง

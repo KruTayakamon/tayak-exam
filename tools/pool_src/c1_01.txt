@@ -1,0 +1,157 @@
+G tense-aspect-nuance 2
+I ____ of applying for the manager's post, but I haven't made up my mind yet.
+=have been thinking|ความคิดที่ดำเนินมาถึงตอนนี้ ยังไม่จบ ++have been + -ing++
+-have thought|ฟังเหมือนตัดสินใจเสร็จแล้ว
+-thought|ตัดขาดจากปัจจุบัน ไม่เข้ากับ yet
+-am thinking to|think ไม่ตามด้วย to แบบนี้
+!ความคิด/ความตั้งใจที่ยังดำเนินอยู่ ==have been thinking of==
+
+G tense-aspect-nuance 2
+The train ____ at 6.40 tomorrow, so we'll need a taxi to the station.
+=leaves|ตารางเวลาตายตัว ++present simple++
+-will be leaving at to|รูปผิด จึงใช้ไม่ได้
+-has left|ยังไม่ออก เพราะเป็นพรุ่งนี้
+-is left|ความหมายเป็น passive ผิดความ
+!ตารางที่กำหนดไว้แล้ว ==present simple== แม้เป็นอนาคต
+
+G tense-aspect-nuance 3
+She ____ complaining about the noise. I wish she'd just speak to the neighbours.
+=is always|บ่นซ้ำจนน่ารำคาญ ++always + -ing++
+-always is|ลำดับคำผิด จึงใช้ไม่ได้
+-has always|has always complaining ผิดรูป
+-always|ขาด is จึงใช้ไม่ได้
+!==always + -ing== = ทำซ้ำจนน่ารำคาญ
+
+G tense-aspect-nuance 3
+I ____ to ask whether you might be free to give a short talk next month.
+=was wondering|ถามอย่างสุภาพแบบถอยกาล ++was wondering++
+-wondered|ฟังห้วนกว่า และไม่ใช่สำนวนนี้
+-am wonder|รูปผิด จึงใช้ไม่ได้
+-have wondered|ไม่ใช่รูปขอร้องแบบสุภาพ
+!I ==was wondering== if/whether ... = ขอแบบสุภาพมาก
+
+G modality-advanced 2
+You ____ well be right, but I'd still like to see the figures.
+=may|ยอมรับว่าเป็นไปได้ ++may well++
+-must|must well ไม่ใช่สำนวน
+-should|ไม่ใช่สำนวนที่ใช้แบบนี้
+-will|will well ไม่ใช่สำนวน
+!==may / might well== = น่าจะ...จริง (เป็นไปได้สูง)
+
+G modality-advanced 3
+Staff ____ to wear ID badges at all times; this is not optional.
+=are required|ข้อบังคับทางการ ++be required to++
+-are supposed|ฟังเป็นกันเองและหลวมกว่า
+-require|ประธานไม่ได้เป็นผู้กำหนด
+-must to|หลัง must ไม่มี to
+!be ==required / obliged to== = ข้อบังคับทางการ
+
+G modality-advanced 3
+It's ____ to know which road is faster at this time of day.
+=hard|ยากที่จะ ++hard to know++ (ระดับความแน่ใจต่ำ)
+-bound|bound to = แน่นอนว่าจะ ไม่ตรงความหมาย
+-certain|ความหมายกลับกัน
+-sure to|รูปผิด มี to ซ้ำ
+!==It's hard to say / know== = บอกได้ยาก
+
+G modality-advanced 3
+With all that traffic, they're ____ to be late.
+=bound|แน่นอนว่าจะ ++be bound to++
+-supposed|supposed to = ควรจะ ไม่ตรง
+-able|able to = สามารถ ไม่ตรง
+-due|due to ใช้กับตารางเวลา
+!be ==bound to== + V1 = ต้อง...แน่นอน
+
+G modality-advanced 3
+You ____ have told me the meeting was cancelled! I drove all the way here.
+=might|ตำหนิแบบประชด ++might have + V3++
+-must|must have = สรุปว่าทำแล้ว ไม่ใช่ตำหนิ
+-can|can have ไม่ใช้ในบอกเล่าแบบนี้
+-will|will have ไม่ใช่ตำหนิ
+!==You might have told me!== = น่าจะบอกกันบ้างนะ (ตำหนิ)
+
+V precise-communication 2
+Her speech was clear and ____, and she finished well within the time limit.
+=concise|กระชับ = ++concise++
+-ambiguous|ambiguous คือกำกวม
+-implicit|implicit คือแฝงไว้ ไม่พูดตรง
+-nuance|nuance เป็นคำนาม
+!concise = ==สั้น กระชับ ได้ใจความ==
+
+V precise-communication 2
+The instructions were so ____ that half the team misunderstood them.
+=ambiguous|กำกวม = ++ambiguous++
+-explicit|explicit คือชัดแจ้ง ตรงข้าม
+-lucid|lucid คือชัดเจน ตรงข้าม
+-coherent|ไม่ตรงความหมาย
+!ambiguous = ==ตีความได้หลายทาง กำกวม==
+
+V precise-communication 3
+The contract makes it ____ that payment is due within thirty days.
+=explicit|ระบุชัดแจ้ง = ++explicit++
+-implicit|implicit คือโดยนัย ตรงข้าม
+-ambiguous|ambiguous คือกำกวม ตรงข้าม
+-eloquent|ไม่ตรงความหมาย
+!make it explicit that = ==ระบุไว้ชัดเจนว่า==
+
+V precise-communication 3
+It's hard to ____ how grateful we are for your support.
+=convey|สื่อถ่ายทอด = ++convey++
+-allude|allude ต้องมี to
+-concise|concise เป็นคุณศัพท์
+-connotation|connotation เป็นคำนาม
+!convey = ==สื่อ ถ่ายทอด (ความรู้สึก ความหมาย)==
+
+V precise-communication 3
+In his speech, the minister ____ to problems in the last government, without naming anyone.
+=alluded|พาดพิงอ้อม ๆ = ++allude to++
+-articulated|articulate ไม่ตามด้วย to
+-conveyed|convey ไม่ตามด้วย to
+-explicit|explicit เป็นคุณศัพท์
+!allude ==to== = พาดพิงถึงอ้อม ๆ
+
+V precise-communication 3
+"Cheap" can have a negative ____, so we say "affordable" in our adverts.
+=connotation|ความหมายแฝง = ++connotation++
+-nuance|ไม่ตรงความหมาย
+-concise|concise เป็นคุณศัพท์
+-allude|allude เป็นกริยา
+!connotation = ==ความหมายแฝง น้ำเสียงของคำ==
+
+R workplace-communication 2|Why Clear Messages Save Money
+A recent survey of 500 office workers found that unclear emails cost the average employee almost two hours a week. Most of this time was spent asking for clarification or correcting work that had been done wrongly.
+
+The most common problem was not grammar but structure. Many messages buried the key request in the third or fourth paragraph, so readers missed it. Others relied on implicit assumptions, such as "the usual format" or "the same as last time", which new staff could not interpret.
+
+Communication trainers suggest a simple rule: state the action and the deadline in the first sentence, then give the background. They also recommend avoiding ambiguous words like "soon" and "shortly". As one trainer put it, "If you mean Friday at noon, write Friday at noon."
+Q What did the survey find was the main cause of wasted time?
+=poorly organised messages|The most common problem was not grammar but structure
+-grammar mistakes|ผลสำรวจบอกว่าไม่ใช่ไวยากรณ์
+-too many meetings|ในบทไม่ได้พูดถึงการประชุม
+-slow internet connections|ในบทไม่ได้พูดถึงอินเทอร์เน็ต
+Q Why do phrases like "the usual format" cause problems?
+=new staff may not know what they mean|which new staff could not interpret
+-they sound rude|ในบทไม่ได้พูดว่าหยาบคาย
+-they are too long|ในบทไม่ได้พูดถึงความยาว
+-managers dislike them|ในบทไม่ได้พูดถึงผู้จัดการ
+Q What does the trainer's final quotation show?
+=the importance of being specific|If you mean Friday at noon, write Friday at noon
+-that deadlines should be flexible|ความหมายกลับกัน
+-that Friday is the best deadline|เป็นเพียงตัวอย่าง
+-that emails should be informal|ในบทไม่ได้พูดถึงความเป็นกันเอง
+
+L academic-lecture 2
+Woman: What I'm suggesting isn't that we abandon the old method entirely, but that we use it alongside the new one for a trial period.
+Q What does the speaker propose?
+=using both methods for a while|use it alongside the new one for a trial period
+-stopping the old method now|เธอบอกว่าไม่ได้ให้เลิกทั้งหมด
+-rejecting the new method|เธอสนับสนุนการทดลองวิธีใหม่
+-waiting before deciding anything|ในบทไม่ได้พูดว่าให้รอ
+
+L precise-communication 2
+Man: The message was polite, but the implication was clear: if sales don't improve, the branch will close.
+Q What did the message suggest without saying directly?
+=the branch might close|the implication was clear ... the branch will close
+-sales had already improved|ความหมายกลับกัน
+-the staff would get a bonus|ในบทไม่ได้พูดถึงโบนัส
+-the manager was leaving|ในบทไม่ได้พูดถึงผู้จัดการลาออก

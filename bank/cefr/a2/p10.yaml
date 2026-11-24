@@ -1,0 +1,276 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 10 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w10-043
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  pool: true
+  stem: "A bicycle is ____ than a motorbike."
+  choices:
+    - {t: "slower", why: "คำสั้น เติม ++-er + than++"}
+    - {t: "more slow", why: "slow พยางค์เดียว เติม er"}
+    - {t: "slowest", why: "มี than ต้องเป็นขั้นกว่า"}
+    - {t: "slow", why: "มี than ต้องเปรียบ"}
+  explain: "คำสั้น ==-er than=="
+  status: approved
+- id: cefr-a2-w10-044
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 1
+  pool: true
+  stem: "This dictionary is ____ than my old one."
+  choices:
+    - {t: "more useful", why: "คำยาว ใช้ ++more ... than++"}
+    - {t: "usefuller", why: "useful ใช้ more"}
+    - {t: "most useful", why: "มี than ต้องเป็นขั้นกว่า"}
+    - {t: "useful more", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "คำยาว ==more + adj + than=="
+  status: approved
+- id: cefr-a2-w10-045
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  pool: true
+  stem: "The weather today is ____ than yesterday. It's raining more."
+  choices:
+    - {t: "worse", why: "bad → ++worse++"}
+    - {t: "badder", why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+    - {t: "more bad", why: "bad ใช้ worse จึงใช้ไม่ได้"}
+    - {t: "worst", why: "มี than ต้องเป็นขั้นกว่า"}
+  explain: "good → better · ==bad → worse=="
+  status: approved
+- id: cefr-a2-w10-046
+  kind: mcq
+  skill: gm
+  topic: comparatives
+  level: 2
+  pool: true
+  stem: "My new flat is ____ than my old one. It has three bedrooms."
+  choices:
+    - {t: "bigger", why: "big → ++bigger++ (ซ้ำตัวท้าย)"}
+    - {t: "biger", why: "ต้องซ้ำ g จึงใช้ไม่ได้"}
+    - {t: "more big", why: "big เติม er จึงใช้ไม่ได้"}
+    - {t: "biggest", why: "มี than ต้องเป็นขั้นกว่า"}
+  explain: "สระเดี่ยว + พยัญชนะ → ==ซ้ำตัวท้าย + er=="
+  status: approved
+- id: cefr-a2-w10-047
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 1
+  pool: true
+  stem: "This is ____ restaurant in our town. Everyone loves it."
+  choices:
+    - {t: "the most popular", why: "ขั้นสุด คำยาว ++the most++"}
+    - {t: "the popularest", why: "popular ใช้ most"}
+    - {t: "more popular", why: "ไม่มี than และต้องเป็นขั้นสุด"}
+    - {t: "most popular than", why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "ขั้นสุดคำยาว ==the most + adj=="
+  status: approved
+- id: cefr-a2-w10-048
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 1
+  pool: true
+  stem: "Doi Inthanon is ____ mountain in Thailand."
+  choices:
+    - {t: "the highest", why: "ขั้นสุด ++the + -est++"}
+    - {t: "the most high", why: "high เติม est จึงใช้ไม่ได้"}
+    - {t: "higher", why: "ต้องเป็นขั้นสุด"}
+    - {t: "the highter", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==the + adj-est== (ที่สุด)"
+  status: approved
+- id: cefr-a2-w10-049
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  pool: true
+  stem: "My sister is as ____ as my mother. They're both 160 cm."
+  choices:
+    - {t: "tall", why: "เท่ากัน ++as + adj + as++"}
+    - {t: "taller", why: "หลัง as ใช้คำปกติ"}
+    - {t: "tallest", why: "หลัง as ใช้คำปกติ (tallest)"}
+    - {t: "more tall", why: "หลัง as ใช้คำปกติ (more tall)"}
+  explain: "==as + คำปกติ + as== = เท่ากับ"
+  status: approved
+- id: cefr-a2-w10-050
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  pool: true
+  stem: "My new phone isn't as ____ as my old one, but it has a better camera."
+  choices:
+    - {t: "light", why: "ไม่เท่า ++not as + adj + as++"}
+    - {t: "lighter", why: "หลัง as ใช้คำปกติ"}
+    - {t: "lightest", why: "หลัง as ใช้คำปกติ (lightest)"}
+    - {t: "light than", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==not as ... as== = ไม่...เท่า"
+  status: approved
+- id: cefr-a2-w10-051
+  kind: mcq
+  skill: gm
+  topic: superlatives-as-as
+  level: 2
+  pool: true
+  stem: "It was ____ day of my life!"
+  choices:
+    - {t: "the best", why: "good → ++the best++"}
+    - {t: "the goodest", why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+    - {t: "the better", why: "ต้องเป็นขั้นสุด"}
+    - {t: "best than", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "good → better → ==the best=="
+  status: approved
+- id: cefr-a2-w10-052
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  pool: true
+  stem: "The library is very ____. Nobody talks."
+  choices:
+    - {t: "quiet", why: "เงียบ = ++quiet++"}
+    - {t: "noisy", why: "ความหมายกลับกัน"}
+    - {t: "crowded", why: "ไม่ตรงกับไม่มีใครคุย"}
+    - {t: "famous", why: "famous คือมีชื่อเสียง"}
+  explain: "quiet = ==เงียบ== · noisy = เสียงดัง"
+  status: approved
+- id: cefr-a2-w10-053
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  pool: true
+  stem: "The market is very ____ on Saturdays. There are people everywhere."
+  choices:
+    - {t: "crowded", why: "คนแน่น = ++crowded++"}
+    - {t: "quiet", why: "ความหมายกลับกัน"}
+    - {t: "short", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "slow", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (slow)"}
+  explain: "crowded = ==คนแน่น แออัด=="
+  status: approved
+- id: cefr-a2-w10-054
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 1
+  pool: true
+  stem: "This sofa is very ____. I can sleep on it."
+  choices:
+    - {t: "comfortable", why: "สบาย = ++comfortable++"}
+    - {t: "famous", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "noisy", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (noisy)"}
+    - {t: "crowded", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (crowded)"}
+  explain: "comfortable = ==สบาย=="
+  status: approved
+- id: cefr-a2-w10-055
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  pool: true
+  stem: "The Grand Palace is ____ all over the world."
+  choices:
+    - {t: "famous", why: "มีชื่อเสียง = ++famous++"}
+    - {t: "comfortable", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "noisy", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (noisy)"}
+    - {t: "short", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (short)"}
+  explain: "famous = ==มีชื่อเสียง=="
+  status: approved
+- id: cefr-a2-w10-056
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  pool: true
+  stem: "I can't sleep. The street outside my hotel is too ____."
+  choices:
+    - {t: "noisy", why: "เสียงดัง = ++noisy++"}
+    - {t: "quiet", why: "ความหมายกลับกัน"}
+    - {t: "famous", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "long", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (long)"}
+  explain: "noisy = ==เสียงดัง=="
+  status: approved
+- id: cefr-a2-w10-057
+  kind: mcq
+  skill: vo
+  topic: describing-places
+  level: 2
+  pool: true
+  stem: "The film was only an hour. It was very ____."
+  choices:
+    - {t: "short", why: "สั้น = ++short++"}
+    - {t: "long", why: "ความหมายกลับกัน"}
+    - {t: "popular", why: "ไม่ได้บอกความยาว"}
+    - {t: "crowded", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "short = ==สั้น== · long = ยาว"
+  status: approved
+- id: cefr-a2-w10-058
+  kind: read
+  skill: rd
+  topic: comparing-restaurants
+  level: 1
+  pool: true
+  title: "Two Noodle Shops on Main Street"
+  passage: |
+    Kitti's Noodles is the oldest shop on Main Street. It opened forty years ago. The noodles are cheap, only 50 baht a bowl, but the shop is small and very crowded at lunchtime.
+    Happy Bowl opened last year. It is bigger and more comfortable than Kitti's, and it has air conditioning. The noodles are more expensive, 80 baht a bowl, but there are more dishes on the menu.
+    Many people say Kitti's noodles are the most delicious in town.
+  questions:
+    - stem: "Which shop is older?"
+      choices:
+        - {t: "Kitti's Noodles", why: "It opened forty years ago"}
+        - {t: "Happy Bowl", why: "เปิดเมื่อปีที่แล้ว"}
+        - {t: "They are the same age", why: "เปิดคนละปี จึงใช้ไม่ได้"}
+        - {t: "The text doesn't say", why: "บทบอกไว้ชัด จึงใช้ไม่ได้"}
+    - stem: "What is better about Happy Bowl?"
+      choices:
+        - {t: "it is more comfortable", why: "bigger and more comfortable than Kitti's"}
+        - {t: "it is cheaper", why: "แพงกว่า จึงใช้ไม่ได้"}
+        - {t: "it is older", why: "เปิดใหม่กว่า จึงใช้ไม่ได้"}
+        - {t: "its noodles are more delicious", why: "คนบอกว่าร้านกิตติอร่อยที่สุด"}
+    - stem: "How much is a bowl at Happy Bowl?"
+      choices:
+        - {t: "80 baht", why: "80 baht a bowl จึงใช้ไม่ได้"}
+        - {t: "50 baht", why: "เป็นราคาที่ร้านกิตติ"}
+        - {t: "40 baht", why: "สี่สิบคือจำนวนปี"}
+        - {t: "100 baht", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-a2-w10-059
+  kind: listen
+  skill: li
+  topic: comparing
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Which phone do you like?"}
+    - {who: Man, en: "The black one is cheaper, but the white one is lighter and faster. I'll take the white one."}
+  questions:
+    - stem: "Why does the man choose the white phone?"
+      choices:
+        - {t: "it's lighter and faster", why: "the white one is lighter and faster"}
+        - {t: "it is cheaper", why: "โทรศัพท์สีดำถูกกว่า"}
+        - {t: "it is black", why: "เขาเลือกสีขาว จึงใช้ไม่ได้"}
+        - {t: "it is bigger", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-a2-w10-060
+  kind: listen
+  skill: li
+  topic: describing-places
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "The beach was beautiful, but it was very crowded, so we went to a quieter one."}
+  questions:
+    - stem: "Why did they go to another beach?"
+      choices:
+        - {t: "the first one had too many people", why: "it was very crowded"}
+        - {t: "the first one was dirty", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it was raining", why: "ในบทไม่ได้พูดเช่นนั้น (it was raining)"}
+        - {t: "the first one was too quiet", why: "ความหมายกลับกัน"}
+  status: approved

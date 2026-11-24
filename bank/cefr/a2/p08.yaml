@@ -1,0 +1,276 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 8 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w08-043
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  pool: true
+  stem: "I ____ my keys on the bus this morning."
+  choices:
+    - {t: "left", why: "อดีตไม่ปกติ ++leave → left++"}
+    - {t: "leaved", why: "leave ไม่เติม ed"}
+    - {t: "leave", why: "เล่าอดีต ต้องใช้ left"}
+    - {t: "leaving", why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "==leave → left=="
+  status: approved
+- id: cefr-a2-w08-044
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 1
+  pool: true
+  stem: "She ____ a new phone last week."
+  choices:
+    - {t: "bought", why: "อดีตไม่ปกติ ++buy → bought++"}
+    - {t: "buyed", why: "buy ไม่เติม ed จึงใช้ไม่ได้"}
+    - {t: "buy", why: "last week เป็นอดีต"}
+    - {t: "brought", why: "brought คืออดีตของ bring"}
+  explain: "==buy → bought== · bring → brought"
+  status: approved
+- id: cefr-a2-w08-045
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  pool: true
+  stem: "We ____ the last train home, so we didn't need a taxi."
+  choices:
+    - {t: "caught", why: "อดีตไม่ปกติ ++catch → caught++"}
+    - {t: "catched", why: "catch ไม่เติม ed"}
+    - {t: "catch", why: "เล่าอดีต ต้องใช้ caught"}
+    - {t: "missed", why: "ถ้าตกรถไฟจะต้องใช้แท็กซี่"}
+  explain: "==catch → caught=="
+  status: approved
+- id: cefr-a2-w08-046
+  kind: mcq
+  skill: gm
+  topic: past-simple-irregular
+  level: 2
+  pool: true
+  stem: "My grandfather ____ me a story every night when I was small."
+  choices:
+    - {t: "told", why: "อดีตไม่ปกติ ++tell → told++"}
+    - {t: "telled", why: "tell ไม่เติม ed"}
+    - {t: "said", why: "say ไม่ตามด้วยคน + a story"}
+    - {t: "tell", why: "เล่าอดีต ต้องใช้ told"}
+  explain: "==tell → told== · say → said"
+  status: approved
+- id: cefr-a2-w08-047
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 1
+  pool: true
+  stem: "I ____ breakfast this morning. I was late."
+  choices:
+    - {t: "didn't have", why: "ปฏิเสธในอดีต ++didn't + V1++"}
+    - {t: "didn't had", why: "หลัง didn't ใช้ V1"}
+    - {t: "don't have", why: "เป็นเรื่องเช้านี้ (อดีต)"}
+    - {t: "not had", why: "ขาด did จึงใช้ไม่ได้"}
+  explain: "ปฏิเสธอดีต ==didn't + V1=="
+  status: approved
+- id: cefr-a2-w08-048
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 1
+  pool: true
+  stem: "____ you go to the meeting yesterday?"
+  choices:
+    - {t: "Did", why: "ถามอดีต ++Did + V1?++"}
+    - {t: "Do", why: "yesterday เป็นอดีต"}
+    - {t: "Were", why: "were ไม่ตามด้วย go"}
+    - {t: "Was", why: "was ไม่ตามด้วย go"}
+  explain: "ถามอดีต ==Did + ประธาน + V1?=="
+  status: approved
+- id: cefr-a2-w08-049
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  pool: true
+  stem: "What time ____ the film start?"
+  choices:
+    - {t: "did", why: "ถามอดีต ++did + V1++"}
+    - {t: "was", why: "was ไม่ตามด้วย start"}
+    - {t: "does", why: "ถ้าถามอดีตต้องใช้ did"}
+    - {t: "started", why: "มีคำถาม what time ต้องใช้ did"}
+  explain: "==Wh- + did + ประธาน + V1?=="
+  status: approved
+- id: cefr-a2-w08-050
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  pool: true
+  stem: "\"Did you remember to buy milk?\" \"Sorry, I ____.\""
+  choices:
+    - {t: "didn't", why: "ตอบสั้นปฏิเสธ ++I didn't++"}
+    - {t: "don't", why: "คำถามเป็นอดีต จึงใช้ไม่ได้"}
+    - {t: "wasn't", why: "คำถามใช้ did จึงใช้ไม่ได้"}
+    - {t: "not", why: "ขาด did จึงใช้ไม่ได้"}
+  explain: "ตอบสั้น ==Yes, I did. / No, I didn't.=="
+  status: approved
+- id: cefr-a2-w08-051
+  kind: mcq
+  skill: gm
+  topic: past-simple-neg-questions
+  level: 2
+  pool: true
+  stem: "Where ____ you spend your holiday?"
+  choices:
+    - {t: "did", why: "ถามอดีต ++did++"}
+    - {t: "were", why: "were ไม่ตามด้วย spend"}
+    - {t: "was", why: "was ไม่ใช้กับ you"}
+    - {t: "do you", why: "มี you ซ้ำ จึงใช้ไม่ได้"}
+  explain: "==Where did you + V1?=="
+  status: approved
+- id: cefr-a2-w08-052
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  pool: true
+  stem: "Oh no! I ____ my umbrella at home, and now it's raining."
+  choices:
+    - {t: "forgot", why: "ลืม = ++forget → forgot++"}
+    - {t: "remembered", why: "ความหมายกลับกัน"}
+    - {t: "paid", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "answered", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (answered)"}
+  explain: "forget = ==ลืม== · remember = จำได้"
+  status: approved
+- id: cefr-a2-w08-053
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  pool: true
+  stem: "I'm sorry. I made a ____ on your bill."
+  choices:
+    - {t: "mistake", why: "ข้อผิดพลาด = ++make a mistake++"}
+    - {t: "question", why: "ทำคำถามบนบิลไม่ตรงความหมาย"}
+    - {t: "exam", why: "exam คือการสอบ จึงใช้ไม่ได้"}
+    - {t: "answer", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "make a mistake = ==ทำผิดพลาด=="
+  status: approved
+- id: cefr-a2-w08-054
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 1
+  pool: true
+  stem: "I ____ the bus because I got up late."
+  choices:
+    - {t: "missed", why: "พลาดรถ = ++miss the bus++"}
+    - {t: "caught", why: "ความหมายกลับกัน"}
+    - {t: "left", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "spent", why: "spend ใช้กับเงินหรือเวลา"}
+  explain: "miss the bus = ==ตกรถ=="
+  status: approved
+- id: cefr-a2-w08-055
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  pool: true
+  stem: "How much did you ____ on clothes last month?"
+  choices:
+    - {t: "spend", why: "ใช้จ่าย = ++spend on++"}
+    - {t: "pay", why: "pay ใช้ pay for"}
+    - {t: "miss", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "forget", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (forget)"}
+  explain: "spend money ==on== = ใช้เงินกับ"
+  status: approved
+- id: cefr-a2-w08-056
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  pool: true
+  stem: "I can't open the door. There's a ____ with the key."
+  choices:
+    - {t: "problem", why: "ปัญหา = ++a problem with++"}
+    - {t: "question", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "answer", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (answer)"}
+    - {t: "exam", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (exam)"}
+  explain: "a problem ==with== = มีปัญหากับ"
+  status: approved
+- id: cefr-a2-w08-057
+  kind: mcq
+  skill: vo
+  topic: problems-mistakes
+  level: 2
+  pool: true
+  stem: "Can I ____ by card, or only by cash?"
+  choices:
+    - {t: "pay", why: "จ่าย = ++pay by card++"}
+    - {t: "spend", why: "spend by card ไม่ใช่วลีที่ใช้"}
+    - {t: "miss", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "catch", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (catch)"}
+  explain: "pay ==by card / in cash== = จ่ายด้วยบัตร / เงินสด"
+  status: approved
+- id: cefr-a2-w08-058
+  kind: read
+  skill: rd
+  topic: diary-entry
+  level: 1
+  pool: true
+  title: "Wednesday, 12 March"
+  passage: |
+    What a bad day! I woke up late because I forgot to set my alarm. I didn't have time for breakfast, and I missed the bus. I took a taxi, but it cost 150 baht.
+    At work, I made a big mistake in an email to a customer. My boss wasn't angry, but I felt terrible.
+    In the evening, things got better. My friend Ploy called me, and we had noodles at the night market. Tomorrow will be a better day!
+  questions:
+    - stem: "Why did the writer wake up late?"
+      choices:
+        - {t: "the alarm wasn't set", why: "I forgot to set my alarm"}
+        - {t: "the bus was late", why: "ตกรถเมล์เป็นผลที่ตามมา"}
+        - {t: "the writer was ill", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "a friend called early", why: "เพื่อนโทรมาตอนเย็น"}
+    - stem: "How did the writer get to work?"
+      choices:
+        - {t: "by taxi", why: "I took a taxi จึงใช้ไม่ได้"}
+        - {t: "by bus", why: "ผู้เขียนตกรถเมล์"}
+        - {t: "on foot", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "in a friend's car", why: "ในบทไม่ได้พูดเช่นนั้น (in a friend's car)"}
+    - stem: "What did the writer do in the evening?"
+      choices:
+        - {t: "ate noodles with a friend", why: "we had noodles at the night market"}
+        - {t: "wrote an email", why: "อีเมลเป็นเรื่องที่ทำงาน"}
+        - {t: "worked late", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "went to bed early", why: "ในบทไม่ได้พูดเช่นนั้น (went to bed early)"}
+  status: approved
+- id: cefr-a2-w08-059
+  kind: listen
+  skill: li
+  topic: past-questions
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Did you pass the exam?"}
+    - {who: Man, en: "No, I didn't. I answered only half of the questions in time."}
+  questions:
+    - stem: "What was the man's problem?"
+      choices:
+        - {t: "he didn't finish in time", why: "I answered only half of the questions in time"}
+        - {t: "he forgot the exam", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "he arrived late", why: "ในบทไม่ได้พูดเช่นนั้น (he arrived late)"}
+        - {t: "he lost his pen", why: "ในบทไม่ได้พูดเช่นนั้น (he lost his pen)"}
+  status: approved
+- id: cefr-a2-w08-060
+  kind: listen
+  skill: li
+  topic: problems-mistakes
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "I remembered the tickets, but I forgot my passport, so we went back home."}
+  questions:
+    - stem: "Why did they go back home?"
+      choices:
+        - {t: "the man forgot his passport", why: "I forgot my passport"}
+        - {t: "they forgot the tickets", why: "เขาเอาตั๋วมาแล้ว"}
+        - {t: "the flight was cancelled", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it was raining", why: "ในบทไม่ได้พูดเช่นนั้น (it was raining)"}
+  status: approved

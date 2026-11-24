@@ -1,0 +1,157 @@
+G review-c1-a 2
+Seldom ____ a speaker hold an audience's attention for so long.
+=have I seen|ปฏิเสธขึ้นต้น ++สลับกริยาช่วย++
+-I have seen|ต้องสลับหลัง seldom
+-I saw|ต้องใช้กริยาช่วยสลับ
+-saw I|ต้องใช้กริยาช่วยสลับ
+!==Seldom + กริยาช่วย + ประธาน==
+
+G review-c1-a 3
+The board demanded that the director ____ immediately.
+=resign|subjunctive ++V1++
+-resigns|ทางการหลัง demand that ใช้ V1
+-resigned|ไม่ถอยกาลในโครงสร้างนี้
+-to resign|ไม่มี to
+!demand that + ประธาน + ==V1==
+
+G review-c1-a 3
+It was only when the lights went out ____ we noticed the storm.
+=that|ประโยคเน้น ++It was only when ... that++
+-when|when ซ้ำ จึงใช้ไม่ได้
+-which|which ไม่ใช้ในโครงสร้างนี้
+-then|then ไม่ใช้ในโครงสร้างนี้
+!==It was only when ... that...== = จนกระทั่ง...จึง
+
+G review-c1-a 3
+She ____ have left already; her coat is still here.
+=can't|แน่ใจว่าไม่ใช่ ++can't have + V3++
+-mustn't|ไม่ใช้สรุปแบบนี้
+-needn't|needn't have = ไม่จำเป็นต้องทำ
+-shouldn't|ความหมายไม่ตรง
+!หลักฐานบอกว่าไม่ใช่ ==can't have + V3==
+
+G review-c1-b 2
+____ the delay, we would have arrived before dinner.
+=But for|ถ้าไม่มี ++But for + คำนาม++
+-Except|ความหมายไม่ตรง
+-Unless|unless ต้องตามด้วยประโยค
+-Despite|ความหมายไม่ตรง
+!==But for + คำนาม== = ถ้าไม่มี...
+
+G review-c1-b 3
+Not until the contract was signed ____ to celebrate.
+=did they begin|Not until ขึ้นต้น ++สลับในประโยคหลัก++
+-they began|ต้องสลับหลัง not until ขึ้นต้น
+-began they|ต้องใช้ did สลับ
+-they did begin|ไม่ได้สลับ
+!==Not until + ... + did + ประธาน + V1==
+
+G review-c1-b 3
+The project, ____ was funded by the EU, ended last year.
+=which|ขยายแบบมีจุลภาค ++, which++
+-that|that ไม่ใช้หลังจุลภาค
+-what|what ไม่ใช้ขยายคำนาม
+-who|who ใช้กับคน
+!ประโยคขยายมีจุลภาค ==which / who== (ไม่ใช้ that)
+
+G review-c1-b 3
+____ the evidence, the committee rejected the proposal.
+=Having reviewed|ทำเสร็จก่อน ++Having + V3++
+-Reviewed|ความหมายเป็น passive
+-Being reviewed|ความหมายเป็น passive
+-To review|ความหมายไม่ตรง
+!==Having + V3== = หลังจาก...แล้ว
+
+G review-c1-b 3
+The more you practise, ____ confident you'll become.
+=the more|โครงสร้างยิ่ง...ยิ่ง ++the more++
+-more|ต้องมี the
+-the most|ต้องเป็นขั้นกว่า
+-so more|ไม่ใช่สำนวน
+!==The more ..., the more ...== = ยิ่ง...ยิ่ง
+
+V c1-overview 2
+Tax breaks were offered as an ____ for companies to invest in rural areas.
+=incentive|แรงจูงใจ = ++incentive for/to++
+-impetus|impetus คือแรงผลักดัน (ไม่ใช่ของตอบแทน)
+-stigma|stigma คือตราบาป
+-paucity|paucity คือความขาดแคลน
+!incentive = ==สิ่งจูงใจ (เงิน รางวัล)==
+
+V c1-overview 2
+There is still a ____ attached to asking for help with mental health.
+=stigma|ตราบาป = ++stigma attached to++
+-rapport|rapport คือความสัมพันธ์ที่ดี
+-consensus|consensus คือความเห็นพ้อง
+-plethora|plethora คือจำนวนมากเกิน
+!stigma = ==ตราบาป ความอับอายทางสังคม==
+
+V c1-overview 3
+After hours of discussion, the committee reached a ____.
+=consensus|ความเห็นพ้อง = ++reach a consensus++
+-repercussion|repercussion คือผลกระทบตามมา
+-propensity|propensity คือแนวโน้ม
+-foresight|foresight คือการมองการณ์ไกล
+!reach a consensus = ==ได้ข้อตกลงร่วมกัน==
+
+V c1-overview 3
+Good teachers quickly build ____ with their students.
+=rapport|ความสัมพันธ์ที่ดี = ++rapport with++
+-acumen|acumen คือไหวพริบ
+-stigma|stigma คือตราบาป
+-incentive|ไม่ตรงความหมาย
+!build rapport ==with== = สร้างความสัมพันธ์ที่ดี
+
+V c1-overview 3
+She had the ____ to save money before prices rose.
+=foresight|การมองการณ์ไกล = ++foresight++
+-affinity|affinity คือความรู้สึกผูกพัน
+-paucity|paucity คือความขาดแคลน
+-repercussion|ไม่ตรงความหมาย
+!foresight = ==การมองการณ์ไกล==
+
+V c1-overview 3
+There is a ____ of reliable data on rural incomes; we need more surveys.
+=paucity|ความขาดแคลน = ++a paucity of++
+-plethora|plethora คือมีมากเกิน ตรงข้าม
+-consensus|ไม่ตรงความหมาย
+-propensity|ไม่ตรงความหมาย
+!paucity = ==ความขาดแคลน== · plethora = มีล้นเหลือ
+
+R long-analytical 2|The Hidden Costs of Cheap Fashion
+Clothes have never been cheaper. A T-shirt that cost 300 baht a decade ago can now be bought online for less than 100. For consumers on tight budgets, this is a tangible benefit, and critics who simply tell people to "buy less" often ignore this reality.
+
+Yet low prices conceal costs that are paid elsewhere. Garment workers in some countries earn wages that barely cover rent and food. Synthetic fabrics release tiny plastic fibres when washed, and much of the clothing discarded each year ends up in landfill or is burned.
+
+There is no simple solution. Banning cheap clothing would hurt low-income families most. However, a plethora of smaller measures, such as repair services, clothing swaps, clearer labelling and minimum wage agreements across supply chains, could together reduce the damage. The impetus for change, the writer argues, must come from companies and governments, not only from individual shoppers.
+Q What does the writer say about critics who say "buy less"?
+=they overlook real budget pressures|critics ... often ignore this reality
+-they are completely right|ผู้เขียนบอกว่ามองข้ามความจริง
+-they work in fashion|ในบทไม่ได้พูดถึง
+-they want higher wages|ในบทไม่ได้พูดถึง
+Q Why does the writer oppose banning cheap clothing?
+=it would hurt poorer families most|Banning cheap clothing would hurt low-income families most
+-it is impossible to enforce|ในบทไม่ได้พูดถึง
+-it would raise workers' wages|ในบทไม่ได้พูดถึง
+-companies would refuse|ในบทไม่ได้พูดถึง
+Q Who does the writer think should lead change?
+=businesses and governments|must come from companies and governments
+-individual shoppers alone|ผู้เขียนบอกว่าไม่ใช่เฉพาะผู้ซื้อ
+-garment workers|ในบทไม่ได้พูดเช่นนั้น
+-schools|ในบทไม่ได้พูดถึงโรงเรียน
+
+L mixed-listening 2
+Woman: Had I known the road would be closed, I'd have left an hour earlier. As it was, I missed the opening speech.
+Q What happened to the woman?
+=she arrived after the opening speech|I missed the opening speech
+-she left an hour early|เธอไม่ได้ออกเร็ว
+-she gave the speech|ในบทไม่ได้พูดเช่นนั้น
+-the event was cancelled because of the road|ในบทไม่ได้พูดถึง
+
+L mixed-listening 2
+Man: The proposal has merit, but the repercussions for small shops haven't been thought through.
+Q What is the man's concern?
+=the effects on small shops|the repercussions for small shops haven't been thought through
+-the proposal is too short|ในบทไม่ได้พูดถึง
+-shops will earn too much|ในบทไม่ได้พูดเช่นนั้น
+-the plan has no merit at all|เขาบอกว่ามีข้อดี

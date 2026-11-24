@@ -1,0 +1,160 @@
+G countable-some-any 1
+There isn't ____ sugar in my coffee.
+=any|ประโยคปฏิเสธ ใช้ ++any++
+-some|some มักใช้ในประโยคบอกเล่า
+-a|sugar นับไม่ได้ ใช้ a ไม่ได้
+-many|many ใช้กับนามนับได้
+!ปฏิเสธ/คำถาม ==any== · บอกเล่า some
+
+G countable-some-any 1
+I'd like ____ oranges, please. Five, please.
+=some|บอกเล่า ขอของ ใช้ ++some++
+-any|any มักใช้ในปฏิเสธหรือคำถาม
+-an|oranges เป็นพหูพจน์
+-much|much ใช้กับนามนับไม่ได้
+!==some + พหูพจน์/นับไม่ได้== (บอกเล่า ขอของ)
+
+G countable-some-any 2
+How ____ eggs do we need for the cake?
+=many|นับได้ ใช้ ++How many++
+-much|much ใช้กับนามนับไม่ได้
+-any|ไม่ใช่รูปคำถามนี้
+-some|ไม่ใช่รูปคำถามนี้
+!นับได้ ==How many== · นับไม่ได้ How much
+
+G countable-some-any 2
+Can I have a ____ of water, please?
+=glass|นับน้ำด้วยภาชนะ ++a glass of++
+-water|ซ้ำคำว่า water
+-piece|a piece of ใช้กับขนม เค้ก
+-slice|a slice of ใช้กับขนมปัง
+!น้ำนับไม่ได้ → ==a glass / bottle of water==
+
+G how-much-would-like 1
+"How much ____ these bananas?" "Twenty baht."
+=are|bananas เป็นพหูพจน์ ++How much are...?++
+-is|bananas เป็นพหูพจน์
+-do|do ไม่ใช้ถามราคาแบบนี้
+-does|does ไม่ใช้ถามราคาแบบนี้
+!ถามราคา ==How much is/are...?==
+
+G how-much-would-like 1
+____ you like some tea?
+=Would|เสนออย่างสุภาพ ++Would you like...?++
+-Do|Do you like = ชอบไหม ไม่ใช่เสนอ
+-Are|are ไม่ตามด้วย like แบบนี้
+-Will|ไม่ใช่รูปเสนอที่ใช้
+!เสนอสุภาพ ==Would you like + คำนาม?==
+
+G how-much-would-like 2
+"What would you like?" "I'd like ____ chicken rice, please."
+=a plate of|นับอาหารเป็นจาน ++a plate of++
+-a glass of|ไม่ใช้กับข้าวมันไก่
+-a slice of|ไม่ใช้กับข้าวมันไก่
+-many|ไม่ใช้กับนามนับไม่ได้
+!==a plate / bowl of== + อาหาร
+
+G how-much-would-like 2
+"How much milk do we have?" "Not ____. Only half a bottle."
+=much|นับไม่ได้ ใช้ ++not much++
+-many|milk นับไม่ได้
+-few|few ใช้กับนามนับได้
+-any|ขัดกับครึ่งขวด
+!==not much== = ไม่มาก (นับไม่ได้)
+
+G how-much-would-like 2
+I'd like ____ to the market tomorrow.
+=to go|would like + ++to + V1++
+-go|ต้องมี to
+-going|ไม่ใช้ -ing หลัง would like
+-went|ไม่ใช้อดีต
+!I'd like ==to + V1==
+
+V food-market 1
+I'm ____. Can we have lunch now?
+=hungry|หิว = ++hungry++
+-cheap|cheap คือถูก
+-expensive|expensive คือแพง
+-market|market คือตลาด
+!hungry = ==หิว==
+
+V food-market 1
+I want to make a sandwich. Do we have any ____?
+=bread|ขนมปัง = ++bread++
+-water|ทำแซนด์วิชไม่ใช้น้ำ
+-milk|ไม่ใช่ส่วนหลักของแซนด์วิช
+-rice|ไม่ใช้ทำแซนด์วิช
+!bread = ==ขนมปัง== (นับไม่ได้)
+
+V food-market 2
+This bag is only fifty baht. It's very ____.
+=cheap|ราคาถูก = ++cheap++
+-expensive|ความหมายกลับกัน
+-hungry|ไม่ใช้กับกระเป๋า
+-market|market เป็นคำนาม
+!cheap = ==ถูก== · expensive = แพง
+
+V food-market 2
+Carrots and cabbage are ____.
+=vegetables|ผัก = ++vegetables++
+-fruit|แครอทกับกะหล่ำไม่ใช่ผลไม้
+-eggs|eggs คือไข่
+-bread|bread คือขนมปัง
+!vegetable = ==ผัก== · fruit = ผลไม้
+
+V food-market 2
+I go to the ____ every Saturday to buy fresh fish.
+=market|ตลาด = ++market++
+-hungry|เป็นคุณศัพท์
+-cheap|เป็นคุณศัพท์
+-milk|milk คือนม
+!go to the market = ==ไปตลาด==
+
+V food-market 2
+A new phone costs 40,000 baht. That's too ____ for me.
+=expensive|แพง = ++expensive++
+-cheap|ความหมายกลับกัน
+-hungry|ไม่ใช้กับราคา
+-vegetable|เป็นคำนาม
+!too expensive = ==แพงเกินไป==
+
+R shopping-list 1|Notes on the Fridge
+Hi Tom,
+I'm at work until seven. Can you go to the market after school? We need some rice, six eggs and a bottle of milk. Please buy some fruit too, but not bananas. We have a lot of bananas.
+Don't buy bread. Grandma is bringing some tomorrow.
+The money is in the blue box on the table. There are 300 baht.
+Thanks!
+Mum
+Q Who wrote the note?
+=Tom's mother|Mum
+-Tom|ข้อความเขียนถึงทอม
+-Grandma|คุณยายจะนำขนมปังมา
+-a teacher|ในบทไม่ได้พูดเช่นนั้น
+Q What fruit should Tom NOT buy?
+=bananas|not bananas. We have a lot of bananas
+-oranges|ในบทไม่ได้ห้ามส้ม
+-apples|ในบทไม่ได้ห้ามแอปเปิล
+-mangoes|ในบทไม่ได้ห้ามมะม่วง
+Q Why shouldn't Tom buy bread?
+=Grandma is bringing some|Grandma is bringing some tomorrow
+-it is too expensive|ในบทไม่ได้พูดเช่นนั้น
+-the market has no bread|ในบทไม่ได้พูดเช่นนั้น
+-Mum doesn't like bread|ในบทไม่ได้พูดเช่นนั้น
+
+L ordering-food 1
+Woman: Would you like something to drink?
+Man: Yes, a cup of coffee, please. No sugar.
+Q What does the man want?
+=coffee without sugar|a cup of coffee, please. No sugar
+-tea with sugar|เขาขอกาแฟ
+-a glass of water|ในบทไม่ได้พูดถึงน้ำเปล่า
+-coffee with milk and sugar|เขาบอกว่าไม่ใส่น้ำตาล
+
+L food-market 1
+Man: How much are the mangoes?
+Woman: They're thirty baht each, or a hundred baht for four.
+Q How much are four mangoes?
+=one hundred baht|a hundred baht for four
+-thirty baht|ราคาผลละสามสิบบาท
+-one hundred and twenty baht|ถ้าซื้อสี่ผลราคาหนึ่งร้อยบาท
+-forty baht|ในบทไม่ได้พูดถึงสี่สิบบาท

@@ -1,0 +1,280 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 5 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w05-043
+  kind: mcq
+  skill: gm
+  topic: countable-some-any
+  level: 1
+  pool: true
+  stem: "There isn't ____ sugar in my coffee."
+  choices:
+    - {t: "any", why: "ประโยคปฏิเสธ ใช้ ++any++"}
+    - {t: "some", why: "some มักใช้ในประโยคบอกเล่า"}
+    - {t: "a", why: "sugar นับไม่ได้ ใช้ a ไม่ได้"}
+    - {t: "many", why: "many ใช้กับนามนับได้"}
+  explain: "ปฏิเสธ/คำถาม ==any== · บอกเล่า some"
+  status: approved
+- id: cefr-a2-w05-044
+  kind: mcq
+  skill: gm
+  topic: countable-some-any
+  level: 1
+  pool: true
+  stem: "I'd like ____ oranges, please. Five, please."
+  choices:
+    - {t: "some", why: "บอกเล่า ขอของ ใช้ ++some++"}
+    - {t: "any", why: "any มักใช้ในปฏิเสธหรือคำถาม"}
+    - {t: "an", why: "oranges เป็นพหูพจน์"}
+    - {t: "much", why: "much ใช้กับนามนับไม่ได้"}
+  explain: "==some + พหูพจน์/นับไม่ได้== (บอกเล่า ขอของ)"
+  status: approved
+- id: cefr-a2-w05-045
+  kind: mcq
+  skill: gm
+  topic: countable-some-any
+  level: 2
+  pool: true
+  stem: "How ____ eggs do we need for the cake?"
+  choices:
+    - {t: "many", why: "นับได้ ใช้ ++How many++"}
+    - {t: "much", why: "much ใช้กับนามนับไม่ได้"}
+    - {t: "any", why: "ไม่ใช่รูปคำถามนี้"}
+    - {t: "some", why: "ไม่ใช่รูปคำถามนี้ (some)"}
+  explain: "นับได้ ==How many== · นับไม่ได้ How much"
+  status: approved
+- id: cefr-a2-w05-046
+  kind: mcq
+  skill: gm
+  topic: countable-some-any
+  level: 2
+  pool: true
+  stem: "Can I have a ____ of water, please?"
+  choices:
+    - {t: "glass", why: "นับน้ำด้วยภาชนะ ++a glass of++"}
+    - {t: "water", why: "ซ้ำคำว่า water จึงใช้ไม่ได้"}
+    - {t: "piece", why: "a piece of ใช้กับขนม เค้ก"}
+    - {t: "slice", why: "a slice of ใช้กับขนมปัง"}
+  explain: "น้ำนับไม่ได้ → ==a glass / bottle of water=="
+  status: approved
+- id: cefr-a2-w05-047
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 1
+  pool: true
+  stem: "\"How much ____ these bananas?\" \"Twenty baht.\""
+  choices:
+    - {t: "are", why: "bananas เป็นพหูพจน์ ++How much are...?++"}
+    - {t: "is", why: "bananas เป็นพหูพจน์"}
+    - {t: "do", why: "do ไม่ใช้ถามราคาแบบนี้"}
+    - {t: "does", why: "does ไม่ใช้ถามราคาแบบนี้"}
+  explain: "ถามราคา ==How much is/are...?=="
+  status: approved
+- id: cefr-a2-w05-048
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 1
+  pool: true
+  stem: "____ you like some tea?"
+  choices:
+    - {t: "Would", why: "เสนออย่างสุภาพ ++Would you like...?++"}
+    - {t: "Do", why: "Do you like = ชอบไหม ไม่ใช่เสนอ"}
+    - {t: "Are", why: "are ไม่ตามด้วย like แบบนี้"}
+    - {t: "Will", why: "ไม่ใช่รูปเสนอที่ใช้"}
+  explain: "เสนอสุภาพ ==Would you like + คำนาม?=="
+  status: approved
+- id: cefr-a2-w05-049
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 2
+  pool: true
+  stem: "\"What would you like?\" \"I'd like ____ chicken rice, please.\""
+  choices:
+    - {t: "a plate of", why: "นับอาหารเป็นจาน ++a plate of++"}
+    - {t: "a glass of", why: "ไม่ใช้กับข้าวมันไก่"}
+    - {t: "a slice of", why: "ไม่ใช้กับข้าวมันไก่ (a slice of)"}
+    - {t: "many", why: "ไม่ใช้กับนามนับไม่ได้"}
+  explain: "==a plate / bowl of== + อาหาร"
+  status: approved
+- id: cefr-a2-w05-050
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 2
+  pool: true
+  stem: "\"How much milk do we have?\" \"Not ____. Only half a bottle.\""
+  choices:
+    - {t: "much", why: "นับไม่ได้ ใช้ ++not much++"}
+    - {t: "many", why: "milk นับไม่ได้ จึงใช้ไม่ได้"}
+    - {t: "few", why: "few ใช้กับนามนับได้"}
+    - {t: "any", why: "ขัดกับครึ่งขวด จึงใช้ไม่ได้"}
+  explain: "==not much== = ไม่มาก (นับไม่ได้)"
+  status: approved
+- id: cefr-a2-w05-051
+  kind: mcq
+  skill: gm
+  topic: how-much-would-like
+  level: 2
+  pool: true
+  stem: "I'd like ____ to the market tomorrow."
+  choices:
+    - {t: "to go", why: "would like + ++to + V1++"}
+    - {t: "go", why: "ต้องมี to จึงใช้ไม่ได้"}
+    - {t: "going", why: "ไม่ใช้ -ing หลัง would like"}
+    - {t: "went", why: "ไม่ใช้อดีต จึงใช้ไม่ได้"}
+  explain: "I'd like ==to + V1=="
+  status: approved
+- id: cefr-a2-w05-052
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 1
+  pool: true
+  stem: "I'm ____. Can we have lunch now?"
+  choices:
+    - {t: "hungry", why: "หิว = ++hungry++"}
+    - {t: "cheap", why: "cheap คือถูก จึงใช้ไม่ได้"}
+    - {t: "expensive", why: "expensive คือแพง"}
+    - {t: "market", why: "market คือตลาด จึงใช้ไม่ได้"}
+  explain: "hungry = ==หิว=="
+  status: approved
+- id: cefr-a2-w05-053
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 1
+  pool: true
+  stem: "I want to make a sandwich. Do we have any ____?"
+  choices:
+    - {t: "bread", why: "ขนมปัง = ++bread++"}
+    - {t: "water", why: "ทำแซนด์วิชไม่ใช้น้ำ"}
+    - {t: "milk", why: "ไม่ใช่ส่วนหลักของแซนด์วิช"}
+    - {t: "rice", why: "ไม่ใช้ทำแซนด์วิช"}
+  explain: "bread = ==ขนมปัง== (นับไม่ได้)"
+  status: approved
+- id: cefr-a2-w05-054
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 2
+  pool: true
+  stem: "This bag is only fifty baht. It's very ____."
+  choices:
+    - {t: "cheap", why: "ราคาถูก = ++cheap++"}
+    - {t: "expensive", why: "ความหมายกลับกัน"}
+    - {t: "hungry", why: "ไม่ใช้กับกระเป๋า"}
+    - {t: "market", why: "market เป็นคำนาม"}
+  explain: "cheap = ==ถูก== · expensive = แพง"
+  status: approved
+- id: cefr-a2-w05-055
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 2
+  pool: true
+  stem: "Carrots and cabbage are ____."
+  choices:
+    - {t: "vegetables", why: "ผัก = ++vegetables++"}
+    - {t: "fruit", why: "แครอทกับกะหล่ำไม่ใช่ผลไม้"}
+    - {t: "eggs", why: "eggs คือไข่ จึงใช้ไม่ได้"}
+    - {t: "bread", why: "bread คือขนมปัง"}
+  explain: "vegetable = ==ผัก== · fruit = ผลไม้"
+  status: approved
+- id: cefr-a2-w05-056
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 2
+  pool: true
+  stem: "I go to the ____ every Saturday to buy fresh fish."
+  choices:
+    - {t: "market", why: "ตลาด = ++market++"}
+    - {t: "hungry", why: "เป็นคุณศัพท์ จึงใช้ไม่ได้"}
+    - {t: "cheap", why: "เป็นคุณศัพท์ จึงใช้ไม่ได้ (cheap)"}
+    - {t: "milk", why: "milk คือนม จึงใช้ไม่ได้"}
+  explain: "go to the market = ==ไปตลาด=="
+  status: approved
+- id: cefr-a2-w05-057
+  kind: mcq
+  skill: vo
+  topic: food-market
+  level: 2
+  pool: true
+  stem: "A new phone costs 40,000 baht. That's too ____ for me."
+  choices:
+    - {t: "expensive", why: "แพง = ++expensive++"}
+    - {t: "cheap", why: "ความหมายกลับกัน"}
+    - {t: "hungry", why: "ไม่ใช้กับราคา จึงใช้ไม่ได้"}
+    - {t: "vegetable", why: "เป็นคำนาม จึงใช้ไม่ได้"}
+  explain: "too expensive = ==แพงเกินไป=="
+  status: approved
+- id: cefr-a2-w05-058
+  kind: read
+  skill: rd
+  topic: shopping-list
+  level: 1
+  pool: true
+  title: "Notes on the Fridge"
+  passage: |
+    Hi Tom,
+    I'm at work until seven. Can you go to the market after school? We need some rice, six eggs and a bottle of milk. Please buy some fruit too, but not bananas. We have a lot of bananas.
+    Don't buy bread. Grandma is bringing some tomorrow.
+    The money is in the blue box on the table. There are 300 baht.
+    Thanks!
+    Mum
+  questions:
+    - stem: "Who wrote the note?"
+      choices:
+        - {t: "Tom's mother", why: "Mum จึงใช้ไม่ได้"}
+        - {t: "Tom", why: "ข้อความเขียนถึงทอม"}
+        - {t: "Grandma", why: "คุณยายจะนำขนมปังมา"}
+        - {t: "a teacher", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What fruit should Tom NOT buy?"
+      choices:
+        - {t: "bananas", why: "not bananas. We have a lot of bananas"}
+        - {t: "oranges", why: "ในบทไม่ได้ห้ามส้ม"}
+        - {t: "apples", why: "ในบทไม่ได้ห้ามแอปเปิล"}
+        - {t: "mangoes", why: "ในบทไม่ได้ห้ามมะม่วง"}
+    - stem: "Why shouldn't Tom buy bread?"
+      choices:
+        - {t: "Grandma is bringing some", why: "Grandma is bringing some tomorrow"}
+        - {t: "it is too expensive", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "the market has no bread", why: "ในบทไม่ได้พูดเช่นนั้น (the market has no bread)"}
+        - {t: "Mum doesn't like bread", why: "ในบทไม่ได้พูดเช่นนั้น (Mum doesn't like bread)"}
+  status: approved
+- id: cefr-a2-w05-059
+  kind: listen
+  skill: li
+  topic: ordering-food
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Would you like something to drink?"}
+    - {who: Man, en: "Yes, a cup of coffee, please. No sugar."}
+  questions:
+    - stem: "What does the man want?"
+      choices:
+        - {t: "coffee without sugar", why: "a cup of coffee, please. No sugar"}
+        - {t: "tea with sugar", why: "เขาขอกาแฟ จึงใช้ไม่ได้"}
+        - {t: "a glass of water", why: "ในบทไม่ได้พูดถึงน้ำเปล่า"}
+        - {t: "coffee with milk and sugar", why: "เขาบอกว่าไม่ใส่น้ำตาล"}
+  status: approved
+- id: cefr-a2-w05-060
+  kind: listen
+  skill: li
+  topic: food-market
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "How much are the mangoes?"}
+    - {who: Woman, en: "They're thirty baht each, or a hundred baht for four."}
+  questions:
+    - stem: "How much are four mangoes?"
+      choices:
+        - {t: "one hundred baht", why: "a hundred baht for four"}
+        - {t: "thirty baht", why: "ราคาผลละสามสิบบาท"}
+        - {t: "one hundred and twenty baht", why: "ถ้าซื้อสี่ผลราคาหนึ่งร้อยบาท"}
+        - {t: "forty baht", why: "ในบทไม่ได้พูดถึงสี่สิบบาท"}
+  status: approved

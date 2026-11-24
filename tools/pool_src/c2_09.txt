@@ -1,0 +1,158 @@
+G register-shifting 2
+Which is the most formal way to say "We can't come"?
+=We regret that we are unable to attend.|ทางการที่สุด ++We regret that we are unable to...++
+-Sorry, we can't make it.|เป็นกันเอง
+-We won't be there, I'm afraid, sorry.|เป็นกันเอง
+-No can do, sorry.|ภาษาพูดมาก
+!ทางการ ==We regret that we are unable to...==
+
+G register-shifting 2
+In a casual message to a friend, "I would be grateful if you could reply" is best changed to ____.
+=Let me know, OK?|เป็นกันเองเหมาะกับเพื่อน ++Let me know++
+-Kindly reply at your earliest convenience.|ทางการเกินไป
+-Your prompt response is requested.|ทางการเกินไป
+-Please be advised that a reply is required.|ทางการเกินไป
+!ข้อความถึงเพื่อน ==สั้น เป็นกันเอง==
+
+G register-shifting 3
+Which word is the most formal equivalent of "find out"?
+=ascertain|ทางการ ++ascertain++
+-figure out|เป็นกันเอง
+-dig up|เป็นกันเองมาก
+-suss out|ภาษาพูด (อังกฤษบริติช)
+!find out → ทางการ ==ascertain / determine==
+
+G register-shifting 3
+"The kids were totally wiped out after the trip." The most formal version is: "The children were ____ after the trip."
+=exhausted|ทางการของ wiped out ++exhausted++
+-knackered|ภาษาพูด
+-dead beat|ภาษาพูด
+-shattered|ภาษาพูด
+!wiped out / knackered → ทางการ ==exhausted==
+
+G genre-conventions 2
+Which sentence would most likely begin a research abstract?
+=This study examines the effect of sleep on memory.|บทคัดย่อเริ่มด้วยจุดประสงค์ ++This study examines...++
+-Have you ever wondered why we forget things?|เหมาะกับบทความทั่วไป
+-Once upon a time, there was a tired student.|เป็นนิทาน
+-Dear readers, thank you for your letters.|เป็นจดหมาย
+!บทคัดย่อเริ่ม ==This study examines / investigates...==
+
+G genre-conventions 3
+In a formal report, recommendations are usually introduced with ____.
+=It is recommended that...|รูปทางการไม่ระบุตัว ++It is recommended that++
+-I reckon we should...|เป็นกันเอง
+-You guys should...|ภาษาพูด
+-Why not just...?|เป็นกันเอง
+!รายงาน ==It is recommended that + ประธาน + V1==
+
+G genre-conventions 3
+Which feature is typical of a news headline?
+=leaving out articles and auxiliaries|พาดหัวข่าวตัด a/the และ is ++Minister quits++
+-long complex sentences|ไม่ใช่ลักษณะของพาดหัว
+-a formal greeting|ไม่ใช่ลักษณะของพาดหัว
+-a signature at the end|ไม่ใช่ลักษณะของพาดหัว
+!พาดหัว ==ตัด article และกริยาช่วย==
+
+G genre-conventions 3
+A cover letter for a job usually ends with ____.
+=I look forward to hearing from you.|ปิดจดหมายสมัครงานแบบแผน ++I look forward to hearing...++
+-See you later!|เป็นกันเองเกินไป
+-That's all, folks.|ไม่เหมาะ
+-Write back soon, OK?|เป็นกันเองเกินไป
+!ปิดจดหมายทางการ ==I look forward to hearing from you.==
+
+G genre-conventions 3
+Which sentence best suits the conclusion of an academic essay?
+=In sum, the evidence suggests a clear link.|ปิดเรียงความวิชาการ ++In sum...++
+-Anyway, that's my two cents.|เป็นกันเอง
+-So yeah, it's complicated, I guess.|เป็นกันเอง
+-Thanks for reading, and good night!|ไม่ใช่แบบแผนวิชาการ
+!สรุปเรียงความ ==In sum / In conclusion==
+
+V language-style 2
+The report was so full of technical ____ that ordinary readers couldn't follow it.
+=jargon|ศัพท์เฉพาะทาง = ++jargon++
+-prose|prose คือร้อยแก้ว
+-critique|critique คือบทวิจารณ์
+-discourse|ไม่ตรงความหมาย
+!jargon = ==ศัพท์เฉพาะวงการ==
+
+V language-style 2
+His emails are ____: three words, no greeting.
+=terse|ห้วนสั้น = ++terse++
+-verbose|verbose คือยืดยาว ตรงข้าม
+-florid|florid คือฟุ่มเฟือยหรูหรา
+-colloquial|ไม่ตรงความหมาย
+!terse = ==ห้วน สั้นจนแทบหยาบ==
+
+V language-style 3
+The essay was ____ and repetitive; it could have been half the length.
+=verbose|ยืดยาวเกินจำเป็น = ++verbose++
+-terse|ความหมายกลับกัน
+-pithy|pithy คือกระชับคมคาย
+-laconic|ความหมายกลับกัน
+!verbose = ==ใช้คำมากเกินไป==
+
+V language-style 3
+She has a gift for ____ remarks that sum up a problem in one line.
+=pithy|กระชับคมคาย = ++pithy++
+-verbose|ความหมายกลับกัน
+-florid|florid คือฟุ่มเฟือย
+-vernacular|ไม่ตรงความหมาย
+!pithy = ==สั้นแต่ได้ใจความ==
+
+V language-style 3
+The novel is written in the local ____, which gives the dialogue real life.
+=vernacular|ภาษาถิ่น/ภาษาพูด = ++vernacular++
+-treatise|treatise คือตำราวิชาการ
+-critique|ไม่ตรงความหมาย
+-jargon|ไม่ตรงความหมาย
+!vernacular = ==ภาษาท้องถิ่นที่คนใช้จริง==
+
+V language-style 3
+The professor's 600-page ____ on Thai law is still used by students today.
+=treatise|ตำราวิชาการเชิงลึก = ++treatise on++
+-critique|critique คือบทวิจารณ์สั้นกว่า
+-discourse|ไม่ตรงความหมาย
+-prose|ไม่ตรงความหมาย
+!treatise = ==ตำรา/ผลงานวิชาการที่ละเอียด==
+
+R book-review 2|Review: "Teaching in Plain Words" by Dr Anan T.
+Few books on education manage to be both rigorous and readable. This one comes close. Dr Anan argues that teachers too often hide behind jargon, and he practises what he preaches: his prose is plain, his chapters short and his examples drawn from real classrooms in Thailand and Laos.
+
+The strongest section deals with feedback. Anan shows that pithy, specific comments ("Your second paragraph needs evidence") help students far more than long, general ones. Teachers will find dozens of usable examples here.
+
+If the book has a weakness, it is that it occasionally becomes too terse. The chapter on assessment, for instance, raises important questions but answers them in just six pages. A longer treatment would have been welcome. Even so, this is a refreshing and useful critique of how we talk about teaching.
+Q What does the reviewer praise about the writing?
+=it is clear and simple|his prose is plain, his chapters short
+-it uses a lot of technical jargon|ผู้เขียนวิจารณ์การใช้ศัพท์เฉพาะ
+-it is very long|ความหมายกลับกัน
+-it is written as a novel|ในบทไม่ได้พูดเช่นนั้น
+Q According to the book, what kind of feedback helps most?
+=short, specific comments|pithy, specific comments
+-long, general comments|ความหมายกลับกัน
+-grades without comments|ในบทไม่ได้พูดถึง
+-feedback from parents and other family members|ในบทไม่ได้พูดถึง
+Q What is the reviewer's criticism?
+=some parts are too brief|too terse ... in just six pages
+-it is too academic|ผู้วิจารณ์ชมว่าอ่านง่าย
+-the examples are not real|ตัวอย่างมาจากห้องเรียนจริง
+-the book is too expensive for most teachers to buy|ในบทไม่ได้พูดถึงราคา
+
+L academic-talk-show 2
+Woman: So, in plain English, what does "pedagogical scaffolding" actually mean?
+Man: Basically, giving students support at first, then gradually taking it away.
+Q How does the man explain the term?
+=giving support and slowly removing it|giving students support at first, then gradually taking it away
+-building new classrooms|ตีความตามตัวอักษร
+-testing students every week|ในบทไม่ได้พูดถึง
+-letting students choose their own teachers each term|ในบทไม่ได้พูดถึง
+
+L language-style 2
+Man: Her reply was laconic: "No." That was the whole email.
+Q What was the reply like?
+=extremely short|That was the whole email
+-long and detailed|ความหมายกลับกัน
+-friendly and warm|ในบทไม่ได้บ่งเช่นนั้น
+-full of technical jargon from her own field of work|ในบทไม่ได้พูดถึง

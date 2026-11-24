@@ -1,0 +1,157 @@
+G reported-statements 1
+"I'm hungry," said Nok. → Nok said that she ____ hungry.
+=was|เล่าต่อ ถอยกาล ++am → was++
+-is|เมื่อ said เป็นอดีต มักถอย is เป็น was
+-were|she ใช้ was ไม่ใช่ were
+-has been|ไม่ตรงกับ I'm hungry
+!said (อดีต) → ==ถอยกาลหนึ่งขั้น==
+
+G reported-statements 1
+"We will finish the road next month." → They said they ____ finish the road the following month.
+=would|เล่าต่อ ถอย ++will → would++
+-will|said เป็นอดีต ต้องถอยเป็น would
+-are|are finish ผิดรูป
+-did|ยังไม่ได้ทำ จึงใช้ did ไม่ได้
+!will → ==would== · next month → the following month
+
+G reported-statements 2
+My boss ____ me that the meeting was cancelled.
+=told|tell + ++คน++ (told me)
+-said|said ไม่มีกรรมตามหลังตรง ๆ
+-spoke|spoke ใช้ speak to someone
+-talked|talked ใช้ talk to someone
+!==tell + คน== · say (to someone) + สิ่งที่พูด
+
+G reported-statements 2
+"I lost my keys yesterday." → He said he had lost his keys ____.
+=the day before|เล่าต่อ ++yesterday → the day before++
+-tomorrow|tomorrow ไม่ตรงความหมาย
+-yesterday's|รูปผิด จึงใช้ไม่ได้
+-the next day|แปลว่าวันถัดไป ความหมายกลับกัน
+!yesterday → ==the day before / the previous day==
+
+G reported-questions-indirect 1
+She asked me where I ____.
+=lived|คำถามทางอ้อม ++เรียงแบบบอกเล่า++
+-did I live|คำถามทางอ้อมไม่สลับที่และไม่มี did
+-do I live|ไม่สลับประธานกับกริยาช่วย
+-I lived|I ซ้ำกับคำก่อนหน้า
+!asked + wh- + ==ประธาน + กริยา== (ไม่สลับ)
+
+G reported-questions-indirect 1
+Could you tell me what time the bank ____?
+=opens|ถามอย่างสุภาพ ++ประธาน + กริยา++
+-does open|ไม่ใช้ does ในคำถามทางอ้อม
+-does it open|ซ้ำประธาน และสลับที่
+-open|the bank เป็นเอกพจน์ ต้องเติม s
+!Could you tell me + wh- + ==ประโยคบอกเล่า==?
+
+G reported-questions-indirect 2
+The receptionist asked ____ I had a reservation.
+=if|คำถาม yes/no ทางอ้อมใช้ ++if / whether++
+-that|that ใช้กับประโยคบอกเล่า
+-what|what ต้องการข้อมูล ไม่ใช่ใช่หรือไม่
+-did|did ไม่ใช้ในคำถามทางอ้อม
+!คำถาม yes/no → ==asked if / whether==
+
+G reported-questions-indirect 2
+Do you know ____ the train to Hat Yai leaves?
+=when|ถามเวลา ใช้ ++when + ประโยคบอกเล่า++
+-when does|ไม่ใช้ does ในคำถามทางอ้อม
+-that|that ไม่ใช้ถามข้อมูล
+-what|what ไม่ใช้ถามเวลาแบบนี้
+!Do you know + ==when / where / what== + ประธาน + กริยา?
+
+G reported-questions-indirect 2
+"Can you help me?" → My neighbour asked me ____ help him.
+=if I could|yes/no ทางอ้อม ++if + I could++
+-could I|ไม่สลับประธานกับกริยาช่วย
+-that I can|that ไม่ใช้กับคำถาม
+-can I|ไม่สลับ และต้องถอยกาล
+!can → ==could== และไม่สลับที่ในคำถามทางอ้อม
+
+V communication-verbs 1
+The food was cold, so we ____ to the manager.
+=complained|ร้องเรียน = ++complain to++
+-apologised|apologise คือขอโทษ
+-admitted|admit คือยอมรับ
+-agreed|agree คือเห็นด้วย
+!complain to someone ==about== something
+
+V communication-verbs 1
+The waiter ____ for bringing the wrong dish and took it back to the kitchen.
+=apologised|ขอโทษ = ++apologise for++
+-complained|complain คือร้องเรียน
+-refused|refuse คือปฏิเสธ
+-warned|warn คือเตือน
+!apologise ==for== + -ing / สิ่งที่ทำผิด
+
+V communication-verbs 2
+She ____ to lend me her car because I don't have a licence.
+=refused|ปฏิเสธไม่ทำ = ++refuse to++
+-admitted|admit ไม่ตามด้วย to + V
+-apologised|apologise ไม่ตามด้วย to + V
+-discussed|discuss ไม่ตามด้วย to + V
+!refuse ==to + V1== = ไม่ยอมทำ
+
+V communication-verbs 2
+The guide ____ us not to swim there because of the strong current.
+=warned|เตือน = ++warn someone not to++
+-admitted|admit คือยอมรับ
+-complained|complain ไม่ตามด้วยคน + not to
+-argued|argue คือเถียง
+!warn someone (not) ==to + V1==
+
+V communication-verbs 2
+Finally, he ____ that he had broken the window.
+=admitted|ยอมรับว่าทำผิด = ++admit++
+-persuaded|persuade ต้องมีคนตามหลัง
+-refused|refuse ไม่ตามด้วย that
+-responded|ไม่ตรงความหมาย
+!admit (that) ... = ==ยอมรับ (ว่าทำ)==
+
+V communication-verbs 2
+I tried to ____ my dad to buy an electric car, but he wasn't interested.
+=persuade|โน้มน้าว = ++persuade someone to++
+-discuss|discuss ไม่ตามด้วยคน + to
+-agree|agree ไม่ตามด้วยคน + to
+-complain|complain ไม่ตามด้วยคน + to
+!persuade someone ==to + V1== = โน้มน้าวให้
+
+R meeting-notes 2|Notes from the Staff Meeting, 3 March
+Present: Somsak (manager), Lek, Ploy, Arun
+1. Customer complaints: Lek said that complaints about late deliveries had increased in February. Somsak asked why this was happening. Arun explained that one of the vans had been broken for two weeks.
+2. New van: Somsak said the company would rent a van until the old one was repaired. Ploy asked whether the rental would be expensive. Somsak said it would cost less than losing customers.
+3. Next steps: Arun agreed to call the garage on Monday. Lek will send a short apology email to customers who complained.
+Next meeting: 17 March
+Q Why were deliveries late in February?
+=a van was broken|one of the vans had been broken for two weeks
+-there were not enough staff|ไม่ได้พูดถึงพนักงานไม่พอ
+-the garage was closed|ไม่ได้บอกว่าอู่ปิด
+-customers changed their orders|ไม่ได้พูดถึงการเปลี่ยนคำสั่งซื้อ
+Q What did Ploy want to know?
+=if renting a van would cost a lot|asked whether the rental would be expensive
+-when the next meeting was|ไม่ได้บอกว่าเธอถามเรื่องนี้
+-who would call the garage|อรุณรับเรื่องนี้ ไม่ใช่คำถามของพลอย
+-why customers were angry|สมศักดิ์เป็นคนถามเรื่องสาเหตุ
+Q Who will contact the customers?
+=Lek|Lek will send a short apology email
+-Arun|อรุณจะโทรหาอู่
+-Ploy|พลอยถามเรื่องค่าเช่า
+-Somsak|สมศักดิ์เป็นผู้จัดการ ไม่ได้รับงานนี้
+
+L passing-on-message 2
+Woman: Jim called while you were out. He said he couldn't come to the party on Saturday because he had to work.
+Q Why can't Jim come to the party?
+=he has to work|he had to work = ต้องทำงาน
+-he is ill|ไม่ได้พูดว่าป่วย
+-he is going away|ไม่ได้พูดว่าไปต่างจังหวัด
+-he wasn't invited|เขาได้รับเชิญแต่มาไม่ได้
+
+L passing-on-message 2
+Man: The hotel asked if we wanted breakfast in our room. I told them we'd go to the restaurant.
+Q Where will they have breakfast?
+=in the restaurant|I told them we'd go to the restaurant
+-in their room|โรงแรมถามแต่เขาเลือกร้านอาหาร
+-at a café outside|ไม่ได้พูดถึงร้านข้างนอก
+-they won't have breakfast|เขาบอกว่าจะไปกินที่ร้านอาหาร

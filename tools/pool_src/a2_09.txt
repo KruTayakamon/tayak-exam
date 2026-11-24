@@ -1,0 +1,159 @@
+G going-to 1
+I've saved enough money. I ____ buy a new bicycle next month.
+=am going to|แผนที่ตั้งใจไว้แล้ว ++am going to++
+-is going to|I ใช้ am
+-going to|ขาด am
+-am go to|ขาด -ing
+!ตั้งใจไว้แล้ว ==am/is/are going to + V1==
+
+G going-to 1
+Look at that man on the ladder! He ____ fall.
+=is going to|เห็นหลักฐานตอนนี้ ++is going to++
+-are going to|he ใช้ is
+-going|ขาด is และ to
+-is go to|ขาด -ing
+!เห็นหลักฐานตรงหน้า ==be going to==
+
+G going-to 2
+"What ____ you going to do this weekend?" "I'm going to paint my room."
+=are|you ใช้ ++are going to++
+-is|is ไม่ใช้กับ you
+-do|do ไม่ตามด้วย you going
+-will|will ไม่ตามด้วย going to แบบนี้
+!==What are you going to + V1?==
+
+G going-to 2
+We ____ to go camping. It's going to rain all weekend.
+=aren't going|ไม่ได้ตั้งใจจะทำแล้ว ++aren't going to++
+-isn't going|we ใช้ aren't
+-don't going|รูปผิด จึงใช้ไม่ได้
+-not going|ขาด are
+!ปฏิเสธ ==am not / isn't / aren't going to==
+
+G will-future-arrangements 1
+"I'm thirsty." "Wait here. I ____ get you some water."
+=will|ตัดสินใจตอนพูด ++will++
+-am|am get ผิดรูป
+-going|ขาด am และ to
+-do|ไม่ใช่รูปอนาคต
+!ตัดสินใจทันที ==I'll + V1==
+
+G will-future-arrangements 1
+I'm ____ my aunt at the airport at six tonight. We arranged it last week.
+=meeting|นัดที่ตกลงไว้ ++am + -ing++
+-meet|ขาดรูป -ing หลัง I'm
+-met|เป็นอนาคต
+-meets|I ไม่เติม s
+!นัดที่ตกลงแล้ว ==am/is/are + -ing==
+
+G will-future-arrangements 2
+Don't worry. I ____ tell anyone your secret.
+=won't|สัญญาว่าจะไม่ ++won't++
+-don't will|รูปผิด จึงใช้ไม่ได้
+-am not|am not tell ผิดรูป
+-not will|ลำดับคำผิด
+!สัญญา ==I will / I won't + V1==
+
+G will-future-arrangements 2
+"Are you free on Friday?" "No, I'm ____ dinner with my parents."
+=having|แผนที่นัดไว้ ++am having++
+-have|หลัง I'm ต้องใช้ -ing
+-had|เป็นอนาคต
+-will have|I'm will ผิดรูป
+!นัดแล้ว ==I'm + -ing==
+
+G will-future-arrangements 2
+I think it ____ be sunny tomorrow.
+=will|คาดเดาความเห็น ++I think ... will++
+-is|is be ผิดรูป
+-going|ขาด is และ to
+-does|does be ผิดรูป
+!I think + ==will + V1== = คิดว่าจะ
+
+V plans-travel 1
+I need a ____ for the train to Hua Hin.
+=ticket|ตั๋ว = ++ticket++
+-station|station คือสถานี
+-message|message คือข้อความ
+-birthday|ไม่ตรงความหมาย
+!a ticket = ==ตั๋ว==
+
+V plans-travel 1
+I'd like to ____ you to my wedding in December.
+=invite|เชิญ = ++invite someone to++
+-join|join ไม่ตามด้วยคน + to แบบนี้
+-decide|decide ไม่ตามด้วยคน
+-hope|hope ไม่ตามด้วยคน + to
+!invite someone ==to== = เชิญ...มา
+
+V plans-travel 1
+I have a doctor's ____ at ten tomorrow.
+=appointment|นัด (หมอ ทันตแพทย์) = ++appointment++
+-meeting|meeting ใช้กับการประชุม
+-ticket|ไม่ตรงความหมาย
+-station|ไม่ตรงความหมาย
+!appointment = ==การนัดหมาย==
+
+V plans-travel 2
+I can't ____ which dress to buy. They're both nice.
+=decide|ตัดสินใจ = ++decide++
+-invite|ไม่ตรงความหมาย
+-travel|ไม่ตรงความหมาย
+-join|ไม่ตรงความหมาย
+!decide = ==ตัดสินใจ==
+
+V plans-travel 2
+Would you like to ____ our English club? It meets on Tuesdays.
+=join|เข้าร่วม = ++join a club++
+-invite|invite ใช้กับคน
+-decide|ไม่ตรงความหมาย
+-hope|ไม่ตรงความหมาย
+!join = ==เข้าร่วม สมัครเป็นสมาชิก==
+
+V plans-travel 2
+I ____ you feel better soon.
+=hope|หวัง = ++hope++
+-plan|ไม่ตรงความหมาย
+-decide|ไม่ตรงความหมาย
+-invite|ไม่ตรงความหมาย
+!I hope ... = ==ฉันหวังว่า==
+
+R invitation-messages 1|Birthday Invitation
+Hi everyone!
+It's my 30th birthday next Saturday, 15 June, and I'm going to have a small party at my house. Please come at 6 pm. We're going to have a barbecue in the garden, and my brother is going to play the guitar.
+You don't need to bring a present, but please bring a drink if you can.
+My house is near the train station, next to the green post office. Please send me a message by Thursday if you can come.
+Fon
+Q What is the party for?
+=Fon's 30th birthday|It's my 30th birthday next Saturday
+-her brother's birthday|น้องชายจะเล่นกีตาร์
+-a new house|ในบทไม่ได้พูดเช่นนั้น
+-a wedding|ในบทไม่ได้พูดถึง
+Q What should guests bring?
+=a drink|please bring a drink if you can
+-a present|ไม่ต้องนำของขวัญ
+-a guitar|น้องชายของฟ้าเล่นกีตาร์
+-some meat|ในบทไม่ได้พูดเช่นนั้น
+Q When must guests reply?
+=by Thursday|send me a message by Thursday
+-by Saturday|วันเสาร์คือวันงาน
+-on 15 June|เป็นวันงาน
+-at 6 pm|เป็นเวลาเริ่มงาน
+
+L appointments 1
+Woman: Can we meet on Monday?
+Man: Sorry, I'm visiting a customer on Monday. Is Tuesday OK?
+Woman: Tuesday is fine.
+Q When will they meet?
+=on Tuesday|Tuesday is fine
+-on Monday|ชายไปพบลูกค้าวันจันทร์
+-on Wednesday|ในบทไม่ได้พูดถึง
+-they won't meet|ทั้งสองตกลงวันอังคาร
+
+L plans-travel 1
+Man: I'm going to travel to Japan in April. I've already bought my ticket.
+Q What has the man done?
+=bought a ticket|I've already bought my ticket
+-gone to Japan|เขาจะไปเดือนเมษายน
+-cancelled his trip|ในบทไม่ได้พูดเช่นนั้น
+-booked a hotel|ในบทไม่ได้พูดถึงโรงแรม

@@ -1,0 +1,162 @@
+G wish-unreal-past 2
+I wish I ____ so much at the party last night. I've got a terrible headache.
+=hadn't eaten|เสียใจเรื่องอดีต ++wish + had(n't) + V3++
+-didn't eat|เรื่องเมื่อคืนต้องใช้ had + V3
+-wouldn't eat|ไม่ใช้ would กับเรื่องในอดีตของตัวเอง
+-haven't eaten|ไม่ใช่รูปหลัง wish
+!wish + ==had + V3== = เสียใจเรื่องที่ผ่านมาแล้ว
+
+G wish-unreal-past 2
+I wish my brother ____ his music so loud. It drives me crazy.
+=wouldn't play|อยากให้คนอื่นเลิกทำ ++wish + would(n't)++
+-hasn't played|ไม่ใช่รูปหลัง wish
+-doesn't play|หลัง wish ต้องถอยกาล
+-hadn't play|รูปผิด จึงใช้ไม่ได้
+!wish + someone + ==would(n't)== = อยากให้เขาเลิก/เปลี่ยนพฤติกรรม
+
+G wish-unreal-past 3
+It's high time we ____ a decision. We've been talking for hours.
+=made|It's high time + ++อดีต++ = ถึงเวลาแล้วที่ควร
+-make|หลัง it's high time ใช้อดีต
+-will make|ไม่ใช้ will หลังสำนวนนี้
+-have made|ไม่ใช่รูปของสำนวนนี้
+!It's (high) time + ==อดีต== = ถึงเวลาที่ควรทำแล้ว
+
+G wish-unreal-past 3
+I'd rather my flatmate ____ his bike in the kitchen.
+=didn't leave|อยากให้คนอื่นไม่ทำ ++I'd rather + อดีต++
+-doesn't leave|หลัง I'd rather + คน ใช้อดีต
+-not leave|ขาดกริยาช่วย
+-won't leave|ไม่ใช้ will หลังสำนวนนี้
+!I'd rather + someone + ==อดีต== = อยากให้...
+
+G modal-perfect 2
+The roads are wet. It ____ during the night.
+=must have rained|แน่ใจว่าเกิดไปแล้ว ++must have + V3++
+-must rain|ต้องพูดถึงอดีต
+-should rain|ความหมายไม่ตรง
+-can have rained|ไม่ใช้ can have ในประโยคบอกเล่า
+!สรุปจากหลักฐาน (อดีต) ==must have + V3==
+
+G modal-perfect 2
+You ____ the receipt. Now we can't return the broken fan.
+=should have kept|ควรทำแต่ไม่ได้ทำ ++should have + V3++
+-must have kept|must have = แน่ใจว่าทำ ไม่ตรง
+-should keep|ต้องพูดถึงอดีต
+-would keep|ความหมายไม่ตรง
+!ควรทำแต่ไม่ได้ทำ ==should have + V3==
+
+G modal-perfect 3
+She ____ the email. I sent it to the wrong address.
+=can't have received|แน่ใจว่าไม่ได้เกิด ++can't have + V3++
+-mustn't have received|ไม่ใช้ mustn't สรุปแบบนี้
+-shouldn't receive|ความหมายไม่ตรง
+-couldn't receive it|ซ้ำ it กับ the email
+!แน่ใจว่าไม่ได้เกิดขึ้น ==can't / couldn't have + V3==
+
+G modal-perfect 3
+He's late. He ____ the bus, or maybe the traffic is bad.
+=might have missed|อาจจะเกิดไปแล้ว ++might have + V3++
+-must have missed|มีความเป็นไปได้อื่น จึงไม่แน่ใจ
+-might miss|ต้องพูดถึงอดีต
+-should have missed|ความหมายไม่ตรง
+!ไม่แน่ใจเรื่องอดีต ==might / may / could have + V3==
+
+G modal-perfect 3
+You ____ bought a gift. It's very kind, but it wasn't necessary.
+=needn't have|ทำไปแล้วแต่ไม่จำเป็น ++needn't have + V3++
+-mustn't have|ไม่ใช้ในความหมายนี้
+-didn't need|didn't need ต้องมี to buy
+-shouldn't|shouldn't bought ผิดรูป
+!==needn't have + V3== = ไม่จำเป็นต้องทำ (แต่ทำไปแล้ว)
+
+V interpretation 2
+____, the restaurant has closed. There's a sign on the door.
+=Apparently|ดูเหมือนว่า (จากที่ได้ยิน/เห็น) = ++apparently++
+-Genuine|genuine เป็นคุณศัพท์
+-Subtle|subtle เป็นคุณศัพท์
+-Assumption|assumption เป็นคำนาม
+!Apparently = ==ได้ยินมาว่า ดูเหมือนว่า==
+
+V interpretation 2
+The clinic has built a strong ____ for treating sports injuries.
+=reputation|ชื่อเสียง = ++reputation for++
+-assumption|assumption คือข้อสันนิษฐาน
+-tension|tension คือความตึงเครียด
+-conflict|conflict คือความขัดแย้ง
+!have a good reputation ==for== = มีชื่อเสียงด้าน
+
+V interpretation 3
+Are you saying that I made the mistake? What are you trying to ____?
+=imply|พูดเป็นนัย = ++imply++
+-speculate|speculate คือคาดเดา
+-perceive|perceive คือรับรู้
+-interpret|ไม่ตรงความหมาย
+!imply = ==บอกเป็นนัย ไม่พูดตรง ๆ==
+
+V interpretation 3
+There is a lot of ____ between the two teams since the manager left.
+=tension|ความตึงเครียด = ++tension between++
+-reputation|reputation คือชื่อเสียง
+-bias|bias คืออคติ
+-assumption|assumption คือข้อสันนิษฐาน
+!tension between A and B = ==ความตึงเครียดระหว่าง==
+
+V interpretation 3
+The report was criticised for its ____ against small companies.
+=bias|อคติ = ++bias against++
+-tension|ไม่ตรงความหมาย
+-genuine|genuine เป็นคุณศัพท์
+-subtle|subtle เป็นคุณศัพท์
+!bias against = ==อคติต่อ==
+
+V interpretation 3
+Is this a ____ designer bag, or is it a copy?
+=genuine|ของแท้ = ++genuine++
+-subtle|subtle คือแฝง ละเอียดอ่อน
+-apparent|ไม่ตรงความหมาย
+-biased|biased คือมีอคติ
+!genuine = ==แท้ จริงใจ==
+
+R letter-to-editor 2|Letter to the Editor: Bus Lanes Are Not the Problem
+Dear Editor,
+
+Your article last week suggested that the new bus lanes on Charoen Road have made traffic worse. I disagree. The article implied that drivers are the only people who use the road, but more than 3,000 people take the bus along that route every day.
+
+Apparently, many drivers assume the bus lanes are empty most of the time. In fact, buses run every six minutes at rush hour. I take the number 18 to work, and my journey has become fifteen minutes shorter since the lanes opened.
+
+I accept that the changes should have been explained better before they began. But I hope your newspaper will speak to bus passengers before writing about this again.
+
+Somjit P.
+Q Why is Somjit writing?
+=she disagrees with an article|Your article ... I disagree
+-she wants new bus routes|ไม่ได้ขอเส้นทางใหม่
+-she is complaining about a bus driver|ไม่ได้ร้องเรียนคนขับ
+-she wants the lanes removed|เธอสนับสนุนช่องทางรถเมล์
+Q What does Somjit say about her own journey?
+=it is shorter than before|my journey has become fifteen minutes shorter
+-it takes six minutes|หกนาทีคือความถี่ของรถเมล์
+-she now drives to work|เธอนั่งรถเมล์สาย 18
+-it is unchanged|ใช้เวลาลดลงสิบห้านาที
+Q What does Somjit agree with?
+=the plan was poorly explained|the changes should have been explained better
+-traffic has become worse|เธอไม่เห็นด้วย
+-the lanes are often empty|เธอบอกว่าเป็นความเข้าใจผิด
+-drivers are the main road users|เธอบอกว่าผู้โดยสารรถเมล์ก็ใช้ถนน
+
+L speculation 2
+Woman: The office light is still on. Do you think Wichai forgot to switch it off?
+Man: He can't have. He left at three. It must have been the cleaner.
+Q Who does the man think left the light on?
+=the cleaner|It must have been the cleaner
+-Wichai|เขาบอกว่าไม่ใช่ เพราะวิชัยกลับตั้งแต่บ่ายสาม
+-the woman|ไม่ได้บอกว่าเป็นผู้หญิง
+-the manager|ไม่ได้พูดถึงผู้จัดการ
+
+L speculation 2
+Man: I wish I'd brought my umbrella. The forecast said it would be sunny all day.
+Q What is the man's situation?
+=he is getting wet in the rain|wish I'd brought my umbrella
+-he lost his umbrella|ไม่ได้พูดว่าทำหาย
+-the forecast was correct|พยากรณ์ผิด ฝนตก
+-he is carrying an umbrella|เขาไม่ได้นำร่มมา

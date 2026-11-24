@@ -1,0 +1,157 @@
+G collocation-precision 2
+The new law has ____ fierce opposition from small businesses.
+=met with|คำคู่ ++meet with opposition++
+-got with|ไม่ใช่คำคู่
+-faced to|face ไม่ตามด้วย to
+-come with|ความหมายไม่ตรง
+!==meet with opposition / criticism== = เจอการคัดค้าน
+
+G collocation-precision 2
+The minister ____ responsibility for the failure and resigned.
+=accepted|คำคู่ ++accept responsibility++
+-received|receive responsibility ไม่ใช่คำคู่
+-admitted to|ความหมายใกล้แต่คำคู่ไม่ตรง
+-got|get responsibility ไม่ค่อยใช้
+!==accept / take / assume responsibility==
+
+G collocation-precision 3
+Her research has ____ new light on the causes of the disease.
+=shed|คำคู่ ++shed light on++
+-thrown on|มี on ซ้ำ
+-made|make light ความหมายต่าง
+-given|ไม่ใช่คำคู่
+!==shed / throw light on== = ช่วยให้เข้าใจ
+
+G collocation-precision 3
+The company has ____ a heavy price for ignoring its customers.
+=paid|คำคู่ ++pay a heavy price++
+-given|ไม่ใช่คำคู่
+-spent|spend ไม่ใช้กับ price แบบนี้
+-cost|รูปผิด จึงใช้ไม่ได้
+!==pay a heavy price for== = ได้รับผลเสียหนัก
+
+G collocation-precision 3
+The proposal ____ broad support among members.
+=commanded|คำคู่ ++command support++
+-ordered|ไม่ใช่คำคู่
+-demanded|ความหมายไม่ตรง
+-took|ไม่ใช่คำคู่
+!==command support / respect== = ได้รับการสนับสนุน
+
+G phrasal-prepositional-idioms 2
+We need to ____ for lost time if we want to finish by June.
+=make up|ชดเชย ++make up for++
+-catch up|catch up ไม่ตามด้วย for แบบนี้
+-take up|take up คือเริ่มทำ
+-put up|put up for ความหมายต่าง
+!==make up for== = ชดเชย
+
+G phrasal-prepositional-idioms 3
+The success of the project ____ on the support of local leaders.
+=hinges|ขึ้นอยู่กับ ++hinge on++
+-leans|lean on ความหมายต่าง
+-counts|count on ประธานต้องเป็นคน
+-falls|ไม่ใช่สำนวน
+!==hinge on / upon== = ขึ้นอยู่กับโดยตรง
+
+G phrasal-prepositional-idioms 3
+The two departments are ____ odds over the new budget.
+=at|สำนวน ++at odds over++
+-in|ไม่ใช่สำนวน
+-on|ไม่ใช่สำนวน
+-by|ไม่ใช่สำนวน
+!==be at odds (with/over)== = ขัดแย้งกัน
+
+G phrasal-prepositional-idioms 3
+The new evidence ____ to the theory that the fire was deliberate.
+=lends weight|ช่วยเสริมให้หนักแน่น ++lend weight to++
+-gives a weight|ไม่ใช่สำนวน
+-puts weight|put weight on ความหมายต่าง
+-carries weight|carry weight ไม่ตามด้วย to
+!==lend weight to== = ทำให้น่าเชื่อขึ้น
+
+V formal-verbs 2
+Parents ____ a strong influence on children's reading habits.
+=exert|ใช้แรง/อิทธิพล = ++exert influence++
+-wield|wield ใช้กับอำนาจ
+-incur|incur ใช้กับค่าใช้จ่าย
+-reap|reap ใช้กับผลตอบแทน
+!exert influence / pressure = ==ใช้อิทธิพล==
+
+V formal-verbs 2
+Late payments will ____ a fee of 200 baht.
+=incur|ทำให้เกิด (ค่าใช้จ่าย) = ++incur a fee++
+-levy|ประธานต้องเป็นผู้เก็บ
+-garner|garner คือรวบรวม (การสนับสนุน)
+-confer|confer คือมอบ
+!incur a cost / fee = ==ทำให้ต้องเสียค่า==
+
+V formal-verbs 3
+The campaign ____ thousands of signatures in a single week.
+=garnered|รวบรวมได้ = ++garner support++
+-incurred|incur ใช้กับค่าใช้จ่าย
+-levied|levy ใช้กับภาษี
+-bestowed|bestow คือมอบให้
+!garner = ==รวบรวมได้ (การสนับสนุน)==
+
+V formal-verbs 3
+Farmers who invested in irrigation are now ____ the benefits.
+=reaping|ได้รับผล = ++reap the benefits++
+-harbouring|harbour คือเก็บไว้ในใจ
+-wielding|wield ใช้กับอำนาจ
+-levying|levy ใช้กับภาษี
+!reap the benefits = ==เก็บเกี่ยวผลประโยชน์==
+
+V formal-verbs 3
+The university ____ an honorary degree on the retired teacher.
+=conferred|มอบให้ (ทางการ) = ++confer ... on++
+-exerted|exert ใช้กับแรง
+-incurred|incur ใช้กับค่าใช้จ่าย
+-espoused|espouse คือยึดถือแนวคิด
+!confer a degree ==on== someone = มอบปริญญา
+
+V formal-verbs 3
+The new programme aims to ____ a love of reading in young children.
+=instil|ปลูกฝัง = ++instil ... in++
+-incur|ไม่ตรงความหมาย
+-redress|redress คือแก้ไขความไม่เป็นธรรม
+-levy|ไม่ตรงความหมาย
+!instil = ==ปลูกฝังทีละน้อย==
+
+R annual-report 2|Annual Report Summary (Fictional): Bright Futures Reading Foundation
+This year, the Foundation garnered support from over 300 new donors, allowing us to open twelve community libraries in the north-east. Each library is run by trained local volunteers, who are now reaping the benefits of the reading workshops we began two years ago.
+
+We also faced challenges. Rising transport costs meant that we incurred higher expenses than planned, chiefly in delivering books to remote villages. To redress this, we have begun working with local schools to share delivery routes.
+
+Looking ahead, our priority is to instil reading habits early. We will therefore focus on children aged three to six, who, research suggests, benefit most from regular story time.
+Q What allowed the Foundation to open new libraries?
+=support from new donors|garnered support from over 300 new donors
+-a government grant for rural education programmes|ในบทไม่ได้พูดถึง
+-selling books|ในบทไม่ได้พูดถึง
+-closing older libraries|ในบทไม่ได้พูดถึง
+Q Why were expenses higher than planned?
+=transport costs rose|Rising transport costs
+-more volunteers were paid|อาสาสมัครไม่ได้รับเงิน
+-books became more expensive to print and to buy|ในบทไม่ได้พูดเช่นนั้น
+-libraries needed repairs|ในบทไม่ได้พูดถึง
+Q What is the Foundation's next focus?
+=very young children|children aged three to six
+-teenagers|ในบทไม่ได้พูดถึง
+-adult literacy classes in the evenings|ในบทไม่ได้พูดถึง
+-school teachers|โรงเรียนเป็นพันธมิตรด้านการขนส่ง
+
+L in-depth-interview 2
+Woman: I've always espoused the view that teachers learn as much from students as students do from teachers.
+Q What view does the woman hold?
+=learning goes both ways|teachers learn as much from students as students do from teachers
+-students should teach classes|ในบทไม่ได้พูดเช่นนั้น
+-teachers know everything|ความหมายกลับกัน
+-students learn best when they are completely alone|ในบทไม่ได้พูดถึง
+
+L formal-verbs 2
+Man: The new tax was levied on luxury cars only, so most families won't notice any difference.
+Q Who will pay the new tax?
+=buyers of luxury cars|levied on luxury cars only
+-all families|ส่วนใหญ่จะไม่รู้สึกถึงความต่าง
+-car factories|ในบทไม่ได้พูดถึง
+-people who use public transport every day|ในบทไม่ได้พูดถึง

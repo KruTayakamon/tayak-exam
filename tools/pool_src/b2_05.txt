@@ -1,0 +1,158 @@
+G third-conditional 2
+If we ____ the map more carefully, we wouldn't have got lost.
+=had read|เงื่อนไขในอดีตที่ไม่จริง ++If + had + V3++
+-read|ต้องใช้ had + V3 กับอดีตที่ไม่เกิด
+-would have read|หลัง if ไม่ใช้ would
+-have read|ขาด had จึงใช้ไม่ได้
+!If + ==had + V3==, would have + V3
+
+G third-conditional 2
+She ____ the job if she had arrived on time for the interview.
+=might have got|ผลในอดีตที่ไม่เกิด ++might have + V3++
+-might get|ต้องเป็นอดีตสมมติ
+-had got|ประโยคผลต้องมี would/might have
+-will have got|ไม่ใช้ will กับอดีตสมมติ
+!ผลในอดีตที่ไม่เกิดจริง ==would / might / could have + V3==
+
+G third-conditional 3
+I wouldn't have known about the sale if you ____ me.
+=hadn't told|ถ้าไม่ได้บอก (แต่บอกแล้ว) ++hadn't + V3++
+-didn't tell|ต้องถอยเป็น had + V3
+-wouldn't tell|หลัง if ไม่ใช้ would
+-haven't told|ไม่ใช่รูปของเงื่อนไขแบบที่ 3
+!If + ==hadn't + V3== = ถ้าไม่ได้...
+
+G third-conditional 3
+If the alarm ____, the fire would have spread to the whole building.
+=hadn't gone off|ถ้าสัญญาณไม่ดัง (แต่ดังแล้ว) ++hadn't + V3++
+-didn't go off|ต้องถอยเป็น had + V3
+-hasn't gone off|ไม่ใช่รูปเงื่อนไขแบบที่ 3
+-wouldn't go off|หลัง if ไม่ใช้ would
+!If + had(n't) + V3, ==would have + V3==
+
+G mixed-conditionals-alternatives 2
+If I had studied nursing, I ____ in a hospital now.
+=would be working|อดีตสมมติ ผลถึงปัจจุบัน ++would + V1/be -ing++
+-would have worked|มี now ต้องเป็นผลตอนนี้
+-will be working|เงื่อนไขสมมติไม่ใช้ will
+-had worked|ประโยคผลต้องมี would
+!เงื่อนไขผสม: If + had V3, ==would + V1 (now)==
+
+G mixed-conditionals-alternatives 3
+____ you need any help, please call the front desk.
+=Should|แทน If you should ++Should + ประธาน++
+-Would|ไม่ใช้ would แทน if
+-Had|had ใช้กับอดีตสมมติ
+-Were|were ต้องตามด้วย to หรือคุณศัพท์
+!==Should you + V1== = If you need (สุภาพ ทางการ)
+
+G mixed-conditionals-alternatives 3
+The landlord says we can keep a cat ____ it stays inside the flat.
+=provided|ตราบใดที่ ++provided (that)++
+-unless|ความหมายกลับกัน
+-in case|in case แปลว่าเผื่อไว้
+-otherwise|otherwise ไม่เชื่อมแบบนี้
+!==provided / as long as== = ตราบใดที่ (มีเงื่อนไข)
+
+G mixed-conditionals-alternatives 3
+Take a jacket ____ it gets cold in the evening.
+=in case|เผื่อไว้ ++in case++
+-unless|ความหมายไม่ตรง
+-provided|provided คือมีเงื่อนไขว่า
+-if not|ไม่ใช่สำนวนที่ใช้ตรงนี้
+!in case = ==เผื่อว่า== (ทำไว้ก่อน)
+
+G mixed-conditionals-alternatives 3
+____ your advice, I would have bought a fake watch.
+=But for|ถ้าไม่มี ++But for + คำนาม++
+-Unless|unless ต้องตามด้วยประโยค
+-Without of|ไม่มี of หลัง without
+-Except|ความหมายไม่ตรง
+!==But for / Without + คำนาม== = ถ้าไม่มี...
+
+V decisions 2
+I ____ not taking the job in Singapore. It was a great opportunity.
+=regret|เสียใจที่ไม่ได้ทำ = ++regret + -ing++
+-justify|justify คืออ้างเหตุผล
+-abandon|abandon คือทิ้ง
+-decline|decline ไม่ตามด้วย -ing แบบนี้
+!regret + ==-ing== = เสียใจที่ (ได้/ไม่ได้) ทำ
+
+V decisions 2
+After a long discussion, both sides agreed to a ____.
+=compromise|การประนีประนอม = ++reach a compromise++
+-dilemma|dilemma คือทางเลือกที่ลำบาก
+-sacrifice|sacrifice คือการเสียสละ
+-reasonable|reasonable เป็นคุณศัพท์
+!compromise = ==ต่างฝ่ายยอมกันคนละนิด==
+
+V decisions 3
+She faced a ____: accept a better salary or stay near her family.
+=dilemma|ต้องเลือกระหว่างสองทางที่ยาก = ++dilemma++
+-compromise|compromise คือการยอมกันคนละนิด
+-regret|regret คือความเสียใจ
+-inevitable|inevitable เป็นคุณศัพท์
+!face a dilemma = ==ต้องเลือกในสถานการณ์ยาก==
+
+V decisions 3
+With so many cars on the road, traffic jams are ____ at rush hour.
+=inevitable|เลี่ยงไม่ได้ = ++inevitable++
+-reasonable|reasonable คือสมเหตุสมผล
+-obvious|ไม่ตรงความหมาย
+-justify|justify เป็นกริยา
+!inevitable = ==หลีกเลี่ยงไม่ได้==
+
+V decisions 3
+Can you ____ spending so much money on a new logo?
+=justify|ให้เหตุผลรองรับ = ++justify++
+-convince|convince ต้องมีคนเป็นกรรม
+-neglect|neglect คือละเลย
+-decline|decline คือปฏิเสธ/ลดลง
+!justify = ==อธิบายเหตุผลว่าทำไมสมควร==
+
+V decisions 3
+Bad weather forced the climbers to ____ their attempt to reach the top.
+=abandon|ล้มเลิกกลางทาง = ++abandon++
+-neglect|neglect คือละเลย ไม่ใส่ใจ
+-sacrifice|ไม่ตรงความหมาย
+-compromise|ไม่ตรงความหมาย
+!abandon a plan = ==ล้มเลิกแผน==
+
+R reflection-article 2|What Our Failed Market Taught Us
+Two years ago, our community group opened a Sunday night market in the village square. We expected large crowds, but after four months we had to close it.
+
+Looking back, the problems were obvious. We chose Sunday night because it was convenient for us, but most visitors had to work early on Monday. We also neglected advertising, believing that people would simply hear about it. If we had asked local people what they wanted, we would have chosen a different day.
+
+We don't regret trying. The experience taught us to listen before planning. This year we reopened the market on Saturday afternoons after a survey of 300 residents, and it has been busy every week.
+Q Why did the Sunday market fail?
+=it was a bad day for visitors|most visitors had to work early on Monday
+-the square was too small|ไม่ได้พูดถึงขนาดลาน
+-the prices were too high|ไม่ได้พูดถึงราคา
+-it rained most Sundays|ไม่ได้พูดถึงฝน
+Q What does the writer say they should have done?
+=asked residents first|If we had asked local people ... different day
+-opened in a bigger town|ไม่ได้พูดถึงเมืองอื่น
+-charged less money|ไม่ได้พูดถึงค่าเช่า
+-closed it sooner|ไม่ได้บอกว่าควรปิดเร็วกว่านี้
+Q How do they feel about the experience now?
+=they think it was useful|We don't regret trying. The experience taught us
+-they are embarrassed|ไม่ได้พูดว่าอาย
+-they wish they hadn't tried|ผู้เขียนบอกว่าไม่เสียใจ
+-they are still disappointed|ไม่ได้พูดว่ายังผิดหวัง
+
+L reflection-discussion 2
+Woman: Do you think we should have hired more staff for the festival?
+Man: Definitely. If we'd had two more people, we wouldn't have run out of time to clean up.
+Q What happened at the festival?
+=they didn't have time to clean up|we wouldn't have run out of time to clean up
+-they hired too many staff|เขาบอกว่าคนไม่พอ
+-the festival was cancelled|ไม่ได้ยกเลิก
+-they finished cleaning early|ความหมายกลับกัน
+
+L decisions 2
+Man: I declined the offer to move to head office. It would have meant a higher salary, but I'd have spent three hours a day travelling.
+Q Why did the man say no?
+=the journey would be too long|three hours a day travelling
+-the salary was too low|เงินเดือนจะสูงขึ้น
+-he didn't like the manager|ไม่ได้พูดถึงผู้จัดการ
+-he wants to change jobs|ไม่ได้พูดถึงการเปลี่ยนงาน

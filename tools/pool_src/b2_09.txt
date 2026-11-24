@@ -1,0 +1,158 @@
+G linkers-concession-contrast 2
+____ being the youngest in the team, Nok was chosen to lead the project.
+=Despite|ตามด้วย -ing ใช้ ++despite++
+-Although|although ต้องตามด้วยประโยคเต็ม
+-Even though|even though ต้องตามด้วยประโยคเต็ม
+-However|however ไม่เชื่อมแบบนี้
+!==despite / in spite of + -ing / คำนาม==
+
+G linkers-concession-contrast 2
+Some staff prefer working from home, ____ others miss the office.
+=whereas|เปรียบความต่างสองกลุ่ม ++whereas++
+-despite|despite ไม่ตามด้วยประโยค
+-moreover|moreover คือยิ่งไปกว่านั้น
+-therefore|therefore บอกผล
+!==whereas / while== = ในขณะที่ (เทียบความต่าง)
+
+G linkers-concession-contrast 3
+The flat is small and rather noisy. ____, I love living there.
+=Nevertheless|ถึงอย่างนั้น ++Nevertheless++
+-Moreover|moreover เพิ่มข้อมูลในทางเดียวกัน
+-Consequently|consequently บอกผล
+-Whereas|whereas ไม่ขึ้นต้นประโยคแบบนี้
+!==Nevertheless / However== + , = อย่างไรก็ตาม
+
+G linkers-concession-contrast 3
+____ carefully she checks her work, her boss always finds something to change.
+=However|ไม่ว่าจะ...แค่ไหน ++However + คุณศัพท์/คำวิเศษณ์++
+-Although|although ไม่ตามด้วย carefully she checks
+-Despite|despite ไม่ตามด้วยประโยค
+-Even|even ไม่ใช้แบบนี้
+!==However + adj/adv + ประธาน + กริยา== = ไม่ว่าจะ...แค่ไหน
+
+G linkers-addition-result-purpose 2
+The new bus route is cheaper. ____, it is much faster.
+=Moreover|เพิ่มข้อดีในทางเดียวกัน ++Moreover++
+-Nevertheless|nevertheless บอกความขัดแย้ง
+-Whereas|whereas ไม่ขึ้นต้นประโยคแบบนี้
+-As a consequence of this|ไม่ใช่ผลของการถูกกว่า
+!==Moreover / Furthermore== = ยิ่งไปกว่านั้น
+
+G linkers-addition-result-purpose 2
+The heavy rain flooded the main road. ____, many workers arrived late.
+=Consequently|ผลที่ตามมา ++Consequently++
+-What is more surprising|ไม่ได้บอกผล แต่เพิ่มข้อมูล
+-Whereas|whereas เปรียบความต่าง
+-Despite|despite ต้องตามด้วยคำนาม
+!==Consequently / As a result== = ผลก็คือ
+
+G linkers-addition-result-purpose 3
+We left early ____ avoid the traffic.
+=so as to|เพื่อ ++so as to + V1++
+-so that to|so that ต้องตามด้วยประโยค
+-in order|ต้องมี to ตามมา
+-for to|ไม่ใช้ for to ในภาษาอังกฤษปัจจุบัน
+!==in order to / so as to + V1== = เพื่อที่จะ
+
+G linkers-addition-result-purpose 3
+The project was poorly planned, ____ it went over budget.
+=and as a result|เชื่อมผล ++and as a result++
+-in addition to the delay|ไม่ได้บอกผล
+-whereas|เปรียบความต่าง ไม่ตรง
+-in order that|บอกจุดประสงค์ ไม่ตรง
+!..., ==and as a result== ... = จึงทำให้
+
+G linkers-addition-result-purpose 3
+____ to being cheaper, the new printer uses less ink.
+=In addition|เพิ่มเติม ++In addition to + -ing++
+-As well|ต้องเป็น as well as
+-Besides of|ไม่มี of หลัง besides
+-Moreover|moreover ไม่ตามด้วย to
+!==In addition to / Besides + -ing== = นอกจาก...แล้ว
+
+V argument 2
+The decision to close the hospital was very ____, and many people protested.
+=controversial|ก่อให้เกิดข้อถกเถียง = ++controversial++
+-beneficially|beneficially เป็นคำวิเศษณ์
+-relevant|relevant คือเกี่ยวข้อง
+-widespread|ไม่ตรงความหมาย
+!controversial = ==เป็นที่ถกเถียง==
+
+V argument 2
+From a parent's ____, the new school hours are very inconvenient.
+=perspective|มุมมอง = ++from a ... perspective++
+-aspect|aspect คือแง่มุมของเรื่อง
+-disadvantages|เป็นคำนามพหูพจน์ ไม่เข้ากับ a
+-arguably|arguably เป็นคำวิเศษณ์
+!from someone's perspective = ==จากมุมมองของ==
+
+V argument 3
+Regular exercise is ____ for both your body and your mood.
+=beneficial|มีประโยชน์ = ++beneficial for/to++
+-controversial|controversial คือเป็นที่ถกเถียง
+-arguably|arguably เป็นคำวิเศษณ์
+-relevant|ไม่ตรงความหมาย
+!beneficial = ==เป็นประโยชน์==
+
+V argument 3
+Is your previous job ____ to the position you are applying for?
+=relevant|เกี่ยวข้อง = ++relevant to++
+-beneficial|ไม่ตรงความหมาย
+-widespread|widespread คือแพร่หลาย
+-controversial|ไม่ตรงความหมาย
+!relevant ==to== = เกี่ยวข้องกับ
+
+V argument 3
+She is ____ the best singer the country has ever produced.
+=arguably|อาจกล่าวได้ว่า = ++arguably++
+-consequently|consequently คือผลที่ตามมา
+-nevertheless|nevertheless คืออย่างไรก็ตาม
+-whereas|whereas เป็นคำเชื่อม
+!arguably + ขั้นสุด = ==อาจพูดได้ว่า...ที่สุด==
+
+V argument 3
+There is ____ concern about rising food prices across the country.
+=widespread|แพร่หลายทั่วไป = ++widespread++
+-relevant|ไม่ตรงความหมาย
+-arguably|arguably เป็นคำวิเศษณ์
+-aspect|aspect เป็นคำนาม
+!widespread = ==แพร่หลาย เป็นวงกว้าง==
+
+R opinion-article 2|Should Homework Be Banned in Primary Schools?
+Some parents argue that homework puts too much pressure on young children. Families are busy, and children need time to play and rest. Moreover, studies suggest that homework has little effect on learning before the age of ten.
+
+On the other hand, many teachers believe that short tasks help children develop good habits. Reading for fifteen minutes at home, for example, can be beneficial, especially for children who don't have books at school. Banning homework completely might also send the message that learning only happens in the classroom.
+
+Perhaps the answer is not a ban but a limit. Short, optional activities that families can do together would arguably keep the benefits while reducing stress.
+Q What do some parents say about homework?
+=it is stressful for them|homework puts too much pressure on young children
+-it is too easy|ไม่ได้พูดว่าง่ายเกินไป
+-teachers don't check it|ไม่ได้พูดถึงเรื่องนี้
+-it gives children more time to rest|ความหมายกลับกัน
+Q Which kind of homework do teachers mention as useful?
+=short reading at home|Reading for fifteen minutes at home
+-long writing projects|ไม่ได้กล่าวถึง
+-family trips|ไม่ได้กล่าวถึง
+-online tests|ไม่ได้กล่าวถึง
+Q What does the writer suggest?
+=limiting homework|Perhaps the answer is not a ban but a limit
+-banning homework|ผู้เขียนบอกว่าไม่ควรห้าม
+-giving more homework|ไม่ได้เสนอเพิ่ม
+-letting teachers decide alone|ไม่ได้กล่าวถึง
+
+L debate 2
+Woman: Building the new mall will create jobs.
+Man: That's true. Nevertheless, it'll also mean more traffic, and the small shops in the old market may close.
+Q What is the man's view?
+=it has good and bad points|That's true. Nevertheless ...
+-the mall will not create any jobs|เขายอมรับว่าสร้างงานได้
+-the old market should close|เขากังวลว่าร้านเล็กจะปิด
+-traffic will improve|เขาบอกว่ารถจะติดขึ้น
+
+L argument 2
+Man: Online courses are cheaper, whereas classroom courses let you ask questions face to face.
+Q What advantage of classroom courses does the man mention?
+=face-to-face questions|let you ask questions face to face
+-they are cheaper|ราคาถูกเป็นข้อดีของคอร์สออนไลน์
+-they are shorter|ไม่ได้กล่าวถึง
+-they have better teachers|ไม่ได้กล่าวถึง

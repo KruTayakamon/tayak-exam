@@ -1,0 +1,162 @@
+G gerund-infinitive 1
+I enjoy ____ in the garden on Sunday mornings.
+=working|enjoy + ++-ing++
+-to work|enjoy ไม่ตามด้วย to + V
+-work|enjoy ไม่ตามด้วย V1
+-worked|ไม่ใช้รูปอดีตหลัง enjoy
+!enjoy, finish, mind, avoid ==+ -ing==
+
+G gerund-infinitive 1
+We've decided ____ a new printer for the office.
+=to buy|decide + ++to + V1++
+-buying|decide ไม่ตามด้วย -ing
+-buy|ต้องมี to หลัง decide
+-bought|ไม่ใช้อดีตหลัง decide
+!decide, want, hope, plan ==+ to + V1==
+
+G gerund-infinitive 2
+Would you mind ____ the window? It's cold in here.
+=closing|mind + ++-ing++
+-to close|mind ไม่ตามด้วย to + V
+-close|mind ไม่ตามด้วย V1
+-closed|ไม่ใช้อดีตหลัง mind
+!Would you mind + ==-ing==? = ช่วย...ได้ไหม
+
+G gerund-infinitive 2
+I'm looking forward to ____ you at the conference.
+=meeting|look forward to + ++-ing++ (to เป็นบุพบท)
+-meet|to ในวลีนี้ตามด้วย -ing
+-met|ไม่ใช้อดีต
+-be meeting|รูปผิด จึงใช้ไม่ได้
+!look forward ==to + -ing==
+
+G phrasal-verbs-polite-requests 1
+Could you ____ my cat while I'm on holiday?
+=look after|ดูแล = ++look after++
+-look for|look for คือค้นหา
+-give up|give up คือเลิก
+-put off|put off คือเลื่อน
+!look after = ==ดูแล==
+
+G phrasal-verbs-polite-requests 1
+We had to ____ the meeting until next week because the manager is ill.
+=put off|เลื่อนออกไป = ++put off++
+-set up|set up คือจัดตั้ง
+-look after|look after คือดูแล
+-give up|give up คือเลิก ล้มเลิก
+!put off = ==เลื่อนออกไป== (= postpone)
+
+G phrasal-verbs-polite-requests 2
+My father ____ smoking ten years ago, and he feels much healthier now.
+=gave up|เลิก = ++give up + -ing++
+-put off|put off คือเลื่อน
+-set up|set up คือจัดตั้ง
+-looked after|look after คือดูแล
+!give up ==+ -ing== = เลิกทำ
+
+G phrasal-verbs-polite-requests 2
+I was wondering if you ____ send me the price list.
+=could|ขออย่างสุภาพ ++I was wondering if you could++
+-can to|หลัง can ไม่มี to
+-will|ใช้ could ในรูปสุภาพนี้
+-should|should คือควร ไม่ใช่ขอ
+!I was wondering if you ==could== ... = สุภาพมาก
+
+G phrasal-verbs-polite-requests 2
+Would it be possible ____ the delivery to Thursday?
+=to change|it be possible + ++to + V1++
+-changing|หลัง possible ใช้ to + V1
+-change|ขาด to จึงใช้ไม่ได้
+-for change|ต้องเป็น for me to change
+!Would it be possible ==to + V1==?
+
+V email-work 1
+Please find the invoice ____ to this email.
+=attached|แนบมา = ++attached++
+-involved|involved คือเกี่ยวข้อง
+-supported|supported คือสนับสนุน
+-avoided|avoided คือหลีกเลี่ยง
+!Please find ... ==attached== = ตามไฟล์แนบ
+
+V email-work 1
+Try to ____ the main road in the morning. The traffic is terrible.
+=avoid|หลีกเลี่ยง = ++avoid++
+-attach|attach คือแนบ
+-solve|solve คือแก้ปัญหา
+-involve|involve คือเกี่ยวข้อง
+!avoid + ==คำนาม / -ing==
+
+V email-work 2
+The new project will ____ working with three other companies.
+=involve|เกี่ยวข้อง มีส่วน = ++involve + -ing++
+-attach|attach คือแนบไฟล์
+-avoid|avoid ทำให้ความหมายกลับกัน
+-support|ไม่ตรงความหมาย
+!involve = ==ต้องทำ เกี่ยวข้องกับ==
+
+V email-work 2
+Thank you for your ____. We couldn't finish the project without your help.
+=support|การสนับสนุน = ++support++
+-effort|effort คือความพยายามของตัวเอง
+-solve|solve เป็นกริยา
+-avoid|avoid เป็นกริยา
+!Thank you for your ==support== = ขอบคุณที่สนับสนุน
+
+V email-work 2
+We are working hard to ____ the problem with your account.
+=solve|แก้ปัญหา = ++solve a problem++
+-attach|attach คือแนบ
+-involve|involve คือเกี่ยวข้อง
+-avoid|ไม่ตรงความหมาย
+!solve a problem = ==แก้ปัญหา==
+
+V email-work 2
+____, the item you ordered is out of stock. It will arrive next month.
+=Unfortunately|น่าเสียดาย = ++unfortunately++
+-Fortunately|fortunately คือโชคดี ไม่เข้ากับข่าวร้าย
+-Especially|especially คือโดยเฉพาะ
+-Effort|effort เป็นคำนาม
+!==Unfortunately== = น่าเสียดายที่ (ข่าวร้าย)
+
+R formal-email 2|Email from Sunshine Travel
+Dear Ms Wanida,
+
+Thank you for booking your trip to Krabi with us. Unfortunately, the hotel you chose is now fully booked on 12 and 13 April because of a large wedding.
+
+We would like to offer you two choices. You can stay at the Sea View Hotel, which is next door and has the same price, or you can put off your trip by one week and stay at your original hotel. If you choose the Sea View, we will give you a free dinner on your first night.
+
+Please reply by 5 March so that we can confirm your booking. We apologise for any problems this may cause.
+
+Best regards,
+Napa Somboon, Customer Service
+Q Why can't Ms Wanida stay at her hotel on 12–13 April?
+=it is full because of a wedding|fully booked ... because of a large wedding
+-it is closed for repairs|ไม่ได้พูดว่าปิดซ่อม
+-she booked the wrong dates|ไม่ได้บอกว่าเธอจองผิด
+-the price has increased|ไม่ได้พูดว่าราคาขึ้น
+Q What will she get if she chooses the Sea View Hotel?
+=a free dinner|we will give you a free dinner on your first night
+-a cheaper room|ราคาเท่ากัน
+-an extra night|ไม่ได้ให้คืนเพิ่ม
+-a free trip next year|ไม่ได้พูดถึงทริปฟรี
+Q What must she do by 5 March?
+=reply to the email|Please reply by 5 March
+-pay for the trip|ไม่ได้พูดถึงการจ่ายเงิน
+-call the hotel|ให้ตอบอีเมล ไม่ใช่โทรหาโรงแรม
+-go to the travel office|ไม่ได้บอกให้ไปที่สำนักงาน
+
+L formal-voicemail 2
+Woman: Hello, this is Siri from City Bank. We need one more document for your loan application. Could you send us a copy of your ID card by Friday?
+Q What does the man need to do?
+=send a copy of his ID card|Could you send us a copy of your ID card
+-visit the bank on Friday|ขอให้ส่งเอกสาร ไม่ใช่ไปธนาคาร
+-call Siri back today|ไม่ได้ขอให้โทรกลับ
+-pay back his loan|ยังเป็นขั้นสมัครกู้
+
+L asking-for-help 2
+Man: Excuse me, would you mind helping me with this box? It's too heavy for me to carry up the stairs.
+Q What does the man want?
+=help carrying a box|would you mind helping me with this box
+-directions to the stairs|ไม่ได้ถามทาง
+-someone to open the box|ไม่ได้ขอให้เปิดกล่อง
+-a smaller box|ไม่ได้ขอกล่องเล็กลง

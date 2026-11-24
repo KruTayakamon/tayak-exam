@@ -1,0 +1,157 @@
+G relative-clauses-advanced 2
+The two hotels, ____ were full, recommended a guesthouse nearby.
+=both of which|ขยายทั้งสองแห่ง ++both of which++
+-both of them|ทำให้เป็นสองประโยคเชื่อมด้วยจุลภาคไม่ได้
+-both which|ต้องมี of
+-which both of|ลำดับคำผิด
+!จำนวน + ==of which / of whom== ในประโยคขยายแบบมีจุลภาค
+
+G relative-clauses-advanced 2
+The colleague ____ I share an office has just had a baby.
+=with whom|บุพบท + ++whom++ (share with someone)
+-with who|หลังบุพบทใช้ whom
+-whom|ขาด with จึงไม่ครบความ
+-with which|which ใช้กับสิ่งของ
+!บุพบท + ==whom== (คน) / which (สิ่งของ)
+
+G relative-clauses-advanced 3
+He failed the exam, ____ surprised everyone.
+=which|ขยายทั้งประโยค ++, which++
+-that|that ไม่ใช้หลังจุลภาค
+-what|what ไม่ใช้ขยายประโยคก่อนหน้า
+-it|it ทำให้เป็นสองประโยคเชื่อมผิด
+!, ==which== ขยายทั้งประโยคข้างหน้า
+
+G relative-clauses-advanced 3
+This is the town ____ my grandmother grew up.
+=in which|บุพบท + which = ++where++
+-which|ขาด in จึงไม่ครบความ
+-in where|ไม่ใช้บุพบทหน้า where
+-that|that ต้องมี in ท้ายประโยค
+!==in which / where== = ที่ซึ่ง (สถานที่)
+
+G participle-clauses 2
+____ the whole report, the editor sent it back with only two comments.
+=Having read|ทำเสร็จก่อนอีกเรื่อง ++Having + V3++
+-Read|ไม่ชัดว่าเป็นผู้อ่านหรือถูกอ่าน
+-Being read|ความหมายเป็น passive
+-Having been read|บรรณาธิการเป็นผู้อ่าน ไม่ใช่ถูกอ่าน
+!==Having + V3== = หลังจากทำ...แล้ว
+
+G participle-clauses 2
+Most of the rice ____ in this region is sold abroad.
+=grown|ย่อ passive ++V3++ (= which is grown)
+-growing|ข้าวไม่ได้ปลูกเอง
+-grew|ไม่ใช่กริยาแท้ของประโยค
+-to grow|ความหมายไม่ตรง
+!คำนาม + ==V3== = ที่ถูก... (ย่อ which is + V3)
+
+G participle-clauses 3
+____ near the station, the hotel is popular with business travellers.
+=Located|ย่อ passive ++Located++ (= Because it is located)
+-Locating|โรงแรมไม่ได้เป็นผู้ระบุตำแหน่ง
+-It located|ทำให้เป็นสองประโยคเชื่อมผิด
+-To locate|ความหมายไม่ตรง
+!==Located / Situated== near ... = ตั้งอยู่ใกล้
+
+G participle-clauses 3
+People ____ in the area are advised to keep their windows closed.
+=living|ย่อ active ++-ing++ (= who live)
+-lived|ความหมายเป็น passive
+-live|ไม่ใช่กริยาแท้ของประโยค
+-to living|รูปผิด จึงใช้ไม่ได้
+!คำนาม + ==-ing== = ที่กำลัง/ที่... (ย่อ who + กริยา)
+
+G participle-clauses 3
+Not ____ what to say, he just smiled.
+=knowing|ย่อเหตุผล ปฏิเสธ ++Not + -ing++
+-known|ความหมายเป็น passive
+-to know|ไม่ใช่รูปย่อเหตุผล
+-knew|ไม่ใช่กริยาแท้ของประโยค
+!==Not + -ing== = เพราะไม่...
+
+V policies 2
+Wearing a seat belt is ____ for all passengers in the car.
+=compulsory|บังคับ = ++compulsory++
+-optional|optional คือเลือกได้
+-excluded|ไม่ตรงความหมาย
+-framework|framework เป็นคำนาม
+!compulsory = ==บังคับ== · optional = เลือกได้
+
+V policies 2
+Joining the evening sports club is ____. You don't have to do it.
+=optional|เลือกได้ = ++optional++
+-mandatory|mandatory คือบังคับ ตรงข้ามกับบริบท
+-compulsory|compulsory คือบังคับ
+-restrict|restrict เป็นกริยา
+!optional = ==ไม่บังคับ ทำหรือไม่ก็ได้==
+
+V policies 3
+Staff must follow a strict ____ when handling cash at the end of the day.
+=procedure|ขั้นตอน = ++procedure++
+-legislation|legislation คือกฎหมาย
+-curriculum|curriculum คือหลักสูตร
+-framework|ไม่ตรงความหมาย
+!procedure = ==ขั้นตอนการปฏิบัติ==
+
+V policies 3
+The city plans to ____ the number of cars allowed in the old town.
+=restrict|จำกัด = ++restrict++
+-enforce|enforce คือบังคับใช้กฎ
+-impose|impose ต้องมี on
+-exclude|exclude คือกันออกไป
+!restrict = ==จำกัด==
+
+V policies 3
+The police are responsible for ____ the new speed limits.
+=enforcing|บังคับใช้ = ++enforce the law++
+-restricting|ไม่ตรงความหมาย
+-imposing|impose ใช้ impose ... on
+-excluding|exclude คือกันออกไป
+!enforce rules = ==บังคับใช้กฎ==
+
+V policies 3
+The government has ____ a new tax on sugary drinks.
+=imposed|กำหนดบังคับ = ++impose a tax on++
+-enforced|enforce ใช้กับกฎที่มีอยู่
+-excluded|exclude คือกันออกไป
+-restricted|ไม่ตรงความหมาย
+!impose ... ==on== = กำหนด (ภาษี กฎ) ให้
+
+R policy-article 2|Explaining the (Fictional) Clean Air Policy
+From next year, the city of Riverdale will introduce a new Clean Air Policy. Under the policy, older trucks that produce high levels of smoke will be restricted from entering the city centre between 7 am and 7 pm.
+
+Public buses will be excluded from the rule until 2028, when the city expects to have replaced them with electric buses. Owners of small businesses can apply for a loan of up to 200,000 baht to update their vehicles.
+
+Critics argue that the policy will make deliveries more expensive. However, the city says air pollution in the centre has risen by 20 per cent in three years and that action is unavoidable. The rule will be enforced by cameras at twelve entry points.
+Q When can older trucks enter the city centre?
+=at night|restricted ... between 7 am and 7 pm
+-only on weekends|ไม่ได้พูดถึงวันหยุด
+-never|ห้ามเฉพาะช่วงกลางวัน
+-from 2028|2028 เกี่ยวกับรถเมล์
+Q What is true about public buses?
+=the rule won't apply to them until 2028|excluded from the rule until 2028
+-they are already electric|เมืองคาดว่าจะเปลี่ยนเป็นไฟฟ้าภายหลัง
+-they can't enter the centre|ไม่ได้ถูกห้าม
+-they need a loan|เงินกู้มีไว้ให้ธุรกิจขนาดเล็ก
+Q How will the rule be enforced?
+=with cameras|enforced by cameras at twelve entry points
+-by the police|ไม่ได้พูดถึงตำรวจ
+-by truck owners|ไม่ได้พูดถึง
+-with paper tickets|ไม่ได้พูดถึง
+
+L policy-talk 2
+Woman: The new leave policy means staff must request holidays at least two weeks in advance, except in emergencies.
+Q What does the new policy require?
+=asking for holidays two weeks before|request holidays at least two weeks in advance
+-taking holidays in emergencies only|ข้อยกเว้นคือกรณีฉุกเฉิน
+-taking two weeks off each year|ไม่ได้พูดถึงจำนวนวันลา
+-asking permission by phone|ไม่ได้พูดถึงโทรศัพท์
+
+L policy-talk 2
+Man: Having read the new rules, I think they're fair, although restricting the use of phones in meetings might be hard to enforce.
+Q What does the man think could be difficult?
+=making people follow the phone rule|might be hard to enforce
+-understanding the rules|เขาอ่านแล้วว่ายุติธรรม
+-reading the rules|เขาอ่านแล้ว
+-finding a meeting room|ไม่ได้พูดถึงห้องประชุม

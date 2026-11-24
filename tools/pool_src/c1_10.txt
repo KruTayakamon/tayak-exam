@@ -1,0 +1,157 @@
+G concessive-structures 2
+____ it may sound, the cheaper option actually lasts longer.
+=Strange as|ยอมรับก่อนแย้ง ++adj + as + it may sound++
+-As strange|ลำดับคำผิดสำหรับโครงสร้างนี้
+-Although strange|ไม่ตามด้วย it may sound แบบนี้
+-However strange as|มี as เกิน
+!==adj + as + ประธาน + may + V1== = แม้จะ...ก็ตาม
+
+G concessive-structures 2
+True, the hotel is expensive. ____, the service is outstanding.
+=That said|ยอมรับแล้วแย้ง ++That said++
+-As said|ไม่ใช่สำนวน
+-So said|ไม่ใช่สำนวน
+-Having said|ต้องเป็น having said that
+!==That said / Having said that== = ถึงอย่างนั้นก็ตาม
+
+G concessive-structures 3
+____ much we try, we can't please every customer.
+=However|ไม่ว่าจะ...แค่ไหน ++However much++
+-Although|although ไม่ตามด้วย much แบบนี้
+-Whatever|whatever ไม่ตามด้วย much
+-Even so|even so ไม่เชื่อมแบบนี้
+!==However + adj/adv/much== = ไม่ว่า...แค่ไหน
+
+G concessive-structures 3
+Admittedly, the plan has risks; ____, doing nothing is riskier.
+=even so|ยอมรับแล้วแย้ง ++even so++
+-even if|even if ต้องตามด้วยประโยค
+-so much|ไม่ใช่สำนวน
+-even though|ต้องตามด้วยประโยค
+!Admittedly ..., ==even so== ... = จริงอยู่...แต่ถึงอย่างนั้น
+
+G comparison-advanced 2
+The new phone is ____ as expensive as the old model.
+=twice|สองเท่า ++twice as + adj + as++
+-two times more|ไม่ใช้ร่วมกับ as ... as
+-double more|ไม่ใช่สำนวน
+-twice more|ไม่ใช้ร่วมกับ as ... as
+!==twice / three times as + adj + as==
+
+G comparison-advanced 3
+The ____ you start saving, the more you will have when you retire.
+=earlier|โครงสร้าง ++the + ขั้นกว่า, the + ขั้นกว่า++
+-earliest|ต้องเป็นขั้นกว่า
+-early|ต้องเป็นขั้นกว่า
+-more early|early ใช้ earlier
+!==The + ขั้นกว่า ..., the + ขั้นกว่า== = ยิ่ง...ยิ่ง
+
+G comparison-advanced 3
+This year's results are ____ better than last year's; the difference is tiny.
+=marginally|ดีกว่าเล็กน้อย ++marginally + ขั้นกว่า++
+-considerably|ขัดกับ the difference is tiny
+-far|far หมายถึงมาก
+-much|much หมายถึงมาก
+!==marginally / slightly== + ขั้นกว่า = ดีกว่าเล็กน้อย
+
+G comparison-advanced 3
+Nowhere ____ the change more visible than in the city centre.
+=is|Nowhere ขึ้นต้น ++สลับกริยา++
+-it is|ไม่สลับ และ it ซ้ำ
+-has|ไม่เข้ากับ more visible
+-does|does ไม่ตามด้วย the change more visible
+!==Nowhere + be + ประธาน + more...than== = ไม่มีที่ไหน...มากเท่า
+
+G comparison-advanced 3
+The second film was nowhere near ____ the first.
+=as good as|ห่างไกลมาก ++nowhere near as ... as++
+-so good than|รูปผิด จึงใช้ไม่ได้
+-better than|nowhere near ไม่ใช้กับขั้นกว่า
+-as good than|ต้องเป็น as ... as
+!==nowhere near as + adj + as== = ไม่ได้ใกล้เคียงเลย
+
+V evaluation-words 2
+The cost of the repair was ____: only a few baht.
+=negligible|น้อยจนไม่ต้องสนใจ = ++negligible++
+-detrimental|detrimental คือเป็นผลเสีย
+-volatile|volatile คือผันผวน
+-contentious|contentious คือเป็นที่ถกเถียง
+!negligible = ==น้อยมาก แทบไม่มีผล==
+
+V evaluation-words 2
+Too much screen time can be ____ to children's sleep.
+=detrimental|เป็นผลเสีย = ++detrimental to++
+-conducive|ความหมายกลับกัน
+-feasible|feasible คือเป็นไปได้
+-equitable|equitable คือเป็นธรรม
+!detrimental ==to== = เป็นอันตรายต่อ
+
+V evaluation-words 3
+Prices on the stock market have been very ____ this month.
+=volatile|ผันผวน = ++volatile++
+-tangible|tangible คือจับต้องได้
+-inclusive|inclusive คือครอบคลุมทุกคน
+-equitable|equitable คือเป็นธรรม
+!volatile = ==ผันผวนรวดเร็ว==
+
+V evaluation-words 3
+Is it ____ to finish the bridge by June, or is that unrealistic?
+=feasible|ทำได้จริง = ++feasible++
+-trivial|trivial คือเล็กน้อยไม่สำคัญ
+-negligible|ไม่ตรงความหมาย
+-precarious|precarious คือไม่มั่นคง
+!feasible = ==เป็นไปได้ ทำได้จริง==
+
+V evaluation-words 3
+Flexible working hours are ____ to a healthy family life.
+=conducive|เอื้อต่อ = ++conducive to++
+-detrimental|ความหมายกลับกัน
+-contentious|contentious คือเป็นที่ถกเถียง
+-volatile|volatile คือผันผวน
+!conducive ==to== = เอื้ออำนวยต่อ
+
+V evaluation-words 3
+After the storm, many families were living in ____ conditions.
+=precarious|ไม่มั่นคง เสี่ยง = ++precarious++
+-tangible|tangible คือจับต้องได้
+-feasible|feasible คือเป็นไปได้
+-trivial|trivial คือเล็กน้อย
+!precarious = ==ง่อนแง่น ไม่มั่นคง==
+
+R educational-equity 2|Small Schools, Big Questions
+Thailand has thousands of small rural schools, many with fewer than 120 students. Merging them into larger schools is often presented as an obvious solution: fewer buildings, more specialist teachers and better facilities.
+
+Yet the policy remains contentious. For families in remote areas, a merged school may be an hour away. Longer journeys can be detrimental to attendance, particularly for younger children and girls whose parents worry about safety. Small schools also often serve as community centres, and their closure can have effects that are less tangible but no less real.
+
+Some provinces are testing a middle path: keeping small schools open while sharing specialist teachers online and through rotating visits. Early results suggest this model is feasible, although it depends heavily on reliable internet access, which is far from universal.
+Q Why is merging schools often seen as attractive?
+=it brings more resources together|fewer buildings, more specialist teachers and better facilities
+-it shortens journeys|ความหมายกลับกัน
+-parents prefer it|ในบทไม่ได้พูดเช่นนั้น
+-it is required by law|ในบทไม่ได้พูดถึงกฎหมาย
+Q What concern about merging is mentioned?
+=lower attendance due to travel|Longer journeys can be detrimental to attendance
+-too many teachers|ในบทไม่ได้พูดเช่นนั้น
+-buildings being too large|ในบทไม่ได้พูดเช่นนั้น
+-higher internet costs|ในบทไม่ได้พูดถึง
+Q What limits the "middle path" model?
+=unreliable internet in some areas|depends heavily on reliable internet access, which is far from universal
+-a lack of buildings|ในบทไม่ได้พูดเช่นนั้น
+-parents' opposition to teachers|ในบทไม่ได้พูดถึง
+-its high cost|ในบทไม่ได้พูดถึงค่าใช้จ่าย
+
+L analytical-discussion 2
+Woman: Granted, the new tax is unpopular. Even so, without it, the hospital simply won't be built.
+Q What is the woman's position?
+=she supports the tax despite its unpopularity|Granted ... Even so
+-she opposes the tax|เธอสนับสนุน
+-she thinks the hospital isn't needed|ความหมายกลับกัน
+-she believes the tax is popular|เธอยอมรับว่าไม่เป็นที่นิยม
+
+L evaluation-words 2
+Man: The difference between the two plans is trivial; let's not waste another hour on it.
+Q What does the man want?
+=to stop discussing the minor difference|The difference ... is trivial; let's not waste another hour
+-to discuss the plans for another hour|ความหมายกลับกัน
+-to choose neither plan|ในบทไม่ได้พูดเช่นนั้น
+-to make a third plan|ในบทไม่ได้พูดถึง

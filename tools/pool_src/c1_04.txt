@@ -1,0 +1,157 @@
+G subjunctive-formal 2
+The committee recommends that every applicant ____ two references.
+=provide|subjunctive ++V1 ไม่เติม s++
+-provides|หลัง recommend that ทางการใช้ V1
+-will provide|ไม่ใช้ will ในโครงสร้างนี้
+-provided|ไม่ใช้อดีตในโครงสร้างนี้
+!recommend / insist / demand that + ประธาน + ==V1==
+
+G subjunctive-formal 2
+It is essential that the report ____ before the board meeting.
+=be submitted|subjunctive passive ++be + V3++
+-is submitted|ทางการหลัง essential that ใช้ be
+-will be submit|รูปผิด จึงใช้ไม่ได้
+-submitting|ไม่ใช่กริยาแท้
+!It is essential / vital that + ประธาน + ==(be) V1==
+
+G subjunctive-formal 3
+The doctor insisted that he ____ smoking immediately.
+=stop|subjunctive ++V1++
+-stops|หลัง insisted that ทางการใช้ V1
+-stopped|ไม่ถอยกาลในโครงสร้างนี้
+-to stop|ไม่มี to ในโครงสร้างนี้
+!insist that + ประธาน + ==V1== (ไม่ผัน)
+
+G subjunctive-formal 3
+She asked that her name ____ from the list.
+=be removed|subjunctive passive ++be + V3++
+-was removed|ทางการใช้ be แม้เป็นอดีต
+-removed|ขาด be จึงไม่เป็น passive
+-be remove|ต้องเป็น V3
+!ask/request that + ประธาน + ==be + V3==
+
+G nominalisation 2
+The ____ of the new road has reduced travel time considerably.
+=completion|คำนามจาก complete ++-ion++
+-complete|complete เป็นกริยา/คุณศัพท์
+-completing|หลัง the ... of ควรเป็นคำนามจริง
+-completely|completely เป็นคำวิเศษณ์
+!==the + คำนาม + of== = สำนวนทางการ
+
+G nominalisation 3
+There has been a sharp ____ in the number of applicants this year.
+=decline|คำนาม decline (ลดลง) ++a sharp decline++
+-declining|หลัง a sharp ต้องเป็นคำนาม
+-declined|ไม่ใช่คำนาม
+-decliner|ไม่มีคำนี้
+!a sharp ==rise / fall / decline== in
+
+G nominalisation 3
+Prompt ____ of invoices helps small suppliers.
+=payment|คำนามจาก pay ++-ment++
+-paying|ทางการมักใช้คำนาม payment
+-paid|ไม่ใช่คำนาม
+-payable|payable เป็นคุณศัพท์
+!prompt payment = ==การชำระเงินตรงเวลา==
+
+G nominalisation 3
+The ____ of the plan depends on support from local residents.
+=success|คำนาม ++success++
+-succeed|succeed เป็นกริยา
+-successful|successful เป็นคุณศัพท์
+-successfully|เป็นคำวิเศษณ์
+!succeed (v) · ==success (n)== · successful (adj)
+
+G nominalisation 3
+Their ____ to cooperate delayed the project by months.
+=refusal|คำนามจาก refuse ++-al++
+-refuse|refuse เป็นกริยา (ในที่นี้)
+-refusing|หลัง their ต้องเป็นคำนาม
+-refused|ไม่ใช่คำนาม
+!refuse → ==refusal== · arrive → arrival
+
+V formal-organisation 2
+The contract ____ that all work must be completed by 30 June.
+=stipulates|ระบุเป็นเงื่อนไข = ++stipulate that++
+-concedes|concede คือยอมรับ
+-relinquishes|relinquish คือสละ
+-entails|entail ไม่ตามด้วย that
+!stipulate that = ==กำหนดเป็นเงื่อนไขว่า==
+
+V formal-organisation 2
+Managers are ____ for the safety of their teams.
+=accountable|ต้องรับผิดชอบ = ++accountable for++
+-compliance|compliance เป็นคำนาม
+-discretion|discretion เป็นคำนาม
+-hierarchy|hierarchy เป็นคำนาม
+!be accountable ==for== = ต้องรับผิดชอบ
+
+V formal-organisation 3
+Refunds are given at the manager's ____.
+=discretion|ดุลยพินิจ = ++at someone's discretion++
+-compliance|compliance คือการปฏิบัติตาม
+-onus|onus คือภาระความรับผิดชอบ
+-caveat|caveat คือข้อแม้
+!at the manager's discretion = ==ขึ้นอยู่กับดุลยพินิจผู้จัดการ==
+
+V formal-organisation 3
+The ____ is on the applicant to prove their identity.
+=onus|ภาระหน้าที่ = ++the onus is on++
+-caveat|caveat คือข้อแม้
+-hierarchy|hierarchy คือลำดับชั้น
+-bureaucracy|bureaucracy คือระบบราชการ
+!the onus is on someone = ==เป็นภาระของ...==
+
+V formal-organisation 3
+The new role will ____ frequent travel to regional offices.
+=entail|ต้องมีเป็นส่วนหนึ่ง = ++entail++
+-stipulate|stipulate คือกำหนดเงื่อนไข
+-relinquish|relinquish คือสละ
+-concede|concede คือยอมรับ
+!entail = ==เกี่ยวข้อง ต้องมี (เป็นผลตามมา)==
+
+V formal-organisation 3
+After twenty years, he finally ____ control of the family business to his daughter.
+=relinquished|สละ = ++relinquish control++
+-conceded|concede ใช้กับข้อโต้แย้ง
+-entailed|entail คือต้องมี
+-stipulated|stipulate คือกำหนด
+!relinquish = ==สละ ยอมปล่อย (อำนาจ ตำแหน่ง)==
+
+R formal-regulation 2|Notice: Use of Personal Devices (Fictional Agency)
+With effect from 1 March, the following conditions apply to the use of personal devices at all branch offices.
+
+Staff may connect personal laptops to the guest network only. Connection to the internal network is prohibited unless written approval has been obtained from the IT department. Any device found to be connected without approval will be disconnected and the matter recorded.
+
+The onus is on each employee to ensure that their device has up-to-date security software. Notwithstanding the above, branch managers may, at their discretion, permit temporary access in an emergency, provided that the IT department is informed within 24 hours.
+Q Which network can staff use with their own laptops?
+=the guest network|connect personal laptops to the guest network only
+-the internal network|ห้ามเว้นแต่ได้รับอนุมัติ
+-any network after 1 March|มีข้อจำกัดตามประกาศ
+-none at all|ใช้เครือข่ายผู้มาเยือนได้
+Q Who is responsible for security software on personal devices?
+=the individual employee|The onus is on each employee
+-the IT department|ไอทีเป็นผู้อนุมัติ ไม่ได้รับผิดชอบซอฟต์แวร์ส่วนตัว
+-the branch manager|ผู้จัดการอนุญาตกรณีฉุกเฉินเท่านั้น
+-the security guard|ในบทไม่ได้พูดถึงเจ้าหน้าที่รักษาความปลอดภัย
+Q What must happen if a manager allows emergency access?
+=IT must be told within a day|provided that the IT department is informed within 24 hours
+-the device must be disconnected|เป็นกรณีที่ไม่ได้รับอนุมัติ
+-the employee must pay a fine|ในบทไม่ได้พูดถึงค่าปรับ
+-approval must be written first|กรณีฉุกเฉินแจ้งภายหลังได้
+
+L official-statement 2
+Woman: The company acknowledges that the delay was unacceptable and will be reviewing its procedures. Affected customers will receive a full refund.
+Q What will affected customers get?
+=their money back|will receive a full refund
+-a free product|ในบทไม่ได้พูดถึงสินค้าฟรี
+-an apology letter only|มีการคืนเงินด้วย
+-a discount on the next order|ในบทไม่ได้พูดถึงส่วนลด
+
+L official-statement 2
+Man: Notwithstanding the bad weather, the ceremony will proceed as scheduled, though guests are advised to bring umbrellas.
+Q What will happen to the ceremony?
+=it will go ahead as planned|the ceremony will proceed as scheduled
+-it will be postponed|จัดตามกำหนดเดิม
+-it will move indoors|ในบทไม่ได้พูดถึงการย้ายเข้าในอาคาร
+-it will be shortened|ในบทไม่ได้พูดถึงการย่นเวลา

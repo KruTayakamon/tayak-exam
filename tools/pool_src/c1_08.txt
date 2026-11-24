@@ -1,0 +1,157 @@
+G collocation-advanced 2
+The company has ____ a lot of criticism over its new pricing.
+=attracted|คำคู่ ++attract criticism++
+-made|make criticism ไม่ใช่คำคู่ที่ใช้
+-done|do criticism ไม่ใช่คำคู่
+-raised|raise criticism ไม่ค่อยใช้
+!==attract / draw / face criticism== = ถูกวิจารณ์
+
+G collocation-advanced 2
+We need to ____ a balance between cost and quality.
+=strike|คำคู่ ++strike a balance++
+-hit|hit a balance ไม่ใช่คำคู่
+-make|make a balance ไม่ใช่สำนวน
+-take|take a balance ไม่ใช่สำนวน
+!==strike a balance== = หาจุดสมดุล
+
+G collocation-advanced 3
+The new law will come into ____ on 1 January.
+=effect|สำนวน ++come into effect++
+-force on|มี on เกิน
+-action|come into action ความหมายไม่ตรง
+-power|come into power ใช้กับรัฐบาล
+!==come into effect / force== = มีผลบังคับใช้
+
+G collocation-advanced 3
+Her arguments ____ little weight with the committee.
+=carried|คำคู่ ++carry weight++
+-had|have weight ไม่ใช่คำคู่ในความหมายนี้
+-took|take weight ไม่ใช่สำนวน
+-made|make weight ไม่ใช่สำนวน
+!==carry weight== = มีน้ำหนัก (น่าเชื่อถือ)
+
+G collocation-advanced 3
+The decision was taken in ____ consultation with local residents.
+=close|คำคู่ ++close consultation++
+-near|near consultation ไม่ใช่คำคู่
+-tight|tight consultation ไม่ใช่คำคู่
+-heavy|heavy consultation ไม่ใช่คำคู่
+!in ==close consultation / cooperation== with
+
+G prepositions-phrasal-register 2
+The meeting has been ____ until further notice.
+=postponed|ทางการ ++postpone++ (= put off)
+-put away|put away คือเก็บ
+-called up|call up คือโทร/เรียกเกณฑ์
+-held on|hold on คือรอ
+!ทางการ ==postpone== · กลาง ๆ put off
+
+G prepositions-phrasal-register 3
+____ the survey results, customers prefer shorter opening hours. (formal)
+=According to|ทางการ ++According to++
+-Going by|ฟังเป็นกันเอง
+-As for|as for = ส่วน... ไม่ตรง
+-By the look of|ฟังเป็นกันเอง
+!ทางการ ==According to / In accordance with==
+
+G prepositions-phrasal-register 3
+The committee will ____ the complaint at its next meeting. (formal)
+=consider|ทางการ ++consider++ (= look into)
+-look over|ฟังเป็นกันเอง
+-go into it|มี it เกิน
+-check out|ฟังเป็นกันเองเกินไป
+!ทางการ ==consider / investigate== · กลาง ๆ look into
+
+G prepositions-phrasal-register 3
+Applicants must comply ____ all the conditions listed below.
+=with|คำคู่ ++comply with++
+-to|comply ไม่ใช้ to
+-by|comply ไม่ใช้ by
+-for|comply ไม่ใช้ for
+!==comply with== = ปฏิบัติตาม
+
+V reduce-obstruct 2
+Painkillers can ____ the symptoms, but they don't cure the illness.
+=alleviate|บรรเทา = ++alleviate++
+-thwart|thwart คือขัดขวางแผน
+-expedite|expedite คือเร่ง
+-circumvent|circumvent คือเลี่ยง
+!alleviate = ==บรรเทา (อาการ ความทุกข์)==
+
+V reduce-obstruct 2
+Heavy rain ____ the rescue efforts.
+=hampered|ขัดขวางให้ยาก = ++hamper++
+-ameliorated|ameliorate คือทำให้ดีขึ้น
+-expedited|expedite คือเร่ง
+-alleviated|ความหมายกลับกัน
+!hamper = ==ทำให้ติดขัด ยากขึ้น==
+
+V reduce-obstruct 3
+The police ____ the robbers' plan to escape across the border.
+=thwarted|ทำให้แผนล้ม = ++thwart a plan++
+-mitigated|mitigate คือลดความรุนแรง
+-alleviated|alleviate คือบรรเทา
+-expedited|expedite คือเร่ง
+!thwart = ==ขัดขวางจนแผนล้ม==
+
+V reduce-obstruct 3
+Some companies try to ____ the rules by hiring staff as freelancers.
+=circumvent|หาทางเลี่ยง = ++circumvent++
+-deter|deter คือยับยั้ง
+-curtail|curtail คือตัดลด
+-mitigate|ไม่ตรงความหมาย
+!circumvent = ==หาทางเลี่ยง (กฎ ปัญหา)==
+
+V reduce-obstruct 3
+Higher fines are meant to ____ people from dropping litter.
+=deter|ยับยั้ง = ++deter someone from++
+-curtail|curtail ไม่ตามด้วยคน + from
+-hamper|hamper ไม่ตามด้วย from แบบนี้
+-expedite|ความหมายกลับกัน
+!deter someone ==from + -ing== = ทำให้ไม่กล้า
+
+V reduce-obstruct 3
+Can we ____ the visa process? The conference starts next week.
+=expedite|เร่งรัด = ++expedite++
+-impede|ความหมายกลับกัน
+-curtail|curtail คือตัดลด
+-undermine|undermine คือบ่อนทำลาย
+!expedite = ==เร่งให้เร็วขึ้น==
+
+R policy-report 2|Summary: Reducing Road Deaths in Riverside Province (Fictional)
+Road accidents remain the leading cause of death among people aged 15 to 29 in the province. Most involve motorbikes, and in 70 per cent of cases the rider was not wearing a helmet.
+
+This report recommends three measures. First, stricter enforcement of helmet laws, which evidence from other provinces suggests can deter risky behaviour within months. Second, better street lighting on rural roads, where poor visibility hampers drivers at night. Third, free riding courses for new licence holders.
+
+The report acknowledges that enforcement alone cannot solve the problem. Unless young people see helmets as normal rather than inconvenient, fines may simply encourage riders to circumvent checkpoints by using smaller roads.
+Q What fact about accidents is highlighted?
+=most riders involved had no helmet|in 70 per cent of cases the rider was not wearing a helmet
+-most happen in the city centre|ในบทไม่ได้พูดเช่นนั้น
+-most involve trucks|ส่วนใหญ่เป็นรถจักรยานยนต์
+-most victims are over 50|กลุ่มหลักอายุ 15–29
+Q Why is better lighting recommended?
+=drivers can't see well at night on rural roads|poor visibility hampers drivers at night
+-it reduces crime|ในบทไม่ได้พูดถึงอาชญากรรม
+-it is cheaper than fines|ในบทไม่ได้เปรียบเทียบราคา
+-street lights make villages look more modern|ในบทไม่ได้พูดถึง
+Q What risk does the report mention about fines?
+=riders may avoid checkpoints|encourage riders to circumvent checkpoints by using smaller roads
+-fines are too expensive|ในบทไม่ได้พูดเช่นนั้น
+-police may refuse to collect them|ในบทไม่ได้พูดถึง
+-helmets will become more expensive|ในบทไม่ได้พูดถึง
+
+L expert-interview 2
+Woman: Planting trees along the river won't stop floods altogether, but it will certainly mitigate the damage.
+Q What does the woman say tree planting will do?
+=reduce the damage|it will certainly mitigate the damage
+-stop floods completely|เธอบอกว่าไม่หยุดทั้งหมด
+-make floods worse|ความหมายกลับกัน
+-have no effect|เธอบอกว่าช่วยลดความเสียหาย
+
+L reduce-obstruct 2
+Man: The new road was meant to expedite deliveries, but the constant roadworks have impeded progress.
+Q What has happened?
+=progress has slowed|the constant roadworks have impeded progress
+-deliveries are faster|ความหมายกลับกัน
+-the road is finished|ยังมีงานก่อสร้าง
+-deliveries have stopped|ช้าลง ไม่ได้หยุด

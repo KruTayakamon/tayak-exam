@@ -1,0 +1,158 @@
+G past-simple-vs-continuous 1
+I ____ dinner when the lights suddenly went out.
+=was cooking|เหตุการณ์ยาวที่ถูกขัด ใช้ ++was + -ing++
+-cooked|ทำอาหารเสร็จแล้วไฟดับ ความหมายไม่ตรง
+-am cooking|เรื่องในอดีต ใช้ am ไม่ได้
+-were cooking|I ใช้ was ไม่ใช่ were
+!เรื่องยาว ==was/were + -ing== ถูกขัดด้วยเรื่องสั้น (past simple)
+
+G past-simple-vs-continuous 1
+While we were waiting for the bus, it ____ to rain.
+=started|เหตุการณ์สั้นที่แทรกเข้ามา ใช้ ++past simple++
+-was starting|การเริ่มเป็นจุดเดียว ไม่ใช่ช่วงยาว
+-starts|เล่าเรื่องในอดีต ใช้รูปปัจจุบันไม่ได้
+-has started|มี while + อดีตแล้ว ไม่ใช้ has
+!while + ช่วงยาว · ==เรื่องสั้นที่แทรก = past simple==
+
+G past-simple-vs-continuous 2
+At ten o'clock last night, my children ____ their homework at the kitchen table.
+=were doing|กำลังทำอยู่ ณ เวลานั้น ++were + -ing++
+-did|did บอกว่าทำเสร็จ ไม่ใช่กำลังทำ
+-was doing|children เป็นพหูพจน์ ใช้ were
+-are doing|เมื่อคืนเป็นอดีต ใช้ are ไม่ได้
+!ณ เวลาหนึ่งในอดีต ==กำลังทำอยู่ = was/were + -ing==
+
+G past-simple-vs-continuous 2
+She ____ her phone, picked up her bag and left the office.
+=switched off|การกระทำต่อกันเป็นลำดับ ใช้ ++past simple++
+-was switching off|ลำดับเหตุการณ์สั้น ไม่ใช้ -ing
+-switches off|เล่าอดีต ใช้รูปปัจจุบันไม่ได้
+-had switch off|รูปผิด และไม่จำเป็นต้องใช้
+!ทำต่อกันทีละอย่าง ==past simple ทุกตัว==
+
+G time-clauses-used-to 1
+When I was a child, I ____ climb the mango tree in our garden.
+=used to|เคยทำเป็นประจำในอดีต ++used to + กริยาช่อง 1++
+-use to|ประโยคบอกเล่าต้องเป็น used to
+-was used to|be used to แปลว่าคุ้นเคย ไม่ตรงความหมาย
+-am used to|am used to หมายถึงชินในปัจจุบัน
+!เคยทำแต่ตอนนี้ไม่ทำแล้ว ==used to + V1==
+
+G time-clauses-used-to 1
+Did you ____ live in Chiang Mai before you moved here?
+=use to|หลัง did ใช้ ++use to++ ไม่มี d
+-used to|มี did แล้ว ไม่ต้องเติม d
+-using to|ไม่มีรูป using to แบบนี้
+-uses to|หลัง did ใช้กริยาไม่ผัน
+!คำถาม/ปฏิเสธ ==did + use to== (ไม่มี d)
+
+G time-clauses-used-to 2
+As soon as the meeting ____, everyone rushed to the canteen.
+=finished|เรื่องที่จบก่อน ใช้ ++past simple++
+-was finishing|ยังไม่จบ คนจะยังไม่รีบออกไป
+-finishes|เล่าอดีต ใช้รูปปัจจุบันไม่ได้
+-has finished|เล่าลำดับในอดีต ไม่ใช้ has
+!as soon as / after / when + ==past simple== บอกลำดับ
+
+G time-clauses-used-to 2
+I didn't recognise my old teacher until she ____ my name.
+=said|จนกระทั่งเธอพูด เป็นจุดเดียว ++past simple++
+-was saying|ไม่ได้เน้นช่วงที่กำลังพูด
+-says|เล่าอดีต ใช้รูปปัจจุบันไม่ได้
+-had been say|รูปผิด จึงใช้ไม่ได้
+!not ... until = ==ไม่...จนกระทั่ง==
+
+G time-clauses-used-to 2
+We ____ to the beach every summer, but now we prefer the mountains.
+=used to go|เคยไปเป็นประจำ ตอนนี้ไม่ไปแล้ว ++used to++
+-were going|ไม่ได้บอกนิสัยในอดีต
+-are used to go|รูปผิด หลัง be used to ต้องเป็น -ing
+-use to go|บอกเล่าต้องมี d
+!นิสัยในอดีตที่เลิกแล้ว ==used to==
+
+V events-feelings 1
+I felt really ____ when I called my new boss by the wrong name.
+=embarrassed|อายขายหน้า = ++embarrassed++
+-confused|confused แปลว่างง
+-suddenly|suddenly เป็นคำวิเศษณ์
+-immediately|immediately เป็นคำวิเศษณ์
+!embarrassed = ==อาย เขิน ขายหน้า==
+
+V events-feelings 1
+The car in front stopped ____, and I almost hit it.
+=suddenly|อย่างกะทันหัน = ++suddenly++
+-embarrassed|เป็นคุณศัพท์ บอกความรู้สึกคน
+-behaviour|behaviour เป็นคำนาม
+-attitude|attitude เป็นคำนาม
+!suddenly = ==ทันใดนั้น อย่างกะทันหัน==
+
+V events-feelings 2
+Nobody was hurt in the ____, but both cars were badly damaged.
+=accident|อุบัติเหตุ = ++accident++
+-situation|situation กว้างเกินไป ไม่ใช่รถชน
+-attitude|attitude คือทัศนคติ
+-behaviour|behaviour คือพฤติกรรม
+!a car accident = ==อุบัติเหตุรถ==
+
+V events-feelings 2
+I didn't ____ that I had left my wallet at home until I reached the shop.
+=realise|รู้ตัว ตระหนัก = ++realise++
+-mention|mention คือพูดถึง
+-describe|describe คือบรรยาย
+-behave|behave คือประพฤติ
+!realise = ==รู้ตัว นึกขึ้นได้==
+
+V events-feelings 2
+Could you ____ the bag you lost? What colour was it?
+=describe|บรรยายลักษณะ = ++describe++
+-mention|mention แค่เอ่ยถึง ไม่ได้บอกลักษณะ
+-realise|realise คือรู้ตัว
+-confused|confused เป็นคุณศัพท์
+!describe someone = ==บอกลักษณะ==
+
+V events-feelings 2
+The children's ____ on the trip was excellent. They listened and helped each other.
+=behaviour|พฤติกรรม = ++behaviour++
+-behave|behave เป็นกริยา ต้องใช้คำนาม
+-accident|accident คืออุบัติเหตุ
+-situation|ไม่เข้ากับ listened and helped
+!behave (กริยา) → ==behaviour (คำนาม)==
+
+R incident-report 2|Incident Report: Lift Stuck on Floor 4
+On Tuesday at about 2.15 pm, the main lift stopped between the third and fourth floors. Two staff members and a visitor were inside. They were travelling to a meeting on the fifth floor when the lights flickered and the lift suddenly stopped.
+
+One of the staff members pressed the alarm button immediately, and security called the lift company. While they were waiting, the security guard talked to them through the intercom to keep them calm.
+
+The engineer arrived at 3 pm and opened the doors ten minutes later. Nobody was hurt, but the visitor said she felt a little confused and tired. The lift will be checked again on Friday.
+Q Where were the three people going?
+=to a meeting on the fifth floor|travelling to a meeting on the fifth floor
+-to the fourth floor|ลิฟต์ค้างระหว่างชั้นสามกับสี่
+-to the security office|ไม่ได้บอกว่าจะไปห้องรักษาความปลอดภัย
+-to the ground floor|ไม่ได้บอกว่าลงชั้นล่าง
+Q What did the security guard do while they waited?
+=talked to them through the intercom|talked to them through the intercom
+-opened the doors|ช่างเป็นคนเปิดประตู
+-pressed the alarm button|พนักงานในลิฟต์เป็นคนกด
+-fixed the lights|ไม่ได้พูดว่าเขาซ่อมไฟ
+Q When were the doors opened?
+=at about 3.10 pm|ช่างมาถึงบ่ายสาม เปิดประตูอีกสิบนาทีต่อมา
+-at 2.15 pm|เป็นเวลาที่ลิฟต์ค้าง
+-at 3 pm|เป็นเวลาที่ช่างมาถึง
+-on Friday|วันศุกร์จะตรวจลิฟต์อีกครั้ง
+
+L telling-a-story 2
+Woman: What happened to your arm?
+Man: I fell off my bike. I was riding home and a dog suddenly ran into the road.
+Q Why did the man fall off his bike?
+=a dog ran into the road|a dog suddenly ran into the road
+-he was riding too fast|ไม่ได้พูดว่าขี่เร็ว
+-the road was wet|ไม่ได้พูดถึงถนนเปียก
+-a car hit him|ไม่ได้พูดถึงรถชน
+
+L telling-a-story 2
+Man: I used to work in a bank, but I left three years ago. Now I run a small coffee shop.
+Q What does the man do now?
+=he runs a coffee shop|Now I run a small coffee shop
+-he works in a bank|เป็นงานเก่า เลิกแล้ว
+-he is looking for a job|เขามีงานทำแล้ว
+-he studies at a university|ไม่ได้พูดถึงการเรียน

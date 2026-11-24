@@ -1,0 +1,158 @@
+G reporting-verbs 2
+The manager ____ that we should finish the project before the holiday.
+=insisted|ยืนกราน ++insist that + ประโยค++
+-refused|refuse ไม่ตามด้วย that
+-offered|offer ไม่ตามด้วย that
+-threatened|threaten ไม่ตามด้วย that + should
+!insist (that) / insist ==on + -ing==
+
+G reporting-verbs 2
+She ____ me to apply for the scholarship, so I did.
+=encouraged|สนับสนุนให้ทำ ++encourage someone to++
+-suggested|suggest ไม่ตามด้วยคน + to
+-insisted|insist ไม่ตามด้วยคน + to
+-admitted|admit ไม่ตามด้วยคน + to
+!==encourage / advise / warn + คน + to + V1==
+
+G reporting-verbs 3
+He ____ having taken the money from the drawer.
+=denied|ปฏิเสธว่าไม่ได้ทำ ++deny + -ing++
+-refused|refuse ตามด้วย to + V1
+-rejected|reject ไม่ตามด้วย -ing แบบนี้
+-objected|object ต้องมี to + -ing
+!deny ==+ -ing== = ปฏิเสธว่าไม่ได้ทำ
+
+G reporting-verbs 3
+The chef ____ us against ordering the fish because it wasn't fresh.
+=advised|เตือนไม่ให้ ++advise someone against + -ing++
+-recommended|recommend ไม่ใช้กับคน + against
+-suggested|suggest ไม่ใช้กับคน + against
+-persuaded|persuade ไม่ตามด้วย against แบบนี้
+!advise someone ==against + -ing== = แนะนำไม่ให้
+
+G reporting-verbs 3
+My colleague ____ me of taking credit for her idea.
+=accused|กล่าวหา ++accuse someone of + -ing++
+-blamed|blame ใช้ blame someone for
+-criticised|criticise ใช้ for
+-denied|deny ไม่ตามด้วยคน + of
+!accuse someone ==of== + -ing = กล่าวหาว่า
+
+G noun-clauses 2
+____ he said surprised everyone in the room.
+=What|สิ่งที่ = ++What++ ทำหน้าที่ประธาน
+-That|that ต้องตามด้วยประโยคครบ
+-Which|which ไม่ใช้ขึ้นต้นแบบนี้
+-It|it ทำให้ประโยคมีกริยาซ้อน
+!==What + ประโยค== = สิ่งที่... (ใช้เป็นประธานได้)
+
+G noun-clauses 2
+I can't remember ____ I parked the car.
+=where|ประโยคนามบอกสถานที่ ++where + ประธาน + กริยา++
+-where did|ไม่สลับประธานในประโยคนาม
+-that|that ไม่ได้บอกสถานที่
+-what|what ต้องแทนกรรมในประโยค
+!wh- + ==ประธาน + กริยา== (ไม่สลับ)
+
+G noun-clauses 3
+____ the factory will close is still uncertain.
+=Whether|ใช่หรือไม่ (เป็นประธาน) ++Whether++
+-If|if ไม่ขึ้นต้นประโยคนามที่เป็นประธาน
+-That|that จะไม่เข้ากับ uncertain
+-What|what ต้องแทนคำนามในประโยค
+!==Whether ...== ขึ้นต้นประโยคเป็นประธานได้ · if ไม่ได้
+
+G noun-clauses 3
+The fact ____ nobody complained shows the system works.
+=that|the fact ++that++ + ประโยค
+-which|which จะเป็นประโยคขยาย ไม่ครบความ
+-what|what ไม่ตามหลัง the fact
+-whether|ความหมายไม่ตรง
+!==the fact that== = ข้อเท็จจริงที่ว่า
+
+V meetings 2
+Can you ____ what you mean by "flexible hours"? Does it include weekends?
+=clarify|อธิบายให้ชัด = ++clarify++
+-highlight|highlight คือเน้นให้เห็น
+-oppose|oppose คือคัดค้าน
+-consent|consent คือยินยอม
+!clarify = ==ทำให้ชัดเจน==
+
+V meetings 2
+Several members ____ the plan to close the library on Sundays.
+=opposed|คัดค้าน = ++oppose++
+-proposed|propose คือเสนอ
+-acknowledged|acknowledge คือยอมรับ
+-contributed|contribute ต้องมี to
+!oppose = ==คัดค้าน== · propose = เสนอ
+
+V meetings 3
+The director ____ that the deadline could not be changed.
+=emphasised|เน้นย้ำ = ++emphasise++
+-negotiated|negotiate ไม่ตามด้วย that แบบนี้
+-participated|participate ต้องมี in
+-collaborated|collaborate ต้องมี with
+!emphasise = ==เน้นย้ำ==
+
+V meetings 3
+We spent two hours trying to ____ a better price with the supplier.
+=negotiate|ต่อรอง = ++negotiate a price++
+-propose|ไม่ตรงความหมาย
+-consent|consent ไม่ใช้กับ a price
+-oppose|oppose คือคัดค้าน
+!negotiate = ==เจรจาต่อรอง==
+
+V meetings 3
+Everyone is expected to ____ to the discussion, not just the managers.
+=contribute|มีส่วนร่วมให้ความเห็น = ++contribute to++
+-participate|participate ต้องมี in
+-collaborate|collaborate ต้องมี with
+-acknowledge|acknowledge ไม่ตามด้วย to
+!contribute ==to== = ช่วยเสริม มีส่วนร่วม
+
+V meetings 3
+You need your parents' ____ to go on the overnight trip.
+=consent|ความยินยอม = ++consent++
+-commitment|commitment คือความทุ่มเท
+-highlight|highlight คือจุดเด่น
+-proposal|ไม่ตรงความหมาย
+!consent = ==ความยินยอม (อย่างเป็นทางการ)==
+
+R meeting-minutes 2|Minutes: Residents' Committee, 12 May
+Present: 9 members. Chair: Khun Anong
+1. Parking: Khun Somchai proposed painting numbered spaces in the car park. Khun Mali opposed the idea, arguing that it would cost too much. After discussion, the committee agreed to ask two companies for prices before deciding.
+2. Swimming pool: The chair acknowledged complaints that the pool had been dirty in April. She explained that the cleaning company had changed staff and emphasised that the problem has now been solved.
+3. New Year party: Khun Tom offered to organise the event. Members were asked to contribute ideas by 1 June.
+Next meeting: 9 June
+Q What was decided about the parking spaces?
+=to get price quotes first|ask two companies for prices before deciding
+-to paint them next week|ยังไม่ได้ตัดสินใจทาสี
+-to cancel the idea|ยังไม่ได้ยกเลิก
+-that Khun Mali would pay|ไม่ได้พูดว่าเธอจ่าย
+Q What did the chair say about the pool?
+=the issue has been fixed|emphasised that the problem has now been solved
+-it will close in April|เมษายนคือช่วงที่สระสกปรก
+-it needs a new company|ไม่ได้บอกว่าเปลี่ยนบริษัท
+-nobody had complained|มีผู้ร้องเรียน
+Q What must members do by 1 June?
+=send ideas for the party|contribute ideas by 1 June
+-pay for the party|ไม่ได้พูดถึงเงิน
+-choose a cleaning company|ไม่ได้พูดถึง
+-attend the next meeting|การประชุมครั้งหน้าคือ 9 มิถุนายน
+
+L meeting-discussion 2
+Woman: I see what you mean, but I'm not sure we can afford a new website this year.
+Man: I understand. What if we just updated the current one and kept the cost under fifty thousand?
+Q What does the man propose?
+=improving the existing website|What if we just updated the current one
+-building a new website|ฝ่ายหญิงบอกว่างบไม่พอ
+-waiting until next year|ไม่ได้เสนอให้รอ
+-spending more than fifty thousand|เขาเสนอให้ต่ำกว่าห้าหมื่น
+
+L meetings 2
+Man: Let me clarify one thing. Overtime will only be paid if your manager agrees in advance.
+Q When will staff be paid for overtime?
+=when the manager approves it first|if your manager agrees in advance
+-always|มีเงื่อนไข
+-only at weekends|ไม่ได้พูดถึงวันหยุด
+-after the project ends|ไม่ได้พูดถึงโครงการ

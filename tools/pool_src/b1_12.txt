@@ -1,0 +1,158 @@
+G modals-deduction 1
+The lights are off and nobody is answering. They ____ be at home.
+=can't|แน่ใจว่าไม่ใช่ = ++can't++
+-mustn't|mustn't แปลว่าห้าม
+-don't have to|แปลว่าไม่จำเป็น
+-must|หลักฐานบอกว่าไม่อยู่ ไม่ใช่อยู่
+!แน่ใจว่าไม่ ==can't== · แน่ใจว่าใช่ must
+
+G modals-deduction 1
+She's been running for an hour. She ____ be very tired.
+=must|แน่ใจว่าใช่ = ++must++
+-can't|ความหมายกลับกัน
+-should to|หลัง should ไม่มี to
+-has|has be ผิดรูป
+!หลักฐานชัด แน่ใจ ==must + V1==
+
+G modals-deduction 2
+I'm not sure where Lek is. She ____ be in the meeting room.
+=might|อาจจะ ไม่แน่ใจ = ++might++
+-must|must แปลว่าแน่ใจ
+-can't|can't แปลว่าไม่น่าใช่แน่ ๆ
+-has to|has to แปลว่าต้อง
+!ไม่แน่ใจ ==might / may / could==
+
+G modals-deduction 2
+That ____ be Ploy's car. Hers is red, and this one is blue.
+=can't|แน่ใจว่าไม่ใช่ ++can't++
+-mustn't|mustn't คือห้าม ไม่ใช่การเดา
+-might|มีหลักฐานชัด จึงไม่ใช่อาจจะ
+-must|สีไม่ตรง จึงไม่ใช่รถเธอ
+!หลักฐานขัดแย้ง → ==can't be==
+
+G review-b1 1
+I ____ in this company since 2015.
+=have worked|ตั้งแต่ปีหนึ่งถึงตอนนี้ ++have + V3++
+-work|since ใช้กับ present perfect
+-worked|ยังทำอยู่ ใช้อดีตไม่ได้
+-am working|since ไม่ใช้กับรูปนี้
+!since + จุดเริ่ม → ==have/has + V3==
+
+G review-b1 2
+If I ____ you, I would take the job in Phuket.
+=were|สมมติ ++If I were you++
+-am|ประโยคสมมติไม่ใช้ am
+-will be|หลัง if ไม่ใช้ will
+-had been|ไม่ใช่เรื่องในอดีต
+!If I were you, I'd ... = ==ถ้าเป็นฉันจะ...==
+
+G review-b1 2
+The report ____ by the manager last Friday.
+=was checked|passive อดีต ++was + V3++
+-checked|รายงานตรวจเองไม่ได้
+-is checked|last Friday เป็นอดีต
+-was checking|ต้องใช้ V3 ไม่ใช่ -ing
+!ถูกกระทำในอดีต ==was/were + V3==
+
+G review-b1 2
+She asked me ____ I had finished the report.
+=whether|คำถาม yes/no ทางอ้อม ++whether / if++
+-that|that ไม่ใช้กับคำถาม
+-what|ไม่ได้ถามข้อมูล
+-did|ไม่ใช้ did ในคำถามทางอ้อม
+!asked ==whether / if== + ประธาน + กริยา
+
+G review-b1 2
+I stopped ____ coffee after lunch because I couldn't sleep at night.
+=drinking|เลิกทำ ++stop + -ing++
+-to drink|stop to drink แปลว่าหยุดเพื่อดื่ม
+-drink|หลัง stop ใช้ -ing
+-drank|ไม่ใช้อดีตหลัง stopped
+!stop ==+ -ing== = เลิก · stop to + V = หยุดเพื่อ
+
+V career-words 1
+There were twenty ____ for the job, but only three were invited to an interview.
+=candidates|ผู้สมัคร = ++candidates++
+-supervisors|supervisor คือหัวหน้างาน
+-employees|employee คือพนักงานที่ทำงานอยู่แล้ว
+-ambitions|ambition คือความทะเยอทะยาน
+!candidate = ==ผู้สมัคร ผู้เข้าชิง==
+
+V career-words 1
+After five years, she got a ____ to team leader.
+=promotion|เลื่อนตำแหน่ง = ++promotion to++
+-qualification|qualification คือคุณวุฒิ
+-decision|decision คือการตัดสินใจ
+-conclusion|conclusion คือข้อสรุป
+!get a promotion = ==ได้เลื่อนตำแหน่ง==
+
+V career-words 2
+A nursing degree is the main ____ for this job.
+=qualification|คุณวุฒิ = ++qualification++
+-promotion|promotion คือการเลื่อนตำแหน่ง
+-candidate|candidate คือผู้สมัคร
+-ambition|ambition คือความทะเยอทะยาน
+!qualification = ==คุณวุฒิ ใบรับรองความสามารถ==
+
+V career-words 2
+My ____ checks my work every week and gives me feedback.
+=supervisor|หัวหน้างาน = ++supervisor++
+-candidate|candidate คือผู้สมัคร
+-employee|employee คือพนักงาน
+-career|career คืออาชีพการงาน
+!supervisor = ==หัวหน้า ผู้ควบคุมงาน==
+
+V career-words 2
+He was ____ to pass the driving test, so he practised every evening.
+=determined|มุ่งมั่น = ++determined to++
+-capable|capable ใช้ capable of + -ing
+-ambition|ambition เป็นคำนาม
+-qualification|เป็นคำนาม
+!be determined ==to + V1== = ตั้งใจแน่วแน่
+
+V career-words 2
+Leaving my job to study was a difficult ____, but I'm glad I did it.
+=decision|การตัดสินใจ = ++decision++
+-conclusion|conclusion คือข้อสรุป
+-promotion|promotion คือการเลื่อนตำแหน่ง
+-interview|ไม่ตรงความหมาย
+!make a decision = ==ตัดสินใจ==
+
+R career-change 2|From Bank Clerk to Baker
+Pim worked at a bank for nine years. The salary was good, but she felt bored. "I used to look at the clock all day," she says.
+
+In 2021, she took a six-month baking course at weekends. Her teacher said she was very capable, and Pim started selling cakes to her colleagues. Soon, people from other offices were ordering too.
+
+Last year, she made the decision to leave the bank. She now runs a small bakery near the train station. "I earn less money than before, and I work longer hours," she says. "But I'm much happier. I wish I had done this earlier."
+Q How did Pim first sell her cakes?
+=to people she worked with|selling cakes to her colleagues
+-at a train station|ร้านอยู่ใกล้สถานีเป็นเรื่องตอนหลัง
+-online|ไม่ได้พูดถึงการขายออนไลน์
+-at weekend markets|เรียนทำขนมช่วงสุดสัปดาห์ ไม่ใช่ขาย
+Q What is true about Pim's new job?
+=she works more hours|I work longer hours
+-she earns more money|เธอได้เงินน้อยกว่าเดิม
+-she feels bored|เธอบอกว่ามีความสุขกว่ามาก
+-it is in a bank|เธอลาออกจากธนาคารแล้ว
+Q What does Pim regret?
+=not changing jobs sooner|I wish I had done this earlier
+-taking the baking course|ไม่ได้เสียใจเรื่องคอร์ส
+-leaving the bank|เธอดีใจที่ออก
+-opening near the station|ไม่ได้พูดถึงเรื่องนี้
+
+L mixed-listening 2
+Woman: How was your job interview?
+Man: I think it went well. They said they'd let me know by Friday.
+Q When will the man hear about the job?
+=by Friday|They said they'd let me know by Friday
+-today|ไม่ได้บอกว่าวันนี้
+-next month|ไม่ได้พูดถึงเดือนหน้า
+-he already knows|เขายังรอคำตอบอยู่
+
+L mixed-listening 2
+Man: Somchai isn't answering his phone. He must be on the plane. His flight left at ten.
+Q Why does the man think Somchai isn't answering?
+=he is flying|He must be on the plane
+-his phone is broken|ไม่ได้พูดว่าโทรศัพท์เสีย
+-he is in a meeting|ไม่ได้พูดถึงการประชุม
+-he is asleep|ไม่ได้พูดว่าหลับ

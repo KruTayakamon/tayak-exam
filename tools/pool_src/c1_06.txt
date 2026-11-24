@@ -1,0 +1,157 @@
+G hedging-distancing 2
+The minister ____ to have known about the problem for months.
+=is alleged|ถูกกล่าวหา ระวังคำ ++is alleged to++
+-alleges|รัฐมนตรีไม่ได้เป็นผู้กล่าวหา
+-is alleging|ความหมายไม่ตรง
+-has alleged|ต้องเป็น passive
+!is alleged / said ==to have + V3== = ถูกกล่าวว่าได้...
+
+G hedging-distancing 2
+It would ____ that the new system has reduced errors.
+=appear|ระวังคำมาก ++It would appear that++
+-be appear|รูปผิด จึงใช้ไม่ได้
+-appears|หลัง would ใช้ V1
+-appearing|รูปผิด จึงใช้ไม่ได้
+!==It would appear / seem that== = ดูเหมือนว่า (ระมัดระวัง)
+
+G hedging-distancing 3
+There is ____ to be some confusion about the new parking rules.
+=thought|มีผู้คิดว่า ++There is thought to be++
+-thinking|ต้องเป็น passive
+-thinks|ไม่ใช่รูปนี้
+-to think|ไม่ใช่รูปนี้
+!==There is thought / said / believed to be==
+
+G hedging-distancing 3
+To the best of my ____, the shop has never closed early.
+=knowledge|เท่าที่ทราบ ++to the best of my knowledge++
+-know|know เป็นกริยา
+-knowing|ไม่ใช่สำนวน
+-known|ไม่ใช่คำนาม
+!==To the best of my knowledge== = เท่าที่ฉันทราบ
+
+G conditionals-advanced 2
+If you ____ to see Khun Lek, please give her my regards.
+=should happen|เผื่อบังเอิญ ++should happen to++
+-would happen|หลัง if ไม่ใช้ would
+-will happen|หลัง if ไม่ใช้ will
+-happened to be|ฟังไม่เข้ากับคำขอแบบนี้
+!If you ==should happen to== + V1 = ถ้าบังเอิญ...
+
+G conditionals-advanced 3
+But for the volunteers, the festival ____ possible.
+=wouldn't have been|ถ้าไม่มี (อดีต) ผล ++wouldn't have been++
+-won't be|but for เป็นสมมติ ใช้ will ไม่ได้
+-hadn't been|ประโยคผลต้องมี would
+-isn't|ไม่ใช่ประโยคผลแบบสมมติ
+!==But for + คำนาม, would(n't) have + V3==
+
+G conditionals-advanced 3
+Even if she ____ the bus, she wouldn't have arrived in time.
+=had caught|แม้ถ้า (อดีต) ++even if + had + V3++
+-caught|ต้องเป็น had + V3 กับผลแบบที่ 3
+-would catch|หลัง if ไม่ใช้ would
+-has caught|ไม่ใช่รูปของโครงสร้างนี้
+!==Even if + had + V3==, would(n't) have + V3
+
+G conditionals-advanced 3
+Supposing you ____ the lottery, what would you do first?
+=won|สมมติ ++supposing + อดีต++
+-win|ผลมี would จึงต้องใช้อดีต
+-would win|หลัง supposing ไม่ใช้ would
+-had won|ผลเป็นปัจจุบัน ไม่ใช่อดีต
+!==Supposing / Imagine + อดีต==, would + V1
+
+G conditionals-advanced 3
+I'll lend you the money ____ that you pay me back by Friday.
+=on condition|โดยมีเงื่อนไข ++on condition that++
+-in condition|ไม่ใช่สำนวน
+-with condition|ไม่ใช่สำนวน
+-at condition|ไม่ใช่สำนวน
+!==on condition that== = โดยมีเงื่อนไขว่า
+
+V evidence-doubt 2
+His explanation sounds ____, but we need to check the facts.
+=plausible|ฟังดูมีเหตุผล = ++plausible++
+-fallible|fallible คือผิดพลาดได้
+-ambivalent|ambivalent คือลังเลสองจิต
+-anomaly|anomaly เป็นคำนาม
+!plausible = ==ฟังดูน่าเชื่อ เป็นไปได้==
+
+V evidence-doubt 2
+Many scientists remain ____ about the new diet's health claims.
+=sceptical|สงสัย ไม่ค่อยเชื่อ = ++sceptical about++
+-credible|credible คือน่าเชื่อถือ
+-plausible|ไม่ตรงความหมาย
+-corroborate|corroborate เป็นกริยา
+!sceptical ==about== = ไม่ค่อยเชื่อ
+
+V evidence-doubt 3
+Two independent witnesses ____ the driver's account of the accident.
+=corroborated|ยืนยันสนับสนุน = ++corroborate++
+-discerned|discern คือแยกแยะ มองเห็น
+-conjectured|conjecture คือคาดเดา
+-ambivalent|ambivalent เป็นคุณศัพท์
+!corroborate = ==ยืนยันให้น่าเชื่อขึ้น==
+
+V evidence-doubt 3
+The auditors found a ____ between the invoice and the bank statement.
+=discrepancy|ความไม่ตรงกัน = ++discrepancy between++
+-inconsistently|เป็นคำวิเศษณ์ ใช้หลัง a ไม่ได้
+-sceptical|sceptical เป็นคุณศัพท์
+-credible|credible เป็นคุณศัพท์
+!a discrepancy ==between== = ความไม่ตรงกันระหว่าง
+
+V evidence-doubt 3
+The link between the two events is ____ at best.
+=tenuous|อ่อน ไม่ค่อยมีน้ำหนัก = ++tenuous++
+-credible|ความหมายกลับกัน
+-plausible|ไม่เข้ากับ at best
+-corroborated|ไม่ตรงความหมาย
+!tenuous = ==เปราะบาง ไม่มีน้ำหนัก==
+
+V evidence-doubt 3
+I feel ____ about the move: excited, but also worried.
+=ambivalent|ความรู้สึกสองทาง = ++ambivalent about++
+-unconvincing|ใช้กับข้อโต้แย้ง ไม่ใช่ความรู้สึกตัวเอง
+-fallible|fallible คือผิดพลาดได้
+-tenuous|tenuous ใช้กับความเชื่อมโยง
+!ambivalent = ==รู้สึกขัดแย้งในใจ==
+
+R research-analysis 2|A Closer Look at the "Morning Study" Claim
+A popular article recently claimed that people who study in the morning remember 40 per cent more than those who study at night. The claim sounds plausible, but a closer look at the original research suggests caution.
+
+First, the study involved only 36 university students, all from one faculty. Second, the morning group slept on average one hour longer than the evening group, so sleep, not time of day, may explain the difference. Third, the 40 per cent figure came from a single vocabulary test given the following day.
+
+None of this means the finding is wrong. It would appear, however, that the article overstated a tentative result. Until larger studies corroborate it, readers should treat the claim as an interesting possibility rather than established fact.
+Q What does the writer suggest about the extra sleep?
+=it may explain the result|sleep, not time of day, may explain the difference
+-it proves the article was right|ความหมายไม่ตรง
+-it made the test harder|ในบทไม่ได้พูดเช่นนั้น
+-it was not measured|มีการวัดและรายงาน
+Q How does the writer view the study's finding?
+=as possible but not yet proven|an interesting possibility rather than established fact
+-as completely false|ผู้เขียนบอกว่าไม่ได้หมายความว่าผิด
+-as definitely correct|ผู้เขียนเตือนให้ระวัง
+-as irrelevant to students|ในบทไม่ได้พูดเช่นนั้น
+Q What would make the claim more convincing?
+=bigger studies with similar results|Until larger studies corroborate it
+-making the article itself longer|ในบทไม่ได้พูดถึง
+-fewer participants|ความหมายกลับกัน
+-studying only at night|ในบทไม่ได้พูดถึง
+
+L academic-seminar 2
+Man: I'm a bit sceptical about these figures. The sample seems rather small, and the survey was done online only.
+Q Why does the man doubt the figures?
+=its small, online-only sample|The sample seems rather small ... online only
+-the survey was too long|ในบทไม่ได้พูดถึงความยาว
+-the figures are too old|ในบทไม่ได้พูดถึงอายุข้อมูล
+-the questions were written in English|ในบทไม่ได้พูดถึงภาษา
+
+L evidence-doubt 2
+Woman: There's a slight discrepancy between your report and mine. You've written forty, but I counted forty-four.
+Q What is the problem?
+=the two reports give different numbers|You've written forty, but I counted forty-four
+-the report is missing|ในบทไม่ได้พูดเช่นนั้น
+-both reports say forty|ตัวเลขต่างกัน
+-the man counted twice|ในบทไม่ได้พูดเช่นนั้น

@@ -1,0 +1,156 @@
+G comparatives 1
+A bicycle is ____ than a motorbike.
+=slower|คำสั้น เติม ++-er + than++
+-more slow|slow พยางค์เดียว เติม er
+-slowest|มี than ต้องเป็นขั้นกว่า
+-slow|มี than ต้องเปรียบ
+!คำสั้น ==-er than==
+
+G comparatives 1
+This dictionary is ____ than my old one.
+=more useful|คำยาว ใช้ ++more ... than++
+-usefuller|useful ใช้ more
+-most useful|มี than ต้องเป็นขั้นกว่า
+-useful more|ลำดับคำผิด
+!คำยาว ==more + adj + than==
+
+G comparatives 2
+The weather today is ____ than yesterday. It's raining more.
+=worse|bad → ++worse++
+-badder|ไม่มีคำนี้
+-more bad|bad ใช้ worse
+-worst|มี than ต้องเป็นขั้นกว่า
+!good → better · ==bad → worse==
+
+G comparatives 2
+My new flat is ____ than my old one. It has three bedrooms.
+=bigger|big → ++bigger++ (ซ้ำตัวท้าย)
+-biger|ต้องซ้ำ g
+-more big|big เติม er
+-biggest|มี than ต้องเป็นขั้นกว่า
+!สระเดี่ยว + พยัญชนะ → ==ซ้ำตัวท้าย + er==
+
+G superlatives-as-as 1
+This is ____ restaurant in our town. Everyone loves it.
+=the most popular|ขั้นสุด คำยาว ++the most++
+-the popularest|popular ใช้ most
+-more popular|ไม่มี than และต้องเป็นขั้นสุด
+-most popular than|ผิดรูป
+!ขั้นสุดคำยาว ==the most + adj==
+
+G superlatives-as-as 1
+Doi Inthanon is ____ mountain in Thailand.
+=the highest|ขั้นสุด ++the + -est++
+-the most high|high เติม est
+-higher|ต้องเป็นขั้นสุด
+-the highter|รูปผิด จึงใช้ไม่ได้
+!==the + adj-est== (ที่สุด)
+
+G superlatives-as-as 2
+My sister is as ____ as my mother. They're both 160 cm.
+=tall|เท่ากัน ++as + adj + as++
+-taller|หลัง as ใช้คำปกติ
+-tallest|หลัง as ใช้คำปกติ
+-more tall|หลัง as ใช้คำปกติ
+!==as + คำปกติ + as== = เท่ากับ
+
+G superlatives-as-as 2
+My new phone isn't as ____ as my old one, but it has a better camera.
+=light|ไม่เท่า ++not as + adj + as++
+-lighter|หลัง as ใช้คำปกติ
+-lightest|หลัง as ใช้คำปกติ
+-light than|รูปผิด จึงใช้ไม่ได้
+!==not as ... as== = ไม่...เท่า
+
+G superlatives-as-as 2
+It was ____ day of my life!
+=the best|good → ++the best++
+-the goodest|ไม่มีคำนี้
+-the better|ต้องเป็นขั้นสุด
+-best than|รูปผิด จึงใช้ไม่ได้
+!good → better → ==the best==
+
+V describing-places 1
+The library is very ____. Nobody talks.
+=quiet|เงียบ = ++quiet++
+-noisy|ความหมายกลับกัน
+-crowded|ไม่ตรงกับไม่มีใครคุย
+-famous|famous คือมีชื่อเสียง
+!quiet = ==เงียบ== · noisy = เสียงดัง
+
+V describing-places 1
+The market is very ____ on Saturdays. There are people everywhere.
+=crowded|คนแน่น = ++crowded++
+-quiet|ความหมายกลับกัน
+-short|ไม่ตรงความหมาย
+-slow|ไม่ตรงความหมาย
+!crowded = ==คนแน่น แออัด==
+
+V describing-places 1
+This sofa is very ____. I can sleep on it.
+=comfortable|สบาย = ++comfortable++
+-famous|ไม่ตรงความหมาย
+-noisy|ไม่ตรงความหมาย
+-crowded|ไม่ตรงความหมาย
+!comfortable = ==สบาย==
+
+V describing-places 2
+The Grand Palace is ____ all over the world.
+=famous|มีชื่อเสียง = ++famous++
+-comfortable|ไม่ตรงความหมาย
+-noisy|ไม่ตรงความหมาย
+-short|ไม่ตรงความหมาย
+!famous = ==มีชื่อเสียง==
+
+V describing-places 2
+I can't sleep. The street outside my hotel is too ____.
+=noisy|เสียงดัง = ++noisy++
+-quiet|ความหมายกลับกัน
+-famous|ไม่ตรงความหมาย
+-long|ไม่ตรงความหมาย
+!noisy = ==เสียงดัง==
+
+V describing-places 2
+The film was only an hour. It was very ____.
+=short|สั้น = ++short++
+-long|ความหมายกลับกัน
+-popular|ไม่ได้บอกความยาว
+-crowded|ไม่ตรงความหมาย
+!short = ==สั้น== · long = ยาว
+
+R comparing-restaurants 1|Two Noodle Shops on Main Street
+Kitti's Noodles is the oldest shop on Main Street. It opened forty years ago. The noodles are cheap, only 50 baht a bowl, but the shop is small and very crowded at lunchtime.
+Happy Bowl opened last year. It is bigger and more comfortable than Kitti's, and it has air conditioning. The noodles are more expensive, 80 baht a bowl, but there are more dishes on the menu.
+Many people say Kitti's noodles are the most delicious in town.
+Q Which shop is older?
+=Kitti's Noodles|It opened forty years ago
+-Happy Bowl|เปิดเมื่อปีที่แล้ว
+-They are the same age|เปิดคนละปี
+-The text doesn't say|บทบอกไว้ชัด
+Q What is better about Happy Bowl?
+=it is more comfortable|bigger and more comfortable than Kitti's
+-it is cheaper|แพงกว่า
+-it is older|เปิดใหม่กว่า
+-its noodles are more delicious|คนบอกว่าร้านกิตติอร่อยที่สุด
+Q How much is a bowl at Happy Bowl?
+=80 baht|80 baht a bowl
+-50 baht|เป็นราคาที่ร้านกิตติ
+-40 baht|สี่สิบคือจำนวนปี
+-100 baht|ในบทไม่ได้พูดถึง
+
+L comparing 1
+Woman: Which phone do you like?
+Man: The black one is cheaper, but the white one is lighter and faster. I'll take the white one.
+Q Why does the man choose the white phone?
+=it's lighter and faster|the white one is lighter and faster
+-it is cheaper|โทรศัพท์สีดำถูกกว่า
+-it is black|เขาเลือกสีขาว
+-it is bigger|ในบทไม่ได้พูดเช่นนั้น
+
+L describing-places 1
+Man: The beach was beautiful, but it was very crowded, so we went to a quieter one.
+Q Why did they go to another beach?
+=the first one had too many people|it was very crowded
+-the first one was dirty|ในบทไม่ได้พูดเช่นนั้น
+-it was raining|ในบทไม่ได้พูดเช่นนั้น
+-the first one was too quiet|ความหมายกลับกัน

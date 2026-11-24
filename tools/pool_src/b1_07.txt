@@ -1,0 +1,158 @@
+G obligation-permission 1
+Visitors ____ wear a helmet on the building site. It's the law.
+=must|กฎบังคับ = ++must + V1++
+-mustn't|mustn't แปลว่าห้าม ความหมายกลับกัน
+-can|can คืออนุญาต ไม่ใช่บังคับ
+-don't have to|แปลว่าไม่จำเป็น
+!==must / have to== = ต้อง
+
+G obligation-permission 1
+You ____ bring your own towel. The hotel gives you one.
+=don't have to|ไม่จำเป็นต้อง = ++don't have to++
+-mustn't|mustn't แปลว่าห้าม ไม่ใช่ไม่จำเป็น
+-have to|โรงแรมให้ผ้าแล้ว จึงไม่ต้องเอามา
+-must|ความหมายตรงข้ามกับบริบท
+!don't have to = ==ไม่ต้อง (ทำก็ได้ไม่ทำก็ได้)==
+
+G obligation-permission 2
+Passengers ____ smoke anywhere on the train. It is not allowed.
+=mustn't|ห้ามเด็ดขาด = ++mustn't++
+-don't have to|แปลว่าไม่จำเป็น ไม่ใช่ห้าม
+-needn't to|รูปผิด ไม่มี to หลัง needn't
+-may|may คืออนุญาต
+!mustn't = ==ห้าม== · don't have to = ไม่จำเป็น
+
+G obligation-permission 2
+Are we ____ to use our phones during the test?
+=allowed|be allowed to = ++ได้รับอนุญาต++
+-allow|ต้องใช้รูป allowed หลัง are
+-can|are can ผิดรูป
+-let|are let to ไม่ใช่รูปที่ใช้
+!be ==allowed to== + V1 = ได้รับอนุญาตให้
+
+G obligation-permission 2
+Last year we ____ wear a uniform at work, but now we can wear what we like.
+=had to|อดีตของ must ใช้ ++had to++
+-must|must ไม่มีรูปอดีต
+-have to|last year เป็นอดีต
+-musted|ไม่มีรูปนี้ในภาษาอังกฤษ
+!อดีตของ must / have to = ==had to==
+
+G passive-present-past 1
+English ____ in many countries around the world.
+=is spoken|ภาษาถูกพูด ใช้ ++is + V3++
+-speaks|ภาษาพูดเองไม่ได้
+-is speaking|ไม่ใช่การกระทำที่กำลังเกิด
+-spoken|ขาด is จึงใช้ไม่ได้
+!passive ==is/are + V3==
+
+G passive-present-past 1
+The bridge ____ in 1965 and it is still in use today.
+=was built|สร้างในอดีต ใช้ ++was + V3++
+-built|สะพานสร้างตัวเองไม่ได้
+-is built|มี 1965 ต้องเป็นอดีต
+-was building|ต้องใช้ V3 ไม่ใช่ -ing
+!อดีต passive ==was/were + V3==
+
+G passive-present-past 2
+All the documents ____ to the office yesterday afternoon.
+=were sent|พหูพจน์ อดีต ++were + V3++
+-was sent|documents เป็นพหูพจน์
+-are sent|yesterday เป็นอดีต
+-sent|ต้องมี were จึงเป็น passive
+!documents (พหูพจน์) + yesterday → ==were + V3==
+
+G passive-present-past 2
+The rooms ____ every morning by the hotel staff.
+=are cleaned|ทำเป็นประจำ passive ++are + V3++
+-clean|ห้องทำความสะอาดตัวเองไม่ได้
+-is cleaned|rooms เป็นพหูพจน์
+-were clean|ความหมายต่าง และไม่ใช่กิจวัตร
+!by + ผู้ทำ บอกว่า ==ใครทำ== ใน passive
+
+V rules-documents 1
+Please ____ your report by Friday. Late reports will not be accepted.
+=submit|ส่งงานอย่างเป็นทางการ = ++submit++
+-require|require คือต้องการ
+-include|include คือรวมอยู่ด้วย
+-provide|ไม่ตรงความหมาย ไม่ใช่ส่งงาน
+!submit = ==ส่ง (เอกสาร งาน)==
+
+V rules-documents 1
+The price ____ breakfast and free Wi-Fi.
+=includes|รวมอยู่ด้วย = ++include++
+-provides|provide ใช้ provide something for
+-submits|submit คือส่งงาน
+-requires|require คือต้องการ
+!include = ==รวมอยู่ด้วย==
+
+V rules-documents 2
+You need written ____ from your manager to take more than five days off.
+=permission|การอนุญาต = ++permission++
+-request|request คือคำขอ ไม่ใช่การอนุญาต
+-document|ไม่ตรงกับ from your manager
+-responsibility|responsibility คือความรับผิดชอบ
+!permission = ==การอนุญาต==
+
+V rules-documents 2
+I'd like to ____ for the job I saw on your website.
+=apply|สมัคร = ++apply for++
+-application|application เป็นคำนาม
+-submit|submit ไม่ใช้กับ for a job
+-require|require คือต้องการ
+!apply ==for== a job = สมัครงาน
+
+V rules-documents 2
+Please call me back. It's ____. The water pipe is broken!
+=urgent|เร่งด่วน = ++urgent++
+-essential|essential คือจำเป็น ไม่ใช่ด่วน
+-responsibility|เป็นคำนาม แปลว่าความรับผิดชอบ
+-permission|เป็นคำนาม แปลว่าการอนุญาต
+!urgent = ==ด่วน==
+
+V rules-documents 2
+A good night's sleep is ____ before a long drive.
+=essential|จำเป็นมาก = ++essential++
+-urgent|urgent คือเร่งด่วน
+-application|application เป็นคำนาม แปลว่าใบสมัคร
+-include|include เป็นกริยา แปลว่ารวมอยู่ด้วย
+!essential = ==จำเป็นอย่างยิ่ง==
+
+R room-rules 2|Greenhill Fitness Centre: Rules for Members
+Members must show their card at the front desk every time they visit. Children under 16 are not allowed in the gym, but they can use the swimming pool with an adult.
+
+Please wipe the machines after use. Towels are provided at the entrance, so you don't have to bring your own. Lockers can be used during your visit, but you must empty them before you leave. Anything left in a locker overnight will be removed.
+
+Guests are welcome on weekdays. Each member can bring one guest per month, and the guest must pay 100 baht at the desk.
+Q Where can a 12-year-old go?
+=the pool, with an adult|they can use the swimming pool with an adult
+-the gym, with a member|เด็กอายุต่ำกว่า 16 เข้ายิมไม่ได้
+-anywhere at the weekend|ไม่ได้บอกว่าวันหยุดเข้าได้ทุกที่
+-nowhere in the centre|เด็กใช้สระได้ถ้ามีผู้ใหญ่
+Q What happens to things left in a locker overnight?
+=they will be removed|will be removed
+-they will be sent home|ไม่ได้พูดถึงการส่งคืนบ้าน
+-the member must pay|ไม่ได้พูดถึงค่าปรับ
+-they will be kept for a month|ไม่ได้บอกว่าเก็บไว้หนึ่งเดือน
+Q What is true about guests?
+=they pay 100 baht|the guest must pay 100 baht at the desk
+-they come free at weekends|ผู้มาเยือนมาได้เฉพาะวันธรรมดา
+-members can bring two each month|ได้เดือนละหนึ่งคน
+-they need a member's card|ไม่ได้บอกว่าต้องใช้บัตรสมาชิก
+
+L asking-permission 2
+Man: Excuse me, am I allowed to take photos inside the museum?
+Woman: Yes, you can, but you mustn't use a flash.
+Q What is not allowed in the museum?
+=using a flash|you mustn't use a flash
+-taking photos|ถ่ายรูปได้
+-going inside|ไม่ได้ห้ามเข้า
+-using a phone|ไม่ได้ห้ามใช้โทรศัพท์
+
+L rules-announcement 2
+Woman: Attention, please. The car park will be closed tomorrow for cleaning. Staff are asked to park on Station Road.
+Q Where should staff park tomorrow?
+=on Station Road|park on Station Road
+-in the car park|ที่จอดรถปิดพรุ่งนี้
+-at home|ไม่ได้บอกให้อยู่บ้าน
+-at the station car park|ไม่ได้พูดถึงที่จอดของสถานี

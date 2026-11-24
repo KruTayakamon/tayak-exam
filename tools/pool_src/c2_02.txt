@@ -1,0 +1,157 @@
+G inversion-full 2
+Only by working together ____ this crisis.
+=can we overcome|Only by ขึ้นต้น ++สลับกริยาช่วย++
+-we can overcome|ต้องสลับหลัง only by ขึ้นต้น
+-overcome we can|ลำดับคำผิด
+-we overcome|ต้องมีกริยาช่วยมาสลับ
+!==Only by + -ing + กริยาช่วย + ประธาน==
+
+G inversion-full 3
+At no point ____ that the figures were incorrect.
+=did anyone suggest|At no point ขึ้นต้น ++สลับด้วย did++
+-anyone suggested|ต้องสลับ
+-had suggested anyone|ลำดับคำผิด
+-anyone did suggest|ไม่ได้สลับ
+!==At no point + did + ประธาน + V1==
+
+G inversion-full 3
+So severe ____ that the road was closed for a week.
+=was the damage|So + adj ขึ้นต้น ++be + ประธาน++
+-the damage was|ต้องสลับ
+-did the damage|ไม่ใช้ did กับ be
+-the damage did|ไม่ได้สลับ
+!==So + adj + be + ประธาน + that==
+
+G inversion-full 3
+Here ____ the bus, at last!
+=comes|Here ขึ้นต้น + คำนาม ++สลับกริยา++
+-come|the bus เป็นเอกพจน์ ต้องเติม s
+-does come|รูปผิด จึงใช้ไม่ได้
+-is coming the bus|ลำดับคำผิด
+!==Here comes + คำนาม== · Here it comes (สรรพนาม)
+
+G information-structure 2
+What the residents object to ____ the noise, not the building itself.
+=is|What-clause ++is + ส่วนที่เน้น++
+-are|what-clause ถือเป็นเอกพจน์
+-being|ไม่ใช่กริยาแท้
+-to be|ไม่ใช่กริยาแท้
+!==What + ประโยค + is + X== เน้นข้อมูลใหม่ไว้ท้าย
+
+G information-structure 3
+It is the lack of training, rather than the pay, ____ staff complain about most.
+=that|ประโยคเน้น ++It is X that...++
+-what|what ไม่ใช้หลังคำนามที่เน้น
+-which it|มี it ซ้ำ
+-whom|whom ใช้กับคน
+!==It is + ส่วนที่เน้น + that...==
+
+G information-structure 3
+____ is how little the public knows about the scheme.
+=What is worrying|หัวเรื่องเป็น what-clause ++What is worrying is...++
+-It worrying|รูปผิด จึงใช้ไม่ได้
+-That worrying|รูปผิด จึงใช้ไม่ได้
+-Worrying it|ลำดับคำผิด
+!==What is + adj + is...== = สิ่งที่น่า...คือ
+
+G information-structure 3
+Much discussed but rarely understood, ____.
+=the policy has confused many voters|ประธานต้องเป็นสิ่งที่ถูก discussed ++the policy++
+-many voters have been confused by it|ประธานไม่ใช่สิ่งที่ถูกพูดถึง
+-it confuses many voters, the policy|ลำดับคำผิด
+-voters discuss the policy rarely|ไม่ต่อกับวลีขึ้นต้น
+!วลีขึ้นต้นต้องขยาย ==ประธานของประโยคหลัก==
+
+G information-structure 3
+____ the crisis, the government announced emergency funding.
+=In response to|เชื่อมเหตุให้ข้อมูลเก่าขึ้นต้น ++In response to++
+-Respond to|ไม่ใช่รูปขึ้นต้นแบบนี้
+-Responded|ความหมายเป็น passive ผิด
+-As response|ขาด a
+!ข้อมูลเก่าขึ้นต้น ==In response to + คำนาม==
+
+V emphasis-vocab 2
+The report ____ the need for urgent investment in clean water.
+=underscores|เน้นย้ำ = ++underscore++
+-resonates|resonate ต้องมี with
+-galvanises|galvanise ต้องมีคนเป็นกรรม
+-crystallises|ไม่ตรงความหมาย
+!underscore = ==เน้นย้ำให้เห็นชัด==
+
+V emphasis-vocab 2
+The flood ____ the community into action; within hours, volunteers were everywhere.
+=galvanised|กระตุ้นให้ลุกขึ้นทำ = ++galvanise into action++
+-underscored|underscore ไม่ตามด้วย into action
+-encapsulated|encapsulate คือสรุปได้ครบ
+-resonated|resonate ไม่มีกรรมแบบนี้
+!galvanise someone ==into action==
+
+V emphasis-vocab 3
+Her speech ____ with young voters, who felt it spoke to their concerns.
+=resonated|โดนใจ = ++resonate with++
+-underscored|underscore ไม่ใช้ with
+-galvanised|galvanise ต้องมีกรรม
+-crystallised|ไม่ตรงความหมาย
+!resonate ==with== = โดนใจ สะท้อนความรู้สึก
+
+V emphasis-vocab 3
+The photograph ____ the spirit of the festival in a single image.
+=encapsulates|สรุปไว้ครบ = ++encapsulate++
+-resonates|resonate ต้องมี with
+-galvanises|ไม่ตรงความหมาย
+-salient|salient เป็นคุณศัพท์
+!encapsulate = ==สรุปแก่นได้ครบ==
+
+V emphasis-vocab 3
+There is a ____ contrast between the luxury hotels and the slums behind them.
+=stark|ชัดเจนแบบแข็ง = ++stark contrast++
+-sweeping|sweeping ใช้กับการเปลี่ยนแปลง
+-seminal|seminal คือเป็นต้นแบบ
+-emphatic|ไม่ใช้กับ contrast
+!a stark contrast = ==ความต่างที่ชัดเจนมาก==
+
+V emphasis-vocab 3
+Her 1985 paper was a ____ work that shaped the field for decades.
+=seminal|เป็นต้นแบบสำคัญ = ++seminal++
+-stark|stark ใช้กับความต่าง
+-sweeping|sweeping ใช้กับการเปลี่ยนแปลง
+-salient|salient คือเด่น
+!a seminal study = ==งานบุกเบิกที่ทรงอิทธิพล==
+
+R editorial 2|Editorial: A Pivotal Moment for Our Rivers
+Rarely has a single report galvanised public opinion so quickly. Last week's study, showing plastic levels in our three main rivers had doubled in five years, has become the talk of every market and office.
+
+What the report underscores is not merely the scale of the problem but its speed. Five years is less than the time it takes most children to finish primary school. Should the trend continue, fishing communities downstream could lose their livelihoods within a decade.
+
+This is a pivotal moment. Sweeping bans on single-use plastics are not the only answer, but they are a necessary start. What is needed now is not another committee but action: deposit schemes for bottles, support for refill shops and, above all, enforcement of the rules we already have.
+Q What does the editorial say about the report's impact?
+=it quickly changed public opinion|Rarely has a single report galvanised public opinion so quickly
+-it was largely ignored|ความหมายกลับกัน
+-it was published five years ago|เป็นช่วงเวลาที่ศึกษา
+-it was written by fishermen|ในบทไม่ได้พูดเช่นนั้น
+Q What does the writer find most alarming?
+=how fast the problem is growing|not merely the scale of the problem but its speed
+-the cost of a committee|ในบทไม่ได้พูดถึงค่าใช้จ่าย
+-children's school results|เป็นเพียงการเปรียบเทียบเวลา
+-the number of markets|ในบทไม่ได้พูดถึง
+Q What does the writer call for?
+=action, including enforcing existing rules|above all, enforcement of the rules we already have
+-a new committee to study the problem further|ผู้เขียนบอกว่าไม่ต้องการคณะกรรมการใหม่
+-closing fishing villages|ในบทไม่ได้พูดเช่นนั้น
+-more studies before acting|ความหมายกลับกัน
+
+L closing-speech 2
+Woman: If there is one point I'd like you to take away today, it is this: small, consistent changes outlast dramatic ones.
+Q What is the speaker's key message?
+=steady small changes last longer|small, consistent changes outlast dramatic ones
+-dramatic change is best|ความหมายกลับกัน
+-change is impossible|ในบทไม่ได้พูดเช่นนั้น
+-people should leave early|ในบทไม่ได้พูดถึง
+
+L emphasis-vocab 2
+Man: Not once has the council consulted us. Not once.
+Q How does the man feel?
+=angry that residents were never asked|Not once has the council consulted us
+-pleased with the council|ความหมายกลับกัน
+-unsure about the facts|เขาพูดหนักแน่น
+-grateful for one meeting|เขาบอกว่าไม่เคยเลย

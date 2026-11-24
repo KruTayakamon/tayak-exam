@@ -1,0 +1,158 @@
+G future-forms 1
+Look at the sky over the hills! It ____ rain any minute.
+=is going to|มีหลักฐานตรงหน้า ใช้ ++be going to++
+-will to|will ไม่ตามด้วย to
+-is raining to|รูปผิด จึงใช้ไม่ได้
+-going to|ขาด is จึงใช้ไม่ได้
+!เห็นหลักฐานตอนนี้ ==be going to==
+
+G future-forms 1
+"The phone's ringing." "Don't get up. I ____ it."
+='ll answer|ตัดสินใจทันทีตอนพูด ++will++
+-am going to answer|going to ใช้กับแผนที่คิดไว้ก่อน
+-answer|ต้องบอกอนาคต ไม่ใช่กิจวัตร
+-answered|เป็นอดีต ไม่ตรงความหมาย
+!ตัดสินใจตอนนั้นเลย ==I'll ...==
+
+G future-forms 2
+I ____ the dentist at four tomorrow. I booked it last week.
+='m seeing|นัดที่จองไว้แล้ว ใช้ ++present continuous++
+-see|รูปปกติไม่บอกนัดส่วนตัว
+-'ll see|will ไม่เน้นว่านัดไว้แล้ว
+-saw|tomorrow เป็นอนาคต
+!นัดที่ตกลงแล้ว ==am/is/are + -ing==
+
+G future-forms 2
+The concert ____ at 7.30, so let's meet at seven.
+=starts|ตารางเวลาที่กำหนดแน่นอน ใช้ ++present simple++
+-is starting at to|รูปผิด จึงใช้ไม่ได้
+-will to start|will ไม่ตามด้วย to
+-started|เป็นอนาคต ใช้อดีตไม่ได้
+!ตารางรถไฟ คอนเสิร์ต ภาพยนตร์ ==รูปปกติ==
+
+G first-conditional-time-clauses 1
+If it ____ on Saturday, we'll eat inside the restaurant.
+=rains|if + ปัจจุบัน ++ไม่ใช้ will++
+-will rain|หลัง if ไม่ใช้ will
+-rained|นี่คือเงื่อนไขจริงในอนาคต
+-rain|it เป็นเอกพจน์ ต้องเติม s
+!If + ==present simple==, will + V1
+
+G first-conditional-time-clauses 1
+I'll send you a message as soon as I ____ at the hotel.
+=arrive|หลัง as soon as ใช้ ++ปัจจุบัน++
+-will arrive|หลัง as soon as ไม่ใช้ will
+-arrived|เรื่องนี้ยังไม่เกิด
+-arriving|ขาดกริยาแท้ จึงใช้ไม่ได้
+!when / as soon as / before + ==present simple== (ความหมายอนาคต)
+
+G first-conditional-time-clauses 2
+The restaurant won't have a table for us ____ we book today.
+=unless|ถ้าไม่ = ++unless++
+-if|if ทำให้ความหมายกลับกัน
+-when|when ไม่ได้บอกเงื่อนไขปฏิเสธ
+-until|until แปลว่าจนกระทั่ง
+!unless = ==if ... not==
+
+G first-conditional-time-clauses 2
+If you don't hurry, you ____ the last train.
+='ll miss|ผลในอนาคต ใช้ ++will + V1++
+-miss|ประโยคผลต้องมี will
+-missed|เป็นอดีต ไม่ตรงเงื่อนไข
+-are missing|ไม่ใช่รูปที่ใช้ในประโยคผล
+!If + present, ==will + V1==
+
+G first-conditional-time-clauses 2
+Please wait here until the nurse ____ your name.
+=calls|หลัง until ใช้ ++ปัจจุบัน++
+-will call|หลัง until ไม่ใช้ will
+-called|ยังไม่เกิดขึ้น
+-call|the nurse เป็นเอกพจน์ ต้องเติม s
+!until + ==present simple== = จนกว่า
+
+V events-plans 1
+We had to ____ the picnic because of the storm.
+=cancel|ยกเลิก = ++cancel++
+-celebrate|celebrate คือฉลอง
+-gather|gather คือรวมตัว
+-expect|expect คือคาดว่า
+!cancel = ==ยกเลิก==
+
+V events-plans 1
+Our school won first prize in the singing ____.
+=competition|การแข่งขัน = ++competition++
+-exhibition|exhibition คือนิทรรศการ
+-budget|budget คืองบประมาณ
+-audience|audience คือผู้ชม
+!win a competition = ==ชนะการแข่งขัน==
+
+V events-plans 2
+The flight was ____ for two hours because of fog.
+=delayed|ล่าช้า = ++delayed++
+-cancelled|ถ้ายกเลิก จะไม่บอกจำนวนชั่วโมง
+-confirmed|confirmed คือยืนยัน
+-celebrated|celebrated คือฉลอง
+!be delayed = ==ล่าช้า==
+
+V events-plans 2
+Please ____ your booking by replying to this email before Friday.
+=confirm|ยืนยัน = ++confirm++
+-delay|delay คือเลื่อนออกไป
+-gather|gather คือรวบรวม
+-expect|expect คือคาดหวัง
+!confirm a booking = ==ยืนยันการจอง==
+
+V events-plans 2
+The ____ clapped for five minutes after the show.
+=audience|ผู้ชม = ++audience++
+-exhibition|exhibition คือนิทรรศการ
+-announcement|announcement คือประกาศ
+-competition|competition คือการแข่ง
+!audience = ==ผู้ชม ผู้ฟัง==
+
+V events-plans 2
+We have a small ____, so we can't pay for a famous singer.
+=budget|งบประมาณ = ++budget++
+-audience|audience คือผู้ชม
+-exhibition|exhibition คือนิทรรศการ
+-announcement|ไม่เกี่ยวกับเงิน
+!a small budget = ==งบน้อย==
+
+R community-notice 2|Ban Suan Village: Sports Day Notice
+Our annual sports day will take place on Sunday 14 December at the school field. The opening ceremony starts at 8 am, and the games will continue until 4 pm.
+
+There will be football, tug-of-war and a fun run for children under ten. If you want to join a team, please give your name to the village office by 10 December. Teams need at least six players.
+
+If it rains heavily, the event will move to the following Sunday. We will make an announcement on the village loudspeaker by 6 am that morning. Food and drinks will be available, but please bring your own water bottle.
+Q What is the last day to join a team?
+=10 December|give your name to the village office by 10 December
+-14 December|เป็นวันแข่ง
+-the following Sunday|เป็นวันสำรองถ้าฝนตก
+-6 am on the day|เป็นเวลาประกาศเรื่องฝน
+Q What will happen if it rains a lot?
+=the event will be a week later|the event will move to the following Sunday
+-the games will start at 4 pm|4 โมงเย็นคือเวลาจบ
+-the games will go inside the school|ไม่ได้บอกว่าย้ายเข้าในโรงเรียน
+-the event will be cancelled|ไม่ได้ยกเลิก แต่เลื่อน
+Q What should people bring?
+=their own water bottle|please bring your own water bottle
+-their own food|มีอาหารให้
+-a football|ไม่ได้ขอให้นำลูกบอลมา
+-six players|ทีมต้องมีหกคน ไม่ใช่สิ่งที่นำมา
+
+L making-plans 2
+Woman: Are you going to the exhibition on Saturday?
+Man: I'd like to, but I'm working. I'll go on Sunday if it's still open.
+Q When will the man probably go to the exhibition?
+=on Sunday|I'll go on Sunday if it's still open
+-on Saturday|วันเสาร์เขาทำงาน
+-he won't go|เขาตั้งใจจะไปวันอาทิตย์
+-after work on Saturday|ไม่ได้พูดว่าไปหลังเลิกงาน
+
+L making-plans 2
+Man: The meeting room is booked for Friday, but the manager can't come, so we're moving the meeting to Monday.
+Q Why is the meeting moving?
+=the manager can't come|the manager can't come
+-the room is not available|ห้องจองไว้แล้ว
+-Friday is a holiday|ไม่ได้พูดถึงวันหยุด
+-nobody has booked a room|มีการจองห้องแล้ว

@@ -1,0 +1,159 @@
+G articles-plurals 1
+I eat ____ apple every morning.
+=an|ก่อนเสียงสระ ใช้ ++an++
+-a|apple ขึ้นต้นด้วยเสียงสระ ใช้ a ไม่ได้
+-the|ไม่ได้เจาะจงผลไหน
+-two|two ต้องตามด้วยพหูพจน์ apples
+!เสียงสระ (a e i o u) → ==an==
+
+G articles-plurals 1
+There are three ____ on the table.
+=boxes|-x เติม ++-es++
+-boxs|คำลงท้าย x ต้องเติม es
+-box|three ต้องใช้พหูพจน์
+-boxies|ไม่มีคำนี้ในภาษาอังกฤษ
+!ลงท้าย s x ch sh → ==เติม -es==
+
+G articles-plurals 1
+Look at ____ moon! It's very big tonight.
+=the|มีอันเดียว ใช้ ++the++
+-a|ดวงจันทร์มีดวงเดียว ใช้ the
+-an|moon ไม่ได้ขึ้นต้นด้วยเสียงสระ
+-some|some ไม่ใช้กับดวงจันทร์
+!สิ่งที่มีอันเดียว (the sun, the moon) → ==the==
+
+G articles-plurals 2
+My two ____ go to the same school.
+=children|พหูพจน์ไม่ปกติ ++child → children++
+-childs|ไม่มีคำนี้
+-child|two ต้องใช้พหูพจน์
+-childrens|children เป็นพหูพจน์อยู่แล้ว
+!child → ==children== · man → men · person → people
+
+G there-is-place 1
+____ a supermarket near my house.
+=There is|สิ่งเดียว ใช้ ++There is++
+-There are|supermarket เป็นเอกพจน์
+-It have|ไม่ใช่รูปที่ใช้บอกว่ามี
+-Is there|เป็นรูปคำถาม
+!มี + เอกพจน์ = ==There is==
+
+G there-is-place 1
+Your keys are ____ the bag. Look inside.
+=in|ข้างใน = ++in++
+-on|on คือบนผิว
+-at|at ไม่ใช้กับข้างในกระเป๋า
+-under|under คือข้างใต้ ไม่ใช่ข้างใน
+!ข้างใน ==in== · ข้างบน on · ข้างใต้ under
+
+G there-is-place 2
+"____ any chairs in the meeting room?" "Yes, there are ten."
+=Are there|ถามพหูพจน์ ++Are there any...?++
+-Is there|chairs เป็นพหูพจน์
+-There are|เป็นรูปบอกเล่า ไม่ใช่คำถาม
+-Do there|ไม่มีรูปนี้
+!คำถาม = ==Are there + พหูพจน์?==
+
+G there-is-place 2
+The cat is sleeping ____ the bed. I can only see its tail.
+=under|ข้างใต้ = ++under++
+-in|in ใช้กับข้างใน
+-at|at ไม่ใช้กับเตียงแบบนี้
+-near|near คือใกล้ ไม่ได้บอกว่าข้างใต้
+!under = ==ข้างใต้==
+
+G there-is-place 2
+There ____ two windows in my bedroom.
+=are|พหูพจน์ ใช้ ++There are++
+-is|windows เป็นพหูพจน์
+-am|ไม่มีรูป there am
+-be|ต้องผันกริยา
+!There ==are== + พหูพจน์
+
+V room-objects 1
+Please close the ____. It's cold outside.
+=window|หน้าต่าง = ++window++
+-desk|ปิดโต๊ะไม่ได้
+-pen|ปิดปากกาไม่ใช่เรื่องอากาศเย็น
+-clock|ปิดนาฬิกาไม่ใช่เรื่องอากาศเย็น
+!close the window = ==ปิดหน้าต่าง==
+
+V room-objects 1
+I can't write. I don't have a ____.
+=pen|ปากกา = ++pen++
+-chair|chair คือเก้าอี้
+-door|door คือประตู
+-window|window คือหน้าต่าง
+!pen = ==ปากกา==
+
+V room-objects 1
+What time is it? There's a ____ on the wall.
+=clock|นาฬิกาแขวน = ++clock++
+-book|ไม่ใช้ดูเวลา
+-paper|ไม่ใช้ดูเวลา
+-bag|ไม่ใช้ดูเวลา
+!clock = ==นาฬิกา (แขวน/ตั้ง)==
+
+V room-objects 2
+Please sit on this ____. It's very comfortable.
+=chair|เก้าอี้ = ++chair++
+-clock|ไม่ใช่สิ่งที่นั่ง
+-pen|ไม่ใช่สิ่งที่นั่ง
+-window|ไม่ใช่สิ่งที่นั่ง
+!sit on a chair = ==นั่งเก้าอี้==
+
+V room-objects 2
+The bank is ____ the post office, just two minutes away.
+=near|ใกล้ = ++near++
+-under|ไม่ได้บอกว่าข้างใต้
+-in|ไม่ได้อยู่ข้างใน
+-paper|paper เป็นคำนาม
+!near = ==ใกล้==
+
+V room-objects 2
+I need some ____ to print my report.
+=paper|กระดาษ = ++paper++
+-door|door คือประตู
+-chair|chair คือเก้าอี้
+-clock|clock คือนาฬิกา
+!paper = ==กระดาษ== (นับไม่ได้)
+
+R building-signs 1|Signs in the Community Centre
+Ground floor: Reception, Café and Toilets.
+First floor: Computer room (open 9 am to 5 pm) and Meeting rooms 1 and 2.
+Second floor: Library. Please be quiet.
+There is a lift near the front door. The stairs are next to the café.
+No food in the computer room.
+Car park: behind the building. It is free for visitors, but there are only twenty spaces, so please come early on busy days.
+Q Where is the library?
+=on the second floor|Second floor: Library
+-on the ground floor|ชั้นล่างคือแผนกต้อนรับ คาเฟ่ และห้องน้ำ
+-on the first floor|ชั้นหนึ่งคือห้องคอมพิวเตอร์และห้องประชุม
+-behind the building|ข้างหลังอาคารคือที่จอดรถ
+Q Where are the stairs?
+=next to the café|The stairs are next to the café
+-near the front door|ลิฟต์อยู่ใกล้ประตูหน้า
+-in the library|ในบทไม่ได้พูดเช่นนั้น
+-in the car park|ในบทไม่ได้พูดเช่นนั้น
+Q What can't you do in the computer room?
+=eat|No food in the computer room
+-use a computer|ใช้คอมพิวเตอร์ได้
+-talk quietly|ในบทไม่ได้ห้ามพูดเบา ๆ
+-go in at 10 am|เปิด 9 โมงถึง 5 โมงเย็น
+
+L locations 1
+Woman: Excuse me, where's the toilet?
+Man: It's on the first floor, next to the lift.
+Q Where is the toilet?
+=on the first floor|It's on the first floor
+-on the ground floor|ชายบอกว่าชั้นหนึ่ง
+-in the lift|ห้องน้ำอยู่ข้าง ๆ ลิฟต์
+-outside the building|ในบทไม่ได้พูดเช่นนั้น
+
+L room-objects 1
+Man: There are two desks in my office, but there's only one chair.
+Q How many chairs are there in the man's office?
+=one|there's only one chair
+-two|สองคือจำนวนโต๊ะ
+-three|ในบทไม่ได้พูดถึงสาม
+-none|มีเก้าอี้หนึ่งตัว

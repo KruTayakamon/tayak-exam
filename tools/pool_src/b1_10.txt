@@ -1,0 +1,158 @@
+G relative-clauses 1
+The mechanic ____ fixed my motorbike is my cousin.
+=who|แทนคน ใช้ ++who++
+-which|which ใช้กับสิ่งของ
+-where|where ใช้กับสถานที่
+-whose|whose ต้องตามด้วยคำนาม
+!คน ==who== · สิ่งของ which · สถานที่ where
+
+G relative-clauses 1
+This is the café ____ we first met.
+=where|สถานที่ ใช้ ++where++ (= at which)
+-which|which ต้องมี at หรือ in
+-who|who ใช้กับคน
+-whose|whose บอกความเป็นเจ้าของ
+!สถานที่ + ประโยคครบ → ==where==
+
+G relative-clauses 2
+I've lost the umbrella ____ you lent me last week.
+=that|แทนสิ่งของ ใช้ ++that / which++
+-who|who ใช้กับคน
+-where|where ใช้กับสถานที่
+-what|what ไม่ใช้ตามหลังคำนาม
+!สิ่งของ ==that / which== (ละได้ถ้าเป็นกรรม)
+
+G relative-clauses 2
+That's the man ____ car was stolen from the market.
+=whose|เป็นเจ้าของ ++whose + คำนาม++
+-who|ต้องการคำบอกความเป็นเจ้าของ
+-who's|who's = who is ไม่ตรงความหมาย
+-which|which ใช้กับสิ่งของ
+!==whose + คำนาม== = ซึ่ง...ของเขา
+
+G linkers-contrast-reason-purpose 1
+I went to bed early ____ I was very tired.
+=because|เหตุผล + ประโยค ใช้ ++because++
+-because of|because of ตามด้วยคำนาม
+-so|so บอกผล ไม่ใช่เหตุ
+-although|although บอกความขัดแย้ง
+!because + ==ประโยค== · because of + คำนาม
+
+G linkers-contrast-reason-purpose 1
+____ it was raining, we still went for a walk.
+=Although|ขัดแย้ง + ประโยค ใช้ ++although++
+-Despite|despite ตามด้วยคำนามหรือ -ing
+-Because|ไม่ใช่เหตุผล แต่ขัดแย้ง
+-However|however ไม่เชื่อมสองประโยคแบบนี้
+!==although + ประโยค== · despite + คำนาม/-ing
+
+G linkers-contrast-reason-purpose 2
+The flight was cancelled ____ the storm.
+=because of|ตามด้วยคำนาม ใช้ ++because of++
+-because|because ต้องตามด้วยประโยค
+-although|ความหมายไม่ใช่ขัดแย้ง
+-so that|so that บอกจุดประสงค์
+!because of / due to + ==คำนาม==
+
+G linkers-contrast-reason-purpose 2
+I'm saving money ____ I can visit my sister in Australia.
+=so that|จุดประสงค์ + ประโยค ใช้ ++so that++
+-because of|because of ตามด้วยคำนาม
+-although|although บอกความขัดแย้ง
+-in order|in order ต้องมี to ตามมา
+!==so that + ประโยค== · in order to + V1
+
+G linkers-contrast-reason-purpose 2
+____ the high price, the concert tickets sold out in an hour.
+=Despite|ตามด้วยคำนาม ใช้ ++despite++
+-Although|although ต้องตามด้วยประโยค
+-Because of|ราคาแพงไม่ใช่เหตุผลที่ขายหมด
+-So|so บอกผล
+!despite + ==คำนาม / -ing== = แม้ว่า
+
+V opinion-society 1
+In my ____, people should use public transport more.
+=opinion|ความเห็น = ++in my opinion++
+-reason|reason คือเหตุผล
+-purpose|purpose คือจุดประสงค์
+-tradition|tradition คือประเพณี
+!In my opinion, ... = ==ในความเห็นของฉัน==
+
+V opinion-society 1
+Plastic bags are bad for the ____ because they take years to break down.
+=environment|สิ่งแวดล้อม = ++environment++
+-tradition|tradition คือประเพณี
+-culture|culture คือวัฒนธรรม
+-opinion|opinion คือความเห็น
+!the environment = ==สิ่งแวดล้อม==
+
+V opinion-society 2
+The air ____ in the city is very bad in the dry season.
+=pollution|มลพิษ = ++air pollution++
+-community|community คือชุมชน
+-influence|influence คืออิทธิพล
+-society|society คือสังคม
+!air pollution = ==มลพิษทางอากาศ==
+
+V opinion-society 2
+Giving rice to monks in the morning is an old Thai ____.
+=tradition|ประเพณี = ++tradition++
+-pollution|pollution คือมลพิษ
+-environment|environment คือสิ่งแวดล้อม
+-purpose|purpose คือจุดประสงค์
+!tradition = ==ประเพณีที่ทำสืบกันมา==
+
+V opinion-society 2
+Social media has a big ____ on how young people dress.
+=influence|อิทธิพล = ++influence on++
+-reason|reason ใช้ reason for
+-tradition|ไม่ตรงความหมาย
+-community|community คือชุมชน
+!have an influence ==on== = มีอิทธิพลต่อ
+
+V opinion-society 2
+I love all fruit, ____ mangoes.
+=especially|โดยเฉพาะ = ++especially++
+-although|although ต้องตามด้วยประโยค
+-purpose|purpose เป็นคำนาม
+-opinion|opinion เป็นคำนาม
+!especially = ==โดยเฉพาะอย่างยิ่ง==
+
+R three-opinions 2|Should Shops Charge for Plastic Bags?
+Malee, 34: I think it's a good idea. Since my local supermarket started charging one baht per bag, I always bring my own cloth bag. If it costs money, people remember.
+
+Tom, 52: I don't agree. One baht is too little to change anything. The government should ban plastic bags completely, especially in markets, where most of them are used.
+
+Arisa, 21: I understand both sides. Charging is a start, but shops should also give people cheap reusable bags. Many older people don't know where to buy them.
+Q What does Malee do now?
+=she brings a cloth bag|I always bring my own cloth bag
+-she pays for plastic bags|เธอบอกว่าตอนนี้พาถุงผ้าไปเอง
+-she shops at the market|ไม่ได้พูดถึงตลาด
+-she sells cloth bags|ไม่ได้พูดว่าขายถุง
+Q What is Tom's opinion?
+=plastic bags should be banned|should ban plastic bags completely
+-one baht is a fair price|เขาบอกว่าหนึ่งบาทน้อยเกินไป
+-markets should charge more|เขาอยากให้ห้าม ไม่ใช่ขึ้นราคา
+-the idea is good|เขาไม่เห็นด้วย
+Q What does Arisa suggest?
+=selling cheap reusable bags|shops should also give people cheap reusable bags
+-stopping the charge|เธอว่าการเก็บเงินเป็นจุดเริ่ม
+-teaching young people|เธอพูดถึงผู้สูงอายุ
+-closing some markets|ไม่ได้พูดถึงการปิดตลาด
+
+L agree-disagree 2
+Woman: I think we should have the office party at a restaurant this year.
+Man: I'm not sure. Restaurants are expensive. Why don't we have it in the garden?
+Q What does the man think?
+=a restaurant costs too much|Restaurants are expensive
+-the garden is too small|ไม่ได้พูดว่าสวนเล็ก
+-they shouldn't have a party|เขาเสนอที่อื่น ไม่ได้บอกให้ยกเลิก
+-the restaurant is a good idea|เขาไม่แน่ใจ และเสนอสวนแทน
+
+L giving-opinions 2
+Man: Although working from home saves time, I miss talking to my colleagues.
+Q What is the disadvantage of working from home for the man?
+=he misses his colleagues|I miss talking to my colleagues
+-it takes more time|เขาบอกว่าประหยัดเวลา
+-his home is noisy|ไม่ได้พูดว่าบ้านเสียงดัง
+-the internet is slow|ไม่ได้พูดถึงอินเทอร์เน็ต

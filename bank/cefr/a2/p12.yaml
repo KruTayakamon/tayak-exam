@@ -1,0 +1,279 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 12 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w12-043
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 1
+  pool: true
+  stem: "I like tea, ____ my husband prefers coffee."
+  choices:
+    - {t: "but", why: "ต่างกัน ใช้ ++but++"}
+    - {t: "and", why: "and ใช้กับสิ่งที่ไปทางเดียวกัน"}
+    - {t: "so", why: "so บอกผล จึงใช้ไม่ได้"}
+    - {t: "because", why: "because บอกเหตุผล"}
+  explain: "ต่างกัน ==but=="
+  status: approved
+- id: cefr-a2-w12-044
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 1
+  pool: true
+  stem: "It was raining, ____ we stayed at home."
+  choices:
+    - {t: "so", why: "ผลที่ตามมา ใช้ ++so++"}
+    - {t: "because", why: "because บอกเหตุผล ลำดับกลับ"}
+    - {t: "but", why: "ไม่ใช่ความต่าง จึงใช้ไม่ได้"}
+    - {t: "or", why: "or ใช้กับทางเลือก"}
+  explain: "เหตุ, ==so== ผล"
+  status: approved
+- id: cefr-a2-w12-045
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  pool: true
+  stem: "I went to the pharmacy ____ I needed some medicine."
+  choices:
+    - {t: "because", why: "บอกเหตุผล ใช้ ++because++"}
+    - {t: "so", why: "so บอกผล ลำดับกลับ"}
+    - {t: "but", why: "ไม่ใช่ความต่าง จึงใช้ไม่ได้"}
+    - {t: "or", why: "ไม่ใช่ทางเลือก จึงใช้ไม่ได้"}
+  explain: "ผล ==because== เหตุ"
+  status: approved
+- id: cefr-a2-w12-046
+  kind: mcq
+  skill: gm
+  topic: linkers-basic
+  level: 2
+  pool: true
+  stem: "Do you want to go by bus ____ by taxi?"
+  choices:
+    - {t: "or", why: "ทางเลือก ใช้ ++or++"}
+    - {t: "and", why: "ถามให้เลือก ใช้ or"}
+    - {t: "but", why: "ไม่ใช่ความต่าง จึงใช้ไม่ได้"}
+    - {t: "so", why: "ไม่ใช่ผล จึงใช้ไม่ได้"}
+  explain: "ให้เลือก ==A or B?=="
+  status: approved
+- id: cefr-a2-w12-047
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 1
+  pool: true
+  stem: "My sister ____ in a bank. She's a manager."
+  choices:
+    - {t: "works", why: "กิจวัตร she ++เติม s++"}
+    - {t: "work", why: "she ต้องเติม s จึงใช้ไม่ได้"}
+    - {t: "is work", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "working", why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "he/she + ==V-s=="
+  status: approved
+- id: cefr-a2-w12-048
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  pool: true
+  stem: "Last year we ____ to Chiang Rai for our holiday."
+  choices:
+    - {t: "went", why: "อดีตของ go = ++went++"}
+    - {t: "goed", why: "go ไม่เติม ed จึงใช้ไม่ได้"}
+    - {t: "go", why: "last year เป็นอดีต"}
+    - {t: "gone", why: "gone ไม่ใช้ตามลำพัง"}
+  explain: "==go → went=="
+  status: approved
+- id: cefr-a2-w12-049
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  pool: true
+  stem: "This bag is ____ than that one."
+  choices:
+    - {t: "heavier", why: "heavy → ++heavier++"}
+    - {t: "more heavy", why: "heavy เปลี่ยน y เป็น ier"}
+    - {t: "heavyer", why: "ต้องเปลี่ยน y เป็น i"}
+    - {t: "heaviest", why: "มี than ต้องเป็นขั้นกว่า"}
+  explain: "ลงท้าย y → ==ier=="
+  status: approved
+- id: cefr-a2-w12-050
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  pool: true
+  stem: "Listen! Someone ____ at the door."
+  choices:
+    - {t: "is knocking", why: "ตอนนี้กำลังเกิด ++is + -ing++"}
+    - {t: "knocks", why: "listen! บอกว่ากำลังเกิด"}
+    - {t: "knocking", why: "ขาด is จึงใช้ไม่ได้"}
+    - {t: "knock", why: "ต้องเติม s และเป็น -ing"}
+  explain: "Listen! → ==is + -ing=="
+  status: approved
+- id: cefr-a2-w12-051
+  kind: mcq
+  skill: gm
+  topic: review-a2
+  level: 2
+  pool: true
+  stem: "____ there any milk in the fridge?"
+  choices:
+    - {t: "Is", why: "นับไม่ได้ ใช้ ++Is there++"}
+    - {t: "Are", why: "milk นับไม่ได้ ใช้ is"}
+    - {t: "Do", why: "do ไม่ใช้กับ there แบบนี้"}
+    - {t: "Has", why: "has ไม่ใช้กับ there"}
+  explain: "นับไม่ได้ ==Is there any...?=="
+  status: approved
+- id: cefr-a2-w12-052
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  pool: true
+  stem: "I don't know this word. Can I use your ____?"
+  choices:
+    - {t: "dictionary", why: "พจนานุกรม = ++dictionary++"}
+    - {t: "library", why: "library คือห้องสมุด"}
+    - {t: "exercise", why: "exercise คือแบบฝึกหัด"}
+    - {t: "email", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "dictionary = ==พจนานุกรม=="
+  status: approved
+- id: cefr-a2-w12-053
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  pool: true
+  stem: "Can you ____ me your pen? I'll give it back after class."
+  choices:
+    - {t: "lend", why: "ให้ยืม = ++lend someone something++"}
+    - {t: "borrow", why: "borrow คือขอยืม (เราเป็นคนยืม)"}
+    - {t: "choose", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "check", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (check)"}
+  explain: "lend = ==ให้ยืม== · borrow = ยืม"
+  status: approved
+- id: cefr-a2-w12-054
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 1
+  pool: true
+  stem: "Please ____ your answers before you send them."
+  choices:
+    - {t: "check", why: "ตรวจ = ++check++"}
+    - {t: "lend", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "borrow", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (borrow)"}
+    - {t: "explain", why: "ไม่ได้บอกว่าตรวจ"}
+  explain: "check = ==ตรวจสอบ=="
+  status: approved
+- id: cefr-a2-w12-055
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  pool: true
+  stem: "The teacher can ____ this grammar again. I don't understand it."
+  choices:
+    - {t: "explain", why: "อธิบาย = ++explain++"}
+    - {t: "borrow", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "choose", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (choose)"}
+    - {t: "lend", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (lend)"}
+  explain: "explain = ==อธิบาย=="
+  status: approved
+- id: cefr-a2-w12-056
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  pool: true
+  stem: "You can find the timetable on our ____."
+  choices:
+    - {t: "website", why: "เว็บไซต์ = ++website++"}
+    - {t: "dictionary", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "idea", why: "idea คือความคิด"}
+    - {t: "exercise", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (exercise)"}
+  explain: "on the website = ==บนเว็บไซต์=="
+  status: approved
+- id: cefr-a2-w12-057
+  kind: mcq
+  skill: vo
+  topic: study-online
+  level: 2
+  pool: true
+  stem: "That's a great ____! Let's have a picnic on Sunday."
+  choices:
+    - {t: "idea", why: "ความคิด = ++idea++"}
+    - {t: "exercise", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "library", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (library)"}
+    - {t: "email", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (email)"}
+  explain: "That's a good idea! = ==เป็นความคิดที่ดี=="
+  status: approved
+- id: cefr-a2-w12-058
+  kind: read
+  skill: rd
+  topic: email-to-friend
+  level: 1
+  pool: true
+  title: "Email to a Friend"
+  passage: |
+    Hi Ben,
+    How are you? I'm sorry I didn't reply last week. I was very busy because I started a new job at a hotel.
+    I like my new job, but I have to get up at five every day, so I'm always tired! My boss is friendly and my colleagues are helpful.
+    Are you free next weekend? I'd like to visit you in Chiang Mai. I can take the bus on Saturday morning. We can go to the night market.
+    Write soon!
+    Dao
+  questions:
+    - stem: "Why didn't Dao reply last week?"
+      choices:
+        - {t: "she was busy with a new job", why: "I was very busy because I started a new job"}
+        - {t: "she was on holiday", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "she was ill", why: "ในบทไม่ได้พูดเช่นนั้น (she was ill)"}
+        - {t: "she lost her phone", why: "ในบทไม่ได้พูดเช่นนั้น (she lost her phone)"}
+    - stem: "Why is Dao always tired?"
+      choices:
+        - {t: "she gets up very early", why: "I have to get up at five every day"}
+        - {t: "her boss is unfriendly", why: "หัวหน้าเป็นมิตร"}
+        - {t: "she works at night", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "she goes to the night market", why: "เป็นแผนวันหยุด จึงใช้ไม่ได้"}
+    - stem: "How will Dao travel to Chiang Mai?"
+      choices:
+        - {t: "by bus", why: "I can take the bus on Saturday morning"}
+        - {t: "by plane", why: "ในบทไม่ได้พูดถึงเครื่องบิน"}
+        - {t: "by train", why: "ในบทไม่ได้พูดถึงรถไฟ"}
+        - {t: "by car", why: "ในบทไม่ได้พูดถึงรถยนต์"}
+  status: approved
+- id: cefr-a2-w12-059
+  kind: listen
+  skill: li
+  topic: mixed-review
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Did you go to the gym yesterday?"}
+    - {who: Man, en: "No, I didn't. I was tired, so I stayed at home and watched a film."}
+  questions:
+    - stem: "What did the man do yesterday?"
+      choices:
+        - {t: "watched a film at home", why: "stayed at home and watched a film"}
+        - {t: "went to the gym", why: "เขาบอกว่าไม่ได้ไป"}
+        - {t: "went to the cinema", why: "เขาดูหนังที่บ้าน"}
+        - {t: "worked late", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-a2-w12-060
+  kind: listen
+  skill: li
+  topic: study-online
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "Can I borrow your laptop? Mine is broken, and I have to send an email to my teacher."}
+  questions:
+    - stem: "Why does the man want the laptop?"
+      choices:
+        - {t: "to send an email", why: "I have to send an email to my teacher"}
+        - {t: "to watch a film", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "to buy a new one", why: "ในบทไม่ได้พูดเช่นนั้น (to buy a new one)"}
+        - {t: "to play games", why: "ในบทไม่ได้พูดเช่นนั้น (to play games)"}
+  status: approved

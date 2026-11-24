@@ -1,0 +1,158 @@
+G narrative-tenses 2
+By the time the ambulance arrived, a passing nurse ____ first aid to the cyclist.
+=had already given|ทำเสร็จก่อนอีกเหตุการณ์ในอดีต ++had + V3++
+-already gave|ไม่ชัดว่าเกิดก่อนรถพยาบาลมา
+-was already giving|ไม่ได้บอกว่าทำเสร็จแล้ว
+-has already given|เล่าอดีต ใช้ has ไม่ได้
+!by the time + อดีต → ==had + V3== (เกิดก่อน)
+
+G narrative-tenses 2
+I ____ along the beach when I noticed a small turtle stuck in a fishing net.
+=was walking|ฉากหลังกำลังดำเนินอยู่ ++was + -ing++
+-had walked|เดินเสร็จแล้วจะไม่เห็นตอนเดิน
+-walked|ไม่เน้นว่ากำลังเดินอยู่ตอนนั้น
+-have been walking|เล่าอดีต ใช้ have ไม่ได้
+!ฉากหลัง ==was/were + -ing== · เหตุการณ์แทรก past simple
+
+G narrative-tenses 2
+She was exhausted when she got home because she ____ on her feet all day.
+=had been standing|ทำต่อเนื่องก่อนจุดในอดีต ++had been + -ing++
+-has been standing|เล่าอดีต ใช้ has ไม่ได้
+-was standing|ไม่ได้อธิบายว่าเหนื่อยเพราะทำมานาน
+-stood|ไม่เน้นระยะเวลาก่อนกลับบ้าน
+!ต่อเนื่องจนถึงจุดในอดีต → ==had been + -ing==
+
+G narrative-tenses 3
+It was only after I had paid that I realised the shop ____ me the wrong size.
+=had given|เกิดก่อนการรู้ตัว ++had + V3++
+-has given|เล่าอดีต ใช้ has ไม่ได้
+-was giving|ร้านให้ของเสร็จแล้ว ไม่ใช่กำลังให้
+-would give|ไม่ใช่เหตุการณ์ในอนาคต
+!realised that + ==had + V3== = เรื่องที่เกิดก่อน
+
+G past-perfect-continuous-habits 2
+When we were students, we ____ stay up all night before exams, drinking endless cups of coffee.
+=would|นิสัยซ้ำในอดีต ++would + V1++
+-were used to|be used to ต้องตามด้วย -ing
+-had|had stay ผิดรูป
+-used|ต้องเป็น used to
+!นิสัยที่ทำซ้ำในอดีต ==would / used to + V1==
+
+G past-perfect-continuous-habits 2
+The village ____ be much quieter before the new highway was built.
+=used to|สภาพในอดีตที่ไม่เป็นแล้ว ++used to++
+-would|would ไม่ใช้กับสภาพ เช่น be quiet
+-was used to|ไม่ได้หมายถึงคุ้นเคย
+-had been used|รูปผิด และความหมายไม่ตรง
+!สภาพ (be, have, live) ในอดีต ==used to== · would ใช้กับการกระทำ
+
+G past-perfect-continuous-habits 2
+They ____ for over an hour when the waiter finally brought their food.
+=had been waiting|รอต่อเนื่องจนถึงจุดในอดีต ++had been + -ing++
+-were waiting for|ซ้ำ for และไม่บอกระยะเวลาก่อน
+-have waited|เล่าอดีต ใช้ have ไม่ได้
+-waited|ไม่เน้นระยะเวลาก่อนอาหารมา
+!for + ระยะเวลา ก่อนจุดในอดีต → ==had been + -ing==
+
+G past-perfect-continuous-habits 3
+I didn't use to like spicy food, but I ____ it after living in Isan for a year.
+=got used to|เริ่มชินแล้ว ++get used to + คำนาม/-ing++
+-used to|ความหมายคือเคยทำ ไม่ใช่เริ่มชิน
+-would get|would ใช้กับนิสัยซ้ำ
+-was using to|รูปผิด จึงใช้ไม่ได้
+!==get used to== = ค่อย ๆ ชิน · used to = เคย
+
+G past-perfect-continuous-habits 3
+Her eyes were red. It was clear she ____.
+=had been crying|ผลที่เห็นจากการทำต่อเนื่องก่อนหน้า ++had been + -ing++
+-has cried|เล่าอดีต ใช้ has ไม่ได้
+-would cry|ไม่ใช่นิสัยในอดีต
+-had been cried|รูปผิด cry ไม่ใช้ passive แบบนี้
+!ร่องรอยที่เห็น → ==had been + -ing==
+
+V challenge-coping 2
+She found it hard to ____ with the pressure of looking after her parents and working full-time.
+=cope|รับมือ = ++cope with++
+-overcome|overcome ไม่ตามด้วย with
+-reluctant|reluctant เป็นคุณศัพท์
+-eventually|eventually เป็นคำวิเศษณ์
+!cope ==with== = รับมือกับ
+
+V challenge-coping 2
+He managed to ____ his fear of flying by doing a short course.
+=overcome|เอาชนะ = ++overcome a fear++
+-cope|cope ต้องมี with
+-consequence|consequence เป็นคำนาม
+-gradually|gradually เป็นคำวิเศษณ์
+!overcome a problem / fear = ==เอาชนะ==
+
+V challenge-coping 2
+____, I thought the job would be easy, but I soon realised how much there was to learn.
+=Initially|ตอนแรก = ++initially++
+-Eventually|eventually คือในที่สุด ลำดับกลับกัน
+-Gradually|gradually คือค่อย ๆ
+-Frustrated|frustrated เป็นคุณศัพท์
+!==Initially== = ตอนแรก · eventually = ในที่สุด
+
+V challenge-coping 2
+After weeks of searching, they ____ found a flat they could afford.
+=eventually|ในที่สุด = ++eventually++
+-initially|ความหมายตรงข้ามกับ after weeks
+-reluctant|reluctant เป็นคุณศัพท์
+-overwhelmed|overwhelmed เป็นคุณศัพท์
+!eventually = ==ในที่สุด (หลังใช้เวลานาน)==
+
+V challenge-coping 3
+Many staff were ____ to try the new software because they were happy with the old one.
+=reluctant|ไม่เต็มใจ = ++reluctant to++
+-overwhelmed|overwhelmed ไม่ตามด้วย to + V
+-frustrated|ไม่ตรงความหมาย
+-challenge|challenge เป็นคำนาม
+!be reluctant ==to + V1== = ไม่ค่อยเต็มใจ
+
+V challenge-coping 3
+On my first day, I felt completely ____ by all the new names, systems and rules.
+=overwhelmed|ท่วมท้นรับไม่ไหว = ++overwhelmed by++
+-reluctant|reluctant ไม่ใช้ by
+-gradually|gradually เป็นคำวิเศษณ์
+-circumstance|circumstance เป็นคำนาม
+!feel overwhelmed ==by== = รู้สึกรับไม่ไหว
+
+R first-year-story 2|My First Year as a Hospital Pharmacist
+When I started at the hospital, I had just finished university and had never worked night shifts. For the first two months, I was constantly tired, and I would often make small mistakes, such as putting medicine in the wrong drawer.
+
+My supervisor, Khun Duangjai, noticed that I was struggling. Instead of criticising me, she suggested that I write a checklist for every task. Initially I was reluctant, because I thought checklists were for beginners. But I had to admit that I was a beginner.
+
+Gradually, things improved. By the end of the year, I had stopped making the same mistakes, and I had started training new staff myself. Looking back, the biggest challenge wasn't the work itself. It was accepting that I needed help.
+Q What problem did the writer have at the beginning?
+=making small mistakes because of tiredness|constantly tired ... make small mistakes
+-arguing with the supervisor|หัวหน้าช่วยเหลือ ไม่ได้ทะเลาะกัน
+-not finishing university|เขาเพิ่งเรียนจบ
+-being given too few tasks|ไม่ได้พูดว่างานน้อย
+Q Why was the writer reluctant to use a checklist at first?
+=he felt it was for inexperienced staff|I thought checklists were for beginners
+-it took too much time|ไม่ได้พูดว่าเสียเวลา
+-his supervisor didn't use one|ไม่ได้พูดถึงหัวหน้าใช้หรือไม่
+-he had too many tasks to list|ไม่ได้พูดถึงเรื่องนี้
+Q According to the writer, what was hardest?
+=accepting help|It was accepting that I needed help
+-the night shifts|เป็นปัญหาช่วงแรก แต่ไม่ใช่ที่ยากที่สุด
+-training new staff|เป็นสิ่งที่ทำได้ภายหลัง
+-the work itself|เขาบอกว่าไม่ใช่ตัวงาน
+
+L long-narrative 2
+Woman: How did your marathon go?
+Man: Well, I'd been training for months, but two days before the race I twisted my ankle. I still ran, but I had to walk the last ten kilometres.
+Q What happened during the race?
+=he walked the final part|I had to walk the last ten kilometres
+-he didn't start|เขายังลงวิ่ง
+-he won a medal|ไม่ได้พูดถึงเหรียญ
+-he twisted his ankle|เจ็บข้อเท้าก่อนแข่งสองวัน
+
+L long-narrative 2
+Man: We used to have dinner together every evening, but since my daughter started university, we only manage it at weekends.
+Q What has changed for the man's family?
+=they eat together less often|we only manage it at weekends
+-they never eat together now|ยังกินด้วยกันวันหยุด
+-they eat out more often|ไม่ได้พูดถึงการกินนอกบ้าน
+-his daughter cooks dinner|ไม่ได้พูดว่าลูกทำอาหาร

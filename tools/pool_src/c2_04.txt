@@ -1,0 +1,157 @@
+G noun-phrase-complex 2
+The ____ to reduce plastic use has been widely welcomed.
+=government's decision|นามวลี ++คำนามแสดงเจ้าของ + decision++
+-government decides|ไม่ใช่นามวลี
+-decision of government's|ซ้ำความเป็นเจ้าของ
+-government deciding|ไม่ใช่นามวลีที่เป็นธรรมชาติ
+!==the + เจ้าของ's + คำนาม + to...== = นามวลีกระชับ
+
+G noun-phrase-complex 3
+A sharp rise in the ____ of patients waiting for surgery has alarmed doctors.
+=number|นามวลี ++the number of + พหูพจน์++
+-amount|amount ใช้กับนามนับไม่ได้
+-quantity|ไม่เป็นธรรมชาติกับผู้ป่วย
+-numerous|numerous เป็นคุณศัพท์
+!==the number of + พหูพจน์== · the amount of + นับไม่ได้
+
+G noun-phrase-complex 3
+The ____ report on rural schools was released yesterday.
+=long-awaited|คำคุณศัพท์ประสม ++long-awaited++
+-long-awaiting|รายงานไม่ได้เป็นผู้รอ
+-awaited-long|ลำดับคำผิด
+-long awaits|ไม่ใช่คุณศัพท์
+!==long-awaited== = ที่รอคอยมานาน
+
+G noun-phrase-complex 3
+We need a ____ plan that covers the next decade.
+=ten-year|คำคุณศัพท์ประสมจากตัวเลข ++ten-year++ (ไม่เติม s)
+-ten-years|คุณศัพท์ประสมไม่เติม s
+-ten years'|ความหมายไม่ตรงในตำแหน่งนี้
+-tens-year|รูปผิด จึงใช้ไม่ได้
+!ตัวเลข + คำนาม ==เอกพจน์== เป็นคุณศัพท์ (a ten-year plan)
+
+G non-finite-verbless 2
+____ by the scale of the damage, the inspectors called for urgent repairs.
+=Shocked|ย่อ passive ขึ้นต้น ++V3++
+-Shocking|ผู้ตรวจไม่ได้เป็นผู้ทำให้ตกใจ
+-Having shocked|ความหมายเป็น active
+-To shock|ความหมายไม่ตรง
+!==V3 + by...== = เพราะถูก...
+
+G non-finite-verbless 3
+____ unsure of the answer, she asked the teacher.
+=Though|ไม่มีกริยาแท้ ++Though + คุณศัพท์++
+-Despite|despite ไม่ตามด้วยคุณศัพท์
+-In spite|ต้องมี of
+-Nevertheless|ไม่เชื่อมแบบนี้
+!==Though / Although + adj== (ไม่มีกริยา)
+
+G non-finite-verbless 3
+Once ____, the form cannot be changed.
+=submitted|ไม่มีกริยาแท้ ++Once + V3++
+-submitting|ฟอร์มไม่ได้เป็นผู้ส่ง
+-submit|ไม่ใช่รูปนี้
+-been submitted|ขาด having
+!==Once + V3== = เมื่อ...แล้ว
+
+G non-finite-verbless 3
+Her bags ____, she waited by the door for the taxi.
+=packed|absolute clause ++คำนาม + V3++
+-packing|กระเป๋าไม่ได้เป็นผู้จัด
+-were packed|ทำให้เป็นสองประโยคเชื่อมผิด
+-to pack|ความหมายไม่ตรง
+!==คำนาม + V3, ประโยคหลัก== = เมื่อ...เสร็จแล้ว
+
+G non-finite-verbless 3
+The building, ____ in 1890, is the oldest in the town.
+=completed|ขยายแบบย่อ ++V3++ (= which was completed)
+-completing|อาคารไม่ได้เป็นผู้สร้าง
+-was completed|ไม่ใช่กริยาแท้ของประโยค
+-having completed|ความหมายเป็น active
+!==คำนาม, V3 ...,== = ซึ่งถูก...
+
+V change-consequence 2
+The ____ of fake news online has made people distrust the media.
+=proliferation|การแพร่กระจาย = ++proliferation of++
+-cessation|cessation คือการหยุด
+-inception|inception คือการเริ่มต้น
+-trajectory|trajectory คือทิศทาง
+!proliferation = ==การเพิ่มจำนวนอย่างรวดเร็ว==
+
+V change-consequence 2
+Since its ____ in 2010, the charity has helped 50,000 families.
+=inception|การก่อตั้งเริ่มต้น = ++since its inception++
+-cessation|ความหมายกลับกัน
+-attrition|attrition คือการลดลงเรื่อย ๆ
+-corollary|corollary คือผลที่ตามมา
+!inception = ==จุดเริ่มต้น==
+
+V change-consequence 3
+High staff ____ means we are always training new people.
+=attrition|การลาออกลดลงเรื่อย ๆ = ++staff attrition++
+-proliferation|ไม่ตรงความหมาย
+-inception|ไม่ตรงความหมาย
+-precedent|precedent คือแบบอย่างก่อนหน้า
+!attrition = ==การสูญเสีย (พนักงาน) ทีละน้อย==
+
+V change-consequence 3
+Fluent English is a ____ for this job.
+=prerequisite|สิ่งที่ต้องมีก่อน = ++prerequisite for++
+-precedent|precedent คือแบบอย่าง
+-ramification|ramification คือผลกระทบ
+-upheaval|upheaval คือความวุ่นวาย
+!prerequisite = ==คุณสมบัติที่จำเป็นต้องมี==
+
+V change-consequence 3
+The court's decision sets an important ____ for similar cases.
+=precedent|บรรทัดฐาน = ++set a precedent++
+-prerequisite|ไม่ตรงความหมาย
+-cessation|ไม่ตรงความหมาย
+-manifestation|ไม่ตรงความหมาย
+!set a precedent = ==สร้างบรรทัดฐาน==
+
+V change-consequence 3
+The company's growth ____ suggests it will double in size by 2030.
+=trajectory|ทิศทางแนวโน้ม = ++growth trajectory++
+-upheaval|upheaval คือความวุ่นวาย
+-erosion|erosion คือการกัดกร่อน
+-attrition|ไม่ตรงความหมาย
+!trajectory = ==เส้นทาง ทิศทางการเปลี่ยนแปลง==
+
+R research-abstract 2|Abstract (Fictional): Teacher Attrition in Rural Thailand
+This study examines the causes of teacher attrition in 42 rural schools between 2018 and 2023. Data were drawn from employment records and interviews with 120 current and former teachers.
+
+The findings indicate that attrition was highest in the first three years of service, with nearly one in four new teachers leaving their post. Isolation and limited professional development emerged as more significant factors than salary. Teachers who had a mentor during their first year were considerably less likely to leave.
+
+The study concludes that mentoring should be treated not as an optional extra but as a prerequisite for sustainable staffing. Further research is needed to establish whether online mentoring can achieve similar results in very remote areas.
+Q When were teachers most likely to leave?
+=in their first three years|attrition was highest in the first three years of service
+-after ten years|ในบทไม่ได้พูดเช่นนั้น
+-just before retirement|ในบทไม่ได้พูดถึง
+-in 2023 only|ปี 2023 คือจุดสิ้นสุดของการศึกษา
+Q Which factor mattered more than salary?
+=isolation and lack of training|Isolation and limited professional development
+-the size of the school|ในบทไม่ได้พูดถึง
+-the length of the holidays|ในบทไม่ได้พูดถึง
+-the number of students per class|ในบทไม่ได้พูดถึง
+Q What remains unknown?
+=whether online mentoring works as well|Further research is needed ... online mentoring
+-whether mentoring helps at all|การศึกษาพบว่าช่วยได้
+-why salary is important|ในบทไม่ได้พูดเช่นนั้น
+-how many schools took part|ระบุแล้ว 42 โรงเรียน
+
+L research-presentation 2
+Woman: The data, collected over five years, point to a steady erosion of public trust, though the decline appears to have slowed since 2022.
+Q What does the speaker say about recent trends?
+=trust is still falling but more slowly|the decline appears to have slowed since 2022
+-trust has risen sharply|ความหมายกลับกัน
+-trust stopped falling in 2018|ในบทไม่ได้พูดเช่นนั้น
+-there is no data after 2022|ในบทไม่ได้พูดเช่นนั้น
+
+L change-consequence 2
+Man: The ramifications of the new tax won't be clear for at least a year.
+Q What does the man mean?
+=it is too early to know the effects|won't be clear for at least a year
+-the tax has been cancelled|ในบทไม่ได้พูดเช่นนั้น
+-the effects are already obvious|ความหมายกลับกัน
+-the tax will last only a year|ในบทไม่ได้พูดเช่นนั้น

@@ -1,0 +1,157 @@
+G tone-register 2
+Which reply is the most appropriate in a formal complaint letter?
+=I would be grateful if you could look into this matter.|ทางการและสุภาพ ++I would be grateful if...++
+-Sort this out now, please.|ห้วนเกินไปสำหรับจดหมายทางการ
+-Can you fix it or what?|เป็นกันเองและไม่สุภาพ
+-Hope you'll do something, cheers.|เป็นกันเองเกินไป
+!จดหมายทางการ ==I would be grateful if you could...==
+
+G tone-register 2
+"I'm afraid that won't be possible." The tone of this sentence is ____.
+=politely firm|ปฏิเสธชัดแต่สุภาพ ++I'm afraid...++
+-very angry|ไม่มีคำแสดงความโกรธ
+-uncertain|ไม่ได้ลังเล ปฏิเสธชัด
+-friendly and casual|ไม่ใช่น้ำเสียงเป็นกันเอง
+!==I'm afraid...== = ปฏิเสธอย่างสุภาพแต่หนักแน่น
+
+G tone-register 3
+Which sentence sounds the least direct?
+=I was wondering whether we might discuss the schedule.|อ้อมและสุภาพที่สุด ++I was wondering whether...++
+-We need to discuss the schedule.|ตรงไปตรงมา
+-Let's talk about the schedule now.|ตรงและเร่ง
+-Discuss the schedule with me.|เป็นคำสั่ง
+!ยิ่งอ้อมยิ่งสุภาพ ==I was wondering whether we might...==
+
+G tone-register 3
+"With all due respect, your figures seem to be out of date." The speaker is ____.
+=disagreeing politely|แย้งอย่างสุภาพ ++With all due respect++
+-agreeing completely|ความหมายกลับกัน
+-apologising|ไม่ได้ขอโทษ
+-giving praise|ไม่ได้ชม
+!==With all due respect== = (แย้ง) ด้วยความเคารพ
+
+G unreal-past-structures 2
+I'd sooner you ____ my car without asking me first.
+=didn't borrow|อยากให้คนอื่นไม่ทำ ++I'd sooner + อดีต++
+-don't borrow|หลัง I'd sooner + คน ใช้อดีต
+-won't borrow|ไม่ใช้ will หลังสำนวนนี้
+-not borrow|ขาดกริยาช่วย
+!==I'd sooner / I'd rather + คน + อดีต==
+
+G unreal-past-structures 3
+If only I ____ to my mother's advice when I was younger!
+=had listened|เสียใจเรื่องอดีต ++If only + had + V3++
+-listened|ต้องเป็นอดีตสมบูรณ์เมื่อพูดถึงอดีต
+-would listen|ไม่ใช้ would กับการกระทำของตัวเองในอดีต
+-have listened|ไม่ใช่รูปหลัง if only
+!==If only + had + V3== = ถ้าเพียงแต่...(อดีต)
+
+G unreal-past-structures 3
+He talks as though he ____ the whole project by himself, but we all helped.
+=had done|ทำเหมือนกับว่า (ไม่จริง อดีต) ++as though + had + V3++
+-has done|ไม่ใช่รูปของสิ่งที่ไม่จริง
+-does|ต้องถอยกาลเมื่อไม่จริง
+-would do|ความหมายไม่ตรง
+!==as if / as though + had + V3== = ราวกับว่าได้...
+
+G unreal-past-structures 3
+Suppose the plane ____ on time; would we have made the connection?
+=had landed|สมมติอดีต ++suppose + had + V3++
+-landed|ผลเป็น would have จึงต้องใช้ had + V3
+-lands|ไม่ใช่รูปสมมติ
+-would land|หลัง suppose ไม่ใช้ would
+!==Suppose / Supposing + had + V3==, would have + V3?
+
+G unreal-past-structures 3
+It's about time the council ____ the broken streetlights.
+=repaired|ถึงเวลาแล้ว ++It's about time + อดีต++
+-repairs|หลังสำนวนนี้ใช้อดีต
+-will repair|ไม่ใช้ will หลังสำนวนนี้
+-has repaired|ไม่ใช่รูปของสำนวนนี้
+!==It's (about/high) time + อดีต== = ถึงเวลาแล้วที่ควร
+
+V attitude-character 2
+He was ____ about the mistake and explained exactly what had gone wrong.
+=candid|ตรงไปตรงมา = ++candid++
+-complacent|complacent คือพอใจจนประมาท
+-condescending|condescending คือดูถูก
+-cynical|cynical คือมองโลกในแง่ร้าย
+!candid = ==เปิดเผยตรงไปตรงมา==
+
+V attitude-character 2
+After ten years at the top, the company became ____ and stopped improving its products.
+=complacent|พอใจจนประมาท = ++complacent++
+-meticulous|meticulous คือพิถีพิถัน
+-candid|candid คือตรงไปตรงมา
+-astute|astute คือฉลาดหลักแหลม
+!complacent = ==ชะล่าใจ พอใจจนไม่พัฒนา==
+
+V attitude-character 3
+She was ____ that she would not sign the contract until it was changed.
+=adamant|แน่วแน่ไม่ยอม = ++adamant that++
+-indifferent|indifferent คือไม่สนใจ
+-pragmatic|pragmatic คือมองตามความเป็นจริง
+-scrupulous|ไม่ตรงความหมาย
+!adamant = ==ยืนกรานหนักแน่น==
+
+V attitude-character 3
+The editor is ____ about checking facts; not a single error gets past her.
+=meticulous|ละเอียดถี่ถ้วน = ++meticulous++
+-complacent|ความหมายกลับกัน
+-cynical|ไม่ตรงความหมาย
+-indifferent|ความหมายกลับกัน
+!meticulous = ==พิถีพิถันทุกรายละเอียด==
+
+V attitude-character 3
+Rather than waiting for the perfect solution, the team took a ____ approach.
+=pragmatic|มองตามความเป็นจริง = ++pragmatic++
+-dogmatic|dogmatic คือยึดติดหัวชนฝา
+-condescending|condescending คือดูถูก
+-adamant|ไม่ตรงความหมาย
+!pragmatic = ==เน้นทำได้จริง==
+
+V attitude-character 3
+I hate the way he speaks to new staff, as if they were children. He's so ____.
+=condescending|วางท่าดูถูก = ++condescending++
+-candid|candid คือตรงไปตรงมา
+-diligent|diligent คือขยัน
+-astute|astute คือฉลาดหลักแหลม
+!condescending = ==ทำตัวเหนือกว่า ดูถูก==
+
+R opinion-column 2|Column: Stop Telling Me to "Just Relax"
+Every January, I am told that the secret to a better life is to relax more. Magazines suggest yoga, candles and "digital detox" weekends. All very nice, I'm sure, if you have the time and money.
+
+But for many working parents I know, the problem isn't that we don't know how to relax. It's that we have no time to do it. Telling an exhausted nurse on a double shift to "practise mindfulness" is, frankly, a little condescending.
+
+What would genuinely help? Shorter commutes, affordable childcare and employers who don't send emails at midnight. I am not cynical about wellbeing; I simply think it is about time we stopped treating a social problem as a personal failing.
+Q What is the writer's attitude to typical relaxation advice?
+=it is unrealistic for many people|if you have the time and money
+-it is very useful for everyone|ผู้เขียนไม่เห็นด้วย
+-it is too expensive to print|ในบทไม่ได้พูดถึง
+-it should be compulsory|ในบทไม่ได้พูดถึง
+Q Why does the writer mention the nurse?
+=to show that the advice ignores real pressures|Telling an exhausted nurse ... is ... condescending
+-to praise nurses' mindfulness|ในบทไม่ได้พูดเช่นนั้น
+-to suggest nurses need yoga|ความหมายกลับกัน
+-to complain about how hospitals treat their staff|ในบทไม่ได้พูดถึงโรงพยาบาล
+Q What does the writer think the real problem is?
+=social conditions|stopped treating a social problem as a personal failing
+-people's laziness|ในบทไม่ได้พูดเช่นนั้น
+-a lack of candles|เป็นการประชด
+-too much yoga|ในบทไม่ได้พูดเช่นนั้น
+
+L implied-meaning 2
+Woman: Oh, wonderful. Another meeting about reducing the number of meetings.
+Q How does the woman feel?
+=irritated|เป็นการประชด ไม่ได้ดีใจจริง
+-delighted|คำว่า wonderful เป็นการประชด
+-confused|ไม่ได้แสดงความสับสน
+-grateful|ไม่ได้ขอบคุณ
+
+L implied-meaning 2
+Man: Well, the presentation was certainly... long.
+Q What does the man suggest about the presentation?
+=it wasn't very good|เว้นจังหวะแล้วพูดแค่ long = ไม่ค่อยดี
+-it was excellent|ไม่ได้ชม
+-it was too short|ความหมายกลับกัน
+-it was given in English|ในบทไม่ได้พูดถึงภาษา

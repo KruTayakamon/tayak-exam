@@ -1,0 +1,159 @@
+G linkers-basic 1
+I like tea, ____ my husband prefers coffee.
+=but|ต่างกัน ใช้ ++but++
+-and|and ใช้กับสิ่งที่ไปทางเดียวกัน
+-so|so บอกผล
+-because|because บอกเหตุผล
+!ต่างกัน ==but==
+
+G linkers-basic 1
+It was raining, ____ we stayed at home.
+=so|ผลที่ตามมา ใช้ ++so++
+-because|because บอกเหตุผล ลำดับกลับ
+-but|ไม่ใช่ความต่าง
+-or|or ใช้กับทางเลือก
+!เหตุ, ==so== ผล
+
+G linkers-basic 2
+I went to the pharmacy ____ I needed some medicine.
+=because|บอกเหตุผล ใช้ ++because++
+-so|so บอกผล ลำดับกลับ
+-but|ไม่ใช่ความต่าง
+-or|ไม่ใช่ทางเลือก
+!ผล ==because== เหตุ
+
+G linkers-basic 2
+Do you want to go by bus ____ by taxi?
+=or|ทางเลือก ใช้ ++or++
+-and|ถามให้เลือก ใช้ or
+-but|ไม่ใช่ความต่าง
+-so|ไม่ใช่ผล
+!ให้เลือก ==A or B?==
+
+G review-a2 1
+My sister ____ in a bank. She's a manager.
+=works|กิจวัตร she ++เติม s++
+-work|she ต้องเติม s
+-is work|รูปผิด จึงใช้ไม่ได้
+-working|ขาดกริยาแท้
+!he/she + ==V-s==
+
+G review-a2 2
+Last year we ____ to Chiang Rai for our holiday.
+=went|อดีตของ go = ++went++
+-goed|go ไม่เติม ed
+-go|last year เป็นอดีต
+-gone|gone ไม่ใช้ตามลำพัง
+!==go → went==
+
+G review-a2 2
+This bag is ____ than that one.
+=heavier|heavy → ++heavier++
+-more heavy|heavy เปลี่ยน y เป็น ier
+-heavyer|ต้องเปลี่ยน y เป็น i
+-heaviest|มี than ต้องเป็นขั้นกว่า
+!ลงท้าย y → ==ier==
+
+G review-a2 2
+Listen! Someone ____ at the door.
+=is knocking|ตอนนี้กำลังเกิด ++is + -ing++
+-knocks|listen! บอกว่ากำลังเกิด
+-knocking|ขาด is
+-knock|ต้องเติม s และเป็น -ing
+!Listen! → ==is + -ing==
+
+G review-a2 2
+____ there any milk in the fridge?
+=Is|นับไม่ได้ ใช้ ++Is there++
+-Are|milk นับไม่ได้ ใช้ is
+-Do|do ไม่ใช้กับ there แบบนี้
+-Has|has ไม่ใช้กับ there
+!นับไม่ได้ ==Is there any...?==
+
+V study-online 1
+I don't know this word. Can I use your ____?
+=dictionary|พจนานุกรม = ++dictionary++
+-library|library คือห้องสมุด
+-exercise|exercise คือแบบฝึกหัด
+-email|ไม่ตรงความหมาย
+!dictionary = ==พจนานุกรม==
+
+V study-online 1
+Can you ____ me your pen? I'll give it back after class.
+=lend|ให้ยืม = ++lend someone something++
+-borrow|borrow คือขอยืม (เราเป็นคนยืม)
+-choose|ไม่ตรงความหมาย
+-check|ไม่ตรงความหมาย
+!lend = ==ให้ยืม== · borrow = ยืม
+
+V study-online 1
+Please ____ your answers before you send them.
+=check|ตรวจ = ++check++
+-lend|ไม่ตรงความหมาย
+-borrow|ไม่ตรงความหมาย
+-explain|ไม่ได้บอกว่าตรวจ
+!check = ==ตรวจสอบ==
+
+V study-online 2
+The teacher can ____ this grammar again. I don't understand it.
+=explain|อธิบาย = ++explain++
+-borrow|ไม่ตรงความหมาย
+-choose|ไม่ตรงความหมาย
+-lend|ไม่ตรงความหมาย
+!explain = ==อธิบาย==
+
+V study-online 2
+You can find the timetable on our ____.
+=website|เว็บไซต์ = ++website++
+-dictionary|ไม่ตรงความหมาย
+-idea|idea คือความคิด
+-exercise|ไม่ตรงความหมาย
+!on the website = ==บนเว็บไซต์==
+
+V study-online 2
+That's a great ____! Let's have a picnic on Sunday.
+=idea|ความคิด = ++idea++
+-exercise|ไม่ตรงความหมาย
+-library|ไม่ตรงความหมาย
+-email|ไม่ตรงความหมาย
+!That's a good idea! = ==เป็นความคิดที่ดี==
+
+R email-to-friend 1|Email to a Friend
+Hi Ben,
+How are you? I'm sorry I didn't reply last week. I was very busy because I started a new job at a hotel.
+I like my new job, but I have to get up at five every day, so I'm always tired! My boss is friendly and my colleagues are helpful.
+Are you free next weekend? I'd like to visit you in Chiang Mai. I can take the bus on Saturday morning. We can go to the night market.
+Write soon!
+Dao
+Q Why didn't Dao reply last week?
+=she was busy with a new job|I was very busy because I started a new job
+-she was on holiday|ในบทไม่ได้พูดเช่นนั้น
+-she was ill|ในบทไม่ได้พูดเช่นนั้น
+-she lost her phone|ในบทไม่ได้พูดเช่นนั้น
+Q Why is Dao always tired?
+=she gets up very early|I have to get up at five every day
+-her boss is unfriendly|หัวหน้าเป็นมิตร
+-she works at night|ในบทไม่ได้พูดเช่นนั้น
+-she goes to the night market|เป็นแผนวันหยุด
+Q How will Dao travel to Chiang Mai?
+=by bus|I can take the bus on Saturday morning
+-by plane|ในบทไม่ได้พูดถึงเครื่องบิน
+-by train|ในบทไม่ได้พูดถึงรถไฟ
+-by car|ในบทไม่ได้พูดถึงรถยนต์
+
+L mixed-review 1
+Woman: Did you go to the gym yesterday?
+Man: No, I didn't. I was tired, so I stayed at home and watched a film.
+Q What did the man do yesterday?
+=watched a film at home|stayed at home and watched a film
+-went to the gym|เขาบอกว่าไม่ได้ไป
+-went to the cinema|เขาดูหนังที่บ้าน
+-worked late|ในบทไม่ได้พูดเช่นนั้น
+
+L study-online 1
+Man: Can I borrow your laptop? Mine is broken, and I have to send an email to my teacher.
+Q Why does the man want the laptop?
+=to send an email|I have to send an email to my teacher
+-to watch a film|ในบทไม่ได้พูดเช่นนั้น
+-to buy a new one|ในบทไม่ได้พูดเช่นนั้น
+-to play games|ในบทไม่ได้พูดเช่นนั้น

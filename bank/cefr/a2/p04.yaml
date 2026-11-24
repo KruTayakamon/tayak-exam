@@ -1,0 +1,279 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 4 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w04-043
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  pool: true
+  stem: "The cooking class starts ____ 2 pm."
+  choices:
+    - {t: "at", why: "เวลาที่เป็นจุด ใช้ ++at++"}
+    - {t: "on", why: "on ใช้กับวัน จึงใช้ไม่ได้"}
+    - {t: "in", why: "in ใช้กับเดือน ปี ช่วงของวัน"}
+    - {t: "to", why: "to ไม่ใช้บอกเวลาเริ่ม"}
+  explain: "เวลา ==at 2 pm== · วัน on Monday · เดือน in May"
+  status: approved
+- id: cefr-a2-w04-044
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 1
+  pool: true
+  stem: "My birthday is ____ June."
+  choices:
+    - {t: "in", why: "เดือน ใช้ ++in++"}
+    - {t: "on", why: "on ใช้กับวันที่หรือวัน"}
+    - {t: "at", why: "at ใช้กับเวลา จึงใช้ไม่ได้"}
+    - {t: "by", why: "by ไม่ได้แปลว่าในเดือน"}
+  explain: "เดือน/ปี → ==in=="
+  status: approved
+- id: cefr-a2-w04-045
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  pool: true
+  stem: "\"____ is the meeting?\" \"It's in Room 4.\""
+  choices:
+    - {t: "Where", why: "ถามสถานที่ ++Where++"}
+    - {t: "When", why: "when ถามเวลา จึงใช้ไม่ได้"}
+    - {t: "What time", why: "what time ถามเวลา"}
+    - {t: "Who", why: "who ถามคน จึงใช้ไม่ได้"}
+  explain: "สถานที่ ==Where== · เวลา When / What time"
+  status: approved
+- id: cefr-a2-w04-046
+  kind: mcq
+  skill: gm
+  topic: time-prepositions-wh
+  level: 2
+  pool: true
+  stem: "I go swimming ____ Sunday mornings."
+  choices:
+    - {t: "on", why: "วัน (รวมช่วงของวัน) ใช้ ++on++"}
+    - {t: "in", why: "in the morning ใช้ได้ แต่มี Sunday ต้องใช้ on"}
+    - {t: "at", why: "at ใช้กับเวลา จึงใช้ไม่ได้"}
+    - {t: "by", why: "by ไม่ใช้ตรงนี้"}
+  explain: "==on + วัน== (on Sunday mornings)"
+  status: approved
+- id: cefr-a2-w04-047
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 1
+  pool: true
+  stem: "My grandfather is eighty, but he ____ swim very well."
+  choices:
+    - {t: "can", why: "ทำได้ ++can + V1++"}
+    - {t: "cans", why: "can ไม่เติม s จึงใช้ไม่ได้"}
+    - {t: "can to", why: "หลัง can ไม่มี to"}
+    - {t: "is can", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==can + V1== (ไม่เติม s ไม่มี to)"
+  status: approved
+- id: cefr-a2-w04-048
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 1
+  pool: true
+  stem: "____ your shoes before you go into the temple, please."
+  choices:
+    - {t: "Take off", why: "คำสั่ง ใช้ ++กริยาช่อง 1++ ขึ้นต้น"}
+    - {t: "Takes off", why: "คำสั่งไม่เติม s"}
+    - {t: "To take off", why: "คำสั่งไม่มี to จึงใช้ไม่ได้"}
+    - {t: "Taking off", why: "คำสั่งไม่ใช้ -ing"}
+  explain: "คำสั่ง = ==V1 ขึ้นต้นประโยค=="
+  status: approved
+- id: cefr-a2-w04-049
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  pool: true
+  stem: "____ run in the corridor. It's dangerous."
+  choices:
+    - {t: "Don't", why: "คำสั่งห้าม ++Don't + V1++"}
+    - {t: "No", why: "no ไม่ใช้นำหน้ากริยาแบบนี้"}
+    - {t: "Not", why: "ต้องเป็น don't จึงใช้ไม่ได้"}
+    - {t: "Doesn't", why: "คำสั่งใช้ don't เสมอ"}
+  explain: "ห้าม = ==Don't + V1=="
+  status: approved
+- id: cefr-a2-w04-050
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  pool: true
+  stem: "\"____ your son ride a bicycle?\" \"Yes, he learned last year.\""
+  choices:
+    - {t: "Can", why: "ถามความสามารถ ++Can you...?++"}
+    - {t: "Is", why: "is ไม่ตามด้วย ride"}
+    - {t: "Does to", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "Has", why: "has ไม่ตามด้วย ride"}
+  explain: "ถามว่าทำได้ไหม ==Can + ประธาน + V1?=="
+  status: approved
+- id: cefr-a2-w04-051
+  kind: mcq
+  skill: gm
+  topic: can-imperatives
+  level: 2
+  pool: true
+  stem: "Sorry, I ____ come to the party. I'm working."
+  choices:
+    - {t: "can't", why: "ทำไม่ได้ ++can't + V1++"}
+    - {t: "don't can", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "not can", why: "รูปผิด จึงใช้ไม่ได้ (not can)"}
+    - {t: "can't to", why: "หลัง can't ไม่มี to"}
+  explain: "ทำไม่ได้ = ==can't + V1=="
+  status: approved
+- id: cefr-a2-w04-052
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  pool: true
+  stem: "I don't work on Saturday or Sunday. I love the ____!"
+  choices:
+    - {t: "weekend", why: "เสาร์อาทิตย์ = ++weekend++"}
+    - {t: "week", why: "week คือทั้งสัปดาห์"}
+    - {t: "today", why: "today คือวันนี้"}
+    - {t: "lesson", why: "lesson คือบทเรียน"}
+  explain: "weekend = ==วันหยุดสุดสัปดาห์=="
+  status: approved
+- id: cefr-a2-w04-053
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  pool: true
+  stem: "The museum is ____ on Mondays. You can't go in."
+  choices:
+    - {t: "closed", why: "ปิด = ++closed++"}
+    - {t: "open", why: "ความหมายกลับกัน"}
+    - {t: "help", why: "help เป็นกริยา จึงใช้ไม่ได้"}
+    - {t: "listen", why: "listen เป็นกริยา"}
+  explain: "closed = ==ปิด== · open = เปิด"
+  status: approved
+- id: cefr-a2-w04-054
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 1
+  pool: true
+  stem: "The festival is on Friday and Saturday, so it's at the ____."
+  choices:
+    - {t: "weekend", why: "ช่วงปลายสัปดาห์ = ++at the weekend++"}
+    - {t: "today", why: "today ไม่ใช้กับ at the"}
+    - {t: "tomorrow", why: "tomorrow ไม่ใช้กับ at the"}
+    - {t: "lesson", why: "lesson คือบทเรียน"}
+  explain: "at the weekend = ==ช่วงสุดสัปดาห์=="
+  status: approved
+- id: cefr-a2-w04-055
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  pool: true
+  stem: "Please ____ to the teacher. She's explaining the homework."
+  choices:
+    - {t: "listen", why: "ฟัง = ++listen to++"}
+    - {t: "speak", why: "speak to the teacher ความหมายไม่ตรง"}
+    - {t: "close", why: "close เป็นการปิด"}
+    - {t: "open", why: "open เป็นการเปิด"}
+  explain: "listen ==to== = ฟัง"
+  status: approved
+- id: cefr-a2-w04-056
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  pool: true
+  stem: "Can you ____ me? This box is very heavy."
+  choices:
+    - {t: "help", why: "ช่วย = ++help me++"}
+    - {t: "listen", why: "listen ต้องมี to"}
+    - {t: "speak", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "close", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (close)"}
+  explain: "Can you help me? = ==ช่วยฉันหน่อยได้ไหม=="
+  status: approved
+- id: cefr-a2-w04-057
+  kind: mcq
+  skill: vo
+  topic: time-lessons
+  level: 2
+  pool: true
+  stem: "Look at the ____. Our English class is on Wednesday at 6."
+  choices:
+    - {t: "timetable", why: "ตารางเวลา = ++timetable++"}
+    - {t: "subject", why: "subject คือวิชา"}
+    - {t: "weekend", why: "weekend คือวันหยุด"}
+    - {t: "tomorrow", why: "tomorrow คือพรุ่งนี้"}
+  explain: "timetable = ==ตารางเวลา=="
+  status: approved
+- id: cefr-a2-w04-058
+  kind: read
+  skill: rd
+  topic: weekly-timetable
+  level: 1
+  pool: true
+  title: "Sunny Sports Club: Weekly Timetable"
+  passage: |
+    Monday: Swimming for children, 4 pm to 5 pm
+    Tuesday: Yoga for adults, 6 pm to 7 pm
+    Wednesday: Football for teenagers, 5 pm to 6.30 pm
+    Thursday: Swimming for adults, 7 pm to 8 pm
+    Friday: The club is closed.
+    Saturday and Sunday: Open swimming for everyone, 9 am to 12 pm
+    Please come ten minutes early and bring a towel and a bottle of water. Children under eight must come with an adult.
+  questions:
+    - stem: "When can adults go swimming in the evening?"
+      choices:
+        - {t: "on Thursday", why: "Thursday: Swimming for adults, 7 pm to 8 pm"}
+        - {t: "on Monday", why: "วันจันทร์ว่ายน้ำสำหรับเด็ก"}
+        - {t: "on Friday", why: "วันศุกร์คลับปิด"}
+        - {t: "on Tuesday", why: "วันอังคารเป็นโยคะ"}
+    - stem: "What is on Wednesday?"
+      choices:
+        - {t: "football", why: "Wednesday: Football for teenagers"}
+        - {t: "yoga", why: "โยคะคือวันอังคาร"}
+        - {t: "swimming for children", why: "เป็นวันจันทร์ จึงใช้ไม่ได้"}
+        - {t: "nothing", why: "มีกิจกรรมฟุตบอล"}
+    - stem: "Who must come with an adult?"
+      choices:
+        - {t: "children under eight", why: "Children under eight must come with an adult"}
+        - {t: "all teenagers", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "everyone on Saturday", why: "ในบทไม่ได้พูดเช่นนั้น (everyone on Saturday)"}
+        - {t: "yoga students", why: "ในบทไม่ได้พูดเช่นนั้น (yoga students)"}
+  status: approved
+- id: cefr-a2-w04-059
+  kind: listen
+  skill: li
+  topic: announcements
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Good morning, everyone. The library is closed today. It opens again tomorrow at nine."}
+  questions:
+    - stem: "When does the library open again?"
+      choices:
+        - {t: "tomorrow at nine", why: "It opens again tomorrow at nine"}
+        - {t: "today at nine", why: "วันนี้ห้องสมุดปิด"}
+        - {t: "tomorrow afternoon", why: "เปิดเก้าโมงเช้า"}
+        - {t: "next week", why: "ในบทไม่ได้พูดถึงสัปดาห์หน้า"}
+  status: approved
+- id: cefr-a2-w04-060
+  kind: listen
+  skill: li
+  topic: time-lessons
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "I can't come to the lesson on Friday. Can I come on Saturday?"}
+  questions:
+    - stem: "Which lesson can't the man go to?"
+      choices:
+        - {t: "Friday's lesson", why: "I can't come to the lesson on Friday"}
+        - {t: "Saturday's lesson", why: "เขาถามว่าวันเสาร์มาได้ไหม"}
+        - {t: "Monday's lesson", why: "ในบทไม่ได้พูดถึงวันจันทร์"}
+        - {t: "every lesson", why: "ไม่ได้บอกว่าทุกครั้ง"}
+  status: approved

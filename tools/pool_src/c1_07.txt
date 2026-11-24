@@ -1,0 +1,157 @@
+G advanced-linking 2
+The project was completed on time; ____, it came in under budget.
+=what is more|เพิ่มข้อดีอีกข้อ ++what is more++
+-on the contrary|on the contrary ใช้แย้งข้อความก่อน
+-nonetheless|nonetheless บอกความขัดแย้ง
+-hence|hence บอกผล
+!==What is more / Furthermore== = ยิ่งไปกว่านั้น
+
+G advanced-linking 3
+The evidence is limited. ____, the conclusions should be treated with caution.
+=Hence|ด้วยเหตุนี้ (ทางการ) ++Hence++
+-Whereas|whereas ไม่ขึ้นต้นประโยคแบบนี้
+-Notwithstanding|ต้องมีคำนามตาม
+-Albeit|albeit ไม่ขึ้นต้นประโยค
+!==Hence / Thus== = ด้วยเหตุนี้ (ทางการ)
+
+G advanced-linking 3
+The plan was approved, ____ with some reluctance.
+=albeit|แม้ว่า (ย่อ) ++albeit + คำ/วลี++
+-although|although ต้องตามด้วยประโยค
+-despite|despite ไม่ใช้ with แบบนี้
+-whereas|ความหมายไม่ตรง
+!==albeit + คำ/วลี== = แม้จะ...ก็ตาม (ทางการ)
+
+G advanced-linking 3
+I don't think the meeting was a waste of time. ____, it was the most useful one this year.
+=On the contrary|แย้งความเห็นก่อนหน้า ++On the contrary++
+-In contrast|in contrast เปรียบสองสิ่ง ไม่ได้แย้ง
+-Conversely|conversely คือกลับกัน ไม่ตรง
+-Nevertheless|ไม่ได้บอกความขัดแย้งแบบนี้
+!==On the contrary== = ตรงกันข้ามเลย (แย้งสิ่งที่เพิ่งพูด)
+
+G advanced-linking 3
+____ the doctor's advice, he continued to work long hours.
+=Notwithstanding|แม้จะมี (ทางการ) ++notwithstanding + คำนาม++
+-Albeit|albeit ไม่ตามด้วยคำนามแบบนี้
+-Whereas|whereas ต้องตามด้วยประโยค
+-Even though|even though ต้องตามด้วยประโยค
+!==Notwithstanding + คำนาม== = แม้จะ...(ทางการมาก)
+
+G discourse-reference 2
+Prices rose by 5 per cent in May. ____ increase was the largest this year.
+=This|อ้างถึงสิ่งที่เพิ่งพูด ++This + คำนาม++
+-It|it ไม่ตามด้วยคำนาม
+-Such|such ต้องมี a/an หรือพหูพจน์
+-That's|ไม่ใช่รูปที่ใช้
+!==This / That + คำนาม== อ้างถึงประโยคก่อน
+
+G discourse-reference 3
+Some critics praised the film; ____ found it far too long.
+=others|ส่วนอื่น ++others++ (some ... others)
+-another|another ใช้กับเอกพจน์
+-the other|ต้องมีคำนามตาม
+-the others one|ผิดรูป
+!==some ... others== = บางคน...บางคน
+
+G discourse-reference 3
+The first option is cheap; the second is fast. I'd choose ____, as speed matters more.
+=the latter|ตัวหลัง ++the latter++
+-the former|the former คือตัวแรก
+-the later|later คือภายหลัง ไม่ใช่ตัวหลัง
+-the last one of|ผิดรูป
+!the former ตัวแรก · ==the latter ตัวหลัง==
+
+G discourse-reference 3
+Many people want to work from home. ____ being so, offices are becoming smaller.
+=That|สำนวน ++That being so++
+-It|ไม่ใช่สำนวน
+-Such|ไม่ใช่สำนวน
+-This is|ผิดรูป
+!==That being so / This being the case== = เมื่อเป็นเช่นนั้น
+
+V analysis-overview 2
+Mobile phones are now ____; you see them everywhere, even in remote villages.
+=ubiquitous|มีอยู่ทุกหนแห่ง = ++ubiquitous++
+-intrinsic|intrinsic คือในตัวเอง
+-holistic|holistic คือองค์รวม
+-subsequent|subsequent คือที่ตามมา
+!ubiquitous = ==มีอยู่ทุกที่==
+
+V analysis-overview 2
+There is a growing ____ between incomes in the city and in rural areas.
+=disparity|ความเหลื่อมล้ำ = ++disparity between++
+-dichotomy|dichotomy คือการแบ่งสองขั้วชัด
+-juxtaposition|juxtaposition คือการวางเทียบ
+-culminate|culminate เป็นกริยา
+!disparity ==between== = ความแตกต่างเหลื่อมล้ำ
+
+V analysis-overview 3
+The festival ____ in a huge fireworks display over the river.
+=culminated|ปิดท้ายถึงจุดสูงสุด = ++culminate in++
+-subsequent|subsequent เป็นคุณศัพท์
+-pervasive|pervasive เป็นคุณศัพท์
+-prevalent|prevalent เป็นคุณศัพท์
+!culminate ==in== = จบลงด้วย (จุดสูงสุด)
+
+V analysis-overview 3
+A ____ approach looks at the patient's lifestyle, not just the illness.
+=holistic|แบบองค์รวม = ++holistic++
+-ubiquitous|ubiquitous คือมีทุกที่
+-subsequent|subsequent คือที่ตามมา
+-disparity|disparity เป็นคำนาม
+!holistic = ==มองแบบองค์รวม==
+
+V analysis-overview 3
+Diabetes is becoming more ____ among young adults.
+=prevalent|แพร่หลายพบบ่อย = ++prevalent among++
+-intrinsic|intrinsic คือมีอยู่ในตัว
+-holistic|ไม่ตรงความหมาย
+-overarching|ไม่ตรงความหมาย
+!prevalent ==among== = พบได้บ่อยใน
+
+V analysis-overview 3
+The first report was ignored, but ____ studies confirmed the problem.
+=subsequent|ที่ตามมาภายหลัง = ++subsequent++
+-intrinsic|intrinsic คือในตัวเอง
+-ubiquitous|ไม่ตรงความหมาย
+-inherent|inherent คือมีอยู่โดยธรรมชาติ
+!subsequent = ==ที่ตามมาภายหลัง==
+
+R analytical-article 2|The Rise and Limits of the Gig Economy
+Over the past decade, app-based work, from food delivery to freelance design, has become ubiquitous in Thai cities. Supporters point to its flexibility: workers can choose when and how much to work. For students and parents with young children, this is a genuine advantage.
+
+However, the flexibility comes at a cost. Most gig workers have no paid leave, no health insurance from their employer, and no guaranteed income. A rainy week or a change in the app's pay rates can halve their earnings. This risk is not incidental; it is inherent in a model that treats workers as independent contractors.
+
+The overarching question, then, is not whether the gig economy should exist, but how its benefits can be preserved while its risks are shared more fairly. Some countries now require platforms to contribute to accident insurance, a modest but meaningful first step.
+Q Who benefits most from the flexibility, according to the article?
+=students and parents with young children|For students and parents with young children, this is a genuine advantage
+-full-time office workers|ในบทไม่ได้พูดถึงพนักงานประจำ
+-app companies only|ในบทไม่ได้พูดเช่นนั้น
+-older workers|ในบทไม่ได้พูดถึงผู้สูงวัย
+Q What does "inherent" suggest about the risk?
+=it is built into the model itself|it is inherent in a model that treats workers as independent contractors
+-it happens only by accident|บทบอกว่าไม่ใช่เรื่องบังเอิญ
+-it affects only some apps|ในบทไม่ได้พูดเช่นนั้น
+-it can easily be removed|ในบทไม่ได้พูดเช่นนั้น
+Q What does the writer think the main question is?
+=how to keep benefits while sharing risks fairly|how its benefits can be preserved while its risks are shared more fairly
+-whether to ban the gig economy|บทบอกว่าไม่ใช่คำถามหลัก
+-which app pays the most|ในบทไม่ได้พูดถึง
+-why it is raining more often|ในบทไม่ได้พูดถึง
+
+L structured-lecture 2
+Woman: Having looked at the causes, I'll now turn to the consequences, and finally I'll suggest some solutions.
+Q What will the speaker talk about next?
+=the consequences|I'll now turn to the consequences
+-the causes|ผู้พูดพูดถึงสาเหตุไปแล้ว
+-the solutions|เป็นหัวข้อสุดท้าย
+-the history|ในบทไม่ได้พูดถึงประวัติ
+
+L analysis-overview 2
+Man: The study juxtaposes two villages: one with a new road and one without. The contrast in school attendance is striking.
+Q What does the study do?
+=compares two villages|juxtaposes two villages
+-builds a new road|ในบทไม่ได้พูดว่าการศึกษาสร้างถนน
+-studies one school|ศึกษาสองหมู่บ้าน
+-asks villagers about roads|ในบทไม่ได้พูดถึงการสัมภาษณ์

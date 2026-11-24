@@ -1,0 +1,159 @@
+G time-prepositions-wh 1
+The cooking class starts ____ 2 pm.
+=at|เวลาที่เป็นจุด ใช้ ++at++
+-on|on ใช้กับวัน
+-in|in ใช้กับเดือน ปี ช่วงของวัน
+-to|to ไม่ใช้บอกเวลาเริ่ม
+!เวลา ==at 2 pm== · วัน on Monday · เดือน in May
+
+G time-prepositions-wh 1
+My birthday is ____ June.
+=in|เดือน ใช้ ++in++
+-on|on ใช้กับวันที่หรือวัน
+-at|at ใช้กับเวลา
+-by|by ไม่ได้แปลว่าในเดือน
+!เดือน/ปี → ==in==
+
+G time-prepositions-wh 2
+"____ is the meeting?" "It's in Room 4."
+=Where|ถามสถานที่ ++Where++
+-When|when ถามเวลา
+-What time|what time ถามเวลา
+-Who|who ถามคน
+!สถานที่ ==Where== · เวลา When / What time
+
+G time-prepositions-wh 2
+I go swimming ____ Sunday mornings.
+=on|วัน (รวมช่วงของวัน) ใช้ ++on++
+-in|in the morning ใช้ได้ แต่มี Sunday ต้องใช้ on
+-at|at ใช้กับเวลา
+-by|by ไม่ใช้ตรงนี้
+!==on + วัน== (on Sunday mornings)
+
+G can-imperatives 1
+My grandfather is eighty, but he ____ swim very well.
+=can|ทำได้ ++can + V1++
+-cans|can ไม่เติม s
+-can to|หลัง can ไม่มี to
+-is can|รูปผิด จึงใช้ไม่ได้
+!==can + V1== (ไม่เติม s ไม่มี to)
+
+G can-imperatives 1
+____ your shoes before you go into the temple, please.
+=Take off|คำสั่ง ใช้ ++กริยาช่อง 1++ ขึ้นต้น
+-Takes off|คำสั่งไม่เติม s
+-To take off|คำสั่งไม่มี to
+-Taking off|คำสั่งไม่ใช้ -ing
+!คำสั่ง = ==V1 ขึ้นต้นประโยค==
+
+G can-imperatives 2
+____ run in the corridor. It's dangerous.
+=Don't|คำสั่งห้าม ++Don't + V1++
+-No|no ไม่ใช้นำหน้ากริยาแบบนี้
+-Not|ต้องเป็น don't
+-Doesn't|คำสั่งใช้ don't เสมอ
+!ห้าม = ==Don't + V1==
+
+G can-imperatives 2
+"____ your son ride a bicycle?" "Yes, he learned last year."
+=Can|ถามความสามารถ ++Can you...?++
+-Is|is ไม่ตามด้วย ride
+-Does to|รูปผิด จึงใช้ไม่ได้
+-Has|has ไม่ตามด้วย ride
+!ถามว่าทำได้ไหม ==Can + ประธาน + V1?==
+
+G can-imperatives 2
+Sorry, I ____ come to the party. I'm working.
+=can't|ทำไม่ได้ ++can't + V1++
+-don't can|รูปผิด จึงใช้ไม่ได้
+-not can|รูปผิด จึงใช้ไม่ได้
+-can't to|หลัง can't ไม่มี to
+!ทำไม่ได้ = ==can't + V1==
+
+V time-lessons 1
+I don't work on Saturday or Sunday. I love the ____!
+=weekend|เสาร์อาทิตย์ = ++weekend++
+-week|week คือทั้งสัปดาห์
+-today|today คือวันนี้
+-lesson|lesson คือบทเรียน
+!weekend = ==วันหยุดสุดสัปดาห์==
+
+V time-lessons 1
+The museum is ____ on Mondays. You can't go in.
+=closed|ปิด = ++closed++
+-open|ความหมายกลับกัน
+-help|help เป็นกริยา
+-listen|listen เป็นกริยา
+!closed = ==ปิด== · open = เปิด
+
+V time-lessons 1
+The festival is on Friday and Saturday, so it's at the ____.
+=weekend|ช่วงปลายสัปดาห์ = ++at the weekend++
+-today|today ไม่ใช้กับ at the
+-tomorrow|tomorrow ไม่ใช้กับ at the
+-lesson|lesson คือบทเรียน
+!at the weekend = ==ช่วงสุดสัปดาห์==
+
+V time-lessons 2
+Please ____ to the teacher. She's explaining the homework.
+=listen|ฟัง = ++listen to++
+-speak|speak to the teacher ความหมายไม่ตรง
+-close|close เป็นการปิด
+-open|open เป็นการเปิด
+!listen ==to== = ฟัง
+
+V time-lessons 2
+Can you ____ me? This box is very heavy.
+=help|ช่วย = ++help me++
+-listen|listen ต้องมี to
+-speak|ไม่ตรงความหมาย
+-close|ไม่ตรงความหมาย
+!Can you help me? = ==ช่วยฉันหน่อยได้ไหม==
+
+V time-lessons 2
+Look at the ____. Our English class is on Wednesday at 6.
+=timetable|ตารางเวลา = ++timetable++
+-subject|subject คือวิชา
+-weekend|weekend คือวันหยุด
+-tomorrow|tomorrow คือพรุ่งนี้
+!timetable = ==ตารางเวลา==
+
+R weekly-timetable 1|Sunny Sports Club: Weekly Timetable
+Monday: Swimming for children, 4 pm to 5 pm
+Tuesday: Yoga for adults, 6 pm to 7 pm
+Wednesday: Football for teenagers, 5 pm to 6.30 pm
+Thursday: Swimming for adults, 7 pm to 8 pm
+Friday: The club is closed.
+Saturday and Sunday: Open swimming for everyone, 9 am to 12 pm
+Please come ten minutes early and bring a towel and a bottle of water. Children under eight must come with an adult.
+Q When can adults go swimming in the evening?
+=on Thursday|Thursday: Swimming for adults, 7 pm to 8 pm
+-on Monday|วันจันทร์ว่ายน้ำสำหรับเด็ก
+-on Friday|วันศุกร์คลับปิด
+-on Tuesday|วันอังคารเป็นโยคะ
+Q What is on Wednesday?
+=football|Wednesday: Football for teenagers
+-yoga|โยคะคือวันอังคาร
+-swimming for children|เป็นวันจันทร์
+-nothing|มีกิจกรรมฟุตบอล
+Q Who must come with an adult?
+=children under eight|Children under eight must come with an adult
+-all teenagers|ในบทไม่ได้พูดเช่นนั้น
+-everyone on Saturday|ในบทไม่ได้พูดเช่นนั้น
+-yoga students|ในบทไม่ได้พูดเช่นนั้น
+
+L announcements 1
+Woman: Good morning, everyone. The library is closed today. It opens again tomorrow at nine.
+Q When does the library open again?
+=tomorrow at nine|It opens again tomorrow at nine
+-today at nine|วันนี้ห้องสมุดปิด
+-tomorrow afternoon|เปิดเก้าโมงเช้า
+-next week|ในบทไม่ได้พูดถึงสัปดาห์หน้า
+
+L time-lessons 1
+Man: I can't come to the lesson on Friday. Can I come on Saturday?
+Q Which lesson can't the man go to?
+=Friday's lesson|I can't come to the lesson on Friday
+-Saturday's lesson|เขาถามว่าวันเสาร์มาได้ไหม
+-Monday's lesson|ในบทไม่ได้พูดถึงวันจันทร์
+-every lesson|ไม่ได้บอกว่าทุกครั้ง

@@ -1,0 +1,157 @@
+G word-formation 2
+The ____ of the new hospital wing took almost three years.
+=construction|คำนามจาก construct ++-ion++
+-construct|construct เป็นกริยา
+-constructive|constructive เป็นคุณศัพท์
+-constructing|หลัง the ... of ใช้คำนามจริง
+!หลัง the + ... + of ต้องเป็น ==คำนาม==
+
+G word-formation 2
+It's ____ to drive without a licence in Thailand.
+=illegal|ปฏิเสธของ legal ใช้ ++il-++
+-unlegal|legal ใช้ il- ไม่ใช่ un-
+-inlegal|ไม่มีคำนี้ในภาษาอังกฤษ
+-dislegal|ไม่มีคำนี้ในภาษาอังกฤษ
+!คำขึ้นต้น l → ==il-== (illegal, illogical)
+
+G word-formation 3
+The meeting was very ____; we made decisions on every point.
+=productive|คุณศัพท์จาก produce ++-ive++
+-production|production เป็นคำนาม
+-productivity|productivity เป็นคำนาม
+-produce|produce เป็นกริยา/คำนาม
+!หลัง very ต้องเป็น ==คุณศัพท์== (-ive, -ful, -able)
+
+G word-formation 3
+We need to ____ the road so that two buses can pass.
+=widen|ทำให้กว้างขึ้น ++-en++
+-width|width เป็นคำนาม
+-wide|wide เป็นคุณศัพท์
+-widely|widely เป็นคำวิเศษณ์
+!คุณศัพท์ + ==-en== = ทำให้... (widen, shorten)
+
+G collocation-prepositions-phrasal 2
+She's very good ____ explaining difficult ideas simply.
+=at|เก่งเรื่อง ++good at++
+-in|good in ไม่ใช่สำนวนที่ใช้
+-on|good on ไม่ใช่สำนวนที่ใช้
+-for|good for = ดีต่อ ไม่ใช่เก่ง
+!be good ==at== + -ing / คำนาม
+
+G collocation-prepositions-phrasal 2
+The company has decided to ____ the old system and use cloud software.
+=do away with|ยกเลิกทิ้ง ++do away with++
+-do up|do up คือตกแต่งใหม่
+-take after|take after คือหน้าตาเหมือน
+-look up to|look up to คือนับถือ
+!do away with = ==ยกเลิก กำจัด==
+
+G collocation-prepositions-phrasal 3
+I'm not ____ favour of the plan to raise the parking fees.
+=in|เห็นด้วยกับ ++in favour of++
+-on|on favour ไม่ใช่สำนวน
+-at|at favour ไม่ใช่สำนวน
+-for|for favour ไม่ใช่สำนวน
+!be ==in favour of== = เห็นด้วย สนับสนุน
+
+G collocation-prepositions-phrasal 3
+The new manager has ____ a lot of criticism for cutting the training budget.
+=come in for|ถูกวิจารณ์ ++come in for criticism++
+-come up with|come up with คือคิดขึ้นมา
+-come across|come across คือบังเอิญเจอ
+-come down to|come down to คือสรุปแล้วขึ้นอยู่กับ
+!==come in for criticism== = ถูกวิจารณ์
+
+G collocation-prepositions-phrasal 3
+The staff ____ the idea of a four-day week with great excitement.
+=welcomed|ต้อนรับแนวคิด ++welcome an idea++
+-welcomed to|welcome ไม่ตามด้วย to แบบนี้
+-agreed|agree ต้องมี with / to
+-looked forward|look forward ต้องมี to
+!==welcome an idea / a decision== = ยินดีรับ
+
+V work-development 2
+The training aims to ____ customer service skills across all branches.
+=enhance|เพิ่มพูนให้ดีขึ้น = ++enhance++
+-sufficient|sufficient เป็นคุณศัพท์
+-expertise|expertise เป็นคำนาม
+-diverse|diverse เป็นคุณศัพท์
+!enhance = ==ยกระดับ ทำให้ดีขึ้น==
+
+V work-development 2
+A good leader can ____ people to work harder without shouting.
+=motivate|จูงใจ = ++motivate someone to++
+-promote|promote ไม่ตามด้วยคน + to แบบนี้
+-reinforce|reinforce คือเสริมให้แข็งแรง
+-adequate|adequate เป็นคุณศัพท์
+!motivate someone ==to + V1== = กระตุ้นให้
+
+V work-development 3
+Our team is very ____, with members from six different countries.
+=diverse|หลากหลาย = ++diverse++
+-sufficient|sufficient คือเพียงพอ
+-innovative|innovative คือคิดใหม่
+-sustainable|sustainable คือยั่งยืน
+!diverse = ==หลากหลาย==
+
+V work-development 3
+We need someone with ____ in data analysis to lead this project.
+=expertise|ความเชี่ยวชาญ = ++expertise in++
+-resource|resource คือทรัพยากร
+-inspire|inspire เป็นกริยา
+-adequate|adequate เป็นคุณศัพท์
+!expertise ==in== = ความเชี่ยวชาญด้าน
+
+V work-development 3
+Using solar power is a more ____ way to run the factory.
+=sustainable|ยั่งยืน = ++sustainable++
+-diverse|diverse คือหลากหลาย
+-sufficient|ไม่ตรงความหมาย
+-expertise|expertise เป็นคำนาม
+!sustainable = ==ยั่งยืน ไม่ทำลายทรัพยากร==
+
+V work-development 3
+Two weeks is not ____ time to train a new pilot.
+=sufficient|เพียงพอ = ++sufficient++
+-diverse|diverse คือหลากหลาย
+-innovative|innovative คือนวัตกรรม
+-sustainable|ไม่ตรงความหมาย
+!sufficient = ==เพียงพอ== (= enough)
+
+R workplace-advice 2|Five Ways to Make Meetings Shorter
+Many workers say they spend too much time in meetings that achieve very little. Here are some simple ways to improve them.
+
+First, send the agenda at least a day before, so everyone can come prepared. Second, invite only the people who really need to be there; others can read the notes later. Third, start on time, even if someone is late, to reinforce the idea that time matters.
+
+Fourth, end each point with a clear action and the name of the person responsible. Finally, try standing meetings for short updates. People naturally keep them brief when they are not sitting comfortably.
+Q Why should the agenda be sent early?
+=so people can prepare|so everyone can come prepared
+-so people can decline|ไม่ได้กล่าวถึง
+-so the meeting can start late|ควรเริ่มตรงเวลา
+-so the notes are shorter|ไม่ได้กล่าวถึง
+Q What should people who don't need to attend do?
+=read the notes afterwards|others can read the notes later
+-join online|ไม่ได้กล่าวถึง
+-send a replacement|ไม่ได้กล่าวถึง
+-arrive late|ไม่ได้กล่าวถึง
+Q Why are standing meetings suggested?
+=people tend to keep them short|People naturally keep them brief
+-there are not enough chairs|ไม่ได้กล่าวถึง
+-they are healthier|ไม่ได้กล่าวถึง
+-managers prefer them|ไม่ได้กล่าวถึง
+
+L short-lecture 2
+Woman: Today I want to focus on one idea: motivation. Research shows that people are more motivated when they can see the impact of their work on others.
+Q According to the speaker, what increases motivation?
+=seeing how work helps others|see the impact of their work on others
+-higher salaries|ไม่ได้กล่าวถึง
+-longer holidays|ไม่ได้กล่าวถึง
+-working alone|ไม่ได้กล่าวถึง
+
+L workplace-advice 2
+Man: If you're short of resources, don't try to do everything. Focus on the two or three tasks that matter most.
+Q What does the man advise?
+=focusing on the most important tasks|Focus on the two or three tasks that matter most
+-asking for more money|ไม่ได้กล่าวถึง
+-doing every task quickly|เขาบอกว่าอย่าพยายามทำทุกอย่าง
+-hiring more staff|ไม่ได้กล่าวถึง

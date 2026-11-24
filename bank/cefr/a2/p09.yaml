@@ -1,0 +1,279 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 9 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w09-043
+  kind: mcq
+  skill: gm
+  topic: going-to
+  level: 1
+  pool: true
+  stem: "I've saved enough money. I ____ buy a new bicycle next month."
+  choices:
+    - {t: "am going to", why: "แผนที่ตั้งใจไว้แล้ว ++am going to++"}
+    - {t: "is going to", why: "I ใช้ am จึงใช้ไม่ได้"}
+    - {t: "going to", why: "ขาด am จึงใช้ไม่ได้"}
+    - {t: "am go to", why: "ขาด -ing จึงใช้ไม่ได้"}
+  explain: "ตั้งใจไว้แล้ว ==am/is/are going to + V1=="
+  status: approved
+- id: cefr-a2-w09-044
+  kind: mcq
+  skill: gm
+  topic: going-to
+  level: 1
+  pool: true
+  stem: "Look at that man on the ladder! He ____ fall."
+  choices:
+    - {t: "is going to", why: "เห็นหลักฐานตอนนี้ ++is going to++"}
+    - {t: "are going to", why: "he ใช้ is จึงใช้ไม่ได้"}
+    - {t: "going", why: "ขาด is และ to จึงใช้ไม่ได้"}
+    - {t: "is go to", why: "ขาด -ing จึงใช้ไม่ได้"}
+  explain: "เห็นหลักฐานตรงหน้า ==be going to=="
+  status: approved
+- id: cefr-a2-w09-045
+  kind: mcq
+  skill: gm
+  topic: going-to
+  level: 2
+  pool: true
+  stem: "\"What ____ you going to do this weekend?\" \"I'm going to paint my room.\""
+  choices:
+    - {t: "are", why: "you ใช้ ++are going to++"}
+    - {t: "is", why: "is ไม่ใช้กับ you"}
+    - {t: "do", why: "do ไม่ตามด้วย you going"}
+    - {t: "will", why: "will ไม่ตามด้วย going to แบบนี้"}
+  explain: "==What are you going to + V1?=="
+  status: approved
+- id: cefr-a2-w09-046
+  kind: mcq
+  skill: gm
+  topic: going-to
+  level: 2
+  pool: true
+  stem: "We ____ to go camping. It's going to rain all weekend."
+  choices:
+    - {t: "aren't going", why: "ไม่ได้ตั้งใจจะทำแล้ว ++aren't going to++"}
+    - {t: "isn't going", why: "we ใช้ aren't จึงใช้ไม่ได้"}
+    - {t: "don't going", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "not going", why: "ขาด are จึงใช้ไม่ได้"}
+  explain: "ปฏิเสธ ==am not / isn't / aren't going to=="
+  status: approved
+- id: cefr-a2-w09-047
+  kind: mcq
+  skill: gm
+  topic: will-future-arrangements
+  level: 1
+  pool: true
+  stem: "\"I'm thirsty.\" \"Wait here. I ____ get you some water.\""
+  choices:
+    - {t: "will", why: "ตัดสินใจตอนพูด ++will++"}
+    - {t: "am", why: "am get ผิดรูป จึงใช้ไม่ได้"}
+    - {t: "going", why: "ขาด am และ to จึงใช้ไม่ได้"}
+    - {t: "do", why: "ไม่ใช่รูปอนาคต จึงใช้ไม่ได้"}
+  explain: "ตัดสินใจทันที ==I'll + V1=="
+  status: approved
+- id: cefr-a2-w09-048
+  kind: mcq
+  skill: gm
+  topic: will-future-arrangements
+  level: 1
+  pool: true
+  stem: "I'm ____ my aunt at the airport at six tonight. We arranged it last week."
+  choices:
+    - {t: "meeting", why: "นัดที่ตกลงไว้ ++am + -ing++"}
+    - {t: "meet", why: "ขาดรูป -ing หลัง I'm"}
+    - {t: "met", why: "เป็นอนาคต จึงใช้ไม่ได้"}
+    - {t: "meets", why: "I ไม่เติม s จึงใช้ไม่ได้"}
+  explain: "นัดที่ตกลงแล้ว ==am/is/are + -ing=="
+  status: approved
+- id: cefr-a2-w09-049
+  kind: mcq
+  skill: gm
+  topic: will-future-arrangements
+  level: 2
+  pool: true
+  stem: "Don't worry. I ____ tell anyone your secret."
+  choices:
+    - {t: "won't", why: "สัญญาว่าจะไม่ ++won't++"}
+    - {t: "don't will", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "am not", why: "am not tell ผิดรูป"}
+    - {t: "not will", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "สัญญา ==I will / I won't + V1=="
+  status: approved
+- id: cefr-a2-w09-050
+  kind: mcq
+  skill: gm
+  topic: will-future-arrangements
+  level: 2
+  pool: true
+  stem: "\"Are you free on Friday?\" \"No, I'm ____ dinner with my parents.\""
+  choices:
+    - {t: "having", why: "แผนที่นัดไว้ ++am having++"}
+    - {t: "have", why: "หลัง I'm ต้องใช้ -ing"}
+    - {t: "had", why: "เป็นอนาคต จึงใช้ไม่ได้"}
+    - {t: "will have", why: "I'm will ผิดรูป"}
+  explain: "นัดแล้ว ==I'm + -ing=="
+  status: approved
+- id: cefr-a2-w09-051
+  kind: mcq
+  skill: gm
+  topic: will-future-arrangements
+  level: 2
+  pool: true
+  stem: "I think it ____ be sunny tomorrow."
+  choices:
+    - {t: "will", why: "คาดเดาความเห็น ++I think ... will++"}
+    - {t: "is", why: "is be ผิดรูป จึงใช้ไม่ได้"}
+    - {t: "going", why: "ขาด is และ to จึงใช้ไม่ได้"}
+    - {t: "does", why: "does be ผิดรูป จึงใช้ไม่ได้"}
+  explain: "I think + ==will + V1== = คิดว่าจะ"
+  status: approved
+- id: cefr-a2-w09-052
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 1
+  pool: true
+  stem: "I need a ____ for the train to Hua Hin."
+  choices:
+    - {t: "ticket", why: "ตั๋ว = ++ticket++"}
+    - {t: "station", why: "station คือสถานี"}
+    - {t: "message", why: "message คือข้อความ"}
+    - {t: "birthday", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "a ticket = ==ตั๋ว=="
+  status: approved
+- id: cefr-a2-w09-053
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 1
+  pool: true
+  stem: "I'd like to ____ you to my wedding in December."
+  choices:
+    - {t: "invite", why: "เชิญ = ++invite someone to++"}
+    - {t: "join", why: "join ไม่ตามด้วยคน + to แบบนี้"}
+    - {t: "decide", why: "decide ไม่ตามด้วยคน"}
+    - {t: "hope", why: "hope ไม่ตามด้วยคน + to"}
+  explain: "invite someone ==to== = เชิญ...มา"
+  status: approved
+- id: cefr-a2-w09-054
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 1
+  pool: true
+  stem: "I have a doctor's ____ at ten tomorrow."
+  choices:
+    - {t: "appointment", why: "นัด (หมอ ทันตแพทย์) = ++appointment++"}
+    - {t: "meeting", why: "meeting ใช้กับการประชุม"}
+    - {t: "ticket", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "station", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (station)"}
+  explain: "appointment = ==การนัดหมาย=="
+  status: approved
+- id: cefr-a2-w09-055
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 2
+  pool: true
+  stem: "I can't ____ which dress to buy. They're both nice."
+  choices:
+    - {t: "decide", why: "ตัดสินใจ = ++decide++"}
+    - {t: "invite", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "travel", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (travel)"}
+    - {t: "join", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (join)"}
+  explain: "decide = ==ตัดสินใจ=="
+  status: approved
+- id: cefr-a2-w09-056
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 2
+  pool: true
+  stem: "Would you like to ____ our English club? It meets on Tuesdays."
+  choices:
+    - {t: "join", why: "เข้าร่วม = ++join a club++"}
+    - {t: "invite", why: "invite ใช้กับคน"}
+    - {t: "decide", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "hope", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (hope)"}
+  explain: "join = ==เข้าร่วม สมัครเป็นสมาชิก=="
+  status: approved
+- id: cefr-a2-w09-057
+  kind: mcq
+  skill: vo
+  topic: plans-travel
+  level: 2
+  pool: true
+  stem: "I ____ you feel better soon."
+  choices:
+    - {t: "hope", why: "หวัง = ++hope++"}
+    - {t: "plan", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "decide", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (decide)"}
+    - {t: "invite", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (invite)"}
+  explain: "I hope ... = ==ฉันหวังว่า=="
+  status: approved
+- id: cefr-a2-w09-058
+  kind: read
+  skill: rd
+  topic: invitation-messages
+  level: 1
+  pool: true
+  title: "Birthday Invitation"
+  passage: |
+    Hi everyone!
+    It's my 30th birthday next Saturday, 15 June, and I'm going to have a small party at my house. Please come at 6 pm. We're going to have a barbecue in the garden, and my brother is going to play the guitar.
+    You don't need to bring a present, but please bring a drink if you can.
+    My house is near the train station, next to the green post office. Please send me a message by Thursday if you can come.
+    Fon
+  questions:
+    - stem: "What is the party for?"
+      choices:
+        - {t: "Fon's 30th birthday", why: "It's my 30th birthday next Saturday"}
+        - {t: "her brother's birthday", why: "น้องชายจะเล่นกีตาร์"}
+        - {t: "a new house", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "a wedding", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What should guests bring?"
+      choices:
+        - {t: "a drink", why: "please bring a drink if you can"}
+        - {t: "a present", why: "ไม่ต้องนำของขวัญ"}
+        - {t: "a guitar", why: "น้องชายของฟ้าเล่นกีตาร์"}
+        - {t: "some meat", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "When must guests reply?"
+      choices:
+        - {t: "by Thursday", why: "send me a message by Thursday"}
+        - {t: "by Saturday", why: "วันเสาร์คือวันงาน"}
+        - {t: "on 15 June", why: "เป็นวันงาน จึงใช้ไม่ได้"}
+        - {t: "at 6 pm", why: "เป็นเวลาเริ่มงาน"}
+  status: approved
+- id: cefr-a2-w09-059
+  kind: listen
+  skill: li
+  topic: appointments
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Can we meet on Monday?"}
+    - {who: Man, en: "Sorry, I'm visiting a customer on Monday. Is Tuesday OK?"}
+    - {who: Woman, en: "Tuesday is fine."}
+  questions:
+    - stem: "When will they meet?"
+      choices:
+        - {t: "on Tuesday", why: "Tuesday is fine"}
+        - {t: "on Monday", why: "ชายไปพบลูกค้าวันจันทร์"}
+        - {t: "on Wednesday", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "they won't meet", why: "ทั้งสองตกลงวันอังคาร"}
+  status: approved
+- id: cefr-a2-w09-060
+  kind: listen
+  skill: li
+  topic: plans-travel
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "I'm going to travel to Japan in April. I've already bought my ticket."}
+  questions:
+    - stem: "What has the man done?"
+      choices:
+        - {t: "bought a ticket", why: "I've already bought my ticket"}
+        - {t: "gone to Japan", why: "เขาจะไปเดือนเมษายน"}
+        - {t: "cancelled his trip", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "booked a hotel", why: "ในบทไม่ได้พูดถึงโรงแรม"}
+  status: approved

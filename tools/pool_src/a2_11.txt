@@ -1,0 +1,158 @@
+G should 1
+You look tired. You ____ go to bed early.
+=should|แนะนำ ++should + V1++
+-should to|หลัง should ไม่มี to
+-shoulds|should ไม่เติม s
+-are should|รูปผิด จึงใช้ไม่ได้
+!แนะนำ ==should + V1==
+
+G should 1
+You ____ eat so many sweets. They're bad for your teeth.
+=shouldn't|แนะนำไม่ให้ ++shouldn't + V1++
+-don't should|รูปผิด จึงใช้ไม่ได้
+-should not to|หลัง should not ไม่มี to
+-aren't should|รูปผิด จึงใช้ไม่ได้
+!ไม่ควร ==shouldn't + V1==
+
+G should 2
+"____ I bring anything to the party?" "Just some fruit, please."
+=Should|ถามขอคำแนะนำ ++Should I...?++
+-Do|Do I bring ไม่ได้ถามคำแนะนำ
+-Am|am ไม่ตามด้วย bring
+-Must|ฟังเหมือนถามว่าบังคับไหม
+!ขอคำแนะนำ ==Should I + V1?==
+
+G should 2
+What do you think I ____ wear to the interview?
+=should|ขอคำแนะนำ ++should + V1++
+-should to|หลัง should ไม่มี to
+-am|am wear ผิดรูป
+-do|do wear ผิดรูปในตำแหน่งนี้
+!What should I + V1? = ==ควร...อะไรดี==
+
+G must-have-to 1
+You ____ wear a seat belt in the car. It's the law.
+=must|กฎ ต้อง ++must + V1++
+-mustn't|mustn't คือห้าม ความหมายกลับกัน
+-don't have to|แปลว่าไม่จำเป็น
+-can't to|รูปผิด จึงใช้ไม่ได้
+!==must / have to== = ต้อง
+
+G must-have-to 1
+My brother ____ work on Saturdays. He works in a shop.
+=has to|he ใช้ ++has to++
+-have to|my brother เป็นเอกพจน์ ใช้ has to
+-must to|หลัง must ไม่มี to
+-has|ต้องมี to ตามมา
+!he / she → ==has to + V1==
+
+G must-have-to 2
+You ____ take photos in the museum. It is not allowed.
+=mustn't|ห้าม ++mustn't + V1++
+-don't have to|แปลว่าไม่จำเป็น ไม่ใช่ห้าม
+-must|ความหมายกลับกัน
+-haven't to|รูปผิด จึงใช้ไม่ได้
+!==mustn't== = ห้าม
+
+G must-have-to 2
+It's Sunday tomorrow, so I ____ get up early.
+=don't have to|ไม่จำเป็น ++don't have to++
+-mustn't|mustn't แปลว่าห้าม
+-must|ความหมายกลับกัน
+-doesn't have to|I ใช้ don't
+!==don't have to== = ไม่จำเป็นต้อง
+
+G must-have-to 2
+"____ we pay for the museum?" "No, it's free."
+=Do we have to|ถามว่าต้องไหม ++Do we have to...?++
+-Have we to|ไม่ใช่รูปคำถามทั่วไป
+-Must we to|หลัง must ไม่มี to
+-Are we have to|รูปผิด จึงใช้ไม่ได้
+!ถาม ==Do I/we have to + V1?==
+
+V rules-habits 1
+Be ____. The floor is wet.
+=careful|ระวัง = ++careful++
+-polite|polite คือสุภาพ
+-friendly|friendly คือเป็นมิตร
+-healthy|healthy คือสุขภาพดี
+!Be careful! = ==ระวัง==
+
+V rules-habits 1
+Don't swim here. The river is ____.
+=dangerous|อันตราย = ++dangerous++
+-safe|ความหมายกลับกัน
+-polite|ไม่ตรงความหมาย
+-friendly|ไม่ตรงความหมาย
+!dangerous = ==อันตราย== · safe = ปลอดภัย
+
+V rules-habits 1
+Students must wear a ____ at school.
+=uniform|เครื่องแบบ = ++uniform++
+-rule|ไม่ใช่สิ่งที่สวม
+-habit|ไม่ใช่สิ่งที่สวม
+-advice|ไม่ใช่สิ่งที่สวม
+!wear a uniform = ==ใส่เครื่องแบบ==
+
+V rules-habits 2
+Eating fruit every day is a good ____.
+=habit|นิสัย = ++habit++
+-rule|ไม่ตรงความหมาย
+-uniform|ไม่ตรงความหมาย
+-careful|เป็นคุณศัพท์
+!a good habit = ==นิสัยที่ดี==
+
+V rules-habits 2
+Please ____ your toys with your sister.
+=share|แบ่งปัน = ++share with++
+-hurry|hurry ไม่ตามด้วยของเล่น
+-careful|เป็นคุณศัพท์
+-polite|เป็นคุณศัพท์
+!share ==with== = แบ่งให้
+
+V rules-habits 2
+Please ____ up. The last boat leaves at five.
+=hurry|รีบ = ++hurry up++
+-share|ไม่ตรงความหมาย
+-careful|ไม่ตรงความหมาย
+-habit|เป็นคำนาม
+!Hurry up! = ==รีบหน่อย==
+
+R public-rules 1|City Library: Rules
+Welcome to the City Library. Please read our rules.
+You must show your library card when you borrow books. You can borrow five books for two weeks.
+You mustn't eat or drink in the reading room, but you can have a drink in the café on the ground floor.
+Please turn off the sound on your phone. You don't have to be completely silent, but please talk quietly.
+Children under ten must stay with an adult.
+Q How many books can you borrow?
+=five|You can borrow five books
+-two|สองคือจำนวนสัปดาห์
+-ten|สิบคืออายุของเด็ก
+-as many as you like|มีจำนวนจำกัด
+Q Where can you have a drink?
+=in the café|you can have a drink in the café
+-in the reading room|ห้ามกินดื่มในห้องอ่านหนังสือ
+-at the library desk|ในบทไม่ได้พูดเช่นนั้น
+-nowhere in the building|ดื่มในคาเฟ่ได้
+Q What is true about talking?
+=you can talk quietly|You don't have to be completely silent
+-you must be completely silent|ความหมายกลับกัน
+-you can talk loudly|ให้พูดเบา ๆ
+-you can't talk at all|ความหมายกลับกัน
+
+L rules-advice 1
+Woman: I have a bad cough.
+Man: You should drink some warm water and you shouldn't go out in the cold.
+Q What does the man advise?
+=drink warm water|You should drink some warm water
+-go outside|เขาบอกว่าไม่ควรออกไปข้างนอก
+-drink cold water|เขาบอกให้ดื่มน้ำอุ่น
+-go to work|ในบทไม่ได้พูดเช่นนั้น
+
+L rules-habits 1
+Man: At my office, we don't have to wear a uniform, but we must wear shoes, not sandals.
+Q What must the staff wear?
+=shoes|we must wear shoes
+-a uniform|ไม่ต้องใส่เครื่องแบบ
+-sandals|ห้ามใส่รองเท้าแตะ
+-a tie|ในบทไม่ได้พูดถึงเนกไท

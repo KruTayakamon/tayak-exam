@@ -1,0 +1,157 @@
+G passive-advanced 2
+The road outside our house ____ at the moment, so we have to park on the next street.
+=is being repaired|passive กำลังเกิด ++is being + V3++
+-is repairing|ถนนซ่อมตัวเองไม่ได้
+-has been repairing|ถนนไม่ได้เป็นผู้ซ่อม
+-is repaired|at the moment ต้องใช้ being
+!passive กำลังเกิด ==is/are being + V3==
+
+G passive-advanced 2
+All the results ____ by the end of next week.
+=will have been checked|passive เสร็จก่อนจุดในอนาคต ++will have been + V3++
+-will have checked|ผลตรวจตัวเองไม่ได้
+-are checking|ผลลัพธ์ไม่ได้เป็นผู้ตรวจ
+-will be check|รูปผิด ต้องเป็น checked
+!by + อนาคต + passive → ==will have been + V3==
+
+G passive-advanced 3
+I hate ____ what to do by people who know less than I do.
+=being told|passive หลัง hate ++being + V3++
+-telling|ความหมายกลับ ฉันไม่ได้เป็นผู้บอก
+-to tell|ความหมายกลับ และไม่ใช่ passive
+-being telling|รูปผิด passive ต้องใช้ V3
+!กริยา + -ing แบบ passive → ==being + V3==
+
+G passive-advanced 3
+The documents must ____ before the end of the day.
+=be signed|passive หลัง modal ++be + V3++
+-signed|ขาด be หลัง must
+-be signing|ต้องเป็น V3 ไม่ใช่ -ing
+-have sign|รูปผิด จึงใช้ไม่ได้
+!modal + ==be + V3==
+
+G passive-reporting-causative 2
+The old temple ____ to be over 400 years old.
+=is believed|มีผู้เชื่อว่า ++is believed to++
+-believes|วัดเชื่อเองไม่ได้
+-is believing|believe ไม่ใช้ -ing
+-was believing|รูปผิด และไม่ใช่ passive
+!==is believed / said / thought to== = เชื่อกันว่า
+
+G passive-reporting-causative 2
+I'm going to ____ my hair cut before the wedding.
+=have|ให้คนอื่นทำให้ ++have + สิ่งของ + V3++
+-make|make + สิ่งของ + V3 ไม่ใช้แบบนี้
+-let|let ใช้ let someone do
+-take|take ไม่ใช้รูปนี้
+!==have / get + สิ่งของ + V3== = ให้คนอื่นทำให้
+
+G passive-reporting-causative 3
+It ____ that the company will close two of its factories.
+=has been reported|มีรายงานว่า ++It has been reported that++
+-has reported|มัน (it) ไม่ได้เป็นผู้รายงาน
+-is reporting|ต้องเป็น passive
+-reports|it ไม่ใช่ผู้รายงาน
+!It is said / ==It has been reported== that ...
+
+G passive-reporting-causative 3
+We got the air conditioner ____ last week, and now it's working perfectly.
+=fixed|get + สิ่งของ + ++V3++
+-fix|ต้องเป็น V3 หลังสิ่งของ
+-to fix|ไม่ใช้ to ในรูปนี้
+-fixing|ต้องเป็น V3 ไม่ใช่ -ing
+!get something ==V3== = ให้คนมาทำให้
+
+G passive-reporting-causative 3
+The suspect ____ to have left the country last night.
+=is thought|มีผู้คิดว่าทำไปแล้ว ++is thought to have + V3++
+-thinks|ผู้ต้องสงสัยไม่ได้เป็นผู้คิด
+-is thinking|ความหมายไม่ตรง
+-has thought|ต้องเป็น passive
+!is thought ==to have + V3== = เชื่อว่าได้ทำไปแล้ว
+
+V evaluation 2
+Teachers use clear ____ to mark the essays, so the scores are fair.
+=criteria|เกณฑ์ = ++criteria++ (พหูพจน์ของ criterion)
+-evidence|evidence คือหลักฐาน
+-outcome|outcome คือผลลัพธ์
+-feedback|ไม่ได้ใช้ตัดสินคะแนน
+!criteria = ==เกณฑ์ (ในการตัดสิน)==
+
+V evaluation 2
+There is no ____ that the new drink improves your memory.
+=evidence|หลักฐาน = ++evidence++ (นับไม่ได้)
+-criteria|criteria คือเกณฑ์
+-estimate|estimate คือการประมาณ
+-outcome|ไม่ตรงความหมาย
+!no evidence that ... = ==ไม่มีหลักฐานว่า==
+
+V evaluation 2
+We need to ____ the cause of the problem before we can fix it.
+=identify|ระบุ หาให้พบ = ++identify++
+-indicate|indicate คือชี้ให้เห็น
+-estimate|estimate คือประมาณ
+-accurate|accurate เป็นคุณศัพท์
+!identify the cause = ==หาสาเหตุให้พบ==
+
+V evaluation 3
+The survey results ____ that most customers want longer opening hours.
+=indicate|ชี้ให้เห็น = ++indicate that++
+-identify|identify ไม่ใช้ตามด้วย that แบบนี้
+-assess|assess คือประเมิน
+-evaluate|evaluate ไม่ตามด้วย that
+!results ==indicate that== = ผลชี้ว่า
+
+V evaluation 3
+We ____ that the repairs will cost around 50,000 baht.
+=estimate|ประมาณการ = ++estimate++
+-identify|identify คือระบุ
+-analyse|analyse คือวิเคราะห์
+-significant|significant เป็นคุณศัพท์
+!estimate = ==ประมาณการ (ตัวเลข)==
+
+V evaluation 3
+There has been a ____ increase in the number of tourists this year.
+=significant|มากอย่างมีนัย = ++significant++
+-approximately|เป็นคำวิเศษณ์ ไม่ใช้ขยายคำนาม
+-evidence|evidence เป็นคำนาม
+-criteria|criteria เป็นคำนาม
+!a significant increase = ==เพิ่มขึ้นอย่างเห็นได้ชัด==
+
+R evaluation-summary 2|Evaluation Summary: Free Lunch Project, Year 1
+The free lunch project was introduced in eight village schools last year. It was evaluated by an independent team using attendance records, health checks and interviews with teachers and parents.
+
+The results indicate that attendance increased by 9 per cent on average. Children were found to be more active in afternoon lessons, although this was based mainly on teachers' opinions rather than test scores.
+
+The main weakness identified was cost. Food prices rose during the year, and two schools had to reduce portion sizes in the final term. The team recommends that the budget should be reviewed every six months.
+Q How was the project evaluated?
+=in several different ways|attendance records, health checks and interviews
+-only by asking parents|ใช้หลายวิธี ไม่ใช่แค่ถามผู้ปกครอง
+-using national test scores only|ไม่ได้ใช้คะแนนสอบระดับชาติ
+-by the schools themselves|ทีมอิสระเป็นผู้ประเมิน
+Q What is said about children's activity in the afternoon?
+=the evidence mostly came from teachers|based mainly on teachers' opinions
+-it was proved by test scores|ไม่ได้มาจากคะแนนสอบ
+-it did not change|มีการพบว่าเด็กกระตือรือร้นขึ้น
+-it increased by 9 per cent|9% คือการมาเรียน
+Q What does the team recommend?
+=checking the budget twice a year|budget should be reviewed every six months
+-giving smaller portions|เป็นปัญหา ไม่ใช่ข้อแนะนำ
+-ending the project|ไม่ได้แนะนำให้ยุติ
+-adding more schools to the project|ไม่ได้พูดถึงการเพิ่มโรงเรียน
+
+L data-presentation 2
+Woman: As you can see from the chart, online sales rose steadily until June, then fell sharply in July, mainly because the website was down for two weeks.
+Q Why did online sales fall in July?
+=the website wasn't working|the website was down for two weeks
+-prices went up|ไม่ได้พูดถึงราคา
+-it was a holiday month|ไม่ได้พูดถึงวันหยุด
+-the shop opened a new branch|ไม่ได้พูดถึงสาขาใหม่
+
+L data-presentation 2
+Man: These figures haven't been checked yet, so please don't share them outside the team until Friday.
+Q What does the man ask?
+=not to share the figures yet|please don't share them outside the team
+-to check the figures today|ไม่ได้ขอให้ตรวจวันนี้
+-to send them to Friday's meeting|ไม่ได้พูดถึงการประชุม
+-to delete the figures|ไม่ได้ขอให้ลบ

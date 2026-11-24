@@ -1,0 +1,161 @@
+G ellipsis-advanced 2
+He said he would finish the report by Friday, and ____.
+=so he did|ยืนยันว่าทำจริง ++so + ประธาน + กริยาช่วย++
+-so did he|so did he = เขาก็เช่นกัน ความหมายไม่ตรง
+-he did so it|มี it เกิน
+-neither did he|ความหมายกลับกัน
+!==so he did== = แล้วเขาก็ทำจริง · so did he = เขาก็ด้วย
+
+G ellipsis-advanced 3
+Some students found the course easy; others, ____.
+=less so|ละกริยา ++less so++ = ไม่ค่อยเป็นแบบนั้น
+-less it|ไม่ใช่สำนวน
+-not so it|ไม่ใช่สำนวน
+-less such|ไม่ใช่สำนวน
+!==others, less so== = คนอื่นไม่ค่อย...
+
+G ellipsis-advanced 3
+"Is the museum free?" "I believe ____."
+=so|แทนประโยคบอกเล่า ++I believe so++
+-it|it ไม่แทนประโยคแบบนี้
+-that|ไม่เป็นธรรมชาติในการตอบ
+-yes|ไม่ใช่สำนวน
+!==I believe / think / suppose so== = คิดว่าใช่
+
+G ellipsis-advanced 3
+I'd love to help, but I'm afraid I ____.
+=can't|ละกริยาหลังกริยาช่วย ++I can't (help)++
+-can't do|ไม่ต้องมี do
+-can't it|มี it เกิน
+-don't can|รูปผิด จึงใช้ไม่ได้
+!ละกริยาซ้ำ เหลือ ==กริยาช่วย== (I can't.)
+
+G cohesion-long-text 2
+The first proposal was cheap; the second, efficient. ____, neither was ideal.
+=Ultimately|สรุปท้ายที่สุด ++Ultimately++
+-Namely|namely ใช้ขยายรายละเอียด
+-Whereupon|whereupon คือทันใดนั้น
+-Per se|per se คือโดยตัวมันเอง
+!==Ultimately / In the end== = ท้ายที่สุด
+
+G cohesion-long-text 3
+The two reports reached ____ conclusions: one optimistic, one pessimistic.
+=opposing|ขัดแย้งกัน ++opposing conclusions++
+-respective|respective ต้องแบ่งให้แต่ละฝ่าย
+-aforementioned|ไม่ตรงความหมาย
+-erstwhile|erstwhile คือในอดีต
+!==opposing / contrasting== conclusions = ข้อสรุปตรงข้ามกัน
+
+G cohesion-long-text 3
+The manager and her deputy left for ____ offices after the meeting.
+=their respective|ของแต่ละคน ++respective++
+-their aforementioned|ไม่ตรงความหมาย
+-the respective of|รูปผิด จึงใช้ไม่ได้
+-each respective|ต้องมี their
+!==their respective + พหูพจน์== = ของใครของมัน
+
+G cohesion-long-text 3
+Two causes were identified, ____ poor planning and a lack of funding.
+=namely|ได้แก่ ++namely++
+-hence|hence บอกผล
+-conversely|conversely คือกลับกัน
+-thereafter|thereafter คือหลังจากนั้น
+!==namely== = ได้แก่ คือ (ขยายให้ชัด)
+
+G cohesion-long-text 3
+Prices rose sharply; ____, demand fell.
+=consequently|ผลที่ตามมา ++consequently++
+-namely|namely ใช้ขยายรายละเอียด
+-per se|ไม่ตรงความหมาย
+-in lieu|ต้องมี of
+!==consequently / hence== = ผลก็คือ
+
+V reference-linking 2
+The ____ report was later withdrawn because of errors in the data.
+=aforementioned|ที่กล่าวมาแล้ว = ++aforementioned++
+-ensuing|ensuing คือที่ตามมา
+-respective|respective คือของแต่ละคน
+-namely|namely เป็นคำวิเศษณ์
+!aforementioned = ==ที่กล่าวถึงข้างต้น==
+
+V reference-linking 2
+The storm caused a power cut, and the ____ chaos lasted for days.
+=ensuing|ที่ตามมา = ++ensuing++
+-aforementioned|ไม่ตรงความหมาย
+-erstwhile|erstwhile คือในอดีต
+-chiefly|chiefly เป็นคำวิเศษณ์
+!ensuing = ==ที่เกิดตามมา==
+
+V reference-linking 3
+Many Western students learn by asking questions; ____, students in some cultures may prefer to listen first.
+=conversely|ในทางกลับกัน = ++conversely++
+-namely|namely คือได้แก่
+-thereafter|thereafter คือหลังจากนั้น
+-chiefly|chiefly คือส่วนใหญ่
+!conversely = ==ในทางกลับกัน==
+
+V reference-linking 3
+The problem is not money ____, but how it is spent.
+=per se|โดยตัวมันเอง = ++per se++
+-namely|ไม่ตรงความหมาย
+-in lieu of|ต้องมีคำนามตาม
+-whereupon|whereupon ต้องตามด้วยประโยค
+!per se = ==โดยตัวมันเอง==
+
+V reference-linking 3
+Staff may take a day off ____ overtime pay.
+=in lieu of|แทน = ++in lieu of++
+-per se|per se คือโดยตัวมันเอง
+-namely|namely คือได้แก่
+-whereupon|whereupon คือทันใดนั้น
+!in lieu of = ==แทนที่== (= instead of)
+
+V reference-linking 3
+The guest insulted the host, ____ he was asked to leave.
+=whereupon|ทันใดนั้น/หลังจากนั้นทันที = ++whereupon++
+-namely|ไม่ตรงความหมาย
+-conversely|ไม่ตรงความหมาย
+-per se|ไม่ตรงความหมาย
+!whereupon = ==ซึ่งต่อมาทันที==
+
+R paragraph-order 2|How One Village Saved Its Forest
+In 2009, the hills above Ban Pa Daeng were almost bare. Illegal logging had removed most of the large trees, and every rainy season brought landslides into the rice fields below.
+
+The turning point came when an erstwhile logger, Khun Sombat, persuaded the village council to create a community forest. Families agreed to plant ten trees each year and to take turns guarding the area at night.
+
+The ensuing years were difficult. Some neighbours objected, chiefly because they relied on selling wood. In lieu of logging income, the council helped them start a mushroom business in the shade of the young trees.
+
+Today, the forest covers most of the hills, landslides have stopped and the mushroom cooperative employs thirty people. Visitors now come to learn how the aforementioned plan was put into practice.
+Q Who started the change?
+=a former logger|an erstwhile logger, Khun Sombat
+-the village council alone|สภาหมู่บ้านถูกโน้มน้าวโดยสมบัติ
+-visitors from the city|ผู้มาเยือนมาทีหลัง
+-a government officer|ในบทไม่ได้พูดถึง
+Q Why did some neighbours object?
+=they earned money from wood|chiefly because they relied on selling wood
+-they disliked mushrooms|ในบทไม่ได้พูดเช่นนั้น
+-they had to guard at night|ในบทไม่ได้พูดว่านี่คือเหตุผล
+-they wanted to move to the city to find better work|ในบทไม่ได้พูดถึง
+Q What replaced income from logging?
+=a mushroom business|start a mushroom business in the shade of the young trees
+-rice farming|ทำนาอยู่แล้ว ไม่ใช่สิ่งทดแทน
+-tourism only|ผู้มาเยือนมาเรียนรู้ ไม่ใช่รายได้แทน
+-selling young trees to other villages|ในบทไม่ได้พูดถึง
+
+L multi-speaker-discussion 2
+Man: I think we should delay the launch.
+Woman: I see your point, but delaying would cost us our main customer.
+Man: Fair enough. Let's launch on time, then, but with fewer features.
+Q What do they finally agree?
+=launch on schedule with fewer features|Let's launch on time, then, but with fewer features
+-delay the launch|ฝ่ายหญิงคัดค้าน
+-cancel the launch|ในบทไม่ได้พูดถึง
+-find a new main customer before they launch anything|ในบทไม่ได้พูดถึง
+
+L reference-linking 2
+Woman: Two options were discussed, namely, raising fees or cutting services. The board chose the former.
+Q What did the board decide?
+=to raise fees|The board chose the former
+-to cut services|เป็นตัวเลือกหลัง (the latter)
+-to do both|เลือกเพียงข้อเดียว
+-to postpone the decision until next year|ในบทไม่ได้พูดถึง

@@ -1,0 +1,157 @@
+G hedging 2
+The results ____ that the new medicine reduces pain, but more tests are needed.
+=seem to suggest|พูดอย่างระวัง ++seem to suggest++
+-prove|prove หนักแน่นเกินไปเมื่อยังต้องทดสอบ
+-definitely show|definitely ขัดกับต้องทดสอบเพิ่ม
+-are suggest|รูปผิด จึงใช้ไม่ได้
+!พูดอย่างระวัง ==seem to / appear to / suggest==
+
+G hedging 2
+There ____ to be a problem with the payment system this morning.
+=appears|ดูเหมือนว่า ++There appears to be++
+-is appearing|appear ในความหมายนี้ไม่ใช้ -ing
+-appear|there + เอกพจน์ ต้องเติม s
+-has appear|รูปผิด จึงใช้ไม่ได้
+!==There appears / seems to be== = ดูเหมือนจะมี
+
+G hedging 3
+It ____ argued that social media has made people less patient.
+=could be|พูดอย่างระวัง ++It could be argued that++
+-must be|หนักแน่นเกินไปสำหรับการแสดงความเห็น
+-is arguing|it ไม่ใช่ผู้โต้แย้ง
+-could|ขาด be จึงไม่เป็น passive
+!==It could be argued that...== = อาจกล่าวได้ว่า
+
+G hedging 3
+The price of rice is ____ to rise again next month.
+=likely|มีแนวโน้มว่า ++be likely to++
+-probably|probably ไม่ตามด้วย to + V1
+-possibly|possibly ไม่ตามด้วย to + V1
+-likelihood|likelihood เป็นคำนาม
+!be ==likely to + V1== = น่าจะ
+
+G emphasis-inversion-cleft-intro 2
+It was my grandmother ____ taught me how to cook.
+=who|ประโยคเน้น ++It was ... who++
+-what|what ไม่ใช้หลังคนในประโยคเน้น
+-which|which ใช้กับสิ่งของ
+-whom|ต้องเป็นประธานของ taught
+!==It was + คน + who...== = คนที่...คือ
+
+G emphasis-inversion-cleft-intro 3
+Never before ____ so many people at the night market.
+=had we seen|ปฏิเสธขึ้นต้น ++สลับกริยาช่วย++
+-we had seen|หลัง never before ขึ้นต้นต้องสลับ
+-we saw|ต้องสลับเป็นรูปคำถาม
+-saw we|ต้องมีกริยาช่วยมาสลับ
+!==Never / Rarely + กริยาช่วย + ประธาน==
+
+G emphasis-inversion-cleft-intro 3
+What worries the residents most ____ the noise from the new factory.
+=is|What-clause เป็นประธานเอกพจน์ ++is++
+-are|What-clause ถือเป็นเอกพจน์
+-be|ขาดการผันกริยา
+-being|ไม่ใช่กริยาแท้
+!==What + ประโยค + is...== = สิ่งที่...คือ
+
+G emphasis-inversion-cleft-intro 3
+Not only ____ the deadline, but they also went over budget.
+=did they miss|Not only ขึ้นต้น ++สลับกริยาช่วย++
+-they missed|ต้องสลับหลัง not only ขึ้นต้น
+-missed they|ต้องมี did มาสลับ
+-they did miss|ไม่ได้สลับ จึงใช้ไม่ได้
+!==Not only + กริยาช่วย + ประธาน==, but ... also
+
+G emphasis-inversion-cleft-intro 3
+I ____ appreciate all your help this year.
+=really do|เน้นกริยา ++do + V1++
+-am really|am appreciate ผิดรูป
+-do really to|มี to เกิน
+-really does|I ใช้ do ไม่ใช่ does
+!==do / does / did + V1== = เน้นว่า...จริง ๆ
+
+V trends 2
+There has been a ____ fall in the number of tourists, down 60 per cent in a year.
+=drastic|รุนแรงมาก = ++drastic++
+-marginal|marginal คือเล็กน้อย ขัดกับ 60%
+-tentative|tentative คือยังไม่แน่นอน
+-prominent|ไม่ตรงความหมาย
+!drastic = ==รุนแรง มากอย่างกะทันหัน==
+
+V trends 2
+The change was only ____, from 41 to 42 per cent.
+=marginal|เล็กน้อย = ++marginal++
+-drastic|drastic คือรุนแรง ขัดกับ 1%
+-crucial|crucial คือสำคัญมาก
+-notable|notable คือโดดเด่น
+!marginal = ==เล็กน้อยมาก==
+
+V trends 3
+A large ____ of the students come from nearby villages.
+=proportion|สัดส่วน = ++a large proportion of++
+-phenomenon|phenomenon คือปรากฏการณ์
+-trend|trend คือแนวโน้ม
+-fundamental|fundamental เป็นคุณศัพท์
+!a proportion ==of== = สัดส่วนของ
+
+V trends 3
+New problems began to ____ after the system had been running for a month.
+=emerge|ปรากฏขึ้น = ++emerge++
+-drastic|drastic เป็นคุณศัพท์
+-prominent|prominent เป็นคุณศัพท์
+-phenomenon|phenomenon เป็นคำนาม
+!emerge = ==โผล่ขึ้นมา ปรากฏ==
+
+V trends 3
+Clean water is ____ to good health.
+=fundamental|พื้นฐานสำคัญ = ++fundamental to++
+-marginal|marginal คือเล็กน้อย
+-tentative|tentative คือยังไม่แน่นอน
+-merely|merely เป็นคำวิเศษณ์
+!fundamental ==to== = เป็นพื้นฐานของ
+
+V trends 3
+This is ____ a first draft. The final version will be much longer.
+=merely|เป็นเพียง = ++merely++
+-notable|notable เป็นคุณศัพท์
+-crucial|crucial เป็นคุณศัพท์
+-drastic|drastic เป็นคุณศัพท์
+!merely = ==เพียงแค่== (= only)
+
+R research-summary 2|Summary: Phone Use Before Sleep (Small Classroom Study)
+This small study looked at 40 adult learners in an evening English class. Each person kept a diary for two weeks, recording how long they used their phone before sleeping and how rested they felt the next morning.
+
+The results appear to suggest a link between phone use and sleep. Learners who used their phones for more than an hour before bed reported feeling tired on 9 out of 14 mornings, compared with 4 out of 14 for those who used them for less than 15 minutes.
+
+However, the study has clear limits. The group was small, and the diaries depended on people's own reports. The findings should therefore be seen as tentative. A larger study with sleep monitors would be needed to confirm them.
+Q How was information collected?
+=participants wrote diaries|Each person kept a diary for two weeks
+-with sleep monitors|เป็นสิ่งที่ต้องใช้ในงานวิจัยครั้งต่อไป
+-through phone apps|ไม่ได้ใช้แอป
+-by asking their teachers|ไม่ได้ถามครู
+Q What did learners with long phone use report?
+=feeling tired more often|tired on 9 out of 14 mornings
+-sleeping longer|ไม่ได้กล่าวถึง
+-better test scores|ไม่ได้กล่าวถึง
+-fewer dreams|ไม่ได้กล่าวถึง
+Q Why are the findings called "tentative"?
+=the study was small and self-reported|The group was small ... own reports
+-the results were very clear|ผลยังไม่แน่ชัด
+-the teachers disagreed|ไม่ได้กล่าวถึง
+-the study lasted a year|ศึกษาเพียงสองสัปดาห์
+
+L describing-trends 2
+Woman: Sales of electric motorbikes have risen sharply over the past two years, while petrol models have shown only a marginal decline.
+Q What happened to petrol motorbike sales?
+=they fell slightly|only a marginal decline
+-they rose sharply|เป็นแนวโน้มของรถไฟฟ้า
+-they stayed exactly the same|ลดลงเล็กน้อย ไม่ได้คงที่
+-they fell dramatically|ลดลงเพียงเล็กน้อย
+
+L describing-trends 2
+Man: It's not the price that customers complain about. It's the waiting time.
+Q What is the customers' main complaint?
+=the waiting time|It's the waiting time
+-the price|เขาบอกว่าไม่ใช่ราคา
+-the staff|ไม่ได้กล่าวถึง
+-the quality|ไม่ได้กล่าวถึง

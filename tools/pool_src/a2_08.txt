@@ -1,0 +1,156 @@
+G past-simple-irregular 1
+I ____ my keys on the bus this morning.
+=left|อดีตไม่ปกติ ++leave → left++
+-leaved|leave ไม่เติม ed
+-leave|เล่าอดีต ต้องใช้ left
+-leaving|ขาดกริยาแท้
+!==leave → left==
+
+G past-simple-irregular 1
+She ____ a new phone last week.
+=bought|อดีตไม่ปกติ ++buy → bought++
+-buyed|buy ไม่เติม ed
+-buy|last week เป็นอดีต
+-brought|brought คืออดีตของ bring
+!==buy → bought== · bring → brought
+
+G past-simple-irregular 2
+We ____ the last train home, so we didn't need a taxi.
+=caught|อดีตไม่ปกติ ++catch → caught++
+-catched|catch ไม่เติม ed
+-catch|เล่าอดีต ต้องใช้ caught
+-missed|ถ้าตกรถไฟจะต้องใช้แท็กซี่
+!==catch → caught==
+
+G past-simple-irregular 2
+My grandfather ____ me a story every night when I was small.
+=told|อดีตไม่ปกติ ++tell → told++
+-telled|tell ไม่เติม ed
+-said|say ไม่ตามด้วยคน + a story
+-tell|เล่าอดีต ต้องใช้ told
+!==tell → told== · say → said
+
+G past-simple-neg-questions 1
+I ____ breakfast this morning. I was late.
+=didn't have|ปฏิเสธในอดีต ++didn't + V1++
+-didn't had|หลัง didn't ใช้ V1
+-don't have|เป็นเรื่องเช้านี้ (อดีต)
+-not had|ขาด did
+!ปฏิเสธอดีต ==didn't + V1==
+
+G past-simple-neg-questions 1
+____ you go to the meeting yesterday?
+=Did|ถามอดีต ++Did + V1?++
+-Do|yesterday เป็นอดีต
+-Were|were ไม่ตามด้วย go
+-Was|was ไม่ตามด้วย go
+!ถามอดีต ==Did + ประธาน + V1?==
+
+G past-simple-neg-questions 2
+What time ____ the film start?
+=did|ถามอดีต ++did + V1++
+-was|was ไม่ตามด้วย start
+-does|ถ้าถามอดีตต้องใช้ did
+-started|มีคำถาม what time ต้องใช้ did
+!==Wh- + did + ประธาน + V1?==
+
+G past-simple-neg-questions 2
+"Did you remember to buy milk?" "Sorry, I ____."
+=didn't|ตอบสั้นปฏิเสธ ++I didn't++
+-don't|คำถามเป็นอดีต
+-wasn't|คำถามใช้ did
+-not|ขาด did
+!ตอบสั้น ==Yes, I did. / No, I didn't.==
+
+G past-simple-neg-questions 2
+Where ____ you spend your holiday?
+=did|ถามอดีต ++did++
+-were|were ไม่ตามด้วย spend
+-was|was ไม่ใช้กับ you
+-do you|มี you ซ้ำ
+!==Where did you + V1?==
+
+V problems-mistakes 1
+Oh no! I ____ my umbrella at home, and now it's raining.
+=forgot|ลืม = ++forget → forgot++
+-remembered|ความหมายกลับกัน
+-paid|ไม่ตรงความหมาย
+-answered|ไม่ตรงความหมาย
+!forget = ==ลืม== · remember = จำได้
+
+V problems-mistakes 1
+I'm sorry. I made a ____ on your bill.
+=mistake|ข้อผิดพลาด = ++make a mistake++
+-question|ทำคำถามบนบิลไม่ตรงความหมาย
+-exam|exam คือการสอบ
+-answer|ไม่ตรงความหมาย
+!make a mistake = ==ทำผิดพลาด==
+
+V problems-mistakes 1
+I ____ the bus because I got up late.
+=missed|พลาดรถ = ++miss the bus++
+-caught|ความหมายกลับกัน
+-left|ไม่ตรงความหมาย
+-spent|spend ใช้กับเงินหรือเวลา
+!miss the bus = ==ตกรถ==
+
+V problems-mistakes 2
+How much did you ____ on clothes last month?
+=spend|ใช้จ่าย = ++spend on++
+-pay|pay ใช้ pay for
+-miss|ไม่ตรงความหมาย
+-forget|ไม่ตรงความหมาย
+!spend money ==on== = ใช้เงินกับ
+
+V problems-mistakes 2
+I can't open the door. There's a ____ with the key.
+=problem|ปัญหา = ++a problem with++
+-question|ไม่ตรงความหมาย
+-answer|ไม่ตรงความหมาย
+-exam|ไม่ตรงความหมาย
+!a problem ==with== = มีปัญหากับ
+
+V problems-mistakes 2
+Can I ____ by card, or only by cash?
+=pay|จ่าย = ++pay by card++
+-spend|spend by card ไม่ใช่วลีที่ใช้
+-miss|ไม่ตรงความหมาย
+-catch|ไม่ตรงความหมาย
+!pay ==by card / in cash== = จ่ายด้วยบัตร / เงินสด
+
+R diary-entry 1|Wednesday, 12 March
+What a bad day! I woke up late because I forgot to set my alarm. I didn't have time for breakfast, and I missed the bus. I took a taxi, but it cost 150 baht.
+At work, I made a big mistake in an email to a customer. My boss wasn't angry, but I felt terrible.
+In the evening, things got better. My friend Ploy called me, and we had noodles at the night market. Tomorrow will be a better day!
+Q Why did the writer wake up late?
+=the alarm wasn't set|I forgot to set my alarm
+-the bus was late|ตกรถเมล์เป็นผลที่ตามมา
+-the writer was ill|ในบทไม่ได้พูดเช่นนั้น
+-a friend called early|เพื่อนโทรมาตอนเย็น
+Q How did the writer get to work?
+=by taxi|I took a taxi
+-by bus|ผู้เขียนตกรถเมล์
+-on foot|ในบทไม่ได้พูดเช่นนั้น
+-in a friend's car|ในบทไม่ได้พูดเช่นนั้น
+Q What did the writer do in the evening?
+=ate noodles with a friend|we had noodles at the night market
+-wrote an email|อีเมลเป็นเรื่องที่ทำงาน
+-worked late|ในบทไม่ได้พูดเช่นนั้น
+-went to bed early|ในบทไม่ได้พูดเช่นนั้น
+
+L past-questions 1
+Woman: Did you pass the exam?
+Man: No, I didn't. I answered only half of the questions in time.
+Q What was the man's problem?
+=he didn't finish in time|I answered only half of the questions in time
+-he forgot the exam|ในบทไม่ได้พูดเช่นนั้น
+-he arrived late|ในบทไม่ได้พูดเช่นนั้น
+-he lost his pen|ในบทไม่ได้พูดเช่นนั้น
+
+L problems-mistakes 1
+Man: I remembered the tickets, but I forgot my passport, so we went back home.
+Q Why did they go back home?
+=the man forgot his passport|I forgot my passport
+-they forgot the tickets|เขาเอาตั๋วมาแล้ว
+-the flight was cancelled|ในบทไม่ได้พูดเช่นนั้น
+-it was raining|ในบทไม่ได้พูดเช่นนั้น

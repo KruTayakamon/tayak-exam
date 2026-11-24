@@ -1,0 +1,157 @@
+G review-c2-a 2
+Little ____ that the small donation would change the village forever.
+=did she realise|Little ขึ้นต้น ++สลับด้วย did++
+-she realised|ต้องสลับ
+-realised she|ต้องใช้ did
+-she did realise|ไม่ได้สลับ
+!==Little did + ประธาน + V1==
+
+G review-c2-a 3
+Were it not ____ the volunteers, the shelter would have to close.
+=for|สำนวน ++Were it not for++
+-by|ไม่ใช่สำนวน
+-of|ไม่ใช่สำนวน
+-with|ไม่ใช่สำนวน
+!==Were it not for + คำนาม== = ถ้าไม่มี...
+
+G review-c2-a 3
+The committee insists that every member ____ present.
+=be|subjunctive ++be++
+-is|ทางการหลัง insist that ใช้ be
+-will be|ไม่ใช้ will
+-being|ไม่ใช่กริยาแท้
+!insist that + ประธาน + ==be==
+
+G review-c2-a 3
+What I find most ____ is the lack of transparency.
+=troubling|What-clause เน้น ++What I find + adj + is...++
+-troubled|ใช้กับความรู้สึกของคน
+-trouble|trouble เป็นคำนาม/กริยา
+-troublingly|เป็นคำวิเศษณ์
+!==What I find most + adj (-ing) + is...==
+
+G review-c2-b 2
+____ the director's approval, the project cannot go ahead.
+=Without|เงื่อนไขแฝง ++Without + คำนาม++
+-Unless|unless ต้องตามด้วยประโยค
+-Except|ความหมายไม่ตรง
+-Otherwise|ไม่ใช้ตรงนี้
+!==Without + คำนาม== = ถ้าไม่มี...
+
+G review-c2-b 3
+The minister, ____ was widely praised, will retire next month.
+=whose leadership|ขยายแบบแสดงเจ้าของ ++whose + คำนาม++
+-who leadership|ขาด whose
+-whom leadership|ไม่ใช่รูปนี้
+-which leadership|which ใช้กับสิ่งของ
+!==whose + คำนาม== = ซึ่ง...ของเขา
+
+G review-c2-b 3
+____ to the conference, she was surprised to see her old professor.
+=On arriving|เมื่อมาถึง ++On + -ing++
+-On arrive|ต้องเป็น -ing
+-At arriving|ไม่ใช่สำนวน
+-By arrived|รูปผิด จึงใช้ไม่ได้
+!==On + -ing== = ทันทีที่/เมื่อ
+
+G review-c2-b 3
+The results were ____ than we had dared to hope.
+=far better|ขั้นกว่าแบบเน้น ++far + ขั้นกว่า++
+-very better|very ไม่นำหน้าขั้นกว่า
+-much best|ต้องเป็นขั้นกว่า
+-more better|ซ้ำขั้นกว่า
+!==far / much + ขั้นกว่า== = ดีกว่ามาก
+
+G review-c2-b 3
+She is said ____ fluent in five languages.
+=to be|passive รายงาน ++is said to be++
+-being|รูปผิด จึงใช้ไม่ได้
+-that she is|ซ้อนโครงสร้าง
+-be|ขาด to
+!==is said to be== = ได้ยินว่า
+
+V profession-education 2
+The school was praised for the high ____ of its students in national tests.
+=attainment|ผลสัมฤทธิ์ = ++attainment++
+-aptitude|aptitude คือความถนัด
+-tenure|tenure คือการดำรงตำแหน่ง
+-remuneration|remuneration คือค่าตอบแทน
+!attainment = ==ผลสัมฤทธิ์ ระดับที่ทำได้==
+
+V profession-education 2
+Tests revealed that the boy had a remarkable ____ for mathematics.
+=aptitude|ความถนัด = ++aptitude for++
+-attainment|ไม่ตรงความหมาย
+-calibre|calibre คือคุณภาพของคน
+-tenacity|tenacity คือความมุ่งมั่น
+!aptitude ==for== = ความถนัดด้าน
+
+V profession-education 3
+During her ____ as head teacher, exam results improved every year.
+=tenure|ช่วงดำรงตำแหน่ง = ++tenure++
+-stewardship|ใกล้เคียงแต่ใช้กับการดูแลทรัพยากร
+-accreditation|accreditation คือการรับรอง
+-pedagogy|pedagogy คือศาสตร์การสอน
+!tenure = ==วาระการดำรงตำแหน่ง==
+
+V profession-education 3
+Without official ____, the private academy cannot award recognised diplomas.
+=accreditation|การรับรองมาตรฐาน = ++accreditation++
+-tenure|ไม่ตรงความหมาย
+-remuneration|ไม่ตรงความหมาย
+-attainment|ไม่ตรงความหมาย
+!accreditation = ==การรับรองวิทยฐานะ/มาตรฐาน==
+
+V profession-education 3
+Her ____ in finishing the marathon despite an injury inspired everyone.
+=tenacity|ความเหนียวแน่นไม่ยอมแพ้ = ++tenacity++
+-aptitude|ไม่ตรงความหมาย
+-calibre|ไม่ตรงความหมาย
+-erudite|erudite เป็นคุณศัพท์
+!tenacity = ==ความทรหด ไม่ยอมแพ้==
+
+V profession-education 3
+In a ____ gesture, the winner shared the prize with all the other finalists.
+=magnanimous|ใจกว้าง = ++magnanimous++
+-erudite|erudite คือรอบรู้
+-exemplary|ไม่ตรงความหมาย
+-tenure|tenure เป็นคำนาม
+!magnanimous = ==ใจกว้าง ให้อภัย==
+
+R long-academic 2|Rethinking Teacher Pay
+Debates about teacher remuneration often focus on a single question: are teachers paid enough? The answer, in most countries, is probably no. Yet a narrower focus on salary may miss what research suggests matters equally to teacher retention: working conditions, professional respect and opportunities to grow.
+
+A survey of teachers who left the profession found that fewer than a third named pay as their main reason. More common were workload, administrative paperwork and a sense that their expertise was not valued. Conversely, teachers who stayed often cited supportive leadership and collaborative colleagues.
+
+This does not mean that pay is unimportant. Low salaries make it harder to attract candidates of high calibre in the first place. But raising pay without improving conditions risks treating the symptom rather than the cause. A more holistic approach would combine fair remuneration with reduced paperwork and genuine career pathways.
+Q What does the survey of teachers who left show?
+=pay was not the main reason for most|fewer than a third named pay as their main reason
+-pay was the only reason|ความหมายกลับกัน
+-most left because of colleagues|เพื่อนร่วมงานเป็นเหตุให้อยู่ต่อ
+-most left to become head teachers in other larger schools|ในบทไม่ได้พูดถึง
+Q Why does the writer say pay still matters?
+=it affects who joins the profession|Low salaries make it harder to attract candidates of high calibre
+-it is the main cause of leaving|ผู้เขียนบอกว่าไม่ใช่สาเหตุหลัก
+-teachers are paid too much|ความหมายกลับกัน
+-it reduces paperwork|ไม่เกี่ยวกัน
+Q What does the writer recommend?
+=combining pay with better conditions|combine fair remuneration with reduced paperwork and genuine career pathways
+-raising pay only|ผู้เขียนเตือนว่าไม่พอ
+-cutting salaries|ความหมายกลับกัน
+-hiring more administrative staff to do all the paperwork for teachers|ในบทไม่ได้พูดถึง
+
+L mixed-review 2
+Woman: Were it not for her stewardship, the museum would have closed years ago.
+Q What does the woman say about the museum?
+=it survived because of her management|Were it not for her stewardship
+-it closed years ago|ความหมายกลับกัน
+-it was badly managed|ความหมายกลับกัน
+-it will close next month because of a lack of funding|ในบทไม่ได้พูดถึง
+
+L mixed-review 2
+Man: His lecture was erudite, certainly, but I'm not sure the first-year students followed much of it.
+Q What is the man's concern?
+=it may have been too difficult|not sure the first-year students followed much of it
+-it was too simple|ความหมายกลับกัน
+-it was too short|ในบทไม่ได้พูดถึง
+-the students arrived late and missed the beginning|ในบทไม่ได้พูดถึง

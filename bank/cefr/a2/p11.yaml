@@ -1,0 +1,278 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 11 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w11-043
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 1
+  pool: true
+  stem: "You look tired. You ____ go to bed early."
+  choices:
+    - {t: "should", why: "แนะนำ ++should + V1++"}
+    - {t: "should to", why: "หลัง should ไม่มี to"}
+    - {t: "shoulds", why: "should ไม่เติม s"}
+    - {t: "are should", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "แนะนำ ==should + V1=="
+  status: approved
+- id: cefr-a2-w11-044
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 1
+  pool: true
+  stem: "You ____ eat so many sweets. They're bad for your teeth."
+  choices:
+    - {t: "shouldn't", why: "แนะนำไม่ให้ ++shouldn't + V1++"}
+    - {t: "don't should", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "should not to", why: "หลัง should not ไม่มี to"}
+    - {t: "aren't should", why: "รูปผิด จึงใช้ไม่ได้ (aren't should)"}
+  explain: "ไม่ควร ==shouldn't + V1=="
+  status: approved
+- id: cefr-a2-w11-045
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  pool: true
+  stem: "\"____ I bring anything to the party?\" \"Just some fruit, please.\""
+  choices:
+    - {t: "Should", why: "ถามขอคำแนะนำ ++Should I...?++"}
+    - {t: "Do", why: "Do I bring ไม่ได้ถามคำแนะนำ"}
+    - {t: "Am", why: "am ไม่ตามด้วย bring"}
+    - {t: "Must", why: "ฟังเหมือนถามว่าบังคับไหม"}
+  explain: "ขอคำแนะนำ ==Should I + V1?=="
+  status: approved
+- id: cefr-a2-w11-046
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  pool: true
+  stem: "What do you think I ____ wear to the interview?"
+  choices:
+    - {t: "should", why: "ขอคำแนะนำ ++should + V1++"}
+    - {t: "should to", why: "หลัง should ไม่มี to"}
+    - {t: "am", why: "am wear ผิดรูป จึงใช้ไม่ได้"}
+    - {t: "do", why: "do wear ผิดรูปในตำแหน่งนี้"}
+  explain: "What should I + V1? = ==ควร...อะไรดี=="
+  status: approved
+- id: cefr-a2-w11-047
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 1
+  pool: true
+  stem: "You ____ wear a seat belt in the car. It's the law."
+  choices:
+    - {t: "must", why: "กฎ ต้อง ++must + V1++"}
+    - {t: "mustn't", why: "mustn't คือห้าม ความหมายกลับกัน"}
+    - {t: "don't have to", why: "แปลว่าไม่จำเป็น"}
+    - {t: "can't to", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==must / have to== = ต้อง"
+  status: approved
+- id: cefr-a2-w11-048
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 1
+  pool: true
+  stem: "My brother ____ work on Saturdays. He works in a shop."
+  choices:
+    - {t: "has to", why: "he ใช้ ++has to++"}
+    - {t: "have to", why: "my brother เป็นเอกพจน์ ใช้ has to"}
+    - {t: "must to", why: "หลัง must ไม่มี to"}
+    - {t: "has", why: "ต้องมี to ตามมา"}
+  explain: "he / she → ==has to + V1=="
+  status: approved
+- id: cefr-a2-w11-049
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  pool: true
+  stem: "You ____ take photos in the museum. It is not allowed."
+  choices:
+    - {t: "mustn't", why: "ห้าม ++mustn't + V1++"}
+    - {t: "don't have to", why: "แปลว่าไม่จำเป็น ไม่ใช่ห้าม"}
+    - {t: "must", why: "ความหมายกลับกัน"}
+    - {t: "haven't to", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "==mustn't== = ห้าม"
+  status: approved
+- id: cefr-a2-w11-050
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  pool: true
+  stem: "It's Sunday tomorrow, so I ____ get up early."
+  choices:
+    - {t: "don't have to", why: "ไม่จำเป็น ++don't have to++"}
+    - {t: "mustn't", why: "mustn't แปลว่าห้าม"}
+    - {t: "must", why: "ความหมายกลับกัน"}
+    - {t: "doesn't have to", why: "I ใช้ don't จึงใช้ไม่ได้"}
+  explain: "==don't have to== = ไม่จำเป็นต้อง"
+  status: approved
+- id: cefr-a2-w11-051
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  pool: true
+  stem: "\"____ we pay for the museum?\" \"No, it's free.\""
+  choices:
+    - {t: "Do we have to", why: "ถามว่าต้องไหม ++Do we have to...?++"}
+    - {t: "Have we to", why: "ไม่ใช่รูปคำถามทั่วไป"}
+    - {t: "Must we to", why: "หลัง must ไม่มี to"}
+    - {t: "Are we have to", why: "รูปผิด จึงใช้ไม่ได้"}
+  explain: "ถาม ==Do I/we have to + V1?=="
+  status: approved
+- id: cefr-a2-w11-052
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  pool: true
+  stem: "Be ____. The floor is wet."
+  choices:
+    - {t: "careful", why: "ระวัง = ++careful++"}
+    - {t: "polite", why: "polite คือสุภาพ"}
+    - {t: "friendly", why: "friendly คือเป็นมิตร"}
+    - {t: "healthy", why: "healthy คือสุขภาพดี"}
+  explain: "Be careful! = ==ระวัง=="
+  status: approved
+- id: cefr-a2-w11-053
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  pool: true
+  stem: "Don't swim here. The river is ____."
+  choices:
+    - {t: "dangerous", why: "อันตราย = ++dangerous++"}
+    - {t: "safe", why: "ความหมายกลับกัน"}
+    - {t: "polite", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "friendly", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (friendly)"}
+  explain: "dangerous = ==อันตราย== · safe = ปลอดภัย"
+  status: approved
+- id: cefr-a2-w11-054
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  pool: true
+  stem: "Students must wear a ____ at school."
+  choices:
+    - {t: "uniform", why: "เครื่องแบบ = ++uniform++"}
+    - {t: "rule", why: "ไม่ใช่สิ่งที่สวม"}
+    - {t: "habit", why: "ไม่ใช่สิ่งที่สวม (habit)"}
+    - {t: "advice", why: "ไม่ใช่สิ่งที่สวม (advice)"}
+  explain: "wear a uniform = ==ใส่เครื่องแบบ=="
+  status: approved
+- id: cefr-a2-w11-055
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  pool: true
+  stem: "Eating fruit every day is a good ____."
+  choices:
+    - {t: "habit", why: "นิสัย = ++habit++"}
+    - {t: "rule", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "uniform", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (uniform)"}
+    - {t: "careful", why: "เป็นคุณศัพท์ จึงใช้ไม่ได้"}
+  explain: "a good habit = ==นิสัยที่ดี=="
+  status: approved
+- id: cefr-a2-w11-056
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  pool: true
+  stem: "Please ____ your toys with your sister."
+  choices:
+    - {t: "share", why: "แบ่งปัน = ++share with++"}
+    - {t: "hurry", why: "hurry ไม่ตามด้วยของเล่น"}
+    - {t: "careful", why: "เป็นคุณศัพท์ จึงใช้ไม่ได้"}
+    - {t: "polite", why: "เป็นคุณศัพท์ จึงใช้ไม่ได้ (polite)"}
+  explain: "share ==with== = แบ่งให้"
+  status: approved
+- id: cefr-a2-w11-057
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  pool: true
+  stem: "Please ____ up. The last boat leaves at five."
+  choices:
+    - {t: "hurry", why: "รีบ = ++hurry up++"}
+    - {t: "share", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "careful", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (careful)"}
+    - {t: "habit", why: "เป็นคำนาม จึงใช้ไม่ได้"}
+  explain: "Hurry up! = ==รีบหน่อย=="
+  status: approved
+- id: cefr-a2-w11-058
+  kind: read
+  skill: rd
+  topic: public-rules
+  level: 1
+  pool: true
+  title: "City Library: Rules"
+  passage: |
+    Welcome to the City Library. Please read our rules.
+    You must show your library card when you borrow books. You can borrow five books for two weeks.
+    You mustn't eat or drink in the reading room, but you can have a drink in the café on the ground floor.
+    Please turn off the sound on your phone. You don't have to be completely silent, but please talk quietly.
+    Children under ten must stay with an adult.
+  questions:
+    - stem: "How many books can you borrow?"
+      choices:
+        - {t: "five", why: "You can borrow five books"}
+        - {t: "two", why: "สองคือจำนวนสัปดาห์"}
+        - {t: "ten", why: "สิบคืออายุของเด็ก"}
+        - {t: "as many as you like", why: "มีจำนวนจำกัด จึงใช้ไม่ได้"}
+    - stem: "Where can you have a drink?"
+      choices:
+        - {t: "in the café", why: "you can have a drink in the café"}
+        - {t: "in the reading room", why: "ห้ามกินดื่มในห้องอ่านหนังสือ"}
+        - {t: "at the library desk", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "nowhere in the building", why: "ดื่มในคาเฟ่ได้ จึงใช้ไม่ได้"}
+    - stem: "What is true about talking?"
+      choices:
+        - {t: "you can talk quietly", why: "You don't have to be completely silent"}
+        - {t: "you must be completely silent", why: "ความหมายกลับกัน"}
+        - {t: "you can talk loudly", why: "ให้พูดเบา ๆ จึงใช้ไม่ได้"}
+        - {t: "you can't talk at all", why: "ความหมายกลับกัน (you can't talk at all)"}
+  status: approved
+- id: cefr-a2-w11-059
+  kind: listen
+  skill: li
+  topic: rules-advice
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "I have a bad cough."}
+    - {who: Man, en: "You should drink some warm water and you shouldn't go out in the cold."}
+  questions:
+    - stem: "What does the man advise?"
+      choices:
+        - {t: "drink warm water", why: "You should drink some warm water"}
+        - {t: "go outside", why: "เขาบอกว่าไม่ควรออกไปข้างนอก"}
+        - {t: "drink cold water", why: "เขาบอกให้ดื่มน้ำอุ่น"}
+        - {t: "go to work", why: "ในบทไม่ได้พูดเช่นนั้น"}
+  status: approved
+- id: cefr-a2-w11-060
+  kind: listen
+  skill: li
+  topic: rules-habits
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "At my office, we don't have to wear a uniform, but we must wear shoes, not sandals."}
+  questions:
+    - stem: "What must the staff wear?"
+      choices:
+        - {t: "shoes", why: "we must wear shoes"}
+        - {t: "a uniform", why: "ไม่ต้องใส่เครื่องแบบ"}
+        - {t: "sandals", why: "ห้ามใส่รองเท้าแตะ"}
+        - {t: "a tie", why: "ในบทไม่ได้พูดถึงเนกไท"}
+  status: approved

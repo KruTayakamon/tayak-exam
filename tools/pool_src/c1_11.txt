@@ -1,0 +1,157 @@
+G transformations 2
+"It wasn't necessary for you to bring food." = You ____ food.
+=needn't have brought|ทำแล้วแต่ไม่จำเป็น ++needn't have + V3++
+-mustn't have brought|mustn't = ห้าม ไม่ตรง
+-didn't need bring|ขาด to จึงใช้ไม่ได้
+-shouldn't bring|ความหมายไม่ตรง
+!It wasn't necessary (but you did) = ==needn't have + V3==
+
+G transformations 2
+"People say he is a talented chef." = He ____ a talented chef.
+=is said to be|passive รายงาน ++is said to be++
+-says to be|ประธานไม่ได้เป็นผู้พูด
+-is saying to be|รูปผิด จึงใช้ไม่ได้
+-said being|รูปผิด จึงใช้ไม่ได้
+!People say he is → ==He is said to be==
+
+G transformations 3
+"I regret not studying harder." = I wish ____ harder.
+=I had studied|wish + อดีต ++had + V3++
+-I studied|ต้องเป็น had + V3 สำหรับอดีต
+-I would study|ไม่ใช้ would กับตัวเองในอดีต
+-to have studied|ขาดประธาน
+!regret not + -ing = ==wish + had + V3==
+
+G transformations 3
+"She started teaching here ten years ago." = She ____ here for ten years.
+=has been teaching|ต่อเนื่องถึงปัจจุบัน ++has been + -ing++
+-taught|ต้องเชื่อมถึงปัจจุบัน
+-is teaching|for ten years ต้องใช้ present perfect
+-had taught|ไม่ใช่อดีตสมบูรณ์
+!started ... ago = ==has been + -ing + for==
+
+G transformations 3
+"Although he was tired, he finished the report." = ____ tired, he finished the report.
+=Despite being|despite + ++-ing++
+-Despite he was|despite ไม่ตามด้วยประโยค
+-In spite he was|ต้องมี of และไม่ใช่ประโยค
+-Although being|although ไม่ตามด้วย -ing แบบนี้
+!although + ประโยค = ==despite + -ing==
+
+G word-formation-advanced 2
+The judge must remain ____ and treat both sides equally.
+=impartial|ไม่ลำเอียง ++im- + partial++
+-unpartial|partial ใช้ im- ไม่ใช่ un-
+-inpartial|ไม่มีคำนี้
+-dispartial|ไม่มีคำนี้
+!partial → ==impartial== (ไม่ลำเอียง)
+
+G word-formation-advanced 3
+The government plans to ____ the old railway lines.
+=modernise|ทำให้ทันสมัย ++-ise++
+-modern|modern เป็นคุณศัพท์
+-modernity|modernity เป็นคำนาม
+-modernly|ไม่ใช่คำที่ใช้
+!คุณศัพท์ + ==-ise / -ize== = ทำให้เป็น...
+
+G word-formation-advanced 3
+Her ____ to detail is what makes her a great editor.
+=attention|คำนาม ++attention to detail++
+-attentive|attentive เป็นคุณศัพท์
+-attentively|attentively เป็นคำวิเศษณ์
+-attend|attend เป็นกริยา
+!หลัง her + ... + to ต้องเป็น ==คำนาม==
+
+G word-formation-advanced 3
+The factory's ____ has doubled since the new machines arrived.
+=productivity|คำนาม ++productivity++ = ผลิตภาพ
+-productive|productive เป็นคุณศัพท์
+-produce|produce เป็นกริยา/สินค้าเกษตร
+-producer|producer คือผู้ผลิต
+!produce → productive → ==productivity==
+
+V learner-qualities 2
+Children are naturally ____; they ask "why?" about everything.
+=inquisitive|ช่างสงสัย = ++inquisitive++
+-impartial|impartial คือไม่ลำเอียง
+-intricate|intricate คือซับซ้อน
+-rigorous|rigorous คือเข้มงวด
+!inquisitive = ==อยากรู้อยากเห็น==
+
+V learner-qualities 2
+After losing her job, she was ____ and found a new one within a month.
+=resilient|ฟื้นตัวเร็ว = ++resilient++
+-intricate|intricate คือซับซ้อน
+-authentic|authentic คือแท้
+-impartial|impartial คือไม่ลำเอียง
+!resilient = ==ล้มแล้วลุกได้เร็ว==
+
+V learner-qualities 3
+She's ____ at handling difficult customers without losing her temper.
+=adept|ชำนาญ = ++adept at++
+-proficient|proficient ใช้ in
+-inquisitive|ไม่ตรงความหมาย
+-commendable|commendable ใช้กับการกระทำ
+!adept ==at + -ing== = ชำนาญในการ
+
+V learner-qualities 3
+The new rules were tested in a ____ trial over two years.
+=rigorous|เข้มงวดถี่ถ้วน = ++rigorous++
+-resilient|resilient คือฟื้นตัวเร็ว
+-adept|adept ใช้กับคน
+-inquisitive|inquisitive ใช้กับคน
+!rigorous = ==เข้มงวด รัดกุม==
+
+V learner-qualities 3
+The lawyer made a ____ case, and the jury was convinced.
+=compelling|น่าเชื่อจนคล้อยตาม = ++compelling++
+-intricate|ไม่ตรงความหมาย
+-impartial|impartial คือไม่ลำเอียง
+-commendable|ไม่ตรงความหมาย
+!a compelling argument = ==ข้อโต้แย้งที่หนักแน่นน่าเชื่อ==
+
+V learner-qualities 3
+The pattern on the old silk is so ____ that it took months to weave.
+=intricate|ซับซ้อนละเอียด = ++intricate++
+-authentic|authentic คือของแท้
+-rigorous|rigorous ใช้กับวิธี/การตรวจ
+-resilient|resilient คือทนทาน ฟื้นตัว
+!intricate = ==ซับซ้อนประณีต==
+
+R lifelong-learning 2|Never Too Late: Learning at Sixty
+When Khun Prasert retired at sixty, he expected to spend his time gardening. Instead, he enrolled in an online course on Thai history. "I was always inquisitive," he says, "but work never left me time to follow my interests."
+
+He admits the start was hard. The video platform was unfamiliar, and he sometimes felt embarrassed asking younger classmates for help. But he discovered that his life experience was valuable in discussions, and several classmates said his comments made the topics feel more authentic.
+
+Two years later, Prasert has completed four courses and now volunteers at a local museum, giving tours to school groups. Research supports his experience: older adults who keep learning tend to report better memory and a stronger sense of purpose, although scientists caution that more active people may simply be more likely to study in the first place.
+Q What difficulty did Prasert face at first?
+=using the online platform|The video platform was unfamiliar
+-understanding Thai history|ในบทไม่ได้พูดเช่นนั้น
+-paying the course fees|ในบทไม่ได้พูดถึงค่าเรียน
+-finding time after retirement|ในบทไม่ได้พูดเช่นนั้น
+Q How did his classmates view his contributions?
+=they valued his experience|his comments made the topics feel more authentic
+-they found them too long|ในบทไม่ได้พูดเช่นนั้น
+-they ignored them|ความหมายกลับกัน
+-they disagreed with him|ในบทไม่ได้พูดถึง
+Q What caution do scientists add?
+=active people may be more likely to study anyway|more active people may simply be more likely to study in the first place
+-learning harms older adults' memory|ความหมายกลับกัน
+-online courses are not useful for people over sixty|ในบทไม่ได้พูดเช่นนั้น
+-museums are better than courses|ในบทไม่ได้พูดถึง
+
+L note-taking-lecture 2
+Woman: The key point to note is this: practice spread over several days is far more effective than the same amount in one long session.
+Q What is the speaker's key point?
+=spreading practice out works better|practice spread over several days is far more effective
+-long sessions are best|ความหมายกลับกัน
+-practice is unnecessary for most learners|ในบทไม่ได้พูดเช่นนั้น
+-one day is enough|ความหมายกลับกัน
+
+L learner-qualities 2
+Man: Her report was comprehensive, but frankly, it could have been half the length.
+Q What does the man think of the report?
+=thorough but too long|comprehensive, but ... could have been half the length
+-short and incomplete|ความหมายกลับกัน
+-perfect as it is|เขาติว่ายาวเกินไป
+-full of mistakes|ในบทไม่ได้พูดถึงข้อผิดพลาด

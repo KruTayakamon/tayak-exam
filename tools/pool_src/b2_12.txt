@@ -1,0 +1,159 @@
+G verb-patterns-advanced 2
+I remember ____ the door, but now it's open. Strange!
+=locking|จำได้ว่าทำไปแล้ว ++remember + -ing++
+-to lock|remember to = อย่าลืมทำ (ยังไม่ทำ)
+-lock|ต้องเป็น -ing หรือ to
+-locked|หลัง remember ไม่ใช้อดีต
+!remember ==+ -ing== = จำได้ว่าทำแล้ว · remember to = อย่าลืม
+
+G verb-patterns-advanced 2
+Halfway up the mountain, the hikers stopped ____ a photo of the valley.
+=to take|หยุดเพื่อทำ ++stop to + V1++
+-taking|stop taking = เลิกถ่าย
+-take|ต้องมี to หรือ -ing
+-for take|รูปผิด จึงใช้ไม่ได้
+!stop ==to + V1== = หยุดเพื่อ · stop + -ing = เลิก
+
+G verb-patterns-advanced 3
+If the printer still doesn't work, try ____ it off and on again.
+=turning|ลองทำดู ++try + -ing++
+-to turn|try to = พยายาม (ยาก) ไม่ตรงความหมาย
+-turn|ต้องเป็น -ing หรือ to
+-turned|หลัง try ไม่ใช้อดีต
+!try ==+ -ing== = ลองทำดู · try to = พยายาม
+
+G verb-patterns-advanced 3
+After finishing her degree, she went on ____ a successful company.
+=to set up|ต่อมาได้ทำอีกเรื่อง ++go on to + V1++
+-setting up|go on + -ing = ทำเรื่องเดิมต่อ
+-set up|ต้องมี to
+-to setting up|รูปผิด จึงใช้ไม่ได้
+!go on ==to + V1== = ต่อมาได้... · go on + -ing = ทำต่อไป
+
+G review-b2 2
+By the time we got to the cinema, the film ____.
+=had already started|เกิดก่อนอีกเรื่องในอดีต ++had + V3++
+-already started|ไม่ชัดว่าเกิดก่อน
+-has already started|เล่าอดีต ใช้ has ไม่ได้
+-was already starting|ไม่ได้บอกว่าเริ่มไปแล้ว
+!by the time + อดีต → ==had + V3==
+
+G review-b2 3
+____ I known about the traffic, I would have taken the train.
+=Had|เงื่อนไขแบบที่ 3 สลับ ++Had + ประธาน + V3++
+-If|If ต้องตามด้วย I had known
+-Should|should ไม่ใช้กับอดีตสมมติ
+-Were|were ไม่ตามด้วย known
+!==Had I known...== = If I had known (ทางการ)
+
+G review-b2 3
+The new policy ____ to reduce waste by half.
+=is expected|passive รายงาน ++is expected to++
+-expects|นโยบายไม่ได้เป็นผู้คาดหวัง
+-is expecting|ความหมายไม่ตรง
+-has expect|รูปผิด จึงใช้ไม่ได้
+!==is expected / believed to== = คาดว่าจะ
+
+G review-b2 3
+She ____ the report by now; she started early this morning.
+=must have finished|สรุปจากหลักฐาน ++must have + V3++
+-must finish|ต้องพูดถึงสิ่งที่เกิดแล้ว
+-can't finish|ความหมายกลับกัน
+-should finish|ความหมายไม่ตรง
+!แน่ใจว่าทำเสร็จแล้ว ==must have + V3==
+
+G review-b2 3
+____ the bad weather, the festival went ahead as planned.
+=In spite of|ตามด้วยคำนาม ++in spite of++
+-Although|although ต้องตามด้วยประโยค
+-Even though|ต้องตามด้วยประโยค
+-Whereas|ความหมายไม่ตรง
+!in spite of / despite + ==คำนาม==
+
+V professional-growth 2
+It took me a few months to ____ to working night shifts.
+=adjust|ปรับตัว = ++adjust to + -ing/คำนาม++
+-pursue|pursue คือไล่ตาม (เป้าหมาย)
+-establish|establish คือก่อตั้ง
+-ensure|ensure คือทำให้แน่ใจ
+!adjust ==to== = ปรับตัวให้เข้ากับ
+
+V professional-growth 2
+She left her office job to ____ a career in photography.
+=pursue|มุ่งไล่ตาม = ++pursue a career++
+-adapt|adapt ไม่ใช้กับ a career แบบนี้
+-reflect|reflect คือไตร่ตรอง
+-determine|determine คือกำหนด
+!pursue a career / goal = ==มุ่งไปตามเส้นทาง==
+
+V professional-growth 3
+Please ____ that all the windows are closed before you leave.
+=ensure|ทำให้แน่ใจ = ++ensure that++
+-insight|insight เป็นคำนาม
+-impact|ไม่ตรงความหมาย
+-capacity|capacity เป็นคำนาม
+!ensure (that) = ==ทำให้แน่ใจว่า==
+
+V professional-growth 3
+The talk gave me a useful ____ into how small businesses use social media.
+=insight|ความเข้าใจลึกซึ้ง = ++insight into++
+-impact|impact ใช้ impact on
+-approach|approach ใช้ approach to
+-capacity|capacity คือขีดความสามารถ
+!insight ==into== = ความเข้าใจลึกใน
+
+
+
+V professional-growth 3
+Take some time to ____ on what went well and what you would change.
+=reflect|ไตร่ตรอง = ++reflect on++
+-demonstrate|demonstrate คือสาธิต
+-establish|establish คือก่อตั้ง
+-pursue|pursue คือไล่ตาม
+!reflect ==on== = ทบทวนไตร่ตรอง
+
+V professional-growth 3
+The company was ____ in 1985 by two brothers from Chiang Mai.
+=established|ก่อตั้ง = ++establish a company++
+-ensured|ensure คือทำให้แน่ใจ
+-demonstrated|demonstrate คือแสดงให้เห็น
+-reflected|reflect คือไตร่ตรอง
+!be established = ==ถูกก่อตั้ง==
+
+R professional-development 2|Learning After Forty
+When Khun Arunee turned forty-two, she decided to learn computer programming. She had worked as an accountant for twenty years and wanted a new challenge.
+
+"At first I felt embarrassed," she says. "Most people in my online class were in their twenties." But she found that her experience helped her. She already knew how businesses worked, so she could understand why certain programs were needed.
+
+Arunee studied for an hour every morning before work. After eighteen months, she built a simple app that helps small shops keep track of their accounts. She now works part-time for a software company and still does some accounting. "I didn't change my career completely," she explains. "I added a new skill to it."
+Q Why did Arunee start learning programming?
+=she wanted a new challenge|wanted a new challenge
+-she lost her job|ไม่ได้กล่าวถึง
+-her company asked her to|ไม่ได้กล่าวถึง
+-she needed more money|ไม่ได้กล่าวถึง
+Q How did her accounting experience help her?
+=she understood business needs|She already knew how businesses worked
+-she could type faster|ไม่ได้กล่าวถึง
+-her classmates asked her for help|ไม่ได้กล่าวถึง
+-she got a discount on the course|ไม่ได้กล่าวถึง
+Q What is her situation now?
+=she does two kinds of work|works part-time for a software company and still does some accounting
+-she has stopped accounting|เธอยังทำบัญชีบางส่วน
+-she teaches programming|ไม่ได้กล่าวถึง
+-she has her own software company|เธอทำงานพาร์ตไทม์ให้บริษัทอื่น
+
+L mixed-review 2
+Woman: I'd been thinking about quitting for months, so when they offered me the job in Phuket, I didn't hesitate.
+Q How did the woman react to the job offer?
+=she accepted it quickly|I didn't hesitate
+-she refused it|เธอไม่ลังเลที่จะรับ
+-she asked for more time|ไม่ได้ขอเวลาเพิ่ม
+-she discussed it for months|เธอคิดเรื่องลาออกมาหลายเดือน
+
+L mixed-review 2
+Man: The workshop was supposed to finish at four, but it ran over by an hour, so I missed my train.
+Q Why did the man miss his train?
+=the workshop finished late|it ran over by an hour
+-he forgot the time|ไม่ได้กล่าวถึง
+-the train left early|ไม่ได้กล่าวถึง
+-the workshop started late|บอกว่าเลิกช้า ไม่ใช่เริ่มช้า

@@ -1,0 +1,160 @@
+G second-conditional 1
+If I ____ more free time, I would learn to play the guitar.
+=had|สมมติไม่จริงตอนนี้ ใช้ ++if + อดีต++
+-have|ประโยคผลมี would จึงต้องใช้อดีต
+-would have|หลัง if ไม่ใช้ would
+-will have|เป็นเงื่อนไขสมมติ ไม่ใช่ will
+!If + ==อดีต==, would + V1 = สมมติ
+
+G second-conditional 1
+If she lived closer to the office, she ____ to work.
+=would walk|ประโยคผลของเงื่อนไขสมมติ ++would + V1++
+-walks|ต้องมี would ในประโยคผล
+-will walk|ใช้ will กับเรื่องที่เป็นไปได้จริง
+-walked|ประโยคผลต้องมี would
+!If + past, ==would + V1==
+
+G second-conditional 2
+What would you do if you ____ a wallet in the street?
+=found|สมมติ ใช้ ++if + อดีต++
+-find|ประโยคหลักมี would ต้องใช้อดีต
+-would find|หลัง if ไม่ใช้ would
+-will find|หลัง if ไม่ใช้ will
+!What would you do if you + ==อดีต==?
+
+G second-conditional 2
+If I ____ you, I'd ask the bank for advice.
+=were|If I were you = ++ใช้ were++
+-am|สมมติ ไม่ใช้ am
+-be|รูปผิด จึงใช้ไม่ได้
+-will be|หลัง if ไม่ใช้ will
+!==If I were you== = ถ้าฉันเป็นคุณ
+
+G conditionals-review-wish 1
+I wish I ____ how to cook. I always eat instant noodles!
+=knew|wish + ++อดีต++ = อยากให้ต่างจากตอนนี้
+-know|หลัง wish ใช้อดีต
+-will know|หลัง wish ไม่ใช้ will
+-am knowing|know ไม่ใช้รูป -ing
+!I wish + ==อดีต== = อยากให้เป็นแบบนั้น (แต่ไม่เป็น)
+
+G conditionals-review-wish 1
+If you heat ice, it ____.
+=melts|ความจริงทั่วไป ใช้ ++present simple++
+-would melt|เป็นความจริง ไม่ใช่สมมติ
+-melted|ความจริงทั่วไปใช้ปัจจุบัน
+-will melting|รูปผิด จึงใช้ไม่ได้
+!ความจริงทั่วไป ==If + present, present==
+
+G conditionals-review-wish 2
+If it ____ sunny tomorrow, we'll go to the beach.
+=is|เป็นไปได้จริงในอนาคต ++if + present++
+-were|were ใช้กับสมมติที่ไม่จริง
+-will be|หลัง if ไม่ใช้ will
+-would be|หลัง if ไม่ใช้ would
+!เป็นไปได้จริง ==If + present, will==
+
+G conditionals-review-wish 2
+I wish my neighbours ____ so much noise at night.
+=didn't make|อยากให้ไม่ทำ ++wish + อดีตปฏิเสธ++
+-don't make|หลัง wish ใช้อดีต
+-won't make|หลัง wish ไม่ใช้ will
+-not make|ขาดกริยาช่วย
+!wish + ==didn't + V1== = อยากให้ไม่...
+
+G conditionals-review-wish 2
+If I won a lot of money, I ____ stop working. I love my job.
+=wouldn't|สมมติปฏิเสธ ++wouldn't + V1++
+-won't|เงื่อนไขสมมติใช้ would
+-don't|ประโยคผลต้องมี would
+-didn't|ประโยคผลต้องมี would
+!If + past, ==wouldn't + V1==
+
+V money-results 1
+We can't ____ a holiday abroad this year, so we're staying at home.
+=afford|มีเงินพอซื้อ = ++can afford++
+-earn|earn คือหาเงิน
+-reduce|reduce คือลด
+-depend|depend ต้องมี on
+!can't afford = ==ไม่มีเงินพอซื้อ==
+
+V money-results 1
+My brother ____ extra money by teaching guitar at weekends.
+=earns|ได้เงินจากงาน = ++earn++
+-affords|afford คือมีเงินพอซื้อ ไม่ใช่หาเงิน
+-protects|protect คือปกป้อง
+-increases|increase คือเพิ่ม
+!earn money = ==หาเงิน ได้รับเงิน==
+
+V money-results 2
+We borrowed money from the bank. We'll pay back the ____ in five years.
+=loan|เงินกู้ = ++loan++
+-salary|salary คือเงินเดือน
+-income|income คือรายได้
+-result|result คือผลลัพธ์
+!take out a loan = ==กู้เงิน==
+
+V money-results 2
+Turning off the air conditioner at night can ____ your electricity bill.
+=reduce|ลด = ++reduce++
+-increase|increase คือเพิ่ม ตรงข้ามกับบริบท
+-prevent|prevent คือป้องกัน
+-afford|afford คือมีเงินพอซื้อ
+!reduce = ==ลดลง==
+
+V money-results 2
+Wearing a seat belt can ____ serious injuries in an accident.
+=prevent|ป้องกันไม่ให้เกิด = ++prevent++
+-cause|cause คือทำให้เกิด ตรงข้าม
+-reduce|ลดการบาดเจ็บได้ แต่ป้องกันชัดกว่า
+-earn|earn คือหาเงิน
+!prevent = ==ป้องกันไม่ให้เกิด==
+
+V money-results 2
+"Are you going camping this weekend?" "It ____ on the weather."
+=depends|ขึ้นอยู่กับ = ++depend on++
+-results|result ใช้ result in
+-causes|cause ไม่ตามด้วย on
+-protects|protect ไม่ตามด้วย on
+!It depends ==on== ... = ขึ้นอยู่กับ
+
+R saving-money 2|Small Steps to Save Money
+Many people think saving money is only possible with a high salary. In fact, small changes can make a big difference.
+
+First, write down everything you spend for one month. Most people are surprised by how much they spend on snacks and coffee. If you made coffee at home instead of buying it, you could save more than 1,000 baht a month.
+
+Second, try the "48-hour rule". If you want to buy something that isn't essential, wait two days. Often you will realise that you don't really need it.
+
+Finally, put some money into a savings account as soon as you get paid, not at the end of the month. This way, you won't spend it by mistake.
+Q What is the main idea of the article?
+=small changes can help you save|small changes can make a big difference
+-you need a high salary to save|บทความบอกว่าไม่จริง
+-coffee is bad for your health|ไม่ได้พูดเรื่องสุขภาพ
+-banks give the best advice|ไม่ได้พูดถึงคำแนะนำจากธนาคาร
+Q What is the "48-hour rule"?
+=wait two days before buying|ให้รอสองวันก่อนตัดสินใจซื้อ
+-save money for 48 hours|ไม่ได้หมายความว่าออมสองวัน
+-spend only 48 baht a day|ไม่ได้พูดถึงตัวเลขนี้
+-shop only twice a week|ไม่ได้พูดถึงความถี่การซื้อ
+Q When does the writer suggest saving money?
+=on payday|as soon as you get paid
+-at the end of the month|ผู้เขียนบอกว่าไม่ควรรอถึงสิ้นเดือน
+-after buying coffee|ไม่เกี่ยวกับกาแฟ
+-every 48 hours|48 ชั่วโมงเป็นกฎการซื้อ
+
+L giving-reasons 2
+Woman: Would you move to Bangkok if they offered you a job there?
+Man: I don't think so. The salary would be higher, but rent is so expensive.
+Q Why wouldn't the man move to Bangkok?
+=rent is very expensive|rent is so expensive
+-the salary is lower|เงินเดือนจะสูงกว่า
+-he doesn't like the city|ไม่ได้พูดว่าไม่ชอบเมือง
+-he has no job offer yet|เป็นคำถามสมมติ ไม่ใช่เหตุผลของเขา
+
+L imaginary-situations 2
+Man: If I had a bigger kitchen, I'd cook for my friends every weekend.
+Q What is true about the man?
+=his kitchen is small|If I had a bigger kitchen = ตอนนี้ครัวเล็ก
+-he cooks every weekend|เป็นสิ่งที่อยากทำ ไม่ใช่ทำจริง
+-he is buying a new house|ไม่ได้พูดถึงบ้านใหม่
+-his friends don't like his food|ไม่ได้พูดถึงความชอบของเพื่อน

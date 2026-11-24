@@ -1,0 +1,157 @@
+G modality-nuance 2
+You ____ have warned me the exam room would be freezing; I'd have brought a jumper.
+=could at least|ตำหนิเบา ๆ ++could at least have + V3++
+-must at least|must have = สรุปว่าทำแล้ว
+-would at least|ความหมายไม่ตรง
+-shall at least|shall ไม่ใช้กับ have + V3 แบบนี้
+!==could (at least) have + V3== = น่าจะ...บ้าง (ตำหนิ)
+
+G modality-nuance 3
+"Shall I post the letters?" "No, you ____; I've already done it."
+=needn't bother|ไม่จำเป็น ++needn't bother++
+-mustn't bother|mustn't = ห้าม แรงเกินไป
+-can't bother|ไม่ใช่สำนวน
+-shouldn't to|รูปผิด จึงใช้ไม่ได้
+!==needn't bother== = ไม่ต้องลำบาก
+
+G modality-nuance 3
+Try as he ____, he couldn't open the jar.
+=might|สำนวน ++Try as + ประธาน + might++
+-may|ในอดีตใช้ might
+-could|ไม่ใช่สำนวน
+-would|ไม่ใช่สำนวน
+!==Try as I might== = พยายามเท่าไรก็...
+
+G modality-nuance 3
+I ____ as well tell you now; you'll find out tomorrow anyway.
+=may|ทำเลยก็ไม่เสียหาย ++may/might as well++
+-should|should as well ไม่ใช่สำนวน
+-had|had as well ไม่ใช่สำนวน
+-can|can as well ไม่ใช่สำนวน
+!==may / might as well + V1== = ทำไปเลยก็ดี
+
+G time-reference-advanced 2
+By the time the report is published, the data ____ out of date.
+=will have become|เสร็จก่อนจุดในอนาคต ++will have + V3++
+-will become|ไม่เน้นว่าเกิดก่อน
+-has become|อนาคต ใช้ has ไม่ได้
+-becomes|ต้องบอกว่าเกิดก่อนจุดนั้น
+!by the time + present → ==will have + V3==
+
+G time-reference-advanced 3
+She was to ____ the company twenty years later.
+=go on to lead|อนาคตในอดีต ++was to + V1++ (= would later)
+-have led|was to have led = ควรจะได้ (แต่ไม่ได้)
+-leading|ไม่ใช่รูปนี้
+-led|ไม่ใช่รูปนี้
+!==was to + V1== = (ภายหลัง) จะได้... (เล่าเรื่อง)
+
+G time-reference-advanced 3
+The ceremony was to ____ place in March, but it was cancelled.
+=have taken|ควรจะเกิดแต่ไม่เกิด ++was to have + V3++
+-take|ไม่ได้บอกว่าไม่เกิด
+-taking|รูปผิด จึงใช้ไม่ได้
+-be taken|รูปผิดความหมาย
+!==was to have + V3== = กำหนดไว้ว่าจะ...แต่ไม่ได้เกิด
+
+G time-reference-advanced 3
+Had she been told earlier, she ____ the offer.
+=would have accepted|เงื่อนไขสลับ ผลในอดีต ++would have + V3++
+-would accept|ผลต้องเป็นอดีต
+-had accepted|ประโยคผลต้องมี would
+-will have accepted|ไม่ใช้ will
+!==Had + ประธาน + V3==, would have + V3
+
+G time-reference-advanced 3
+Scarcely had the guests arrived ____ the power went off.
+=when|คู่สำนวน ++Scarcely ... when++
+-than|than คู่กับ no sooner
+-that|that ไม่ใช่คู่สำนวน
+-then|then ไม่ใช่คู่สำนวน
+!==Scarcely / Hardly ... when== · No sooner ... than
+
+V meaning-precision 2
+The police are trying to ____ the exact time of the accident.
+=ascertain|ตรวจสอบหาให้แน่ = ++ascertain++
+-construe|construe คือตีความ
+-purport|purport คืออ้างว่า
+-denote|denote คือหมายถึง
+!ascertain = ==หาข้อเท็จจริงให้แน่ชัด==
+
+V meaning-precision 2
+His silence was ____ as agreement, but in fact he hadn't understood.
+=construed|ตีความ = ++construe as++
+-elucidated|elucidate คืออธิบายให้กระจ่าง
+-ascertained|ascertain คือหาข้อเท็จจริง
+-denoted|ไม่ใช้กับ as แบบนี้
+!be construed ==as== = ถูกตีความว่า
+
+V meaning-precision 3
+The minister gave an ____ answer that satisfied nobody.
+=equivocal|คลุมเครือเลี่ยง = ++equivocal++
+-unequivocal|ความหมายกลับกัน
+-verbatim|verbatim คือคำต่อคำ
+-pedantic|pedantic คือจู้จี้เรื่องเล็ก
+!equivocal = ==กำกวมโดยตั้งใจ==
+
+V meaning-precision 3
+There was a ____ agreement that nobody would mention the incident.
+=tacit|โดยนัย ไม่ได้พูด = ++tacit++
+-verbatim|verbatim คือคำต่อคำ
+-nebulous|nebulous คือเลือนราง
+-equivocal|ไม่ตรงความหมาย
+!tacit = ==รู้กันโดยไม่ต้องพูด==
+
+V meaning-precision 3
+The court requires the witness's words to be recorded ____.
+=verbatim|คำต่อคำ = ++verbatim++
+-tacit|tacit คือโดยนัย
+-nebulous|nebulous คือเลือนราง
+-pedantic|pedantic คือจู้จี้
+!verbatim = ==คำต่อคำ==
+
+V meaning-precision 3
+The plan is still rather ____; nobody knows exactly what it involves.
+=nebulous|เลือนราง ไม่ชัด = ++nebulous++
+-unequivocal|ความหมายกลับกัน
+-verbatim|ไม่ตรงความหมาย
+-pedantic|ไม่ตรงความหมาย
+!nebulous = ==คลุมเครือ ไม่เป็นรูปร่าง==
+
+R philosophy-of-language 2|When Words Mean More Than They Say
+Philosophers have long noted that much of what we communicate is not stated at all. If a colleague asks whether you enjoyed a lecture and you reply, "The chairs were comfortable," you have said nothing false, yet your meaning is unmistakable.
+
+This gap between what is said and what is meant can be useful. It allows us to criticise politely, to decline without offence and to share understanding with people who know us well. But it also creates risk. In international workplaces, implicit messages are easily construed in ways the speaker never intended.
+
+Some linguists argue that clarity should always win. Others reply that a language stripped of implication would be not only less polite but also poorer. The truth, as so often, probably lies in knowing one's audience.
+Q What does the example about the chairs show?
+=a reply can imply criticism without stating it|you have said nothing false, yet your meaning is unmistakable
+-the chairs were the best part of the room|เป็นการพูดอ้อม ไม่ใช่ชมเก้าอี้จริง
+-the speaker was lying about the lecture's quality|ผู้พูดไม่ได้พูดเท็จ
+-lectures are usually comfortable|ในบทไม่ได้พูดเช่นนั้น
+Q What risk is mentioned?
+=hidden meanings may be misread|implicit messages are easily construed in ways the speaker never intended
+-people become too polite|ในบทไม่ได้พูดเช่นนั้น
+-language becomes poorer|เป็นความเห็นของอีกฝ่าย ไม่ใช่ความเสี่ยงที่กล่าว
+-colleagues stop talking|ในบทไม่ได้พูดถึง
+Q What is the writer's conclusion?
+=it depends on who you are talking to|knowing one's audience
+-clarity is always best|เป็นความเห็นของนักภาษาศาสตร์บางคน
+-implication should be avoided|ผู้เขียนไม่ได้สรุปเช่นนั้น
+-philosophers are usually wrong about language|ในบทไม่ได้พูดถึง
+
+L academic-lecture 2
+Woman: The term "literacy" is often construed narrowly as reading and writing, but I'd like to use it in a broader sense today.
+Q What does the speaker intend to do?
+=use a wider definition of a term|use it in a broader sense today
+-teach reading and writing|ในบทไม่ได้พูดเช่นนั้น
+-avoid the term completely|เธอจะใช้คำนี้
+-criticise other speakers|ในบทไม่ได้พูดถึง
+
+L meaning-precision 2
+Man: Let me be unequivocal: the deadline will not be extended under any circumstances.
+Q What is the man's message?
+=the deadline is fixed|the deadline will not be extended under any circumstances
+-the deadline may change|ความหมายกลับกัน
+-he hasn't decided yet|เขาพูดชัดเจน
+-the deadline was extended|ความหมายกลับกัน

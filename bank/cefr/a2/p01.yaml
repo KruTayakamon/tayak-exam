@@ -1,0 +1,276 @@
+# คอร์ส a2 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 1 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-a2-w01-043
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  pool: true
+  stem: "My grandparents ____ farmers in Nan."
+  choices:
+    - {t: "are", why: "ประธานพหูพจน์ ใช้ ++are++"}
+    - {t: "is", why: "grandparents เป็นพหูพจน์ ใช้ is ไม่ได้"}
+    - {t: "am", why: "am ใช้กับ I เท่านั้น"}
+    - {t: "be", why: "ต้องผันเป็น are ก่อนใช้"}
+  explain: "พหูพจน์ / we / you / they → ==are=="
+  status: approved
+- id: cefr-a2-w01-044
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  pool: true
+  stem: "\"Is your sister a nurse?\" \"No, she ____. She's a cook.\""
+  choices:
+    - {t: "isn't", why: "ตอบปฏิเสธสั้น ++she isn't++"}
+    - {t: "aren't", why: "she ใช้ is ไม่ใช่ are"}
+    - {t: "not", why: "ขาดกริยา is จึงใช้ไม่ได้"}
+    - {t: "doesn't", why: "คำถามใช้ is จึงตอบด้วย is"}
+  explain: "ตอบสั้น ==Yes, she is. / No, she isn't.=="
+  status: approved
+- id: cefr-a2-w01-045
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  pool: true
+  stem: "____ are my new neighbours, Mr and Mrs Tan."
+  choices:
+    - {t: "These", why: "สองคนอยู่ใกล้ ใช้ ++These++"}
+    - {t: "This", why: "this ใช้กับคนเดียว"}
+    - {t: "That", why: "that ใช้กับคนเดียว"}
+    - {t: "It", why: "it ใช้กับสิ่งของ ไม่ใช่คนสองคน"}
+  explain: "ใกล้ ==this (1) / these (2+)== · ไกล that / those"
+  status: approved
+- id: cefr-a2-w01-046
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 2
+  pool: true
+  stem: "My brother and I ____ at home today."
+  choices:
+    - {t: "are", why: "A and I = we ใช้ ++are++"}
+    - {t: "am", why: "ประธานมีสองคน ใช้ am ไม่ได้"}
+    - {t: "is", why: "ประธานมีสองคน ใช้ is ไม่ได้"}
+    - {t: "be", why: "ต้องผันกริยาก่อนใช้"}
+  explain: "==A and I== = we → are"
+  status: approved
+- id: cefr-a2-w01-047
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 1
+  pool: true
+  stem: "This is Nok. ____ husband is a bus driver."
+  choices:
+    - {t: "Her", why: "ของเธอ ใช้ ++Her++"}
+    - {t: "She", why: "she เป็นประธาน ไม่ใช่ของเธอ"}
+    - {t: "His", why: "his แปลว่าของเขา (ผู้ชาย)"}
+    - {t: "Hers", why: "hers ไม่ตามด้วยคำนาม"}
+  explain: "ของเธอ + คำนาม = ==her=="
+  status: approved
+- id: cefr-a2-w01-048
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 1
+  pool: true
+  stem: "My uncle ____ two cats and a dog."
+  choices:
+    - {t: "has", why: "he/she ใช้ ++has++"}
+    - {t: "have", why: "my uncle เป็นเอกพจน์ ใช้ has"}
+    - {t: "is", why: "is ไม่ได้แปลว่ามี"}
+    - {t: "haves", why: "ไม่มีคำนี้ในภาษาอังกฤษ"}
+  explain: "he / she / it → ==has=="
+  status: approved
+- id: cefr-a2-w01-049
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  pool: true
+  stem: "That is my ____ bicycle. She rides it to school."
+  choices:
+    - {t: "sister's", why: "ของน้องสาว ใช้ ++'s++"}
+    - {t: "sisters", why: "ไม่มีเครื่องหมาย 's"}
+    - {t: "sister", why: "ต้องเติม 's เพื่อบอกว่าเป็นของใคร"}
+    - {t: "sisters'", why: "ใช้กับพี่น้องหลายคน"}
+  explain: "ของใคร = ==ชื่อ/คน + 's=="
+  status: approved
+- id: cefr-a2-w01-050
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  pool: true
+  stem: "\"Do you have any children?\" \"Yes, I ____ a son.\""
+  choices:
+    - {t: "have", why: "I ใช้ ++have++ จึงใช้ไม่ได้"}
+    - {t: "has", why: "I ไม่ใช้ has จึงใช้ไม่ได้"}
+    - {t: "am", why: "am ไม่ได้แปลว่ามี"}
+    - {t: "having", why: "ต้องเป็นกริยาแท้ have"}
+  explain: "I / you / we / they → ==have=="
+  status: approved
+- id: cefr-a2-w01-051
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  pool: true
+  stem: "We love ____ new flat. It's small but bright."
+  choices:
+    - {t: "our", why: "ของเรา ใช้ ++our++"}
+    - {t: "us", why: "us เป็นกรรม ไม่ใช่ของเรา"}
+    - {t: "we", why: "we เป็นประธาน จึงใช้ไม่ได้"}
+    - {t: "ours", why: "ours ไม่ตามด้วยคำนาม"}
+  explain: "ของเรา + คำนาม = ==our=="
+  status: approved
+- id: cefr-a2-w01-052
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  pool: true
+  stem: "My father's sister is my aunt, and my mother's ____ is my uncle."
+  choices:
+    - {t: "brother", why: "ผู้ชายในครอบครัว = ++brother++"}
+    - {t: "sister", why: "sister เป็นผู้หญิง จึงเป็น aunt"}
+    - {t: "friend", why: "friend ไม่ใช่ญาติ"}
+    - {t: "daughter", why: "daughter คือลูกสาว"}
+  explain: "brother = ==พี่ชาย/น้องชาย=="
+  status: approved
+- id: cefr-a2-w01-053
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  pool: true
+  stem: "My grandmother is ninety. She's very ____, but she still cooks every day."
+  choices:
+    - {t: "old", why: "อายุมาก = ++old++"}
+    - {t: "young", why: "ความหมายกลับกัน"}
+    - {t: "tall", why: "tall คือสูง ไม่ได้บอกอายุ"}
+    - {t: "student", why: "student เป็นคำนาม"}
+  explain: "old = ==แก่ อายุมาก== · young = หนุ่มสาว"
+  status: approved
+- id: cefr-a2-w01-054
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  pool: true
+  stem: "Somchai plays basketball. He is very ____, almost two metres."
+  choices:
+    - {t: "tall", why: "สูง = ++tall++ จึงใช้ไม่ได้"}
+    - {t: "old", why: "ไม่ได้บอกความสูง"}
+    - {t: "happy", why: "happy คือมีความสุข"}
+    - {t: "young", why: "ไม่ได้บอกความสูง (young)"}
+  explain: "tall = ==สูง== (คน ต้นไม้ ตึก)"
+  status: approved
+- id: cefr-a2-w01-055
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  pool: true
+  stem: "Kanya teaches English at a high school. She is a ____."
+  choices:
+    - {t: "teacher", why: "คนสอน = ++teacher++"}
+    - {t: "student", why: "student คือคนเรียน"}
+    - {t: "mother", why: "ไม่ได้บอกว่าเป็นแม่"}
+    - {t: "friend", why: "ไม่ได้บอกอาชีพ จึงใช้ไม่ได้"}
+  explain: "teach (สอน) → ==teacher (ครู)=="
+  status: approved
+- id: cefr-a2-w01-056
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  pool: true
+  stem: "It's my birthday, and my best ____ gave me a cake."
+  choices:
+    - {t: "friend", why: "เพื่อน = ++best friend++"}
+    - {t: "teacher", why: "best teacher ไม่ใช่วลีที่พบบ่อย"}
+    - {t: "brother", why: "best brother ไม่ใช่วลีที่พบบ่อย"}
+    - {t: "old", why: "old เป็นคุณศัพท์"}
+  explain: "best friend = ==เพื่อนสนิท=="
+  status: approved
+- id: cefr-a2-w01-057
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  pool: true
+  stem: "The children are ____ because school finishes early today."
+  choices:
+    - {t: "happy", why: "ดีใจ = ++happy++"}
+    - {t: "tall", why: "ไม่ได้บอกความรู้สึก"}
+    - {t: "old", why: "ไม่ได้บอกความรู้สึก (old)"}
+    - {t: "young", why: "ไม่ได้บอกความรู้สึก (young)"}
+  explain: "happy = ==มีความสุข ดีใจ=="
+  status: approved
+- id: cefr-a2-w01-058
+  kind: read
+  skill: rd
+  topic: staff-profile
+  level: 1
+  pool: true
+  title: "Meet Our New Driver"
+  passage: |
+    Hello! My name is Prasit, but please call me Sit. I am thirty-five years old, and I am from Lampang. I am the new driver for the hotel. I drive guests to the airport and the train station.
+    I have a wife and two daughters. My wife is a nurse. My daughters are seven and ten. They love animals, and we have a small dog called Toto.
+    I am happy to be here. See you soon!
+  questions:
+    - stem: "What is Sit's job?"
+      choices:
+        - {t: "a driver", why: "I am the new driver for the hotel"}
+        - {t: "a nurse", why: "ภรรยาของเขาเป็นพยาบาล"}
+        - {t: "a teacher", why: "ในบทไม่ได้พูดถึง teacher"}
+        - {t: "a cook", why: "ในบทไม่ได้พูดถึง cook"}
+    - stem: "How many children does Sit have?"
+      choices:
+        - {t: "two", why: "I have a wife and two daughters"}
+        - {t: "one", why: "เขามีลูกสาวสองคน"}
+        - {t: "three", why: "ในบทไม่ได้พูดว่าสามคน"}
+        - {t: "seven", why: "เจ็ดคืออายุลูกคนเล็ก"}
+    - stem: "What is Toto?"
+      choices:
+        - {t: "a dog", why: "a small dog called Toto"}
+        - {t: "his daughter", why: "ลูกสาวไม่ได้ชื่อ Toto"}
+        - {t: "a hotel", why: "โรงแรมไม่ได้ชื่อ Toto"}
+        - {t: "his car", why: "ในบทไม่ได้พูดถึงชื่อรถ"}
+  status: approved
+- id: cefr-a2-w01-059
+  kind: listen
+  skill: li
+  topic: introductions
+  level: 1
+  pool: true
+  script:
+    - {who: Woman, en: "Hi, I'm Mali. This is my brother, Tom."}
+    - {who: Man, en: "Nice to meet you, Mali. Nice to meet you too, Tom."}
+  questions:
+    - stem: "Who is Tom?"
+      choices:
+        - {t: "Mali's brother", why: "This is my brother, Tom"}
+        - {t: "Mali's father", why: "เขาเป็นพี่น้อง ไม่ใช่พ่อ"}
+        - {t: "the man's friend", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "Mali's teacher", why: "ในบทไม่ได้พูดถึงครู"}
+  status: approved
+- id: cefr-a2-w01-060
+  kind: listen
+  skill: li
+  topic: family-people
+  level: 1
+  pool: true
+  script:
+    - {who: Man, en: "My son is a student. He's twenty and he studies at a university in Bangkok."}
+  questions:
+    - stem: "Where does the man's son study?"
+      choices:
+        - {t: "in Bangkok", why: "he studies at a university in Bangkok"}
+        - {t: "at home", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "in a high school", why: "เขาเรียนมหาวิทยาลัย"}
+        - {t: "in another country", why: "ในบทไม่ได้พูดถึงต่างประเทศ"}
+  status: approved

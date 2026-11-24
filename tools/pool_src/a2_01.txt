@@ -1,0 +1,156 @@
+G be-present 1
+My grandparents ____ farmers in Nan.
+=are|ประธานพหูพจน์ ใช้ ++are++
+-is|grandparents เป็นพหูพจน์ ใช้ is ไม่ได้
+-am|am ใช้กับ I เท่านั้น
+-be|ต้องผันเป็น are ก่อนใช้
+!พหูพจน์ / we / you / they → ==are==
+
+G be-present 1
+"Is your sister a nurse?" "No, she ____. She's a cook."
+=isn't|ตอบปฏิเสธสั้น ++she isn't++
+-aren't|she ใช้ is ไม่ใช่ are
+-not|ขาดกริยา is จึงใช้ไม่ได้
+-doesn't|คำถามใช้ is จึงตอบด้วย is
+!ตอบสั้น ==Yes, she is. / No, she isn't.==
+
+G be-present 1
+____ are my new neighbours, Mr and Mrs Tan.
+=These|สองคนอยู่ใกล้ ใช้ ++These++
+-This|this ใช้กับคนเดียว
+-That|that ใช้กับคนเดียว
+-It|it ใช้กับสิ่งของ ไม่ใช่คนสองคน
+!ใกล้ ==this (1) / these (2+)== · ไกล that / those
+
+G be-present 2
+My brother and I ____ at home today.
+=are|A and I = we ใช้ ++are++
+-am|ประธานมีสองคน ใช้ am ไม่ได้
+-is|ประธานมีสองคน ใช้ is ไม่ได้
+-be|ต้องผันกริยาก่อนใช้
+!==A and I== = we → are
+
+G possessives-have 1
+This is Nok. ____ husband is a bus driver.
+=Her|ของเธอ ใช้ ++Her++
+-She|she เป็นประธาน ไม่ใช่ของเธอ
+-His|his แปลว่าของเขา (ผู้ชาย)
+-Hers|hers ไม่ตามด้วยคำนาม
+!ของเธอ + คำนาม = ==her==
+
+G possessives-have 1
+My uncle ____ two cats and a dog.
+=has|he/she ใช้ ++has++
+-have|my uncle เป็นเอกพจน์ ใช้ has
+-is|is ไม่ได้แปลว่ามี
+-haves|ไม่มีคำนี้ในภาษาอังกฤษ
+!he / she / it → ==has==
+
+G possessives-have 2
+That is my ____ bicycle. She rides it to school.
+=sister's|ของน้องสาว ใช้ ++'s++
+-sisters|ไม่มีเครื่องหมาย 's
+-sister|ต้องเติม 's เพื่อบอกว่าเป็นของใคร
+-sisters'|ใช้กับพี่น้องหลายคน
+!ของใคร = ==ชื่อ/คน + 's==
+
+G possessives-have 2
+"Do you have any children?" "Yes, I ____ a son."
+=have|I ใช้ ++have++
+-has|I ไม่ใช้ has
+-am|am ไม่ได้แปลว่ามี
+-having|ต้องเป็นกริยาแท้ have
+!I / you / we / they → ==have==
+
+G possessives-have 2
+We love ____ new flat. It's small but bright.
+=our|ของเรา ใช้ ++our++
+-us|us เป็นกรรม ไม่ใช่ของเรา
+-we|we เป็นประธาน
+-ours|ours ไม่ตามด้วยคำนาม
+!ของเรา + คำนาม = ==our==
+
+V family-people 1
+My father's sister is my aunt, and my mother's ____ is my uncle.
+=brother|ผู้ชายในครอบครัว = ++brother++
+-sister|sister เป็นผู้หญิง จึงเป็น aunt
+-friend|friend ไม่ใช่ญาติ
+-daughter|daughter คือลูกสาว
+!brother = ==พี่ชาย/น้องชาย==
+
+V family-people 1
+My grandmother is ninety. She's very ____, but she still cooks every day.
+=old|อายุมาก = ++old++
+-young|ความหมายกลับกัน
+-tall|tall คือสูง ไม่ได้บอกอายุ
+-student|student เป็นคำนาม
+!old = ==แก่ อายุมาก== · young = หนุ่มสาว
+
+V family-people 1
+Somchai plays basketball. He is very ____, almost two metres.
+=tall|สูง = ++tall++
+-old|ไม่ได้บอกความสูง
+-happy|happy คือมีความสุข
+-young|ไม่ได้บอกความสูง
+!tall = ==สูง== (คน ต้นไม้ ตึก)
+
+V family-people 1
+Kanya teaches English at a high school. She is a ____.
+=teacher|คนสอน = ++teacher++
+-student|student คือคนเรียน
+-mother|ไม่ได้บอกว่าเป็นแม่
+-friend|ไม่ได้บอกอาชีพ
+!teach (สอน) → ==teacher (ครู)==
+
+V family-people 2
+It's my birthday, and my best ____ gave me a cake.
+=friend|เพื่อน = ++best friend++
+-teacher|best teacher ไม่ใช่วลีที่พบบ่อย
+-brother|best brother ไม่ใช่วลีที่พบบ่อย
+-old|old เป็นคุณศัพท์
+!best friend = ==เพื่อนสนิท==
+
+V family-people 2
+The children are ____ because school finishes early today.
+=happy|ดีใจ = ++happy++
+-tall|ไม่ได้บอกความรู้สึก
+-old|ไม่ได้บอกความรู้สึก
+-young|ไม่ได้บอกความรู้สึก
+!happy = ==มีความสุข ดีใจ==
+
+R staff-profile 1|Meet Our New Driver
+Hello! My name is Prasit, but please call me Sit. I am thirty-five years old, and I am from Lampang. I am the new driver for the hotel. I drive guests to the airport and the train station.
+I have a wife and two daughters. My wife is a nurse. My daughters are seven and ten. They love animals, and we have a small dog called Toto.
+I am happy to be here. See you soon!
+Q What is Sit's job?
+=a driver|I am the new driver for the hotel
+-a nurse|ภรรยาของเขาเป็นพยาบาล
+-a teacher|ในบทไม่ได้พูดถึง teacher
+-a cook|ในบทไม่ได้พูดถึง cook
+Q How many children does Sit have?
+=two|I have a wife and two daughters
+-one|เขามีลูกสาวสองคน
+-three|ในบทไม่ได้พูดว่าสามคน
+-seven|เจ็ดคืออายุลูกคนเล็ก
+Q What is Toto?
+=a dog|a small dog called Toto
+-his daughter|ลูกสาวไม่ได้ชื่อ Toto
+-a hotel|โรงแรมไม่ได้ชื่อ Toto
+-his car|ในบทไม่ได้พูดถึงชื่อรถ
+
+L introductions 1
+Woman: Hi, I'm Mali. This is my brother, Tom.
+Man: Nice to meet you, Mali. Nice to meet you too, Tom.
+Q Who is Tom?
+=Mali's brother|This is my brother, Tom
+-Mali's father|เขาเป็นพี่น้อง ไม่ใช่พ่อ
+-the man's friend|ในบทไม่ได้พูดเช่นนั้น
+-Mali's teacher|ในบทไม่ได้พูดถึงครู
+
+L family-people 1
+Man: My son is a student. He's twenty and he studies at a university in Bangkok.
+Q Where does the man's son study?
+=in Bangkok|he studies at a university in Bangkok
+-at home|ในบทไม่ได้พูดเช่นนั้น
+-in a high school|เขาเรียนมหาวิทยาลัย
+-in another country|ในบทไม่ได้พูดถึงต่างประเทศ

@@ -1,0 +1,162 @@
+G stance 2
+____, the plan was a success, despite the delays.
+=On balance|ชั่งน้ำหนักแล้ว ++On balance++
+-At balance|ไม่ใช่สำนวน
+-In balance|ความหมายไม่ตรง
+-By balance|ไม่ใช่สำนวน
+!==On balance== = เมื่อชั่งน้ำหนักทุกด้าน
+
+G stance 3
+____ the critics may say, the book has sold over a million copies.
+=Whatever|ไม่ว่าจะ ++Whatever + ประธาน + may say++
+-However|however ไม่ตามด้วย the critics may say
+-Although|ความหมายไม่ตรง
+-Whether|whether ต้องมี or
+!==Whatever + ประธาน + may + V1== = ไม่ว่า...จะ...อย่างไร
+
+G stance 3
+I'm ____ to agree with you, but I need to see the evidence first.
+=inclined|โน้มเอียง ++be inclined to++
+-include|รูปผิด จึงใช้ไม่ได้
+-incline|ต้องเป็นรูป -ed หลัง I'm
+-inclining|ไม่ใช่สำนวน
+!be ==inclined to + V1== = ค่อนข้างจะ
+
+G stance 3
+____ speaking, the results are disappointing.
+=Frankly|บอกจุดยืนตรง ๆ ++Frankly speaking++
+-Frank|ต้องเป็นคำวิเศษณ์
+-Frankness|ต้องเป็นคำวิเศษณ์
+-Franked|ไม่ใช่คำที่ใช้
+!==Frankly / Honestly speaking== = พูดตามตรง
+
+G indirectness 2
+"Your proposal is interesting, but perhaps we could revisit the budget." The speaker probably ____.
+=has doubts about the cost|พูดอ้อมว่าไม่ค่อยพอใจ ++perhaps we could revisit++
+-loves the proposal completely|ไม่ได้ชมเต็มที่
+-wants to approve it now|ขอทบทวนงบก่อน
+-has not read it|ในบทไม่ได้บ่งเช่นนั้น
+!==perhaps we could revisit...== = (สุภาพ) ไม่ค่อยพอใจเรื่อง...
+
+G indirectness 3
+I don't suppose you ____ lend me your notes?
+=could|ขออ้อมมาก ++I don't suppose you could...++
+-can't|ปฏิเสธซ้อน ฟังแปลก
+-would to|รูปผิด จึงใช้ไม่ได้
+-should|ความหมายไม่ตรง
+!==I don't suppose you could...?== = ขอแบบเกรงใจมาก
+
+G indirectness 3
+It might be worth ____ the figures before we send the report.
+=double-checking|เสนออ้อม ๆ ++It might be worth + -ing++
+-to double-check|หลัง worth ใช้ -ing
+-double-check|หลัง worth ใช้ -ing
+-double-checked|ไม่ใช่รูปหลัง worth
+!==It might be worth + -ing== = อาจจะดีถ้า...
+
+G indirectness 3
+I wonder ____ it would be possible to move the meeting.
+=whether|ขออย่างอ้อม ++I wonder whether...++
+-what|what ไม่ใช้กับคำถามใช่/ไม่ใช่
+-that|that ไม่ใช้กับคำถาม
+-why|ความหมายไม่ตรง
+!I wonder whether ==it would be possible...==
+
+G indirectness 3
+I'm not entirely ____ that this is the best approach.
+=convinced|ลดน้ำหนักการแย้ง ++not entirely convinced++
+-convincing|ใช้กับสิ่งที่ทำให้เชื่อ
+-convince|ต้องเป็นรูป -ed
+-convincingly|เป็นคำวิเศษณ์
+!==I'm not entirely convinced...== = (สุภาพ) ไม่ค่อยเห็นด้วย
+
+V disagreement-politeness 2
+I ____ with Dr Somchai: the data clearly support the proposal.
+=concur|เห็นด้วย = ++concur with++
+-demur|demur คือคัดค้านเบา ๆ
+-dissent|dissent คือเห็นต่าง
+-insinuate|insinuate คือพูดเป็นนัย (ลบ)
+!concur ==with== = เห็นด้วยกับ (ทางการ)
+
+V disagreement-politeness 2
+When asked to work on Sunday, she ____, saying she had family plans.
+=demurred|ปฏิเสธเบา ๆ = ++demur++
+-concurred|ความหมายกลับกัน
+-acquiesced|acquiesce คือยอมตาม
+-reiterated|ไม่ตรงความหมาย
+!demur = ==แย้งหรือปฏิเสธอย่างสุภาพ==
+
+V disagreement-politeness 3
+After weeks of pressure, the residents finally ____ to the new parking fees.
+=acquiesced|ยอมตาม (ไม่เต็มใจ) = ++acquiesce in/to++
+-demurred|demur คือคัดค้าน
+-dissented|dissent คือเห็นต่าง
+-insinuated|ไม่ตรงความหมาย
+!acquiesce = ==ยอมตามโดยไม่โต้แย้ง==
+
+V disagreement-politeness 3
+Are you ____ that I took the money? That's a serious accusation.
+=insinuating|พูดเป็นนัยแบบกล่าวหา = ++insinuate++
+-reiterating|reiterate คือพูดย้ำ
+-concurring|ไม่ตรงความหมาย
+-acquiescing|ไม่ตรงความหมาย
+!insinuate = ==พูดเป็นนัยในทางลบ==
+
+V disagreement-politeness 3
+"Passed away" is a ____ for "died".
+=euphemism|คำพูดอ้อมให้นุ่มนวล = ++euphemism++
+-deference|deference คือความนอบน้อม
+-tact|tact คือความรู้จักกาลเทศะ
+-dissent|ไม่ตรงความหมาย
+!euphemism = ==คำสุภาพที่ใช้แทนคำตรง ๆ==
+
+V disagreement-politeness 3
+The minister tried to ____ the problem, calling it "a minor issue".
+=downplay|ลดความสำคัญ = ++downplay++
+-overstate|ความหมายกลับกัน
+-reiterate|reiterate คือพูดย้ำ
+-concur|ไม่ตรงความหมาย
+!downplay = ==ทำให้ดูไม่สำคัญ==
+
+R formal-correspondence 2|Letter: Response to the Proposed Merger
+Dear Dr Wanchai,
+
+Thank you for your letter of 3 May outlining the proposed merger of our two departments. I concur that closer cooperation would benefit our students, and I appreciate the care with which the plan has been prepared.
+
+I must, however, respectfully demur on one point. The proposal suggests that the combined department would be led from your campus. With deference to your experience, I am not entirely convinced that this arrangement would serve students on our campus, who would lose access to senior staff.
+
+Might I suggest that leadership be shared for an initial period of two years? I would be glad to discuss this further at your convenience.
+
+Yours sincerely,
+Dr Rattana Phuong
+Q What does Dr Rattana agree with?
+=that cooperation would help students|I concur that closer cooperation would benefit our students
+-that leadership should be on one campus|เธอแย้งข้อนี้
+-that the merger should be cancelled immediately|ในบทไม่ได้พูดเช่นนั้น
+-that the plan was badly prepared|เธอชมการเตรียมแผน
+Q What is her main concern?
+=students on her campus losing access to senior staff|who would lose access to senior staff
+-the cost of the merger|ในบทไม่ได้พูดถึง
+-Dr Wanchai's experience|เธอให้ความเคารพประสบการณ์
+-the date of the letter|ในบทไม่ได้พูดเช่นนั้น
+Q What does she propose?
+=shared leadership for two years|leadership be shared for an initial period of two years
+-ending the discussion|เธอยินดีคุยต่อ
+-moving all staff to her campus|ในบทไม่ได้พูดเช่นนั้น
+-delaying the merger by ten years or more|ในบทไม่ได้พูดถึง
+
+L polite-disagreement 2
+Woman: With respect, I'd have to take issue with that figure. Our records show something rather different.
+Q What is the woman doing?
+=disagreeing politely|With respect, I'd have to take issue with that figure
+-agreeing with the figure|ความหมายกลับกัน
+-asking for her records back|ในบทไม่ได้พูดถึง
+-apologising for a mistake in her own records|ในบทไม่ได้พูดถึง
+
+L disagreement-politeness 2
+Man: I don't want to overstate the problem, but if we ignore it, it will get worse.
+Q How does the man describe the problem?
+=carefully, without exaggerating|I don't want to overstate the problem
+-as a disaster|เขาระวังไม่พูดเกินจริง
+-as already solved|ในบทไม่ได้พูดเช่นนั้น
+-as somebody else's responsibility entirely|ในบทไม่ได้พูดถึง

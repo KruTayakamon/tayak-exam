@@ -1,0 +1,155 @@
+G present-continuous 1
+Be quiet, please. The baby ____.
+=is sleeping|กำลังทำตอนนี้ ++is + -ing++
+-sleeps|รูปปกติใช้กับกิจวัตร
+-sleeping|ขาด is จึงใช้ไม่ได้
+-are sleeping|the baby เป็นเอกพจน์
+!กำลังทำอยู่ตอนนี้ ==am/is/are + -ing==
+
+G present-continuous 1
+Look! Those boys ____ football in the rain.
+=are playing|พหูพจน์ กำลังทำ ++are + -ing++
+-is playing|boys เป็นพหูพจน์
+-play|look! บอกว่ากำลังเกิดอยู่
+-playing|ขาด are จึงใช้ไม่ได้
+!Look! / Listen! → ==กำลังเกิดตอนนี้==
+
+G present-continuous 2
+"What ____ you doing?" "I'm making dinner."
+=are|you ใช้ ++are + -ing++
+-do|do ไม่ตามด้วย doing แบบนี้
+-is|is ไม่ใช้กับ you
+-does|does ไม่ตามด้วย doing แบบนี้
+!==What are you doing?== = กำลังทำอะไรอยู่
+
+G present-continuous 2
+I ____ my homework right now. I'll call you later.
+=am doing|I + กำลังทำ ++am + -ing++
+-do|right now ต้องใช้ -ing
+-is doing|I ใช้ am
+-doing|ขาด am จึงใช้ไม่ได้
+!right now / now → ==am/is/are + -ing==
+
+G present-simple-vs-continuous-basic 1
+My mother usually ____ to work by bus.
+=goes|กิจวัตร ++present simple++
+-is going|usually บอกกิจวัตร
+-go|mother เป็นเอกพจน์ ต้องเติม s
+-going|ขาดกริยาแท้
+!usually / every day → ==รูปปกติ==
+
+G present-simple-vs-continuous-basic 1
+It ____ now. Take an umbrella.
+=is raining|ตอนนี้กำลังเกิด ++is + -ing++
+-rains|now ต้องใช้ -ing
+-rain|it ต้องเติม s และ now ต้องใช้ -ing
+-raining|ขาด is
+!now → ==is + -ing==
+
+G present-simple-vs-continuous-basic 2
+I don't usually wear a tie, but today I ____ one for the interview.
+=am wearing|ตอนนี้ ต่างจากปกติ ++am + -ing++
+-wear|today บอกว่าเป็นเรื่องตอนนี้
+-wears|I ไม่เติม s
+-is wearing|I ใช้ am
+!ปกติ = รูปปกติ · ==วันนี้ / ตอนนี้ = -ing==
+
+G present-simple-vs-continuous-basic 2
+"Where's Dad?" "He ____ the car in the garden."
+=is washing|ตอนนี้กำลังทำ ++is + -ing++
+-washes|ถามว่าตอนนี้อยู่ไหน
+-wash|he ต้องเติม s
+-washing|ขาด is
+!ถามว่าอยู่ไหนตอนนี้ → ==is + -ing==
+
+G present-simple-vs-continuous-basic 2
+We ____ to the temple every Sunday.
+=go|กิจวัตร ++present simple++
+-are going|every Sunday บอกกิจวัตร
+-goes|we ไม่เติม s
+-going|ขาดกริยาแท้
+!every Sunday → ==รูปปกติ==
+
+V activities 1
+My daughter loves art. She likes to ____ pictures of cats.
+=draw|วาดรูป = ++draw++
+-sing|sing คือร้องเพลง
+-cook|cook คือทำอาหาร
+-wear|wear คือสวมใส่
+!draw a picture = ==วาดรูป==
+
+V activities 1
+Can I call you later? I'm very ____ right now.
+=busy|ยุ่ง = ++busy++
+-sit|sit เป็นกริยา
+-clean|ไม่ได้บอกว่ายุ่ง
+-stand|stand เป็นกริยา
+!busy = ==ยุ่ง ไม่ว่าง==
+
+V activities 1
+Please ____ down. The film is starting.
+=sit|นั่งลง = ++sit down++
+-stand|stand down ความหมายไม่ตรง
+-draw|draw down ไม่ใช่วลีที่ใช้ตรงนี้
+-play|play down ความหมายไม่ตรง
+!sit down = ==นั่งลง==
+
+V activities 2
+It's cold today, so I'm going to ____ a jacket.
+=wear|สวมใส่ = ++wear++
+-watch|watch คือดู
+-clean|clean คือทำความสะอาด
+-draw|draw คือวาด
+!wear clothes = ==สวมเสื้อผ้า==
+
+V activities 2
+My kitchen is dirty. I need to ____ it this afternoon.
+=clean|ทำความสะอาด = ++clean++
+-cook|ทำอาหารไม่ได้ทำให้ครัวสะอาด
+-sing|sing คือร้องเพลง
+-read|read คืออ่าน
+!clean = ==ทำความสะอาด==
+
+V activities 2
+We ____ the news on TV every evening at seven.
+=watch|ดู (ทีวี) = ++watch++
+-read|read ไม่ใช้กับทีวี
+-play|play the news ไม่ใช่วลีที่ใช้
+-write|write the news ความหมายไม่ตรง
+!watch TV / a film = ==ดูทีวี ดูหนัง==
+
+R picture-description 1|In the Park on Sunday Morning
+It is Sunday morning in Lumpini Park. The weather is sunny and warm. Near the lake, an old man is reading a newspaper on a bench. Two women are running on the path. They are wearing pink shirts.
+Under a big tree, a family is having a picnic. The father is cutting a watermelon, and the children are playing with a ball. A young woman is sitting on the grass. She is drawing the lake in a small notebook.
+Q What is the old man doing?
+=reading a newspaper|an old man is reading a newspaper
+-running on the path|ผู้หญิงสองคนกำลังวิ่ง
+-cutting a watermelon|พ่อกำลังผ่าแตงโม
+-drawing the lake|หญิงสาวกำลังวาดทะเลสาบ
+Q Where is the family having a picnic?
+=under a big tree|Under a big tree, a family is having a picnic
+-near the lake|ชายชราอยู่ใกล้ทะเลสาบ
+-on the path|ผู้หญิงวิ่งบนทางเดิน
+-on a bench|ชายชรานั่งบนม้านั่ง
+Q What is the young woman using?
+=a notebook|drawing the lake in a small notebook
+-a ball|เด็ก ๆ เล่นลูกบอล
+-a newspaper|ชายชราอ่านหนังสือพิมพ์
+-a camera|ในบทไม่ได้พูดถึงกล้อง
+
+L describing-now 1
+Woman: Where are you? I can hear music.
+Man: I'm at a café. A band is playing in the corner.
+Q Where is the man?
+=at a café|I'm at a café
+-at home|เขาอยู่ร้านกาแฟ
+-at a concert hall|ในบทไม่ได้พูดเช่นนั้น
+-in a car|ในบทไม่ได้พูดเช่นนั้น
+
+L activities 1
+Man: I usually cook dinner, but tonight my wife is cooking because I'm working late.
+Q Who is cooking dinner tonight?
+=the man's wife|tonight my wife is cooking
+-the man|ปกติเขาทำ แต่คืนนี้ไม่ได้ทำ
+-their children|ในบทไม่ได้พูดถึงลูก
+-nobody|ภรรยาทำอาหาร

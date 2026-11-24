@@ -1,0 +1,157 @@
+G synthesis-paraphrase 2
+Source A: "Prices rose 8%." Source B: "Wages rose 3%." Which summary combines them accurately?
+=Wages rose more slowly than prices.|รวมสองแหล่งถูกต้อง ++wages < prices++
+-Wages rose faster than prices.|ผิดข้อเท็จจริง
+-Prices and wages rose equally.|ผิดข้อเท็จจริง
+-Prices fell while wages rose.|ผิดข้อเท็จจริง
+!สังเคราะห์ ==เทียบตัวเลขให้ถูก==
+
+G synthesis-paraphrase 3
+Which is the best paraphrase of "The plan was abandoned owing to a lack of funds"?
+=The plan was dropped because there wasn't enough money.|ความหมายเดิม คำใหม่ ++owing to = because++
+-The plan was finished using extra money.|ความหมายผิด
+-The money was lost because of the plan.|กลับเหตุผล
+-The plan raised a lot of funds.|ความหมายผิด
+!ถอดความ ==คงความหมาย เปลี่ยนคำ==
+
+G synthesis-paraphrase 3
+Writer A says homework helps; Writer B says it causes stress. A fair synthesis is: ____.
+=Homework may help learning but can also cause stress.|รวมสองฝ่ายอย่างเป็นธรรม ++may ... but can also++
+-Homework is useless.|ตัดความเห็น A ทิ้ง
+-Everyone agrees homework is good.|ผิด ไม่ได้เห็นพ้อง
+-Writer B is wrong.|ไม่ใช่การสังเคราะห์
+!สังเคราะห์ ==ให้น้ำหนักทั้งสองฝ่าย==
+
+G synthesis-paraphrase 3
+Which phrase best introduces agreement between two sources?
+=Both writers concur that...|บอกว่าสองแหล่งเห็นตรงกัน ++Both ... concur++
+-Writer A disputes that...|เป็นการแย้ง
+-Unlike Writer B...|เป็นการเทียบต่าง
+-In contrast to A...|เป็นการเทียบต่าง
+!เห็นพ้อง ==Both ... concur / agree that...==
+
+G transformations-c2 2
+"I'm sure he didn't steal it." = He ____ it.
+=can't have stolen|แน่ใจว่าไม่ได้ทำ ++can't have + V3++
+-mustn't steal|ไม่ตรงความหมาย
+-shouldn't have stolen|ความหมายว่าไม่ควร
+-needn't steal|ไม่ตรงความหมาย
+!I'm sure he didn't = ==can't have + V3==
+
+G transformations-c2 3
+"The moment I arrived, the phone rang." = No sooner ____ than the phone rang.
+=had I arrived|No sooner + ++had + ประธาน + V3++
+-I had arrived|ต้องสลับ
+-did I arrive|ใช้ had กับ no sooner
+-I arrived|ต้องสลับและใช้ had
+!==No sooner had + ประธาน + V3 + than==
+
+G transformations-c2 3
+"It's possible that she missed the train." = She ____ the train.
+=may have missed|อาจจะเกิดไปแล้ว ++may have + V3++
+-must have missed|แรงเกินไป
+-should miss|ไม่ตรงความหมาย
+-can miss|ไม่ตรงความหมาย
+!It's possible that + อดีต = ==may / might have + V3==
+
+G transformations-c2 3
+"People believe the temple was built in the 12th century." = The temple ____ in the 12th century.
+=is believed to have been built|passive รายงานอดีต ++is believed to have been + V3++
+-believes to have built|รูปผิด จึงใช้ไม่ได้
+-is believed being built|รูปผิด จึงใช้ไม่ได้
+-was believed building|รูปผิด จึงใช้ไม่ได้
+!==is believed to have been + V3==
+
+G transformations-c2 3
+"Although he tried hard, he failed." = ____, he failed.
+=Hard as he tried|ยอมรับแล้วแย้ง ++adj/adv + as + ประธาน + กริยา++
+-As hard he tried|ลำดับคำผิด
+-Hard though trying|รูปผิด จึงใช้ไม่ได้
+-Trying as hard|ความหมายไม่ตรง
+!==Hard as he tried== = แม้จะพยายามอย่างหนัก
+
+V reasoning-vocab 2
+From the results of 200 villages, the researchers ____ to the whole province.
+=extrapolated|ขยายผลคาดการณ์ = ++extrapolate to++
+-refuted|refute คือหักล้าง
+-vindicated|vindicate คือพิสูจน์ว่าถูก
+-conflated|conflate คือรวมผิด ๆ
+!extrapolate = ==ขยายผลจากข้อมูลที่มี==
+
+V reasoning-vocab 2
+New evidence completely ____ the theory that the fire was an accident.
+=refuted|หักล้าง = ++refute++
+-substantiated|ความหมายกลับกัน
+-posited|posit คือตั้งสมมติฐาน
+-surmised|surmise คือคาดเดา
+!refute = ==พิสูจน์ว่าผิด หักล้าง==
+
+V reasoning-vocab 3
+The court's ruling ____ the teacher who had been wrongly accused.
+=vindicated|พิสูจน์ว่าบริสุทธิ์/ถูก = ++vindicate++
+-refuted|refute ใช้กับข้ออ้าง ไม่ใช่คน
+-extrapolated|ไม่ตรงความหมาย
+-conflated|ไม่ตรงความหมาย
+!vindicate = ==พิสูจน์ว่าถูกหรือบริสุทธิ์==
+
+V reasoning-vocab 3
+Many people ____ weather and climate, but they are not the same thing.
+=conflate|รวมสองอย่างเป็นอันเดียวผิด ๆ = ++conflate++
+-substantiate|ไม่ตรงความหมาย
+-vindicate|ไม่ตรงความหมาย
+-postulate|ไม่ตรงความหมาย
+!conflate = ==เอามาปนกันว่าเป็นอย่างเดียว==
+
+V reasoning-vocab 3
+Can you ____ your claim with data, or is it just an opinion?
+=substantiate|ยืนยันด้วยหลักฐาน = ++substantiate++
+-refute|ความหมายกลับกัน
+-surmise|surmise คือคาดเดา
+-conflate|ไม่ตรงความหมาย
+!substantiate = ==ยืนยันด้วยหลักฐาน==
+
+V reasoning-vocab 3
+The argument sounds logical, but it is ____: it rests on a false assumption.
+=specious|ดูมีเหตุผลแต่ผิด = ++specious++
+-vindicated|ไม่ตรงความหมาย
+-substantiated|ความหมายกลับกัน
+-extrapolated|ไม่ตรงความหมาย
+!specious = ==ฟังดูดีแต่ผิด==
+
+R two-texts 2|Two Views on Four-Day Working Weeks
+Text A (a business owner): "When we moved to a four-day week, I expected productivity to fall. Instead, staff finished the same work in less time, and sick days dropped by a third. Our customers noticed no difference."
+
+Text B (an economist): "Small trials are encouraging, but we should not extrapolate too quickly. Most trials have involved office-based companies that chose to take part. Hospitals, factories and schools face very different constraints. A nurse cannot simply see patients faster."
+
+Both writers accept that the four-day week can work in some settings. Where they differ is in how widely they think it can be applied.
+Q What happened in the business owner's company?
+=productivity stayed the same with fewer days|staff finished the same work in less time
+-customers complained|ลูกค้าไม่เห็นความต่าง
+-sick days increased|ลดลงหนึ่งในสาม
+-staff had to work longer hours each day than before|ในบทไม่ได้พูดเช่นนั้น
+Q What is the economist's main caution?
+=results may not apply to all jobs|Hospitals, factories and schools face very different constraints
+-the trials were too long|ในบทไม่ได้พูดเช่นนั้น
+-office workers are lazy|ในบทไม่ได้พูดเช่นนั้น
+-nurses already work four-day weeks in most hospitals|ในบทไม่ได้พูดเช่นนั้น
+Q On what do the two writers agree?
+=it can work in some workplaces|Both writers accept that the four-day week can work in some settings
+-it should be compulsory everywhere|ไม่ได้เห็นพ้องเช่นนั้น
+-it reduces customer satisfaction|ในบทไม่ได้พูดเช่นนั้น
+-it is suitable for hospitals, factories and schools|นักเศรษฐศาสตร์บอกว่าอาจไม่เหมาะ
+
+L two-part-lecture 2
+Woman: In the first half, we looked at why the theory became popular. Now, I'll turn to the evidence that refutes it.
+Q What will the second half cover?
+=evidence against the theory|the evidence that refutes it
+-why the theory became popular|เป็นครึ่งแรก
+-evidence that supports the theory|ความหมายกลับกัน
+-the life of the scientist who first proposed it|ในบทไม่ได้พูดถึง
+
+L reasoning-vocab 2
+Man: I can only surmise that the delay was caused by the weather. Nobody has told us anything.
+Q How certain is the man about the cause?
+=not certain; he is guessing|I can only surmise
+-completely certain|ความหมายกลับกัน
+-he was told officially|ไม่มีใครบอก
+-he knows it was a strike by the airport staff|ในบทไม่ได้พูดถึง

@@ -1,0 +1,156 @@
+G subjunctive-fixed 2
+____ it may, the decision has been made and we must respect it.
+=Be that as|สำนวนตายตัว ++Be that as it may++
+-Being that as|ไม่ใช่สำนวน
+-Be as that|ลำดับคำผิด
+-As it be|ไม่ใช่สำนวน
+!==Be that as it may== = ถึงอย่างนั้นก็ตาม
+
+G subjunctive-fixed 2
+Far ____ it from me to criticise, but the report has several errors.
+=be|สำนวน ++Far be it from me to...++
+-is|ไม่ใช่สำนวน
+-been|ไม่ใช่สำนวน
+-being|ไม่ใช่สำนวน
+!==Far be it from me to + V1== = ฉันไม่ได้ตั้งใจจะ...แต่
+
+G subjunctive-fixed 3
+The law requires that every vehicle ____ inspected annually.
+=be|subjunctive passive ++be + V3++
+-is|ทางการหลัง require that ใช้ be
+-to be|ไม่มี to
+-will be|ไม่ใช้ will
+!require that + ประธาน + ==be + V3==
+
+G subjunctive-fixed 3
+____ the truth be told, I never liked the original design.
+=If|สำนวน ++If (the) truth be told++
+-When|ไม่ใช่สำนวน
+-As|ไม่ใช่สำนวน
+-Should|ไม่ใช่สำนวน
+!==If truth be told== = พูดตามตรง
+
+G conditionals-implied 2
+Without your support, the festival ____ happened.
+=would never have|เงื่อนไขแฝงใน without ++would never have + V3++
+-will never have|ไม่ใช้ will กับอดีตสมมติ
+-had never|ประโยคผลต้องมี would
+-never would|ลำดับคำผิด
+!==Without + คำนาม== = เงื่อนไขแฝง (If it hadn't been for)
+
+G conditionals-implied 3
+A more careful driver ____ the accident.
+=would have avoided|เงื่อนไขแฝงในคำนาม ++would have + V3++
+-avoided|ไม่ได้บอกว่าเป็นสมมติ
+-will avoid|ไม่ใช่อนาคต
+-had avoided|ประโยคผลต้องมี would
+!==คำนามที่สมมติ + would have + V3== = ถ้าเป็นคนที่...ก็คง
+
+G conditionals-implied 3
+I'd have called you, ____ I didn't have your number.
+=but|เงื่อนไขแฝง ++but + เหตุที่ไม่ได้ทำ++
+-if|if ทำให้ความหมายไม่ตรง
+-unless|unless ไม่ตรงความหมาย
+-otherwise|otherwise ไม่ใช้ตรงนี้
+!would have + V3, ==but + เหตุผลจริง==
+
+G conditionals-implied 3
+Leave now; ____, you'll miss the last ferry.
+=otherwise|ไม่อย่างนั้น ++otherwise++
+-unless|unless ต้องตามด้วยประโยค
+-if not so|ไม่ใช่สำนวน
+-or else not|ไม่ใช่สำนวน
+!==otherwise / or else== = ไม่อย่างนั้น
+
+G conditionals-implied 3
+Given more time, we ____ the project properly.
+=could have finished|เงื่อนไขแฝงใน given ++could have + V3++
+-can finish|ไม่ใช่สมมติ
+-had finished|ประโยคผลต้องมี could/would
+-will finish|ไม่ใช่สมมติ
+!==Given + คำนาม== = ถ้ามี... (เงื่อนไขแฝง)
+
+V formal-legal 2
+The parties agree that this contract shall terminate ____.
+=forthwith|ทันที (ทางการ) = ++forthwith++
+-hitherto|hitherto คือจนถึงบัดนี้
+-thereof|thereof คือของสิ่งนั้น
+-statutory|statutory เป็นคุณศัพท์
+!forthwith = ==ทันที (ภาษากฎหมาย)==
+
+V formal-legal 2
+____, all applications must be submitted online.
+=Henceforth|นับแต่นี้ไป = ++henceforth++
+-Hitherto|hitherto คือจนถึงบัดนี้ ตรงข้าม
+-Thereof|thereof ไม่ขึ้นต้นประโยค
+-Forthwith|ไม่ค่อยขึ้นต้นประโยคแบบนี้
+!henceforth = ==นับจากนี้ไป==
+
+V formal-legal 3
+The offer is ____ on the results of a medical check.
+=contingent|ขึ้นอยู่กับเงื่อนไข = ++contingent on++
+-statutory|statutory คือตามกฎหมาย
+-hitherto|hitherto คือจนถึงบัดนี้
+-proviso|proviso เป็นคำนาม
+!contingent ==on/upon== = ขึ้นอยู่กับ
+
+V formal-legal 3
+The new evidence ____ any further delay in the investigation.
+=precludes|ทำให้ไม่อาจเกิด = ++preclude++
+-necessitates|ความหมายกลับกัน
+-abides|abide ต้องมี by
+-warrants|warrant คือสมควรให้
+!preclude = ==กันไว้ไม่ให้เกิด==
+
+V formal-legal 3
+The situation does not ____ such an extreme response.
+=warrant|สมควร = ++warrant++
+-preclude|ไม่ตรงความหมาย
+-abide|abide ต้องมี by
+-remit|remit เป็นคำนาม (ในที่นี้)
+!warrant = ==สมควรที่จะได้ เป็นเหตุให้==
+
+V formal-legal 3
+Any changes require the signature of both parties and the dates ____.
+=thereof|ของสิ่งนั้น = ++thereof++
+-forthwith|forthwith คือทันที
+-henceforth|henceforth คือนับแต่นี้
+-hitherto|hitherto คือจนบัดนี้
+!thereof = ==ของสิ่งนั้น (ภาษากฎหมาย)==
+
+R agreement-text 2|Memorandum of Understanding (Fictional): Lakeview College and Hilltop University
+1. Purpose. The two institutions agree to cooperate in teacher training for a period of three years, commencing 1 June.
+2. Exchange. Each year, Hilltop University shall host up to ten trainee teachers from Lakeview College, provided that accommodation costs are covered by Lakeview.
+3. Termination. Either party may terminate this agreement with six months' written notice. Notwithstanding the foregoing, the agreement shall terminate forthwith should either party lose its accreditation.
+4. Review. The agreement shall be reviewed at the end of the second year, and any amendments thereof shall be agreed in writing.
+Q Who pays for trainees' accommodation?
+=Lakeview College|provided that accommodation costs are covered by Lakeview
+-Hilltop University|Hilltop เป็นผู้รับ ไม่ได้จ่าย
+-the trainees themselves|ในบทไม่ได้พูดเช่นนั้น
+-the government|ในบทไม่ได้พูดถึง
+Q When could the agreement end immediately?
+=if a party loses accreditation|terminate forthwith should either party lose its accreditation
+-after six months' notice|ต้องแจ้งล่วงหน้าหกเดือน ไม่ใช่ทันที
+-at the end of the second year|เป็นเวลาทบทวน ไม่ใช่สิ้นสุด
+-if ten trainees attend|ในบทไม่ได้พูดเช่นนั้น
+Q How must changes to the agreement be made?
+=in writing|any amendments thereof shall be agreed in writing
+-by phone|ในบทไม่ได้พูดถึง
+-by the trainees|ในบทไม่ได้พูดถึง
+-without discussion|ในบทไม่ได้พูดเช่นนั้น
+
+L negotiation 2
+Man: We're willing to accept the price, with one proviso: delivery must be completed by the end of March.
+Q What is the man's condition?
+=delivery by the end of March|with one proviso: delivery must be completed by the end of March
+-a lower price|เขายอมรับราคาแล้ว
+-free delivery|ในบทไม่ได้พูดถึง
+-payment in March|เงื่อนไขคือส่งของ ไม่ใช่จ่ายเงิน
+
+L negotiation 2
+Woman: Had we known the costs hitherto, we would never have signed. Henceforth, every invoice must be approved in advance.
+Q What will change from now on?
+=invoices will need prior approval|Henceforth, every invoice must be approved in advance
+-they will cancel the contract|ในบทไม่ได้พูดเช่นนั้น
+-costs will be shared|ในบทไม่ได้พูดถึง
+-nothing will change after the signing|ความหมายกลับกัน

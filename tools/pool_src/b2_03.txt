@@ -1,0 +1,159 @@
+G future-continuous-perfect 2
+Don't call me between two and four. I ____ an online exam.
+=will be taking|กำลังทำอยู่ ณ ช่วงเวลาในอนาคต ++will be + -ing++
+-will have taken|จะทำเสร็จแล้ว ไม่ใช่กำลังทำ
+-take|ต้องบอกอนาคตที่กำลังดำเนิน
+-am taken|รูปผิด จึงใช้ไม่ได้
+!ณ เวลาหนึ่งในอนาคต กำลังทำอยู่ ==will be + -ing==
+
+G future-continuous-perfect 2
+By the end of this year, we ____ more than 500 trees in the village.
+=will have planted|เสร็จก่อนจุดในอนาคต ++will have + V3++
+-will be planting|by the end ต้องเน้นว่าเสร็จแล้ว
+-have planted|by the end of this year เป็นอนาคต
+-will be having planted|รูปผิด ไม่มีรูปนี้ในภาษาอังกฤษ
+!by + เวลาในอนาคต → ==will have + V3==
+
+G future-continuous-perfect 3
+At nine tomorrow morning, the team ____ the new office in Chiang Rai.
+=will be visiting|กำลังทำอยู่ ณ เวลานั้น ++will be + -ing++
+-will have visited|ไม่ได้เน้นว่าทำเสร็จก่อนเก้าโมง
+-visit|ต้องบอกอนาคต จึงใช้ไม่ได้
+-are visit|รูปผิด จึงใช้ไม่ได้
+!ณ เวลาหนึ่งในอนาคต (at nine tomorrow) = ==will be + -ing==
+
+G future-continuous-perfect 3
+By the time you get this message, the plane ____.
+=will have landed|เสร็จก่อนผู้ฟังได้ข้อความ ++will have + V3++
+-will be landing|ไม่ชัดว่าลงจอดเสร็จแล้ว
+-has landed|อนาคต ใช้ has ไม่ได้
+-lands|ต้องบอกว่าเสร็จก่อนจุดนั้น
+!by the time + present → ==will have + V3==
+
+G future-in-past-expressions 2
+I ____ call you yesterday, but my phone battery died.
+=was going to|ตั้งใจไว้แต่ไม่ได้ทำ ++was going to++
+-will|เป็นความตั้งใจในอดีต
+-am going to|yesterday เป็นอดีต
+-would have to|ความหมายไม่ตรง
+!==was going to== = ตั้งใจจะ...แต่ (ไม่ได้ทำ)
+
+G future-in-past-expressions 2
+The new bridge ____ to open in March, but it is still not finished.
+=was supposed|ตามแผนควรจะ ++was supposed to++
+-is supposing|รูปผิด จึงใช้ไม่ได้
+-was supposing|ต้องเป็น passive was supposed
+-supposes|ความหมายไม่ตรง
+!be ==supposed to== = ควรจะ (ตามแผน/ตามกำหนด)
+
+G future-in-past-expressions 3
+The meeting is ____ to start; please take your seats.
+=about|กำลังจะเกิดเดี๋ยวนี้ ++be about to++
+-going|ไม่ใช้ going to start ในความหมายนี้
+-supposed|ไม่ได้หมายถึงตามกำหนด
+-due|due ไม่ตามด้วย to start ในบริบทนี้
+!be ==about to== + V1 = กำลังจะ...อยู่แล้ว
+
+G future-in-past-expressions 3
+The director ____ to visit our branch next month, so everything must be ready.
+=is due|ตามกำหนดการ ++is due to++
+-was due|เป็นแผนในอนาคตที่ยังไม่เปลี่ยน
+-is about|about to ใช้กับเหตุการณ์ที่ใกล้มาก
+-dues|รูปผิด จึงใช้ไม่ได้
+!be ==due to== + V1 = มีกำหนดจะ
+
+G future-in-past-expressions 3
+Little did they know that the small café ____ become the most popular in town.
+=would|อนาคตเมื่อมองจากอดีต ++would++
+-will|เล่าในอดีต ใช้ will ไม่ได้
+-was|was become ผิดรูป
+-had|had become ทำให้ลำดับเวลาผิด
+!อนาคตจากมุมอดีต ==would + V1==
+
+V plans-goals 2
+Our main ____ this year is to reduce waste by 30 per cent.
+=objective|เป้าหมาย = ++objective++
+-prospect|prospect คือโอกาสที่อาจเกิด
+-temporary|temporary เป็นคุณศัพท์
+-anticipate|anticipate เป็นกริยา
+!objective = ==วัตถุประสงค์ เป้าหมาย==
+
+V plans-goals 2
+With so many tasks, you need to ____ the most urgent ones.
+=prioritise|จัดลำดับความสำคัญ = ++prioritise++
+-postpone|postpone คือเลื่อน ตรงข้ามกับ urgent
+-priority|priority เป็นคำนาม
+-strategy|strategy เป็นคำนาม
+!prioritise = ==ทำสิ่งสำคัญก่อน== · priority = สิ่งสำคัญอันดับแรก
+
+V plans-goals 2
+We ____ a lot of visitors during the festival, so we've hired extra staff.
+=anticipate|คาดการณ์ล่วงหน้า = ++anticipate++
+-implement|implement คือนำไปปฏิบัติ
+-postpone|postpone คือเลื่อน
+-prioritise|ไม่ตรงความหมาย
+!anticipate = ==คาดการณ์ และเตรียมไว้==
+
+V plans-goals 3
+The new recycling plan will be ____ in all offices from January.
+=implemented|นำไปใช้จริง = ++implement a plan++
+-anticipated|anticipated คือคาดการณ์ไว้
+-postponed|ไม่ได้บอกว่าเลื่อน
+-objective|objective เป็นคำนาม
+!implement = ==นำแผนไปปฏิบัติ==
+
+V plans-goals 3
+This is only a ____ office. We'll move to a bigger building next year.
+=temporary|ชั่วคราว = ++temporary++
+-permanent|permanent คือถาวร ตรงข้ามกับบริบท
+-approximately|เป็นคำวิเศษณ์
+-initiative|initiative เป็นคำนาม
+!temporary = ==ชั่วคราว== · permanent = ถาวร
+
+V plans-goals 3
+The trip will take ____ three hours, depending on traffic.
+=approximately|ประมาณ = ++approximately++
+-temporary|temporary เป็นคุณศัพท์
+-permanent|permanent เป็นคุณศัพท์
+-prospect|prospect เป็นคำนาม
+!approximately = ==ประมาณ== (= about)
+
+R business-plan 2|Business Plan Summary: Baan Noodle Shop
+Baan Noodle Shop opened two years ago in a small town near Ayutthaya. It serves around 120 customers a day, mostly office workers at lunchtime.
+
+Our main objective for next year is to increase evening sales, which are currently very low. To do this, we are going to introduce a new dinner menu with rice dishes and extend our opening hours until 9 pm.
+
+We also plan to start a delivery service through a popular app. This will require one extra member of staff. We anticipate that delivery will cover its own costs within six months.
+
+We are postponing our plan to open a second shop until the first shop is consistently profitable in the evenings.
+Q What is the shop's main problem now?
+=few customers come in the evening|evening sales, which are currently very low
+-it has too many staff|ไม่ได้พูดว่าพนักงานมากเกิน
+-lunch is too expensive|ไม่ได้พูดถึงราคาอาหารกลางวัน
+-it is too far from the town|ร้านอยู่ใกล้เมือง
+Q What will the delivery service need?
+=one more employee|This will require one extra member of staff
+-a second shop|ร้านที่สองถูกเลื่อนไป
+-a new kitchen|ไม่ได้พูดถึงครัวใหม่
+-longer lunch hours|ขยายเวลาเปิดถึงสามทุ่ม ไม่ใช่มื้อกลางวัน
+Q When will they open a second shop?
+=after evenings become profitable|until the first shop is consistently profitable in the evenings
+-next year|เป้าปีหน้าคือยอดขายตอนเย็น
+-in six months|หกเดือนคือเวลาที่บริการส่งจะคุ้มทุน
+-after two years|เปิดมาแล้วสองปี
+
+L presentation-plan 2
+Woman: In the first part of my talk, I'll be looking at last year's results. After that, I'll explain our strategy for next year, and finally I'll answer your questions.
+Q What will the speaker do second?
+=explain next year's strategy|After that, I'll explain our strategy for next year
+-review the results of last year|เป็นส่วนแรกของการพูด
+-answer questions|เป็นส่วนสุดท้าย
+-introduce new staff|ไม่ได้พูดถึง
+
+L plans-goals 2
+Man: We were going to launch the app in May, but the testing took longer than expected, so it's now due out in July.
+Q When will the app be launched?
+=in July|it's now due out in July
+-in May|เป็นแผนเดิม
+-it has been cancelled|ไม่ได้ยกเลิก แต่เลื่อน
+-next year|ไม่ได้พูดถึงปีหน้า

@@ -1,0 +1,159 @@
+G was-were 1
+I ____ at the dentist yesterday afternoon.
+=was|I ในอดีต ใช้ ++was++
+-were|I ใช้ was
+-am|yesterday เป็นอดีต
+-is|is ไม่ใช้กับ I
+!I / he / she / it → ==was==
+
+G was-were 1
+The shops ____ open on Sunday. Everything was closed.
+=weren't|พหูพจน์ปฏิเสธในอดีต ++weren't++
+-wasn't|shops เป็นพหูพจน์
+-aren't|เป็นเรื่องในอดีต
+-didn't|didn't ไม่ใช้กับ open (คุณศัพท์) แบบนี้
+!พหูพจน์อดีตปฏิเสธ ==weren't==
+
+G was-were 2
+"____ the film good?" "Yes, it was great."
+=Was|ถามอดีต เอกพจน์ ++Was...?++
+-Were|the film เป็นเอกพจน์
+-Did|did ไม่ตามด้วย the film good
+-Is|คำตอบเป็นอดีต
+!==Was + เอกพจน์ + ...?==
+
+G was-were 2
+Where ____ you last night? I called you three times.
+=were|you ในอดีต ใช้ ++were++
+-was|you ใช้ were
+-are|last night เป็นอดีต
+-did|did ไม่ตามด้วย you last night แบบนี้
+!you / we / they → ==were==
+
+G past-simple-regular 1
+We ____ the temple in Ayutthaya last weekend.
+=visited|อดีตปกติ ++-ed++
+-visit|last weekend เป็นอดีต
+-visits|เป็นรูปปัจจุบัน
+-visiting|ขาดกริยาแท้
+!กริยาปกติ อดีต = ==เติม -ed==
+
+G past-simple-regular 1
+The train ____ late, at ten o'clock.
+=arrived|อดีต ลงท้าย e เติม ++-d++
+-arrive|เล่าอดีต ต้องเติม d
+-arriveed|ลงท้าย e เติมแค่ d
+-arriving|ขาดกริยาแท้
+!ลงท้าย e → ==เติม -d==
+
+G past-simple-regular 2
+I ____ the party. The music was great!
+=enjoyed|อดีตปกติ ++enjoy → enjoyed++
+-enjoied|y หลังสระไม่เปลี่ยนเป็น i
+-enjoy|เล่าอดีต ต้องเติม ed
+-enjoying|ขาดกริยาแท้
+!สระ + y → ==เติม -ed ตรง ๆ== (enjoyed, played)
+
+G past-simple-regular 2
+My son ____ his homework before dinner.
+=finished|อดีตปกติ ++-ed++
+-finish|เล่าอดีต ต้องเติม ed
+-finishs|ไม่ใช่รูปอดีต
+-finishing|ขาดกริยาแท้
+!==finish → finished==
+
+G past-simple-regular 2
+They ____ for the bus for forty minutes yesterday.
+=waited|อดีตปกติ ++-ed++
+-wait|yesterday เป็นอดีต
+-waits|เป็นรูปปัจจุบัน
+-was waited|ไม่ใช่รูปที่ใช้
+!==wait → waited==
+
+V trips-weather 1
+The ____ was terrible. It rained all day.
+=weather|สภาพอากาศ = ++weather++
+-holiday|ไม่ตรงความหมาย
+-festival|ไม่ตรงความหมาย
+-trip|ไม่ตรงความหมาย
+!the weather = ==สภาพอากาศ==
+
+V trips-weather 1
+We went on a school ____ to the zoo.
+=trip|ทริป การเดินทาง = ++trip++
+-weather|ไม่ตรงความหมาย
+-rain|rain คือฝน
+-tired|tired เป็นคุณศัพท์
+!go on a trip = ==ไปเที่ยว==
+
+V trips-weather 1
+I walked for five hours. I was very ____.
+=tired|เหนื่อย = ++tired++
+-weather|weather เป็นคำนาม
+-holiday|holiday เป็นคำนาม
+-visit|visit เป็นกริยา
+!tired = ==เหนื่อย==
+
+V trips-weather 2
+Loy Krathong is my favourite ____. We float candles on the river.
+=festival|เทศกาล = ++festival++
+-weather|ไม่ตรงความหมาย
+-trip|ไม่ตรงความหมาย
+-rain|ไม่ตรงความหมาย
+!festival = ==เทศกาล==
+
+V trips-weather 2
+I didn't go to work ____. I was sick.
+=yesterday|เมื่อวาน = ++yesterday++
+-tomorrow|ใช้กับอดีตไม่ได้
+-holiday|holiday เป็นคำนาม
+-festival|festival เป็นคำนาม
+!yesterday = ==เมื่อวาน==
+
+V trips-weather 2
+Take an umbrella. There's a lot of ____ today.
+=rain|ฝน = ++rain++
+-weather|a lot of weather ไม่ใช่วลีที่ใช้
+-tired|tired เป็นคุณศัพท์
+-festival|ไม่ตรงความหมาย
+!rain = ==ฝน==
+
+R holiday-postcard 1|A Postcard from Phuket
+Dear Joy,
+We are in Phuket! We arrived on Monday after a long drive. The hotel is near the beach, and our room is very nice.
+On Tuesday, the weather was beautiful, so we visited three small islands by boat. On Wednesday it rained all day, so we stayed at the hotel and played cards. Yesterday we walked to the old town and tried some delicious food.
+We go home on Saturday.
+Love,
+Nida
+Q How did Nida travel to Phuket?
+=by car|We arrived on Monday after a long drive
+-by plane|ในบทไม่ได้พูดถึงเครื่องบิน
+-by boat|เรือใช้ไปเกาะ
+-by train|ในบทไม่ได้พูดถึงรถไฟ
+Q What did they do on Wednesday?
+=played cards at the hotel|On Wednesday it rained ... played cards
+-visited islands|เป็นวันอังคาร
+-walked to the old town|เป็นเมื่อวาน
+-went home|จะกลับบ้านวันเสาร์
+Q When will Nida go home?
+=on Saturday|We go home on Saturday
+-on Monday|มาถึงวันจันทร์
+-on Wednesday|วันพุธฝนตก
+-tomorrow|ในบทไม่ได้พูดเช่นนั้น
+
+L past-weekend 1
+Woman: How was your weekend?
+Man: Great, thanks. I visited my parents and we cooked a big dinner together.
+Q What did the man do at the weekend?
+=visited his parents|I visited my parents
+-worked late|ในบทไม่ได้พูดเช่นนั้น
+-went to a restaurant|เขาทำอาหารกินที่บ้าน
+-stayed in bed|ในบทไม่ได้พูดเช่นนั้น
+
+L trips-weather 1
+Man: The festival was great, but it was very hot. We were tired at the end of the day.
+Q What was the weather like?
+=very hot|it was very hot
+-rainy|ในบทไม่ได้พูดถึงฝน
+-cold|ความหมายกลับกัน
+-windy|ในบทไม่ได้พูดถึงลม

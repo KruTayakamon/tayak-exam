@@ -1,0 +1,157 @@
+G participle-clauses-advanced 2
+____ in 1902, the railway station is now a museum.
+=Built|ย่อ passive ++V3 ขึ้นต้น++ (= It was built)
+-Building|สถานีไม่ได้เป็นผู้สร้าง
+-Having built|ความหมายเป็น active
+-To build|ความหมายไม่ตรง
+!==V3 + ..., ประธาน + กริยา== = ถูก...แล้ว
+
+G participle-clauses-advanced 3
+____ her contract, she was free to accept the new offer.
+=Having completed|เสร็จก่อนอีกเรื่อง ++Having + V3++
+-Completed|ความหมายเป็น passive
+-Being completed|ความหมายเป็น passive
+-Completing|ไม่ชัดว่าเสร็จก่อน
+!==Having + V3== = หลังจากทำ...เสร็จ
+
+G participle-clauses-advanced 3
+The weather ____, the outdoor concert was moved into the hall.
+=being so bad|absolute clause ++คำนาม + being...++
+-was so bad|ทำให้เป็นสองประโยคเชื่อมผิด
+-been so bad|ขาด having หรือ being
+-to be so bad|ไม่ใช่โครงสร้างนี้
+!==คำนาม + -ing + ..., ประโยคหลัก== (absolute clause)
+
+G participle-clauses-advanced 3
+All things ____, it was a successful first year.
+=considered|สำนวน ++all things considered++
+-considering|สำนวนนี้ใช้ V3
+-to consider|ไม่ใช่สำนวน
+-consider|ไม่ใช่สำนวน
+!==All things considered== = เมื่อพิจารณาทุกอย่างแล้ว
+
+G ellipsis-substitution 2
+"Will the shop be open on Sunday?" "I'm afraid ____."
+=not|ตอบปฏิเสธแบบย่อ ++I'm afraid not++
+-no|I'm afraid no ไม่ใช่สำนวน
+-it won't|ต้องเป็น it won't be หรือ not
+-don't|ไม่ใช่โครงสร้างนี้
+!==I hope so / I'm afraid not== แทนทั้งประโยค
+
+G ellipsis-substitution 2
+I didn't want to go to the meeting, but I had ____.
+=to|ละกริยาหลัง to ++had to (go)++
+-it|it ไม่แทนกริยาแบบนี้
+-so|so ไม่ใช้หลัง had to
+-do|do ไม่ใช้หลัง had แบบนี้
+!ละกริยาซ้ำ เหลือ ==to== (I had to.)
+
+G ellipsis-substitution 3
+She can speak Korean, and ____ her brother.
+=so can|เห็นด้วยแบบบวก ++so + กริยาช่วย + ประธาน++
+-so does|กริยาช่วยต้องตรงกับ can
+-neither can|ความหมายปฏิเสธ
+-also can|ลำดับคำผิด
+!==so + กริยาช่วย + ประธาน== = ก็เช่นกัน
+
+G ellipsis-substitution 3
+These mugs are chipped. Do you have any plain white ____?
+=ones|แทนคำนามพหูพจน์ ++ones++
+-one|shoes เป็นพหูพจน์
+-them|them ใช้กับของชุดเดิมที่พูดถึง
+-it|it ใช้กับเอกพจน์ชิ้นเดิม
+!==one / ones== แทนคำนามที่พูดไปแล้ว
+
+G ellipsis-substitution 3
+Some of the staff agreed with the plan; ____ did not.
+=others|แทน other staff ++others++
+-another|another ใช้กับเอกพจน์
+-the other|ต้องมีคำนามตาม
+-other|other ต้องมีคำนามตาม
+!==others== = คนอื่น ๆ (ใช้แทนคำนาม)
+
+V summarising-ideas 2
+For the sake of ____, I'll only mention the three main findings.
+=brevity|ความกระชับ = ++for the sake of brevity++
+-succinct|succinct เป็นคุณศัพท์
+-pertinent|pertinent เป็นคุณศัพท์
+-digress|digress เป็นกริยา
+!for the sake of brevity = ==เพื่อความกระชับ==
+
+V summarising-ideas 2
+Sorry, I ____. Let's get back to the budget.
+=digressed|ออกนอกเรื่อง = ++digress++
+-elicited|elicit คือดึงคำตอบ
+-delineated|delineate คืออธิบายให้ชัด
+-formulated|formulate คือคิดวางแผน
+!digress = ==พูดออกนอกเรื่อง==
+
+V summarising-ideas 3
+The report ____ how responsibilities will be shared between the two departments.
+=delineates|อธิบายขอบเขตให้ชัด = ++delineate++
+-digresses|digress คือออกนอกเรื่อง
+-elicits|elicit ต้องมีสิ่งที่ดึงออกมา
+-disseminates|ไม่ตรงความหมาย
+!delineate = ==ระบุขอบเขตให้ชัดเจน==
+
+V summarising-ideas 3
+The aim of the survey is to ____ honest opinions from customers.
+=elicit|ดึงออกมา = ++elicit opinions++
+-digress|digress ไม่มีกรรม
+-encompass|encompass คือครอบคลุม
+-exemplify|exemplify คือเป็นตัวอย่าง
+!elicit = ==กระตุ้นให้ได้ (คำตอบ ข้อมูล)==
+
+V summarising-ideas 3
+The new rules ____ all forms of transport, including bicycles.
+=encompass|ครอบคลุม = ++encompass++
+-elicit|ไม่ตรงความหมาย
+-delineate|ไม่ตรงความหมาย
+-disseminate|disseminate คือเผยแพร่
+!encompass = ==ครอบคลุม รวมถึง==
+
+V summarising-ideas 3
+Only ____ questions, please; we have just ten minutes left.
+=pertinent|ตรงประเด็น = ++pertinent++
+-rudimentary|rudimentary คือเบื้องต้น
+-digress|digress เป็นกริยา
+-brevity|brevity เป็นคำนาม
+!pertinent = ==ตรงประเด็น เกี่ยวข้องโดยตรง==
+
+R book-review 2|Book Review: "Learning Without Walls" by Dr Siriporn K.
+This short book argues that adults learn best when lessons are connected to their daily work. Drawing on interviews with 80 adult learners, the author shows that those who applied new skills within a week remembered far more than those who did not.
+
+The book's greatest strength is its brevity. In just 140 pages, Dr Siriporn delineates a clear model and exemplifies each stage with real stories. Teachers and trainers will find the final chapter, which contains ready-made activities, especially pertinent.
+
+However, the research base is rather narrow. All participants worked in urban offices, so it is unclear whether the findings apply to farmers or factory workers. A wider study would make the argument more cogent.
+Q What is the book's main argument?
+=adults learn best by applying skills at work|adults learn best when lessons are connected to their daily work
+-adults should study in classrooms|ความหมายไม่ตรงกับบท
+-short books are easier to read|เป็นจุดแข็ง ไม่ใช่ข้อโต้แย้งหลัก
+-interviews are the best research method|ในบทไม่ได้พูดเช่นนั้น
+Q What does the reviewer praise?
+=its short, clear presentation|The book's greatest strength is its brevity
+-its large number of participants|ผู้วิจารณ์บอกว่าฐานข้อมูลแคบ
+-its focus on farmers|ไม่มีชาวนาในการศึกษา
+-its long final chapter|ในบทไม่ได้พูดถึงความยาว
+Q What is the reviewer's main criticism?
+=the participants were all from similar jobs|All participants worked in urban offices
+-the book is too long|ผู้วิจารณ์ชมความกระชับ
+-the stories are not real|เรื่องเล่าเป็นเรื่องจริง
+-the activities are difficult|ในบทไม่ได้พูดว่ายาก
+
+L lecture-reference 2
+Woman: As I mentioned earlier, the first study had only twenty participants. The second, which I'll describe now, had over two thousand.
+Q What is different about the second study?
+=it was much larger|The second ... had over two thousand
+-it had twenty participants|เป็นงานวิจัยแรก
+-it was done earlier|ในบทไม่ได้พูดถึงเวลา
+-it had the same size|ขนาดต่างกันมาก
+
+L summarising-ideas 2
+Man: To put it succinctly: the plan is good, the timing is bad.
+Q What is the man's opinion of the plan?
+=it's sound but badly timed|the plan is good, the timing is bad
+-it is completely wrong|เขาบอกว่าแผนดี
+-the timing is perfect|เขาบอกว่าจังหวะไม่ดี
+-it is too short|ในบทไม่ได้พูดถึงความยาว
