@@ -1,0 +1,576 @@
+# คอร์ส a2 · สัปดาห์ 1 · ตัวฉันและครอบครัว · am is are และสรรพนาม · ของใคร และ have/has
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" (24 พ.ย.) · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · am is are ----------
+- id: cefr-a2-w01-001
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: My name ____ Somchai, and I work at a bank in Khon Kaen.
+  choices:
+    - {t: is, why: "My name เป็นเอกพจน์ ใช้ ++is++"}
+    - {t: am, why: "am ใช้กับ I เท่านั้น"}
+    - {t: are, why: "are ใช้กับพหูพจน์ you we they"}
+    - {t: be, why: "be ต้องผันเป็น am is are ก่อนใช้"}
+  explain: "ประธานเอกพจน์ (my name · he · she · it) ใช้ ==is=="
+  status: approved
+- id: cefr-a2-w01-002
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: I ____ from Chiang Rai, but I live in Bangkok now.
+  choices:
+    - {t: am, why: "ประธาน I ใช้ ++am++ เสมอ"}
+    - {t: is, why: "is ใช้กับ he she it"}
+    - {t: are, why: "are ใช้กับ you we they"}
+    - {t: be, why: "ต้องผันเป็น am จึงใช้ไม่ได้"}
+  explain: "==I + am== (I'm)"
+  status: approved
+- id: cefr-a2-w01-003
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: My parents ____ both retired, so they travel a lot.
+  choices:
+    - {t: are, why: "My parents เป็นพหูพจน์ ใช้ ++are++"}
+    - {t: is, why: "is ใช้กับเอกพจน์"}
+    - {t: am, why: "am ใช้กับ I จึงใช้ไม่ได้"}
+    - {t: be, why: "ต้องผันเป็น are"}
+  explain: "ประธานพหูพจน์ (they · we · my parents) ใช้ ==are=="
+  status: approved
+- id: cefr-a2-w01-004
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: "\"Is your sister a nurse?\" \"No, she ____. She's a pharmacist.\""
+  choices:
+    - {t: isn't, why: "ตอบปฏิเสธสั้น ๆ ++she isn't++"}
+    - {t: doesn't, why: "คำถามใช้ is ตอบต้องใช้ is ด้วย"}
+    - {t: aren't, why: "she ใช้ is ไม่ใช่ are"}
+    - {t: not, why: "ต้องมีกริยา is ก่อน not"}
+  explain: "ถามด้วย Is ตอบด้วย ==is / isn't=="
+  status: approved
+- id: cefr-a2-w01-005
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: ____ you married, or are you single?
+  choices:
+    - {t: Are, why: "ถามด้วย you ใช้ ++Are you++"}
+    - {t: Is, why: "Is ใช้กับ he she it"}
+    - {t: Do, why: "married เป็นคุณศัพท์ ใช้ be ไม่ใช่ do"}
+    - {t: Am, why: "Am ใช้กับ I จึงใช้ไม่ได้"}
+  explain: "คำถาม be ==ย้าย am/is/are ไปไว้หน้าประธาน=="
+  status: approved
+- id: cefr-a2-w01-006
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 1
+  stem: This is my colleague, Nok. ____ works in the sales team with me.
+  choices:
+    - {t: She, why: "Nok เป็นผู้หญิงหนึ่งคน ใช้ ++She++"}
+    - {t: Her, why: "her ใช้หลังกริยาหรือบอกความเป็นเจ้าของ"}
+    - {t: They, why: "they ใช้กับหลายคน"}
+    - {t: It, why: "it ใช้กับสิ่งของหรือสัตว์"}
+  explain: "ประธานของประโยคใช้ ==I you he she it we they=="
+  status: approved
+- id: cefr-a2-w01-007
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 2
+  stem: My brother and I ____ not twins, but people often think we are.
+  choices:
+    - {t: are, why: "My brother and I = we ใช้ ++are++"}
+    - {t: am, why: "ประธานมีสองคน ไม่ใช่ I คนเดียว"}
+    - {t: is, why: "ประธานมีสองคน เป็นพหูพจน์"}
+    - {t: do, why: "twins เป็นคำนาม ใช้ be ไม่ใช่ do"}
+  explain: "A and I = ==we → are=="
+  status: approved
+- id: cefr-a2-w01-008
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 2
+  stem: "\"Where are your keys?\" \"____ on the table, next to your phone.\""
+  choices:
+    - {t: They're, why: "keys เป็นพหูพจน์ ใช้ ++They're++ = They are"}
+    - {t: It's, why: "it ใช้กับสิ่งเดียว"}
+    - {t: There, why: "there ไม่ใช่สรรพนามแทน keys"}
+    - {t: Their, why: "their แปลว่าของพวกเขา ไม่มีกริยา"}
+  explain: "they're = they are · ==ระวังสับสนกับ their / there=="
+  status: approved
+- id: cefr-a2-w01-009
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 2
+  stem: "Choose the correct question for the answer: \"I'm thirty-four.\""
+  choices:
+    - {t: "How old are you?", why: "ถามอายุ ใช้ ++How old are you?++"}
+    - {t: "How old do you have?", why: "ภาษาอังกฤษไม่ใช้ have กับอายุ"}
+    - {t: "How many years you are?", why: "ลำดับคำผิด และไม่ใช่วิธีถามอายุ"}
+    - {t: "What age you have?", why: "ไม่ใช่วิธีถามอายุ"}
+  explain: "อายุใช้ be ==I'm 34 / How old are you?== ไม่ใช้ have"
+  status: approved
+- id: cefr-a2-w01-010
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 2
+  stem: My manager ____ in the office today; she's at a meeting in Rayong.
+  choices:
+    - {t: isn't, why: "ปฏิเสธเอกพจน์ ++isn't = is not++"}
+    - {t: aren't, why: "manager เป็นเอกพจน์"}
+    - {t: doesn't, why: "ประโยคนี้ใช้ be ไม่ใช่ do"}
+    - {t: not is, why: "ลำดับผิด ต้องเป็น is not"}
+  explain: "ปฏิเสธ be ==เติม not หลัง am / is / are=="
+  status: approved
+- id: cefr-a2-w01-011
+  kind: mcq
+  skill: gm
+  topic: be-present
+  level: 3
+  stem: "Which sentence about age is NOT correct?"
+  choices:
+    - {t: My son have ten years old., why: "อายุใช้ be ++ต้องเป็น My son is ten years old++"}
+    - {t: My aunt is forty-five., why: "ถูกต้อง บอกอายุด้วย is"}
+    - {t: "How old are your children?", why: "ถูกต้อง ถามอายุด้วย How old are"}
+    - {t: I'm twenty-five years old., why: "ถูกต้อง I'm + อายุ + years old"}
+  explain: "คนไทยมักใช้ have กับอายุ ==ต้องใช้ be=="
+  status: approved
+- id: cefr-a2-w01-012
+  kind: type
+  skill: gm
+  topic: be-present
+  level: 2
+  stem: "\"Are you a doctor?\" \"Yes, I ____.\" (ตอบสั้น ๆ)"
+  answer: am
+  accept: [am]
+  why: "ตอบสั้นด้วย Yes, I am. (ไม่ย่อเป็น I'm ท้ายประโยค)"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์ครอบครัวและคน ----------
+- id: cefr-a2-w01-013
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: She teaches English at a secondary school. She is a ____.
+  choices:
+    - {t: teacher, why: "คนสอน = ++teacher++"}
+    - {t: student, why: "student คือนักเรียน คนที่เรียน"}
+    - {t: friend, why: "friend คือเพื่อน"}
+    - {t: sister, why: "sister คือพี่สาว/น้องสาว"}
+  explain: "teacher = ==ครู=="
+  status: approved
+- id: cefr-a2-w01-014
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: Ploy is twenty and studies business at university. She is a ____.
+  choices:
+    - {t: student, why: "คนที่เรียนอยู่ = ++student++"}
+    - {t: teacher, why: "teacher คือคนสอน"}
+    - {t: mother, why: "ไม่เกี่ยวกับการเรียน"}
+    - {t: father, why: "father ใช้กับผู้ชาย"}
+  explain: "student = ==นักเรียน นักศึกษา=="
+  status: approved
+- id: cefr-a2-w01-015
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: My ____ is my mother's husband.
+  choices:
+    - {t: father, why: "สามีของแม่ = ++father++"}
+    - {t: brother, why: "brother คือพี่ชาย/น้องชาย"}
+    - {t: friend, why: "friend ไม่ใช่ครอบครัว"}
+    - {t: sister, why: "sister เป็นผู้หญิง"}
+  explain: "father = ==พ่อ== · mother = แม่"
+  status: approved
+- id: cefr-a2-w01-016
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: My ____ cooks dinner for us every Sunday. She makes the best green curry.
+  choices:
+    - {t: mother, why: "ผู้หญิงในครอบครัว ++mother++ เข้ากับ She"}
+    - {t: father, why: "father เป็นผู้ชาย ขัดกับ She"}
+    - {t: brother, why: "brother เป็นผู้ชาย"}
+    - {t: student, why: "student ไม่ใช่คนในครอบครัว"}
+  explain: "mother = ==แม่=="
+  status: approved
+- id: cefr-a2-w01-017
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: I have one ____. His name is Ton, and he is two years older than me.
+  choices:
+    - {t: brother, why: "ผู้ชาย (His) ในครอบครัว = ++brother++"}
+    - {t: sister, why: "sister เป็นผู้หญิง ขัดกับ His"}
+    - {t: mother, why: "mother เป็นผู้หญิง"}
+    - {t: teacher, why: "ไม่ใช่คนในครอบครัว"}
+  explain: "brother = ==พี่ชาย / น้องชาย== (ภาษาอังกฤษไม่แยกพี่น้อง)"
+  status: approved
+- id: cefr-a2-w01-018
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 1
+  stem: My ____ is a nurse. She works at a hospital near our house.
+  choices:
+    - {t: sister, why: "ผู้หญิงในครอบครัว ++sister++ เข้ากับ She"}
+    - {t: brother, why: "brother เป็นผู้ชาย"}
+    - {t: father, why: "father เป็นผู้ชาย"}
+    - {t: family, why: "family คือทั้งครอบครัว ไม่ใช่คนเดียว"}
+  explain: "sister = ==พี่สาว / น้องสาว=="
+  status: approved
+- id: cefr-a2-w01-019
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  stem: 'There are five people in my ____: my parents, my two sisters and me.'
+  choices:
+    - {t: family, why: "กลุ่มพ่อแม่พี่น้อง = ++family++"}
+    - {t: friend, why: "friend คือเพื่อนคนเดียว"}
+    - {t: student, why: "ไม่เข้ากับบริบท"}
+    - {t: brother, why: "brother คือคนเดียว"}
+  explain: "family = ==ครอบครัว=="
+  status: approved
+- id: cefr-a2-w01-020
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  stem: Lek is my best ____. We met at school twenty years ago.
+  choices:
+    - {t: friend, why: "best friend = ++เพื่อนสนิท++"}
+    - {t: family, why: "best family ไม่ใช่คำที่ใช้"}
+    - {t: father, why: "ไม่เข้ากับ met at school"}
+    - {t: teacher, why: "best teacher ไม่เข้ากับบริบท"}
+  explain: "friend = ==เพื่อน== · best friend = เพื่อนสนิท"
+  status: approved
+- id: cefr-a2-w01-021
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  stem: My grandmother is ninety, but she is still very active. She doesn't feel ____.
+  choices:
+    - {t: old, why: "อายุมาก = ++old++"}
+    - {t: young, why: "young แปลว่าอายุน้อย ขัดกับ ninety"}
+    - {t: tall, why: "tall เกี่ยวกับความสูง"}
+    - {t: happy, why: "doesn't feel happy ขัดกับ still very active"}
+  explain: "old = ==แก่ อายุมาก · เก่า=="
+  status: approved
+- id: cefr-a2-w01-022
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  stem: My nephew is only four, so he is too ____ to go to school.
+  choices:
+    - {t: young, why: "อายุน้อย = ++young++"}
+    - {t: old, why: "old ตรงกันข้าม จึงใช้ไม่ได้"}
+    - {t: tall, why: "ความสูงไม่เกี่ยวกับไปโรงเรียน"}
+    - {t: happy, why: "ไม่เข้ากับบริบท"}
+  explain: "young = ==อายุน้อย== · ตรงข้าม old"
+  status: approved
+- id: cefr-a2-w01-023
+  kind: mcq
+  skill: vo
+  topic: family-people
+  level: 2
+  stem: My uncle is 190 centimetres. He is very ____.
+  choices:
+    - {t: tall, why: "ส่วนสูงมาก = ++tall++"}
+    - {t: old, why: "old เกี่ยวกับอายุ"}
+    - {t: young, why: "young เกี่ยวกับอายุ"}
+    - {t: happy, why: "happy เกี่ยวกับความรู้สึก"}
+  explain: "tall = ==สูง== (ใช้กับคนและตึก)"
+  status: approved
+- id: cefr-a2-w01-024
+  kind: type
+  skill: vo
+  topic: family-people
+  level: 2
+  stem: We got good news today, so everyone in my family is very h____. (มีความสุข)
+  answer: happy
+  accept: [happy]
+  why: "happy = มีความสุข ดีใจ"
+  status: approved
+# ---------- วันที่ 3 · ของใคร และ have/has ----------
+- id: cefr-a2-w01-025
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 1
+  stem: This is Daeng. ____ wife is from Laos.
+  choices:
+    - {t: His, why: "Daeng เป็นผู้ชาย ของเขา = ++His++"}
+    - {t: He, why: "he เป็นประธาน ไม่บอกความเป็นเจ้าของ"}
+    - {t: Her, why: "her ใช้กับผู้หญิง"}
+    - {t: Him, why: "him ใช้หลังกริยา"}
+  explain: "ของเขา (ชาย) = ==his== · ของเธอ = her"
+  status: approved
+- id: cefr-a2-w01-026
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 1
+  stem: My sister ____ two children, a boy and a girl.
+  choices:
+    - {t: has, why: "ประธานเอกพจน์ (she) ใช้ ++has++"}
+    - {t: have, why: "have ใช้กับ I you we they"}
+    - {t: is, why: "is ไม่ได้แปลว่ามี"}
+    - {t: haves, why: "ไม่มีรูป haves จึงใช้ไม่ได้"}
+  explain: "he / she / it ==has== · I / you / we / they have"
+  status: approved
+- id: cefr-a2-w01-027
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 1
+  stem: We love ____ new apartment. It's small, but it's very bright.
+  choices:
+    - {t: our, why: "ของพวกเรา = ++our++"}
+    - {t: we, why: "we เป็นประธาน จึงใช้ไม่ได้"}
+    - {t: us, why: "us ใช้หลังกริยา"}
+    - {t: their, why: "their คือของพวกเขา ไม่ตรงกับ We"}
+  explain: "we → ==our== (ของพวกเรา)"
+  status: approved
+- id: cefr-a2-w01-028
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  stem: Is this ____ umbrella? I found it by the door.
+  choices:
+    - {t: your, why: "ของคุณ = ++your++ ตามด้วยคำนาม"}
+    - {t: you, why: "you ไม่บอกความเป็นเจ้าของ"}
+    - {t: you're, why: "you're = you are"}
+    - {t: yours, why: "yours ใช้โดยไม่มีคำนามตาม"}
+  explain: "your + คำนาม ==ระวังสับสนกับ you're=="
+  status: approved
+- id: cefr-a2-w01-029
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  stem: That's ____ car, the red one. She drives it to work every day.
+  choices:
+    - {t: "my mother's", why: "ของแม่ ใช้ ++'s++ ต่อท้ายเจ้าของ"}
+    - {t: "my mothers", why: "ขาดเครื่องหมาย ' จึงกลายเป็นพหูพจน์"}
+    - {t: "mother my's", why: "ลำดับผิด จึงใช้ไม่ได้"}
+    - {t: "of my mother", why: "ต้องเป็น the car of... ลำดับนี้ใช้ไม่ได้"}
+  explain: "เจ้าของ + ==’s== + ของ (my mother's car)"
+  status: approved
+- id: cefr-a2-w01-030
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  stem: The children are excited because ____ grandparents are visiting today.
+  choices:
+    - {t: their, why: "ของพวกเขา = ++their++"}
+    - {t: there, why: "there แปลว่าที่นั่น"}
+    - {t: they're, why: "they're = they are"}
+    - {t: them, why: "them ใช้หลังกริยา"}
+  explain: "their / there / they're ==ออกเสียงคล้ายกัน ความหมายต่างกัน=="
+  status: approved
+- id: cefr-a2-w01-031
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 2
+  stem: I ____ a car, so I take the bus to work.
+  choices:
+    - {t: don't have, why: "ปฏิเสธ have กับ I ใช้ ++don't have++"}
+    - {t: haven't, why: "haven't a car ไม่ใช้ในภาษาทั่วไป ใช้ don't have"}
+    - {t: am not have, why: "ไม่ใช้ am กับ have"}
+    - {t: doesn't have, why: "doesn't ใช้กับ he she it"}
+  explain: "ไม่มี ==I don't have · He doesn't have=="
+  status: approved
+- id: cefr-a2-w01-032
+  kind: mcq
+  skill: gm
+  topic: possessives-have
+  level: 3
+  stem: "\"____ your husband have any brothers?\" \"Yes, he has one.\""
+  choices:
+    - {t: Does, why: "ถาม have กับเอกพจน์ ++Does ... have++"}
+    - {t: Do, why: "Do ใช้กับ I you we they"}
+    - {t: Has, why: "Has your husband have ผิดรูป"}
+    - {t: Is, why: "ไม่ใช้ is กับ have"}
+  explain: "ถาม ==Does he have...? / Do you have...?=="
+  status: approved
+- id: cefr-a2-w01-033
+  kind: type
+  skill: gm
+  topic: possessives-have
+  level: 2
+  stem: My cousin and his wife live in Phuket. ____ house is near the beach. (ของพวกเขา)
+  answer: Their
+  accept: [Their, their]
+  why: "ของพวกเขา = their"
+  status: approved
+- id: cefr-a2-w01-034
+  kind: cloze
+  skill: gm
+  topic: possessives-have
+  level: 2
+  text: |
+    Hi, I'm Fon. I (1) ____ a small flower shop in Chiang Mai. My husband, Pete, (2) ____ from Australia. We have one daughter. (3) ____ name is Mali, and she is six.
+  questions:
+    - choices:
+        - {t: have, why: "ประธาน I ใช้ have (ฉันมีร้าน)"}
+        - {t: has, why: "has ใช้กับ he she it"}
+        - {t: am, why: "am ไม่ได้แปลว่ามี"}
+        - {t: is, why: "is ใช้กับเอกพจน์และไม่ได้แปลว่ามี"}
+    - choices:
+        - {t: is, why: "my husband เป็นเอกพจน์ ใช้ is"}
+        - {t: are, why: "are ใช้กับพหูพจน์"}
+        - {t: am, why: "am ใช้กับ I จึงใช้ไม่ได้"}
+        - {t: has, why: "has ไม่ใช้กับ from"}
+    - choices:
+        - {t: Her, why: "ของลูกสาว (ผู้หญิง) ใช้ Her"}
+        - {t: His, why: "his ใช้กับผู้ชาย"}
+        - {t: She, why: "she เป็นประธาน ไม่บอกความเป็นเจ้าของ"}
+        - {t: Its, why: "its ใช้กับสิ่งของหรือสัตว์"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w01-035
+  kind: read
+  skill: rd
+  topic: staff-profile
+  level: 1
+  title: "Meet Our New Staff: Anong"
+  passage: |
+    Please welcome Anong, our new receptionist. Anong is twenty-eight years old and she is from Lampang. She lives in Bangkok with her sister, who is a student.
+
+    Anong has a lot of experience. She worked in a hotel for five years. She speaks Thai, English and a little Japanese.
+
+    Anong is friendly and very patient. In her free time, she likes cooking and running. Her desk is on the first floor, next to the lift. Please say hello!
+  questions:
+    - stem: What is Anong's job?
+      choices:
+        - {t: receptionist, why: "our new receptionist"}
+        - {t: student, why: "พี่สาว/น้องสาวของเธอเป็นนักเรียน"}
+        - {t: hotel manager, why: "เคยทำงานโรงแรม แต่ไม่ได้บอกว่าเป็นผู้จัดการ"}
+        - {t: cook, why: "ทำอาหารเป็นงานอดิเรก"}
+    - stem: Who does Anong live with?
+      choices:
+        - {t: her sister, why: "lives in Bangkok with her sister"}
+        - {t: her parents, why: "ไม่มีข้อมูล จึงใช้ไม่ได้"}
+        - {t: her husband, why: "บทไม่ได้พูดว่า her husband"}
+        - {t: alone, why: "เธออยู่กับพี่สาว/น้องสาว"}
+    - stem: How many languages does Anong speak?
+      choices:
+        - {t: three, why: "Thai, English and a little Japanese"}
+        - {t: two, why: "นับ Japanese ด้วย"}
+        - {t: one, why: "มีมากกว่าหนึ่ง จึงใช้ไม่ได้"}
+        - {t: five, why: "5 คือจำนวนปีที่ทำงานโรงแรม"}
+    - stem: Where is Anong's desk?
+      choices:
+        - {t: near the lift on the first floor, why: "on the first floor, next to the lift"}
+        - {t: in a hotel in Lampang, why: "เคยทำงานโรงแรม ไม่ใช่โต๊ะตอนนี้"}
+        - {t: on the fifth floor, why: "5 คือจำนวนปี จึงใช้ไม่ได้"}
+        - {t: at her sister's school, why: "ไม่มีข้อมูล จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w01-036
+  kind: listen
+  skill: li
+  topic: introductions
+  level: 1
+  script:
+    - {who: Man, en: "Hi, I'm Krit. Are you new here?"}
+    - {who: Woman, en: "Yes, I am. I'm Jane. I'm the new English teacher."}
+  questions:
+    - stem: Who is Jane?
+      choices:
+        - {t: a new teacher, why: "I'm the new English teacher"}
+        - {t: Krit's sister, why: "ไม่มีข้อมูล จึงใช้ไม่ได้"}
+        - {t: a student, why: "เธอเป็นครู จึงใช้ไม่ได้"}
+        - {t: Krit's boss, why: "บทไม่ได้พูดว่า Krit's boss"}
+  status: approved
+- id: cefr-a2-w01-037
+  kind: listen
+  skill: li
+  topic: introductions
+  level: 1
+  script:
+    - {who: Woman, en: "How old is your son?"}
+    - {who: Man, en: "He's seven. He's in Grade 1."}
+  questions:
+    - stem: How old is the man's son?
+      choices:
+        - {t: seven, why: "He's seven = เจ็ดขวบ"}
+        - {t: one, why: "1 คือชั้นเรียน จึงใช้ไม่ได้"}
+        - {t: eleven, why: "ฟังไม่ตรง จึงใช้ไม่ได้"}
+        - {t: seventeen, why: "seven ไม่ใช่ seventeen"}
+  status: approved
+- id: cefr-a2-w01-038
+  kind: listen
+  skill: li
+  topic: introductions
+  level: 2
+  script:
+    - {who: Man, en: "This is my family. My wife is a doctor, and these are our twins, Mint and Mild. They're ten."}
+  questions:
+    - stem: How many children does the man have?
+      choices:
+        - {t: two, why: "twins = ฝาแฝดสองคน"}
+        - {t: one, why: "twins มีสองคน จึงใช้ไม่ได้"}
+        - {t: three, why: "นับภรรยาไม่ได้ จึงใช้ไม่ได้"}
+        - {t: ten, why: "10 คืออายุ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-a2-w01-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [My sister, is, a nurse, in Udon Thani]
+  sentence: My sister is a nurse in Udon Thani.
+  th: พี่สาวของฉันเป็นพยาบาลที่อุดรธานี
+  why: "ประธาน + is + อาชีพ + สถานที่"
+  status: approved
+- id: cefr-a2-w01-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Are, your parents, at home, today]
+  sentence: Are your parents at home today?
+  th: วันนี้พ่อแม่ของคุณอยู่บ้านไหม
+  why: "คำถาม be ย้าย Are ไปไว้หน้าประธาน"
+  status: approved
+- id: cefr-a2-w01-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [My brother, has, two dogs, and a cat]
+  sentence: My brother has two dogs and a cat.
+  th: พี่ชายของฉันมีสุนัขสองตัวกับแมวหนึ่งตัว
+  why: "ประธานเอกพจน์ + has + สิ่งที่มี"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-a2-w01-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [I am, a bank clerk, and my wife, is a teacher]
+  sentence: I am a bank clerk and my wife is a teacher.
+  th: ผมเป็นพนักงานธนาคาร และภรรยาของผมเป็นครู
+  why: "I am + อาชีพ · my wife is + อาชีพ"
+  status: approved

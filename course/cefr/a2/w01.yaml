@@ -1,0 +1,169 @@
+# คอร์ส a2 · สัปดาห์ 1 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 1
+phase: 1
+theme_th: ตัวฉันและครอบครัว
+focus_th: am is are และสรรพนาม · ของใคร (my your his her) และ have/has · ศัพท์ครอบครัวและคน
+can_do_th:
+  - แนะนำตัวเองและคนในครอบครัวด้วยประโยคสั้นได้
+  - กรอกข้อมูลส่วนตัวในแบบฟอร์มง่าย ๆ ได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: am is are และสรรพนาม
+    lesson:
+      rule_th: "จำง่าย ๆ ==I ใช้ am== · he she it ใช้ is · you we they ใช้ are ปฏิเสธก็แค่เติม not ++ถามก็ย้าย am/is/are ไปไว้หน้าสุด++"
+      examples:
+        - {en: "I <k>am</k> a nurse.", th: "ฉันเป็นพยาบาล"}
+        - {en: "She <k>is</k> my sister.", th: "==เธอเป็นพี่สาว/น้องสาวของฉัน=="}
+        - {en: "They <k>aren't</k> at home.", th: "พวกเขาไม่อยู่บ้าน"}
+        - {en: "<k>Are</k> you married?", th: "คุณแต่งงานแล้วหรือยัง"}
+      signals:
+        - {label_th: "คู่ที่ต้องจำ", words: ["I → am", "he / she / it → is", "you / we / they → are", "I'm · she's · they're"]}
+      thai_trap:
+        intro_th: "ภาษาไทยไม่มีคำว่า \"เป็น\" ทุกครั้ง คนไทยเลย ~~ลืม am is are~~ หรือใช้ have กับอายุ"
+        wrong: ["She my sister.", "I have thirty years."]
+        right: ["She is my sister.", "I am thirty (years old)."]
+      notes:
+        - {kind: pin, th: "อายุใช้ ==be== เสมอ I'm 30. ไม่ใช้ have"}
+        - {kind: tip, th: "พูดแบบย่อ I'm · you're · she's ฟังเป็นธรรมชาติกว่า"}
+    check: [cefr-a2-w01-001, cefr-a2-w01-002]
+    practice: [cefr-a2-w01-003, cefr-a2-w01-004, cefr-a2-w01-005, cefr-a2-w01-006, cefr-a2-w01-007, cefr-a2-w01-008, cefr-a2-w01-009, cefr-a2-w01-010, cefr-a2-w01-011, cefr-a2-w01-012]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำตัวเอง บอกชื่อ อายุ และงานที่ทำ
+      frame: "I am ____. I am ____ years old and I am a ____."
+      model: "I am Malee. I am thirty-two years old and I am an accountant."
+    classroom: {en: "Nice to meet you. I'm Malee.", th: "ยินดีที่ได้รู้จัก ฉันชื่อมาลี"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์ครอบครัวและคน 12 คำ
+    lesson:
+      rule_th: "ภาษาอังกฤษ ==ไม่แยกพี่กับน้อง== brother คือพี่ชายหรือน้องชาย sister คือพี่สาวหรือน้องสาว ++ถ้าอยากบอกให้ชัดใช้ older / younger++"
+      examples:
+        - {en: "My <k>older sister</k> is a teacher.", th: "พี่สาวของฉันเป็นครู"}
+        - {en: "He is my <k>best friend</k>.", th: "==เขาเป็นเพื่อนสนิทของฉัน=="}
+        - {en: "My father is <k>tall</k> and my mother is <k>young</k>.", th: "พ่อสูง แม่ดูอายุน้อย"}
+      words:
+        - {w: teacher, pos: n., th: ครู, ex: "My mother is a teacher."}
+        - {w: student, pos: n., th: นักเรียน นักศึกษา, ex: "He is a university student."}
+        - {w: family, pos: n., th: ครอบครัว, ex: "I have a big family."}
+        - {w: mother, pos: n., th: แม่, ex: "My mother is fifty."}
+        - {w: father, pos: n., th: พ่อ, ex: "My father works in a bank."}
+        - {w: brother, pos: n., th: พี่ชาย น้องชาย, ex: "I have one brother."}
+        - {w: sister, pos: n., th: พี่สาว น้องสาว, ex: "My sister lives in Phuket."}
+        - {w: friend, pos: n., th: เพื่อน, ex: "She is my best friend."}
+        - {w: young, pos: adj., th: อายุน้อย, ex: "He is very young."}
+        - {w: old, pos: adj., th: แก่ เก่า, ex: "My grandfather is old."}
+        - {w: tall, pos: adj., th: สูง, ex: "My brother is tall."}
+        - {w: happy, pos: adj., th: มีความสุข ดีใจ, ex: "We are happy here."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~my friend is very old~~ ทั้งที่หมายถึงสนิทกันมานาน ซึ่งแปลว่าเพื่อนแก่มาก"
+        wrong: ["She is my old friend. (ตั้งใจว่าสนิทกัน)"]
+        right: ["She is a close friend. / We are old friends. (รู้จักกันมานาน)"]
+      notes:
+        - {kind: pin, th: "older / younger ใช้บอกว่า ==พี่หรือน้อง=="}
+        - {kind: use, th: "ถามสุภาพ How many people are there in your family?"}
+    check: [cefr-a2-w01-013, cefr-a2-w01-014]
+    practice: [cefr-a2-w01-015, cefr-a2-w01-016, cefr-a2-w01-017, cefr-a2-w01-018, cefr-a2-w01-019, cefr-a2-w01-020, cefr-a2-w01-021, cefr-a2-w01-022, cefr-a2-w01-023, cefr-a2-w01-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าเรื่องคนในครอบครัวหนึ่งคน
+      frame: "My ____ is ____. He/She is ____."
+      model: "My younger brother is a student. He is tall and very happy."
+    classroom: {en: "This is my family.", th: "นี่คือครอบครัวของฉัน"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ของใคร และ have/has
+    lesson:
+      rule_th: "บอกว่าเป็นของใคร ใช้ ==my your his her our their== วางหน้าคำนาม หรือใช้ชื่อ + 's have ใช้กับ I you we they ส่วน ++he she it ใช้ has++"
+      examples:
+        - {en: "<k>Her</k> husband is a pilot.", th: "สามีของเธอเป็นนักบิน"}
+        - {en: "This is <k>Lek's</k> phone.", th: "==นี่คือโทรศัพท์ของเล็ก=="}
+        - {en: "My brother <k>has</k> two cats.", th: "พี่ชายมีแมวสองตัว"}
+        - {en: "We <k>don't have</k> a car.", th: "พวกเราไม่มีรถ"}
+      signals:
+        - {label_th: "คู่ที่ต้องจำ", words: ["I → my", "he → his", "she → her", "we → our", "they → their"]}
+      thai_trap:
+        intro_th: "ภาษาไทยวาง \"ของ\" ไว้หลัง คนไทยเลยเขียน ~~car of my father~~ หรือลืม s ของ has"
+        wrong: ["car of my father", "She have a dog."]
+        right: ["my father's car", "She has a dog."]
+      notes:
+        - {kind: warn, th: "their (ของพวกเขา) ≠ ==there== (ที่นั่น) ≠ they're"}
+        - {kind: tip, th: "ถาม Do you have...? / Does she have...? หลัง does ใช้ have เสมอ"}
+    check: [cefr-a2-w01-025, cefr-a2-w01-026]
+    practice: [cefr-a2-w01-027, cefr-a2-w01-028, cefr-a2-w01-029, cefr-a2-w01-030, cefr-a2-w01-031, cefr-a2-w01-032, cefr-a2-w01-033, cefr-a2-w01-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าเพื่อนหรือญาติคนหนึ่งมีอะไร และของเขาเป็นอย่างไร
+      frame: "My ____ has ____. Her/His ____ is ____."
+      model: "My aunt has a small noodle shop. Her shop is near the market."
+    classroom: {en: "Is this your bag?", th: "นี่กระเป๋าของคุณหรือเปล่า"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านบัตรแนะนำพนักงานใหม่ และฟังการแนะนำตัว
+    lesson:
+      rule_th: "อ่านข้อความแนะนำคน ==หาคำตอบของ who / what / where ก่อน== ++ชื่อ อายุ งาน ที่อยู่ มักอยู่ย่อหน้าแรก++"
+      examples:
+        - {en: "<k>Please welcome</k> Anong, our new receptionist.", th: "ประโยคเปิดของการแนะนำคน"}
+        - {en: "She <k>is from</k> Lampang.", th: "==บอกบ้านเกิด=="}
+        - {en: "She <k>speaks</k> Thai and English.", th: "บอกภาษาที่พูดได้"}
+      thai_trap:
+        intro_th: "เห็นตัวเลขในบทแล้ว ~~เลือกทันที~~ โดยไม่ดูว่าตัวเลขนั้นบอกอะไร (อายุ ปี ชั้น)"
+        wrong: ["She worked in a hotel for five years. → ชั้น 5"]
+        right: ["five years = 5 ปี ไม่ใช่ชั้น"]
+      notes:
+        - {kind: tip, th: "เจอตัวเลขให้ดู ==คำที่ตามหลัง== (years, floor, old)"}
+        - {kind: use, th: "ฟังชื่อแล้วจด อย่ารอฟังครบทั้งประโยค"}
+    check: [cefr-a2-w01-036, cefr-a2-w01-037]
+    practice: [cefr-a2-w01-035, cefr-a2-w01-038, cefr-a2-w01-039, cefr-a2-w01-040, cefr-a2-w01-041]
+    use:
+      prompt_th: เขียน 2 ประโยคแนะนำเพื่อนร่วมงานหรือเพื่อนคนหนึ่ง
+      frame: "This is ____. He/She is from ____ and he/she is a ____."
+      model: "This is Krit. He is from Nan and he is an engineer."
+    classroom: {en: "Please welcome our new colleague.", th: "ขอต้อนรับเพื่อนร่วมงานใหม่ของเรา"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 20
+    title_th: ห้องฝึกพูด แนะนำตัวเองและครอบครัว 30 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูดแนะนำตัวเองและครอบครัว 30 วินาที บอกชื่อ อายุ บ้านเกิด งาน และคนในครอบครัว
+      frame:
+        - "Hello, my name is ____."
+        - "I am ____ years old and I am from ____."
+        - "I am a ____."
+        - "There are ____ people in my family."
+        - "My ____ is ____, and my ____ has ____."
+      model_pass: "Hello, my name is Ploy. I am twenty-nine years old and I am from Lampang. I am an office worker. There are four people in my family. My mother is a teacher, and my brother has a small café."
+      model_good: "Hi, I'm Ploy. I'm twenty-nine and I'm from Lampang, but I live in Bangkok now. I'm an office worker at a travel company. There are four people in my family: my parents, my younger brother and me. My mother is a teacher, and my brother has a small café near our house. We're a very happy family."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เติมโครง 5 ประโยคด้วยข้อมูลของตัวเอง
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - พูดครบ 5 เรื่องตามโครง
+        - ใช้ am is are ถูกกับประธาน
+        - ใช้ has กับ he she และ my his her ถูกคน
+        - พูดได้ประมาณ 30 วินาทีโดยไม่หยุดนาน
+    practice: [cefr-a2-w01-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 1
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
