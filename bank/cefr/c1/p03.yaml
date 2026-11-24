@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 3 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w03-043
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  pool: true
+  stem: "It wasn't the price ____ put customers off; it was the long wait."
+  choices:
+    - {t: "that", why: "ประโยคเน้น ++It wasn't X that...++"}
+    - {t: "what", why: "what ไม่ใช้หลังคำนามในโครงสร้างนี้"}
+    - {t: "which it", why: "มี it ซ้ำ จึงใช้ไม่ได้"}
+    - {t: "who", why: "who ใช้กับคน จึงใช้ไม่ได้"}
+  explain: "==It is/was + ส่วนที่เน้น + that...=="
+  status: approved
+- id: cefr-c1-w03-044
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 2
+  pool: true
+  stem: "What surprised me most ____ how calm everyone stayed."
+  choices:
+    - {t: "was", why: "What-clause เป็นประธานเอกพจน์ ++was++"}
+    - {t: "were", why: "what-clause ถือเป็นเอกพจน์"}
+    - {t: "did", why: "did ไม่ใช่กริยาเชื่อมในโครงสร้างนี้"}
+    - {t: "had", why: "had ไม่เข้ากับโครงสร้างนี้"}
+  explain: "==What + ประโยค + is/was + ส่วนที่เน้น=="
+  status: approved
+- id: cefr-c1-w03-045
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 3
+  pool: true
+  stem: "All I want to do this weekend ____ sleep."
+  choices:
+    - {t: "is", why: "All I want to do is + ++V1++"}
+    - {t: "are", why: "all-clause ถือเป็นเอกพจน์"}
+    - {t: "be", why: "ขาดการผันกริยา จึงใช้ไม่ได้"}
+    - {t: "has", why: "ไม่ใช่กริยาเชื่อม"}
+  explain: "==All I want (to do) is + V1== = สิ่งเดียวที่อยากทำคือ"
+  status: approved
+- id: cefr-c1-w03-046
+  kind: mcq
+  skill: gm
+  topic: cleft-sentences
+  level: 3
+  pool: true
+  stem: "The reason ____ I left the company was the lack of training."
+  choices:
+    - {t: "why", why: "ประโยคเน้นเหตุผล ++The reason why...++"}
+    - {t: "what", why: "what ไม่ตามหลัง the reason"}
+    - {t: "because", why: "the reason ... because ซ้ำความหมาย"}
+    - {t: "for", why: "for ไม่ใช้เชื่อมแบบนี้"}
+  explain: "==The reason (why) + ประโยค + was...=="
+  status: approved
+- id: cefr-c1-w03-047
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 2
+  pool: true
+  stem: "____ the factory closed, the town has never fully recovered."
+  choices:
+    - {t: "Ever since", why: "ตั้งแต่นั้นมา ++Ever since + ประโยค++"}
+    - {t: "Even since", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "Ever when", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (Ever when)"}
+    - {t: "Already since", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (Already since)"}
+  explain: "==Ever since + ประโยค== = ตั้งแต่...เป็นต้นมา"
+  status: approved
+- id: cefr-c1-w03-048
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  pool: true
+  stem: "So difficult ____ that only three students passed."
+  choices:
+    - {t: "was the exam", why: "So + คุณศัพท์ ขึ้นต้น ++สลับกริยา++"}
+    - {t: "the exam was", why: "ต้องสลับหลัง so + adj ขึ้นต้น"}
+    - {t: "was exam", why: "ขาด the จึงใช้ไม่ได้"}
+    - {t: "the exam is", why: "เล่าอดีต และไม่ได้สลับ"}
+  explain: "==So + adj + be + ประธาน + that...=="
+  status: approved
+- id: cefr-c1-w03-049
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  pool: true
+  stem: "____ he may be, he still needs to follow the rules."
+  choices:
+    - {t: "Talented as", why: "ยอมรับแล้วแย้ง ++adj + as + ประธาน + may be++"}
+    - {t: "As talented", why: "ลำดับคำผิดสำหรับโครงสร้างนี้"}
+    - {t: "Although talented", why: "ไม่ตามด้วย he may be แบบนี้"}
+    - {t: "However talented as", why: "มี as เกิน จึงใช้ไม่ได้"}
+  explain: "==adj + as + ประธาน + may be== = แม้จะ...ก็ตาม"
+  status: approved
+- id: cefr-c1-w03-050
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  pool: true
+  stem: "Such ____ the demand that the tickets sold out in minutes."
+  choices:
+    - {t: "was", why: "Such + be + ประธาน ++Such was the...++"}
+    - {t: "were", why: "the demand เป็นเอกพจน์"}
+    - {t: "had", why: "ไม่ใช่โครงสร้างนี้"}
+    - {t: "did", why: "ไม่ใช่โครงสร้างนี้ (did)"}
+  explain: "==Such was + คำนาม + that...== = ...มากเสียจนกระทั่ง"
+  status: approved
+- id: cefr-c1-w03-051
+  kind: mcq
+  skill: gm
+  topic: fronting-emphasis
+  level: 3
+  pool: true
+  stem: "Into the room ____, holding a huge cake."
+  choices:
+    - {t: "walked my grandfather", why: "ทิศทางขึ้นต้น ++สลับกริยากับประธาน++"}
+    - {t: "my grandfather walked", why: "ทางการแบบนี้มักสลับ"}
+    - {t: "did my grandfather walk", why: "ไม่ใช้ did ในโครงสร้างนี้"}
+    - {t: "walk my grandfather", why: "ต้องเป็นอดีต จึงใช้ไม่ได้"}
+  explain: "==Into/Out of/Down + กริยา + ประธาน== (เล่าเรื่อง)"
+  status: approved
+- id: cefr-c1-w03-052
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  pool: true
+  stem: "Mentoring programmes ____ confidence among new staff."
+  choices:
+    - {t: "foster", why: "ส่งเสริมให้เติบโต = ++foster++"}
+    - {t: "endorse", why: "endorse คือรับรองสนับสนุน"}
+    - {t: "streamline", why: "streamline คือทำให้กระชับ"}
+    - {t: "advocate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "foster = ==บ่มเพาะ ส่งเสริม=="
+  status: approved
+- id: cefr-c1-w03-053
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 2
+  pool: true
+  stem: "The new software will ____ the ordering process, cutting it from five steps to two."
+  choices:
+    - {t: "streamline", why: "ทำให้กระชับคล่องตัว = ++streamline++"}
+    - {t: "cultivate", why: "cultivate คือปลูกฝัง"}
+    - {t: "endeavour", why: "endeavour คือพยายาม"}
+    - {t: "scaffold", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "streamline = ==ลดขั้นตอนให้คล่องตัว=="
+  status: approved
+- id: cefr-c1-w03-054
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 3
+  pool: true
+  stem: "The training aims to ____ teams to make their own decisions."
+  choices:
+    - {t: "empower", why: "ให้อำนาจ = ++empower someone to++"}
+    - {t: "underpin", why: "underpin ไม่ตามด้วยคน + to"}
+    - {t: "consolidate", why: "consolidate ไม่ตามด้วยคน + to"}
+    - {t: "foster", why: "foster ไม่ตามด้วยคน + to"}
+  explain: "empower someone ==to + V1== = เสริมพลังให้"
+  status: approved
+- id: cefr-c1-w03-055
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 3
+  pool: true
+  stem: "Careful field studies ____ the new conservation plan for the river."
+  choices:
+    - {t: "underpins", why: "เป็นรากฐานรองรับ = ++underpin++"}
+    - {t: "empowers", why: "empower ต้องเป็นคน"}
+    - {t: "advocates", why: "advocate ไม่เข้ากับประธานนี้"}
+    - {t: "endeavours", why: "endeavour ต้องมี to"}
+  explain: "underpin = ==เป็นรากฐานรองรับ=="
+  status: approved
+- id: cefr-c1-w03-056
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 3
+  pool: true
+  stem: "The two departments were merged to ____ the company's position in Asia."
+  choices:
+    - {t: "consolidate", why: "ทำให้มั่นคงขึ้น = ++consolidate++"}
+    - {t: "scaffold", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "advocate", why: "advocate คือสนับสนุน (ความคิด)"}
+    - {t: "endeavour", why: "endeavour คือพยายาม"}
+  explain: "consolidate = ==ผนึกกำลัง ทำให้มั่นคง=="
+  status: approved
+- id: cefr-c1-w03-057
+  kind: mcq
+  skill: vo
+  topic: development-support
+  level: 3
+  pool: true
+  stem: "Several doctors ____ a ban on sugary drinks in schools."
+  choices:
+    - {t: "advocate", why: "สนับสนุนเรียกร้อง = ++advocate + คำนาม++"}
+    - {t: "empower", why: "empower ต้องมีคนเป็นกรรม"}
+    - {t: "foster", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "streamline", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (streamline)"}
+  explain: "advocate something = ==สนับสนุน เรียกร้อง=="
+  status: approved
+- id: cefr-c1-w03-058
+  kind: read
+  skill: rd
+  topic: leadership
+  level: 2
+  pool: true
+  title: "What Makes a Good Team Leader?"
+  passage: |
+    It is not technical skill that most employees value in a leader. According to a study of 2,000 workers in Southeast Asia, what people want most is a manager who listens and explains decisions.
+
+    Leaders who empowered their teams to choose how to complete tasks had lower staff turnover. Interestingly, these teams did not work fewer hours, but they reported feeling more in control of their time. The study suggests that trust, rather than freedom alone, underpins this effect.
+
+    The researchers also found that praise mattered less than expected. What employees valued was specific feedback: knowing exactly what had gone well and what to improve. General comments such as "good job" were often forgotten within a day.
+  questions:
+    - stem: "What do employees value most in a leader?"
+      choices:
+        - {t: "listening and explaining decisions", why: "what people want most is a manager who listens and explains decisions"}
+        - {t: "technical expertise", why: "บทบอกว่าไม่ใช่ทักษะทางเทคนิค"}
+        - {t: "frequent praise", why: "คำชมสำคัญน้อยกว่าที่คาด"}
+        - {t: "shorter working hours", why: "ทีมไม่ได้ทำงานน้อยลง"}
+    - stem: "What happened in teams with more freedom?"
+      choices:
+        - {t: "fewer people left their jobs", why: "had lower staff turnover"}
+        - {t: "they worked fewer hours", why: "ทีมไม่ได้ทำงานน้อยลง"}
+        - {t: "they made more mistakes", why: "ในบทไม่ได้พูดถึงความผิดพลาด"}
+        - {t: "leaders praised them more", why: "ในบทไม่ได้พูดถึงเรื่องนี้"}
+    - stem: "What kind of feedback did employees find useful?"
+      choices:
+        - {t: "detailed comments on what to improve", why: "specific feedback: knowing exactly what had gone well and what to improve"}
+        - {t: "short general praise", why: "ลืมภายในหนึ่งวัน"}
+        - {t: "feedback once a year", why: "ในบทไม่ได้พูดถึงความถี่"}
+        - {t: "feedback from customers", why: "ในบทไม่ได้พูดถึงลูกค้า"}
+  status: approved
+- id: cefr-c1-w03-059
+  kind: listen
+  skill: li
+  topic: group-discussion
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "It's not more money we need. What we need is better planning."}
+  questions:
+    - stem: "According to the man, what is the real problem?"
+      choices:
+        - {t: "poor planning", why: "What we need is better planning"}
+        - {t: "a lack of money", why: "เขาบอกว่าไม่ใช่เงิน"}
+        - {t: "too many staff", why: "ในบทไม่ได้พูดถึงพนักงาน"}
+        - {t: "the wrong manager", why: "ในบทไม่ได้พูดถึงผู้จัดการ"}
+  status: approved
+- id: cefr-c1-w03-060
+  kind: listen
+  skill: li
+  topic: development-support
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Our aim this year is to cultivate a culture where people feel safe to admit mistakes."}
+  questions:
+    - stem: "What does the woman want to create?"
+      choices:
+        - {t: "an environment where mistakes can be admitted", why: "feel safe to admit mistakes"}
+        - {t: "a strict system of punishments", why: "ความหมายกลับกัน"}
+        - {t: "a new training centre", why: "ในบทไม่ได้พูดถึงศูนย์อบรม"}
+        - {t: "a culture of competition", why: "ในบทไม่ได้พูดถึงการแข่งขัน"}
+  status: approved

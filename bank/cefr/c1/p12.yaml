@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 12 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w12-043
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 2
+  pool: true
+  stem: "Seldom ____ a speaker hold an audience's attention for so long."
+  choices:
+    - {t: "have I seen", why: "ปฏิเสธขึ้นต้น ++สลับกริยาช่วย++"}
+    - {t: "I have seen", why: "ต้องสลับหลัง seldom"}
+    - {t: "I saw", why: "ต้องใช้กริยาช่วยสลับ"}
+    - {t: "saw I", why: "ต้องใช้กริยาช่วยสลับ (saw I)"}
+  explain: "==Seldom + กริยาช่วย + ประธาน=="
+  status: approved
+- id: cefr-c1-w12-044
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 3
+  pool: true
+  stem: "The board demanded that the director ____ immediately."
+  choices:
+    - {t: "resign", why: "subjunctive ++V1++"}
+    - {t: "resigns", why: "ทางการหลัง demand that ใช้ V1"}
+    - {t: "resigned", why: "ไม่ถอยกาลในโครงสร้างนี้"}
+    - {t: "to resign", why: "ไม่มี to จึงใช้ไม่ได้"}
+  explain: "demand that + ประธาน + ==V1=="
+  status: approved
+- id: cefr-c1-w12-045
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 3
+  pool: true
+  stem: "It was only when the lights went out ____ we noticed the storm."
+  choices:
+    - {t: "that", why: "ประโยคเน้น ++It was only when ... that++"}
+    - {t: "when", why: "when ซ้ำ จึงใช้ไม่ได้"}
+    - {t: "which", why: "which ไม่ใช้ในโครงสร้างนี้"}
+    - {t: "then", why: "then ไม่ใช้ในโครงสร้างนี้"}
+  explain: "==It was only when ... that...== = จนกระทั่ง...จึง"
+  status: approved
+- id: cefr-c1-w12-046
+  kind: mcq
+  skill: gm
+  topic: review-c1-a
+  level: 3
+  pool: true
+  stem: "She ____ have left already; her coat is still here."
+  choices:
+    - {t: "can't", why: "แน่ใจว่าไม่ใช่ ++can't have + V3++"}
+    - {t: "mustn't", why: "ไม่ใช้สรุปแบบนี้"}
+    - {t: "needn't", why: "needn't have = ไม่จำเป็นต้องทำ"}
+    - {t: "shouldn't", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "หลักฐานบอกว่าไม่ใช่ ==can't have + V3=="
+  status: approved
+- id: cefr-c1-w12-047
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 2
+  pool: true
+  stem: "____ the delay, we would have arrived before dinner."
+  choices:
+    - {t: "But for", why: "ถ้าไม่มี ++But for + คำนาม++"}
+    - {t: "Except", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "Unless", why: "unless ต้องตามด้วยประโยค"}
+    - {t: "Despite", why: "ความหมายไม่ตรง จึงใช้ไม่ได้ (Despite)"}
+  explain: "==But for + คำนาม== = ถ้าไม่มี..."
+  status: approved
+- id: cefr-c1-w12-048
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 3
+  pool: true
+  stem: "Not until the contract was signed ____ to celebrate."
+  choices:
+    - {t: "did they begin", why: "Not until ขึ้นต้น ++สลับในประโยคหลัก++"}
+    - {t: "they began", why: "ต้องสลับหลัง not until ขึ้นต้น"}
+    - {t: "began they", why: "ต้องใช้ did สลับ"}
+    - {t: "they did begin", why: "ไม่ได้สลับ จึงใช้ไม่ได้"}
+  explain: "==Not until + ... + did + ประธาน + V1=="
+  status: approved
+- id: cefr-c1-w12-049
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 3
+  pool: true
+  stem: "The project, ____ was funded by the EU, ended last year."
+  choices:
+    - {t: "which", why: "ขยายแบบมีจุลภาค ++, which++"}
+    - {t: "that", why: "that ไม่ใช้หลังจุลภาค"}
+    - {t: "what", why: "what ไม่ใช้ขยายคำนาม"}
+    - {t: "who", why: "who ใช้กับคน จึงใช้ไม่ได้"}
+  explain: "ประโยคขยายมีจุลภาค ==which / who== (ไม่ใช้ that)"
+  status: approved
+- id: cefr-c1-w12-050
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 3
+  pool: true
+  stem: "____ the evidence, the committee rejected the proposal."
+  choices:
+    - {t: "Having reviewed", why: "ทำเสร็จก่อน ++Having + V3++"}
+    - {t: "Reviewed", why: "ความหมายเป็น passive"}
+    - {t: "Being reviewed", why: "ความหมายเป็น passive (Being reviewed)"}
+    - {t: "To review", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==Having + V3== = หลังจาก...แล้ว"
+  status: approved
+- id: cefr-c1-w12-051
+  kind: mcq
+  skill: gm
+  topic: review-c1-b
+  level: 3
+  pool: true
+  stem: "The more you practise, ____ confident you'll become."
+  choices:
+    - {t: "the more", why: "โครงสร้างยิ่ง...ยิ่ง ++the more++"}
+    - {t: "more", why: "ต้องมี the จึงใช้ไม่ได้"}
+    - {t: "the most", why: "ต้องเป็นขั้นกว่า"}
+    - {t: "so more", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+  explain: "==The more ..., the more ...== = ยิ่ง...ยิ่ง"
+  status: approved
+- id: cefr-c1-w12-052
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  pool: true
+  stem: "Tax breaks were offered as an ____ for companies to invest in rural areas."
+  choices:
+    - {t: "incentive", why: "แรงจูงใจ = ++incentive for/to++"}
+    - {t: "impetus", why: "impetus คือแรงผลักดัน (ไม่ใช่ของตอบแทน)"}
+    - {t: "stigma", why: "stigma คือตราบาป"}
+    - {t: "paucity", why: "paucity คือความขาดแคลน"}
+  explain: "incentive = ==สิ่งจูงใจ (เงิน รางวัล)=="
+  status: approved
+- id: cefr-c1-w12-053
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 2
+  pool: true
+  stem: "There is still a ____ attached to asking for help with mental health."
+  choices:
+    - {t: "stigma", why: "ตราบาป = ++stigma attached to++"}
+    - {t: "rapport", why: "rapport คือความสัมพันธ์ที่ดี"}
+    - {t: "consensus", why: "consensus คือความเห็นพ้อง"}
+    - {t: "plethora", why: "plethora คือจำนวนมากเกิน"}
+  explain: "stigma = ==ตราบาป ความอับอายทางสังคม=="
+  status: approved
+- id: cefr-c1-w12-054
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 3
+  pool: true
+  stem: "After hours of discussion, the committee reached a ____."
+  choices:
+    - {t: "consensus", why: "ความเห็นพ้อง = ++reach a consensus++"}
+    - {t: "repercussion", why: "repercussion คือผลกระทบตามมา"}
+    - {t: "propensity", why: "propensity คือแนวโน้ม"}
+    - {t: "foresight", why: "foresight คือการมองการณ์ไกล"}
+  explain: "reach a consensus = ==ได้ข้อตกลงร่วมกัน=="
+  status: approved
+- id: cefr-c1-w12-055
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 3
+  pool: true
+  stem: "Good teachers quickly build ____ with their students."
+  choices:
+    - {t: "rapport", why: "ความสัมพันธ์ที่ดี = ++rapport with++"}
+    - {t: "acumen", why: "acumen คือไหวพริบ"}
+    - {t: "stigma", why: "stigma คือตราบาป"}
+    - {t: "incentive", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "build rapport ==with== = สร้างความสัมพันธ์ที่ดี"
+  status: approved
+- id: cefr-c1-w12-056
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 3
+  pool: true
+  stem: "She had the ____ to save money before prices rose."
+  choices:
+    - {t: "foresight", why: "การมองการณ์ไกล = ++foresight++"}
+    - {t: "affinity", why: "affinity คือความรู้สึกผูกพัน"}
+    - {t: "paucity", why: "paucity คือความขาดแคลน"}
+    - {t: "repercussion", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "foresight = ==การมองการณ์ไกล=="
+  status: approved
+- id: cefr-c1-w12-057
+  kind: mcq
+  skill: vo
+  topic: c1-overview
+  level: 3
+  pool: true
+  stem: "There is a ____ of reliable data on rural incomes; we need more surveys."
+  choices:
+    - {t: "paucity", why: "ความขาดแคลน = ++a paucity of++"}
+    - {t: "plethora", why: "plethora คือมีมากเกิน ตรงข้าม"}
+    - {t: "consensus", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "propensity", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (propensity)"}
+  explain: "paucity = ==ความขาดแคลน== · plethora = มีล้นเหลือ"
+  status: approved
+- id: cefr-c1-w12-058
+  kind: read
+  skill: rd
+  topic: long-analytical
+  level: 2
+  pool: true
+  title: "The Hidden Costs of Cheap Fashion"
+  passage: |
+    Clothes have never been cheaper. A T-shirt that cost 300 baht a decade ago can now be bought online for less than 100. For consumers on tight budgets, this is a tangible benefit, and critics who simply tell people to "buy less" often ignore this reality.
+
+    Yet low prices conceal costs that are paid elsewhere. Garment workers in some countries earn wages that barely cover rent and food. Synthetic fabrics release tiny plastic fibres when washed, and much of the clothing discarded each year ends up in landfill or is burned.
+
+    There is no simple solution. Banning cheap clothing would hurt low-income families most. However, a plethora of smaller measures, such as repair services, clothing swaps, clearer labelling and minimum wage agreements across supply chains, could together reduce the damage. The impetus for change, the writer argues, must come from companies and governments, not only from individual shoppers.
+  questions:
+    - stem: "What does the writer say about critics who say \"buy less\"?"
+      choices:
+        - {t: "they overlook real budget pressures", why: "critics ... often ignore this reality"}
+        - {t: "they are completely right", why: "ผู้เขียนบอกว่ามองข้ามความจริง"}
+        - {t: "they work in fashion", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "they want higher wages", why: "ในบทไม่ได้พูดถึง (they want higher wages)"}
+    - stem: "Why does the writer oppose banning cheap clothing?"
+      choices:
+        - {t: "it would hurt poorer families most", why: "Banning cheap clothing would hurt low-income families most"}
+        - {t: "it is impossible to enforce", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "it would raise workers' wages", why: "ในบทไม่ได้พูดถึง (it would raise workers' wages)"}
+        - {t: "companies would refuse", why: "ในบทไม่ได้พูดถึง (companies would refuse)"}
+    - stem: "Who does the writer think should lead change?"
+      choices:
+        - {t: "businesses and governments", why: "must come from companies and governments"}
+        - {t: "individual shoppers alone", why: "ผู้เขียนบอกว่าไม่ใช่เฉพาะผู้ซื้อ"}
+        - {t: "garment workers", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "schools", why: "ในบทไม่ได้พูดถึงโรงเรียน"}
+  status: approved
+- id: cefr-c1-w12-059
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Had I known the road would be closed, I'd have left an hour earlier. As it was, I missed the opening speech."}
+  questions:
+    - stem: "What happened to the woman?"
+      choices:
+        - {t: "she arrived after the opening speech", why: "I missed the opening speech"}
+        - {t: "she left an hour early", why: "เธอไม่ได้ออกเร็ว"}
+        - {t: "she gave the speech", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "the event was cancelled because of the road", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c1-w12-060
+  kind: listen
+  skill: li
+  topic: mixed-listening
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The proposal has merit, but the repercussions for small shops haven't been thought through."}
+  questions:
+    - stem: "What is the man's concern?"
+      choices:
+        - {t: "the effects on small shops", why: "the repercussions for small shops haven't been thought through"}
+        - {t: "the proposal is too short", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "shops will earn too much", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "the plan has no merit at all", why: "เขาบอกว่ามีข้อดี"}
+  status: approved

@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 6 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w06-043
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  pool: true
+  stem: "The minister ____ to have known about the problem for months."
+  choices:
+    - {t: "is alleged", why: "ถูกกล่าวหา ระวังคำ ++is alleged to++"}
+    - {t: "alleges", why: "รัฐมนตรีไม่ได้เป็นผู้กล่าวหา"}
+    - {t: "is alleging", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+    - {t: "has alleged", why: "ต้องเป็น passive"}
+  explain: "is alleged / said ==to have + V3== = ถูกกล่าวว่าได้..."
+  status: approved
+- id: cefr-c1-w06-044
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 2
+  pool: true
+  stem: "It would ____ that the new system has reduced errors."
+  choices:
+    - {t: "appear", why: "ระวังคำมาก ++It would appear that++"}
+    - {t: "be appear", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "appears", why: "หลัง would ใช้ V1"}
+    - {t: "appearing", why: "รูปผิด จึงใช้ไม่ได้ (appearing)"}
+  explain: "==It would appear / seem that== = ดูเหมือนว่า (ระมัดระวัง)"
+  status: approved
+- id: cefr-c1-w06-045
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 3
+  pool: true
+  stem: "There is ____ to be some confusion about the new parking rules."
+  choices:
+    - {t: "thought", why: "มีผู้คิดว่า ++There is thought to be++"}
+    - {t: "thinking", why: "ต้องเป็น passive"}
+    - {t: "thinks", why: "ไม่ใช่รูปนี้ จึงใช้ไม่ได้"}
+    - {t: "to think", why: "ไม่ใช่รูปนี้ จึงใช้ไม่ได้ (to think)"}
+  explain: "==There is thought / said / believed to be=="
+  status: approved
+- id: cefr-c1-w06-046
+  kind: mcq
+  skill: gm
+  topic: hedging-distancing
+  level: 3
+  pool: true
+  stem: "To the best of my ____, the shop has never closed early."
+  choices:
+    - {t: "knowledge", why: "เท่าที่ทราบ ++to the best of my knowledge++"}
+    - {t: "know", why: "know เป็นกริยา จึงใช้ไม่ได้"}
+    - {t: "knowing", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "known", why: "ไม่ใช่คำนาม จึงใช้ไม่ได้"}
+  explain: "==To the best of my knowledge== = เท่าที่ฉันทราบ"
+  status: approved
+- id: cefr-c1-w06-047
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 2
+  pool: true
+  stem: "If you ____ to see Khun Lek, please give her my regards."
+  choices:
+    - {t: "should happen", why: "เผื่อบังเอิญ ++should happen to++"}
+    - {t: "would happen", why: "หลัง if ไม่ใช้ would"}
+    - {t: "will happen", why: "หลัง if ไม่ใช้ will"}
+    - {t: "happened to be", why: "ฟังไม่เข้ากับคำขอแบบนี้"}
+  explain: "If you ==should happen to== + V1 = ถ้าบังเอิญ..."
+  status: approved
+- id: cefr-c1-w06-048
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 3
+  pool: true
+  stem: "But for the volunteers, the festival ____ possible."
+  choices:
+    - {t: "wouldn't have been", why: "ถ้าไม่มี (อดีต) ผล ++wouldn't have been++"}
+    - {t: "won't be", why: "but for เป็นสมมติ ใช้ will ไม่ได้"}
+    - {t: "hadn't been", why: "ประโยคผลต้องมี would"}
+    - {t: "isn't", why: "ไม่ใช่ประโยคผลแบบสมมติ"}
+  explain: "==But for + คำนาม, would(n't) have + V3=="
+  status: approved
+- id: cefr-c1-w06-049
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 3
+  pool: true
+  stem: "Even if she ____ the bus, she wouldn't have arrived in time."
+  choices:
+    - {t: "had caught", why: "แม้ถ้า (อดีต) ++even if + had + V3++"}
+    - {t: "caught", why: "ต้องเป็น had + V3 กับผลแบบที่ 3"}
+    - {t: "would catch", why: "หลัง if ไม่ใช้ would"}
+    - {t: "has caught", why: "ไม่ใช่รูปของโครงสร้างนี้"}
+  explain: "==Even if + had + V3==, would(n't) have + V3"
+  status: approved
+- id: cefr-c1-w06-050
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 3
+  pool: true
+  stem: "Supposing you ____ the lottery, what would you do first?"
+  choices:
+    - {t: "won", why: "สมมติ ++supposing + อดีต++"}
+    - {t: "win", why: "ผลมี would จึงต้องใช้อดีต"}
+    - {t: "would win", why: "หลัง supposing ไม่ใช้ would"}
+    - {t: "had won", why: "ผลเป็นปัจจุบัน ไม่ใช่อดีต"}
+  explain: "==Supposing / Imagine + อดีต==, would + V1"
+  status: approved
+- id: cefr-c1-w06-051
+  kind: mcq
+  skill: gm
+  topic: conditionals-advanced
+  level: 3
+  pool: true
+  stem: "I'll lend you the money ____ that you pay me back by Friday."
+  choices:
+    - {t: "on condition", why: "โดยมีเงื่อนไข ++on condition that++"}
+    - {t: "in condition", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "with condition", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (with condition)"}
+    - {t: "at condition", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (at condition)"}
+  explain: "==on condition that== = โดยมีเงื่อนไขว่า"
+  status: approved
+- id: cefr-c1-w06-052
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  pool: true
+  stem: "His explanation sounds ____, but we need to check the facts."
+  choices:
+    - {t: "plausible", why: "ฟังดูมีเหตุผล = ++plausible++"}
+    - {t: "fallible", why: "fallible คือผิดพลาดได้"}
+    - {t: "ambivalent", why: "ambivalent คือลังเลสองจิต"}
+    - {t: "anomaly", why: "anomaly เป็นคำนาม"}
+  explain: "plausible = ==ฟังดูน่าเชื่อ เป็นไปได้=="
+  status: approved
+- id: cefr-c1-w06-053
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 2
+  pool: true
+  stem: "Many scientists remain ____ about the new diet's health claims."
+  choices:
+    - {t: "sceptical", why: "สงสัย ไม่ค่อยเชื่อ = ++sceptical about++"}
+    - {t: "credible", why: "credible คือน่าเชื่อถือ"}
+    - {t: "plausible", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "corroborate", why: "corroborate เป็นกริยา"}
+  explain: "sceptical ==about== = ไม่ค่อยเชื่อ"
+  status: approved
+- id: cefr-c1-w06-054
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 3
+  pool: true
+  stem: "Two independent witnesses ____ the driver's account of the accident."
+  choices:
+    - {t: "corroborated", why: "ยืนยันสนับสนุน = ++corroborate++"}
+    - {t: "discerned", why: "discern คือแยกแยะ มองเห็น"}
+    - {t: "conjectured", why: "conjecture คือคาดเดา"}
+    - {t: "ambivalent", why: "ambivalent เป็นคุณศัพท์"}
+  explain: "corroborate = ==ยืนยันให้น่าเชื่อขึ้น=="
+  status: approved
+- id: cefr-c1-w06-055
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 3
+  pool: true
+  stem: "The auditors found a ____ between the invoice and the bank statement."
+  choices:
+    - {t: "discrepancy", why: "ความไม่ตรงกัน = ++discrepancy between++"}
+    - {t: "inconsistently", why: "เป็นคำวิเศษณ์ ใช้หลัง a ไม่ได้"}
+    - {t: "sceptical", why: "sceptical เป็นคุณศัพท์"}
+    - {t: "credible", why: "credible เป็นคุณศัพท์"}
+  explain: "a discrepancy ==between== = ความไม่ตรงกันระหว่าง"
+  status: approved
+- id: cefr-c1-w06-056
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 3
+  pool: true
+  stem: "The link between the two events is ____ at best."
+  choices:
+    - {t: "tenuous", why: "อ่อน ไม่ค่อยมีน้ำหนัก = ++tenuous++"}
+    - {t: "credible", why: "ความหมายกลับกัน"}
+    - {t: "plausible", why: "ไม่เข้ากับ at best"}
+    - {t: "corroborated", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "tenuous = ==เปราะบาง ไม่มีน้ำหนัก=="
+  status: approved
+- id: cefr-c1-w06-057
+  kind: mcq
+  skill: vo
+  topic: evidence-doubt
+  level: 3
+  pool: true
+  stem: "I feel ____ about the move: excited, but also worried."
+  choices:
+    - {t: "ambivalent", why: "ความรู้สึกสองทาง = ++ambivalent about++"}
+    - {t: "unconvincing", why: "ใช้กับข้อโต้แย้ง ไม่ใช่ความรู้สึกตัวเอง"}
+    - {t: "fallible", why: "fallible คือผิดพลาดได้"}
+    - {t: "tenuous", why: "tenuous ใช้กับความเชื่อมโยง"}
+  explain: "ambivalent = ==รู้สึกขัดแย้งในใจ=="
+  status: approved
+- id: cefr-c1-w06-058
+  kind: read
+  skill: rd
+  topic: research-analysis
+  level: 2
+  pool: true
+  title: "A Closer Look at the \"Morning Study\" Claim"
+  passage: |
+    A popular article recently claimed that people who study in the morning remember 40 per cent more than those who study at night. The claim sounds plausible, but a closer look at the original research suggests caution.
+
+    First, the study involved only 36 university students, all from one faculty. Second, the morning group slept on average one hour longer than the evening group, so sleep, not time of day, may explain the difference. Third, the 40 per cent figure came from a single vocabulary test given the following day.
+
+    None of this means the finding is wrong. It would appear, however, that the article overstated a tentative result. Until larger studies corroborate it, readers should treat the claim as an interesting possibility rather than established fact.
+  questions:
+    - stem: "What does the writer suggest about the extra sleep?"
+      choices:
+        - {t: "it may explain the result", why: "sleep, not time of day, may explain the difference"}
+        - {t: "it proves the article was right", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+        - {t: "it made the test harder", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it was not measured", why: "มีการวัดและรายงาน"}
+    - stem: "How does the writer view the study's finding?"
+      choices:
+        - {t: "as possible but not yet proven", why: "an interesting possibility rather than established fact"}
+        - {t: "as completely false", why: "ผู้เขียนบอกว่าไม่ได้หมายความว่าผิด"}
+        - {t: "as definitely correct", why: "ผู้เขียนเตือนให้ระวัง"}
+        - {t: "as irrelevant to students", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What would make the claim more convincing?"
+      choices:
+        - {t: "bigger studies with similar results", why: "Until larger studies corroborate it"}
+        - {t: "making the article itself longer", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "fewer participants", why: "ความหมายกลับกัน"}
+        - {t: "studying only at night", why: "ในบทไม่ได้พูดถึง (studying only at night)"}
+  status: approved
+- id: cefr-c1-w06-059
+  kind: listen
+  skill: li
+  topic: academic-seminar
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "I'm a bit sceptical about these figures. The sample seems rather small, and the survey was done online only."}
+  questions:
+    - stem: "Why does the man doubt the figures?"
+      choices:
+        - {t: "its small, online-only sample", why: "The sample seems rather small ... online only"}
+        - {t: "the survey was too long", why: "ในบทไม่ได้พูดถึงความยาว"}
+        - {t: "the figures are too old", why: "ในบทไม่ได้พูดถึงอายุข้อมูล"}
+        - {t: "the questions were written in English", why: "ในบทไม่ได้พูดถึงภาษา"}
+  status: approved
+- id: cefr-c1-w06-060
+  kind: listen
+  skill: li
+  topic: evidence-doubt
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "There's a slight discrepancy between your report and mine. You've written forty, but I counted forty-four."}
+  questions:
+    - stem: "What is the problem?"
+      choices:
+        - {t: "the two reports give different numbers", why: "You've written forty, but I counted forty-four"}
+        - {t: "the report is missing", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "both reports say forty", why: "ตัวเลขต่างกัน จึงใช้ไม่ได้"}
+        - {t: "the man counted twice", why: "ในบทไม่ได้พูดเช่นนั้น (the man counted twice)"}
+  status: approved

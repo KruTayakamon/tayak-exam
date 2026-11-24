@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 4 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w04-043
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  pool: true
+  stem: "The committee recommends that every applicant ____ two references."
+  choices:
+    - {t: "provide", why: "subjunctive ++V1 ไม่เติม s++"}
+    - {t: "provides", why: "หลัง recommend that ทางการใช้ V1"}
+    - {t: "will provide", why: "ไม่ใช้ will ในโครงสร้างนี้"}
+    - {t: "provided", why: "ไม่ใช้อดีตในโครงสร้างนี้"}
+  explain: "recommend / insist / demand that + ประธาน + ==V1=="
+  status: approved
+- id: cefr-c1-w04-044
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 2
+  pool: true
+  stem: "It is essential that the report ____ before the board meeting."
+  choices:
+    - {t: "be submitted", why: "subjunctive passive ++be + V3++"}
+    - {t: "is submitted", why: "ทางการหลัง essential that ใช้ be"}
+    - {t: "will be submit", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "submitting", why: "ไม่ใช่กริยาแท้ จึงใช้ไม่ได้"}
+  explain: "It is essential / vital that + ประธาน + ==(be) V1=="
+  status: approved
+- id: cefr-c1-w04-045
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 3
+  pool: true
+  stem: "The doctor insisted that he ____ smoking immediately."
+  choices:
+    - {t: "stop", why: "subjunctive ++V1++"}
+    - {t: "stops", why: "หลัง insisted that ทางการใช้ V1"}
+    - {t: "stopped", why: "ไม่ถอยกาลในโครงสร้างนี้"}
+    - {t: "to stop", why: "ไม่มี to ในโครงสร้างนี้"}
+  explain: "insist that + ประธาน + ==V1== (ไม่ผัน)"
+  status: approved
+- id: cefr-c1-w04-046
+  kind: mcq
+  skill: gm
+  topic: subjunctive-formal
+  level: 3
+  pool: true
+  stem: "She asked that her name ____ from the list."
+  choices:
+    - {t: "be removed", why: "subjunctive passive ++be + V3++"}
+    - {t: "was removed", why: "ทางการใช้ be แม้เป็นอดีต"}
+    - {t: "removed", why: "ขาด be จึงไม่เป็น passive"}
+    - {t: "be remove", why: "ต้องเป็น V3 จึงใช้ไม่ได้"}
+  explain: "ask/request that + ประธาน + ==be + V3=="
+  status: approved
+- id: cefr-c1-w04-047
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 2
+  pool: true
+  stem: "The ____ of the new road has reduced travel time considerably."
+  choices:
+    - {t: "completion", why: "คำนามจาก complete ++-ion++"}
+    - {t: "complete", why: "complete เป็นกริยา/คุณศัพท์"}
+    - {t: "completing", why: "หลัง the ... of ควรเป็นคำนามจริง"}
+    - {t: "completely", why: "completely เป็นคำวิเศษณ์"}
+  explain: "==the + คำนาม + of== = สำนวนทางการ"
+  status: approved
+- id: cefr-c1-w04-048
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 3
+  pool: true
+  stem: "There has been a sharp ____ in the number of applicants this year."
+  choices:
+    - {t: "decline", why: "คำนาม decline (ลดลง) ++a sharp decline++"}
+    - {t: "declining", why: "หลัง a sharp ต้องเป็นคำนาม"}
+    - {t: "declined", why: "ไม่ใช่คำนาม จึงใช้ไม่ได้"}
+    - {t: "decliner", why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+  explain: "a sharp ==rise / fall / decline== in"
+  status: approved
+- id: cefr-c1-w04-049
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 3
+  pool: true
+  stem: "Prompt ____ of invoices helps small suppliers."
+  choices:
+    - {t: "payment", why: "คำนามจาก pay ++-ment++"}
+    - {t: "paying", why: "ทางการมักใช้คำนาม payment"}
+    - {t: "paid", why: "ไม่ใช่คำนาม จึงใช้ไม่ได้"}
+    - {t: "payable", why: "payable เป็นคุณศัพท์"}
+  explain: "prompt payment = ==การชำระเงินตรงเวลา=="
+  status: approved
+- id: cefr-c1-w04-050
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 3
+  pool: true
+  stem: "The ____ of the plan depends on support from local residents."
+  choices:
+    - {t: "success", why: "คำนาม ++success++"}
+    - {t: "succeed", why: "succeed เป็นกริยา"}
+    - {t: "successful", why: "successful เป็นคุณศัพท์"}
+    - {t: "successfully", why: "เป็นคำวิเศษณ์ จึงใช้ไม่ได้"}
+  explain: "succeed (v) · ==success (n)== · successful (adj)"
+  status: approved
+- id: cefr-c1-w04-051
+  kind: mcq
+  skill: gm
+  topic: nominalisation
+  level: 3
+  pool: true
+  stem: "Their ____ to cooperate delayed the project by months."
+  choices:
+    - {t: "refusal", why: "คำนามจาก refuse ++-al++"}
+    - {t: "refuse", why: "refuse เป็นกริยา (ในที่นี้)"}
+    - {t: "refusing", why: "หลัง their ต้องเป็นคำนาม"}
+    - {t: "refused", why: "ไม่ใช่คำนาม จึงใช้ไม่ได้"}
+  explain: "refuse → ==refusal== · arrive → arrival"
+  status: approved
+- id: cefr-c1-w04-052
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  pool: true
+  stem: "The contract ____ that all work must be completed by 30 June."
+  choices:
+    - {t: "stipulates", why: "ระบุเป็นเงื่อนไข = ++stipulate that++"}
+    - {t: "concedes", why: "concede คือยอมรับ"}
+    - {t: "relinquishes", why: "relinquish คือสละ"}
+    - {t: "entails", why: "entail ไม่ตามด้วย that"}
+  explain: "stipulate that = ==กำหนดเป็นเงื่อนไขว่า=="
+  status: approved
+- id: cefr-c1-w04-053
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 2
+  pool: true
+  stem: "Managers are ____ for the safety of their teams."
+  choices:
+    - {t: "accountable", why: "ต้องรับผิดชอบ = ++accountable for++"}
+    - {t: "compliance", why: "compliance เป็นคำนาม"}
+    - {t: "discretion", why: "discretion เป็นคำนาม"}
+    - {t: "hierarchy", why: "hierarchy เป็นคำนาม"}
+  explain: "be accountable ==for== = ต้องรับผิดชอบ"
+  status: approved
+- id: cefr-c1-w04-054
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 3
+  pool: true
+  stem: "Refunds are given at the manager's ____."
+  choices:
+    - {t: "discretion", why: "ดุลยพินิจ = ++at someone's discretion++"}
+    - {t: "compliance", why: "compliance คือการปฏิบัติตาม"}
+    - {t: "onus", why: "onus คือภาระความรับผิดชอบ"}
+    - {t: "caveat", why: "caveat คือข้อแม้"}
+  explain: "at the manager's discretion = ==ขึ้นอยู่กับดุลยพินิจผู้จัดการ=="
+  status: approved
+- id: cefr-c1-w04-055
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 3
+  pool: true
+  stem: "The ____ is on the applicant to prove their identity."
+  choices:
+    - {t: "onus", why: "ภาระหน้าที่ = ++the onus is on++"}
+    - {t: "caveat", why: "caveat คือข้อแม้"}
+    - {t: "hierarchy", why: "hierarchy คือลำดับชั้น"}
+    - {t: "bureaucracy", why: "bureaucracy คือระบบราชการ"}
+  explain: "the onus is on someone = ==เป็นภาระของ...=="
+  status: approved
+- id: cefr-c1-w04-056
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 3
+  pool: true
+  stem: "The new role will ____ frequent travel to regional offices."
+  choices:
+    - {t: "entail", why: "ต้องมีเป็นส่วนหนึ่ง = ++entail++"}
+    - {t: "stipulate", why: "stipulate คือกำหนดเงื่อนไข"}
+    - {t: "relinquish", why: "relinquish คือสละ"}
+    - {t: "concede", why: "concede คือยอมรับ"}
+  explain: "entail = ==เกี่ยวข้อง ต้องมี (เป็นผลตามมา)=="
+  status: approved
+- id: cefr-c1-w04-057
+  kind: mcq
+  skill: vo
+  topic: formal-organisation
+  level: 3
+  pool: true
+  stem: "After twenty years, he finally ____ control of the family business to his daughter."
+  choices:
+    - {t: "relinquished", why: "สละ = ++relinquish control++"}
+    - {t: "conceded", why: "concede ใช้กับข้อโต้แย้ง"}
+    - {t: "entailed", why: "entail คือต้องมี"}
+    - {t: "stipulated", why: "stipulate คือกำหนด"}
+  explain: "relinquish = ==สละ ยอมปล่อย (อำนาจ ตำแหน่ง)=="
+  status: approved
+- id: cefr-c1-w04-058
+  kind: read
+  skill: rd
+  topic: formal-regulation
+  level: 2
+  pool: true
+  title: "Notice: Use of Personal Devices (Fictional Agency)"
+  passage: |
+    With effect from 1 March, the following conditions apply to the use of personal devices at all branch offices.
+
+    Staff may connect personal laptops to the guest network only. Connection to the internal network is prohibited unless written approval has been obtained from the IT department. Any device found to be connected without approval will be disconnected and the matter recorded.
+
+    The onus is on each employee to ensure that their device has up-to-date security software. Notwithstanding the above, branch managers may, at their discretion, permit temporary access in an emergency, provided that the IT department is informed within 24 hours.
+  questions:
+    - stem: "Which network can staff use with their own laptops?"
+      choices:
+        - {t: "the guest network", why: "connect personal laptops to the guest network only"}
+        - {t: "the internal network", why: "ห้ามเว้นแต่ได้รับอนุมัติ"}
+        - {t: "any network after 1 March", why: "มีข้อจำกัดตามประกาศ"}
+        - {t: "none at all", why: "ใช้เครือข่ายผู้มาเยือนได้"}
+    - stem: "Who is responsible for security software on personal devices?"
+      choices:
+        - {t: "the individual employee", why: "The onus is on each employee"}
+        - {t: "the IT department", why: "ไอทีเป็นผู้อนุมัติ ไม่ได้รับผิดชอบซอฟต์แวร์ส่วนตัว"}
+        - {t: "the branch manager", why: "ผู้จัดการอนุญาตกรณีฉุกเฉินเท่านั้น"}
+        - {t: "the security guard", why: "ในบทไม่ได้พูดถึงเจ้าหน้าที่รักษาความปลอดภัย"}
+    - stem: "What must happen if a manager allows emergency access?"
+      choices:
+        - {t: "IT must be told within a day", why: "provided that the IT department is informed within 24 hours"}
+        - {t: "the device must be disconnected", why: "เป็นกรณีที่ไม่ได้รับอนุมัติ"}
+        - {t: "the employee must pay a fine", why: "ในบทไม่ได้พูดถึงค่าปรับ"}
+        - {t: "approval must be written first", why: "กรณีฉุกเฉินแจ้งภายหลังได้"}
+  status: approved
+- id: cefr-c1-w04-059
+  kind: listen
+  skill: li
+  topic: official-statement
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "The company acknowledges that the delay was unacceptable and will be reviewing its procedures. Affected customers will receive a full refund."}
+  questions:
+    - stem: "What will affected customers get?"
+      choices:
+        - {t: "their money back", why: "will receive a full refund"}
+        - {t: "a free product", why: "ในบทไม่ได้พูดถึงสินค้าฟรี"}
+        - {t: "an apology letter only", why: "มีการคืนเงินด้วย"}
+        - {t: "a discount on the next order", why: "ในบทไม่ได้พูดถึงส่วนลด"}
+  status: approved
+- id: cefr-c1-w04-060
+  kind: listen
+  skill: li
+  topic: official-statement
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Notwithstanding the bad weather, the ceremony will proceed as scheduled, though guests are advised to bring umbrellas."}
+  questions:
+    - stem: "What will happen to the ceremony?"
+      choices:
+        - {t: "it will go ahead as planned", why: "the ceremony will proceed as scheduled"}
+        - {t: "it will be postponed", why: "จัดตามกำหนดเดิม"}
+        - {t: "it will move indoors", why: "ในบทไม่ได้พูดถึงการย้ายเข้าในอาคาร"}
+        - {t: "it will be shortened", why: "ในบทไม่ได้พูดถึงการย่นเวลา"}
+  status: approved

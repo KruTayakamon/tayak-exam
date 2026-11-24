@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 2 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w02-043
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  pool: true
+  stem: "Rarely ____ such a generous offer from a small company."
+  choices:
+    - {t: "have we received", why: "ปฏิเสธขึ้นต้น ++สลับกริยาช่วยกับประธาน++"}
+    - {t: "we have received", why: "หลัง rarely ขึ้นต้นต้องสลับ"}
+    - {t: "we received", why: "ต้องมีกริยาช่วยมาสลับ"}
+    - {t: "received we", why: "ต้องใช้กริยาช่วยในการสลับ"}
+  explain: "==Rarely / Seldom + กริยาช่วย + ประธาน=="
+  status: approved
+- id: cefr-c1-w02-044
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 2
+  pool: true
+  stem: "On no account ____ visitors be left alone in the laboratory."
+  choices:
+    - {t: "should", why: "สลับหลังวลีปฏิเสธ ++should + ประธาน++"}
+    - {t: "they should", why: "ไม่ได้สลับ และมี they ซ้ำกับ visitors"}
+    - {t: "shouldn't", why: "ปฏิเสธซ้อนทำให้ความหมายกลับ"}
+    - {t: "does", why: "does ไม่ตามด้วย be"}
+  explain: "==On no account + กริยาช่วย + ประธาน== = ห้ามเด็ดขาด"
+  status: approved
+- id: cefr-c1-w02-045
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  pool: true
+  stem: "No sooner ____ the shop than it started to pour with rain."
+  choices:
+    - {t: "had we left", why: "No sooner + ++had + ประธาน + V3 + than++"}
+    - {t: "we had left", why: "ต้องสลับหลัง no sooner"}
+    - {t: "did we leave", why: "ใช้คู่กับ had + V3 ในโครงสร้างนี้"}
+    - {t: "have we left", why: "เล่าอดีต ใช้ have ไม่ได้"}
+  explain: "==No sooner had ... than== = ทันทีที่...ก็"
+  status: approved
+- id: cefr-c1-w02-046
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  pool: true
+  stem: "Only after the results were published ____ how serious the problem was."
+  choices:
+    - {t: "did we realise", why: "Only after + ประโยค แล้ว ++สลับในประโยคหลัก++"}
+    - {t: "we realised", why: "ต้องสลับหลัง only after ขึ้นต้น"}
+    - {t: "had realised we", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "realised we", why: "ต้องใช้ did มาสลับ"}
+  explain: "Only after / Only when + ... + ==กริยาช่วย + ประธาน=="
+  status: approved
+- id: cefr-c1-w02-047
+  kind: mcq
+  skill: gm
+  topic: negative-inversion
+  level: 3
+  pool: true
+  stem: "Little ____ that the small start-up would one day employ thousands."
+  choices:
+    - {t: "did they imagine", why: "Little ขึ้นต้น ++สลับด้วย did++"}
+    - {t: "they imagined", why: "ต้องสลับหลัง little ขึ้นต้น"}
+    - {t: "imagined they", why: "ต้องใช้ did มาสลับ"}
+    - {t: "they did imagine", why: "ไม่ได้สลับ จึงใช้ไม่ได้"}
+  explain: "==Little did + ประธาน + V1== = ไม่รู้เลยว่า"
+  status: approved
+- id: cefr-c1-w02-048
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 2
+  pool: true
+  stem: "____ you require further information, please contact the front office."
+  choices:
+    - {t: "Should", why: "เงื่อนไขทางการ ++Should + ประธาน + V1++"}
+    - {t: "Would", why: "ไม่ใช้ would ขึ้นต้นแทน if"}
+    - {t: "Had", why: "had ใช้กับอดีตสมมติ"}
+    - {t: "Were", why: "were ต้องตามด้วย to"}
+  explain: "==Should you + V1== = If you + V1 (ทางการ)"
+  status: approved
+- id: cefr-c1-w02-049
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 3
+  pool: true
+  stem: "____ the government to raise taxes, many small shops would close."
+  choices:
+    - {t: "Were", why: "สมมติทางการ ++Were + ประธาน + to + V1++"}
+    - {t: "Should", why: "should ไม่ตามด้วย to"}
+    - {t: "Had", why: "had ไม่ตามด้วย to + V1"}
+    - {t: "If", why: "if ต้องตามด้วย the government were"}
+  explain: "==Were + ประธาน + to + V1== = If ... were to (ทางการ)"
+  status: approved
+- id: cefr-c1-w02-050
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 3
+  pool: true
+  stem: "____ the warning, the villagers would not have left in time."
+  choices:
+    - {t: "Had it not been for", why: "ถ้าไม่มี (อดีต) ++Had it not been for++"}
+    - {t: "Were it not for", why: "ใช้กับปัจจุบัน ไม่ใช่อดีต"}
+    - {t: "If it had been for", why: "ความหมายกลับกัน"}
+    - {t: "Had not it been for", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "==Had it not been for + คำนาม== = ถ้าไม่มี...(ในตอนนั้น)"
+  status: approved
+- id: cefr-c1-w02-051
+  kind: mcq
+  skill: gm
+  topic: inverted-conditionals
+  level: 3
+  pool: true
+  stem: "____ known about the strike, we would have booked a different flight."
+  choices:
+    - {t: "Had we", why: "เงื่อนไขแบบที่ 3 สลับ ++Had + ประธาน + V3++"}
+    - {t: "If we", why: "ต้องเป็น If we had known"}
+    - {t: "Should we", why: "should ไม่ใช้กับอดีตสมมติ"}
+    - {t: "Were we", why: "were ไม่ตามด้วย known ในความหมายนี้"}
+  explain: "==Had + ประธาน + V3== = If + had + V3"
+  status: approved
+- id: cefr-c1-w02-052
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  pool: true
+  stem: "The country is facing an ____ shortage of nurses, and the problem is getting worse."
+  choices:
+    - {t: "acute", why: "รุนแรงเฉียบพลัน = ++acute shortage++"}
+    - {t: "incessant", why: "incessant คือไม่หยุดหย่อน"}
+    - {t: "invariably", why: "invariably เป็นคำวิเศษณ์"}
+    - {t: "paramount", why: "ไม่ใช้กับ shortage"}
+  explain: "an acute shortage = ==การขาดแคลนอย่างรุนแรง=="
+  status: approved
+- id: cefr-c1-w02-053
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 2
+  pool: true
+  stem: "Safety is ____; everything else comes second."
+  choices:
+    - {t: "paramount", why: "สำคัญเหนือสิ่งอื่น = ++paramount++"}
+    - {t: "imminent", why: "imminent คือใกล้จะเกิด"}
+    - {t: "incessant", why: "incessant คือไม่หยุด"}
+    - {t: "substantial", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "paramount = ==สำคัญที่สุด=="
+  status: approved
+- id: cefr-c1-w02-054
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 3
+  pool: true
+  stem: "Forecasters say a major storm is ____, so people should stay indoors."
+  choices:
+    - {t: "imminent", why: "ใกล้จะเกิดขึ้น = ++imminent++"}
+    - {t: "profound", why: "profound คือลึกซึ้ง"}
+    - {t: "substantial", why: "substantial คือมาก"}
+    - {t: "acute", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "imminent = ==กำลังจะเกิดในไม่ช้า=="
+  status: approved
+- id: cefr-c1-w02-055
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 3
+  pool: true
+  stem: "The ____ noise from the building site made it impossible to concentrate."
+  choices:
+    - {t: "incessant", why: "ไม่หยุดหย่อน = ++incessant++"}
+    - {t: "imminent", why: "imminent คือใกล้จะเกิด"}
+    - {t: "paramount", why: "paramount คือสำคัญที่สุด"}
+    - {t: "invariably", why: "invariably เป็นคำวิเศษณ์"}
+  explain: "incessant = ==ไม่หยุดเลย ต่อเนื่อง=="
+  status: approved
+- id: cefr-c1-w02-056
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 3
+  pool: true
+  stem: "Cutting the bus service will only ____ the traffic problem."
+  choices:
+    - {t: "exacerbate", why: "ทำให้แย่ลง = ++exacerbate++"}
+    - {t: "deteriorate", why: "deteriorate ไม่มีกรรมตามหลัง"}
+    - {t: "substantial", why: "substantial เป็นคุณศัพท์"}
+    - {t: "paramount", why: "paramount เป็นคุณศัพท์"}
+  explain: "exacerbate + กรรม = ==ทำให้แย่ลง== · deteriorate = แย่ลงเอง"
+  status: approved
+- id: cefr-c1-w02-057
+  kind: mcq
+  skill: vo
+  topic: urgency-scale
+  level: 3
+  pool: true
+  stem: "He ____ arrives ten minutes early; I've never seen him late."
+  choices:
+    - {t: "invariably", why: "เสมอทุกครั้ง = ++invariably++"}
+    - {t: "incessant", why: "incessant เป็นคุณศัพท์"}
+    - {t: "imminent", why: "imminent เป็นคุณศัพท์"}
+    - {t: "profound", why: "profound เป็นคุณศัพท์"}
+  explain: "invariably = ==ทุกครั้งไม่มีข้อยกเว้น=="
+  status: approved
+- id: cefr-c1-w02-058
+  kind: read
+  skill: rd
+  topic: editorial
+  level: 2
+  pool: true
+  title: "Editorial: The Water Crisis Is Not Coming. It Is Here."
+  passage: |
+    For years, experts have warned that the province's water supply would one day run short. That day has arrived. Reservoir levels are at their lowest in two decades, and three districts now receive tap water only every other day.
+
+    Rarely has a problem been so predictable. Farmers have been pumping more groundwater each year, while new housing estates have been approved without any plan for water supply. Leaks in old pipes waste an estimated 30 per cent of treated water.
+
+    The provincial authority's response, a campaign asking residents to take shorter showers, is welcome but far from sufficient. Were the authority to repair the pipe network, it would save more water than any campaign. Such repairs are expensive, but the cost of doing nothing will be far greater.
+  questions:
+    - stem: "According to the editorial, what is the current situation?"
+      choices:
+        - {t: "some areas get water only on alternate days", why: "three districts now receive tap water only every other day"}
+        - {t: "the reservoirs are full", why: "ระดับน้ำต่ำสุดในยี่สิบปี"}
+        - {t: "the crisis is expected next year", why: "บทบอกว่าวิกฤตเกิดแล้ว"}
+        - {t: "farmers have stopped using groundwater", why: "ชาวนาสูบน้ำบาดาลมากขึ้นทุกปี"}
+    - stem: "What does \"Rarely has a problem been so predictable\" suggest?"
+      choices:
+        - {t: "the crisis could have been foreseen", why: "experts have warned for years"}
+        - {t: "the crisis was a surprise", why: "ความหมายกลับกัน"}
+        - {t: "the problem is rare in Thailand", why: "ไม่ได้หมายความเช่นนั้น"}
+        - {t: "experts were wrong", why: "ผู้เชี่ยวชาญเตือนถูกต้อง"}
+    - stem: "What does the writer think the authority should do?"
+      choices:
+        - {t: "repair the leaking pipes", why: "Were the authority to repair the pipe network"}
+        - {t: "ban new housing", why: "ในบทไม่ได้เสนอให้ห้ามสร้างบ้าน"}
+        - {t: "stop the shower campaign", why: "บทบอกว่าแคมเปญดีแต่ไม่พอ"}
+        - {t: "raise water prices", why: "ในบทไม่ได้พูดถึงราคาน้ำ"}
+  status: approved
+- id: cefr-c1-w02-059
+  kind: listen
+  skill: li
+  topic: speech-emphasis
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Not once in the last five years has our team missed a deadline, and I don't intend that to change now."}
+  questions:
+    - stem: "What is the woman emphasising?"
+      choices:
+        - {t: "her team's consistent reliability", why: "Not once in the last five years has our team missed a deadline"}
+        - {t: "her team often misses deadlines", why: "ความหมายกลับกัน"}
+        - {t: "she plans to change the team", why: "เธอไม่ต้องการให้เปลี่ยน"}
+        - {t: "the deadline has been extended", why: "ในบทไม่ได้พูดถึงการขยายเวลา"}
+  status: approved
+- id: cefr-c1-w02-060
+  kind: listen
+  skill: li
+  topic: urgency-scale
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Should the situation deteriorate overnight, we'll evacuate the lower floors first thing in the morning."}
+  questions:
+    - stem: "When will the lower floors be evacuated?"
+      choices:
+        - {t: "only if things get worse", why: "Should the situation deteriorate overnight"}
+        - {t: "immediately", why: "เป็นเงื่อนไข ไม่ใช่ทันที"}
+        - {t: "tonight", why: "จะอพยพตอนเช้า จึงใช้ไม่ได้"}
+        - {t: "whatever happens", why: "มีเงื่อนไขว่าสถานการณ์แย่ลง"}
+  status: approved

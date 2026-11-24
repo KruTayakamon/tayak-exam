@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 10 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w10-043
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  pool: true
+  stem: "____ it may sound, the cheaper option actually lasts longer."
+  choices:
+    - {t: "Strange as", why: "ยอมรับก่อนแย้ง ++adj + as + it may sound++"}
+    - {t: "As strange", why: "ลำดับคำผิดสำหรับโครงสร้างนี้"}
+    - {t: "Although strange", why: "ไม่ตามด้วย it may sound แบบนี้"}
+    - {t: "However strange as", why: "มี as เกิน จึงใช้ไม่ได้"}
+  explain: "==adj + as + ประธาน + may + V1== = แม้จะ...ก็ตาม"
+  status: approved
+- id: cefr-c1-w10-044
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 2
+  pool: true
+  stem: "True, the hotel is expensive. ____, the service is outstanding."
+  choices:
+    - {t: "That said", why: "ยอมรับแล้วแย้ง ++That said++"}
+    - {t: "As said", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "So said", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (So said)"}
+    - {t: "Having said", why: "ต้องเป็น having said that"}
+  explain: "==That said / Having said that== = ถึงอย่างนั้นก็ตาม"
+  status: approved
+- id: cefr-c1-w10-045
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 3
+  pool: true
+  stem: "____ much we try, we can't please every customer."
+  choices:
+    - {t: "However", why: "ไม่ว่าจะ...แค่ไหน ++However much++"}
+    - {t: "Although", why: "although ไม่ตามด้วย much แบบนี้"}
+    - {t: "Whatever", why: "whatever ไม่ตามด้วย much"}
+    - {t: "Even so", why: "even so ไม่เชื่อมแบบนี้"}
+  explain: "==However + adj/adv/much== = ไม่ว่า...แค่ไหน"
+  status: approved
+- id: cefr-c1-w10-046
+  kind: mcq
+  skill: gm
+  topic: concessive-structures
+  level: 3
+  pool: true
+  stem: "Admittedly, the plan has risks; ____, doing nothing is riskier."
+  choices:
+    - {t: "even so", why: "ยอมรับแล้วแย้ง ++even so++"}
+    - {t: "even if", why: "even if ต้องตามด้วยประโยค"}
+    - {t: "so much", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "even though", why: "ต้องตามด้วยประโยค"}
+  explain: "Admittedly ..., ==even so== ... = จริงอยู่...แต่ถึงอย่างนั้น"
+  status: approved
+- id: cefr-c1-w10-047
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 2
+  pool: true
+  stem: "The new phone is ____ as expensive as the old model."
+  choices:
+    - {t: "twice", why: "สองเท่า ++twice as + adj + as++"}
+    - {t: "two times more", why: "ไม่ใช้ร่วมกับ as ... as"}
+    - {t: "double more", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "twice more", why: "ไม่ใช้ร่วมกับ as ... as (twice more)"}
+  explain: "==twice / three times as + adj + as=="
+  status: approved
+- id: cefr-c1-w10-048
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  pool: true
+  stem: "The ____ you start saving, the more you will have when you retire."
+  choices:
+    - {t: "earlier", why: "โครงสร้าง ++the + ขั้นกว่า, the + ขั้นกว่า++"}
+    - {t: "earliest", why: "ต้องเป็นขั้นกว่า"}
+    - {t: "early", why: "ต้องเป็นขั้นกว่า (early)"}
+    - {t: "more early", why: "early ใช้ earlier"}
+  explain: "==The + ขั้นกว่า ..., the + ขั้นกว่า== = ยิ่ง...ยิ่ง"
+  status: approved
+- id: cefr-c1-w10-049
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  pool: true
+  stem: "This year's results are ____ better than last year's; the difference is tiny."
+  choices:
+    - {t: "marginally", why: "ดีกว่าเล็กน้อย ++marginally + ขั้นกว่า++"}
+    - {t: "considerably", why: "ขัดกับ the difference is tiny"}
+    - {t: "far", why: "far หมายถึงมาก จึงใช้ไม่ได้"}
+    - {t: "much", why: "much หมายถึงมาก"}
+  explain: "==marginally / slightly== + ขั้นกว่า = ดีกว่าเล็กน้อย"
+  status: approved
+- id: cefr-c1-w10-050
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  pool: true
+  stem: "Nowhere ____ the change more visible than in the city centre."
+  choices:
+    - {t: "is", why: "Nowhere ขึ้นต้น ++สลับกริยา++"}
+    - {t: "it is", why: "ไม่สลับ และ it ซ้ำ"}
+    - {t: "has", why: "ไม่เข้ากับ more visible"}
+    - {t: "does", why: "does ไม่ตามด้วย the change more visible"}
+  explain: "==Nowhere + be + ประธาน + more...than== = ไม่มีที่ไหน...มากเท่า"
+  status: approved
+- id: cefr-c1-w10-051
+  kind: mcq
+  skill: gm
+  topic: comparison-advanced
+  level: 3
+  pool: true
+  stem: "The second film was nowhere near ____ the first."
+  choices:
+    - {t: "as good as", why: "ห่างไกลมาก ++nowhere near as ... as++"}
+    - {t: "so good than", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "better than", why: "nowhere near ไม่ใช้กับขั้นกว่า"}
+    - {t: "as good than", why: "ต้องเป็น as ... as"}
+  explain: "==nowhere near as + adj + as== = ไม่ได้ใกล้เคียงเลย"
+  status: approved
+- id: cefr-c1-w10-052
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  pool: true
+  stem: "The cost of the repair was ____: only a few baht."
+  choices:
+    - {t: "negligible", why: "น้อยจนไม่ต้องสนใจ = ++negligible++"}
+    - {t: "detrimental", why: "detrimental คือเป็นผลเสีย"}
+    - {t: "volatile", why: "volatile คือผันผวน"}
+    - {t: "contentious", why: "contentious คือเป็นที่ถกเถียง"}
+  explain: "negligible = ==น้อยมาก แทบไม่มีผล=="
+  status: approved
+- id: cefr-c1-w10-053
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 2
+  pool: true
+  stem: "Too much screen time can be ____ to children's sleep."
+  choices:
+    - {t: "detrimental", why: "เป็นผลเสีย = ++detrimental to++"}
+    - {t: "conducive", why: "ความหมายกลับกัน"}
+    - {t: "feasible", why: "feasible คือเป็นไปได้"}
+    - {t: "equitable", why: "equitable คือเป็นธรรม"}
+  explain: "detrimental ==to== = เป็นอันตรายต่อ"
+  status: approved
+- id: cefr-c1-w10-054
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 3
+  pool: true
+  stem: "Prices on the stock market have been very ____ this month."
+  choices:
+    - {t: "volatile", why: "ผันผวน = ++volatile++"}
+    - {t: "tangible", why: "tangible คือจับต้องได้"}
+    - {t: "inclusive", why: "inclusive คือครอบคลุมทุกคน"}
+    - {t: "equitable", why: "equitable คือเป็นธรรม"}
+  explain: "volatile = ==ผันผวนรวดเร็ว=="
+  status: approved
+- id: cefr-c1-w10-055
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 3
+  pool: true
+  stem: "Is it ____ to finish the bridge by June, or is that unrealistic?"
+  choices:
+    - {t: "feasible", why: "ทำได้จริง = ++feasible++"}
+    - {t: "trivial", why: "trivial คือเล็กน้อยไม่สำคัญ"}
+    - {t: "negligible", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "precarious", why: "precarious คือไม่มั่นคง"}
+  explain: "feasible = ==เป็นไปได้ ทำได้จริง=="
+  status: approved
+- id: cefr-c1-w10-056
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 3
+  pool: true
+  stem: "Flexible working hours are ____ to a healthy family life."
+  choices:
+    - {t: "conducive", why: "เอื้อต่อ = ++conducive to++"}
+    - {t: "detrimental", why: "ความหมายกลับกัน"}
+    - {t: "contentious", why: "contentious คือเป็นที่ถกเถียง"}
+    - {t: "volatile", why: "volatile คือผันผวน"}
+  explain: "conducive ==to== = เอื้ออำนวยต่อ"
+  status: approved
+- id: cefr-c1-w10-057
+  kind: mcq
+  skill: vo
+  topic: evaluation-words
+  level: 3
+  pool: true
+  stem: "After the storm, many families were living in ____ conditions."
+  choices:
+    - {t: "precarious", why: "ไม่มั่นคง เสี่ยง = ++precarious++"}
+    - {t: "tangible", why: "tangible คือจับต้องได้"}
+    - {t: "feasible", why: "feasible คือเป็นไปได้"}
+    - {t: "trivial", why: "trivial คือเล็กน้อย"}
+  explain: "precarious = ==ง่อนแง่น ไม่มั่นคง=="
+  status: approved
+- id: cefr-c1-w10-058
+  kind: read
+  skill: rd
+  topic: educational-equity
+  level: 2
+  pool: true
+  title: "Small Schools, Big Questions"
+  passage: |
+    Thailand has thousands of small rural schools, many with fewer than 120 students. Merging them into larger schools is often presented as an obvious solution: fewer buildings, more specialist teachers and better facilities.
+
+    Yet the policy remains contentious. For families in remote areas, a merged school may be an hour away. Longer journeys can be detrimental to attendance, particularly for younger children and girls whose parents worry about safety. Small schools also often serve as community centres, and their closure can have effects that are less tangible but no less real.
+
+    Some provinces are testing a middle path: keeping small schools open while sharing specialist teachers online and through rotating visits. Early results suggest this model is feasible, although it depends heavily on reliable internet access, which is far from universal.
+  questions:
+    - stem: "Why is merging schools often seen as attractive?"
+      choices:
+        - {t: "it brings more resources together", why: "fewer buildings, more specialist teachers and better facilities"}
+        - {t: "it shortens journeys", why: "ความหมายกลับกัน"}
+        - {t: "parents prefer it", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it is required by law", why: "ในบทไม่ได้พูดถึงกฎหมาย"}
+    - stem: "What concern about merging is mentioned?"
+      choices:
+        - {t: "lower attendance due to travel", why: "Longer journeys can be detrimental to attendance"}
+        - {t: "too many teachers", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "buildings being too large", why: "ในบทไม่ได้พูดเช่นนั้น (buildings being too large)"}
+        - {t: "higher internet costs", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What limits the \"middle path\" model?"
+      choices:
+        - {t: "unreliable internet in some areas", why: "depends heavily on reliable internet access, which is far from universal"}
+        - {t: "a lack of buildings", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "parents' opposition to teachers", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "its high cost", why: "ในบทไม่ได้พูดถึงค่าใช้จ่าย"}
+  status: approved
+- id: cefr-c1-w10-059
+  kind: listen
+  skill: li
+  topic: analytical-discussion
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Granted, the new tax is unpopular. Even so, without it, the hospital simply won't be built."}
+  questions:
+    - stem: "What is the woman's position?"
+      choices:
+        - {t: "she supports the tax despite its unpopularity", why: "Granted ... Even so"}
+        - {t: "she opposes the tax", why: "เธอสนับสนุน จึงใช้ไม่ได้"}
+        - {t: "she thinks the hospital isn't needed", why: "ความหมายกลับกัน"}
+        - {t: "she believes the tax is popular", why: "เธอยอมรับว่าไม่เป็นที่นิยม"}
+  status: approved
+- id: cefr-c1-w10-060
+  kind: listen
+  skill: li
+  topic: evaluation-words
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The difference between the two plans is trivial; let's not waste another hour on it."}
+  questions:
+    - stem: "What does the man want?"
+      choices:
+        - {t: "to stop discussing the minor difference", why: "The difference ... is trivial; let's not waste another hour"}
+        - {t: "to discuss the plans for another hour", why: "ความหมายกลับกัน"}
+        - {t: "to choose neither plan", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "to make a third plan", why: "ในบทไม่ได้พูดถึง"}
+  status: approved

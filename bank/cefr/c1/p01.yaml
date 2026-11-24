@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 1 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w01-043
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  pool: true
+  stem: "I ____ of applying for the manager's post, but I haven't made up my mind yet."
+  choices:
+    - {t: "have been thinking", why: "ความคิดที่ดำเนินมาถึงตอนนี้ ยังไม่จบ ++have been + -ing++"}
+    - {t: "have thought", why: "ฟังเหมือนตัดสินใจเสร็จแล้ว"}
+    - {t: "thought", why: "ตัดขาดจากปัจจุบัน ไม่เข้ากับ yet"}
+    - {t: "am thinking to", why: "think ไม่ตามด้วย to แบบนี้"}
+  explain: "ความคิด/ความตั้งใจที่ยังดำเนินอยู่ ==have been thinking of=="
+  status: approved
+- id: cefr-c1-w01-044
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 2
+  pool: true
+  stem: "The train ____ at 6.40 tomorrow, so we'll need a taxi to the station."
+  choices:
+    - {t: "leaves", why: "ตารางเวลาตายตัว ++present simple++"}
+    - {t: "will be leaving at to", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "has left", why: "ยังไม่ออก เพราะเป็นพรุ่งนี้"}
+    - {t: "is left", why: "ความหมายเป็น passive ผิดความ"}
+  explain: "ตารางที่กำหนดไว้แล้ว ==present simple== แม้เป็นอนาคต"
+  status: approved
+- id: cefr-c1-w01-045
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 3
+  pool: true
+  stem: "She ____ complaining about the noise. I wish she'd just speak to the neighbours."
+  choices:
+    - {t: "is always", why: "บ่นซ้ำจนน่ารำคาญ ++always + -ing++"}
+    - {t: "always is", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+    - {t: "has always", why: "has always complaining ผิดรูป"}
+    - {t: "always", why: "ขาด is จึงใช้ไม่ได้"}
+  explain: "==always + -ing== = ทำซ้ำจนน่ารำคาญ"
+  status: approved
+- id: cefr-c1-w01-046
+  kind: mcq
+  skill: gm
+  topic: tense-aspect-nuance
+  level: 3
+  pool: true
+  stem: "I ____ to ask whether you might be free to give a short talk next month."
+  choices:
+    - {t: "was wondering", why: "ถามอย่างสุภาพแบบถอยกาล ++was wondering++"}
+    - {t: "wondered", why: "ฟังห้วนกว่า และไม่ใช่สำนวนนี้"}
+    - {t: "am wonder", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "have wondered", why: "ไม่ใช่รูปขอร้องแบบสุภาพ"}
+  explain: "I ==was wondering== if/whether ... = ขอแบบสุภาพมาก"
+  status: approved
+- id: cefr-c1-w01-047
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 2
+  pool: true
+  stem: "You ____ well be right, but I'd still like to see the figures."
+  choices:
+    - {t: "may", why: "ยอมรับว่าเป็นไปได้ ++may well++"}
+    - {t: "must", why: "must well ไม่ใช่สำนวน"}
+    - {t: "should", why: "ไม่ใช่สำนวนที่ใช้แบบนี้"}
+    - {t: "will", why: "will well ไม่ใช่สำนวน"}
+  explain: "==may / might well== = น่าจะ...จริง (เป็นไปได้สูง)"
+  status: approved
+- id: cefr-c1-w01-048
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  pool: true
+  stem: "Staff ____ to wear ID badges at all times; this is not optional."
+  choices:
+    - {t: "are required", why: "ข้อบังคับทางการ ++be required to++"}
+    - {t: "are supposed", why: "ฟังเป็นกันเองและหลวมกว่า"}
+    - {t: "require", why: "ประธานไม่ได้เป็นผู้กำหนด"}
+    - {t: "must to", why: "หลัง must ไม่มี to"}
+  explain: "be ==required / obliged to== = ข้อบังคับทางการ"
+  status: approved
+- id: cefr-c1-w01-049
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  pool: true
+  stem: "It's ____ to know which road is faster at this time of day."
+  choices:
+    - {t: "hard", why: "ยากที่จะ ++hard to know++ (ระดับความแน่ใจต่ำ)"}
+    - {t: "bound", why: "bound to = แน่นอนว่าจะ ไม่ตรงความหมาย"}
+    - {t: "certain", why: "ความหมายกลับกัน"}
+    - {t: "sure to", why: "รูปผิด มี to ซ้ำ"}
+  explain: "==It's hard to say / know== = บอกได้ยาก"
+  status: approved
+- id: cefr-c1-w01-050
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  pool: true
+  stem: "With all that traffic, they're ____ to be late."
+  choices:
+    - {t: "bound", why: "แน่นอนว่าจะ ++be bound to++"}
+    - {t: "supposed", why: "supposed to = ควรจะ ไม่ตรง"}
+    - {t: "able", why: "able to = สามารถ ไม่ตรง"}
+    - {t: "due", why: "due to ใช้กับตารางเวลา"}
+  explain: "be ==bound to== + V1 = ต้อง...แน่นอน"
+  status: approved
+- id: cefr-c1-w01-051
+  kind: mcq
+  skill: gm
+  topic: modality-advanced
+  level: 3
+  pool: true
+  stem: "You ____ have told me the meeting was cancelled! I drove all the way here."
+  choices:
+    - {t: "might", why: "ตำหนิแบบประชด ++might have + V3++"}
+    - {t: "must", why: "must have = สรุปว่าทำแล้ว ไม่ใช่ตำหนิ"}
+    - {t: "can", why: "can have ไม่ใช้ในบอกเล่าแบบนี้"}
+    - {t: "will", why: "will have ไม่ใช่ตำหนิ"}
+  explain: "==You might have told me!== = น่าจะบอกกันบ้างนะ (ตำหนิ)"
+  status: approved
+- id: cefr-c1-w01-052
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  pool: true
+  stem: "Her speech was clear and ____, and she finished well within the time limit."
+  choices:
+    - {t: "concise", why: "กระชับ = ++concise++"}
+    - {t: "ambiguous", why: "ambiguous คือกำกวม"}
+    - {t: "implicit", why: "implicit คือแฝงไว้ ไม่พูดตรง"}
+    - {t: "nuance", why: "nuance เป็นคำนาม"}
+  explain: "concise = ==สั้น กระชับ ได้ใจความ=="
+  status: approved
+- id: cefr-c1-w01-053
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 2
+  pool: true
+  stem: "The instructions were so ____ that half the team misunderstood them."
+  choices:
+    - {t: "ambiguous", why: "กำกวม = ++ambiguous++"}
+    - {t: "explicit", why: "explicit คือชัดแจ้ง ตรงข้าม"}
+    - {t: "lucid", why: "lucid คือชัดเจน ตรงข้าม"}
+    - {t: "coherent", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "ambiguous = ==ตีความได้หลายทาง กำกวม=="
+  status: approved
+- id: cefr-c1-w01-054
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 3
+  pool: true
+  stem: "The contract makes it ____ that payment is due within thirty days."
+  choices:
+    - {t: "explicit", why: "ระบุชัดแจ้ง = ++explicit++"}
+    - {t: "implicit", why: "implicit คือโดยนัย ตรงข้าม"}
+    - {t: "ambiguous", why: "ambiguous คือกำกวม ตรงข้าม"}
+    - {t: "eloquent", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "make it explicit that = ==ระบุไว้ชัดเจนว่า=="
+  status: approved
+- id: cefr-c1-w01-055
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 3
+  pool: true
+  stem: "It's hard to ____ how grateful we are for your support."
+  choices:
+    - {t: "convey", why: "สื่อถ่ายทอด = ++convey++"}
+    - {t: "allude", why: "allude ต้องมี to"}
+    - {t: "concise", why: "concise เป็นคุณศัพท์"}
+    - {t: "connotation", why: "connotation เป็นคำนาม"}
+  explain: "convey = ==สื่อ ถ่ายทอด (ความรู้สึก ความหมาย)=="
+  status: approved
+- id: cefr-c1-w01-056
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 3
+  pool: true
+  stem: "In his speech, the minister ____ to problems in the last government, without naming anyone."
+  choices:
+    - {t: "alluded", why: "พาดพิงอ้อม ๆ = ++allude to++"}
+    - {t: "articulated", why: "articulate ไม่ตามด้วย to"}
+    - {t: "conveyed", why: "convey ไม่ตามด้วย to"}
+    - {t: "explicit", why: "explicit เป็นคุณศัพท์"}
+  explain: "allude ==to== = พาดพิงถึงอ้อม ๆ"
+  status: approved
+- id: cefr-c1-w01-057
+  kind: mcq
+  skill: vo
+  topic: precise-communication
+  level: 3
+  pool: true
+  stem: "\"Cheap\" can have a negative ____, so we say \"affordable\" in our adverts."
+  choices:
+    - {t: "connotation", why: "ความหมายแฝง = ++connotation++"}
+    - {t: "nuance", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "concise", why: "concise เป็นคุณศัพท์"}
+    - {t: "allude", why: "allude เป็นกริยา"}
+  explain: "connotation = ==ความหมายแฝง น้ำเสียงของคำ=="
+  status: approved
+- id: cefr-c1-w01-058
+  kind: read
+  skill: rd
+  topic: workplace-communication
+  level: 2
+  pool: true
+  title: "Why Clear Messages Save Money"
+  passage: |
+    A recent survey of 500 office workers found that unclear emails cost the average employee almost two hours a week. Most of this time was spent asking for clarification or correcting work that had been done wrongly.
+
+    The most common problem was not grammar but structure. Many messages buried the key request in the third or fourth paragraph, so readers missed it. Others relied on implicit assumptions, such as "the usual format" or "the same as last time", which new staff could not interpret.
+
+    Communication trainers suggest a simple rule: state the action and the deadline in the first sentence, then give the background. They also recommend avoiding ambiguous words like "soon" and "shortly". As one trainer put it, "If you mean Friday at noon, write Friday at noon."
+  questions:
+    - stem: "What did the survey find was the main cause of wasted time?"
+      choices:
+        - {t: "poorly organised messages", why: "The most common problem was not grammar but structure"}
+        - {t: "grammar mistakes", why: "ผลสำรวจบอกว่าไม่ใช่ไวยากรณ์"}
+        - {t: "too many meetings", why: "ในบทไม่ได้พูดถึงการประชุม"}
+        - {t: "slow internet connections", why: "ในบทไม่ได้พูดถึงอินเทอร์เน็ต"}
+    - stem: "Why do phrases like \"the usual format\" cause problems?"
+      choices:
+        - {t: "new staff may not know what they mean", why: "which new staff could not interpret"}
+        - {t: "they sound rude", why: "ในบทไม่ได้พูดว่าหยาบคาย"}
+        - {t: "they are too long", why: "ในบทไม่ได้พูดถึงความยาว"}
+        - {t: "managers dislike them", why: "ในบทไม่ได้พูดถึงผู้จัดการ"}
+    - stem: "What does the trainer's final quotation show?"
+      choices:
+        - {t: "the importance of being specific", why: "If you mean Friday at noon, write Friday at noon"}
+        - {t: "that deadlines should be flexible", why: "ความหมายกลับกัน"}
+        - {t: "that Friday is the best deadline", why: "เป็นเพียงตัวอย่าง"}
+        - {t: "that emails should be informal", why: "ในบทไม่ได้พูดถึงความเป็นกันเอง"}
+  status: approved
+- id: cefr-c1-w01-059
+  kind: listen
+  skill: li
+  topic: academic-lecture
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "What I'm suggesting isn't that we abandon the old method entirely, but that we use it alongside the new one for a trial period."}
+  questions:
+    - stem: "What does the speaker propose?"
+      choices:
+        - {t: "using both methods for a while", why: "use it alongside the new one for a trial period"}
+        - {t: "stopping the old method now", why: "เธอบอกว่าไม่ได้ให้เลิกทั้งหมด"}
+        - {t: "rejecting the new method", why: "เธอสนับสนุนการทดลองวิธีใหม่"}
+        - {t: "waiting before deciding anything", why: "ในบทไม่ได้พูดว่าให้รอ"}
+  status: approved
+- id: cefr-c1-w01-060
+  kind: listen
+  skill: li
+  topic: precise-communication
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The message was polite, but the implication was clear: if sales don't improve, the branch will close."}
+  questions:
+    - stem: "What did the message suggest without saying directly?"
+      choices:
+        - {t: "the branch might close", why: "the implication was clear ... the branch will close"}
+        - {t: "sales had already improved", why: "ความหมายกลับกัน"}
+        - {t: "the staff would get a bonus", why: "ในบทไม่ได้พูดถึงโบนัส"}
+        - {t: "the manager was leaving", why: "ในบทไม่ได้พูดถึงผู้จัดการลาออก"}
+  status: approved

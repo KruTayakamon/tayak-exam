@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 11 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w11-043
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 2
+  pool: true
+  stem: "\"It wasn't necessary for you to bring food.\" = You ____ food."
+  choices:
+    - {t: "needn't have brought", why: "ทำแล้วแต่ไม่จำเป็น ++needn't have + V3++"}
+    - {t: "mustn't have brought", why: "mustn't = ห้าม ไม่ตรง"}
+    - {t: "didn't need bring", why: "ขาด to จึงใช้ไม่ได้"}
+    - {t: "shouldn't bring", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "It wasn't necessary (but you did) = ==needn't have + V3=="
+  status: approved
+- id: cefr-c1-w11-044
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 2
+  pool: true
+  stem: "\"People say he is a talented chef.\" = He ____ a talented chef."
+  choices:
+    - {t: "is said to be", why: "passive รายงาน ++is said to be++"}
+    - {t: "says to be", why: "ประธานไม่ได้เป็นผู้พูด"}
+    - {t: "is saying to be", why: "รูปผิด จึงใช้ไม่ได้"}
+    - {t: "said being", why: "รูปผิด จึงใช้ไม่ได้ (said being)"}
+  explain: "People say he is → ==He is said to be=="
+  status: approved
+- id: cefr-c1-w11-045
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 3
+  pool: true
+  stem: "\"I regret not studying harder.\" = I wish ____ harder."
+  choices:
+    - {t: "I had studied", why: "wish + อดีต ++had + V3++"}
+    - {t: "I studied", why: "ต้องเป็น had + V3 สำหรับอดีต"}
+    - {t: "I would study", why: "ไม่ใช้ would กับตัวเองในอดีต"}
+    - {t: "to have studied", why: "ขาดประธาน จึงใช้ไม่ได้"}
+  explain: "regret not + -ing = ==wish + had + V3=="
+  status: approved
+- id: cefr-c1-w11-046
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 3
+  pool: true
+  stem: "\"She started teaching here ten years ago.\" = She ____ here for ten years."
+  choices:
+    - {t: "has been teaching", why: "ต่อเนื่องถึงปัจจุบัน ++has been + -ing++"}
+    - {t: "taught", why: "ต้องเชื่อมถึงปัจจุบัน"}
+    - {t: "is teaching", why: "for ten years ต้องใช้ present perfect"}
+    - {t: "had taught", why: "ไม่ใช่อดีตสมบูรณ์"}
+  explain: "started ... ago = ==has been + -ing + for=="
+  status: approved
+- id: cefr-c1-w11-047
+  kind: mcq
+  skill: gm
+  topic: transformations
+  level: 3
+  pool: true
+  stem: "\"Although he was tired, he finished the report.\" = ____ tired, he finished the report."
+  choices:
+    - {t: "Despite being", why: "despite + ++-ing++"}
+    - {t: "Despite he was", why: "despite ไม่ตามด้วยประโยค"}
+    - {t: "In spite he was", why: "ต้องมี of และไม่ใช่ประโยค"}
+    - {t: "Although being", why: "although ไม่ตามด้วย -ing แบบนี้"}
+  explain: "although + ประโยค = ==despite + -ing=="
+  status: approved
+- id: cefr-c1-w11-048
+  kind: mcq
+  skill: gm
+  topic: word-formation-advanced
+  level: 2
+  pool: true
+  stem: "The judge must remain ____ and treat both sides equally."
+  choices:
+    - {t: "impartial", why: "ไม่ลำเอียง ++im- + partial++"}
+    - {t: "unpartial", why: "partial ใช้ im- ไม่ใช่ un-"}
+    - {t: "inpartial", why: "ไม่มีคำนี้ จึงใช้ไม่ได้"}
+    - {t: "dispartial", why: "ไม่มีคำนี้ จึงใช้ไม่ได้ (dispartial)"}
+  explain: "partial → ==impartial== (ไม่ลำเอียง)"
+  status: approved
+- id: cefr-c1-w11-049
+  kind: mcq
+  skill: gm
+  topic: word-formation-advanced
+  level: 3
+  pool: true
+  stem: "The government plans to ____ the old railway lines."
+  choices:
+    - {t: "modernise", why: "ทำให้ทันสมัย ++-ise++"}
+    - {t: "modern", why: "modern เป็นคุณศัพท์"}
+    - {t: "modernity", why: "modernity เป็นคำนาม"}
+    - {t: "modernly", why: "ไม่ใช่คำที่ใช้ จึงใช้ไม่ได้"}
+  explain: "คุณศัพท์ + ==-ise / -ize== = ทำให้เป็น..."
+  status: approved
+- id: cefr-c1-w11-050
+  kind: mcq
+  skill: gm
+  topic: word-formation-advanced
+  level: 3
+  pool: true
+  stem: "Her ____ to detail is what makes her a great editor."
+  choices:
+    - {t: "attention", why: "คำนาม ++attention to detail++"}
+    - {t: "attentive", why: "attentive เป็นคุณศัพท์"}
+    - {t: "attentively", why: "attentively เป็นคำวิเศษณ์"}
+    - {t: "attend", why: "attend เป็นกริยา"}
+  explain: "หลัง her + ... + to ต้องเป็น ==คำนาม=="
+  status: approved
+- id: cefr-c1-w11-051
+  kind: mcq
+  skill: gm
+  topic: word-formation-advanced
+  level: 3
+  pool: true
+  stem: "The factory's ____ has doubled since the new machines arrived."
+  choices:
+    - {t: "productivity", why: "คำนาม ++productivity++ = ผลิตภาพ"}
+    - {t: "productive", why: "productive เป็นคุณศัพท์"}
+    - {t: "produce", why: "produce เป็นกริยา/สินค้าเกษตร"}
+    - {t: "producer", why: "producer คือผู้ผลิต"}
+  explain: "produce → productive → ==productivity=="
+  status: approved
+- id: cefr-c1-w11-052
+  kind: mcq
+  skill: vo
+  topic: learner-qualities
+  level: 2
+  pool: true
+  stem: "Children are naturally ____; they ask \"why?\" about everything."
+  choices:
+    - {t: "inquisitive", why: "ช่างสงสัย = ++inquisitive++"}
+    - {t: "impartial", why: "impartial คือไม่ลำเอียง"}
+    - {t: "intricate", why: "intricate คือซับซ้อน"}
+    - {t: "rigorous", why: "rigorous คือเข้มงวด"}
+  explain: "inquisitive = ==อยากรู้อยากเห็น=="
+  status: approved
+- id: cefr-c1-w11-053
+  kind: mcq
+  skill: vo
+  topic: learner-qualities
+  level: 2
+  pool: true
+  stem: "After losing her job, she was ____ and found a new one within a month."
+  choices:
+    - {t: "resilient", why: "ฟื้นตัวเร็ว = ++resilient++"}
+    - {t: "intricate", why: "intricate คือซับซ้อน"}
+    - {t: "authentic", why: "authentic คือแท้"}
+    - {t: "impartial", why: "impartial คือไม่ลำเอียง"}
+  explain: "resilient = ==ล้มแล้วลุกได้เร็ว=="
+  status: approved
+- id: cefr-c1-w11-054
+  kind: mcq
+  skill: vo
+  topic: learner-qualities
+  level: 3
+  pool: true
+  stem: "She's ____ at handling difficult customers without losing her temper."
+  choices:
+    - {t: "adept", why: "ชำนาญ = ++adept at++"}
+    - {t: "proficient", why: "proficient ใช้ in"}
+    - {t: "inquisitive", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "commendable", why: "commendable ใช้กับการกระทำ"}
+  explain: "adept ==at + -ing== = ชำนาญในการ"
+  status: approved
+- id: cefr-c1-w11-055
+  kind: mcq
+  skill: vo
+  topic: learner-qualities
+  level: 3
+  pool: true
+  stem: "The new rules were tested in a ____ trial over two years."
+  choices:
+    - {t: "rigorous", why: "เข้มงวดถี่ถ้วน = ++rigorous++"}
+    - {t: "resilient", why: "resilient คือฟื้นตัวเร็ว"}
+    - {t: "adept", why: "adept ใช้กับคน จึงใช้ไม่ได้"}
+    - {t: "inquisitive", why: "inquisitive ใช้กับคน"}
+  explain: "rigorous = ==เข้มงวด รัดกุม=="
+  status: approved
+- id: cefr-c1-w11-056
+  kind: mcq
+  skill: vo
+  topic: learner-qualities
+  level: 3
+  pool: true
+  stem: "The lawyer made a ____ case, and the jury was convinced."
+  choices:
+    - {t: "compelling", why: "น่าเชื่อจนคล้อยตาม = ++compelling++"}
+    - {t: "intricate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "impartial", why: "impartial คือไม่ลำเอียง"}
+    - {t: "commendable", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (commendable)"}
+  explain: "a compelling argument = ==ข้อโต้แย้งที่หนักแน่นน่าเชื่อ=="
+  status: approved
+- id: cefr-c1-w11-057
+  kind: mcq
+  skill: vo
+  topic: learner-qualities
+  level: 3
+  pool: true
+  stem: "The pattern on the old silk is so ____ that it took months to weave."
+  choices:
+    - {t: "intricate", why: "ซับซ้อนละเอียด = ++intricate++"}
+    - {t: "authentic", why: "authentic คือของแท้"}
+    - {t: "rigorous", why: "rigorous ใช้กับวิธี/การตรวจ"}
+    - {t: "resilient", why: "resilient คือทนทาน ฟื้นตัว"}
+  explain: "intricate = ==ซับซ้อนประณีต=="
+  status: approved
+- id: cefr-c1-w11-058
+  kind: read
+  skill: rd
+  topic: lifelong-learning
+  level: 2
+  pool: true
+  title: "Never Too Late: Learning at Sixty"
+  passage: |
+    When Khun Prasert retired at sixty, he expected to spend his time gardening. Instead, he enrolled in an online course on Thai history. "I was always inquisitive," he says, "but work never left me time to follow my interests."
+
+    He admits the start was hard. The video platform was unfamiliar, and he sometimes felt embarrassed asking younger classmates for help. But he discovered that his life experience was valuable in discussions, and several classmates said his comments made the topics feel more authentic.
+
+    Two years later, Prasert has completed four courses and now volunteers at a local museum, giving tours to school groups. Research supports his experience: older adults who keep learning tend to report better memory and a stronger sense of purpose, although scientists caution that more active people may simply be more likely to study in the first place.
+  questions:
+    - stem: "What difficulty did Prasert face at first?"
+      choices:
+        - {t: "using the online platform", why: "The video platform was unfamiliar"}
+        - {t: "understanding Thai history", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "paying the course fees", why: "ในบทไม่ได้พูดถึงค่าเรียน"}
+        - {t: "finding time after retirement", why: "ในบทไม่ได้พูดเช่นนั้น (finding time after retirement)"}
+    - stem: "How did his classmates view his contributions?"
+      choices:
+        - {t: "they valued his experience", why: "his comments made the topics feel more authentic"}
+        - {t: "they found them too long", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "they ignored them", why: "ความหมายกลับกัน"}
+        - {t: "they disagreed with him", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What caution do scientists add?"
+      choices:
+        - {t: "active people may be more likely to study anyway", why: "more active people may simply be more likely to study in the first place"}
+        - {t: "learning harms older adults' memory", why: "ความหมายกลับกัน"}
+        - {t: "online courses are not useful for people over sixty", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "museums are better than courses", why: "ในบทไม่ได้พูดถึง"}
+  status: approved
+- id: cefr-c1-w11-059
+  kind: listen
+  skill: li
+  topic: note-taking-lecture
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "The key point to note is this: practice spread over several days is far more effective than the same amount in one long session."}
+  questions:
+    - stem: "What is the speaker's key point?"
+      choices:
+        - {t: "spreading practice out works better", why: "practice spread over several days is far more effective"}
+        - {t: "long sessions are best", why: "ความหมายกลับกัน"}
+        - {t: "practice is unnecessary for most learners", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "one day is enough", why: "ความหมายกลับกัน (one day is enough)"}
+  status: approved
+- id: cefr-c1-w11-060
+  kind: listen
+  skill: li
+  topic: learner-qualities
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Her report was comprehensive, but frankly, it could have been half the length."}
+  questions:
+    - stem: "What does the man think of the report?"
+      choices:
+        - {t: "thorough but too long", why: "comprehensive, but ... could have been half the length"}
+        - {t: "short and incomplete", why: "ความหมายกลับกัน"}
+        - {t: "perfect as it is", why: "เขาติว่ายาวเกินไป"}
+        - {t: "full of mistakes", why: "ในบทไม่ได้พูดถึงข้อผิดพลาด"}
+  status: approved

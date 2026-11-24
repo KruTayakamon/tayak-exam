@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 5 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w05-043
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 2
+  pool: true
+  stem: "____ in 1902, the railway station is now a museum."
+  choices:
+    - {t: "Built", why: "ย่อ passive ++V3 ขึ้นต้น++ (= It was built)"}
+    - {t: "Building", why: "สถานีไม่ได้เป็นผู้สร้าง"}
+    - {t: "Having built", why: "ความหมายเป็น active"}
+    - {t: "To build", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==V3 + ..., ประธาน + กริยา== = ถูก...แล้ว"
+  status: approved
+- id: cefr-c1-w05-044
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 3
+  pool: true
+  stem: "____ her contract, she was free to accept the new offer."
+  choices:
+    - {t: "Having completed", why: "เสร็จก่อนอีกเรื่อง ++Having + V3++"}
+    - {t: "Completed", why: "ความหมายเป็น passive"}
+    - {t: "Being completed", why: "ความหมายเป็น passive (Being completed)"}
+    - {t: "Completing", why: "ไม่ชัดว่าเสร็จก่อน"}
+  explain: "==Having + V3== = หลังจากทำ...เสร็จ"
+  status: approved
+- id: cefr-c1-w05-045
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 3
+  pool: true
+  stem: "The weather ____, the outdoor concert was moved into the hall."
+  choices:
+    - {t: "being so bad", why: "absolute clause ++คำนาม + being...++"}
+    - {t: "was so bad", why: "ทำให้เป็นสองประโยคเชื่อมผิด"}
+    - {t: "been so bad", why: "ขาด having หรือ being"}
+    - {t: "to be so bad", why: "ไม่ใช่โครงสร้างนี้"}
+  explain: "==คำนาม + -ing + ..., ประโยคหลัก== (absolute clause)"
+  status: approved
+- id: cefr-c1-w05-046
+  kind: mcq
+  skill: gm
+  topic: participle-clauses-advanced
+  level: 3
+  pool: true
+  stem: "All things ____, it was a successful first year."
+  choices:
+    - {t: "considered", why: "สำนวน ++all things considered++"}
+    - {t: "considering", why: "สำนวนนี้ใช้ V3 จึงใช้ไม่ได้"}
+    - {t: "to consider", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "consider", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (consider)"}
+  explain: "==All things considered== = เมื่อพิจารณาทุกอย่างแล้ว"
+  status: approved
+- id: cefr-c1-w05-047
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  pool: true
+  stem: "\"Will the shop be open on Sunday?\" \"I'm afraid ____.\""
+  choices:
+    - {t: "not", why: "ตอบปฏิเสธแบบย่อ ++I'm afraid not++"}
+    - {t: "no", why: "I'm afraid no ไม่ใช่สำนวน"}
+    - {t: "it won't", why: "ต้องเป็น it won't be หรือ not"}
+    - {t: "don't", why: "ไม่ใช่โครงสร้างนี้"}
+  explain: "==I hope so / I'm afraid not== แทนทั้งประโยค"
+  status: approved
+- id: cefr-c1-w05-048
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 2
+  pool: true
+  stem: "I didn't want to go to the meeting, but I had ____."
+  choices:
+    - {t: "to", why: "ละกริยาหลัง to ++had to (go)++"}
+    - {t: "it", why: "it ไม่แทนกริยาแบบนี้"}
+    - {t: "so", why: "so ไม่ใช้หลัง had to"}
+    - {t: "do", why: "do ไม่ใช้หลัง had แบบนี้"}
+  explain: "ละกริยาซ้ำ เหลือ ==to== (I had to.)"
+  status: approved
+- id: cefr-c1-w05-049
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 3
+  pool: true
+  stem: "She can speak Korean, and ____ her brother."
+  choices:
+    - {t: "so can", why: "เห็นด้วยแบบบวก ++so + กริยาช่วย + ประธาน++"}
+    - {t: "so does", why: "กริยาช่วยต้องตรงกับ can"}
+    - {t: "neither can", why: "ความหมายปฏิเสธ จึงใช้ไม่ได้"}
+    - {t: "also can", why: "ลำดับคำผิด จึงใช้ไม่ได้"}
+  explain: "==so + กริยาช่วย + ประธาน== = ก็เช่นกัน"
+  status: approved
+- id: cefr-c1-w05-050
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 3
+  pool: true
+  stem: "These mugs are chipped. Do you have any plain white ____?"
+  choices:
+    - {t: "ones", why: "แทนคำนามพหูพจน์ ++ones++"}
+    - {t: "one", why: "shoes เป็นพหูพจน์"}
+    - {t: "them", why: "them ใช้กับของชุดเดิมที่พูดถึง"}
+    - {t: "it", why: "it ใช้กับเอกพจน์ชิ้นเดิม"}
+  explain: "==one / ones== แทนคำนามที่พูดไปแล้ว"
+  status: approved
+- id: cefr-c1-w05-051
+  kind: mcq
+  skill: gm
+  topic: ellipsis-substitution
+  level: 3
+  pool: true
+  stem: "Some of the staff agreed with the plan; ____ did not."
+  choices:
+    - {t: "others", why: "แทน other staff ++others++"}
+    - {t: "another", why: "another ใช้กับเอกพจน์"}
+    - {t: "the other", why: "ต้องมีคำนามตาม จึงใช้ไม่ได้"}
+    - {t: "other", why: "other ต้องมีคำนามตาม"}
+  explain: "==others== = คนอื่น ๆ (ใช้แทนคำนาม)"
+  status: approved
+- id: cefr-c1-w05-052
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  pool: true
+  stem: "For the sake of ____, I'll only mention the three main findings."
+  choices:
+    - {t: "brevity", why: "ความกระชับ = ++for the sake of brevity++"}
+    - {t: "succinct", why: "succinct เป็นคุณศัพท์"}
+    - {t: "pertinent", why: "pertinent เป็นคุณศัพท์"}
+    - {t: "digress", why: "digress เป็นกริยา"}
+  explain: "for the sake of brevity = ==เพื่อความกระชับ=="
+  status: approved
+- id: cefr-c1-w05-053
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 2
+  pool: true
+  stem: "Sorry, I ____. Let's get back to the budget."
+  choices:
+    - {t: "digressed", why: "ออกนอกเรื่อง = ++digress++"}
+    - {t: "elicited", why: "elicit คือดึงคำตอบ"}
+    - {t: "delineated", why: "delineate คืออธิบายให้ชัด"}
+    - {t: "formulated", why: "formulate คือคิดวางแผน"}
+  explain: "digress = ==พูดออกนอกเรื่อง=="
+  status: approved
+- id: cefr-c1-w05-054
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 3
+  pool: true
+  stem: "The report ____ how responsibilities will be shared between the two departments."
+  choices:
+    - {t: "delineates", why: "อธิบายขอบเขตให้ชัด = ++delineate++"}
+    - {t: "digresses", why: "digress คือออกนอกเรื่อง"}
+    - {t: "elicits", why: "elicit ต้องมีสิ่งที่ดึงออกมา"}
+    - {t: "disseminates", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "delineate = ==ระบุขอบเขตให้ชัดเจน=="
+  status: approved
+- id: cefr-c1-w05-055
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 3
+  pool: true
+  stem: "The aim of the survey is to ____ honest opinions from customers."
+  choices:
+    - {t: "elicit", why: "ดึงออกมา = ++elicit opinions++"}
+    - {t: "digress", why: "digress ไม่มีกรรม"}
+    - {t: "encompass", why: "encompass คือครอบคลุม"}
+    - {t: "exemplify", why: "exemplify คือเป็นตัวอย่าง"}
+  explain: "elicit = ==กระตุ้นให้ได้ (คำตอบ ข้อมูล)=="
+  status: approved
+- id: cefr-c1-w05-056
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 3
+  pool: true
+  stem: "The new rules ____ all forms of transport, including bicycles."
+  choices:
+    - {t: "encompass", why: "ครอบคลุม = ++encompass++"}
+    - {t: "elicit", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "delineate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (delineate)"}
+    - {t: "disseminate", why: "disseminate คือเผยแพร่"}
+  explain: "encompass = ==ครอบคลุม รวมถึง=="
+  status: approved
+- id: cefr-c1-w05-057
+  kind: mcq
+  skill: vo
+  topic: summarising-ideas
+  level: 3
+  pool: true
+  stem: "Only ____ questions, please; we have just ten minutes left."
+  choices:
+    - {t: "pertinent", why: "ตรงประเด็น = ++pertinent++"}
+    - {t: "rudimentary", why: "rudimentary คือเบื้องต้น"}
+    - {t: "digress", why: "digress เป็นกริยา"}
+    - {t: "brevity", why: "brevity เป็นคำนาม"}
+  explain: "pertinent = ==ตรงประเด็น เกี่ยวข้องโดยตรง=="
+  status: approved
+- id: cefr-c1-w05-058
+  kind: read
+  skill: rd
+  topic: book-review
+  level: 2
+  pool: true
+  title: "Book Review: \"Learning Without Walls\" by Dr Siriporn K."
+  passage: |
+    This short book argues that adults learn best when lessons are connected to their daily work. Drawing on interviews with 80 adult learners, the author shows that those who applied new skills within a week remembered far more than those who did not.
+
+    The book's greatest strength is its brevity. In just 140 pages, Dr Siriporn delineates a clear model and exemplifies each stage with real stories. Teachers and trainers will find the final chapter, which contains ready-made activities, especially pertinent.
+
+    However, the research base is rather narrow. All participants worked in urban offices, so it is unclear whether the findings apply to farmers or factory workers. A wider study would make the argument more cogent.
+  questions:
+    - stem: "What is the book's main argument?"
+      choices:
+        - {t: "adults learn best by applying skills at work", why: "adults learn best when lessons are connected to their daily work"}
+        - {t: "adults should study in classrooms", why: "ความหมายไม่ตรงกับบท"}
+        - {t: "short books are easier to read", why: "เป็นจุดแข็ง ไม่ใช่ข้อโต้แย้งหลัก"}
+        - {t: "interviews are the best research method", why: "ในบทไม่ได้พูดเช่นนั้น"}
+    - stem: "What does the reviewer praise?"
+      choices:
+        - {t: "its short, clear presentation", why: "The book's greatest strength is its brevity"}
+        - {t: "its large number of participants", why: "ผู้วิจารณ์บอกว่าฐานข้อมูลแคบ"}
+        - {t: "its focus on farmers", why: "ไม่มีชาวนาในการศึกษา"}
+        - {t: "its long final chapter", why: "ในบทไม่ได้พูดถึงความยาว"}
+    - stem: "What is the reviewer's main criticism?"
+      choices:
+        - {t: "the participants were all from similar jobs", why: "All participants worked in urban offices"}
+        - {t: "the book is too long", why: "ผู้วิจารณ์ชมความกระชับ"}
+        - {t: "the stories are not real", why: "เรื่องเล่าเป็นเรื่องจริง"}
+        - {t: "the activities are difficult", why: "ในบทไม่ได้พูดว่ายาก"}
+  status: approved
+- id: cefr-c1-w05-059
+  kind: listen
+  skill: li
+  topic: lecture-reference
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "As I mentioned earlier, the first study had only twenty participants. The second, which I'll describe now, had over two thousand."}
+  questions:
+    - stem: "What is different about the second study?"
+      choices:
+        - {t: "it was much larger", why: "The second ... had over two thousand"}
+        - {t: "it had twenty participants", why: "เป็นงานวิจัยแรก"}
+        - {t: "it was done earlier", why: "ในบทไม่ได้พูดถึงเวลา"}
+        - {t: "it had the same size", why: "ขนาดต่างกันมาก จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-c1-w05-060
+  kind: listen
+  skill: li
+  topic: summarising-ideas
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "To put it succinctly: the plan is good, the timing is bad."}
+  questions:
+    - stem: "What is the man's opinion of the plan?"
+      choices:
+        - {t: "it's sound but badly timed", why: "the plan is good, the timing is bad"}
+        - {t: "it is completely wrong", why: "เขาบอกว่าแผนดี จึงใช้ไม่ได้"}
+        - {t: "the timing is perfect", why: "เขาบอกว่าจังหวะไม่ดี"}
+        - {t: "it is too short", why: "ในบทไม่ได้พูดถึงความยาว"}
+  status: approved

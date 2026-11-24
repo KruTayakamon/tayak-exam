@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 7 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w07-043
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 2
+  pool: true
+  stem: "The project was completed on time; ____, it came in under budget."
+  choices:
+    - {t: "what is more", why: "เพิ่มข้อดีอีกข้อ ++what is more++"}
+    - {t: "on the contrary", why: "on the contrary ใช้แย้งข้อความก่อน"}
+    - {t: "nonetheless", why: "nonetheless บอกความขัดแย้ง"}
+    - {t: "hence", why: "hence บอกผล จึงใช้ไม่ได้"}
+  explain: "==What is more / Furthermore== = ยิ่งไปกว่านั้น"
+  status: approved
+- id: cefr-c1-w07-044
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 3
+  pool: true
+  stem: "The evidence is limited. ____, the conclusions should be treated with caution."
+  choices:
+    - {t: "Hence", why: "ด้วยเหตุนี้ (ทางการ) ++Hence++"}
+    - {t: "Whereas", why: "whereas ไม่ขึ้นต้นประโยคแบบนี้"}
+    - {t: "Notwithstanding", why: "ต้องมีคำนามตาม จึงใช้ไม่ได้"}
+    - {t: "Albeit", why: "albeit ไม่ขึ้นต้นประโยค"}
+  explain: "==Hence / Thus== = ด้วยเหตุนี้ (ทางการ)"
+  status: approved
+- id: cefr-c1-w07-045
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 3
+  pool: true
+  stem: "The plan was approved, ____ with some reluctance."
+  choices:
+    - {t: "albeit", why: "แม้ว่า (ย่อ) ++albeit + คำ/วลี++"}
+    - {t: "although", why: "although ต้องตามด้วยประโยค"}
+    - {t: "despite", why: "despite ไม่ใช้ with แบบนี้"}
+    - {t: "whereas", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==albeit + คำ/วลี== = แม้จะ...ก็ตาม (ทางการ)"
+  status: approved
+- id: cefr-c1-w07-046
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 3
+  pool: true
+  stem: "I don't think the meeting was a waste of time. ____, it was the most useful one this year."
+  choices:
+    - {t: "On the contrary", why: "แย้งความเห็นก่อนหน้า ++On the contrary++"}
+    - {t: "In contrast", why: "in contrast เปรียบสองสิ่ง ไม่ได้แย้ง"}
+    - {t: "Conversely", why: "conversely คือกลับกัน ไม่ตรง"}
+    - {t: "Nevertheless", why: "ไม่ได้บอกความขัดแย้งแบบนี้"}
+  explain: "==On the contrary== = ตรงกันข้ามเลย (แย้งสิ่งที่เพิ่งพูด)"
+  status: approved
+- id: cefr-c1-w07-047
+  kind: mcq
+  skill: gm
+  topic: advanced-linking
+  level: 3
+  pool: true
+  stem: "____ the doctor's advice, he continued to work long hours."
+  choices:
+    - {t: "Notwithstanding", why: "แม้จะมี (ทางการ) ++notwithstanding + คำนาม++"}
+    - {t: "Albeit", why: "albeit ไม่ตามด้วยคำนามแบบนี้"}
+    - {t: "Whereas", why: "whereas ต้องตามด้วยประโยค"}
+    - {t: "Even though", why: "even though ต้องตามด้วยประโยค"}
+  explain: "==Notwithstanding + คำนาม== = แม้จะ...(ทางการมาก)"
+  status: approved
+- id: cefr-c1-w07-048
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 2
+  pool: true
+  stem: "Prices rose by 5 per cent in May. ____ increase was the largest this year."
+  choices:
+    - {t: "This", why: "อ้างถึงสิ่งที่เพิ่งพูด ++This + คำนาม++"}
+    - {t: "It", why: "it ไม่ตามด้วยคำนาม"}
+    - {t: "Such", why: "such ต้องมี a/an หรือพหูพจน์"}
+    - {t: "That's", why: "ไม่ใช่รูปที่ใช้"}
+  explain: "==This / That + คำนาม== อ้างถึงประโยคก่อน"
+  status: approved
+- id: cefr-c1-w07-049
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 3
+  pool: true
+  stem: "Some critics praised the film; ____ found it far too long."
+  choices:
+    - {t: "others", why: "ส่วนอื่น ++others++ (some ... others)"}
+    - {t: "another", why: "another ใช้กับเอกพจน์"}
+    - {t: "the other", why: "ต้องมีคำนามตาม จึงใช้ไม่ได้"}
+    - {t: "the others one", why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==some ... others== = บางคน...บางคน"
+  status: approved
+- id: cefr-c1-w07-050
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 3
+  pool: true
+  stem: "The first option is cheap; the second is fast. I'd choose ____, as speed matters more."
+  choices:
+    - {t: "the latter", why: "ตัวหลัง ++the latter++"}
+    - {t: "the former", why: "the former คือตัวแรก"}
+    - {t: "the later", why: "later คือภายหลัง ไม่ใช่ตัวหลัง"}
+    - {t: "the last one of", why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "the former ตัวแรก · ==the latter ตัวหลัง=="
+  status: approved
+- id: cefr-c1-w07-051
+  kind: mcq
+  skill: gm
+  topic: discourse-reference
+  level: 3
+  pool: true
+  stem: "Many people want to work from home. ____ being so, offices are becoming smaller."
+  choices:
+    - {t: "That", why: "สำนวน ++That being so++"}
+    - {t: "It", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้"}
+    - {t: "Such", why: "ไม่ใช่สำนวน จึงใช้ไม่ได้ (Such)"}
+    - {t: "This is", why: "ผิดรูป จึงใช้ไม่ได้"}
+  explain: "==That being so / This being the case== = เมื่อเป็นเช่นนั้น"
+  status: approved
+- id: cefr-c1-w07-052
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  pool: true
+  stem: "Mobile phones are now ____; you see them everywhere, even in remote villages."
+  choices:
+    - {t: "ubiquitous", why: "มีอยู่ทุกหนแห่ง = ++ubiquitous++"}
+    - {t: "intrinsic", why: "intrinsic คือในตัวเอง"}
+    - {t: "holistic", why: "holistic คือองค์รวม"}
+    - {t: "subsequent", why: "subsequent คือที่ตามมา"}
+  explain: "ubiquitous = ==มีอยู่ทุกที่=="
+  status: approved
+- id: cefr-c1-w07-053
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 2
+  pool: true
+  stem: "There is a growing ____ between incomes in the city and in rural areas."
+  choices:
+    - {t: "disparity", why: "ความเหลื่อมล้ำ = ++disparity between++"}
+    - {t: "dichotomy", why: "dichotomy คือการแบ่งสองขั้วชัด"}
+    - {t: "juxtaposition", why: "juxtaposition คือการวางเทียบ"}
+    - {t: "culminate", why: "culminate เป็นกริยา"}
+  explain: "disparity ==between== = ความแตกต่างเหลื่อมล้ำ"
+  status: approved
+- id: cefr-c1-w07-054
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 3
+  pool: true
+  stem: "The festival ____ in a huge fireworks display over the river."
+  choices:
+    - {t: "culminated", why: "ปิดท้ายถึงจุดสูงสุด = ++culminate in++"}
+    - {t: "subsequent", why: "subsequent เป็นคุณศัพท์"}
+    - {t: "pervasive", why: "pervasive เป็นคุณศัพท์"}
+    - {t: "prevalent", why: "prevalent เป็นคุณศัพท์"}
+  explain: "culminate ==in== = จบลงด้วย (จุดสูงสุด)"
+  status: approved
+- id: cefr-c1-w07-055
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 3
+  pool: true
+  stem: "A ____ approach looks at the patient's lifestyle, not just the illness."
+  choices:
+    - {t: "holistic", why: "แบบองค์รวม = ++holistic++"}
+    - {t: "ubiquitous", why: "ubiquitous คือมีทุกที่"}
+    - {t: "subsequent", why: "subsequent คือที่ตามมา"}
+    - {t: "disparity", why: "disparity เป็นคำนาม"}
+  explain: "holistic = ==มองแบบองค์รวม=="
+  status: approved
+- id: cefr-c1-w07-056
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 3
+  pool: true
+  stem: "Diabetes is becoming more ____ among young adults."
+  choices:
+    - {t: "prevalent", why: "แพร่หลายพบบ่อย = ++prevalent among++"}
+    - {t: "intrinsic", why: "intrinsic คือมีอยู่ในตัว"}
+    - {t: "holistic", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "overarching", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้ (overarching)"}
+  explain: "prevalent ==among== = พบได้บ่อยใน"
+  status: approved
+- id: cefr-c1-w07-057
+  kind: mcq
+  skill: vo
+  topic: analysis-overview
+  level: 3
+  pool: true
+  stem: "The first report was ignored, but ____ studies confirmed the problem."
+  choices:
+    - {t: "subsequent", why: "ที่ตามมาภายหลัง = ++subsequent++"}
+    - {t: "intrinsic", why: "intrinsic คือในตัวเอง"}
+    - {t: "ubiquitous", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "inherent", why: "inherent คือมีอยู่โดยธรรมชาติ"}
+  explain: "subsequent = ==ที่ตามมาภายหลัง=="
+  status: approved
+- id: cefr-c1-w07-058
+  kind: read
+  skill: rd
+  topic: analytical-article
+  level: 2
+  pool: true
+  title: "The Rise and Limits of the Gig Economy"
+  passage: |
+    Over the past decade, app-based work, from food delivery to freelance design, has become ubiquitous in Thai cities. Supporters point to its flexibility: workers can choose when and how much to work. For students and parents with young children, this is a genuine advantage.
+
+    However, the flexibility comes at a cost. Most gig workers have no paid leave, no health insurance from their employer, and no guaranteed income. A rainy week or a change in the app's pay rates can halve their earnings. This risk is not incidental; it is inherent in a model that treats workers as independent contractors.
+
+    The overarching question, then, is not whether the gig economy should exist, but how its benefits can be preserved while its risks are shared more fairly. Some countries now require platforms to contribute to accident insurance, a modest but meaningful first step.
+  questions:
+    - stem: "Who benefits most from the flexibility, according to the article?"
+      choices:
+        - {t: "students and parents with young children", why: "For students and parents with young children, this is a genuine advantage"}
+        - {t: "full-time office workers", why: "ในบทไม่ได้พูดถึงพนักงานประจำ"}
+        - {t: "app companies only", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "older workers", why: "ในบทไม่ได้พูดถึงผู้สูงวัย"}
+    - stem: "What does \"inherent\" suggest about the risk?"
+      choices:
+        - {t: "it is built into the model itself", why: "it is inherent in a model that treats workers as independent contractors"}
+        - {t: "it happens only by accident", why: "บทบอกว่าไม่ใช่เรื่องบังเอิญ"}
+        - {t: "it affects only some apps", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "it can easily be removed", why: "ในบทไม่ได้พูดเช่นนั้น (it can easily be removed)"}
+    - stem: "What does the writer think the main question is?"
+      choices:
+        - {t: "how to keep benefits while sharing risks fairly", why: "how its benefits can be preserved while its risks are shared more fairly"}
+        - {t: "whether to ban the gig economy", why: "บทบอกว่าไม่ใช่คำถามหลัก"}
+        - {t: "which app pays the most", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "why it is raining more often", why: "ในบทไม่ได้พูดถึง (why it is raining more often)"}
+  status: approved
+- id: cefr-c1-w07-059
+  kind: listen
+  skill: li
+  topic: structured-lecture
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Having looked at the causes, I'll now turn to the consequences, and finally I'll suggest some solutions."}
+  questions:
+    - stem: "What will the speaker talk about next?"
+      choices:
+        - {t: "the consequences", why: "I'll now turn to the consequences"}
+        - {t: "the causes", why: "ผู้พูดพูดถึงสาเหตุไปแล้ว"}
+        - {t: "the solutions", why: "เป็นหัวข้อสุดท้าย"}
+        - {t: "the history", why: "ในบทไม่ได้พูดถึงประวัติ"}
+  status: approved
+- id: cefr-c1-w07-060
+  kind: listen
+  skill: li
+  topic: analysis-overview
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The study juxtaposes two villages: one with a new road and one without. The contrast in school attendance is striking."}
+  questions:
+    - stem: "What does the study do?"
+      choices:
+        - {t: "compares two villages", why: "juxtaposes two villages"}
+        - {t: "builds a new road", why: "ในบทไม่ได้พูดว่าการศึกษาสร้างถนน"}
+        - {t: "studies one school", why: "ศึกษาสองหมู่บ้าน"}
+        - {t: "asks villagers about roads", why: "ในบทไม่ได้พูดถึงการสัมภาษณ์"}
+  status: approved

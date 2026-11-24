@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 8 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w08-043
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  pool: true
+  stem: "The company has ____ a lot of criticism over its new pricing."
+  choices:
+    - {t: "attracted", why: "คำคู่ ++attract criticism++"}
+    - {t: "made", why: "make criticism ไม่ใช่คำคู่ที่ใช้"}
+    - {t: "done", why: "do criticism ไม่ใช่คำคู่"}
+    - {t: "raised", why: "raise criticism ไม่ค่อยใช้"}
+  explain: "==attract / draw / face criticism== = ถูกวิจารณ์"
+  status: approved
+- id: cefr-c1-w08-044
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 2
+  pool: true
+  stem: "We need to ____ a balance between cost and quality."
+  choices:
+    - {t: "strike", why: "คำคู่ ++strike a balance++"}
+    - {t: "hit", why: "hit a balance ไม่ใช่คำคู่"}
+    - {t: "make", why: "make a balance ไม่ใช่สำนวน"}
+    - {t: "take", why: "take a balance ไม่ใช่สำนวน"}
+  explain: "==strike a balance== = หาจุดสมดุล"
+  status: approved
+- id: cefr-c1-w08-045
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 3
+  pool: true
+  stem: "The new law will come into ____ on 1 January."
+  choices:
+    - {t: "effect", why: "สำนวน ++come into effect++"}
+    - {t: "force on", why: "มี on เกิน จึงใช้ไม่ได้"}
+    - {t: "action", why: "come into action ความหมายไม่ตรง"}
+    - {t: "power", why: "come into power ใช้กับรัฐบาล"}
+  explain: "==come into effect / force== = มีผลบังคับใช้"
+  status: approved
+- id: cefr-c1-w08-046
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 3
+  pool: true
+  stem: "Her arguments ____ little weight with the committee."
+  choices:
+    - {t: "carried", why: "คำคู่ ++carry weight++"}
+    - {t: "had", why: "have weight ไม่ใช่คำคู่ในความหมายนี้"}
+    - {t: "took", why: "take weight ไม่ใช่สำนวน"}
+    - {t: "made", why: "make weight ไม่ใช่สำนวน"}
+  explain: "==carry weight== = มีน้ำหนัก (น่าเชื่อถือ)"
+  status: approved
+- id: cefr-c1-w08-047
+  kind: mcq
+  skill: gm
+  topic: collocation-advanced
+  level: 3
+  pool: true
+  stem: "The decision was taken in ____ consultation with local residents."
+  choices:
+    - {t: "close", why: "คำคู่ ++close consultation++"}
+    - {t: "near", why: "near consultation ไม่ใช่คำคู่"}
+    - {t: "tight", why: "tight consultation ไม่ใช่คำคู่"}
+    - {t: "heavy", why: "heavy consultation ไม่ใช่คำคู่"}
+  explain: "in ==close consultation / cooperation== with"
+  status: approved
+- id: cefr-c1-w08-048
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 2
+  pool: true
+  stem: "The meeting has been ____ until further notice."
+  choices:
+    - {t: "postponed", why: "ทางการ ++postpone++ (= put off)"}
+    - {t: "put away", why: "put away คือเก็บ"}
+    - {t: "called up", why: "call up คือโทร/เรียกเกณฑ์"}
+    - {t: "held on", why: "hold on คือรอ จึงใช้ไม่ได้"}
+  explain: "ทางการ ==postpone== · กลาง ๆ put off"
+  status: approved
+- id: cefr-c1-w08-049
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 3
+  pool: true
+  stem: "____ the survey results, customers prefer shorter opening hours. (formal)"
+  choices:
+    - {t: "According to", why: "ทางการ ++According to++"}
+    - {t: "Going by", why: "ฟังเป็นกันเอง จึงใช้ไม่ได้"}
+    - {t: "As for", why: "as for = ส่วน... ไม่ตรง"}
+    - {t: "By the look of", why: "ฟังเป็นกันเอง จึงใช้ไม่ได้ (By the look of)"}
+  explain: "ทางการ ==According to / In accordance with=="
+  status: approved
+- id: cefr-c1-w08-050
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 3
+  pool: true
+  stem: "The committee will ____ the complaint at its next meeting. (formal)"
+  choices:
+    - {t: "consider", why: "ทางการ ++consider++ (= look into)"}
+    - {t: "look over", why: "ฟังเป็นกันเอง จึงใช้ไม่ได้"}
+    - {t: "go into it", why: "มี it เกิน จึงใช้ไม่ได้"}
+    - {t: "check out", why: "ฟังเป็นกันเองเกินไป"}
+  explain: "ทางการ ==consider / investigate== · กลาง ๆ look into"
+  status: approved
+- id: cefr-c1-w08-051
+  kind: mcq
+  skill: gm
+  topic: prepositions-phrasal-register
+  level: 3
+  pool: true
+  stem: "Applicants must comply ____ all the conditions listed below."
+  choices:
+    - {t: "with", why: "คำคู่ ++comply with++"}
+    - {t: "to", why: "comply ไม่ใช้ to"}
+    - {t: "by", why: "comply ไม่ใช้ by"}
+    - {t: "for", why: "comply ไม่ใช้ for"}
+  explain: "==comply with== = ปฏิบัติตาม"
+  status: approved
+- id: cefr-c1-w08-052
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  pool: true
+  stem: "Painkillers can ____ the symptoms, but they don't cure the illness."
+  choices:
+    - {t: "alleviate", why: "บรรเทา = ++alleviate++"}
+    - {t: "thwart", why: "thwart คือขัดขวางแผน"}
+    - {t: "expedite", why: "expedite คือเร่ง"}
+    - {t: "circumvent", why: "circumvent คือเลี่ยง"}
+  explain: "alleviate = ==บรรเทา (อาการ ความทุกข์)=="
+  status: approved
+- id: cefr-c1-w08-053
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 2
+  pool: true
+  stem: "Heavy rain ____ the rescue efforts."
+  choices:
+    - {t: "hampered", why: "ขัดขวางให้ยาก = ++hamper++"}
+    - {t: "ameliorated", why: "ameliorate คือทำให้ดีขึ้น"}
+    - {t: "expedited", why: "expedite คือเร่ง"}
+    - {t: "alleviated", why: "ความหมายกลับกัน"}
+  explain: "hamper = ==ทำให้ติดขัด ยากขึ้น=="
+  status: approved
+- id: cefr-c1-w08-054
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 3
+  pool: true
+  stem: "The police ____ the robbers' plan to escape across the border."
+  choices:
+    - {t: "thwarted", why: "ทำให้แผนล้ม = ++thwart a plan++"}
+    - {t: "mitigated", why: "mitigate คือลดความรุนแรง"}
+    - {t: "alleviated", why: "alleviate คือบรรเทา"}
+    - {t: "expedited", why: "expedite คือเร่ง"}
+  explain: "thwart = ==ขัดขวางจนแผนล้ม=="
+  status: approved
+- id: cefr-c1-w08-055
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 3
+  pool: true
+  stem: "Some companies try to ____ the rules by hiring staff as freelancers."
+  choices:
+    - {t: "circumvent", why: "หาทางเลี่ยง = ++circumvent++"}
+    - {t: "deter", why: "deter คือยับยั้ง"}
+    - {t: "curtail", why: "curtail คือตัดลด"}
+    - {t: "mitigate", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "circumvent = ==หาทางเลี่ยง (กฎ ปัญหา)=="
+  status: approved
+- id: cefr-c1-w08-056
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 3
+  pool: true
+  stem: "Higher fines are meant to ____ people from dropping litter."
+  choices:
+    - {t: "deter", why: "ยับยั้ง = ++deter someone from++"}
+    - {t: "curtail", why: "curtail ไม่ตามด้วยคน + from"}
+    - {t: "hamper", why: "hamper ไม่ตามด้วย from แบบนี้"}
+    - {t: "expedite", why: "ความหมายกลับกัน"}
+  explain: "deter someone ==from + -ing== = ทำให้ไม่กล้า"
+  status: approved
+- id: cefr-c1-w08-057
+  kind: mcq
+  skill: vo
+  topic: reduce-obstruct
+  level: 3
+  pool: true
+  stem: "Can we ____ the visa process? The conference starts next week."
+  choices:
+    - {t: "expedite", why: "เร่งรัด = ++expedite++"}
+    - {t: "impede", why: "ความหมายกลับกัน"}
+    - {t: "curtail", why: "curtail คือตัดลด"}
+    - {t: "undermine", why: "undermine คือบ่อนทำลาย"}
+  explain: "expedite = ==เร่งให้เร็วขึ้น=="
+  status: approved
+- id: cefr-c1-w08-058
+  kind: read
+  skill: rd
+  topic: policy-report
+  level: 2
+  pool: true
+  title: "Summary: Reducing Road Deaths in Riverside Province (Fictional)"
+  passage: |
+    Road accidents remain the leading cause of death among people aged 15 to 29 in the province. Most involve motorbikes, and in 70 per cent of cases the rider was not wearing a helmet.
+
+    This report recommends three measures. First, stricter enforcement of helmet laws, which evidence from other provinces suggests can deter risky behaviour within months. Second, better street lighting on rural roads, where poor visibility hampers drivers at night. Third, free riding courses for new licence holders.
+
+    The report acknowledges that enforcement alone cannot solve the problem. Unless young people see helmets as normal rather than inconvenient, fines may simply encourage riders to circumvent checkpoints by using smaller roads.
+  questions:
+    - stem: "What fact about accidents is highlighted?"
+      choices:
+        - {t: "most riders involved had no helmet", why: "in 70 per cent of cases the rider was not wearing a helmet"}
+        - {t: "most happen in the city centre", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "most involve trucks", why: "ส่วนใหญ่เป็นรถจักรยานยนต์"}
+        - {t: "most victims are over 50", why: "กลุ่มหลักอายุ 15–29"}
+    - stem: "Why is better lighting recommended?"
+      choices:
+        - {t: "drivers can't see well at night on rural roads", why: "poor visibility hampers drivers at night"}
+        - {t: "it reduces crime", why: "ในบทไม่ได้พูดถึงอาชญากรรม"}
+        - {t: "it is cheaper than fines", why: "ในบทไม่ได้เปรียบเทียบราคา"}
+        - {t: "street lights make villages look more modern", why: "ในบทไม่ได้พูดถึง"}
+    - stem: "What risk does the report mention about fines?"
+      choices:
+        - {t: "riders may avoid checkpoints", why: "encourage riders to circumvent checkpoints by using smaller roads"}
+        - {t: "fines are too expensive", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "police may refuse to collect them", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "helmets will become more expensive", why: "ในบทไม่ได้พูดถึง (helmets will become more expensive)"}
+  status: approved
+- id: cefr-c1-w08-059
+  kind: listen
+  skill: li
+  topic: expert-interview
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Planting trees along the river won't stop floods altogether, but it will certainly mitigate the damage."}
+  questions:
+    - stem: "What does the woman say tree planting will do?"
+      choices:
+        - {t: "reduce the damage", why: "it will certainly mitigate the damage"}
+        - {t: "stop floods completely", why: "เธอบอกว่าไม่หยุดทั้งหมด"}
+        - {t: "make floods worse", why: "ความหมายกลับกัน"}
+        - {t: "have no effect", why: "เธอบอกว่าช่วยลดความเสียหาย"}
+  status: approved
+- id: cefr-c1-w08-060
+  kind: listen
+  skill: li
+  topic: reduce-obstruct
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "The new road was meant to expedite deliveries, but the constant roadworks have impeded progress."}
+  questions:
+    - stem: "What has happened?"
+      choices:
+        - {t: "progress has slowed", why: "the constant roadworks have impeded progress"}
+        - {t: "deliveries are faster", why: "ความหมายกลับกัน"}
+        - {t: "the road is finished", why: "ยังมีงานก่อสร้าง"}
+        - {t: "deliveries have stopped", why: "ช้าลง ไม่ได้หยุด"}
+  status: approved

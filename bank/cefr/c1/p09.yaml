@@ -1,0 +1,277 @@
+# คอร์ส c1 · ข้อสำรองชุดย่อยวันที่ 6 · สัปดาห์ 9 · 20 คะแนน (gm 9 · vo 6 · rd 3 · li 2) · pool: true
+# ไม่อยู่ในเซสชันวันที่ 1–5 · ระบบเลือกไปใช้ในชุดย่อยจับเวลา · เขียน 24 พ.ย. 2569 · บอส: "ทำข้อสำรองชุดย่อยตามแนะนำได้เลย"
+- id: cefr-c1-w09-043
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  pool: true
+  stem: "Which reply is the most appropriate in a formal complaint letter?"
+  choices:
+    - {t: "I would be grateful if you could look into this matter.", why: "ทางการและสุภาพ ++I would be grateful if...++"}
+    - {t: "Sort this out now, please.", why: "ห้วนเกินไปสำหรับจดหมายทางการ"}
+    - {t: "Can you fix it or what?", why: "เป็นกันเองและไม่สุภาพ"}
+    - {t: "Hope you'll do something, cheers.", why: "เป็นกันเองเกินไป"}
+  explain: "จดหมายทางการ ==I would be grateful if you could...=="
+  status: approved
+- id: cefr-c1-w09-044
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 2
+  pool: true
+  stem: "\"I'm afraid that won't be possible.\" The tone of this sentence is ____."
+  choices:
+    - {t: "politely firm", why: "ปฏิเสธชัดแต่สุภาพ ++I'm afraid...++"}
+    - {t: "very angry", why: "ไม่มีคำแสดงความโกรธ"}
+    - {t: "uncertain", why: "ไม่ได้ลังเล ปฏิเสธชัด"}
+    - {t: "friendly and casual", why: "ไม่ใช่น้ำเสียงเป็นกันเอง"}
+  explain: "==I'm afraid...== = ปฏิเสธอย่างสุภาพแต่หนักแน่น"
+  status: approved
+- id: cefr-c1-w09-045
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 3
+  pool: true
+  stem: "Which sentence sounds the least direct?"
+  choices:
+    - {t: "I was wondering whether we might discuss the schedule.", why: "อ้อมและสุภาพที่สุด ++I was wondering whether...++"}
+    - {t: "We need to discuss the schedule.", why: "ตรงไปตรงมา จึงใช้ไม่ได้"}
+    - {t: "Let's talk about the schedule now.", why: "ตรงและเร่ง จึงใช้ไม่ได้"}
+    - {t: "Discuss the schedule with me.", why: "เป็นคำสั่ง จึงใช้ไม่ได้"}
+  explain: "ยิ่งอ้อมยิ่งสุภาพ ==I was wondering whether we might...=="
+  status: approved
+- id: cefr-c1-w09-046
+  kind: mcq
+  skill: gm
+  topic: tone-register
+  level: 3
+  pool: true
+  stem: "\"With all due respect, your figures seem to be out of date.\" The speaker is ____."
+  choices:
+    - {t: "disagreeing politely", why: "แย้งอย่างสุภาพ ++With all due respect++"}
+    - {t: "agreeing completely", why: "ความหมายกลับกัน"}
+    - {t: "apologising", why: "ไม่ได้ขอโทษ จึงใช้ไม่ได้"}
+    - {t: "giving praise", why: "ไม่ได้ชม จึงใช้ไม่ได้"}
+  explain: "==With all due respect== = (แย้ง) ด้วยความเคารพ"
+  status: approved
+- id: cefr-c1-w09-047
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 2
+  pool: true
+  stem: "I'd sooner you ____ my car without asking me first."
+  choices:
+    - {t: "didn't borrow", why: "อยากให้คนอื่นไม่ทำ ++I'd sooner + อดีต++"}
+    - {t: "don't borrow", why: "หลัง I'd sooner + คน ใช้อดีต"}
+    - {t: "won't borrow", why: "ไม่ใช้ will หลังสำนวนนี้"}
+    - {t: "not borrow", why: "ขาดกริยาช่วย จึงใช้ไม่ได้"}
+  explain: "==I'd sooner / I'd rather + คน + อดีต=="
+  status: approved
+- id: cefr-c1-w09-048
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  pool: true
+  stem: "If only I ____ to my mother's advice when I was younger!"
+  choices:
+    - {t: "had listened", why: "เสียใจเรื่องอดีต ++If only + had + V3++"}
+    - {t: "listened", why: "ต้องเป็นอดีตสมบูรณ์เมื่อพูดถึงอดีต"}
+    - {t: "would listen", why: "ไม่ใช้ would กับการกระทำของตัวเองในอดีต"}
+    - {t: "have listened", why: "ไม่ใช่รูปหลัง if only"}
+  explain: "==If only + had + V3== = ถ้าเพียงแต่...(อดีต)"
+  status: approved
+- id: cefr-c1-w09-049
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  pool: true
+  stem: "He talks as though he ____ the whole project by himself, but we all helped."
+  choices:
+    - {t: "had done", why: "ทำเหมือนกับว่า (ไม่จริง อดีต) ++as though + had + V3++"}
+    - {t: "has done", why: "ไม่ใช่รูปของสิ่งที่ไม่จริง"}
+    - {t: "does", why: "ต้องถอยกาลเมื่อไม่จริง"}
+    - {t: "would do", why: "ความหมายไม่ตรง จึงใช้ไม่ได้"}
+  explain: "==as if / as though + had + V3== = ราวกับว่าได้..."
+  status: approved
+- id: cefr-c1-w09-050
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  pool: true
+  stem: "Suppose the plane ____ on time; would we have made the connection?"
+  choices:
+    - {t: "had landed", why: "สมมติอดีต ++suppose + had + V3++"}
+    - {t: "landed", why: "ผลเป็น would have จึงต้องใช้ had + V3"}
+    - {t: "lands", why: "ไม่ใช่รูปสมมติ จึงใช้ไม่ได้"}
+    - {t: "would land", why: "หลัง suppose ไม่ใช้ would"}
+  explain: "==Suppose / Supposing + had + V3==, would have + V3?"
+  status: approved
+- id: cefr-c1-w09-051
+  kind: mcq
+  skill: gm
+  topic: unreal-past-structures
+  level: 3
+  pool: true
+  stem: "It's about time the council ____ the broken streetlights."
+  choices:
+    - {t: "repaired", why: "ถึงเวลาแล้ว ++It's about time + อดีต++"}
+    - {t: "repairs", why: "หลังสำนวนนี้ใช้อดีต"}
+    - {t: "will repair", why: "ไม่ใช้ will หลังสำนวนนี้"}
+    - {t: "has repaired", why: "ไม่ใช่รูปของสำนวนนี้"}
+  explain: "==It's (about/high) time + อดีต== = ถึงเวลาแล้วที่ควร"
+  status: approved
+- id: cefr-c1-w09-052
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  pool: true
+  stem: "He was ____ about the mistake and explained exactly what had gone wrong."
+  choices:
+    - {t: "candid", why: "ตรงไปตรงมา = ++candid++"}
+    - {t: "complacent", why: "complacent คือพอใจจนประมาท"}
+    - {t: "condescending", why: "condescending คือดูถูก"}
+    - {t: "cynical", why: "cynical คือมองโลกในแง่ร้าย"}
+  explain: "candid = ==เปิดเผยตรงไปตรงมา=="
+  status: approved
+- id: cefr-c1-w09-053
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 2
+  pool: true
+  stem: "After ten years at the top, the company became ____ and stopped improving its products."
+  choices:
+    - {t: "complacent", why: "พอใจจนประมาท = ++complacent++"}
+    - {t: "meticulous", why: "meticulous คือพิถีพิถัน"}
+    - {t: "candid", why: "candid คือตรงไปตรงมา"}
+    - {t: "astute", why: "astute คือฉลาดหลักแหลม"}
+  explain: "complacent = ==ชะล่าใจ พอใจจนไม่พัฒนา=="
+  status: approved
+- id: cefr-c1-w09-054
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 3
+  pool: true
+  stem: "She was ____ that she would not sign the contract until it was changed."
+  choices:
+    - {t: "adamant", why: "แน่วแน่ไม่ยอม = ++adamant that++"}
+    - {t: "indifferent", why: "indifferent คือไม่สนใจ"}
+    - {t: "pragmatic", why: "pragmatic คือมองตามความเป็นจริง"}
+    - {t: "scrupulous", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "adamant = ==ยืนกรานหนักแน่น=="
+  status: approved
+- id: cefr-c1-w09-055
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 3
+  pool: true
+  stem: "The editor is ____ about checking facts; not a single error gets past her."
+  choices:
+    - {t: "meticulous", why: "ละเอียดถี่ถ้วน = ++meticulous++"}
+    - {t: "complacent", why: "ความหมายกลับกัน"}
+    - {t: "cynical", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+    - {t: "indifferent", why: "ความหมายกลับกัน (indifferent)"}
+  explain: "meticulous = ==พิถีพิถันทุกรายละเอียด=="
+  status: approved
+- id: cefr-c1-w09-056
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 3
+  pool: true
+  stem: "Rather than waiting for the perfect solution, the team took a ____ approach."
+  choices:
+    - {t: "pragmatic", why: "มองตามความเป็นจริง = ++pragmatic++"}
+    - {t: "dogmatic", why: "dogmatic คือยึดติดหัวชนฝา"}
+    - {t: "condescending", why: "condescending คือดูถูก"}
+    - {t: "adamant", why: "ไม่ตรงความหมาย จึงใช้ไม่ได้"}
+  explain: "pragmatic = ==เน้นทำได้จริง=="
+  status: approved
+- id: cefr-c1-w09-057
+  kind: mcq
+  skill: vo
+  topic: attitude-character
+  level: 3
+  pool: true
+  stem: "I hate the way he speaks to new staff, as if they were children. He's so ____."
+  choices:
+    - {t: "condescending", why: "วางท่าดูถูก = ++condescending++"}
+    - {t: "candid", why: "candid คือตรงไปตรงมา"}
+    - {t: "diligent", why: "diligent คือขยัน"}
+    - {t: "astute", why: "astute คือฉลาดหลักแหลม"}
+  explain: "condescending = ==ทำตัวเหนือกว่า ดูถูก=="
+  status: approved
+- id: cefr-c1-w09-058
+  kind: read
+  skill: rd
+  topic: opinion-column
+  level: 2
+  pool: true
+  title: "Column: Stop Telling Me to \"Just Relax\""
+  passage: |
+    Every January, I am told that the secret to a better life is to relax more. Magazines suggest yoga, candles and "digital detox" weekends. All very nice, I'm sure, if you have the time and money.
+
+    But for many working parents I know, the problem isn't that we don't know how to relax. It's that we have no time to do it. Telling an exhausted nurse on a double shift to "practise mindfulness" is, frankly, a little condescending.
+
+    What would genuinely help? Shorter commutes, affordable childcare and employers who don't send emails at midnight. I am not cynical about wellbeing; I simply think it is about time we stopped treating a social problem as a personal failing.
+  questions:
+    - stem: "What is the writer's attitude to typical relaxation advice?"
+      choices:
+        - {t: "it is unrealistic for many people", why: "if you have the time and money"}
+        - {t: "it is very useful for everyone", why: "ผู้เขียนไม่เห็นด้วย"}
+        - {t: "it is too expensive to print", why: "ในบทไม่ได้พูดถึง"}
+        - {t: "it should be compulsory", why: "ในบทไม่ได้พูดถึง (it should be compulsory)"}
+    - stem: "Why does the writer mention the nurse?"
+      choices:
+        - {t: "to show that the advice ignores real pressures", why: "Telling an exhausted nurse ... is ... condescending"}
+        - {t: "to praise nurses' mindfulness", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "to suggest nurses need yoga", why: "ความหมายกลับกัน"}
+        - {t: "to complain about how hospitals treat their staff", why: "ในบทไม่ได้พูดถึงโรงพยาบาล"}
+    - stem: "What does the writer think the real problem is?"
+      choices:
+        - {t: "social conditions", why: "stopped treating a social problem as a personal failing"}
+        - {t: "people's laziness", why: "ในบทไม่ได้พูดเช่นนั้น"}
+        - {t: "a lack of candles", why: "เป็นการประชด จึงใช้ไม่ได้"}
+        - {t: "too much yoga", why: "ในบทไม่ได้พูดเช่นนั้น (too much yoga)"}
+  status: approved
+- id: cefr-c1-w09-059
+  kind: listen
+  skill: li
+  topic: implied-meaning
+  level: 2
+  pool: true
+  script:
+    - {who: Woman, en: "Oh, wonderful. Another meeting about reducing the number of meetings."}
+  questions:
+    - stem: "How does the woman feel?"
+      choices:
+        - {t: "irritated", why: "เป็นการประชด ไม่ได้ดีใจจริง"}
+        - {t: "delighted", why: "คำว่า wonderful เป็นการประชด"}
+        - {t: "confused", why: "ไม่ได้แสดงความสับสน"}
+        - {t: "grateful", why: "ไม่ได้ขอบคุณ จึงใช้ไม่ได้"}
+  status: approved
+- id: cefr-c1-w09-060
+  kind: listen
+  skill: li
+  topic: implied-meaning
+  level: 2
+  pool: true
+  script:
+    - {who: Man, en: "Well, the presentation was certainly... long."}
+  questions:
+    - stem: "What does the man suggest about the presentation?"
+      choices:
+        - {t: "it wasn't very good", why: "เว้นจังหวะแล้วพูดแค่ long = ไม่ค่อยดี"}
+        - {t: "it was excellent", why: "ไม่ได้ชม จึงใช้ไม่ได้"}
+        - {t: "it was too short", why: "ความหมายกลับกัน"}
+        - {t: "it was given in English", why: "ในบทไม่ได้พูดถึงภาษา"}
+  status: approved
