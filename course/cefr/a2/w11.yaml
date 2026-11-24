@@ -1,0 +1,169 @@
+# คอร์ส a2 · สัปดาห์ 11 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 11
+phase: 3
+theme_th: กฎและคำแนะนำ
+focus_th: should/shouldn't ให้คำแนะนำ · must/mustn't · have to/don't have to · ศัพท์กฎ นิสัย และความปลอดภัย
+can_do_th:
+  - บอกกฎและข้อห้ามง่าย ๆ ได้
+  - ให้คำแนะนำสั้น ๆ ได้
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ควร ไม่ควร
+    lesson:
+      rule_th: "ให้คำแนะนำใช้ ==should / shouldn't + กริยารูปเดิม== ++ไม่เติม s ไม่มี to++"
+      examples:
+        - {en: "You <k>should</k> see a doctor.", th: "คุณควรไปหาหมอ"}
+        - {en: "You <k>shouldn't</k> work so late.", th: "==คุณไม่ควรทำงานดึกขนาดนี้=="}
+        - {en: "<k>Should</k> I call him?", th: "ฉันควรโทรหาเขาไหม"}
+        - {en: "I think you <k>should</k> rest.", th: "ฉันคิดว่าคุณควรพัก"}
+      signals:
+        - {label_th: "รูปที่ใช้", words: ["should + กริยารูปเดิม", "shouldn't = ไม่ควร", "Should I...? = ขอคำแนะนำ", "I think you should... = นุ่มกว่า"]}
+      thai_trap:
+        intro_th: "คนไทยใส่ to หลัง should ตามคำว่า \"ควรจะ\" เลยได้ ~~should to~~"
+        wrong: ["You should to rest.", "She shoulds go home."]
+        right: ["You should rest.", "She should go home."]
+      notes:
+        - {kind: pin, th: "should ==ไม่ผัน== ใช้เหมือนกันทุกประธาน"}
+        - {kind: tip, th: "ขึ้นต้นด้วย I think ฟังสุภาพกว่าสั่งตรง ๆ"}
+    check: [cefr-a2-w11-001, cefr-a2-w11-002]
+    practice: [cefr-a2-w11-003, cefr-a2-w11-004, cefr-a2-w11-005, cefr-a2-w11-006, cefr-a2-w11-007, cefr-a2-w11-008, cefr-a2-w11-009, cefr-a2-w11-010, cefr-a2-w11-011, cefr-a2-w11-012]
+    use:
+      prompt_th: เขียน 2 ประโยคให้คำแนะนำเพื่อนที่นอนไม่หลับ
+      frame: "You should ____. You shouldn't ____."
+      model: "You should turn off your phone at ten. You shouldn't drink coffee after lunch."
+    classroom: {en: "What should I do?", th: "ฉันควรทำอย่างไรดี"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์กฎ นิสัย และความปลอดภัย 12 คำ
+    lesson:
+      rule_th: "advice (คำแนะนำ) ==นับไม่ได้ ไม่เติม s== ++นับได้ใช้ a piece of advice++"
+      examples:
+        - {en: "Be <k>careful</k>!", th: "ระวังนะ"}
+        - {en: "Can you give me some <k>advice</k>?", th: "==ช่วยแนะนำหน่อยได้ไหม=="}
+        - {en: "It's a bad <k>habit</k>.", th: "เป็นนิสัยที่ไม่ดี"}
+      words:
+        - {w: rule, pos: n., th: กฎ, ex: "Follow the rules."}
+        - {w: uniform, pos: n., th: เครื่องแบบ, ex: "Do you wear a uniform?"}
+        - {w: careful, pos: adj., th: ระวัง รอบคอบ, ex: "Be careful on the stairs."}
+        - {w: polite, pos: adj., th: สุภาพ, ex: "She is always polite."}
+        - {w: friendly, pos: adj., th: เป็นมิตร, ex: "The staff are friendly."}
+        - {w: dangerous, pos: adj., th: อันตราย, ex: "This road is dangerous."}
+        - {w: safe, pos: adj./n., th: ปลอดภัย ตู้เซฟ, ex: "Is it safe to swim here?"}
+        - {w: hurry, pos: v., th: รีบ, ex: "Hurry up!"}
+        - {w: share, pos: v., th: แบ่ง ใช้ร่วมกัน, ex: "Let's share a taxi."}
+        - {w: advice, pos: n., th: คำแนะนำ, ex: "Thanks for the advice."}
+        - {w: habit, pos: n., th: นิสัย, ex: "Smoking is a bad habit."}
+        - {w: healthy, pos: adj., th: สุขภาพดี, ex: "Eat healthy food."}
+      thai_trap:
+        intro_th: "คนไทยเขียน ~~advices~~ เพราะในภาษาไทยคำแนะนำนับเป็นข้อ ๆ ได้"
+        wrong: ["He gave me many advices."]
+        right: ["He gave me a lot of advice."]
+      notes:
+        - {kind: pin, th: "advice (น.) ออกเสียง แอด-ไว-ซ · ==advise (ก.)== แอด-ไว-ซ (เสียง z)"}
+        - {kind: use, th: "ชวนแบ่งค่าใช้จ่าย Let's share the bill."}
+    check: [cefr-a2-w11-013, cefr-a2-w11-014]
+    practice: [cefr-a2-w11-015, cefr-a2-w11-016, cefr-a2-w11-017, cefr-a2-w11-018, cefr-a2-w11-019, cefr-a2-w11-020, cefr-a2-w11-021, cefr-a2-w11-022, cefr-a2-w11-023, cefr-a2-w11-024]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกนิสัยดีและนิสัยไม่ดีของคุณ
+      frame: "A good habit of mine is ____. A bad habit is ____."
+      model: "A good habit of mine is walking after dinner. A bad habit is eating too much sugar."
+    classroom: {en: "Thanks for the advice.", th: "ขอบคุณสำหรับคำแนะนำ"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: ต้อง และห้าม
+    lesson:
+      rule_th: "ต้องทำใช้ must / have to ห้ามใช้ ==mustn't== ++ไม่จำเป็นใช้ don't have to++ (ไม่ใช่ห้าม)"
+      examples:
+        - {en: "You <k>must</k> show your ID.", th: "คุณต้องแสดงบัตร"}
+        - {en: "You <k>mustn't</k> smoke here.", th: "==ห้ามสูบบุหรี่ที่นี่=="}
+        - {en: "I <k>have to</k> work on Saturday.", th: "ฉันต้องทำงานวันเสาร์"}
+        - {en: "You <k>don't have to</k> pay. It's free.", th: "ไม่ต้องจ่าย ฟรี"}
+      signals:
+        - {label_th: "ความหมายต่างกัน", words: ["must / have to = ต้อง", "mustn't = ห้าม", "don't have to = ไม่จำเป็น", "he/she has to"]}
+      thai_trap:
+        intro_th: "ภาษาไทยพูด \"ไม่ต้อง\" ได้ทั้งสองความหมาย คนไทยเลยใช้ ~~mustn't แทน don't have to~~"
+        wrong: ["It's free. You mustn't pay."]
+        right: ["It's free. You don't have to pay."]
+      notes:
+        - {kind: warn, th: "mustn't = ห้าม · ==don't have to = ไม่จำเป็น=="}
+        - {kind: tip, th: "must ใช้กับกฎบนป้าย have to ใช้เล่าสิ่งที่ต้องทำ"}
+    check: [cefr-a2-w11-025, cefr-a2-w11-026]
+    practice: [cefr-a2-w11-027, cefr-a2-w11-028, cefr-a2-w11-029, cefr-a2-w11-030, cefr-a2-w11-031, cefr-a2-w11-032, cefr-a2-w11-033, cefr-a2-w11-034]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกสิ่งที่คุณต้องทำ และสิ่งที่ไม่จำเป็นต้องทำในที่ทำงาน
+      frame: "At work, I have to ____, but I don't have to ____."
+      model: "At work, I have to start at eight, but I don't have to wear a uniform."
+    classroom: {en: "Do I have to sign here?", th: "ต้องเซ็นตรงนี้ไหม"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านกฎของห้องสมุด และฟังเจ้าหน้าที่อธิบายกฎ
+    lesson:
+      rule_th: "ป้ายกฎใช้ ==must · mustn't · don't have to== แยกให้ออกว่า ++อะไรต้อง อะไรห้าม++ อะไรไม่จำเป็น"
+      examples:
+        - {en: "You <k>must</k> show your library card.", th: "ต้องแสดงบัตรห้องสมุด"}
+        - {en: "You <k>mustn't</k> eat in the reading rooms.", th: "==ห้ามกินในห้องอ่านหนังสือ=="}
+        - {en: "You <k>don't have to</k> pay for the computers.", th: "ไม่ต้องจ่ายค่าคอมพิวเตอร์"}
+      thai_trap:
+        intro_th: "คำว่า but ในกฎมักบอก ~~ข้อยกเว้น~~ ที่คนอ่านข้าม"
+        wrong: ["mustn't eat or drink → ห้ามดื่มทุกอย่าง"]
+        right: ["mustn't eat or drink, but you can have water in a bottle"]
+      notes:
+        - {kind: tip, th: "เจอ ==but== ในกฎ ให้อ่านต่อเสมอ มักเป็นข้อยกเว้น"}
+        - {kind: use, th: "ฟังคำแนะนำ จับ should กับ don't"}
+    check: [cefr-a2-w11-036, cefr-a2-w11-037]
+    practice: [cefr-a2-w11-035, cefr-a2-w11-038, cefr-a2-w11-039, cefr-a2-w11-040, cefr-a2-w11-041]
+    use:
+      prompt_th: เขียนกฎ 2 ข้อสำหรับบ้านหรือห้องทำงานของคุณ
+      frame: "You must ____. You mustn't ____."
+      model: "You must take off your shoes. You mustn't eat on the sofa."
+    classroom: {en: "Is it OK to take photos here?", th: "ถ่ายรูปตรงนี้ได้ไหม"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 20
+    title_th: ห้องฝึกพูด อธิบายกฎ 3 ข้อของที่ที่คุณใช้บ่อย
+    lab:
+      mode: speak
+      prompt_th: พูดอธิบายกฎ 3 ข้อของสถานที่ที่คุณใช้บ่อย (ที่ทำงาน ยิม คอนโด สระว่ายน้ำ) ให้เพื่อนใหม่ฟัง และให้คำแนะนำ 1 ข้อ (30 วินาที)
+      frame:
+        - "At my ____, there are some rules."
+        - "You have to ____."
+        - "You mustn't ____."
+        - "You don't have to ____."
+        - "And I think you should ____."
+      model_pass: "At my condo, there are some rules. You have to show your key card. You mustn't swim after nine p.m. You don't have to book the gym. And I think you should say hello to the guards."
+      model_good: "At my condo, there are a few rules you should know. You have to show your key card every time you come in. You mustn't use the pool after nine p.m., because it's next to the bedrooms. You don't have to book the gym — just go when it's free. And I think you should be friendly to the security guards; they're really helpful."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - เลือกสถานที่และจดกฎ 3 ข้อจริง
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ have to / mustn't / don't have to อย่างละ 1 ครั้ง
+        - ไม่ใช้ mustn't ในความหมายไม่จำเป็น
+        - มีคำแนะนำด้วย should 1 ข้อ
+        - หลัง must should have to ใช้กริยารูปเดิม
+    practice: [cefr-a2-w11-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 11
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7

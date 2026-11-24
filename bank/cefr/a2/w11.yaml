@@ -1,0 +1,579 @@
+# คอร์ส a2 · สัปดาห์ 11 · กฎและคำแนะนำ · ควร ไม่ควร · ต้อง และห้าม
+# ตัวเลือกแรก = ข้อถูก (build สลับลำดับให้) · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · คำอธิบายภาษาไทย
+# ---------- วันที่ 1 · should / shouldn't ----------
+- id: cefr-a2-w11-001
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 1
+  stem: You look really tired, Ploy. You ____ go to bed early tonight.
+  choices:
+    - {t: should, why: "ให้คำแนะนำ ใช้ ++should++"}
+    - {t: should to, why: "หลัง should ไม่มี to"}
+    - {t: shoulds, why: "should ไม่เติม s"}
+    - {t: are should, why: "ไม่ใช้ are กับ should"}
+  explain: "แนะนำ ==should + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w11-002
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 1
+  stem: You ____ drink so much coffee. It's bad for your sleep.
+  choices:
+    - {t: "shouldn't", why: "แนะนำว่าไม่ควร ++shouldn't++"}
+    - {t: "should", why: "ขัดกับ It's bad for your sleep"}
+    - {t: "don't should", why: "ไม่ใช้ don't กับ should"}
+    - {t: "shouldn't to", why: "หลัง shouldn't ไม่มี to"}
+  explain: "ไม่ควร ==shouldn't + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w11-003
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 1
+  stem: She should ____ a doctor about that cough.
+  choices:
+    - {t: see, why: "should + ++กริยารูปเดิม++"}
+    - {t: sees, why: "หลัง should ไม่เติม s"}
+    - {t: seeing, why: "หลัง should ใช้รูปเดิม"}
+    - {t: to see, why: "หลัง should ไม่มี to"}
+  explain: "should ==ไม่เติม s ไม่มี to== กริยาตามหลังเป็นรูปเดิม"
+  status: approved
+- id: cefr-a2-w11-004
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 1
+  stem: "\"____ I bring anything to the party?\" \"Maybe some fruit.\""
+  choices:
+    - {t: Should, why: "ขอคำแนะนำ ++Should I...?++"}
+    - {t: Do, why: "Do I bring ไม่ใช่การขอคำแนะนำ"}
+    - {t: Am, why: "ไม่ใช้ am กับ bring"}
+    - {t: Shall to, why: "ไม่มี to หลัง shall"}
+  explain: "ขอคำแนะนำ ==Should I...?=="
+  status: approved
+- id: cefr-a2-w11-005
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  stem: I think you ____ apply for that job. You're perfect for it.
+  choices:
+    - {t: should, why: "แนะนำให้ทำ ++I think you should++"}
+    - {t: shouldn't, why: "ขัดกับ You're perfect for it"}
+    - {t: should not to, why: "ผิดรูปและความหมายกลับ"}
+    - {t: are, why: "ขาดกริยา -ing จึงใช้ไม่ได้"}
+  explain: "แนะนำแบบนุ่ม ==I think you should...=="
+  status: approved
+- id: cefr-a2-w11-006
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  stem: We ____ leave now, or we'll miss the train.
+  choices:
+    - {t: should, why: "ควรออกเดี๋ยวนี้ ++should++"}
+    - {t: shouldn't, why: "ขัดกับ or we'll miss the train"}
+    - {t: should to, why: "หลัง should ไม่มี to"}
+    - {t: shoulds, why: "should ไม่เติม s"}
+  explain: "should + or ... = ==ควรทำ ไม่งั้นจะ...=="
+  status: approved
+- id: cefr-a2-w11-007
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  stem: "\"What should I wear to the interview?\" \"You ____ wear a shirt and tie.\""
+  choices:
+    - {t: should, why: "ตอบคำแนะนำ ++You should...++"}
+    - {t: should be, why: "should be wear ผิดรูป"}
+    - {t: shouldn't, why: "ความหมายกลับ ไม่ใช่คำแนะนำที่เหมาะ"}
+    - {t: do, why: "do ไม่ใช่คำแนะนำ"}
+  explain: "ถาม What should I...? ตอบ ==You should...=="
+  status: approved
+- id: cefr-a2-w11-008
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  stem: Children ____ watch TV for too long. It's not good for their eyes.
+  choices:
+    - {t: "shouldn't", why: "ไม่ควร ++shouldn't++"}
+    - {t: "should", why: "ขัดกับ It's not good"}
+    - {t: "doesn't should", why: "ไม่ใช้ doesn't กับ should"}
+    - {t: "aren't should", why: "ไม่ใช้ aren't กับ should"}
+  explain: "ไม่ควร ==shouldn't== ใช้ได้กับทุกประธาน"
+  status: approved
+- id: cefr-a2-w11-009
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  stem: "Your friend has a headache. Which is the best advice?"
+  choices:
+    - {t: You should drink some water and rest., why: "คำแนะนำที่สุภาพและเหมาะ ++should++"}
+    - {t: You should to drink some water and rest., why: "หลัง should ไม่มี to"}
+    - {t: You should drinking some water and rest., why: "หลัง should ใช้รูปเดิม"}
+    - {t: You shoulds drink some water and rest., why: "should ไม่เติม s"}
+  explain: "should ==+ กริยารูปเดิม== ถูกทั้งประโยค"
+  status: approved
+- id: cefr-a2-w11-010
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 2
+  stem: "\"Should we take a taxi?\" \"No, we ____. The BTS is faster.\""
+  choices:
+    - {t: "shouldn't", why: "ตอบสั้นปฏิเสธ ++we shouldn't++"}
+    - {t: "don't", why: "ถามด้วย should ตอบด้วย should"}
+    - {t: "aren't", why: "ไม่ใช้ aren't ตอบคำถาม should"}
+    - {t: "not should", why: "ลำดับผิด จึงใช้ไม่ได้"}
+  explain: "ตอบสั้น ==Yes, we should. / No, we shouldn't.=="
+  status: approved
+- id: cefr-a2-w11-011
+  kind: mcq
+  skill: gm
+  topic: should
+  level: 3
+  stem: "Which sentence giving advice to a new colleague is correct?"
+  choices:
+    - {t: You shouldn't park in the boss's space., why: "shouldn't + ++park++ ถูกต้อง"}
+    - {t: You don't should park in the boss's space., why: "ไม่ใช้ don't กับ should"}
+    - {t: You shouldn't to park in the boss's space., why: "หลัง shouldn't ไม่มี to"}
+    - {t: You shouldn't parking in the boss's space., why: "หลัง shouldn't ใช้รูปเดิม"}
+  explain: "ปฏิเสธ ==shouldn't + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w11-012
+  kind: type
+  skill: gm
+  topic: should
+  level: 2
+  stem: It's going to rain. You ____ take an umbrella. (ควร)
+  answer: should
+  accept: [should]
+  why: "ให้คำแนะนำ ใช้ should + กริยารูปเดิม"
+  status: approved
+# ---------- วันที่ 2 · คำศัพท์กฎและนิสัย ----------
+- id: cefr-a2-w11-013
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  stem: There's a ____ in our office — no food at your desk.
+  choices:
+    - {t: rule, why: "ข้อบังคับของที่ทำงาน = ++rule++"}
+    - {t: habit, why: "habit คือนิสัยของคน"}
+    - {t: advice, why: "advice คือคำแนะนำ ไม่ใช่ข้อบังคับ"}
+    - {t: uniform, why: "uniform คือเครื่องแบบ"}
+  explain: "rule = ==กฎ ข้อบังคับ=="
+  status: approved
+- id: cefr-a2-w11-014
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  stem: Nurses and soldiers usually wear a ____ at work.
+  choices:
+    - {t: uniform, why: "ชุดเครื่องแบบ = ++uniform++"}
+    - {t: rule, why: "rule สวมไม่ได้ จึงใช้ไม่ได้"}
+    - {t: habit, why: "habit สวมไม่ได้"}
+    - {t: advice, why: "advice สวมไม่ได้"}
+  explain: "uniform = ==เครื่องแบบ=="
+  status: approved
+- id: cefr-a2-w11-015
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  stem: Be ____! The floor is wet.
+  choices:
+    - {t: careful, why: "ระวัง = ++Be careful++"}
+    - {t: polite, why: "พื้นเปียกไม่เกี่ยวกับสุภาพ"}
+    - {t: friendly, why: "พื้นเปียกไม่เกี่ยวกับเป็นมิตร"}
+    - {t: healthy, why: "ไม่เข้ากับบริบท"}
+  explain: "careful = ==ระวัง รอบคอบ=="
+  status: approved
+- id: cefr-a2-w11-016
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  stem: Please be ____ to customers. Always say please and thank you.
+  choices:
+    - {t: polite, why: "พูด please และ thank you = ++polite++"}
+    - {t: dangerous, why: "ขัดกับการบริการลูกค้า"}
+    - {t: careful, why: "careful ไม่ตรงกับพูดขอบคุณ"}
+    - {t: safe, why: "ไม่เข้ากับบริบท"}
+  explain: "polite = ==สุภาพ=="
+  status: approved
+- id: cefr-a2-w11-017
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 1
+  stem: Our new neighbours are very ____. They brought us some cake.
+  choices:
+    - {t: friendly, why: "เอาเค้กมาให้ = ++friendly++"}
+    - {t: dangerous, why: "ขัดกับการเอาเค้กมาให้"}
+    - {t: careful, why: "ไม่ตรงกับบริบท จึงใช้ไม่ได้"}
+    - {t: safe, why: "ไม่ใช้บรรยายนิสัยคนแบบนี้"}
+  explain: "friendly = ==เป็นมิตร=="
+  status: approved
+- id: cefr-a2-w11-018
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: Don't swim here. The water is very deep and ____.
+  choices:
+    - {t: dangerous, why: "ห้ามว่าย น้ำลึก = ++dangerous++"}
+    - {t: safe, why: "ขัดกับ Don't swim here"}
+    - {t: friendly, why: "ไม่ใช้กับน้ำ จึงใช้ไม่ได้"}
+    - {t: polite, why: "บทไม่ได้พูดว่า polite"}
+  explain: "dangerous = ==อันตราย== · ตรงข้าม safe"
+  status: approved
+- id: cefr-a2-w11-019
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: Keep your passport in the hotel ____. It's the safest place.
+  choices:
+    - {t: safe, why: "ตู้เซฟ (คำนาม) = ++safe++"}
+    - {t: rule, why: "เก็บของใน rule ไม่ได้"}
+    - {t: habit, why: "เก็บของใน habit ไม่ได้"}
+    - {t: uniform, why: "ไม่เข้ากับบริบท"}
+  explain: "safe = ==ปลอดภัย (คุณศัพท์) · ตู้เซฟ (คำนาม)=="
+  status: approved
+- id: cefr-a2-w11-020
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: "____ up! The film starts in five minutes."
+  choices:
+    - {t: Hurry, why: "รีบหน่อย = ++Hurry up++"}
+    - {t: Share, why: "share up ไม่ใช่วลีที่ใช้"}
+    - {t: Careful, why: "careful เป็นคุณศัพท์"}
+    - {t: Habit, why: "habit เป็นคำนาม"}
+  explain: "hurry (up) = ==รีบ=="
+  status: approved
+- id: cefr-a2-w11-021
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: The pizza is big. Let's ____ it — half for you and half for me.
+  choices:
+    - {t: share, why: "แบ่งกัน = ++share++"}
+    - {t: hurry, why: "ไม่เข้ากับพิซซ่า"}
+    - {t: rule, why: "rule ไม่ใช่กริยาในความหมายนี้"}
+    - {t: habit, why: "habit เป็นคำนาม"}
+  explain: "share = ==แบ่ง ใช้ร่วมกัน=="
+  status: approved
+- id: cefr-a2-w11-022
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: Can you give me some ____? I don't know which phone to buy.
+  choices:
+    - {t: advice, why: "คำแนะนำ = ++advice++ (นับไม่ได้)"}
+    - {t: advices, why: "advice นับไม่ได้ ไม่เติม s"}
+    - {t: rule, why: "ไม่เข้ากับการเลือกโทรศัพท์"}
+    - {t: habit, why: "ไม่เข้ากับบริบท"}
+  explain: "advice = ==คำแนะนำ== (นับไม่ได้ · a piece of advice)"
+  status: approved
+- id: cefr-a2-w11-023
+  kind: mcq
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: Checking my phone in bed is a bad ____. I want to stop.
+  choices:
+    - {t: habit, why: "นิสัยที่ทำประจำ = ++habit++"}
+    - {t: rule, why: "rule คือกฎ ไม่ใช่นิสัย"}
+    - {t: advice, why: "advice คือคำแนะนำ"}
+    - {t: uniform, why: "ไม่เข้ากับบริบท"}
+  explain: "habit = ==นิสัย สิ่งที่ทำจนติด=="
+  status: approved
+- id: cefr-a2-w11-024
+  kind: type
+  skill: vo
+  topic: rules-habits
+  level: 2
+  stem: I eat a lot of vegetables and walk every day. I want to stay h____. (สุขภาพดี)
+  answer: healthy
+  accept: [healthy]
+  why: "healthy = สุขภาพดี มีประโยชน์ต่อสุขภาพ"
+  status: approved
+# ---------- วันที่ 3 · must / mustn't / have to / don't have to ----------
+- id: cefr-a2-w11-025
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 1
+  stem: You ____ smoke inside the hospital. It's against the law.
+  choices:
+    - {t: "mustn't", why: "ห้ามเด็ดขาด ++mustn't++"}
+    - {t: "don't have to", why: "don't have to แปลว่าไม่จำเป็น ไม่ใช่ห้าม"}
+    - {t: "must", why: "ขัดกับ against the law"}
+    - {t: "should", why: "should เป็นแค่คำแนะนำ ไม่ใช่ห้ามตามกฎหมาย"}
+  explain: "ห้าม ==mustn't== (กฎ กฎหมาย)"
+  status: approved
+- id: cefr-a2-w11-026
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 1
+  stem: I ____ get up at five tomorrow. My flight is at seven.
+  choices:
+    - {t: have to, why: "จำเป็นเพราะสถานการณ์ ++have to++"}
+    - {t: has to, why: "I ใช้ have จึงใช้ไม่ได้"}
+    - {t: mustn't, why: "ความหมายกลับ จึงใช้ไม่ได้"}
+    - {t: don't have to, why: "ขัดกับเที่ยวบินเจ็ดโมง"}
+  explain: "ต้องทำเพราะสถานการณ์ ==have to / has to=="
+  status: approved
+- id: cefr-a2-w11-027
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 1
+  stem: Tomorrow is a holiday, so I ____ go to work.
+  choices:
+    - {t: "don't have to", why: "ไม่จำเป็นต้อง ++don't have to++"}
+    - {t: "mustn't", why: "mustn't แปลว่าห้าม ไม่ใช่ไม่จำเป็น"}
+    - {t: "haven't to", why: "ไม่ใช่รูปมาตรฐาน"}
+    - {t: "doesn't have to", why: "I ใช้ don't จึงใช้ไม่ได้"}
+  explain: "ไม่จำเป็น ==don't have to== ≠ ห้าม mustn't"
+  status: approved
+- id: cefr-a2-w11-028
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  stem: My sister ____ wear a uniform at her new job.
+  choices:
+    - {t: has to, why: "she + ++has to++"}
+    - {t: have to, why: "she ใช้ has to จึงใช้ไม่ได้"}
+    - {t: must to, why: "หลัง must ไม่มี to"}
+    - {t: having to, why: "ขาดกริยาแท้ จึงใช้ไม่ได้"}
+  explain: "he / she ==has to== · I / you / they have to"
+  status: approved
+- id: cefr-a2-w11-029
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  stem: "SIGN: Visitors ____ show ID at the front desk."
+  choices:
+    - {t: must, why: "ป้ายกฎ ++must++"}
+    - {t: mustn't, why: "ความหมายกลับ จึงใช้ไม่ได้"}
+    - {t: must to, why: "หลัง must ไม่มี to"}
+    - {t: musts, why: "must ไม่เติม s จึงใช้ไม่ได้"}
+  explain: "กฎบนป้าย ==must + กริยารูปเดิม=="
+  status: approved
+- id: cefr-a2-w11-030
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  stem: "\"____ he have to work on Saturday?\" \"Yes, he does.\""
+  choices:
+    - {t: Does, why: "คำถาม have to ++Does he have to...?++"}
+    - {t: Has, why: "Has he have to ผิดรูป"}
+    - {t: Must, why: "Must he have to ซ้อนกัน"}
+    - {t: Is, why: "ไม่ใช้ is กับ have to"}
+  explain: "คำถาม ==Do/Does + ประธาน + have to==?"
+  status: approved
+- id: cefr-a2-w11-031
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 2
+  stem: The museum is free. You ____ pay to go in.
+  choices:
+    - {t: "don't have to", why: "ฟรี = ++ไม่จำเป็นต้องจ่าย++"}
+    - {t: "mustn't", why: "ห้ามจ่ายไม่สมเหตุสมผล"}
+    - {t: "have to", why: "ขัดกับ free จึงใช้ไม่ได้"}
+    - {t: "must", why: "บทไม่ได้พูดว่า must"}
+  explain: "ของฟรี ==don't have to pay=="
+  status: approved
+- id: cefr-a2-w11-032
+  kind: mcq
+  skill: gm
+  topic: must-have-to
+  level: 3
+  stem: "Which sentence about pool rules is correct?"
+  choices:
+    - {t: "You mustn't run, but you don't have to wear a cap.", why: "ห้ามวิ่ง · ++ไม่จำเป็นต้องใส่หมวก++"}
+    - {t: "You don't have to run, but you mustn't wear a cap.", why: "ความหมายสลับกัน"}
+    - {t: "You mustn't to run, but you don't have to wear a cap.", why: "หลัง mustn't ไม่มี to"}
+    - {t: "You mustn't run, but you don't must wear a cap.", why: "ไม่ใช้ don't กับ must"}
+  explain: "==mustn't = ห้าม== · don't have to = ไม่จำเป็น"
+  status: approved
+- id: cefr-a2-w11-033
+  kind: type
+  skill: gm
+  topic: must-have-to
+  level: 2
+  stem: You ____ use your phone during the exam. (ห้าม · must)
+  answer: "mustn't"
+  accept: ["mustn't", "must not"]
+  why: "ห้ามเด็ดขาด ใช้ mustn't + กริยารูปเดิม"
+  status: approved
+- id: cefr-a2-w11-034
+  kind: cloze
+  skill: gm
+  topic: must-have-to
+  level: 2
+  text: |
+    Gym rules: You (1) ____ bring a towel. You (2) ____ use the machines in street shoes. You (3) ____ book a class, but it's a good idea on weekends.
+  questions:
+    - choices:
+        - {t: must, why: "กฎที่ต้องทำ ใช้ must"}
+        - {t: mustn't, why: "ห้ามเอาผ้ามาไม่สมเหตุสมผล"}
+        - {t: must to, why: "หลัง must ไม่มี to"}
+        - {t: don't have, why: "ขาด to และความหมายกลับ"}
+    - choices:
+        - {t: mustn't, why: "ห้ามใส่รองเท้าข้างนอก ใช้ mustn't"}
+        - {t: don't have to, why: "ไม่จำเป็นไม่ใช่ห้าม"}
+        - {t: must, why: "ความหมายกลับ จึงใช้ไม่ได้"}
+        - {t: should to, why: "หลัง should ไม่มี to"}
+    - choices:
+        - {t: don't have to, why: "ไม่จำเป็นแต่ดี ใช้ don't have to"}
+        - {t: mustn't, why: "ห้ามจองขัดกับ it's a good idea"}
+        - {t: must, why: "ขัดกับ but it's a good idea"}
+        - {t: haven't to, why: "ไม่ใช่รูปมาตรฐาน"}
+  status: approved
+# ---------- วันที่ 4 · อ่านและฟัง ----------
+- id: cefr-a2-w11-035
+  kind: read
+  skill: rd
+  topic: public-rules
+  level: 1
+  title: "City Library: Please Read Before You Enter"
+  passage: |
+    Welcome to the City Library!
+
+    You must show your library card to borrow books. You can borrow six books for three weeks.
+    You mustn't eat or drink in the reading rooms, but you can have water in a bottle.
+    Please be quiet. You mustn't talk on the phone inside.
+    You don't have to pay for the computers, but you have to book them at the front desk.
+    Children under ten must come with an adult.
+
+    The café on the ground floor is open from 8 a.m. to 6 p.m.
+  questions:
+    - stem: What do you need to borrow books?
+      choices:
+        - {t: a library card, why: "You must show your library card"}
+        - {t: some money, why: "ไม่ได้พูดถึงค่ายืม"}
+        - {t: a booking, why: "การจองใช้กับคอมพิวเตอร์"}
+        - {t: an adult, why: "ผู้ใหญ่จำเป็นเฉพาะเด็กต่ำกว่า 10 ขวบ"}
+    - stem: What can you drink in the reading rooms?
+      choices:
+        - {t: water in a bottle, why: "you can have water in a bottle"}
+        - {t: coffee, why: "mustn't eat or drink ยกเว้นน้ำในขวด"}
+        - {t: anything you like, why: "มีข้อห้าม จึงใช้ไม่ได้"}
+        - {t: nothing at all, why: "ดื่มน้ำในขวดได้"}
+    - stem: Which sentence about the computers is true?
+      choices:
+        - {t: they are free but you must book them, why: "don't have to pay ... have to book"}
+        - {t: you have to pay for them, why: "don't have to pay = ไม่ต้องจ่าย"}
+        - {t: children can't use them, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: they are in the café, why: "บทไม่ได้พูดว่า they are in the café"}
+    - stem: Who must come with an adult?
+      choices:
+        - {t: children under ten, why: "Children under ten must come with an adult"}
+        - {t: all children, why: "เฉพาะต่ำกว่า 10 ขวบ"}
+        - {t: people without a card, why: "ไม่มีข้อมูลนี้ จึงใช้ไม่ได้"}
+        - {t: people using the café, why: "บทไม่ได้พูดว่า people using the café"}
+  status: approved
+- id: cefr-a2-w11-036
+  kind: listen
+  skill: li
+  topic: rules-advice
+  level: 1
+  script:
+    - {who: Guard, en: "Excuse me, sir. You can't park here. You have to use the car park behind the building."}
+  questions:
+    - stem: What must the man do?
+      choices:
+        - {t: park behind the building, why: "You have to use the car park behind the building"}
+        - {t: park in front of the door, why: "You can't park here"}
+        - {t: leave his car with the guard, why: "ไม่ได้พูดถึง จึงใช้ไม่ได้"}
+        - {t: pay a fine, why: "ไม่ได้พูดถึงค่าปรับ"}
+  status: approved
+- id: cefr-a2-w11-037
+  kind: listen
+  skill: li
+  topic: rules-advice
+  level: 1
+  script:
+    - {who: Woman, en: "I've got a terrible toothache."}
+    - {who: Man, en: "You should see a dentist today. Don't wait."}
+  questions:
+    - stem: What does the man advise?
+      choices:
+        - {t: to see a dentist today, why: "You should see a dentist today"}
+        - {t: to wait a few days, why: "Don't wait = อย่ารอ"}
+        - {t: to take some medicine, why: "ไม่ได้พูดถึงยา จึงใช้ไม่ได้"}
+        - {t: to go to bed, why: "ไม่ได้พูดถึงการนอน"}
+  status: approved
+- id: cefr-a2-w11-038
+  kind: listen
+  skill: li
+  topic: rules-advice
+  level: 2
+  script:
+    - {who: Staff, en: "On the tour, you have to wear long trousers in the temple, but you don't have to take off your shoes in the garden. And you mustn't touch the statues."}
+  questions:
+    - stem: What is NOT allowed on the tour?
+      choices:
+        - {t: touching the statues, why: "you mustn't touch the statues"}
+        - {t: wearing shoes in the garden, why: "don't have to take off = ใส่ได้"}
+        - {t: wearing long trousers, why: "ต้องใส่กางเกงขายาว"}
+        - {t: going into the temple, why: "เข้าวัดได้ถ้าแต่งตัวเหมาะสม"}
+  status: approved
+- id: cefr-a2-w11-039
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [You should, drink, more water, in hot weather]
+  sentence: You should drink more water in hot weather.
+  th: อากาศร้อนคุณควรดื่มน้ำมากขึ้น
+  why: "You should + กริยารูปเดิม + กรรม"
+  status: approved
+- id: cefr-a2-w11-040
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 1
+  chunks: [Visitors, mustn't take, photos, inside the museum]
+  sentence: Visitors mustn't take photos inside the museum.
+  th: ผู้เยี่ยมชมห้ามถ่ายรูปในพิพิธภัณฑ์
+  why: "ประธาน + mustn't + กริยารูปเดิม"
+  status: approved
+- id: cefr-a2-w11-041
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [We, don't have to, wear a uniform, on Fridays]
+  sentence: We don't have to wear a uniform on Fridays.
+  th: วันศุกร์เราไม่ต้องใส่เครื่องแบบ
+  why: "don't have to + กริยารูปเดิม = ไม่จำเป็นต้อง"
+  status: approved
+# ---------- วันที่ 5 · เรียงประโยค (ประกอบห้องฝึกพูด) ----------
+- id: cefr-a2-w11-042
+  kind: order
+  skill: gm
+  topic: word-order
+  level: 2
+  chunks: [At my gym, you have to, bring a towel, and you mustn't shout]
+  sentence: At my gym you have to bring a towel and you mustn't shout.
+  th: ที่ยิมของฉัน คุณต้องเอาผ้าเช็ดตัวมา และห้ามตะโกน
+  why: "บอกกฎสองข้อ have to + mustn't เชื่อมด้วย and"
+  status: approved
