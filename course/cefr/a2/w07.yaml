@@ -1,0 +1,169 @@
+# คอร์ส a2 · สัปดาห์ 7 · เขียน 24 พ.ย. 2569 · บอสสั่ง "ลงได้เลย" · บริบทผู้ใหญ่ทั่วไป · คำอธิบายภาษาไทย
+course: cefr/a2
+week: 7
+phase: 2
+theme_th: เมื่อวานและสัปดาห์ที่แล้ว
+focus_th: was/were · there was/were · yesterday last ago · past simple กริยาปกติ -ed การสะกดและการออกเสียง · ศัพท์เที่ยวและอากาศ
+can_do_th:
+  - เล่าเหตุการณ์ง่าย ๆ ในอดีตได้
+  - บอกว่าเมื่อวานอยู่ที่ไหน อากาศเป็นอย่างไร
+status: approved
+sessions:
+  - day: 1
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: อดีตของ be
+    lesson:
+      rule_th: "อดีตของ am is are มีแค่ 2 คำ ==I he she it ใช้ was== · you we they ใช้ were ++there is กลายเป็น there was++"
+      examples:
+        - {en: "I <k>was</k> at home yesterday.", th: "เมื่อวานฉันอยู่บ้าน"}
+        - {en: "They <k>were</k> tired.", th: "==พวกเขาเหนื่อย=="}
+        - {en: "<k>There was</k> a storm last night.", th: "เมื่อคืนมีพายุ"}
+        - {en: "two days <k>ago</k> · <k>last</k> week", th: "สองวันที่แล้ว · สัปดาห์ที่แล้ว"}
+      signals:
+        - {label_th: "คำบอกอดีต", words: ["yesterday", "last night / week / year", "two days ago", "in 2020"]}
+      thai_trap:
+        intro_th: "ภาษาไทยใช้ \"เมื่อวาน\" บอกอดีต คนไทยเลย ~~ใช้ is กับ yesterday~~"
+        wrong: ["Yesterday she is sick.", "Yesterday night I was home."]
+        right: ["Yesterday she was sick.", "Last night I was at home."]
+      notes:
+        - {kind: pin, th: "เมื่อคืน = ==last night== ไม่ใช่ yesterday night"}
+        - {kind: tip, th: "ago อยู่หลังช่วงเวลา three years ago"}
+    check: [cefr-a2-w07-001, cefr-a2-w07-002]
+    practice: [cefr-a2-w07-003, cefr-a2-w07-004, cefr-a2-w07-005, cefr-a2-w07-006, cefr-a2-w07-007, cefr-a2-w07-008, cefr-a2-w07-009, cefr-a2-w07-010, cefr-a2-w07-011, cefr-a2-w07-012]
+    use:
+      prompt_th: เขียน 2 ประโยคบอกว่าเมื่อวานคุณอยู่ที่ไหน และเป็นอย่างไร
+      frame: "Yesterday I was at ____. It was ____."
+      model: "Yesterday I was at a wedding in Ayutthaya. It was hot but fun."
+    classroom: {en: "Where were you last night?", th: "เมื่อคืนคุณอยู่ที่ไหน"}
+  - day: 2
+    type: lesson
+    skill: vo
+    minutes: 20
+    title_th: คำศัพท์เที่ยวและอากาศ 12 คำ
+    lesson:
+      rule_th: "กริยาเที่ยวหลายคำต้องมีคำบุพบท ==wait for · arrive in/at== ++ส่วน visit และ enjoy ตามด้วยกรรมเลย++"
+      examples:
+        - {en: "We <k>arrived in</k> Phuket at noon.", th: "เราถึงภูเก็ตตอนเที่ยง"}
+        - {en: "I <k>waited for</k> you for an hour.", th: "==ฉันรอคุณชั่วโมงหนึ่ง=="}
+        - {en: "Did you <k>enjoy</k> the <k>trip</k>?", th: "สนุกกับทริปไหม"}
+      words:
+        - {w: yesterday, pos: n./adv., th: เมื่อวาน, ex: "I was busy yesterday."}
+        - {w: visit, pos: v., th: ไปเยี่ยม ไปเที่ยว, ex: "We visited my aunt."}
+        - {w: arrive, pos: v., th: มาถึง ไปถึง, ex: "The train arrived late."}
+        - {w: finish, pos: v., th: จบ ทำเสร็จ, ex: "I finished work at five."}
+        - {w: wait, pos: v., th: รอ, ex: "Please wait for me."}
+        - {w: enjoy, pos: v., th: สนุกกับ ชอบ, ex: "I enjoyed the party."}
+        - {w: holiday, pos: n., th: วันหยุด, ex: "We're on holiday next week."}
+        - {w: trip, pos: n., th: การเดินทาง ทริป, ex: "How was your trip?"}
+        - {w: tired, pos: adj., th: เหนื่อย, ex: "I'm tired after work."}
+        - {w: weather, pos: n., th: สภาพอากาศ, ex: "The weather is nice today."}
+        - {w: rain, pos: n./v., th: ฝน ฝนตก, ex: "It rained all night."}
+        - {w: festival, pos: n., th: เทศกาล, ex: "Songkran is a water festival."}
+      thai_trap:
+        intro_th: "คนไทยพูด ~~arrive to~~ ตามคำว่า \"ไปถึง\""
+        wrong: ["We arrived to Bangkok at night."]
+        right: ["We arrived in Bangkok at night."]
+      notes:
+        - {kind: pin, th: "arrive ==in== เมือง · arrive at สนามบิน/โรงแรม"}
+        - {kind: use, th: "ถามหลังเที่ยว How was your trip? / Did you enjoy it?"}
+    check: [cefr-a2-w07-013, cefr-a2-w07-014]
+    practice: [cefr-a2-w07-015, cefr-a2-w07-016, cefr-a2-w07-017, cefr-a2-w07-018, cefr-a2-w07-019, cefr-a2-w07-020, cefr-a2-w07-021, cefr-a2-w07-022, cefr-a2-w07-023, cefr-a2-w07-024]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าทริปหรือวันหยุดครั้งล่าสุดของคุณ
+      frame: "Last ____, I visited ____. The weather was ____."
+      model: "Last month, I visited Pai with my friends. The weather was cool and sunny."
+    classroom: {en: "How was your holiday?", th: "วันหยุดเป็นอย่างไรบ้าง"}
+  - day: 3
+    type: lesson
+    skill: gm
+    minutes: 20
+    title_th: เล่าเรื่องที่จบแล้ว
+    lesson:
+      rule_th: "อดีตของกริยาปกติ ==เติม -ed ทุกประธาน ไม่ต้องเติม s== ++ระวังการสะกด study → studied++ · stop → stopped"
+      examples:
+        - {en: "I <k>visited</k> my parents.", th: "ฉันไปเยี่ยมพ่อแม่"}
+        - {en: "She <k>studied</k> English last year.", th: "==ปีที่แล้วเธอเรียนอังกฤษ=="}
+        - {en: "The bus <k>stopped</k> suddenly.", th: "รถเมล์หยุดกะทันหัน"}
+        - {en: "We <k>wanted</k> to go out.", th: "เราอยากออกไปข้างนอก"}
+      signals:
+        - {label_th: "ออกเสียง -ed", words: ["/t/ worked · watched", "/d/ played · lived", "/ɪd/ wanted · needed"]}
+      thai_trap:
+        intro_th: "คนไทยอ่าน -ed เป็น \"เอ็ด\" ทุกคำ ทั้งที่ ~~worked ไม่ได้อ่านว่า เวิร์ก-เอ็ด~~"
+        wrong: ["worked = เวิร์ก-เอ็ด", "played = เพลย์-เอ็ด"]
+        right: ["worked = เวิร์กท", "played = เพลย์ด"]
+      notes:
+        - {kind: pin, th: "อ่าน อิด เฉพาะหลังเสียง ==t / d== wanted needed"}
+        - {kind: tip, th: "อดีตไม่มี s แม้ประธานเป็น she She worked."}
+    check: [cefr-a2-w07-025, cefr-a2-w07-026]
+    practice: [cefr-a2-w07-027, cefr-a2-w07-028, cefr-a2-w07-029, cefr-a2-w07-030, cefr-a2-w07-031, cefr-a2-w07-032, cefr-a2-w07-033, cefr-a2-w07-034]
+    use:
+      prompt_th: เขียน 2 ประโยคเล่าสิ่งที่คุณทำเมื่อวาน ใช้กริยาเติม -ed
+      frame: "Yesterday I ____ and ____. In the evening I ____."
+      model: "Yesterday I cleaned the house and washed my car. In the evening I watched a film."
+    classroom: {en: "I worked late yesterday.", th: "เมื่อวานฉันทำงานดึก"}
+  - day: 4
+    type: lesson
+    skill: rd
+    minutes: 20
+    title_th: อ่านโปสการ์ดจากวันหยุด และฟังเรื่องสุดสัปดาห์
+    lesson:
+      rule_th: "โปสการ์ดเล่าเรื่องตามวัน ==หาชื่อวัน (on Friday, on Sunday) ก่อน== ++แล้วดูว่าวันนั้นทำอะไร++"
+      examples:
+        - {en: "We arrived <k>on Friday</k> afternoon.", th: "เราถึงวันศุกร์ตอนบ่าย"}
+        - {en: "<k>On Sunday</k> it rained.", th: "==วันอาทิตย์ฝนตก=="}
+        - {en: "I really <k>enjoyed</k> the trip.", th: "ฉันสนุกกับทริปมาก"}
+      thai_trap:
+        intro_th: "โปสการ์ดมีหลายวัน คนอ่านมัก ~~เอากิจกรรมวันหนึ่งไปตอบอีกวัน~~"
+        wrong: ["Sunday → stayed on the beach"]
+        right: ["Saturday → beach · Sunday → museum and cards"]
+      notes:
+        - {kind: tip, th: "วงชื่อวันในบท ==ก่อนอ่านคำถาม=="}
+        - {kind: use, th: "ฟังเรื่องอดีต จับกริยา -ed และคำว่า but"}
+    check: [cefr-a2-w07-036, cefr-a2-w07-037]
+    practice: [cefr-a2-w07-035, cefr-a2-w07-038, cefr-a2-w07-039, cefr-a2-w07-040, cefr-a2-w07-041]
+    use:
+      prompt_th: เขียน 2 ประโยคแบบโปสการ์ดถึงเพื่อน เล่าว่าวันแรกของทริปทำอะไร
+      frame: "Greetings from ____! We arrived on ____ and ____."
+      model: "Greetings from Hua Hin! We arrived on Saturday and walked on the beach."
+    classroom: {en: "Did you have a good weekend?", th: "สุดสัปดาห์เป็นไงบ้าง"}
+  - day: 5
+    type: lab
+    skill: sp
+    minutes: 20
+    title_th: ห้องฝึกพูด เล่าว่าเมื่อวานทำอะไร 30 วินาที
+    lab:
+      mode: speak
+      prompt_th: พูดเล่าว่าเมื่อวานคุณทำอะไรบ้าง 30 วินาที ตั้งแต่เช้าถึงเย็น บอกว่าอยู่ที่ไหน อากาศเป็นอย่างไร และรู้สึกอย่างไร
+      frame:
+        - "Yesterday was ____ (วัน)."
+        - "In the morning, I ____."
+        - "The weather was ____."
+        - "In the afternoon, I ____ and ____."
+        - "In the evening, I was ____ (รู้สึก)."
+      model_pass: "Yesterday was Sunday. In the morning, I cleaned my room. The weather was hot. In the afternoon, I visited my friend and we watched a film. In the evening, I was tired."
+      model_good: "Yesterday was Sunday, so I didn't go to work. In the morning, I cleaned my room and washed my clothes. The weather was very hot, so I stayed inside until three. In the afternoon, I visited my friend Joy and we watched a funny film at her place. In the evening, I was tired but happy."
+      steps_th:
+        - ฟังตัวอย่างระดับผ่านเกณฑ์ 1 รอบ
+        - จดสิ่งที่ทำเมื่อวาน 3–4 อย่าง
+        - อัดเสียงตัวเอง 1 รอบ (เสียงเก็บในเครื่องของคุณเท่านั้น)
+        - ฟังเสียงตัวเองเทียบกับตัวอย่าง แล้วติ๊กรายการตรวจ
+        - อัดอีก 1 รอบโดยไม่ดูโครง
+      checklist_th:
+        - ใช้ was / were ถูกกับประธาน
+        - กริยาทุกตัวเป็นรูปอดีต
+        - ออกเสียง -ed ไม่เป็น "เอ็ด" ทุกคำ
+        - เล่าเรียงตามเวลา เช้า บ่าย เย็น
+    practice: [cefr-a2-w07-042]
+  - day: 6
+    type: mock
+    skill: mix
+    minutes: 30
+    title_th: ชุดย่อยจับเวลา สัปดาห์ 7
+    mock:
+      items: 20
+      time_min: 15
+      blueprint: {gm: 9, vo: 6, rd: 3, li: 2}
+      pool: {course: cefr/a2, weeks: [1, 2, 3, 4, 5, 6, 7], exclude_practice_of_week: true}
+      note_th: ยังไม่มีข้อในคลังสำรองของสัปดาห์นี้ (ต้องมีอย่างน้อย 30 คะแนนที่ไม่อยู่ในเซสชันวันที่ 1–5) · งานของช่วงเขียนปริมาณ ดู docs/writing/cefr.md ข้อ 7
